@@ -1,0 +1,397 @@
+/* small-sized stylings */
+@media all and (max-width: 840px) { 
+
+body {
+padding: 0;
+margin: 0;
+}
+
+.container {
+width:95%;
+border: 0px;
+padding: 2.5%;
+margin: 0px;
+}
+
+.article_list, .article {
+margin: auto;
+padding: 0px;
+width: 100%;
+}
+
+.sidebar {
+display: none;
+}
+
+img, object {
+max-width: 100%;
+height: auto;
+margin: auto;
+}
+
+.article_callout {
+border: 1px solid;
+}
+
+}
+/* end small-sized media */
+
+/* Midsized stylings */
+@media all and (max-width: 1000px) and (min-width:841px) { 
+
+body {
+margin: .5em;
+}
+
+.container {
+border: 0px;
+padding: 2.5%;
+margin: 0px;
+border: 1px solid #777;
+}
+
+.article_list, .article {
+float: left;
+margin-right: 210px;
+padding: 0 1em 0 0;
+}
+
+img, object {
+max-width: 100%;
+height: auto;
+margin: auto;
+}
+
+.sidebar {
+position: absolute;
+float: right;
+top: 6em;
+right: 1em;
+width: 210px;
+margin-top: 0px;
+font-size: 1em;
+}
+}
+
+/* Full sized media */
+@media all and (min-width: 1001px) { 
+
+img, object {
+max-width: 100%;
+height: auto;
+margin: auto;
+}
+
+body {
+margin: .5em;
+}
+
+.coverbox {
+float: right;
+margin-left: 1em;
+margin-bottom: 1em;
+padding: 5px;
+width: 500px;
+max-width: 500px;
+text-align: left
+}
+
+.container {
+width:880px;
+border: 1px solid #777;
+margin-top: 1em;
+padding: 1em;
+}
+
+.article_list, .article {
+margin-top: 0px;
+float:left;
+width:640px;
+}
+
+.sidebar {
+float:right;
+width:210px;
+margin-top: 0px;
+}
+} /* end full-sized media query */
+
+
+html {
+overflow-x: hidden;
+}
+
+p, li, blockquote, td, th, ol  {
+/* font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
+/* font-family: Arial, Helvetica, sans-serif; */
+font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue, Fira Sans, sans-serif;
+font-size: 19px;
+line-height: 1.7em;
+letter-spacing:0;
+word-wrap:break-word;
+overflow-wrap: break-word;
+}
+
+hr {
+  border: 1px solid #777;
+}
+
+.article_list ul, .article_list_footer ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 1.5em; /* Indent the entire list item */
+  text-indent: -.5em; /* Pull the first line back slightly */
+}
+
+h1, h2, h3 {
+font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+body{
+background:#ccc;
+color: #111;
+-webkit-text-size-adjust: none;
+}
+
+.container {
+background:#fffffc;
+margin: auto;
+}
+
+blockquote {
+color: #444;
+font-style: italic;
+}
+
+.index_header h1, .return_link {
+font-family: Georgia, times, serif;
+font-style: italic;
+font-weight: normal;
+font-size: 2em;
+margin: 0;
+padding-top: 0em;
+}
+
+.site_description {
+font-family: Georgia, times, serif;
+padding: 0;
+margin-top: .5em;
+margin-bottom: 0;
+font-style: italic;
+font-size: 1.2em;
+}
+
+.return_link {
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+h1, legend {
+line-height: 1.5em;
+font-size: 2em;
+font-weight: normal;
+margin-top: 15px;
+}
+
+h2 {
+font-weight: normal;
+font-size: 1.6em;
+line-height:1.5em;
+}
+
+h3 {
+font-size: 1em;
+font-weight: bold;
+}
+
+a, #reload{
+color:#000;
+cursor:pointer
+}
+
+a:visited {
+color: #333;
+}
+
+.return_link a {
+color: #111;
+text-decoration: none;
+}
+
+.footer {
+clear:both;
+}
+
+table {
+border-collapse:collapse;
+margin: auto;
+}
+
+th, td {
+border: 1px #ccc solid;
+padding: 5px;
+margin: 0;
+text-align: left;
+}
+
+td.result {
+text-align: center;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+td.noborder {
+border: 0px;
+}
+
+button {
+	height:40px;
+	width:10em;
+	margin:auto;
+	font-size:1.2em;
+}
+
+td#button_cell {
+	margin:auto;
+	text-align:center;
+}
+
+table.survey_table {
+	text-align:left;
+	margin:0;
+}
+
+form input[type=text], form input[type=email] {
+  padding: 12px;
+  font-size: 17px;
+  border: 1px solid grey;
+  background: #eee;
+  width: 70%;
+  max-width: 15em;
+  margin-bottom: 10px;
+}
+
+form input[type=text] {
+margin-left: .5em;
+}
+
+
+form button {
+  background: #ddd;
+  color: #111;
+  border: 1px solid grey;
+  cursor: pointer;
+  width: 3.5em;
+  padding-top: 0;
+  height: 48px;
+}
+
+form button:hover {
+  background: #aaa;
+}
+
+form button, input[type=submit] {
+  border: 1px solid grey;
+  background: #ddd;
+  color: #111;
+  font-size: 19px;
+  height: 46px;
+  padding-top: 1px;
+  cursor: pointer;
+}
+
+form button {
+  width: 3.5em;
+}
+
+input[type=submit]:hover {
+  background: #aaa;
+}
+
+.newsletter_form {
+text-align: center;
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+body{
+background:#000;
+color: #eee;
+}
+
+.container {
+background:#111;
+}
+
+
+blockquote {
+color: #ddd;
+}
+
+a, #reload{
+color:#fff;
+}
+
+a:visited {
+color: #ccc;
+}
+
+.return_link a {
+color: #eee;
+}
+
+form input[type=text], form input[type=email] {
+  background: #444;
+  color: #eee;
+}
+
+
+form button {
+  background: #555;
+  color: white;
+}
+
+form button:hover {
+  background: #aaa;
+}
+
+form button, input[type=submit] {
+  background: #555;
+  color: white;
+}
+
+input[type=submit]:hover {
+  background: #aaa;
+}
+
+}
+
+/* styles for mailerlite form */
+.ml-button-horizontal button {
+width: auto;
+white-space: nowrap;
+padding: 10px 20px;
+}
+
+ml-form-embedBody {
+text-align: center
+}
+
+div.c2 {display: none}
+div.c1 {width: 100%;}
+/* end styles for mailerlite form */

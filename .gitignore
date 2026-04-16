@@ -1,0 +1,37 @@
+# Build artifacts
+tech/build/
+
+# Reports generati da script
+tech/reports/
+
+# Release artifacts (PDF + ZIP generati)
+releases/
+
+# Legacy (materiale originale .odt — troppo pesante, sola lettura)
+legacy/
+
+# Backup
+backup/
+
+# SRD clonato (repo esterno, non committare)
+tech/data/srd/
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+
+# File temporanei
+tmp-*.sh
+mdpdf.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / AI
+.claude/
+.envrc
