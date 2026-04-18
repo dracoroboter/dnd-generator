@@ -52,3 +52,14 @@ Il concept (Fase 0) viene scritto a mente o in chat, ma non ha un posto nel repo
 - [x] P4: script corretto — aggiunto `--modules N`
 - [x] H1: how-to aggiornato per riflettere tutte le correzioni
 - [x] H2: concept va nel PlanBook — aggiunta sezione `## Concept` al template
+
+
+---
+
+## Problemi emersi nella sessione 2026-04-18/19
+
+### P5 — check-adventure.py non conosce la nuova struttura personaggi/
+Lo script cerca `NPC_*.md` direttamente in `personaggi/`, ma ora i file sono in `personaggi/markdown/`. Va aggiornato per cercare in entrambe le posizioni (retrocompatibilità).
+
+### P6 — Corridoi nel renderer v2 hanno bordi che non arrivano ai muri
+I bordi laterali dei corridoi si estendono di `ext` pixel ma il fix è parziale (solo orizzontali). Serve un approccio più robusto — possibilmente spline o calcolo geometrico dei punti di intersezione corridoio/muro.

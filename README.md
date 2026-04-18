@@ -1,7 +1,7 @@
 # Dungeon & Dragon
 
 **Versione**: 0.2
-**Ultimo aggiornamento**: 2026-04-18
+**Ultimo aggiornamento**: 2026-04-19
 **Repository**: [github.com/dracoroboter/dnd-generator](https://github.com/dracoroboter/dnd-generator)
 
 Raccolta di avventure D&D 5e (2014) con toolchain di automazione dedicata.
@@ -71,6 +71,31 @@ template .rtl   →  .json (via rtl-to-json.py)  ↗
 **Specifiche:** `tech/rules/RTL-spec.md`, `tech/rules/DDL-spec.md`
 **Template stanze disponibili:** `bedroom`, `chapel` — `demonic_shrine`, `treasury` da creare
 
+### 4. Pipeline FightClub / Stat Block
+
+Converte schede NPC markdown in XML FightClub 5e e genera stat block in PDF/PNG.
+
+```
+NPC_*.md  →  md-to-fightclub.py  →  .xml (FightClub)
+NPC_*.md  →  md-to-statblock-pdf.js  →  .pdf / .png (stat block grafico)
+.xml      →  fightclub-to-md.py  →  NPC_*.md (import da FightClub/Game Master 5e)
+```
+
+**Script:** `tech/fightclub/md-to-fightclub.py`, `tech/fightclub/fightclub-to-md.py`, `tech/fightclub/md-to-statblock-pdf.js`
+**Documentazione:** `tech/fightclub/README.md`
+
+### 5. Renderer mappe v2 (dungeon-v2) ← *in sviluppo*
+
+Formato JSON compatto per descrivere mappe di interni (fogne, taverne, dungeon) e renderer SVG in stile "penna su carta". A differenza della pipeline v1 (generazione procedurale), il JSON v2 è scritto a mano.
+
+```
+mappa.json (v2)  →  json2-to-svg.py  →  .svg (oldschool)
+```
+
+**Script:** `tech/dungeon-v2/json2-to-svg.py`
+**Piano:** `tech/rules/PlanDungeonV2.md`
+**Documentazione:** `tech/dungeon-v2/README.md`
+
 ---
 
 ## Struttura del repository
@@ -84,7 +109,8 @@ dungeonandragon/
 ├── adventures/                  # avventure
 │   ├── AdventureTemplate/       # scaffold vuoto (usato da new-adventure.sh)
 │   ├── AvventuraDiProva/        # riferimento normalizzato
-│   └── LAnelloDelConte/         # saga puntata 1
+│   ├── LAnelloDelConte/         # saga puntata 1
+│   └── FuoriDaHellfire/         # continuazione Hellfire Club starter set
 │
 ├── legacy/                      # .odt originali — sola lettura
 │
@@ -94,6 +120,10 @@ dungeonandragon/
     ├── scripts/                 # tutti gli script (vedi indice sotto)
     ├── rules/                   # specifiche e piani (vedi indice sotto)
     ├── how-to/                  # guide procedurali passo-passo
+    ├── fightclub/               # tool export FightClub 5e (XML, stat block PDF/PNG)
+    ├── dungeon-v2/              # nuovo formato JSON mappe + renderer SVG (in sviluppo)
+    ├── data/
+    │   └── compendium/          # schema XSD + SRD 5.1 in formato FightClub XML
     ├── templates/               # template JSON per oggetti e stanze
     │   ├── objects/             # definizioni oggetto (bed, chest, altar…)
     │   ├── rooms/               # template stanze RTL (.rtl) e compilati (.json)
@@ -147,7 +177,24 @@ dungeonandragon/
 | `tech/how-to/HowToNewNPC.md` | Creare NPC: script `new-npc.py`, workflow AI, formato stat block, export FightClub/PDF |
 | `tech/how-to/HowToRelease.md` | Generare PDF + ZIP con `release.sh` e pubblicare |
 | `tech/how-to/HowToEncounterDifficulty.md` | Calcolare difficoltà incontri con `encounter-difficulty.py` |
+| `tech/how-to/HowToGitProfiles.md` | Separare profili git (account A / account B) sulla stessa macchina |
 | `tech/how-to/HowToClaudeCode.md` | Usare un AI coding agent in questo progetto: configurazione, separazione ruoli narrativa vs tecnica |
+
+### NPC e FightClub
+
+| File | Scopo |
+|------|-------|
+| `tech/rules/NPCFormat.md` | Specifica formato markdown per NPC/mostri: sezioni, naming, prefissi, pipeline |
+| `tech/fightclub/README.md` | Formato XML FightClub 5e: struttura tag, esempi, fonti, piano implementazione |
+| `tech/rules/GitWorkflow.md` | Convenzioni git: commit message, branch, push, credential helper |
+
+### Dungeon v2 (in sviluppo)
+
+| File | Scopo |
+|------|-------|
+| `tech/rules/PlanDungeonV2.md` | Piano formato JSON v2 per mappe generiche (fogne, taverne, dungeon) + nuovo renderer SVG |
+| `tech/dungeon-v2/README.md` | Documentazione dello script `json2-to-svg.py`: formato JSON, uso, opzioni, tipi di connessione |
+| `tech/dungeon-v2/ReverseEngineeringOldschool.md` | Analisi del renderer oldschool esistente: tecniche riusabili, differenze v1/v2 |
 
 ---
 
@@ -198,6 +245,20 @@ dungeonandragon/
 | `rtl-to-json.py` | Python | Compila file `.rtl` (RoomTemplateLang) in `.json` template stanza |
 | `template-apply.py` | Python | Motore di placement: applica un template JSON a una stanza specifica |
 | `ddl-to-enrichment.py` | Python | Compila file `.ddl` (DungeonDressLang) in `dungeon_enrichment.json` |
+
+### Renderer mappe v2
+
+| Script | Linguaggio | Scopo |
+|--------|-----------|-------|
+| `json2-to-svg.py` | Python | Renderer SVG oldschool per formato JSON v2 (mappe scritte a mano) |
+
+### FightClub / Stat Block
+
+| Script | Linguaggio | Scopo |
+|--------|-----------|-------|
+| `md-to-fightclub.py` | Python | Converte NPC markdown → XML FightClub 5e |
+| `fightclub-to-md.py` | Python | Converte XML FightClub → NPC markdown |
+| `md-to-statblock-pdf.js` | Node.js | Genera stat block PDF/PNG via Playwright + statblock5e |
 
 ### Script di test / debug
 
