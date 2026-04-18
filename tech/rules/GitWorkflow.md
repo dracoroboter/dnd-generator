@@ -83,6 +83,56 @@ git push origin main
 
 Non usare `--force` senza motivo.
 
+### Configurare SSH per evitare di inserire credenziali ogni volta
+
+Il remote attuale usa HTTPS, che chiede un Personal Access Token a ogni push. Per evitarlo, passare a SSH:
+
+```bash
+# 1. Verifica se hai già una chiave SSH
+ls ~/.ssh/id_*.pub
+
+# 2. Se non ce l'hai, generala
+ssh-keygen -t ed25519 -C "tua-email@esempio.com"
+# Premi Invio per accettare il percorso default e scegli una passphrase (o lascia vuota)
+
+# 3. Copia la chiave pubblica
+cat ~/.ssh/id_ed25519.pub
+# Copia l'output
+
+# 4. Aggiungi la chiave su GitHub
+#    → github.com → Settings → SSH and GPG keys → New SSH key → incolla
+
+# 5. Testa la connessione
+ssh -T git@github.com
+# Deve rispondere: "Hi dracoroboter! You've successfully authenticated..."
+
+# 6. Cambia il remote da HTTPS a SSH
+git remote set-url origin git@github.com:dracoroboter/dnd-generator.git
+
+# 7. Verifica
+git remote -v
+# Deve mostrare: git@github.com:dracoroboter/dnd-generator.git
+```
+
+Dopo questa configurazione, `git push` non chiederà più credenziali.
+
+### Alternativa: credential helper (HTTPS)
+
+Se preferisci restare su HTTPS senza passare a SSH:
+
+```bash
+# Salva le credenziali in cache per 1 settimana (604800 secondi) — solo per questo repo
+git config credential.helper 'cache --timeout=604800'
+
+# Oppure: salva permanentemente su disco (meno sicuro) — solo per questo repo
+git config credential.helper store
+```
+
+Con `cache`: al primo push inserisci il PAT, poi non lo chiede più per 8 ore.
+Con `store`: lo salva in `~/.git-credentials` in chiaro — non lo chiede mai più, ma il token è leggibile sul disco.
+
+Al prossimo `git push`, inserisci come username il tuo utente GitHub e come password il **Personal Access Token** (non la password dell'account). Per generare un PAT: GitHub → Settings → Developer settings → Personal access tokens → Generate new token (scope: `repo`).
+
 ## Workflow tipico
 
 ```bash

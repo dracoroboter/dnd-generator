@@ -1,5 +1,9 @@
 # Dungeon & Dragon
 
+**Versione**: 0.2
+**Ultimo aggiornamento**: 2026-04-18
+**Repository**: [github.com/dracoroboter/dnd-generator](https://github.com/dracoroboter/dnd-generator)
+
 Raccolta di avventure D&D 5e (2014) con toolchain di automazione dedicata.
 Uso personale, con intenzione di pubblicare su GitHub (CC BY-SA 4.0) quando la qualità lo giustifica.
 

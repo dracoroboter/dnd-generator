@@ -18,7 +18,7 @@ Raccolta di avventure D&D 5e (2014) gestita come progetto strutturato con versio
 dungeonandragon/
 ├── meta-dnd.md              # Questo file — struttura e regole generali
 ├── plan-meta-dnd.md         # Todo list operativa per attuare meta-dnd.md
-├── aws-profile-switch.md    # Documentazione tecnica profilo Kiro CLI
+├── aws-profile-switch.md    # Documentazione switch profilo AI CLI
 │
 ├── adventures/              # Avventure create
 │   ├── AdventureTemplate/   # Template di riferimento (one-shot esempio)
@@ -36,7 +36,7 @@ dungeonandragon/
 │   └── how-to/              # Guide procedurali passo-passo
 │
 └── legacy/                  # Materiale originale non modificato
-    └── CordaAvventure/      # Copia dell'archivio Windows originale
+    └── DracoAvventure/      # Copia dell'archivio Windows originale
 ```
 
 ---
@@ -95,7 +95,7 @@ NN_NomeModulo/
 
 ## Avventure Legacy
 
-Materiale originale conservato intatto in `legacy/CordaAvventure/`:
+Materiale originale conservato intatto in `legacy/DracoAvventure/`:
 - **LoScettroDityr** — saga multi-campagna (4 moduli A/B/C/D), formato `.odt`
 - **IlReSpezzato** — avventura con prologo a fumetti, formato `.odt`
 - **LAnelloDelConte** — già in Markdown, da normalizzare

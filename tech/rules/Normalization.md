@@ -11,7 +11,7 @@ Riferimento termini: `tech/rules/Glossary.md`
 
 Prima di toccare nulla, capire cosa c'è.
 
-1. Aprire la directory legacy corrispondente in `legacy/CordaAvventure/`
+1. Aprire la directory legacy corrispondente in `legacy/DracoAvventure/`
 2. Elencare tutti i file e annotare:
    - Formato (`.odt`, `.md`, `.pdf`, `.png`, ecc.)
    - Contenuto presunto (avventura principale, NPC, mappa, immagine, ecc.)

@@ -1,92 +1,58 @@
-# How To — Separare Git Aziendale e Personale
+# How To — Separare Profili Git su Stessa Macchina
 
 ## Situazione
 
 Sulla stessa macchina convivono due identità GitHub:
 
-| | Aziendale | Personale |
+| | Account A | Account B |
 |---|-----------|-----------|
-| **Username** | rcorda | dracoroboter |
-| **Email** | roberto.corda@vivaticket.com | roberto.ilcorda@gmail.com |
-| **Account GitHub** | (aziendale) | dracoroboter |
-| **Uso** | Repo di lavoro | `dungeonandragon` e progetti hobby |
+| **Username** | mario | pippo42 |
+| **Email** | mario@esempio.com | pippo42@gmail.com |
+| **Uso** | Repo principali | `dungeonandragon` e progetti secondari |
 
-La config globale (`~/.gitconfig`) è impostata sull'account aziendale. Questo è corretto — la maggior parte dei repo sono di lavoro.
+La config globale (`~/.gitconfig`) è impostata sull'account A. Per usare l'account B solo in questo repo, serve una config locale.
 
 ## Config locale per questo repo
 
-Per committare con l'identità personale solo in `dungeonandragon`:
-
 ```bash
 cd ~/dungeonandragon
-git config user.name "dracoroboter"
-git config user.email "roberto.ilcorda@gmail.com"
+git config user.name "pippo42"
+git config user.email "pippo42@gmail.com"
 ```
-
-Questo scrive in `.git/config` (locale). Git usa sempre la config locale se presente, altrimenti cade sulla globale.
 
 Verifica:
 
 ```bash
-git config user.name   # → dracoroboter
-git config user.email  # → roberto.ilcorda@gmail.com
+git config user.name   # → pippo42
+git config user.email  # → pippo42@gmail.com
 ```
 
 ## Autenticazione per push
 
-GitHub non accetta password per `git push` dal 2021. Serve un **Personal Access Token (PAT)**.
+GitHub richiede un **Personal Access Token (PAT)**, non la password.
 
 ### Creare il PAT
 
-1. Logga su https://github.com con l'account `dracoroboter`
-2. Vai su https://github.com/settings/tokens (oppure: icona profilo → Settings → Developer settings → Personal access tokens → Tokens (classic))
-3. Clicca **"Generate new token"** → **"Generate new token (classic)"**
-4. Compila:
-   - **Note**: `dungeonandragon-wsl` (nome descrittivo)
-   - **Expiration**: scegli la durata (consigliato: 90 days, poi rinnovare)
-   - **Scopes**: seleziona solo `repo` (accesso completo ai repository)
-5. Clicca **"Generate token"**
-6. **Copia il token** (inizia con `ghp_...`) — non sarà più visibile dopo
+1. GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Generate new token (classic)
+3. Scope: solo `repo`. Expiration: 90 days.
+4. Copia il token (`ghp_...`)
 
 ### Salvare il token localmente
 
-Per non reinserirlo ogni volta:
-
 ```bash
 cd ~/dungeonandragon
-git config credential.helper store
+# Cache per 1 settimana (solo questo repo)
+git config credential.helper 'cache --timeout=604800'
 ```
 
-Al primo `git push` inserisci:
-- Username: `dracoroboter`
-- Password: il PAT copiato sopra
+Al primo `git push`: username = `pippo42`, password = il PAT.
 
-Verrà salvato in `~/.git-credentials` (testo in chiaro).
-
-Alternativa più sicura (tiene in memoria per 1 ora, poi lo richiede):
-
-```bash
-git config credential.helper 'cache --timeout=3600'
-```
-
-### Conflitto credenziali con account aziendale
-
-Se anche i repo aziendali usano `credential.helper store`, le credenziali di `robertocorda` potrebbero sovrascrivere quelle aziendali in `~/.git-credentials`. Per evitarlo, usa `store` solo nella config **locale** di questo repo (come sopra, senza `--global`).
-
-## Recupero password account personale
-
-Se non ricordi la password dell'account `robertocorda`:
-
-1. Vai su https://github.com/password_reset
-2. Inserisci la tua email Gmail
-3. Segui il link di reset ricevuto via email
-4. Dopo il login, crea il PAT come descritto sopra
+Usare `credential.helper` solo nella config **locale** (senza `--global`) per non interferire con l'altro account.
 
 ## Riepilogo
 
 ```
-~/.gitconfig (globale)          → vivaticket (tutti i repo di lavoro)
-~/dungeonandragon/.git/config   → roberto.ilcorda@gmail.com + dracoroboter (solo questo repo)
+~/.gitconfig (globale)          → mario@esempio.com (tutti gli altri repo)
+~/dungeonandragon/.git/config   → pippo42@gmail.com (solo questo repo)
 ```
-
-Ogni `git commit` in `dungeonandragon` userà l'identità personale. Tutti gli altri repo restano invariati.
