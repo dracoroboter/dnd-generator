@@ -234,3 +234,11 @@ dungeonandragon/
 
 5. json-to-svg-oldschool.py map.json --enrichment enrichment.json --output map.svg
 ```
+
+---
+
+## Autore
+
+In rete sono **dracoroboter** da più tempo di quanto vorrei ammettere. Gioco a Dungeons & Dragons da quasi altrettanto.
+
+Per contatti: `dracoroboter(at)gmail.com` — nell'improbabile caso qualcuno scriva, aggiungete `[dnd-generator]` nell'oggetto così riesco a distinguervi dallo spam.
