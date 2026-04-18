@@ -85,6 +85,10 @@ adventures/NomeMiaAvventura/
 │   └── MappaGenerale.md
 ├── personaggi/
 │   └── (vuota — usare new-npc.py per creare NPC)
+│       ├── markdown/      ← schede NPC_*.md
+│       ├── img/           ← artwork personaggi (opzionale)
+│       ├── fightclub/     ← XML FightClub (generati)
+│       └── statblock/     ← PDF e PNG stampabili (generati)
 └── 01_NomeModulo/
     ├── NomeModulo.md                        ← placeholder generico, da rinominare subito
     └── mappe/
@@ -180,8 +184,10 @@ python3 tech/scripts/new-npc.py NomeMiaAvventura --template
 
 | elemento | formato | esempio |
 |----------|---------|---------|
-| File NPC | `NPC_PascalCase.md` | `NPC_Dardew.md` |
-| Artwork NPC | `PascalCase.ext` | `Dardew.png` |
+| File NPC markdown | `NPC_PascalCase.md` | `personaggi/markdown/NPC_Korex.md` |
+| File NPC XML | `NPC_PascalCase.xml` | `personaggi/fightclub/NPC_Korex.xml` |
+| File NPC stat block | `NPC_PascalCase.pdf/.png` | `personaggi/statblock/NPC_Korex.pdf` |
+| Artwork NPC | `PascalCase.ext` | `personaggi/img/Korex.png` |
 
 ### Naming convention generale
 

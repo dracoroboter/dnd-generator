@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>SergiusSottobancus</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>neutral evil</alignment>
+        <ac>14 (armatura di cuoio)</ac>
+        <hp>18 (3d8+3)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>15</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <senses>Percezione passiva 14</senses>
+        <languages>Common, Elvish, Linguaggio dei Ladri</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Expertise</name>
+            <text>Furtività, Investigazione (bonus doppio già incluso)</text>
+        </trait>
+        <trait>
+            <name>Sneak Attack (2d6)</name>
+            <text>una volta per turno, danni extra se ha vantaggio o un alleato è adiacente al bersaglio</text>
+        </trait>
+        <trait>
+            <name>Cunning Action</name>
+            <text>azione bonus: Dash, Disengage o Hide</text>
+        </trait>
+        <trait>
+            <name>Assassinate</name>
+            <text>vantaggio sui tiri per colpire contro creature che non hanno ancora agito. Colpo critico automatico contro creature sorprese.</text>
+        </trait>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +5, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd — 18m / 60ft / 12qd Danni: 1d4+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
+            <attack>Pugnale (mischia/distanza)|+5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Balestra a mano (distanza)</name>
+            <text>Attacco: +5, distanza 9m / 30ft / 6qd — 36m / 120ft / 24qd Danni: 1d6+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
+            <attack>Balestra a mano (distanza)|+5|1d6+3</attack>
+        </action>
+        <description>Il Sergio di Boris: maneggione, subdolo, muove i fili dietro le quinte. Ex-socio in affari del Conte, fregato in qualche modo (da specificare). Ha traffici illeciti nelle fogne di Fianus, dove ha trovato fortuitamente l'Anello del Conte. Troppo riconoscibile per venderlo, lo usa come strumento di una vendetta complicata — una caccia al tesoro che umilia il Conte costringendolo a inseguire il proprio anello attraverso indizi e beffe.
+Intelligentissimo, sempre tre passi avanti a tutti. Parla poco, sorride molto — il sorriso di chi sa qualcosa che tu non sai. Non si sporca le mani se può evitarlo. Vanitoso nella sua astuzia: lascia indizi perché vuole che sappiano che è stato lui. Il marchio &quot;S&quot; intrecciata è la sua firma — ego travestito da anonimato.</description>
+    </monster>
+</compendium>

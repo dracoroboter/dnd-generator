@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>SirGorimVel</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>16 (cotta di maglia + scudo)</ac>
+        <hp>28 (3d10+6)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>10</dex>
+        <con>14</con>
+        <int>13</int>
+        <wis>12</wis>
+        <cha>14</cha>
+        <senses>Percezione passiva 11</senses>
+        <languages>Common, Nanico</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Stile di Combattimento: Difesa</name>
+            <text>+1 CA quando indossa armatura (già incluso)</text>
+        </trait>
+        <trait>
+            <name>Second Wind (1/riposo breve)</name>
+            <text>azione bonus, recupera 1d10+3 PF</text>
+        </trait>
+        <trait>
+            <name>Action Surge (1/riposo breve)</name>
+            <text>un'azione aggiuntiva nel suo turno</text>
+        </trait>
+        <trait>
+            <name>Rallying Cry</name>
+            <text>quando usa Second Wind, fino a 3 alleati entro 18m / 60ft / 12qd recuperano 3 PF ciascuno. Meccanicamente: Gorim urla &quot;FORZA, MUOVETEVI!&quot; e tutti si sentono leggermente meglio, più per paura che per ispirazione.</text>
+        </trait>
+        <action>
+            <name>Spada lunga (mischia)</name>
+            <text>Attacco: +4, mischia, portata 1,5m / 5ft / 1qd Danni: 1d8+2 taglienti (1d10+2 a due mani senza scudo)</text>
+            <attack>Spada lunga (mischia)|+4|1d8+2</attack>
+        </action>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +4, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd — 18m / 60ft / 12qd Danni: 1d4+2 perforanti</text>
+            <attack>Pugnale (mischia/distanza)|+4|1d4+2</attack>
+        </action>
+        <description>Il René Ferretti di Fianus Romanus. Ex-capitano della guarnigione di Drakenhold, messo a fare il funzionario del Conte a Fianus Romanus come &quot;promozione&quot; — in realtà un esilio mascherato. Un militare costretto a fare il burocrate. Costantemente esasperato dall'incompetenza che lo circonda.
+Pragmatico fino al midollo, allergico all'eroismo inutile. Gesticola molto, si esaspera facilmente, parla da solo. Ha un debole per il cibo (la pancia lo conferma).
+Frasi ricorrenti riadattate da Ferretti:
+- &quot;Dai dai dai, che ce la facciamo&quot; (non ci crede)
+- &quot;Splendido. Meraviglioso.&quot; (sarcastico)
+- &quot;Ma che state a fa'?&quot;
+- &quot;Io non ce la faccio più con voi&quot;</description>
+    </monster>
+</compendium>

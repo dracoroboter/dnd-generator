@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Korex</name>
+        <size>M</size>
+        <type>humanoid (elfo)</type>
+        <alignment>chaotic evil</alignment>
+        <ac>13</ac>
+        <hp>52</hp>
+        <speed>40 ft.</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>8</int>
+        <wis>12</wis>
+        <cha>15</cha>
+        <skill>Perception +3, Performance +4, Stealth +5</skill>
+        <immune>veleno</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <languages>Common, Elvish, lingue dei mostri delle fogne</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Disengage</name>
+            <text>Korex può disimpegnarsi come azione bonus</text>
+        </trait>
+        <trait>
+            <name>Dash</name>
+            <text>Korex può usare Dash come azione bonus (velocità raddoppiata: 24m / 80ft / 16qd)</text>
+        </trait>
+        <trait>
+            <name>Immunità al veleno</name>
+            <text>Korex è immune alla condizione avvelenato e ai danni da veleno</text>
+        </trait>
+        <trait>
+            <name>Flauto Magico</name>
+            <text>arma principale. Charm + danni psichici a distanza. Devastante contro bersagli con Saggezza bassa.</text>
+        </trait>
+        <trait>
+            <name>Rancid Knife</name>
+            <text>arma di riserva in mischia. Il veleno avvelena automaticamente al colpo.</text>
+        </trait>
+        <action>
+            <name>Rancid Knife (mischia)</name>
+            <text>Attacco: +5, mischia Danni: 2d4+3 perforanti + 2d6 veleno Effetto: il bersaglio è avvelenato fino all'inizio del prossimo turno di Korex</text>
+            <attack>Rancid Knife (mischia)|+5|2d4+3</attack>
+        </action>
+        <action>
+            <name>Flauto Magico (azione)</name>
+            <text>Bersaglio: una creatura che Korex può vedere entro 36m / 120ft / 24qd Tiro salvezza: Saggezza CD 12 Fallimento: 4d6 danni psichici + charmato fino all'inizio del prossimo turno di Korex Successo: metà dei danni, nessun charm</text>
+        </action>
+        <description>Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco — voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.</description>
+    </monster>
+</compendium>

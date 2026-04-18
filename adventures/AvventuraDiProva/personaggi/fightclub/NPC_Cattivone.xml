@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Cattivone</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>neutral evil</alignment>
+        <ac>12 (15 con Mage Armor)</ac>
+        <hp>28</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>18</int>
+        <wis>13</wis>
+        <cha>11</cha>
+        <cr>4</cr>
+        <trait>
+            <name>Arcane Recovery</name>
+            <text>recupera slot dopo riposo breve</text>
+        </trait>
+        <trait>
+            <name>Sigillo di teletrasporto</name>
+            <text>preparato in anticipo nella stanza della torre — si attiva come azione bonus</text>
+        </trait>
+        <action>
+            <name>Spellcasting</name>
+            <text>Incantesimi
+Trucchetti: Dardo Incantato, Raggio di Gelo, Prestidigitazione
+Livello 1: Mage Armor, Magic Missile, Scudo
+Livello 2: Invisibilità, Misty Step
+Livello 3: Palla di Fuoco, Fulmine</text>
+        </action>
+        <description>Alto, magro, con un mantello scuro sempre leggermente troppo drammatico per l'occasione. Parla lentamente, come se ogni parola fosse un favore. Ha un'iniziale — C. — ma il suo vero nome non è ancora noto.</description>
+    </monster>
+</compendium>

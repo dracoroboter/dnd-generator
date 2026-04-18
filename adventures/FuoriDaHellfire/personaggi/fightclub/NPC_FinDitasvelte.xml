@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>FinDitasvelte</name>
+        <size>M</size>
+        <type>humanoid (halfling (piedelesto))</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>14 (armatura di cuoio)</ac>
+        <hp>21</hp>
+        <speed>25 ft.</speed>
+        <str>8</str>
+        <dex>16</dex>
+        <con>12</con>
+        <int>13</int>
+        <wis>10</wis>
+        <cha>14</cha>
+        <senses>nessuno speciale</senses>
+        <languages>Common, Halfling, Gergo dei Ladri</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Cunning Action</name>
+            <text>Dash, Disengage o Hide come azione bonus</text>
+        </trait>
+        <trait>
+            <name>Second-Story Work</name>
+            <text>velocità di scalata pari alla velocità di movimento</text>
+        </trait>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +5, mischia o distanza 6m / 20ft / 4qd Danni: 1d4+3 perforanti Sneak Attack: +2d6 se ha vantaggio o un alleato in mischia col bersaglio</text>
+            <attack>Pugnale (mischia/distanza)|+5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Arco corto (distanza)</name>
+            <text>Attacco: +5, distanza 24m / 80ft / 16qd Danni: 1d6+3 perforanti</text>
+            <attack>Arco corto (distanza)|+5|1d6+3</attack>
+        </action>
+        <description>Basso anche per un halfling, capelli rossi arruffati, occhi marroni sempre in movimento. Sorriso da furbetto permanente. Parla veloce, gesticola troppo, e ha l'abitudine di rigirare una moneta tra le dita quando è nervoso. Veste pratico: gilet con troppe tasche, stivali morbidi, niente che faccia rumore.
+Tratto distintivo: non riesce a non toccare le cose. Se c'è un oggetto luccicante, lo prende. Se c'è un bottone, lo preme. Se c'è un anello su un cadavere, lo sfila. Non per avidità — per curiosità compulsiva.
+Frase ricorrente: *&quot;Che male può fare dare un'occhiata?&quot;*</description>
+    </monster>
+</compendium>

@@ -19,8 +19,15 @@ adventures/
     │   ├── MappaGenerale.md         ← descrizione testuale luoghi e connessioni
     │   └── *.png / *.svg            ← immagini mappe (opzionale)
     ├── personaggi/
-    │   ├── NPC_NomePersonaggio.md   ← schede PNG
-    │   └── *.png / *.jpg            ← artwork (opzionale)
+    │   ├── markdown/                ← schede NPC in markdown
+    │   │   └── NPC_NomePersonaggio.md
+    │   ├── img/                     ← artwork personaggi (opzionale)
+    │   │   └── NomePersonaggio.png
+    │   ├── fightclub/               ← XML FightClub (generati da md-to-fightclub.py)
+    │   │   └── NPC_NomePersonaggio.xml
+    │   └── statblock/               ← PDF e PNG stampabili (generati da md-to-statblock-pdf.js)
+    │       ├── NPC_NomePersonaggio.pdf
+    │       └── NPC_NomePersonaggio.png
     └── NN_NomeModulo/               ← un modulo per subdirectory
         ├── NomeModulo.md
         └── mappe/                   ← mappe specifiche del modulo (opzionale)
@@ -44,6 +51,7 @@ releases/
 | Moduli | `NN_PascalCase` | `01_IndagineAPanciaverde/` |
 | Immagini | PascalCase | `MappaRegione.png`, `NPC_Cattivone.png` |
 | Nome avventura | PascalCase | `AvventuraDiProva/`, `LAnelloDelConte/` |
+| Sottodirectory personaggi | minuscolo | `markdown/`, `img/`, `fightclub/`, `statblock/` |
 
 ---
 
