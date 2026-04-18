@@ -237,6 +237,15 @@ dungeonandragon/
 
 ---
 
+## Licenze
+
+| contenuto | licenza |
+|-----------|---------|
+| Script e software (`tech/scripts/`) | [GNU General Public License v2 (GPLv2)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) |
+| Avventure, how-to e documentazione | [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+---
+
 ## Autore
 
 In rete sono **dracoroboter** da più tempo di quanto vorrei ammettere. Gioco a Dungeons & Dragons da quasi altrettanto.
