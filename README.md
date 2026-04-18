@@ -31,6 +31,7 @@ Entrambi i piani sono assistiti da AI.
 |-----------|------|-------|------|
 | `AvventuraDiProva` | One-shot (3 moduli) | Normalizzata | Riferimento per la struttura corretta |
 | `LAnelloDelConte` | Saga puntata 1 | Normalizzata | Prima avventura completa |
+| `FuoriDaHellfire` | One-shot (2 moduli) | In corso | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4 |
 | `IlReSpezzato` | Saga puntata 2 | Da migrare | Draft in `legacy/` formato `.odt` |
 | `LoScettroDityr` | Saga puntate 3–6 (A/B/C/D) | Da migrare | In `legacy/` formato `.odt` |
 
@@ -143,6 +144,7 @@ dungeonandragon/
 | File | Scopo |
 |------|-------|
 | `tech/how-to/HowToNewAdventure.md` | Creare una nuova avventura da zero con `new-adventure.sh` e `adventure-wizard.py` |
+| `tech/how-to/HowToNewNPC.md` | Creare NPC: script `new-npc.py`, workflow AI, formato stat block, export FightClub/PDF |
 | `tech/how-to/HowToRelease.md` | Generare PDF + ZIP con `release.sh` e pubblicare |
 | `tech/how-to/HowToEncounterDifficulty.md` | Calcolare difficoltà incontri con `encounter-difficulty.py` |
 | `tech/how-to/HowToClaudeCode.md` | Usare un AI coding agent in questo progetto: configurazione, separazione ruoli narrativa vs tecnica |
@@ -234,6 +236,18 @@ dungeonandragon/
 
 5. json-to-svg-oldschool.py map.json --enrichment enrichment.json --output map.svg
 ```
+
+---
+
+## Fonti e ringraziamenti
+
+| progetto | autore | licenza | uso nel progetto |
+|----------|--------|---------|-----------------|
+| [FightClub5eXML](https://github.com/kinkofer/FightClub5eXML) | kinkofer + community | MIT | Compendium XML di tutte le fonti D&D 5e ufficiali per FightClub/Game Master 5e. Include schema XSD e script di merge. Riferimento per il formato XML dei nostri NPC homebrew. |
+| [statblock5e](https://github.com/Valloric/statblock5e) | Valloric | Apache-2.0 | Web Component HTML/CSS per stat block nella grafica WotC. Template per l'export PDF/PNG. |
+| [tetra-cube.com](https://tetra-cube.com/dnd/dnd-statblock) | Tetra-cube | — | Generatore web di stat block basato su statblock5e. Riferimento per il formato. |
+
+Il file `tech/data/compendium/Sources/SystemReferenceDocument/all-srd.xml` contiene l'SRD 5.1 in formato FightClub XML, rilasciato da Wizards of the Coast sotto [Creative Commons Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/). Lo schema `tech/data/compendium/compendium.xsd` è parte del repo kinkofer (MIT).
 
 ---
 

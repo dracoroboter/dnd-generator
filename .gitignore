@@ -13,8 +13,15 @@ legacy/
 # Backup
 backup/
 
-# SRD clonato (repo esterno, non committare)
+# SRD clonato (repo esterno)
 tech/data/srd/
+
+# Compendium FightClub (fonti non-SRD, non redistribuibili)
+# Eccezioni: SRD (CC-BY-4.0), Homebrew.xml e README.md (MIT)
+tech/data/compendium/Sources/*
+!tech/data/compendium/Sources/SystemReferenceDocument/
+!tech/data/compendium/Sources/Homebrew.xml
+!tech/data/compendium/Sources/README.md
 
 # Node
 node_modules/
