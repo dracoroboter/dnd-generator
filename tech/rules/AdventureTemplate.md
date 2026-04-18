@@ -12,7 +12,7 @@ Per le regole di contenuto vedere `tech/rules/ContentRules.md`.
 adventures/
 └── NomeAvventura/
     ├── README.md                    ← descrizione pubblica senza spoiler
-    ├── AdventureBook.md             ← istruzioni per Kiro
+    ├── AdventureBook.md             ← istruzioni per l'AI
     ├── PlanBook.md                  ← stato del lavoro, todo, note DM
     ├── NomeAvventura.md             ← documento principale
     ├── mappe/
@@ -52,7 +52,7 @@ releases/
 | file | scopo |
 |------|-------|
 | `README.md` | Presentazione pubblica — niente spoiler. Livello, durata, tono. |
-| `AdventureBook.md` | Istruzioni per Kiro — struttura, convenzioni, note specifiche dell'avventura |
+| `AdventureBook.md` | Istruzioni per l'AI — struttura, convenzioni, note specifiche dell'avventura |
 | `PlanBook.md` | Stato avanzamento, todo, note narrative riservate al DM |
 | `NomeAvventura.md` | Documento principale: lore, plot, NPC, consigli master |
 | `mappe/MappaGenerale.md` | Luoghi, connessioni, distanze |

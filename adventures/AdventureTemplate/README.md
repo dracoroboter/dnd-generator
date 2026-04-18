@@ -8,8 +8,8 @@
 <!-- Se parte di una saga:
 **Saga**: Nome della Saga
 **Posizione**: Puntata N di M
-**Segue**: — (o NomeAvventuraPrecedente)
-**Precede**: — (o NomeAvventuraSuccessiva)
+**Segue**: — (o <avventura-precedente>)
+**Precede**: — (o <avventura-successiva>)
 -->
 
 Breve descrizione senza spoiler.

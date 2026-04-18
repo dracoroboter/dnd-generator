@@ -111,6 +111,26 @@ Usare blockquote per il testo da leggere ad alta voce:
 
 ---
 
+## Distanze e unità di misura
+
+Le distanze vanno espresse in formato triplo: **metri / feet / qd** (quadretti).
+
+| qd | ft | m |
+|----|----|---|
+| 1 | 5ft | 1,5m |
+| 2 | 10ft | 3m |
+| 4 | 20ft | 6m |
+| 6 | 30ft | 9m |
+| 8 | 40ft | 12m |
+| 12 | 60ft | 18m |
+| 24 | 120ft | 36m |
+
+**qd** = quadretto (square) — l'unità base delle battle map D&D (5ft × 5ft / 1,5m × 1,5m).
+
+Esempio: `12m / 40ft / 8qd`
+
+---
+
 ## Foreshadowing e agganci futuri
 
 Se l'avventura è parte di una campagna o lascia agganci aperti, documentarli in una sezione dedicata nel documento principale o nel `PlanBook.md`:

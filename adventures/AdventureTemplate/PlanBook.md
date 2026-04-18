@@ -1,5 +1,13 @@
 # PlanBook — [NomeAvventura]
 
+## Concept
+
+- **Tipo**: one-shot / campagna / saga
+- **Livello**: X (milestone → lv Y)
+- **Tono**: ...
+- **Ambientazione**: ...
+- **Plot in breve**: *(5-10 righe: chi sono i PG, cosa è successo prima, conflitto, risoluzione)*
+
 ## Stato generale
 
 - [ ] README.md
@@ -10,4 +18,4 @@
 
 ## Note
 
-*(tono, scelte narrative, agganci futuri)*
+*(tono, scelte narrative, problemi aperti, agganci futuri)*

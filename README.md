@@ -11,13 +11,13 @@ Questo repository vive su due piani paralleli che si alimentano a vicenda.
 
 ### Piano umanistico — scrivere avventure
 
-Scrivere, strutturare e rilasciare avventure D&D in italiano. Il prodotto finale è un PDF leggibile e una ZIP condivisibile. Il lavoro è narrativo: trama, NPC, incontri, mappe, descrizioni. L'assistente AI principale per questo piano è **Kiro** (Skills → DungeonMaster).
+Scrivere, strutturare e rilasciare avventure D&D in italiano. Il prodotto finale è un PDF leggibile e una ZIP condivisibile. Il lavoro è narrativo: trama, NPC, incontri, mappe, descrizioni.
 
 ### Piano tecnico — costruire strumenti
 
-Costruire gli strumenti che rendono il piano umanistico più efficiente: generatori di dungeon, pipeline di rendering mappe, linguaggi intermedi per descrivere l'arredamento delle stanze, script di validazione e pubblicazione. L'assistente AI principale per questo piano è **Claude Code**.
+Costruire gli strumenti che rendono il piano umanistico più efficiente: generatori di dungeon, pipeline di rendering mappe, linguaggi intermedi per descrivere l'arredamento delle stanze, script di validazione e pubblicazione.
 
-I due piani sono distinti: Kiro non tocca gli script, Claude Code non scrive narrativa.
+Entrambi i piani sono assistiti da AI.
 
 ---
 
@@ -124,7 +124,7 @@ dungeonandragon/
 | `tech/rules/Maps.md` | Documentazione degli script per mappe Watabou (browser automation) | Usa `generate-watabou-*.js` |
 | `tech/rules/PlanMaps.md` | Piano di sviluppo del generatore dungeon custom: criteri qualità, gap aperti, iterazioni | Governa `generate-dungeon.py` e i renderer SVG |
 | `tech/rules/MapsPipelineDocs.md` | Documentazione tecnica della pipeline mappe: formato JSON dungeon_base, formato enrichment, convention renderer | Riferimento per chi estende la pipeline |
-| `tech/rules/DungeonIterationWorkflow.md` | Processo iterativo Kiro+DM per migliorare il generatore: critica oggettiva, verifica coerenza PNG/MD/JSON | Processo, non specifica |
+| `tech/rules/DungeonIterationWorkflow.md` | Processo iterativo AI+DM per migliorare il generatore: critica oggettiva, verifica coerenza PNG/MD/JSON | Processo, non specifica |
 
 ### Linguaggi intermedi DDL / RTL
 
@@ -141,7 +141,7 @@ dungeonandragon/
 | `tech/how-to/HowToNewAdventure.md` | Creare una nuova avventura da zero con `new-adventure.sh` e `adventure-wizard.py` |
 | `tech/how-to/HowToRelease.md` | Generare PDF + ZIP con `release.sh` e pubblicare |
 | `tech/how-to/HowToEncounterDifficulty.md` | Calcolare difficoltà incontri con `encounter-difficulty.py` |
-| `tech/how-to/HowToClaudeCode.md` | Usare Claude Code in questo progetto: cambio modello, Kiro vs Claude Code |
+| `tech/how-to/HowToClaudeCode.md` | Usare un AI coding agent in questo progetto: configurazione, separazione ruoli narrativa vs tecnica |
 
 ---
 
