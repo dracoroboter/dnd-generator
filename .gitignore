@@ -6,6 +6,7 @@ tech/reports/
 
 # Release artifacts (PDF + ZIP generati)
 releases/
+!releases/public/
 
 # Legacy (materiale originale .odt — troppo pesante, sola lettura)
 legacy/

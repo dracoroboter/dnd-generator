@@ -230,3 +230,46 @@ Tileset disponibili in `tech/assets/tilesets/dcss/` (da DCSS, licenza CC):
 - [ ] Valutare layout PDF ottimizzato per stampa fisica (margini, formato A5/A4)
 - [ ] Valutare pubblicazione su piattaforme dedicate (DMsGuild, itch.io)
 - [ ] Script per PDF unico pubblicabile (copertina `Cover.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data)
+
+---
+
+## Naming convention documentazione
+
+**Priorità: bassa, da fare quando si tocca la documentazione**
+
+Il progetto ha tre tipi di file in `tech/` ma non c'è una convenzione chiara per distinguerli dal nome:
+
+| Tipo | Scopo | Prefisso proposto |
+|------|-------|-------------------|
+| Piano di sviluppo | Roadmap, decisioni, fasi, TODO | `Plan*.md` |
+| Documentazione tecnica | Come funziona, formato, API, uso | `Docs*.md` o `README.md` |
+| Specifica | Grammatica, formato, regole formali | `Spec*.md` o `*-spec.md` |
+
+Attualmente i nomi sono inconsistenti:
+- `PlanMaps.md` ✅ (piano)
+- `MapsPipelineDocs.md` ✅ (doc tecnica)
+- `DDL-spec.md` ✅ (specifica)
+- `PlanIntermediateRepresentation.md` ✅ (piano)
+- `DungeonIterationWorkflow.md` ❓ (è un processo, non un piano né una doc)
+- `ContentRules.md` ❓ (è una specifica? una guida?)
+- `plan-howto-problemi.md` ❓ (kebab-case vs PascalCase)
+
+- [ ] Definire convenzione naming per i tre tipi di documento
+- [ ] Uniformare i nomi esistenti (in dnd-generator e dnd-maps)
+- [ ] Applicare la convenzione ai nuovi file (es. `PlanCreatePdfAdventure.md` ✅)
+
+---
+
+## create-pdf-adventure
+
+**Priorità: alta (serve per masterare FuoriDaHellfire)**
+
+Genera un singolo PDF con tutta l'avventura: copertina, moduli, schede mappa DM, stat block in appendice. Grafica D&D-style via CSS custom.
+
+- Piano di sviluppo: `tech/create-pdf-adventure/PlanCreatePdfAdventure.md`
+- Documentazione: `tech/create-pdf-adventure/DocsCreatePdfAdventure.md`
+- [x] Fase 1: CSS custom (`adventure.css`)
+- [x] Fase 2: Script `create-pdf-adventure.py`
+- [x] Fase 3: HTML → PDF (weasyprint)
+- [x] Fase 4: Test con FuoriDaHellfire — `FuoriDaHellfire_20260419.pdf` (2.1 MB)
+- [ ] Fase 5: Generalizzare per qualsiasi avventura

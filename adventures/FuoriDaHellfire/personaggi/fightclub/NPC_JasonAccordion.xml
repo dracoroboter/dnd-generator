@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>JasonAccordion</name>
+        <size>M</size>
+        <type>humanoid (umano (in vita), ora anima intrappolata)</type>
+        <alignment>neutral evil</alignment>
+        <ac>12</ac>
+        <hp>45 (10d8)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>16</int>
+        <wis>14</wis>
+        <cha>20</cha>
+        <skill>Perception +2</skill>
+        <senses>vista e udito 36m / 120ft / 24qd (attraverso il portatore)</senses>
+        <languages>Common, Elvish, Silvano, Infernale</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Oggetto senziente</name>
+            <text>Jason esiste come anima nell'Anello del Virtuoso. Non ha un corpo fisico. Comunica telepaticamente con il portatore. Le statistiche sopra rappresentano le sue capacità mentali e magiche, non un corpo.</text>
+        </trait>
+        <trait>
+            <name>Manipolatore supremo</name>
+            <text>vantaggio alle prove di Inganno e Persuasione. Le creature che parlano con Jason (attraverso il portatore) hanno svantaggio ai TS contro i suoi incantesimi di charme.</text>
+        </trait>
+        <trait>
+            <name>Possessione progressiva</name>
+            <text>vedi sezione &quot;Possessione progressiva&quot; sopra. Jason non combatte direttamente — prende il controllo del portatore.</text>
+        </trait>
+        <action>
+            <name>Onda psichica (quando esce 1 al d8)</name>
+            <text>Tiro salvezza: nessuno (automatico) Danni: 1d4 + livello presa danni psichici Area: tutte le creature entro 15m / 50ft / 10qd dal portatore Effetto: colpisce alleati e nemici indiscriminatamente</text>
+        </action>
+        <action>
+            <name>Conflitto mentale (quando Jason forza il controllo)</name>
+            <text>Tiro salvezza: Saggezza CD 14-16+ (varia con la presa) Fallimento: Jason prende il controllo del portatore per 1d4 round (combattimento) o 1d4 ore (fuori combattimento) Successo: il portatore resiste, la presa diminuisce di 1</text>
+        </action>
+        <action>
+            <name>Incubi notturni (presa 3+)</name>
+            <text>Danni: 2d6 psichici per notte Effetto: nessun beneficio da riposo lungo</text>
+        </action>
+        <action>
+            <name>Spellcasting</name>
+            <text>Oggetto senziente: Jason esiste come anima nell'Anello del Virtuoso. Non ha un corpo fisico. Comunica telepaticamente con il portatore. Le statistiche sopra rappresentano le sue capacità mentali e magiche, non un corpo.
+Incantesimi (come bardo lv10): CD incantesimi 16, attacco incantesimi +8. Slot: 4/3/3/3/2. Jason può lanciare incantesimi solo attraverso il portatore (quando ha il controllo).
+Manipolatore supremo: vantaggio alle prove di Inganno e Persuasione. Le creature che parlano con Jason (attraverso il portatore) hanno svantaggio ai TS contro i suoi incantesimi di charme.
+Possessione progressiva: vedi sezione &quot;Possessione progressiva&quot; sopra. Jason non combatte direttamente — prende il controllo del portatore.</text>
+        </action>
+        <description>In vita, Jason Accordion era un uomo di bell'aspetto con un sorriso che non raggiungeva mai gli occhi — il tipo che entra in una stanza e tutti si girano a guardarlo. Voce calda, modi impeccabili, sempre la parola giusta al momento giusto.
+Ora è solo una voce nell'anello. Sussurra, suggerisce, lusinga. Il tono è quello di un vecchio amico — paziente, comprensivo, mai aggressivo. All'inizio. Con il tempo diventa più insistente, più presente, più *lui* e meno il portatore.</description>
+    </monster>
+</compendium>

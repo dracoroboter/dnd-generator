@@ -1,0 +1,240 @@
+/* adventure.css — D&D-style PDF via weasyprint */
+
+/* === Page setup === */
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @bottom-center {
+        content: counter(page);
+        font-family: serif;
+        font-size: 9pt;
+        color: #58180d;
+    }
+}
+
+@page cover {
+    margin: 0;
+    @bottom-center { content: none; }
+}
+
+@page frontmatter {
+    @bottom-center { content: none; }
+}
+
+/* === Fonts & body === */
+body {
+    font-family: "Libre Baskerville", "Georgia", "Times New Roman", serif;
+    font-size: 10.5pt;
+    line-height: 1.5;
+    color: #1a1a1a;
+}
+
+/* === Cover page === */
+.cover-page {
+    page: cover;
+    page-break-after: always;
+}
+
+.cover-page img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* === Frontmatter === */
+.frontmatter {
+    page: frontmatter;
+    page-break-after: always;
+    text-align: center;
+    padding-top: 30%;
+}
+
+.frontmatter h1 {
+    font-size: 28pt;
+    color: #58180d;
+    border: none;
+    margin-bottom: 0.3em;
+    letter-spacing: 1px;
+}
+
+.frontmatter .subtitle {
+    font-size: 14pt;
+    color: #58180d;
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+.frontmatter .meta {
+    font-size: 11pt;
+    color: #666;
+    line-height: 2;
+}
+
+.frontmatter hr {
+    width: 40%;
+    margin: 2em auto;
+    border: none;
+    border-top: 2px solid #58180d;
+}
+
+/* === Headings === */
+h1 {
+    font-size: 20pt;
+    color: #58180d;
+    border-bottom: 2px solid #58180d;
+    padding-bottom: 0.2em;
+    margin-top: 1em;
+    page-break-before: always;
+}
+
+h1:first-of-type {
+    page-break-before: avoid;
+}
+
+h2 {
+    font-size: 15pt;
+    color: #58180d;
+    border-bottom: 1px solid #c9ad6a;
+    padding-bottom: 0.15em;
+    margin-top: 1.2em;
+}
+
+h3 {
+    font-size: 12pt;
+    color: #58180d;
+    margin-top: 1em;
+}
+
+h4 {
+    font-size: 10.5pt;
+    color: #58180d;
+    font-style: italic;
+}
+
+/* === Read-aloud text (blockquotes) === */
+blockquote {
+    background: #fdf5e6;
+    border-left: 4px solid #58180d;
+    margin: 1em 0;
+    padding: 0.8em 1.2em;
+    font-style: italic;
+    color: #333;
+    page-break-inside: avoid;
+}
+
+blockquote p {
+    margin: 0.3em 0;
+}
+
+/* === Tables === */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 9.5pt;
+    page-break-inside: avoid;
+}
+
+thead th {
+    background: #58180d;
+    color: #fff;
+    padding: 0.4em 0.6em;
+    text-align: left;
+    font-weight: bold;
+}
+
+tbody td {
+    padding: 0.3em 0.6em;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background: #faf6f0;
+}
+
+/* === Lists === */
+ul, ol {
+    margin: 0.5em 0;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.2em;
+}
+
+/* === Bold labels in lists (stat blocks, etc.) === */
+li strong {
+    color: #58180d;
+}
+
+/* === Code blocks (ASCII maps, etc.) === */
+pre {
+    background: #f5f0e8;
+    border: 1px solid #c9ad6a;
+    padding: 0.8em 1em;
+    font-family: "Courier New", monospace;
+    font-size: 8.5pt;
+    line-height: 1.3;
+    overflow-x: auto;
+    page-break-inside: avoid;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    font-size: 9pt;
+    background: #f5f0e8;
+    padding: 0.1em 0.3em;
+}
+
+/* === Horizontal rules === */
+hr {
+    border: none;
+    border-top: 1px solid #c9ad6a;
+    margin: 1.5em 0;
+}
+
+/* === Links (print-friendly) === */
+a {
+    color: #58180d;
+    text-decoration: none;
+}
+
+/* === Stat block images (appendix) === */
+.statblock-page {
+    page-break-before: always;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.statblock-page img {
+    max-width: 100%;
+    max-height: 85vh;
+}
+
+/* === Section breaks === */
+.section-break {
+    page-break-before: always;
+}
+
+/* === Appendix header === */
+.appendix-header {
+    page-break-before: always;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.appendix-header h1 {
+    border: none;
+    page-break-before: avoid;
+    font-size: 24pt;
+}
+
+/* === Prevent orphans/widows === */
+p {
+    orphans: 3;
+    widows: 3;
+}
+
+h2, h3, h4 {
+    page-break-after: avoid;
+}

@@ -166,6 +166,52 @@ La sua strategia:
 
 ---
 
+## Stat Block
+
+> **TEMPORANEO** — stat block provvisorio basato su "bardo umano NM, manipolatore, non combattente". Da rivedere per la saga lv4-6. Rappresenta Jason come era in vita, non come entità nell'anello.
+
+| FOR | DES | COS | INT | SAG | CAR |
+|-----|-----|-----|-----|-----|-----|
+| 8 (-1) | 14 (+2) | 12 (+1) | 16 (+3) | 14 (+2) | 20 (+5) |
+
+- **Punti ferita**: 45 (10d8)
+- **Classe armatura**: 12
+- **Velocità**: 9m / 30ft / 6qd
+- **Iniziativa**: +2
+- **Bonus competenza**: +3
+- **Tiri salvezza**: DES +5, CAR +8
+- **Competenze**: Inganno +11, Persuasione +11, Performance +8, Intuizione +5, Arcano +6
+- **Percezione**: +2
+- **Sensi**: vista e udito 36m / 120ft / 24qd (attraverso il portatore)
+- **Lingue**: Comune, Elfico, Silvano, Infernale
+- **Sfida**: 5 (1800 PE)
+
+## Capacità notevoli
+
+- **Oggetto senziente**: Jason esiste come anima nell'Anello del Virtuoso. Non ha un corpo fisico. Comunica telepaticamente con il portatore. Le statistiche sopra rappresentano le sue capacità mentali e magiche, non un corpo.
+- **Incantesimi (come bardo lv10)**: CD incantesimi 16, attacco incantesimi +8. Slot: 4/3/3/3/2. Jason può lanciare incantesimi solo attraverso il portatore (quando ha il controllo).
+- **Manipolatore supremo**: vantaggio alle prove di Inganno e Persuasione. Le creature che parlano con Jason (attraverso il portatore) hanno svantaggio ai TS contro i suoi incantesimi di charme.
+- **Possessione progressiva**: vedi sezione "Possessione progressiva" sopra. Jason non combatte direttamente — prende il controllo del portatore.
+
+## Attacchi
+
+### Onda psichica (quando esce 1 al d8)
+- **Tiro salvezza**: nessuno (automatico)
+- **Danni**: 1d4 + livello presa danni psichici
+- **Area**: tutte le creature entro 15m / 50ft / 10qd dal portatore
+- **Effetto**: colpisce alleati e nemici indiscriminatamente
+
+### Conflitto mentale (quando Jason forza il controllo)
+- **Tiro salvezza**: Saggezza CD 14-16+ (varia con la presa)
+- **Fallimento**: Jason prende il controllo del portatore per 1d4 round (combattimento) o 1d4 ore (fuori combattimento)
+- **Successo**: il portatore resiste, la presa diminuisce di 1
+
+### Incubi notturni (presa 3+)
+- **Danni**: 2d6 psichici per notte
+- **Effetto**: nessun beneficio da riposo lungo
+
+---
+
 ## Punti aperti
 
 - [x] **Amplificazione per PG**: tabella per classe, incantesimi da bardo 1/giorno senza slot

@@ -62,6 +62,17 @@ NPC_*.md  →  md-to-statblock-pdf.js  →  .pdf / .png (stat block grafico)
 **Script:** `tech/fightclub/md-to-fightclub.py`, `tech/fightclub/fightclub-to-md.py`, `tech/fightclub/md-to-statblock-pdf.js`
 **Documentazione:** `tech/fightclub/README.md`
 
+### Generatore PDF avventure
+
+Genera un singolo PDF con tutta l'avventura: copertina, moduli, schede mappa DM, stat block in appendice. Grafica D&D-style via CSS custom + weasyprint.
+
+```
+create-pdf-adventure.py FuoriDaHellfire  →  releases/FuoriDaHellfire/FuoriDaHellfire_20260419.pdf
+```
+
+**Script:** `tech/create-pdf-adventure/create-pdf-adventure.py`
+**Documentazione:** `tech/create-pdf-adventure/DocsCreatePdfAdventure.md`
+
 ---
 
 ## Struttura del repository
@@ -87,6 +98,7 @@ dungeonandragon/
     ├── rules/                   # specifiche e piani (vedi indice sotto)
     ├── how-to/                  # guide procedurali passo-passo
     ├── fightclub/               # tool export FightClub 5e (XML, stat block PDF/PNG)
+    ├── create-pdf-adventure/    # generatore PDF unico per avventure (CSS + script)
     ├── data/
     │   └── compendium/          # schema XSD + SRD 5.1 in formato FightClub XML
     └── reports/                 # output generati da script (non editare)
