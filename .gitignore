@@ -5,7 +5,7 @@ tech/build/
 tech/reports/
 
 # Release artifacts (PDF + ZIP generati)
-releases/
+releases/*
 !releases/public/
 
 # Legacy (materiale originale .odt — troppo pesante, sola lettura)
