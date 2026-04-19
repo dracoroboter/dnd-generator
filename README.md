@@ -19,7 +19,7 @@ Scrivere, strutturare e rilasciare avventure D&D in italiano. Il prodotto finale
 
 ### Piano tecnico — costruire strumenti
 
-Costruire gli strumenti che rendono il piano umanistico più efficiente: generatori di dungeon, pipeline di rendering mappe, linguaggi intermedi per descrivere l'arredamento delle stanze, script di validazione e pubblicazione.
+Costruire gli strumenti che rendono il piano umanistico più efficiente: script di validazione e pubblicazione, pipeline NPC/stat block. La toolchain mappe (generatore dungeon, renderer SVG, linguaggi DDL/RTL) è nel repository separato **[dnd-maps](https://github.com/dracoroboter/dnd-maps)**.
 
 Entrambi i piani sono assistiti da AI.
 
@@ -41,37 +41,15 @@ La saga "Lo Scettro di Tyr" copre `LAnelloDelConte` → `IlReSpezzato` → `LoSc
 
 ## Sottoprogetti tecnici in corso
 
-### 1. Generatore dungeon procedurale
+### Mappe e generazione dungeon → repository separato
 
-Genera mappe dungeon in PNG + JSON con algoritmo BSP (Binaray Space Partition) e cell-grid.
+Tutta la toolchain mappe (generatore procedurale, renderer SVG, linguaggi DDL/RTL, formato v2, script Watabou) è stata spostata nel repository dedicato:
 
-**Script attivi:** `generate-dungeon.py` (versione corrente), versioni archiviate `*-0.x.py`
-**Piano:** `tech/rules/PlanMaps.md`
-**Documenti:** `tech/rules/Maps.md`, `tech/rules/MapsPipelineDocs.md`
+**→ [dnd-maps](https://github.com/dracoroboter/dnd-maps)**
 
-### 2. Pipeline di rendering SVG
+Include: generatore dungeon, 6 renderer SVG, pipeline DDL/RTL per arredamento, renderer v2 per mappe scritte a mano, automazione Watabou, template oggetti/stanze/gate, documentazione completa.
 
-Converte il JSON del dungeon in SVG con stili visivi diversi. Supporta un layer di enrichment (oggetti, gate).
-
-**Script attivi:** `json-to-svg-oldschool.py`, `json-to-svg-blueprint.py`, `json-to-svg-kenney.py`, `json-to-svg-iso.py`, `json-to-svg-stone.py` — condividono `dungeon_svg_core.py`
-
-### 3. Linguaggi intermedi DDL / RTL ← *lavoro in corso*
-
-Sistema a due livelli per descrivere l'arredamento di un dungeon già generato senza scrivere coordinate a mano.
-
-```
-testo naturale  →  .ddl (DungeonDressLang)  →  dungeon_enrichment.json  →  SVG
-template .rtl   →  .json (via rtl-to-json.py)  ↗
-```
-
-- **RTL (RoomTemplateLang):** definisce archetipi di stanza (camera da letto, cappella…). File `.rtl` compilati in `.json` da `rtl-to-json.py`.
-- **DDL (DungeonDressLang):** descrive l'arredamento di un dungeon specifico. File `.ddl` compilati in `dungeon_enrichment.json` da `ddl-to-enrichment.py`.
-
-**Piano e decisioni architetturali:** `tech/rules/PlanIntermediateRepresentation.md`
-**Specifiche:** `tech/rules/RTL-spec.md`, `tech/rules/DDL-spec.md`
-**Template stanze disponibili:** `bedroom`, `chapel` — `demonic_shrine`, `treasury` da creare
-
-### 4. Pipeline FightClub / Stat Block
+### Pipeline FightClub / Stat Block
 
 Converte schede NPC markdown in XML FightClub 5e e genera stat block in PDF/PNG.
 
@@ -83,18 +61,6 @@ NPC_*.md  →  md-to-statblock-pdf.js  →  .pdf / .png (stat block grafico)
 
 **Script:** `tech/fightclub/md-to-fightclub.py`, `tech/fightclub/fightclub-to-md.py`, `tech/fightclub/md-to-statblock-pdf.js`
 **Documentazione:** `tech/fightclub/README.md`
-
-### 5. Renderer mappe v2 (dungeon-v2) ← *in sviluppo*
-
-Formato JSON compatto per descrivere mappe di interni (fogne, taverne, dungeon) e renderer SVG in stile "penna su carta". A differenza della pipeline v1 (generazione procedurale), il JSON v2 è scritto a mano.
-
-```
-mappa.json (v2)  →  json2-to-svg.py  →  .svg (oldschool)
-```
-
-**Script:** `tech/dungeon-v2/json2-to-svg.py`
-**Piano:** `tech/rules/PlanDungeonV2.md`
-**Documentazione:** `tech/dungeon-v2/README.md`
 
 ---
 
@@ -117,20 +83,16 @@ dungeonandragon/
 ├── releases/                    # PDF + ZIP generati (non editare)
 │
 └── tech/
-    ├── scripts/                 # tutti gli script (vedi indice sotto)
+    ├── scripts/                 # script gestione avventure (vedi indice sotto)
     ├── rules/                   # specifiche e piani (vedi indice sotto)
     ├── how-to/                  # guide procedurali passo-passo
     ├── fightclub/               # tool export FightClub 5e (XML, stat block PDF/PNG)
-    ├── dungeon-v2/              # nuovo formato JSON mappe + renderer SVG (in sviluppo)
     ├── data/
     │   └── compendium/          # schema XSD + SRD 5.1 in formato FightClub XML
-    ├── templates/               # template JSON per oggetti e stanze
-    │   ├── objects/             # definizioni oggetto (bed, chest, altar…)
-    │   ├── rooms/               # template stanze RTL (.rtl) e compilati (.json)
-    │   └── gates/               # plugin rendering gate per stile SVG
-    ├── assets/                  # asset grafici (tileset DCSS)
     └── reports/                 # output generati da script (non editare)
 ```
+
+> **Nota:** tutta la toolchain mappe (generatore, renderer SVG, DDL/RTL, template, asset) è nel repository separato **[dnd-maps](https://github.com/dracoroboter/dnd-maps)**.
 
 ---
 
@@ -154,20 +116,9 @@ dungeonandragon/
 
 ### Mappe e generazione dungeon
 
-| File | Scopo | Relazione |
-|------|-------|-----------|
-| `tech/rules/Maps.md` | Documentazione degli script per mappe Watabou (browser automation) | Usa `generate-watabou-*.js` |
-| `tech/rules/PlanMaps.md` | Piano di sviluppo del generatore dungeon custom: criteri qualità, gap aperti, iterazioni | Governa `generate-dungeon.py` e i renderer SVG |
-| `tech/rules/MapsPipelineDocs.md` | Documentazione tecnica della pipeline mappe: formato JSON dungeon_base, formato enrichment, convention renderer | Riferimento per chi estende la pipeline |
-| `tech/rules/DungeonIterationWorkflow.md` | Processo iterativo AI+DM per migliorare il generatore: critica oggettiva, verifica coerenza PNG/MD/JSON | Processo, non specifica |
-
-### Linguaggi intermedi DDL / RTL
-
-| File | Scopo | Relazione |
-|------|-------|-----------|
-| `tech/rules/PlanIntermediateRepresentation.md` | Decisioni architetturali DDL/RTL, limiti attuali del motore, sequenza di implementazione — documento vivente | Fonte di verità per l'intero sottoprogetto |
-| `tech/rules/RTL-spec.md` | Specifica sintattica di RoomTemplateLang: grammatica, notazione, posizioni disponibili, esempi | Compila con `rtl-to-json.py` |
-| `tech/rules/DDL-spec.md` | Specifica sintattica di DungeonDressLang v0.3: struttura a blocchi, direttive `is a` / `has` / `door to` | Compila con `ddl-to-enrichment.py` |
+| File | Scopo |
+|------|-------|
+| → **[dnd-maps](https://github.com/dracoroboter/dnd-maps)** | Tutta la documentazione mappe è nel repository separato |
 
 ### Guide procedurali
 
@@ -188,14 +139,6 @@ dungeonandragon/
 | `tech/fightclub/README.md` | Formato XML FightClub 5e: struttura tag, esempi, fonti, piano implementazione |
 | `tech/rules/GitWorkflow.md` | Convenzioni git: commit message, branch, push, credential helper |
 
-### Dungeon v2 (in sviluppo)
-
-| File | Scopo |
-|------|-------|
-| `tech/rules/PlanDungeonV2.md` | Piano formato JSON v2 per mappe generiche (fogne, taverne, dungeon) + nuovo renderer SVG |
-| `tech/dungeon-v2/README.md` | Documentazione dello script `json2-to-svg.py`: formato JSON, uso, opzioni, tipi di connessione |
-| `tech/dungeon-v2/ReverseEngineeringOldschool.md` | Analisi del renderer oldschool esistente: tecniche riusabili, differenze v1/v2 |
-
 ---
 
 ## Indice script
@@ -210,6 +153,7 @@ dungeonandragon/
 | `release.sh` | Bash | Genera PDF (via pandoc + wkhtmltopdf) e ZIP in `releases/<NomeAvventura>/` |
 | `new-npc.py` | Python | Crea scheda NPC interattivamente |
 | `encounter-difficulty.py` | Python | Calcola difficoltà incontro D&D 5e (XP soglia, CR multipli) |
+| `encounter-builder.py` | Python | Costruisce incontri bilanciati |
 | `setup.sh` | Bash | Installa dipendenze (pandoc, wkhtmltopdf, zip, python3, Node.js, Playwright) |
 | `backup.sh` | Bash | Backup del progetto (esclude `legacy/`) |
 
@@ -217,40 +161,7 @@ dungeonandragon/
 
 | Script | Linguaggio | Scopo |
 |--------|-----------|-------|
-| `generate-dungeon.py` | Python | Generatore dungeon procedurale (cell-grid) → PNG + JSON + MD |
-| `generate-dungeon-bsp-0.1.py` | Python | Versione archiviata BSP — solo riferimento |
-| `generate-dungeon-cell-grid-0.2.py` | Python | Versione archiviata cell-grid 0.2 — solo riferimento |
-| `generate-dungeon-cell-grid-0.3.py` | Python | Versione archiviata cell-grid 0.3 — solo riferimento |
-| `generate-watabou-dungeon.js` | Node.js | Genera una mappa dungeon via browser Watabou (Playwright) |
-| `generate-watabou-dungeon-batch.js` | Node.js | Genera N mappe Watabou con seed diversi |
-| `generate-watabou-maps.js` | Node.js | Genera mappe city/world via altri generatori Watabou |
-
-### Rendering SVG
-
-| Script | Linguaggio | Scopo |
-|--------|-----------|-------|
-| `dungeon_svg_core.py` | Python | Modulo condiviso: carica JSON, ricostruisce griglia, espone `get_passages()` |
-| `json-to-svg-oldschool.py` | Python | Stile oldschool (tratteggio muri, icone hand-drawn) — stile principale |
-| `json-to-svg-blueprint.py` | Python | Stile blueprint (sfondo blu, linee bianche) |
-| `json-to-svg-kenney.py` | Python | Stile tileset Kenney |
-| `json-to-svg-iso.py` | Python | Stile isometrico |
-| `json-to-svg-stone.py` | Python | Stile pietra/texture |
-| `json-to-svg.py` | Python | Renderer generico (legacy) |
-| `json-to-tmx.py` | Python | Esporta in formato TMX (Tiled Map Editor) |
-
-### Pipeline DDL / RTL ← *in sviluppo*
-
-| Script | Linguaggio | Scopo |
-|--------|-----------|-------|
-| `rtl-to-json.py` | Python | Compila file `.rtl` (RoomTemplateLang) in `.json` template stanza |
-| `template-apply.py` | Python | Motore di placement: applica un template JSON a una stanza specifica |
-| `ddl-to-enrichment.py` | Python | Compila file `.ddl` (DungeonDressLang) in `dungeon_enrichment.json` |
-
-### Renderer mappe v2
-
-| Script | Linguaggio | Scopo |
-|--------|-----------|-------|
-| `json2-to-svg.py` | Python | Renderer SVG oldschool per formato JSON v2 (mappe scritte a mano) |
+| → **[dnd-maps](https://github.com/dracoroboter/dnd-maps)** | | Tutti gli script mappe sono nel repository separato |
 
 ### FightClub / Stat Block
 
@@ -259,16 +170,6 @@ dungeonandragon/
 | `md-to-fightclub.py` | Python | Converte NPC markdown → XML FightClub 5e |
 | `fightclub-to-md.py` | Python | Converte XML FightClub → NPC markdown |
 | `md-to-statblock-pdf.js` | Node.js | Genera stat block PDF/PNG via Playwright + statblock5e |
-
-### Script di test / debug
-
-| Script | Linguaggio | Scopo |
-|--------|-----------|-------|
-| `corridor-test.py` | Python | Test generazione corridoi |
-| `door-test.py` | Python | Test rendering porte |
-| `test-object-bed.py` | Python | Test placement oggetto bed |
-| `test-object-pentacle.py` | Python | Test placement oggetto pentacle |
-| `test-object-table.py` | Python | Test placement oggetto table |
 
 ---
 
@@ -297,6 +198,8 @@ dungeonandragon/
 
 5. json-to-svg-oldschool.py map.json --enrichment enrichment.json --output map.svg
 ```
+
+→ Vedi **[dnd-maps](https://github.com/dracoroboter/dnd-maps)** per la pipeline completa.
 
 ---
 
