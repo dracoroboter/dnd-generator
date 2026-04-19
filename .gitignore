@@ -4,9 +4,8 @@ tech/build/
 # Reports generati da script
 tech/reports/
 
-# Release artifacts (PDF + ZIP generati)
-releases/*
-!releases/public/
+# Release artifacts (PDF + ZIP generati da script, non committare)
+releases/
 
 # Legacy (materiale originale .odt — troppo pesante, sola lettura)
 legacy/

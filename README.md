@@ -91,7 +91,9 @@ dungeonandragon/
 │
 ├── legacy/                      # .odt originali — sola lettura
 │
-├── releases/                    # PDF + ZIP generati (non editare)
+├── releases/                    # PDF + ZIP generati (non editare, in .gitignore)
+│
+├── public/                      # PDF pubblicati (tracciata da git)
 │
 └── tech/
     ├── scripts/                 # script gestione avventure (vedi indice sotto)

@@ -144,4 +144,4 @@ tech/create-pdf-adventure/
 ## Output
 
 Il PDF viene generato in `releases/<NomeAvventura>/` (in `.gitignore`).
-Le versioni da pubblicare vanno copiate manualmente in `releases/public/` (tracciata da git).
+Le versioni da pubblicare vanno copiate manualmente in `public/` (root del progetto, tracciata da git).
