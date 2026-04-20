@@ -34,7 +34,7 @@ pandoc input.odt -o Output.md
 
 Il risultato va sempre revisionato: pandoc converte bene il testo ma può produrre formattazione spuria (asterischi, backslash, heading sbagliati). Aprire il file e fare una pulizia manuale.
 
-Immagini incorporate nell'`.odt`: pandoc le estrae in una directory `media/` — spostarle in `mappe/` o `personaggi/` secondo il tipo.
+Immagini incorporate nell'`.odt`: pandoc le estrae in una directory `media/` — spostarle in `maps/` o `characters/` secondo il tipo.
 
 ### Da `.pdf`
 
@@ -56,8 +56,11 @@ Nessuna conversione necessaria — procedere direttamente alla Fase 2.
 
 ```bash
 # Creare la directory dell'avventura
-mkdir -p adventures/NomeAvventura/{mappe,personaggi}
-mkdir -p adventures/NomeAvventura/01_NomeModulo/mappe
+mkdir -p adventures/NomeAvventura/{maps,characters}
+mkdir -p adventures/NomeAvventura/maps/other
+mkdir -p adventures/NomeAvventura/characters/{markdown,img,fightclub,statblock}
+mkdir -p adventures/NomeAvventura/other/pg
+mkdir -p adventures/NomeAvventura/01_NomeModulo/maps
 mkdir -p releases/NomeAvventura
 ```
 
@@ -72,26 +75,58 @@ Per ogni file legacy, decidere dove va nella struttura normalizzata:
 | contenuto legacy | file normalizzato |
 |-----------------|-------------------|
 | Documento principale avventura | `NomeAvventura.md` |
-| Scheda NPC | `personaggi/NPC_NomePersonaggio.md` |
+| Scheda NPC | `characters/markdown/NPC_NomePersonaggio.md` |
 | Modulo/dungeon/episodio | `NN_NomeModulo/NomeModulo.md` |
-| Mappa generale | `mappe/MappaGenerale.md` + immagine |
-| Mappa specifica di un modulo | `NN_NomeModulo/mappe/NomeMappa.png` |
-| Artwork personaggio | `personaggi/NomePersonaggio.png` |
-| Copertina | `Cover.png` |
+| Mappa grafica generale | `maps/NomeMappa.png` |
+| Descrizione mappa generale | `maps/NomeMappa.md` (stesso nome del PNG) |
+| Mappa grafica di un modulo | `NN_NomeModulo/maps/NomeMappa.png` |
+| Descrizione mappa di un modulo | `NN_NomeModulo/maps/NomeMappa.md` |
+| SVG sorgente di una mappa | `maps/other/NomeMappa.svg` |
+| Mappa draft/schematica | `maps/other/NomeMappa_draft.png` o `NN_*/maps/other/` |
+| Artwork personaggio | `characters/img/NomePersonaggio.png` |
+| Stat block NPC/mostro | `characters/statblock/NPC_*.png` o `MON_*.png` |
+| Stat block PG (*_GM) | `other/pg/*_GM.png` |
+| Copertina | `img/NomeAvventura_COVER.png` |
 | Note di lavoro, todo | `PlanBook.md` |
 | File di versione/release | ignorare (non migrato) |
 | Script legacy | ignorare (sostituito da `tech/scripts/release.sh`) |
+
+### Regole mappe
+
+- Ogni mappa `.md` ha lo **stesso nome base** della mappa grafica corrispondente (es. `FianusRomanus.md` + `FianusRomanus.png`).
+- Le mappe `.md` sono **schede DM**: contengono mappa testuale e informazioni segrete. Si usano quando la mappa grafica è assente o insufficiente.
+- Se esistono sia PNG che SVG, il **PNG è la versione canonica**. L'SVG va in `other/`.
+- Il nome generico `MappaDM.md` è **deprecato**: rinominare con nome specifico PascalCase.
+- Il file `MappaGenerale.md` è **deprecato**: splittare in un `.md` per ogni mappa.
+- Le versioni di lavoro/draft vanno in `other/` (con suffisso `_draft` se necessario).
+
+### Regole stat block
+
+- Solo `NPC_*.png` e `MON_*.png` in `characters/statblock/` sono contenuto dell'avventura.
+- I file `*_GM.*` (stat block PG importati da FightClub) vanno in `other/pg/`.
 
 ---
 
 ## Fase 4 — Rinomina secondo le convenzioni
 
 - File `.md`: **PascalCase** (es. `NomeFile.md`)
-- Directory: **minuscolo** (es. `personaggi/`, `mappe/`)
+- Directory strutturali: **minuscolo, inglese** (es. `maps/`, `characters/`, `other/`)
 - Moduli: prefisso numerico a due cifre (es. `01_NomeModulo/`)
 - Immagini: PascalCase (es. `MappaRegione.png`)
-- Copertina: `Cover.png`
+- Copertina: `NomeAvventura_COVER.png` in `img/`
+- Mappe: nome specifico PascalCase, non generico (es. `LeFogneDiFianus.md`, non `MappaDM.md`)
 - Nomi con spazi o caratteri speciali: rimuovere (es. `La fogna di Fianus.png` → `LeFogneDiFianus.png`)
+- Stat block: prefisso `NPC_` o `MON_` (es. `NPC_Korex.png`)
+
+### Nomi deprecati
+
+| Vecchio | Nuovo | Motivo |
+|---------|-------|--------|
+| `maps/` | `maps/` | Directory strutturali in inglese |
+| `characters/` | `characters/` | Directory strutturali in inglese |
+| `MappaGenerale.md` | Un `.md` per mappa (es. `FianusRomanus.md`) | Ogni mappa ha il suo file |
+| `MappaDM.md` | Nome specifico (es. `DiscesaNelleFogne.md`) | Nome generico non informativo |
+| `Cover.png` | `img/NomeAvventura_COVER.png` | Coerente con naming immagini |
 
 ---
 
@@ -120,7 +155,7 @@ Sezioni obbligatorie: `## Descrizione`, `## Obiettivo`, `## Ricompense`, `## Not
 
 Se mancano, aggiungerle con il tag `⚠ Da rivedere dall'autore` e un contenuto sintetico ricavato dal testo esistente.
 
-### Schede NPC `personaggi/NPC_NomePersonaggio.md`
+### Schede NPC `characters/markdown/NPC_NomePersonaggio.md`
 
 Sezioni obbligatorie: `## Informazioni generali`, `## Descrizione`, `## Motivazioni`, `## Note al master`
 
@@ -164,6 +199,8 @@ Il report viene salvato in `tech/reports/`. Iterare fino a zero errori (i warnin
 - Tutti i file obbligatori presenti
 - Tutte le sezioni obbligatorie presenti (con o senza tag `⚠`)
 - Naming convention rispettata
+- Nessun file deprecato (`MappaGenerale.md`, `MappaDM.md`, directory `maps/` o `characters/`)
+- File orfani o non riconosciuti segnalati e risolti
 
 ---
 

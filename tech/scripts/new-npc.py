@@ -25,7 +25,7 @@ def slug(name):
 
 def template_mode(adventure_dir, npc_name):
     filename = f"NPC_{slug(npc_name)}.md"
-    path = os.path.join(adventure_dir, "personaggi", filename)
+    path = os.path.join(adventure_dir, "characters", filename)
     content = f"""# {npc_name}
 
 ## Informazioni generali
@@ -88,7 +88,7 @@ def wizard_mode(adventure_dir, npc_name):
     note_text = note if note else "> ⚠ *Da compilare.*"
 
     filename = f"NPC_{slug(npc_name)}.md"
-    path = os.path.join(adventure_dir, "personaggi", filename)
+    path = os.path.join(adventure_dir, "characters", filename)
     content = f"""# {npc_name}
 
 ## Informazioni generali
@@ -134,7 +134,7 @@ def main():
         print(f"Errore: '{adventure_dir}' non trovata.")
         sys.exit(1)
 
-    os.makedirs(os.path.join(adventure_dir, "personaggi"), exist_ok=True)
+    os.makedirs(os.path.join(adventure_dir, "characters"), exist_ok=True)
 
     print(f"\n=== Nuovo NPC: {adventure_name} ===")
     npc_name = ask("Nome del personaggio")
@@ -143,10 +143,10 @@ def main():
         sys.exit(1)
 
     filename = f"NPC_{slug(npc_name)}.md"
-    path = os.path.join(adventure_dir, "personaggi", filename)
+    path = os.path.join(adventure_dir, "characters", filename)
 
     if os.path.isfile(path):
-        print(f"Errore: '{filename}' esiste già in personaggi/.")
+        print(f"Errore: '{filename}' esiste già in characters/.")
         sys.exit(1)
 
     if template:
@@ -157,7 +157,7 @@ def main():
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"\n✓ Creato: personaggi/{filename}")
+    print(f"\n✓ Creato: characters/{filename}")
     print(f"  Verifica: python3 tech/scripts/check-adventure.py {adventure_name}")
 
 if __name__ == "__main__":

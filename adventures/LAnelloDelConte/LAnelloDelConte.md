@@ -32,13 +32,13 @@ L'avventura è il **prologo** della campagna seria **Il Re Spezzato**. Il Conte 
 
 **Fianus Romanus** — Borgo nel sud di Drakenhold, governato dal Conte — un vassallo di Dorian il cui nome nessuno conosce. Vita rurale, commerci, tradizioni. Tutti si conoscono, tutti spettegolano, nessuno lavora quanto dovrebbe. Ha delle fogne sorprendentemente elaborate per un borgo di queste dimensioni (nessuno sa perché).
 
-**Mappe disponibili:** `mappe/RealmOfAmrog` (regione), `mappe/FianusRomanus` (borgo), `01_LeFogneDiFianus/mappe/LeFogneDiFianus` (dungeon quest 1).
+**Mappe disponibili:** `maps/RealmOfAmrog` (regione), `maps/FianusRomanus` (borgo), `01_LeFogneDiFianus/maps/LeFogneDiFianus` (dungeon quest 1).
 
 ---
 
 ## NPC principali
 
-Le schede complete sono in `personaggi/`.
+Le schede complete sono in `characters/`.
 
 ### Sir Gorim Vel
 
@@ -48,7 +48,7 @@ Funzionario del Conte, inviato a gestire il borgo. Tarchiato, esasperato, gestic
 
 Frasi ricorrenti: "Dai dai dai, che ce la facciamo", "Splendido. Meraviglioso." (sarcastico), "Ma che state a fa'?", "Io non ce la faccio più con voi".
 
-→ Scheda completa: `personaggi/NPC_SirGorimVel.md`
+→ Scheda completa: `characters/NPC_SirGorimVel.md`
 
 ### Il Conte
 
@@ -56,7 +56,7 @@ Frasi ricorrenti: "Dai dai dai, che ce la facciamo", "Splendido. Meraviglioso." 
 
 Nessuno sa come si chiama. Nessuno ha visto il suo volto. L'unica cosa nota è che è un vassallo di Re Dorian Valemarch. Governa Fianus Romanus tramite lettere, decreti e messaggeri. I suoi ordini sono spesso contraddittori. Nell'ultima puntata, proprio quando i PG stanno per incontrarlo, muore in un'esplosione. Niente nome, niente volto, niente risposte. La sua morte e il vuoto di potere che ne segue sono il gancio verso Il Re Spezzato.
 
-→ Scheda completa: `personaggi/NPC_IlConte.md`
+→ Scheda completa: `characters/NPC_IlConte.md`
 
 ---
 

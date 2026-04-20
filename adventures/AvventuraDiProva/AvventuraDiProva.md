@@ -27,7 +27,7 @@ Alla **Sala del Comune** — una stanza che odora di legno vecchio e formaggio �
 
 ## NPC principali
 
-Schede complete in `personaggi/`.
+Schede complete in `characters/`.
 
 - **Panza Grande** — borgomastro bonaccione, committente
 - **Rubizzo** — messo del borgomastro, si prende troppo sul serio

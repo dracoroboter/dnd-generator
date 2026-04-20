@@ -23,8 +23,8 @@ adventures/<NomeAvventura>/
 ├── PlanBook.md        ← non incluso nel PDF
 ├── *.md               ← convertiti in PDF
 ├── */*.md             ← convertiti in PDF (moduli nelle subdirectory)
-├── mappe/*.png|svg    ← copiati nella release
-└── personaggi/*.png|jpg ← copiati nella release
+├── maps/*.png|svg    ← copiati nella release
+└── characters/*.png|jpg ← copiati nella release
 ```
 
 Opzionale: `cover.png` nella root dell'avventura viene copiata nella release.
@@ -54,8 +54,8 @@ releases/<NomeAvventura>/<NomeAvventura>_v<versione>_<data>.zip
 Il ZIP contiene:
 ```
 pdf/          ← tutti i .md convertiti in PDF
-mappe/        ← immagini delle mappe
-personaggi/   ← artwork dei personaggi
+maps/        ← immagini delle mappe
+characters/   ← artwork dei personaggi
 RELEASE.txt   ← nome avventura, versione, data
 ```
 

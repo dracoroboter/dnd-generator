@@ -3,7 +3,7 @@
 Guida per creare schede NPC nel formato standard del progetto.
 
 Riferimenti:
-- Template NPC: `adventures/AdventureTemplate/personaggi/NPC_NomePersonaggio.md`
+- Template NPC: `adventures/AdventureTemplate/characters/NPC_NomePersonaggio.md`
 - Regole contenuto NPC: `tech/rules/ContentRules.md` (sezione PNG)
 - Script: `tech/scripts/new-npc.py`
 
@@ -26,7 +26,7 @@ python3 tech/scripts/new-npc.py NomeAvventura --template
 1. Chiede il nome del personaggio
 2. In modalità wizard: chiede ruolo, razza, allineamento, classe, tratto fisico, modo di parlare, motivazione, segreto, note al master
 3. In modalità template: crea il file con sezioni vuote marcate `⚠ Da compilare`
-4. Genera `personaggi/NPC_NomePersonaggio.md` nella directory dell'avventura
+4. Genera `characters/NPC_NomePersonaggio.md` nella directory dell'avventura
 
 ### Sezioni generate
 
@@ -53,7 +53,7 @@ python3 tech/scripts/new-npc.py NomeAvventura --template
 Per NPC complessi (antagonisti con stat block, abilità speciali, tattiche), il workflow più efficiente è:
 
 1. **Descrivi l'NPC all'AI in linguaggio naturale** — nome, ruolo, razza, classe, livello, personalità, abilità speciali, stat block se lo hai
-2. **L'AI genera il file** `personaggi/NPC_Nome.md` nel formato standard con tutti i dettagli meccanici
+2. **L'AI genera il file** `characters/NPC_Nome.md` nel formato standard con tutti i dettagli meccanici
 3. **Verifica** con `check-adventure.py`
 
 Questo workflow è più veloce del wizard per NPC con stat block complessi, perché l'AI può:
@@ -81,23 +81,23 @@ Un giocatore esporta il suo PG dall'app FightClub. Serve il markdown e lo stat b
 
 ```
 1. Ricevi il file XML dal giocatore
-   → salvalo in personaggi/fightclub/
+   → salvalo in characters/fightclub/
 
 2. Genera il markdown
-   python3 tech/fightclub/fightclub-to-md.py personaggi/fightclub/NomePC.xml \
-       -o personaggi/markdown/PG_NomePC.md
+   python3 tech/fightclub/fightclub-to-md.py characters/fightclub/NomePC.xml \
+       -o characters/markdown/PG_NomePC.md
 
 3. Genera lo stat block (PDF + PNG)
-   node tech/fightclub/md-to-statblock-pdf.js personaggi/fightclub/NomePC.xml \
-       -o personaggi/statblock/NomePC.pdf
-   node tech/fightclub/md-to-statblock-pdf.js personaggi/fightclub/NomePC.xml \
-       -o personaggi/statblock/NomePC.png
+   node tech/fightclub/md-to-statblock-pdf.js characters/fightclub/NomePC.xml \
+       -o characters/statblock/NomePC.pdf
+   node tech/fightclub/md-to-statblock-pdf.js characters/fightclub/NomePC.xml \
+       -o characters/statblock/NomePC.png
 
 4. (Opzionale) Aggiungi la foto
-   → metti l'immagine in personaggi/img/NomePC.png
+   → metti l'immagine in characters/img/NomePC.png
    → rigenera con --image:
-   node tech/fightclub/md-to-statblock-pdf.js personaggi/fightclub/NomePC.xml \
-       -o personaggi/statblock/NomePC.pdf --image personaggi/img/NomePC.png
+   node tech/fightclub/md-to-statblock-pdf.js characters/fightclub/NomePC.xml \
+       -o characters/statblock/NomePC.pdf --image characters/img/NomePC.png
 
 5. Completa il markdown generato
    → le sezioni narrative (Motivazioni, Note al master) sono marcate ⚠ Da compilare
@@ -110,22 +110,22 @@ Descrivi un NPC o mostro all'AI (o a mano). Serve il FightClub XML e lo stat blo
 
 ```
 1. Crea il markdown
-   → descrivi l'NPC all'AI, che genera personaggi/markdown/NPC_Nome.md
+   → descrivi l'NPC all'AI, che genera characters/markdown/NPC_Nome.md
    → oppure usa lo script: python3 tech/scripts/new-npc.py NomeAvventura
    → oppure scrivi a mano seguendo il formato in tech/rules/NPCFormat.md
 
 2. (Opzionale) Aggiungi la foto
-   → metti l'immagine in personaggi/img/Nome.png
+   → metti l'immagine in characters/img/Nome.png
 
 3. Genera il FightClub XML
-   python3 tech/fightclub/md-to-fightclub.py personaggi/markdown/NPC_Nome.md \
-       -o personaggi/fightclub/NPC_Nome.xml
+   python3 tech/fightclub/md-to-fightclub.py characters/markdown/NPC_Nome.md \
+       -o characters/fightclub/NPC_Nome.xml
 
 4. Genera lo stat block (PDF + PNG)
-   node tech/fightclub/md-to-statblock-pdf.js personaggi/fightclub/NPC_Nome.xml \
-       -o personaggi/statblock/NPC_Nome.pdf --image personaggi/img/Nome.png
-   node tech/fightclub/md-to-statblock-pdf.js personaggi/fightclub/NPC_Nome.xml \
-       -o personaggi/statblock/NPC_Nome.png --image personaggi/img/Nome.png
+   node tech/fightclub/md-to-statblock-pdf.js characters/fightclub/NPC_Nome.xml \
+       -o characters/statblock/NPC_Nome.pdf --image characters/img/Nome.png
+   node tech/fightclub/md-to-statblock-pdf.js characters/fightclub/NPC_Nome.xml \
+       -o characters/statblock/NPC_Nome.png --image characters/img/Nome.png
 
 5. Importa l'XML in FightClub
    → trasferisci NPC_Nome.xml sul dispositivo
@@ -139,7 +139,7 @@ Flow A (PG da app):     XML → md + stat block
 Flow B (NPC da testo):  md → XML → stat block
 
 Entrambi:
-  personaggi/
+  characters/
   ├── markdown/    ← fonte narrativa (.md)
   ├── img/         ← foto personaggi
   ├── fightclub/   ← XML per l'app (.xml)

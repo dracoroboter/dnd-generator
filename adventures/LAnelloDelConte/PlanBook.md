@@ -75,3 +75,20 @@ Ha trovato l'Anello nelle fogne prima dei PG e lo usa per una vendetta contro il
 ---
 
 *Ultimo aggiornamento: Aprile 2026*
+
+---
+
+## TODO — PDF avventura (create-pdf-adventure)
+
+### Cover
+- [ ] La cover (`LAnelloDelConte_COVER.png`) è landscape 1408x768px — serve portrait per A4. Lo script dovrebbe adattare l'immagine: aggiungere bande nere/sfondo, centrare, sovrapporre titolo. Da implementare nello script come trasformazione automatica per cover non-portrait.
+
+### Mappe nel PDF
+- [ ] Le mappe PNG del modulo (`01_LeFogneDiFianus/maps/LeFogneDiFianus.png`, `LeFogneDiFianusAlt.png`) non sono incluse nel PDF — lo script include solo `MappaDM.md`, non mappe grafiche. Aggiungere supporto per includere PNG dalle directory `maps/` dei moduli.
+- [ ] Mappe generali (`maps/FianusRomanus.png`, `maps/RealmOfAmrog.png`) non incluse — decidere se servono nel PDF
+
+### Stat block
+- [ ] Stat block con naming non-standard (`Barbara_GM.png`, `Maria_Biscanna_GM.png`) esclusi — rinominarli con prefisso `NPC_`/`PG_` per seguire la convenzione
+
+### Schede mappa DM
+- [ ] Nessun `MappaDM.md` per il modulo 01 — creare se serve per sessioni dal vivo

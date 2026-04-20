@@ -49,7 +49,7 @@ dungeonandragon/
 
 ### Naming Convention File
 - File `.md`: **PascalCase** (es. `NomeAvventura.md`, `NPC_IlConte.md`)
-- Directory: **minuscolo** (es. `personaggi/`, `mappe/`)
+- Directory: **minuscolo** (es. `characters/`, `maps/`)
 - Moduli: prefisso numerico a due cifre + PascalCase (es. `01_LeFogneDiFianus/`)
 - NPC: `NPC_<NomePersonaggio>.md`
 - Mappe immagini: PascalCase (es. `MappaRegione.png`)
@@ -63,14 +63,14 @@ dungeonandragon/
 | `AdventureBook.md` | Contesto e istruzioni specifiche per Kiro su questa avventura |
 | `PlanBook.md` | Todo list, stato avanzamento, note riservate al DM |
 | `NomeAvventura.md` | Documento principale: lore, plot, NPC, consigli master |
-| `mappe/MappaGenerale.md` | Luoghi, connessioni, distanze |
+| `maps/MappaGenerale.md` | Luoghi, connessioni, distanze |
 
 ### Struttura moduli
 Ogni modulo/quest in subdirectory `NN_NomeModulo/` con risorse proprie:
 ```
 NN_NomeModulo/
 ├── NomeModulo.md
-└── mappe/        ← opzionale
+└── maps/        ← opzionale
 ```
 
 ### Schede personaggio

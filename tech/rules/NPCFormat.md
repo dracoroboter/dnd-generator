@@ -14,7 +14,7 @@ Questo formato è la fonte di verità per la generazione di XML FightClub e stat
 ## Naming
 
 - File: `PREFISSO_PascalCase.md`
-- Posizione: `adventures/<NomeAvventura>/personaggi/markdown/`
+- Posizione: `adventures/<NomeAvventura>/characters/markdown/`
 
 ### Prefissi
 
@@ -27,8 +27,8 @@ Questo formato è la fonte di verità per la generazione di XML FightClub e stat
 Il prefisso determina il tipo nel titolo e nell'export XML. Il formato del file è identico per tutti e tre — la distinzione è solo nel prefisso e nel ruolo narrativo.
 
 La stessa convenzione si applica ai file generati:
-- `personaggi/fightclub/NPC_SirGorimVel.xml`, `MON_RattoCorrotto.xml`
-- `personaggi/statblock/NPC_SirGorimVel.pdf`, `MON_RattoCorrotto.pdf`
+- `characters/fightclub/NPC_SirGorimVel.xml`, `MON_RattoCorrotto.xml`
+- `characters/statblock/NPC_SirGorimVel.pdf`, `MON_RattoCorrotto.pdf`
 
 ---
 
@@ -196,20 +196,20 @@ Testo libero. Non esportati nell'XML FightClub (sono sezioni narrative, non mecc
 
 | tipo | prefisso | formato MD | fonte XML | export |
 |------|----------|-----------|-----------|--------|
-| **NPC** | `NPC_` | `NPC_*.md` in `personaggi/markdown/` | generato da `md-to-fightclub.py` | XML + stat block PDF/PNG |
-| **Mostri** | `MON_` | `MON_*.md` in `personaggi/markdown/` | generato da `md-to-fightclub.py` | XML + stat block PDF/PNG |
-| **PG** | `PG_` | raro (gestiti dall'app FightClub) | esportati dall'app in `personaggi/fightclub/` | stat block PDF/PNG |
+| **NPC** | `NPC_` | `NPC_*.md` in `characters/markdown/` | generato da `md-to-fightclub.py` | XML + stat block PDF/PNG |
+| **Mostri** | `MON_` | `MON_*.md` in `characters/markdown/` | generato da `md-to-fightclub.py` | XML + stat block PDF/PNG |
+| **PG** | `PG_` | raro (gestiti dall'app FightClub) | esportati dall'app in `characters/fightclub/` | stat block PDF/PNG |
 
 ---
 
 ## Pipeline
 
 ```
-personaggi/markdown/NPC_Nome.md
+characters/markdown/NPC_Nome.md
     ↓ md-to-fightclub.py
-personaggi/fightclub/NPC_Nome.xml
-    ↓ md-to-statblock-pdf.js [--image personaggi/img/Nome.ext]
-personaggi/statblock/NPC_Nome.pdf + NPC_Nome.png
+characters/fightclub/NPC_Nome.xml
+    ↓ md-to-statblock-pdf.js [--image characters/img/Nome.ext]
+characters/statblock/NPC_Nome.pdf + NPC_Nome.png
 ```
 
 ---

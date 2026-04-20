@@ -28,11 +28,11 @@ Ordine di assemblaggio per un'avventura standard:
 | 2 | (generata) | **Frontespizio** — titolo, livello, sistema, versione |
 | 3 | `<Avventura>.md` | **Documento principale** — lore, plot, NPC, struttura, consigli |
 | 4 | `01_*/modulo.md` | **Modulo 1** |
-| 5 | `01_*/mappe/MappaDM.md` | Scheda mappa modulo 1 |
+| 5 | `01_*/maps/MappaDM.md` | Scheda mappa modulo 1 |
 | 6 | `02_*/modulo.md` | **Modulo 2** |
-| 7 | `02_*/mappe/MappaDM.md` | Scheda mappa modulo 2 |
+| 7 | `02_*/maps/MappaDM.md` | Scheda mappa modulo 2 |
 | … | (altri moduli) | … |
-| N | `personaggi/statblock/NPC_*.png` | **Appendice — Stat Block** |
+| N | `characters/statblock/NPC_*.png` | **Appendice — Stat Block** |
 
 ### File esclusi dal PDF
 
@@ -42,8 +42,8 @@ Ordine di assemblaggio per un'avventura standard:
 | `AdventureBook.md` | Istruzioni per l'AI |
 | `PlanBook.md` | Todo list di sviluppo dell'avventura |
 | `DiscussioneNarrativa.md` | Todo list narrativa (file di lavoro, non contenuto giocabile) |
-| `mappe/MappaGenerale.md` | Contenuto già presente nei MappaDM |
-| `personaggi/markdown/NPC_*.md` | Ridondanti con stat block PNG |
+| `maps/MappaGenerale.md` | Contenuto già presente nei MappaDM |
+| `characters/markdown/NPC_*.md` | Ridondanti con stat block PNG |
 
 > **TODO naming convention**: servono prefissi o convenzioni per distinguere file di lavoro (Plan*, Todo*, Discussione*) da file di contenuto effettivo. Vedi `plan-meta-dnd.md` sezione "Naming convention documentazione".
 
@@ -67,7 +67,7 @@ CSS custom applicato al PDF:
 
 ## Stat block in appendice
 
-Gli stat block PNG già generati dalla pipeline FightClub (`personaggi/statblock/NPC_*.png`) vengono inclusi come immagini nell'appendice.
+Gli stat block PNG già generati dalla pipeline FightClub (`characters/statblock/NPC_*.png`) vengono inclusi come immagini nell'appendice.
 
 ### NPC senza stat block PNG
 
@@ -75,9 +75,9 @@ Jason Accordion ha solo il markdown, niente stat block grafico. **Soluzione**: c
 
 Pipeline per generare stat block mancanti:
 ```
-personaggi/markdown/NPC_JasonAccordion.md
-    → md-to-fightclub.py → personaggi/fightclub/NPC_JasonAccordion.xml
-    → md-to-statblock-pdf.js → personaggi/statblock/NPC_JasonAccordion.png
+characters/markdown/NPC_JasonAccordion.md
+    → md-to-fightclub.py → characters/fightclub/NPC_JasonAccordion.xml
+    → md-to-statblock-pdf.js → characters/statblock/NPC_JasonAccordion.png
 ```
 
 Il formato markdown NPC è documentato in `tech/rules/NPCFormat.md`. Sezioni obbligatorie: Informazioni generali, Descrizione, Motivazioni, Note al master. Sezioni meccaniche per export: Stat Block (tabella 6 abilità + campi PF/CA/velocità/etc.), Attacchi (sottosezioni `###` con Attacco/Danni/Effetto).
@@ -132,6 +132,7 @@ Coerente con `release.sh`. La directory `releases/` è già in `.gitignore`.
 
 1. **Naming convention file di lavoro vs contenuto** — da definire a livello di progetto (vedi `plan-meta-dnd.md`). Impatta quali file lo script include/esclude automaticamente. Non bloccante per la prima versione (la lista di esclusione è hardcoded).
 2. **Ordine stat block in appendice** — per ordine di apparizione: Korex → Fin Ditasvelte → Jason Accordion. ✅ Deciso.
+3. **Supporto mappe PNG nei moduli** — lo script include solo `MappaDM.md` (testo), non le mappe grafiche PNG/SVG nelle directory `maps/`. Da aggiungere: includere immagini da `NN_*/maps/` e `maps/` dopo il contenuto del modulo corrispondente.
 
 ## Relazione con release.sh
 

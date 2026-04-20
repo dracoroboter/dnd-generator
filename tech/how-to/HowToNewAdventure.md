@@ -69,7 +69,7 @@ Lo script:
 - Copia `adventures/AdventureTemplate/` in `adventures/NomeMiaAvventura/`
 - Rinomina `NomeAvventura.md` → `NomeMiaAvventura.md`
 - Rinomina il modulo placeholder `01_NomeModulo/NomeModulo.md` → `01_NomeModulo/NomeMiaAvventura_Modulo01.md`
-- Crea il placeholder NPC `personaggi/NPC_NomePersonaggio.md.placeholder`
+- Crea il placeholder NPC `characters/NPC_NomePersonaggio.md.placeholder`
 - Sostituisce `[NomeAvventura]` nei file `.md`
 - Crea `releases/NomeMiaAvventura/`
 
@@ -81,9 +81,9 @@ adventures/NomeMiaAvventura/
 ├── AdventureBook.md
 ├── PlanBook.md
 ├── NomeMiaAvventura.md
-├── mappe/
+├── maps/
 │   └── MappaGenerale.md
-├── personaggi/
+├── characters/
 │   └── (vuota — usare new-npc.py per creare NPC)
 │       ├── markdown/      ← schede NPC_*.md
 │       ├── img/           ← artwork personaggi (opzionale)
@@ -91,7 +91,7 @@ adventures/NomeMiaAvventura/
 │       └── statblock/     ← PDF e PNG stampabili (generati)
 └── 01_NomeModulo/
     ├── NomeModulo.md                        ← placeholder generico, da rinominare subito
-    └── mappe/
+    └── maps/
 ```
 
 > **Nota**: il modulo `01_NomeModulo/NomeModulo.md` è un placeholder generico. Il primo passo dopo lo scaffolding è rinominare directory e file del modulo e crearne altri se servono (vedi Fase 3).
@@ -166,7 +166,7 @@ mv 03_NomeTerzoModulo/NomePrimoModulo.md 03_NomeTerzoModulo/NomeTerzoModulo.md
 |----------|---------|---------|
 | Directory modulo | `NN_PascalCase` | `01_RitornoAGreyhawkins` |
 | File modulo | `PascalCase.md` | `RitornoAGreyhawkins.md` |
-| Sottodirectory mappe | `mappe/` (minuscolo) | `01_RitornoAGreyhawkins/mappe/` |
+| Sottodirectory mappe | `maps/` (minuscolo) | `01_RitornoAGreyhawkins/maps/` |
 
 ### Creare NPC
 
@@ -184,17 +184,17 @@ python3 tech/scripts/new-npc.py NomeMiaAvventura --template
 
 | elemento | formato | esempio |
 |----------|---------|---------|
-| File NPC markdown | `NPC_PascalCase.md` | `personaggi/markdown/NPC_Korex.md` |
-| File NPC XML | `NPC_PascalCase.xml` | `personaggi/fightclub/NPC_Korex.xml` |
-| File NPC stat block | `NPC_PascalCase.pdf/.png` | `personaggi/statblock/NPC_Korex.pdf` |
-| Artwork NPC | `PascalCase.ext` | `personaggi/img/Korex.png` |
+| File NPC markdown | `NPC_PascalCase.md` | `characters/markdown/NPC_Korex.md` |
+| File NPC XML | `NPC_PascalCase.xml` | `characters/fightclub/NPC_Korex.xml` |
+| File NPC stat block | `NPC_PascalCase.pdf/.png` | `characters/statblock/NPC_Korex.pdf` |
+| Artwork NPC | `PascalCase.ext` | `characters/img/Korex.png` |
 
 ### Naming convention generale
 
 | elemento | formato | esempio |
 |----------|---------|---------|
 | File `.md` | PascalCase | `FuoriDaHellfire.md` |
-| Directory | minuscolo | `personaggi/`, `mappe/` |
+| Directory | minuscolo | `characters/`, `maps/` |
 | Immagini | PascalCase | `MappaOakshore.png` |
 | Copertina | `Cover.png` | `Cover.png` |
 
@@ -233,7 +233,7 @@ La sezione `## Struttura dell'avventura` contiene la tabella dei moduli con link
 | 2 | La Cicatrice | dungeon / mystery | [02_LaCicatrice/LaCicatrice.md](...) |
 ```
 
-#### 2. Mappa generale (`mappe/MappaGenerale.md`)
+#### 2. Mappa generale (`maps/MappaGenerale.md`)
 
 Luoghi, connessioni, distanze. Formato:
 
@@ -291,7 +291,7 @@ python3 tech/scripts/encounter-difficulty.py -p 4 3 -m 2 1 1 3
 
 Guida dettagliata: `tech/how-to/HowToEncounterDifficulty.md`
 
-#### 4. Schede NPC (`personaggi/NPC_*.md`)
+#### 4. Schede NPC (`characters/NPC_*.md`)
 
 Sezioni obbligatorie per tutti i PNG:
 
@@ -402,7 +402,7 @@ Guida dettagliata: `tech/how-to/HowToRelease.md`
 | `AdventureBook.md` | Istruzioni per l'AI |
 | `PlanBook.md` | Stato lavoro, todo, note DM |
 | `NomeMiaAvventura.md` | Documento principale: lore, plot, NPC, struttura |
-| `mappe/MappaGenerale.md` | Luoghi, connessioni, distanze |
+| `maps/MappaGenerale.md` | Luoghi, connessioni, distanze |
 | `NN_NomeModulo/NomeModulo.md` | Un file per modulo (almeno uno) |
 
 ---

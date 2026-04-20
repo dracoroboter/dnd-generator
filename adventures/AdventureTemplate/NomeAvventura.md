@@ -20,7 +20,7 @@
 
 ## NPC principali
 
-*(riepilogo breve; schede complete in `personaggi/`)*
+*(riepilogo breve; schede complete in `characters/`)*
 
 ## Struttura dell'avventura
 

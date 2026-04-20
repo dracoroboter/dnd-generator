@@ -30,7 +30,7 @@ I PG hanno appena finito lo scontro con i ratti. Korex è fuggito attraverso una
 
 ## NPC principali
 
-Schede complete in `personaggi/`.
+Schede complete in `characters/`.
 
 - **Korex** — elfo bardo CE, antagonista principale. Charmer musicale, manipolatore, vigliacco in combattimento diretto.
 - **Fin Ditasvelte** — halfling ladro CN, NPC companion. Curioso, impulsivo, mani lunghe. Progettato come portatore dell'anello (scenario B).

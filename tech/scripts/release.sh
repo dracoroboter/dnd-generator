@@ -6,8 +6,8 @@
 # Struttura attesa dell'avventura:
 #   adventures/<NomeAvventura>/
 #     *.md, */*.md          → convertiti in PDF
-#     mappe/*.png|svg       → copiati nella release
-#     personaggi/*.png|jpg  → copiati nella release
+#     maps/*.png|svg       → copiati nella release
+#     characters/*.png|jpg  → copiati nella release
 #     cover.png             → copertina (opzionale)
 #
 # Output:
@@ -62,15 +62,15 @@ done
 # Copia mappe
 echo ""
 echo "Copia mappe..."
-find "$ADVENTURE_DIR" -path "*/mappe/*.png" -o -path "*/mappe/*.svg" | sort | while read -r f; do
-    cp "$f" "$BUILD_DIR/mappe/" && echo "  $(basename "$f")"
+find "$ADVENTURE_DIR" -path "*/maps/*.png" -o -path "*/maps/*.svg" | sort | while read -r f; do
+    cp "$f" "$BUILD_DIR/maps/" && echo "  $(basename "$f")"
 done
 
 # Copia artwork personaggi
 echo ""
 echo "Copia artwork personaggi..."
 find "$ADVENTURE_DIR/personaggi" -name "*.png" -o -name "*.jpg" 2>/dev/null | sort | while read -r f; do
-    cp "$f" "$BUILD_DIR/personaggi/" && echo "  $(basename "$f")"
+    cp "$f" "$BUILD_DIR/characters/" && echo "  $(basename "$f")"
 done
 
 # Copia copertina
@@ -87,8 +87,8 @@ Data: $DATE
 
 Contenuto:
 - pdf/          Documenti dell'avventura in formato PDF
-- mappe/        Mappe (immagini)
-- personaggi/   Artwork personaggi
+- maps/        Mappe (immagini)
+- characters/   Artwork personaggi
 
 Sistema: D&D 5e (2014)
 EOF

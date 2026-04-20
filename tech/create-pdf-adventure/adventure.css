@@ -211,6 +211,26 @@ a {
     max-height: 85vh;
 }
 
+/* === Map images === */
+.map-page {
+    page-break-before: always;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.map-page img {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.map-caption {
+    font-family: serif;
+    font-size: 11pt;
+    color: #58180d;
+    font-style: italic;
+    margin-top: 0.8em;
+}
+
 /* === Section breaks === */
 .section-break {
     page-break-before: always;

@@ -11,4 +11,4 @@ Questa avventura segue la struttura standard definita in `tech/rules/AdventureTe
 - Fin Ditasvelte (halfling rogue CN) è l'NPC companion — progettato come portatore dell'Anello del Virtuoso
 - Jason Accordion è l'entità nell'anello — villain della saga lv4-6
 - Cliffhanger Piano A (PG indossa anello) è definito. Piano B (guardia) ha semi aperti per la saga.
-- Punti aperti per la saga: vedi `DiscussioneNarrativa.md` e `personaggi/NPC_JasonAccordion.md` sezione "Punti aperti"
+- Punti aperti per la saga: vedi `DiscussioneNarrativa.md` e `characters/NPC_JasonAccordion.md` sezione "Punti aperti"

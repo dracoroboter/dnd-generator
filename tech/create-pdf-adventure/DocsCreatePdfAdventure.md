@@ -56,13 +56,13 @@ Il file `<Avventura>.md` nella root dell'avventura. Contiene lore, plot generale
 
 Per ogni directory `NN_NomeModulo/`:
 - Il file `.md` principale del modulo (il contenuto giocabile)
-- Il file `mappe/MappaDM.md` se presente (scheda mappa per disegno al tavolo)
+- Il file `maps/MappaDM.md` se presente (scheda mappa per disegno al tavolo)
 
 I moduli sono separati da page break.
 
 ### 5. Appendice — Stat Block
 
-Tutti i file `personaggi/statblock/NPC_*.png` inclusi come immagini, uno per pagina. Ordine di apparizione nell'avventura: Korex → Fin Ditasvelte → Jason Accordion.
+Tutti i file `characters/statblock/NPC_*.png` inclusi come immagini, uno per pagina. Ordine di apparizione nell'avventura: Korex → Fin Ditasvelte → Jason Accordion.
 
 Gli stat block sono già in grafica WotC (generati dalla pipeline FightClub). Non vengono ri-renderizzati.
 
@@ -74,8 +74,8 @@ Gli stat block sono già in grafica WotC (generati dalla pipeline FightClub). No
 | `AdventureBook.md` | Istruzioni per l'AI |
 | `PlanBook.md` | Todo list di sviluppo |
 | `DiscussioneNarrativa.md` | Note di design, file di lavoro |
-| `mappe/MappaGenerale.md` | Contenuto già nei MappaDM dei moduli |
-| `personaggi/markdown/NPC_*.md` | Ridondanti con stat block PNG |
+| `maps/MappaGenerale.md` | Contenuto già nei MappaDM dei moduli |
+| `characters/markdown/NPC_*.md` | Ridondanti con stat block PNG |
 
 ## Grafica
 
@@ -111,9 +111,9 @@ CSS custom scritto ad hoc per il progetto (`adventure.css`). Non è un template 
 Gli stat block PNG devono essere già generati prima di lanciare lo script. Pipeline:
 
 ```
-personaggi/markdown/NPC_*.md
-    → tech/fightclub/md-to-fightclub.py → personaggi/fightclub/NPC_*.xml
-    → tech/fightclub/md-to-statblock-pdf.js -o *.png → personaggi/statblock/NPC_*.png
+characters/markdown/NPC_*.md
+    → tech/fightclub/md-to-fightclub.py → characters/fightclub/NPC_*.xml
+    → tech/fightclub/md-to-statblock-pdf.js -o *.png → characters/statblock/NPC_*.png
 ```
 
 Lo script `create-pdf-adventure.py` non genera stat block — li include come immagini.

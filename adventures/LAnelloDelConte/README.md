@@ -5,6 +5,7 @@
 **Durata**: campagna (5+ puntate)
 **Struttura**: lineare
 **Tono**: umoristico
+**Autore**: dracoroboter
 **Saga**: Lo Scettro di Tyr
 **Posizione**: Puntata 1 di 5 (prequel)
 **Segue**: —

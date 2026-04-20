@@ -53,9 +53,9 @@ adventures/AdventureName/
 ├── AdventureBook.md       # DM-facing notes (Kiro instructions)
 ├── PlanBook.md            # DM checklist & progress tracker
 ├── NomeAvventura.md       # Main narrative document
-├── mappe/
+├── maps/
 │   └── MappaGenerale.md   # Location index + map images
-├── personaggi/
+├── characters/
 │   └── NPC_NomePersonaggio.md
 └── 01_NomeModulo/
     └── NomeModulo.md      # At least one module required

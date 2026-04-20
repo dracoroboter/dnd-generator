@@ -25,7 +25,7 @@ Dovrebbe restare generico (`NomeAvventuraPrecedente`) perché è un commento-gui
 ### P3 — Il placeholder NPC viene rinominato in `.placeholder` ma non è documentato chiaramente
 Il file diventa `NPC_NomePersonaggio.md.placeholder`. L'how-to dice di eliminarlo, ma un nuovo utente potrebbe non capire che è un file da cancellare e non da rinominare.
 
-**Suggerimento**: o lo script lo elimina direttamente (lasciando la directory `personaggi/` vuota), oppure il file mantiene estensione `.md` con un commento interno che dice "questo è un placeholder, rinominami o cancellami".
+**Suggerimento**: o lo script lo elimina direttamente (lasciando la directory `characters/` vuota), oppure il file mantiene estensione `.md` con un commento interno che dice "questo è un placeholder, rinominami o cancellami".
 
 ### P4 — Lo script non crea moduli aggiuntivi
 Se il concept prevede 3 moduli, il DM deve creare manualmente `02_*` e `03_*` copiando dal primo. L'how-to documenta il processo, ma lo script potrebbe accettare un parametro opzionale per il numero di moduli.
@@ -48,7 +48,7 @@ Il concept (Fase 0) viene scritto a mente o in chat, ma non ha un posto nel repo
 
 - [x] P1: script corretto — il file modulo resta `NomeModulo.md`
 - [x] P2: template corretto — placeholder saga ora `<avventura-precedente>`
-- [x] P3: script corretto — placeholder NPC eliminato, directory `personaggi/` vuota
+- [x] P3: script corretto — placeholder NPC eliminato, directory `characters/` vuota
 - [x] P4: script corretto — aggiunto `--modules N`
 - [x] H1: how-to aggiornato per riflettere tutte le correzioni
 - [x] H2: concept va nel PlanBook — aggiunta sezione `## Concept` al template
@@ -58,8 +58,8 @@ Il concept (Fase 0) viene scritto a mente o in chat, ma non ha un posto nel repo
 
 ## Problemi emersi nella sessione 2026-04-18/19
 
-### P5 — check-adventure.py non conosce la nuova struttura personaggi/
-Lo script cerca `NPC_*.md` direttamente in `personaggi/`, ma ora i file sono in `personaggi/markdown/`. Va aggiornato per cercare in entrambe le posizioni (retrocompatibilità).
+### P5 — check-adventure.py non conosce la nuova struttura characters/
+Lo script cerca `NPC_*.md` direttamente in `characters/`, ma ora i file sono in `characters/markdown/`. Va aggiornato per cercare in entrambe le posizioni (retrocompatibilità).
 
 ### P6 — Corridoi nel renderer v2 hanno bordi che non arrivano ai muri
 I bordi laterali dei corridoi si estendono di `ext` pixel ma il fix è parziale (solo orizzontali). Serve un approccio più robusto — possibilmente spline o calcolo geometrico dei punti di intersezione corridoio/muro.

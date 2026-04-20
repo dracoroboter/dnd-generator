@@ -8,7 +8,7 @@ Le app supportano l'import di contenuti homebrew tramite file **XML** con un for
 
 ## A cosa serve nel progetto
 
-Convertire le schede NPC markdown del progetto (`personaggi/NPC_*.md`) in file XML importabili in FightClub/Game Master 5e. Così il DM ha gli NPC homebrew disponibili sull'iPad/telefono durante la sessione, senza dover consultare i file markdown.
+Convertire le schede NPC markdown del progetto (`characters/NPC_*.md`) in file XML importabili in FightClub/Game Master 5e. Così il DM ha gli NPC homebrew disponibili sull'iPad/telefono durante la sessione, senza dover consultare i file markdown.
 
 ## Come si usa un file XML in FightClub
 

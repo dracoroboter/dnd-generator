@@ -46,7 +46,7 @@ cp -r "$TEMPLATE_DIR" "$DEST_DIR"
 
 # Rinomina file placeholder
 mv "$DEST_DIR/NomeAvventura.md" "$DEST_DIR/${ADVENTURE}.md"
-rm "$DEST_DIR/personaggi/NPC_NomePersonaggio.md"
+rm "$DEST_DIR/characters/NPC_NomePersonaggio.md"
 
 # Crea moduli aggiuntivi (il template ha già 01_NomeModulo)
 for i in $(seq 2 "$NUM_MODULES"); do

@@ -12,12 +12,12 @@ echo "=== Test MD → XML ==="
 
 echo "--- Korex (stat block completo) ---"
 python3 "$SCRIPT_DIR/md-to-fightclub.py" \
-    "$PROJECT_ROOT/adventures/FuoriDaHellfire/personaggi/NPC_Korex.md" \
+    "$PROJECT_ROOT/adventures/FuoriDaHellfire/characters/NPC_Korex.md" \
     -o "$TEST_DIR/korex.xml"
 
 echo "--- Cattivone (mago con incantesimi) ---"
 python3 "$SCRIPT_DIR/md-to-fightclub.py" \
-    "$PROJECT_ROOT/adventures/AvventuraDiProva/personaggi/NPC_Cattivone.md" \
+    "$PROJECT_ROOT/adventures/AvventuraDiProva/characters/NPC_Cattivone.md" \
     -o "$TEST_DIR/cattivone.xml"
 
 echo ""

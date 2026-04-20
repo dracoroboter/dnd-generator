@@ -17,7 +17,7 @@
 
 ## Fogne di Fianus
 
-(mappa: `01_LeFogneDiFianus/mappe/LeFogneDiFianus`)
+(mappa: `01_LeFogneDiFianus/maps/LeFogneDiFianus`)
 
 Dungeon a 5 stanze sotto il borgo. Accesso da botola in vicolo a Settebagni.
 

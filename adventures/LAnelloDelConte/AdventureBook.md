@@ -13,6 +13,6 @@ Questa avventura segue la struttura standard definita in `tech/rules/AdventureTe
 
 ## Mappe disponibili
 
-- `mappe/RealmOfAmrog.*` — mappa regionale del regno
-- `mappe/FianusRomanus.*` — mappa del borgo
-- `01_LeFogneDiFianus/mappe/LeFogneDiFianus.png` — mappa del dungeon
+- `maps/RealmOfAmrog.*` — mappa regionale del regno
+- `maps/FianusRomanus.*` — mappa del borgo
+- `01_LeFogneDiFianus/maps/LeFogneDiFianus.png` — mappa del dungeon

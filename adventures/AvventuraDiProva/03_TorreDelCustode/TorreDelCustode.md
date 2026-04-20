@@ -31,7 +31,7 @@ Scoprire cosa vuole Cattivone, fermare il suo piano (almeno per ora).
 | nome | numero | PF | CA | note |
 |------|--------|----|----|------|
 | Golem di paglia | 2 | 15 | 11 | immunità perforante, vulnerabilità fuoco |
-| Cattivone (mago liv.5) | 1 | 28 | 12 | vedi [NPC_Cattivone.md](../personaggi/NPC_Cattivone.md) |
+| Cattivone (mago liv.5) | 1 | 28 | 12 | vedi [NPC_Cattivone.md](../characters/NPC_Cattivone.md) |
 
 ### Tattiche di Cattivone
 - Round 1: lancia **Palla di Fuoco** o **Fulmine** se possibile, altrimenti **Dardo Incantato**

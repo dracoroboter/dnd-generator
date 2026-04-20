@@ -11,10 +11,12 @@ import sys
 import os
 import re
 from datetime import datetime
+from pathlib import Path
 
 ERRORS = []
 WARNINGS = []
-LOG = []  # tutte le righe per il report
+LOG = []
+
 
 def error(msg):
     line = f"  ✗ {msg}"
@@ -40,71 +42,26 @@ def check_file_exists(path, label, required=True):
     if os.path.isfile(path):
         ok(label)
         return True
-    else:
-        (error if required else warn)(f"{label} mancante: {os.path.relpath(path)}")
-        return False
+    (error if required else warn)(f"{label} mancante: {os.path.relpath(path)}")
+    return False
 
 def check_dir_exists(path, label, required=True):
     if os.path.isdir(path):
         ok(label)
         return True
-    else:
-        (error if required else warn)(f"Directory {label} mancante: {os.path.relpath(path)}")
-        return False
+    (error if required else warn)(f"Directory {label} mancante: {os.path.relpath(path)}")
+    return False
 
 def check_sections(filepath, sections, label):
     if not os.path.isfile(filepath):
         return
     content = open(filepath, encoding="utf-8").read()
-    for section in sections:
-        pattern = rf"^##\s+{re.escape(section)}"
-        if re.search(pattern, content, re.MULTILINE | re.IGNORECASE):
-            ok(f"{label}: sezione '{section}'")
+    for s in sections:
+        if re.search(rf"^##\s+{re.escape(s)}", content, re.MULTILINE | re.IGNORECASE):
+            ok(f"{label}: sezione '{s}'")
         else:
-            error(f"{label}: sezione '## {section}' mancante")
+            error(f"{label}: sezione '## {s}' mancante")
 
-def check_naming_conventions(adventure_dir):
-    # File .md devono essere PascalCase
-    for root, dirs, files in os.walk(adventure_dir):
-        rel_root = os.path.relpath(root, adventure_dir)
-        for f in files:
-            if not f.endswith(".md"):
-                continue
-            # Escludi file speciali con naming fisso
-            if f in ("README.md", "AdventureBook.md", "PlanBook.md"):
-                continue
-            # PascalCase: inizia con maiuscola, niente trattini o underscore (eccetto NPC_)
-            if not re.match(r'^[A-Z][A-Za-z0-9_]*\.md$', f):
-                error(f"Naming non PascalCase: {os.path.join(rel_root, f)}")
-
-        # Directory devono essere minuscole (eccetto moduli NN_ e root)
-        for d in dirs:
-            rel_d = os.path.join(rel_root, d)
-            # Moduli: NN_NomeModulo — ok
-            if re.match(r'^\d{2}_', d):
-                continue
-            # Directory di sistema
-            if d.startswith('.'):
-                continue
-            if d != d.lower():
-                error(f"Directory non minuscola: {rel_d}/")
-
-def check_saga_metadata(adventure_dir):
-    readme = os.path.join(adventure_dir, "README.md")
-    if not os.path.isfile(readme):
-        return
-    content = open(readme, encoding="utf-8").read()
-    if "**Saga**:" not in content:
-        return
-    for field in ["**Posizione**:", "**Segue**:", "**Precede**:"]:
-        if field not in content:
-            error(f"README.md: campo saga '{field}' mancante")
-
-def check_forbidden(adventure_dir):
-    for forbidden in ["versioni", "Versioni", "Versions"]:
-        path = os.path.join(adventure_dir, forbidden)
-        if os.path.isdir(path):
-            error(f"Directory '{forbidden}/' presente — le release vanno in releases/<NomeAvventura>/")
 
 KNOWN_MAIN_SECTIONS = {
     "Lore", "Introduzione", "NPC principali", "Struttura dell'avventura",
@@ -127,11 +84,127 @@ def check_unknown_sections(filepath, known, label):
     if not os.path.isfile(filepath):
         return
     content = open(filepath, encoding="utf-8").read()
-    found = re.findall(r'^##\s+(.+)$', content, re.MULTILINE)
-    for s in found:
-        s_clean = s.strip()
-        if s_clean not in known:
-            warn(f"{label}: sezione non prevista '## {s_clean}'")
+    for s in re.findall(r'^##\s+(.+)$', content, re.MULTILINE):
+        if s.strip() not in known:
+            warn(f"{label}: sezione non prevista '## {s.strip()}'")
+
+
+def check_naming_conventions(adventure_dir):
+    for root, dirs, files in os.walk(adventure_dir):
+        rel_root = os.path.relpath(root, adventure_dir)
+        # Skip other/ directories entirely
+        if "other" in Path(rel_root).parts:
+            dirs.clear()
+            continue
+        for f in files:
+            if not f.endswith(".md"):
+                continue
+            if f in ("README.md", "AdventureBook.md", "PlanBook.md"):
+                continue
+            if not re.match(r'^[A-Z][A-Za-z0-9_]*\.md$', f):
+                error(f"Naming non PascalCase: {os.path.join(rel_root, f)}")
+        for d in dirs:
+            if re.match(r'^\d{2}_', d) or d.startswith('.') or d == "other":
+                continue
+            if d != d.lower():
+                error(f"Directory non minuscola: {os.path.join(rel_root, d)}/")
+
+
+def check_deprecated(adventure_dir):
+    """Check for deprecated files and directories."""
+    # Deprecated directories (italian names)
+    for old_name, new_name in [("mappe", "maps"), ("personaggi", "characters")]:
+        old_path = os.path.join(adventure_dir, old_name)
+        if os.path.isdir(old_path):
+            error(f"Directory deprecata '{old_name}/' — rinominare in '{new_name}/'")
+
+    # Deprecated MappaGenerale.md
+    mg = os.path.join(adventure_dir, "maps", "MappaGenerale.md")
+    if os.path.isfile(mg):
+        warn("maps/MappaGenerale.md deprecato — splittare in un .md per ogni mappa (stesso nome del PNG)")
+
+    # Deprecated MappaDM.md in modules
+    for d in sorted(os.listdir(adventure_dir)):
+        if not re.match(r'^\d{2}_', d):
+            continue
+        dm = os.path.join(adventure_dir, d, "maps", "MappaDM.md")
+        if os.path.isfile(dm):
+            warn(f"{d}/maps/MappaDM.md deprecato — rinominare con nome specifico PascalCase")
+
+    # Forbidden directories
+    for forbidden in ["versioni", "Versioni", "Versions"]:
+        if os.path.isdir(os.path.join(adventure_dir, forbidden)):
+            error(f"Directory '{forbidden}/' presente — le release vanno in releases/<NomeAvventura>/")
+
+
+def check_maps(adventure_dir):
+    """Check map conventions in maps/ and module maps/."""
+    maps_dir = os.path.join(adventure_dir, "maps")
+    if not os.path.isdir(maps_dir):
+        return
+
+    _check_maps_dir(maps_dir, "maps")
+
+    # Module maps
+    for d in sorted(os.listdir(adventure_dir)):
+        if not re.match(r'^\d{2}_', d):
+            continue
+        mod_maps = os.path.join(adventure_dir, d, "maps")
+        if os.path.isdir(mod_maps):
+            _check_maps_dir(mod_maps, f"{d}/maps")
+
+
+def _check_maps_dir(maps_dir, label):
+    """Check a single maps directory."""
+    files = [f for f in os.listdir(maps_dir) if os.path.isfile(os.path.join(maps_dir, f))]
+
+    pngs = {os.path.splitext(f)[0] for f in files if f.lower().endswith(".png")}
+    mds = {os.path.splitext(f)[0] for f in files if f.endswith(".md")}
+    svgs = {os.path.splitext(f)[0] for f in files if f.lower().endswith(".svg")}
+
+    # PNG without corresponding .md
+    for name in sorted(pngs - mds):
+        warn(f"{label}/{name}.png senza descrizione {name}.md corrispondente")
+
+    # SVG alongside PNG (should be in other/)
+    for name in sorted(svgs & pngs):
+        warn(f"{label}/{name}.svg duplica {name}.png — spostare SVG in other/")
+
+    # SVG without PNG (acceptable but flag)
+    for name in sorted(svgs - pngs):
+        ok(f"{label}/{name}.svg (solo SVG, nessun PNG)")
+
+
+def check_statblocks(adventure_dir):
+    """Check stat block naming conventions."""
+    sb_dir = os.path.join(adventure_dir, "characters", "statblock")
+    if not os.path.isdir(sb_dir):
+        return
+
+    for f in sorted(os.listdir(sb_dir)):
+        if not f.endswith(".png"):
+            continue
+        if f.startswith("NPC_") or f.startswith("MON_"):
+            ok(f"Stat block: {f}")
+        else:
+            warn(f"characters/statblock/{f} — naming non riconosciuto (atteso NPC_* o MON_*). "
+                 "Se è un PG, spostare in other/pg/")
+
+
+def check_orphan_files(adventure_dir):
+    """Flag files that don't match any known pattern."""
+    known_root_files = {"README.md", "AdventureBook.md", "PlanBook.md", "DiscussioneNarrativa.md"}
+    adventure_name = os.path.basename(adventure_dir)
+
+    for f in sorted(os.listdir(adventure_dir)):
+        path = os.path.join(adventure_dir, f)
+        if os.path.isdir(path):
+            continue
+        if f in known_root_files or f == f"{adventure_name}.md":
+            continue
+        if f.endswith((".png", ".jpg", ".jpeg", ".svg")):
+            warn(f"File immagine in root: {f} — dovrebbe stare in img/, maps/ o characters/img/?")
+
 
 def check_modules(adventure_dir):
     modules = sorted([
@@ -148,18 +221,35 @@ def check_modules(adventure_dir):
         if check_file_exists(mod_file, f"Modulo {mod}/{mod_name}.md"):
             check_sections(mod_file, ["Descrizione", "Obiettivo", "Ricompense", "Note al master"], f"Modulo {mod}")
 
+
 def check_npcs(adventure_dir):
-    personaggi_dir = os.path.join(adventure_dir, "personaggi")
-    if not os.path.isdir(personaggi_dir):
-        return
-    npcs = [f for f in os.listdir(personaggi_dir) if f.startswith("NPC_") and f.endswith(".md")]
+    md_dir = os.path.join(adventure_dir, "characters", "markdown")
+    if not os.path.isdir(md_dir):
+        # Fallback: check characters/ root for legacy layout
+        md_dir = os.path.join(adventure_dir, "characters")
+        if not os.path.isdir(md_dir):
+            return
+    npcs = [f for f in os.listdir(md_dir) if f.startswith("NPC_") and f.endswith(".md")]
     if not npcs:
-        warn("Nessuna scheda NPC trovata in personaggi/")
+        warn("Nessuna scheda NPC trovata in characters/markdown/")
         return
     for npc in sorted(npcs):
-        npc_path = os.path.join(personaggi_dir, npc)
+        npc_path = os.path.join(md_dir, npc)
         check_sections(npc_path, ["Informazioni generali", "Descrizione", "Motivazioni", "Note al master"], f"NPC {npc}")
         check_unknown_sections(npc_path, KNOWN_NPC_SECTIONS, f"NPC {npc}")
+
+
+def check_saga_metadata(adventure_dir):
+    readme = os.path.join(adventure_dir, "README.md")
+    if not os.path.isfile(readme):
+        return
+    content = open(readme, encoding="utf-8").read()
+    if "**Saga**:" not in content:
+        return
+    for field in ["**Posizione**:", "**Segue**:", "**Precede**:"]:
+        if field not in content:
+            error(f"README.md: campo saga '{field}' mancante")
+
 
 def main():
     if len(sys.argv) < 2:
@@ -185,22 +275,19 @@ def main():
     check_file_exists(os.path.join(adventure_dir, "PlanBook.md"), "PlanBook.md")
     main_md = os.path.join(adventure_dir, f"{adventure_name}.md")
     check_file_exists(main_md, f"{adventure_name}.md")
-    check_file_exists(os.path.join(adventure_dir, "mappe", "MappaGenerale.md"), "mappe/MappaGenerale.md")
-    check_file_exists(os.path.join(adventure_dir, "Cover.png"), "Cover.png", required=False)
 
     section("Directory")
-    check_dir_exists(os.path.join(adventure_dir, "mappe"), "mappe/")
-    check_dir_exists(os.path.join(adventure_dir, "personaggi"), "personaggi/", required=False)
-    check_forbidden(adventure_dir)
-    check_saga_metadata(adventure_dir)
+    check_dir_exists(os.path.join(adventure_dir, "maps"), "maps/")
+    check_dir_exists(os.path.join(adventure_dir, "characters"), "characters/", required=False)
+
+    section("File e directory deprecati")
+    check_deprecated(adventure_dir)
 
     section("Sezioni documento principale")
-    # Obbligatorie
     check_sections(main_md,
         ["Lore", "Introduzione", "NPC principali", "Struttura dell'avventura"],
         adventure_name)
     check_unknown_sections(main_md, KNOWN_MAIN_SECTIONS, adventure_name)
-    # Consigliate (warning)
     if os.path.isfile(main_md):
         content = open(main_md, encoding="utf-8").read()
         for s in ["Plot generale", "Consigli al master"]:
@@ -210,12 +297,23 @@ def main():
     section("Moduli")
     check_modules(adventure_dir)
 
+    section("Mappe")
+    check_maps(adventure_dir)
+
     section("Schede NPC")
     check_npcs(adventure_dir)
 
+    section("Stat block")
+    check_statblocks(adventure_dir)
+
     section("Naming convention")
     check_naming_conventions(adventure_dir)
+    check_saga_metadata(adventure_dir)
 
+    section("File orfani")
+    check_orphan_files(adventure_dir)
+
+    # Summary
     print()
     if ERRORS:
         print(f"ERRORI ({len(ERRORS)}):")
@@ -231,8 +329,8 @@ def main():
         summary = f"✗ {len(ERRORS)} errori, {len(WARNINGS)} warning."
     print(f"\n{summary}")
 
-    # Genera report
-    LOG.append(f"\n---\n")
+    # Report
+    LOG.append("\n---\n")
     if ERRORS:
         LOG.append(f"## Errori ({len(ERRORS)})")
         LOG.extend(ERRORS)
@@ -251,6 +349,7 @@ def main():
 
     if ERRORS:
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

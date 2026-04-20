@@ -106,7 +106,7 @@ Gorim pagherà metà della somma visto che l'anello non verrà trovato.
 
 L'anello è caduto nelle latrine del Conte, quindi va cercato nelle fogne. Gorim lo sa e sa dove si trova l'ingresso, ma preferirebbe che i PG ci arrivassero da soli — "Se devo fare tutto io, a che servite?"
 
-**Posizioni nel borgo** (vedi mappa `../mappe/FianusRomanus`):
+**Posizioni nel borgo** (vedi mappa `../maps/FianusRomanus`):
 
 - La **Taberna de Franciosibus aut Hispanardis** si trova al **Mercato Centrale**, la piazza principale del borgo.
 - La **residenza del Conte** è il palazzo più grande del quartiere **Aviano**, a sud del mercato. Chiuso e presidiato — il Conte non c'è mai, ma le guardie fanno finta che ci sia.
@@ -194,7 +194,7 @@ Sotto il carretto di Terzilio c'è una botola di ferro con lo stemma del borgo (
 
 Le fogne di Fianus sono sorprendentemente elaborate per un borgo di queste dimensioni. Nessuno sa chi le abbia costruite né perché. Sono un dungeon a 5 stanze con un mix di architettura costruita e caverne naturali.
 
-**Mappa:** `mappe/LeFogneDiFianus.png`
+**Mappa:** `maps/LeFogneDiFianus.png`
 
 **Collegamento tra le stanze:** L'esplorazione non è lineare. Dalla Stanza 1 i PG possono andare verso la Stanza 2 (corridoio in alto) o la Stanza 3 (passaggio al centro). La Stanza 4 è raggiungibile dalla 3 e dalla 5 (corridoi a destra della mappa). La Stanza 5 è accessibile solo attraverso la Stanza 4 (la porta col modulo burocratico). I PG possono esplorare nell'ordine che preferiscono — le stanze funzionano indipendentemente.
 

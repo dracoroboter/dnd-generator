@@ -105,7 +105,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 ## Convenzioni (decisioni prese)
 
 - [x] Naming convention file: **PascalCase** (es. `NomeFile.md`)
-- [x] Directory: **minuscolo** (es. `personaggi/`, `mappe/`)
+- [x] Directory: **minuscolo** (es. `characters/`, `maps/`)
 - [x] Struttura moduli: **subdirectory** `NN_NomeModulo/` con risorse proprie
 - [x] `README.md`: descrizione pubblica senza spoiler + metadati saga opzionali
 - [x] `AdventureBook.md`: istruzioni specifiche per Kiro su questa avventura

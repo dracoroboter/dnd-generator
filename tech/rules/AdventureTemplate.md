@@ -15,10 +15,11 @@ adventures/
     ├── AdventureBook.md             ← istruzioni per l'AI
     ├── PlanBook.md                  ← stato del lavoro, todo, note DM
     ├── NomeAvventura.md             ← documento principale
-    ├── mappe/
-    │   ├── MappaGenerale.md         ← descrizione testuale luoghi e connessioni
-    │   └── *.png / *.svg            ← immagini mappe (opzionale)
-    ├── personaggi/
+    ├── maps/
+    │   ├── NomeMappa.md             ← descrizione mappa (stesso nome del PNG)
+    │   ├── NomeMappa.png            ← mappa grafica
+    │   └── other/                   ← SVG sorgente, draft, versioni di lavoro
+    ├── characters/
     │   ├── markdown/                ← schede NPC in markdown
     │   │   └── NPC_NomePersonaggio.md
     │   ├── img/                     ← artwork personaggi (opzionale)
@@ -28,9 +29,14 @@ adventures/
     │   └── statblock/               ← PDF e PNG stampabili (generati da md-to-statblock-pdf.js)
     │       ├── NPC_NomePersonaggio.pdf
     │       └── NPC_NomePersonaggio.png
+    ├── other/                       ← file accessori non inclusi nel PDF
+    │   └── pg/                      ← stat block PG (*_GM.*)
     └── NN_NomeModulo/               ← un modulo per subdirectory
         ├── NomeModulo.md
-        └── mappe/                   ← mappe specifiche del modulo (opzionale)
+        └── maps/                    ← mappe specifiche del modulo
+            ├── NomeMappa.md         ← descrizione mappa (opzionale)
+            ├── NomeMappa.png        ← mappa grafica (opzionale)
+            └── other/               ← draft, versioni di lavoro
 ```
 
 Le release (PDF + ZIP) non stanno nell'avventura ma in:
@@ -47,11 +53,35 @@ releases/
 | elemento | convenzione | esempio |
 |----------|-------------|---------|
 | File `.md` | PascalCase | `NomeAvventura.md`, `NPC_IlConte.md` |
-| Directory | minuscolo | `personaggi/`, `mappe/` |
+| Directory strutturali | minuscolo, inglese | `maps/`, `characters/`, `img/`, `other/` |
 | Moduli | `NN_PascalCase` | `01_IndagineAPanciaverde/` |
 | Immagini | PascalCase | `MappaRegione.png`, `NPC_Cattivone.png` |
 | Nome avventura | PascalCase | `AvventuraDiProva/`, `LAnelloDelConte/` |
-| Sottodirectory personaggi | minuscolo | `markdown/`, `img/`, `fightclub/`, `statblock/` |
+| Sottodirectory characters | minuscolo, inglese | `markdown/`, `img/`, `fightclub/`, `statblock/` |
+| Mappe: descrizione + grafica | stesso nome base | `FianusRomanus.md` + `FianusRomanus.png` |
+| Mappe: schede DM | nome specifico PascalCase | `DiscesaNelleFogne.md` (non `MappaDM.md`) |
+| Stat block NPC/mostri | prefisso `NPC_` o `MON_` | `NPC_Korex.png`, `MON_DragonRosso.png` |
+
+### Regole mappe
+
+- Ogni mappa grafica (`.png`) può avere una descrizione markdown (`.md`) con lo **stesso nome base**.
+- Le mappe `.md` sono **schede DM**: contengono mappa testuale e informazioni segrete per il master. Si usano quando la mappa grafica è assente o insufficiente.
+- Se esistono sia PNG che SVG della stessa mappa, il **PNG è la versione canonica**. L'SVG va in `other/`.
+- Le versioni di lavoro, draft o schematiche vanno in `other/` (con suffisso `_draft` se necessario).
+- Il nome generico `MappaDM.md` è **deprecato**: usare un nome specifico PascalCase.
+- Il file `MappaGenerale.md` è **deprecato**: splittare in un `.md` per ogni mappa.
+
+### Directory `other/`
+
+Contiene file accessori non inclusi nel PDF e non validati dal check. Organizzata per tipo:
+
+```
+other/
+├── pg/          ← stat block PG (*_GM.png/pdf/html, fightclub xml)
+└── maps/        ← mappe draft, SVG sorgente, versioni di lavoro
+```
+
+Le directory `other/` dentro `maps/` dei moduli contengono le mappe di lavoro di quel modulo specifico.
 
 ---
 
@@ -63,7 +93,7 @@ releases/
 | `AdventureBook.md` | Istruzioni per l'AI — struttura, convenzioni, note specifiche dell'avventura |
 | `PlanBook.md` | Stato avanzamento, todo, note narrative riservate al DM |
 | `NomeAvventura.md` | Documento principale: lore, plot, NPC, consigli master |
-| `mappe/MappaGenerale.md` | Luoghi, connessioni, distanze |
+| `maps/` | Directory mappe — almeno un file `.md` o `.png` per mappa |
 
 ---
 
@@ -148,7 +178,7 @@ cp -r adventures/AdventureTemplate adventures/NomeMiaAvventura
 # 2. Rinomina i file placeholder
 cd adventures/NomeMiaAvventura
 mv NomeAvventura.md NomeMiaAvventura.md
-mv personaggi/NPC_NomePersonaggio.md personaggi/NPC_NomePNG.md
+mv characters/markdown/NPC_NomePersonaggio.md characters/markdown/NPC_NomePNG.md
 mv 01_NomeModulo 01_NomePrimoModulo
 mv 01_NomePrimoModulo/NomeModulo.md 01_NomePrimoModulo/NomePrimoModulo.md
 
