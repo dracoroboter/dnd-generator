@@ -58,87 +58,101 @@ def is_portrait(img_path):
 
 
 def fit_cover(img_path, title, author=None):
-    """Create cover: background image scaled to A4, logo top center, title center,
-    author + D&D subtitle bottom. Yellow uppercase text with black outline."""
+    """Create cover: background image scaled to A4, logo top center, title upper-center,
+    D&D subtitle under title, author at bottom. White uppercase text with black outline."""
     from PIL import Image, ImageDraw, ImageFont
+    import numpy as np
 
     # Load and scale background to A4
     bg = Image.open(img_path).convert("RGBA")
-    # Scale to cover A4, crop if needed
     scale = max(A4_W / bg.width, A4_H / bg.height)
     new_w, new_h = int(bg.width * scale), int(bg.height * scale)
     bg = bg.resize((new_w, new_h), Image.LANCZOS)
-    # Center crop
     left = (new_w - A4_W) // 2
     top = (new_h - A4_H) // 2
     bg = bg.crop((left, top, left + A4_W, top + A4_H)).convert("RGBA")
 
-    # Load logo
+    # Dark gradient overlay on top area (for logo visibility)
+    gradient_h = int(A4_H * 0.18)
+    gradient = Image.new("RGBA", (A4_W, gradient_h), (0, 0, 0, 0))
+    grad_draw = ImageDraw.Draw(gradient)
+    for y_pos in range(gradient_h):
+        alpha = int(180 * (1 - y_pos / gradient_h))
+        grad_draw.line([(0, y_pos), (A4_W, y_pos)], fill=(0, 0, 0, alpha))
+    bg = Image.alpha_composite(bg, Image.new("RGBA", (A4_W, A4_H), (0, 0, 0, 0)))
+    bg.paste(gradient, (0, 0), gradient)
+
+    # Load logo and remove grey background
     logo_path = SCRIPT_DIR / "img" / "DracoRoboter_logo.png"
     if logo_path.exists():
         logo = Image.open(logo_path).convert("RGBA")
-        # Scale logo to ~30% of page width
-        logo_w = int(A4_W * 0.30)
+        # Remove grey background: pixels where R,G,B are close and < 120
+        data = logo.getdata()
+        new_data = []
+        for r, g, b, a in data:
+            if max(r, g, b) - min(r, g, b) < 30 and max(r, g, b) < 120:
+                new_data.append((r, g, b, 0))
+            else:
+                new_data.append((r, g, b, a))
+        logo.putdata(new_data)
+        # Scale logo to ~20% of page width
+        logo_w = int(A4_W * 0.20)
         logo_scale = logo_w / logo.width
         logo_h = int(logo.height * logo_scale)
         logo = logo.resize((logo_w, logo_h), Image.LANCZOS)
         # Paste top center
         logo_x = (A4_W - logo_w) // 2
-        logo_y = int(A4_H * 0.05)
+        logo_y = int(A4_H * 0.02)
         bg.paste(logo, (logo_x, logo_y), logo)
 
     # Setup drawing
     draw = ImageDraw.Draw(bg)
-    yellow = (255, 220, 50)
+    white = (255, 255, 255)
     black = (0, 0, 0)
     blue = (30, 60, 160)
 
     # Font
     font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-    title_font = ImageFont.truetype(font_path, 140)
-    sub_font = ImageFont.truetype(font_path, 60)
-    author_font = ImageFont.truetype(font_path, 56)
+    title_font = ImageFont.truetype(font_path, 160)
+    sub_font = ImageFont.truetype(font_path, 50)
 
-    def draw_outlined_text(x, y, text, font, fill=yellow, outline=black, width=4):
-        """Draw text with outline."""
+    def draw_outlined_text(x, y, text, font, fill=white, outline=black, width=6):
         for dx in range(-width, width + 1):
             for dy in range(-width, width + 1):
                 if dx * dx + dy * dy <= width * width:
                     draw.text((x + dx, y + dy), text, font=font, fill=outline)
         draw.text((x, y), text, font=font, fill=fill)
 
-    def centered_outlined_text(y, text, font, fill=yellow):
+    def centered_outlined_text(y, text, font, fill=white):
         bbox = draw.textbbox((0, 0), text, font=font)
         tw = bbox[2] - bbox[0]
         x = (A4_W - tw) // 2
         draw_outlined_text(x, y, text, font, fill=fill)
         return bbox[3] - bbox[1]
 
-    # Title — center of page
+    # Title — upper area (20% from top)
     title_upper = title.upper()
-    title_bbox = draw.textbbox((0, 0), title_upper, font=title_font)
-    title_h = title_bbox[3] - title_bbox[1]
-    title_y = int(A4_H * 0.42)
-    centered_outlined_text(title_y, title_upper, title_font)
+    title_y = int(A4_H * 0.20)
+    title_h = centered_outlined_text(title_y, title_upper, title_font)
 
     # Blue stripe under title
-    stripe_y = title_y + title_h + int(A4_H * 0.02)
+    stripe_y = title_y + title_h + int(A4_H * 0.015)
     stripe_margin = int(A4_W * 0.15)
-    stripe_h = 12
+    stripe_h = 10
     draw.rectangle([(stripe_margin, stripe_y), (A4_W - stripe_margin, stripe_y + stripe_h)], fill=blue)
 
-    # Author — bottom area
-    author_y = int(A4_H * 0.82)
+    # D&D subtitle — right under stripe
+    sub_y = stripe_y + stripe_h + int(A4_H * 0.015)
+    centered_outlined_text(sub_y, "Un'avventura Dungeons & Dragons 5e", sub_font)
+
+    # Author — bottom
     if author:
-        centered_outlined_text(author_y, author, author_font)
+        author_y = int(A4_H * 0.92)
+        centered_outlined_text(author_y, author, sub_font)
 
-    # D&D subtitle
-    dnd_y = author_y + int(A4_H * 0.05)
-    centered_outlined_text(dnd_y, "Avventura per D&D 5e", sub_font)
-
-    # Convert to RGB for PDF
+    # Convert to RGB
     final = Image.new("RGB", (A4_W, A4_H), (0, 0, 0))
-    final.paste(bg, mask=bg.split()[3] if bg.mode == "RGBA" else None)
+    final.paste(bg, mask=bg.split()[3])
 
     buf = io.BytesIO()
     final.save(buf, format="PNG")
