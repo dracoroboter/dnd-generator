@@ -160,10 +160,13 @@ def fit_cover(img_path, title, author=None, scale=1.0):
     sub_y = stripe_y + stripe_h + int(out_h * 0.015)
     centered_outlined_text(sub_y, "Un'avventura Dungeons & Dragons 5e", sub_font)
 
-    # Author — bottom
+    # Author + copyright — bottom
     if author:
-        author_y = int(out_h * 0.92)
+        author_y = int(out_h * 0.93)
         centered_outlined_text(author_y, author, sub_font)
+        copy_font = ImageFont.truetype(font_path, int(30 * scale))
+        copy_y = author_y + int(out_h * 0.035)
+        centered_outlined_text(copy_y, "© 2026 CC BY-SA 4.0", copy_font)
 
     # Convert to RGB
     final = Image.new("RGB", (out_w, out_h), (0, 0, 0))
