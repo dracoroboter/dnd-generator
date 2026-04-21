@@ -6,6 +6,8 @@
 **Struttura**: lineare
 **Tono**: pulp adventure, camp anni '80
 **Autore**: dracoroboter
+**Prima stesura**: 2026
+**Ultimo aggiornamento**: 2026-04-22
 
 Continuazione di "Ballad of the Rat King" (Welcome to the Hellfire Club, Stranger Things D&D Starter Set). Korex è fuggito nelle fogne sotto i moli di Oakshore. La compagnia lo insegue nel buio — ma le fogne nascondono più di quanto chiunque sospetti.
 

@@ -6,6 +6,8 @@
 **Struttura**: lineare
 **Tono**: umoristico
 **Autore**: dracoroboter
+**Prima stesura**: 2026
+**Ultimo aggiornamento**: 2026-04-22
 **Saga**: Lo Scettro di Tyr
 **Posizione**: Puntata 1 di 5 (prequel)
 **Segue**: —
