@@ -126,7 +126,7 @@ Coerente con `release.sh`. La directory `releases/` è già in `.gitignore`.
 | 2 | ~~Creare stat block mancante (Jason Accordion)~~ | ✅ PNG generato | ✅ Fatto |
 | 3 | ~~Script `create-pdf-adventure.py`~~ | ✅ Script funzionante | ✅ Fatto |
 | 4 | ~~Test con FuoriDaHellfire~~ | ✅ `FuoriDaHellfire_20260419.pdf` (2.1 MB) | ✅ Fatto |
-| 5 | Generalizzare per qualsiasi avventura | Supporto struttura standard | Da fare |
+| 5 | Generalizzare per qualsiasi avventura | ✅ Testato su LAnelloDelConte + FuoriDaHellfire | ✅ Fatto |
 
 ## Punti aperti
 

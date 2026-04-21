@@ -19,13 +19,46 @@ Non è un prodotto editoriale. È uno strumento di lavoro con una grafica abbast
 ## Uso
 
 ```bash
-python3 tech/create-pdf-adventure/create-pdf-adventure.py FuoriDaHellfire
+# PDF con immagini originali e copertina elaborata (logo, titolo, autore)
+python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte
+
+# PDF leggero con immagini -lowres (generate da optimize-images.py)
+python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --lowres
+
+# PDF con copertina senza elaborazione (immagine pura)
+python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --raw-cover
 ```
 
 Output:
 ```
-releases/FuoriDaHellfire/FuoriDaHellfire_20260419.pdf
+releases/LAnelloDelConte/LAnelloDelConte_20260422.pdf          # hires
+releases/LAnelloDelConte/LAnelloDelConte_20260422_lowres.pdf   # lowres
 ```
+
+### Flags
+
+| Flag | Default | Descrizione |
+|------|---------|-------------|
+| `--lowres` | no | Usa versioni `-lowres` delle immagini (`.jpg` poi `.png`) |
+| `--raw-cover` | no | Copertina senza logo, titolo e autore (immagine pura) |
+
+### Ottimizzazione immagini
+
+Prima di usare `--lowres`, generare le versioni leggere con:
+
+```bash
+python3 tech/create-pdf-adventure/optimize-images.py LAnelloDelConte
+```
+
+Lo script genera file `-lowres.jpg` (default) per ogni immagine sopra 1 MB. Con `--png` genera `-lowres.png` via pngquant.
+
+| Flag | Default | Descrizione |
+|------|---------|-------------|
+| `--threshold N` | 1.0 | Soglia in MB |
+| `--max-width N` | 1500 | Larghezza massima in px |
+| `--png` | no | Output PNG (pngquant) invece di JPG |
+
+Convenzione naming: `FianusRomanus.png` (originale) → `FianusRomanus-lowres.jpg` (ottimizzata).
 
 ## Versioning
 
@@ -38,6 +71,8 @@ Il PDF è composto da sezioni assemblate in ordine fisso:
 ### 1. Copertina
 
 Immagine a pagina intera da `adventures/<Avventura>/img/<Avventura>_COVER.png`.
+Di default viene elaborata con logo (DracoRoboter), titolo, sottotitolo D&D e autore.
+Con `--raw-cover` viene usata l'immagine così com'è.
 Se non esiste, la copertina viene saltata e il PDF inizia dal frontespizio.
 
 ### 2. Frontespizio
@@ -138,7 +173,8 @@ tech/create-pdf-adventure/
 ├── PlanCreatePdfAdventure.md      # piano di sviluppo (fasi, TODO)
 ├── DocsCreatePdfAdventure.md      # questo file (documentazione operativa)
 ├── adventure.css                  # CSS custom D&D-style
-└── create-pdf-adventure.py        # script principale
+├── create-pdf-adventure.py        # script principale (genera PDF)
+└── optimize-images.py             # genera versioni -lowres delle immagini
 ```
 
 ## Output

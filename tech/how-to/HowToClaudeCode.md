@@ -97,3 +97,29 @@ Per dare contesto su un'avventura specifica, inizia la sessione indicando il fil
 ```
 Sto lavorando su adventures/LAnelloDelConte — leggi AdventureBook.md per il contesto.
 ```
+
+---
+
+## Limitazioni note LSP (Kiro CLI e Claude Code)
+
+Sia Kiro CLI che Claude Code usano la stessa architettura per l'integrazione LSP. Ci sono limitazioni note con **Python/Pyright**:
+
+| Operazione | Stato | Note |
+|------------|-------|------|
+| `get_document_symbols` | ✅ Funziona | |
+| `search_symbols` | ✅ Funziona | |
+| `find_references` | ✅ Funziona | |
+| `goto_definition` | ✅ Funziona | |
+| `get_diagnostics` | ✅ Funziona | |
+| `get_hover` | ❌ Timeout | Bug noto, non risolvibile lato utente |
+| `get_completions` | ⚠️ Non testato | Probabilmente stesso problema di hover |
+
+**Riferimenti:**
+- [claude-code#17867](https://github.com/anthropics/claude-code/issues/17867) — hover e documentSymbol vuoti con Pyright (chiuso come "stale")
+
+**Setup richiesto:**
+1. Installare pyright: `npm install -g pyright`
+2. Creare `pyrightconfig.json` nella root del progetto (già presente)
+3. In sessione: il workspace si inizializza automaticamente, oppure usare `initialize_workspace`
+
+**Workaround:** per ottenere type info, usare `get_diagnostics` (mostra errori di tipo) o chiedere direttamente all'agente di leggere il codice.

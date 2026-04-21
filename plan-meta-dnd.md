@@ -272,4 +272,4 @@ Genera un singolo PDF con tutta l'avventura: copertina, moduli, schede mappa DM,
 - [x] Fase 2: Script `create-pdf-adventure.py`
 - [x] Fase 3: HTML → PDF (weasyprint)
 - [x] Fase 4: Test con FuoriDaHellfire — `FuoriDaHellfire_20260419.pdf` (2.1 MB)
-- [ ] Fase 5: Generalizzare per qualsiasi avventura
+- [x] Fase 5: Generalizzare per qualsiasi avventura
