@@ -22,7 +22,7 @@ Per anni, Jason visse nel lusso, circondato da burattini che credevano di essere
 
 L'anello finì chissà dove — passando di mano in mano, di cadavere in cadavere, per secoli. Fino a Korex.
 
-## Korex e l'anello
+### Korex e l'anello
 
 Korex non ha trovato l'anello nelle fogne. Lo ha trovato altrove — su un cadavere, il portatore precedente, sconfitto da qualcuno. Korex è un opportunista: ha preso l'anello da un morto senza sapere cosa fosse, e il potere è arrivato.
 
@@ -36,7 +36,7 @@ Quando Korex cade (morto o catturato), il legame si spezza. Jason è di nuovo co
 
 ---
 
-## L'Anello del Virtuoso — Oggetto Senziente
+### L'Anello del Virtuoso — Oggetto Senziente
 
 **Tipo**: anello, oggetto meraviglioso (richiede sintonia), senziente
 **Rarità**: molto raro (maledetto)

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_TeppistaCharmato</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>neutrale (charmato, normalmente non ostile)</alignment>
+        <ac>12 (armatura di cuoio)</ac>
+        <hp>13 (2d8+4)</hp>
+        <speed>30 ft.</speed>
+        <str>13</str>
+        <dex>12</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Charmato da Korex</name>
+            <text>il teppista è sotto l'effetto di charm. Se Korex viene ucciso, incapacitato o fugge, il charm si spezza alla fine del round. Il teppista smette di combattere, confuso.</text>
+        </trait>
+        <action>
+            <name>Mazza (mischia)</name>
+            <text>Attacco: +3, portata 1,5m / 5ft / 1qd Danni: 1d6+1 contundenti</text>
+            <attack>Mazza (mischia)|+3|1d6+1</attack>
+        </action>
+        <description>Gente del porto di Oakshore — scaricatori, pescatori, marinai — finita sotto l'incantesimo di Korex. Occhi vitrei, movimenti meccanici, combattono senza parlare. Se Korex cade o il charm si spezza, si risvegliano confusi e spaventati.</description>
+    </monster>
+</compendium>

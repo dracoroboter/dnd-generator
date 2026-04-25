@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>UdoHutchinson</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>14 (armatura a scaglie)</ac>
+        <hp>58 (9d8+18)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>13</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>1</cr>
+        <action>
+            <name>Multiattacco</name>
+            <text>Udo fa due attacchi con la spada lunga. Se ha la spada corta sguainata, può fare un terzo attacco con quella.</text>
+        </action>
+        <action>
+            <name>Spada lunga (mischia)</name>
+            <text>Attacco: +5, portata 1,5m / 5ft / 1qd Danni: 1d8+3 taglienti (o 1d10+3 a due mani)</text>
+            <attack>Spada lunga (mischia)|+5|1d8+3</attack>
+        </action>
+        <action>
+            <name>Spada corta (mischia)</name>
+            <text>Attacco: +5, portata 1,5m / 5ft / 1qd Danni: 1d6+3 perforanti</text>
+            <attack>Spada corta (mischia)|+5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Balestra pesante (distanza)</name>
+            <text>Attacco: +3, gittata 30/120m / 100/400ft Danni: 1d10+1 perforanti</text>
+            <attack>Balestra pesante (distanza)|+3|1d10+1</attack>
+        </action>
+        <description>Uomo robusto sulla cinquantina, capelli grigi tagliati corti, cicatrice sul mento. Parla poco, agisce in fretta. Porta un'armatura a scaglie ammaccata e una spada lunga che ha visto tempi migliori. Appena tornato a Oakshore da un viaggio personale, si è trovato il quartiere portuale nel caos e un elfo in fuga nelle fogne.
+Frase ricorrente: *&quot;Non ho tempo per queste stronzate.&quot;*</description>
+    </monster>
+</compendium>

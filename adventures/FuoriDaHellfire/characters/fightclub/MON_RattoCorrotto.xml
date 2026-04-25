@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_RattoCorrotto</name>
+        <size>M</size>
+        <type>humanoid (bestia)</type>
+        <alignment>senza allineamento</alignment>
+        <ac>12</ac>
+        <hp>7 (2d6)</hp>
+        <speed>30 ft.</speed>
+        <str>7</str>
+        <dex>15</dex>
+        <con>11</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>4</cha>
+        <senses>darkvision 60 ft. 18m / 60ft / 12qd</senses>
+        <cr>1</cr>
+        <trait>
+            <name>Olfatto acuto</name>
+            <text>vantaggio alle prove di Percezione basate sull'olfatto.</text>
+        </trait>
+        <trait>
+            <name>Tattiche di branco</name>
+            <text>vantaggio all'attacco se un alleato è entro 1qd dal bersaglio e non è incapacitato.</text>
+        </trait>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +4, portata 1,5m / 5ft / 1qd Danni: 1d4+2 perforanti</text>
+            <attack>Morso (mischia)|+4|1d4+2</attack>
+        </action>
+        <description>Ratto gigante con occhi rossi e comportamento innaturale. Più aggressivo di un ratto normale, attacca in branco senza paura. Natura CD 10 per capire che è corrotto, non semplicemente rabbioso.</description>
+    </monster>
+</compendium>

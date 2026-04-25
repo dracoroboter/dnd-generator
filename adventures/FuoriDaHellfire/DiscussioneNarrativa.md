@@ -81,3 +81,54 @@ Questo lancia la prossima avventura con un combattimento immediato e un mistero:
 - [ ] La catena dei portatori: quanti? Tracce/storie dei precedenti come indizi?
 - [ ] A che livello di presa la possessione diventa permanente e irreversibile?
 - [ ] Livello esatto del caster per il rituale salt-and-burn, e se è un NPC chi è?
+
+---
+
+## Cheat Sheet — L'Anello del Virtuoso (riferimento rapido DM)
+
+**Aspetto**: anello d'argento annerito, incisione ouroboros musicale. È al dito di Korex.
+
+### Attivazione — 3 livelli
+
+1. **Attrazione** (passiva, narrativa): quando Korex cade, chiunque veda l'anello sente curiosità. Nessun tiro.
+2. **Tocco**: chi tocca l'anello → TS Saggezza CD 20. Fallimento = obbligato a indossarlo. Successo = riesce a posarlo, attrazione resta.
+3. **Indossato**: l'anello si stringe, non si toglie. Sintonia automatica.
+
+### Effetti immediati
+
+| vantaggi | malus |
+|----------|-------|
+| +2 a una caratteristica (vedi tabella per classe in `NPC_JasonAccordion.md`) | L'anello non si toglie |
+| 1 incantesimo da bardo 1/giorno senza slot | Incubi la prima notte (niente beneficio riposo lungo) |
+| Vantaggio TS contro charm | Freddo costante alla mano |
+| | Vulnerabilità danni psichici (progressiva) |
+
+### Possessione — tracciamento presa
+
+Ogni uso dell'incantesimo 1/giorno → tira **d8** ("per vedere se funziona").
+- **2-8**: funziona.
+- **1**: fallisce + onda psichica 1d4+presa a tutti entro 10qd + presa +1.
+
+| presa | narrativo | meccanico |
+|-------|-----------|-----------|
+| 0 | Freddo, incubi | Vulnerabilità psichica |
+| 1-2 | Tic di Jason, sussurri rari | Onda 1d4+1/+2 |
+| 3-4 | Jason parla spesso, ricordi altrui | Onda 1d4+3/+4, TS Sag CD 14 in stress |
+| 5-6 | Jason prende il controllo 1d4 round | Onda 1d4+5/+6, TS Sag CD 15 |
+| 7+ | Tentativo controllo permanente | Onda 1d4+7+, TS Sag CD 16+ |
+
+**Ridurre presa**: TS Saggezza riuscito quando Jason forza conflitto (−1), *Lesser Restoration* (−1), *Greater Restoration* (−2).
+
+### Rimozione
+
+*Remove Curse* allenta l'anello per 1d4 ore, poi torna. Rimozione definitiva: trovare lo scheletro di Jason + bruciarlo con sale + mago/ordine che conosce il rituale originale. Dettagli in `NPC_JasonAccordion.md`.
+
+### Piano A vs Piano B
+
+- **Piano A** (PG tocca l'anello): possessione progressiva del PG. Saga = salvare il compagno.
+- **Piano B** (nessun PG lo tocca): una guardia lo indossa → attacco immediato → i PG la sconfiggono → l'anello resta. Saga = come disfarsi dell'anello.
+- **Piano B variante** (Fin lo tocca): Fin ha SAG 10, Jason lo possiede più facilmente. Saga = salvare l'amico.
+
+### "Libero"
+
+Jason dice "Libero" perché ha un nuovo ospite senza difese — non perché è uscito dall'anello. Korex sapeva resistergli. Il nuovo portatore no.

@@ -1,7 +1,7 @@
 # Dungeon & Dragon
 
-**Versione**: 0.2
-**Ultimo aggiornamento**: 2026-04-19
+**Versione**: 0.3
+**Ultimo aggiornamento**: 2026-04-22
 **Repository**: [github.com/dracoroboter/dnd-generator](https://github.com/dracoroboter/dnd-generator)
 
 Raccolta di avventure D&D 5e (2014) con toolchain di automazione dedicata.
@@ -29,9 +29,8 @@ Entrambi i piani sono assistiti da AI.
 
 | Avventura | Tipo | Stato | Note |
 |-----------|------|-------|------|
-| `AvventuraDiProva` | One-shot (3 moduli) | Normalizzata | Riferimento per la struttura corretta |
 | `LAnelloDelConte` | Saga puntata 1 | Normalizzata | Prima avventura completa |
-| `FuoriDaHellfire` | One-shot (2 moduli) | In corso | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4 |
+| `FuoriDaHellfire` | One-shot (2 moduli) | Normalizzata | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4. PDF generato. |
 | `IlReSpezzato` | Saga puntata 2 | Da migrare | Draft in `legacy/` formato `.odt` |
 | `LoScettroDityr` | Saga puntate 3–6 (A/B/C/D) | Da migrare | In `legacy/` formato `.odt` |
 
@@ -57,6 +56,9 @@ Converte schede NPC markdown in XML FightClub 5e e genera stat block in PDF/PNG.
 NPC_*.md  →  md-to-fightclub.py  →  .xml (FightClub)
 NPC_*.md  →  md-to-statblock-pdf.js  →  .pdf / .png (stat block grafico)
 .xml      →  fightclub-to-md.py  →  NPC_*.md (import da FightClub/Game Master 5e)
+
+# Pipeline completa (wrapper):
+generate-statblocks.py <Avventura>  →  .xml + .pdf + .png per tutti gli NPC/MON
 ```
 
 **Script:** `tech/fightclub/md-to-fightclub.py`, `tech/fightclub/fightclub-to-md.py`, `tech/fightclub/md-to-statblock-pdf.js`
@@ -67,10 +69,12 @@ NPC_*.md  →  md-to-statblock-pdf.js  →  .pdf / .png (stat block grafico)
 Genera un singolo PDF con tutta l'avventura: copertina, moduli, schede mappa DM, stat block in appendice. Grafica D&D-style via CSS custom + weasyprint.
 
 ```
-create-pdf-adventure.py FuoriDaHellfire  →  releases/FuoriDaHellfire/FuoriDaHellfire_20260419.pdf
+create-pdf-adventure.py LAnelloDelConte            →  releases/LAnelloDelConte/LAnelloDelConte_20260422.pdf
+create-pdf-adventure.py LAnelloDelConte --lowres    →  releases/LAnelloDelConte/LAnelloDelConte_20260422_lowres.pdf
+optimize-images.py LAnelloDelConte                  →  genera versioni -lowres.jpg delle immagini
 ```
 
-**Script:** `tech/create-pdf-adventure/create-pdf-adventure.py`
+**Script:** `tech/create-pdf-adventure/create-pdf-adventure.py`, `tech/create-pdf-adventure/optimize-images.py`
 **Documentazione:** `tech/create-pdf-adventure/DocsCreatePdfAdventure.md`
 
 ---
@@ -85,7 +89,6 @@ dungeonandragon/
 │
 ├── adventures/                  # avventure
 │   ├── AdventureTemplate/       # scaffold vuoto (usato da new-adventure.sh)
-│   ├── AvventuraDiProva/        # riferimento normalizzato
 │   ├── LAnelloDelConte/         # saga puntata 1
 │   └── FuoriDaHellfire/         # continuazione Hellfire Club starter set
 │
@@ -184,6 +187,7 @@ dungeonandragon/
 | `md-to-fightclub.py` | Python | Converte NPC markdown → XML FightClub 5e |
 | `fightclub-to-md.py` | Python | Converte XML FightClub → NPC markdown |
 | `md-to-statblock-pdf.js` | Node.js | Genera stat block PDF/PNG via Playwright + statblock5e |
+| `generate-statblocks.py` | Python | Pipeline completa: .md → .xml + .pdf + .png (wrapper) |
 
 ---
 

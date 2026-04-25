@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_SciameDiRatti</name>
+        <size>M</size>
+        <type>humanoid (sciame di bestie minuscole)</type>
+        <alignment>senza allineamento</alignment>
+        <ac>10</ac>
+        <hp>24 (7d8-7)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>11</dex>
+        <con>9</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <senses>darkvision 60 ft. 9m / 30ft / 6qd</senses>
+        <cr>1</cr>
+        <trait>
+            <name>Olfatto acuto</name>
+            <text>vantaggio alle prove di Percezione basate sull'olfatto.</text>
+        </trait>
+        <trait>
+            <name>Sciame</name>
+            <text>può occupare lo spazio di un'altra creatura e viceversa. Può muoversi attraverso aperture per creature Minuscole. Non può recuperare PF né ottenere PF temporanei.</text>
+        </trait>
+        <action>
+            <name>Morsi (mischia)</name>
+            <text>Attacco: +2, portata 0 Danni: 2d6 perforanti (o 1d6 se lo sciame ha metà PF o meno)</text>
+            <attack>Morsi (mischia)|+2|2d6</attack>
+        </action>
+        <description>Una massa di ratti che si muove come un'unica creatura. Occhi rossi, squittii incessanti. Copre il pavimento e si arrampica sulle gambe dei PG.</description>
+    </monster>
+</compendium>

@@ -53,16 +53,16 @@ Frase ricorrente: *"Che male può fare dare un'occhiata?"*
 
 ## Motivazioni
 
-Fin è un ladro di piccolo cabotaggio che si è unito alla compagnia per caso — li ha aiutati durante Ballad of the Rat King (ha aperto una serratura, ha trovato un indizio, si è reso utile). È rimasto perché con loro è più al sicuro che da solo, e perché gli piacciono. Non lo ammetterà mai.
+Fin è stato charmato da Korex al porto di Oakshore — attirato dalla musica come gli altri, ma scaricato quando Korex è fuggito nelle fogne. Il charm si è spezzato e Fin è uscito dalla fogna confuso, umiliato e furioso. Vuole tornare giù e fargliela pagare.
 
-Vuole: soldi, avventura, e non annoiarsi. In quest'ordine. Non ha grandi ambizioni — è un opportunista con un buon cuore nascosto sotto strati di cinismo.
+Non lo ammetterà, ma sotto la rabbia c'è paura: sa cosa vuol dire perdere il controllo di sé stesso. Questo rende il suo eventuale contatto con l'anello ancora più tragico.
 
 ## Ruolo nell'avventura
 
-- **FuoriDaHellfire**: companion del party. Utile nelle fogne (furtività, trappole, serrature). È quello che probabilmente tocca l'anello per primo — la sua curiosità compulsiva è il trigger narrativo.
+- **FuoriDaHellfire**: i PG lo incontrano all'ingresso della fogna, appena uscito, confuso e incazzato. Si offre di accompagnarli — conosce un po' il layout perché ci è stato sotto charm. Utile per furtività, trappole e serrature. È quello che probabilmente tocca l'anello per primo — la sua curiosità compulsiva è il trigger narrativo.
 - **Saga lv4-6**: se indossa l'anello, diventa il cuore emotivo della saga. I PG devono salvare il loro amico dalla possessione di Jason. Fin lotta contro Jason dall'interno — a volte vince, a volte perde.
 
-## Comportamento con l'anello
+### Comportamento con l'anello
 
 Se Fin indossa l'anello (scenario B):
 - **Subito**: "Wow, che roba. Mi sento... bene. Tipo, davvero bene." Poi il freddo alla mano, gli incubi.

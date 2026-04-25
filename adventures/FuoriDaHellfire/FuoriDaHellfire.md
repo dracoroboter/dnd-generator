@@ -8,9 +8,9 @@ La compagnia lo ha smascherato, ha sconfitto i suoi ratti, e lo ha messo in fuga
 
 ## Introduzione
 
-> La pioggia batte sui moli di Oakshore. Il capitano della Guardia vi guarda con un misto di gratitudine e imbarazzo. "È scappato nelle fogne. Quelle vecchie, sotto il molo est — non sapevamo nemmeno che fossero ancora aperte." Vi porge una torcia e una corda. "Portatelo su. Vivo o morto, non mi importa. Basta che non torni."
+> La pioggia batte sui moli di Oakshore. Lo sceriffo Udo Hutchinson vi guarda con un misto di gratitudine e impazienza. "È scappato nelle fogne. Quelle vecchie, sotto il molo est — non sapevamo nemmeno che fossero ancora aperte." Controlla la spada al fianco. "Vengo con voi. Portatelo su. Vivo o morto, non mi importa. Basta che non torni."
 
-I PG hanno appena finito lo scontro con i ratti. Korex è fuggito attraverso una grata nel pavimento del magazzino ai moli. La grata porta a una sezione di fogne antica, non mappata, che si estende sotto il quartiere portuale.
+I PG hanno appena finito lo scontro con i ratti. Korex è fuggito attraverso una grata nel pavimento del magazzino ai moli. Udo, appena tornato a Oakshore da un viaggio personale, si è trovato il quartiere nel caos e non ha intenzione di mandare gente nelle fogne senza andarci lui stesso.
 
 ## Plot generale
 
@@ -25,16 +25,19 @@ I PG hanno appena finito lo scontro con i ratti. Korex è fuggito attraverso una
 - **Cattura vs uccisione**: entrambe le opzioni sono valide. Se catturato vivo, Korex può dare informazioni (vere e false mescolate). Se ucciso, le informazioni si trovano nei suoi appunti nella tana.
 - **Il cliffhanger**: dopo la milestone, l'Anello del Virtuoso entra in gioco. L'anello era al dito di Korex — è l'origine del suo potere. Contiene l'anima di un bardo antico che vuole tornare in vita. Meccanica a tre livelli: attrazione passiva → tocco (TS Sag CD 20 o indossamento forzato) → possessione progressiva. Se nessun PG lo tocca, una guardia NPC lo indossa e attacca. Dettagli in `DiscussioneNarrativa.md`.
 
-**Difficoltà consigliata:** 4 PG di livello 3
-**Scalabilità:** per 3 PG, ridurre i servitori di Korex. Per 5-6 PG, aggiungere un servitore extra per incontro.
+**Difficoltà consigliata:** 3 PG di livello 3 + Udo Hutchinson + Fin Ditasvelte (NPC companion)
+**Scalabilità:** per 4+ PG, Udo resta indietro a sorvegliare l'ingresso e Fin non si unisce (il charm non si è ancora spezzato). Per 2 PG, tenere entrambi i companion.
 
 ## NPC principali
 
 Schede complete in `characters/`.
 
-- **Korex** — elfo bardo CE, antagonista principale. Charmer musicale, manipolatore, vigliacco in combattimento diretto.
-- **Fin Ditasvelte** — halfling ladro CN, NPC companion. Curioso, impulsivo, mani lunghe. Progettato come portatore dell'anello (scenario B).
-- **Jason Accordion** — bardo umano NM, anima intrappolata nell'Anello del Virtuoso. Villain della saga.
+- **Udo Hutchinson** — sceriffo di Oakshore, veterano. Si unisce ai PG all'ingresso delle fogne. Tank del gruppo.
+- **Korex** — elfo bardo CE, antagonista. Charmer musicale, manipolatore, vigliacco.
+- **Fin Ditasvelte** — halfling ladro CN, ex-charmato di Korex. Esce dalla fogna confuso e furioso, si unisce ai PG per vendetta. Portatore dell'anello (scenario B).
+- **Jason Accordion** — bardo umano NM, anima nell'Anello del Virtuoso. Villain della saga.
+
+Stat block teppisti charmati: vedi `MON_TeppistaCharmato.md`.
 
 ## Struttura dell'avventura
 
@@ -49,3 +52,54 @@ Schede complete in `characters/`.
 - Korex (se catturato vivo) → fonte di informazioni inaffidabili per avventure future
 - Le fogne antiche → perché sono così grandi? Chi le ha costruite? Il passaggio nascosto nella tana porta più in profondità
 - Il bardo nell'anello ha un piano proprio — non è un alleato
+
+---
+
+## Appendice — Cheat Sheet Anello del Virtuoso
+
+Riferimento rapido per il DM. Dettagli completi in `NPC_JasonAccordion.md` e `DiscussioneNarrativa.md`.
+
+**Aspetto**: anello d'argento annerito, incisione ouroboros musicale. È al dito di Korex.
+
+### Attivazione — 3 livelli
+
+1. **Attrazione** (passiva, narrativa): quando Korex cade, chiunque veda l'anello sente curiosità. Nessun tiro.
+2. **Tocco**: chi tocca l'anello → TS Saggezza CD 20. Fallimento = obbligato a indossarlo. Successo = riesce a posarlo, attrazione resta.
+3. **Indossato**: l'anello si stringe, non si toglie. Sintonia automatica.
+
+### Effetti immediati
+
+| vantaggi | malus |
+|----------|-------|
+| +2 a una caratteristica (per classe) | L'anello non si toglie |
+| 1 incantesimo da bardo 1/giorno senza slot | Incubi la prima notte (niente riposo lungo) |
+| Vantaggio TS contro charm | Freddo costante alla mano |
+| | Vulnerabilità danni psichici |
+
+### Possessione — tracciamento presa
+
+Ogni uso dell'incantesimo 1/giorno → tira **d8**.
+- **2-8**: funziona.
+- **1**: fallisce + onda psichica 1d4+presa a tutti entro 10qd + presa +1.
+
+| presa | narrativo | meccanico |
+|-------|-----------|-----------|
+| 0 | Freddo, incubi | Vulnerabilità psichica |
+| 1-2 | Tic di Jason, sussurri rari | Onda 1d4+1/+2 |
+| 3-4 | Jason parla spesso, ricordi altrui | Onda 1d4+3/+4, TS Sag CD 14 in stress |
+| 5-6 | Jason prende il controllo 1d4 round | Onda 1d4+5/+6, TS Sag CD 15 |
+| 7+ | Tentativo controllo permanente | Onda 1d4+7+, TS Sag CD 16+ |
+
+**Ridurre presa**: TS Sag riuscito vs Jason (−1), *Lesser Restoration* (−1), *Greater Restoration* (−2).
+
+### Rimozione
+
+*Remove Curse* allenta l'anello per 1d4 ore, poi torna. Rimozione definitiva: trovare lo scheletro di Jason + bruciarlo con sale + mago che conosce il rituale originale.
+
+### Piano A vs Piano B
+
+- **A** (PG tocca): possessione progressiva del PG.
+- **B variante** (Fin tocca): SAG 10, Jason lo possiede facilmente.
+- **B base** (nessuno tocca): guardia lo indossa → attacco → i PG la sconfiggono → l'anello resta.
+
+**"Libero"** = nuovo ospite senza difese, non uscita dall'anello. Korex sapeva resistergli.

@@ -69,25 +69,37 @@ KNOWN_MAIN_SECTIONS = {
     "Agganci futuri", "Concept", "Ambientazione",
 }
 
+# Sezioni con prefisso accettato (match parziale)
+KNOWN_MAIN_PREFIXES = {"Appendice"}
+
+
 KNOWN_MODULE_SECTIONS = {
     "Descrizione", "Obiettivo", "Luoghi interni", "Luoghi e incontri", "Nemici",
     "Indizi chiave", "Ricompense", "Note al master", "Finale", "Milestone",
 }
 
 KNOWN_NPC_SECTIONS = {
+    # Obbligatorie
     "Informazioni generali", "Descrizione", "Motivazioni", "Note al master",
-    "Stat Block", "Agganci futuri", "Capacità notevoli", "Ruolo nell'avventura",
-    "Da definire", "Running Gag",
+    # Meccaniche (NPCFormat.md)
+    "Stat Block", "Attacchi", "Azioni bonus", "Reazioni",
+    # Opzionali (NPCFormat.md)
+    "Capacità notevoli", "Ruolo nell'avventura", "Agganci futuri", "Da definire",
+    # Narrative
+    "Backstory", "Punti aperti", "Running Gag",
 }
 
-def check_unknown_sections(filepath, known, label):
+def check_unknown_sections(filepath, known, label, prefixes=None):
     if not os.path.isfile(filepath):
         return
     content = open(filepath, encoding="utf-8").read()
     for s in re.findall(r'^##\s+(.+)$', content, re.MULTILINE):
-        if s.strip() not in known:
-            warn(f"{label}: sezione non prevista '## {s.strip()}'")
-
+        name = s.strip()
+        if name in known:
+            continue
+        if prefixes and any(name.startswith(p) for p in prefixes):
+            continue
+        warn(f"{label}: sezione non prevista '## {name}'")
 
 def check_naming_conventions(adventure_dir):
     for root, dirs, files in os.walk(adventure_dir):
@@ -287,7 +299,7 @@ def main():
     check_sections(main_md,
         ["Lore", "Introduzione", "NPC principali", "Struttura dell'avventura"],
         adventure_name)
-    check_unknown_sections(main_md, KNOWN_MAIN_SECTIONS, adventure_name)
+    check_unknown_sections(main_md, KNOWN_MAIN_SECTIONS, adventure_name, KNOWN_MAIN_PREFIXES)
     if os.path.isfile(main_md):
         content = open(main_md, encoding="utf-8").read()
         for s in ["Plot generale", "Consigli al master"]:

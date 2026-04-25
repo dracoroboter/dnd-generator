@@ -16,11 +16,20 @@ Creare nuove avventure D&D 5e per sessioni con amici, usando Kiro e gli script d
 | A1 | **Mappe ottimizzate per Roll20** | Roll20 ha layer separati: Map (sfondo visibile ai player), GM Info Overlay (solo GM), Objects (token). Servono almeno 2 PNG: uno "player" (senza segreti) per il Map layer, uno "DM" (con porte segrete, note, trappole) per il GM Info Overlay. Il flag `--view dm|players` esiste già nei renderer — manca l'export automatico SVG→PNG (serve `cairosvg` o simile). | **Alta** |
 | A2 | **Mappe multi-livello (segreti nascosti)** | Porte segrete, passaggi nascosti, trappole visibili solo al DM. Il sistema `--view dm|players` + gate `secret hidden/found` esiste già. Per Roll20 basta generare le due immagini e caricarle sui layer giusti. Non serve un formato speciale — sono due PNG separati. | **Media** (già quasi funzionante) |
 | B | **Creazione rapida scontri, NPC, PG** | Data una descrizione ("6 banditi nel bosco, party livello 3, difficoltà hard"), generare la lista mostri bilanciata con stat block. `encounter-difficulty.py` calcola già la difficoltà — manca la direzione inversa: dato un budget XP, suggerire combinazioni di mostri. Per NPC e PG: generazione da descrizione con stat block completo 5e. | **Alta** |
-| C | **Export Fight Club 5e XML** | NPC e PG esportati in formato XML compatibile con Fight Club 5e / Game Master 5e (Lion's Den). Il formato è documentato: `<monster>` per NPC/mostri, `<character>` per PG, con stat block, azioni, tratti. Repo di riferimento: `kinkofer/FightClub5eXML`. | **Media** |
+| C | ~~**Export Fight Club 5e XML**~~ | ✅ Risolto: `md-to-fightclub.py`, `fightclub-to-md.py`, `generate-statblocks.py` (pipeline completa .md → .xml + .pdf + .png). | **Completata** |
 | D | **Wizard NPC/PG** | Wizard interattivo per creare NPC e PG. `new-npc.py` esiste già. `new-pc.py` è da definire (5 domande aperte in questo plan). Opzionale — Kiro con la skill DungeonMaster può già guidare la creazione conversazionalmente. | **Bassa** |
 | E | **Assistenza costruzione avventura** | Skill/conoscenze per: evitare contraddizioni narrative, bilanciare scontri, suggerire tipi di mostri e svolte narrative, proporre battle map appropriate. Più "intelligenza nel processo" che script specifici. | **Media** |
 
 ### Critica — cosa funziona e cosa no
+
+**Modalità di gioco e strumenti necessari:**
+
+| Modalità | Avventure | Strumenti chiave | Stato |
+|----------|-----------|-----------------|-------|
+| **Dal vivo** (mappe improvvisate, tablet/stampa) | FuoriDaHellfire | PDF unico (`create-pdf-adventure.py`), stat block PNG, schede mappa DM testuali | ✅ Funzionante |
+| **Roll20** (mappe digitali, token, layer) | LAnelloDelConte, saga Scettro di Tyr | Export SVG→PNG (player + DM), mappe ottimizzate per layer Roll20 | ❌ Manca export PNG |
+
+Le due modalità condividono la pipeline NPC/stat block e il generatore PDF, ma divergono sulle mappe: dal vivo bastano descrizioni testuali (`MappaDM.md`), Roll20 richiede immagini PNG separate per player e DM.
 
 **Cosa funziona già:**
 - La pipeline dungeon (generazione → enrichment → SVG multi-stile) è solida
@@ -32,9 +41,9 @@ Creare nuove avventure D&D 5e per sessioni con amici, usando Kiro e gli script d
 **Cosa manca davvero (gap critici):**
 1. **Nessun export PNG automatico.** Senza SVG→PNG, le mappe non vanno su Roll20. È il blocco più immediato. Serve `cairosvg` (o Inkscape CLI, o `rsvg-convert`).
 2. **Nessuna skill "linguaggio naturale → DDL".** La pipeline DDL→JSON→SVG funziona, ma scrivere un `.ddl` a mano è ancora da programmatore. Kiro dovrebbe poter tradurre "la stanza 3 è una cappella con un altare e due candelabri" in DDL valido.
-3. **Nessun generatore di scontri inverso.** `encounter-difficulty.py` verifica, non propone. Serve uno script che, dato un budget XP e un tema, suggerisca combinazioni di mostri dal SRD/Monster Manual.
-4. **Nessun export Fight Club XML.** Il formato è ben documentato ma non c'è nessuno script che lo produca.
-5. **Nessun database mostri locale.** Per suggerire mostri serve un database consultabile (SRD 5.1 è CC, quindi utilizzabile). Senza questo, il generatore di scontri non può funzionare.
+3. ~~**Nessun generatore di scontri inverso.**~~ ✅ Risolto: `encounter-builder.py` con database SRD 327 mostri.
+4. ~~**Nessun export Fight Club XML.**~~ ✅ Risolto: `md-to-fightclub.py`, `fightclub-to-md.py`, `generate-statblocks.py` (pipeline completa).
+5. ~~**Nessun database mostri locale.**~~ ✅ Risolto: `tech/data/srd_5e_monsters.json`.
 
 **Cosa è sovra-ingegnerizzato rispetto all'obiettivo:**
 - Il sistema DDL/RTL è potente ma complesso. Per le prime avventure, Kiro che scrive direttamente il `dungeon_enrichment.json` da una descrizione potrebbe bastare — il DDL diventa utile quando hai molti dungeon da arredare.
@@ -68,9 +77,10 @@ Fase 2 — "Scontri bilanciati" (sblocca B parziale) ✅
 
 Fase 3 — "NPC e PG rapidi" (sblocca B completo, C, D)
 ├── 3a. Generazione NPC da descrizione (stat block 5e completo)
-├── 3b. Export Fight Club 5e XML (mostri + NPC)
-├── 3c. Generazione PG da descrizione (pregen per one-shot)
-└── 3d. Export Fight Club 5e XML (PG)
+├── 3b. ✅ Export Fight Club 5e XML (mostri + NPC) — md-to-fightclub.py
+├── 3c. ✅ Pipeline completa .md → .xml + .pdf + .png — generate-statblocks.py
+├── 3d. Generazione PG da descrizione (pregen per one-shot)
+└── 3e. Export Fight Club 5e XML (PG)
 
 Fase 4 — "Assistente avventura" (sblocca E)
 ├── 4a. Skill review avventura: contraddizioni, bilanciamento, linearità
@@ -78,7 +88,7 @@ Fase 4 — "Assistente avventura" (sblocca E)
 └── 4c. enrichment-to-description.py (descrizioni stanze da oggetti reali)
 
 Fase 5 — "Qualità di vita" (migliora tutto)
-├── 5a. Git + GitHub (prerequisito per condivisione)
+├── 5a. ✅ Git + GitHub (github.com/dracoroboter/dnd-generator)
 ├── 5b. Wizard PG interattivo (new-pc.py)
 ├── 5c. Miglioramenti motore placement (beside, L2)
 └── 5d. Knowledge base SRD 5.1 ricercabile
@@ -138,8 +148,9 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] `tech/scripts/setup.sh` — installa prerequisiti (pandoc, wkhtmltopdf, zip, python3, node, playwright)
 - [x] `tech/scripts/backup.sh` — backup del progetto (escluso legacy/)
 - [x] `tech/scripts/release.sh` — genera PDF + ZIP per una avventura
-- [x] `tech/scripts/check-adventure.py` — verifica normalizzazione + genera report in `tech/reports/`
+- [x] `tech/scripts/check-adventure.py` — verifica normalizzazione + genera report in `tech/reports/` (aggiornato: riconosce sezioni meccaniche NPC: Attacchi, Azioni bonus, Reazioni, Backstory, Punti aperti)
 - [x] `tech/scripts/encounter-difficulty.py` — calcola difficoltà incontro D&D 5e
+- [ ] **Calcolo automatico difficoltà nei moduli** — `check-adventure.py` (o script dedicato) legge il party size/livello dal documento principale e le tabelle nemici dai moduli, calcola la difficoltà (Easy/Medium/Hard/Deadly) e verifica che corrisponda a quella dichiarata. Il party va dichiarato nel documento principale (es. `**Party**: 3 PG lv3 + Udo (CR3) + Fin (lv3)`)
 - [x] `tech/scripts/new-adventure.sh` — scaffolding nuova avventura da template
 - [x] `tech/scripts/adventure-wizard.py` — wizard interattivo per metadati avventura (rilanciabile)
 - [x] `tech/scripts/new-npc.py` — crea scheda NPC (interattivo o template vuoto)
@@ -216,11 +227,11 @@ Tileset disponibili in `tech/assets/tilesets/dcss/` (da DCSS, licenza CC):
 
 **Priorità: da fare prima della prima pubblicazione**
 
-- [ ] Decidere struttura repository GitHub (mono-repo o repo separati per avventura)
-- [ ] Inizializzare repository e primo commit
-- [ ] Documentare workflow git in `tech/rules/GitWorkflow.md`
-- [ ] Decidere se `releases/` va in `.gitignore`
-- [ ] Aggiungere `tech/reports/` a `.gitignore`
+- [x] Decidere struttura repository GitHub (mono-repo o repo separati per avventura)
+- [x] Inizializzare repository e primo commit
+- [x] Documentare workflow git in `tech/rules/GitWorkflow.md`
+- [x] Decidere se `releases/` va in `.gitignore`
+- [x] Aggiungere `tech/reports/` a `.gitignore`
 - [ ] Creare GitHub Action per generazione PDF automatica al push/tag
 
 ---
@@ -229,7 +240,7 @@ Tileset disponibili in `tech/assets/tilesets/dcss/` (da DCSS, licenza CC):
 
 - [ ] Valutare layout PDF ottimizzato per stampa fisica (margini, formato A5/A4)
 - [ ] Valutare pubblicazione su piattaforme dedicate (DMsGuild, itch.io)
-- [ ] Script per PDF unico pubblicabile (copertina `Cover.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data)
+- [x] Script per PDF unico pubblicabile (copertina `Cover.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data) → `create-pdf-adventure.py`
 
 ---
 

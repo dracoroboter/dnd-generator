@@ -20,14 +20,15 @@ Cheat sheet per disegnare la mappa al volo al tavolo.
 │  GALLERIA  ├─────┤    BIVIO DEI TUBI   ├─────┤ TUNNEL   │
 │ D'INGRESSO │     │     incrocio a T    │     │ VERSO    │
 │  6×2 qd    │     │       2qd largo     │     │ NIDO     │
-└────────────┘     └────┬────────────────┘     │ 4×2 qd  │
+└────────────┘     └────┬────────────────┘     │ 10×2 qd │
                         │                      └────┬─────┘
                    ┌────┴────┐                      │
-                   │CROLLATO │              ┌───────┴───────┐
-                   │(vicolo  │ 2×3qd       │  NIDO DI RATTI│
-                   │ cieco)  │ macerie      │    4×4 qd     │
-                   └─────────┘              │  (stretto)    │
-                                            └───────┬───────┘
+                   │CROLLATO │          ┌───────────┴───────────┐
+                   │(vicolo  │ 2×3qd   │     NIDO DI RATTI     │
+                   │ cieco)  │ macerie  │       8×8 qd          │
+                   └─────────┘          │  tubi crollati, grate │
+                                        │  macerie (coperture)  │
+                                        └───────────┬───────────┘
                                                     │
                                             ┌───────┴───────┐
                                             │ TUNNEL VERSO  │
@@ -55,12 +56,12 @@ Cheat sheet per disegnare la mappa al volo al tavolo.
 | Bivio dei tubi | incrocio a T, 2qd largo | tre direzioni: N, S, E |
 | Ramo nord (allagato) | 2×4 qd | acqua al ginocchio, vicolo cieco |
 | Ramo sud (crollato) | 2×3 qd | macerie, vicolo cieco |
-| Tunnel verso nido | 4×2 qd | prosegue a est dal bivio |
-| Nido di ratti | 4×4 qd | soffitto basso, stretto |
+| Tunnel verso nido | 10×2 qd | prosegue a est dal bivio |
+| Nido di ratti | 8×8 qd | tubi crollati, grate, macerie (coperture) |
 | Tunnel verso soglia | 5×2 qd → 3qd | si allarga gradualmente |
 | La soglia | 3×3 qd | transizione mattoni → pietra antica |
 
-Percorso lineare totale: ~22 qd (~33m / ~110ft)
+Percorso lineare totale: ~30 qd (~45m / ~150ft)
 
 ## Posizioni chiave — cosa disegnare dove
 
@@ -77,9 +78,10 @@ Percorso lineare totale: ~22 qd (~33m / ~110ft)
 - Graffito chiave di violino (marchio Korex) sul muro est — conferma direzione
 
 ### Nido di ratti
-- **6 ratti corrotti** sparsi nella sala (occhi rossi)
-- **1 sciame** nell'angolo opposto all'ingresso
-- Soffitto basso → svantaggio armi a due mani
+- **6 ratti corrotti** sparsi nella sala, nascosti dietro detriti
+- **1 sciame** nell'angolo opposto all'ingresso, dietro un cumulo di macerie
+- **Coperture**: tubi crollati (copertura mezza, +2 CA), grate rialzate, cumuli di macerie (terreno difficile)
+- I ratti usano le coperture per tendere agguati; i PG possono usarle per proteggersi dallo sciame
 - Se trappola attivata: ratti già allertati, niente sorpresa
 
 ### La soglia
