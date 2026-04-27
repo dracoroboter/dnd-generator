@@ -71,7 +71,7 @@ Gli stat block PNG già generati dalla pipeline FightClub (`characters/statblock
 
 ### NPC senza stat block PNG
 
-Jason Accordion ha solo il markdown, niente stat block grafico. **Soluzione**: creare la scheda markdown temporanea nel formato standard (`NPCFormat.md`) e generare lo stat block PNG con la pipeline esistente prima di creare il PDF.
+Jason Accordion ha solo il markdown, niente stat block grafico. **Soluzione**: creare la scheda markdown temporanea nel formato standard (`npc-format.md`) e generare lo stat block PNG con la pipeline esistente prima di creare il PDF.
 
 Pipeline per generare stat block mancanti:
 ```
@@ -80,7 +80,7 @@ characters/markdown/NPC_JasonAccordion.md
     → md-to-statblock-pdf.js → characters/statblock/NPC_JasonAccordion.png
 ```
 
-Il formato markdown NPC è documentato in `tech/rules/NPCFormat.md`. Sezioni obbligatorie: Informazioni generali, Descrizione, Motivazioni, Note al master. Sezioni meccaniche per export: Stat Block (tabella 6 abilità + campi PF/CA/velocità/etc.), Attacchi (sottosezioni `###` con Attacco/Danni/Effetto).
+Il formato markdown NPC è documentato in `tech/rules/npc-format.md`. Sezioni obbligatorie: Informazioni generali, Descrizione, Motivazioni, Note al master. Sezioni meccaniche per export: Stat Block (tabella 6 abilità + campi PF/CA/velocità/etc.), Attacchi (sottosezioni `###` con Attacco/Danni/Effetto).
 
 ## Pipeline
 

@@ -35,9 +35,10 @@
 
 ## Milestone
 
-*(opzionale — compilare solo se i PG salgono di livello dopo questo modulo)*
+*(opzionale — compilare solo se i PG salgono di livello in questo modulo)*
 
-- **Livello X** dopo aver completato questo modulo
+**Livello raggiunto:** X
+**Trigger:** [evento o condizione che attiva l'avanzamento]
 
 ## Note al master
 

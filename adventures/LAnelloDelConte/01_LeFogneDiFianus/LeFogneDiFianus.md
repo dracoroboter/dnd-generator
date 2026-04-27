@@ -325,6 +325,13 @@ La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Se
 
 ---
 
+## Milestone
+
+**Livello raggiunto:** 2
+**Trigger:** I PG trovano la lettera di Sergius nella Stanza 5 e la consegnano a Sir Gorim Vel.
+
+---
+
 ## Note per il DM
 
 - Gorim può accompagnare i PG o aspettarli fuori ("Io nelle fogne non ci scendo, ho la sciatica"). Se accompagna, commenta tutto con esasperazione.

@@ -2,7 +2,7 @@
 
 Documento di riferimento per la struttura delle avventure del progetto.
 Per le istruzioni operative (sezioni obbligatorie, formato file) vedere `adventures/AdventureTemplate/AdventureBook.md`.
-Per le regole di contenuto vedere `tech/rules/ContentRules.md`.
+Per le regole di contenuto vedere `tech/rules/content-rules.md`.
 
 ---
 
@@ -50,17 +50,76 @@ releases/
 
 ## Convenzioni di naming
 
+> Questa è la **fonte di verità** per il naming del progetto. Gli altri documenti (`meta-dnd.md`, `CLAUDE.md`, `content-rules.md`) rimandano qui.
+
+### 1. Contenuto avventure — PascalCase
+
+File narrativi dentro `adventures/`: moduli, NPC, mappe, documento principale.
+
 | elemento | convenzione | esempio |
 |----------|-------------|---------|
-| File `.md` | PascalCase | `NomeAvventura.md`, `NPC_IlConte.md` |
+| Documento principale | PascalCase | `LAnelloDelConte.md` |
+| Moduli (directory) | `NN_PascalCase` | `01_LeFogneDiFianus/` |
+| Moduli (file) | PascalCase | `LeFogneDiFianus.md` |
+| Schede NPC/mostri | prefisso `NPC_` o `MON_` + PascalCase | `NPC_SirGorimVel.md`, `MON_DragonRosso.md` |
+| Mappe (descrizione) | PascalCase, stesso nome base del PNG | `FianusRomanus.md` |
+| Nome avventura (directory) | PascalCase | `LAnelloDelConte/`, `FuoriDaHellfire/` |
+| File fissi dell'avventura | PascalCase | `AdventureBook.md`, `PlanBook.md` |
+
+Lingua: **italiano**.
+
+### 2. Documenti tecnici — kebab-case
+
+File in `tech/rules/`, `tech/how-to/`, documentazione script.
+
+| elemento | convenzione | esempio |
+|----------|-------------|---------|
+| Regole e specifiche | kebab-case | `adventure-template.md`, `content-rules.md` |
+| Guide procedurali | kebab-case | `how-to-release.md`, `how-to-new-npc.md` |
+| Documentazione script | kebab-case | `docs-create-pdf-adventure.md` |
+| Piani di sviluppo | kebab-case | `plan-create-pdf-adventure.md` |
+
+Lingua: **italiano**.
+
+### 3. File meta/progetto — UPPER_SNAKE_CASE
+
+File nella root del progetto che descrivono il progetto stesso.
+
+| elemento | convenzione | esempio |
+|----------|-------------|---------|
+| File meta | UPPER_SNAKE_CASE | `README.md`, `CLAUDE.md`, `CHANGELOG.md` |
+| Plan operativo | kebab-case (eccezione storica) | `plan-meta-dnd.md`, `meta-dnd.md` |
+
+Lingua: **italiano**.
+
+### 4. Script — kebab-case
+
+Codice sorgente in `tech/scripts/` e sottodirectory.
+
+| elemento | convenzione | esempio |
+|----------|-------------|---------|
+| Script Python/Bash | kebab-case | `check-adventure.py`, `new-npc.py` |
+| Commenti nel codice | inglese | `# Validate adventure structure` |
+
+Lingua commenti: **inglese**.
+
+### Immagini e asset
+
+| elemento | convenzione | esempio |
+|----------|-------------|---------|
+| Immagini avventure | PascalCase | `FianusRomanus.png`, `SirGorimVel.png` |
+| Copertina | `NomeAvventura_COVER.png` in `img/` | `LAnelloDelConte_COVER.png` |
+| Versioni lowres | suffisso `-lowres` | `FianusRomanus-lowres.jpg` |
+| Stat block generati | stesso prefisso del sorgente | `NPC_SirGorimVel.pdf`, `NPC_SirGorimVel.png` |
+| XML FightClub generati | stesso prefisso del sorgente | `NPC_SirGorimVel.xml` |
+
+### Directory
+
+| elemento | convenzione | esempio |
+|----------|-------------|---------|
 | Directory strutturali | minuscolo, inglese | `maps/`, `characters/`, `img/`, `other/` |
-| Moduli | `NN_PascalCase` | `01_IndagineAPanciaverde/` |
-| Immagini | PascalCase | `MappaRegione.png`, `NPC_Cattivone.png` |
-| Nome avventura | PascalCase | `AvventuraDiProva/`, `LAnelloDelConte/` |
-| Sottodirectory characters | minuscolo, inglese | `markdown/`, `img/`, `fightclub/`, `statblock/` |
-| Mappe: descrizione + grafica | stesso nome base | `FianusRomanus.md` + `FianusRomanus.png` |
-| Mappe: schede DM | nome specifico PascalCase | `DiscesaNelleFogne.md` (non `MappaDM.md`) |
-| Stat block NPC/mostri | prefisso `NPC_` o `MON_` | `NPC_Korex.png`, `MON_DragonRosso.png` |
+| Sottodirectory characters | minuscolo, inglese | `markdown/`, `fightclub/`, `statblock/` |
+| Directory tech | minuscolo, inglese | `scripts/`, `rules/`, `how-to/` |
 
 ### Regole mappe
 
@@ -133,8 +192,28 @@ Sezioni opzionali:
 ## Nemici
 ## Indizi chiave
 ## Finale
-## Milestone     ← livello raggiunto dopo questo modulo (solo se applicabile)
+## Milestone
 ```
+
+#### Milestone (dato strutturale opzionale)
+
+La sezione `## Milestone` è un dato strutturale del modulo, non una semplice nota. Indica un avanzamento di livello dei PG, triggerato da un evento narrativo specifico o dal completamento di un certo numero di obiettivi.
+
+**Posizione:** dopo `## Ricompense`, prima di `## Note al master`.
+
+**Formato:**
+
+```markdown
+## Milestone
+
+**Livello raggiunto:** X
+**Trigger:** [descrizione dell'evento o condizione che attiva la milestone]
+```
+
+- **Livello raggiunto** — il livello a cui passano i PG.
+- **Trigger** — l'evento specifico (es. "consegna della lettera a Gorim") o una condizione cumulativa (es. "completati almeno 3 dei 5 obiettivi secondari"). Deve essere un momento identificabile in gioco, non generico.
+
+La milestone è **opzionale**: non tutti i moduli ne hanno una. Un modulo senza `## Milestone` significa che non c'è avanzamento di livello in quel modulo.
 
 ### Schede PNG (`NPC_NomePersonaggio.md`)
 - **Antagonisti principali**: scheda completa con stat block
@@ -186,4 +265,4 @@ mv 01_NomePrimoModulo/NomeModulo.md 01_NomePrimoModulo/NomePrimoModulo.md
 mkdir -p releases/NomeMiaAvventura
 ```
 
-Per la guida completa: `tech/how-to/HowToNewAdventure.md` *(da creare)*
+Per la guida completa: `tech/how-to/how-to-new-adventure.md` *(da creare)*

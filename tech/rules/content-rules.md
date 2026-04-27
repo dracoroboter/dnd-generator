@@ -41,7 +41,7 @@ Per calcolare la difficoltà:
 python3 tech/scripts/encounter-difficulty.py -p <N> <LVL> -m <N> <CR> [...]
 ```
 
-Riferimento: `tech/how-to/HowToEncounterDifficulty.md`
+Riferimento: `tech/how-to/how-to-encounter-difficulty.md`
 
 ### Nota sul sistema CR/XP
 
@@ -97,6 +97,30 @@ Prevedere sempre almeno una soluzione alternativa al combattimento per ogni scon
 - L'oro deve essere coerente con il livello del party (DMG tabelle loot)
 - Oggetti magici personalizzati devono avere un costo o rischio associato
 - La ricompensa principale dell'avventura va dichiarata nel documento principale
+
+---
+
+## Milestone
+
+Le avventure di questo progetto usano il sistema **milestone** per l'avanzamento di livello (non XP). La milestone è un dato strutturale opzionale del modulo — non tutti i moduli ne hanno una.
+
+### Regole
+
+- Una milestone è triggerata da un **evento narrativo specifico** (es. "trovare la lettera di Sergius e consegnarla a Gorim") o dal **completamento di un certo numero di obiettivi** (es. "completati almeno 3 dei 5 obiettivi secondari").
+- Il trigger deve essere un momento **identificabile in gioco**, non generico ("completare il modulo" non è un buon trigger — "sconfiggere il boss" o "consegnare l'artefatto" sì).
+- Una milestone può **non essere conseguita** in una sessione: se i PG non raggiungono il trigger, non avanzano.
+- In una campagna multi-sessione, le milestone scandiscono il ritmo della progressione. Non è necessario che ogni modulo ne abbia una.
+
+### Formato nel modulo
+
+```markdown
+## Milestone
+
+**Livello raggiunto:** X
+**Trigger:** [evento o condizione]
+```
+
+Per la posizione e il formato strutturale, vedere `tech/rules/adventure-template.md`.
 
 ---
 

@@ -3,10 +3,10 @@
 Guida completa per progettare, strutturare e scrivere un'avventura D&D 5e nel formato del progetto.
 
 Riferimenti:
-- Struttura directory e file obbligatori: `tech/rules/AdventureTemplate.md`
-- Regole di contenuto: `tech/rules/ContentRules.md`
-- Terminologia: `tech/rules/Glossary.md`
-- Avventura di riferimento: `adventures/AvventuraDiProva/`
+- Struttura directory e file obbligatori: `tech/rules/adventure-template.md`
+- Regole di contenuto: `tech/rules/content-rules.md`
+- Terminologia: `tech/rules/glossary.md`
+- Avventura di riferimento: `adventures/FuoriDaHellfire/`
 
 ---
 
@@ -82,7 +82,7 @@ adventures/NomeMiaAvventura/
 ├── PlanBook.md
 ├── NomeMiaAvventura.md
 ├── maps/
-│   └── MappaGenerale.md
+│   └── (un .md per ogni mappa, es. NomeMappa.md + NomeMappa.png)
 ├── characters/
 │   └── (vuota — usare new-npc.py per creare NPC)
 │       ├── markdown/      ← schede NPC_*.md
@@ -196,7 +196,7 @@ python3 tech/scripts/new-npc.py NomeMiaAvventura --template
 | File `.md` | PascalCase | `FuoriDaHellfire.md` |
 | Directory | minuscolo | `characters/`, `maps/` |
 | Immagini | PascalCase | `MappaOakshore.png` |
-| Copertina | `Cover.png` | `Cover.png` |
+| Copertina | `NomeAvventura_COVER.png` in `img/` | `FuoriDaHellfire_COVER.png` |
 
 ---
 
@@ -233,19 +233,17 @@ La sezione `## Struttura dell'avventura` contiene la tabella dei moduli con link
 | 2 | La Cicatrice | dungeon / mystery | [02_LaCicatrice/LaCicatrice.md](...) |
 ```
 
-#### 2. Mappa generale (`maps/MappaGenerale.md`)
+#### 2. Mappe (`maps/NomeMappa.md` + `maps/NomeMappa.png`)
 
-Luoghi, connessioni, distanze. Formato:
+Ogni mappa ha un file `.md` (descrizione DM) e opzionalmente un `.png` con lo stesso nome base. Un file per mappa, non un file unico per tutte.
 
 ```markdown
+# NomeMappa
+
 ## Luoghi principali
 
 - **Greyhawkins** — hub di partenza, città portuale
 - **Moli di Oakshore** — a 20 minuti dal centro
-
-## Connessioni
-
-Greyhawkins ---(strada costiera, 20min)---> Moli di Oakshore
 
 ## Note geografiche
 
@@ -289,7 +287,7 @@ Per calcolare:
 python3 tech/scripts/encounter-difficulty.py -p 4 3 -m 2 1 1 3
 ```
 
-Guida dettagliata: `tech/how-to/HowToEncounterDifficulty.md`
+Guida dettagliata: `tech/how-to/how-to-encounter-difficulty.md`
 
 #### 4. Schede NPC (`characters/NPC_*.md`)
 
@@ -314,7 +312,7 @@ Istruzioni per l'AI specifiche dell'avventura. Cosa sa, cosa non deve rivelare, 
 ```markdown
 # AdventureBook.md — Istruzioni per l'AI
 
-Questa avventura segue la struttura standard definita in `tech/rules/AdventureTemplate.md`.
+Questa avventura segue la struttura standard definita in `tech/rules/adventure-template.md`.
 
 ## Note specifiche
 
@@ -390,7 +388,7 @@ bash tech/scripts/release.sh NomeMiaAvventura 0.1
 
 Output in `releases/NomeMiaAvventura/`. Il PDF viene generato via pandoc + wkhtmltopdf.
 
-Guida dettagliata: `tech/how-to/HowToRelease.md`
+Guida dettagliata: `tech/how-to/how-to-release.md`
 
 ---
 
@@ -402,7 +400,7 @@ Guida dettagliata: `tech/how-to/HowToRelease.md`
 | `AdventureBook.md` | Istruzioni per l'AI |
 | `PlanBook.md` | Stato lavoro, todo, note DM |
 | `NomeMiaAvventura.md` | Documento principale: lore, plot, NPC, struttura |
-| `maps/MappaGenerale.md` | Luoghi, connessioni, distanze |
+| `maps/NomeMappa.md` | Un file .md per ogni mappa (+ .png opzionale) |
 | `NN_NomeModulo/NomeModulo.md` | Un file per modulo (almeno uno) |
 
 ---

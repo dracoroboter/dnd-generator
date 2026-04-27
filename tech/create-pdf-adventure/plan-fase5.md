@@ -133,8 +133,8 @@ Impatto: tutte le avventure, il template, tutti gli script, tutta la documentazi
 
 | # | Operazione | Avventure impattate |
 |---|-----------|---------------------|
-| N0a | Rinominare `maps/` → `maps/` | LAnelloDelConte, FuoriDaHellfire, AvventuraDiProva, AdventureTemplate (root + ogni modulo) |
-| N0b | Rinominare `characters/` → `characters/` | LAnelloDelConte, FuoriDaHellfire, AvventuraDiProva, AdventureTemplate |
+| N0a | Rinominare `maps/` → `maps/` | LAnelloDelConte, FuoriDaHellfire, AdventureTemplate (root + ogni modulo) |
+| N0b | Rinominare `characters/` → `characters/` | LAnelloDelConte, FuoriDaHellfire, AdventureTemplate |
 | N0c | Aggiornare riferimenti nei testi `.md` | Tutti i file che referenziano `maps/` o `characters/` (avventure, moduli, docs, script) |
 
 ### LAnelloDelConte
@@ -162,7 +162,7 @@ Impatto: tutte le avventure, il template, tutti gli script, tutta la documentazi
 
 ## Aggiornamento regole di normalizzazione
 
-### `tech/rules/AdventureTemplate.md` — modifiche
+### `tech/rules/adventure-template.md` — modifiche
 
 1. **Struttura directory**: aggiungere `other/` con sottodirectory per tipo
 2. **Mappe**: documentare la convenzione nome mappa `.md` = nome mappa `.png`
@@ -170,7 +170,7 @@ Impatto: tutte le avventure, il template, tutti gli script, tutta la documentazi
 4. **Deprecare** `MappaDM.md` → nome specifico PascalCase
 5. **Stat block**: esplicitare che solo `NPC_*` e `MON_*` sono contenuto dell'avventura
 
-### `tech/rules/Normalization.md` — modifiche
+### `tech/rules/normalization.md` — modifiche
 
 1. **Fase 3 (mapping)**: aggiornare tabella con regole mappe (nome specifico, SVG in other, draft in other)
 2. **Fase 4 (rinomina)**: aggiungere regola `MappaDM.md` → nome specifico
@@ -194,8 +194,8 @@ Impatto: tutte le avventure, il template, tutti gli script, tutta la documentazi
 |---|------|------|------------|
 | 1 | ✅ Analisi differenze strutturali | Analisi | — |
 | 2 | ✅ Decisioni normalizzazione mappe (D1–D7) | Design | — |
-| 3 | Aggiornare `AdventureTemplate.md` con nuove regole | Docs | D1–D7 |
-| 4 | Aggiornare `Normalization.md` con nuove regole | Docs | D1–D7 |
+| 3 | Aggiornare `adventure-template.md` con nuove regole | Docs | D1–D7 |
+| 4 | Aggiornare `normalization.md` con nuove regole | Docs | D1–D7 |
 | 5 | Rename directory `maps/` → `maps/`, `characters/` → `characters/` (tutte le avventure + template) | File ops | 3, 4 |
 | 6 | Aggiornare riferimenti `maps/` e `characters/` in tutti i file .md e script | File ops | 5 |
 | 7 | Eseguire normalizzazione file LAnelloDelConte (N1–N9) | File ops | 5 |
@@ -208,5 +208,5 @@ Impatto: tutte le avventure, il template, tutti gli script, tutta la documentazi
 | 14 | Aggiungere CSS `.map-page` | Code | 11 |
 | 15 | Testare PDF con LAnelloDelConte | Test | 11–14 |
 | 16 | Verificare non-regression PDF con FuoriDaHellfire | Test | 15 |
-| 17 | Aggiornare `DocsCreatePdfAdventure.md` | Docs | 16 |
-| 18 | Aggiornare `PlanCreatePdfAdventure.md` (fase 5 completata) | Docs | 17 |
+| 17 | Aggiornare `docs-create-pdf-adventure.md` | Docs | 16 |
+| 18 | Aggiornare `plan-create-pdf-adventure.md` (fase 5 completata) | Docs | 17 |

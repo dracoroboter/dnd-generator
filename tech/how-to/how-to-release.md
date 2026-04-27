@@ -27,7 +27,7 @@ adventures/<NomeAvventura>/
 └── characters/*.png|jpg ← copiati nella release
 ```
 
-Opzionale: `cover.png` nella root dell'avventura viene copiata nella release.
+Opzionale: `img/NomeAvventura_COVER.png` viene usata come copertina.
 
 ## Comando
 
@@ -40,7 +40,7 @@ bash tech/scripts/release.sh <NomeAvventura> <versione>
 Esempio:
 
 ```bash
-bash tech/scripts/release.sh AvventuraDiProva 1.0
+bash tech/scripts/release.sh FuoriDaHellfire 1.0
 ```
 
 ## Output

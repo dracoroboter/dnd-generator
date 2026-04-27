@@ -13,6 +13,9 @@ legacy/
 # Backup
 backup/
 
+# Materiale di studio/riferimento (non parte del progetto)
+goodExamples/
+
 # SRD clonato (repo esterno)
 tech/data/srd/
 
@@ -38,6 +41,7 @@ mdpdf.log
 # OS
 .DS_Store
 Thumbs.db
+*:Zone.Identifier
 
 # Editor / AI
 .claude/

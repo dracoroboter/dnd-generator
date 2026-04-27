@@ -12,7 +12,7 @@ Convertire le schede NPC markdown del progetto (`characters/NPC_*.md`) in file X
 
 ## Come si usa un file XML in FightClub
 
-1. Genera il file XML (manualmente o con lo script `npc-to-fightclub.py` — da creare)
+1. Genera il file XML con `md-to-fightclub.py` (o con la pipeline completa `generate-statblocks.py`)
 2. Trasferisci il file `.xml` sul dispositivo (AirDrop, email, cloud, cavo)
 3. In FightClub 5e: **Settings → Import → seleziona il file XML**
 4. I mostri/NPC appaiono nella sezione Compendium dell'app
@@ -176,8 +176,8 @@ La struttura dei tag è stata ricavata dallo schema XSD e dai file XML di esempi
 
 ## TODO
 
-- [ ] Creare `tech/fightclub/npc-to-fightclub.py` — converte `NPC_*.md` → XML FightClub
-- [ ] Testare validazione con `xmllint` + `tech/data/compendium/compendium.xsd`
+- [x] ~~Creare script conversione NPC markdown → XML FightClub~~ → `md-to-fightclub.py`
+- [x] ~~Testare validazione con `xmllint`~~ → funzionante con `compendium.xsd`
 - [ ] Testare import in FightClub 5e su dispositivo reale
 
 ### Miglioramenti PDF/PNG stat block

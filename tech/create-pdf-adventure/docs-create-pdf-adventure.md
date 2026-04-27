@@ -170,8 +170,8 @@ Lo script `create-pdf-adventure.py` non genera stat block — li include come im
 
 ```
 tech/create-pdf-adventure/
-├── PlanCreatePdfAdventure.md      # piano di sviluppo (fasi, TODO)
-├── DocsCreatePdfAdventure.md      # questo file (documentazione operativa)
+├── plan-create-pdf-adventure.md      # piano di sviluppo (fasi, TODO)
+├── docs-create-pdf-adventure.md      # questo file (documentazione operativa)
 ├── adventure.css                  # CSS custom D&D-style
 ├── create-pdf-adventure.py        # script principale (genera PDF)
 └── optimize-images.py             # genera versioni -lowres delle immagini

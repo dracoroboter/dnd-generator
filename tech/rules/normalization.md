@@ -1,9 +1,9 @@
-# Normalization.md — Procedura di Normalizzazione
+# normalization.md — Procedura di Normalizzazione
 
 Guida per portare un'avventura legacy (qualsiasi formato) allo standard del progetto.
-Riferimento struttura: `tech/rules/AdventureTemplate.md`
-Riferimento contenuto: `tech/rules/ContentRules.md`
-Riferimento termini: `tech/rules/Glossary.md`
+Riferimento struttura: `tech/rules/adventure-template.md`
+Riferimento contenuto: `tech/rules/content-rules.md`
+Riferimento termini: `tech/rules/glossary.md`
 
 ---
 
@@ -175,7 +175,7 @@ Creare ex novo con:
 
 ### AdventureBook.md
 
-Creare ex novo con rimando a `tech/rules/AdventureTemplate.md` e note specifiche dell'avventura.
+Creare ex novo con rimando a `tech/rules/adventure-template.md` e note specifiche dell'avventura.
 
 ### PlanBook.md
 

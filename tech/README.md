@@ -2,16 +2,21 @@
 
 Indice di tutta la documentazione tecnica del progetto `dungeonandragon`.
 
+> **Mappe e generazione dungeon** → tutta la toolchain mappe (generatore, renderer SVG, DDL/RTL, template, asset) è nel repository separato **[dnd-maps](https://github.com/dracoroboter/dnd-maps)**.
+
 ---
 
 ## How-To — Guide procedurali
 
 | File | Descrizione |
 |------|-------------|
-| [`how-to/HowToNewAdventure.md`](how-to/HowToNewAdventure.md) | Creare una nuova avventura: scaffolding, wizard metadati, moduli, NPC, verifica, release |
-| [`how-to/HowToRelease.md`](how-to/HowToRelease.md) | Generare una release PDF + ZIP con `release.sh` |
-| [`how-to/HowToEncounterDifficulty.md`](how-to/HowToEncounterDifficulty.md) | Calcolare la difficoltà di un incontro con `encounter-difficulty.py` (sistema XP DMG 2014) |
-| [`how-to/HowToClaudeCode.md`](how-to/HowToClaudeCode.md) | Usare Claude Code in questo progetto: modelli, comandi, cambio modello |
+| [`how-to/how-to-new-adventure.md`](how-to/how-to-new-adventure.md) | Creare una nuova avventura: scaffolding, wizard metadati, moduli, NPC, verifica, release |
+| [`how-to/how-to-new-npc.md`](how-to/how-to-new-npc.md) | Creare NPC: script `new-npc.py`, workflow AI, formato stat block, export FightClub/PDF |
+| [`how-to/how-to-release.md`](how-to/how-to-release.md) | Generare una release PDF + ZIP con `release.sh` |
+| [`how-to/how-to-encounter-difficulty.md`](how-to/how-to-encounter-difficulty.md) | Calcolare la difficoltà di un incontro con `encounter-difficulty.py` (sistema XP DMG 2014) |
+| [`how-to/how-to-git-profiles.md`](how-to/how-to-git-profiles.md) | Separare profili git (account A / account B) sulla stessa macchina |
+| [`how-to/how-to-claude-code.md`](how-to/how-to-claude-code.md) | Usare un AI coding agent in questo progetto: configurazione, separazione ruoli |
+| [`how-to/how-to-aws-profile-switch.md`](how-to/how-to-aws-profile-switch.md) | Switch profilo AI CLI (hobby vs aziendale) |
 
 ---
 
@@ -19,16 +24,12 @@ Indice di tutta la documentazione tecnica del progetto `dungeonandragon`.
 
 | File | Descrizione |
 |------|-------------|
-| [`rules/Glossary.md`](rules/Glossary.md) | Definizioni: avventura, one-shot, campagna, saga, modulo, sessione, quest, puntata |
-| [`rules/AdventureTemplate.md`](rules/AdventureTemplate.md) | Specifica completa della struttura di un'avventura (file obbligatori, sezioni, formato) |
-| [`rules/ContentRules.md`](rules/ContentRules.md) | Regole di contenuto: difficoltà incontri, PNG, struttura narrativa, loot, testo da leggere |
-| [`rules/Normalization.md`](rules/Normalization.md) | Guida alla migrazione di avventure legacy (da `.odt` a Markdown normalizzato) |
-| [`rules/Maps.md`](rules/Maps.md) | Catalogo tool mappe: Inkarnate, DungeonFog, Watabou, DungeonScrawl — valutazioni e uso |
-| [`rules/MapsPipelineDocs.md`](rules/MapsPipelineDocs.md) | Documentazione tecnica completa della pipeline mappe: script, JSON format, plugin oggetti e gate, convenzioni |
-| [`rules/DungeonIterationWorkflow.md`](rules/DungeonIterationWorkflow.md) | Workflow per l'iterazione e raffinamento delle mappe dungeon |
-| [`rules/PlanMaps.md`](rules/PlanMaps.md) | Roadmap sviluppo della pipeline mappe dungeon |
-| [`rules/DDL-spec.md`](rules/DDL-spec.md) | Specifica DungeonDressLang (DDL) — linguaggio semi-naturale per l'enrichment dei dungeon |
-| [`rules/PlanIntermediateRepresentation.md`](rules/PlanIntermediateRepresentation.md) | Piano architetturale per il livello intermedio DDL tra linguaggio naturale e JSON |
+| [`rules/adventure-template.md`](rules/adventure-template.md) | Specifica struttura avventura, convenzioni di naming (fonte di verità), file obbligatori |
+| [`rules/content-rules.md`](rules/content-rules.md) | Regole di contenuto: difficoltà incontri, NPC, struttura narrativa, loot, milestone |
+| [`rules/glossary.md`](rules/glossary.md) | Definizioni: avventura, one-shot, campagna, saga, modulo, sessione, quest, puntata |
+| [`rules/normalization.md`](rules/normalization.md) | Guida alla migrazione di avventure legacy (da `.odt` a Markdown normalizzato) |
+| [`rules/npc-format.md`](rules/npc-format.md) | Specifica formato markdown per NPC/mostri: sezioni, naming, prefissi, pipeline |
+| [`rules/git-workflow.md`](rules/git-workflow.md) | Convenzioni git: commit message, branch, push, credential helper |
 
 ---
 
@@ -42,32 +43,38 @@ Indice di tutta la documentazione tecnica del progetto `dungeonandragon`.
 | `scripts/check-adventure.py` | `python3 tech/scripts/check-adventure.py <Nome>` | Valida struttura avventura, genera report in `tech/reports/` |
 | `scripts/release.sh` | `./tech/scripts/release.sh <Nome> <versione>` | Genera PDF + ZIP in `releases/<Nome>/` |
 | `scripts/encounter-difficulty.py` | `python3 tech/scripts/encounter-difficulty.py -p 4 5 -m 1 5` | Calcola difficoltà incontro (sistema XP DMG) |
+| `scripts/encounter-builder.py` | `python3 tech/scripts/encounter-builder.py --party 4 3 --difficulty hard` | Costruisce incontri bilanciati da database SRD |
 | `scripts/new-npc.py` | `python3 tech/scripts/new-npc.py <Nome>` | Crea scheda NPC (wizard o template) |
-| `scripts/generate-dungeon.py` | `python3 tech/scripts/generate-dungeon.py --seed 42 --rooms 10 --output map.png` | Genera dungeon procedurale (cell-grid BFS/MST) → `dungeon_base.json` + PNG |
-| `scripts/json-to-svg-oldschool.py` | `python3 tech/scripts/json-to-svg-oldschool.py dungeon_base.json --enrichment dungeon_enrichment.json` | Renderer SVG stile old-school D&D (stile principale) |
-| `scripts/json-to-svg-blueprint.py` | `python3 tech/scripts/json-to-svg-blueprint.py dungeon_base.json` | Renderer SVG stile blueprint millimetrato |
-| `scripts/json-to-svg-stone.py` | `python3 tech/scripts/json-to-svg-stone.py dungeon_base.json` | Renderer SVG stile texture pietra |
-| `scripts/json-to-svg-kenney.py` | `python3 tech/scripts/json-to-svg-kenney.py dungeon_base.json` | Renderer SVG stile Kenney Scribble (sperimentale) |
-| `scripts/json-to-svg.py` | `python3 tech/scripts/json-to-svg.py dungeon_base.json` | Renderer SVG tileset DCSS |
-| `scripts/json-to-tmx.py` | `python3 tech/scripts/json-to-tmx.py dungeon_base.json` | Export formato TMX per Tiled Map Editor |
-| `scripts/generate-watabou-dungeon-batch.js` | `node tech/scripts/generate-watabou-dungeon-batch.js --count 5` | Genera mappe Watabou in batch via Playwright |
+| `scripts/backup.sh` | `bash tech/scripts/backup.sh` | Backup del progetto (escluso `legacy/`) |
 
 ---
 
-## Templates
+## FightClub / Stat Block
 
-| Directory | Contenuto |
-|-----------|-----------|
-| `templates/objects/` | JSON + plugin renderer per ogni oggetto dungeon (bed, chest, altar, column, table, fountain, demonic_pentacle...) |
-| `templates/gates/` | JSON + plugin renderer per ogni tipo di gate (door, portcullis, arch, secret) |
+| File | Descrizione |
+|------|-------------|
+| [`fightclub/README.md`](fightclub/README.md) | Formato XML FightClub 5e: struttura tag, esempi, pipeline |
+
+Script: `fightclub/md-to-fightclub.py`, `fightclub/fightclub-to-md.py`, `fightclub/md-to-statblock-pdf.js`, `fightclub/generate-statblocks.py`
 
 ---
 
-## Assets
+## Create PDF Adventure
+
+| File | Descrizione |
+|------|-------------|
+| [`create-pdf-adventure/docs-create-pdf-adventure.md`](create-pdf-adventure/docs-create-pdf-adventure.md) | Documentazione operativa del generatore PDF |
+
+Script: `create-pdf-adventure/create-pdf-adventure.py`, `create-pdf-adventure/optimize-images.py`
+
+---
+
+## Data
 
 | Directory | Contenuto |
 |-----------|-----------|
-| `assets/tilesets/dcss/` | Tileset Dungeon Crawl Stone Soup (CC) — floor, wall e varianti |
+| `data/compendium/` | Schema XSD + SRD 5.1 in formato FightClub XML |
+| `data/srd_5e_monsters.json` | Database 327 mostri SRD 5.1 per `encounter-builder.py` |
 
 ---
 

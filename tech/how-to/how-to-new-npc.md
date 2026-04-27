@@ -3,8 +3,8 @@
 Guida per creare schede NPC nel formato standard del progetto.
 
 Riferimenti:
-- Template NPC: `adventures/AdventureTemplate/characters/NPC_NomePersonaggio.md`
-- Regole contenuto NPC: `tech/rules/ContentRules.md` (sezione PNG)
+- Template NPC: `adventures/AdventureTemplate/characters/markdown/NPC_NomePersonaggio.md`
+- Regole contenuto NPC: `tech/rules/content-rules.md` (sezione PNG)
 - Script: `tech/scripts/new-npc.py`
 
 ---
@@ -112,7 +112,7 @@ Descrivi un NPC o mostro all'AI (o a mano). Serve il FightClub XML e lo stat blo
 1. Crea il markdown
    → descrivi l'NPC all'AI, che genera characters/markdown/NPC_Nome.md
    → oppure usa lo script: python3 tech/scripts/new-npc.py NomeAvventura
-   → oppure scrivi a mano seguendo il formato in tech/rules/NPCFormat.md
+   → oppure scrivi a mano seguendo il formato in tech/rules/npc-format.md
 
 2. (Opzionale) Aggiungi la foto
    → metti l'immagine in characters/img/Nome.png
@@ -150,7 +150,7 @@ Entrambi:
 
 ## Formato stat block
 
-Per NPC con stat block, seguire questo formato (da `ContentRules.md`):
+Per NPC con stat block, seguire questo formato (da `content-rules.md`):
 
 ```markdown
 ## Stat Block
@@ -178,29 +178,44 @@ Per NPC con stat block, seguire questo formato (da `ContentRules.md`):
 
 ---
 
-## TODO futuri
+## Pipeline completa
 
-### Export XML FightClub 5e
+La pipeline NPC è completamente funzionante:
 
-FightClub 5e (iOS/Android) usa un formato XML specifico per importare mostri/NPC.
+```bash
+# Pipeline completa: genera XML + PDF + PNG per tutti gli NPC/MON di un'avventura
+python3 tech/fightclub/generate-statblocks.py <NomeAvventura>
+```
 
-**Risorse chiave:**
-- **[kinkofer/FightClub5eXML](https://github.com/kinkofer/FightClub5eXML)** (733 ⭐) — repo di riferimento con tutti i sorgenti D&D ufficiali in XML. Contiene la struttura XML da seguire nella directory `Sources/`. Usa `xsltproc` per compilare collection → compendium importabile.
+Oppure singoli step:
+
+```bash
+# Markdown → FightClub XML
+python3 tech/fightclub/md-to-fightclub.py characters/markdown/NPC_Nome.md \
+    -o characters/fightclub/NPC_Nome.xml
+
+# FightClub XML → stat block PDF/PNG (grafica WotC via statblock5e + Playwright)
+node tech/fightclub/md-to-statblock-pdf.js characters/fightclub/NPC_Nome.xml \
+    -o characters/statblock/NPC_Nome.pdf
+
+# FightClub XML → Markdown (import da app)
+python3 tech/fightclub/fightclub-to-md.py characters/fightclub/NPC_Nome.xml \
+    -o characters/markdown/NPC_Nome.md
+```
+
+Documentazione formato XML: `tech/fightclub/README.md`
+
+### Risorse e riferimenti
+
+**FightClub XML:**
+- **[kinkofer/FightClub5eXML](https://github.com/kinkofer/FightClub5eXML)** (733 ⭐, MIT) — repo di riferimento con tutti i sorgenti D&D ufficiali in XML. Contiene la struttura XML nella directory `Sources/`.
 - **[Moonlington/5eTtoFC5](https://github.com/Moonlington/5eTtoFC5)** — tool per convertire da formato 5eTools a FightClub XML.
 - **[matteraByte/5eDataParser](https://github.com/matteraByte/5eDataParser)** — parser/converter tra XML, JSON e markdown per stat block 5e.
 - **[vidalvanbergen/CompendiumEditor](https://github.com/vidalvanbergen/CompendiumEditor)** — editor GUI per creare/modificare XML FightClub.
 
-**Approccio**: creare uno script Python che legga le schede NPC markdown del progetto e generi XML nel formato FightClub. Usare i file in `Sources/` del repo kinkofer come riferimento per la struttura XML.
-
-### Export PDF grafica WotC
-
-Generare stat block nella grafica classica Wizard of the Coast (pergamena, bordi rossi, font serif).
-
-**Risorse chiave:**
-- **[tetra-cube.com/dnd/dnd-statblock](https://tetra-cube.com/dnd/dnd-statblock)** — generatore web. Compila i campi e esporta come immagine o "Printable Block". Basato su [Valloric/statblock5e](https://github.com/Valloric/statblock5e) (Web Component HTML/CSS). Supporta anche export Markdown.
-- **[Valloric/statblock5e](https://github.com/Valloric/statblock5e)** — Web Component HTML/CSS che renderizza stat block nella grafica WotC. Usabile standalone in un browser. Potenzialmente automatizzabile con Playwright per generare screenshot/PDF.
-- **[Homebrewery](https://homebrewery.naturalcrit.com/)** — editor web che genera PDF in stile WotC. Usa Markdown come input. Non ha API, ma il formato Markdown è documentato.
-- **[GM Binder](https://www.gmbinder.com/)** — simile a Homebrewery, genera PDF in stile WotC da Markdown.
-- **[javalent/fantasy-statblocks](https://github.com/javalent/fantasy-statblocks)** — plugin Obsidian per stat block in stile D&D. Utile se si usa Obsidian, non per automazione.
-
-**Approccio più promettente**: usare `statblock5e` (Web Component) + Playwright per generare PNG/PDF automaticamente. Lo script legge il markdown NPC, popola il Web Component, e fa screenshot. Simile alla pipeline Watabou già presente nel progetto.
+**Stat block grafica WotC:**
+- **[Valloric/statblock5e](https://github.com/Valloric/statblock5e)** (Apache-2.0) — Web Component HTML/CSS per stat block nella grafica WotC. Usato dalla nostra pipeline via Playwright.
+- **[tetra-cube.com/dnd/dnd-statblock](https://tetra-cube.com/dnd/dnd-statblock)** — generatore web basato su statblock5e. Riferimento per il formato.
+- **[Homebrewery](https://homebrewery.naturalcrit.com/)** — editor web che genera PDF in stile WotC da Markdown.
+- **[GM Binder](https://www.gmbinder.com/)** — simile a Homebrewery.
+- **[javalent/fantasy-statblocks](https://github.com/javalent/fantasy-statblocks)** — plugin Obsidian per stat block in stile D&D.

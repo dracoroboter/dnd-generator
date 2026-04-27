@@ -1,6 +1,6 @@
 # AdventureBook.md — Istruzioni per Kiro
 
-Questa avventura segue la struttura standard definita in `tech/rules/AdventureTemplate.md`.
+Questa avventura segue la struttura standard definita in `tech/rules/adventure-template.md`.
 
 ## Note specifiche
 

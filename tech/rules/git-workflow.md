@@ -141,7 +141,7 @@ git status
 
 # 2. Aggiungi file specifici (preferito) o tutti
 git add adventures/FuoriDaHellfire/
-git add tech/how-to/HowToNewNPC.md
+git add tech/how-to/how-to-new-npc.md
 # oppure: git add -A
 
 # 3. Commit

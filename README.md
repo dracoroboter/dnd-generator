@@ -1,7 +1,7 @@
 # Dungeon & Dragon
 
 **Versione**: 0.3
-**Ultimo aggiornamento**: 2026-04-22
+**Ultimo aggiornamento**: 2026-04-27
 **Repository**: [github.com/dracoroboter/dnd-generator](https://github.com/dracoroboter/dnd-generator)
 
 Raccolta di avventure D&D 5e (2014) con toolchain di automazione dedicata.
@@ -75,7 +75,7 @@ optimize-images.py LAnelloDelConte                  →  genera versioni -lowres
 ```
 
 **Script:** `tech/create-pdf-adventure/create-pdf-adventure.py`, `tech/create-pdf-adventure/optimize-images.py`
-**Documentazione:** `tech/create-pdf-adventure/DocsCreatePdfAdventure.md`
+**Documentazione:** `tech/create-pdf-adventure/docs-create-pdf-adventure.md`
 
 ---
 
@@ -126,10 +126,10 @@ dungeonandragon/
 
 | File | Scopo |
 |------|-------|
-| `tech/rules/AdventureTemplate.md` | Specifica completa della struttura di un'avventura: file obbligatori, convenzioni, esempi |
-| `tech/rules/ContentRules.md` | Standard di contenuto: come dichiarare difficoltà incontri, linee guida NPC, formato modulare |
-| `tech/rules/Glossary.md` | Definizioni dei termini usati nel progetto (one-shot, campagna, saga, modulo, sessione, puntata) |
-| `tech/rules/Normalization.md` | Manuale per normalizzare avventure legacy al formato standard |
+| `tech/rules/adventure-template.md` | Specifica completa della struttura di un'avventura: file obbligatori, convenzioni, esempi |
+| `tech/rules/content-rules.md` | Standard di contenuto: come dichiarare difficoltà incontri, linee guida NPC, formato modulare |
+| `tech/rules/glossary.md` | Definizioni dei termini usati nel progetto (one-shot, campagna, saga, modulo, sessione, puntata) |
+| `tech/rules/normalization.md` | Manuale per normalizzare avventure legacy al formato standard |
 
 ### Mappe e generazione dungeon
 
@@ -141,20 +141,26 @@ dungeonandragon/
 
 | File | Scopo |
 |------|-------|
-| `tech/how-to/HowToNewAdventure.md` | Creare una nuova avventura da zero con `new-adventure.sh` e `adventure-wizard.py` |
-| `tech/how-to/HowToNewNPC.md` | Creare NPC: script `new-npc.py`, workflow AI, formato stat block, export FightClub/PDF |
-| `tech/how-to/HowToRelease.md` | Generare PDF + ZIP con `release.sh` e pubblicare |
-| `tech/how-to/HowToEncounterDifficulty.md` | Calcolare difficoltà incontri con `encounter-difficulty.py` |
-| `tech/how-to/HowToGitProfiles.md` | Separare profili git (account A / account B) sulla stessa macchina |
-| `tech/how-to/HowToClaudeCode.md` | Usare un AI coding agent in questo progetto: configurazione, separazione ruoli narrativa vs tecnica |
+| `tech/how-to/how-to-new-adventure.md` | Creare una nuova avventura da zero con `new-adventure.sh` e `adventure-wizard.py` |
+| `tech/how-to/how-to-new-npc.md` | Creare NPC: script `new-npc.py`, workflow AI, formato stat block, export FightClub/PDF |
+| `tech/how-to/how-to-release.md` | Generare PDF + ZIP con `release.sh` e pubblicare |
+| `tech/how-to/how-to-encounter-difficulty.md` | Calcolare difficoltà incontri con `encounter-difficulty.py` |
+| `tech/how-to/how-to-git-profiles.md` | Separare profili git (account A / account B) sulla stessa macchina |
+| `tech/how-to/how-to-claude-code.md` | Usare un AI coding agent in questo progetto: configurazione, separazione ruoli narrativa vs tecnica |
+| `tech/how-to/how-to-aws-profile-switch.md` | Switch profilo AI CLI (hobby vs aziendale) |
 
 ### NPC e FightClub
 
 | File | Scopo |
 |------|-------|
-| `tech/rules/NPCFormat.md` | Specifica formato markdown per NPC/mostri: sezioni, naming, prefissi, pipeline |
+| `tech/rules/npc-format.md` | Specifica formato markdown per NPC/mostri: sezioni, naming, prefissi, pipeline |
 | `tech/fightclub/README.md` | Formato XML FightClub 5e: struttura tag, esempi, fonti, piano implementazione |
-| `tech/rules/GitWorkflow.md` | Convenzioni git: commit message, branch, push, credential helper |
+
+### Git e workflow
+
+| File | Scopo |
+|------|-------|
+| `tech/rules/git-workflow.md` | Convenzioni git: commit message, branch, push, credential helper |
 
 ---
 
@@ -201,23 +207,7 @@ dungeonandragon/
 5. release.sh NomeAvventura v1.0      # PDF + ZIP
 ```
 
-## Flusso tipico — pipeline mappe
-
-```
-1. generate-dungeon.py --seed 42 --rooms 10 --output map.png
-   → produce map.png, map.json, map.md
-
-2. rtl-to-json.py tech/templates/rooms/chapel.rtl
-   → produce chapel.json
-
-3. (scrivere avventura.ddl)
-
-4. ddl-to-enrichment.py avventura.ddl --dungeon map.json --output enrichment.json
-
-5. json-to-svg-oldschool.py map.json --enrichment enrichment.json --output map.svg
-```
-
-→ Vedi **[dnd-maps](https://github.com/dracoroboter/dnd-maps)** per la pipeline completa.
+→ Vedi **[dnd-maps](https://github.com/dracoroboter/dnd-maps)** per la pipeline mappe.
 
 ---
 

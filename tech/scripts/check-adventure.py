@@ -81,9 +81,9 @@ KNOWN_MODULE_SECTIONS = {
 KNOWN_NPC_SECTIONS = {
     # Obbligatorie
     "Informazioni generali", "Descrizione", "Motivazioni", "Note al master",
-    # Meccaniche (NPCFormat.md)
+    # Meccaniche (npc-format.md)
     "Stat Block", "Attacchi", "Azioni bonus", "Reazioni",
-    # Opzionali (NPCFormat.md)
+    # Opzionali (npc-format.md)
     "Capacità notevoli", "Ruolo nell'avventura", "Agganci futuri", "Da definire",
     # Narrative
     "Backstory", "Punti aperti", "Running Gag",

@@ -106,7 +106,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 
 - [x] Creare directory `adventures/`
 - [x] Creare directory `tech/scripts/`, `tech/rules/`, `tech/how-to/`, `tech/reports/`
-- [x] Creare directory `tech/assets/tilesets/` (tile per generatore dungeon)
+- [x] Creare directory `tech/assets/tilesets/` (tile per generatore dungeon) → spostata in **dnd-maps**
 - [x] Creare directory `adventures/AdventureTemplate/`
 - [x] Creare directory `releases/` (suddivisa per avventura)
 
@@ -122,7 +122,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] `PlanBook.md`: todo list e stato lavoro del DM
 - [x] Schede PG: opzionali, fuori dall'avventura base
 - [x] `versioni/` dentro le avventure: eliminata — sostituita da `releases/<NomeAvventura>/`
-- [x] Copertina: `Cover.png`
+- [x] Copertina: `img/NomeAvventura_COVER.png`
 - [x] Milestone: sezione `## Milestone` opzionale nei moduli (separata da `## Ricompense`)
 - [x] Struttura avventura: campo `**Struttura**: lineare/sandbox/mista` nel `README.md`
 
@@ -132,12 +132,11 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 
 - [x] Analisi comparativa `avventuraprova` vs `LAnelloDelConte`
 - [x] Struttura directory e file placeholder creati (`adventures/AdventureTemplate/`)
-- [x] `AvventuraDiProva` normalizzata — check passa con 1 warning (Cover.png mancante)
 - [x] `LAnelloDelConte` normalizzata — check passa con 1 warning (Consigli al master assente)
-- [x] Regole di contenuto documentate in `tech/rules/ContentRules.md`
-- [x] Struttura standard documentata in `tech/rules/AdventureTemplate.md`
-- [x] Glossario termini in `tech/rules/Glossary.md`
-- [x] Manuale di normalizzazione in `tech/rules/Normalization.md`
+- [x] Regole di contenuto documentate in `tech/rules/content-rules.md`
+- [x] Struttura standard documentata in `tech/rules/adventure-template.md`
+- [x] Glossario termini in `tech/rules/glossary.md`
+- [x] Manuale di normalizzazione in `tech/rules/normalization.md`
 - [ ] Normalizzare **LoScettroDityr** (saga, 4 moduli A/B/C/D, da `.odt`) — uno alla volta
 - [ ] Normalizzare **IlReSpezzato** (draft incompleto, da `.odt`)
 
@@ -161,11 +160,11 @@ Fase 5 — "Qualità di vita" (migliora tutto)
   - [ ] 3. Livello di dettaglio: scheda completa 5e (feature classe, incantesimi, ecc.) o semplificata (stat base + tratti)?
   - [ ] 4. Output: `.md` come NPC, JSON, o altro?
   - [ ] 5. Integrazione: il wizard salva nella directory giusta in automatico, o salvataggio manuale?
-- [ ] Aggiungere definizioni PG e NPC in `tech/rules/Glossary.md`
-- [x] `tech/how-to/HowToRelease.md`
-- [x] `tech/how-to/HowToEncounterDifficulty.md`
-- [x] `tech/how-to/HowToNewAdventure.md`
-- [ ] `tech/how-to/HowToNormalization.md` — guida passo-passo normalizzazione legacy (da `.odt`)
+- [ ] Aggiungere definizioni PG e NPC in `tech/rules/glossary.md`
+- [x] `tech/how-to/how-to-release.md`
+- [x] `tech/how-to/how-to-encounter-difficulty.md`
+- [x] `tech/how-to/how-to-new-adventure.md`
+- [ ] `tech/how-to/how-to-normalization.md` — guida passo-passo normalizzazione legacy (da `.odt`)
 - [ ] TODO: studiare sistema di prefissi/suffissi per sezioni libere dei moduli
 
 ---
@@ -185,29 +184,28 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 | Mappa custom | Inkarnate | — | solo manuale | nessuna API |
 | Dungeon custom | `generate-dungeon.py` | `generate-dungeon.py` | 🔧 in sviluppo | BSP tree, tileset DCSS |
 
-Documentazione tool: `tech/rules/Maps.md`
+Documentazione tool: → repository **[dnd-maps](https://github.com/dracoroboter/dnd-maps)**
 
 ### Generatore dungeon custom (`generate-dungeon.py`)
 
-Piano dettagliato in `tech/rules/PlanMaps.md`.
-Workflow iterativo di miglioramento in `tech/rules/DungeonIterationWorkflow.md`.
+Piano dettagliato e workflow iterativo: → repository **[dnd-maps](https://github.com/dracoroboter/dnd-maps)**
 
 Workflow definitivo:
 1. `generate-dungeon.py` → PNG strutturale (BSP tree, stanze numerate, tileset opzionale)
 2. Manuale: upload PNG su Gemini web + prompt ambientazione → PNG finale professionale
 
-Tileset disponibili in `tech/assets/tilesets/dcss/` (da DCSS, licenza CC):
+Tileset disponibili nel repository **dnd-maps** (da DCSS, licenza CC):
 - `floor.png` (cobble_blood), `wall.png` (brick_brown)
 - Varianti: `floor_crystal.png`, `wall_stone.png`
 
 - [x] Versione base BSP tree funzionante
 - [x] Supporto tileset (`--tileset <dir>`)
-- [ ] Parametro `--wall-thickness N` + `--wall-mode dual|padding` — muri più sottili rispetto alle stanze (prototipo entrambi gli approcci per scegliere)
+- [ ] *(i TODO seguenti sono nel repository **dnd-maps**, non in questo repo)*
+- [ ] Parametro `--wall-thickness N` + `--wall-mode dual|padding`
 - [ ] Corridoi larghi 1-4 celle (parametro `--corridor-width N`, default 1-2)
 - [ ] Stanze più grandi rispetto ai corridoi (problema visivo attuale)
-- [ ] TODO: blocchi separati con spazio aperto tra loro (valutare dopo stabilizzazione muri)
+- [ ] Blocchi separati con spazio aperto tra loro
 - [ ] Aggiungere più varianti tileset (pietra, caverna, ecc.)
-- [ ] Quando stabile: spostare in file dedicato con documentazione
 
 ### AI e mappe
 
@@ -229,7 +227,7 @@ Tileset disponibili in `tech/assets/tilesets/dcss/` (da DCSS, licenza CC):
 
 - [x] Decidere struttura repository GitHub (mono-repo o repo separati per avventura)
 - [x] Inizializzare repository e primo commit
-- [x] Documentare workflow git in `tech/rules/GitWorkflow.md`
+- [x] Documentare workflow git in `tech/rules/git-workflow.md`
 - [x] Decidere se `releases/` va in `.gitignore`
 - [x] Aggiungere `tech/reports/` a `.gitignore`
 - [ ] Creare GitHub Action per generazione PDF automatica al push/tag
@@ -240,7 +238,7 @@ Tileset disponibili in `tech/assets/tilesets/dcss/` (da DCSS, licenza CC):
 
 - [ ] Valutare layout PDF ottimizzato per stampa fisica (margini, formato A5/A4)
 - [ ] Valutare pubblicazione su piattaforme dedicate (DMsGuild, itch.io)
-- [x] Script per PDF unico pubblicabile (copertina `Cover.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data) → `create-pdf-adventure.py`
+- [x] Script per PDF unico pubblicabile (copertina `NomeAvventura_COVER.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data) → `create-pdf-adventure.py`
 
 ---
 
@@ -252,22 +250,23 @@ Il progetto ha tre tipi di file in `tech/` ma non c'è una convenzione chiara pe
 
 | Tipo | Scopo | Prefisso proposto |
 |------|-------|-------------------|
-| Piano di sviluppo | Roadmap, decisioni, fasi, TODO | `Plan*.md` |
-| Documentazione tecnica | Come funziona, formato, API, uso | `Docs*.md` o `README.md` |
-| Specifica | Grammatica, formato, regole formali | `Spec*.md` o `*-spec.md` |
+| Piano di sviluppo | Roadmap, decisioni, fasi, TODO | `plan-*.md` |
+| Documentazione tecnica | Come funziona, formato, API, uso | `docs-*.md` o `README.md` |
+| Specifica | Grammatica, formato, regole formali | `*-spec.md` |
 
-Attualmente i nomi sono inconsistenti:
-- `PlanMaps.md` ✅ (piano)
-- `MapsPipelineDocs.md` ✅ (doc tecnica)
-- `DDL-spec.md` ✅ (specifica)
-- `PlanIntermediateRepresentation.md` ✅ (piano)
-- `DungeonIterationWorkflow.md` ❓ (è un processo, non un piano né una doc)
-- `ContentRules.md` ❓ (è una specifica? una guida?)
-- `plan-howto-problemi.md` ❓ (kebab-case vs PascalCase)
+Convenzione adottata (aprile 2026):
+- **Contenuto avventure**: PascalCase (es. `LeFogneDiFianus.md`, `NPC_SirGorimVel.md`)
+- **Documenti tecnici** (rules, how-to, docs): kebab-case (es. `adventure-template.md`, `how-to-release.md`)
+- **File meta/progetto**: UPPER_SNAKE_CASE (es. `README.md`, `CLAUDE.md`)
+- **Script**: kebab-case (es. `check-adventure.py`)
+- **Commenti nel codice**: inglese. Tutto il resto: italiano.
 
-- [ ] Definire convenzione naming per i tre tipi di documento
-- [ ] Uniformare i nomi esistenti (in dnd-generator e dnd-maps)
-- [ ] Applicare la convenzione ai nuovi file (es. `PlanCreatePdfAdventure.md` ✅)
+Fonte di verità: `tech/rules/adventure-template.md` § Convenzioni di naming.
+
+- [x] Definire convenzione naming per i tre tipi di documento
+- [x] Uniformare i nomi esistenti (in dnd-generator)
+- [ ] Uniformare i nomi esistenti (in dnd-maps)
+- [x] Applicare la convenzione ai nuovi file (es. `plan-create-pdf-adventure.md` ✅)
 
 ---
 
@@ -277,8 +276,8 @@ Attualmente i nomi sono inconsistenti:
 
 Genera un singolo PDF con tutta l'avventura: copertina, moduli, schede mappa DM, stat block in appendice. Grafica D&D-style via CSS custom.
 
-- Piano di sviluppo: `tech/create-pdf-adventure/PlanCreatePdfAdventure.md`
-- Documentazione: `tech/create-pdf-adventure/DocsCreatePdfAdventure.md`
+- Piano di sviluppo: `tech/create-pdf-adventure/plan-create-pdf-adventure.md`
+- Documentazione: `tech/create-pdf-adventure/docs-create-pdf-adventure.md`
 - [x] Fase 1: CSS custom (`adventure.css`)
 - [x] Fase 2: Script `create-pdf-adventure.py`
 - [x] Fase 3: HTML → PDF (weasyprint)

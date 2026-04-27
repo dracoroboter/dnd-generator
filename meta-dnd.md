@@ -18,22 +18,23 @@ Raccolta di avventure D&D 5e (2014) gestita come progetto strutturato con versio
 dungeonandragon/
 ├── meta-dnd.md              # Questo file — struttura e regole generali
 ├── plan-meta-dnd.md         # Todo list operativa per attuare meta-dnd.md
-├── aws-profile-switch.md    # Documentazione switch profilo AI CLI
+├── tech/how-to/how-to-aws-profile-switch.md  # Documentazione switch profilo AI CLI
 │
 ├── adventures/              # Avventure create
-│   ├── AdventureTemplate/   # Template di riferimento (one-shot esempio)
-│   ├── AvventuraDiProva/    # Prima avventura normalizzata (esempio concreto)
-│   ├── LAnelloDelConte/     # Da normalizzare da legacy
-│   ├── IlReSpezzato/        # Da normalizzare da legacy
-│   └── LoScettroDityr/      # Da normalizzare da legacy
+│   ├── AdventureTemplate/   # Template di riferimento
+│   ├── LAnelloDelConte/     # Saga puntata 1 (normalizzata)
+│   └── FuoriDaHellfire/     # One-shot (normalizzata)
 │
-├── releases/                # Release generate (PDF + ZIP), una dir per avventura
+├── releases/                # PDF + ZIP generati (non editare, in .gitignore)
 │   └── NomeAvventura/
 │
 ├── tech/                    # Script, tool e regole tecniche
 │   ├── scripts/             # Script di automazione
 │   ├── rules/               # Regole di riferimento
 │   └── how-to/              # Guide procedurali passo-passo
+│
+├── public/                  # PDF pubblicati (tracciata da git)
+├── other/                   # File accessori generali (stat block PG, ecc.)
 │
 └── legacy/                  # Materiale originale non modificato
     └── DracoAvventure/      # Copia dell'archivio Windows originale
@@ -43,17 +44,12 @@ dungeonandragon/
 
 ## Regole Generali
 
-### Lingua
-- Nomi file e directory: PascalCase italiano (eccezione: titoli propri delle avventure)
-- Contenuto delle avventure: italiano
+### Lingua e naming
 
-### Naming Convention File
-- File `.md`: **PascalCase** (es. `NomeAvventura.md`, `NPC_IlConte.md`)
-- Directory: **minuscolo** (es. `characters/`, `maps/`)
-- Moduli: prefisso numerico a due cifre + PascalCase (es. `01_LeFogneDiFianus/`)
-- NPC: `NPC_<NomePersonaggio>.md`
-- Mappe immagini: PascalCase (es. `MappaRegione.png`)
-- Copertina: `Cover.png`
+- Contenuto avventure e documentazione: **italiano**
+- Commenti nel codice sorgente: **inglese**
+
+Per le convenzioni di naming complete (4 categorie: PascalCase avventure, kebab-case tech, UPPER_SNAKE_CASE meta, kebab-case script) vedere **`tech/rules/adventure-template.md` § Convenzioni di naming** — fonte di verità unica.
 
 ### File obbligatori per ogni avventura
 
@@ -63,7 +59,6 @@ dungeonandragon/
 | `AdventureBook.md` | Contesto e istruzioni specifiche per Kiro su questa avventura |
 | `PlanBook.md` | Todo list, stato avanzamento, note riservate al DM |
 | `NomeAvventura.md` | Documento principale: lore, plot, NPC, consigli master |
-| `maps/MappaGenerale.md` | Luoghi, connessioni, distanze |
 
 ### Struttura moduli
 Ogni modulo/quest in subdirectory `NN_NomeModulo/` con risorse proprie:
@@ -118,4 +113,4 @@ Tool già usati e approvati:
 Riferimento online: [Kobold Fight Club](https://koboldplus.club) — calcola difficoltà incontro (Easy/Medium/Hard/Deadly) dato numero/livello PG e lista nemici con CR.
 
 Per uso locale: `tech/scripts/encounter-difficulty.py` — stesso calcolo offline.
-Guida: `tech/how-to/HowToEncounterDifficulty.md`
+Guida: `tech/how-to/how-to-encounter-difficulty.md`
