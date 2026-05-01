@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>LordMalebranche</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful evil</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>Governatore corrotto di Orcastle, Lord Malebranche è un uomo magro, pallido, con occhi infossati che sembrano calcolare il valore di ogni persona nella stanza. Veste abiti nobiliari scuri con ricami d'argento. Le sue mani sono sempre fredde — un effetto collaterale della magia necromante che pratica.
+Tratto distintivo: parla con cortesia impeccabile anche quando ordina atrocità. Non alza mai la voce. La sua calma è più inquietante di qualsiasi minaccia.</description>
+    </monster>
+</compendium>

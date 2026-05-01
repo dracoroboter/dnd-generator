@@ -335,39 +335,7 @@ Sul fondo della vasca i PG trovano uno **Scudo Guardia dell'Incantesimo (Spellgu
 
 ### Othran Vorash
 
-*Umanoide medio (mezzelfo), neutrale malvagio*
-
-**Classe Armatura** 15 (giaco di maglia leggera rinforzata, Destrezza)
-**Punti Ferita** 84 (10d8 + 30)
-**Velocità** 9 m (30 piedi)
-
-| FOR | DES | COS | INT | SAG | CAR |
-|-----|-----|-----|-----|-----|-----|
-| 10 (+0) | 16 (+3) | 14 (+2) | 14 (+2) | 11 (+0) | 18 (+4) |
-
-**Tiri Salvezza** Des +6, Sag +3, Car +7
-**Abilità** Arcana +5, Inganno +7, Percezione +3, Furtività +6
-**Sensi** scurovisione 18 m, Percezione passiva 13
-**Linguaggi** Comune, Elfico, Abissale
-**Grado di Sfida** 8 (circa)
-
-**Ascendenza Fatata.** Othran ha vantaggio ai TS per non essere affascinato e la magia non può farlo addormentare.
-
-**Incantesimi da Warlock (LI 10).** Attacco incantesimi +7, CD 15. Othran dispone di 2 slot incantesimo di 5° livello (ripristino con riposo breve o lungo).
-
-- **Cantrip (a volontà):** *Eldritch Blast* (con *Agonizing Blast*), *Toll the Dead*, *Prestidigitazione*, *Minor Illusion*
-- **Incantesimi di 1°/2° livello (lanciati a 5°):** *Hex*, *Armor of Agathys*, *Mirror Image*, *Misty Step*
-- **Incantesimi di 3°/4°/5° livello (lanciati a 5°):** *Counterspell*, *Fear*, *Blight*, *Hold Monster*
-
-**Invocazioni Occulte:**
-- *Agonizing Blast* — aggiunge +4 ai danni di *Eldritch Blast*.
-- *Devil's Sight* — Othran vede al buio magico fino a 36 m.
-
-**Azioni:**
-- **Pugnale.** Attacco con arma da mischia o da lancio: +6 al tiro per colpire, gittata 6/18 m, un bersaglio. Colpito: 1d4+3 danni perforanti.
-- **Eldritch Blast (Cantrip).** Scaglia 2 raggi (livello 10), +7 al tiro per colpire; ogni raggio infligge 1d10+4 danni da forza.
-
-Othran preferisce combattere a distanza sfruttando Eldritch Blast, incantesimi di controllo e Counterspell.
+Mezzelfo warlock di Vecna lv10, CR 8. Stat block completo: vedi `characters/markdown/NPC_OthranVorash.md`.
 
 ### Il piano di Othran Vorash
 

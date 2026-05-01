@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MalachiasOmbrascura</name>
+        <size>M</size>
+        <type>humanoid (dragonide)</type>
+        <alignment>da determinare in gioco</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>Un dragonide dall'aria dimessa che si fa chiamare Elemir Strunz per nascondere la sua vera identità. Si mescola tra i seguaci di Axel Ruby nella zona Est, cercando di passare inosservato. Ha una cicatrice a forma di stella sul polpaccio sinistro — un segno che potrebbe tradirlo se qualcuno sa cosa cercare.
+Tratto distintivo: parla poco e sceglie le parole con cura. Quando mente, tende a toccarsi il polpaccio sinistro — un tell che giocatori attenti possono notare.</description>
+    </monster>
+</compendium>

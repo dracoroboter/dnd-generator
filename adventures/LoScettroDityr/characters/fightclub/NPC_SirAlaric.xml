@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>SirAlaric</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>legale malvagio (mascherato da legale neutrale)</alignment>
+        <ac>15</ac>
+        <hp>90</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>16</con>
+        <int>18</int>
+        <wis>14</wis>
+        <cha>12</cha>
+        <cr>1</cr>
+        <description>Sir Alaric si presenta come un uomo austero e devoto, con capelli grigi tagliati corti e occhi chiari che trasmettono autorità. Indossa le vesti cerimoniali dei Custodi dell'Equilibrio con una naturalezza che ispira fiducia. La sua voce è calma, misurata — ogni parola sembra pesata e giusta.
+Sotto la facciata, Alaric è un uomo consumato dall'ambizione. I suoi occhi tradiscono un'avidità che nessuna preghiera può nascondere, se si sa dove guardare.
+Tratto distintivo: ha l'abitudine di congiungere le mani come in preghiera quando parla — un gesto che i suoi seguaci trovano rassicurante, ma che in realtà è un tic nervoso che tradisce il calcolo dietro ogni parola.</description>
+    </monster>
+</compendium>

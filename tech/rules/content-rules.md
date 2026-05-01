@@ -64,6 +64,29 @@ Se l'avventura è progettata per un party specifico, documentare come scalare pe
 
 ## PNG — Linee guida contenuto
 
+### Separazione stat block dal testo dell'avventura
+
+Gli stat block completi dei personaggi **non vanno inseriti nel corpo dei moduli**. Devono risiedere esclusivamente nelle schede dedicate in `characters/markdown/` (formato: `NPC_Nome.md`, `MON_Nome.md`).
+
+Quando un NPC o mostro compare nel testo di un modulo, riferirsi a lui per **nome** con una breve descrizione inline delle caratteristiche essenziali, seguita dal rimando alla scheda:
+
+```markdown
+I PG affrontano **Alaric il Giusto** (umano, mago corrotto, CA 15, PF 90 —
+stat block completo: vedi `characters/markdown/NPC_SirAlaric.md`).
+```
+
+Nelle tabelle nemici dei moduli, indicare i dati minimi per il combattimento (nome, n., PF, CA, attacco principale, note) e rimandare alla scheda per il dettaglio:
+
+```markdown
+| nome | n. | PF | CA | attacco | note |
+|------|-----|----|----|---------|------|
+| Alaric il Giusto | 1 | 90 | 15 | vedi scheda | `NPC_SirAlaric.md` |
+```
+
+**Razionale**: i moduli devono essere leggibili e scorrevoli al tavolo. Gli stat block completi interrompono il flusso narrativo e sono difficili da consultare nel mezzo di una descrizione. Tenerli separati permette anche di stamparli come schede singole e di generare stat block grafici (PDF/PNG) con la pipeline FightClub.
+
+### Contenuto delle schede NPC
+
 Ogni PNG deve avere (indipendentemente dal tipo di scheda):
 - **Motivazione chiara**: cosa vuole, perché agisce così
 - **Segreto o informazione nascosta** (opzionale ma consigliato)

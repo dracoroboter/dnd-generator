@@ -63,8 +63,54 @@ Questa è la versione **"Draco"** — porting fedele del materiale legacy. Una v
 
 - Creare una tabella riassuntiva degli NPC che attraversano più moduli con il loro stato in ogni modulo
 - Definire le milestone di livello per ogni modulo (attualmente: A→lv9, B→lv10, C e D restano lv10?)
-- Creare stat block formali per tutti gli NPC principali
 - Valutare se il Modulo A può funzionare come avventura standalone
+
+### PDF multi-file (da valutare)
+
+Valutare la fattibilità e l'utilità di generare il PDF dell'avventura diviso in più file separati anziché un unico PDF monolitico:
+
+| File | Contenuto |
+|------|-----------|
+| `LoScettroDityr_Lore.pdf` | Documento principale: lore, trama, NPC, oggetti |
+| `LoScettroDityr_01_FugaDaOrcastle.pdf` | Modulo A singolo |
+| `LoScettroDityr_02_LoScettroDiTyr.pdf` | Modulo B singolo |
+| `LoScettroDityr_03_RitornoACasa.pdf` | Modulo C singolo |
+| `LoScettroDityr_04_LaFineNonAppartieneAiMorti.pdf` | Modulo D singolo |
+| `LoScettroDityr_Mappe.pdf` | Tutte le mappe raccolte |
+| `LoScettroDityr_StatBlock.pdf` | Tutti gli stat block raccolti |
+
+**Pro**: più pratico al tavolo (apri solo il modulo che stai giocando), stat block stampabili separatamente, mappe estraibili.
+**Contro**: più file da gestire, richiede modifiche a `create-pdf-adventure.py` (flag `--split` o simile).
+**Nota**: lo script supporta già `--only NN` per generare un singolo modulo — potrebbe bastare uno script wrapper.
+
+### Mappe ottimizzate per Roll20
+
+Le mappe attuali sono PNG generiche. Per Roll20 servono due versioni per ogni mappa:
+- **Player** — senza segreti (porte segrete, trappole, note DM rimossi)
+- **DM** — con tutti i dettagli (per il GM Info Overlay layer)
+
+Mappe da ottimizzare per Roll20:
+
+| Mappa | Modulo | Stato |
+|-------|--------|-------|
+| Isola di Orcastle (MappaGenerale_County) | A | PNG presente, serve split player/DM |
+| Fortezza di Orcastle | A | PNG presente (2 versioni: normale e master) |
+| Torre di Torth (3 livelli) | A | PNG presenti, servono versioni player |
+| Labirinto di Vecna | A | PNG presente |
+| Tempio di Lumina (dungeon) | B | PNG presente (2 versioni) |
+| Lumina town | B | PNG presente |
+| Mappa geografica viaggio | B | JPEG presente |
+| Svoalbard | C | JPG presente |
+
+**Blocco**: manca l'export SVG→PNG automatico nel progetto (vedi Fase 1 roadmap in `plan-meta-dnd.md`). Le mappe attuali sono già PNG quindi utilizzabili su Roll20 così come sono — ma senza la separazione player/DM.
+
+### Stat block FightClub per import in Game Master 5e
+
+Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fightclub/`. Per importarli in FightClub 5e o Game Master 5e:
+
+- [ ] Testare l'import dei 16 XML in Game Master 5e (verificare che i campi siano corretti)
+- [ ] Verificare che gli NPC senza stat block completo (quelli con solo riferimento MM) siano utili o se servono stat block custom
+- [ ] Valutare se creare un file XML unico con tutti gli NPC dell'avventura (merge) per import singolo
 
 ---
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>KreigHighlander</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>Uomo alto e imponente, portamento militare anche quando è seduto. Capelli grigi tagliati corti, barba curata, cicatrice sottile che attraversa la tempia sinistra. Indossa sempre un'armatura a piastre lucida — anche quando non serve. Mantello blu scuro con lo stemma Highlander: un falco su sfondo montano.
+Parla con voce tonante, abituato a dare ordini e a essere obbedito. Guarda gli interlocutori dall'alto in basso — letteralmente e figurativamente. Ha l'abitudine di tamburellare le dita sull'elsa della spada quando si annoia.
+Tratto distintivo: arrogante e sicuro di sé fino all'eccesso. Sottovaluta sistematicamente gli avversari — un difetto che potrebbe costargli caro.</description>
+    </monster>
+</compendium>

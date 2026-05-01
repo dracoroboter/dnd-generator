@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_GuardianoLumina</name>
+        <size>M</size>
+        <type>humanoid (costrutto (golem di pietra))</type>
+        <alignment>neutrale (corrotto da vecna)</alignment>
+        <ac>17</ac>
+        <hp>50 (di 178 massimi — pesantemente ferito)</hp>
+        <speed>10 ft.</speed>
+        <str>22</str>
+        <dex>9</dex>
+        <con>20</con>
+        <int>3</int>
+        <wis>11</wis>
+        <cha>1</cha>
+        <cr>5</cr>
+        <trait>
+            <name>Resistenza Magica</name>
+            <text>vantaggio ai tiri salvezza contro incantesimi e altri effetti magici</text>
+        </trait>
+        <trait>
+            <name>Immunità alle Armi Non Magiche</name>
+            <text>immune ai danni da armi non magiche o non argentate</text>
+        </trait>
+        <trait>
+            <name>Aura di Corruzione (solo se corrotto)</name>
+            <text>ogni creatura entro 3m / 10ft / 2qd deve effettuare un TS Costituzione CD 14 all'inizio del proprio turno o subire 5 (1d10) danni necrotici</text>
+        </trait>
+        <action>
+            <name>Pugno (mischia)</name>
+            <text>Attacco: +8, portata 1,5m / 5ft / 1qd Danni: 3d8+6 contundenti</text>
+            <attack>Pugno (mischia)|+8|3d8+6</attack>
+        </action>
+        <action>
+            <name>Esplosione Oscura (1/combattimento, solo se corrotto)</name>
+            <text>Raggio: 4,5m / 15ft / 3qd Tiro salvezza: Destrezza CD 15 Fallimento: 3d8+6 danni necrotici Successo: metà danni</text>
+        </action>
+        <description>Un enorme golem di pietra accovacciato, chiaramente ferito — crepe profonde attraversano il suo corpo e frammenti di pietra mancano dal torso e dalle braccia. Era un guardiano sacro del Tempio di Lumina, ora pervaso dall'influenza oscura di Vecna. Un'aura di energia necromantica lo circonda.
+Non parla se non a parole singole e monosillabi. Ha una comprensione approssimativa del linguaggio umano, non è abbastanza intelligente per discuterci. Riconosce i portatori dello Scettro e i loro compagni come amici e li difende da chi dice di volerglielo strappare.</description>
+    </monster>
+</compendium>

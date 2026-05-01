@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>OthranVorash</name>
+        <size>M</size>
+        <type>humanoid (mezzelfo)</type>
+        <alignment>neutral evil</alignment>
+        <ac>15</ac>
+        <hp>84</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>18</cha>
+        <senses>darkvision 60 ft. 18m</senses>
+        <languages>Common, Elvish</languages>
+        <cr>9</cr>
+        <action>
+            <name>#</name>
+            <text/>
+        </action>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +6 Danni: 1d4+3 perforanti</text>
+            <attack>Pugnale (mischia/distanza)|+6|1d4+3</attack>
+        </action>
+        <description>Othran è un mezzelfo dal portamento elegante e lo sguardo calcolatore. I tratti elfici sono appena accennati — orecchie leggermente a punta, lineamenti affilati — ma i suoi occhi hanno una luce innaturale, un riflesso verdastro che tradisce il patto con Vecna. Veste di scuro, pratico, senza ostentazione.
+Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazione fosse un interrogatorio. Ha l'abitudine di fissare le persone in silenzio prima di rispondere — un trucco per metterle a disagio.</description>
+    </monster>
+</compendium>

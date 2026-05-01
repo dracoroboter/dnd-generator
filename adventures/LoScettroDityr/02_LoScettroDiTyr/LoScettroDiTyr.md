@@ -316,48 +316,9 @@ Se il golem della Sala 4 non è stato sconfitto in precedenza, si trova di fianc
 | Alaric il Giusto | 1 | 90 | 15 | vedi sotto | Variante Mago (MM pag. 348) |
 | Guardiano di Lumina | 1 | 50 | 17 | +8, 3d8+6 pugno | Solo se non sconfitto prima. Combatte al fianco dei PG |
 
-### Alaric il Giusto (variante Mago, MM pag. 348)
+Stat block completo: vedi `characters/markdown/NPC_SirAlaric.md`.
 
-- **CA:** 15 (Armatura Magica)
-- **PF:** 90 (10d8 + 30)
-- **Velocità:** 30ft / 9m / 6qd
-- **FOR** 10 (+0) **DES** 14 (+2) **COS** 16 (+3) **INT** 18 (+4) **SAG** 14 (+2) **CAR** 12 (+1)
-- **Tiri salvezza:** Int +8, Sag +6
-- **Competenze:** Arcano +8, Persuasione +5, Religione +6
-- **Resistenze:** Danni necrotici, psichici
-- **Immunità:** Condizione di paura
-- **Percezione passiva:** 12
-- **Linguaggi:** Comune, Elfico, Celestiale
-
-**Aura di Corruzione (aura, 10ft / 3m / 2qd):** Ogni creatura nemica che inizia il suo turno entro l'aura deve effettuare un tiro salvezza su Saggezza (CD 16) o subire svantaggio ai tiri per colpire fino alla fine del turno successivo.
-
-**Volontà Corrotta:** Se Alaric subisce danni necrotici, recupera metà di quei danni come punti ferita temporanei.
-
-**Incantesimi** (CD 16, +8 al tiro per colpire):
-- Trucchetti (a volontà): Dardo di Fuoco
-- 1° livello (4 slot): Sonno
-- 2° livello (3 slot): Invisibilità
-- 3° livello (3 slot): Palla di Fuoco
-- 4° livello (2 slot): Evoca Non Morti (Necromanzia)
-- 5° livello (1 slot): Dominare Persona
-
-### Guardiano di Lumina (Golem di Pietra Corrotto, variante MM pag. 178)
-
-- **CA:** 17
-- **PF:** 50 (di 178 massimi — è pesantemente ferito, si vede chiaramente)
-- **Velocità:** 10ft / 3m / 2qd
-- **FOR** +6 **DES** −1 **COS** +5 **INT** −4 **SAG** +0 **CAR** −5
-
-**Attacchi:**
-- **Pugno:** +8 a colpire, portata 5ft / 1,5m / 1qd, un bersaglio. Danno: 19 (3d8 + 6) contundenti.
-- **Esplosione Oscura (1/combattimento):** Esplosione di energia corrotta in un raggio di 15ft / 4,5m / 3qd. Ogni creatura: tiro salvezza su Destrezza (CD 15) o 18 (3d8 + 6) danni necrotici, dimezzati in caso di successo. Solo se ancora corrotto.
-
-**Abilità speciali:**
-- **Resistenza Magica:** Vantaggio ai tiri salvezza contro incantesimi e altri effetti magici.
-- **Immunità alle Armi Non Magiche:** Immune ai danni da armi non magiche o non argentate.
-- **Aura di Corruzione (solo se corrotto):** Ogni creatura entro 10ft / 3m / 2qd deve effettuare un tiro salvezza su Costituzione (CD 14) all'inizio del proprio turno o subire 5 (1d10) danni necrotici.
-
-Non parla se non a parole singole e monosillabi. Ha una comprensione approssimativa del linguaggio umano, non è abbastanza intelligente per discuterci. Riconosce i portatori dello Scettro e i loro compagni come amici e li difende da chi dice di volerglielo strappare.
+Stat block completo: vedi `characters/markdown/MON_GuardianoLumina.md`.
 
 ## Indizi chiave
 
