@@ -27,12 +27,24 @@ python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --lowr
 
 # PDF con copertina senza elaborazione (immagine pura)
 python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --raw-cover
+
+# PDF parziale: solo un modulo
+python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --only 01
+
+# PDF parziale: solo stat block
+python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --only statblocks
+
+# PDF parziale: modulo 01 + stat block, lowres
+python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --only 01,statblocks --lowres
 ```
 
 Output:
 ```
-releases/LAnelloDelConte/LAnelloDelConte_20260422.pdf          # hires
-releases/LAnelloDelConte/LAnelloDelConte_20260422_lowres.pdf   # lowres
+releases/LAnelloDelConte/LAnelloDelConte_20260422.pdf                          # completo hires
+releases/LAnelloDelConte/LAnelloDelConte_20260422_lowres.pdf                   # completo lowres
+releases/LAnelloDelConte/LAnelloDelConte_20260422_only-01.pdf                  # solo modulo 01
+releases/LAnelloDelConte/LAnelloDelConte_20260422_only-statblocks.pdf          # solo stat block
+releases/LAnelloDelConte/LAnelloDelConte_20260422_only-01_statblocks_lowres.pdf # combinato lowres
 ```
 
 ### Flags
@@ -41,6 +53,33 @@ releases/LAnelloDelConte/LAnelloDelConte_20260422_lowres.pdf   # lowres
 |------|---------|-------------|
 | `--lowres` | no | Usa versioni `-lowres` delle immagini (`.jpg` poi `.png`) |
 | `--raw-cover` | no | Copertina senza logo, titolo e autore (immagine pura) |
+| `--only` | no | PDF parziale con solo le sezioni indicate (comma-separated) |
+
+### Sezioni per `--only`
+
+| Valore | Cosa include |
+|--------|-------------|
+| `cover` | Copertina |
+| `frontmatter` | Frontespizio |
+| `doc` | Documento principale (`<Avventura>.md`) |
+| `maps` | Mappe generali (root `maps/`) |
+| `statblocks` | Appendice stat block |
+| `NN` | Singolo modulo per numero (es. `01`, `02`) con le sue mappe |
+
+Valori combinabili con virgola: `--only 01,statblocks` genera modulo 01 + stat block.
+
+### Naming convention PDF parziali
+
+Il suffisso `_only-<sezioni>` viene aggiunto prima di `_lowres`:
+
+```
+<Avventura>_yyyymmdd.pdf                          # completo
+<Avventura>_yyyymmdd_only-statblocks.pdf          # parziale
+<Avventura>_yyyymmdd_only-01_statblocks.pdf       # parziale combinato
+<Avventura>_yyyymmdd_only-01_statblocks_lowres.pdf # parziale combinato lowres
+```
+
+Le sezioni nel suffisso sono ordinate alfabeticamente e separate da `_`.
 
 ### Ottimizzazione immagini
 

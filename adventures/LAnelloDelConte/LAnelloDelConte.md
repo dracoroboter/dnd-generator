@@ -12,7 +12,7 @@ Benvenuti a Fianus Romanus.
 
 ## Plot generale
 
-I PG vengono ingaggiati da Sir Gorim Vel per recuperare l'Anello del Conte, caduto nelle fogne di Fianus Romanus. Scendono nelle fogne e trovano solo una lettera beffarda: qualcuno — firmato "S" — ha preso l'Anello prima di loro e promette di farsi vivo alla Festa del Raccolto. Gorim paga metà del compenso e li lega a sé per il seguito.
+I PG vengono ingaggiati da Sir Gorim Vel per recuperare l'Anello del Conte, caduto nelle fogne di Fianus Romanus. Scendono nelle fogne e trovano solo una lettera beffarda: qualcuno — firmato "S" — ha preso l'Anello prima di loro e promette di farsi vivo alla Festa del Grazie. Gorim paga metà del compenso e li lega a sé per il seguito.
 
 ---
 
@@ -28,11 +28,19 @@ L'avventura è il **prologo** della campagna seria **Il Re Spezzato**. Il Conte 
 
 ## Lore
 
-**Drakenhold** — Il regno, governato da **Re Dorian Valemarch**.
+**Drakenhold** — Il nome indica sia il **regno** che la sua **capitale**, al centro del continente. Governato da **Re Dorian Valemarch**.
 
-**Fianus Romanus** — Borgo nel sud di Drakenhold, governato dal Conte — un vassallo di Dorian il cui nome nessuno conosce. Vita rurale, commerci, tradizioni. Tutti si conoscono, tutti spettegolano, nessuno lavora quanto dovrebbe. Ha delle fogne sorprendentemente elaborate per un borgo di queste dimensioni (nessuno sa perché).
+**Fianus Romanus** — Borgo nel sud di Drakenhold, collegato alla capitale. Circondato da terre fertili, a sud affaccia sul mare (tipo Ostia per Roma). Governato dal Conte — un vassallo di Dorian il cui nome nessuno conosce. Vita rurale, commerci, tradizioni. Tutti si conoscono, tutti spettegolano, nessuno lavora quanto dovrebbe. Ha delle fogne sorprendentemente elaborate per un borgo di queste dimensioni (nessuno sa perché). La popolazione è quasi interamente umana — le altre razze sono rare e attirano curiosità.
 
 **Mappe disponibili:** `maps/RealmOfAmrog` (regione), `maps/FianusRomanus` (borgo), `01_LeFogneDiFianus/maps/LeFogneDiFianus` (dungeon quest 1).
+
+---
+
+## I PG
+
+I PG sono avventurieri squattrinati che vivono a Fianus Romanus. La povertà è il motore narrativo: partecipano alle avventure per mettere insieme pranzo e cena.
+
+**Regola:** ogni PG inizia con **5 monete d'argento**. Nient'altro.
 
 ---
 
@@ -42,7 +50,7 @@ Le schede complete sono in `characters/`.
 
 ### Sir Gorim Vel
 
-*Fighter 3 (Banneret) — Il René Ferretti di Fianus Romanus*
+*Fighter 3 (Defence) — Il René Ferretti di Fianus Romanus*
 
 Funzionario del Conte, inviato a gestire il borgo. Tarchiato, esasperato, gesticola con la pergamena in mano. Cerca di portare a termine la missione con le risorse che ha — cioè i PG. Non è contento della cosa. È l'unico NPC con contatto diretto (anche se vago) con il Conte.
 
@@ -122,9 +130,9 @@ Nelle puntate comiche, seminare piccoli momenti in cui Gorim mostra una lealtà 
 I PG arrivano a Fianus Romanus, vengono reclutati da Gorim, e la prima pista li porta nelle fogne del borgo.
 → `01_LeFogneDiFianus/`
 
-### Puntata 2 — "La Festa del Borgo" (da sviluppare)
+### Puntata 2 — "La Festa del Borgo"
 
-Fianus Romanus celebra la Festa del Raccolto. Gare, bancarelle, intrighi. Un NPC afferma di aver visto l'Anello.
+Fianus Romanus celebra la Festa del Grazie. Sergius travestito da funzionario tiene un discorso pubblico con velate accuse al Conte, poi lancia una caccia al tesoro per il borgo. I PG scoprono il commercio di pozioni di vigore e l'esistenza di un ritratto compromettente del Conte.
 
 ### Puntata 3 — "Il Rivale" (da sviluppare)
 

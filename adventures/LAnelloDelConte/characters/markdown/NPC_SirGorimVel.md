@@ -14,6 +14,8 @@ Il René Ferretti di Fianus Romanus. Ex-capitano della guarnigione di Drakenhold
 
 Pragmatico fino al midollo, allergico all'eroismo inutile. Gesticola molto, si esaspera facilmente, parla da solo. Ha un debole per il cibo (la pancia lo conferma).
 
+**Tirchieria patologica:** Ogni volta che deve pagare i PG, la scena deve essere un calvario. Gorim non vuole farlo in nessun modo. Conta le monete una per una, sospira ad ogni moneta, cerca scuse per pagare meno ("questo non era un'informazione, era un'opinione"), chiede ricevute, tenta di pagare in natura ("vi do un prosciutto, vale lo stesso"), propone dilazioni, accusa i PG di non aver fatto abbastanza. Non importa la cifra — anche 5 monete d'argento gli causano dolore fisico.
+
 Frasi ricorrenti riadattate da Ferretti:
 - "Dai dai dai, che ce la facciamo" (non ci crede)
 - "Splendido. Meraviglioso." (sarcastico)

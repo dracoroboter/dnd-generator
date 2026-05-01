@@ -25,7 +25,7 @@ Un funzionario esasperato, un anello scomparso nelle fogne, e un borgo dove ness
 
 - **Sir Gorim Vel** — funzionario del Conte, esasperato, il René Ferretti di Fianus Romanus
 - **Il Conte** — il MacGuffin vivente: governa tutto, non si vede mai, nessuno sa come si chiama
-- **Sergius Sottobancus** — antagonista nascosto, ha trovato l'Anello prima dei PG
+- **Sergius Arimano** — antagonista nascosto, ha trovato l'Anello prima dei PG
 
 ## Tono e temi
 

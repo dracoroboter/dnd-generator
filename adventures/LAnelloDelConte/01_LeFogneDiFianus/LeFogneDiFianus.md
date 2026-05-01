@@ -2,24 +2,12 @@
 
 ## Descrizione
 
-> ⚠ *Da rivedere dall'autore.*
-
-I PG si trovano alla Taberna de Franciosibus aut Hispanardis a Fianus Romanus, in debito con la taverniera Domina Lella. Vengono reclutati da Sir Gorim Vel per recuperare l'Anello del Conte nelle fogne del borgo.
+I PG vengono reclutati da Sir Gorim Vel alla Taberna di Fianus Romanus per recuperare l'Anello del Conte nelle fogne del borgo. L'Anello non c'è — troveranno una lettera beffarda che li lancia verso la Puntata 2.
 
 ## Obiettivo
 
-> ⚠ *Da rivedere dall'autore.*
-
-Scendere nelle fogne di Fianus, trovare l'Anello del Conte e riportarlo a Sir Gorim Vel.
-
-## Note al master
-
-> ⚠ *Da rivedere dall'autore — consolidare le note sparse nel documento.*
-
-- Tono leggero: nessun incontro deve essere letale
-- Gorim può accompagnare i PG o aspettarli fuori
-- L'Anello non si trova — i PG trovano una lettera di "S" che rimanda alla Festa del Raccolto
-- Gorim paga metà del compenso pattuito al ritorno
+**Dichiarato:** Trovare l'Anello del Conte nelle fogne e riportarlo a Gorim.
+**Reale:** L'Anello non c'è. I PG trovano una lettera di "S" che rimanda alla Festa del Grazie.
 
 ---
 
@@ -78,7 +66,23 @@ L'uomo è **Sir Gorim Vel**, funzionario del Conte — il cui nome nessuno riesc
 > 
 > *Firmato: [firma illeggibile]"*
 
-> Gorim arrotola la pergamena, vi guarda, e dice: "Domande? No? Bene. Andiamo."
+*Nota per il DM: la firma del Conte va "letta" ad alta voce come una pronuncia incomprensibile, diversa ogni volta. Gorim ci prova seriamente ma il risultato è sempre un suono diverso e insensato ("Firmato... il Conte di Brrglmfh... no, Prùgnacchio... aspetta, Thlòmpferd..."). Nessuno lo corregge perché nessuno sa come si pronuncia davvero. Questa gag va ripetuta ogni volta che compare la firma del Conte in qualsiasi documento.*
+
+> Gorim arrotola la pergamena, vi guarda, e dice: *"Bene. Domande?"*
+
+### 🎲 Note per il DM — Le domande dei PG
+
+I PG avranno domande. Gorim risponde a tutto con impazienza crescente:
+
+- **"Cos'è l'Anello?"** — *"L'Anello del Conte. È un anello. Del Conte. Cos'altro vi serve sapere?"*
+- **"Che aspetto ha?"** — *"È un anello. D'oro. Con un sigillo. Grosso così."* (indica una misura diversa ogni volta)
+- **"Perché è nelle fogne?"** — *"Perché Sua Eccellenza ha avuto un... incidente igienico. Non fate domande."*
+- **"Chi è il Conte?"** — *"Il Conte è il Conte. Il vostro datore di lavoro. Basta."*
+- **"Come si chiama il Conte?"** — Gorim apre la bocca, si ferma, guarda la pergamena, la rigira, e dice: *"È scritto qui. Chiaramente."* (non è scritto chiaramente)
+- **"Quanto ci pagate?"** — Apre la trattativa (vedi sotto).
+- **Qualsiasi altra domanda** — *"Sì sì, dettagli. Andiamo, che si fa tardi."*
+
+Quando le domande si esauriscono (o Gorim perde la pazienza), si passa alla trattativa.
 
 ## La trattativa
 
@@ -92,11 +96,11 @@ I PG, che devono **3 monete d'oro** di pigione a Domina Lella (che è lì che as
 
 Se i PG accettano l'offerta da 1 mo senza trattare, Domina Lella afferra un mattarello dal bancone e minaccia di chiamare le guardie: *"UNA moneta?! E io come le vedo le mie tre monete d'oro?! O trattate meglio o chiamo le guardie e vi faccio sbattere dentro!"* I PG sono costretti a negoziare.
 
-Si apre una scena di contrattazione — stile monologo al telefono di Gigi Proietti. Gorim si offende, i PG insistono, Gorim tira fuori che "ai miei tempi gli avventurieri lo facevano per la gloria", i PG rispondono che con la gloria non si mangia, Gorim sospira, controffre 5 mo, i PG rilanciano ancora... La scena può andare avanti quanto il tavolo si diverte.
+Si apre una scena di contrattazione. Gorim si offende, i PG insistono, Gorim tira fuori che "ai miei tempi gli avventurieri lo facevano per la gloria", i PG rispondono che con la gloria non si mangia, Gorim sospira, controffre 5 mo, i PG rilanciano ancora... La scena può andare avanti quanto il tavolo si diverte.
 
 **Risultato massimo:** 50 monete d'oro, ma solo per il recupero dell'Anello. Gorim specifica: *"50 monete d'oro. CINQUANTA. Ma solo se mi portate l'anello.*
 
-**Quando dovrà effettivamente pagare** (nelle puntate successive), Gorim sarà estremamente riluttante. Conta le monete una per una, sospira ad ogni moneta, cerca scuse per pagare meno ("questo non era un'informazione, era un'opinione"), chiede ricevute, tenta di pagare in natura ("vi do un prosciutto, vale lo stesso").
+**Quando dovrà effettivamente pagare** (nelle puntate successive), ogni pagamento è una scena comica — vedi scheda NPC di Gorim (§ Tirchieria patologica).
 
 Gorim pagherà metà della somma visto che l'anello non verrà trovato.
 
@@ -109,52 +113,67 @@ L'anello è caduto nelle latrine del Conte, quindi va cercato nelle fogne. Gorim
 **Posizioni nel borgo** (vedi mappa `../maps/FianusRomanus`):
 
 - La **Taberna de Franciosibus aut Hispanardis** si trova al **Mercato Centrale**, la piazza principale del borgo.
-- La **residenza del Conte** è il palazzo più grande del quartiere **Aviano**, a sud del mercato. Chiuso e presidiato — il Conte non c'è mai, ma le guardie fanno finta che ci sia.
-- L'**ingresso alle fogne** è una botola in un vicolo del quartiere **Settebagni**, oltre il **Ponte Milvius**, vicino al grande tempio. La zona è più bassa del resto del borgo — logico che le fogne scarichino qui. La botola è coperta da un carretto di verdure abbandonato.
-- **Terzilio il verduraio** ha il suo banco al **Mercato Centrale**, non lontano dalla Taberna.
+- La **residenza del Conte** è il palazzo più grande del quartiere **Aviano**. Chiuso e presidiato — il Conte non c'è mai, ma le guardie fanno finta che ci sia.
+- L'**ingresso alle fogne** è una botola nel quartiere **Settebagni**, oltre il **Ponte Milvius**. La botola è coperta dal carretto di Terzilio.
+- **Terzilio il verduraio** vende rape e cipolle. Ha un banco al **Mercato Centrale** ma vive a **Settebagni** (dove trovarlo è lasciato al DM).
 - Le **guardie** presidiano la residenza del Conte ad **Aviano**.
 
-### I tre indizi
+### 🎲 Note per il DM — I PG sono del luogo
 
-I PG possono raccogliere informazioni al borgo prima di scendere. Ogni indizio porta più vicino all'ingresso.
+I PG sono avventurieri squattrinati che vivono a Fianus Romanus da un po'. Si conoscono già tra loro e conoscono il borgo. La prima scena alla Taberna serve per far conoscere i personaggi l'un l'altro ai giocatori (non ai PG). Non c'è bisogno di spiegare loro dov'è Settebagni o cos'è Ponte Milvio — lo sanno.
 
-**Indizio 1 — Domina Lella (Taberna)**
+### Le informazioni di Domina Lella
 
-### 🎲 Note per il DM
-
-Se i PG chiedono delle fogne o dello scarico delle latrine, Domina Lella vuole almeno un acconto sulla pigione (5 ma, o un bicchiere offerto, o una promessa convincente — Persuasion CD 12). Solo dopo parla.
+Le informazioni di Sora Lella non arrivano tutte insieme. Vanno date in momenti separati, in risposta a domande specifiche dei PG. Domina Lella vuole almeno un acconto sulla pigione (5 ma, o un bicchiere offerto, o una promessa convincente — Persuasion CD 12) prima di parlare.
 
 ### 📖 Da leggere ai giocatori
 
 > Domina Lella incrocia le braccia: *"Prima i soldi. Poi le informazioni."*
 
-> *(dopo aver pagato/convinto)* *"Le fogne? E che ne so io. Però chiedete a Terzilio, quello che vende le verdure qui al mercato. Ogni tanto gli sparisce il carretto e lo ritrova sempre nello stesso vicolo giù a Settebagni. Dice che qualcuno glielo sposta di notte."*
+### 🎲 Note per il DM
+
+Dopo aver pagato/convinto, Sora Lella risponde alle domande una alla volta:
+
+**a) Se chiedono delle fogne:**
+> *"Le fogne? Dovrebbero essere giù a Settebagni."*
+
+**b) Se chiedono come trovarle, o chi può aiutarli:**
+> *"Chiedete a Terzilio, lui è di lì. Vende rape e cipolle, lo trovate anche qui al mercato."*
+
+**c) Casualmente, se la conversazione continua:**
+> *"Quello si lamenta sempre che ogni tanto gli spostano il carretto."*
 
 ---
 
-**Indizio 2 — Terzilio il verduraio (piazza)**
+**Terzilio il verduraio**
 
 ### 🎲 Note per il DM
 
-Un ometto nervoso che vende rape e cipolle al Mercato Centrale. Se i PG gli chiedono di mostrargli il vicolo, li accompagna ma non si avvicina troppo.
+Un ometto nervoso che vende rape e cipolle. Vive a Settebagni e ha un parcheggio per il suo carretto vicino a casa. Se i PG gli chiedono di mostrargli il vicolo, li accompagna ma non si avvicina troppo.
 
 ### 📖 Da leggere ai giocatori
 
-> *"Er carretto! Ogni mattina lo ritrovo spostato! Sempre nello stesso vicolo giù a Settebagni, dopo il Ponte Milvius. E puzza. Puzza più del solito, intendo."*
+> *"Er carretto! Ogni giorno lo trovo spostato dal parcheggio mio! Sempre nello stesso punto, lì vicino."*
 
 > *(se gli chiedono di accompagnarli)* *"Io là sotto non ci vado. Si sentono rumori."*
 
 ---
 
-**Indizio 3 — Le guardie della residenza del Conte**
+**Le guardie della residenza del Conte**
 
 ### 🎲 Note per il DM
 
-Due guardie annoiate davanti al palazzo ad Aviano.
+Due guardie annoiate davanti al palazzo ad Aviano. Se i PG provano a entrare nel castello, gli ridono in faccia. Se chiedono delle fogne, sanno dov'è l'ingresso principale — è informazione nota, non un segreto.
+
+I PG probabilmente vorranno andare direttamente sotto il castello, visto che la latrina del Conte è lì. Le guardie confermano che le fogne partono da Settebagni e arrivano fin sotto il castello — ma l'ingresso è a Settebagni, non ad Aviano.
 
 ### 📖 Da leggere ai giocatori
 
-> *"Le latrine di Sua Eccellenza? Scaricano verso sud, verso Settebagni. Come tutte le cose di questo borgo."*
+> *"Entrare nel castello? Ahah. No."*
+
+> *"Le latrine di Sua Eccellenza? Scaricano verso ovest, verso Settebagni. Come tutte le cose di questo borgo."*
+
+> *"L'ingresso delle fogne è giù a Settebagni, dopo il Ponte Milvius. Tutti lo sanno."*
 
 > L'altra guardia aggiunge: *"Una volta ho visto un ratto grosso così uscire da una botola vicino al tempio. Grosso così."* (esagera con le mani)
 
@@ -168,7 +187,7 @@ Dopo che i PG hanno girato abbastanza (o se il DM sente che si stanno impantanan
 
 ### 📖 Da leggere ai giocatori
 
-> Gorim tira fuori una mappa sgualcita del borgo e indica Settebagni: *"Ma devo fa' tutto io? È LÀ. Giù a Settebagni, dopo il ponte. Sotto il carretto. C'è una botola. Apritela e scendete. Dai dai dai."*
+> Gorim tira fuori una mappa sgualcita del borgo e indica Settebagni: *"Ma devo fa' tutto io? È LÀ. Giù a Settebagni, dopo il ponte. C'è una botola. Trovatela. Dai dai dai."*
 
 ---
 
@@ -176,7 +195,7 @@ Dopo che i PG hanno girato abbastanza (o se il DM sente che si stanno impantanan
 
 ### 🎲 Note per il DM
 
-Sotto il carretto di Terzilio c'è una botola di ferro con lo stemma del borgo (un cinghiale, ovviamente). Non è chiusa a chiave — il lucchetto è arrugginito e si apre con una tirata decisa (FOR CD 8) o un colpo secco.
+Sotto il carretto di Terzilio c'è una botola di ferro (2qd / 3m / 10ft) con lo stemma del borgo (un cinghiale, ovviamente). Non è chiusa a chiave — il lucchetto è arrugginito e si apre con una tirata decisa (FOR CD 8) o un colpo secco (CA 10).
 
 ### 📖 Da leggere ai giocatori
 
@@ -194,16 +213,17 @@ Sotto il carretto di Terzilio c'è una botola di ferro con lo stemma del borgo (
 
 Le fogne di Fianus sono sorprendentemente elaborate per un borgo di queste dimensioni. Nessuno sa chi le abbia costruite né perché. Sono un dungeon a 5 stanze con un mix di architettura costruita e caverne naturali.
 
+**Perché l'Anello è qui e non sotto il castello:** Le fogne scorrono da est (Aviano, dove c'è il castello del Conte) verso ovest (Settebagni, dove c'è l'ingresso). La corrente ha trasportato l'Anello dalle latrine del Conte fino a queste stanze, dove Sergius l'ha trovato.
+
+**Il cunicolo:** Dalla Stanza 1, un lungo cunicolo parte verso est in direzione del castello. Circa 10 minuti di cammino a luce fioca — sgocciolii, eco, rumore di topi, ma non succede nulla. Il cunicolo si restringe progressivamente fino a diventare impraticabile. I PG non possono raggiungere il castello da qui, ma capiscono che le fogne collegano effettivamente Settebagni ad Aviano.
+
 **Mappa:** `maps/LeFogneDiFianus.png`
 
 **Collegamento tra le stanze:** L'esplorazione non è lineare. Dalla Stanza 1 i PG possono andare verso la Stanza 2 (corridoio in alto) o la Stanza 3 (passaggio al centro). La Stanza 4 è raggiungibile dalla 3 e dalla 5 (corridoi a destra della mappa). La Stanza 5 è accessibile solo attraverso la Stanza 4 (la porta col modulo burocratico). I PG possono esplorare nell'ordine che preferiscono — le stanze funzionano indipendentemente.
 
 **Tono:** I problemi sono banali ma trattati come epici. Nessun pericolo mortale reale — le conseguenze sono comiche (debiti, figuracce, maledizioni ridicole).
 
-**Durata stimata:** 1-2 sessioni (sessione = 1-3 ore). La prima sessione copre la taverna e l'esplorazione del borgo; se il tempo lo permette si entra nelle fogne. La seconda sessione completa il dungeon.
-
-**Obiettivo dichiarato:** Trovare l'Anello del Conte nelle fogne.
-**Obiettivo reale:** L'Anello non c'è. I PG trovano una lettera che rimanda altrove.
+**Durata stimata:** 1-2 sessioni (1-3 ore ciascuna).
 
 ---
 
@@ -214,14 +234,18 @@ Le fogne di Fianus sono sorprendentemente elaborate per un borgo di queste dimen
 Grande sala circolare con due ambienti collegati (visibili sulla mappa). Acqua stagnante alle caviglie, odore terribile.
 
 **Incontro: I Ratti Sindacalizzati**
-Un gruppo di ratti giganti (4x **Giant Rat**, MM p. 327) blocca fisicamente il passaggio verso la stanza 2. Sono disposti in fila, immobili, e non si spostano. Il loro capo, un ratto insolitamente grosso con un minuscolo cappello, squittisce in modo che sembra organizzato. È un picchetto.
+Un gruppo di ratti giganti (5x **Giant Rat**, MM p. 327) blocca fisicamente il passaggio verso la stanza 2. Sono disposti in fila, immobili, e non si spostano. Il loro capo, un ratto insolitamente grosso con un minuscolo cappello — **Biascica** — squittisce in modo che sembra organizzato. È un picchetto.
+
+Ogni ratto indossa un accessorio: uno ha una sciarpa, uno un guanto, uno un cappellino (il capo), uno delle calze, uno un fazzoletto al collo. Sono chiaramente oggetti rubati a qualcuno.
 
 I PG devono decidere in fretta: passare con la forza o trovare un altro modo.
 
 - **Combattimento:** I PG attaccano. I ratti combattono ma fuggono dopo che 2 di loro vengono sconfitti. I sopravvissuti torneranno nella stanza 3 a fare dispetti.
 - **Forza bruta (Athletics CD 10):** Spingerli via fisicamente. Funziona, ma i ratti li seguiranno ostili per il resto del dungeon.
 - **Cibo/pagamento:** Se un PG offre una razione di cibo o 5 monete di rame, il capo annuisce e i ratti si spostano ordinatamente.
-- **Speak with Animals / Silvano:** I ratti hanno formato un sindacato e chiedono un "pedaggio". Se pagati, offrono un consiglio: "Non fidarti di quello nella stanza 2."
+- **Speak with Animals / Silvano:** I ratti hanno formato un sindacato e chiedono un "pedaggio". Se pagati, offrono un consiglio: "Non fidarti di quello nella stanza 2." Se un PG ha Speak with Animals (o capacità simile), la conversazione può essere molto più ricca — i ratti hanno opinioni su tutto e tutti nelle fogne.
+
+**Nota per il DM:** I 5 ratti sindacalizzati sono NPC ricorrenti. Vanno riutilizzati nelle puntate successive (protesta in piazza alla Festa del Grazie, picchetto davanti a un negozio, ecc.). Sono riconoscibili dagli accessori.
 
 **Loot:** Tra i detriti, un anello di rame ossidato. Non è l'Anello del Conte. Gorim (se presente) lo esamina e dice "No. Prossima stanza."
 
@@ -289,29 +313,46 @@ Il modulo viene magicamente archiviato in un cesto vicino alla porta.
 
 **Investigation CD 12:** Il modulo è stato compilato centinaia di volte. Ogni compilazione ha un nome diverso per il Conte. Nessuno è uguale.
 
+### 🎲 Note per il DM — Moduli già compilati (tabella)
+
+Se i PG esaminano i moduli nel cesto, leggere a caso dalla tabella. Utile anche se il DM deve improvvisare un nome del Conte al volo.
+
+| # | Nome richiedente | Motivo della visita | Nome del Conte |
+|---|-----------------|---------------------|----------------|
+| 1 | Terzilio Rapacini | Consegna rape | Conte Brumaldo di Fianus |
+| 2 | Anonimo | Curiosità | Conte Goffredo il Pallido |
+| 3 | Ermolao (illeggibile) | Trovare me stesso | Conte Thlòmpferd |
+| 4 | Guardia n. 3 | Ordine superiore | Conte Prùgnacchio |
+| 5 | Maria la lavandaia | Recupero biancheria | Conte Brrglmfh |
+| 6 | Nessuno | Nessuno | Conte Nessuno |
+| 7 | Pipinius (cancellato e riscritto 3 volte) | Esibizione | Conte Magnifico |
+| 8 | Un ratto (impronta di zampa) | — | — (impronta di zampa) |
+| 9 | Sergius S. | Affari | (campo lasciato vuoto) |
+| 10 | Il Conte stesso | Ispezione | (macchia d'inchiostro identica alla pergamena) |
+
 ---
 
 ### Stanza 5 — La Stanza del "Tesoro"
 
 Stanza costruita, relativamente pulita — troppo pulita rispetto al resto delle fogne. Al centro, un piedistallo con un forziere. Ma non è tutto: lungo le pareti ci sono **casse di legno aperte**, alcune vuote, altre con residui di paglia da imballaggio. Il pavimento è segnato da **impronte di stivali recenti** — qualcuno viene qui regolarmente. Non sono impronte di mostri: sono stivali da uomo, di buona fattura.
 
-**Investigation CD 12:** Le casse hanno un marchio bruciato sul fianco — una S intrecciata, lo stesso sigillo del forziere. Qualunque cosa contenessero, è stata spostata di recente.
+**Investigation CD 12:** Le casse hanno un marchio bruciato sul fianco — una doppia S intrecciata (tipo simbolo del dollaro), lo stesso sigillo del forziere.
 
-**Investigation CD 15:** Tra la paglia di una cassa, un frammento di lista: nomi di merci illeggibili tranne uno, parzialmente visibile. (Indizio per le puntate future — il DM può decidere cosa sia in base a cosa saranno i traffici di Sergius.)
+**Investigation CD 15:** Nelle casse c'è solo paglia da imballaggio. Ma dalla forma delle impronte nella paglia e dalle dimensioni delle casse, il PG può intuire il tipo generico di merce contenuta — oggetti di dimensione media, probabilmente avvolti singolarmente. (Il DM decide cosa siano quando definisce i traffici di Sergius.)
 
-Questa stanza è il magazzino di **Sergius Sottobancus** — il luogo dove raccoglie le sue mercanzie prima di smerciarle. I PG non lo sanno ancora, ma la "S" tornerà.
+Questa stanza è il magazzino di **Sergius Arimano** — il luogo dove raccoglie le sue mercanzie prima di smerciarle. I PG non lo sanno ancora, ma la doppia S tornerà.
 
 **Il Forziere**
-Non è intrappolato. Il sigillo non è quello del Conte — è un sigillo sconosciuto, una S intrecciata (il marchio di Sergius Sottobancus, che i PG non riconosceranno ancora). Dentro c'è:
+Aperto, nessuna trappola. Il sigillo non è quello del Conte — è un sigillo sconosciuto, una doppia S intrecciata (il marchio di Sergius Arimano, che i PG non riconosceranno ancora). Dentro c'è:
 
 - Una lettera
-- 15 monete d'argento
+- Un sacchetto con 15 monete d'argento e un biglietto: *"Per voi straccioni."*
 - Un anello di cipolla essiccato (non è l'Anello del Conte)
 
 **La Lettera:**
-*"Cercavate qualcosa? Peccato. Sono arrivato prima io. L'anello del vostro padrone è al sicuro — più pulito di come l'ho trovato, ve lo assicuro. Se lo rivuole, dovrà fare molto meglio di mandare dei topi nelle fogne a cercarlo. Alla Festa del Raccolto, forse, ci sarà qualcosa per voi. O forse no. Dipende da quanto mi divertite. — S."*
+*"Cercavate qualcosa? Peccato. Sono arrivato prima io. L'anello del vostro padrone è al sicuro — più pulito di come l'ho trovato, ve lo assicuro. Se lo rivuole, dovrà fare molto meglio di mandare dei topi nelle fogne a cercarlo. Alla Festa del Grazie, forse, ci sarà qualcosa per voi. O forse no. Dipende da quanto mi divertite. — S."*
 
-La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Sergius Sottobancus.
+La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Sergius Arimano.
 
 ---
 
@@ -319,9 +360,9 @@ La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Se
 
 ### Loot dal dungeon
 
-- **Oro:** 15 ma (trovate nel forziere della stanza 5)
+- **Oro:** 15 ma (nel sacchetto con biglietto *"Per voi straccioni"*)
 - **Oggetti:** Anello di rame ossidato (valore: 1 mr), anello di cipolla essiccato (valore: commestibile), lettera sigillata
-- **Informazioni:** Il nome del Conte è stato scritto in centinaia di modi diversi (stanza 4). L'Anello non è nelle fogne — qualcuno l'ha preso prima di loro. La Festa del Raccolto è la prossima pista.
+- **Informazioni:** Il nome del Conte è stato scritto in centinaia di modi diversi (stanza 4). L'Anello non è nelle fogne — qualcuno l'ha preso prima di loro. La Festa del Grazie è la prossima pista.
 
 ---
 
@@ -334,10 +375,10 @@ La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Se
 
 ## Note per il DM
 
-- Gorim può accompagnare i PG o aspettarli fuori ("Io nelle fogne non ci scendo, ho la sciatica"). Se accompagna, commenta tutto con esasperazione.
+- Gorim può accompagnare i PG o aspettarli fuori ("Io nelle fogne non ci scendo, ho la sciatica"). Convincerlo richiede **Persuasion CD 17**. Se accompagna, commenta tutto con esasperazione.
 - Nessun incontro deve essere letale. Se i PG sono in difficoltà con Grunzio, farlo scivolare su qualcosa di comico.
 - Ermolao può diventare un NPC ricorrente che i PG ritrovano in posti improbabili nelle puntate successive.
-- I ratti sindacalizzati possono tornare come running gag: li si ritrova a protestare in piazza durante la Festa del Raccolto.
+- I ratti sindacalizzati possono tornare come running gag: li si ritrova a protestare in piazza durante la Festa del Grazie.
 
 ---
 
@@ -355,7 +396,7 @@ I PG risalgono dalle fogne e mostrano la lettera a Gorim. Lui la legge, diventa 
 > 
 > Tira fuori una borsa di monete, la soppesa, sospira profondamente, e conta metà della somma pattuita — una moneta alla volta, con la faccia di chi sta donando un rene.
 > 
-> *"Ecco. Metà. Il resto ve lo guadagnate continuando a lavorare per me. Questo 'S' — chiunque sia — va trovato. E l'anello va recuperato. Alla Festa del Raccolto, dice la lettera? Bene. Ci saremo."*
+> *"Ecco. Metà. Il resto ve lo guadagnate continuando a lavorare per me. Questo 'S' — chiunque sia — va trovato. E l'anello va recuperato. Alla Festa del Grazie, dice la lettera? Bene. Ci saremo."*
 > 
 > Pausa.
 > 
@@ -365,4 +406,4 @@ I PG risalgono dalle fogne e mostrano la lettera a Gorim. Lui la legge, diventa 
 
 I PG ricevono metà della somma pattuita nella trattativa. Se avevano concordato 50 mo, ricevono 25. Se avevano concordato 30, ricevono 15. Eccetera. Gorim conta ogni moneta con dolore visibile.
 
-Questo lega i PG a Gorim per le puntate successive — devono continuare a lavorare per lui per avere il resto. Il gancio per la Puntata 2 (la Festa del Raccolto) è stabilito.
+Questo lega i PG a Gorim per le puntate successive — devono continuare a lavorare per lui per avere il resto. Il gancio per la Puntata 2 (la Festa del Grazie) è stabilito.

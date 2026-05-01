@@ -4,7 +4,11 @@
 
 ## Informazioni generali
 
-Taverniera della Taberna de Franciosibus aut Hispanardis. Donna massiccia, opinioni forti, mattarello sempre a portata di mano. I PG le devono 3 monete d'oro di pigione arretrata (luglio) — dormono nelle stanze sopra la taverna da settimane e non hanno mai pagato. Domina Lella ha pazientato fin troppo.
+Taverniera della Taberna de Franciosibus aut Hispanardis. Donna massiccia, opinioni forti, mattarello sempre a portata di mano. I PG le devono 3 monete d'oro di pigione arretrata (luglio) — almeno così dice lei. — dormono nelle stanze sopra la taverna da settimane e non hanno mai pagato. Domina Lella ha pazientato fin troppo.
+
+Ogni volta che i PG la reincontrano, ricorda loro che le devono la pigione di luglio. Anche se l'hanno già pagata, trova un motivo per cui non basta ("E gli interessi? E il disturbo? E la biancheria?").
+
+**Costo reale:** 1 ma/giorno a persona (vitto e alloggio, qualità discutibile). 4 PG = 4 ma/giorno, 28 ma a settimana. Sora Lella però dice cifre a sentimento — il conto non corrisponde mai a quello reale.
 
 ## Descrizione
 

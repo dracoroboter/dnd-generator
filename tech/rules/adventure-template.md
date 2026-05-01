@@ -31,6 +31,10 @@ adventures/
     │       └── NPC_NomePersonaggio.png
     ├── other/                       ← file accessori non inclusi nel PDF
     │   └── pg/                      ← stat block PG (*_GM.*)
+    ├── objects/                     ← oggetti narrativi: simboli, lettere, artefatti (opzionale)
+    │   └── NomeOggetto.md           ← descrizione + prompt generazione immagine
+    ├── meta/                        ← documenti di lavoro del DM (opzionale, non pubblicabili)
+    │   └── DiarioSessioni.md        ← registro sessioni giocate
     └── NN_NomeModulo/               ← un modulo per subdirectory
         ├── NomeModulo.md
         └── maps/                    ← mappe specifiche del modulo

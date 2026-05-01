@@ -1,8 +1,8 @@
 # Realm of Amrog
 
-Drakenhold — il regno, governato da Re Dorian Valemarch.
+Drakenhold — sia il regno che la sua capitale (al centro della mappa), governato da Re Dorian Valemarch.
 
 ## Luoghi principali
 
-- **Fianus Romanus** — borgo nel sud di Drakenhold, hub dell'avventura
-- **Drakenhold** — il regno nel suo complesso
+- **Drakenhold** — la capitale, al centro del continente
+- **Fianus Romanus** — borgo nel sud di Drakenhold, collegato alla capitale, affaccia sul mare

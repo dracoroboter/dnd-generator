@@ -4,13 +4,18 @@ create-pdf-adventure.py — Genera un PDF unico con un'avventura D&D completa.
 
 Uso:
     python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> [--raw-cover] [--lowres]
+    python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --only statblocks
+    python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --only 01,statblocks
 
 Flags:
     --raw-cover  Usa l'immagine di copertina così com'è, senza logo, titolo e autore
     --lowres     Usa versioni -lowres.png delle immagini (generate da optimize-images.py)
+    --only       Genera PDF parziale con solo le sezioni indicate (comma-separated).
+                 Valori: cover, frontmatter, doc, maps, statblocks, NN (numero modulo)
 
 Output:
     releases/<NomeAvventura>/<NomeAvventura>_yyyymmdd.pdf
+    releases/<NomeAvventura>/<NomeAvventura>_yyyymmdd_only-<sezioni>.pdf   (parziale)
 """
 
 import argparse, subprocess, sys, os, re, base64, io
@@ -25,6 +30,9 @@ EXCLUDED_FILES = {
     "README.md", "AdventureBook.md", "PlanBook.md",
     "DiscussioneNarrativa.md", "MappaGenerale.md",
 }
+
+# Prefissi di file esclusi (match parziale)
+EXCLUDED_PREFIXES = ("DM_Prep", "StatBlock_")
 
 LOWRES_SUFFIX = "-lowres"
 
@@ -191,7 +199,7 @@ def find_module_md(module_dir):
     """Find the main .md file in a module directory (not in subdirs)."""
     candidates = [
         f for f in module_dir.glob("*.md")
-        if f.name not in EXCLUDED_FILES
+        if f.name not in EXCLUDED_FILES and not f.name.startswith(EXCLUDED_PREFIXES)
     ]
     return candidates[0] if candidates else None
 
@@ -258,9 +266,13 @@ def extract_readme_meta(adventure_dir):
     return meta
 
 
-def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False):
-    """Assemble the full HTML document."""
+def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False, only_sections=None):
+    """Assemble the full HTML document. If only_sections is set, include only those sections."""
     parts = []
+
+    def include(section):
+        """Check if a section should be included (None = all)."""
+        return only_sections is None or section in only_sections
 
     # --- CSS ---
     css_text = CSS_FILE.read_text()
@@ -273,7 +285,7 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False)
 
     # --- Cover ---
     cover = find_cover(adventure_dir)
-    if cover:
+    if cover and include("cover"):
         cover = resolve_image(cover, use_lowres)
         if raw_cover:
             cover_uri = cover.as_uri()
@@ -287,51 +299,58 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False)
             print(f"  Cover: {cover.name} (con logo/titolo/autore)")
 
     # --- Frontmatter ---
-    date_str = datetime.now().strftime("%Y-%m-%d")
+    if include("frontmatter"):
+        date_str = datetime.now().strftime("%Y-%m-%d")
 
-    parts.append('<div class="frontmatter">')
-    parts.append(f"<h1>{title}</h1>")
-    if meta.get("Tono"):
-        parts.append(f'<div class="subtitle">{meta["Tono"]}</div>')
-    parts.append("<hr>")
-    parts.append('<div class="meta">')
-    parts.append("D&amp;D 5e (2014)<br>")
-    if meta.get("Livello consigliato"):
-        parts.append(f'Livello {meta["Livello consigliato"]}<br>')
-    if meta.get("Durata"):
-        parts.append(f'{meta["Durata"]}<br>')
-    if meta.get("Struttura"):
-        parts.append(f'Struttura {meta["Struttura"]}<br>')
-    parts.append(f"<br>{date_str}")
-    if meta.get("Autore"):
-        parts.append(f'<br><br><em>{meta["Autore"]}</em>')
-        yr = meta.get("Prima stesura", datetime.now().strftime("%Y"))
-        parts.append(f'<br><small>© {yr} CC BY-SA 4.0</small>')
-    parts.append("</div></div>")
-    print(f"  Frontmatter: {title}")
+        parts.append('<div class="frontmatter">')
+        parts.append(f"<h1>{title}</h1>")
+        if meta.get("Tono"):
+            parts.append(f'<div class="subtitle">{meta["Tono"]}</div>')
+        parts.append("<hr>")
+        parts.append('<div class="meta">')
+        parts.append("D&amp;D 5e (2014)<br>")
+        if meta.get("Livello consigliato"):
+            parts.append(f'Livello {meta["Livello consigliato"]}<br>')
+        if meta.get("Durata"):
+            parts.append(f'{meta["Durata"]}<br>')
+        if meta.get("Struttura"):
+            parts.append(f'Struttura {meta["Struttura"]}<br>')
+        parts.append(f"<br>{date_str}")
+        if meta.get("Autore"):
+            parts.append(f'<br><br><em>{meta["Autore"]}</em>')
+            yr = meta.get("Prima stesura", datetime.now().strftime("%Y"))
+            parts.append(f'<br><small>© {yr} CC BY-SA 4.0</small>')
+        parts.append("</div></div>")
+        print(f"  Frontmatter: {title}")
 
     # --- Main document ---
-    if adventure_md.exists():
+    if adventure_md.exists() and include("doc"):
         html = md_to_html(adventure_md)
         parts.append(f'<div class="section-break">{html}</div>')
         print(f"  Documento: {adventure_md.name}")
 
     # --- Adventure maps (maps/ root) ---
-    for map_md, map_img in find_adventure_maps(adventure_dir):
-        if map_md:
-            html = md_to_html(map_md)
-            parts.append(f'<div class="section-break">{html}</div>')
-            print(f"  Mappa (desc): {map_md.name}")
-        if map_img:
-            map_img = resolve_image(map_img, use_lowres)
-            name = map_img.stem.replace(LOWRES_SUFFIX, "")
-            img_uri = map_img.as_uri()
-            parts.append(f'<div class="map-page"><img src="{img_uri}" alt="{name}">'
-                         f'<div class="map-caption">{name}</div></div>')
-            print(f"  Mappa (img): {map_img.name}")
+    if include("maps"):
+        for map_md, map_img in find_adventure_maps(adventure_dir):
+            if map_md:
+                html = md_to_html(map_md)
+                parts.append(f'<div class="section-break">{html}</div>')
+                print(f"  Mappa (desc): {map_md.name}")
+            if map_img:
+                map_img = resolve_image(map_img, use_lowres)
+                name = map_img.stem.replace(LOWRES_SUFFIX, "")
+                img_uri = map_img.as_uri()
+                parts.append(f'<div class="map-page"><img src="{img_uri}" alt="{name}">'
+                             f'<div class="map-caption">{name}</div></div>')
+                print(f"  Mappa (img): {map_img.name}")
 
     # --- Modules ---
     for mod_dir in find_modules(adventure_dir):
+        mod_num = re.match(r"(\d+)_", mod_dir.name)
+        mod_key = mod_num.group(1) if mod_num else None
+        if not include(mod_key):
+            continue
+
         mod_md = find_module_md(mod_dir)
         if mod_md:
             html = md_to_html(mod_md)
@@ -354,7 +373,7 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False)
 
     # --- Stat block appendix ---
     statblocks = find_statblocks(adventure_dir)
-    if statblocks:
+    if statblocks and include("statblocks"):
         parts.append('<div class="appendix-header"><h1>Appendice — Stat Block</h1></div>')
         for sb in statblocks:
             name = sb.stem.replace("NPC_", "").replace("MON_", "")
@@ -373,6 +392,8 @@ def main():
                         help="Usa immagine copertina senza elaborazione (no logo, titolo, autore)")
     parser.add_argument("--lowres", action="store_true",
                         help="Usa versioni -lowres.png delle immagini (da optimize-images.py)")
+    parser.add_argument("--only", type=str, default=None,
+                        help="Sezioni da includere (comma-separated): cover, frontmatter, doc, maps, statblocks, NN")
     args = parser.parse_args()
 
     adventure_name = args.adventure
@@ -382,17 +403,31 @@ def main():
         print(f"Errore: {adventure_dir} non trovata.")
         sys.exit(1)
 
+    # Parse --only sections
+    only_sections = None
+    if args.only:
+        only_sections = set(s.strip() for s in args.only.split(","))
+        valid = {"cover", "frontmatter", "doc", "maps", "statblocks"}
+        for s in only_sections:
+            if s not in valid and not re.match(r"^\d+$", s):
+                print(f"Errore: sezione '{s}' non valida. Valori: cover, frontmatter, doc, maps, statblocks, NN")
+                sys.exit(1)
+
     # Output
     date_stamp = datetime.now().strftime("%Y%m%d")
     out_dir = PROJECT_ROOT / "releases" / adventure_name
     out_dir.mkdir(parents=True, exist_ok=True)
-    suffix = "_lowres" if args.lowres else ""
-    pdf_path = out_dir / f"{adventure_name}_{date_stamp}{suffix}.pdf"
+    only_suffix = ""
+    if only_sections:
+        only_suffix = "_only-" + "_".join(sorted(only_sections))
+    lowres_suffix = "_lowres" if args.lowres else ""
+    pdf_path = out_dir / f"{adventure_name}_{date_stamp}{only_suffix}{lowres_suffix}.pdf"
 
     print(f"=== {adventure_name} — PDF {date_stamp} ===\n")
 
     # Build HTML
-    html_content = build_html(adventure_name, adventure_dir, raw_cover=args.raw_cover, use_lowres=args.lowres)
+    html_content = build_html(adventure_name, adventure_dir, raw_cover=args.raw_cover,
+                              use_lowres=args.lowres, only_sections=only_sections)
 
     # Write temp HTML (for debugging)
     tmp_html = out_dir / f"{adventure_name}_{date_stamp}.html"

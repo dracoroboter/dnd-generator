@@ -16,7 +16,7 @@
         <cha>14</cha>
         <senses>Percezione passiva 11</senses>
         <languages>Common, Nanico</languages>
-        <cr>2</cr>
+        <cr>1</cr>
         <trait>
             <name>Stile di Combattimento: Difesa</name>
             <text>+1 CA quando indossa armatura (già incluso)</text>
@@ -45,6 +45,7 @@
         </action>
         <description>Il René Ferretti di Fianus Romanus. Ex-capitano della guarnigione di Drakenhold, messo a fare il funzionario del Conte a Fianus Romanus come &quot;promozione&quot; — in realtà un esilio mascherato. Un militare costretto a fare il burocrate. Costantemente esasperato dall'incompetenza che lo circonda.
 Pragmatico fino al midollo, allergico all'eroismo inutile. Gesticola molto, si esaspera facilmente, parla da solo. Ha un debole per il cibo (la pancia lo conferma).
+**Tirchieria patologica:** Ogni volta che deve pagare i PG, la scena deve essere un calvario. Gorim non vuole farlo in nessun modo. Conta le monete una per una, sospira ad ogni moneta, cerca scuse per pagare meno (&quot;questo non era un'informazione, era un'opinione&quot;), chiede ricevute, tenta di pagare in natura (&quot;vi do un prosciutto, vale lo stesso&quot;), propone dilazioni, accusa i PG di non aver fatto abbastanza. Non importa la cifra — anche 5 monete d'argento gli causano dolore fisico.
 Frasi ricorrenti riadattate da Ferretti:
 - &quot;Dai dai dai, che ce la facciamo&quot; (non ci crede)
 - &quot;Splendido. Meraviglioso.&quot; (sarcastico)

@@ -1,7 +1,11 @@
-# NPC_SergiusSottobancus — antagonista
+# NPC_SergiusArimano — antagonista
 
 ## Informazioni generali
 
+- **Nome completo**: Sergius S. Arimano Improbus
+- **Nome pubblico**: Marchese Arimano — tutti lo chiamano così
+- **Marchio clandestino**: doppia S (da Sergius + S., middle name mai rivelato)
+- **Ditta (prima del divieto)**: "L'Immane Alabarda" — logo: un'alabarda che sbuca da un cespuglio
 - **Ruolo**: antagonista nascosto
 - **Classe**: Rogue 3 (Assassin)
 - **Livello**: 3
@@ -10,9 +14,13 @@
 
 ## Descrizione
 
-Il Sergio di Boris: maneggione, subdolo, muove i fili dietro le quinte. Ex-socio in affari del Conte, fregato in qualche modo (da specificare). Ha traffici illeciti nelle fogne di Fianus, dove ha trovato fortuitamente l'Anello del Conte. Troppo riconoscibile per venderlo, lo usa come strumento di una vendetta complicata — una caccia al tesoro che umilia il Conte costringendolo a inseguire il proprio anello attraverso indizi e beffe.
+Il Sergio di Boris: maneggione, subdolo, muove i fili dietro le quinte. Ex proprietario de "L'Immane Alabarda", vendeva pozioni di vigore e ritratti erotici personalizzati ai nobili di Fianus. Il Conte era un ottimo cliente — si è fatto fare un ritratto "artistico" che non ha mai pagato. La moglie del Conte (beghina) ha scoperto tutto e ha fatto imporre la "Gabella Pudicitiae" su tutte le merci birichine. Il Marchese Arimano da commerciante legittimo è diventato contrabbandiere, e ora si vendica.
 
-Intelligentissimo, sempre tre passi avanti a tutti. Parla poco, sorride molto — il sorriso di chi sa qualcosa che tu non sai. Non si sporca le mani se può evitarlo. Vanitoso nella sua astuzia: lascia indizi perché vuole che sappiano che è stato lui. Il marchio "S" intrecciata è la sua firma — ego travestito da anonimato.
+Ha trovato fortuitamente l'Anello del Conte nelle fogne e lo usa come strumento di una vendetta elaborata — una caccia al tesoro pubblica che umilia il Conte. Ha ancora il ritratto non pagato e lo usa come leva.
+
+Intelligentissimo, sempre tre passi avanti a tutti. Parla poco, sorride molto — il sorriso di chi sa qualcosa che tu non sai. Non si sporca le mani se può evitarlo. Vanitoso nella sua astuzia: lascia indizi perché vuole che sappiano che è stato lui. La doppia S è la sua firma — ego travestito da anonimato.
+
+**Maestro del camuffamento:** si traveste regolarmente da Terzilio il verduraio (e da altri). Ha una rete di informatori nel borgo (tipo Varys/GOT). Possiede un oggetto magico di invisibilità. A volte i PG parlano con lui senza saperlo.
 
 ## Stat Block
 
@@ -66,10 +74,10 @@ Antagonista nascosto per tutta l'avventura. I PG non sanno della sua esistenza a
 
 ## Da definire
 
-- In che modo è stato fregato dal Conte
-- Quali traffici illeciti ha nelle fogne
-- Come i PG scoprono la sua esistenza (quale puntata?)
-- Chi o cosa causa l'esplosione finale
+- ~~In che modo è stato fregato dal Conte~~ → ✅ Gabella Pudicitiae imposta dalla Contessina + ritratto non pagato
+- ~~Quali traffici illeciti ha nelle fogne~~ → ✅ Pozioni di vigore e ritratti erotici via mare, deposito nelle fogne
+- ~~Come i PG scoprono la sua esistenza (quale puntata?)~~ → ✅ Puntata 1: lettera firmata "S". Puntata 2: discorso alla Festa. Nome "Marchese Arimano" emerge nella Puntata 3.
+- [ ] Chi o cosa causa l'esplosione finale
 
 ## Agganci futuri
 

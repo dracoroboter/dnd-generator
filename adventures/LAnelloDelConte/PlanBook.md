@@ -16,14 +16,14 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 
 - [x] Documento principale (`LAnelloDelConte.md`)
 - [x] Puntata 1: Le Fogne di Fianus (`01_LeFogneDiFianus/`)
-- [x] Schede NPC: Sir Gorim Vel, Il Conte, Sergius Sottobancus, Domina Lella
+- [x] Schede NPC: Sir Gorim Vel, Il Conte, Sergius Arimano, Domina Lella
 - [x] Mappe: regione, borgo, fogne
 - [x] Artwork: 3 PG (Maria Biscanna, Gin Tonica, Pipinius Chennedius) + Sir Gorim Vel + copertina
 
 ### Da fare
 
 - [ ] Definire il quarto PG
-- [ ] Puntata 2: La Festa del Borgo — gare, bancarelle, l'anello di cipolla, incidente diplomatico di Pipinius
+- [x] Puntata 2: La Festa del Borgo — discorso di Sergius, caccia al tesoro, NPC nuovi
 - [ ] Puntata 3: Il Rivale — gruppo di avventurieri rivali incompetenti
 - [ ] Puntata 4: La Pista Vera (forse) — mercante di anelli contraffatti, indizio reale non riconosciuto
 - [ ] Puntata 5: Il Finale — rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
@@ -58,13 +58,13 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 - Complicazioni da tabella random per ogni puntata
 - Niente morte dei PG — al massimo conseguenze comiche
 - **Ermolao "Il Profondo"**: NPC ricorrente trovato in posti improbabili in ogni puntata
-- **I Ratti Sindacalizzati**: running gag, tornano a protestare in piazza alla Festa del Raccolto
+- **I Ratti Sindacalizzati**: running gag, tornano a protestare in piazza alla Festa del Grazie
 - **Grunzio**: potrebbe tornare come alleato improbabile nelle puntate successive
 - **La canzone del borgo**: equivalente della sigla di Boris, filastrocca che tutti cantano
 
 ---
 
-## Il cattivo misterioso — Sergius Sottobancus (da sviluppare)
+## Sergius S. Arimano Improbus — il Marchese Arimano
 
 Ha trovato l'Anello nelle fogne prima dei PG e lo usa per una vendetta contro il Conte. Da definire:
 - In che modo è stato fregato dal Conte
@@ -72,9 +72,95 @@ Ha trovato l'Anello nelle fogne prima dei PG e lo usa per una vendetta contro il
 - Come i PG scoprono la sua esistenza (quale puntata?)
 - Chi o cosa causa l'esplosione finale
 
+### Domande emerse dal tavolo (sessione 1)
+
+I giocatori hanno iniziato a chiedersi il perché delle stranezze nelle fogne. Servono risposte coerenti:
+
+- **Perché Sergius ha un magazzino nelle fogne?** — ✅ DECISO: le fogne collegano il mare (Settebagni) al centro del borgo. Sergius fa arrivare merce via mare e la deposita nelle fogne. I clienti (nobili) vengono a ritirare di nascosto.
+- **Cosa commercia Sergius?** — ✅ DECISO: **pozioni di vigore** e **ritratti "artistici" erotici personalizzati** dei nobili in pose eroiche/romantiche idealizzate.
+
+  Le pozioni hanno nomi allusivi in stile retorico:
+  - *La Rocca Imponente*
+  - *La Bandiera al Vento*
+  - *L'Immane Alabarda*
+  - *L'Assedio Notturno*
+  - *Il Bastone del Pellegrino*
+  - *Il Corno del Rinoceronte*
+
+  Non funzionano (sono acqua colorata con erbe), ma i nobili ci credono e pagano cifre assurde. L'etichetta ha il vecchio simbolo di Sergius: un'alabarda che sbuca da un cespuglio (logo de "L'Immane Alabarda").
+- **Perché ce l'ha con il Conte?** — ✅ DECISO: il Conte era un ottimo cliente — si è fatto fare un ritratto "artistico". La moglie del Conte (beghina) ha scoperto tutto e ha fatto imporre la **"Gabella Pudicitiae"**: tassa su tutte le merci "birichine". Il Conte non ha mai pagato il ritratto. Sergius ce l'ha ancora e lo usa come leva. Sergius da commerciante legittimo è diventato contrabbandiere per colpa del Conte.
+- **La porta burocratica (stanza 4) — che senso ha?** — ✅ DECISO: è antica. Nessuno sa perché è lì. Non c'è nessuna ragione. Fa parte dell'assurdità inspiegabile di Fianus.
+- **Il sigillo doppia S** — ✅ DECISO: è il marchio nuovo, clandestino. La doppia S viene da **Sergius S. Arimano** — il middle name non viene mai rivelato (come il nome del Conte). Prima del divieto Sergius usava un simbolo diverso: un'immagine innocua a doppio senso sessuale (da decidere quale immagine). I PG conoscono il vecchio marchio ma non collegano la doppia S a Sergius.
+
+### Personalità: l'Enigmista
+
+Sergius non è un cattivo che si nasconde — è un cattivo che **gioca**. Gli piace prendere in giro chi lo insegue: lascia indizi, biglietti beffardi ("Per voi straccioni"), cacce al tesoro. Non vuole scappare — vuole divertirsi a spese del Conte e di chiunque il Conte mandi a cercarlo. È sempre un passo avanti.
+
+### Armi segrete (decise)
+
+Tre armi che lo rendono impossibile da catturare prima del lv4:
+
+1. **Rete di informatori** — tipo gli uccellini di Varys (GOT). Gente del borgo che gli riferisce tutto: movimenti dei PG, piani di Gorim, ordini del Conte. Sa sempre cosa succede prima che succeda.
+2. **Oggetto magico di invisibilità** — per sparire quando serve.
+3. **Maestro del camuffamento** — travestimenti, identità false.
+
+**COLPO DI SCENA:** Uno dei personaggi che i PG incontrano regolarmente **è** Sergius sotto copertura. Li frequenta, li conosce, sa tutto di loro di prima mano. La rivelazione (puntata 4? 5?) è che l'hanno avuto sotto il naso tutto il tempo.
+
+**DECISO: Sergius si traveste da Terzilio il verduraio.** Il vero Terzilio esiste e vende rape normalmente. Sergius ne prende il posto travestendosi quando gli serve — per accedere alle fogne (il carretto è la copertura della botola), per spiare i PG, per operare al mercato. A volte i PG parlano col vero Terzilio, a volte con Sergius. Nessuno nota la differenza.
+
+Questo spiega:
+- Come Sergius sapeva che qualcuno sarebbe sceso nelle fogne (era al mercato quando Gorim ha reclutato i PG)
+- Perché il carretto "si sposta da solo" (lo sposta Sergius per entrare nelle fogne)
+- Perché "Terzilio" sa cose che non dovrebbe sapere
+- Come Sergius sa sempre dove sono i PG e cosa fanno
+
+**Da decidere:** quale NPC ricorrente è Sergius in realtà? ~~Candidati possibili:~~
+- ~~Ermolao "Il Profondo" (il saggio delle fogne — troppo ovvio?)~~
+- ~~Un NPC nuovo introdotto nella Puntata 2 (alla Festa del Grazie)~~
+- ~~Un commerciante/artigiano del borgo che i PG frequentano~~
+- ~~Qualcuno nella cerchia di Gorim~~
+
+---
+
+## Retrofitting dalla Sessione 1
+
+Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
+
+- [x] Gorim: Persuasion CD 17 per accompagnare
+- [x] Corrente fogne est→ovest + cunicolo verso il castello
+- [x] Strade-ponte sopra le mura + gag quartiere Ponte Milvio (mappa borgo)
+- [x] Forziere aperto, biglietto "Per voi straccioni"
+- [x] Ratti con accessori individuali + nota riutilizzo
+- [x] Firma del Conte come pronuncia incomprensibile diversa ogni volta
+- [x] Tabella moduli pre-compilati per la stanza 4
+- [x] Casse vuote (solo paglia), Investigation CD 15 per tipo merce
+- [x] Sigillo doppia S (tipo dollaro)
+- [x] Risposte alle domande dei PG dopo la pergamena
+- [x] Sora Lella: informazioni spezzate in 3 momenti separati
+- [x] Guardie: sanno dov'è l'ingresso fogne, ridono se vogliono entrare al castello
+- [x] Terzilio: vive a Settebagni, ha un parcheggio per il carretto
+- [x] Tirchieria patologica di Gorim nella scheda NPC
+- [x] Drakenhold = regno + capitale, Fianus sul mare a sud
+- [x] Economia: pigione Sora Lella 1 ma/giorno a persona nella scheda NPC
+
+## Decisioni prese (Sessione 1)
+
+| # | Decisione | Risultato |
+|---|-----------|-----------|
+| D1 | Acconto di Gorim | **1 mo** (10 ma contate una alla volta) |
+| D2 | Magazzino nelle fogne | Fogne collegano il mare al borgo. Sergius fa arrivare merce via mare, clienti ritirano di nascosto. |
+| D3 | Merce di Sergius | Oggetti sessuali — ridicoli e imbarazzanti ma non illegali. Intuizione dalle casse vera ma fuorviante. |
+| D4 | Perché ce l'ha col Conte | Il Conte ha imposto tassa/divieto sulla merce (tipo proibizionismo). Sergius da legittimo a contrabbandiere. |
+| D5 | Doppia S non nota | Marchio nuovo clandestino. La doppia S viene da "Sergius S." — il middle name non viene mai rivelato. Prima usava un'immagine innocua a doppio senso sessuale (da decidere quale). |
+| D6 | Porta burocratica | Antica. Nessuna ragione. Assurdità inspiegabile di Fianus. |
+| D7 | Armi segrete Sergius | Informatori (tipo Varys), invisibilità, camuffamento. Colpo di scena: un NPC ricorrente È Sergius. |
+| D8 | Cos'è l'Anello | Puro MacGuffin. Non magico, non speciale, mai trovato. Come il nome del Conte. |
+
 ---
 
 *Ultimo aggiornamento: Aprile 2026*
+
+> **TODO strutturale:** Valutare se spostare anche `PlanBook.md` nella directory `meta/` insieme a `DiarioSessioni.md`. Entrambi sono documenti di lavoro del DM, non contenuto pubblicabile.
 
 ---
 

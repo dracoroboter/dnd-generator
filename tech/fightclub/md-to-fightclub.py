@@ -53,6 +53,13 @@ def parse_md(filepath):
         data["str"], data["dex"], data["con"] = m.group(1), m.group(2), m.group(3)
         data["int"], data["wis"], data["cha"] = m.group(4), m.group(5), m.group(6)
 
+    # CR — dal campo Sfida nel markdown, fallback stima dal livello
+    cr_match = re.search(r"\*\*Sfida\*\*:\s*(\S+)", text)
+    if cr_match:
+        cr_val = cr_match.group(1).strip()
+        # Accetta formati: "1", "1/2", "1/4", "1/8", "0"
+        data["cr"] = cr_val
+
     # Campi stat block
     for key, xml_key in [("Punti ferita", "hp"), ("Classe armatura", "ac"),
                           ("Bonus competenza", "pb"), ("Percezione", "perception"),
@@ -137,9 +144,14 @@ def parse_md(filepath):
         # Altri tratti
         for line in cap_text.split("\n"):
             line = line.strip("- ").strip()
-            m = re.match(r"\*\*(.+?)\*\*:\s*(.+)", line)
+            m = re.match(r"\*\*(.+?)\*\*\s*(?:\([^)]*\)\s*)?:\s*(.+)", line)
             if m and "Incantesimi" not in m.group(1) and "Trucchetti" not in m.group(1):
-                data["traits"].append({"name": m.group(1), "text": m.group(2)})
+                trait_name = m.group(1)
+                # Includi il contenuto tra parentesi nel nome se presente
+                paren = re.search(r"\*\*(.+?)\*\*\s*(\([^)]*\))", line)
+                if paren:
+                    trait_name = f"{paren.group(1)} {paren.group(2)}"
+                data["traits"].append({"name": trait_name, "text": m.group(2)})
 
     # Descrizione
     desc_section = re.search(r"## Descrizione\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
@@ -214,9 +226,12 @@ def build_xml(data):
         langs = langs.replace("Comune", "Common").replace("Elfico", "Elvish")
         SubElement(monster, "languages").text = langs
 
-    # CR — stima dal livello
-    level = int(data.get("level", "1"))
-    cr = str(max(1, level - 1))
+    # CR — usa valore dal markdown se presente, altrimenti stima dal livello
+    if "cr" in data:
+        cr = data["cr"]
+    else:
+        level = int(data.get("level", "1"))
+        cr = str(max(1, level - 1))
     SubElement(monster, "cr").text = cr
 
     # Traits

@@ -3,8 +3,9 @@
 generate-statblocks.py — Genera XML FightClub + stat block PDF/PNG da schede NPC markdown.
 
 Uso:
-  python3 tech/fightclub/generate-statblocks.py <NomeAvventura>              # tutti gli NPC/MON
+  python3 tech/fightclub/generate-statblocks.py <NomeAvventura>              # tutti gli NPC/MON (con immagini)
   python3 tech/fightclub/generate-statblocks.py <NomeAvventura> NPC_Korex    # singolo NPC
+  python3 tech/fightclub/generate-statblocks.py <NomeAvventura> --no-image   # senza immagini
 
 Pipeline: .md → .xml (fightclub/) → .pdf + .png (statblock/)
 """
@@ -15,12 +16,15 @@ import subprocess
 import glob
 
 def main():
-    if len(sys.argv) < 2:
-        print(f"Uso: {sys.argv[0]} <NomeAvventura> [NomeScheda]")
+    no_image = "--no-image" in sys.argv
+    args = [a for a in sys.argv[1:] if a != "--no-image"]
+
+    if len(args) < 1:
+        print(f"Uso: {sys.argv[0]} <NomeAvventura> [NomeScheda] [--no-image]")
         sys.exit(1)
 
-    adventure = sys.argv[1]
-    single = sys.argv[2] if len(sys.argv) > 2 else None
+    adventure = args[0]
+    single = args[1] if len(args) > 1 else None
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.abspath(os.path.join(script_dir, "../.."))
@@ -28,6 +32,7 @@ def main():
     md_dir = os.path.join(project_root, "adventures", adventure, "characters", "markdown")
     fc_dir = os.path.join(project_root, "adventures", adventure, "characters", "fightclub")
     sb_dir = os.path.join(project_root, "adventures", adventure, "characters", "statblock")
+    img_dir = os.path.join(project_root, "adventures", adventure, "characters", "img")
 
     if not os.path.isdir(md_dir):
         print(f"Errore: {md_dir} non trovata.")
@@ -72,9 +77,21 @@ def main():
             continue
         print(f"  ✓ {base}.xml")
 
+        # Cerca immagine in characters/img/ (NPC_Nome → Nome.png/.jpg)
+        img_path = None
+        if not no_image:
+            img_name = base.replace("NPC_", "").replace("MON_", "")
+            for ext in (".png", ".jpg", ".jpeg"):
+                candidate = os.path.join(img_dir, img_name + ext)
+                if os.path.isfile(candidate):
+                    img_path = candidate
+                    break
+
         # XML → PDF
-        r = subprocess.run(["node", md_to_sb, xml_path, "-o", pdf_path],
-                           capture_output=True, text=True)
+        cmd_pdf = ["node", md_to_sb, xml_path, "-o", pdf_path]
+        if img_path:
+            cmd_pdf += ["--image", img_path]
+        r = subprocess.run(cmd_pdf, capture_output=True, text=True)
         if r.returncode != 0:
             print(f"  ✗ {base}: xml→pdf fallito: {r.stderr.strip() or r.stdout.strip()}")
             errors += 1
@@ -82,8 +99,10 @@ def main():
         print(f"  ✓ {base}.pdf")
 
         # XML → PNG
-        r = subprocess.run(["node", md_to_sb, xml_path, "-o", png_path],
-                           capture_output=True, text=True)
+        cmd_png = ["node", md_to_sb, xml_path, "-o", png_path]
+        if img_path:
+            cmd_png += ["--image", img_path]
+        r = subprocess.run(cmd_png, capture_output=True, text=True)
         if r.returncode != 0:
             print(f"  ✗ {base}: xml→png fallito: {r.stderr.strip() or r.stdout.strip()}")
             errors += 1

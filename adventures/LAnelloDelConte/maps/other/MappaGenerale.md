@@ -25,4 +25,4 @@ Dungeon a 5 stanze sotto il borgo. Accesso da botola in vicolo a Settebagni.
 
 - Fianus Romanus è in pianura, circondato da terre fertili
 - La residenza del Conte è visibile da quasi tutto il borgo ma nessuno ci entra mai
-- Le fogne scaricano verso sud — logico che l'ingresso sia a Settebagni, la zona più bassa
+- Le fogne scaricano da est (Aviano) verso ovest (Settebagni)
