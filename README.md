@@ -32,7 +32,7 @@ Entrambi i piani sono assistiti da AI.
 | `LAnelloDelConte` | Saga puntata 1 | Normalizzata | Prima avventura completa |
 | `FuoriDaHellfire` | One-shot (2 moduli) | Normalizzata | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4. PDF generato. |
 | `IlReSpezzato` | Saga puntata 2 | Da migrare | Draft in `legacy/` formato `.odt` |
-| `LoScettroDityr` | Saga puntate 3–6 (A/B/C/D) | Da migrare | In `legacy/` formato `.odt` |
+| `LoScettroDityr` | Saga (4 moduli A/B/C/D) | Normalizzata | Versione "Draco" — 4 moduli, 15 NPC, 29 asset grafici |
 
 La saga "Lo Scettro di Tyr" copre `LAnelloDelConte` → `IlReSpezzato` → `LoScettroDityr` in sequenza narrativa.
 
@@ -90,7 +90,8 @@ dungeonandragon/
 ├── adventures/                  # avventure
 │   ├── AdventureTemplate/       # scaffold vuoto (usato da new-adventure.sh)
 │   ├── LAnelloDelConte/         # saga puntata 1
-│   └── FuoriDaHellfire/         # continuazione Hellfire Club starter set
+│   ├── FuoriDaHellfire/         # continuazione Hellfire Club starter set
+│   └── LoScettroDityr/          # saga 4 moduli (versione "Draco")
 │
 ├── legacy/                      # .odt originali — sola lettura
 │

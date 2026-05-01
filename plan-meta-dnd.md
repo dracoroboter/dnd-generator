@@ -137,7 +137,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] Struttura standard documentata in `tech/rules/adventure-template.md`
 - [x] Glossario termini in `tech/rules/glossary.md`
 - [x] Manuale di normalizzazione in `tech/rules/normalization.md`
-- [ ] Normalizzare **LoScettroDityr** (saga, 4 moduli A/B/C/D, da `.odt`) — uno alla volta
+- [x] Normalizzare **LoScettroDityr** (saga, 4 moduli A/B/C/D, da `.odt`) — versione "Draco" completata (maggio 2026): 4 moduli, 15 NPC, 29 asset grafici, 0 errori check
 - [ ] Normalizzare **IlReSpezzato** (draft incompleto, da `.odt`)
 
 ---
