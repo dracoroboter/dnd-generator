@@ -22,6 +22,40 @@
 
 Questa è la versione **"Draco"** — porting fedele del materiale legacy. Una versione **"Trust"** è prevista in futuro.
 
+## Log sessioni di lavoro
+
+### 1-2 maggio 2026 (sessione Kiro)
+
+**Porting completato:**
+- 4 moduli migrati da .odt al formato standard (1449 righe totali)
+- 18 schede NPC/MON con stat block completi dal MM + 3 custom (Malebranche CR 12, Othran, Alaric)
+- 11 immagini personaggi collegate agli stat block PNG
+- 3 mappe DM testuali (TorreDiTorth, TempioDiLumina, SantuarioDiOstegard)
+- 29 asset grafici copiati e rinominati dal legacy
+- Copertina generata e aggiunta
+
+**Review e fix (63 problemi risolti):**
+- Contraddizioni narrative: chi rapisce i PG, Ombrascura stregone→chierico, Zikzle→Zikle, Mesusu nano→nana, Vecna lich→dio
+- Preludi aggiunti ai Moduli B, C, D (transizioni narrative + varianti scelte giocatori)
+- Stat block corretti: CA giustificate (Alaric Mage Armor, Othran armatura, Frankie FOR↔SAG), PF corretti, formule dadi vita
+- Difficoltà incontri ricalcolate e bilanciate (cultisti, diavoli, Valle del Giudizio, Yeti, Spettri)
+- Meccaniche chiarite: collari homebrew, rituale Mod D, giuramento 24h, mal di mare CD, Sala 12 sequenza Ormut
+- Miranda ridefinita come Arcane Trickster (non può attivare la pergamena)
+- Milestone aggiunte a tutti e 4 i moduli
+- Naming file uniformato, distanze uniformate a "m / ft / qd"
+
+**Toolchain creata/aggiornata:**
+- `generate-statblocks.py` ora genera anche Compendium XML unico
+- `release-bundle.py` — genera ZIP di pubblicazione (stat block → compendium → PDF → ZIP → public/)
+- `split-pdf-adventure.py` — genera 3 PDF: Lore, Sessioni, Appendice (stat block multi-colonna)
+- CSS aggiornato: `.statblock-grid` per multi-colonna, `.map-described` per mappe con descrizione
+- Skill `publish-adventure` aggiornata con definizioni release/pubblicazione
+- `content-rules.md` aggiornato: stat block separati dal testo dei moduli
+- `release.sh` deprecato → `tech/scripts/old/`
+- Regole release/pubblicazione generalizzate in `plan-meta-dnd.md`
+
+**Pubblicato in `public/`:** 3 ZIP (FuoriDaHellfire v1.0, LAnelloDelConte v0.3, LoScettroDityr v1.0)
+
 ## TODO — Problemi dalla review (maggio 2026)
 
 ### Meccaniche — Difficoltà incontri
