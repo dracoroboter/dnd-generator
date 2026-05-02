@@ -1,0 +1,43 @@
+{
+  "_comment": "Italian labels — source language",
+
+  "stat_headers": ["FOR", "DES", "COS", "INT", "SAG", "CAR"],
+
+  "hit_points": "Punti ferita",
+  "armor_class": "Classe armatura",
+  "speed": "Velocità",
+  "challenge": "Sfida",
+  "senses": "Sensi",
+  "languages": "Lingue",
+  "proficiency_bonus": "Bonus competenza",
+  "spell_save_dc": "CD tiro salvezza magia",
+  "spell_attack_bonus": "Bonus attacco magia",
+  "passive_perception": "Percezione passiva",
+
+  "section_attacks": "Attacchi",
+  "section_bonus_actions": "Azioni bonus",
+  "section_reactions": "Reazioni",
+  "section_notable_abilities": "Capacità notevoli",
+  "section_description": "Descrizione",
+  "section_general_info": "Informazioni generali",
+  "section_motivations": "Motivazioni",
+  "section_dm_notes": "Note al master",
+  "section_role_in_adventure": "Ruolo nell'avventura",
+  "section_stat_block": "Stat Block",
+
+  "field_role": "Ruolo",
+  "field_class": "Classe",
+  "field_level": "Livello",
+  "field_race": "Razza",
+  "field_alignment": "Allineamento",
+  "field_attack": "Attacco",
+  "field_damage": "Danni",
+
+  "pdf_subtitle": "Un'avventura Dungeons & Dragons 5e",
+  "pdf_level": "Livello",
+  "pdf_duration": "Durata",
+  "pdf_structure": "Struttura",
+  "pdf_appendix_statblock": "Appendice — Stat Block",
+
+  "disclaimer": ""
+}

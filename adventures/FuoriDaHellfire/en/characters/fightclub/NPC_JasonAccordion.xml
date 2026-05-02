@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>JasonAccordion</name>
+        <size>M</size>
+        <type>humanoid (human (in life), now a trapped soul)</type>
+        <alignment>neutral evil</alignment>
+        <ac>12</ac>
+        <hp>45 (10d8)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>16</int>
+        <wis>14</wis>
+        <cha>20</cha>
+        <skill>Perception +2</skill>
+        <senses>sight and hearing 36m / 120ft / 24qd (through the wearer)</senses>
+        <languages>Common, Elvish, Sylvan, Infernal</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Sentient Item</name>
+            <text>Jason exists as a soul in the Ring of the Virtuoso. He has no physical body. He communicates telepathically with the wearer. The stats above represent his mental and magical capabilities, not a body.</text>
+        </trait>
+        <trait>
+            <name>Spellcasting (as lv10 bard)</name>
+            <text>spell save DC 16, spell attack +8. Slots: 4/3/3/3/2. Jason can only cast spells through the wearer (when he has control).</text>
+        </trait>
+        <trait>
+            <name>Supreme Manipulator</name>
+            <text>advantage on Deception and Persuasion checks. Creatures that speak with Jason (through the wearer) have disadvantage on saves against his charm spells.</text>
+        </trait>
+        <trait>
+            <name>Progressive Possession</name>
+            <text>see &quot;Progressive possession&quot; section above. Jason doesn't fight directly — he takes control of the wearer.</text>
+        </trait>
+        <action>
+            <name>Psychic Wave (when a 1 comes up on the d8)</name>
+            <text>Saving throw: none (automatic) Damage: 1d4 + grip level psychic damage Area: all creatures within 15m / 50ft / 10qd of the wearer Effect: hits allies and enemies indiscriminately</text>
+        </action>
+        <action>
+            <name>Mental Conflict (when Jason forces control)</name>
+            <text>Saving throw: Wisdom DC 14-16+ (varies with grip) Failure: Jason takes control of the wearer for 1d4 rounds (combat) or 1d4 hours (out of combat) Success: the wearer resists, grip decreases by 1</text>
+        </action>
+        <action>
+            <name>Nightly Nightmares (grip 3+)</name>
+            <text>Damage: 2d6 psychic per night Effect: no benefit from long rest</text>
+        </action>
+        <description>In life, Jason Accordion was a handsome man with a smile that never reached his eyes — the type who walks into a room and everyone turns to look. Warm voice, impeccable manners, always the right word at the right time.
+Now he is just a voice in the ring. He whispers, suggests, flatters. The tone is that of an old friend — patient, understanding, never aggressive. At first. Over time he becomes more insistent, more present, more *him* and less the wearer.</description>
+    </monster>
+</compendium>

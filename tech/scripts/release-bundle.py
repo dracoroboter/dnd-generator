@@ -21,7 +21,24 @@ import subprocess
 import shutil
 import zipfile
 import glob
+import json
 from datetime import datetime
+
+
+def is_multilingual(adv_dir):
+    return os.path.isfile(os.path.join(adv_dir, "manifest.json"))
+
+def get_lang_dir(adv_dir, lang="it"):
+    if is_multilingual(adv_dir):
+        return os.path.join(adv_dir, lang)
+    return adv_dir
+
+def get_default_lang(adv_dir):
+    manifest = os.path.join(adv_dir, "manifest.json")
+    if os.path.isfile(manifest):
+        with open(manifest) as f:
+            return json.loads(f.read()).get("default_lang", "it")
+    return "it"
 
 
 def main():
@@ -107,7 +124,8 @@ def main():
     pdf_low = lowres[-1] if lowres else None
 
     # Compendium
-    compendium = os.path.join(adv_dir, "characters", "fightclub", f"{adventure}_Compendium.xml")
+    lang_dir = get_lang_dir(adv_dir)
+    compendium = os.path.join(lang_dir, "characters", "fightclub", f"{adventure}_Compendium.xml")
 
     # Cover
     cover = None
@@ -117,17 +135,25 @@ def main():
             cover = c
             break
 
-    # Maps: collect from all module maps/ dirs + top-level maps/
+    # Maps: collect from all module maps/ dirs + top-level maps/ (images only, in root)
     maps = []
+    # In multilingual mode, module map images are in root NN_Name/maps/
+    # In legacy mode, they're in the same place
     for maps_dir in glob.glob(os.path.join(adv_dir, "*/maps")) + [os.path.join(adv_dir, "maps")]:
         if os.path.isdir(maps_dir):
             for ext in ("*.png", "*.jpg", "*.jpeg"):
                 maps.extend(glob.glob(os.path.join(maps_dir, ext)))
-    # Exclude other/ subdirs
-    maps = [m for m in maps if "/other/" not in m]
+    # Also check lang_dir for module maps (multilingual: images may be in root modules)
+    if is_multilingual(adv_dir):
+        for maps_dir in glob.glob(os.path.join(lang_dir, "*/maps")):
+            if os.path.isdir(maps_dir):
+                for ext in ("*.png", "*.jpg", "*.jpeg"):
+                    maps.extend(glob.glob(os.path.join(maps_dir, ext)))
+    # Exclude other/ subdirs and deduplicate
+    maps = list(set(m for m in maps if "/other/" not in m))
 
     # Stat block PNGs
-    sb_dir = os.path.join(adv_dir, "characters", "statblock")
+    sb_dir = os.path.join(lang_dir, "characters", "statblock")
     statblocks = sorted(glob.glob(os.path.join(sb_dir, "*.png"))) if os.path.isdir(sb_dir) else []
 
     # Build ZIP

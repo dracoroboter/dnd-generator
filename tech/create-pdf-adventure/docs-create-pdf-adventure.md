@@ -34,6 +34,12 @@ python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --only
 # PDF parziale: solo stat block
 python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --only statblocks
 
+# PDF in inglese
+python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --lang en
+
+# PDF in inglese, lowres
+python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --lang en --lowres
+
 # PDF parziale: modulo 01 + stat block, lowres
 python3 tech/create-pdf-adventure/create-pdf-adventure.py LAnelloDelConte --only 01,statblocks --lowres
 ```
@@ -42,6 +48,8 @@ Output:
 ```
 releases/LAnelloDelConte/LAnelloDelConte_20260422.pdf                          # completo hires
 releases/LAnelloDelConte/LAnelloDelConte_20260422_lowres.pdf                   # completo lowres
+releases/LAnelloDelConte/LAnelloDelConte_20260422_en.pdf                       # completo inglese
+releases/LAnelloDelConte/LAnelloDelConte_20260422_en_lowres.pdf                # completo inglese lowres
 releases/LAnelloDelConte/LAnelloDelConte_20260422_only-01.pdf                  # solo modulo 01
 releases/LAnelloDelConte/LAnelloDelConte_20260422_only-statblocks.pdf          # solo stat block
 releases/LAnelloDelConte/LAnelloDelConte_20260422_only-01_statblocks_lowres.pdf # combinato lowres
@@ -54,6 +62,7 @@ releases/LAnelloDelConte/LAnelloDelConte_20260422_only-01_statblocks_lowres.pdf 
 | `--lowres` | no | Usa versioni `-lowres` delle immagini (`.jpg` poi `.png`) |
 | `--raw-cover` | no | Copertina senza logo, titolo e autore (immagine pura) |
 | `--only` | no | PDF parziale con solo le sezioni indicate (comma-separated) |
+| `--lang` | da `manifest.json` o `it` | Genera il PDF nella lingua specificata (es. `en` per inglese) |
 
 ### Sezioni per `--only`
 
@@ -74,10 +83,14 @@ Il suffisso `_only-<sezioni>` viene aggiunto prima di `_lowres`:
 
 ```
 <Avventura>_yyyymmdd.pdf                          # completo
+<Avventura>_yyyymmdd_en.pdf                       # completo inglese
 <Avventura>_yyyymmdd_only-statblocks.pdf          # parziale
 <Avventura>_yyyymmdd_only-01_statblocks.pdf       # parziale combinato
 <Avventura>_yyyymmdd_only-01_statblocks_lowres.pdf # parziale combinato lowres
+<Avventura>_yyyymmdd_en_lowres.pdf                # completo inglese lowres
 ```
+
+Il suffisso lingua (`_en`) viene inserito dopo la data e prima di `_only-` e `_lowres`.
 
 Le sezioni nel suffisso sono ordinate alfabeticamente e separate da `_`.
 
@@ -111,15 +124,16 @@ Il PDF è composto da sezioni assemblate in ordine fisso:
 
 Immagine a pagina intera da `adventures/<Avventura>/img/<Avventura>_COVER.png`.
 Di default viene elaborata con logo (DracoRoboter), titolo, sottotitolo D&D e autore.
+Titolo e sottotitolo sono letti dal `manifest.json` dell'avventura per la lingua corrente.
 Con `--raw-cover` viene usata l'immagine così com'è.
 Se non esiste, la copertina viene saltata e il PDF inizia dal frontespizio.
 
 ### 2. Frontespizio
 
 Pagina tipografica generata dallo script:
-- Titolo dell'avventura (da `<Avventura>.md`, heading H1)
+- Titolo dell'avventura (da `manifest.json` per la lingua corrente)
 - Sistema: D&D 5e (2014)
-- Livello, durata, struttura (dal README dell'avventura)
+- Livello, durata, struttura (dal README dell'avventura) — label localizzate (es. Level/Duration/Structure in inglese)
 - Data di generazione
 
 ### 3. Documento principale
@@ -136,7 +150,7 @@ I moduli sono separati da page break.
 
 ### 5. Appendice — Stat Block
 
-Tutti i file `characters/statblock/NPC_*.png` inclusi come immagini, uno per pagina. Ordine di apparizione nell'avventura: Korex → Fin Ditasvelte → Jason Accordion.
+Tutti i file `<lang>/characters/statblock/NPC_*.png` inclusi come immagini, uno per pagina. Ordine di apparizione nell'avventura: Korex → Fin Ditasvelte → Jason Accordion.
 
 Gli stat block sono già in grafica WotC (generati dalla pipeline FightClub). Non vengono ri-renderizzati.
 
@@ -185,9 +199,9 @@ CSS custom scritto ad hoc per il progetto (`adventure.css`). Non è un template 
 Gli stat block PNG devono essere già generati prima di lanciare lo script. Pipeline:
 
 ```
-characters/markdown/NPC_*.md
-    → tech/fightclub/md-to-fightclub.py → characters/fightclub/NPC_*.xml
-    → tech/fightclub/md-to-statblock-pdf.js -o *.png → characters/statblock/NPC_*.png
+<lang>/characters/markdown/NPC_*.md
+    → tech/fightclub/md-to-fightclub.py --lang <lang> → <lang>/characters/fightclub/NPC_*.xml
+    → tech/fightclub/md-to-statblock-pdf.js -o *.png → <lang>/characters/statblock/NPC_*.png
 ```
 
 Lo script `create-pdf-adventure.py` non genera stat block — li include come immagini.
@@ -214,6 +228,10 @@ tech/create-pdf-adventure/
 ├── adventure.css                  # CSS custom D&D-style
 ├── create-pdf-adventure.py        # script principale (genera PDF)
 └── optimize-images.py             # genera versioni -lowres delle immagini
+
+tech/i18n/
+├── it.json                        # label italiane (default)
+└── en.json                        # label inglesi
 ```
 
 ## Output

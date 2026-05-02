@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>OthranVorash</name>
+        <size>M</size>
+        <type>humanoid (half-elf)</type>
+        <alignment>neutral evil</alignment>
+        <ac>15 (reinforced light chain shirt + DEX)</ac>
+        <hp>84</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>18</cha>
+        <senses>darkvision 18m</senses>
+        <languages>Common, Elvish</languages>
+        <cr>9</cr>
+        <action>
+            <name>#</name>
+            <text/>
+        </action>
+        <action>
+            <name>Dagger (melee/ranged)</name>
+            <text>Attack: +6 Damage: 1d4+3 piercing</text>
+            <attack>Dagger (melee/ranged)|+6|1d4+3</attack>
+        </action>
+        <description>Othran is a half-elf with an elegant bearing and a calculating gaze. The elven traits are barely hinted at — slightly pointed ears, sharp features — but his eyes have an unnatural light, a greenish reflection that betrays the pact with Vecna. He dresses in dark, practical clothing, without ostentation.
+Distinctive trait: he speaks in a low, measured tone, as if every conversation were an interrogation. He has a habit of staring at people in silence before answering — a trick to make them uncomfortable.</description>
+    </monster>
+</compendium>

@@ -10,12 +10,34 @@ Output: stampa a schermo + genera tech/reports/ReportNormalization_<NomeAvventur
 import sys
 import os
 import re
+import json
 from datetime import datetime
 from pathlib import Path
 
 ERRORS = []
 WARNINGS = []
 LOG = []
+
+
+def is_multilingual(adventure_dir):
+    """Check if adventure uses multilingual structure."""
+    return os.path.isfile(os.path.join(adventure_dir, "manifest.json"))
+
+
+def get_lang_dir(adventure_dir, lang="it"):
+    """Get language-specific content directory."""
+    if is_multilingual(adventure_dir):
+        return os.path.join(adventure_dir, lang)
+    return adventure_dir
+
+
+def get_default_lang(adventure_dir):
+    """Get default language from manifest."""
+    manifest = os.path.join(adventure_dir, "manifest.json")
+    if os.path.isfile(manifest):
+        with open(manifest) as f:
+            return json.loads(f.read()).get("default_lang", "it")
+    return "it"
 
 
 def error(msg):
@@ -102,8 +124,10 @@ def check_unknown_sections(filepath, known, label, prefixes=None):
         warn(f"{label}: sezione non prevista '## {name}'")
 
 def check_naming_conventions(adventure_dir):
-    for root, dirs, files in os.walk(adventure_dir):
-        rel_root = os.path.relpath(root, adventure_dir)
+    # In multilingual mode, check inside lang dir
+    check_base = get_lang_dir(adventure_dir)
+    for root, dirs, files in os.walk(check_base):
+        rel_root = os.path.relpath(root, check_base)
         # Skip other/ directories entirely
         if "other" in Path(rel_root).parts:
             dirs.clear()
@@ -151,28 +175,46 @@ def check_deprecated(adventure_dir):
 
 def check_maps(adventure_dir):
     """Check map conventions in maps/ and module maps/."""
-    maps_dir = os.path.join(adventure_dir, "maps")
-    if not os.path.isdir(maps_dir):
-        return
+    lang_dir = get_lang_dir(adventure_dir)
+    multilingual = is_multilingual(adventure_dir)
 
-    _check_maps_dir(maps_dir, "maps")
+    # Root maps: images in adventure_dir/maps/, descriptions in lang_dir/maps/
+    maps_dir = os.path.join(adventure_dir, "maps")
+    desc_dir = os.path.join(lang_dir, "maps") if multilingual else maps_dir
+    if os.path.isdir(maps_dir) or os.path.isdir(desc_dir):
+        _check_maps_dir(maps_dir if os.path.isdir(maps_dir) else desc_dir, "maps",
+                        desc_dir=desc_dir if multilingual else None)
 
     # Module maps
-    for d in sorted(os.listdir(adventure_dir)):
+    mod_base = lang_dir if multilingual else adventure_dir
+    for d in sorted(os.listdir(mod_base)):
         if not re.match(r'^\d{2}_', d):
             continue
-        mod_maps = os.path.join(adventure_dir, d, "maps")
-        if os.path.isdir(mod_maps):
-            _check_maps_dir(mod_maps, f"{d}/maps")
+        mod_maps_img = os.path.join(adventure_dir, d, "maps") if multilingual else os.path.join(mod_base, d, "maps")
+        mod_maps_desc = os.path.join(mod_base, d, "maps")
+        if os.path.isdir(mod_maps_img) or os.path.isdir(mod_maps_desc):
+            _check_maps_dir(mod_maps_img if os.path.isdir(mod_maps_img) else mod_maps_desc,
+                            f"{d}/maps",
+                            desc_dir=mod_maps_desc if multilingual else None)
 
 
-def _check_maps_dir(maps_dir, label):
-    """Check a single maps directory."""
-    files = [f for f in os.listdir(maps_dir) if os.path.isfile(os.path.join(maps_dir, f))]
+def _check_maps_dir(maps_dir, label, desc_dir=None):
+    """Check a single maps directory. If desc_dir is set, descriptions are there."""
+    if desc_dir is None:
+        desc_dir = maps_dir
 
-    pngs = {os.path.splitext(f)[0] for f in files if f.lower().endswith(".png")}
-    mds = {os.path.splitext(f)[0] for f in files if f.endswith(".md")}
-    svgs = {os.path.splitext(f)[0] for f in files if f.lower().endswith(".svg")}
+    pngs = set()
+    mds = set()
+    svgs = set()
+
+    if os.path.isdir(maps_dir):
+        files = [f for f in os.listdir(maps_dir) if os.path.isfile(os.path.join(maps_dir, f))]
+        pngs = {os.path.splitext(f)[0] for f in files if f.lower().endswith((".png", ".jpg", ".jpeg"))}
+        svgs = {os.path.splitext(f)[0] for f in files if f.lower().endswith(".svg")}
+
+    if os.path.isdir(desc_dir):
+        desc_files = [f for f in os.listdir(desc_dir) if os.path.isfile(os.path.join(desc_dir, f))]
+        mds = {os.path.splitext(f)[0] for f in desc_files if f.endswith(".md")}
 
     # PNG without corresponding .md
     for name in sorted(pngs - mds):
@@ -189,7 +231,8 @@ def _check_maps_dir(maps_dir, label):
 
 def check_statblocks(adventure_dir):
     """Check stat block naming conventions."""
-    sb_dir = os.path.join(adventure_dir, "characters", "statblock")
+    lang_dir = get_lang_dir(adventure_dir)
+    sb_dir = os.path.join(lang_dir, "characters", "statblock")
     if not os.path.isdir(sb_dir):
         return
 
@@ -205,29 +248,36 @@ def check_statblocks(adventure_dir):
 
 def check_orphan_files(adventure_dir):
     """Flag files that don't match any known pattern."""
-    known_root_files = {"README.md", "AdventureBook.md", "PlanBook.md", "DiscussioneNarrativa.md"}
+    known_root_files = {"README.md", "AdventureBook.md", "PlanBook.md", "DiscussioneNarrativa.md", "manifest.json"}
     adventure_name = os.path.basename(adventure_dir)
+    multilingual = is_multilingual(adventure_dir)
 
     for f in sorted(os.listdir(adventure_dir)):
         path = os.path.join(adventure_dir, f)
         if os.path.isdir(path):
             continue
-        if f in known_root_files or f == f"{adventure_name}.md":
+        if f in known_root_files:
+            continue
+        # In multilingual mode, main .md is under lang dir, not root
+        if not multilingual and f == f"{adventure_name}.md":
             continue
         if f.endswith((".png", ".jpg", ".jpeg", ".svg")):
             warn(f"File immagine in root: {f} — dovrebbe stare in img/, maps/ o characters/img/?")
+        elif f.startswith("DM_Prep") or f.startswith("StatBlock_"):
+            continue  # meta-documents, ok in root
 
 
 def check_modules(adventure_dir):
+    lang_dir = get_lang_dir(adventure_dir)
     modules = sorted([
-        d for d in os.listdir(adventure_dir)
-        if os.path.isdir(os.path.join(adventure_dir, d)) and re.match(r'^\d{2}_', d)
+        d for d in os.listdir(lang_dir)
+        if os.path.isdir(os.path.join(lang_dir, d)) and re.match(r'^\d{2}_', d)
     ])
     if not modules:
         warn("Nessun modulo (NN_NomeModulo/) trovato")
         return
     for mod in modules:
-        mod_dir = os.path.join(adventure_dir, mod)
+        mod_dir = os.path.join(lang_dir, mod)
         mod_name = mod[3:]
         mod_file = os.path.join(mod_dir, f"{mod_name}.md")
         if check_file_exists(mod_file, f"Modulo {mod}/{mod_name}.md"):
@@ -235,10 +285,11 @@ def check_modules(adventure_dir):
 
 
 def check_npcs(adventure_dir):
-    md_dir = os.path.join(adventure_dir, "characters", "markdown")
+    lang_dir = get_lang_dir(adventure_dir)
+    md_dir = os.path.join(lang_dir, "characters", "markdown")
     if not os.path.isdir(md_dir):
         # Fallback: check characters/ root for legacy layout
-        md_dir = os.path.join(adventure_dir, "characters")
+        md_dir = os.path.join(lang_dir, "characters")
         if not os.path.isdir(md_dir):
             return
     npcs = [f for f in os.listdir(md_dir) if f.startswith("NPC_") and f.endswith(".md")]
@@ -281,16 +332,22 @@ def main():
     LOG.append(f"# Report Normalizzazione: {adventure_name}")
     LOG.append(f"Data: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
 
+    lang_dir = get_lang_dir(adventure_dir)
+
     section("File obbligatori")
     check_file_exists(os.path.join(adventure_dir, "README.md"), "README.md")
     check_file_exists(os.path.join(adventure_dir, "AdventureBook.md"), "AdventureBook.md")
     check_file_exists(os.path.join(adventure_dir, "PlanBook.md"), "PlanBook.md")
-    main_md = os.path.join(adventure_dir, f"{adventure_name}.md")
+    main_md = os.path.join(lang_dir, f"{adventure_name}.md")
     check_file_exists(main_md, f"{adventure_name}.md")
 
     section("Directory")
-    check_dir_exists(os.path.join(adventure_dir, "maps"), "maps/")
-    check_dir_exists(os.path.join(adventure_dir, "characters"), "characters/", required=False)
+    # In multilingual mode, maps/ may not exist in root (e.g. FuoriDaHellfire has no map images)
+    if is_multilingual(adventure_dir):
+        check_dir_exists(os.path.join(lang_dir, "characters"), "characters/ (in lang dir)", required=False)
+    else:
+        check_dir_exists(os.path.join(adventure_dir, "maps"), "maps/")
+        check_dir_exists(os.path.join(adventure_dir, "characters"), "characters/", required=False)
 
     section("File e directory deprecati")
     check_deprecated(adventure_dir)

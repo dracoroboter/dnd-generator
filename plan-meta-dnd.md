@@ -102,6 +102,23 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 
 ---
 
+## Multilingua (completato 2026-05-02)
+
+- [x] Progettazione struttura multilingua (it/ + en/ + manifest.json)
+- [x] File i18n: tech/i18n/it.json, tech/i18n/en.json
+- [x] Refactoring struttura tutte le avventure (FuoriDaHellfire, LAnelloDelConte, LoScettroDityr)
+- [x] Aggiornamento script: create-pdf-adventure.py, generate-statblocks.py, md-to-fightclub.py, check-adventure.py, release-bundle.py
+- [x] Traduzione inglese FuoriDaHellfire (7 NPC/MON, 2 moduli)
+- [x] Traduzione inglese LAnelloDelConte (5 NPC, 2 moduli)
+- [x] Traduzione inglese LoScettroDityr (18 NPC/MON, 4 moduli)
+- [x] Copertina con titolo/sottotitolo tradotti dal manifest
+- [x] Nomi mostri EN con riferimenti SRD WotC
+- [x] Test di non regressione: tech/tests/test_regression.py (15 test)
+- [x] AdventureTemplate aggiornato
+- [x] Documentazione aggiornata (adventure-template.md)
+
+---
+
 ## Struttura del progetto
 
 - [x] Creare directory `adventures/`

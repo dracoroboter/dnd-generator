@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>UdoHutchinson</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>14 (scale mail)</ac>
+        <hp>58 (9d8+18)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>13</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>3</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>Udo makes two attacks with the longsword. If he has the shortsword drawn, he can make a third attack with it.</text>
+        </action>
+        <action>
+            <name>Longsword (melee)</name>
+            <text>Attack: +5, reach 1.5m / 5ft / 1qd Damage: 1d8+3 slashing (or 1d10+3 two-handed)</text>
+            <attack>Longsword (melee)|+5|1d8+3</attack>
+        </action>
+        <action>
+            <name>Shortsword (melee)</name>
+            <text>Attack: +5, reach 1.5m / 5ft / 1qd Damage: 1d6+3 piercing</text>
+            <attack>Shortsword (melee)|+5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow (ranged)</name>
+            <text>Attack: +3, range 30/120m / 100/400ft Damage: 1d10+1 piercing</text>
+            <attack>Heavy Crossbow (ranged)|+3|1d10+1</attack>
+        </action>
+        <description>Stocky man in his fifties, short-cropped gray hair, scar on his chin. Speaks little, acts fast. Wears a dented scale mail and a longsword that has seen better days. Just returned to Oakshore from a personal trip, he found the harbor district in chaos and an elf on the run in the sewers.
+Recurring phrase: *&quot;I don't have time for this bullshit.&quot;*</description>
+    </monster>
+</compendium>

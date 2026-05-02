@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Swarm of Rats</name>
+        <size>M</size>
+        <type>humanoid (swarm of tiny beasts)</type>
+        <alignment>unaligned</alignment>
+        <ac>10</ac>
+        <hp>24 (7d8-7)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>11</dex>
+        <con>9</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <senses>darkvision 9m / 30ft / 6qd</senses>
+        <cr>1/4</cr>
+        <trait>
+            <name>Keen Smell</name>
+            <text>advantage on Perception checks that rely on smell.</text>
+        </trait>
+        <trait>
+            <name>Swarm</name>
+            <text>can occupy another creature's space and vice versa. Can move through openings for Tiny creatures. Cannot regain HP or gain temporary HP.</text>
+        </trait>
+        <action>
+            <name>Bites (melee)</name>
+            <text>Attack: +2, reach 0 Damage: 2d6 piercing (or 1d6 if the swarm has half HP or less)</text>
+            <attack>Bites (melee)|+2|2d6</attack>
+        </action>
+        <description>A mass of rats moving as a single creature. Red eyes, incessant squeaking. Covers the floor and climbs up the PCs' legs.</description>
+    </monster>
+</compendium>

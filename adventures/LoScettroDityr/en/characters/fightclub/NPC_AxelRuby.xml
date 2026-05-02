@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>AxelRuby</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>chaotic evil</alignment>
+        <ac>11 (leather armor)</ac>
+        <hp>32 (5d8+10)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>11</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>11</cha>
+        <senses>Passive Perception 10</senses>
+        <languages>any one (usually Common)</languages>
+        <cr>1/2</cr>
+        <description>A massive man, arms covered in arena scars. Square jaw, nose broken multiple times, small calculating eyes that betray an intelligence his physique doesn't suggest. He wears a studded leather vest over a worn shirt and a rough ruby hanging from his neck — the gang's symbol.
+He speaks little and in a low voice, forcing his interlocutors to lean in. When he laughs, it's a short, unpleasant sound. He has a habit of cracking his knuckles before making a decision.
+Distinctive trait: brutal and cunning in equal measure. He's not the stupid brute he appears to be — he's a seasoned smuggler who learned to survive in the arena and on the streets.</description>
+    </monster>
+</compendium>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>SirAlaric</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>lawful evil (disguised as lawful neutral)</alignment>
+        <ac>15 (Mage Armor)</ac>
+        <hp>90 (12d8 + 36)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>16</con>
+        <int>18</int>
+        <wis>14</wis>
+        <cha>12</cha>
+        <cr>1</cr>
+        <description>Sir Alaric presents himself as an austere and devout man, with short-cropped gray hair and clear eyes that convey authority. He wears the ceremonial robes of the Keepers of the Balance with a naturalness that inspires trust. His voice is calm, measured — every word seems weighed and just.
+Beneath the facade, Alaric is a man consumed by ambition. His eyes betray a greed that no prayer can hide, if you know where to look.
+Distinctive trait: he has a habit of clasping his hands as if in prayer when he speaks — a gesture his followers find reassuring, but which is actually a nervous tic that betrays the calculation behind every word.</description>
+    </monster>
+</compendium>

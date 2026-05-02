@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Kurzum</name>
+        <size>M</size>
+        <type>humanoid (dwarf)</type>
+        <alignment>lawful evil</alignment>
+        <ac>17 (splint armor)</ac>
+        <hp>58 (9d8+18)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>13</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <senses>Passive Perception 12</senses>
+        <languages>any one (usually Common)</languages>
+        <cr>3</cr>
+        <description>Kurzum is the owner of the *Giavellotto Fantasma*, a weapons shop that also serves as a reference point for those seeking unorthodox jobs. She has hard features, dark calculating eyes, and a thin scar crossing her left eyebrow. She wears a leather apron over a light chain shirt — always ready, even behind the counter.
+She speaks little and chooses her words with surgical precision. She almost never smiles, and when she does it's worse. She has a habit of cleaning a weapon while talking to customers — a gesture that is never casual.</description>
+    </monster>
+</compendium>

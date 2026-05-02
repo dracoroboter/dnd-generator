@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>SergiusArimano</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral evil</alignment>
+        <ac>14 (leather armor)</ac>
+        <hp>18 (3d8+3)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>15</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <senses>passive Perception 14</senses>
+        <languages>Common, Elvish, Thieves' Cant</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Expertise</name>
+            <text>Stealth, Investigation (double bonus already included)</text>
+        </trait>
+        <trait>
+            <name>Sneak Attack (2d6)</name>
+            <text>once per turn, extra damage if he has advantage or an ally is adjacent to the target</text>
+        </trait>
+        <trait>
+            <name>Cunning Action</name>
+            <text>bonus action: Dash, Disengage, or Hide</text>
+        </trait>
+        <trait>
+            <name>Assassinate</name>
+            <text>advantage on attack rolls against creatures that haven't acted yet. Automatic critical hit against surprised creatures.</text>
+        </trait>
+        <trait>
+            <name>Ring of Shadows (magic item)</name>
+            <text>can cast *Invisibility* (on self) 1/day. Doesn't require concentration but ends if he attacks or casts a spell.</text>
+        </trait>
+        <action>
+            <name>Dagger (melee/ranged)</name>
+            <text>Attack: +5, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq Damage: 1d4+3 piercing (+2d6 Sneak Attack if applicable)</text>
+            <attack>Dagger (melee/ranged)|+5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Hand Crossbow (ranged)</name>
+            <text>Attack: +5, ranged 30ft / 6sq — 120ft / 24sq Damage: 1d6+3 piercing (+2d6 Sneak Attack if applicable)</text>
+            <attack>Hand Crossbow (ranged)|+5|1d6+3</attack>
+        </action>
+        <description>The Sergio of Boris: a schemer, underhanded, pulling strings behind the scenes. Former owner of &quot;L'Immane Alabarda,&quot; he sold vigor potions and personalized erotic portraits to the nobles of Fianus. The Count was an excellent client — he had an &quot;artistic&quot; portrait commissioned that he never paid for. The Count's wife (a prude) discovered everything and had the &quot;Gabella Pudicitiae&quot; imposed on all risqué merchandise. Marchese Arimano went from legitimate merchant to smuggler, and now he's getting his revenge.
+He fortuitously found the Count's Ring in the sewers and uses it as the instrument of an elaborate revenge — a public treasure hunt that humiliates the Count. He still has the unpaid portrait and uses it as leverage.
+Extremely intelligent, always three steps ahead of everyone. Speaks little, smiles a lot — the smile of someone who knows something you don't. Doesn't get his hands dirty if he can avoid it. Vain about his cunning: he leaves clues because he wants people to know it was him. The double S is his signature — ego disguised as anonymity.
+**Master of disguise:** regularly disguises himself as Terzilio the greengrocer (and others). Has a network of informants in the village (Varys/GOT type). Possesses a magical invisibility item. Sometimes the PCs talk to him without knowing it.</description>
+    </monster>
+</compendium>

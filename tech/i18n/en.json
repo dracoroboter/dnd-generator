@@ -1,0 +1,43 @@
+{
+  "_comment": "English labels",
+
+  "stat_headers": ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
+
+  "hit_points": "Hit Points",
+  "armor_class": "Armor Class",
+  "speed": "Speed",
+  "challenge": "Challenge",
+  "senses": "Senses",
+  "languages": "Languages",
+  "proficiency_bonus": "Proficiency Bonus",
+  "spell_save_dc": "Spell Save DC",
+  "spell_attack_bonus": "Spell Attack Bonus",
+  "passive_perception": "Passive Perception",
+
+  "section_attacks": "Attacks",
+  "section_bonus_actions": "Bonus Actions",
+  "section_reactions": "Reactions",
+  "section_notable_abilities": "Notable Abilities",
+  "section_description": "Description",
+  "section_general_info": "General Information",
+  "section_motivations": "Motivations",
+  "section_dm_notes": "DM Notes",
+  "section_role_in_adventure": "Role in the Adventure",
+  "section_stat_block": "Stat Block",
+
+  "field_role": "Role",
+  "field_class": "Class",
+  "field_level": "Level",
+  "field_race": "Race",
+  "field_alignment": "Alignment",
+  "field_attack": "Attack",
+  "field_damage": "Damage",
+
+  "pdf_subtitle": "A Dungeons & Dragons 5e adventure",
+  "pdf_level": "Level",
+  "pdf_duration": "Duration",
+  "pdf_structure": "Structure",
+  "pdf_appendix_statblock": "Appendix — Stat Blocks",
+
+  "disclaimer": "> ⚠️ Auto-translated from Italian. The Italian version is the source of truth."
+}

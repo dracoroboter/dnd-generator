@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Domina Lella</name>
+        <size>M</size>
+        <type>humanoid (humanoid)</type>
+        <alignment>neutral</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>10</dex>
+        <con>12</con>
+        <int>11</int>
+        <wis>14</wis>
+        <cha>13</cha>
+        <cr>1</cr>
+        <description>- Pratica, diretta, zero diplomazia
+- Porzioni enormi, conto preciso
+- Sa tutto di tutti a Fianus Romanus, ma le informazioni si pagano
+- Il mattarello non è solo per la cucina</description>
+    </monster>
+    <monster>
+        <name>IlConte</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>neutral</alignment>
+        <ac>15 (corazza di piastre)</ac>
+        <hp>9 (2d8)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>11</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <senses>Percezione passiva 12</senses>
+        <languages>Common, Elvish</languages>
+        <cr>1/8</cr>
+        <action>
+            <name>Stocco (mischia)</name>
+            <text>Attacco: +3, mischia, portata 1,5m / 5ft / 1qd Danni: 1d8+1 perforanti</text>
+            <attack>Stocco (mischia)|+3|1d8+1</attack>
+        </action>
+        <description>Il cui nome nessuno conosce, il cui volto nessuno ha visto. Il Conte è il mandante di tutto — ha inviato Gorim, vuole l'Anello, governa il territorio — ma nessuno riesce a nominarlo, descriverlo o incontrarlo. È una presenza costante e totalmente assente.
+La sua personalità è un mosaico di racconti contraddittori: per alcuni è generoso, per altri è avaro, per altri ancora è folle. Gli ordini che manda sono incoerenti — a volte ragionevoli, a volte assurdi.
+**Running gag — il nome:** ogni volta che un NPC sta per dirlo, viene interrotto (rumore, starnuto, crollo, amnesia improvvisa). Le lettere ufficiali hanno il sigillo ma la firma è illeggibile.
+**Running gag — il volto:** nessun NPC lo ha mai visto di persona. I ritratti ufficiali sono sempre coperti, danneggiati, o girati al contrario.
+Il Conte NON è Dorian Valemarch. È un nobile locale, vassallo del Re, che governa Fianus Romanus.</description>
+    </monster>
+    <monster>
+        <name>SergiusArimano</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>neutral evil</alignment>
+        <ac>14 (armatura di cuoio)</ac>
+        <hp>18 (3d8+3)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>15</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <senses>Percezione passiva 14</senses>
+        <languages>Common, Elvish, Linguaggio dei Ladri</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Expertise</name>
+            <text>Furtività, Investigazione (bonus doppio già incluso)</text>
+        </trait>
+        <trait>
+            <name>Sneak Attack (2d6)</name>
+            <text>una volta per turno, danni extra se ha vantaggio o un alleato è adiacente al bersaglio</text>
+        </trait>
+        <trait>
+            <name>Cunning Action</name>
+            <text>azione bonus: Dash, Disengage o Hide</text>
+        </trait>
+        <trait>
+            <name>Assassinate</name>
+            <text>vantaggio sui tiri per colpire contro creature che non hanno ancora agito. Colpo critico automatico contro creature sorprese.</text>
+        </trait>
+        <trait>
+            <name>Anello dell'Ombra (oggetto magico)</name>
+            <text>può lanciare *Invisibilità* (su sé stesso) 1/giorno. Non richiede concentrazione ma termina se attacca o lancia un incantesimo.</text>
+        </trait>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +5, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd — 18m / 60ft / 12qd Danni: 1d4+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
+            <attack>Pugnale (mischia/distanza)|+5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Balestra a mano (distanza)</name>
+            <text>Attacco: +5, distanza 9m / 30ft / 6qd — 36m / 120ft / 24qd Danni: 1d6+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
+            <attack>Balestra a mano (distanza)|+5|1d6+3</attack>
+        </action>
+        <description>Il Sergio di Boris: maneggione, subdolo, muove i fili dietro le quinte. Ex proprietario de &quot;L'Immane Alabarda&quot;, vendeva pozioni di vigore e ritratti erotici personalizzati ai nobili di Fianus. Il Conte era un ottimo cliente — si è fatto fare un ritratto &quot;artistico&quot; che non ha mai pagato. La moglie del Conte (beghina) ha scoperto tutto e ha fatto imporre la &quot;Gabella Pudicitiae&quot; su tutte le merci birichine. Il Marchese Arimano da commerciante legittimo è diventato contrabbandiere, e ora si vendica.
+Ha trovato fortuitamente l'Anello del Conte nelle fogne e lo usa come strumento di una vendetta elaborata — una caccia al tesoro pubblica che umilia il Conte. Ha ancora il ritratto non pagato e lo usa come leva.
+Intelligentissimo, sempre tre passi avanti a tutti. Parla poco, sorride molto — il sorriso di chi sa qualcosa che tu non sai. Non si sporca le mani se può evitarlo. Vanitoso nella sua astuzia: lascia indizi perché vuole che sappiano che è stato lui. La doppia S è la sua firma — ego travestito da anonimato.
+**Maestro del camuffamento:** si traveste regolarmente da Terzilio il verduraio (e da altri). Ha una rete di informatori nel borgo (tipo Varys/GOT). Possiede un oggetto magico di invisibilità. A volte i PG parlano con lui senza saperlo.</description>
+    </monster>
+    <monster>
+        <name>SirGorimVel</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>16 (cotta di maglia + scudo)</ac>
+        <hp>28 (3d10+6)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>10</dex>
+        <con>14</con>
+        <int>13</int>
+        <wis>12</wis>
+        <cha>14</cha>
+        <senses>Percezione passiva 11</senses>
+        <languages>Common, Nanico</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Stile di Combattimento: Difesa</name>
+            <text>+1 CA quando indossa armatura (già incluso)</text>
+        </trait>
+        <trait>
+            <name>Second Wind (1/riposo breve)</name>
+            <text>azione bonus, recupera 1d10+3 PF</text>
+        </trait>
+        <trait>
+            <name>Action Surge (1/riposo breve)</name>
+            <text>un'azione aggiuntiva nel suo turno</text>
+        </trait>
+        <trait>
+            <name>Rallying Cry</name>
+            <text>quando usa Second Wind, fino a 3 alleati entro 18m / 60ft / 12qd recuperano 3 PF ciascuno. Meccanicamente: Gorim urla &quot;FORZA, MUOVETEVI!&quot; e tutti si sentono leggermente meglio, più per paura che per ispirazione.</text>
+        </trait>
+        <action>
+            <name>Spada lunga (mischia)</name>
+            <text>Attacco: +4, mischia, portata 1,5m / 5ft / 1qd Danni: 1d8+2 taglienti (1d10+2 a due mani senza scudo)</text>
+            <attack>Spada lunga (mischia)|+4|1d8+2</attack>
+        </action>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +4, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd — 18m / 60ft / 12qd Danni: 1d4+2 perforanti</text>
+            <attack>Pugnale (mischia/distanza)|+4|1d4+2</attack>
+        </action>
+        <description>Il René Ferretti di Fianus Romanus. Ex-capitano della guarnigione di Drakenhold, messo a fare il funzionario del Conte a Fianus Romanus come &quot;promozione&quot; — in realtà un esilio mascherato. Un militare costretto a fare il burocrate. Costantemente esasperato dall'incompetenza che lo circonda.
+Pragmatico fino al midollo, allergico all'eroismo inutile. Gesticola molto, si esaspera facilmente, parla da solo. Ha un debole per il cibo (la pancia lo conferma).
+**Tirchieria patologica:** Ogni volta che deve pagare i PG, la scena deve essere un calvario. Gorim non vuole farlo in nessun modo. Conta le monete una per una, sospira ad ogni moneta, cerca scuse per pagare meno (&quot;questo non era un'informazione, era un'opinione&quot;), chiede ricevute, tenta di pagare in natura (&quot;vi do un prosciutto, vale lo stesso&quot;), propone dilazioni, accusa i PG di non aver fatto abbastanza. Non importa la cifra — anche 5 monete d'argento gli causano dolore fisico.
+Frasi ricorrenti riadattate da Ferretti:
+- &quot;Dai dai dai, che ce la facciamo&quot; (non ci crede)
+- &quot;Splendido. Meraviglioso.&quot; (sarcastico)
+- &quot;Ma che state a fa'?&quot;
+- &quot;Io non ce la faccio più con voi&quot;</description>
+    </monster>
+    <monster>
+        <name>Thug</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>neutral evil</alignment>
+        <ac>11 (armatura di cuoio)</ac>
+        <hp>32 (5d8+10)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>11</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>11</cha>
+        <senses>Percezione passiva 10</senses>
+        <languages>Common</languages>
+        <cr>1/2</cr>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>vantaggio al tiro per colpire se un alleato è entro 5 ft. dal bersaglio</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Effetto: Il thug fa due attacchi in mischia.</text>
+        </action>
+        <action>
+            <name>Mazza (mischia)</name>
+            <text>Attacco: +4, mischia 5ft Danni: 1d6+2 contundenti</text>
+            <attack>Mazza (mischia)|+4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Balestra pesante (distanza)</name>
+            <text>Attacco: +2, distanza 100/400 ft. Danni: 1d10 perforanti</text>
+            <attack>Balestra pesante (distanza)|+2|1d10</attack>
+        </action>
+        <description>Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Borgo. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *&quot;Non ci pagano abbastanza per questo!&quot;*</description>
+    </monster>
+</compendium>

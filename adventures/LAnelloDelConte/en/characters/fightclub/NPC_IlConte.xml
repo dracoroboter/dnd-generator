@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>The Count</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral</alignment>
+        <ac>15 (breastplate)</ac>
+        <hp>9 (2d8)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>11</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <senses>passive Perception 12</senses>
+        <languages>Common, Elvish</languages>
+        <cr>1/8</cr>
+        <trait>
+            <name>Parry</name>
+            <text>+2 to AC against one melee attack that would hit. Must see the attacker and be wielding a melee weapon.</text>
+        </trait>
+        <action>
+            <name>Rapier (melee)</name>
+            <text>Attack: +3, melee, reach 5ft / 1sq Damage: 1d8+1 piercing</text>
+            <attack>Rapier (melee)|+3|1d8+1</attack>
+        </action>
+        <description>Whose name nobody knows, whose face nobody has seen. The Count is the instigator of everything — he sent Gorim, he wants the Ring, he governs the territory — but nobody can name him, describe him, or meet him. He is a constant and totally absent presence.
+His personality is a mosaic of contradictory accounts: to some he's generous, to others he's miserly, to others still he's mad. The orders he sends are inconsistent — sometimes reasonable, sometimes absurd.
+**Running gag — the name:** every time an NPC is about to say it, they get interrupted (noise, sneeze, collapse, sudden amnesia). Official letters have the seal but the signature is illegible.
+**Running gag — the face:** no NPC has ever seen him in person. Official portraits are always covered, damaged, or turned backwards.
+The Count is NOT Dorian Valemarch. He's a local noble, a vassal of the King, who governs Fianus Romanus.</description>
+    </monster>
+</compendium>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>SirAldric</name>
+        <size>M</size>
+        <type>humanoid (human (sword wraith))</type>
+        <alignment>lawful neutral</alignment>
+        <ac>18 (spectral armor)</ac>
+        <hp>127 (15d8 + 60)</hp>
+        <speed>30 ft.</speed>
+        <str>18</str>
+        <dex>14</dex>
+        <con>18</con>
+        <int>11</int>
+        <wis>12</wis>
+        <cha>14</cha>
+        <senses>darkvision 18m / 60ft, Passive Perception 14</senses>
+        <languages>Common</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Partial Incorporeality</name>
+            <text>Sir Aldric can move through creatures and objects as difficult terrain. He takes 5 (1d10) force damage if he ends his turn inside an object.</text>
+        </trait>
+        <trait>
+            <name>Command Aura (9m / 30ft)</name>
+            <text>allied undead within the aura have advantage on attack rolls.</text>
+        </trait>
+        <trait>
+            <name>Guardian's Will</name>
+            <text>if reduced to 0 HP, he can make a Constitution save DC 10 (+1 for each time after the first). On a success, he returns to 1 HP.</text>
+        </trait>
+        <action>
+            <name>Spectral Greatsword (melee)</name>
+            <text>Attack: +7, reach 1.5m / 5ft / 1qd Damage: 2d6+4 slashing + 2d6 necrotic</text>
+            <attack>Spectral Greatsword (melee)|+7|2d6+4</attack>
+        </action>
+        <action>
+            <name>Multiattack</name>
+            <text>Sir Aldric makes two attacks with the Spectral Greatsword.</text>
+        </action>
+        <description>Sir Aldric is a warrior transformed into a vengeful spirit. He appears as an ethereal figure with a pale face and melancholic eyes, wrapped in spectral armor that emanates a cold, bluish light. His sword is incorporeal but cuts like steel. He embodies the boundary between sacredness and unease — a guardian who didn't choose his fate but accepts it with solemnity.
+Distinctive trait: he speaks with a cavernous, measured voice, like a judge who has already passed sentence. He is not hostile by nature — he is hostile by duty.</description>
+    </monster>
+</compendium>

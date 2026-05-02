@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Korex</name>
+        <size>M</size>
+        <type>humanoid (elf)</type>
+        <alignment>chaotic evil</alignment>
+        <ac>13</ac>
+        <hp>52</hp>
+        <speed>40 ft.</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>8</int>
+        <wis>12</wis>
+        <cha>15</cha>
+        <skill>Perception +3, Performance +4, Stealth +5</skill>
+        <senses>darkvision</senses>
+        <languages>Common, Elvish, sewer monster languages</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Disengage</name>
+            <text>Korex can disengage as a bonus action</text>
+        </trait>
+        <trait>
+            <name>Dash</name>
+            <text>Korex can use Dash as a bonus action (doubled speed: 24m / 80ft / 16qd)</text>
+        </trait>
+        <trait>
+            <name>Poison Immunity</name>
+            <text>Korex is immune to the poisoned condition and poison damage</text>
+        </trait>
+        <trait>
+            <name>Flauto Magico</name>
+            <text>main weapon. Charm + ranged psychic damage. Devastating against targets with low Wisdom.</text>
+        </trait>
+        <trait>
+            <name>Rancid Knife</name>
+            <text>backup melee weapon. The poison automatically poisons on hit.</text>
+        </trait>
+        <action>
+            <name>Rancid Knife (melee)</name>
+            <text>Attack: +5, melee Damage: 2d4+3 piercing + 2d6 poison Effect: the target is poisoned until the start of Korex's next turn</text>
+            <attack>Rancid Knife (melee)|+5|2d4+3</attack>
+        </action>
+        <action>
+            <name>Flauto Magico (action)</name>
+            <text>Target: one creature Korex can see within 36m / 120ft / 24qd Saving throw: Wisdom DC 12 Failure: 4d6 psychic damage + charmed until the start of Korex's next turn Success: half damage, no charm</text>
+        </action>
+        <description>Tall, thin, long black hair tied with a stolen silk ribbon. Permanent smile, eyes that never smile. Speaks as if always on stage — melodic voice, theatrical pauses, sweeping gestures. Wears elegant clothes stained with sewer filth. His distinctive trait: he never stops humming, not even when in danger.</description>
+    </monster>
+</compendium>

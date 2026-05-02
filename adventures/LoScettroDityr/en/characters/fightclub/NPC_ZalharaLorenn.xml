@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>ZalharaLorenn</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral evil</alignment>
+        <ac>12</ac>
+        <hp>27 (6d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <senses>Passive Perception 16</senses>
+        <languages>any two</languages>
+        <cr>1</cr>
+        <description>A middle-aged woman, anonymous and reassuring in appearance — exactly as she wants. Brown hair pulled back, round glasses, modest but clean scholar's clothing. She always carries a leather bag full of scrolls and books. She speaks in a calm, cultured tone, citing sacred texts of Tyr with ease.
+Around her neck she wears a ring on a chain — the **Ring of the Evanescent Shadow**. If anyone asks, she says it's a family heirloom. The ring bears an inscription: *&quot;turn left.&quot;*
+Distinctive trait: she is so convincing in her role as a scholar that even Tyr's priests find her credible. Her best weapon is the trust she inspires.</description>
+    </monster>
+</compendium>

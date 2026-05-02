@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MesusuMercone</name>
+        <size>M</size>
+        <type>humanoid (dwarf)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>16 (chain shirt, shield)</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>30 ft.</speed>
+        <str>13</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <senses>Passive Perception 12</senses>
+        <languages>any one (usually Common)</languages>
+        <cr>1/8</cr>
+        <description>Mesusu Mercone is the captain of the flying ship *Airborne*. Short and stocky as expected of a dwarf, she wears her hair in tight braids under a reinforced leather helm. She has sailor's calloused hands and a voice that cuts through the headwind without needing to shout. She wears a worn but clean military jacket with the Airborne insignia sewn on the shoulder.
+She speaks directly, no frills. She doesn't waste time with pleasantries but isn't rude — simply efficient. She has a habit of drumming her fingers on her sword pommel when someone talks too much.</description>
+    </monster>
+</compendium>

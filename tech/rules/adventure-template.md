@@ -11,43 +11,81 @@ Per le regole di contenuto vedere `tech/rules/content-rules.md`.
 ```
 adventures/
 └── NomeAvventura/
+    ├── manifest.json                ← lingua default, lingue disponibili
     ├── README.md                    ← descrizione pubblica senza spoiler
     ├── AdventureBook.md             ← istruzioni per l'AI
     ├── PlanBook.md                  ← stato del lavoro, todo, note DM
-    ├── NomeAvventura.md             ← documento principale
-    ├── maps/
-    │   ├── NomeMappa.md             ← descrizione mappa (stesso nome del PNG)
-    │   ├── NomeMappa.png            ← mappa grafica
-    │   └── other/                   ← SVG sorgente, draft, versioni di lavoro
+    ├── img/                         ← immagini condivise (cover, illustrazioni)
+    │   └── NomeAvventura_COVER.png
+    ├── maps/                        ← immagini mappe root (condivise tra lingue)
+    │   ├── NomeMappa.png
+    │   └── other/                   ← SVG sorgente, draft
     ├── characters/
-    │   ├── markdown/                ← schede NPC in markdown
-    │   │   └── NPC_NomePersonaggio.md
-    │   ├── img/                     ← artwork personaggi (opzionale)
-    │   │   └── NomePersonaggio.png
-    │   ├── fightclub/               ← XML FightClub (generati da md-to-fightclub.py)
-    │   │   └── NPC_NomePersonaggio.xml
-    │   └── statblock/               ← PDF e PNG stampabili (generati da md-to-statblock-pdf.js)
-    │       ├── NPC_NomePersonaggio.pdf
-    │       └── NPC_NomePersonaggio.png
-    ├── other/                       ← file accessori non inclusi nel PDF
-    │   └── pg/                      ← stat block PG (*_GM.*)
-    ├── objects/                     ← oggetti narrativi: simboli, lettere, artefatti (opzionale)
-    │   └── NomeOggetto.md           ← descrizione + prompt generazione immagine
-    ├── meta/                        ← documenti di lavoro del DM (opzionale, non pubblicabili)
-    │   └── DiarioSessioni.md        ← registro sessioni giocate
-    └── NN_NomeModulo/               ← un modulo per subdirectory
-        ├── NomeModulo.md
-        └── maps/                    ← mappe specifiche del modulo
-            ├── NomeMappa.md         ← descrizione mappa (opzionale)
-            ├── NomeMappa.png        ← mappa grafica (opzionale)
-            └── other/               ← draft, versioni di lavoro
+    │   └── img/                     ← artwork personaggi (condiviso tra lingue)
+    │       └── NomePersonaggio.png
+    ├── NN_NomeModulo/               ← immagini mappe modulo (condivise)
+    │   └── maps/
+    │       ├── NomeMappa.png
+    │       └── other/
+    ├── other/                       ← file accessori
+    │   └── pg/
+    ├── objects/                     ← oggetti narrativi (opzionale)
+    ├── meta/                        ← documenti di lavoro DM (opzionale)
+    │
+    ├── it/                          ← contenuto italiano (lingua default)
+    │   ├── NomeAvventura.md         ← documento principale
+    │   ├── maps/
+    │   │   └── NomeMappa.md         ← descrizioni mappe (stesso nome del PNG)
+    │   ├── NN_NomeModulo/
+    │   │   ├── NomeModulo.md
+    │   │   └── maps/
+    │   │       └── NomeMappa.md     ← descrizioni mappe modulo
+    │   └── characters/
+    │       ├── markdown/            ← schede NPC in markdown
+    │       │   └── NPC_NomePersonaggio.md
+    │       ├── fightclub/           ← XML FightClub (generati)
+    │       │   └── NPC_NomePersonaggio.xml
+    │       └── statblock/           ← PDF e PNG stampabili (generati)
+    │           └── NPC_NomePersonaggio.png
+    │
+    └── en/                          ← contenuto inglese (traduzione)
+        ├── NomeAvventura.md
+        ├── maps/
+        │   └── NomeMappa.md
+        ├── NN_NomeModulo/
+        │   ├── NomeModulo.md
+        │   └── maps/
+        │       └── NomeMappa.md
+        └── characters/
+            ├── markdown/
+            ├── fightclub/
+            └── statblock/
 ```
+
+### manifest.json
+
+```json
+{
+  "adventure_name": "NomeAvventura",
+  "default_lang": "it",
+  "languages": ["it", "en"]
+}
+```
+
+### Regole multilingua
+
+- Le immagini (img/, maps/*.png, characters/img/) sono **condivise** tra le lingue e restano nella root
+- Il testo (.md) e i file generati (XML, stat block) vanno sotto `<lang>/`
+- I meta-documenti (README, PlanBook, AdventureBook, DM_Prep, ecc.) restano nella root — non sono multilingua
+- I nomi propri di NPC/luoghi **non si traducono**
+- Le label degli stat block usano i file i18n in `tech/i18n/<lang>.json`
+- I file tradotti hanno un disclaimer in cima: `> ⚠️ Auto-translated from Italian.`
 
 Le release (PDF + ZIP) non stanno nell'avventura ma in:
 ```
 releases/
 └── NomeAvventura/
-    └── NomeAvventura_vX.Y_YYYY-MM-DD_HHMM.zip
+    └── NomeAvventura_YYYYMMDD.pdf
 ```
 
 ---

@@ -77,24 +77,29 @@ Lo script:
 
 ```
 adventures/NomeMiaAvventura/
-├── README.md
-├── AdventureBook.md
-├── PlanBook.md
-├── NomeMiaAvventura.md
-├── maps/
-│   └── (un .md per ogni mappa, es. NomeMappa.md + NomeMappa.png)
-├── characters/
-│   └── (vuota — usare new-npc.py per creare NPC)
-│       ├── markdown/      ← schede NPC_*.md
-│       ├── img/           ← artwork personaggi (opzionale)
-│       ├── fightclub/     ← XML FightClub (generati)
-│       └── statblock/     ← PDF e PNG stampabili (generati)
-└── 01_NomeModulo/
-    ├── NomeModulo.md                        ← placeholder generico, da rinominare subito
-    └── maps/
+├── manifest.json
+├── it/
+│   ├── README.md
+│   ├── AdventureBook.md
+│   ├── PlanBook.md
+│   ├── NomeMiaAvventura.md
+│   ├── maps/
+│   │   └── (un .md per ogni mappa, es. NomeMappa.md + NomeMappa.png)
+│   ├── characters/
+│   │   └── (vuota — usare new-npc.py per creare NPC)
+│   │       ├── markdown/      ← schede NPC_*.md
+│   │       ├── img/           ← artwork personaggi (opzionale)
+│   │       ├── fightclub/     ← XML FightClub (generati)
+│   │       └── statblock/     ← PDF e PNG stampabili (generati)
+│   └── 01_NomeModulo/
+│       ├── NomeModulo.md                        ← placeholder generico, da rinominare subito
+│       └── maps/
+└── (en/)                      ← traduzione inglese (opzionale, stessa struttura di it/)
 ```
 
 > **Nota**: il modulo `01_NomeModulo/NomeModulo.md` è un placeholder generico. Il primo passo dopo lo scaffolding è rinominare directory e file del modulo e crearne altri se servono (vedi Fase 3).
+>
+> **Struttura multilingua**: il file `manifest.json` nella root dell'avventura definisce le lingue disponibili. La versione italiana (`it/`) è la lingua principale. Per aggiungere una traduzione inglese, creare la directory `en/` con la stessa struttura e aggiornare il manifest.
 
 ---
 
@@ -184,10 +189,10 @@ python3 tech/scripts/new-npc.py NomeMiaAvventura --template
 
 | elemento | formato | esempio |
 |----------|---------|---------|
-| File NPC markdown | `NPC_PascalCase.md` | `characters/markdown/NPC_Korex.md` |
-| File NPC XML | `NPC_PascalCase.xml` | `characters/fightclub/NPC_Korex.xml` |
-| File NPC stat block | `NPC_PascalCase.pdf/.png` | `characters/statblock/NPC_Korex.pdf` |
-| Artwork NPC | `PascalCase.ext` | `characters/img/Korex.png` |
+| File NPC markdown | `NPC_PascalCase.md` | `it/characters/markdown/NPC_Korex.md` |
+| File NPC XML | `NPC_PascalCase.xml` | `it/characters/fightclub/NPC_Korex.xml` |
+| File NPC stat block | `NPC_PascalCase.pdf/.png` | `it/characters/statblock/NPC_Korex.pdf` |
+| Artwork NPC | `PascalCase.ext` | `it/characters/img/Korex.png` |
 
 ### Naming convention generale
 
@@ -289,7 +294,7 @@ python3 tech/scripts/encounter-difficulty.py -p 4 3 -m 2 1 1 3
 
 Guida dettagliata: `tech/how-to/how-to-encounter-difficulty.md`
 
-#### 4. Schede NPC (`characters/NPC_*.md`)
+#### 4. Schede NPC (`it/characters/markdown/NPC_*.md`)
 
 Sezioni obbligatorie per tutti i PNG:
 
@@ -396,6 +401,7 @@ Guida dettagliata: `tech/how-to/how-to-release.md`
 
 | file | scopo |
 |------|-------|
+| `manifest.json` | Configurazione multilingua (lingue disponibili, lingua default) |
 | `README.md` | Presentazione pubblica senza spoiler |
 | `AdventureBook.md` | Istruzioni per l'AI |
 | `PlanBook.md` | Stato lavoro, todo, note DM |
@@ -410,6 +416,7 @@ Guida dettagliata: `tech/how-to/how-to-release.md`
 ```
 [ ] Concept definito (tipo, livello, tono, plot in 5-10 righe)
 [ ] Scaffolding: new-adventure.sh
+[ ] manifest.json creato
 [ ] Metadati: adventure-wizard.py
 [ ] Moduli rinominati e creati
 [ ] NPC creati (wizard o template)
@@ -423,4 +430,5 @@ Guida dettagliata: `tech/how-to/how-to-release.md`
 [ ] Difficoltà incontri calcolata
 [ ] check-adventure.py: zero errori
 [ ] Release generata (quando pronta)
+[ ] Traduzione inglese (opzionale)
 ```

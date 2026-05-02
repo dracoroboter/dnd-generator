@@ -6,6 +6,7 @@ Uso:
   python3 tech/fightclub/generate-statblocks.py <NomeAvventura>              # tutti gli NPC/MON (con immagini)
   python3 tech/fightclub/generate-statblocks.py <NomeAvventura> NPC_Korex    # singolo NPC
   python3 tech/fightclub/generate-statblocks.py <NomeAvventura> --no-image   # senza immagini
+  python3 tech/fightclub/generate-statblocks.py <NomeAvventura> --lang en    # lingua inglese
 
 Pipeline: .md → .xml (fightclub/) → .pdf + .png (statblock/)
 """
@@ -14,25 +15,59 @@ import sys
 import os
 import subprocess
 import glob
+import json
+
+
+def resolve_dirs(project_root, adventure, lang):
+    """Resolve directories based on structure (multilingual or legacy)."""
+    adv_dir = os.path.join(project_root, "adventures", adventure)
+    manifest_path = os.path.join(adv_dir, "manifest.json")
+
+    if os.path.isfile(manifest_path):
+        # Multilingual structure: <lang>/characters/{markdown,fightclub,statblock}
+        lang_dir = os.path.join(adv_dir, lang)
+        md_dir = os.path.join(lang_dir, "characters", "markdown")
+        fc_dir = os.path.join(lang_dir, "characters", "fightclub")
+        sb_dir = os.path.join(lang_dir, "characters", "statblock")
+        # Images are always shared in root
+        img_dir = os.path.join(adv_dir, "characters", "img")
+    else:
+        # Legacy structure
+        md_dir = os.path.join(adv_dir, "characters", "markdown")
+        fc_dir = os.path.join(adv_dir, "characters", "fightclub")
+        sb_dir = os.path.join(adv_dir, "characters", "statblock")
+        img_dir = os.path.join(adv_dir, "characters", "img")
+
+    return md_dir, fc_dir, sb_dir, img_dir
+
 
 def main():
     no_image = "--no-image" in sys.argv
-    args = [a for a in sys.argv[1:] if a != "--no-image"]
+    lang = "it"
+    args_clean = []
+    i = 1
+    while i < len(sys.argv):
+        if sys.argv[i] == "--no-image":
+            i += 1
+            continue
+        if sys.argv[i] == "--lang" and i + 1 < len(sys.argv):
+            lang = sys.argv[i + 1]
+            i += 2
+            continue
+        args_clean.append(sys.argv[i])
+        i += 1
 
-    if len(args) < 1:
-        print(f"Uso: {sys.argv[0]} <NomeAvventura> [NomeScheda] [--no-image]")
+    if len(args_clean) < 1:
+        print(f"Uso: {sys.argv[0]} <NomeAvventura> [NomeScheda] [--no-image] [--lang xx]")
         sys.exit(1)
 
-    adventure = args[0]
-    single = args[1] if len(args) > 1 else None
+    adventure = args_clean[0]
+    single = args_clean[1] if len(args_clean) > 1 else None
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.abspath(os.path.join(script_dir, "../.."))
 
-    md_dir = os.path.join(project_root, "adventures", adventure, "characters", "markdown")
-    fc_dir = os.path.join(project_root, "adventures", adventure, "characters", "fightclub")
-    sb_dir = os.path.join(project_root, "adventures", adventure, "characters", "statblock")
-    img_dir = os.path.join(project_root, "adventures", adventure, "characters", "img")
+    md_dir, fc_dir, sb_dir, img_dir = resolve_dirs(project_root, adventure, lang)
 
     if not os.path.isdir(md_dir):
         print(f"Errore: {md_dir} non trovata.")
@@ -69,8 +104,8 @@ def main():
         png_path = os.path.join(sb_dir, base + ".png")
 
         # MD → XML
-        r = subprocess.run(["python3", md_to_fc, md_path, "-o", xml_path],
-                           capture_output=True, text=True)
+        cmd_xml = ["python3", md_to_fc, md_path, "-o", xml_path, "--lang", lang]
+        r = subprocess.run(cmd_xml, capture_output=True, text=True)
         if r.returncode != 0:
             print(f"  ✗ {base}: md→xml fallito: {r.stderr.strip() or r.stdout.strip()}")
             errors += 1
@@ -79,7 +114,7 @@ def main():
 
         # Cerca immagine in characters/img/ (NPC_Nome → Nome.png/.jpg)
         img_path = None
-        if not no_image:
+        if not no_image and os.path.isdir(img_dir):
             img_name = base.replace("NPC_", "").replace("MON_", "")
             for ext in (".png", ".jpg", ".jpeg"):
                 candidate = os.path.join(img_dir, img_name + ext)

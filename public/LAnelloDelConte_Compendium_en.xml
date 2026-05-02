@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Domina Lella</name>
+        <size>M</size>
+        <type>humanoid (humanoid)</type>
+        <alignment>neutral</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>10</dex>
+        <con>12</con>
+        <int>11</int>
+        <wis>14</wis>
+        <cha>13</cha>
+        <cr>1</cr>
+        <action>
+            <name>**Rolling Pin.** +4 to hit, reach 5 ft., one target. *Hit:* 1d4+2 bludgeoning damage.</name>
+            <text/>
+        </action>
+        <action>
+            <name>DM Notes</name>
+            <text>Doesn't fight seriously, but the rolling pin is a credible threat at the table. STR 14 and Intimidation reflect the fact that nobody in Fianus Romanus dares contradict her. Knows everything about everyone, but you have to pay her or treat her well to get her to talk.</text>
+        </action>
+        <description>- Practical, direct, zero diplomacy
+- Enormous portions, precise bill
+- Knows everything about everyone in Fianus Romanus, but information costs
+- The rolling pin isn't just for cooking</description>
+    </monster>
+    <monster>
+        <name>The Count</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral</alignment>
+        <ac>15 (breastplate)</ac>
+        <hp>9 (2d8)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>11</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <senses>passive Perception 12</senses>
+        <languages>Common, Elvish</languages>
+        <cr>1/8</cr>
+        <trait>
+            <name>Parry</name>
+            <text>+2 to AC against one melee attack that would hit. Must see the attacker and be wielding a melee weapon.</text>
+        </trait>
+        <action>
+            <name>Rapier (melee)</name>
+            <text>Attack: +3, melee, reach 5ft / 1sq Damage: 1d8+1 piercing</text>
+            <attack>Rapier (melee)|+3|1d8+1</attack>
+        </action>
+        <description>Whose name nobody knows, whose face nobody has seen. The Count is the instigator of everything — he sent Gorim, he wants the Ring, he governs the territory — but nobody can name him, describe him, or meet him. He is a constant and totally absent presence.
+His personality is a mosaic of contradictory accounts: to some he's generous, to others he's miserly, to others still he's mad. The orders he sends are inconsistent — sometimes reasonable, sometimes absurd.
+**Running gag — the name:** every time an NPC is about to say it, they get interrupted (noise, sneeze, collapse, sudden amnesia). Official letters have the seal but the signature is illegible.
+**Running gag — the face:** no NPC has ever seen him in person. Official portraits are always covered, damaged, or turned backwards.
+The Count is NOT Dorian Valemarch. He's a local noble, a vassal of the King, who governs Fianus Romanus.</description>
+    </monster>
+    <monster>
+        <name>SergiusArimano</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral evil</alignment>
+        <ac>14 (leather armor)</ac>
+        <hp>18 (3d8+3)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>15</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <senses>passive Perception 14</senses>
+        <languages>Common, Elvish, Thieves' Cant</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Expertise</name>
+            <text>Stealth, Investigation (double bonus already included)</text>
+        </trait>
+        <trait>
+            <name>Sneak Attack (2d6)</name>
+            <text>once per turn, extra damage if he has advantage or an ally is adjacent to the target</text>
+        </trait>
+        <trait>
+            <name>Cunning Action</name>
+            <text>bonus action: Dash, Disengage, or Hide</text>
+        </trait>
+        <trait>
+            <name>Assassinate</name>
+            <text>advantage on attack rolls against creatures that haven't acted yet. Automatic critical hit against surprised creatures.</text>
+        </trait>
+        <trait>
+            <name>Ring of Shadows (magic item)</name>
+            <text>can cast *Invisibility* (on self) 1/day. Doesn't require concentration but ends if he attacks or casts a spell.</text>
+        </trait>
+        <action>
+            <name>Dagger (melee/ranged)</name>
+            <text>Attack: +5, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq Damage: 1d4+3 piercing (+2d6 Sneak Attack if applicable)</text>
+            <attack>Dagger (melee/ranged)|+5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Hand Crossbow (ranged)</name>
+            <text>Attack: +5, ranged 30ft / 6sq — 120ft / 24sq Damage: 1d6+3 piercing (+2d6 Sneak Attack if applicable)</text>
+            <attack>Hand Crossbow (ranged)|+5|1d6+3</attack>
+        </action>
+        <description>The Sergio of Boris: a schemer, underhanded, pulling strings behind the scenes. Former owner of &quot;L'Immane Alabarda,&quot; he sold vigor potions and personalized erotic portraits to the nobles of Fianus. The Count was an excellent client — he had an &quot;artistic&quot; portrait commissioned that he never paid for. The Count's wife (a prude) discovered everything and had the &quot;Gabella Pudicitiae&quot; imposed on all risqué merchandise. Marchese Arimano went from legitimate merchant to smuggler, and now he's getting his revenge.
+He fortuitously found the Count's Ring in the sewers and uses it as the instrument of an elaborate revenge — a public treasure hunt that humiliates the Count. He still has the unpaid portrait and uses it as leverage.
+Extremely intelligent, always three steps ahead of everyone. Speaks little, smiles a lot — the smile of someone who knows something you don't. Doesn't get his hands dirty if he can avoid it. Vain about his cunning: he leaves clues because he wants people to know it was him. The double S is his signature — ego disguised as anonymity.
+**Master of disguise:** regularly disguises himself as Terzilio the greengrocer (and others). Has a network of informants in the village (Varys/GOT type). Possesses a magical invisibility item. Sometimes the PCs talk to him without knowing it.</description>
+    </monster>
+    <monster>
+        <name>SirGorimVel</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>16 (chain mail + shield)</ac>
+        <hp>28 (3d10+6)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>10</dex>
+        <con>14</con>
+        <int>13</int>
+        <wis>12</wis>
+        <cha>14</cha>
+        <senses>passive Perception 11</senses>
+        <languages>Common, Dwarvish</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Fighting Style: Defense</name>
+            <text>+1 AC when wearing armor (already included)</text>
+        </trait>
+        <trait>
+            <name>Second Wind (1/short rest)</name>
+            <text>bonus action, recovers 1d10+3 HP</text>
+        </trait>
+        <trait>
+            <name>Action Surge (1/short rest)</name>
+            <text>one additional action on his turn</text>
+        </trait>
+        <trait>
+            <name>Rallying Cry</name>
+            <text>when he uses Second Wind, up to 3 allies within 60ft / 12sq recover 3 HP each. Mechanically: Gorim shouts &quot;MOVE IT, COME ON!&quot; and everyone feels slightly better, more from fear than inspiration.</text>
+        </trait>
+        <action>
+            <name>Longsword (melee)</name>
+            <text>Attack: +4, melee, reach 5ft / 1sq Damage: 1d8+2 slashing (1d10+2 two-handed without shield)</text>
+            <attack>Longsword (melee)|+4|1d8+2</attack>
+        </action>
+        <action>
+            <name>Dagger (melee/ranged)</name>
+            <text>Attack: +4, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq Damage: 1d4+2 piercing</text>
+            <attack>Dagger (melee/ranged)|+4|1d4+2</attack>
+        </action>
+        <description>The René Ferretti of Fianus Romanus. Former captain of the Drakenhold garrison, assigned to serve as the Count's official in Fianus Romanus as a &quot;promotion&quot; — actually a disguised exile. A soldier forced to be a bureaucrat. Constantly exasperated by the incompetence surrounding him.
+Pragmatic to the core, allergic to pointless heroism. Gesticulates a lot, gets exasperated easily, talks to himself. Has a weakness for food (his belly confirms it).
+**Pathological stinginess:** Every time he has to pay the PCs, the scene must be an ordeal. Gorim doesn't want to do it in any way. He counts coins one by one, sighs at each coin, looks for excuses to pay less (&quot;that wasn't information, that was an opinion&quot;), asks for receipts, tries to pay in kind (&quot;I'll give you a ham, it's the same&quot;), proposes installments, accuses the PCs of not having done enough. No matter the amount — even 5 silver pieces cause him physical pain.
+Recurring phrases adapted from Ferretti:
+- &quot;Come on come on come on, we can do this&quot; (he doesn't believe it)
+- &quot;Splendid. Wonderful.&quot; (sarcastic)
+- &quot;What are you doing?!&quot;
+- &quot;I can't take it anymore with you lot&quot;</description>
+    </monster>
+    <monster>
+        <name>Thug</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral evil</alignment>
+        <ac>11 (leather armor)</ac>
+        <hp>32 (5d8+10)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>11</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>11</cha>
+        <senses>passive Perception 10</senses>
+        <languages>Common</languages>
+        <cr>1/2</cr>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>advantage on attack rolls if an ally is within 5 ft. of the target</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Effect: The thug makes two melee attacks.</text>
+        </action>
+        <action>
+            <name>Mace (melee)</name>
+            <text>Attack: +4, melee 5ft Damage: 1d6+2 bludgeoning</text>
+            <attack>Mace (melee)|+4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow (ranged)</name>
+            <text>Attack: +2, ranged 100/400 ft. Damage: 1d10 piercing</text>
+            <attack>Heavy Crossbow (ranged)|+2|1d10</attack>
+        </action>
+        <description>Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Borgo. They only intervene if Sergius is spotted, covering his escape. They're not loyal — after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *&quot;They don't pay us enough for this!&quot;*</description>
+    </monster>
+</compendium>

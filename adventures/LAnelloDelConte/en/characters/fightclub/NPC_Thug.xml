@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Thug</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral evil</alignment>
+        <ac>11 (leather armor)</ac>
+        <hp>32 (5d8+10)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>11</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>11</cha>
+        <senses>passive Perception 10</senses>
+        <languages>Common</languages>
+        <cr>1/2</cr>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>advantage on attack rolls if an ally is within 5 ft. of the target</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Effect: The thug makes two melee attacks.</text>
+        </action>
+        <action>
+            <name>Mace (melee)</name>
+            <text>Attack: +4, melee 5ft Damage: 1d6+2 bludgeoning</text>
+            <attack>Mace (melee)|+4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow (ranged)</name>
+            <text>Attack: +2, ranged 100/400 ft. Damage: 1d10 piercing</text>
+            <attack>Heavy Crossbow (ranged)|+2|1d10</attack>
+        </action>
+        <description>Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Borgo. They only intervene if Sergius is spotted, covering his escape. They're not loyal — after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *&quot;They don't pay us enough for this!&quot;*</description>
+    </monster>
+</compendium>

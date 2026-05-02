@@ -1,0 +1,13 @@
+{
+  "adventure_name": "LoScettroDityr",
+  "default_lang": "it",
+  "languages": ["it", "en"],
+  "title": {
+    "it": "Lo Scettro di Tyr",
+    "en": "The Scepter of Tyr"
+  },
+  "subtitle": {
+    "it": "Un'avventura Dungeons & Dragons 5e",
+    "en": "A Dungeons & Dragons 5e adventure"
+  }
+}

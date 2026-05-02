@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MirandaEmerald</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>lawful evil</alignment>
+        <ac>12</ac>
+        <hp>27 (6d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>14</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <senses>Passive Perception 14</senses>
+        <languages>Common, Elvish</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Sneak Attack (1/turn)</name>
+            <text>+2d6 extra damage if she has advantage or an ally in melee with the target</text>
+        </trait>
+        <trait>
+            <name>Cunning Action</name>
+            <text>Dash, Disengage, or Hide as a bonus action</text>
+        </trait>
+        <description>A slender woman, sharp features, black hair pulled back in a tight braid. Green eyes — the same color as the emerald she wears as a brooch on her cloak. She dresses with understated elegance, always in black and dark green. Her hands are well-kept, nails short — a scholar's hands, not a fighter's.
+She speaks with measured calm, every word chosen with surgical precision. She never raises her voice. She rarely smiles, and when she does it's a smile that doesn't reach her eyes.
+Distinctive trait: cold and calculating. She never acts on impulse. Every move is planned three steps ahead.</description>
+    </monster>
+</compendium>

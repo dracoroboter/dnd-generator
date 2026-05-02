@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>FrankiePartenope</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>16 (Unarmored Defense: 10 + DEX +3 + CON +3)</ac>
+        <hp>47 (5d12 + 15)</hp>
+        <speed>30 ft.</speed>
+        <str>20</str>
+        <dex>16</dex>
+        <con>16</con>
+        <int>8</int>
+        <wis>18</wis>
+        <cha>8</cha>
+        <cr>4</cr>
+        <action>
+            <name>#</name>
+            <text/>
+        </action>
+        <action>
+            <name>Battleaxe (melee)</name>
+            <text>Attack: +8 Damage: 1d10+5 slashing</text>
+            <attack>Battleaxe (melee)|+8|1d10+5</attack>
+        </action>
+        <description>A former adventurer with an imposing physique, Frankie is a people's hero — a sort of local Robin Hood. He carries himself proudly despite the scars and marks of imprisonment in Orcastle. He speaks in a direct tone, no frills, and has a visceral hatred for Lord Malebranche that seeps from every word.
+Distinctive trait: he still bears the marks of the explosive collar on his neck — a band of reddened skin he touches constantly, as if to remind himself he's no longer a prisoner.</description>
+    </monster>
+</compendium>

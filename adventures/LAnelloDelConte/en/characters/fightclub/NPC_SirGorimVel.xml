@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>SirGorimVel</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>16 (chain mail + shield)</ac>
+        <hp>28 (3d10+6)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>10</dex>
+        <con>14</con>
+        <int>13</int>
+        <wis>12</wis>
+        <cha>14</cha>
+        <senses>passive Perception 11</senses>
+        <languages>Common, Dwarvish</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Fighting Style: Defense</name>
+            <text>+1 AC when wearing armor (already included)</text>
+        </trait>
+        <trait>
+            <name>Second Wind (1/short rest)</name>
+            <text>bonus action, recovers 1d10+3 HP</text>
+        </trait>
+        <trait>
+            <name>Action Surge (1/short rest)</name>
+            <text>one additional action on his turn</text>
+        </trait>
+        <trait>
+            <name>Rallying Cry</name>
+            <text>when he uses Second Wind, up to 3 allies within 60ft / 12sq recover 3 HP each. Mechanically: Gorim shouts &quot;MOVE IT, COME ON!&quot; and everyone feels slightly better, more from fear than inspiration.</text>
+        </trait>
+        <action>
+            <name>Longsword (melee)</name>
+            <text>Attack: +4, melee, reach 5ft / 1sq Damage: 1d8+2 slashing (1d10+2 two-handed without shield)</text>
+            <attack>Longsword (melee)|+4|1d8+2</attack>
+        </action>
+        <action>
+            <name>Dagger (melee/ranged)</name>
+            <text>Attack: +4, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq Damage: 1d4+2 piercing</text>
+            <attack>Dagger (melee/ranged)|+4|1d4+2</attack>
+        </action>
+        <description>The René Ferretti of Fianus Romanus. Former captain of the Drakenhold garrison, assigned to serve as the Count's official in Fianus Romanus as a &quot;promotion&quot; — actually a disguised exile. A soldier forced to be a bureaucrat. Constantly exasperated by the incompetence surrounding him.
+Pragmatic to the core, allergic to pointless heroism. Gesticulates a lot, gets exasperated easily, talks to himself. Has a weakness for food (his belly confirms it).
+**Pathological stinginess:** Every time he has to pay the PCs, the scene must be an ordeal. Gorim doesn't want to do it in any way. He counts coins one by one, sighs at each coin, looks for excuses to pay less (&quot;that wasn't information, that was an opinion&quot;), asks for receipts, tries to pay in kind (&quot;I'll give you a ham, it's the same&quot;), proposes installments, accuses the PCs of not having done enough. No matter the amount — even 5 silver pieces cause him physical pain.
+Recurring phrases adapted from Ferretti:
+- &quot;Come on come on come on, we can do this&quot; (he doesn't believe it)
+- &quot;Splendid. Wonderful.&quot; (sarcastic)
+- &quot;What are you doing?!&quot;
+- &quot;I can't take it anymore with you lot&quot;</description>
+    </monster>
+</compendium>

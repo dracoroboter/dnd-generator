@@ -7,8 +7,20 @@ Uso: python3 tech/fightclub/md-to-fightclub.py <file.md> [-o output.xml]
 import sys
 import re
 import os
+import json
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom.minidom import parseString
+
+# i18n support
+I18N_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "i18n")
+
+def load_i18n(lang):
+    path = os.path.join(I18N_DIR, f"{lang}.json")
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    with open(os.path.join(I18N_DIR, "it.json"), encoding="utf-8") as f:
+        return json.load(f)
 
 # Mapping italiano → inglese per allineamenti
 ALIGNMENT_MAP = {
@@ -30,8 +42,9 @@ RACE_TO_SIZE = {
     "mezzorco": "M", "half-orc": "M", "tiefling": "M", "dragonborn": "M",
 }
 
-def parse_md(filepath):
+def parse_md(filepath, lang="it"):
     """Parse un file NPC markdown e restituisce un dict con i dati estratti."""
+    i18n = load_i18n(lang)
     with open(filepath, "r", encoding="utf-8") as f:
         text = f.read()
 
@@ -40,10 +53,14 @@ def parse_md(filepath):
     m = re.search(r"^# (?:NPC_)?(.+?)(?:\s*—.*)?$", text, re.MULTILINE)
     data["name"] = m.group(1).strip() if m else os.path.basename(filepath).replace("NPC_", "").replace(".md", "")
 
-    # Informazioni generali
-    for key, xml_key in [("Ruolo", "role"), ("Classe", "class"), ("Livello", "level"),
-                          ("Razza", "race"), ("Allineamento", "alignment")]:
-        m = re.search(rf"\*\*{key}\*\*:\s*(.+)", text)
+    # Informazioni generali — use i18n labels
+    field_map = [
+        (i18n["field_role"], "role"), (i18n["field_class"], "class"),
+        (i18n["field_level"], "level"), (i18n["field_race"], "race"),
+        (i18n["field_alignment"], "alignment"),
+    ]
+    for key, xml_key in field_map:
+        m = re.search(rf"\*\*{re.escape(key)}\*\*:\s*(.+)", text)
         if m:
             data[xml_key] = m.group(1).strip()
 
@@ -53,26 +70,36 @@ def parse_md(filepath):
         data["str"], data["dex"], data["con"] = m.group(1), m.group(2), m.group(3)
         data["int"], data["wis"], data["cha"] = m.group(4), m.group(5), m.group(6)
 
-    # CR — dal campo Sfida nel markdown, fallback stima dal livello
-    cr_match = re.search(r"\*\*Sfida\*\*:\s*(\S+)", text)
+    # CR — use i18n label
+    cr_match = re.search(rf"\*\*{re.escape(i18n['challenge'])}\*\*:\s*(\S+)", text)
     if cr_match:
-        cr_val = cr_match.group(1).strip()
-        # Accetta formati: "1", "1/2", "1/4", "1/8", "0"
-        data["cr"] = cr_val
+        data["cr"] = cr_match.group(1).strip()
 
-    # Campi stat block
-    for key, xml_key in [("Punti ferita", "hp"), ("Classe armatura", "ac"),
-                          ("Bonus competenza", "pb"), ("Percezione", "perception"),
-                          ("Performance", "performance"), ("Furtività", "stealth"),
-                          ("Immunità", "immune"), ("Sensi", "senses"),
-                          ("Lingue", "languages"), ("CD tiro salvezza magia", "spelldc"),
-                          ("Bonus attacco magia", "spellattack")]:
-        m = re.search(rf"\*\*{key}\*\*:\s*(.+)", text)
+    # Campi stat block — use i18n labels
+    stat_fields = [
+        (i18n["hit_points"], "hp"), (i18n["armor_class"], "ac"),
+        (i18n["proficiency_bonus"], "pb"),
+        (i18n["senses"], "senses"), (i18n["languages"], "languages"),
+        (i18n["spell_save_dc"], "spelldc"), (i18n["spell_attack_bonus"], "spellattack"),
+    ]
+    for key, xml_key in stat_fields:
+        m = re.search(rf"\*\*{re.escape(key)}\*\*:\s*(.+)", text)
+        if m:
+            data[xml_key] = m.group(1).strip()
+
+    # Skills — try both languages for perception/stealth
+    for pattern, xml_key in [
+        (r"\*\*(?:Percezione|Perception)\*\*:\s*(.+)", "perception"),
+        (r"\*\*(?:Performance)\*\*:\s*(.+)", "performance"),
+        (r"\*\*(?:Furtività|Stealth)\*\*:\s*(.+)", "stealth"),
+        (r"\*\*(?:Immunità|Immunity)\*\*:\s*(.+)", "immune"),
+    ]:
+        m = re.search(pattern, text)
         if m:
             data[xml_key] = m.group(1).strip()
 
     # Velocità — estrai solo i feet
-    m = re.search(r"\*\*Velocità\*\*:\s*(.+)", text)
+    m = re.search(rf"\*\*{re.escape(i18n['speed'])}\*\*:\s*(.+)", text)
     if m:
         speed_text = m.group(1).strip()
         ft_match = re.search(r"(\d+)\s*ft", speed_text)
@@ -83,9 +110,10 @@ def parse_md(filepath):
             if m2:
                 data["speed"] = str(int(float(m2.group(1)) / 1.5 * 5)) + " ft."
 
-    # Attacchi (sezione ## Attacchi)
+    # Attacchi (sezione ## Attacchi / ## Attacks)
     data["actions"] = []
-    attack_section = re.search(r"## Attacchi\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
+    atk_label = re.escape(i18n["section_attacks"])
+    attack_section = re.search(rf"## {atk_label}\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
     if attack_section:
         attacks = re.split(r"### ", attack_section.group(1))
         for atk in attacks:
@@ -100,24 +128,24 @@ def parse_md(filepath):
                 line = line.strip("- ").strip()
                 if not line:
                     continue
-                m_atk = re.search(r"\*\*Attacco\*\*:\s*\+(\d+)", line)
+                m_atk = re.search(rf"\*\*{re.escape(i18n['field_attack'])}\*\*:\s*\+(\d+)", line)
                 if m_atk:
                     atk_bonus = "+" + m_atk.group(1)
-                m_dmg = re.search(r"\*\*Danni\*\*:\s*(.+)", line)
+                m_dmg = re.search(rf"\*\*{re.escape(i18n['field_damage'])}\*\*:\s*(.+)", line)
                 if m_dmg:
                     damage = m_dmg.group(1).strip()
                 desc_parts.append(re.sub(r"\*\*(.+?)\*\*:\s*", r"\1: ", line))
 
             action = {"name": name, "text": " ".join(desc_parts)}
             if atk_bonus and damage:
-                # Estrai prima formula danni per il tag <attack>
                 dmg_match = re.search(r"(\d+d\d+[+-]?\d*)", damage)
                 if dmg_match:
                     action["attack"] = f"{name}|{atk_bonus}|{dmg_match.group(1)}"
             data["actions"].append(action)
 
     # Azioni bonus
-    bonus_section = re.search(r"## Azioni bonus\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
+    ba_label = re.escape(i18n["section_bonus_actions"])
+    bonus_section = re.search(rf"## {ba_label}\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
     if bonus_section:
         for line in bonus_section.group(1).strip().split("\n"):
             line = line.strip("- ").strip()
@@ -129,7 +157,8 @@ def parse_md(filepath):
 
     # Capacità notevoli
     data.setdefault("traits", [])
-    cap_section = re.search(r"## Capacità notevoli\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
+    na_label = re.escape(i18n["section_notable_abilities"])
+    cap_section = re.search(rf"## {na_label}\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
     if cap_section:
         cap_text = cap_section.group(1).strip()
         # Incantesimi
@@ -154,7 +183,8 @@ def parse_md(filepath):
                 data["traits"].append({"name": trait_name, "text": m.group(2)})
 
     # Descrizione
-    desc_section = re.search(r"## Descrizione\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
+    desc_label = re.escape(i18n["section_description"])
+    desc_section = re.search(rf"## {desc_label}\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
     if desc_section:
         data["description"] = desc_section.group(1).strip()
 
@@ -262,20 +292,27 @@ def build_xml(data):
 
 def main():
     if len(sys.argv) < 2:
-        print(f"Uso: {sys.argv[0]} <file.md> [-o output.xml]")
+        print(f"Uso: {sys.argv[0]} <file.md> [-o output.xml] [--lang xx]")
         sys.exit(1)
 
     input_file = sys.argv[1]
     output_file = None
-    if "-o" in sys.argv:
-        idx = sys.argv.index("-o")
-        if idx + 1 < len(sys.argv):
-            output_file = sys.argv[idx + 1]
+    lang = "it"
+    i = 2
+    while i < len(sys.argv):
+        if sys.argv[i] == "-o" and i + 1 < len(sys.argv):
+            output_file = sys.argv[i + 1]
+            i += 2
+        elif sys.argv[i] == "--lang" and i + 1 < len(sys.argv):
+            lang = sys.argv[i + 1]
+            i += 2
+        else:
+            i += 1
 
     if not output_file:
         output_file = os.path.splitext(input_file)[0] + ".xml"
 
-    data = parse_md(input_file)
+    data = parse_md(input_file, lang=lang)
     xml = build_xml(data)
 
     with open(output_file, "w", encoding="utf-8") as f:

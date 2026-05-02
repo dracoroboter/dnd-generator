@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Corrupted Rat</name>
+        <size>M</size>
+        <type>humanoid (beast)</type>
+        <alignment>unaligned</alignment>
+        <ac>12</ac>
+        <hp>7 (2d6)</hp>
+        <speed>30 ft.</speed>
+        <str>7</str>
+        <dex>15</dex>
+        <con>11</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>4</cha>
+        <senses>darkvision 18m / 60ft / 12qd</senses>
+        <cr>1/8</cr>
+        <trait>
+            <name>Keen Smell</name>
+            <text>advantage on Perception checks that rely on smell.</text>
+        </trait>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>advantage on attack rolls if an ally is within 1qd of the target and isn't incapacitated.</text>
+        </trait>
+        <action>
+            <name>Bite (melee)</name>
+            <text>Attack: +4, reach 1.5m / 5ft / 1qd Damage: 1d4+2 piercing</text>
+            <attack>Bite (melee)|+4|1d4+2</attack>
+        </action>
+        <description>Giant rat with red eyes and unnatural behavior. More aggressive than a normal rat, attacks in packs without fear. Nature DC 10 to understand it's corrupted, not simply rabid.</description>
+    </monster>
+    <monster>
+        <name>Swarm of Rats</name>
+        <size>M</size>
+        <type>humanoid (swarm of tiny beasts)</type>
+        <alignment>unaligned</alignment>
+        <ac>10</ac>
+        <hp>24 (7d8-7)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>11</dex>
+        <con>9</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <senses>darkvision 9m / 30ft / 6qd</senses>
+        <cr>1/4</cr>
+        <trait>
+            <name>Keen Smell</name>
+            <text>advantage on Perception checks that rely on smell.</text>
+        </trait>
+        <trait>
+            <name>Swarm</name>
+            <text>can occupy another creature's space and vice versa. Can move through openings for Tiny creatures. Cannot regain HP or gain temporary HP.</text>
+        </trait>
+        <action>
+            <name>Bites (melee)</name>
+            <text>Attack: +2, reach 0 Damage: 2d6 piercing (or 1d6 if the swarm has half HP or less)</text>
+            <attack>Bites (melee)|+2|2d6</attack>
+        </action>
+        <description>A mass of rats moving as a single creature. Red eyes, incessant squeaking. Covers the floor and climbs up the PCs' legs.</description>
+    </monster>
+    <monster>
+        <name>Charmed Thug</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral (charmed, normally not hostile)</alignment>
+        <ac>12 (leather armor)</ac>
+        <hp>13 (2d8+4)</hp>
+        <speed>30 ft.</speed>
+        <str>13</str>
+        <dex>12</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>1/8</cr>
+        <trait>
+            <name>Charmed by Korex</name>
+            <text>the thug is under the effect of charm. If Korex is killed, incapacitated, or flees, the charm breaks at the end of the round. The thug stops fighting, confused.</text>
+        </trait>
+        <action>
+            <name>Mace (melee)</name>
+            <text>Attack: +3, reach 1.5m / 5ft / 1qd Damage: 1d6+1 bludgeoning</text>
+            <attack>Mace (melee)|+3|1d6+1</attack>
+        </action>
+        <description>People from the port of Oakshore — dockworkers, fishermen, sailors — who fell under Korex's spell. Glassy eyes, mechanical movements, fight without speaking. If Korex falls or the charm breaks, they wake up confused and frightened.</description>
+    </monster>
+    <monster>
+        <name>FinDitasvelte</name>
+        <size>M</size>
+        <type>humanoid (halfling (lightfoot))</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>14 (leather armor)</ac>
+        <hp>21</hp>
+        <speed>25 ft.</speed>
+        <str>8</str>
+        <dex>16</dex>
+        <con>12</con>
+        <int>13</int>
+        <wis>10</wis>
+        <cha>14</cha>
+        <senses>none special</senses>
+        <languages>Common, Halfling, Thieves' Cant</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Sneak Attack (2d6)</name>
+            <text>once per turn, extra damage if has advantage or ally adjacent to the target</text>
+        </trait>
+        <trait>
+            <name>Cunning Action</name>
+            <text>Dash, Disengage, or Hide as a bonus action</text>
+        </trait>
+        <trait>
+            <name>Fast Hands (Thief)</name>
+            <text>Sleight of Hand, use thieves' tools, or use an object as a bonus action</text>
+        </trait>
+        <trait>
+            <name>Second-Story Work</name>
+            <text>climbing speed equal to movement speed</text>
+        </trait>
+        <action>
+            <name>Dagger (melee/ranged)</name>
+            <text>Attack: +5, melee or ranged 6m / 20ft / 4qd Damage: 1d4+3 piercing Sneak Attack: +2d6 if has advantage or an ally in melee with the target</text>
+            <attack>Dagger (melee/ranged)|+5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Shortbow (ranged)</name>
+            <text>Attack: +5, range 24m / 80ft / 16qd Damage: 1d6+3 piercing</text>
+            <attack>Shortbow (ranged)|+5|1d6+3</attack>
+        </action>
+        <description>Short even for a halfling, messy red hair, brown eyes always darting around. Permanent sly grin. Talks fast, gestures too much, and has a habit of flipping a coin between his fingers when nervous. Dresses practically: vest with too many pockets, soft boots, nothing that makes noise.
+Distinctive trait: he can't help touching things. If there's a shiny object, he grabs it. If there's a button, he presses it. If there's a ring on a corpse, he slips it off. Not out of greed — out of compulsive curiosity.
+Recurring phrase: *&quot;What harm could a little look do?&quot;*</description>
+    </monster>
+    <monster>
+        <name>JasonAccordion</name>
+        <size>M</size>
+        <type>humanoid (human (in life), now a trapped soul)</type>
+        <alignment>neutral evil</alignment>
+        <ac>12</ac>
+        <hp>45 (10d8)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>16</int>
+        <wis>14</wis>
+        <cha>20</cha>
+        <skill>Perception +2</skill>
+        <senses>sight and hearing 36m / 120ft / 24qd (through the wearer)</senses>
+        <languages>Common, Elvish, Sylvan, Infernal</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Sentient Item</name>
+            <text>Jason exists as a soul in the Ring of the Virtuoso. He has no physical body. He communicates telepathically with the wearer. The stats above represent his mental and magical capabilities, not a body.</text>
+        </trait>
+        <trait>
+            <name>Spellcasting (as lv10 bard)</name>
+            <text>spell save DC 16, spell attack +8. Slots: 4/3/3/3/2. Jason can only cast spells through the wearer (when he has control).</text>
+        </trait>
+        <trait>
+            <name>Supreme Manipulator</name>
+            <text>advantage on Deception and Persuasion checks. Creatures that speak with Jason (through the wearer) have disadvantage on saves against his charm spells.</text>
+        </trait>
+        <trait>
+            <name>Progressive Possession</name>
+            <text>see &quot;Progressive possession&quot; section above. Jason doesn't fight directly — he takes control of the wearer.</text>
+        </trait>
+        <action>
+            <name>Psychic Wave (when a 1 comes up on the d8)</name>
+            <text>Saving throw: none (automatic) Damage: 1d4 + grip level psychic damage Area: all creatures within 15m / 50ft / 10qd of the wearer Effect: hits allies and enemies indiscriminately</text>
+        </action>
+        <action>
+            <name>Mental Conflict (when Jason forces control)</name>
+            <text>Saving throw: Wisdom DC 14-16+ (varies with grip) Failure: Jason takes control of the wearer for 1d4 rounds (combat) or 1d4 hours (out of combat) Success: the wearer resists, grip decreases by 1</text>
+        </action>
+        <action>
+            <name>Nightly Nightmares (grip 3+)</name>
+            <text>Damage: 2d6 psychic per night Effect: no benefit from long rest</text>
+        </action>
+        <description>In life, Jason Accordion was a handsome man with a smile that never reached his eyes — the type who walks into a room and everyone turns to look. Warm voice, impeccable manners, always the right word at the right time.
+Now he is just a voice in the ring. He whispers, suggests, flatters. The tone is that of an old friend — patient, understanding, never aggressive. At first. Over time he becomes more insistent, more present, more *him* and less the wearer.</description>
+    </monster>
+    <monster>
+        <name>Korex</name>
+        <size>M</size>
+        <type>humanoid (elf)</type>
+        <alignment>chaotic evil</alignment>
+        <ac>13</ac>
+        <hp>52</hp>
+        <speed>40 ft.</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>8</int>
+        <wis>12</wis>
+        <cha>15</cha>
+        <skill>Perception +3, Performance +4, Stealth +5</skill>
+        <senses>darkvision</senses>
+        <languages>Common, Elvish, sewer monster languages</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Disengage</name>
+            <text>Korex can disengage as a bonus action</text>
+        </trait>
+        <trait>
+            <name>Dash</name>
+            <text>Korex can use Dash as a bonus action (doubled speed: 24m / 80ft / 16qd)</text>
+        </trait>
+        <trait>
+            <name>Poison Immunity</name>
+            <text>Korex is immune to the poisoned condition and poison damage</text>
+        </trait>
+        <trait>
+            <name>Flauto Magico</name>
+            <text>main weapon. Charm + ranged psychic damage. Devastating against targets with low Wisdom.</text>
+        </trait>
+        <trait>
+            <name>Rancid Knife</name>
+            <text>backup melee weapon. The poison automatically poisons on hit.</text>
+        </trait>
+        <action>
+            <name>Rancid Knife (melee)</name>
+            <text>Attack: +5, melee Damage: 2d4+3 piercing + 2d6 poison Effect: the target is poisoned until the start of Korex's next turn</text>
+            <attack>Rancid Knife (melee)|+5|2d4+3</attack>
+        </action>
+        <action>
+            <name>Flauto Magico (action)</name>
+            <text>Target: one creature Korex can see within 36m / 120ft / 24qd Saving throw: Wisdom DC 12 Failure: 4d6 psychic damage + charmed until the start of Korex's next turn Success: half damage, no charm</text>
+        </action>
+        <description>Tall, thin, long black hair tied with a stolen silk ribbon. Permanent smile, eyes that never smile. Speaks as if always on stage — melodic voice, theatrical pauses, sweeping gestures. Wears elegant clothes stained with sewer filth. His distinctive trait: he never stops humming, not even when in danger.</description>
+    </monster>
+    <monster>
+        <name>UdoHutchinson</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>14 (scale mail)</ac>
+        <hp>58 (9d8+18)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>13</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>3</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>Udo makes two attacks with the longsword. If he has the shortsword drawn, he can make a third attack with it.</text>
+        </action>
+        <action>
+            <name>Longsword (melee)</name>
+            <text>Attack: +5, reach 1.5m / 5ft / 1qd Damage: 1d8+3 slashing (or 1d10+3 two-handed)</text>
+            <attack>Longsword (melee)|+5|1d8+3</attack>
+        </action>
+        <action>
+            <name>Shortsword (melee)</name>
+            <text>Attack: +5, reach 1.5m / 5ft / 1qd Damage: 1d6+3 piercing</text>
+            <attack>Shortsword (melee)|+5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow (ranged)</name>
+            <text>Attack: +3, range 30/120m / 100/400ft Damage: 1d10+1 piercing</text>
+            <attack>Heavy Crossbow (ranged)|+3|1d10+1</attack>
+        </action>
+        <description>Stocky man in his fifties, short-cropped gray hair, scar on his chin. Speaks little, acts fast. Wears a dented scale mail and a longsword that has seen better days. Just returned to Oakshore from a personal trip, he found the harbor district in chaos and an elf on the run in the sewers.
+Recurring phrase: *&quot;I don't have time for this bullshit.&quot;*</description>
+    </monster>
+</compendium>

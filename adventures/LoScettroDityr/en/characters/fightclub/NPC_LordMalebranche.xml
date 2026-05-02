@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>LordMalebranche</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>lawful evil</alignment>
+        <ac>15 (Mage Armor)</ac>
+        <hp>99 (18d8 + 18)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>20</int>
+        <wis>15</wis>
+        <cha>16</cha>
+        <senses>Passive Perception 12</senses>
+        <languages>Common, Draconic, Infernal, Abyssal</languages>
+        <cr>12</cr>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>advantage on saving throws against spells and other magical effects</text>
+        </trait>
+        <trait>
+            <name>Corrupt Will</name>
+            <text>when Malebranche deals necrotic damage, he regains temporary HP equal to half the damage dealt</text>
+        </trait>
+        <trait>
+            <name>Legendary Actions (3/round)</name>
+            <text>Malebranche can take 3 legendary actions, choosing from the following. Only one at a time, at the end of another creature's turn.</text>
+        </trait>
+        <trait>
+            <name>Cantrip (1 action)</name>
+            <text>casts a cantrip</text>
+        </trait>
+        <trait>
+            <name>Rapid Summoning (2 actions)</name>
+            <text>summons 1d4 skeletons (CR 1/4) in unoccupied spaces within 9m / 30ft</text>
+        </trait>
+        <trait>
+            <name>Life Drain (1 action)</name>
+            <text>a creature within 9m / 30ft must succeed on a Constitution save DC 17 or take 2d8 necrotic damage. Malebranche regains HP equal to the damage dealt.</text>
+        </trait>
+        <action>
+            <name>Necrotic Ray (ranged)</name>
+            <text>Attack: +9, range 36m / 120ft / 24qd Damage: 3d10 necrotic</text>
+            <attack>Necrotic Ray (ranged)|+9|3d10</attack>
+        </action>
+        <description>Corrupt governor of Orcastle, Lord Malebranche is a thin, pale man with sunken eyes that seem to calculate the value of every person in the room. He wears dark noble garments with silver embroidery. His hands are always cold — a side effect of the necromantic magic he practices.
+Distinctive trait: he speaks with impeccable courtesy even when ordering atrocities. He never raises his voice. His calm is more unsettling than any threat.</description>
+    </monster>
+</compendium>

@@ -14,7 +14,7 @@ Questo formato è la fonte di verità per la generazione di XML FightClub e stat
 ## Naming
 
 - File: `PREFISSO_PascalCase.md`
-- Posizione: `adventures/<NomeAvventura>/characters/markdown/`
+- Posizione: `adventures/<NomeAvventura>/<lang>/characters/markdown/`
 
 ### Prefissi
 
@@ -222,3 +222,70 @@ characters/statblock/NPC_Nome.pdf + NPC_Nome.png
 - [ ] Valutare se servono sezioni per equipaggiamento e inventario
 - [ ] Valutare formato MD per PG (attualmente non previsto — i PG vengono dall'app)
 - [ ] `check-adventure.py` dovrebbe riconoscere le sezioni meccaniche (Stat Block, Attacchi) come valide senza warning
+
+---
+
+## Multilingua
+
+I file NPC possono esistere in più lingue. La struttura per lingua è:
+
+```
+adventures/<NomeAvventura>/it/characters/markdown/NPC_Nome.md   # italiano (fonte)
+adventures/<NomeAvventura>/en/characters/markdown/NPC_Nome.md   # inglese
+```
+
+I file generati seguono la stessa struttura:
+
+```
+adventures/<NomeAvventura>/<lang>/characters/fightclub/NPC_Nome.xml
+adventures/<NomeAvventura>/<lang>/characters/statblock/NPC_Nome.pdf
+adventures/<NomeAvventura>/<lang>/characters/statblock/NPC_Nome.png
+```
+
+Le immagini restano nella root dell'avventura (non dipendono dalla lingua): `characters/img/`.
+
+### Intestazioni e campi in inglese
+
+I file NPC in inglese usano intestazioni e label in inglese:
+
+| Sezione IT | Sezione EN |
+|------------|------------|
+| `## Informazioni generali` | `## General Information` |
+| `## Descrizione` | `## Description` |
+| `## Motivazioni` | `## Motivations` |
+| `## Note al master` | `## DM Notes` |
+| `## Stat Block` | `## Stat Block` |
+| `## Attacchi` | `## Attacks` |
+| `## Azioni bonus` | `## Bonus Actions` |
+| `## Capacità notevoli` | `## Notable Abilities` |
+
+### Tabella abilità in inglese
+
+```markdown
+| STR | DEX | CON | INT | WIS | CHA |
+```
+
+### Campi stat block in inglese
+
+| Campo IT | Campo EN |
+|----------|----------|
+| **Punti ferita** | **Hit Points** |
+| **Classe armatura** | **Armor Class** |
+| **Velocità** | **Speed** |
+| **Sfida** | **Challenge** |
+| **Sensi** | **Senses** |
+| **Lingue** | **Languages** |
+| **Bonus competenza** | **Proficiency Bonus** |
+| **Attacco** | **Attack** |
+| **Danni** | **Damage** |
+
+### File i18n
+
+Le label sono definite in `tech/i18n/<lang>.json`. Il parser le usa per riconoscere intestazioni e campi nella lingua corretta.
+
+### Pipeline
+
+```bash
+python3 tech/fightclub/md-to-fightclub.py NPC_Nome.md --lang en
+python3 tech/fightclub/generate-statblocks.py NomeAvventura --lang en
+```

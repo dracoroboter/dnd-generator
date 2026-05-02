@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Zikle</name>
+        <size>M</size>
+        <type>humanoid (goblin)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>In life, Zikle was a goblin wizard of extraordinary power — small in stature but immense in intellect and ambition. As a wraith, he appears as a translucent greenish shadow with still-recognizable goblinoid features: pointed ears, sunken eyes that glow with a cold spectral light, skeletal hands that move as if still tracing arcane formulas in the air.
+His voice is a hoarse, metallic whisper, interrupted by sudden bursts of rage. He alternates between moments of brilliant lucidity and blind fury — the betrayal that killed him still consumes him.</description>
+    </monster>
+</compendium>

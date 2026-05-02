@@ -23,7 +23,8 @@ dungeonandragon/
 ├── adventures/              # Avventure create
 │   ├── AdventureTemplate/   # Template di riferimento
 │   ├── LAnelloDelConte/     # Saga puntata 1 (normalizzata)
-│   └── FuoriDaHellfire/     # One-shot (normalizzata)
+│   ├── FuoriDaHellfire/     # One-shot (normalizzata)
+│   └── LoScettroDityr/      # Saga 4 moduli (normalizzata)
 │
 ├── releases/                # PDF + ZIP generati (non editare, in .gitignore)
 │   └── NomeAvventura/
@@ -31,7 +32,9 @@ dungeonandragon/
 ├── tech/                    # Script, tool e regole tecniche
 │   ├── scripts/             # Script di automazione
 │   ├── rules/               # Regole di riferimento
-│   └── how-to/              # Guide procedurali passo-passo
+│   ├── how-to/              # Guide procedurali passo-passo
+│   ├── i18n/                # Label multilingua (it.json, en.json)
+│   └── tests/               # Test di non regressione
 │
 ├── public/                  # PDF pubblicati (tracciata da git)
 ├── other/                   # File accessori generali (stat block PG, ecc.)
@@ -46,7 +49,7 @@ dungeonandragon/
 
 ### Lingua e naming
 
-- Contenuto avventure e documentazione: **italiano**
+- Contenuto avventure e documentazione: **italiano** (lingua primaria). Traduzioni in **inglese** disponibili per le avventure normalizzate — il contenuto viene scritto in italiano e poi tradotto
 - Commenti nel codice sorgente: **inglese**
 
 Per le convenzioni di naming complete (4 categorie: PascalCase avventure, kebab-case tech, UPPER_SNAKE_CASE meta, kebab-case script) vedere **`tech/rules/adventure-template.md` § Convenzioni di naming** — fonte di verità unica.
@@ -55,6 +58,7 @@ Per le convenzioni di naming complete (4 categorie: PascalCase avventure, kebab-
 
 | file | contenuto |
 |------|-----------|
+| `manifest.json` | Configurazione avventura: lingue disponibili, titolo e sottotitolo per lingua |
 | `README.md` | Descrizione pubblica senza spoiler (per lettori umani) |
 | `AdventureBook.md` | Contesto e istruzioni specifiche per Kiro su questa avventura |
 | `PlanBook.md` | Todo list, stato avanzamento, note riservate al DM |
@@ -85,6 +89,55 @@ NN_NomeModulo/
 - Release generate con `tech/scripts/release.sh <NomeAvventura> <versione>`
 - PDF generati via Pandoc + wkhtmltopdf
 - Release salvate in `releases/<NomeAvventura>/` — non dentro l'avventura
+
+---
+
+## Multilingua
+
+Il progetto supporta avventure in più lingue (attualmente italiano e inglese). La struttura multilingua è:
+
+### manifest.json
+
+Ogni avventura ha un `manifest.json` nella root che dichiara le lingue disponibili e i metadati per lingua (titolo, sottotitolo per la copertina).
+
+### Directory per lingua
+
+Il contenuto testuale e i file generati vanno sotto `it/` e `en/` nella directory dell'avventura:
+
+```
+NomeAvventura/
+├── manifest.json            # lingue, titolo/sottotitolo per lingua
+├── README.md                # meta-documento (root, condiviso)
+├── AdventureBook.md         # meta-documento (root, condiviso)
+├── PlanBook.md              # meta-documento (root, condiviso)
+├── img/                     # immagini condivise tra lingue
+├── it/                      # contenuto italiano
+│   ├── NomeAvventura.md
+│   ├── characters/          # NPC/MON .md, .xml, stat block
+│   └── NN_NomeModulo/
+└── en/                      # contenuto inglese
+    ├── NomeAvventura.md
+    ├── characters/
+    └── NN_NomeModulo/
+```
+
+### Cosa è condiviso, cosa è per lingua
+
+- **Condiviso** (root): immagini (`img/`, `maps/*.png`, `characters/img/`), meta-documenti (README, PlanBook, AdventureBook, DM_Prep), `manifest.json`
+- **Per lingua** (`it/`, `en/`): testo `.md`, schede NPC/MON `.md`, file generati (`.xml`, stat block `.pdf`/`.png`)
+
+### Label i18n
+
+Le etichette usate negli script (copertina PDF, sezioni, appendice) sono in `tech/i18n/it.json` e `tech/i18n/en.json`.
+
+### Flag --lang
+
+Gli script principali supportano `--lang <codice>` per operare sulla lingua desiderata:
+- `create-pdf-adventure.py NomeAvventura --lang en`
+- `generate-statblocks.py NomeAvventura --lang en`
+- `md-to-fightclub.py ... --lang en`
+
+Default: `it` (italiano).
 
 ---
 

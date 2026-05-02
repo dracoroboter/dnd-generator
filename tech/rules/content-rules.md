@@ -186,3 +186,39 @@ Se l'avventura è parte di una campagna o lascia agganci aperti, documentarli in
 ## Agganci futuri
 - [elemento] → può essere sviluppato in [avventura futura]
 ```
+
+---
+
+## Multilingua
+
+Le avventure possono essere tradotte in più lingue. La versione italiana è la **fonte di verità**; le traduzioni sono derivate.
+
+### Disclaimer
+
+Ogni file tradotto in inglese deve iniziare con:
+
+```markdown
+> ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
+```
+
+### Cosa si traduce e cosa no
+
+| Elemento | Tradotto? | Esempio |
+|----------|-----------|---------|
+| Nomi propri (NPC) | **No** | SirGorimVel, Korex, Fin Ditasvelte |
+| Titoli descrittivi | **Sì** | Il Conte → The Count, Teppista Charmato → Charmed Thug |
+| Nomi di mostri | **Sì** — usare nomi ufficiali SRD WotC dove disponibili | Ratto Corrotto → Corrupted Rat |
+| Label stat block | **Sì** — definite in `tech/i18n/<lang>.json` | Punti ferita → Hit Points, Attacchi → Attacks |
+| Distanze | **No** — formato triplo mantenuto in entrambe le lingue | `12m / 40ft / 8qd` |
+| Testo narrativo | **Sì** | Traduzione completa del contenuto |
+
+### File i18n
+
+Le label localizzate per intestazioni di sezione e campi degli stat block sono in:
+
+```
+tech/i18n/it.json
+tech/i18n/en.json
+```
+
+Questi file sono usati dal parser `md-to-fightclub.py` e dagli script di generazione PDF.

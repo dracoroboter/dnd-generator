@@ -1,7 +1,7 @@
 # Dungeon & Dragon
 
-**Versione**: 0.3
-**Ultimo aggiornamento**: 2026-04-27
+**Versione**: 0.4
+**Ultimo aggiornamento**: 2026-05-02
 **Repository**: [github.com/dracoroboter/dnd-generator](https://github.com/dracoroboter/dnd-generator)
 
 Raccolta di avventure D&D 5e (2014) con toolchain di automazione dedicata.
@@ -15,7 +15,7 @@ Questo repository vive su due piani paralleli che si alimentano a vicenda.
 
 ### Piano umanistico — scrivere avventure
 
-Scrivere, strutturare e rilasciare avventure D&D in italiano. Il prodotto finale è un PDF leggibile e una ZIP condivisibile. Il lavoro è narrativo: trama, NPC, incontri, mappe, descrizioni.
+Scrivere, strutturare e rilasciare avventure D&D in italiano e inglese. Il prodotto finale è un PDF leggibile e una ZIP condivisibile. Il lavoro è narrativo: trama, NPC, incontri, mappe, descrizioni. Il contenuto viene scritto in italiano e poi tradotto in inglese.
 
 ### Piano tecnico — costruire strumenti
 
@@ -27,12 +27,12 @@ Entrambi i piani sono assistiti da AI.
 
 ## Avventure in corso
 
-| Avventura | Tipo | Stato | Note |
-|-----------|------|-------|------|
-| `LAnelloDelConte` | Saga puntata 1 | Normalizzata | Prima avventura completa |
-| `FuoriDaHellfire` | One-shot (2 moduli) | Normalizzata | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4. PDF generato. |
-| `IlReSpezzato` | Saga puntata 2 | Da migrare | Draft in `legacy/` formato `.odt` |
-| `LoScettroDityr` | Saga (4 moduli A/B/C/D) | Normalizzata | Versione "Draco" — 4 moduli, 15 NPC, 29 asset grafici |
+| Avventura | Tipo | Stato | Lingue | Note |
+|-----------|------|-------|--------|------|
+| `LAnelloDelConte` | Saga puntata 1 | Normalizzata | it, en | Prima avventura completa |
+| `FuoriDaHellfire` | One-shot (2 moduli) | Normalizzata | it, en | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4. PDF generato. |
+| `IlReSpezzato` | Saga puntata 2 | Da migrare | — | Draft in `legacy/` formato `.odt` |
+| `LoScettroDityr` | Saga (4 moduli A/B/C/D) | Normalizzata | it, en | Versione "Draco" — 4 moduli, 15 NPC, 29 asset grafici |
 
 La saga "Lo Scettro di Tyr" copre `LAnelloDelConte` → `IlReSpezzato` → `LoScettroDityr` in sequenza narrativa.
 
@@ -58,7 +58,8 @@ NPC_*.md  →  md-to-statblock-pdf.js  →  .pdf / .png (stat block grafico)
 .xml      →  fightclub-to-md.py  →  NPC_*.md (import da FightClub/Game Master 5e)
 
 # Pipeline completa (wrapper):
-generate-statblocks.py <Avventura>  →  .xml + .pdf + .png per tutti gli NPC/MON
+generate-statblocks.py <Avventura>              →  .xml + .pdf + .png per tutti gli NPC/MON
+generate-statblocks.py <Avventura> --lang en    →  versione inglese
 ```
 
 **Script:** `tech/fightclub/md-to-fightclub.py`, `tech/fightclub/fightclub-to-md.py`, `tech/fightclub/md-to-statblock-pdf.js`
@@ -71,11 +72,26 @@ Genera un singolo PDF con tutta l'avventura: copertina, moduli, schede mappa DM,
 ```
 create-pdf-adventure.py LAnelloDelConte            →  releases/LAnelloDelConte/LAnelloDelConte_20260422.pdf
 create-pdf-adventure.py LAnelloDelConte --lowres    →  releases/LAnelloDelConte/LAnelloDelConte_20260422_lowres.pdf
+create-pdf-adventure.py LAnelloDelConte --lang en   →  releases/LAnelloDelConte/LAnelloDelConte_20260422_en.pdf
 optimize-images.py LAnelloDelConte                  →  genera versioni -lowres.jpg delle immagini
 ```
 
 **Script:** `tech/create-pdf-adventure/create-pdf-adventure.py`, `tech/create-pdf-adventure/optimize-images.py`
 **Documentazione:** `tech/create-pdf-adventure/docs-create-pdf-adventure.md`
+
+---
+
+## Multilingua
+
+Il progetto supporta avventure in italiano e inglese. La struttura multilingua si basa su:
+
+- **`manifest.json`** nella root di ogni avventura: dichiara le lingue disponibili, titolo e sottotitolo per lingua
+- **Directory `it/` e `en/`** sotto ogni avventura: contengono il testo (.md), le schede NPC/MON e i file generati (XML, stat block) specifici per lingua
+- **Immagini condivise**: `img/`, `maps/*.png`, `characters/img/` restano nella root dell'avventura, comuni a tutte le lingue
+- **Meta-documenti** (README, PlanBook, AdventureBook, DM_Prep) restano nella root dell'avventura
+- **Label i18n**: `tech/i18n/it.json` e `tech/i18n/en.json` per etichette PDF (copertina, sezioni, appendice)
+- **Flag `--lang`**: supportato da `create-pdf-adventure.py`, `generate-statblocks.py`, `md-to-fightclub.py`
+- **Naming PDF**: `NomeAvventura_YYYYMMDD.pdf` (italiano, default), `NomeAvventura_YYYYMMDD_en.pdf` (inglese)
 
 ---
 
@@ -105,6 +121,8 @@ dungeonandragon/
     ├── how-to/                  # guide procedurali passo-passo
     ├── fightclub/               # tool export FightClub 5e (XML, stat block PDF/PNG)
     ├── create-pdf-adventure/    # generatore PDF unico per avventure (CSS + script)
+    ├── i18n/                    # label multilingua (it.json, en.json)
+    ├── tests/                   # test di non regressione
     ├── data/
     │   └── compendium/          # schema XSD + SRD 5.1 in formato FightClub XML
     └── reports/                 # output generati da script (non editare)
@@ -163,6 +181,12 @@ dungeonandragon/
 |------|-------|
 | `tech/rules/git-workflow.md` | Convenzioni git: commit message, branch, push, credential helper |
 
+### Multilingua
+
+| File | Scopo |
+|------|-------|
+| `tech/i18n/it.json`, `tech/i18n/en.json` | Label i18n per supporto multilingua (copertina, sezioni PDF, etichette) |
+
 ---
 
 ## Indice script
@@ -197,6 +221,12 @@ dungeonandragon/
 | `md-to-statblock-pdf.js` | Node.js | Genera stat block PDF/PNG via Playwright + statblock5e |
 | `generate-statblocks.py` | Python | Pipeline completa: .md → .xml + .pdf + .png (wrapper) |
 
+### Test
+
+| Script | Linguaggio | Scopo |
+|--------|-----------|-------|
+| `test_regression.py` | Python | Test di non regressione per pipeline multilingua, stat block, PDF (15 test) |
+
 ---
 
 ## Flusso tipico — piano umanistico
@@ -206,7 +236,8 @@ dungeonandragon/
 2. adventure-wizard.py NomeAvventura  # metadati README
 3. (scrittura contenuto in Markdown)
 4. check-adventure.py NomeAvventura   # validazione
-5. release.sh NomeAvventura v1.0      # PDF + ZIP
+5. create-pdf-adventure.py NomeAvventura          # PDF italiano
+6. create-pdf-adventure.py NomeAvventura --lang en # PDF inglese (opzionale)
 ```
 
 → Vedi **[dnd-maps](https://github.com/dracoroboter/dnd-maps)** per la pipeline mappe.

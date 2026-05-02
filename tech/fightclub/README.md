@@ -10,9 +10,13 @@ Le app supportano l'import di contenuti homebrew tramite file **XML** con un for
 
 Convertire le schede NPC markdown del progetto (`characters/NPC_*.md`) in file XML importabili in FightClub/Game Master 5e. Così il DM ha gli NPC homebrew disponibili sull'iPad/telefono durante la sessione, senza dover consultare i file markdown.
 
+La pipeline supporta più lingue tramite il flag `--lang`. I file NPC in inglese usano label inglesi (intestazioni, campi stat block) definite in `tech/i18n/en.json`. Il parser riconosce automaticamente le label nella lingua specificata.
+
 ## Come si usa un file XML in FightClub
 
 1. Genera il file XML con `md-to-fightclub.py` (o con la pipeline completa `generate-statblocks.py`)
+   - Per file in inglese: `md-to-fightclub.py NPC_Nome.md --lang en`
+   - Pipeline completa in inglese: `generate-statblocks.py NomeAvventura --lang en`
 2. Trasferisci il file `.xml` sul dispositivo (AirDrop, email, cloud, cavo)
 3. In FightClub 5e: **Settings → Import → seleziona il file XML**
 4. I mostri/NPC appaiono nella sezione Compendium dell'app

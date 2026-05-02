@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MalachiasOmbrascura</name>
+        <size>M</size>
+        <type>humanoid (dragonborn)</type>
+        <alignment>to be determined in play</alignment>
+        <ac>13 (chain shirt)</ac>
+        <hp>27 (5d8 + 5)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>12</con>
+        <int>13</int>
+        <wis>16</wis>
+        <cha>13</cha>
+        <senses>Passive Perception 13</senses>
+        <languages>Common, Draconic</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Breath Weapon</name>
+            <text>once per short rest, 4.5m / 15ft / 3qd cone. Dexterity save DC 11, 2d6 damage (type depends on lineage — to be defined).</text>
+        </trait>
+        <trait>
+            <name>Divine Eminence</name>
+            <text>as a bonus action, can grant a creature within 9m / 30ft a 1d4 bonus to an attack roll or saving throw (3 uses/day).</text>
+        </trait>
+        <description>A dragonborn with a subdued air who goes by Elemir Strunz to hide his true identity. He blends in among Axel Ruby's followers in the East zone, trying to go unnoticed. He has a star-shaped scar on his left calf — a mark that could betray him if someone knows what to look for.
+Distinctive trait: he speaks little and chooses his words carefully. When he lies, he tends to touch his left calf — a tell that attentive players can notice.</description>
+    </monster>
+</compendium>

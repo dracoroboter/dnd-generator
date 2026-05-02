@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Charmed Thug</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>neutral (charmed, normally not hostile)</alignment>
+        <ac>12 (leather armor)</ac>
+        <hp>13 (2d8+4)</hp>
+        <speed>30 ft.</speed>
+        <str>13</str>
+        <dex>12</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>1/8</cr>
+        <trait>
+            <name>Charmed by Korex</name>
+            <text>the thug is under the effect of charm. If Korex is killed, incapacitated, or flees, the charm breaks at the end of the round. The thug stops fighting, confused.</text>
+        </trait>
+        <action>
+            <name>Mace (melee)</name>
+            <text>Attack: +3, reach 1.5m / 5ft / 1qd Damage: 1d6+1 bludgeoning</text>
+            <attack>Mace (melee)|+3|1d6+1</attack>
+        </action>
+        <description>People from the port of Oakshore — dockworkers, fishermen, sailors — who fell under Korex's spell. Glassy eyes, mechanical movements, fight without speaking. If Korex falls or the charm breaks, they wake up confused and frightened.</description>
+    </monster>
+</compendium>

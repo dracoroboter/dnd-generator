@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_RattoCorrotto</name>
+        <size>M</size>
+        <type>humanoid (bestia)</type>
+        <alignment>senza allineamento</alignment>
+        <ac>12</ac>
+        <hp>7 (2d6)</hp>
+        <speed>30 ft.</speed>
+        <str>7</str>
+        <dex>15</dex>
+        <con>11</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>4</cha>
+        <senses>darkvision 60 ft. 18m / 60ft / 12qd</senses>
+        <cr>1/8</cr>
+        <trait>
+            <name>Olfatto acuto</name>
+            <text>vantaggio alle prove di Percezione basate sull'olfatto.</text>
+        </trait>
+        <trait>
+            <name>Tattiche di branco</name>
+            <text>vantaggio all'attacco se un alleato è entro 1qd dal bersaglio e non è incapacitato.</text>
+        </trait>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +4, portata 1,5m / 5ft / 1qd Danni: 1d4+2 perforanti</text>
+            <attack>Morso (mischia)|+4|1d4+2</attack>
+        </action>
+        <description>Ratto gigante con occhi rossi e comportamento innaturale. Più aggressivo di un ratto normale, attacca in branco senza paura. Natura CD 10 per capire che è corrotto, non semplicemente rabbioso.</description>
+    </monster>
+    <monster>
+        <name>MON_SciameDiRatti</name>
+        <size>M</size>
+        <type>humanoid (sciame di bestie minuscole)</type>
+        <alignment>senza allineamento</alignment>
+        <ac>10</ac>
+        <hp>24 (7d8-7)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>11</dex>
+        <con>9</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <senses>darkvision 60 ft. 9m / 30ft / 6qd</senses>
+        <cr>1/4</cr>
+        <trait>
+            <name>Olfatto acuto</name>
+            <text>vantaggio alle prove di Percezione basate sull'olfatto.</text>
+        </trait>
+        <trait>
+            <name>Sciame</name>
+            <text>può occupare lo spazio di un'altra creatura e viceversa. Può muoversi attraverso aperture per creature Minuscole. Non può recuperare PF né ottenere PF temporanei.</text>
+        </trait>
+        <action>
+            <name>Morsi (mischia)</name>
+            <text>Attacco: +2, portata 0 Danni: 2d6 perforanti (o 1d6 se lo sciame ha metà PF o meno)</text>
+            <attack>Morsi (mischia)|+2|2d6</attack>
+        </action>
+        <description>Una massa di ratti che si muove come un'unica creatura. Occhi rossi, squittii incessanti. Copre il pavimento e si arrampica sulle gambe dei PG.</description>
+    </monster>
+    <monster>
+        <name>MON_TeppistaCharmato</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>neutrale (charmato, normalmente non ostile)</alignment>
+        <ac>12 (armatura di cuoio)</ac>
+        <hp>13 (2d8+4)</hp>
+        <speed>30 ft.</speed>
+        <str>13</str>
+        <dex>12</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>1/8</cr>
+        <trait>
+            <name>Charmato da Korex</name>
+            <text>il teppista è sotto l'effetto di charm. Se Korex viene ucciso, incapacitato o fugge, il charm si spezza alla fine del round. Il teppista smette di combattere, confuso.</text>
+        </trait>
+        <action>
+            <name>Mazza (mischia)</name>
+            <text>Attacco: +3, portata 1,5m / 5ft / 1qd Danni: 1d6+1 contundenti</text>
+            <attack>Mazza (mischia)|+3|1d6+1</attack>
+        </action>
+        <description>Gente del porto di Oakshore — scaricatori, pescatori, marinai — finita sotto l'incantesimo di Korex. Occhi vitrei, movimenti meccanici, combattono senza parlare. Se Korex cade o il charm si spezza, si risvegliano confusi e spaventati.</description>
+    </monster>
+    <monster>
+        <name>FinDitasvelte</name>
+        <size>M</size>
+        <type>humanoid (halfling (piedelesto))</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>14 (armatura di cuoio)</ac>
+        <hp>21</hp>
+        <speed>25 ft.</speed>
+        <str>8</str>
+        <dex>16</dex>
+        <con>12</con>
+        <int>13</int>
+        <wis>10</wis>
+        <cha>14</cha>
+        <senses>nessuno speciale</senses>
+        <languages>Common, Halfling, Gergo dei Ladri</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Sneak Attack (2d6)</name>
+            <text>una volta per turno, danni extra se ha vantaggio o alleato adiacente al bersaglio</text>
+        </trait>
+        <trait>
+            <name>Cunning Action</name>
+            <text>Dash, Disengage o Hide come azione bonus</text>
+        </trait>
+        <trait>
+            <name>Fast Hands (Thief)</name>
+            <text>Rapidità di mano, usare arnesi da scasso, o usare un oggetto come azione bonus</text>
+        </trait>
+        <trait>
+            <name>Second-Story Work</name>
+            <text>velocità di scalata pari alla velocità di movimento</text>
+        </trait>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +5, mischia o distanza 6m / 20ft / 4qd Danni: 1d4+3 perforanti Sneak Attack: +2d6 se ha vantaggio o un alleato in mischia col bersaglio</text>
+            <attack>Pugnale (mischia/distanza)|+5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Arco corto (distanza)</name>
+            <text>Attacco: +5, distanza 24m / 80ft / 16qd Danni: 1d6+3 perforanti</text>
+            <attack>Arco corto (distanza)|+5|1d6+3</attack>
+        </action>
+        <description>Basso anche per un halfling, capelli rossi arruffati, occhi marroni sempre in movimento. Sorriso da furbetto permanente. Parla veloce, gesticola troppo, e ha l'abitudine di rigirare una moneta tra le dita quando è nervoso. Veste pratico: gilet con troppe tasche, stivali morbidi, niente che faccia rumore.
+Tratto distintivo: non riesce a non toccare le cose. Se c'è un oggetto luccicante, lo prende. Se c'è un bottone, lo preme. Se c'è un anello su un cadavere, lo sfila. Non per avidità — per curiosità compulsiva.
+Frase ricorrente: *&quot;Che male può fare dare un'occhiata?&quot;*</description>
+    </monster>
+    <monster>
+        <name>JasonAccordion</name>
+        <size>M</size>
+        <type>humanoid (umano (in vita), ora anima intrappolata)</type>
+        <alignment>neutral evil</alignment>
+        <ac>12</ac>
+        <hp>45 (10d8)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>16</int>
+        <wis>14</wis>
+        <cha>20</cha>
+        <skill>Perception +2</skill>
+        <senses>vista e udito 36m / 120ft / 24qd (attraverso il portatore)</senses>
+        <languages>Common, Elvish, Silvano, Infernale</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Oggetto senziente</name>
+            <text>Jason esiste come anima nell'Anello del Virtuoso. Non ha un corpo fisico. Comunica telepaticamente con il portatore. Le statistiche sopra rappresentano le sue capacità mentali e magiche, non un corpo.</text>
+        </trait>
+        <trait>
+            <name>Manipolatore supremo</name>
+            <text>vantaggio alle prove di Inganno e Persuasione. Le creature che parlano con Jason (attraverso il portatore) hanno svantaggio ai TS contro i suoi incantesimi di charme.</text>
+        </trait>
+        <trait>
+            <name>Possessione progressiva</name>
+            <text>vedi sezione &quot;Possessione progressiva&quot; sopra. Jason non combatte direttamente — prende il controllo del portatore.</text>
+        </trait>
+        <action>
+            <name>Onda psichica (quando esce 1 al d8)</name>
+            <text>Tiro salvezza: nessuno (automatico) Danni: 1d4 + livello presa danni psichici Area: tutte le creature entro 15m / 50ft / 10qd dal portatore Effetto: colpisce alleati e nemici indiscriminatamente</text>
+        </action>
+        <action>
+            <name>Conflitto mentale (quando Jason forza il controllo)</name>
+            <text>Tiro salvezza: Saggezza CD 14-16+ (varia con la presa) Fallimento: Jason prende il controllo del portatore per 1d4 round (combattimento) o 1d4 ore (fuori combattimento) Successo: il portatore resiste, la presa diminuisce di 1</text>
+        </action>
+        <action>
+            <name>Incubi notturni (presa 3+)</name>
+            <text>Danni: 2d6 psichici per notte Effetto: nessun beneficio da riposo lungo</text>
+        </action>
+        <action>
+            <name>Spellcasting</name>
+            <text>Oggetto senziente: Jason esiste come anima nell'Anello del Virtuoso. Non ha un corpo fisico. Comunica telepaticamente con il portatore. Le statistiche sopra rappresentano le sue capacità mentali e magiche, non un corpo.
+Incantesimi (come bardo lv10): CD incantesimi 16, attacco incantesimi +8. Slot: 4/3/3/3/2. Jason può lanciare incantesimi solo attraverso il portatore (quando ha il controllo).
+Manipolatore supremo: vantaggio alle prove di Inganno e Persuasione. Le creature che parlano con Jason (attraverso il portatore) hanno svantaggio ai TS contro i suoi incantesimi di charme.
+Possessione progressiva: vedi sezione &quot;Possessione progressiva&quot; sopra. Jason non combatte direttamente — prende il controllo del portatore.</text>
+        </action>
+        <description>In vita, Jason Accordion era un uomo di bell'aspetto con un sorriso che non raggiungeva mai gli occhi — il tipo che entra in una stanza e tutti si girano a guardarlo. Voce calda, modi impeccabili, sempre la parola giusta al momento giusto.
+Ora è solo una voce nell'anello. Sussurra, suggerisce, lusinga. Il tono è quello di un vecchio amico — paziente, comprensivo, mai aggressivo. All'inizio. Con il tempo diventa più insistente, più presente, più *lui* e meno il portatore.</description>
+    </monster>
+    <monster>
+        <name>Korex</name>
+        <size>M</size>
+        <type>humanoid (elfo)</type>
+        <alignment>chaotic evil</alignment>
+        <ac>13</ac>
+        <hp>52</hp>
+        <speed>40 ft.</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>8</int>
+        <wis>12</wis>
+        <cha>15</cha>
+        <skill>Perception +3, Performance +4, Stealth +5</skill>
+        <immune>veleno</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <languages>Common, Elvish, lingue dei mostri delle fogne</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Disengage</name>
+            <text>Korex può disimpegnarsi come azione bonus</text>
+        </trait>
+        <trait>
+            <name>Dash</name>
+            <text>Korex può usare Dash come azione bonus (velocità raddoppiata: 24m / 80ft / 16qd)</text>
+        </trait>
+        <trait>
+            <name>Immunità al veleno</name>
+            <text>Korex è immune alla condizione avvelenato e ai danni da veleno</text>
+        </trait>
+        <trait>
+            <name>Flauto Magico</name>
+            <text>arma principale. Charm + danni psichici a distanza. Devastante contro bersagli con Saggezza bassa.</text>
+        </trait>
+        <trait>
+            <name>Rancid Knife</name>
+            <text>arma di riserva in mischia. Il veleno avvelena automaticamente al colpo.</text>
+        </trait>
+        <action>
+            <name>Rancid Knife (mischia)</name>
+            <text>Attacco: +5, mischia Danni: 2d4+3 perforanti + 2d6 veleno Effetto: il bersaglio è avvelenato fino all'inizio del prossimo turno di Korex</text>
+            <attack>Rancid Knife (mischia)|+5|2d4+3</attack>
+        </action>
+        <action>
+            <name>Flauto Magico (azione)</name>
+            <text>Bersaglio: una creatura che Korex può vedere entro 36m / 120ft / 24qd Tiro salvezza: Saggezza CD 12 Fallimento: 4d6 danni psichici + charmato fino all'inizio del prossimo turno di Korex Successo: metà dei danni, nessun charm</text>
+        </action>
+        <description>Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco — voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.</description>
+    </monster>
+    <monster>
+        <name>UdoHutchinson</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>14 (armatura a scaglie)</ac>
+        <hp>58 (9d8+18)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>13</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>3</cr>
+        <action>
+            <name>Multiattacco</name>
+            <text>Udo fa due attacchi con la spada lunga. Se ha la spada corta sguainata, può fare un terzo attacco con quella.</text>
+        </action>
+        <action>
+            <name>Spada lunga (mischia)</name>
+            <text>Attacco: +5, portata 1,5m / 5ft / 1qd Danni: 1d8+3 taglienti (o 1d10+3 a due mani)</text>
+            <attack>Spada lunga (mischia)|+5|1d8+3</attack>
+        </action>
+        <action>
+            <name>Spada corta (mischia)</name>
+            <text>Attacco: +5, portata 1,5m / 5ft / 1qd Danni: 1d6+3 perforanti</text>
+            <attack>Spada corta (mischia)|+5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Balestra pesante (distanza)</name>
+            <text>Attacco: +3, gittata 30/120m / 100/400ft Danni: 1d10+1 perforanti</text>
+            <attack>Balestra pesante (distanza)|+3|1d10+1</attack>
+        </action>
+        <description>Uomo robusto sulla cinquantina, capelli grigi tagliati corti, cicatrice sul mento. Parla poco, agisce in fretta. Porta un'armatura a scaglie ammaccata e una spada lunga che ha visto tempi migliori. Appena tornato a Oakshore da un viaggio personale, si è trovato il quartiere portuale nel caos e un elfo in fuga nelle fogne.
+Frase ricorrente: *&quot;Non ho tempo per queste stronzate.&quot;*</description>
+    </monster>
+</compendium>

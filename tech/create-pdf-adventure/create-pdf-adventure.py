@@ -18,7 +18,7 @@ Output:
     releases/<NomeAvventura>/<NomeAvventura>_yyyymmdd_only-<sezioni>.pdf   (parziale)
 """
 
-import argparse, subprocess, sys, os, re, base64, io
+import argparse, subprocess, sys, os, re, base64, io, json
 from pathlib import Path
 from datetime import datetime
 
@@ -35,6 +35,37 @@ EXCLUDED_FILES = {
 EXCLUDED_PREFIXES = ("DM_Prep", "StatBlock_")
 
 LOWRES_SUFFIX = "-lowres"
+
+# Multilingual labels — loaded from tech/i18n/<lang>.json
+I18N_DIR = SCRIPT_DIR.parent / "i18n"
+
+def load_i18n(lang):
+    """Load i18n labels for a language."""
+    path = I18N_DIR / f"{lang}.json"
+    if path.exists():
+        return json.loads(path.read_text())
+    # Fallback to Italian
+    return json.loads((I18N_DIR / "it.json").read_text())
+
+
+def is_multilingual(adventure_dir):
+    """Check if adventure uses multilingual structure."""
+    return (adventure_dir / "manifest.json").exists()
+
+
+def get_lang_dir(adventure_dir, lang):
+    """Get language-specific content directory."""
+    if is_multilingual(adventure_dir):
+        return adventure_dir / lang
+    return adventure_dir
+
+
+def get_default_lang(adventure_dir):
+    """Get default language from manifest, or 'it'."""
+    manifest = adventure_dir / "manifest.json"
+    if manifest.exists():
+        return json.loads(manifest.read_text()).get("default_lang", "it")
+    return "it"
 
 # A4 dimensions for cover generation
 A4_W, A4_H = 2480, 3508  # 300 DPI
@@ -81,9 +112,11 @@ def is_portrait(img_path):
         return img.height > img.width
 
 
-def fit_cover(img_path, title, author=None, year=None, scale=1.0):
+def fit_cover(img_path, title, author=None, year=None, scale=1.0, subtitle=None):
     """Create cover: background image scaled to A4, logo top center, title upper-center,
     D&D subtitle under title, author at bottom. White uppercase text with black outline."""
+    if subtitle is None:
+        subtitle = "Un'avventura Dungeons & Dragons 5e"
     from PIL import Image, ImageDraw, ImageFont
 
     out_w, out_h = int(A4_W * scale), int(A4_H * scale)
@@ -166,7 +199,7 @@ def fit_cover(img_path, title, author=None, year=None, scale=1.0):
 
     # D&D subtitle — right under stripe
     sub_y = stripe_y + stripe_h + int(out_h * 0.015)
-    centered_outlined_text(sub_y, "Un'avventura Dungeons & Dragons 5e", sub_font)
+    centered_outlined_text(sub_y, subtitle, sub_font)
 
     # Author + copyright — bottom
     if author:
@@ -186,10 +219,12 @@ def fit_cover(img_path, title, author=None, year=None, scale=1.0):
     return base64.b64encode(buf.getvalue()).decode(), "jpeg"
 
 
-def find_modules(adventure_dir):
-    """Find module directories sorted by number prefix."""
+def find_modules(adventure_dir, lang_dir=None):
+    """Find module directories sorted by number prefix.
+    In multilingual mode, modules are under lang_dir."""
+    base = lang_dir if lang_dir else adventure_dir
     modules = []
-    for d in sorted(adventure_dir.iterdir()):
+    for d in sorted(base.iterdir()):
         if d.is_dir() and re.match(r"\d+_", d.name):
             modules.append(d)
     return modules
@@ -204,38 +239,61 @@ def find_module_md(module_dir):
     return candidates[0] if candidates else None
 
 
-def find_maps_in_dir(maps_dir):
-    """Find map files (.md and .png) in a maps/ directory, excluding other/.
+def find_maps_in_dir(maps_dir, desc_dir=None):
+    """Find map files (.md and .png) in maps directories.
+    In multilingual mode, images are in maps_dir and descriptions in desc_dir.
     Returns list of (md_path_or_None, img_path_or_None) tuples, grouped by base name."""
-    if not maps_dir.exists():
-        return []
+    if desc_dir is None:
+        desc_dir = maps_dir
     items = {}
-    for f in sorted(maps_dir.iterdir()):
-        if f.is_dir() or f.name == "MappaGenerale.md":
-            continue
-        if LOWRES_SUFFIX in f.stem:
-            continue
-        stem = f.stem
-        if f.suffix == ".md":
-            items.setdefault(stem, [None, None])[0] = f
-        elif f.suffix.lower() in (".png", ".jpg", ".jpeg"):
-            items.setdefault(stem, [None, None])[1] = f
+
+    # Collect images from maps_dir
+    if maps_dir and maps_dir.exists():
+        for f in sorted(maps_dir.iterdir()):
+            if f.is_dir() or f.name == "MappaGenerale.md":
+                continue
+            if LOWRES_SUFFIX in f.stem:
+                continue
+            stem = f.stem
+            if f.suffix.lower() in (".png", ".jpg", ".jpeg"):
+                items.setdefault(stem, [None, None])[1] = f
+
+    # Collect descriptions from desc_dir
+    if desc_dir and desc_dir.exists():
+        for f in sorted(desc_dir.iterdir()):
+            if f.is_dir() or f.name == "MappaGenerale.md":
+                continue
+            stem = f.stem
+            if f.suffix == ".md":
+                items.setdefault(stem, [None, None])[0] = f
+
     return [(md, img) for md, img in items.values()]
 
 
-def find_adventure_maps(adventure_dir):
-    """Find maps in the adventure root maps/ directory."""
-    return find_maps_in_dir(adventure_dir / "maps")
+def find_adventure_maps(adventure_dir, lang_dir=None):
+    """Find maps in the adventure root maps/ directory.
+    Images in adventure_dir/maps/, descriptions in lang_dir/maps/ (if multilingual)."""
+    img_maps = adventure_dir / "maps"
+    desc_maps = (lang_dir / "maps") if lang_dir else img_maps
+    return find_maps_in_dir(img_maps, desc_maps)
 
 
-def find_module_maps(module_dir):
-    """Find all map files in module's maps/ subdirectory."""
-    return find_maps_in_dir(module_dir / "maps")
+def find_module_maps(module_dir, adventure_dir=None, lang_dir=None, mod_name=None):
+    """Find all map files in module's maps/ subdirectory.
+    In multilingual mode: images in adventure_dir/NN_Name/maps/, descriptions in lang module maps/."""
+    if adventure_dir and lang_dir and mod_name:
+        img_maps = adventure_dir / mod_name / "maps"
+        desc_maps = module_dir / "maps"
+    else:
+        img_maps = module_dir / "maps"
+        desc_maps = img_maps
+    return find_maps_in_dir(img_maps, desc_maps)
 
 
-def find_statblocks(adventure_dir):
+def find_statblocks(adventure_dir, lang_dir=None):
     """Find NPC_*.png and MON_*.png stat blocks, alphabetically sorted."""
-    sb_dir = adventure_dir / "characters" / "statblock"
+    base = lang_dir if lang_dir else adventure_dir
+    sb_dir = base / "characters" / "statblock"
     if not sb_dir.exists():
         return []
     return sorted(
@@ -246,6 +304,8 @@ def find_statblocks(adventure_dir):
 
 def extract_title(adventure_md):
     """Extract H1 title from the main adventure markdown."""
+    if not adventure_md.exists():
+        return adventure_md.stem
     with open(adventure_md) as f:
         for line in f:
             if line.startswith("# "):
@@ -266,8 +326,13 @@ def extract_readme_meta(adventure_dir):
     return meta
 
 
-def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False, only_sections=None):
+def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False, only_sections=None, lang=None):
     """Assemble the full HTML document. If only_sections is set, include only those sections."""
+    if lang is None:
+        lang = get_default_lang(adventure_dir)
+    lang_dir = get_lang_dir(adventure_dir, lang)
+    multilingual = is_multilingual(adventure_dir)
+    i18n = load_i18n(lang)
     parts = []
 
     def include(section):
@@ -279,9 +344,19 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
     parts.append(f"<html><head><meta charset='utf-8'><style>{css_text}</style></head><body>")
 
     # --- Title (needed for cover and frontmatter) ---
-    adventure_md = adventure_dir / f"{adventure_name}.md"
+    adventure_md = lang_dir / f"{adventure_name}.md"
     title = extract_title(adventure_md) if adventure_md.exists() else adventure_name
     meta = extract_readme_meta(adventure_dir)
+
+    # Override title/subtitle from manifest if available
+    manifest_path = adventure_dir / "manifest.json"
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text())
+        if "title" in manifest and lang in manifest["title"]:
+            title = manifest["title"][lang]
+        cover_subtitle = manifest.get("subtitle", {}).get(lang, i18n["pdf_subtitle"])
+    else:
+        cover_subtitle = i18n["pdf_subtitle"]
 
     # --- Cover ---
     cover = find_cover(adventure_dir)
@@ -294,7 +369,8 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
         else:
             cover_scale = 0.5 if use_lowres else 1.0
             b64, fmt = fit_cover(cover, title, author=meta.get("Autore"),
-                                 year=meta.get("Prima stesura"), scale=cover_scale)
+                                 year=meta.get("Prima stesura"), scale=cover_scale,
+                                 subtitle=cover_subtitle)
             parts.append(f'<div class="cover-page"><img src="data:image/{fmt};base64,{b64}"></div>')
             print(f"  Cover: {cover.name} (con logo/titolo/autore)")
 
@@ -310,11 +386,11 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
         parts.append('<div class="meta">')
         parts.append("D&amp;D 5e (2014)<br>")
         if meta.get("Livello consigliato"):
-            parts.append(f'Livello {meta["Livello consigliato"]}<br>')
+            parts.append(f'{i18n["pdf_level"]} {meta["Livello consigliato"]}<br>')
         if meta.get("Durata"):
-            parts.append(f'{meta["Durata"]}<br>')
+            parts.append(f'{i18n["pdf_duration"]}: {meta["Durata"]}<br>')
         if meta.get("Struttura"):
-            parts.append(f'Struttura {meta["Struttura"]}<br>')
+            parts.append(f'{i18n["pdf_structure"]}: {meta["Struttura"]}<br>')
         parts.append(f"<br>{date_str}")
         if meta.get("Autore"):
             parts.append(f'<br><br><em>{meta["Autore"]}</em>')
@@ -331,7 +407,7 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
 
     # --- Adventure maps (maps/ root) ---
     if include("maps"):
-        for map_md, map_img in find_adventure_maps(adventure_dir):
+        for map_md, map_img in find_adventure_maps(adventure_dir, lang_dir if multilingual else None):
             if map_md:
                 html = md_to_html(map_md)
                 parts.append(f'<div class="section-break">{html}</div>')
@@ -345,7 +421,7 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
                 print(f"  Mappa (img): {map_img.name}")
 
     # --- Modules ---
-    for mod_dir in find_modules(adventure_dir):
+    for mod_dir in find_modules(adventure_dir, lang_dir if multilingual else None):
         mod_num = re.match(r"(\d+)_", mod_dir.name)
         mod_key = mod_num.group(1) if mod_num else None
         if not include(mod_key):
@@ -358,7 +434,9 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
             print(f"  Modulo: {mod_md.name}")
 
         # Module maps
-        for map_md, map_img in find_module_maps(mod_dir):
+        for map_md, map_img in find_module_maps(
+                mod_dir, adventure_dir if multilingual else None,
+                lang_dir if multilingual else None, mod_dir.name):
             if map_md:
                 html = md_to_html(map_md)
                 parts.append(f'<div class="section-break">{html}</div>')
@@ -372,9 +450,9 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
                 print(f"  Mappa modulo (img): {mod_dir.name}/maps/{map_img.name}")
 
     # --- Stat block appendix ---
-    statblocks = find_statblocks(adventure_dir)
+    statblocks = find_statblocks(adventure_dir, lang_dir if multilingual else None)
     if statblocks and include("statblocks"):
-        parts.append('<div class="appendix-header"><h1>Appendice — Stat Block</h1></div>')
+        parts.append(f'<div class="appendix-header"><h1>{i18n["pdf_appendix_statblock"]}</h1></div>')
         for sb in statblocks:
             name = sb.stem.replace("NPC_", "").replace("MON_", "")
             sb_uri = sb.as_uri()
@@ -394,6 +472,8 @@ def main():
                         help="Usa versioni -lowres.png delle immagini (da optimize-images.py)")
     parser.add_argument("--only", type=str, default=None,
                         help="Sezioni da includere (comma-separated): cover, frontmatter, doc, maps, statblocks, NN")
+    parser.add_argument("--lang", type=str, default=None,
+                        help="Lingua (default: da manifest.json o 'it')")
     args = parser.parse_args()
 
     adventure_name = args.adventure
@@ -402,6 +482,9 @@ def main():
     if not adventure_dir.exists():
         print(f"Errore: {adventure_dir} non trovata.")
         sys.exit(1)
+
+    # Resolve language
+    lang = args.lang or get_default_lang(adventure_dir)
 
     # Parse --only sections
     only_sections = None
@@ -421,13 +504,14 @@ def main():
     if only_sections:
         only_suffix = "_only-" + "_".join(sorted(only_sections))
     lowres_suffix = "_lowres" if args.lowres else ""
-    pdf_path = out_dir / f"{adventure_name}_{date_stamp}{only_suffix}{lowres_suffix}.pdf"
+    lang_suffix = f"_{lang}" if lang != get_default_lang(adventure_dir) else ""
+    pdf_path = out_dir / f"{adventure_name}_{date_stamp}{only_suffix}{lowres_suffix}{lang_suffix}.pdf"
 
-    print(f"=== {adventure_name} — PDF {date_stamp} ===\n")
+    print(f"=== {adventure_name} — PDF {date_stamp} (lang={lang}) ===\n")
 
     # Build HTML
     html_content = build_html(adventure_name, adventure_dir, raw_cover=args.raw_cover,
-                              use_lowres=args.lowres, only_sections=only_sections)
+                              use_lowres=args.lowres, only_sections=only_sections, lang=lang)
 
     # Write temp HTML (for debugging)
     tmp_html = out_dir / f"{adventure_name}_{date_stamp}.html"
