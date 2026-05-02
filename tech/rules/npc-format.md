@@ -289,3 +289,21 @@ Le label sono definite in `tech/i18n/<lang>.json`. Il parser le usa per riconosc
 python3 tech/fightclub/md-to-fightclub.py NPC_Nome.md --lang en
 python3 tech/fightclub/generate-statblocks.py NomeAvventura --lang en
 ```
+
+### Role line nello stat block
+
+Il parser aggiunge automaticamente `Role: <ruolo>` in fondo al tag `<description>` dell'XML, leggendo il campo `**Ruolo**` / `**Role**` dalla sezione Informazioni generali. Questa riga è visibile anche nello stat block grafico (PDF/PNG), in corsivo sotto il sottotitolo.
+
+### Nomi mostri in inglese
+
+I nomi propri (Korex, Fin Ditasvelte, Sir Gorim Vel) **non si traducono**. Le descrizioni e i titoli si traducono:
+
+| IT | EN | Nota |
+|----|-----|------|
+| Il Conte | The Count | descrizione, non nome proprio |
+| Teppista Charmato | Charmed Thug | Thug variant, MM p.350 |
+| Ratto Corrotto | Corrupted Rat | Giant Rat variant, MM p.327 |
+| Sciame di Ratti | Swarm of Rats | MM p.339 |
+| Guardiano Lumina | Guardian of Lumina | homebrew |
+
+Per i mostri basati su creature SRD, aggiungere il riferimento WotC nel file EN (es. `*(Thug variant, Monster Manual p.350)*`).

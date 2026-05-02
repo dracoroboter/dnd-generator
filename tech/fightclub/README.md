@@ -60,7 +60,7 @@ Ogni file XML è un "compendium" che contiene uno o più mostri:
 | `<senses>` | no | sensi | `darkvision 60 ft., passive Perception 13` |
 | `<languages>` | no | lingue | `Common, Elvish` |
 | `<cr>` | sì | challenge rating | `3` |
-| `<description>` | no | testo descrittivo per il DM | testo libero |
+| `<description>` | no | testo descrittivo per il DM + `Role: <ruolo>` in fondo | testo libero |
 | `<environment>` | no | ambienti tipici | `underdark, urban` |
 
 ### Tratti, azioni, reazioni
