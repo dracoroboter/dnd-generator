@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# Episode 2 — La Festa del Borgo
+# Episode 2 — The Village Festival
 
 ## Description
 

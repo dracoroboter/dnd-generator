@@ -37,7 +37,8 @@
             <text>Raggio: 4,5m / 15ft / 3qd Tiro salvezza: Destrezza CD 15 Fallimento: 3d8+6 danni necrotici Successo: metà danni</text>
         </action>
         <description>Un enorme golem di pietra accovacciato, chiaramente ferito — crepe profonde attraversano il suo corpo e frammenti di pietra mancano dal torso e dalle braccia. Era un guardiano sacro del Tempio di Lumina, ora pervaso dall'influenza oscura di Vecna. Un'aura di energia necromantica lo circonda.
-Non parla se non a parole singole e monosillabi. Ha una comprensione approssimativa del linguaggio umano, non è abbastanza intelligente per discuterci. Riconosce i portatori dello Scettro e i loro compagni come amici e li difende da chi dice di volerglielo strappare.</description>
+Non parla se non a parole singole e monosillabi. Ha una comprensione approssimativa del linguaggio umano, non è abbastanza intelligente per discuterci. Riconosce i portatori dello Scettro e i loro compagni come amici e li difende da chi dice di volerglielo strappare.
+Role: guardiano del tempio, potenziale alleato</description>
     </monster>
     <monster>
         <name>AxelRuby</name>
@@ -58,7 +59,8 @@ Non parla se non a parole singole e monosillabi. Ha una comprensione approssimat
         <cr>1/2</cr>
         <description>Uomo massiccio, braccia coperte di cicatrici da arena. Mascella squadrata, naso rotto più volte, occhi piccoli e calcolatori che tradiscono un'intelligenza che il fisico non lascia sospettare. Porta un gilet di cuoio borchiato sopra una camicia logora e un rubino grezzo appeso al collo — il simbolo della banda.
 Parla poco e a voce bassa, costringendo gli interlocutori ad avvicinarsi. Quando ride, è un suono breve e sgradevole. Ha l'abitudine di far scrocchiare le nocche prima di prendere una decisione.
-Tratto distintivo: brutale e astuto in egual misura. Non è il bruto stupido che sembra — è un contrabbandiere navigato che ha imparato a sopravvivere nell'arena e nelle strade.</description>
+Tratto distintivo: brutale e astuto in egual misura. Non è il bruto stupido che sembra — è un contrabbandiere navigato che ha imparato a sopravvivere nell'arena e nelle strade.
+Role: leader della banda dei Ruby (est di Orcastle)</description>
     </monster>
     <monster>
         <name>BrotherThaddeus</name>
@@ -77,7 +79,8 @@ Tratto distintivo: brutale e astuto in egual misura. Non è il bruto stupido che
         <cr>1</cr>
         <description>Uomo anziano, magro, con le mani callose di chi ha lavorato tutta la vita. Testa rasata, barba bianca corta. Porta ancora le insegne dell'ordine di Tyr — una **mano mozzata stilizzata** ricamata sulla tunica — nonostante abbia lasciato l'ordine. Dice che la porta &quot;per ricordare cosa avrebbe dovuto essere, non cosa è diventato&quot;.
 Parla con voce calma e misurata, scegliendo le parole con cura. Ha lo sguardo di chi ha visto troppo e ha deciso di non voltarsi dall'altra parte. Beve tisane, mai alcol.
-Tratto distintivo: onestà disarmante. Dice la verità anche quando sarebbe più comodo mentire — ed è proprio questo che lo rende difficile da credere.</description>
+Tratto distintivo: onestà disarmante. Dice la verità anche quando sarebbe più comodo mentire — ed è proprio questo che lo rende difficile da credere.
+Role: informatore, ex discepolo di Tyr</description>
     </monster>
     <monster>
         <name>FrankiePartenope</name>
@@ -104,7 +107,8 @@ Tratto distintivo: onestà disarmante. Dice la verità anche quando sarebbe più
             <attack>Ascia da guerra (mischia)|+8|1d10+5</attack>
         </action>
         <description>Ex avventuriero dal fisico imponente, Frankie è un eroe del popolo — una sorta di Robin Hood locale. Ha un portamento fiero nonostante le cicatrici e i segni della prigionia a Orcastle. Parla con tono diretto, senza fronzoli, e ha un odio viscerale per Lord Malebranche che trasuda da ogni parola.
-Tratto distintivo: porta ancora i segni del collare esplosivo al collo — una fascia di pelle arrossata che tocca di continuo, come a ricordarsi che non è più prigioniero.</description>
+Tratto distintivo: porta ancora i segni del collare esplosivo al collo — una fascia di pelle arrossata che tocca di continuo, come a ricordarsi che non è più prigioniero.
+Role: NPC alleato del party</description>
     </monster>
     <monster>
         <name>HelmutVanHeuten</name>
@@ -122,7 +126,8 @@ Tratto distintivo: porta ancora i segni del collare esplosivo al collo — una f
         <cha>10</cha>
         <cr>1</cr>
         <description>Helmut Van Heuten è un mercante ricco e rispettato, sulla sessantina, con una barba bianca curata e abiti di buona fattura ma senza ostentazione. Porta sempre un anello con il simbolo di Tyr — una bilancia — e ha l'abitudine di offrire tè caldo a chiunque si sieda nel suo studio. Ha mani da scrivano, non da guerriero, e una voce calma e pacata che ispira fiducia.
-È cortese, metodico e genuinamente devoto. Non è un avventuriero e non finge di esserlo — sa che il suo ruolo è fornire risorse, non brandire spade.</description>
+È cortese, metodico e genuinamente devoto. Non è un avventuriero e non finge di esserlo — sa che il suo ruolo è fornire risorse, non brandire spade.
+Role: secondario</description>
     </monster>
     <monster>
         <name>KreigHighlander</name>
@@ -143,7 +148,8 @@ Tratto distintivo: porta ancora i segni del collare esplosivo al collo — una f
         <cr>3</cr>
         <description>Uomo alto e imponente, portamento militare anche quando è seduto. Capelli grigi tagliati corti, barba curata, cicatrice sottile che attraversa la tempia sinistra. Indossa sempre un'armatura a piastre lucida — anche quando non serve. Mantello blu scuro con lo stemma Highlander: un falco su sfondo montano.
 Parla con voce tonante, abituato a dare ordini e a essere obbedito. Guarda gli interlocutori dall'alto in basso — letteralmente e figurativamente. Ha l'abitudine di tamburellare le dita sull'elsa della spada quando si annoia.
-Tratto distintivo: arrogante e sicuro di sé fino all'eccesso. Sottovaluta sistematicamente gli avversari — un difetto che potrebbe costargli caro.</description>
+Tratto distintivo: arrogante e sicuro di sé fino all'eccesso. Sottovaluta sistematicamente gli avversari — un difetto che potrebbe costargli caro.
+Role: leader del Castro (centro di Orcastle); conte Wildforge nel Modulo D</description>
     </monster>
     <monster>
         <name>Kurzum</name>
@@ -163,7 +169,8 @@ Tratto distintivo: arrogante e sicuro di sé fino all'eccesso. Sottovaluta siste
         <languages>qualsiasi una (di solito Common)</languages>
         <cr>3</cr>
         <description>Kurzum è la proprietaria del *Giavellotto Fantasma*, un negozio di armi che è anche punto di riferimento per chi cerca lavori poco ortodossi. Ha lineamenti duri, occhi scuri e calcolatori, e una cicatrice sottile che le attraversa il sopracciglio sinistro. Porta un grembiule di cuoio sopra una cotta di maglia leggera — sempre pronta, anche dietro il bancone.
-Parla poco e sceglie le parole con cura chirurgica. Non sorride quasi mai, ma quando lo fa è peggio. Ha l'abitudine di pulire un'arma mentre parla con i clienti — un gesto che non è mai casuale.</description>
+Parla poco e sceglie le parole con cura chirurgica. Non sorride quasi mai, ma quando lo fa è peggio. Ha l'abitudine di pulire un'arma mentre parla con i clienti — un gesto che non è mai casuale.
+Role: secondario</description>
     </monster>
     <monster>
         <name>LordMalebranche</name>
@@ -212,7 +219,8 @@ Parla poco e sceglie le parole con cura chirurgica. Non sorride quasi mai, ma qu
             <attack>Raggio Necromantico (distanza)|+9|3d10</attack>
         </action>
         <description>Governatore corrotto di Orcastle, Lord Malebranche è un uomo magro, pallido, con occhi infossati che sembrano calcolare il valore di ogni persona nella stanza. Veste abiti nobiliari scuri con ricami d'argento. Le sue mani sono sempre fredde — un effetto collaterale della magia necromante che pratica.
-Tratto distintivo: parla con cortesia impeccabile anche quando ordina atrocità. Non alza mai la voce. La sua calma è più inquietante di qualsiasi minaccia.</description>
+Tratto distintivo: parla con cortesia impeccabile anche quando ordina atrocità. Non alza mai la voce. La sua calma è più inquietante di qualsiasi minaccia.
+Role: antagonista principale</description>
     </monster>
     <monster>
         <name>LudmillaDawnshield</name>
@@ -230,7 +238,8 @@ Tratto distintivo: parla con cortesia impeccabile anche quando ordina atrocità.
         <cha>10</cha>
         <cr>1</cr>
         <description>Ludmilla Dawnshield ha poco più di vent'anni ma porta addosso l'esperienza di chi è cresciuta tra mappe nautiche e racconti di terre perdute. Capelli castani tagliati corti per praticità, pelle abbronzata dal sole e dal vento di mare, occhi chiari e attenti. Veste abiti da viaggio robusti e porta sempre al collo un medaglione con lo **stemma di famiglia**: una bilancia sovrapposta a un'onda marina.
-Parla con entusiasmo quando si tratta di esplorazione e storia, ma diventa seria e misurata quando il discorso tocca la sua famiglia o Svoalbard. Ha una determinazione silenziosa che la rende affidabile nei momenti critici.</description>
+Parla con entusiasmo quando si tratta di esplorazione e storia, ma diventa seria e misurata quando il discorso tocca la sua famiglia o Svoalbard. Ha una determinazione silenziosa che la rende affidabile nei momenti critici.
+Role: alleato</description>
     </monster>
     <monster>
         <name>MalachiasOmbrascura</name>
@@ -258,7 +267,8 @@ Parla con entusiasmo quando si tratta di esplorazione e storia, ma diventa seria
             <text>come azione bonus, può conferire a una creatura entro 9m / 30ft un bonus di 1d4 a un tiro per colpire o TS (3 usi/giorno).</text>
         </trait>
         <description>Un dragonide dall'aria dimessa che si fa chiamare Elemir Strunz per nascondere la sua vera identità. Si mescola tra i seguaci di Axel Ruby nella zona Est, cercando di passare inosservato. Ha una cicatrice a forma di stella sul polpaccio sinistro — un segno che potrebbe tradirlo se qualcuno sa cosa cercare.
-Tratto distintivo: parla poco e sceglie le parole con cura. Quando mente, tende a toccarsi il polpaccio sinistro — un tell che giocatori attenti possono notare.</description>
+Tratto distintivo: parla poco e sceglie le parole con cura. Quando mente, tende a toccarsi il polpaccio sinistro — un tell che giocatori attenti possono notare.
+Role: NPC alleato ambiguo</description>
     </monster>
     <monster>
         <name>MesusuMercone</name>
@@ -278,7 +288,8 @@ Tratto distintivo: parla poco e sceglie le parole con cura. Quando mente, tende 
         <languages>qualsiasi una (di solito Common)</languages>
         <cr>1/8</cr>
         <description>Mesusu Mercone è il capitano della nave volante *Airborne*. Bassa e massiccia come ci si aspetta da una nana, porta i capelli raccolti in trecce strette sotto un elmo di cuoio rinforzato. Ha mani callose da marinaio e una voce che taglia il vento di prua senza bisogno di urlare. Veste una giubba militare logora ma pulita, con l'insegna dell'Airborne cucita sulla spalla.
-Parla in modo diretto, senza fronzoli. Non perde tempo con le cortesie ma non è scortese — semplicemente efficiente. Ha l'abitudine di tamburellare le dita sul pomolo della spada quando qualcuno parla troppo.</description>
+Parla in modo diretto, senza fronzoli. Non perde tempo con le cortesie ma non è scortese — semplicemente efficiente. Ha l'abitudine di tamburellare le dita sul pomolo della spada quando qualcuno parla troppo.
+Role: secondario</description>
     </monster>
     <monster>
         <name>MirandaEmerald</name>
@@ -307,7 +318,8 @@ Parla in modo diretto, senza fronzoli. Non perde tempo con le cortesie ma non è
         </trait>
         <description>Donna snella, lineamenti affilati, capelli neri raccolti in una treccia stretta. Occhi verdi — dello stesso colore dello smeraldo che porta come spilla sul mantello. Veste con eleganza sobria, sempre in nero e verde scuro. Le mani sono curate, le unghie corte — mani da studiosa, non da combattente.
 Parla con calma misurata, ogni parola scelta con precisione chirurgica. Non alza mai la voce. Sorride raramente, e quando lo fa è un sorriso che non raggiunge gli occhi.
-Tratto distintivo: fredda e calcolatrice. Non agisce mai d'impulso. Ogni mossa è pianificata tre passi avanti.</description>
+Tratto distintivo: fredda e calcolatrice. Non agisce mai d'impulso. Ogni mossa è pianificata tre passi avanti.
+Role: leader della banda degli Emerald (ovest di Orcastle)</description>
     </monster>
     <monster>
         <name>OrlommGlittergear</name>
@@ -324,7 +336,8 @@ Tratto distintivo: fredda e calcolatrice. Non agisce mai d'impulso. Ogni mossa �
         <wis>10</wis>
         <cha>10</cha>
         <cr>1</cr>
-        <description>Gnomo entusiasta e curioso, famoso per aver navigato rotte sconosciute. Basso anche per uno gnomo, con occhi vivaci e una barba corta sempre arruffata dal vento. Parla velocemente e si entusiasma per qualsiasi cosa — una nuova rotta, una tempesta in arrivo, un mostro marino all'orizzonte. Per lui tutto è un'avventura.</description>
+        <description>Gnomo entusiasta e curioso, famoso per aver navigato rotte sconosciute. Basso anche per uno gnomo, con occhi vivaci e una barba corta sempre arruffata dal vento. Parla velocemente e si entusiasma per qualsiasi cosa — una nuova rotta, una tempesta in arrivo, un mostro marino all'orizzonte. Per lui tutto è un'avventura.
+Role: capitano della nave La Nuova Speranza</description>
     </monster>
     <monster>
         <name>OthranVorash</name>
@@ -353,7 +366,8 @@ Tratto distintivo: fredda e calcolatrice. Non agisce mai d'impulso. Ogni mossa �
             <attack>Pugnale (mischia/distanza)|+6|1d4+3</attack>
         </action>
         <description>Othran è un mezzelfo dal portamento elegante e lo sguardo calcolatore. I tratti elfici sono appena accennati — orecchie leggermente a punta, lineamenti affilati — ma i suoi occhi hanno una luce innaturale, un riflesso verdastro che tradisce il patto con Vecna. Veste di scuro, pratico, senza ostentazione.
-Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazione fosse un interrogatorio. Ha l'abitudine di fissare le persone in silenzio prima di rispondere — un trucco per metterle a disagio.</description>
+Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazione fosse un interrogatorio. Ha l'abitudine di fissare le persone in silenzio prima di rispondere — un trucco per metterle a disagio.
+Role: antagonista ricorrente</description>
     </monster>
     <monster>
         <name>SirAlaric</name>
@@ -372,7 +386,8 @@ Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazion
         <cr>1</cr>
         <description>Sir Alaric si presenta come un uomo austero e devoto, con capelli grigi tagliati corti e occhi chiari che trasmettono autorità. Indossa le vesti cerimoniali dei Custodi dell'Equilibrio con una naturalezza che ispira fiducia. La sua voce è calma, misurata — ogni parola sembra pesata e giusta.
 Sotto la facciata, Alaric è un uomo consumato dall'ambizione. I suoi occhi tradiscono un'avidità che nessuna preghiera può nascondere, se si sa dove guardare.
-Tratto distintivo: ha l'abitudine di congiungere le mani come in preghiera quando parla — un gesto che i suoi seguaci trovano rassicurante, ma che in realtà è un tic nervoso che tradisce il calcolo dietro ogni parola.</description>
+Tratto distintivo: ha l'abitudine di congiungere le mani come in preghiera quando parla — un gesto che i suoi seguaci trovano rassicurante, ma che in realtà è un tic nervoso che tradisce il calcolo dietro ogni parola.
+Role: antagonista</description>
     </monster>
     <monster>
         <name>SirAldric</name>
@@ -413,7 +428,8 @@ Tratto distintivo: ha l'abitudine di congiungere le mani come in preghiera quand
             <text>Sir Aldric effettua due attacchi con lo Spadone Spettrale.</text>
         </action>
         <description>Sir Aldric è un guerriero trasformato in spirito vendicativo. Appare come una figura eterea dal volto pallido e dagli occhi malinconici, avvolto in un'armatura spettrale che emana una luce fredda e bluastra. La sua spada è incorporea ma taglia come acciaio. Incarna il confine tra sacralità e inquietudine — un guardiano che non ha scelto il suo destino ma lo accetta con solennità.
-Tratto distintivo: parla con voce cavernosa e misurata, come un giudice che ha già emesso la sentenza. Non è ostile per natura — è ostile per dovere.</description>
+Tratto distintivo: parla con voce cavernosa e misurata, come un giudice che ha già emesso la sentenza. Non è ostile per natura — è ostile per dovere.
+Role: guardiano del Monile d'Oro di Ostegard</description>
     </monster>
     <monster>
         <name>ZalharaLorenn</name>
@@ -434,7 +450,8 @@ Tratto distintivo: parla con voce cavernosa e misurata, come un giudice che ha g
         <cr>1</cr>
         <description>Donna di mezza età, aspetto anonimo e rassicurante — esattamente come vuole lei. Capelli castani raccolti, occhiali tondi, abiti da studiosa modesti ma puliti. Porta sempre una borsa di cuoio piena di pergamene e libri. Parla con tono pacato e colto, citando testi sacri di Tyr con disinvoltura.
 Al collo porta un anello appeso a una catenina — l'**Anello dell'Ombra Evanescente**. Se qualcuno chiede, dice che è un ricordo di famiglia. L'anello reca un'incisione: *&quot;gira a sinistra&quot;*.
-Tratto distintivo: è così convincente nel suo ruolo di studiosa che persino i sacerdoti di Tyr la trovano credibile. La sua arma migliore è la fiducia che ispira.</description>
+Tratto distintivo: è così convincente nel suo ruolo di studiosa che persino i sacerdoti di Tyr la trovano credibile. La sua arma migliore è la fiducia che ispira.
+Role: spia al servizio di Vecna</description>
     </monster>
     <monster>
         <name>Zikle</name>
@@ -452,6 +469,7 @@ Tratto distintivo: è così convincente nel suo ruolo di studiosa che persino i 
         <cha>10</cha>
         <cr>1</cr>
         <description>In vita, Zikle era un mago goblin di potere straordinario — piccolo di statura ma immenso di intelletto e ambizione. Come wraith, appare come un'ombra traslucida verdastra con tratti goblinoidi ancora riconoscibili: orecchie a punta, occhi incavati che brillano di una luce spettrale fredda, mani scheletriche che si muovono come se stessero ancora tracciando formule arcane nell'aria.
-La sua voce è un sussurro rauco e metallico, interrotto da scoppi di rabbia improvvisa. Alterna momenti di lucidità brillante a esplosioni di furia cieca — il tradimento che lo ha ucciso lo consuma ancora.</description>
+La sua voce è un sussurro rauco e metallico, interrotto da scoppi di rabbia improvvisa. Alterna momenti di lucidità brillante a esplosioni di furia cieca — il tradimento che lo ha ucciso lo consuma ancora.
+Role: secondario</description>
     </monster>
 </compendium>

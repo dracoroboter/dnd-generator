@@ -47,6 +47,7 @@
             <name>Flauto Magico (action)</name>
             <text>Target: one creature Korex can see within 36m / 120ft / 24qd Saving throw: Wisdom DC 12 Failure: 4d6 psychic damage + charmed until the start of Korex's next turn Success: half damage, no charm</text>
         </action>
-        <description>Tall, thin, long black hair tied with a stolen silk ribbon. Permanent smile, eyes that never smile. Speaks as if always on stage — melodic voice, theatrical pauses, sweeping gestures. Wears elegant clothes stained with sewer filth. His distinctive trait: he never stops humming, not even when in danger.</description>
+        <description>Tall, thin, long black hair tied with a stolen silk ribbon. Permanent smile, eyes that never smile. Speaks as if always on stage — melodic voice, theatrical pauses, sweeping gestures. Wears elegant clothes stained with sewer filth. His distinctive trait: he never stops humming, not even when in danger.
+Role: main antagonist</description>
     </monster>
 </compendium>

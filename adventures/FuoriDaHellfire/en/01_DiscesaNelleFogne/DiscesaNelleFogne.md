@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# Discesa nelle Fogne
+# Descent into the Sewers
 
 ## Description
 

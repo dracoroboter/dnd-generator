@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# Episode 1 — Le Fogne di Fianus
+# Episode 1 — The Sewers of Fianus
 
 ## Description
 

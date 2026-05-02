@@ -29,6 +29,7 @@
             <text>Attacco: +2, portata 0 Danni: 2d6 perforanti (o 1d6 se lo sciame ha metà PF o meno)</text>
             <attack>Morsi (mischia)|+2|2d6</attack>
         </action>
-        <description>Una massa di ratti che si muove come un'unica creatura. Occhi rossi, squittii incessanti. Copre il pavimento e si arrampica sulle gambe dei PG.</description>
+        <description>Una massa di ratti che si muove come un'unica creatura. Occhi rossi, squittii incessanti. Copre il pavimento e si arrampica sulle gambe dei PG.
+Role: servitore di Korex</description>
     </monster>
 </compendium>

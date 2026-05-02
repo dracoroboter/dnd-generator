@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# L'Anello del Conte
+# The Count's Ring
 
 ## Introduction
 

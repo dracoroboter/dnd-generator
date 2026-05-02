@@ -355,6 +355,11 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
         if "title" in manifest and lang in manifest["title"]:
             title = manifest["title"][lang]
         cover_subtitle = manifest.get("subtitle", {}).get(lang, i18n["pdf_subtitle"])
+        # Override frontmatter values from manifest for non-default languages
+        fm_overrides = manifest.get("frontmatter", {}).get(lang, {})
+        for k, v in fm_overrides.items():
+            if k in meta:
+                meta[k] = v
     else:
         cover_subtitle = i18n["pdf_subtitle"]
 

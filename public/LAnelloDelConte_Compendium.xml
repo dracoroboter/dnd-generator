@@ -46,7 +46,8 @@
 La sua personalità è un mosaico di racconti contraddittori: per alcuni è generoso, per altri è avaro, per altri ancora è folle. Gli ordini che manda sono incoerenti — a volte ragionevoli, a volte assurdi.
 **Running gag — il nome:** ogni volta che un NPC sta per dirlo, viene interrotto (rumore, starnuto, crollo, amnesia improvvisa). Le lettere ufficiali hanno il sigillo ma la firma è illeggibile.
 **Running gag — il volto:** nessun NPC lo ha mai visto di persona. I ritratti ufficiali sono sempre coperti, danneggiati, o girati al contrario.
-Il Conte NON è Dorian Valemarch. È un nobile locale, vassallo del Re, che governa Fianus Romanus.</description>
+Il Conte NON è Dorian Valemarch. È un nobile locale, vassallo del Re, che governa Fianus Romanus.
+Role: MacGuffin vivente, mandante</description>
     </monster>
     <monster>
         <name>SergiusArimano</name>
@@ -98,7 +99,8 @@ Il Conte NON è Dorian Valemarch. È un nobile locale, vassallo del Re, che gove
         <description>Il Sergio di Boris: maneggione, subdolo, muove i fili dietro le quinte. Ex proprietario de &quot;L'Immane Alabarda&quot;, vendeva pozioni di vigore e ritratti erotici personalizzati ai nobili di Fianus. Il Conte era un ottimo cliente — si è fatto fare un ritratto &quot;artistico&quot; che non ha mai pagato. La moglie del Conte (beghina) ha scoperto tutto e ha fatto imporre la &quot;Gabella Pudicitiae&quot; su tutte le merci birichine. Il Marchese Arimano da commerciante legittimo è diventato contrabbandiere, e ora si vendica.
 Ha trovato fortuitamente l'Anello del Conte nelle fogne e lo usa come strumento di una vendetta elaborata — una caccia al tesoro pubblica che umilia il Conte. Ha ancora il ritratto non pagato e lo usa come leva.
 Intelligentissimo, sempre tre passi avanti a tutti. Parla poco, sorride molto — il sorriso di chi sa qualcosa che tu non sai. Non si sporca le mani se può evitarlo. Vanitoso nella sua astuzia: lascia indizi perché vuole che sappiano che è stato lui. La doppia S è la sua firma — ego travestito da anonimato.
-**Maestro del camuffamento:** si traveste regolarmente da Terzilio il verduraio (e da altri). Ha una rete di informatori nel borgo (tipo Varys/GOT). Possiede un oggetto magico di invisibilità. A volte i PG parlano con lui senza saperlo.</description>
+**Maestro del camuffamento:** si traveste regolarmente da Terzilio il verduraio (e da altri). Ha una rete di informatori nel borgo (tipo Varys/GOT). Possiede un oggetto magico di invisibilità. A volte i PG parlano con lui senza saperlo.
+Role: antagonista nascosto</description>
     </monster>
     <monster>
         <name>SirGorimVel</name>
@@ -150,7 +152,8 @@ Frasi ricorrenti riadattate da Ferretti:
 - &quot;Dai dai dai, che ce la facciamo&quot; (non ci crede)
 - &quot;Splendido. Meraviglioso.&quot; (sarcastico)
 - &quot;Ma che state a fa'?&quot;
-- &quot;Io non ce la faccio più con voi&quot;</description>
+- &quot;Io non ce la faccio più con voi&quot;
+Role: alleato principale, committente</description>
     </monster>
     <monster>
         <name>Thug</name>
@@ -187,6 +190,7 @@ Frasi ricorrenti riadattate da Ferretti:
             <text>Attacco: +2, distanza 100/400 ft. Danni: 1d10 perforanti</text>
             <attack>Balestra pesante (distanza)|+2|1d10</attack>
         </action>
-        <description>Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Borgo. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *&quot;Non ci pagano abbastanza per questo!&quot;*</description>
+        <description>Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Borgo. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *&quot;Non ci pagano abbastanza per questo!&quot;*
+Role: scagnozzo di Sergius</description>
     </monster>
 </compendium>

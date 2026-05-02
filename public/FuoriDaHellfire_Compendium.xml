@@ -29,7 +29,8 @@
             <text>Attacco: +4, portata 1,5m / 5ft / 1qd Danni: 1d4+2 perforanti</text>
             <attack>Morso (mischia)|+4|1d4+2</attack>
         </action>
-        <description>Ratto gigante con occhi rossi e comportamento innaturale. Più aggressivo di un ratto normale, attacca in branco senza paura. Natura CD 10 per capire che è corrotto, non semplicemente rabbioso.</description>
+        <description>Ratto gigante con occhi rossi e comportamento innaturale. Più aggressivo di un ratto normale, attacca in branco senza paura. Natura CD 10 per capire che è corrotto, non semplicemente rabbioso.
+Role: servitore di Korex (corrotto dalla sua musica)</description>
     </monster>
     <monster>
         <name>MON_SciameDiRatti</name>
@@ -60,7 +61,8 @@
             <text>Attacco: +2, portata 0 Danni: 2d6 perforanti (o 1d6 se lo sciame ha metà PF o meno)</text>
             <attack>Morsi (mischia)|+2|2d6</attack>
         </action>
-        <description>Una massa di ratti che si muove come un'unica creatura. Occhi rossi, squittii incessanti. Copre il pavimento e si arrampica sulle gambe dei PG.</description>
+        <description>Una massa di ratti che si muove come un'unica creatura. Occhi rossi, squittii incessanti. Copre il pavimento e si arrampica sulle gambe dei PG.
+Role: servitore di Korex</description>
     </monster>
     <monster>
         <name>MON_TeppistaCharmato</name>
@@ -87,7 +89,8 @@
             <text>Attacco: +3, portata 1,5m / 5ft / 1qd Danni: 1d6+1 contundenti</text>
             <attack>Mazza (mischia)|+3|1d6+1</attack>
         </action>
-        <description>Gente del porto di Oakshore — scaricatori, pescatori, marinai — finita sotto l'incantesimo di Korex. Occhi vitrei, movimenti meccanici, combattono senza parlare. Se Korex cade o il charm si spezza, si risvegliano confusi e spaventati.</description>
+        <description>Gente del porto di Oakshore — scaricatori, pescatori, marinai — finita sotto l'incantesimo di Korex. Occhi vitrei, movimenti meccanici, combattono senza parlare. Se Korex cade o il charm si spezza, si risvegliano confusi e spaventati.
+Role: servitore di Korex (charmato)</description>
     </monster>
     <monster>
         <name>FinDitasvelte</name>
@@ -134,7 +137,8 @@
         </action>
         <description>Basso anche per un halfling, capelli rossi arruffati, occhi marroni sempre in movimento. Sorriso da furbetto permanente. Parla veloce, gesticola troppo, e ha l'abitudine di rigirare una moneta tra le dita quando è nervoso. Veste pratico: gilet con troppe tasche, stivali morbidi, niente che faccia rumore.
 Tratto distintivo: non riesce a non toccare le cose. Se c'è un oggetto luccicante, lo prende. Se c'è un bottone, lo preme. Se c'è un anello su un cadavere, lo sfila. Non per avidità — per curiosità compulsiva.
-Frase ricorrente: *&quot;Che male può fare dare un'occhiata?&quot;*</description>
+Frase ricorrente: *&quot;Che male può fare dare un'occhiata?&quot;*
+Role: NPC companion del party</description>
     </monster>
     <monster>
         <name>JasonAccordion</name>
@@ -186,7 +190,8 @@ Manipolatore supremo: vantaggio alle prove di Inganno e Persuasione. Le creature
 Possessione progressiva: vedi sezione &quot;Possessione progressiva&quot; sopra. Jason non combatte direttamente — prende il controllo del portatore.</text>
         </action>
         <description>In vita, Jason Accordion era un uomo di bell'aspetto con un sorriso che non raggiungeva mai gli occhi — il tipo che entra in una stanza e tutti si girano a guardarlo. Voce calda, modi impeccabili, sempre la parola giusta al momento giusto.
-Ora è solo una voce nell'anello. Sussurra, suggerisce, lusinga. Il tono è quello di un vecchio amico — paziente, comprensivo, mai aggressivo. All'inizio. Con il tempo diventa più insistente, più presente, più *lui* e meno il portatore.</description>
+Ora è solo una voce nell'anello. Sussurra, suggerisce, lusinga. Il tono è quello di un vecchio amico — paziente, comprensivo, mai aggressivo. All'inizio. Con il tempo diventa più insistente, più presente, più *lui* e meno il portatore.
+Role: villain della saga — entità nell'Anello del Virtuoso</description>
     </monster>
     <monster>
         <name>Korex</name>
@@ -237,7 +242,8 @@ Ora è solo una voce nell'anello. Sussurra, suggerisce, lusinga. Il tono è quel
             <name>Flauto Magico (azione)</name>
             <text>Bersaglio: una creatura che Korex può vedere entro 36m / 120ft / 24qd Tiro salvezza: Saggezza CD 12 Fallimento: 4d6 danni psichici + charmato fino all'inizio del prossimo turno di Korex Successo: metà dei danni, nessun charm</text>
         </action>
-        <description>Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco — voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.</description>
+        <description>Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco — voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.
+Role: antagonista principale</description>
     </monster>
     <monster>
         <name>UdoHutchinson</name>
@@ -275,6 +281,7 @@ Ora è solo una voce nell'anello. Sussurra, suggerisce, lusinga. Il tono è quel
             <attack>Balestra pesante (distanza)|+3|1d10+1</attack>
         </action>
         <description>Uomo robusto sulla cinquantina, capelli grigi tagliati corti, cicatrice sul mento. Parla poco, agisce in fretta. Porta un'armatura a scaglie ammaccata e una spada lunga che ha visto tempi migliori. Appena tornato a Oakshore da un viaggio personale, si è trovato il quartiere portuale nel caos e un elfo in fuga nelle fogne.
-Frase ricorrente: *&quot;Non ho tempo per queste stronzate.&quot;*</description>
+Frase ricorrente: *&quot;Non ho tempo per queste stronzate.&quot;*
+Role: NPC companion del party (sceriffo di Oakshore)</description>
     </monster>
 </compendium>

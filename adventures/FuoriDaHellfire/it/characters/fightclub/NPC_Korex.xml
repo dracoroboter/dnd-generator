@@ -49,6 +49,7 @@
             <name>Flauto Magico (azione)</name>
             <text>Bersaglio: una creatura che Korex può vedere entro 36m / 120ft / 24qd Tiro salvezza: Saggezza CD 12 Fallimento: 4d6 danni psichici + charmato fino all'inizio del prossimo turno di Korex Successo: metà dei danni, nessun charm</text>
         </action>
-        <description>Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco — voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.</description>
+        <description>Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco — voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.
+Role: antagonista principale</description>
     </monster>
 </compendium>

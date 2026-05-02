@@ -32,7 +32,7 @@ Entrambi i piani sono assistiti da AI.
 | `LAnelloDelConte` | Saga puntata 1 | Normalizzata | it, en | Prima avventura completa |
 | `FuoriDaHellfire` | One-shot (2 moduli) | Normalizzata | it, en | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4. PDF generato. |
 | `IlReSpezzato` | Saga puntata 2 | Da migrare | — | Draft in `legacy/` formato `.odt` |
-| `LoScettroDityr` | Saga (4 moduli A/B/C/D) | Normalizzata | it, en | Versione "Draco" — 4 moduli, 15 NPC, 29 asset grafici |
+| `LoScettroDityr` | Saga (4 moduli A/B/C/D) | Normalizzata | it, en | Versione "Draco" — 4 moduli, 16 NPC, 1 MON, 29 asset grafici. Tradotta IT+EN |
 
 La saga "Lo Scettro di Tyr" copre `LAnelloDelConte` → `IlReSpezzato` → `LoScettroDityr` in sequenza narrativa.
 
@@ -85,7 +85,7 @@ optimize-images.py LAnelloDelConte                  →  genera versioni -lowres
 
 Il progetto supporta avventure in italiano e inglese. La struttura multilingua si basa su:
 
-- **`manifest.json`** nella root di ogni avventura: dichiara le lingue disponibili, titolo e sottotitolo per lingua
+- **`manifest.json`** nella root di ogni avventura: dichiara le lingue disponibili, titolo, sottotitolo e valori frontmatter tradotti (Duration, Structure, Tone) per lingua
 - **Directory `it/` e `en/`** sotto ogni avventura: contengono il testo (.md), le schede NPC/MON e i file generati (XML, stat block) specifici per lingua
 - **Immagini condivise**: `img/`, `maps/*.png`, `characters/img/` restano nella root dell'avventura, comuni a tutte le lingue
 - **Meta-documenti** (README, PlanBook, AdventureBook, DM_Prep) restano nella root dell'avventura
@@ -270,3 +270,4 @@ Il file `tech/data/compendium/Sources/SystemReferenceDocument/all-srd.xml` conti
 In rete sono **dracoroboter** da più tempo di quanto vorrei ammettere. Gioco a Dungeons & Dragons da quasi altrettanto.
 
 Per contatti: `dracoroboter(at)gmail.com` — nell'improbabile caso qualcuno scriva, aggiungete `[dnd-generator]` nell'oggetto così riesco a distinguervi dallo spam.
+oggetto così riesco a distinguervi dallo spam.

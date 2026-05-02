@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# La Festa del Borgo — Map of the Mercato Centrale Square
+# The Village Festival — Map of the Mercato Centrale Square
 
 Main square of Fianus Romanus during the Festa del Grazie.
 
@@ -20,7 +20,7 @@ Warm daylight, no people or tokens. Fantasy medieval style. Grid overlay with 5f
 
 ## Notes
 
-- Used in Episode 2 — La Festa del Borgo
+- Used in Episode 2 — The Village Festival
 - The stage is where Sergius/Grigius gives the speech
 - The notice board is on the west facade (Stop 1 treasure hunt)
 - The spice stall is to the south-east under the porticos (Stop 2 treasure hunt)

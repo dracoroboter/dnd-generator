@@ -29,6 +29,7 @@
             <text>Attack: +4, reach 1.5m / 5ft / 1qd Damage: 1d4+2 piercing</text>
             <attack>Bite (melee)|+4|1d4+2</attack>
         </action>
-        <description>Giant rat with red eyes and unnatural behavior. More aggressive than a normal rat, attacks in packs without fear. Nature DC 10 to understand it's corrupted, not simply rabid.</description>
+        <description>Giant rat with red eyes and unnatural behavior. More aggressive than a normal rat, attacks in packs without fear. Nature DC 10 to understand it's corrupted, not simply rabid.
+Role: corrupted minion of Korex</description>
     </monster>
 </compendium>

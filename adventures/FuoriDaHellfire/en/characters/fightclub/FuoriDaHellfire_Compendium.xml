@@ -29,7 +29,8 @@
             <text>Attack: +4, reach 1.5m / 5ft / 1qd Damage: 1d4+2 piercing</text>
             <attack>Bite (melee)|+4|1d4+2</attack>
         </action>
-        <description>Giant rat with red eyes and unnatural behavior. More aggressive than a normal rat, attacks in packs without fear. Nature DC 10 to understand it's corrupted, not simply rabid.</description>
+        <description>Giant rat with red eyes and unnatural behavior. More aggressive than a normal rat, attacks in packs without fear. Nature DC 10 to understand it's corrupted, not simply rabid.
+Role: corrupted minion of Korex</description>
     </monster>
     <monster>
         <name>Swarm of Rats</name>
@@ -60,7 +61,8 @@
             <text>Attack: +2, reach 0 Damage: 2d6 piercing (or 1d6 if the swarm has half HP or less)</text>
             <attack>Bites (melee)|+2|2d6</attack>
         </action>
-        <description>A mass of rats moving as a single creature. Red eyes, incessant squeaking. Covers the floor and climbs up the PCs' legs.</description>
+        <description>A mass of rats moving as a single creature. Red eyes, incessant squeaking. Covers the floor and climbs up the PCs' legs.
+Role: Korex's minion</description>
     </monster>
     <monster>
         <name>Charmed Thug</name>
@@ -87,7 +89,8 @@
             <text>Attack: +3, reach 1.5m / 5ft / 1qd Damage: 1d6+1 bludgeoning</text>
             <attack>Mace (melee)|+3|1d6+1</attack>
         </action>
-        <description>People from the port of Oakshore — dockworkers, fishermen, sailors — who fell under Korex's spell. Glassy eyes, mechanical movements, fight without speaking. If Korex falls or the charm breaks, they wake up confused and frightened.</description>
+        <description>People from the port of Oakshore — dockworkers, fishermen, sailors — who fell under Korex's spell. Glassy eyes, mechanical movements, fight without speaking. If Korex falls or the charm breaks, they wake up confused and frightened.
+Role: Korex's minion (charmed)</description>
     </monster>
     <monster>
         <name>FinDitasvelte</name>
@@ -134,7 +137,8 @@
         </action>
         <description>Short even for a halfling, messy red hair, brown eyes always darting around. Permanent sly grin. Talks fast, gestures too much, and has a habit of flipping a coin between his fingers when nervous. Dresses practically: vest with too many pockets, soft boots, nothing that makes noise.
 Distinctive trait: he can't help touching things. If there's a shiny object, he grabs it. If there's a button, he presses it. If there's a ring on a corpse, he slips it off. Not out of greed — out of compulsive curiosity.
-Recurring phrase: *&quot;What harm could a little look do?&quot;*</description>
+Recurring phrase: *&quot;What harm could a little look do?&quot;*
+Role: NPC party companion</description>
     </monster>
     <monster>
         <name>JasonAccordion</name>
@@ -183,7 +187,8 @@ Recurring phrase: *&quot;What harm could a little look do?&quot;*</description>
             <text>Damage: 2d6 psychic per night Effect: no benefit from long rest</text>
         </action>
         <description>In life, Jason Accordion was a handsome man with a smile that never reached his eyes — the type who walks into a room and everyone turns to look. Warm voice, impeccable manners, always the right word at the right time.
-Now he is just a voice in the ring. He whispers, suggests, flatters. The tone is that of an old friend — patient, understanding, never aggressive. At first. Over time he becomes more insistent, more present, more *him* and less the wearer.</description>
+Now he is just a voice in the ring. He whispers, suggests, flatters. The tone is that of an old friend — patient, understanding, never aggressive. At first. Over time he becomes more insistent, more present, more *him* and less the wearer.
+Role: saga villain — entity in the Ring of the Virtuoso</description>
     </monster>
     <monster>
         <name>Korex</name>
@@ -232,7 +237,8 @@ Now he is just a voice in the ring. He whispers, suggests, flatters. The tone is
             <name>Flauto Magico (action)</name>
             <text>Target: one creature Korex can see within 36m / 120ft / 24qd Saving throw: Wisdom DC 12 Failure: 4d6 psychic damage + charmed until the start of Korex's next turn Success: half damage, no charm</text>
         </action>
-        <description>Tall, thin, long black hair tied with a stolen silk ribbon. Permanent smile, eyes that never smile. Speaks as if always on stage — melodic voice, theatrical pauses, sweeping gestures. Wears elegant clothes stained with sewer filth. His distinctive trait: he never stops humming, not even when in danger.</description>
+        <description>Tall, thin, long black hair tied with a stolen silk ribbon. Permanent smile, eyes that never smile. Speaks as if always on stage — melodic voice, theatrical pauses, sweeping gestures. Wears elegant clothes stained with sewer filth. His distinctive trait: he never stops humming, not even when in danger.
+Role: main antagonist</description>
     </monster>
     <monster>
         <name>UdoHutchinson</name>
@@ -270,6 +276,7 @@ Now he is just a voice in the ring. He whispers, suggests, flatters. The tone is
             <attack>Heavy Crossbow (ranged)|+3|1d10+1</attack>
         </action>
         <description>Stocky man in his fifties, short-cropped gray hair, scar on his chin. Speaks little, acts fast. Wears a dented scale mail and a longsword that has seen better days. Just returned to Oakshore from a personal trip, he found the harbor district in chaos and an elf on the run in the sewers.
-Recurring phrase: *&quot;I don't have time for this bullshit.&quot;*</description>
+Recurring phrase: *&quot;I don't have time for this bullshit.&quot;*
+Role: NPC party companion (sheriff of Oakshore)</description>
     </monster>
 </compendium>

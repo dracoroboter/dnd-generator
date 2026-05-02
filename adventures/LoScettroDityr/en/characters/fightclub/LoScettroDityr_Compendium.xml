@@ -37,7 +37,8 @@
             <text>Range: 4.5m / 15ft / 3qd Saving Throw: Dexterity DC 15 Failure: 3d8+6 necrotic damage Success: half damage</text>
         </action>
         <description>A huge crouching stone golem, clearly wounded — deep cracks run through its body and stone fragments are missing from its torso and arms. It was a sacred guardian of the Temple of Lumina, now pervaded by Vecna's dark influence. An aura of necromantic energy surrounds it.
-It does not speak except in single words and monosyllables. It has a rough understanding of human language, not intelligent enough to hold a conversation. It recognizes bearers of the Scepter and their companions as friends and defends them from anyone who claims to want to take it from them.</description>
+It does not speak except in single words and monosyllables. It has a rough understanding of human language, not intelligent enough to hold a conversation. It recognizes bearers of the Scepter and their companions as friends and defends them from anyone who claims to want to take it from them.
+Role: temple guardian, potential ally</description>
     </monster>
     <monster>
         <name>AxelRuby</name>
@@ -58,7 +59,8 @@ It does not speak except in single words and monosyllables. It has a rough under
         <cr>1/2</cr>
         <description>A massive man, arms covered in arena scars. Square jaw, nose broken multiple times, small calculating eyes that betray an intelligence his physique doesn't suggest. He wears a studded leather vest over a worn shirt and a rough ruby hanging from his neck — the gang's symbol.
 He speaks little and in a low voice, forcing his interlocutors to lean in. When he laughs, it's a short, unpleasant sound. He has a habit of cracking his knuckles before making a decision.
-Distinctive trait: brutal and cunning in equal measure. He's not the stupid brute he appears to be — he's a seasoned smuggler who learned to survive in the arena and on the streets.</description>
+Distinctive trait: brutal and cunning in equal measure. He's not the stupid brute he appears to be — he's a seasoned smuggler who learned to survive in the arena and on the streets.
+Role: leader of the Ruby gang (east Orcastle)</description>
     </monster>
     <monster>
         <name>BrotherThaddeus</name>
@@ -77,7 +79,8 @@ Distinctive trait: brutal and cunning in equal measure. He's not the stupid brut
         <cr>1</cr>
         <description>An elderly man, thin, with calloused hands of someone who has worked his entire life. Shaved head, short white beard. He still wears the insignia of the order of Tyr — a **stylized severed hand** embroidered on his tunic — despite having left the order. He says he wears it &quot;to remember what it should have been, not what it became.&quot;
 He speaks with a calm and measured voice, choosing his words carefully. He has the gaze of someone who has seen too much and decided not to look away. He drinks herbal teas, never alcohol.
-Distinctive trait: disarming honesty. He tells the truth even when it would be more convenient to lie — and that's precisely what makes him hard to believe.</description>
+Distinctive trait: disarming honesty. He tells the truth even when it would be more convenient to lie — and that's precisely what makes him hard to believe.
+Role: informant, former disciple of Tyr</description>
     </monster>
     <monster>
         <name>FrankiePartenope</name>
@@ -104,7 +107,8 @@ Distinctive trait: disarming honesty. He tells the truth even when it would be m
             <attack>Battleaxe (melee)|+8|1d10+5</attack>
         </action>
         <description>A former adventurer with an imposing physique, Frankie is a people's hero — a sort of local Robin Hood. He carries himself proudly despite the scars and marks of imprisonment in Orcastle. He speaks in a direct tone, no frills, and has a visceral hatred for Lord Malebranche that seeps from every word.
-Distinctive trait: he still bears the marks of the explosive collar on his neck — a band of reddened skin he touches constantly, as if to remind himself he's no longer a prisoner.</description>
+Distinctive trait: he still bears the marks of the explosive collar on his neck — a band of reddened skin he touches constantly, as if to remind himself he's no longer a prisoner.
+Role: allied NPC of the party</description>
     </monster>
     <monster>
         <name>HelmutVanHeuten</name>
@@ -122,7 +126,8 @@ Distinctive trait: he still bears the marks of the explosive collar on his neck 
         <cha>10</cha>
         <cr>1</cr>
         <description>Helmut Van Heuten is a wealthy and respected merchant, in his sixties, with a well-groomed white beard and fine but unpretentious clothing. He always wears a ring with the symbol of Tyr — a set of scales — and has the habit of offering hot tea to anyone who sits in his study. He has scribe's hands, not a warrior's, and a calm, gentle voice that inspires trust.
-He is courteous, methodical, and genuinely devout. He is not an adventurer and doesn't pretend to be — he knows his role is to provide resources, not to wield swords.</description>
+He is courteous, methodical, and genuinely devout. He is not an adventurer and doesn't pretend to be — he knows his role is to provide resources, not to wield swords.
+Role: secondary</description>
     </monster>
     <monster>
         <name>KreigHighlander</name>
@@ -143,7 +148,8 @@ He is courteous, methodical, and genuinely devout. He is not an adventurer and d
         <cr>3</cr>
         <description>A tall and imposing man, military bearing even when seated. Short-cropped gray hair, groomed beard, a thin scar crossing his left temple. He always wears polished plate armor — even when it's not needed. Dark blue cloak with the Highlander crest: a falcon on a mountain background.
 He speaks with a booming voice, accustomed to giving orders and being obeyed. He looks down on his interlocutors — literally and figuratively. He has a habit of drumming his fingers on his sword hilt when bored.
-Distinctive trait: arrogant and overconfident to a fault. He systematically underestimates his opponents — a flaw that could cost him dearly.</description>
+Distinctive trait: arrogant and overconfident to a fault. He systematically underestimates his opponents — a flaw that could cost him dearly.
+Role: leader of the Castro (center of Orcastle); Count Wildforge in Module D</description>
     </monster>
     <monster>
         <name>Kurzum</name>
@@ -163,7 +169,8 @@ Distinctive trait: arrogant and overconfident to a fault. He systematically unde
         <languages>any one (usually Common)</languages>
         <cr>3</cr>
         <description>Kurzum is the owner of the *Giavellotto Fantasma*, a weapons shop that also serves as a reference point for those seeking unorthodox jobs. She has hard features, dark calculating eyes, and a thin scar crossing her left eyebrow. She wears a leather apron over a light chain shirt — always ready, even behind the counter.
-She speaks little and chooses her words with surgical precision. She almost never smiles, and when she does it's worse. She has a habit of cleaning a weapon while talking to customers — a gesture that is never casual.</description>
+She speaks little and chooses her words with surgical precision. She almost never smiles, and when she does it's worse. She has a habit of cleaning a weapon while talking to customers — a gesture that is never casual.
+Role: secondary</description>
     </monster>
     <monster>
         <name>LordMalebranche</name>
@@ -212,7 +219,8 @@ She speaks little and chooses her words with surgical precision. She almost neve
             <attack>Necrotic Ray (ranged)|+9|3d10</attack>
         </action>
         <description>Corrupt governor of Orcastle, Lord Malebranche is a thin, pale man with sunken eyes that seem to calculate the value of every person in the room. He wears dark noble garments with silver embroidery. His hands are always cold — a side effect of the necromantic magic he practices.
-Distinctive trait: he speaks with impeccable courtesy even when ordering atrocities. He never raises his voice. His calm is more unsettling than any threat.</description>
+Distinctive trait: he speaks with impeccable courtesy even when ordering atrocities. He never raises his voice. His calm is more unsettling than any threat.
+Role: main antagonist</description>
     </monster>
     <monster>
         <name>LudmillaDawnshield</name>
@@ -230,7 +238,8 @@ Distinctive trait: he speaks with impeccable courtesy even when ordering atrocit
         <cha>10</cha>
         <cr>1</cr>
         <description>Ludmilla Dawnshield is just over twenty but carries the experience of someone who grew up among nautical charts and tales of lost lands. Short-cropped brown hair for practicality, skin tanned by sun and sea wind, bright attentive eyes. She wears sturdy travel clothes and always wears a medallion around her neck with the **family crest**: a set of scales superimposed on a sea wave.
-She speaks with enthusiasm when it comes to exploration and history, but becomes serious and measured when the conversation touches on her family or Svoalbard. She has a quiet determination that makes her reliable in critical moments.</description>
+She speaks with enthusiasm when it comes to exploration and history, but becomes serious and measured when the conversation touches on her family or Svoalbard. She has a quiet determination that makes her reliable in critical moments.
+Role: ally</description>
     </monster>
     <monster>
         <name>MalachiasOmbrascura</name>
@@ -258,7 +267,8 @@ She speaks with enthusiasm when it comes to exploration and history, but becomes
             <text>as a bonus action, can grant a creature within 9m / 30ft a 1d4 bonus to an attack roll or saving throw (3 uses/day).</text>
         </trait>
         <description>A dragonborn with a subdued air who goes by Elemir Strunz to hide his true identity. He blends in among Axel Ruby's followers in the East zone, trying to go unnoticed. He has a star-shaped scar on his left calf — a mark that could betray him if someone knows what to look for.
-Distinctive trait: he speaks little and chooses his words carefully. When he lies, he tends to touch his left calf — a tell that attentive players can notice.</description>
+Distinctive trait: he speaks little and chooses his words carefully. When he lies, he tends to touch his left calf — a tell that attentive players can notice.
+Role: ambiguous allied NPC</description>
     </monster>
     <monster>
         <name>MesusuMercone</name>
@@ -278,7 +288,8 @@ Distinctive trait: he speaks little and chooses his words carefully. When he lie
         <languages>any one (usually Common)</languages>
         <cr>1/8</cr>
         <description>Mesusu Mercone is the captain of the flying ship *Airborne*. Short and stocky as expected of a dwarf, she wears her hair in tight braids under a reinforced leather helm. She has sailor's calloused hands and a voice that cuts through the headwind without needing to shout. She wears a worn but clean military jacket with the Airborne insignia sewn on the shoulder.
-She speaks directly, no frills. She doesn't waste time with pleasantries but isn't rude — simply efficient. She has a habit of drumming her fingers on her sword pommel when someone talks too much.</description>
+She speaks directly, no frills. She doesn't waste time with pleasantries but isn't rude — simply efficient. She has a habit of drumming her fingers on her sword pommel when someone talks too much.
+Role: secondary</description>
     </monster>
     <monster>
         <name>MirandaEmerald</name>
@@ -307,7 +318,8 @@ She speaks directly, no frills. She doesn't waste time with pleasantries but isn
         </trait>
         <description>A slender woman, sharp features, black hair pulled back in a tight braid. Green eyes — the same color as the emerald she wears as a brooch on her cloak. She dresses with understated elegance, always in black and dark green. Her hands are well-kept, nails short — a scholar's hands, not a fighter's.
 She speaks with measured calm, every word chosen with surgical precision. She never raises her voice. She rarely smiles, and when she does it's a smile that doesn't reach her eyes.
-Distinctive trait: cold and calculating. She never acts on impulse. Every move is planned three steps ahead.</description>
+Distinctive trait: cold and calculating. She never acts on impulse. Every move is planned three steps ahead.
+Role: leader of the Emerald gang (west Orcastle)</description>
     </monster>
     <monster>
         <name>OrlommGlittergear</name>
@@ -324,7 +336,8 @@ Distinctive trait: cold and calculating. She never acts on impulse. Every move i
         <wis>10</wis>
         <cha>10</cha>
         <cr>1</cr>
-        <description>An enthusiastic and curious gnome, famous for having navigated unknown routes. Short even for a gnome, with lively eyes and a short beard always ruffled by the wind. He speaks quickly and gets excited about anything — a new route, an approaching storm, a sea monster on the horizon. For him, everything is an adventure.</description>
+        <description>An enthusiastic and curious gnome, famous for having navigated unknown routes. Short even for a gnome, with lively eyes and a short beard always ruffled by the wind. He speaks quickly and gets excited about anything — a new route, an approaching storm, a sea monster on the horizon. For him, everything is an adventure.
+Role: captain of the ship La Nuova Speranza</description>
     </monster>
     <monster>
         <name>OthranVorash</name>
@@ -353,7 +366,8 @@ Distinctive trait: cold and calculating. She never acts on impulse. Every move i
             <attack>Dagger (melee/ranged)|+6|1d4+3</attack>
         </action>
         <description>Othran is a half-elf with an elegant bearing and a calculating gaze. The elven traits are barely hinted at — slightly pointed ears, sharp features — but his eyes have an unnatural light, a greenish reflection that betrays the pact with Vecna. He dresses in dark, practical clothing, without ostentation.
-Distinctive trait: he speaks in a low, measured tone, as if every conversation were an interrogation. He has a habit of staring at people in silence before answering — a trick to make them uncomfortable.</description>
+Distinctive trait: he speaks in a low, measured tone, as if every conversation were an interrogation. He has a habit of staring at people in silence before answering — a trick to make them uncomfortable.
+Role: recurring antagonist</description>
     </monster>
     <monster>
         <name>SirAlaric</name>
@@ -372,7 +386,8 @@ Distinctive trait: he speaks in a low, measured tone, as if every conversation w
         <cr>1</cr>
         <description>Sir Alaric presents himself as an austere and devout man, with short-cropped gray hair and clear eyes that convey authority. He wears the ceremonial robes of the Keepers of the Balance with a naturalness that inspires trust. His voice is calm, measured — every word seems weighed and just.
 Beneath the facade, Alaric is a man consumed by ambition. His eyes betray a greed that no prayer can hide, if you know where to look.
-Distinctive trait: he has a habit of clasping his hands as if in prayer when he speaks — a gesture his followers find reassuring, but which is actually a nervous tic that betrays the calculation behind every word.</description>
+Distinctive trait: he has a habit of clasping his hands as if in prayer when he speaks — a gesture his followers find reassuring, but which is actually a nervous tic that betrays the calculation behind every word.
+Role: antagonist</description>
     </monster>
     <monster>
         <name>SirAldric</name>
@@ -413,7 +428,8 @@ Distinctive trait: he has a habit of clasping his hands as if in prayer when he 
             <text>Sir Aldric makes two attacks with the Spectral Greatsword.</text>
         </action>
         <description>Sir Aldric is a warrior transformed into a vengeful spirit. He appears as an ethereal figure with a pale face and melancholic eyes, wrapped in spectral armor that emanates a cold, bluish light. His sword is incorporeal but cuts like steel. He embodies the boundary between sacredness and unease — a guardian who didn't choose his fate but accepts it with solemnity.
-Distinctive trait: he speaks with a cavernous, measured voice, like a judge who has already passed sentence. He is not hostile by nature — he is hostile by duty.</description>
+Distinctive trait: he speaks with a cavernous, measured voice, like a judge who has already passed sentence. He is not hostile by nature — he is hostile by duty.
+Role: guardian of the Golden Brooch of Ostegard</description>
     </monster>
     <monster>
         <name>ZalharaLorenn</name>
@@ -434,7 +450,8 @@ Distinctive trait: he speaks with a cavernous, measured voice, like a judge who 
         <cr>1</cr>
         <description>A middle-aged woman, anonymous and reassuring in appearance — exactly as she wants. Brown hair pulled back, round glasses, modest but clean scholar's clothing. She always carries a leather bag full of scrolls and books. She speaks in a calm, cultured tone, citing sacred texts of Tyr with ease.
 Around her neck she wears a ring on a chain — the **Ring of the Evanescent Shadow**. If anyone asks, she says it's a family heirloom. The ring bears an inscription: *&quot;turn left.&quot;*
-Distinctive trait: she is so convincing in her role as a scholar that even Tyr's priests find her credible. Her best weapon is the trust she inspires.</description>
+Distinctive trait: she is so convincing in her role as a scholar that even Tyr's priests find her credible. Her best weapon is the trust she inspires.
+Role: spy in service of Vecna</description>
     </monster>
     <monster>
         <name>Zikle</name>
@@ -452,6 +469,7 @@ Distinctive trait: she is so convincing in her role as a scholar that even Tyr's
         <cha>10</cha>
         <cr>1</cr>
         <description>In life, Zikle was a goblin wizard of extraordinary power — small in stature but immense in intellect and ambition. As a wraith, he appears as a translucent greenish shadow with still-recognizable goblinoid features: pointed ears, sunken eyes that glow with a cold spectral light, skeletal hands that move as if still tracing arcane formulas in the air.
-His voice is a hoarse, metallic whisper, interrupted by sudden bursts of rage. He alternates between moments of brilliant lucidity and blind fury — the betrayal that killed him still consumes him.</description>
+His voice is a hoarse, metallic whisper, interrupted by sudden bursts of rage. He alternates between moments of brilliant lucidity and blind fury — the betrayal that killed him still consumes him.
+Role: secondary</description>
     </monster>
 </compendium>

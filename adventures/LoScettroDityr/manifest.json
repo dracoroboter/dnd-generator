@@ -9,5 +9,12 @@
   "subtitle": {
     "it": "Un'avventura Dungeons & Dragons 5e",
     "en": "A Dungeons & Dragons 5e adventure"
+  },
+  "frontmatter": {
+    "en": {
+      "Durata": "campaign (4 modules, 8-12 sessions)",
+      "Struttura": "linear",
+      "Tono": "dark fantasy, moral choices"
+    }
   }
 }

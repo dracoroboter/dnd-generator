@@ -25,6 +25,7 @@
             <text>Attack: +3, reach 1.5m / 5ft / 1qd Damage: 1d6+1 bludgeoning</text>
             <attack>Mace (melee)|+3|1d6+1</attack>
         </action>
-        <description>People from the port of Oakshore — dockworkers, fishermen, sailors — who fell under Korex's spell. Glassy eyes, mechanical movements, fight without speaking. If Korex falls or the charm breaks, they wake up confused and frightened.</description>
+        <description>People from the port of Oakshore — dockworkers, fishermen, sailors — who fell under Korex's spell. Glassy eyes, mechanical movements, fight without speaking. If Korex falls or the charm breaks, they wake up confused and frightened.
+Role: Korex's minion (charmed)</description>
     </monster>
 </compendium>

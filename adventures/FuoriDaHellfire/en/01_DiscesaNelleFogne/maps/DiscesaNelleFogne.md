@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# DM Map — Discesa nelle Fogne
+# DM Map — Descent into the Sewers
 
 Cheat sheet for drawing the map on the fly at the table.
 1 square (qd) = 1.5m / 5ft.
@@ -11,57 +11,57 @@ Cheat sheet for drawing the map on the fly at the table.
                         N
                         ↑
                    ┌─────────┐
-                   │ ALLAGATO │ 2×4qd
-                   │ (vicolo  │ acqua al ginocchio
-                   │  cieco)  │
+                   │ FLOODED  │ 2×4qd
+                   │ (dead    │ knee-deep water
+                   │  end)    │
                    └────┬────┘
                         │
   GRATA                 │
     ↓              ┌────┴────────────────┐
 ┌────────────┐     │                     │     ┌──────────┐
-│  GALLERIA  ├─────┤    BIVIO DEI TUBI   ├─────┤ TUNNEL   │
-│ D'INGRESSO │     │     incrocio a T    │     │ VERSO    │
-│  6×2 qd    │     │       2qd largo     │     │ NIDO     │
+│  ENTRANCE  ├─────┤   PIPE JUNCTION     ├─────┤ TUNNEL   │
+│  GALLERY   │     │    T-intersection   │     │ TO       │
+│  6×2 qd    │     │       2qd wide      │     │ NEST     │
 └────────────┘     └────┬────────────────┘     │ 10×2 qd │
                         │                      └────┬─────┘
                    ┌────┴────┐                      │
-                   │CROLLATO │          ┌───────────┴───────────┐
-                   │(vicolo  │ 2×3qd   │     NIDO DI RATTI     │
-                   │ cieco)  │ macerie  │       8×8 qd          │
-                   └─────────┘          │  tubi crollati, grate │
-                                        │  macerie (coperture)  │
+                   │COLLAPSED│          ┌───────────┴───────────┐
+                   │(dead    │ 2×3qd   │       RAT NEST        │
+                   │ end)    │ rubble   │       8×8 qd          │
+                   └─────────┘          │  collapsed pipes, grates │
+                                        │  rubble (cover)       │
                                         └───────────┬───────────┘
                                                     │
                                             ┌───────┴───────┐
-                                            │ TUNNEL VERSO  │
-                                            │ SOGLIA 5×2 qd │
-                                            │ (si allarga   │
-                                            │  a 3qd largo) │
+                                            │ TUNNEL TO     │
+                                            │ THRESHOLD 5×2 qd │
+                                            │ (widens to    │
+                                            │  3sq wide)    │
                                             └───────┬───────┘
                                                     │
                                             ┌───────┴───────┐
-                                            │  LA SOGLIA    │
+                                            │ THE THRESHOLD │
                                             │   3×3 qd      │
-                                            │ mattoni→pietra │
+                                            │ brick→stone   │
                                             │               │
                                             └───────┬───────┘
                                                     │
                                                     ↓
-                                            verso Modulo 02
+                                            to Module 02
 ```
 
 ## Quick Measurements
 
 | zone | dimensions | notes |
 |------|-----------|------|
-| Galleria d'ingresso | 6×2 qd | light from the grate for the first 2qd |
-| Bivio dei tubi | T-intersection, 2qd wide | three directions: N, S, E |
+| Entrance Gallery | 6×2 qd | light from the grate for the first 2qd |
+| Pipe Junction | T-intersection, 2qd wide | three directions: N, S, E |
 | North branch (flooded) | 2×4 qd | knee-deep water, dead end |
 | South branch (collapsed) | 2×3 qd | rubble, dead end |
 | Tunnel to nest | 10×2 qd | continues east from the junction |
-| Nido di ratti | 8×8 qd | collapsed pipes, grates, rubble (cover) |
+| Rat Nest | 8×8 qd | collapsed pipes, grates, rubble (cover) |
 | Tunnel to threshold | 5×2 qd → 3qd | gradually widens |
-| La soglia | 3×3 qd | transition bricks → ancient stone |
+| The Threshold | 3×3 qd | transition bricks → ancient stone |
 
 Total linear path: ~30 qd (~45m / ~150ft)
 
@@ -79,14 +79,14 @@ Total linear path: ~30 qd (~45m / ~150ft)
 - **South branch**: nothing, just rubble
 - Treble clef graffiti (Korex's mark) on the east wall — confirms direction
 
-### Nido di ratti
+### Rat Nest
 - **6 corrupted rats** scattered in the room, hidden behind debris
 - **1 swarm** in the corner opposite the entrance, behind a pile of rubble
 - **Cover**: collapsed pipes (half cover, +2 AC), raised grates, rubble piles (difficult terrain)
 - The rats use cover to set ambushes; the PCs can use it to protect themselves from the swarm
 - If trap triggered: rats already alerted, no surprise
 
-### La soglia
+### The Threshold
 - Visible material change: damp bricks → smooth carved stone
 - Eroded bas-reliefs on the walls (dancing/fighting figures)
 - History DC 15 to understand it's much older than the city

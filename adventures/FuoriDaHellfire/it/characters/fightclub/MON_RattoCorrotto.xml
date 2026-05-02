@@ -29,6 +29,7 @@
             <text>Attacco: +4, portata 1,5m / 5ft / 1qd Danni: 1d4+2 perforanti</text>
             <attack>Morso (mischia)|+4|1d4+2</attack>
         </action>
-        <description>Ratto gigante con occhi rossi e comportamento innaturale. Più aggressivo di un ratto normale, attacca in branco senza paura. Natura CD 10 per capire che è corrotto, non semplicemente rabbioso.</description>
+        <description>Ratto gigante con occhi rossi e comportamento innaturale. Più aggressivo di un ratto normale, attacca in branco senza paura. Natura CD 10 per capire che è corrotto, non semplicemente rabbioso.
+Role: servitore di Korex (corrotto dalla sua musica)</description>
     </monster>
 </compendium>

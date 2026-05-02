@@ -29,6 +29,7 @@
             <text>Attack: +2, reach 0 Damage: 2d6 piercing (or 1d6 if the swarm has half HP or less)</text>
             <attack>Bites (melee)|+2|2d6</attack>
         </action>
-        <description>A mass of rats moving as a single creature. Red eyes, incessant squeaking. Covers the floor and climbs up the PCs' legs.</description>
+        <description>A mass of rats moving as a single creature. Red eyes, incessant squeaking. Covers the floor and climbs up the PCs' legs.
+Role: Korex's minion</description>
     </monster>
 </compendium>

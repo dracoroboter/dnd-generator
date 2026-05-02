@@ -25,6 +25,7 @@
             <text>Attacco: +3, portata 1,5m / 5ft / 1qd Danni: 1d6+1 contundenti</text>
             <attack>Mazza (mischia)|+3|1d6+1</attack>
         </action>
-        <description>Gente del porto di Oakshore — scaricatori, pescatori, marinai — finita sotto l'incantesimo di Korex. Occhi vitrei, movimenti meccanici, combattono senza parlare. Se Korex cade o il charm si spezza, si risvegliano confusi e spaventati.</description>
+        <description>Gente del porto di Oakshore — scaricatori, pescatori, marinai — finita sotto l'incantesimo di Korex. Occhi vitrei, movimenti meccanici, combattono senza parlare. Se Korex cade o il charm si spezza, si risvegliano confusi e spaventati.
+Role: servitore di Korex (charmato)</description>
     </monster>
 </compendium>

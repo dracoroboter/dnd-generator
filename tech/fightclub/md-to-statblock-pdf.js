@@ -137,6 +137,16 @@ function buildHTML(monster, imagePath) {
     html = html.replace(/<link href="\/\/fonts\.googleapis\.com[^"]*"[^>]*>/g, '');
 
     // Rimuovi il contenuto demo e inietta il nostro
+    // Description/role line (brief, under subtitle)
+    let descLine = '';
+    if (monster.description) {
+        // Extract just the Role line if present, otherwise use first sentence
+        const roleMatch = monster.description.match(/Role:\s*(.+)/i);
+        if (roleMatch) {
+            descLine = `<p style="font-style:italic;font-size:0.85em;margin:2px 0 6px 0;color:#7A200D;">${roleMatch[1].trim()}</p>`;
+        }
+    }
+
     const statblockContent = `
 <stat-block>
   <creature-heading>
@@ -144,6 +154,7 @@ function buildHTML(monster, imagePath) {
     <h2>${subtitle}</h2>
   </creature-heading>
 
+  ${descLine}
   ${imageTag}
 
   <top-stats>

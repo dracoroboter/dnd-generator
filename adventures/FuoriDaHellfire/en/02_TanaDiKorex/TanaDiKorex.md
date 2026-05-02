@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# Tana di Korex
+# Korex's Lair
 
 ## Description
 

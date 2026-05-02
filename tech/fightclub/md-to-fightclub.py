@@ -186,7 +186,10 @@ def parse_md(filepath, lang="it"):
     desc_label = re.escape(i18n["section_description"])
     desc_section = re.search(rf"## {desc_label}\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
     if desc_section:
-        data["description"] = desc_section.group(1).strip()
+        desc = desc_section.group(1).strip()
+        if data.get("role"):
+            desc += f"\nRole: {data['role']}"
+        data["description"] = desc
 
     return data
 

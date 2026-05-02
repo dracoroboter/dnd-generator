@@ -58,7 +58,8 @@
 His personality is a mosaic of contradictory accounts: to some he's generous, to others he's miserly, to others still he's mad. The orders he sends are inconsistent — sometimes reasonable, sometimes absurd.
 **Running gag — the name:** every time an NPC is about to say it, they get interrupted (noise, sneeze, collapse, sudden amnesia). Official letters have the seal but the signature is illegible.
 **Running gag — the face:** no NPC has ever seen him in person. Official portraits are always covered, damaged, or turned backwards.
-The Count is NOT Dorian Valemarch. He's a local noble, a vassal of the King, who governs Fianus Romanus.</description>
+The Count is NOT Dorian Valemarch. He's a local noble, a vassal of the King, who governs Fianus Romanus.
+Role: Living MacGuffin, quest giver</description>
     </monster>
     <monster>
         <name>SergiusArimano</name>
@@ -110,7 +111,8 @@ The Count is NOT Dorian Valemarch. He's a local noble, a vassal of the King, who
         <description>The Sergio of Boris: a schemer, underhanded, pulling strings behind the scenes. Former owner of &quot;L'Immane Alabarda,&quot; he sold vigor potions and personalized erotic portraits to the nobles of Fianus. The Count was an excellent client — he had an &quot;artistic&quot; portrait commissioned that he never paid for. The Count's wife (a prude) discovered everything and had the &quot;Gabella Pudicitiae&quot; imposed on all risqué merchandise. Marchese Arimano went from legitimate merchant to smuggler, and now he's getting his revenge.
 He fortuitously found the Count's Ring in the sewers and uses it as the instrument of an elaborate revenge — a public treasure hunt that humiliates the Count. He still has the unpaid portrait and uses it as leverage.
 Extremely intelligent, always three steps ahead of everyone. Speaks little, smiles a lot — the smile of someone who knows something you don't. Doesn't get his hands dirty if he can avoid it. Vain about his cunning: he leaves clues because he wants people to know it was him. The double S is his signature — ego disguised as anonymity.
-**Master of disguise:** regularly disguises himself as Terzilio the greengrocer (and others). Has a network of informants in the village (Varys/GOT type). Possesses a magical invisibility item. Sometimes the PCs talk to him without knowing it.</description>
+**Master of disguise:** regularly disguises himself as Terzilio the greengrocer (and others). Has a network of informants in the village (Varys/GOT type). Possesses a magical invisibility item. Sometimes the PCs talk to him without knowing it.
+Role: hidden antagonist</description>
     </monster>
     <monster>
         <name>SirGorimVel</name>
@@ -162,7 +164,8 @@ Recurring phrases adapted from Ferretti:
 - &quot;Come on come on come on, we can do this&quot; (he doesn't believe it)
 - &quot;Splendid. Wonderful.&quot; (sarcastic)
 - &quot;What are you doing?!&quot;
-- &quot;I can't take it anymore with you lot&quot;</description>
+- &quot;I can't take it anymore with you lot&quot;
+Role: main ally, quest giver</description>
     </monster>
     <monster>
         <name>Thug</name>
@@ -199,6 +202,7 @@ Recurring phrases adapted from Ferretti:
             <text>Attack: +2, ranged 100/400 ft. Damage: 1d10 piercing</text>
             <attack>Heavy Crossbow (ranged)|+2|1d10</attack>
         </action>
-        <description>Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Borgo. They only intervene if Sergius is spotted, covering his escape. They're not loyal — after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *&quot;They don't pay us enough for this!&quot;*</description>
+        <description>Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Borgo. They only intervene if Sergius is spotted, covering his escape. They're not loyal — after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *&quot;They don't pay us enough for this!&quot;*
+Role: Sergius's henchman</description>
     </monster>
 </compendium>

@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# Lo Scettro di Tyr
+# The Scepter of Tyr
 
 ## Lore
 

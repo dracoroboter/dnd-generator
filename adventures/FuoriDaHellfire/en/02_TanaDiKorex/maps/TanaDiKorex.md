@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# DM Map — Tana di Korex
+# DM Map — Korex's Lair
 
 Cheat sheet for drawing the map on the fly at the table.
 1 square (qd) = 1.5m / 5ft.
@@ -14,28 +14,28 @@ Cheat sheet for drawing the map on the fly at the table.
               ┌───────────────────────┐
              ╱  ·              ·  ╲···│
             ╱       ┌───────┐      ╲··│
-           │    C   │ALCOVA │       │·│
+           │    C   │ALCOVE │       │·│
            │    n   │ 3×2qd │       │·│
-           │        │giacig.│       │·│
-  da       │  · · · └───┬───┘· · · ·│·│
+           │        │bedroll│       │·│
+  from     │  · · · └───┬───┘· · · ·│·│
   Mod.01   │        ┌───┘           │·│
- ─────►  ──┤   Ce   ██RIALZO██  Cs  │·│
+ ─────►  ──┤   Ce   ██PLATFORM██ Cs │·│
   tunnel   │        ██ 3qd  ██      │·│
-  3qd      │        ██KOREX ██      │·│
-  largo    │  · · · ██      ██· · · │·│
+  3sq      │        ██KOREX ██      │·│
+  wide     │  · · · ██      ██· · · │·│
            │        └───────┘       │·│
            │    Cw                  │·│
-            ╲                 ◄COL.CROLLATA
+            ╲                 ◄COLLAPSED COL.
              ╲  ·              ·  ╱ │
               └───────────────────┘ │
                                     │
                           ┌─────────┘
-                          │ PASSAGGIO
-                          │ NASCOSTO
-                          │ 1qd largo
+                          │ HIDDEN
+                          │ PASSAGE
+                          │ 1qd wide
                           ↓
-                     verso il buio
-                     ("stagione 2")
+                     into the darkness
+                     ("season 2")
 ```
 
 Legend:
@@ -53,7 +53,7 @@ Legend:
 | Cistern | 8qd Ø (~12m) | circular, draw as an octagon |
 | Central platform | 3qd Ø, 1qd high | old cistern, Korex is here |
 | Columns | 4, in a cross, ~2qd from center | half cover (+2 AC) |
-| Alcova di Korex | 3×2 qd | NE wall, behind a curtain |
+| Korex's Alcove | 3×2 qd | NE wall, behind a curtain |
 | Hidden passage | 1qd opening | behind collapsed column SE |
 
 Domed ceiling: ~4qd (6m) high.

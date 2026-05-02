@@ -9,5 +9,12 @@
   "subtitle": {
     "it": "Un'avventura Dungeons & Dragons 5e",
     "en": "A Dungeons & Dragons 5e adventure"
+  },
+  "frontmatter": {
+    "en": {
+      "Durata": "campaign (5+ episodes)",
+      "Struttura": "linear",
+      "Tono": "humorous"
+    }
   }
 }
