@@ -5,16 +5,18 @@
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>chaotic evil</alignment>
-        <ac>10</ac>
-        <hp>1</hp>
+        <ac>11 (armatura di cuoio)</ac>
+        <hp>32 (5d8+10)</hp>
         <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>10</dex>
-        <con>10</con>
+        <str>15</str>
+        <dex>11</dex>
+        <con>14</con>
         <int>10</int>
         <wis>10</wis>
-        <cha>10</cha>
-        <cr>1</cr>
+        <cha>11</cha>
+        <senses>Percezione passiva 10</senses>
+        <languages>qualsiasi una (di solito Common)</languages>
+        <cr>1/2</cr>
         <description>Uomo massiccio, braccia coperte di cicatrici da arena. Mascella squadrata, naso rotto più volte, occhi piccoli e calcolatori che tradiscono un'intelligenza che il fisico non lascia sospettare. Porta un gilet di cuoio borchiato sopra una camicia logora e un rubino grezzo appeso al collo — il simbolo della banda.
 Parla poco e a voce bassa, costringendo gli interlocutori ad avvicinarsi. Quando ride, è un suono breve e sgradevole. Ha l'abitudine di far scrocchiare le nocche prima di prendere una decisione.
 Tratto distintivo: brutale e astuto in egual misura. Non è il bruto stupido che sembra — è un contrabbandiere navigato che ha imparato a sopravvivere nell'arena e nelle strade.</description>

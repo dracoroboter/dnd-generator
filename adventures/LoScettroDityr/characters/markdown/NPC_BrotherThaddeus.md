@@ -39,3 +39,7 @@ I PG incontrano Brother Thaddeus a Rocca Bianca — in una taverna tranquilla o 
 - Le informazioni su Alaric sono il cuore del suo contributo. Dosale in base al ritmo dell'avventura — non rivelare tutto al primo incontro.
 - Thaddeus non combatte. Se attaccato, non si difende. Questo può creare momenti drammatici se i PG lo portano con sé in zone pericolose.
 - Se i PG ignorano i suoi avvertimenti, Thaddeus non insiste. Dice la sua verità una volta e lascia che scelgano. Potrebbe riapparire più tardi con un "ve l'avevo detto" silenzioso nello sguardo.
+
+## Stat Block
+
+Nessuno — Brother Thaddeus non combatte. Se costretto, usa le statistiche del Monaco (Martial Arts Adept, VGtM pag. 216, CR 3) ma fugge alla prima occasione.

@@ -18,8 +18,16 @@
         <languages>Common, Halfling, Gergo dei Ladri</languages>
         <cr>2</cr>
         <trait>
+            <name>Sneak Attack (2d6)</name>
+            <text>una volta per turno, danni extra se ha vantaggio o alleato adiacente al bersaglio</text>
+        </trait>
+        <trait>
             <name>Cunning Action</name>
             <text>Dash, Disengage o Hide come azione bonus</text>
+        </trait>
+        <trait>
+            <name>Fast Hands (Thief)</name>
+            <text>Rapidità di mano, usare arnesi da scasso, o usare un oggetto come azione bonus</text>
         </trait>
         <trait>
             <name>Second-Story Work</name>

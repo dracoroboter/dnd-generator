@@ -16,7 +16,36 @@ Tratto distintivo: parla poco e sceglie le parole con cura. Quando mente, tende 
 
 ## Stat Block
 
-Usa il blocco statistiche del **Sacerdote** (*Manuale dei Mostri*).
+*Sacerdote (MM pag. 348), variante dragonide*
+
+| FOR | DES | COS | INT | SAG | CAR |
+|-----|-----|-----|-----|-----|-----|
+| 10 (+0) | 10 (+0) | 12 (+1) | 13 (+1) | 16 (+3) | 13 (+1) |
+
+- **Punti ferita**: 27 (5d8 + 5)
+- **Classe armatura**: 13 (cotta di maglia)
+- **Velocità**: 9m / 30ft / 6qd
+- **Bonus competenza**: +2
+- **Competenze**: Medicina +7, Persuasione +3, Religione +4
+- **Sensi**: Percezione passiva 13
+- **Lingue**: Comune, Draconico
+- **Sfida**: 2 (450 PE)
+
+## Capacità notevoli
+
+- **Soffio draconico**: una volta per riposo breve, cono di 4,5m / 15ft / 3qd. TS Destrezza CD 11, 2d6 danni (tipo dipende dal lignaggio — da definire).
+- **Eminenza divina**: come azione bonus, può conferire a una creatura entro 9m / 30ft un bonus di 1d4 a un tiro per colpire o TS (3 usi/giorno).
+
+## Incantesimi
+
+CD 13, +5 al tiro per colpire. Slot: 4/3/2.
+
+- **Cantrip**: Luce, Taumaturgia, Parola Guaritrice
+- **1° livello**: Cura Ferite, Scudo della Fede, Comando
+- **2° livello**: Arma Spirituale, Ristorare Inferiore
+- **3° livello**: Dissolvi Magie, Guardiani Spirituali
+
+*Nota: il suo Dissolvi Magie non è abbastanza potente per bypassare la protezione della Pergamena del Giudizio (richiederebbe almeno 5° livello). Questo è il motivo per cui non può attivarla da solo.*
 
 ## Motivazioni
 

@@ -5,8 +5,8 @@
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>legale malvagio (mascherato da legale neutrale)</alignment>
-        <ac>15</ac>
-        <hp>90</hp>
+        <ac>15 (Mage Armor)</ac>
+        <hp>90 (12d8 + 36)</hp>
         <speed>30 ft.</speed>
         <str>10</str>
         <dex>14</dex>

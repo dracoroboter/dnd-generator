@@ -5,16 +5,18 @@
         <size>M</size>
         <type>humanoid (nana)</type>
         <alignment>lawful neutral</alignment>
-        <ac>10</ac>
-        <hp>1</hp>
+        <ac>16 (cotta di maglia, scudo)</ac>
+        <hp>11 (2d8+2)</hp>
         <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>10</dex>
-        <con>10</con>
+        <str>13</str>
+        <dex>12</dex>
+        <con>12</con>
         <int>10</int>
-        <wis>10</wis>
+        <wis>11</wis>
         <cha>10</cha>
-        <cr>1</cr>
+        <senses>Percezione passiva 12</senses>
+        <languages>qualsiasi una (di solito Common)</languages>
+        <cr>1/8</cr>
         <description>Mesusu Mercone è il capitano della nave volante *Airborne*. Bassa e massiccia come ci si aspetta da una nana, porta i capelli raccolti in trecce strette sotto un elmo di cuoio rinforzato. Ha mani callose da marinaio e una voce che taglia il vento di prua senza bisogno di urlare. Veste una giubba militare logora ma pulita, con l'insegna dell'Airborne cucita sulla spalla.
 Parla in modo diretto, senza fronzoli. Non perde tempo con le cortesie ma non è scortese — semplicemente efficiente. Ha l'abitudine di tamburellare le dita sul pomolo della spada quando qualcuno parla troppo.</description>
     </monster>

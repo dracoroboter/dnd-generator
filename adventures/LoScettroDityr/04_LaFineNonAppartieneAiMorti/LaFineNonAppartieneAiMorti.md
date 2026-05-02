@@ -1,5 +1,19 @@
 # La Fine Non Appartiene Ai Morti
 
+## Preludio — Dopo Svoalbard
+
+> ⚠ *Questo preludio va adattato dal DM in base a come si è concluso il Modulo C e al tempo trascorso.*
+
+Dopo aver riconsegnato lo Scettro all'altare di Tyr a Svoalbard (o dopo la distruzione dello Scettro nel Modulo B), i PG fanno ritorno verso sud. Il viaggio di ritorno è lungo ma senza incidenti — Vecna ha perso il suo strumento principale (Othran) e per ora si ritira nell'ombra.
+
+Nel frattempo, a Orcastle le cose sono cambiate. La caduta della cupola magica (se i PG hanno usato la pergamena nel Modulo A) o l'indebolimento di Malebranche hanno permesso ai prigionieri di ribellarsi. **Kreig Highlander** — ora **conte Wildforge** (ha ripreso il cognome di famiglia, abbandonando quello della banda) — ha preso il controllo della contea con **Miranda** e **Ruby** come vassalli, le vecchie rivalità messe da parte dalla necessità di ricostruire.
+
+**Frankie** e **Ombrascura**, separatisi dai PG dopo la fuga da Orcastle, sono rimasti nella contea per aiutare la ricostruzione. Hanno assistito alla disperazione di Malebranche e al suo rituale di evocazione di Zikle prima che fuggisse a Uluvin — è così che sanno della maledizione.
+
+Passano settimane, forse mesi. I PG ricevono l'invito al matrimonio di **Tungsten** a Waterdeep e si mettono in viaggio lungo la Costa della Spada. È durante questo viaggio che la maledizione di Malebranche inizia a manifestarsi.
+
+---
+
 ## Descrizione
 
 > La Costa della Spada si stende davanti a voi, frastagliata di scogliere battute dal vento e fitte foreste che si aprono su radure fiorite. La brezza marina si mescola al profumo dei fiori e della corteccia. I sentieri sono silenziosi, ma al calare del sole qualcosa cambia nell'aria. Sussurri portati dal vento, ombre tra le rovine. Non è raro trovare orme fresche nel fango — banditi o creature della notte percorrono questo stesso cammino.
@@ -165,7 +179,7 @@ Il passaggio per la camera centrale è bloccato da un'enorme porta con tre sigil
 Il membro del gruppo che pronuncia il voto apre la porta. L'avventuriero emana ora un'aura che indebolisce i non morti in mischia con lui, rendendoli più facili da combattere, ma allo stesso tempo ne attira l'ira: i non morti lo attaccano per primo.
 
 **Meccanica del voto:**
-- I non morti sono vulnerabili a tutti gli attacchi di chi ha pronunciato il voto.
+- I non morti sono vulnerabili a tutti gli attacchi di chi ha pronunciato il voto (durata: 24 ore).
 - I non morti perdono tutte le immunità.
 - I non morti attaccano per primo chi ha pronunciato il voto.
 
@@ -232,7 +246,7 @@ La furia di Malebranche e la presenza dei non morti evocati costituiscono una mi
 
 ### Il rituale
 
-Se i PG sconfiggono Malebranche, possono compiere il rituale per dissolvere la maledizione. Compiere il rituale con il Monile d'Oro di Ostegard richiede una prova di Arcana CD 12 assistita da una prova di Religione CD 12 per sincronizzare le rune scritte sul monile.
+Se i PG sconfiggono Malebranche, possono compiere il rituale per dissolvere la maledizione. Il rituale con il Monile d'Oro di Ostegard richiede due prove separate, entrambe devono riuscire: prima una prova di Arcana CD 12 per attivare le rune del monile, poi una prova di Religione CD 12 per sincronizzarle con l'energia sacra.
 
 Dopo il rituale Zikle appare:
 
@@ -271,8 +285,12 @@ Il matrimonio è una bella festa: si mangia, si beve, si danza. Tre eventi posso
 
 - **Monile d'Oro di Ostegard** — Talismano antico che canalizza energia sacra. Usato per il rituale di dissoluzione della maledizione.
 - **Rimozione della maledizione** — Se il rituale riesce, la maledizione di Malebranche viene dissipata e l'epidemia di non morti termina.
-- **Aura del voto** — Il PG che pronuncia il giuramento nel Santuario ottiene un'aura permanente che rende i non morti vulnerabili ai suoi attacchi e fa perdere loro le immunità (ma i non morti lo attaccano per primo).
+- **Aura del voto** — Il PG che pronuncia il giuramento nel Santuario ottiene un'aura (durata: 24 ore) che rende i non morti vulnerabili ai suoi attacchi e fa perdere loro le immunità (ma i non morti lo attaccano per primo).
 - **Sconfitta definitiva di Malebranche** — Se i PG lo sconfiggono nello scontro finale, la minaccia è eliminata per sempre.
+
+## Milestone
+
+Nessun avanzamento di livello — i PG restano al livello 10. La sconfitta di Malebranche e la rimozione della maledizione concludono la saga.
 
 ## Note al master
 

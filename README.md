@@ -174,7 +174,7 @@ dungeonandragon/
 | `new-adventure.sh` | Bash | Scaffolding nuova avventura da `AdventureTemplate/` |
 | `adventure-wizard.py` | Python | Wizard interattivo per impostare/aggiornare metadati README di un'avventura |
 | `check-adventure.py` | Python | Valida struttura e genera report in `tech/reports/` |
-| `release.sh` | Bash | Genera PDF (via pandoc + wkhtmltopdf) e ZIP in `releases/<NomeAvventura>/` |
+| `release.sh` | Bash | ~~Genera PDF + ZIP~~ — **deprecato**, sostituito da `create-pdf-adventure.py`. Spostato in `tech/scripts/old/` |
 | `new-npc.py` | Python | Crea scheda NPC interattivamente |
 | `encounter-difficulty.py` | Python | Calcola difficoltà incontro D&D 5e (XP soglia, CR multipli) |
 | `encounter-builder.py` | Python | Costruisce incontri bilanciati |

@@ -1,5 +1,21 @@
 # Ritorno a Casa
 
+## Preludio — Dopo il Tempio di Lumina
+
+> ⚠ *Questo preludio va adattato dal DM in base alle scelte dei giocatori nel Modulo B. Il modulo assume che i PG abbiano lo Scettro — se non ce l'hanno, vedi le varianti sotto.*
+
+Dopo gli eventi al Tempio di Lumina e lo scontro con Alaric, i PG tornano a Baldur's Gate con lo Scettro di Tyr (o senza, a seconda delle scelte). Tyr compare in sogno all'araldo con istruzioni chiare: lo Scettro deve essere riconsegnato al suo altare a Svoalbard, nel Grande Nord.
+
+### Varianti in base al finale del Modulo B
+
+**Se i PG hanno lo Scettro (opzioni 2 o 4 del Modulo B):** il modulo procede normalmente. Tyr ordina di portare lo Scettro a Svoalbard.
+
+**Se i PG hanno dato lo Scettro ad Alaric (opzione 1):** Tyr appare in sogno, furioso. Alaric è stato corrotto dallo Scettro e sta usando il suo potere per costruire un esercito. I PG devono prima rintracciare Alaric (che si è ritirato nelle Ten Towns, la sua terra d'origine) e recuperare lo Scettro — con la forza o con l'astuzia. Solo dopo possono procedere verso Svoalbard. Il DM deve gestire questa quest aggiuntiva prima di iniziare il viaggio.
+
+**Se i PG hanno distrutto lo Scettro (opzione 3):** questo modulo non si gioca. Tyr è soddisfatto — la distruzione dello Scettro è una delle tre azioni di bene. I PG possono procedere direttamente al Modulo D (la maledizione di Malebranche scatta comunque, indipendentemente dallo Scettro). Il DM deve trovare un aggancio alternativo per portare i PG verso Waterdeep (es. il matrimonio di Tungsten, una richiesta di aiuto da Kreig).
+
+---
+
 ## Descrizione
 
 > Il vento del porto di Baldur's Gate porta odore di salsedine e catrame. Le vele della "Nuova Speranza" si gonfiano pigramente alla fonda, mentre i gabbiani strillano sopra i moli affollati. Il viaggio sarà lungo — settimane di mare aperto, città sconosciute, e poi il gelo del Grande Nord. Ma lo Scettro di Tyr pesa nelle vostre mani più di quanto dovrebbe, e l'altare vi aspetta.
@@ -31,8 +47,8 @@ L'araldo può pregare Tyr di rivelargli i dettagli della maledizione. Quella not
 ### Proprietà magiche
 
 - **Resurrezione Sacra** (una carica). Funziona come l'incantesimo *Resurrezione*. Lo Scettro giudica la purezza dell'anima: un'anima corrotta non può essere riportata in vita. Una volta sola.
-- **Potenziamento della Giustizia** (sempre, passivo). Tutti gli alleati entro 30 piedi dal portatore ricevono: +2 ai tiri per colpire, resistenza a danni necrotici e psichici, vantaggio ai TS contro effetti di paura.
-- **Scudo della Purezza** (azione bonus, 1/giorno). Campo di forza attorno al portatore e a due alleati entro 30 piedi. Riduce tutti i danni subiti della metà per 3 turni.
+- **Potenziamento della Giustizia** (sempre, passivo). Tutti gli alleati entro 9m / 30ft / 6qd dal portatore ricevono: +2 ai tiri per colpire, resistenza a danni necrotici e psichici, vantaggio ai TS contro effetti di paura.
+- **Scudo della Purezza** (azione bonus, 1/giorno). Campo di forza attorno al portatore e a due alleati entro 9m / 30ft / 6qd. Riduce tutti i danni subiti della metà per 3 turni.
 - **Sentenza di Tyr** (1/giorno). La creatura bersaglio deve effettuare un TS su Carisma (CD 18). Fallimento: paralizzata per 1 minuto, incapace di mentire o nascondere la propria natura.
 
 ### La Maledizione di Tyr
@@ -97,7 +113,7 @@ Al collo ha un piccolo anello senza valore, con uno strano spuntone. All'interno
 
 **Trappola Esplosiva per Documenti (Meccanica).** Una piccola carica di polvere nera collegata a un meccanismo a scatto nel raccoglitore. Se aperto senza la chiave o la procedura corretta, l'esplosivo si innesca.
 
-- Chiunque entro 1,5 m (5 piedi) subisce 3d6 danni da fuoco. TS Destrezza CD 13 per dimezzare. I documenti vengono ridotti in cenere.
+- Chiunque entro 1,5m / 5ft / 1qd subisce 3d6 danni da fuoco. TS Destrezza CD 13 per dimezzare. I documenti vengono ridotti in cenere.
 - **Disinnesco:** Intelligenza (Indagare) CD 15 per individuare il cavo di innesco. Poi Strumenti da Scasso CD 15 per scollegare il meccanismo (CD 20 senza strumenti da scasso).
 - **Chiave:** L'anello al collo di Zalhara. Se si gira nella direzione sbagliata (quella giusta è antioraria, "sinistra") esplode.
 
@@ -116,7 +132,13 @@ A ogni giornata di navigazione tirare 1d20 per le condizioni del mare:
 | 19 | Molto mosso | Onde alte, raffiche forti | Navigazione difficile, rollio marcato, rischio danni o rotta deviata |
 | 20 | Tempesta | Venti impetuosi, pioggia battente | Altissimo rischio danni alla nave, necessità di cercare riparo |
 
-**Mal di mare:** si verifica con condizioni da Mosso in su. TS Costituzione con CD pari alla condizione del mare. La condizione cambia una volta al giorno; mare Mosso o superiore dura due giorni. Se stanno male due volte di seguito prendono un livello di Indebolimento (Exhaustion), che non peggiora oltre il livello 2.
+**Mal di mare:** si verifica con condizioni da Mosso in su. TS Costituzione con CD secondo la tabella sotto. La condizione cambia una volta al giorno; mare Mosso o superiore dura due giorni. Se stanno male due volte di seguito prendono un livello di Indebolimento (Exhaustion), che non peggiora oltre il livello 2.
+
+| Condizione | CD mal di mare |
+|------------|---------------|
+| Mosso (17–18) | CD 10 |
+| Molto mosso (19) | CD 13 |
+| Tempesta (20) | CD 16 |
 
 **Mare Molto Mosso o superiore:** perdono un giorno di viaggio se il capitano non supera un TS Natura CD 15. In caso di Tempesta, chi non è in cabina deve fare un TS Destrezza CD 13 o subire 2d4+2 danni contundenti (sbattacchiati sul ponte).
 
@@ -136,8 +158,8 @@ Se i PG escono, chiedere se prendono precauzioni (se chiudono la porta e cosa la
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Capo bandito | 1 | — | — | — | stat block: Bandit Captain |
-| Banditi | 5 | — | — | — | stat block: Bandit |
+| Capo bandito | 1 | 65 | 15 | +5, 2d6+3 scimitarra | MM pag. 344 CR 2 |
+| Banditi | 5 | 11 | 12 | +3, 1d6+1 scimitarra | MM pag. 343 CR 1/8 |
 
 Se perquisiti, trovano una pergamena con la descrizione dei PG, il nome dell'araldo e l'avvertenza: "*ha uno scettro, prendetelo e le 100 mo saranno vostre*".
 
@@ -193,7 +215,7 @@ Con risultato d20 di 13–20 (oppure a decisione del DM) vengono attaccati dai p
 
 **Difensori della "Nuova Speranza":** Goran Stormbridge (Veterano), Karla Wavecrest (Veterano), 5 Marinai (Bandito), i PG. Il capitano Orlomm si ritira in cabina di comando per far arrivare la nave a destinazione. Gli altri passeggeri si rinchiudono sottocoperta.
 
-**Tattiche dei pirati.** I pirati lanciano arpioni e funi per agganciare la fiancata. In pochi istanti 6 pirati si arrampicano a bordo, mentre il Bandit Captain resta inizialmente sulla goletta. Dopo un turno il capitano e i 6 pirati attaccanti sono sulla nave; il mago e tre pirati restano a 10 metri sull'altra nave (il mago lancia incantesimi, i pirati tirano con le balestre). Puntano a razziare la stiva, rubare oggetti preziosi (se vedono lo scettro — ricordarsi della maledizione), e impedire ai difensori di manovrare le vele.
+**Tattiche dei pirati.** I pirati lanciano arpioni e funi per agganciare la fiancata. In pochi istanti 6 pirati si arrampicano a bordo, mentre il Bandit Captain resta inizialmente sulla goletta. Dopo un turno il capitano e i 6 pirati attaccanti sono sulla nave; il mago e tre pirati restano a 10m / 35ft / 7qd sull'altra nave (il mago lancia incantesimi, i pirati tirano con le balestre). Puntano a razziare la stiva, rubare oggetti preziosi (se vedono lo scettro — ricordarsi della maledizione), e impedire ai difensori di manovrare le vele.
 
 Se il Bandit Captain vede i suoi in difficoltà, ordina il disimpegno: i pirati si ritirano sulle funi, gettando barili incendiari o fumogeni per coprire la fuga. Se i difensori respingono l'assalto in più di cinque turni, la nave ha subito danni (vele tagliate, alberi rovinati, marinai feriti) e deve fermarsi un giorno sulla costa.
 
@@ -275,14 +297,14 @@ La compagnia è seguita da Othran Vorash. CD 19 Percezione per accorgersi che c'
 
 Durante la navigazione i PG possono incontrare uno o più di questi mostri marini, singolarmente di media o bassa difficoltà ma pericolosi in condizioni climatiche ostili e con il rischio di cadere in mare ghiacciato:
 
-| nome | CR | note |
-|------|----|------|
-| Sahuagin | 1/2 | Emergono di notte, si arrampicano sullo scafo per rapire o depredare |
-| Merrow | 2 | Pattugliano il territorio, attaccano se la nave si avvicina alle loro prede |
-| Quippers (branco) | 1 | Circondano chi cade in mare |
-| Ice Mephit | 1/2 | Si radunano sopra l'imbarcazione, creano foschia gelida |
-| Sea Hag | 2 | Solitaria e vendicativa, appare come un relitto umanoide che annaspa |
-| Polpo Gigante | 1 | Sfrutta i ghiacci galleggianti per avvicinarsi e avvolgere il timone |
+| nome | n. | PF | CA | CR | note |
+|------|----|----|----|-----|------|
+| Sahuagin | 2d4 | 22 | 12 | 1/2 | MM pag. 263. Emergono di notte, si arrampicano sullo scafo |
+| Merrow | 1-2 | 45 | 13 | 2 | MM pag. 219. Pattugliano il territorio in acque torbide |
+| Quippers (branco) | 1 | 13 | 13 | 1 | MM pag. 338. Circondano chi cade in mare |
+| Ice Mephit | 2-3 | 21 | 11 | 1/2 | MM pag. 215. Creano foschia gelida sopra la nave |
+| Sea Hag | 1 | 52 | 14 | 2 | MM pag. 179. Appare come relitto umanoide, maledizioni |
+| Polpo Gigante | 1 | 52 | 11 | 1 | MM pag. 326. Avvolge il timone dai ghiacci galleggianti |
 
 ### Svoalbard — Imboscata di Othran Vorash
 
@@ -366,6 +388,10 @@ Se tutto fallisce e i PG raggiungono Svoalbard, Othran tenta un'ultima mossa dis
 - Pozioni della Vitalità (acquistabili alla taverna "Pelor lo Scintillante" a Neverwinter, 300 mo l'una)
 
 ---
+
+## Milestone
+
+Nessun avanzamento di livello — i PG restano al livello 10. La riconsegna dello Scettro è la ricompensa narrativa del modulo.
 
 ## Note al master
 

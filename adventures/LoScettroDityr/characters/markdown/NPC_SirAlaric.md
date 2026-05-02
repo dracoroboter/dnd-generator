@@ -22,8 +22,8 @@ Tratto distintivo: ha l'abitudine di congiungere le mani come in preghiera quand
 |-----|-----|-----|-----|-----|-----|
 | 10 (+0) | 14 (+2) | 16 (+3) | 18 (+4) | 14 (+2) | 12 (+1) |
 
-- **Punti ferita**: 90
-- **Classe armatura**: 15
+- **Punti ferita**: 90 (12d8 + 36)
+- **Classe armatura**: 15 (Mage Armor)
 - **Tiri salvezza**: INT +8, SAG +6
 - **Competenze**: Arcano +8, Persuasione +5, Religione +6
 - **Resistenze ai danni**: necrotici, psichici
@@ -40,6 +40,7 @@ Quando Alaric infligge danni necrotici, recupera punti ferita temporanei pari al
 ### Incantesimi
 
 - **Dardo di Fuoco** (cantrip)
+- **Mage Armor** (1° livello, sempre attivo — CA 13 + DES +2 = 15)
 - **Sonno** (1° livello)
 - **Invisibilità** (2° livello)
 - **Palla di Fuoco** (3° livello)

@@ -66,6 +66,7 @@ Schede complete in `characters/markdown/`.
 - **Mesusu Merconè** — nana, capitano della nave volante Airborne.
 - **Kurzum** — nana, proprietaria del Giavellotto Fantasma, mediatrice della missione.
 - **Zikle l'Illuminato** — mago goblin, creatore della Pergamena del Giudizio. Ucciso da Malebranche, evocato come wraith nel Modulo D.
+- **Tungsten** — nano, ex compagno d'avventura dei PG (NPC amico già conosciuto da avventure precedenti). Ha lasciato la vita da avventuriero, si è trasferito sulla Costa della Spada e ha aperto la taverna *All'orco che rutta* a Waterdeep. Sposa Grimilda nell'epilogo del Modulo D.
 - **Orlomm Glittergear** — gnomo, capitano della nave La Nuova Speranza (Modulo C).
 - **Tungsten** — ex araldo, sposo nel matrimonio dell'epilogo (Modulo D).
 

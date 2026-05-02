@@ -1,8 +1,20 @@
 # Lo Scettro di Tyr
 
+## Preludio — Dopo Orcastle
+
+> ⚠ *Questo preludio va adattato dal DM in base alle scelte dei giocatori nel Modulo A. I dettagli sotto assumono il percorso più comune (fuga dalla Torre di Torth), ma le varianti sono molte.*
+
+Dopo la fuga da Orcastle — attraverso il portale della Torre di Torth, con la pergamena, o con altri mezzi — i PG si ritrovano sul continente. Se hanno consegnato la pergamena a Malebranche, hanno ricevuto le 2500 mo e i collari sono stati rimossi. Se sono fuggiti con altri mezzi, i collari sono stati neutralizzati dalla Coppa di Blackwood o dal patto con Vecna.
+
+In ogni caso, Vecna ha preso nota. Che i PG abbiano accettato il suo patto alla Torre di Torth o meno, il Dio dei Segreti li ha osservati e li considera suoi strumenti. Nelle notti successive alla fuga, tutti i PG ricevono lo stesso sogno: Vecna che parla nell'oscurità, ricordando il debito (se hanno accettato il patto) o minacciando conseguenze (se non lo hanno fatto).
+
+I PG raggiungono Baldur's Gate — la città più grande e sicura della Costa della Spada — per riposare, rifornirsi e decidere il passo successivo. È qui che il sogno di Vecna diventa un ordine esplicito.
+
+---
+
 ## Descrizione
 
-> Una missione vi è stata affidata — non per scelta, ma per necessità. Vecna, il lich che vi tiene in pugno, pretende che recuperiate lo Scettro di Tyr, un'antica reliquia di cristallo che si narra fosse impugnata dal dio della giustizia in persona. Il viaggio vi porterà da Baldur's Gate fino alle rovine del Tempio di Lumina, attraverso montagne ghiacciate e pericoli dimenticati. Ma lo Scettro è maledetto: chi lo possiede senza essere puro di cuore perde lentamente la propria anima, trasformandosi in un servitore non morto. E il solo fatto di aver accettato la missione di Vecna vi ha già resi impuri.
+> Una missione vi è stata affidata — non per scelta, ma per necessità. Vecna, il Dio dei Segreti che vi tiene in pugno, pretende che recuperiate lo Scettro di Tyr, un'antica reliquia di cristallo che si narra fosse impugnata dal dio della giustizia in persona. Il viaggio vi porterà da Baldur's Gate fino alle rovine del Tempio di Lumina, attraverso montagne ghiacciate e pericoli dimenticati. Ma lo Scettro è maledetto: chi lo possiede senza essere puro di cuore perde lentamente la propria anima, trasformandosi in un servitore non morto. E il solo fatto di aver accettato la missione di Vecna vi ha già resi impuri.
 
 I personaggi vengono incaricati da Vecna di recuperare lo Scettro di Tyr dal Tempio di Lumina, un luogo perduto da millenni nelle montagne a est di Baldur's Gate. Lo Scettro è un antico artefatto di cristallo che concede un potere immenso, ma è maledetto: chi lo utilizza senza essere puro perde la propria anima e diventa un servitore non morto. Solo i puri possono sopportarne la potenza.
 
@@ -20,13 +32,13 @@ Recuperare lo Scettro di Tyr dal Tempio di Lumina e deciderne il destino: conseg
 
 ### Parte 1 — Baldur's Gate
 
-La missione inizia a Baldur's Gate. Il gruppo si ritrova in una taverna per discutere il sogno che Vecna ha inviato a tutti, oppure il contenuto della pergamena 42 trovata nella missione precedente. Vecna ricorda loro che gli devono la vita e che la sua ira si abbatterà su di loro se non cercheranno lo Scettro — ma premi incommensurabili li attendono se compiranno l'impresa. Fornisce un indizio criptico:
+La missione inizia a Baldur's Gate. Il gruppo si ritrova in una taverna per discutere il sogno che Vecna ha inviato a tutti (vedi Preludio). Vecna ricorda loro il debito contratto e che la sua ira si abbatterà su di loro se non cercheranno lo Scettro — ma premi incommensurabili li attendono se compiranno l'impresa. Fornisce un indizio criptico:
 
 > "Nel luogo dove lo scettro cadde e la giustizia fu accecata, cercate la chiave che apre la strada verso il potere che vi spetta."
 
 L'indizio si riferisce alle rovine del Tempio di Lumina, il luogo dove lo Scettro fu perduto secoli fa durante la Caduta del Tempio. Si dice che il tempio sia infestato da spiriti e custodisca segreti dimenticati.
 
-Se i personaggi scelgono di ignorare la richiesta di Vecna, iniziano a verificarsi eventi sinistri che segnalano la crescente ira del lich. Tirare 1d6 ogni riposo lungo:
+Se i personaggi scelgono di ignorare la richiesta di Vecna, iniziano a verificarsi eventi sinistri che segnalano la crescente ira del Dio dei Segreti. Tirare 1d6 ogni riposo lungo:
 
 | d6 | Effetto |
 |----|---------|
@@ -45,7 +57,7 @@ A Baldur's Gate tutti sanno chi è Tyr e sanno vagamente che in un tempio venne 
 
 Nel tempio sono raffigurati, come in un fumetto, Tyr con in mano uno scettro e la caduta del tempio. Sir Alaric, membro dei Custodi dell'Equilibrio, originario delle Ten Towns e poi trasferitosi a Baldur's Gate, può essere incontrato qui oppure davanti al manifesto della conferenza di Maestro Elrin.
 
-Alaric è più che disposto a descrivere chi è e cosa sta facendo se crede che i PG siano studiosi di religione o di cose antiche. Se citano Vecna diventa cupo; se dichiarano di lavorare per il dio malvagio diventa ostile e non li aiuta. Dice che sta investigando su attività sospette legate a Vecna, il quale pare voglia riappropriarsi dello Scettro. Se parlano di Vecna dovranno fare un tiro di Inganno (CD 12) oppure essere convincenti nell'interpretazione per dimostrare di non essere legati al lich.
+Alaric è più che disposto a descrivere chi è e cosa sta facendo se crede che i PG siano studiosi di religione o di cose antiche. Se citano Vecna diventa cupo; se dichiarano di lavorare per il dio malvagio diventa ostile e non li aiuta. Dice che sta investigando su attività sospette legate a Vecna, il quale pare voglia riappropriarsi dello Scettro. Se parlano di Vecna dovranno fare un tiro di Inganno (CD 12) oppure essere convincenti nell'interpretazione per dimostrare di non essere legati a Vecna.
 
 Se riescono a guadagnare la fiducia di Alaric, potrebbero ottenere altri indizi. Alaric sa che Vecna è alla ricerca dello Scettro e che i Custodi sono preoccupati che possa arrivare al Tempio di Lumina. Progetta di andare lui stesso al tempio, ma non vuole in nessun caso unirsi ai PG. Arriverà al Tempio di Lumina alcune ore dopo di loro. Se i PG avranno attaccato i Custodi alla Valle del Giudizio, Alaric sarà allarmato e ostile.
 
@@ -81,12 +93,12 @@ Le tappe del viaggio:
 
 In una stretta gola montana chiamata la Valle del Giudizio, i PG incontrano una pattuglia di paladini di Tyr guidati da un ufficiale. I Custodi pensano — e non hanno tutti i torti — che i PG siano agenti di Vecna intenzionati a rubare lo Scettro. I paladini bloccano il passaggio e interrogano i personaggi sulle loro intenzioni. Con un tiro di Inganno (CD 16) riescono a superare il posto di blocco senza combattere.
 
-**Difficoltà incontro:** MEDIUM (4-5 PG lv9)
+**Difficoltà incontro:** DEADLY (4 veterani CR 3 + 1 sacerdote CR 2 = ~11000 XP aggiustati per 4-5 PG lv9). Questi sono guerrieri sacri di Tyr, non cultisti — combattono con disciplina e convinzione.
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Cultista | 6 | 9 | 12 | +3, 1d6+1 scimitarra | MM pag. 345 |
-| Capo cultista | 1 | 33 | 13 | +4, 1d8+2 mazza | MM pag. 345 |
+| Veterano (paladino di Tyr) | 4 | 58 | 17 | +5, 2d8+3 spadone | MM pag. 350 CR 3. Disciplinati, combattono in formazione |
+| Sacerdote (ufficiale dei Custodi) | 1 | 27 | 13 | +4, 1d6+1 mazza + incantesimi | MM pag. 348 CR 2. Cura Ferite, Scudo della Fede, Guardiani Spirituali |
 
 I Custodi rivelano dettagli sui piani di Vecna e sulla maledizione dello Scettro se interrogati o se l'incontro si risolve in modo amichevole. È chiaro che i Custodi dell'Equilibrio sono determinati a fermare chiunque cerchi lo Scettro per scopi nefasti. Se i PG non nascondono i cadaveri, Alaric verrà a conoscenza del loro tradimento.
 
@@ -126,11 +138,12 @@ La scalata dura 3 giorni. I pericoli sono: freddo intenso e fatica (soprattutto 
 
 **Secondo giorno — Grotta degli Yeti:** I PG raggiungono un pianoro con una grotta. Se esplorata, o durante la notte, vengono attaccati da 3 Yeti affamati.
 
-**Difficoltà incontro:** HARD (4-5 PG lv9)
+**Difficoltà incontro:** MEDIUM (1 Abominable Yeti CR 9 + 2 Yeti CR 3 = ~9600 XP aggiustati per 4-5 PG lv9)
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Yeti | 3 | 51 | 12 | +6, 1d6+4 artiglio (×2) | MM pag. 306. Si ritirano se uno subisce 40+ danni |
+| Abominable Yeti | 1 | 137 | 12 | +7, 2d6+4 artiglio + soffio gelido | MM pag. 306 CR 9. Capobranco, si ritira sotto 35 PF |
+| Yeti | 2 | 51 | 12 | +6, 1d6+4 artiglio (×2) | MM pag. 306 CR 3. Si ritirano se il capo fugge |
 
 Ognuno dei tre Yeti ha al collo un amuleto magico visibile che conferisce Resistenza al Freddo. Può essere preso con un check su Rapidità di Mano o Destrezza (CD 15), oppure se lo Yeti viene sconfitto.
 
@@ -140,13 +153,13 @@ Ognuno dei tre Yeti ha al collo un amuleto magico visibile che conferisce Resist
 
 Il primo o i primi due della fila devono effettuare un tiro di Percezione (CD 13) per individuare crepacci nascosti lungo il percorso. In caso di fallimento: caduta nel crepaccio, 3d6 danni da caduta (9m / 30ft / 6qd) e tiro di Atletica (CD 15) per uscire.
 
-Subito dopo, i PG vengono attaccati da un Roc del Gelo. Questo gigantesco rapace ha nidificato sull'altopiano e considera il luogo il suo territorio. Attacca dall'alto, tentando di afferrare i personaggi più vulnerabili e sollevarli in aria. Si ritira se scende sotto 1/4 dei suoi PF.
+Subito dopo, i PG vengono attaccati da un **Roc** (MM pag. 260) che ha nidificato sull'altopiano e considera il luogo il suo territorio. Il rapace è vecchio e ferito — ha PF ridotti rispetto allo standard. Attacca dall'alto, tentando di afferrare i personaggi più vulnerabili e sollevarli in aria. Si ritira se scende sotto 1/4 dei suoi PF.
 
 **Difficoltà incontro:** HARD (4-5 PG lv9)
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Roc del Gelo | 1 | — | — | artigli + becco | Si ritira sotto 1/4 PF |
+| Roc (vecchio, ferito) | 1 | 150 (di 248) | 15 | +13, 4d8+9 artigli / 4d6+9 becco | MM pag. 260. Si ritira sotto 38 PF. Può afferrare (CD 19 Atletica per liberarsi) |
 
 **Tesoro nel nido del Roc:** 1d4 Pozioni della Resistenza, una Spada lunga +1, gioielli e monete (valore totale: 5000 mo).
 
@@ -190,7 +203,9 @@ Colonne con raffigurazioni di Tyr e iscrizioni con passi teologici degli scritti
 
 Un enorme affresco sulla parete ovest raffigura il Tempio di Tyr con discepoli che entrano ed escono. Le immagini dei discepoli sono lievemente luminose — senza bisogno di tiri, i personaggi lo notano. Se indagano, percepiscono una lieve magia di evocazione emanata dall'affresco. Possono vedere la scritta in antico elfico "Il Guardiano di Lumina/Tyr", che è il titolo e il compito del golem.
 
-Un golem di pietra è accovacciato in mezzo alla stanza. Attacca chiunque entri. Il golem è chiaramente ferito. Era originariamente un guardiano sacro del tempio, ma ora è pervaso dall'influenza oscura di Vecna.
+Un golem di pietra è accovacciato in mezzo alla stanza. Attacca chiunque entri. Il golem è chiaramente ferito. Era originariamente un guardiano sacro del tempio, ma ora è pervaso dall'influenza oscura di Vecna. Stat block completo: vedi `characters/markdown/MON_GuardianoLumina.md`.
+
+**Difficoltà incontro:** MEDIUM (4-5 PG lv9) — il golem ha solo 50 PF dei 178 originali.
 
 Durante il combattimento, i personaggi possono notare con Intuizione (CD 12) che il mostro combatte disperato, intrappolato in un destino che non può controllare. Manifestazioni di energia luminosa cominciano a emergere dall'affresco: luci che assumono la forma di figure umane eteree, bisbigliano frasi spezzate. Con Percezione (CD 10) si percepiscono frammenti: "Aiutate... purificare... perdono..."
 
@@ -241,11 +256,12 @@ Se la voce di Ormut è con i PG (hanno già ricevuto la benedizione), un Medagli
 
 Se invece tentano di attaccare le ombre, queste si trasformano in 6 spettri che attaccano urlando "Eretici!" e "Impuri, andatevene!"
 
-**Difficoltà incontro:** HARD (4-5 PG lv9)
+**Difficoltà incontro:** HARD (3 spettri CR 1 + 2 wraith CR 5 = ~8400 XP aggiustati per 4-5 PG lv9). Solo se i PG attaccano le ombre.
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Spettro | 6 | 22 | 12 | +4, 3d6 necrotici | MM pag. 279. Solo se i PG attaccano le ombre |
+| Wraith | 2 | 67 | 13 | +6, 4d8+3 necrotici | MM pag. 302 CR 5. Guidano gli spettri |
+| Spettro | 3 | 22 | 12 | +4, 3d6 necrotici | MM pag. 279 CR 1 |
 
 #### Sala 10
 
@@ -255,7 +271,9 @@ Nessun tesoro né nemici. Un affresco raffigura il gigante di pietra che difende
 
 Alla fine di una scala che termina contro un muro, c'è il passaggio verso Erythale. Una fiamma magica arde in mezzo alla stanza. Sul muro in fondo alla scala c'è una scritta: "A' lammen en' iand" — ovvero "Oltre la soglia" in elfico (A' = "verso/oltre", Lammen = "soglia/porta", En' = "di/del", Iand = "confine/oltre").
 
-La voce di Ormut guida i PG verso la scala e spiega che per attraversare il muro dovranno avere fede in Tyr: dovranno attraversarlo correndo, senza avere paura di schiantarsi. Se indagato, il muro appare solido; passano solo se entrano di slancio. Un'aura magica di abiurazione e illusione copre il muro.
+La voce di Ormut guida i PG verso la scala — ma solo se hanno già ricevuto la benedizione di Tyr (Sala 4, 8 o tramite il sacrificio nella fiamma qui sotto). Se non hanno la benedizione, devono prima compiere il sacrificio nella fiamma per ottenere la voce di Ormut e poter attraversare la soglia.
+
+Ormut spiega che per attraversare il muro in fondo alla scala dovranno avere fede in Tyr: dovranno attraversarlo correndo, senza avere paura di schiantarsi. Se indagato, il muro appare solido; passano solo se entrano di slancio. Un'aura magica di abiurazione e illusione copre il muro.
 
 Se i PG distruggono nella fiamma un qualsiasi oggetto che abbia reale valore per loro (oggetti magici, ricordi di persone care, parecchie monete d'oro), ricevono la benedizione di Tyr. Il master deve giudicare se stanno perdendo qualcosa di reale valore per il personaggio. Tutti possono fare questo rito.
 
@@ -271,7 +289,7 @@ Chi riceve la benedizione di Tyr ottiene la Benedizione della Giustizia:
 
 > Oltre la soglia si apre Erythale, un regno etereo di luce e cristallo. Il cielo brilla come un'alba perenne e il terreno trasparente riflette ogni pensiero ed emozione dei personaggi.
 
-I Guardiani Luminosi sono esseri alti 3 metri / 10ft fatti di pura luce con ali traslucide, simili agli angeli. Servono esclusivamente Tyr e hanno un senso innato della purezza d'animo. Comunicano telepaticamente. Difendono lo Scettro perché rappresenta il più grande simbolo di giustizia e ordine nel multiverso. Chiunque non sia puro, secondo i criteri di Tyr, viene visto come una minaccia.
+I Guardiani Luminosi sono esseri alti 3m / 10ft / 2qd fatti di pura luce con ali traslucide, simili agli angeli. Servono esclusivamente Tyr e hanno un senso innato della purezza d'animo. Comunicano telepaticamente. Difendono lo Scettro perché rappresenta il più grande simbolo di giustizia e ordine nel multiverso. Chiunque non sia puro, secondo i criteri di Tyr, viene visto come una minaccia.
 
 I Guardiani sono amichevoli e portano i PG al Santuario di Cristallo dove è custodito lo Scettro. Consegneranno lo Scettro dopo essere stati convinti delle buone intenzioni dei PG e della necessità di farlo. Nessuna meccanica particolare: devono solo essere minimamente convincenti e farsi aiutare da Ormut.
 
@@ -297,6 +315,8 @@ Un'arma divina che incanala la giustizia e la purezza, maledetta per chi non è 
 Uscendo dalla Sala 1 prendendo la scala in salita, i PG trovano davanti a sé schierati 15 veterani e Alaric il Giusto. Alaric intima di consegnargli lo Scettro. Gli avatar di Tyr e Vecna appaiono silenti, osservando senza intervenire nella battaglia.
 
 > Vecna dice: "Ricordate la vostra promessa." E aggiunge: "Date lo Scettro ad Alaric."
+
+*Nota al DM: Vecna sta mentendo. Non vuole che Alaric tenga lo Scettro — sa che Alaric è corruttibile e che lo Scettro lo consumerà, rendendolo un burattino. Vecna intende recuperare lo Scettro da Alaric in un secondo momento, quando sarà troppo debole per resistere. Se i PG glielo danno, Vecna vince a lungo termine.*
 
 > Tyr dice: "Ricordate la vostra promessa. Usatelo per il bene, o distruggetelo."
 
@@ -348,6 +368,11 @@ Con lo Scettro in mano, i personaggi devono deciderne il destino:
 - **Lo Scettro di Tyr** — l'artefatto principale dell'avventura, con le proprietà descritte nella Parte 4.
 - **Benedizione della Giustizia** — vantaggio ai tiri salvezza contro effetti di paura o necrotici per 24 ore (ottenuta nel dungeon).
 
+## Milestone
+
+**Livello raggiunto:** 10
+**Trigger:** recupero dello Scettro di Tyr da Erythale e risoluzione dello scontro con Alaric.
+
 ## Note al master
 
 **Scalabilità:**
@@ -357,6 +382,8 @@ Con lo Scettro in mano, i personaggi devono deciderne il destino:
 **Ritmo narrativo:** Il modulo alterna fasi di esplorazione e roleplay (Baldur's Gate, Silenza, Rocca Bianca, Erythale) a fasi di sfida ambientale (la scalata) e combattimento (Valle del Giudizio, Yeti, Roc, dungeon, battaglia finale). Il dungeon del tempio è più un percorso di prove morali che un dungeon tradizionale — i combattimenti sono evitabili o risolvibili con roleplay.
 
 **Alaric e i veterani:** La battaglia finale è classificata DEADLY, ma è progettata per essere risolta anche senza combattimento diretto. Se i PG usano la Sentenza di Tyr o convincono Alaric a rivelare le sue vere intenzioni, i veterani si rivoltano. Il master dovrebbe rendere chiara questa possibilità attraverso gli indizi di Brother Thaddeus e dei Guardiani Luminosi.
+
+**Piano B — se il roleplay fallisce:** Se i PG non riescono a far confessare Alaric e il combattimento inizia, i veterani non sono fanatici — sono soldati leali ma non suicidi. Quando Alaric scende sotto metà PF (45), la sua Aura di Corruzione vacilla e i veterani più vicini (1d6) esitano e smettono di combattere per 1 round. Se i PG colgono l'occasione per accusare Alaric ad alta voce (Persuasione CD 14, con vantaggio se hanno prove da Thaddeus), i veterani esitanti si rivoltano. I restanti seguono entro 2 round. Senza questo intervento, il combattimento è un TPK quasi certo.
 
 **Il golem:** Se i PG lo risparmiano nella Sala 4, il golem combatte al loro fianco nella battaglia finale. È un alleato potente ma fragile (50 PF). Se lo hanno sconfitto, non c'è nella battaglia finale.
 
@@ -368,7 +395,7 @@ Con lo Scettro in mano, i personaggi devono deciderne il destino:
 
 ### La lore
 
-**La Caduta del Tempio di Lumina:** Lo Scettro di Tyr fu perduto durante la Caduta del Tempio di Lumina, un evento catastrofico avvenuto migliaia di anni fa. Durante un attacco da parte di una fazione di sacerdoti che si sospetta fosse sotto l'influsso di Vecna, il tempio principale dedicato a Tyr fu assediato. Nel caos della battaglia, un giovane sacerdote corrotto dalle promesse di potere di Vecna rubò lo Scettro e tentò di consegnarlo al lich. Tuttavia, il traditore fu fermato da Ormut, un incantatore che teletrasportò l'artefatto in una località sconosciuta per poi morire per mano dei traditori. Da allora, lo Scettro è rimasto nascosto, la sua posizione perduta nel tempo.
+**La Caduta del Tempio di Lumina:** Lo Scettro di Tyr fu perduto durante la Caduta del Tempio di Lumina, un evento catastrofico avvenuto migliaia di anni fa. Durante un attacco da parte di una fazione di sacerdoti che si sospetta fosse sotto l'influsso di Vecna, il tempio principale dedicato a Tyr fu assediato. Nel caos della battaglia, un giovane sacerdote corrotto dalle promesse di potere di Vecna rubò lo Scettro e tentò di consegnarlo a Vecna. Tuttavia, il traditore fu fermato da Ormut, un incantatore che teletrasportò l'artefatto in una località sconosciuta per poi morire per mano dei traditori. Da allora, lo Scettro è rimasto nascosto, la sua posizione perduta nel tempo.
 
 **I Custodi dell'Equilibrio:** Un ordine dedicato a mantenere l'equilibrio tra bene e male nel mondo, incarnando i principi di giustizia e imparzialità promossi da Tyr. Storicamente incaricati di proteggere lo Scettro di Tyr, simbolo supremo di giustizia divina.
 

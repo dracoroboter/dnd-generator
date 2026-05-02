@@ -5,16 +5,47 @@
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>lawful evil</alignment>
-        <ac>10</ac>
-        <hp>1</hp>
+        <ac>15 (Mage Armor)</ac>
+        <hp>99 (18d8 + 18)</hp>
         <speed>30 ft.</speed>
         <str>10</str>
-        <dex>10</dex>
-        <con>10</con>
-        <int>10</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <cr>1</cr>
+        <dex>14</dex>
+        <con>12</con>
+        <int>20</int>
+        <wis>15</wis>
+        <cha>16</cha>
+        <senses>Percezione passiva 12</senses>
+        <languages>Common, Draconico, Infernale, Abissale</languages>
+        <cr>12</cr>
+        <trait>
+            <name>Resistenza Magica</name>
+            <text>vantaggio ai tiri salvezza contro incantesimi e altri effetti magici</text>
+        </trait>
+        <trait>
+            <name>Volontà Corrotta</name>
+            <text>quando Malebranche infligge danni necrotici, recupera PF temporanei pari alla metà dei danni inflitti</text>
+        </trait>
+        <trait>
+            <name>Azioni Leggendarie (3/round)</name>
+            <text>Malebranche può compiere 3 azioni leggendarie, scegliendole tra le seguenti. Solo una alla volta, alla fine del turno di un'altra creatura.</text>
+        </trait>
+        <trait>
+            <name>Cantrip (1 azione)</name>
+            <text>lancia un cantrip</text>
+        </trait>
+        <trait>
+            <name>Evocazione Rapida (2 azioni)</name>
+            <text>evoca 1d4 scheletri (CR 1/4) in spazi liberi entro 9m / 30ft</text>
+        </trait>
+        <trait>
+            <name>Drenaggio Vitale (1 azione)</name>
+            <text>una creatura entro 9m / 30ft deve superare un TS Costituzione CD 17 o subire 2d8 danni necrotici. Malebranche recupera PF pari ai danni inflitti.</text>
+        </trait>
+        <action>
+            <name>Raggio Necromantico (distanza)</name>
+            <text>Attacco: +9, distanza 36m / 120ft / 24qd Danni: 3d10 necrotici</text>
+            <attack>Raggio Necromantico (distanza)|+9|3d10</attack>
+        </action>
         <description>Governatore corrotto di Orcastle, Lord Malebranche è un uomo magro, pallido, con occhi infossati che sembrano calcolare il valore di ogni persona nella stanza. Veste abiti nobiliari scuri con ricami d'argento. Le sue mani sono sempre fredde — un effetto collaterale della magia necromante che pratica.
 Tratto distintivo: parla con cortesia impeccabile anche quando ordina atrocità. Non alza mai la voce. La sua calma è più inquietante di qualsiasi minaccia.</description>
     </monster>

@@ -5,16 +5,26 @@
         <size>M</size>
         <type>humanoid (dragonide)</type>
         <alignment>da determinare in gioco</alignment>
-        <ac>10</ac>
-        <hp>1</hp>
+        <ac>13 (cotta di maglia)</ac>
+        <hp>27 (5d8 + 5)</hp>
         <speed>30 ft.</speed>
         <str>10</str>
         <dex>10</dex>
-        <con>10</con>
-        <int>10</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <cr>1</cr>
+        <con>12</con>
+        <int>13</int>
+        <wis>16</wis>
+        <cha>13</cha>
+        <senses>Percezione passiva 13</senses>
+        <languages>Common, Draconico</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Soffio draconico</name>
+            <text>una volta per riposo breve, cono di 4,5m / 15ft / 3qd. TS Destrezza CD 11, 2d6 danni (tipo dipende dal lignaggio — da definire).</text>
+        </trait>
+        <trait>
+            <name>Eminenza divina</name>
+            <text>come azione bonus, può conferire a una creatura entro 9m / 30ft un bonus di 1d4 a un tiro per colpire o TS (3 usi/giorno).</text>
+        </trait>
         <description>Un dragonide dall'aria dimessa che si fa chiamare Elemir Strunz per nascondere la sua vera identità. Si mescola tra i seguaci di Axel Ruby nella zona Est, cercando di passare inosservato. Ha una cicatrice a forma di stella sul polpaccio sinistro — un segno che potrebbe tradirlo se qualcuno sa cosa cercare.
 Tratto distintivo: parla poco e sceglie le parole con cura. Quando mente, tende a toccarsi il polpaccio sinistro — un tell che giocatori attenti possono notare.</description>
     </monster>

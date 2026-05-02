@@ -116,6 +116,30 @@ def main():
     else:
         print(f"✓ {len(md_files)} schede generate in fightclub/ e statblock/")
 
+    # Generate merged compendium XML
+    xml_files = sorted(
+        glob.glob(os.path.join(fc_dir, "NPC_*.xml")) +
+        glob.glob(os.path.join(fc_dir, "MON_*.xml"))
+    )
+    if xml_files:
+        compendium_path = os.path.join(fc_dir, f"{adventure}_Compendium.xml")
+        with open(compendium_path, "w", encoding="utf-8") as out:
+            out.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+            out.write('<compendium version="5" auto_indent="NO">\n')
+            for xf in xml_files:
+                with open(xf, "r", encoding="utf-8") as f:
+                    inside = False
+                    for line in f:
+                        if "<monster>" in line:
+                            inside = True
+                        if inside:
+                            out.write(line)
+                        if "</monster>" in line:
+                            inside = False
+            out.write("</compendium>\n")
+        count = len(xml_files)
+        print(f"✓ {compendium_path} ({count} creature)")
+
 
 if __name__ == "__main__":
     main()

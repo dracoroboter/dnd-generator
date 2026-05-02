@@ -234,6 +234,64 @@ Tileset disponibili nel repository **dnd-maps** (da DCSS, licenza CC):
 
 ---
 
+## Release e Pubblicazione
+
+### Definizioni
+
+- **Release** = insieme taggato (con codice identificativo univoco, es. `v1.0_20260502`) delle versioni di tutti i file che compongono un'avventura. I file in `releases/` sono in `.gitignore` — artefatti di lavoro, non tracciati da git.
+- **Pubblicazione** = ZIP della release in formato directory predeterminato, messo in `public/` dove può essere committato. È il passo che rende il materiale disponibile nel repository.
+
+### Composizione di una release
+
+Lo ZIP è pensato per **campagne online** (Roll20, VTT). Per **campagne fisiche** serve un PDF printable separato (vedi sotto).
+
+**Obbligatori nello ZIP:**
+
+| File | Descrizione |
+|------|-------------|
+| `NomeAvventura_YYYYMMDD_lowres.pdf` | PDF lowres senza mappe/stat block inline |
+| `NomeAvventura_Compendium.xml` | Tutti gli NPC/MON in formato FightClub |
+| `NomeAvventura_COVER.png` | Copertina |
+| `maps/*.png` | Mappe PNG separate (player + DM quando disponibili) |
+| `statblocks/*.png` | Stat block PNG stampabili |
+| `README.txt` | Versione, data, autore, contenuto, licenza |
+
+**Opzionali (quando implementati):**
+
+| File | Descrizione |
+|------|-------------|
+| `pdf/NomeAvventura_Lore.pdf` | Documento principale separato |
+| `pdf/NomeAvventura_NN_NomeModulo.pdf` | Un PDF per modulo |
+
+**Esclusi dallo ZIP:** PDF fullres, sorgenti .md, AdventureBook, PlanBook, XML singoli, immagini personaggi, file in other/.
+
+### PDF printable (da implementare)
+
+Per campagne fisiche: un unico PDF hires con tutto dentro — testo, mappe inline, stat block in appendice (multi-colonna, 2 per pagina). Generato separatamente dallo ZIP.
+
+### Script
+
+```bash
+# Pubblicazione completa (stat block → compendium → PDF → ZIP → public/)
+python3 tech/scripts/release-bundle.py <NomeAvventura> [--tag vX.Y]
+
+# Singoli passi (se serve)
+python3 tech/fightclub/generate-statblocks.py <NomeAvventura>          # stat block + compendium
+python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura>  # PDF fullres
+python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --lowres  # PDF lowres
+```
+
+Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/scripts/old/`.
+
+### TODO
+
+- [ ] Aggiungere flag `--no-maps` a `create-pdf-adventure.py` per escludere mappe PNG inline
+- [ ] Implementare `--split` in `create-pdf-adventure.py` per PDF divisi (lore, sessioni, appendice)
+- [ ] Implementare stat block multi-colonna nell'appendice PDF (2 per pagina)
+- [ ] Definire il tag di versione (manuale? campo nel README.md? tag git?)
+
+---
+
 ## Future / opzionali
 
 - [ ] Valutare layout PDF ottimizzato per stampa fisica (margini, formato A5/A4)

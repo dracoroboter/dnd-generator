@@ -6,7 +6,7 @@
 
 La città-stato di Orcastle è stata trasformata in una prigione a cielo aperto, circondata da una barriera magica impenetrabile. Il governatore corrotto Lord Cedric Malebranche ha costruito il suo potere sfruttando questo sistema crudele, imprigionando nemici politici e facendo affari nell'ombra con i peggiori criminali della regione.
 
-Malebranche ha perso un antico artefatto, la Pergamena del Giudizio, che contiene informazioni in grado di ribaltare il suo governo. La pergamena è finita nelle mani di Malachias Ombrascura, uno stregone oscuro che si nasconde tra le rovine di Orcastle. Ombrascura ha rapito i PG e li ha costretti, tramite collari esplosivi, a recuperare la pergamena per lui. Se falliscono, muoiono. Se hanno successo, potrebbero essere ricompensati oppure traditi.
+Malebranche ha perso un antico artefatto, la Pergamena del Giudizio, che contiene informazioni in grado di ribaltare il suo governo. La pergamena è finita nelle mani di Malachias Ombrascura, un chierico dragonide che si nasconde tra le rovine di Orcastle. Malebranche ha rapito i PG e li ha costretti, tramite collari esplosivi, a recuperare la pergamena per lui. Se falliscono, muoiono. Se hanno successo, riceveranno 2500 monete d'oro — ma Ombrascura ha i suoi piani.
 
 L'isola è divisa in quattro zone controllate da fazioni diverse: Est (banda dei Ruby), Ovest (banda degli Emerald), Nord (Torre di Torth, infestata da mostri) e Centro (Castro degli Highlander). I PG dovranno navigare tra queste fazioni, scoprire dove si nasconde la pergamena e trovare un modo per fuggire dall'isola.
 
@@ -32,7 +32,7 @@ Un potente incantesimo di sonno colpisce il gruppo. Il personaggio con più punt
 
 > Vi risvegliate in un corridoio stretto, simile all'interno di un dirigibile. Cabine laterali si aprono lungo i lati, e in fondo una stanza più ampia — la plancia di comando. Non avete più armi, armature né equipaggiamento. Al collo sentite un fastidioso collare metallico che non ricordate di aver indossato.
 
-Il nano Mesusu Merconè, capitano della nave, li invita a sedersi. Sono presenti 5 guardie armate (statistiche: veterani). Mesusu spiega:
+La nana **Mesusu Merconè**, capitano della nave, li invita a sedersi. Sono presenti 5 guardie armate (statistiche: veterani). Mesusu spiega:
 
 - I collari li uccideranno se disubbidiscono o escono dalla fortezza prima di aver trovato la pergamena
 - Hanno acconsentito alla missione per conto di Malebranche, con mediatore Kurzum
@@ -51,9 +51,9 @@ Dopo un riposo lungo, i PG vengono invitati a poppa e disposti lungo la porta di
 
 > Mesusu, mentre precipitate, grida: "Correte dentro la porta, non resterà aperta per molto!"
 
-Cadono da 200 metri. Ogni 50 metri chiedere ai PG se vogliono fare qualcosa. A 50 metri di altezza vengono avvolti da una nebbia colorata: una potente magia rallenta la caduta. Arrivano a terra come se cadessero da 6 metri, subendo 2d6 danni. Con una prova di Acrobazia CD 12 dimezzano i danni.
+Cadono da 200m / 660ft / 132qd. Ogni 50m / 165ft / 33qd chiedere ai PG se vogliono fare qualcosa. A 50m / 165ft / 33qd di altezza vengono avvolti da una nebbia colorata: una potente magia rallenta la caduta. Arrivano a terra come se cadessero da 6m / 20ft / 4qd, subendo 2d6 danni. Con una prova di Acrobazia CD 12 dimezzano i danni.
 
-Davanti a loro si apre una porta magica — una distorsione semitrasparente nella cupola che circonda la fortezza. Un drappello di 2d4 banditi vestiti poveramente di rosso (denutriti, male in arnese) si sta avvicinando velocemente: sono a 150 metri dalla porta, i PG a 50. I banditi impiegheranno due o tre turni ad arrivare. Dall'alto, l'Airborne e gli armigeri di Malebranche scambiano colpi di balestra e archi con i banditi.
+Davanti a loro si apre una porta magica — una distorsione semitrasparente nella cupola che circonda la fortezza. Un drappello di 2d4 banditi vestiti poveramente di rosso (denutriti, male in arnese) si sta avvicinando velocemente: sono a 150m / 500ft / 100qd dalla porta, i PG a 50m / 165ft / 33qd. I banditi impiegheranno due o tre turni ad arrivare. Dall'alto, l'Airborne e gli armigeri di Malebranche scambiano colpi di balestra e archi con i banditi.
 
 Se il drappello di banditi riesce a uscire dalla cupola, viene colpito dall'alto dalle armi della navicella e torna indietro.
 
@@ -119,32 +119,33 @@ La pianura a nord è rocciosa, lievemente più in alto del resto dell'isola. Le 
 
 A metà cammino, dietro una roccia, i PG vedono una pattuglia di cultisti guidati dal loro sacerdote, nel mezzo di un rituale: cantano un inno sacro a Vecna in infernale. Tutti indossano una tunica con il simbolo di una mano che afferra un occhio. Se incontrati (Stealth) sono ostili. Non hanno nessuna volontà di parlamentare: dopo aver avvertito i PG di andarsene, li attaccano e combattono fino alla morte. Se i PG scappano verso sud, non li inseguono.
 
-**Difficoltà incontro:** MEDIUM
+**Difficoltà incontro:** EASY (4 cultisti fanatici CR 2 = ~3600 XP aggiustati per 5-6 PG lv8)
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Cultista | 8 | 9 | 12 | +3, 1d6+1 scimitarra | pag. 345 |
-| Cultista fanatico | 1 | 33 | 13 | +4, 1d6+2 pugnale | pag. 346, PE pesati 950 |
+| Cultista fanatico | 4 | 33 | 13 | +4, 1d6+2 pugnale + incantesimi | MM pag. 346 CR 2. Combattono fino alla morte |
 
 **Secondo incontro — Diavoli barbuti:**
 
-Dopo 4 turni o una volta sconfitti i cultisti, due diavoli barbuti tentano di prendere i PG di sorpresa. Tiro Percezione di gruppo con svantaggio se sono ancora in mezzo alla battaglia. I diavoli intimano di andarsene; se i PG non lo fanno, combattono fino alla morte.
+Dopo 4 turni o una volta sconfitti i cultisti, due diavoli barbuti tentano di prendere i PG di sorpresa. Tiro Percezione di gruppo con svantaggio se sono ancora in mezzo alla battaglia. I diavoli intimano di andarsene; se i PG non lo fanno, combattono fino alla morte. Due imp li accompagnano, nascosti e invisibili.
 
-**Difficoltà incontro:** HARD
+**Difficoltà incontro:** MEDIUM (2 diavoli barbuti CR 5 + 2 imp CR 1 = ~8000 XP aggiustati per 5-6 PG lv8)
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Diavolo barbuto | 2 | 52 | 13 | +5, 1d10+3 alabarda | pag. 70, PE pesati 2100 |
+| Diavolo barbuto | 2 | 52 | 13 | +5, 1d10+3 alabarda | MM pag. 70 CR 5 |
+| Imp | 2 | 10 | 13 | +5, 1d4+3 pungiglione + veleno | MM pag. 76 CR 1. Invisibili, attaccano di sorpresa |
 
 **Terzo incontro — Il boss:**
 
-Dopo due turni o quando i diavoli sono sconfitti, si presenta un diavolo delle catene che maledice i PG in infernale in nome di Vecna.
+Dopo due turni o quando i diavoli sono sconfitti, si presenta un diavolo delle catene che maledice i PG in infernale in nome di Vecna. Due imp sopravvissuti (se presenti) si uniscono a lui.
 
-**Difficoltà incontro:** DEADLY
+**Difficoltà incontro:** HARD (1 diavolo catene CR 8 + 2 imp CR 1 = ~8600 XP aggiustati per 5-6 PG lv8)
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Diavolo delle catene | 1 | 85 | 16 | +8, 2d6+4 catena | pag. 75, PE pesati 3900 |
+| Diavolo delle catene | 1 | 85 | 16 | +8, 2d6+4 catena | MM pag. 75 CR 8 |
+| Imp | 2 | 10 | 13 | +5, 1d4+3 pungiglione + veleno | MM pag. 76 CR 1. Solo se sopravvissuti dal secondo incontro |
 
 ### Nord — La Torre di Torth e il Pozzo Segreto
 
@@ -186,11 +187,13 @@ Il dungeon è composto da tre prove che proteggono l'accesso al portale:
 
 Una grande sala con un pavimento lucido come uno specchio. Appena i PG mettono piede nella stanza, i loro doppi emergono dal pavimento e li attaccano. I doppi possiedono gli stessi poteri e punti ferita dei PG originali, ma sono vulnerabili agli attacchi psichici e non possono guarire. Detect Magic rivela un potente incantesimo di illusione; i danni fatti dai doppi sono psichici.
 
+*Nota al DM: gestire i doppi come copie semplificate dei PG — usano solo attacchi base (arma principale) e cantrip, non incantesimi con slot né abilità di classe. Hanno gli stessi PF e CA dei PG ma non hanno oggetti magici attivi. L'obiettivo della sala non è un combattimento lungo ma la scoperta che ignorare i doppi è la soluzione.*
+
 Per passare la sala, i PG devono ignorare i doppi e recitare una frase nascosta nelle rune sulla parete opposta: "L'ombra non è nulla senza la luce, l'ombra ha il potere che gli dai." Capire questo richiede Saggezza (Intuizione) o Intelligenza (Arcano) CD 15. Le ombre scompaiono dopo aver ferito almeno tre personaggi.
 
 **Prova 2 — Il Labirinto di Vecna:**
 
-Un pavimento a scacchiera si presenta davanti ai PG. Su ogni piastrella c'è una lettera. Dovranno formare la parola "V.E.C.N.A." camminando sulle piastrelle giuste. Ad ogni lettera errata, un dardo avvelenato infligge 2d4+2 danni a tutti i personaggi.
+Un pavimento a scacchiera si presenta davanti ai PG. Su ogni piastrella c'è una lettera. Dovranno formare la parola "V.E.C.N.A." camminando sulle piastrelle giuste. Ad ogni lettera errata, un dardo avvelenato infligge 2d4+2 danni perforanti a tutti i personaggi (TS Destrezza CD 12 per dimezzare).
 
 **Prova 3 — Il Guardiano del Portale:**
 
@@ -212,9 +215,9 @@ Una volta compiuto il brindisi, la torre tremola brevemente e i PG si ritrovano 
 |------|-----|----|----|---------|------|
 | Bandito (Ruby/Emerald) | variabile | 11 | 12 | +3, 1d6+1 scimitarra | drappelli da 2d4 |
 | Capo bandito | variabile | 65 | 15 | +5, 2d6+3 | guarnigione di Axel |
-| Assassino Emerald | 1d6 | — | — | dardi avvelenati (sonno) | attaccano di sorpresa |
+| Assassino Emerald | 1d6 | 78 | 15 | +6, 1d8+3 spada corta + 7d6 veleno | Assassino MM pag. 343 CR 8. Dardi avvelenati (sonno, TS Cos CD 13). Attaccano di sorpresa |
 | Cavaliere (campione Emerald) | 1 | 52 | 18 | +5, 2d6+3 | pag. 344, duello senza magie |
-| Soldato Highlander | variabile | — | — | — | pattuglie organizzate |
+| Soldato Highlander | variabile | 58 | 17 | +5, 2d8+3 spadone | Veterano MM pag. 350 CR 3. Pattuglie organizzate |
 | Cultista di Vecna | 8 | 9 | 12 | +3, 1d6+1 scimitarra | pag. 345 |
 | Cultista fanatico | 1 | 33 | 13 | +4, 1d6+2 pugnale | pag. 346 |
 | Diavolo barbuto | 2 | 52 | 13 | +5, 1d10+3 alabarda | pag. 70 |
@@ -226,7 +229,7 @@ Una volta compiuto il brindisi, la torre tremola brevemente e i PG si ritrovano 
 
 1. **Ombrascura si nasconde a Est** sotto il falso nome di Elemir Strunz. È un dragonide con una cicatrice a forma di stella sul polpaccio sinistro. Vive come seguace di Axel Ruby.
 2. **La Pergamena del Giudizio** è nascosta nel castro, nel sotterraneo sotto il pennone della bandiera a nord. Ombrascura l'ha messa lì.
-3. **La pergamena** contiene tre informazioni: uno spell che fa cadere le mura invisibili di Orcastle, uno spell per mandare un messaggio a Malebranche per dimostrare di averla trovata, e la parola da spedire "Zikzle l'Illuminato" (nome del creatore, un mago goblin buono).
+3. **La pergamena** contiene tre informazioni: uno spell che fa cadere le mura invisibili di Orcastle, uno spell per mandare un messaggio a Malebranche per dimostrare di averla trovata, e la parola da spedire "Zikle l'Illuminato" (nome del creatore, un mago goblin buono).
 4. **Attivazione della pergamena:** solo un paladino, un personaggio puro di cuore, o Malebranche e i suoi parenti per sangue possono attivarla. Deve poi essere pronunciata la parola segreta "I muri cadranno, il potere terminerà", conosciuta da Ombrascura.
 5. **Miranda Emerald** conosce Ombrascura e potrebbe riconoscerlo. Possiede il libro "Il mistero della torre di Torth".
 6. **Lord Kreig** è un lontano cugino di Malebranche — informazione che ha sempre tenuto nascosta. Potrebbe quindi azionare la pergamena.
@@ -275,7 +278,7 @@ Se i PG si liberano dai collari o dopo il settimo riposo, 3d6 mercenari al soldo
 
 ### La Pergamena del Giudizio
 
-Il potere principale della pergamena è aprire la barriera magica che blocca Orcastle. Contiene tre elementi: l'incantesimo per abbattere le mura, un incantesimo messaggio con la parola d'ordine "Zikzle l'Illuminato" da mandare a Mesusu, e il segreto di Malebranche.
+Il potere principale della pergamena è aprire la barriera magica che blocca Orcastle. Contiene tre elementi: l'incantesimo per abbattere le mura, un incantesimo messaggio con la parola d'ordine "Zikle l'Illuminato" da mandare a Mesusu, e il segreto di Malebranche.
 
 Attivazione: solo un paladino, un personaggio puro di cuore, o Malebranche e i suoi parenti per sangue possono attivarla. Deve essere pronunciata la parola segreta "I muri cadranno, il potere terminerà" (conosciuta da Ombrascura). La pergamena è protetta da una maledizione potente — Ombrascura conosce la parola ma non può usarla, e sta cercando un modo alternativo (il suo Dissolvi Magie da chierico non è abbastanza potente).
 
@@ -291,11 +294,11 @@ In possesso di Miranda Emerald. Conferma la presenza di un passaggio nel pozzo s
 
 Strumenti di controllo e coercizione progettati per eliminare i portatori in caso di disobbedienza o fallimento. I glifi sono collegati ai collari e posizionati nel palazzo di Malebranche (versione modificata di Glifo di Allontanamento).
 
-**Esplosione:** Raggio 3 metri, 10d8 danni da fuoco + 5d6 danni contundenti (danno medio 45, massimo 110). Tiro salvezza Destrezza CD 16 per dimezzare. Se fallito, il portatore è buttato a terra prono e stordito per 1 round.
+**Esplosione:** Raggio 3m / 10ft / 2qd, 10d8 danni da fuoco + 5d6 danni contundenti (danno medio 45, massimo 110). Tiro salvezza Destrezza CD 16 per dimezzare. Se fallito, il portatore è buttato a terra prono e stordito per 1 round.
 
 **Attivazione:** Tentativo di rimozione senza codice, superamento del limite di tempo (settimo riposo lungo), o attivazione a distanza dal carceriere.
 
-**Disattivazione:** Intelligenza (Arcano) o Destrezza (Attrezzi da Scasso) CD 20. Un 1 naturale fa esplodere il collare immediatamente. Dissolvi Magie di 5° livello o superiore funziona, oppure il comando di disattivazione da chi lo ha attivato.
+**Disattivazione:** Intelligenza (Arcano) o Destrezza (Attrezzi da Scasso) CD 20. Un 1 naturale fa esplodere il collare immediatamente (regola homebrew: in 5e il 1 naturale non è un fallimento automatico sulle prove di abilità, ma qui sì per la tensione narrativa). Dissolvi Magie di 5° livello o superiore funziona, oppure il comando di disattivazione da chi lo ha attivato.
 
 **Modi per rimuovere i collari:**
 
@@ -305,6 +308,11 @@ Strumenti di controllo e coercizione progettati per eliminare i portatori in cas
 4. I contatti di Ombrascura alla corte possono cancellare i glifi, ma questo scatena l'attacco di Malebranche
 
 ---
+
+## Milestone
+
+**Livello raggiunto:** 9
+**Trigger:** fuga da Orcastle (con qualsiasi mezzo) e risoluzione della questione pergamena/collari.
 
 ## Note al master
 
@@ -331,4 +339,4 @@ Questa è un'avventura sandbox: i PG possono esplorare le quattro zone in qualsi
 | Miranda Emerald | leader Emerald, maga | statistiche: mago 2° livello |
 | Lord Kreig Highlander | leader castro, cugino di Malebranche | statistiche: cavaliere |
 | Vecna | divinità (avatar) | non combatte, non può essere colpito |
-| Zikzle l'Illuminato | creatore della pergamena (morto) | mago goblin, ucciso da Malebranche |
+| Zikle l'Illuminato | creatore della pergamena (morto) | mago goblin, ucciso da Malebranche |

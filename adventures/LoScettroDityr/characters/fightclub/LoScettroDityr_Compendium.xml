@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_GuardianoLumina</name>
+        <size>M</size>
+        <type>humanoid (costrutto (golem di pietra))</type>
+        <alignment>neutrale (corrotto da vecna)</alignment>
+        <ac>17</ac>
+        <hp>50 (di 178 massimi — pesantemente ferito)</hp>
+        <speed>10 ft.</speed>
+        <str>22</str>
+        <dex>9</dex>
+        <con>20</con>
+        <int>3</int>
+        <wis>11</wis>
+        <cha>1</cha>
+        <cr>5</cr>
+        <trait>
+            <name>Resistenza Magica</name>
+            <text>vantaggio ai tiri salvezza contro incantesimi e altri effetti magici</text>
+        </trait>
+        <trait>
+            <name>Immunità alle Armi Non Magiche</name>
+            <text>immune ai danni da armi non magiche o non argentate</text>
+        </trait>
+        <trait>
+            <name>Aura di Corruzione (solo se corrotto)</name>
+            <text>ogni creatura entro 3m / 10ft / 2qd deve effettuare un TS Costituzione CD 14 all'inizio del proprio turno o subire 5 (1d10) danni necrotici</text>
+        </trait>
+        <action>
+            <name>Pugno (mischia)</name>
+            <text>Attacco: +8, portata 1,5m / 5ft / 1qd Danni: 3d8+6 contundenti</text>
+            <attack>Pugno (mischia)|+8|3d8+6</attack>
+        </action>
+        <action>
+            <name>Esplosione Oscura (1/combattimento, solo se corrotto)</name>
+            <text>Raggio: 4,5m / 15ft / 3qd Tiro salvezza: Destrezza CD 15 Fallimento: 3d8+6 danni necrotici Successo: metà danni</text>
+        </action>
+        <description>Un enorme golem di pietra accovacciato, chiaramente ferito — crepe profonde attraversano il suo corpo e frammenti di pietra mancano dal torso e dalle braccia. Era un guardiano sacro del Tempio di Lumina, ora pervaso dall'influenza oscura di Vecna. Un'aura di energia necromantica lo circonda.
+Non parla se non a parole singole e monosillabi. Ha una comprensione approssimativa del linguaggio umano, non è abbastanza intelligente per discuterci. Riconosce i portatori dello Scettro e i loro compagni come amici e li difende da chi dice di volerglielo strappare.</description>
+    </monster>
+    <monster>
+        <name>AxelRuby</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>chaotic evil</alignment>
+        <ac>11 (armatura di cuoio)</ac>
+        <hp>32 (5d8+10)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>11</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>11</cha>
+        <senses>Percezione passiva 10</senses>
+        <languages>qualsiasi una (di solito Common)</languages>
+        <cr>1/2</cr>
+        <description>Uomo massiccio, braccia coperte di cicatrici da arena. Mascella squadrata, naso rotto più volte, occhi piccoli e calcolatori che tradiscono un'intelligenza che il fisico non lascia sospettare. Porta un gilet di cuoio borchiato sopra una camicia logora e un rubino grezzo appeso al collo — il simbolo della banda.
+Parla poco e a voce bassa, costringendo gli interlocutori ad avvicinarsi. Quando ride, è un suono breve e sgradevole. Ha l'abitudine di far scrocchiare le nocche prima di prendere una decisione.
+Tratto distintivo: brutale e astuto in egual misura. Non è il bruto stupido che sembra — è un contrabbandiere navigato che ha imparato a sopravvivere nell'arena e nelle strade.</description>
+    </monster>
+    <monster>
+        <name>BrotherThaddeus</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful good</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>Uomo anziano, magro, con le mani callose di chi ha lavorato tutta la vita. Testa rasata, barba bianca corta. Porta ancora le insegne dell'ordine di Tyr — una **mano mozzata stilizzata** ricamata sulla tunica — nonostante abbia lasciato l'ordine. Dice che la porta &quot;per ricordare cosa avrebbe dovuto essere, non cosa è diventato&quot;.
+Parla con voce calma e misurata, scegliendo le parole con cura. Ha lo sguardo di chi ha visto troppo e ha deciso di non voltarsi dall'altra parte. Beve tisane, mai alcol.
+Tratto distintivo: onestà disarmante. Dice la verità anche quando sarebbe più comodo mentire — ed è proprio questo che lo rende difficile da credere.</description>
+    </monster>
+    <monster>
+        <name>FrankiePartenope</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>16 (Difesa Senza Armatura: 10 + DES +3 + COS +3)</ac>
+        <hp>47 (5d12 + 15)</hp>
+        <speed>30 ft.</speed>
+        <str>20</str>
+        <dex>16</dex>
+        <con>16</con>
+        <int>8</int>
+        <wis>18</wis>
+        <cha>8</cha>
+        <cr>4</cr>
+        <action>
+            <name>#</name>
+            <text/>
+        </action>
+        <action>
+            <name>Ascia da guerra (mischia)</name>
+            <text>Attacco: +8 Danni: 1d10+5 taglienti</text>
+            <attack>Ascia da guerra (mischia)|+8|1d10+5</attack>
+        </action>
+        <description>Ex avventuriero dal fisico imponente, Frankie è un eroe del popolo — una sorta di Robin Hood locale. Ha un portamento fiero nonostante le cicatrici e i segni della prigionia a Orcastle. Parla con tono diretto, senza fronzoli, e ha un odio viscerale per Lord Malebranche che trasuda da ogni parola.
+Tratto distintivo: porta ancora i segni del collare esplosivo al collo — una fascia di pelle arrossata che tocca di continuo, come a ricordarsi che non è più prigioniero.</description>
+    </monster>
+    <monster>
+        <name>HelmutVanHeuten</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful good</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>Helmut Van Heuten è un mercante ricco e rispettato, sulla sessantina, con una barba bianca curata e abiti di buona fattura ma senza ostentazione. Porta sempre un anello con il simbolo di Tyr — una bilancia — e ha l'abitudine di offrire tè caldo a chiunque si sieda nel suo studio. Ha mani da scrivano, non da guerriero, e una voce calma e pacata che ispira fiducia.
+È cortese, metodico e genuinamente devoto. Non è un avventuriero e non finge di esserlo — sa che il suo ruolo è fornire risorse, non brandire spade.</description>
+    </monster>
+    <monster>
+        <name>KreigHighlander</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>18 (armatura a piastre)</ac>
+        <hp>52 (8d8+16)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>11</dex>
+        <con>14</con>
+        <int>11</int>
+        <wis>11</wis>
+        <cha>15</cha>
+        <senses>Percezione passiva 10</senses>
+        <languages>qualsiasi una (di solito Common)</languages>
+        <cr>3</cr>
+        <description>Uomo alto e imponente, portamento militare anche quando è seduto. Capelli grigi tagliati corti, barba curata, cicatrice sottile che attraversa la tempia sinistra. Indossa sempre un'armatura a piastre lucida — anche quando non serve. Mantello blu scuro con lo stemma Highlander: un falco su sfondo montano.
+Parla con voce tonante, abituato a dare ordini e a essere obbedito. Guarda gli interlocutori dall'alto in basso — letteralmente e figurativamente. Ha l'abitudine di tamburellare le dita sull'elsa della spada quando si annoia.
+Tratto distintivo: arrogante e sicuro di sé fino all'eccesso. Sottovaluta sistematicamente gli avversari — un difetto che potrebbe costargli caro.</description>
+    </monster>
+    <monster>
+        <name>Kurzum</name>
+        <size>M</size>
+        <type>humanoid (nana)</type>
+        <alignment>legale malvagia</alignment>
+        <ac>17 (corazza a strisce)</ac>
+        <hp>58 (9d8+18)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>13</dex>
+        <con>14</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <senses>Percezione passiva 12</senses>
+        <languages>qualsiasi una (di solito Common)</languages>
+        <cr>3</cr>
+        <description>Kurzum è la proprietaria del *Giavellotto Fantasma*, un negozio di armi che è anche punto di riferimento per chi cerca lavori poco ortodossi. Ha lineamenti duri, occhi scuri e calcolatori, e una cicatrice sottile che le attraversa il sopracciglio sinistro. Porta un grembiule di cuoio sopra una cotta di maglia leggera — sempre pronta, anche dietro il bancone.
+Parla poco e sceglie le parole con cura chirurgica. Non sorride quasi mai, ma quando lo fa è peggio. Ha l'abitudine di pulire un'arma mentre parla con i clienti — un gesto che non è mai casuale.</description>
+    </monster>
+    <monster>
+        <name>LordMalebranche</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful evil</alignment>
+        <ac>15 (Mage Armor)</ac>
+        <hp>99 (18d8 + 18)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>20</int>
+        <wis>15</wis>
+        <cha>16</cha>
+        <senses>Percezione passiva 12</senses>
+        <languages>Common, Draconico, Infernale, Abissale</languages>
+        <cr>12</cr>
+        <trait>
+            <name>Resistenza Magica</name>
+            <text>vantaggio ai tiri salvezza contro incantesimi e altri effetti magici</text>
+        </trait>
+        <trait>
+            <name>Volontà Corrotta</name>
+            <text>quando Malebranche infligge danni necrotici, recupera PF temporanei pari alla metà dei danni inflitti</text>
+        </trait>
+        <trait>
+            <name>Azioni Leggendarie (3/round)</name>
+            <text>Malebranche può compiere 3 azioni leggendarie, scegliendole tra le seguenti. Solo una alla volta, alla fine del turno di un'altra creatura.</text>
+        </trait>
+        <trait>
+            <name>Cantrip (1 azione)</name>
+            <text>lancia un cantrip</text>
+        </trait>
+        <trait>
+            <name>Evocazione Rapida (2 azioni)</name>
+            <text>evoca 1d4 scheletri (CR 1/4) in spazi liberi entro 9m / 30ft</text>
+        </trait>
+        <trait>
+            <name>Drenaggio Vitale (1 azione)</name>
+            <text>una creatura entro 9m / 30ft deve superare un TS Costituzione CD 17 o subire 2d8 danni necrotici. Malebranche recupera PF pari ai danni inflitti.</text>
+        </trait>
+        <action>
+            <name>Raggio Necromantico (distanza)</name>
+            <text>Attacco: +9, distanza 36m / 120ft / 24qd Danni: 3d10 necrotici</text>
+            <attack>Raggio Necromantico (distanza)|+9|3d10</attack>
+        </action>
+        <description>Governatore corrotto di Orcastle, Lord Malebranche è un uomo magro, pallido, con occhi infossati che sembrano calcolare il valore di ogni persona nella stanza. Veste abiti nobiliari scuri con ricami d'argento. Le sue mani sono sempre fredde — un effetto collaterale della magia necromante che pratica.
+Tratto distintivo: parla con cortesia impeccabile anche quando ordina atrocità. Non alza mai la voce. La sua calma è più inquietante di qualsiasi minaccia.</description>
+    </monster>
+    <monster>
+        <name>LudmillaDawnshield</name>
+        <size>M</size>
+        <type>humanoid (umana)</type>
+        <alignment>neutral good</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>Ludmilla Dawnshield ha poco più di vent'anni ma porta addosso l'esperienza di chi è cresciuta tra mappe nautiche e racconti di terre perdute. Capelli castani tagliati corti per praticità, pelle abbronzata dal sole e dal vento di mare, occhi chiari e attenti. Veste abiti da viaggio robusti e porta sempre al collo un medaglione con lo **stemma di famiglia**: una bilancia sovrapposta a un'onda marina.
+Parla con entusiasmo quando si tratta di esplorazione e storia, ma diventa seria e misurata quando il discorso tocca la sua famiglia o Svoalbard. Ha una determinazione silenziosa che la rende affidabile nei momenti critici.</description>
+    </monster>
+    <monster>
+        <name>MalachiasOmbrascura</name>
+        <size>M</size>
+        <type>humanoid (dragonide)</type>
+        <alignment>da determinare in gioco</alignment>
+        <ac>13 (cotta di maglia)</ac>
+        <hp>27 (5d8 + 5)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>12</con>
+        <int>13</int>
+        <wis>16</wis>
+        <cha>13</cha>
+        <senses>Percezione passiva 13</senses>
+        <languages>Common, Draconico</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Soffio draconico</name>
+            <text>una volta per riposo breve, cono di 4,5m / 15ft / 3qd. TS Destrezza CD 11, 2d6 danni (tipo dipende dal lignaggio — da definire).</text>
+        </trait>
+        <trait>
+            <name>Eminenza divina</name>
+            <text>come azione bonus, può conferire a una creatura entro 9m / 30ft un bonus di 1d4 a un tiro per colpire o TS (3 usi/giorno).</text>
+        </trait>
+        <description>Un dragonide dall'aria dimessa che si fa chiamare Elemir Strunz per nascondere la sua vera identità. Si mescola tra i seguaci di Axel Ruby nella zona Est, cercando di passare inosservato. Ha una cicatrice a forma di stella sul polpaccio sinistro — un segno che potrebbe tradirlo se qualcuno sa cosa cercare.
+Tratto distintivo: parla poco e sceglie le parole con cura. Quando mente, tende a toccarsi il polpaccio sinistro — un tell che giocatori attenti possono notare.</description>
+    </monster>
+    <monster>
+        <name>MesusuMercone</name>
+        <size>M</size>
+        <type>humanoid (nana)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>16 (cotta di maglia, scudo)</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>30 ft.</speed>
+        <str>13</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <senses>Percezione passiva 12</senses>
+        <languages>qualsiasi una (di solito Common)</languages>
+        <cr>1/8</cr>
+        <description>Mesusu Mercone è il capitano della nave volante *Airborne*. Bassa e massiccia come ci si aspetta da una nana, porta i capelli raccolti in trecce strette sotto un elmo di cuoio rinforzato. Ha mani callose da marinaio e una voce che taglia il vento di prua senza bisogno di urlare. Veste una giubba militare logora ma pulita, con l'insegna dell'Airborne cucita sulla spalla.
+Parla in modo diretto, senza fronzoli. Non perde tempo con le cortesie ma non è scortese — semplicemente efficiente. Ha l'abitudine di tamburellare le dita sul pomolo della spada quando qualcuno parla troppo.</description>
+    </monster>
+    <monster>
+        <name>MirandaEmerald</name>
+        <size>M</size>
+        <type>humanoid (umana)</type>
+        <alignment>lawful evil</alignment>
+        <ac>12</ac>
+        <hp>27 (6d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>14</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <senses>Percezione passiva 14</senses>
+        <languages>Common, Elvish</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Attacco furtivo (1/turno)</name>
+            <text>+2d6 danni extra se ha vantaggio o un alleato in mischia col bersaglio</text>
+        </trait>
+        <trait>
+            <name>Azione astuta</name>
+            <text>Dash, Disengage o Hide come azione bonus</text>
+        </trait>
+        <description>Donna snella, lineamenti affilati, capelli neri raccolti in una treccia stretta. Occhi verdi — dello stesso colore dello smeraldo che porta come spilla sul mantello. Veste con eleganza sobria, sempre in nero e verde scuro. Le mani sono curate, le unghie corte — mani da studiosa, non da combattente.
+Parla con calma misurata, ogni parola scelta con precisione chirurgica. Non alza mai la voce. Sorride raramente, e quando lo fa è un sorriso che non raggiunge gli occhi.
+Tratto distintivo: fredda e calcolatrice. Non agisce mai d'impulso. Ogni mossa è pianificata tre passi avanti.</description>
+    </monster>
+    <monster>
+        <name>OrlommGlittergear</name>
+        <size>S</size>
+        <type>humanoid (gnomo)</type>
+        <alignment>neutral good</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>Gnomo entusiasta e curioso, famoso per aver navigato rotte sconosciute. Basso anche per uno gnomo, con occhi vivaci e una barba corta sempre arruffata dal vento. Parla velocemente e si entusiasma per qualsiasi cosa — una nuova rotta, una tempesta in arrivo, un mostro marino all'orizzonte. Per lui tutto è un'avventura.</description>
+    </monster>
+    <monster>
+        <name>OthranVorash</name>
+        <size>M</size>
+        <type>humanoid (mezzelfo)</type>
+        <alignment>neutral evil</alignment>
+        <ac>15 (giaco di maglia leggera rinforzata + DES)</ac>
+        <hp>84</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>18</cha>
+        <senses>darkvision 60 ft. 18m</senses>
+        <languages>Common, Elvish</languages>
+        <cr>9</cr>
+        <action>
+            <name>#</name>
+            <text/>
+        </action>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +6 Danni: 1d4+3 perforanti</text>
+            <attack>Pugnale (mischia/distanza)|+6|1d4+3</attack>
+        </action>
+        <description>Othran è un mezzelfo dal portamento elegante e lo sguardo calcolatore. I tratti elfici sono appena accennati — orecchie leggermente a punta, lineamenti affilati — ma i suoi occhi hanno una luce innaturale, un riflesso verdastro che tradisce il patto con Vecna. Veste di scuro, pratico, senza ostentazione.
+Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazione fosse un interrogatorio. Ha l'abitudine di fissare le persone in silenzio prima di rispondere — un trucco per metterle a disagio.</description>
+    </monster>
+    <monster>
+        <name>SirAlaric</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>legale malvagio (mascherato da legale neutrale)</alignment>
+        <ac>15 (Mage Armor)</ac>
+        <hp>90 (12d8 + 36)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>16</con>
+        <int>18</int>
+        <wis>14</wis>
+        <cha>12</cha>
+        <cr>1</cr>
+        <description>Sir Alaric si presenta come un uomo austero e devoto, con capelli grigi tagliati corti e occhi chiari che trasmettono autorità. Indossa le vesti cerimoniali dei Custodi dell'Equilibrio con una naturalezza che ispira fiducia. La sua voce è calma, misurata — ogni parola sembra pesata e giusta.
+Sotto la facciata, Alaric è un uomo consumato dall'ambizione. I suoi occhi tradiscono un'avidità che nessuna preghiera può nascondere, se si sa dove guardare.
+Tratto distintivo: ha l'abitudine di congiungere le mani come in preghiera quando parla — un gesto che i suoi seguaci trovano rassicurante, ma che in realtà è un tic nervoso che tradisce il calcolo dietro ogni parola.</description>
+    </monster>
+    <monster>
+        <name>SirAldric</name>
+        <size>M</size>
+        <type>humanoid (umano (sword wraith))</type>
+        <alignment>lawful neutral</alignment>
+        <ac>18 (armatura spettrale)</ac>
+        <hp>127 (15d8 + 60)</hp>
+        <speed>30 ft.</speed>
+        <str>18</str>
+        <dex>14</dex>
+        <con>18</con>
+        <int>11</int>
+        <wis>12</wis>
+        <cha>14</cha>
+        <senses>darkvision 60 ft. 18m / 60ft, Percezione passiva 14</senses>
+        <languages>Common</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Incorporeità parziale</name>
+            <text>Sir Aldric può muoversi attraverso creature e oggetti come terreno difficile. Subisce 5 (1d10) danni da forza se termina il turno dentro un oggetto.</text>
+        </trait>
+        <trait>
+            <name>Aura di Comando (9m / 30ft)</name>
+            <text>i non morti alleati entro l'aura hanno vantaggio ai tiri per colpire.</text>
+        </trait>
+        <trait>
+            <name>Volontà del Guardiano</name>
+            <text>se ridotto a 0 PF, può effettuare un TS Costituzione CD 10 (+1 per ogni volta dopo la prima). In caso di successo, torna a 1 PF.</text>
+        </trait>
+        <action>
+            <name>Spadone Spettrale (mischia)</name>
+            <text>Attacco: +7, portata 1,5m / 5ft / 1qd Danni: 2d6+4 taglienti + 2d6 necrotici</text>
+            <attack>Spadone Spettrale (mischia)|+7|2d6+4</attack>
+        </action>
+        <action>
+            <name>Multiattacco</name>
+            <text>Sir Aldric effettua due attacchi con lo Spadone Spettrale.</text>
+        </action>
+        <description>Sir Aldric è un guerriero trasformato in spirito vendicativo. Appare come una figura eterea dal volto pallido e dagli occhi malinconici, avvolto in un'armatura spettrale che emana una luce fredda e bluastra. La sua spada è incorporea ma taglia come acciaio. Incarna il confine tra sacralità e inquietudine — un guardiano che non ha scelto il suo destino ma lo accetta con solennità.
+Tratto distintivo: parla con voce cavernosa e misurata, come un giudice che ha già emesso la sentenza. Non è ostile per natura — è ostile per dovere.</description>
+    </monster>
+    <monster>
+        <name>ZalharaLorenn</name>
+        <size>M</size>
+        <type>humanoid (umana)</type>
+        <alignment>neutral evil</alignment>
+        <ac>12</ac>
+        <hp>27 (6d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <senses>Percezione passiva 16</senses>
+        <languages>qualsiasi due</languages>
+        <cr>1</cr>
+        <description>Donna di mezza età, aspetto anonimo e rassicurante — esattamente come vuole lei. Capelli castani raccolti, occhiali tondi, abiti da studiosa modesti ma puliti. Porta sempre una borsa di cuoio piena di pergamene e libri. Parla con tono pacato e colto, citando testi sacri di Tyr con disinvoltura.
+Al collo porta un anello appeso a una catenina — l'**Anello dell'Ombra Evanescente**. Se qualcuno chiede, dice che è un ricordo di famiglia. L'anello reca un'incisione: *&quot;gira a sinistra&quot;*.
+Tratto distintivo: è così convincente nel suo ruolo di studiosa che persino i sacerdoti di Tyr la trovano credibile. La sua arma migliore è la fiducia che ispira.</description>
+    </monster>
+    <monster>
+        <name>Zikle</name>
+        <size>M</size>
+        <type>humanoid (goblin)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>In vita, Zikle era un mago goblin di potere straordinario — piccolo di statura ma immenso di intelletto e ambizione. Come wraith, appare come un'ombra traslucida verdastra con tratti goblinoidi ancora riconoscibili: orecchie a punta, occhi incavati che brillano di una luce spettrale fredda, mani scheletriche che si muovono come se stessero ancora tracciando formule arcane nell'aria.
+La sua voce è un sussurro rauco e metallico, interrotto da scoppi di rabbia improvvisa. Alterna momenti di lucidità brillante a esplosioni di furia cieca — il tradimento che lo ha ucciso lo consuma ancora.</description>
+    </monster>
+</compendium>

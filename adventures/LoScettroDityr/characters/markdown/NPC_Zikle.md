@@ -5,8 +5,8 @@
 - **Ruolo**: secondario
 - **Classe**: mago (livello 15 in vita)
 - **Razza**: goblin
-- **Allineamento**: —
-- **Stat block di riferimento**: Wraith (MM) — CR 5
+- **Allineamento**: Caotico Neutrale
+- **Stat block di riferimento**: Wraith (MM) — CR 5. In vita era un mago di 15° livello, ma il rituale di evocazione forzata di Malebranche lo ha ridotto a un'ombra del suo potere originale. La sua intelligenza e conoscenza restano intatte, ma la potenza magica è quasi completamente perduta.
 
 ## Descrizione
 

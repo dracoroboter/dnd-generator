@@ -18,17 +18,17 @@ Tratto distintivo: porta ancora i segni del collare esplosivo al collo — una f
 
 | FOR | DES | COS | INT | SAG | CAR |
 |-----|-----|-----|-----|-----|-----|
-| 18 (+4) | 16 (+3) | 16 (+3) | 8 (-1) | 20 (+5) | 8 (-1) |
+| 20 (+5) | 16 (+3) | 16 (+3) | 8 (-1) | 18 (+4) | 8 (-1) |
 
-- **Punti ferita**: 40
-- **Classe armatura**: 17
+- **Punti ferita**: 47 (5d12 + 15)
+- **Classe armatura**: 16 (Difesa Senza Armatura: 10 + DES +3 + COS +3)
 - **Bonus competenza**: +3
 
 ### Attacchi
 
 #### Ascia da guerra (mischia)
-- **Attacco**: +6
-- **Danni**: 1d10+4 taglienti
+- **Attacco**: +8
+- **Danni**: 1d10+5 taglienti
 
 ## Motivazioni
 

@@ -5,7 +5,7 @@
 - **Ruolo**: alleato
 - **Classe**: esploratrice
 - **Razza**: umana
-- **Allineamento**: —
+- **Allineamento**: Neutrale Buono
 - **Stat block di riferimento**: Esploratore (MM)
 
 ## Descrizione

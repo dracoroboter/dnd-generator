@@ -21,7 +21,7 @@ Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazion
 | 10 (+0) | 16 (+3) | 14 (+2) | 14 (+2) | 11 (+0) | 18 (+4) |
 
 - **Punti ferita**: 84
-- **Classe armatura**: 15
+- **Classe armatura**: 15 (giaco di maglia leggera rinforzata + DES)
 - **Velocità**: 9m / 30ft
 - **Bonus competenza**: +4
 - **Tiri salvezza**: DES +6, SAG +3, CAR +7

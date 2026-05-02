@@ -5,7 +5,7 @@
 - **Ruolo**: leader della banda dei Ruby (est di Orcastle)
 - **Razza**: umano
 - **Allineamento**: Caotico Malvagio
-- **Stat block**: Malvivente (*Manuale dei Mostri*)
+- **Stat block**: Malvivente (*Manuale dei Mostri*) — vedi [Stat Block](#stat-block)
 - **Background**: ex vassallo di Malebranche, ex gladiatore
 
 ## Descrizione
@@ -36,3 +36,32 @@ Axel è uno dei tre leader di fazione a Orcastle. I PG lo incontrano nel quartie
 - La rivalità con Miranda è personale e irrisolvibile — non accetterà mai un'alleanza con lei, a meno che non sia costretto da una minaccia esistenziale.
 - In combattimento, Axel è diretto: carica il nemico più pericoloso. Non fugge facilmente — l'arena gli ha insegnato che voltare le spalle è morte certa.
 - Se i PG scelgono di allearsi con gli Emerald, Axel diventa un ostacolo serio ma non un villain principale.
+
+## Stat Block
+
+*Malvivente (Thug), MM pag. 350, CR 1/2*
+
+| FOR | DES | COS | INT | SAG | CAR |
+|-----|-----|-----|-----|-----|-----|
+| 15 (+2) | 11 (+0) | 14 (+2) | 10 (+0) | 10 (+0) | 11 (+0) |
+
+- **Punti ferita**: 32 (5d8+10)
+- **Classe armatura**: 11 (armatura di cuoio)
+- **Velocità**: 9m / 30ft / 6qd
+- **Bonus competenza**: +2
+- **Abilità**: Intimidire +2
+- **Sensi**: Percezione passiva 10
+- **Lingue**: qualsiasi una (di solito Comune)
+- **Sfida**: 1/2 (100 PE)
+
+### Tratti
+
+**Tattiche di Branco (Pack Tactics).** Il malvivente ha vantaggio ai tiri per colpire contro una creatura se almeno un alleato del malvivente si trova entro 1,5m dalla creatura e l'alleato non è incapacitato.
+
+### Azioni
+
+**Multiattacco.** Il malvivente effettua due attacchi con la mazza.
+
+**Mazza.** *Attacco con arma da mischia:* +4 al tiro per colpire, portata 1,5m, un bersaglio. *Colpito:* 5 (1d6+2) danni contundenti.
+
+**Balestra pesante.** *Attacco con arma a distanza:* +2 al tiro per colpire, gittata 30/120m, un bersaglio. *Colpito:* 5 (1d10) danni perforanti.
