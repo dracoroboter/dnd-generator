@@ -211,6 +211,53 @@ a {
     max-height: 85vh;
 }
 
+/* === Stat block grid (multi-column appendix) === */
+.statblock-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.statblock-grid .statblock-cell {
+    width: 48%;
+    text-align: center;
+    page-break-inside: avoid;
+    margin-bottom: 0.5em;
+}
+
+.statblock-grid .statblock-cell img {
+    max-width: 100%;
+    max-height: 42vh;
+}
+
+.statblock-grid .statblock-cell .statblock-name {
+    font-family: serif;
+    font-size: 9pt;
+    color: #58180d;
+    font-style: italic;
+    margin-top: 0.3em;
+}
+
+/* === Map with description (appendix) === */
+.map-described {
+    page-break-before: always;
+    padding-top: 0.5em;
+}
+
+.map-described img {
+    max-width: 100%;
+    max-height: 55vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.map-described .map-description {
+    font-size: 9.5pt;
+    margin-top: 1em;
+    line-height: 1.4;
+}
+
 /* === Map images === */
 .map-page {
     page-break-before: always;

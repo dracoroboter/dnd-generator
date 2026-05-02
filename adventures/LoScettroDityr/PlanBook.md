@@ -143,30 +143,29 @@ LoScettroDityr_v1.0_20260502.zip
 - I sorgenti .md, AdventureBook, PlanBook, XML singoli, immagini personaggi e file in other/ sono esclusi.
 
 **TODO:**
-- [ ] Creare script `release-bundle.py` che assembla lo ZIP
-- [ ] Aggiungere flag `--no-maps` a `create-pdf-adventure.py` per escludere mappe PNG inline
-- [ ] Implementare `--split` in `create-pdf-adventure.py` per generare PDF divisi (lore, sessioni, appendice)
-- [ ] Implementare stat block multi-colonna nell'appendice PDF (2 per pagina)
+- [x] Creare script `release-bundle.py` che assembla lo ZIP → `tech/scripts/release-bundle.py`
+- [x] Implementare `--split` → `tech/create-pdf-adventure/split-pdf-adventure.py` (genera Lore + Sessioni + Appendice)
+- [x] Implementare stat block multi-colonna nell'appendice PDF (CSS `.statblock-grid`)
+- [ ] Aggiungere flag `--no-maps` a `create-pdf-adventure.py` per escludere mappe PNG inline dalle Sessioni
 - [ ] Definire il tag di versione (manuale nel PlanBook? campo nel README.md dell'avventura? tag git?)
+- [ ] Aggiornare formato ZIP: includere solo PDF lowres (non fullres), PDF split opzionali nella dir `pdf/`
 - [x] Generalizzare le definizioni release/pubblicazione e il formato ZIP da LoScettroDityr a plan-meta-dnd.md (valgono per tutte le avventure)
 
-### PDF multi-file (da valutare)
+### PDF multi-file — implementato
 
-Valutare la fattibilità e l'utilità di generare il PDF dell'avventura diviso in più file separati anziché un unico PDF monolitico:
+Script: `tech/create-pdf-adventure/split-pdf-adventure.py <NomeAvventura>`
+
+Genera 3 PDF separati:
 
 | File | Contenuto |
 |------|-----------|
-| `LoScettroDityr_Lore.pdf` | Documento principale: lore, trama, NPC, oggetti |
-| `LoScettroDityr_01_FugaDaOrcastle.pdf` | Modulo A singolo |
-| `LoScettroDityr_02_LoScettroDiTyr.pdf` | Modulo B singolo |
-| `LoScettroDityr_03_RitornoACasa.pdf` | Modulo C singolo |
-| `LoScettroDityr_04_LaFineNonAppartieneAiMorti.pdf` | Modulo D singolo |
-| `LoScettroDityr_Mappe.pdf` | Tutte le mappe raccolte |
-| `LoScettroDityr_StatBlock.pdf` | Tutti gli stat block raccolti |
+| `NomeAvventura_YYYYMMDD_Lore.pdf` | Cover + frontmatter + documento principale |
+| `NomeAvventura_YYYYMMDD_Sessioni.pdf` | Tutti i moduli |
+| `NomeAvventura_YYYYMMDD_Appendice.pdf` | Mappe con descrizione + stat block multi-colonna (2 per pagina) |
 
-**Pro**: più pratico al tavolo (apri solo il modulo che stai giocando), stat block stampabili separatamente, mappe estraibili.
-**Contro**: più file da gestire, richiede modifiche a `create-pdf-adventure.py` (flag `--split` o simile).
-**Nota**: lo script supporta già `--only NN` per generare un singolo modulo — potrebbe bastare uno script wrapper.
+Testato su LoScettroDityr: Lore 0.9 MB, Sessioni 18.1 MB, Appendice 19.5 MB.
+
+**TODO**: le Sessioni includono ancora le mappe inline — serve `--no-maps` per snellirle.
 
 ### Mappe ottimizzate per Roll20
 
@@ -241,4 +240,4 @@ Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fi
 
 ---
 
-*Ultimo aggiornamento: Maggio 2026*
+*Ultimo aggiornamento: 2 maggio 2026*
