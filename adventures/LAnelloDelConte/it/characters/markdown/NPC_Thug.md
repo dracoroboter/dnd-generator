@@ -9,7 +9,7 @@
 
 ## Descrizione
 
-Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Borgo. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *"Non ci pagano abbastanza per questo!"*
+Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Grazie. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *"Non ci pagano abbastanza per questo!"*
 
 ## Stat Block
 
@@ -48,7 +48,7 @@ Soldi. Sergius li paga per fare da guardie del corpo durante la Festa. Non sanno
 
 ## Ruolo nell'avventura
 
-Compaiono solo se i PG individuano Sergius alla Festa del Borgo (Puntata 2). Sergius fischia e 3 Thug escono dalla folla travestiti da facchini/mercanti. Coprono la fuga di Sergius per 1-2 round, poi si arrendono o scappano.
+Compaiono solo se i PG individuano Sergius alla Festa del Grazie (Puntata 2). Sergius fischia e 3 Thug escono dalla folla travestiti da facchini/mercanti. Coprono la fuga di Sergius per 1-2 round, poi si arrendono o scappano.
 
 ## Note al master
 

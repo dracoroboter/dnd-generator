@@ -132,7 +132,7 @@ During the comedic episodes, seed small moments where Gorim shows a loyalty and 
 The PCs arrive in Fianus Romanus, get recruited by Gorim, and the first lead takes them into the village sewers.
 → `01_LeFogneDiFianus/`
 
-### Episode 2 — "La Festa del Borgo" (The Village Festival)
+### Episode 2 — "La Festa del Grazie" (The Village Festival)
 
 Fianus Romanus celebrates the Festa del Grazie. Sergius, disguised as an official, gives a public speech with veiled accusations against the Count, then launches a treasure hunt through the village. The PCs discover the vigor potion trade and the existence of a compromising portrait of the Count.
 

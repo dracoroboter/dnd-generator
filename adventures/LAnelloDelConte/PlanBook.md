@@ -23,7 +23,7 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 ### Da fare
 
 - [ ] Definire il quarto PG
-- [x] Puntata 2: La Festa del Borgo — discorso di Sergius, caccia al tesoro, NPC nuovi
+- [x] Puntata 2: La Festa del Grazie — discorso di Sergius, caccia al tesoro, NPC nuovi
 - [ ] Puntata 3: Il Rivale — gruppo di avventurieri rivali incompetenti
 - [ ] Puntata 4: La Pista Vera (forse) — mercante di anelli contraffatti, indizio reale non riconosciuto
 - [ ] Puntata 5: Il Finale — rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
@@ -96,6 +96,14 @@ I giocatori hanno iniziato a chiedersi il perché delle stranezze nelle fogne. S
 
 Sergius non è un cattivo che si nasconde — è un cattivo che **gioca**. Gli piace prendere in giro chi lo insegue: lascia indizi, biglietti beffardi ("Per voi straccioni"), cacce al tesoro. Non vuole scappare — vuole divertirsi a spese del Conte e di chiunque il Conte mandi a cercarlo. È sempre un passo avanti.
 
+### Aspetto e travestimento (stile Stanislau Molisky)
+
+Il vero Sergius è un cinquantenne malaticcio, un po' gobbo. Ma nessuno lo vede mai così.
+
+Come Stanislau Molisky di Nick Carter, Sergius può cambiare radicalmente aspetto quando si traveste: più alto, più grasso, più magro, persino cambiare sesso. La cosa non è spiegata — fa parte della componente surreale della storia.
+
+In pubblico, quando non è dedito ai suoi traffici, va normalmente in giro "travestito" da una versione più aitante e non gobba di sé stesso. I PG non lo vedranno mai nel suo vero aspetto a meno di circostanze particolari.
+
 ### Armi segrete (decise)
 
 Tre armi che lo rendono impossibile da catturare prima del lv4:
@@ -156,9 +164,19 @@ Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
 | D7 | Armi segrete Sergius | Informatori (tipo Varys), invisibilità, camuffamento. Colpo di scena: un NPC ricorrente È Sergius. |
 | D8 | Cos'è l'Anello | Puro MacGuffin. Non magico, non speciale, mai trovato. Come il nome del Conte. |
 
+## Decisioni prese (Sessione 2)
+
+| # | Decisione | Risultato |
+|---|-----------|-----------|
+| D9 | Flavia = Flavia + Tulia | Un solo NPC. Vende pozioni rinvigorenti di nascosto. Conosce Sergius da prima della clandestinità. |
+| D10 | Donna Ortensia | Moglie di Grigius Voidus |
+| D11 | Sergius aspetto | Stile Molisky: cinquantenne gobbo, travestimenti radicali, in pubblico va come versione aitante di sé |
+| D12 | Sergius non catturabile | Nota meta: vietato dalla sceneggiatura fino a puntata 4-5 |
+| D13 | Thug da Vetusta | Ingaggiati a Vetusta Portus, 1 mo a testa, committente 'un po' curvo' |
+
 ---
 
-*Ultimo aggiornamento: Aprile 2026*
+*Ultimo aggiornamento: Maggio 2026*
 
 > **TODO strutturale:** Valutare se spostare anche `PlanBook.md` nella directory `meta/` insieme a `DiarioSessioni.md`. Entrambi sono documenti di lavoro del DM, non contenuto pubblicabile.
 

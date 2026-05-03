@@ -35,7 +35,7 @@
             <text>Attacco: +2, distanza 100/400 ft. Danni: 1d10 perforanti</text>
             <attack>Balestra pesante (distanza)|+2|1d10</attack>
         </action>
-        <description>Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Borgo. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *&quot;Non ci pagano abbastanza per questo!&quot;*
+        <description>Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Grazie. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *&quot;Non ci pagano abbastanza per questo!&quot;*
 Role: scagnozzo di Sergius</description>
     </monster>
 </compendium>

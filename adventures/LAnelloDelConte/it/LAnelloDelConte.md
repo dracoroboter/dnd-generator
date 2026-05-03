@@ -130,7 +130,7 @@ Nelle puntate comiche, seminare piccoli momenti in cui Gorim mostra una lealtà 
 I PG arrivano a Fianus Romanus, vengono reclutati da Gorim, e la prima pista li porta nelle fogne del borgo.
 → `01_LeFogneDiFianus/`
 
-### Puntata 2 — "La Festa del Borgo"
+### Puntata 2 — "La Festa del Grazie"
 
 Fianus Romanus celebra la Festa del Grazie. Sergius travestito da funzionario tiene un discorso pubblico con velate accuse al Conte, poi lancia una caccia al tesoro per il borgo. I PG scoprono il commercio di pozioni di vigore e l'esistenza di un ritratto compromettente del Conte.
 

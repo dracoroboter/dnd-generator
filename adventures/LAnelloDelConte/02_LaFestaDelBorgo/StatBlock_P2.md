@@ -1,4 +1,4 @@
-# Stat Block — Puntata 2: La Festa del Borgo
+# Stat Block — Puntata 2: La Festa del Grazie
 
 ---
 
@@ -20,6 +20,8 @@
 **Lingue:** Comune, Elfico, Linguaggio dei Ladri
 **Sfida:** 1 (200 PE)
 
+**Aspetto reale:** Cinquantenne malaticcio, un po' gobbo. In pubblico va travestito da versione aitante di sé stesso.
+
 **Sneak Attack (2d6).** Una volta per turno, danni extra se ha vantaggio o un alleato è adiacente al bersaglio.
 
 **Cunning Action.** Azione bonus: Dash, Disengage o Hide.
@@ -34,7 +36,7 @@
 
 **Balestra a mano.** +5, distanza 30/120 ft. *Colpisce:* 1d6+3 perforanti (+2d6 Sneak Attack).
 
-**Nota:** Sergius non combatte. Usa Invisibilità e scappa. Se colpito prima di sparire, fugge al turno successivo.
+**Nota meta: Sergius NON può essere catturato a questo punto — vietato dalla sceneggiatura.** Non combatte. Scappa dalla strada a sinistra del palco, subito, ancora parzialmente vestito da Grigius. Figura gobba mascherata, non riconoscibile. Usa Invisibilità se necessario.
 
 ---
 
@@ -94,7 +96,7 @@
 
 ---
 
-## Commoner (Flavia / Mastro Cecio / Vecchia Tulia / Terzilio)
+## Commoner (Flavia / Mastro Cecio / Terzilio)
 
 *Umano, Medio, Qualsiasi allineamento*
 

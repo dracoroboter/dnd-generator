@@ -1,4 +1,4 @@
-# Puntata 2 — La Festa del Borgo
+# Puntata 2 — La Festa del Grazie
 
 ## Descrizione
 
@@ -17,7 +17,7 @@ La Festa del Grazie è l'evento dell'anno a Fianus Romanus. Bancarelle, gare, ci
 
 Montaggio veloce — non una sessione intera. Ogni PG sceglie un lavoretto dalla tabella, fa un tiro, incassa. 10-15 minuti di gioco al massimo. Il punto è stabilire che sono al verde e che la Festa è l'unica speranza.
 
-I PG hanno **10 ma** (acconto di Gorim). La pigione è 4 ma/giorno. In una settimana servono 28 ma. Devono guadagnarne almeno 18.
+I PG hanno **10 ma** (acconto di Gorim). La pigione è 1 ma/giorno/persona. In una settimana per 4 PG servono 28 ma. Devono guadagnarne almeno 18.
 
 ### 📖 Da leggere ai giocatori
 
@@ -27,11 +27,10 @@ I PG hanno **10 ma** (acconto di Gorim). La pigione è 4 ma/giorno. In una setti
 
 | Lavoretto | Paga | Tiro | Note |
 |-----------|------|------|------|
-| Spostare casse per i mercanti | 2 ma/giorno | FOR CD 8 | |
-| Un PG bardo suona alla Taberna | 1-3 ma/sera | Performance CD 12 | Sora Lella trattiene il 50% |
-| Guardia notturna pre-Festa | 3 ma/notte | — | Noioso. Possibile avvistamento sospetto (Sergius?) |
-| Consegne nel borgo | 2 ma/consegna | — | Modo per incontrare NPC nuovi |
-| Cacciare ratti nelle cantine | 1 ma/ratto | Combattimento facile | I ratti sindacalizzati protestano |
+| Spostare casse per i mercanti | 2 ma/giorno | Atletica CD 10 | |
+| Guardia notturna pre-Festa | 3 ma/notte | Costituzione, max 2 notti. Tira 5d20 (noia, nessun significato). Se controlla il palco (Percezione): vede dei vestiti poggiati — sono quelli che S usa per travestirsi | |
+| Consegne nel borgo | 2 ma/consegna | Costituzione CD 10, max 3 volte | Modo per incontrare NPC nuovi |
+| Cacciare ratti nelle cantine | 1 mr/ratto | 1 tiro per colpire, poi 2d6 = ratti uccisi = monete d'argento di paga | I ratti sindacalizzati protestano |
 
 Ogni PG può fare 5-6 giorni di lavoro. Con un po' di fortuna arrivano a 25-30 ma — ce la fanno appena.
 
@@ -51,12 +50,9 @@ Ogni PG può fare 5-6 giorni di lavoro. Con un po' di fortuna arrivano a 25-30 m
 
 | Attrazione | Tipo | Descrizione |
 |-----------|------|-------------|
-| **Gara di tiro con l'arco** | Competizione | 3 tiri, DEX (Armi a distanza). Premio: 5 mo al vincitore |
-| **Gara di braccio di ferro** | Competizione | FOR (Atletica) CD progressiva: 10, 13, 16. Premio: 3 mo |
-| **L'anello di cipolla** | Gag | Una bancarella vende "l'Anello del Conte" — è un anello di cipolla fritta. 1 mr. Gorim si infuria. |
-| **Il bardo stonato** | Roleplay | Un PG bardo può sfidarlo. Performance contrapposta. Il perdente paga da bere. |
-| **La lotteria del Conte** | Gag/indizio | Biglietti da 1 ma. Il premio è "un'udienza col Conte". Nessuno ha mai vinto. Nessuno sa se il Conte esiste davvero. |
-| **Bancarella di Terzilio** | Roleplay | Rape e cipolle, ma oggi anche "rape speciali della Festa" (sono rape normali, costano il triplo) |
+| **Gara di tiro con l'arco** | Competizione | 1 ma per partecipare. 3 tiri, tutti CD 15 — se ne sbaglia uno ha perso. Premio: 1 mo al vincitore |
+| **Gara di braccio di ferro** | Competizione | 1 ma per partecipare. FOR CD progressiva: 10, 13, 16 — deve passarli tutti e tre. Premio: 1 mo al vincitore |
+| **La lotteria del Conte** | Gag/indizio | Biglietti da 1 mr. Il premio è un'udienza col Conte. Nessuno ha mai vinto. |
 
 ---
 
@@ -64,11 +60,11 @@ Ogni PG può fare 5-6 giorni di lavoro. Con un po' di fortuna arrivano a 25-30 m
 
 ### Flavia "La Biscia"
 
-Mercante ambulante, arriva da fuori per la Festa. Stat block: **Commoner** (MM p. 345). Vende stoffe, nastri, e "profumi esotici" (acqua colorata). Parla velocissimo, cambia discorso ogni tre secondi, è impossibile seguirla. Sa tutto di tutti perché viaggia tra i borghi e raccoglie pettegolezzi.
+Mercante ambulante, arriva da fuori per la Festa. Stat block: **Commoner** (MM p. 345). Vende stoffe, nastri, "profumi esotici" (acqua colorata), e pozioni rinvigorenti di nascosto. Parla velocissimo, cambia discorso ogni tre secondi, è impossibile seguirla. Sa tutto di tutti perché viaggia tra i borghi e raccoglie pettegolezzi.
 
 - **Tratto:** parla senza mai prendere fiato, cambia argomento a metà frase
-- **Utilità:** fonte di informazioni sui commerci della zona — potrebbe sapere qualcosa sulla merce che arriva dal mare
-- **Segreto:** compra merce da un fornitore misterioso che opera via fogne (Sergius?)
+- **Utilità:** fonte di informazioni sui commerci della zona — potrebbe sapere qualcosa sulla merce che arriva dal mare. Conosce Sergius da quando era un commerciante legittimo. Sa del vecchio simbolo. Potrebbe collegare la doppia S a Sergius — ma solo se le si fanno le domande giuste.
+- **Segreto:** compra merce da Sergius, che opera via fogne
 
 ### Mastro Cecio
 
@@ -80,7 +76,7 @@ Fabbro del borgo, enorme, silenzioso. Stat block: **Commoner** (MM p. 345), FOR 
 
 ### Donna Ortensia
 
-Nobile minore, moglie di un funzionario. Stat block: **Noble** (MM p. 348). Organizza la Festa (male). Vuole che tutto sia perfetto, niente lo è. Si lamenta di tutto con voce stridula. L'equivalente di Lopez: non capisce nulla ma ha il potere decisionale.
+Nobile minore, moglie di Grigius Voidus. Stat block: **Noble** (MM p. 348). Organizza la Festa (male). Vuole che tutto sia perfetto, niente lo è. Si lamenta di tutto con voce stridula.
 
 - **Tratto:** "Questo non va bene. Rifate tutto." (su qualsiasi cosa)
 - **Utilità:** ha accesso al castello del Conte (è l'unica civile che ci entra)
@@ -104,14 +100,6 @@ Nata a **Vetusta Portus**, la frazione sul mare di Fianus. Suo padre faceva il c
 - *"Nun tollero queste... queste... oscenitudini! Via! Via tutto!"*
 - *(a Gorim)* *"Voi dovreste fa' de più pe' proteggere la reputabilità de 'sta famija, invece de sta' lì a magnà."*
 - *(ai PG)* *"E voi chi sareste? Avventurieri? Gente de malaffare, sicuramente. Se vedete dall'aspetto."*
-
-### Vecchia Tulia
-
-La vecchia del borgo che sa tutto di tutti. Stat block: **Commoner** (MM p. 345). L'equivalente di Itala. Seduta sempre nello stesso angolo della piazza, apparentemente addormentata, in realtà ascolta tutto.
-
-- **Tratto:** sembra dormire, poi commenta con precisione chirurgica qualcosa detto 10 minuti prima
-- **Utilità:** conosce Sergius da quando era un commerciante legittimo. Sa del vecchio simbolo. Potrebbe collegare la doppia S a Sergius — ma solo se le si fanno le domande giuste.
-- **Segreto:** nessuno. Sa tutto e non ha niente da nascondere. Questo la rende terrificante.
 
 ---
 
@@ -179,23 +167,23 @@ Il discorso inizia come una supercazzola sulle quaglie e il ringraziamento, poi 
 
 > Il funzionario sale sul palco. La folla si zittisce. Si schiarisce la voce.
 >
-> *"Cittadini di Fianus Romanus! In questa solenne Festa del Grazie, è mio dovere e privilegio ricordarvi il significato profondo di questa ricorrenza. Le quaglie. Sì, le quaglie. Perché senza le quaglie, signori miei, dove saremmo? Le quaglie ci nutrono, le quaglie ci ispirano, le quaglie rappresentano tutto ciò che di buono questo borgo ha da offrire. E noi dobbiamo essere grati. Grati alle quaglie. Grati al raccolto. Grati a Sua Eccellenza il Conte di..."*
+> *"Cittadini di Fianus Romanus! Festa del Grazie. Le quaglie. Senza le quaglie, dove saremmo? Siamo grati alle quaglie, al raccolto, e a Sua Eccellenza il Conte di..."*
 >
 > Pausa. Sorriso.
 >
-> *"...il cui nome è sulla punta della lingua di tutti, come sempre."*
+> *"...il cui nome conoscete tutti... (pausa)"*
 >
 > Risatina nella folla.
 >
-> *"Ma parliamo di cose serie. Parliamo di commercio. Di quei prodotti pregiati che arrivano dal mare e che certi signori — non faccio nomi, ma li saluto — acquistano con tanta discrezione. L'Assedio Notturno, per esempio. Un tonico eccellente, a quanto mi dicono. O forse preferite La Rocca Imponente? So che va molto tra i funzionari. E che dire de La Bandiera al Vento — il preferito di chi ha bisogno di... coraggio, diciamo, nelle ore notturne."*
+> *"Ma parliamo di commercio. Di quei prodotti pregiati che arrivano dal mare e che certi signori acquistano con tanta discrezione. L'Assedio Notturno, per esempio. O La Rocca Imponente — va molto tra i funzionari. O La Bandiera al Vento — per chi ha bisogno di... coraggio nelle ore notturne."*
 >
 > Silenzio in piazza. I notabili sono diventati bianchi.
 >
-> *"E poi ci sono le arti figurative. Ritratti bellissimi. Eroici. Alcuni commissionati da personaggi molto in alto — così in alto che non hanno mai pagato il conto. Che peccato. L'artista conserva ancora l'opera. Con cura."*
+> *"E poi le arti figurative. Ritratti eroici. Alcuni commissionati da personaggi molto in alto — così in alto che non hanno mai pagato il conto. L'artista conserva ancora l'opera."*
 >
 > Pausa lunga. Guarda la folla.
 >
-> *"Ma non sono qui per fare scandalo. Sono qui per fare un gioco. L'Anello del Conte — sì, quello — è ancora in circolazione. E andrà a chi saprà seguire le tracce. Gli indizi sono già al loro posto. Cercate dove il Conte non guarda mai. Cercate dove la virtù si compra a peso. Cercate dove i topi hanno più dignità dei nobili."*
+> *"Ma non sono qui per fare scandalo. Sono qui per fare un gioco. L'Anello del Conte è ancora in circolazione. Cercate dove il Conte non guarda mai. Cercate dove la virtù si compra a peso. Cercate dove i topi hanno più dignità dei nobili."*
 >
 > Inchino teatrale.
 >
@@ -237,7 +225,7 @@ Gli indizi nel discorso lanciano i PG in una caccia al tesoro per il borgo. Tre 
 
 ### 🎲 Note per il DM
 
-I PG devono decifrare le tre frasi del discorso. Ogni frase indica un luogo. In ogni luogo trovano un biglietto con la doppia S, un premio in monete, e l'indizio per la tappa successiva. Se i PG si bloccano, gli NPC della Festa possono aiutare (Vecchia Tulia in particolare).
+I PG devono decifrare le tre frasi del discorso. Ogni frase indica un luogo. In ogni luogo trovano un biglietto con la doppia S, un premio in monete, e l'indizio per la tappa successiva. Se i PG si bloccano, gli NPC della Festa possono aiutare (Flavia in particolare).
 
 ---
 
@@ -245,13 +233,13 @@ I PG devono decifrare le tre frasi del discorso. Ogni frase indica un luogo. In 
 
 **Soluzione:** La bacheca degli annunci pubblici in piazza — il Conte non legge mai le lamentele dei cittadini. Investigation CD 10 o qualsiasi NPC del borgo lo conferma.
 
-**Cosa trovano:** Dietro un vecchio annuncio, una busta con la doppia S. Dentro un biglietto: *"Bravi. Non siete del tutto inutili. Ora cercate dove la virtù si compra a peso. — S."*
+**Cosa trovano:** Dietro un vecchio annuncio, una busta con la doppia S. Dentro un biglietto: *"Bravi. Non siete del tutto inutili. Ora cercate dove la virtù si compra a peso. Un consiglio: seguite l'odore intenso. — S."*
 
 ---
 
 **Tappa 2 — "Dove la virtù si compra a peso"**
 
-**Soluzione:** La bancarella di spezie/erbe al mercato — è dove si vendevano le "erbe" per le pozioni di vigore prima del divieto. Investigation CD 12, oppure Flavia "La Biscia" lo sa, oppure Vecchia Tulia ride e indica la bancarella.
+**Soluzione:** La bancarella di spezie/erbe al mercato — è dove si vendevano le "erbe" per le pozioni di vigore prima del divieto. Investigation CD 12, oppure Flavia "La Biscia" lo sa. L'indizio dell'"odore intenso" della Tappa 1 è un depistaggio comico: i PG probabilmente pensano ai gabinetti prima di capire che si tratta delle spezie.
 
 **Cosa trovano:** Nascosto in un sacco di erbe aromatiche, una busta con la doppia S. Dentro un biglietto: *"Quasi ci siete. L'ultimo indizio è dove i topi hanno più dignità dei nobili. — S."*
 
@@ -278,17 +266,6 @@ Se non inseguono: la figura è già sparita. Ma i PG sanno che "S" li stava guar
 
 ---
 
-### Il contrasto economico
-
-| Fonte | Quanto hanno dato ai PG |
-|-------|------------------------|
-| Gorim ("Giorgio") | 1 mo (in 10 ma, con dolore) |
-| Sergius (premio caccia al tesoro) | **3 mo** (tutto alla fine) |
-
-Il cattivo paga 3 volte meglio del committente.
-
----
-
 ---
 
 ## Sergius — se individuato
@@ -298,12 +275,14 @@ Il cattivo paga 3 volte meglio del committente.
 Non sono previsti combattimenti in questa puntata. L'unica eccezione è se i PG individuano Sergius (travestito). In quel caso:
 
 **Come possono individuarlo:**
-- Notare che il "funzionario" sul palco ha le mani di chi lavora (non di un nobile) — Perception CD 16
+- Notare che il "funzionario" sul palco ha le mani di chi lavora (non di un nobile) — Perception CD 16, ma SOLO se il PG dichiara specificamente di voler guardare le mani del funzionario
 - Seguire qualcuno che sparisce in un vicolo dopo il discorso — Stealth contrapposta
 - Alla Tappa 3, Perception passiva ≥ 14 per notare la figura che li osserva
 
+**Nota meta: Sergius NON può essere catturato a questo punto. È vietato dalla sceneggiatura. Il DM deve impedirlo.**
+
 **Se lo confrontano:**
-Sergius ha **1 turno** prima di sparire. Mentre sparisce, fischia — e **3 Thugs** (MM p. 350, CR 1/2) escono dalla folla. Erano travestiti da facchini/mercanti. Coprono la fuga di Sergius.
+Sergius scappa subito dalla strada a sinistra del palco, ancora parzialmente vestito da Grigius — figura gobba mascherata, non riconoscibile. Mentre sparisce, fischia — e **3 Thugs** (MM p. 350, CR 1/2) escono dalla folla. Erano travestiti da facchini/mercanti. Coprono la fuga di Sergius.
 
 **Combattimento — 3 Thugs:**
 
@@ -326,7 +305,7 @@ Sergius ha **1 turno** prima di sparire. Mentre sparisce, fischia — e **3 Thug
 
 **Sergius nel frattempo:** usa l'Anello dell'Ombra (Invisibilità) e sparisce. I PG sentono passi che si allontanano, poi nulla. Non è possibile catturarlo.
 
-**Se i PG catturano un Thug:** sa poco. "Un tizio ci ha pagato 5 mo a testa per fare i duri se qualcuno lo seguiva. Non l'abbiamo mai visto in faccia. Ci ha contattato con un biglietto." Il biglietto ha la doppia S.
+**Se i PG catturano un Thug:** sa poco. Lo hanno incontrato a Vetusta Portus, la città sul mare a sud di Fianus. Li ha ingaggiati per proteggerlo alla Festa. Pagati 1 mo a testa, un'altra promessa a fine protezione. Il committente è "un po' curvo". Non sanno niente altro. Il biglietto ha la doppia S.
 
 **Se i PG non individuano Sergius:** nessun combattimento. La Festa si chiude pacificamente.
 
@@ -347,10 +326,6 @@ Se il PG con Speak with Animals ci parla: stanno protestando contro le condizion
 - **Oro:** 3 mo (premio alla Tappa 3) + lavoretti della settimana
 - **Oggetti:** Fialetta vuota de "La Rocca Imponente" (logo alabarda/cespuglio de "L'Immane Alabarda"), frammento del ritratto del Conte
 - **Informazioni:** "S" vendeva pozioni di vigore e ritratti erotici. Il Conte era un cliente. Qualcuno ha imposto una tassa sulla merce. "S" ha un ritratto compromettente del Conte. Terzilio forse non è sempre Terzilio.
-
-## Milestone
-
-**Livello raggiunto:** (nessuno — la milestone è alla Puntata 3)
 
 ---
 
@@ -382,7 +357,7 @@ I PG tornano alla Taberna con il frammento del ritratto e la fialetta. Gorim è 
 
 Il gancio per la Puntata 3: scoprire chi è "S" e recuperare il ritratto. Gorim non sa chi sia — i PG devono indagare. Le piste possibili:
 - La fialetta de "La Rocca Imponente" con il logo alabarda/cespuglio → qualcuno al borgo riconosce il logo de "L'Immane Alabarda"
-- Vecchia Tulia conosce la ditta ma non il nome del proprietario
+- Flavia conosce Sergius da quando era un commerciante legittimo — potrebbe collegare la doppia S a Sergius, ma solo se le si fanno le domande giuste
 - Donna Ortensia era cliente — potrebbe sapere di più ma ha paura di parlare
 - I Thugs catturati (se ce ne sono) sanno poco ma il biglietto ha la doppia S
 
@@ -393,5 +368,5 @@ Il gancio per la Puntata 3: scoprire chi è "S" e recuperare il ritratto. Gorim 
 - La Festa è una sessione di roleplay puro — nessun combattimento previsto (a meno che non individuino Sergius).
 - Sergius è presente alla Festa **travestito da Terzilio** (vedi PlanBook § Sergius). Il vero Terzilio è anche lui alla Festa col suo banco. Il DM deve decidere in quali scene è il vero Terzilio e in quali è Sergius. Annotare per coerenza.
 - Donna Ortensia è la chiave per accedere al castello nelle puntate successive.
-- Vecchia Tulia è la chiave per collegare la doppia S a Sergius — ma solo se i PG fanno le domande giuste.
+- Flavia è la chiave per collegare la doppia S a Sergius — ma solo se i PG fanno le domande giuste.
 - Il frammento del ritratto è l'oggetto chiave che lancia la Puntata 3.

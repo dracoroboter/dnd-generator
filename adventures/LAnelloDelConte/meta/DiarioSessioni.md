@@ -63,4 +63,57 @@ Lettera di Sergius trovata, livello 2 raggiunto. La scena alla Taberna (consegna
 
 ---
 
-*Prossima sessione: da programmare — chiusura Puntata 1 + inizio Puntata 2 (Festa del Grazie)*
+## Sessione 2 — Lunedì 28 Aprile 2026
+
+**Puntata:** 2 — La Festa del Grazie
+**Giocatori:** 4 PG di livello 2
+**Livello finale:** 2 (nessun avanzamento previsto)
+
+### La settimana prima
+
+Montaggio veloce dei lavoretti. I PG hanno lavorato per pagare la pigione a Sora Lella. Economia stretta — la povertà resta il motore narrativo.
+
+### La Festa del Grazie
+
+Attrazioni: tiro con l'arco, braccio di ferro, lotteria del Conte. La Contessina è apparsa in piazza e ha accennato alla Gabella Pudicitiae, di cui si dichiara autrice.
+
+I ratti sindacalizzati erano in piazza con una petizione (non si sa per cosa). Il druido ci ha parlato. Chiedono firme. Stessi personaggi della sessione 1 (cappellino, sciarpa, etc.).
+
+Flavia "La Biscia" è stata incontrata — vende pozioni rinvigorenti di nascosto. Ha spiegato ai PG di cosa si tratta.
+
+Mastro Cecio è comparso — di nessun aiuto. I PG hanno tentato di coinvolgerlo.
+
+Donna Ortensia è comparsa brevemente in soccorso del marito Grigius Voidus (imbavagliato da Sergius).
+
+### Il discorso
+
+Sergius travestito da Grigius Voidus ha tenuto il discorso sul palco. Ha accennato alle pozioni di vigore, ai ritratti compromettenti, e ha lanciato la caccia al tesoro. Poi è scappato dalla strada a sinistra del palco — ancora parzialmente vestito da Grigius, figura gobba mascherata, non riconoscibile.
+
+### La caccia al tesoro
+
+I PG hanno completato tutte e tre le tappe. Hanno ottenuto:
+- Frammento del ritratto del Conte
+- Bottiglietta vuota di pozione rinvigorente ("La Rocca Imponente")
+- 3 mo
+- Biglietti con la doppia S
+
+### Combattimento — i Thug
+
+3 Thug hanno coperto la fuga di Sergius. Imprigionati o morti.
+
+**Interrogatorio:** Li hanno incontrati a Vetusta Portus. Ingaggiati da un tipo "un po' curvo" per proteggerlo alla Festa. Pagati 1 mo a testa, un'altra promessa a fine protezione. Non sanno niente altro.
+
+### Chiusura
+
+Gorim furioso per il discorso pubblico. Ha detto ai PG di cercare S. Ha promesso 1 mo.
+
+### Cosa aprire la prossima sessione
+
+- I PG hanno il frammento del ritratto e la bottiglietta — devono capire cosa farne
+- Gorim vuole il ritratto completo e l'identità di S
+- Piste possibili: logo alabarda/cespuglio sulla bottiglietta, Flavia conosce il fornitore, Donna Ortensia era cliente
+- Terzilio non è stato incontrato — il seme del doppio Terzilio non è ancora piantato
+
+---
+
+*Prossima sessione: da programmare — Puntata 3 (Il Rivale)*

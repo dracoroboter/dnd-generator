@@ -11,7 +11,7 @@
 
 ## Description
 
-Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Borgo. They only intervene if Sergius is spotted, covering his escape. They're not loyal — after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *"They don't pay us enough for this!"*
+Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Grazie. They only intervene if Sergius is spotted, covering his escape. They're not loyal — after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *"They don't pay us enough for this!"*
 
 ## Stat Block
 
@@ -50,7 +50,7 @@ Money. Sergius pays them to act as bodyguards during the Festival. They know not
 
 ## Role in the Adventure
 
-They appear only if the PCs spot Sergius at the Festa del Borgo (Episode 2). Sergius whistles and 3 Thugs emerge from the crowd disguised as porters/merchants. They cover Sergius's escape for 1-2 rounds, then surrender or flee.
+They appear only if the PCs spot Sergius at the Festa del Grazie (Episode 2). Sergius whistles and 3 Thugs emerge from the crowd disguised as porters/merchants. They cover Sergius's escape for 1-2 rounds, then surrender or flee.
 
 ## DM Notes
 

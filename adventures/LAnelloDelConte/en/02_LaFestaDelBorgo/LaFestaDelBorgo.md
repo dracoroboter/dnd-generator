@@ -107,7 +107,7 @@ Born in **Vetusta Portus**, the seaside hamlet of Fianus. Her father was a dockw
 - *(to Gorim)* *"You should do more to protect the reputability of this family, instead of standing there eating."*
 - *(to the PCs)* *"And who would you be? Adventurers? Shady people, surely. You can tell by the look of you."*
 
-### Vecchia Tulia
+### Flavia "La Biscia"
 
 The village old woman who knows everything about everyone. Stat block: **Commoner** (MM p. 345). The equivalent of Itala. Always sitting in the same corner of the square, apparently asleep, actually listening to everything.
 
@@ -239,7 +239,7 @@ The clues in the speech send the PCs on a treasure hunt through the village. Thr
 
 ### 🎲 DM Notes
 
-The PCs must decipher the three phrases from the speech. Each phrase indicates a location. At each location they find a note with the double S, a coin prize, and the clue for the next stop. If the PCs get stuck, Festival NPCs can help (Vecchia Tulia in particular).
+The PCs must decipher the three phrases from the speech. Each phrase indicates a location. At each location they find a note with the double S, a coin prize, and the clue for the next stop. If the PCs get stuck, Festival NPCs can help (Flavia in particular).
 
 ---
 
@@ -253,7 +253,7 @@ The PCs must decipher the three phrases from the speech. Each phrase indicates a
 
 **Stop 2 — "Where virtue is sold by weight"**
 
-**Solution:** The spice/herb stall at the market — it's where the "herbs" for vigor potions were sold before the ban. Investigation DC 12, or Flavia "La Biscia" knows, or Vecchia Tulia laughs and points to the stall.
+**Solution:** The spice/herb stall at the market — it's where the "herbs" for vigor potions were sold before the ban. Investigation DC 12, or Flavia "La Biscia" knows, or Flavia laughs and points to the stall.
 
 **What they find:** Hidden in a sack of aromatic herbs, an envelope with the double S. Inside a note: *"Almost there. The last clue is where the rats have more dignity than the nobles. — S."*
 
@@ -384,7 +384,7 @@ The PCs return to the Taberna with the portrait fragment and the vial. Gorim is 
 
 The hook for Episode 3: discover who "S" is and recover the portrait. Gorim doesn't know who it is — the PCs must investigate. Possible leads:
 - The vial of "La Rocca Imponente" with the halberd/bush logo → someone in the village recognizes the logo of "L'Immane Alabarda"
-- Vecchia Tulia knows the company but not the owner's name
+- Flavia knows the company but not the owner's name
 - Donna Ortensia was a client — might know more but is afraid to talk
 - Captured Thugs (if any) know little but the note has the double S
 
@@ -395,5 +395,5 @@ The hook for Episode 3: discover who "S" is and recover the portrait. Gorim does
 - The Festival is a pure roleplay session — no combat planned (unless they spot Sergius).
 - Sergius is present at the Festival **disguised as Terzilio** (see PlanBook § Sergius). The real Terzilio is also at the Festival with his stall. The DM must decide in which scenes it's the real Terzilio and in which it's Sergius. Note for consistency.
 - Donna Ortensia is the key to accessing the castle in later episodes.
-- Vecchia Tulia is the key to connecting the double S to Sergius — but only if the PCs ask the right questions.
+- Flavia is the key to connecting the double S to Sergius — but only if the PCs ask the right questions.
 - The portrait fragment is the key item that launches Episode 3.

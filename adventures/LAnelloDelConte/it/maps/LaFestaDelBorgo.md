@@ -1,4 +1,4 @@
-# La Festa del Borgo — Mappa della piazza del Mercato Centrale
+# La Festa del Grazie — Mappa della piazza del Mercato Centrale
 
 Piazza principale di Fianus Romanus durante la Festa del Grazie.
 
@@ -18,7 +18,7 @@ Warm daylight, no people or tokens. Fantasy medieval style. Grid overlay with 5f
 
 ## Note
 
-- Usata nella Puntata 2 — La Festa del Borgo
+- Usata nella Puntata 2 — La Festa del Grazie
 - Il palco è dove Sergius/Grigius fa il discorso
 - La bacheca annunci è sulla facciata ovest (Tappa 1 caccia al tesoro)
 - La bancarella spezie è a sud-est sotto i portici (Tappa 2 caccia al tesoro)
