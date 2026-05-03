@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>ErBraccio</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>15 (armatura di cuoio borchiato)</ac>
+        <hp>65 (10d8+20)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>14</cha>
+        <senses>Percezione passiva 10</senses>
+        <languages>Common</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Multiattacco</name>
+            <text>Er Braccio effettua tre attacchi in mischia: due con la scimitarra e uno con il pugnale.</text>
+        </trait>
+        <action>
+            <name>Scimitarra (mischia)</name>
+            <text>Attacco: +4, mischia 1,5m / 5ft / 1qd Danni: 1d6+2 taglienti</text>
+            <attack>Scimitarra (mischia)|+4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Pugnale (mischia/distanza)</name>
+            <text>Attacco: +4, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd — 18m / 60ft / 12qd Danni: 1d4+2 perforanti</text>
+            <attack>Pugnale (mischia/distanza)|+4|1d4+2</attack>
+        </action>
+        <description>Massiccio, braccia sempre scoperte, tatuaggio di un'ancora sul bicipite destro. Ha sempre un coltello in mano — lo usa per gesticolare, pulirsi le unghie, tagliare il formaggio. Non è un'arma, è un'estensione del braccio.
+Diretto, sboccato, pragmatico. Non è malvagio — è un uomo d'affari del porto che opera fuori dalla legge. Contrabbando, ricettazione, qualche estorsione leggera. Niente omicidi, niente schiavismo. Ha un codice, anche se non lo chiamerebbe così.
+Arimano gli ha commissionato il trasporto di merci via mare. Er Braccio ha consegnato, Arimano non ha pagato abbastanza. Er Braccio ha trattenuto la merce. Semplice. Non c'è rancore — solo contabilità.
+Role: capo banda a Vetusta Portus, fornitore di Sergius/Marchese Arimano</description>
+    </monster>
+</compendium>
