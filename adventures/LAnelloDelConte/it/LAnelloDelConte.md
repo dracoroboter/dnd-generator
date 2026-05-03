@@ -134,9 +134,9 @@ I PG arrivano a Fianus Romanus, vengono reclutati da Gorim, e la prima pista li 
 
 Fianus Romanus celebra la Festa del Grazie. Sergius travestito da funzionario tiene un discorso pubblico con velate accuse al Conte, poi lancia una caccia al tesoro per il borgo. I PG scoprono il commercio di pozioni di vigore e l'esistenza di un ritratto compromettente del Conte.
 
-### Puntata 3 — "Il Rivale" (da sviluppare)
+### Puntata 3 — "Una Pizza in Compagnia"
 
-Arriva un altro gruppo di avventurieri mandati dal Conte per la stessa missione. Competizione comica.
+I PG sono in stallo. Dopo due giorni senza piste, ricevono un invito dal Marchese Arimano — un nobile di Vetusta Portus — che li vuole a cena per offrirgli un lavoro. Devono recuperare merce rubata dai magazzini del porto. Il combattimento nel magazzino è caotico: banditi, un rinoceronte furioso, e animali esotici che scappano dalle casse. Er Braccio, il capo della banda, ce l'ha col Conte — un nuovo sospetto.
 
 ### Puntata 4 — "La Pista Vera (forse)" (da sviluppare)
 

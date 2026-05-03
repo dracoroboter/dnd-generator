@@ -38,7 +38,7 @@ Ogni PG può fare 5-6 giorni di lavoro. Con un po' di fortuna arrivano a 25-30 m
 
 ## Il giorno della Festa
 
-**Mappa:** `../maps/LaFestaDelBorgo.png` (piazza del Mercato Centrale durante la Festa del Grazie)
+**Mappa:** `../maps/LaFestaDelGrazie.png` (piazza del Mercato Centrale durante la Festa del Grazie)
 
 ### 📖 Da leggere ai giocatori
 
@@ -63,8 +63,8 @@ Ogni PG può fare 5-6 giorni di lavoro. Con un po' di fortuna arrivano a 25-30 m
 Mercante ambulante, arriva da fuori per la Festa. Stat block: **Commoner** (MM p. 345). Vende stoffe, nastri, "profumi esotici" (acqua colorata), e pozioni rinvigorenti di nascosto. Parla velocissimo, cambia discorso ogni tre secondi, è impossibile seguirla. Sa tutto di tutti perché viaggia tra i borghi e raccoglie pettegolezzi.
 
 - **Tratto:** parla senza mai prendere fiato, cambia argomento a metà frase
-- **Utilità:** fonte di informazioni sui commerci della zona — potrebbe sapere qualcosa sulla merce che arriva dal mare. Conosce Sergius da quando era un commerciante legittimo. Sa del vecchio simbolo. Potrebbe collegare la doppia S a Sergius — ma solo se le si fanno le domande giuste.
-- **Segreto:** compra merce da Sergius, che opera via fogne
+- **Utilità:** fonte di informazioni sui commerci della zona. Conosce le pozioni di vigore perché le vendeva prima della Gabella, ma non sa chi le produceva — comprava da un intermediario. Sa che il commercio esisteva, non sa chi c'era dietro.
+- **Segreto:** sa che le pozioni arrivavano dal mare, ma non conosce il produttore. Non può collegare la doppia S a nessuno.
 
 ### Mastro Cecio
 
@@ -196,6 +196,16 @@ Il discorso inizia come una supercazzola sulle quaglie e il ringraziamento, poi 
 Viene trovato nel magazzino del fabbro, imbavagliato ma illeso. Non ha visto chi l'ha aggredito. Ha solo sentito una voce che diceva: *"Niente di personale. Anzi, un po' sì."*
 
 Grigius è sconvolto e indignato. Non capisce cosa sia successo. Vuole sporgere denuncia ma non sa contro chi.
+
+### 🎲 Note per il DM — Perché Sergius ce l'ha con Grigius
+
+*"Anzi, un po' sì"* non è una battuta a caso. Grigius Voidus è un funzionario del Conte — uno di quelli che applicano la Gabella Pudicitiae. La Gabella è stata voluta dalla Contessina, ma sono i funzionari come Grigius a farla rispettare: controlli, multe, registri dei compratori.
+
+Per Sergius la Gabella è stata una catastrofe economica. Prima vendeva pozioni di vigore e ritratti erotici alla luce del sole (o quasi) — un commercio tollerato, non esattamente illegale. Dopo la Gabella, chi compra deve dichiarare nome e acquisto, e paga il triplo di tasse. Risultato: i clienti sono spariti. Sergius ha rischiato di andare sul lastrico.
+
+Ora continua il suo commercio di nascosto, ma guadagna molto meno. Quello che fa non è propriamente un reato penale — non è contrabbando né traffico illecito. Sta semplicemente evitando di pagare le tasse della Gabella. Ma se lo beccano, le conseguenze sono comunque serie: confisca della merce, multe salate, e soprattutto l'esposizione pubblica dei nomi dei clienti (che è la vera arma della Gabella).
+
+Grigius non è il mandante — è l'esecutore. Ma per Sergius è il volto quotidiano dell'oppressione: quello che bussa alla porta, quello che controlla i registri, quello che ha firmato le multe. Umiliarlo sul palco della Festa, davanti a tutto il borgo, è una vendetta personale oltre che un diversivo.
 
 ---
 
@@ -357,7 +367,7 @@ I PG tornano alla Taberna con il frammento del ritratto e la fialetta. Gorim è 
 
 Il gancio per la Puntata 3: scoprire chi è "S" e recuperare il ritratto. Gorim non sa chi sia — i PG devono indagare. Le piste possibili:
 - La fialetta de "La Rocca Imponente" con il logo alabarda/cespuglio → qualcuno al borgo riconosce il logo de "L'Immane Alabarda"
-- Flavia conosce Sergius da quando era un commerciante legittimo — potrebbe collegare la doppia S a Sergius, ma solo se le si fanno le domande giuste
+- Flavia conosce il commercio di pozioni ma non il produttore — non può collegare la doppia S a nessuno
 - Donna Ortensia era cliente — potrebbe sapere di più ma ha paura di parlare
 - I Thugs catturati (se ce ne sono) sanno poco ma il biglietto ha la doppia S
 
@@ -368,5 +378,5 @@ Il gancio per la Puntata 3: scoprire chi è "S" e recuperare il ritratto. Gorim 
 - La Festa è una sessione di roleplay puro — nessun combattimento previsto (a meno che non individuino Sergius).
 - Sergius è presente alla Festa **travestito da Terzilio** (vedi PlanBook § Sergius). Il vero Terzilio è anche lui alla Festa col suo banco. Il DM deve decidere in quali scene è il vero Terzilio e in quali è Sergius. Annotare per coerenza.
 - Donna Ortensia è la chiave per accedere al castello nelle puntate successive.
-- Flavia è la chiave per collegare la doppia S a Sergius — ma solo se i PG fanno le domande giuste.
+- Flavia conosce le pozioni ma non il produttore — è una fonte di informazioni sul commercio, non su S.
 - Il frammento del ritratto è l'oggetto chiave che lancia la Puntata 3.

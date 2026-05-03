@@ -6,7 +6,7 @@ Main square of Fianus Romanus during the Festa del Grazie.
 
 ## Image
 
-`LaFestaDelBorgo.png`
+`LaFestaDelGrazie.png`
 
 ## Prompt Gemini
 

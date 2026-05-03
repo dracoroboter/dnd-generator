@@ -90,19 +90,19 @@ Quando le domande si esauriscono (o Gorim perde la pazienza), si passa alla trat
 
 I PG, che devono **3 monete d'oro** di pigione a Domina Lella (che è lì che ascolta con le braccia incrociate), chiederanno inevitabilmente: "E quanto ci date?"
 
-**Se i PG non si sono fatti scoprire** (Gorim crede ancora che siano eroi famosi): parte da **30 monete d'oro**. I PG possono trattare fino a 50.
+**Se i PG non si sono fatti scoprire** (Gorim crede ancora che siano eroi famosi): parte da **5 monete d'oro**. I PG possono trattare fino a 10.
 
 **Se i PG si sono fatti scoprire** (o sono stati onesti): Gorim offre **1 moneta d'oro**. Una. I PG devono 3 mo alla Domina — l'offerta non basta neanche a pagare il debito.
 
 Se i PG accettano l'offerta da 1 mo senza trattare, Domina Lella afferra un mattarello dal bancone e minaccia di chiamare le guardie: *"UNA moneta?! E io come le vedo le mie tre monete d'oro?! O trattate meglio o chiamo le guardie e vi faccio sbattere dentro!"* I PG sono costretti a negoziare.
 
-Si apre una scena di contrattazione. Gorim si offende, i PG insistono, Gorim tira fuori che "ai miei tempi gli avventurieri lo facevano per la gloria", i PG rispondono che con la gloria non si mangia, Gorim sospira, controffre 5 mo, i PG rilanciano ancora... La scena può andare avanti quanto il tavolo si diverte.
+Si apre una scena di contrattazione. Gorim si offende, i PG insistono, Gorim tira fuori che "ai miei tempi gli avventurieri lo facevano per la gloria", i PG rispondono che con la gloria non si mangia, Gorim sospira, controffre 3 mo, i PG rilanciano ancora... La scena può andare avanti quanto il tavolo si diverte.
 
-**Risultato massimo:** 50 monete d'oro, ma solo per il recupero dell'Anello. Gorim specifica: *"50 monete d'oro. CINQUANTA. Ma solo se mi portate l'anello.*
+**Risultato massimo:** 10 monete d'oro, ma solo per il recupero dell'Anello. Gorim specifica: *"10 monete d'oro. DIECI. Ma solo se mi portate l'anello."*
 
 **Quando dovrà effettivamente pagare** (nelle puntate successive), ogni pagamento è una scena comica — vedi scheda NPC di Gorim (§ Tirchieria patologica).
 
-Gorim pagherà metà della somma visto che l'anello non verrà trovato.
+Gorim promette poco e paga ancora meno.
 
 ---
 
@@ -394,9 +394,9 @@ I PG risalgono dalle fogne e mostrano la lettera a Gorim. Lui la legge, diventa 
 > 
 > *"Bene. Non avete trovato l'anello. Avete trovato un problema. Che è peggio."*
 > 
-> Tira fuori una borsa di monete, la soppesa, sospira profondamente, e conta metà della somma pattuita — una moneta alla volta, con la faccia di chi sta donando un rene.
+> Tira fuori una borsa di monete, la soppesa, sospira profondamente, e conta **10 monete d'argento** — una alla volta, con la faccia di chi sta donando un rene.
 > 
-> *"Ecco. Metà. Il resto ve lo guadagnate continuando a lavorare per me. Questo 'S' — chiunque sia — va trovato. E l'anello va recuperato. Alla Festa del Grazie, dice la lettera? Bene. Ci saremo."*
+> *"Ecco. Dieci d'argento. Una moneta d'oro, se preferite contarla così. Il resto ve lo guadagnate continuando a lavorare per me. Questo 'S' — chiunque sia — va trovato. E l'anello va recuperato. Alla Festa del Grazie, dice la lettera? Bene. Ci saremo."*
 > 
 > Pausa.
 > 
@@ -404,6 +404,6 @@ I PG risalgono dalle fogne e mostrano la lettera a Gorim. Lui la legge, diventa 
 
 ### 🎲 Note per il DM
 
-I PG ricevono metà della somma pattuita nella trattativa. Se avevano concordato 50 mo, ricevono 25. Se avevano concordato 30, ricevono 15. Eccetera. Gorim conta ogni moneta con dolore visibile.
+I PG ricevono **10 monete d'argento** (1 mo), indipendentemente da quanto pattuito nella trattativa. Gorim conta ogni moneta con dolore visibile. Se i PG protestano, Gorim alza le spalle: *"Non avete trovato l'anello. Ringraziate che vi do qualcosa."*
 
 Questo lega i PG a Gorim per le puntate successive — devono continuare a lavorare per lui per avere il resto. Il gancio per la Puntata 2 (la Festa del Grazie) è stabilito.

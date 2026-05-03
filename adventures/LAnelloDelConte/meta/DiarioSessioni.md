@@ -111,8 +111,27 @@ Gorim furioso per il discorso pubblico. Ha detto ai PG di cercare S. Ha promesso
 
 - I PG hanno il frammento del ritratto e la bottiglietta — devono capire cosa farne
 - Gorim vuole il ritratto completo e l'identità di S
-- Piste possibili: logo alabarda/cespuglio sulla bottiglietta, Flavia conosce il fornitore, Donna Ortensia era cliente
+- Piste possibili: logo alabarda/cespuglio sulla bottiglietta, Flavia conosce le pozioni ma non il produttore, Donna Ortensia era cliente
 - Terzilio non è stato incontrato — il seme del doppio Terzilio non è ancora piantato
+
+---
+
+---
+
+## Residenze NPC (stabilite Puntata 3)
+
+| NPC | Dove |
+|-----|------|
+| Sir Gorim Vel | Castello del Conte, Aviano |
+| Domina Lella | Taberna, piazza del Mercato Centrale |
+| Terzilio | Settebagni |
+| Flavia "La Biscia" | Itinerante, base a Vetusta Portus |
+| Mastro Cecio | Bottega vicino alla piazza del Mercato |
+| Donna Ortensia + Grigius Voidus | Aviano, vicino al castello |
+| La Contessina | Castello del Conte, Aviano |
+| Ermolao "Il Profondo" | Fogne di Fianus |
+| Marchese Arimano (Sergius) | Vetusta Portus — casa signorile in collina |
+| Er Braccio | Vetusta Portus — porto |
 
 ---
 

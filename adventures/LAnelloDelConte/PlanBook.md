@@ -24,13 +24,38 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 
 - [ ] Definire il quarto PG
 - [x] Puntata 2: La Festa del Grazie — discorso di Sergius, caccia al tesoro, NPC nuovi
-- [ ] Puntata 3: Il Rivale — gruppo di avventurieri rivali incompetenti
+- [ ] Puntata 3: ~~Il Rivale~~ → Una Pizza in Compagnia (scritta, vedi modulo 03)
 - [ ] Puntata 4: La Pista Vera (forse) — mercante di anelli contraffatti, indizio reale non riconosciuto
-- [ ] Puntata 5: Il Finale — rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
+- [ ] Puntata finale (numero da stabilire): Il Finale — rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
 - [ ] Definire cosa sia davvero l'Anello e perché la rivelazione finale è soddisfacente
 - [ ] Definire l'esclamazione ricorrente del borgo (equivalente di "Daje!")
 - [ ] Definire l'equivalente fantasy di "Smarmella tutto"
 - [ ] Tabella complicazioni random per sessione
+
+---
+
+## La morte del Conte — Puntata finale
+
+La puntata finale è anche una sorta di epilogo che porta al Re Spezzato.
+
+**Cosa succede:** Esplosione nel castello del Conte. Maghi laici terroristi del **Burmini** (paese lontano) attaccano il castello a causa degli affari che il Conte aveva in quel paese — questo spiega i suoi frequenti "viaggi".
+
+**Tono:** La morte del Conte non è comica — è il momento in cui la commedia finisce. Proprio quando i PG stavano finalmente per incontrare il Conte (e conoscerne il nome, il volto, tutto), lui muore per una causa completamente esterna e inaspettata. Niente nome, niente volto, niente risposte.
+
+**Sergius:** È sorpreso quanto gli altri. A questo punto ha già compiuto la sua vendetta sul Conte (o non può più farla). La morte del Conte per mano di terroristi stranieri è beffarda e casuale — rende inutile tutto il suo piano.
+
+**I PG:** Completa sorpresa. Nessuno sapeva degli affari del Conte col Burmini. Il mistero si chiarisce dopo (forse nel Re Spezzato).
+
+**Collegamento con Il Re Spezzato:** La morte del Conte crea un vuoto di potere a Fianus. Gorim viene convocato a corte. Passa un anno. Gorim diventa confidente di Re Dorian Valemarch. I PG vengono richiamati per la missione a Nerrok.
+
+### Da decidere
+
+- [ ] Numero della puntata finale (5? 6? dipende da quante puntate intermedie)
+- [ ] Sergius ha compiuto la vendetta o no? Come si è risolta la trama del ritratto?
+- [ ] I PG scoprono che Sergius = Marchese Arimano prima o durante la puntata finale?
+- [ ] Cosa succede a Sergius dopo la morte del Conte? Sparisce? Resta a Fianus?
+- [ ] Il Burmini: che affari aveva il Conte? Commercio? Alleanze militari? Debiti?
+- [ ] I maghi del Burmini: quanti, come attaccano, cosa vogliono (vendetta? messaggio politico?)
 
 ---
 
@@ -168,7 +193,7 @@ Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
 
 | # | Decisione | Risultato |
 |---|-----------|-----------|
-| D9 | Flavia = Flavia + Tulia | Un solo NPC. Vende pozioni rinvigorenti di nascosto. Conosce Sergius da prima della clandestinità. |
+| D9 | Flavia = Flavia + Tulia | Un solo NPC. Vende pozioni rinvigorenti di nascosto. Non conosce il produttore — comprava da intermediario. Non può collegare la doppia S a nessuno. |
 | D10 | Donna Ortensia | Moglie di Grigius Voidus |
 | D11 | Sergius aspetto | Stile Molisky: cinquantenne gobbo, travestimenti radicali, in pubblico va come versione aitante di sé |
 | D12 | Sergius non catturabile | Nota meta: vietato dalla sceneggiatura fino a puntata 4-5 |

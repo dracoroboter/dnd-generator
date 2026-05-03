@@ -1,0 +1,11 @@
+{
+  "adventure_name": "IlReSpezzato",
+  "default_lang": "it",
+  "languages": ["it"],
+  "title": {
+    "it": "Il Re Spezzato"
+  },
+  "subtitle": {
+    "it": "Le tre vie di Drakenhold"
+  }
+}

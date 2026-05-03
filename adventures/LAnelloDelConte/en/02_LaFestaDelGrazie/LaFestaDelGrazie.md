@@ -41,7 +41,7 @@ Each PC can work 5-6 days. With some luck they reach 25-30 gp — just barely en
 
 ## Festival Day
 
-**Map:** `../maps/LaFestaDelBorgo.png` (Mercato Centrale square during the Festa del Grazie)
+**Map:** `../maps/LaFestaDelGrazie.png` (Mercato Centrale square during the Festa del Grazie)
 
 ### 📖 Read to the players
 

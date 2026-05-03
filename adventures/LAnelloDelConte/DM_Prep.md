@@ -78,7 +78,7 @@ L'incontro è **opzionale** — avviene solo se i PG individuano Sergius. Sergiu
 
 | NPC | Stat block | Ruolo |
 |-----|-----------|-------|
-| Flavia "La Biscia" | Commoner (MM p. 345) | Mercante ambulante, fonte pettegolezzi. Vende pozioni rinvigorenti di nascosto. Conosce Sergius da prima della clandestinità. |
+| Flavia "La Biscia" | Commoner (MM p. 345) | Mercante ambulante, fonte pettegolezzi. Vende pozioni rinvigorenti di nascosto. Non conosce il produttore — comprava da intermediario. |
 | Mastro Cecio | Commoner (MM p. 345), **FOR 18** (+6 randello, 1d4+4) | Fabbro, giudice braccio di ferro |
 | Terzilio | Commoner (MM p. 345) | Il vero Terzilio (non Sergius) |
 | Grigius Voidus | Noble (MM p. 348, CR 1/8) | Funzionario, imbavagliato da Sergius |
@@ -105,9 +105,55 @@ L'incontro è **opzionale** — avviene solo se i PG individuano Sergius. Sergiu
 
 ---
 
-## Puntata 3 — Il Rivale (da sviluppare)
+## Puntata 3 — Una Pizza in Compagnia
 
-*Da compilare quando la puntata sarà scritta.*
+### Incontri
+
+| # | Luogo | Tipo | Nemici | Difficoltà |
+|---|-------|------|--------|------------|
+| 1 | Magazzino 4, Vetusta Portus | Combattimento | 1× Er Braccio (Bandit Captain CR 2) + 4× Bandit (CR 1/8) | Hard (4 PG lv2) |
+| 2 | Magazzino 4 (fase 2) | Caos ambientale | 1× Rinoceronte (CR 2) + animali vari (scimmie, serpenti, ragni) | — |
+
+Il combattimento è un unico scontro caotico in due fasi. Il rinoceronte si libera durante il combattimento con i banditi.
+
+**Nota: Er Braccio probabilmente scappa nel caos. Serve come sospetto nelle puntate successive.**
+
+### NPC per luogo
+
+#### Fianus — Atto 1 (roleplay)
+
+| NPC | Stat block | Note |
+|-----|-----------|------|
+| Sir Gorim Vel | Custom (Fighter, CR 3) | Ricorrente, al castello |
+| La Contessina | Noble (MM p. 348) | Informata del ricatto, imbarazzata |
+| Flavia "La Biscia" | Commoner (MM p. 345) | Sa delle pozioni ma non il produttore — comprava da intermediario |
+
+#### Vetusta Portus — Casa del Marchese
+
+| NPC | Stat block | Note |
+|-----|-----------|------|
+| Marchese Arimano (Sergius) | Custom (Rogue 3, CR 1) | Committente. NON deve essere riconosciuto come S. |
+
+#### Vetusta Portus — Magazzino 4
+
+| NPC | Stat block | Note |
+|-----|-----------|------|
+| Er Braccio | Bandit Captain (MM p. 344, CR 2) | Capo banda, probabilmente scappa |
+| 4× Bandit | Bandit (MM p. 343, CR 1/8) | 2 dentro + 2 guardie fuori |
+| Rinoceronte | Rhinoceros (MM p. 336, CR 2) | Vuole scappare, non combattere |
+| Animali vari | Baboon/Poisonous Snake/Giant Wolf Spider | Escono dalle casse durante il caos |
+
+### Stat block
+
+| Stat block | Quanti |
+|-----------|--------|
+| Sergius Arimano (custom) | 1 |
+| Er Braccio (Bandit Captain) | 1 |
+| Bandit | 4 |
+| Rhinoceros | 1 |
+| Baboon | 2-4 |
+| Poisonous Snake | 2-4 |
+| Giant Wolf Spider | 1-2 |
 
 ---
 

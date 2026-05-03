@@ -4,7 +4,7 @@ Piazza principale di Fianus Romanus durante la Festa del Grazie.
 
 ## Immagine
 
-`LaFestaDelBorgo.png`
+`LaFestaDelGrazie.png`
 
 ## Prompt Gemini
 
