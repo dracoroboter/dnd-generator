@@ -159,7 +159,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] Glossario termini in `tech/rules/glossary.md`
 - [x] Manuale di normalizzazione in `tech/rules/normalization.md`
 - [x] Normalizzare **LoScettroDityr** (saga, 4 moduli A/B/C/D, da `.odt`) — versione "Draco" completata (maggio 2026): 4 moduli, 16 NPC, 1 MON, 29 asset grafici, 0 errori check
-- [ ] Normalizzare **IlReSpezzato** (draft incompleto, da `.odt`)
+- [ ] Completare **IlReSpezzato** (draft IT creato maggio 2026: documento principale, modulo Nerrok, meccanica medaglione. Mancano: NPC schede, moduli successivi, traduzione EN)
 
 ---
 

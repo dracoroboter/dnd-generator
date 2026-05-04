@@ -24,7 +24,7 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 
 - [ ] Definire il quarto PG
 - [x] Puntata 2: La Festa del Grazie — discorso di Sergius, caccia al tesoro, NPC nuovi
-- [ ] Puntata 3: ~~Il Rivale~~ → Una Pizza in Compagnia (scritta, vedi modulo 03)
+- [x] Puntata 3: ~~Il Rivale~~ → Una Pizza in Compagnia (scritta, vedi modulo 03)
 - [ ] Puntata 4: La Pista Vera (forse) — mercante di anelli contraffatti, indizio reale non riconosciuto
 - [ ] Puntata finale (numero da stabilire): Il Finale — rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
 - [ ] Definire cosa sia davvero l'Anello e perché la rivelazione finale è soddisfacente

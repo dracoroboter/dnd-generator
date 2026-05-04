@@ -135,4 +135,4 @@ Gorim furioso per il discorso pubblico. Ha detto ai PG di cercare S. Ha promesso
 
 ---
 
-*Prossima sessione: da programmare — Puntata 3 (Il Rivale)*
+*Prossima sessione: da programmare — Puntata 3 (Una Pizza in Compagnia)*

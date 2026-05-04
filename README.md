@@ -1,7 +1,7 @@
 # Dungeon & Dragon
 
-**Versione**: 0.4
-**Ultimo aggiornamento**: 2026-05-02
+**Versione**: 0.5
+**Ultimo aggiornamento**: 2026-05-04
 **Repository**: [github.com/dracoroboter/dnd-generator](https://github.com/dracoroboter/dnd-generator)
 
 Raccolta di avventure D&D 5e (2014) con toolchain di automazione dedicata.
@@ -31,7 +31,7 @@ Entrambi i piani sono assistiti da AI.
 |-----------|------|-------|--------|------|
 | `LAnelloDelConte` | Saga puntata 1 | Normalizzata | it, en | Prima avventura completa |
 | `FuoriDaHellfire` | One-shot (2 moduli) | Normalizzata | it, en | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4. PDF generato. |
-| `IlReSpezzato` | Saga puntata 2 | Da migrare | — | Draft in `legacy/` formato `.odt` |
+| `IlReSpezzato` | Saga puntata 2 | Draft | it | Plot, meccanica medaglione, modulo 1 (Nerrok). NPC e moduli successivi da sviluppare. |
 | `LoScettroDityr` | Saga (4 moduli A/B/C/D) | Normalizzata | it, en | Versione "Draco" — 4 moduli, 16 NPC, 1 MON, 29 asset grafici. Tradotta IT+EN |
 
 La saga "Lo Scettro di Tyr" copre `LAnelloDelConte` → `IlReSpezzato` → `LoScettroDityr` in sequenza narrativa.
@@ -107,6 +107,7 @@ dungeonandragon/
 │   ├── AdventureTemplate/       # scaffold vuoto (usato da new-adventure.sh)
 │   ├── LAnelloDelConte/         # saga puntata 1
 │   ├── FuoriDaHellfire/         # continuazione Hellfire Club starter set
+│   ├── IlReSpezzato/           # saga puntata 2 (draft)
 │   └── LoScettroDityr/          # saga 4 moduli (versione "Draco")
 │
 ├── legacy/                      # .odt originali — sola lettura
