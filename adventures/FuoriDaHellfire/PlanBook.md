@@ -59,6 +59,59 @@
 
 ## Log sessioni di lavoro
 
+### 2026-05-06 (sessione Kiro)
+
+**Fatto:**
+- Modulo 03 La Cripta sotto la Taverna (draft completo)
+- Immagini NPC generate (Korex, Udo, Fin, Jason)
+- Gemidesc per tutti gli NPC
+
+---
+
+## Idee per moduli futuri
+
+### "Il Concerto Fantasma"
+Un bardo famoso sparisce prima di un concerto. Rapito da un nobile collezionista. Dungeon: villa con trappole musicali. Collegamento anello: Jason reagisce alla musica, flashback sulla sua vita.
+
+### "La Gara dei Moli"
+Regata annuale di Oakshore. Gara truccata, mostro marino a metà gara. Collegamento anello: il mostro è attirato dall'anello.
+
+### "Caccia Grossa"
+Scorta di un carico nel bosco. Creatura esotica scappa durante imboscata. Collegamento anello: la creatura reagisce all'anello.
+
+---
+
+## Milestone della saga (lv4-6)
+
+| Evento | Livello |
+|--------|---------|
+| Modulo 2, Korex sconfitto, anello indossato | 3 → 4 (già fatto) |
+| Modulo 4 o 5, trovare lo scheletro di Jason | 4 → 5 |
+| Modulo finale, rituale, liberazione dall'anello | 5 → 6 |
+
+---
+
+## Punti aperti saga
+
+### Decisioni prese
+
+- **Udo e Fin**: restano nel party come companion a discrezione del DM. Il party base è 3 PG, troppo piccolo senza di loro. Bilanciare gli incontri per 5 combattenti (3 PG lv4 + Udo + Fin).
+- **Piano B cliffhanger** (guardia posseduta): mantenuto nel materiale per rigiocabilità da altri gruppi. Non usato nella campagna attuale (Piano A attivo).
+- **Torre di Ashwick**: preferibilmente in rovine, occupata (fantasmi o eremita). Da definire nel modulo 4-5.
+- **Cofanetto stanza 6**: gancio potenziale aperto. Non ancora deciso dove porta. Bene avere più possibilità.
+
+### Da definire
+
+- [ ] Dove è lo scheletro di Jason? (quest principale della saga)
+- [ ] Il patto con Jason: a che punto smette di uscire quando glielo chiedono?
+- [ ] Altre modalità per forzare Jason fuori dal controllo (da valutare):
+  - Musica dissonante (Jason era un bardo, la musica stonata lo destabilizza)
+  - Nome completo di Jason pronunciato ad alta voce (lo forza fuori per 1d4 ore)
+  - Rituale di Vellun (forza Jason fuori per 24h, costoso e non ripetibile spesso)
+- [ ] La Torre di Ashwick (costa nord): in rovine, occupata da chi? Fantasmi dei membri dell'Ordine? Un eremita che sa qualcosa?
+- [ ] Il cofanetto nella stanza 6: cosa contiene? Gancio per quale modulo?
+- [ ] Cosa c'è negli altri 6 sigilli del registro (quelli illeggibili)?
+
 ### 2026-04-25 (sessione Kiro)
 
 **Fatto:**

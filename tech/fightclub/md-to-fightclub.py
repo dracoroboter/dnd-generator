@@ -57,7 +57,7 @@ def parse_md(filepath, lang="it"):
     field_map = [
         (i18n["field_role"], "role"), (i18n["field_class"], "class"),
         (i18n["field_level"], "level"), (i18n["field_race"], "race"),
-        (i18n["field_alignment"], "alignment"),
+        (i18n["field_alignment"], "alignment"), (i18n["field_size"], "size_field"),
     ]
     for key, xml_key in field_map:
         m = re.search(rf"\*\*{re.escape(key)}\*\*:\s*(.+)", text)
@@ -201,15 +201,24 @@ def build_xml(data):
 
     SubElement(monster, "name").text = data.get("name", "Unknown")
 
-    # Size
-    race = data.get("race", "").lower()
-    size = RACE_TO_SIZE.get(race, "M")
+    # Size — use explicit size field if present, otherwise infer from race
+    size_field = data.get("size_field", "").lower()
+    if size_field and size_field in SIZE_MAP:
+        size = SIZE_MAP[size_field]
+    else:
+        race = data.get("race", "").lower()
+        size = RACE_TO_SIZE.get(race, "M")
     SubElement(monster, "size").text = size
 
-    # Type
+    # Type — non-humanoid races get their race as type directly
     race_display = data.get("race", "humanoid")
-    cls = data.get("class", "")
-    type_text = f"humanoid ({race_display.lower()})"
+    non_humanoid = {"beast", "monstrosity", "fiend", "undead", "construct",
+                    "elemental", "fey", "celestial", "aberration", "dragon",
+                    "ooze", "plant", "giant"}
+    if race_display.lower() in non_humanoid:
+        type_text = race_display.lower()
+    else:
+        type_text = f"humanoid ({race_display.lower()})"
     SubElement(monster, "type").text = type_text
 
     # Alignment

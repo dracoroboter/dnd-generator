@@ -302,6 +302,25 @@ def check_npcs(adventure_dir):
         check_unknown_sections(npc_path, KNOWN_NPC_SECTIONS, f"NPC {npc}")
 
 
+def check_npc_images(adventure_dir):
+    """Warn if NPC characters (not MON_) are missing a portrait in characters/img/."""
+    lang_dir = get_lang_dir(adventure_dir)
+    md_dir = os.path.join(lang_dir, "characters", "markdown")
+    if not os.path.isdir(md_dir):
+        return
+    img_dir = os.path.join(adventure_dir, "characters", "img")
+    existing_images = set()
+    if os.path.isdir(img_dir):
+        existing_images = {os.path.splitext(f)[0] for f in os.listdir(img_dir)
+                          if f.endswith((".png", ".jpg", ".jpeg", ".webp"))}
+    npcs = [f for f in os.listdir(md_dir) if f.startswith("NPC_") and f.endswith(".md")]
+    for npc in sorted(npcs):
+        # NPC_SirGorimVel.md -> SirGorimVel
+        name = npc[4:-3]
+        if name not in existing_images:
+            warn(f"Immagine mancante per {npc} — atteso characters/img/{name}.png")
+
+
 def check_saga_metadata(adventure_dir):
     readme = os.path.join(adventure_dir, "README.md")
     if not os.path.isfile(readme):
@@ -371,6 +390,7 @@ def main():
 
     section("Schede NPC")
     check_npcs(adventure_dir)
+    check_npc_images(adventure_dir)
 
     section("Stat block")
     check_statblocks(adventure_dir)

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Bandit</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>12 (armatura di cuoio)</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <senses>Percezione passiva 10</senses>
+        <languages>Common</languages>
+        <cr>1/8</cr>
+        <action>
+            <name>Scimitarra (mischia)</name>
+            <text>Attacco: +3, mischia 5ft Danni: 1d6+1 taglienti</text>
+            <attack>Scimitarra (mischia)|+3|1d6+1</attack>
+        </action>
+        <action>
+            <name>Balestra leggera (distanza)</name>
+            <text>Attacco: +3, distanza 80/320 ft. Danni: 1d8+1 perforanti</text>
+            <attack>Balestra leggera (distanza)|+3|1d8+1</attack>
+        </action>
+        <description>Uomini del porto di Vetusta Portus. Scaricatori, ex-marinai, piccoli criminali. Lavorano per Er Braccio per soldi facili. Non sono fanatici — se la situazione si mette male, scappano.
+Role: scagnozzo di Er Braccio</description>
+    </monster>
+</compendium>

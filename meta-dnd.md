@@ -155,7 +155,7 @@ Materiale originale conservato intatto in `legacy/DracoAvventure/`:
 Tool già usati e approvati:
 - [Inkarnate](https://inkarnate.com) — mappe geografiche/regionali
 - [DungeonFog](https://app.dungeonfog.com) — battle map
-- [Watabou city generator](https://watabou.itch.io/medieval-fantasy-city-generator) — mappe città
+- [Watabou city generator](https://watabou.github.io/city-generator/) — mappe città (usare manualmente nel browser: generare con seed, esportare SVG, modificare nomi in un editor di testo, convertire in PNG)
 - [Watabou one-page-dungeon](https://watabou.github.io/one-page-dungeon/) — dungeon (URL con `?seed=` parametrico)
 - [DungeonScrawl](https://app.dungeonscrawl.com) — dungeon
 

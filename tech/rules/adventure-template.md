@@ -154,6 +154,28 @@ Lingua commenti: **inglese**.
 | Versioni lowres | suffisso `-lowres` | `FianusRomanus-lowres.jpg` |
 | Stat block generati | stesso prefisso del sorgente | `NPC_SirGorimVel.pdf`, `NPC_SirGorimVel.png` |
 | XML FightClub generati | stesso prefisso del sorgente | `NPC_SirGorimVel.xml` |
+| Prompt generazione immagine | stesso nome base + `.gemidesc` | `SirGorimVel.gemidesc` |
+
+### File `.gemidesc` (opzionali)
+
+Prompt testuali per la generazione di immagini con AI (Gemini, DALL-E, Midjourney). Ogni file contiene un singolo prompt in inglese, pronto per essere copiato nel tool di generazione.
+
+**Struttura:** testo libero su una riga (o più righe), in inglese. Descrive il soggetto, l'aspetto, l'abbigliamento, la posa, lo sfondo e lo stile desiderato.
+
+**Naming:** stesso nome base dell'immagine da generare, con estensione `.gemidesc`. Quando l'immagine viene generata, si salva con lo stesso nome ma `.png`.
+
+**Posizione:** nella stessa directory dove andrà l'immagine finale (`characters/img/`, `img/`, `maps/`).
+
+**Esempio:**
+
+```
+characters/img/
+├── SirGorimVel.png        ← immagine generata
+├── SirGorimVel.gemidesc   ← prompt usato per generarla
+├── Korex.gemidesc         ← prompt (immagine non ancora generata)
+```
+
+I file `.gemidesc` non vengono inclusi nel PDF né nello ZIP di pubblicazione. Servono come documentazione del prompt usato, per poter rigenerare o iterare sull'immagine.
 
 ### Directory
 

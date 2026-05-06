@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
+        <name>MON_ChefMorticcio</name>
+        <size>M</size>
+        <type>undead</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>12</ac>
+        <hp>22 (5d8)</hp>
+        <speed>30 ft.</speed>
+        <str>13</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>7</int>
+        <wis>10</wis>
+        <cha>6</cha>
+        <senses>darkvision 60 ft. 18m / 60ft, Percezione passiva 10</senses>
+        <languages>Common</languages>
+        <cr>1</cr>
+        <action>
+            <name>Artigli (mischia)</name>
+            <text>Attacco: +4, mischia 5ft Danni: 2d4+2 taglienti Effetto: il bersaglio deve superare CD 10 COS o è paralizzato per 1 minuto (ripete il TS a fine turno). Non funziona su elfi e non-morti.</text>
+            <attack>Artigli (mischia)|+4|2d4+2</attack>
+        </action>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +2, mischia 5ft Danni: 2d6+1 perforanti</text>
+            <attack>Morso (mischia)|+2|2d6+1</attack>
+        </action>
+        <description>Grigio, secco, dita troppo lunghe, mandibola storta. Indossa un grembiule macchiato e impugna un coltello da cucina. In vita era il cuoco del rifugio dell'Ordine della Chiave Spezzata. Si è risvegliato come ghoul quando il muro della cripta è stato sfondato. Ha fame costante ma preferisce cucinare che cacciare. Vuole compagnia e qualcuno che apprezzi la sua cucina.
+Role: occupante della cripta, potenziale NPC ricorrente</description>
+    </monster>
+    <monster>
         <name>MON_RattoCorrotto</name>
         <size>M</size>
         <type>humanoid (bestia)</type>
@@ -63,6 +93,69 @@ Role: servitore di Korex (corrotto dalla sua musica)</description>
         </action>
         <description>Una massa di ratti che si muove come un'unica creatura. Occhi rossi, squittii incessanti. Copre il pavimento e si arrampica sulle gambe dei PG.
 Role: servitore di Korex</description>
+    </monster>
+    <monster>
+        <name>MON_Skeleton</name>
+        <size>M</size>
+        <type>undead</type>
+        <alignment>lawful evil</alignment>
+        <ac>13 (frammenti di armatura)</ac>
+        <hp>13 (2d8+4)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>15</con>
+        <int>6</int>
+        <wis>8</wis>
+        <cha>5</cha>
+        <senses>darkvision 60 ft. 18m / 60ft, Percezione passiva 9</senses>
+        <languages>comprende le lingue che conosceva in vita ma non parla</languages>
+        <cr>1/4</cr>
+        <action>
+            <name>Spada corta (mischia)</name>
+            <text>Attacco: +4, mischia 5ft Danni: 1d6+2 perforanti</text>
+            <attack>Spada corta (mischia)|+4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Arco corto (distanza)</name>
+            <text>Attacco: +4, distanza 80/320 ft. Danni: 1d6+2 perforanti</text>
+            <attack>Arco corto (distanza)|+4|1d6+2</attack>
+        </action>
+        <description>Scheletri dei custodi del Terzo Archivio. Seduti composti attorno a un tavolo di pietra, si animano in silenzio quando qualcuno si avvicina. Combattono senza emettere suono.
+Role: guardiano non-morto della cripta</description>
+    </monster>
+    <monster>
+        <name>MON_Specter</name>
+        <size>M</size>
+        <type>undead</type>
+        <alignment>chaotic evil</alignment>
+        <ac>12</ac>
+        <hp>22 (5d8)</hp>
+        <speed>50 ft.</speed>
+        <str>1</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>11</cha>
+        <senses>darkvision 60 ft. 18m / 60ft, Percezione passiva 10</senses>
+        <languages>comprende le lingue che conosceva in vita ma non parla</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Incorporeo</name>
+            <text>può muoversi attraverso creature e oggetti come terreno difficile. Subisce 1d10 danni di forza se termina il turno dentro un oggetto.</text>
+        </trait>
+        <trait>
+            <name>Sensibilità alla luce del sole</name>
+            <text>svantaggio ai tiri per colpire e alle prove di Percezione basate sulla vista quando è alla luce del sole.</text>
+        </trait>
+        <action>
+            <name>Life Drain (mischia)</name>
+            <text>Attacco: +4, mischia 5ft Danni: 3d6 necrotici Effetto: il bersaglio deve superare CD 10 COS o il suo massimo di punti ferita è ridotto di un ammontare pari ai danni subiti. Questa riduzione dura fino a un riposo lungo. Il bersaglio muore se il suo massimo PF scende a 0.</text>
+            <attack>Life Drain (mischia)|+4|3d6</attack>
+        </action>
+        <description>Una presenza incorporea, gelida, che si libera dal cofanetto di piombo se aperto. Non ha forma definita: un'ombra scura con occhi luminosi e un urlo silenzioso. Era un'entità minore sigillata dall'Ordine della Chiave Spezzata, meno potente di Jason ma comunque pericolosa.
+Role: guardiano della cella sigillata (stanza 6, opzionale)</description>
     </monster>
     <monster>
         <name>MON_TeppistaCharmato</name>

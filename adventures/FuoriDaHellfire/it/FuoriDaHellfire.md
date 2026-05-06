@@ -45,6 +45,7 @@ Stat block teppisti charmati: vedi `MON_TeppistaCharmato.md`.
 |---|------|------|------|
 | 1 | Discesa nelle Fogne | dungeon / esplorazione | [01_DiscesaNelleFogne/DiscesaNelleFogne.md](01_DiscesaNelleFogne/DiscesaNelleFogne.md) |
 | 2 | Tana di Korex | dungeon / scontro finale | [02_TanaDiKorex/TanaDiKorex.md](02_TanaDiKorex/TanaDiKorex.md) |
+| 3 | La Cripta sotto la Taverna | dungeon / esplorazione + roleplay | [03_LaCriptaSottoLaTaverna/LaCriptaSottoLaTaverna.md](03_LaCriptaSottoLaTaverna/LaCriptaSottoLaTaverna.md) |
 
 ## Agganci futuri
 

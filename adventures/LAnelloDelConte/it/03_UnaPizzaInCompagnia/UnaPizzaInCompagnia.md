@@ -11,6 +11,59 @@ I PG sono in stallo: hanno il frammento del ritratto e la bottiglietta di pozion
 
 ---
 
+## Cheat Sheet — Informazioni e Indizi
+
+### Dove sono i personaggi
+
+| NPC | Dove | Disponibilità |
+|-----|------|---------------|
+| Sir Gorim Vel | Castello del Conte, Aviano | Sempre raggiungibile |
+| Domina Lella | Taberna, piazza del Mercato Centrale | Sempre (ci vive e lavora) |
+| La Contessina | Castello del Conte, Aviano | Solo con lettera/sigillo di Gorim (vedi sotto) |
+| Flavia "La Biscia" | Itinerante, base a Vetusta Portus | Al mercato di giorno, sparisce di sera |
+| Mastro Cecio | Bottega vicino alla piazza del Mercato | Sempre (ma inutile) |
+| Donna Ortensia | Aviano, vicino al castello | A casa, non esce volentieri |
+| Terzilio | Settebagni → mercato di Fianus | Al mercato di giorno col carretto |
+| Ermolao "Il Profondo" | Fogne di Fianus | Bisogna scendere |
+| Marchese Arimano (Sergius) | Vetusta Portus, casa in collina | Solo dopo l'invito |
+| Er Braccio | Vetusta Portus, Magazzino 4 | Solo nell'Atto 3 |
+
+### Cosa sa ciascun NPC
+
+| NPC | Sa davvero | Dice ai PG | Non dice / Non sa |
+|-----|-----------|------------|-------------------|
+| **Gorim** | Il Marchese è un nobile minore di Vetusta. Non lo collega a S. | "Lo conosco di nome, aveva dei commerci" | Non sa nulla di utile |
+| **Contessina** | Il Conte è in viaggio. Sa del ricatto (ritratto). Non sa chi è S. | Imbarazzata, vuole che sparisca tutto | Non ammette di sapere dei "commerci" del Conte |
+| **Flavia** | Vendeva pozioni rinvigorenti, le comprava da intermediario anonimo | "Me le portava un tizio, mai visto in faccia — lasciava le casse al porto" | Non conosce il produttore (davvero) |
+| **Donna Ortensia** | Era cliente (comprava da Flavia). Non sa chi produce. | Ammette solo sotto pressione (Intimidazione CD 14 / Persuasione CD 16) | Il nome del produttore (non lo sa) |
+| **Mastro Cecio** | Niente | "No." / "Non so." / "Andate via." | — |
+| **Er Braccio** | Arimano gli deve soldi. Ce l'ha col Conte per le tasse. Non sa nulla di S. | Insulta il Conte, vuole i soldi | Non è S, non sa chi sia |
+| **Marchese (Sergius)** | Tutto. È S. | Affabile, curioso, fa domande. Offre lavoro. | La sua identità, il collegamento con le pozioni, l'Anello |
+
+### Indizi seminati — principio guida
+
+I PG devono uscire dalla puntata con **sospetti multipli** e **nessuna certezza**. Devono pensare "potrebbe essere Er Braccio... ma anche il Marchese è strano". La rivelazione arriva nelle puntate 4-5.
+
+**Indizi che puntano a Er Braccio (falsa pista):**
+- Ce l'ha col Conte (lo dice apertamente)
+- Opera al porto (dove arrivava la merce di S)
+- È un criminale (contrabbando, banda)
+- Scappa durante il combattimento → comportamento "colpevole"
+
+**Indizi che puntano al Marchese (semi veri, non collegabili ora):**
+- Commercia in "ingredienti" esotici (le pozioni di vigore sono fatte con quelli)
+- Ha detto "animaletti" per un rinoceronte → non è del tutto onesto
+- Fa domande strane a cena (studia i PG — Intuizione CD 15)
+- È un nobile decaduto (la Gabella lo ha rovinato? i PG non possono saperlo)
+- La firma della lettera: "Marchese Arimano Improbus" — nessuna S visibile
+
+**Cosa i PG NON devono poter dedurre in questa puntata:**
+- Marchese = Sergius (nessun indizio diretto, CD 25+ per sospettare)
+- Gli ingredienti servono per le pozioni di vigore (servirebbero competenze alchemiche + tempo)
+- Il Marchese conosce già i PG (li ha visti come Terzilio)
+
+---
+
 ## Atto 1 — Fianus senza piste
 
 ### 🎲 Note per il DM
@@ -21,9 +74,24 @@ Due giorni di tempo di gioco. I PG possono girare per Fianus e parlare con chi v
 
 **Parlare con Gorim** — È al castello (Aviano). Nervoso per il ritratto. Non ha novità. Spinge i PG a indagare ma non sa dove. Ha informato la Contessina del ricatto.
 
-**Andare al Castello del Conte** — Il Conte è in viaggio. Le guardie li lasciano parlare con la Contessina.
+**Andare al Castello del Conte** — Le guardie NON li fanno passare. Scena alla porta:
 
-**Parlare con la Contessina** — Imbarazzata e preoccupata. Sa del ricatto (Gorim l'ha informata). Non vuole che il ritratto venga fuori — non per il Conte, ma per la sua reputazione.
+> La guardia alza una mano senza nemmeno guardarvi.
+>
+> *"Chi siete? Dove andate?"*
+>
+> Qualunque cosa rispondano i PG: *"Una moneta d'argento."*
+> Se i PG protestano: *"Una moneta d'argento."*
+> Se i PG spiegano che lavorano per Gorim: *"Una moneta d'argento."*
+> Se i PG si arrabbiano: *"Due monete d'argento."*
+
+I PG passano SOLO se hanno una lettera con il sigillo di Gorim, o se Gorim li accompagna di persona. Senza credenziali, le guardie sono un muro. Non c'è CD che tenga — è burocrazia, non un tiro abilità.
+
+Se Gorim è con loro, le guardie lo salutano e fanno passare lui. Poi guardano i PG: *"Una moneta d'argento."* Ciascuno. Gorim non paga per loro.
+
+Se i PG tornano da Gorim a chiedere la lettera, lui sbuffa ma la scrive (con calligrafia orrenda e sigillo storto). Le guardie la esaminano per un tempo imbarazzante, poi li fanno passare con un grugnito.
+
+**Parlare con la Contessina** — (solo se superano le guardie) Imbarazzata e preoccupata. Sa del ricatto (Gorim l'ha informata). Non vuole che il ritratto venga fuori — non per il Conte, ma per la sua reputazione.
 
 > *"Io so' una donna de specchiata moralitudine, e se viene fuori che er Conte... che mio marito... insomma, 'ste cose... io me ne torno a Vetusta Portus da mio padre e chi s'è visto s'è visto."*
 
@@ -299,17 +367,4 @@ Il gancio per la Puntata 4: Er Braccio è in circolazione (se è scappato), ce l
 - Sergius non deve essere riconosciuto come S. Se i PG sospettano, le CD sono impossibili (25+).
 - La "S." nella firma della lettera è un seme — non forzare il collegamento.
 
-## Dove vivono gli NPC
-
-| NPC | Dove | Note |
-|-----|------|------|
-| Sir Gorim Vel | Castello del Conte, Aviano | Funzionario |
-| Domina Lella | Taberna, piazza del Mercato Centrale | Ci vive e ci lavora |
-| Terzilio | Settebagni | Parcheggio per il carretto |
-| Flavia "La Biscia" | Itinerante, base a Vetusta Portus | Mercante ambulante |
-| Mastro Cecio | Bottega vicino alla piazza del Mercato | Fabbro |
-| Donna Ortensia + Grigius Voidus | Aviano, vicino al castello | Quartiere nobile |
-| La Contessina | Castello del Conte, Aviano | Moglie del Conte |
-| Ermolao "Il Profondo" | Fogne di Fianus | Letteralmente |
-| Marchese Arimano (Sergius) | Vetusta Portus — casa signorile in declino | Collina sopra il porto |
-| Er Braccio | Vetusta Portus — porto | Magazzino 4 |
+## Note per il DM

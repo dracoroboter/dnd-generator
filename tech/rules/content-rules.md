@@ -158,6 +158,26 @@ Usare blockquote per il testo da leggere ad alta voce:
 
 ---
 
+## Stile di scrittura
+
+### Punteggiatura
+
+Non usare il trattino lungo (—) nel testo delle avventure. Sostituire con virgola, punto, punto e virgola, o riformulare la frase.
+
+### Azioni dei PG
+
+L'avventura non può affermare cosa faranno i PG. Al limite può presumere un comportamento probabile, usando formule condizionali:
+
+| ❌ Non scrivere | ✅ Scrivere |
+|----------------|------------|
+| I PG prendono il registro e lo portano a Vellun. | Se i PG portano il registro a Vellun, lo legge in silenzio. |
+| Dopo il combattimento, il PG sa che deve cercare aiuto. | Dopo il combattimento, è probabile che il PG cerchi un modo per risolvere la situazione. |
+| I PG scendono nella cripta. | Se i PG decidono di scendere nella cripta... |
+
+Il DM adatta la narrazione alle scelte dei giocatori. Il modulo fornisce contenuto e conseguenze, non una sceneggiatura.
+
+---
+
 ## Distanze e unità di misura
 
 Le distanze vanno espresse in formato triplo: **metri / feet / qd** (quadretti).

@@ -9,6 +9,18 @@ Uso personale, con intenzione di pubblicare su GitHub (CC BY-SA 4.0) quando la q
 
 ---
 
+## Per orientarsi nel progetto
+
+| Scopo | File da leggere |
+|-------|----------------|
+| Struttura, contenuti, script, flussi di lavoro | Questo file (`README.md`) |
+| Stato di avanzamento, roadmap, gap critici | `plan-meta-dnd.md` |
+| Lavoro narrativo su un'avventura specifica | `adventures/<Nome>/PlanBook.md` + `adventures/<Nome>/AdventureBook.md` |
+
+I primi due file sono sufficienti per avere il quadro completo del progetto (tecnico e organizzativo). I PlanBook/AdventureBook servono solo quando si lavora sul contenuto narrativo di una specifica avventura.
+
+---
+
 ## I due piani del progetto
 
 Questo repository vive su due piani paralleli che si alimentano a vicenda.
