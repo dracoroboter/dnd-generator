@@ -57,6 +57,18 @@ La puntata finale è anche una sorta di epilogo che porta al Re Spezzato.
 - [ ] Il Burmini: che affari aveva il Conte? Commercio? Alleanze militari? Debiti?
 - [ ] I maghi del Burmini: quanti, come attaccano, cosa vogliono (vendetta? messaggio politico?)
 
+### Da definire prima della sessione 4
+
+La doppia vita di S. (Arimano/Sergius) e i ritratti sono vaghi. Precisare senza contraddire quanto detto ai giocatori:
+
+- [ ] **"I ritratti del conte"**: giravano voci su una serie di dipinti. Non è chiaro se il conte era il soggetto o il possessore. Decidere.
+- [ ] **La contessina**: cosa ha scoperto? Come ha reagito? Ha spinto la Gabella Pudicitiae.
+- [ ] **Conseguenze della Gabella**: la compravendita non è vietata ma mal vista. Arimano è diventato più povero, costretto nell'ombra. I commerci dell'Immane Alabarda si sono ristretti.
+- [ ] **Chi sono i pittori?** Uno o più? Dove operano? Quanto riserbo c'è?
+- [ ] **Simpatico Figuro** (bottegaio di Monteverde, CAR 15, INT 12): cosa sa davvero? Cosa può scoprire sotto pagamento?
+- [ ] **Il ritrovamento di un pittore** come pista per i PG: dove porta?
+- [ ] **Come si collega tutto ad Arimano/Sergius?** Lui produceva le pozioni E commissionava i ritratti? O solo le pozioni?
+
 ---
 
 ## Problemi aperti — Puntata 1

@@ -149,6 +149,23 @@ Per verificare una regola su mostri, incantesimi, oggetti o meccaniche, la fonte
 
 I dubbi, le domande aperte e le decisioni da prendere vanno nei documenti di pianificazione (PlanBook, meta/), non nel testo dell'avventura. L'avventura contiene solo contenuto giocabile e definitivo.
 
+## Debriefing post-sessione
+
+Il debriefing è il confronto tra l'avventura scritta e quanto è successo realmente al tavolo. Serve a:
+
+- Segnare brevemente le decisioni interessanti dei personaggi
+- Segnare le modifiche fatte al volo sull'avventura scritta (improvvisazioni che la migliorano)
+- Aggiornare l'avventura scritta con le correzioni emerse
+
+Le modifiche all'avventura non devono contraddire quanto già detto ai giocatori al tavolo.
+
+Il debriefing produce un file temporaneo in `meta/post-sessione-YYYY-MM-DD.md`. Questo file va eliminato una volta che il suo contenuto è stato riportato dove serve (modifiche all'avventura, log nel PlanBook).
+
+### PlanBook vs DiarioSessioni
+
+- **PlanBook**: contiene pianificazione per le sessioni future (todo, idee, punti aperti, decisioni da prendere).
+- **DiarioSessioni** (`meta/DiarioSessioni.md`): contiene il racconto di cosa è successo nelle sessioni passate giocate. Serve come riferimento storico. È un file separato dal PlanBook.
+
 ---
 
 ## Foreshadowing e agganci futuri

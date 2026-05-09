@@ -136,3 +136,41 @@ Gorim furioso per il discorso pubblico. Ha detto ai PG di cercare S. Ha promesso
 ---
 
 *Prossima sessione: da programmare — Puntata 3 (Una Pizza in Compagnia)*
+
+---
+
+## Sessione 3 — Venerdì 9 Maggio 2026
+
+**Puntata:** 3 — Una Pizza in Compagnia
+**Giocatori:** 3 PG di livello 2
+**Livello finale:** 2 (in corso, combattimento non concluso)
+
+### Cosa è successo
+
+I PG hanno trovato un brandello di pittura: ritrae un uomo legato al conte (stemma nobiliare visibile).
+
+Accordo con Domina Lella: 3 mo alla settimana. Hanno dovuto persuaderla.
+
+Hanno visitato Monteverde (parte artistica della città, botteghe di arte varia). Hanno chiesto a **Simpatico Figuro** (bottegaio, CAR 15, INT 12) dei pittori che facevano i ritratti. Ha detto che sotto pagamento cercherà; c'era molto riserbo in merito.
+
+Hanno parlato con Flavia: vendeva pozioni dell'Immane Alabarda ma non nudi (è una moralista). Ha indicato che i malviventi operano a Vetusta Portus.
+
+Non hanno aspettato l'invito di Arimano. Sono andati direttamente al magazzino perché:
+1. Flavia gli ha detto che i malviventi sono lì
+2. Marinai al porto hanno indicato il Magazzino 4 come covo sospetto
+
+### Al magazzino
+
+Hanno circuito le due guardie (due PG donne sulle guardie uomini), poi il bardo li ha addormentati. Li hanno legati.
+
+Hanno parlato con Er Braccio spacciandosi per compratori. Er Braccio ci è cascato finché non ha notato le guardie legate. A quel punto il rinoceronte ha svegliato tutti e il combattimento è iniziato.
+
+### Stato del combattimento (in corso)
+
+- Porta della gabbia: 1 PF rimasto (CA 15, PF 15 totali), sta per essere sfondata
+- I PG hanno fatto un giro completo di iniziativa, ritocca al primo
+- Il rinoceronte non è ancora uscito
+
+### Chiusura
+
+Sessione interrotta a metà combattimento. Riprende la prossima volta.

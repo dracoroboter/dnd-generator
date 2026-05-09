@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>MON_Baboon</name>
+        <name>Baboon</name>
         <size>S</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -30,7 +30,7 @@
 Role: animale esotico fuggito dalle casse</description>
     </monster>
     <monster>
-        <name>MON_GiantWolfSpider</name>
+        <name>GiantWolfSpider</name>
         <size>M</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -67,7 +67,7 @@ Role: animale esotico fuggito dalle casse</description>
 Role: animale esotico fuggito dalle casse</description>
     </monster>
     <monster>
-        <name>MON_PoisonousSnake</name>
+        <name>PoisonousSnake</name>
         <size>T</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -92,7 +92,7 @@ Role: animale esotico fuggito dalle casse</description>
 Role: animale esotico fuggito dalle casse</description>
     </monster>
     <monster>
-        <name>MON_Rhinoceros</name>
+        <name>Rhinoceros</name>
         <size>L</size>
         <type>beast</type>
         <alignment>non allineato</alignment>

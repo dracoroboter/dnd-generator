@@ -34,7 +34,7 @@ I PG sono in stallo: hanno il frammento del ritratto e la bottiglietta di pozion
 |-----|-----------|------------|-------------------|
 | **Gorim** | Il Marchese è un nobile minore di Vetusta. Non lo collega a S. | "Lo conosco di nome, aveva dei commerci" | Non sa nulla di utile |
 | **Contessina** | Il Conte è in viaggio. Sa del ricatto (ritratto). Non sa chi è S. | Imbarazzata, vuole che sparisca tutto | Non ammette di sapere dei "commerci" del Conte |
-| **Flavia** | Vendeva pozioni rinvigorenti, le comprava da intermediario anonimo | "Me le portava un tizio, mai visto in faccia — lasciava le casse al porto" | Non conosce il produttore (davvero) |
+| **Flavia** | Vendeva pozioni rinvigorenti (marchio "Immane Alabarda"), le comprava da intermediario anonimo. Non vendeva nudi, è una moralista. | "Me le portava un tizio, mai visto in faccia, lasciava le casse al porto" | Non conosce il produttore (davvero) |
 | **Donna Ortensia** | Era cliente (comprava da Flavia). Non sa chi produce. | Ammette solo sotto pressione (Intimidazione CD 14 / Persuasione CD 16) | Il nome del produttore (non lo sa) |
 | **Mastro Cecio** | Niente | "No." / "Non so." / "Andate via." | — |
 | **Er Braccio** | Arimano gli deve soldi. Ce l'ha col Conte per le tasse. Non sa nulla di S. | Insulta il Conte, vuole i soldi | Non è S, non sa chi sia |
@@ -200,6 +200,11 @@ Mappa: `maps/VetustaPortus.md`.
 
 Il porto è una fila di magazzini in legno e pietra lungo la banchina. Di giorno: scaricatori, pescatori, mercanti. Di sera: meglio non farsi vedere. Er Braccio opera dal **Magazzino 4** — il più grande, con le porte sbarrate e un paio di tizi dall'aria poco raccomandabile fuori.
 
+I PG possono arrivare qui in diversi modi:
+- Dopo l'invito di Arimano (percorso previsto dall'avventura)
+- Tramite Flavia, che sa che i malviventi operano al porto (Fianus è pacifico, Vetusta molto meno)
+- Tramite marinai al porto, che indicano il Magazzino 4 come covo di persone strane
+
 ### Approccio
 
 I PG possono:
@@ -224,6 +229,8 @@ Er Braccio non è stupido. Se i PG dicono che vengono da parte del Marchese:
 Se i PG provano a trattare (Persuasione CD 16): Er Braccio vuole 20 mo per rilasciare la merce. Non accetta meno di 15. I PG non hanno quei soldi (Sergius ha dato solo 5 mo di anticipo).
 
 Se la trattativa fallisce o i PG attaccano: combattimento.
+
+Se i PG si spacciano per compratori o visitatori, Er Braccio ci sta e parla. Il combattimento inizia solo quando nota qualcosa di strano (guardie legate, bugie scoperte, il rinoceronte che sveglia tutti).
 
 Er Braccio durante il dialogo, se i PG menzionano il Conte o Fianus:
 
@@ -252,13 +259,13 @@ I due banditi di guardia fuori arrivano al round 2 se non sono già stati elimin
 
 **Fase 2 — Il rinoceronte (round 2-3)**
 
-A partire dal round 2, la cassa enorme in fondo al magazzino inizia a tremare. Il rinoceronte all'interno sente il rumore del combattimento e si agita. Ogni round tenta di sfondare la cassa dall'interno.
+A partire dal round 2, la cassa enorme in fondo al magazzino inizia a tremare. Il rinoceronte all'interno sente il rumore del combattimento e si agita. Ogni round tenta di sfondare la cassa dall'interno. Il DM decide quando il rinoceronte inizia a colpire (tipicamente dopo che i PG entrano nel magazzino).
 
 **La cassa rinforzata:**
 
 | Oggetto | CA | PF | Soglia danno | Note |
 |---------|----|----|--------------|------|
-| Cassa del rinoceronte | 15 | 18 | 5 | Legno rinforzato con bande di ferro |
+| Cassa del rinoceronte | 15 | 15 | 5 | Legno rinforzato con bande di ferro, già logorata dall'interno |
 
 Il rinoceronte attacca la cassa dall'interno con la sua incornata (+7, 2d8+5). Tira ogni round. Quando i PF della cassa arrivano a 0, il rinoceronte si libera.
 
@@ -322,7 +329,9 @@ Se i PG tornano da Arimano con la merce: vedi § Chiusura.
 
 ---
 
-## Chiusura — Ritorno dal Marchese
+## Chiusura: Ritorno dal Marchese
+
+Se i PG sono passati da Arimano prima del magazzino, tornano da lui con la merce. Se invece sono andati direttamente al magazzino (tramite Flavia o i marinai), Arimano arriva al porto a cose fatte: qualcuno lo ha avvisato del trambusto. Li premia, li invita a cena per festeggiarli (oppure discute con loro se si rifiutano). Chiama dei suoi per prendere quanto rimasto e inseguire il rinoceronte se scappato.
 
 ### 📖 Da leggere ai giocatori
 
