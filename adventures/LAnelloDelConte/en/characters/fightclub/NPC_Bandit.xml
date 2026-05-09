@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Bandit</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>12 (leather armor)</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <senses>passive Perception 10</senses>
+        <languages>Common</languages>
+        <cr>1/8</cr>
+        <action>
+            <name>Scimitar (melee)</name>
+            <text>Attack: +3, melee 5ft Damage: 1d6+1 slashing</text>
+            <attack>Scimitar (melee)|+3|1d6+1</attack>
+        </action>
+        <action>
+            <name>Light Crossbow (ranged)</name>
+            <text>Attack: +3, ranged 80/320 ft. Damage: 1d8+1 piercing</text>
+            <attack>Light Crossbow (ranged)|+3|1d8+1</attack>
+        </action>
+        <description>Port men of Vetusta Portus. Dockworkers, ex-sailors, petty criminals. They work for Er Braccio for easy money. They're not fanatics — if things go south, they run.
+Role: Er Braccio's henchman</description>
+    </monster>
+</compendium>

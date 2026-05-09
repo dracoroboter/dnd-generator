@@ -1,8 +1,16 @@
 # AdventureTemplate — Struttura Standard delle Avventure
 
-Documento di riferimento per la struttura delle avventure del progetto.
-Per le istruzioni operative (sezioni obbligatorie, formato file) vedere `adventures/AdventureTemplate/AdventureBook.md`.
-Per le regole di contenuto vedere `tech/rules/content-rules.md`.
+Struttura tecnica delle avventure: directory, naming, file obbligatori, formato delle sezioni, tipi di file.
+
+---
+
+## Orientamento
+
+| Scopo | File |
+|-------|------|
+| Struttura tecnica: directory, naming, file obbligatori, formato sezioni (questo file) | `tech/rules/adventure-template.md` |
+| **Storytelling e semantica**: come scrivere un'avventura che funziona al tavolo | `tech/rules/content-rules.md` |
+| Stile di scrittura, formato testo, convenzioni linguistiche | `tech/rules/writing-style.md` |
 
 ---
 

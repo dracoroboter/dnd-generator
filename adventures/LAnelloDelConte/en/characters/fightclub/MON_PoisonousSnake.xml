@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_PoisonousSnake</name>
+        <size>T</size>
+        <type>beast</type>
+        <alignment>unaligned</alignment>
+        <ac>13</ac>
+        <hp>2 (1d4)</hp>
+        <speed>30 ft.</speed>
+        <str>2</str>
+        <dex>16</dex>
+        <con>11</con>
+        <int>1</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <senses>Blindsight 10 ft., passive Perception 10</senses>
+        <languages>—</languages>
+        <cr>1/8</cr>
+        <action>
+            <name>Bite (melee)</name>
+            <text>Attack: +5, melee 5ft Damage: 1 piercing + 2d4 poison (CON DC 10, halved)</text>
+            <attack>Bite (melee)|+5|2d4</attack>
+        </action>
+        <description>Thin, fast snakes — dark green with yellow stripes. They slither out of broken crates and hide among barrels and nets. They bite anyone who gets too close.
+Role: exotic animal escaped from crates</description>
+    </monster>
+</compendium>

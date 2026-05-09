@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_Baboon</name>
+        <size>S</size>
+        <type>beast</type>
+        <alignment>non allineato</alignment>
+        <ac>12</ac>
+        <hp>3 (1d6)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>4</int>
+        <wis>12</wis>
+        <cha>6</cha>
+        <senses>Percezione passiva 11</senses>
+        <languages>—</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>Il babbuino ha vantaggio ai tiri per colpire contro una creatura se almeno un alleato del babbuino si trova entro 5 ft. dalla creatura e l'alleato non è incapacitato.</text>
+        </trait>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +1, mischia 5ft Danni: 1d4-1 perforanti</text>
+            <attack>Morso (mischia)|+1|1d4-1</attack>
+        </action>
+        <description>Scimmie urlanti e aggressive, intrappolate nelle casse del Magazzino 4. Quando la cassa si apre escono in coppia, terrorizzate e furiose. Lanciano oggetti, rubano cose dalle mani dei PG, e creano caos generale.
+Role: animale esotico fuggito dalle casse</description>
+    </monster>
+</compendium>

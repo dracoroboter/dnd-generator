@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>BarneyMezzapinta</name>
+        <size>S</size>
+        <type>humanoid (halfling)</type>
+        <alignment>neutral</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <cr>1</cr>
+        <description>Halfling sulla quarantina, faccia tonda, calvo in cima con ricci marroni ai lati. Nervoso di natura, si torce le mani quando è preoccupato (cioè sempre). Leggermente sovrappeso, basso anche per un halfling. Grembiule di cuoio, maniche arrotolate, strofinaccio sulla spalla.
+Tirchio ma non cattivo. Offre la colazione gratis solo in circostanze eccezionali (tipo ratti giganti nella cantina).
+Role: proprietario della taverna Pint Ahoy, NPC ricorrente</description>
+    </monster>
+</compendium>

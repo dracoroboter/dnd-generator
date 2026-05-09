@@ -1,4 +1,4 @@
-# MON_TeppistaCharmato — servitore
+# MON_TeppistaCharmato, servitore
 
 ## Informazioni generali
 
@@ -8,7 +8,7 @@
 
 ## Descrizione
 
-Gente del porto di Oakshore — scaricatori, pescatori, marinai — finita sotto l'incantesimo di Korex. Occhi vitrei, movimenti meccanici, combattono senza parlare. Se Korex cade o il charm si spezza, si risvegliano confusi e spaventati.
+Gente del porto di Oakshore (scaricatori, pescatori, marinai) finita sotto l'incantesimo di Korex. Occhi vitrei, movimenti meccanici, combattono senza parlare. Se Korex cade o il charm si spezza, si risvegliano confusi e spaventati.
 
 ## Stat Block
 
@@ -42,6 +42,6 @@ Nessuna propria. Sono vittime di Korex, non nemici veri. Dopo il charm, non rico
 
 ## Note al master
 
-- Non sono malvagi. Se i PG li uccidono, è un problema morale — Udo lo farà notare.
+- Non sono malvagi. Se i PG li uccidono, è un problema morale. Udo lo farà notare.
 - Se i PG tentano di spezzare il charm in combattimento (es. *Dispel Magic*, schiaffo, persuasione), il teppista ha diritto a un nuovo TS Saggezza CD 12 per liberarsi.
 - Dopo il combattimento, i teppisti sopravvissuti possono dare informazioni: sono stati avvicinati da Korex al porto, la musica li ha presi, non ricordano altro.

@@ -1,4 +1,4 @@
-# NPC_Korex — antagonista
+# NPC_Korex, antagonista
 
 ## Informazioni generali
 
@@ -10,7 +10,7 @@
 
 ## Descrizione
 
-Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco — voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.
+Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco: voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.
 
 ## Stat Block
 
@@ -56,9 +56,9 @@ Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso pe
 
 ## Motivazioni
 
-Korex vuole potere, pubblico e adorazione — in quest'ordine. Si è stabilito nelle fogne di Oakshore perché qualcuno glielo ha chiesto (e pagato). Non sa esattamente per chi lavora — ha ricevuto istruzioni tramite messaggi anonimi e pagamenti in anticipo. Gli andava bene finché non sono arrivati i PG.
+Korex vuole potere, pubblico e adorazione, in quest'ordine. Si è stabilito nelle fogne di Oakshore perché qualcuno glielo ha chiesto (e pagato). Non sa esattamente per chi lavora; ha ricevuto istruzioni tramite messaggi anonimi e pagamenti in anticipo. Gli andava bene finché non sono arrivati i PG.
 
-Adesso vuole solo sopravvivere. Se catturato, dirà qualsiasi cosa per salvarsi la pelle — mescolando verità e bugie con maestria.
+Adesso vuole solo sopravvivere. Se catturato, dirà qualsiasi cosa per salvarsi la pelle, mescolando verità e bugie con maestria.
 
 ## Ruolo nell'avventura
 
@@ -69,6 +69,6 @@ Adesso vuole solo sopravvivere. Se catturato, dirà qualsiasi cosa per salvarsi 
 ## Note al master
 
 - Korex non è coraggioso. Non combatte fino alla morte a meno che non sia intrappolato senza via d'uscita.
-- Se charmato a sua volta (es. incantesimo di un PG), crolla immediatamente — non ha spina dorsale senza la sua musica.
+- Se charmato a sua volta (es. incantesimo di un PG), crolla immediatamente: non ha spina dorsale senza la sua musica.
 - Il suo segreto: non sa chi lo ha assunto. Davvero. Ha ricevuto lettere sigillate con un simbolo che non riconosce. Questo è vero, e i PG possono scoprirlo con Intuizione CD 15 durante l'interrogatorio.
 - Aggancio futuro: il mandante di Korex è il villain della "stagione 2".

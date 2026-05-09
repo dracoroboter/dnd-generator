@@ -1,4 +1,4 @@
-# NPC_UdoHutchinson — alleato
+# NPC_UdoHutchinson, alleato
 
 ## Informazioni generali
 
@@ -52,11 +52,11 @@ Udo è lo sceriffo di Oakshore. È pragmatico: il problema Korex va risolto, e i
 
 ## Ruolo nell'avventura
 
-Companion del party per tutta la durata dell'avventura. Combatte in prima linea, non dà ordini ai PG ma si aspetta che non facciano cazzate. Se Korex viene catturato vivo, Udo lo prende in custodia. Nel cliffhanger Piano B, è una delle guardie presenti alla consegna — ma non è lui a indossare l'anello.
+Companion del party per tutta la durata dell'avventura. Combatte in prima linea, non dà ordini ai PG ma si aspetta che non facciano cazzate. Se Korex viene catturato vivo, Udo lo prende in custodia. Nel cliffhanger Piano B, è una delle guardie presenti alla consegna, ma non è lui a indossare l'anello.
 
 ## Note al master
 
 - Udo è un tank: CA 14, 58 PF, multiattacco. Bilancia il party di 3 PG lv3 senza rubare la scena.
 - Non prende decisioni per i PG. Segue il gruppo, combatte, e commenta con frasi secche.
-- Se i PG fanno qualcosa di stupido, Udo lo dice — ma non li ferma.
+- Se i PG fanno qualcosa di stupido, Udo lo dice, ma non li ferma.
 - Se Korex tenta di charmarlo, Udo ha SAG +0: è vulnerabile. Questo può creare un momento drammatico.

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_Baboon</name>
+        <size>S</size>
+        <type>beast</type>
+        <alignment>unaligned</alignment>
+        <ac>12</ac>
+        <hp>3 (1d6)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>4</int>
+        <wis>12</wis>
+        <cha>6</cha>
+        <senses>passive Perception 11</senses>
+        <languages>—</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>The baboon has advantage on attack rolls against a creature if at least one of the baboon's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+        </trait>
+        <action>
+            <name>Bite (melee)</name>
+            <text>Attack: +1, melee 5ft Damage: 1d4-1 piercing</text>
+            <attack>Bite (melee)|+1|1d4-1</attack>
+        </action>
+        <description>Screaming, aggressive monkeys trapped in the crates of Warehouse 4. When a crate breaks open, they escape in pairs — terrified and furious. They throw objects, snatch things from PCs' hands, and create general chaos.
+Role: exotic animal escaped from crates</description>
+    </monster>
+</compendium>

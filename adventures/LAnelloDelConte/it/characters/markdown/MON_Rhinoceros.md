@@ -39,12 +39,14 @@ Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel
 
 ## Ruolo nell'avventura
 
-Si libera dalla cassa durante il combattimento nel Magazzino 4 (Puntata 3, round 2-3). Il suo obiettivo è sfondare la porta del magazzino e scappare. Non insegue i PG — li attacca solo se si trovano sulla sua traiettoria.
+Intrappolato in una cassa rinforzata (CA 15, PF 18, soglia danno 5) nel Magazzino 4. Dal round 2 del combattimento, attacca la cassa dall'interno (+7, 2d8+5) ogni round. Quando la cassa si rompe, il suo obiettivo è sfondare la porta del magazzino e scappare. Non insegue i PG — li attacca solo se si trovano sulla sua traiettoria.
 
 ## Note al master
 
 - Non è un nemico. È un ostacolo ambientale caotico.
-- Obiettivo: sfondare la porta (CA 15, PF 20, soglia danno 5).
+- **Cassa rinforzata**: CA 15, PF 18, soglia danno 5. Il rinoceronte la attacca dall'interno (+7 vs CA 15, 2d8+5). Sfonda tipicamente in 2-3 round.
+- I PG possono attaccare la cassa (liberarlo prima) o rinforzarla (Atletica CD 14, +5 PF temporanei).
+- Obiettivo dopo la liberazione: sfondare la porta (CA 15, PF 20, soglia danno 5).
 - Ogni carica contro muri/porta fa tremare le casse vicine (tabella 1d4 nel modulo).
 - Se i PG aprono la porta, il rinoceronte esce e non torna.
 - Er Braccio usa il caos del rinoceronte per scappare.

@@ -63,7 +63,7 @@ function parseXML(xmlText) {
 
 const SIZE_MAP = { T: 'Tiny', S: 'Small', M: 'Medium', L: 'Large', H: 'Huge', G: 'Gargantuan' };
 
-function buildHTML(monster, imagePath) {
+function buildHTML(monster, imagePath, wide = false) {
     const sizeName = SIZE_MAP[monster.size] || monster.size;
     let subtitle;
     if (monster.type) {
@@ -147,8 +147,9 @@ function buildHTML(monster, imagePath) {
         }
     }
 
+    const wideStyle = wide ? ' style="width:800px"' : '';
     const statblockContent = `
-<stat-block>
+<stat-block${wideStyle}>
   <creature-heading>
     <h1>${monster.name}</h1>
     <h2>${subtitle}</h2>
@@ -186,9 +187,10 @@ function buildHTML(monster, imagePath) {
     return html;
 }
 
-async function generatePDF(htmlContent, outputPath) {
+async function generatePDF(htmlContent, outputPath, wide = false) {
     const browser = await chromium.launch();
     const page = await browser.newPage();
+    if (wide) await page.setViewportSize({ width: 1000, height: 800 });
     
     // Carica l'HTML
     await page.setContent(htmlContent, { waitUntil: 'networkidle' });
@@ -235,6 +237,7 @@ async function main() {
     if (imgIdx >= 0 && imgIdx + 1 < args.length) {
         imagePath = args[imgIdx + 1];
     }
+    const wide = args.includes('--wide');
 
     if (!outputFile) {
         outputFile = inputFile.replace(/\.xml$/, '.pdf');
@@ -274,13 +277,13 @@ async function main() {
         process.exit(1);
     }
 
-    const html = buildHTML(monster, imagePath);
+    const html = buildHTML(monster, imagePath, wide);
     
     // Salva anche l'HTML intermedio per debug
     const htmlPath = outputFile.replace(/\.(pdf|png)$/, '.html');
     fs.writeFileSync(htmlPath, html);
 
-    await generatePDF(html, outputFile);
+    await generatePDF(html, outputFile, wide);
     console.log(`✓ ${inputFile} → ${outputFile}`);
 }
 

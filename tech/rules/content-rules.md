@@ -1,64 +1,66 @@
-# ContentRules — Regole di Contenuto per le Avventure
+# ContentRules — Regole di Storytelling per le Avventure
 
-Regole e convenzioni per il contenuto delle avventure D&D 5e del progetto.
-Complementa le convenzioni strutturali in `adventures/AdventureTemplate/AdventureBook.md`.
-
----
-
-## Difficoltà dell'avventura
-
-Ogni avventura deve dichiarare nel `README.md`:
-
-```
-*Sistema: D&D 5e (2014) — Livello consigliato: X — Durata: one-shot / X sessioni*
-```
-
-E nel documento principale (`NomeAvventura.md`), nella sezione `## Consigli al master`:
-
-```
-**Difficoltà consigliata:** X PG di livello Y
-**Difficoltà incontri:** Easy / Medium / Hard / Deadly (vedi singoli moduli)
-**Scalabilità:** note su come adattare se il party è diverso
-```
+Regole semantiche e narrative: come scrivere un'avventura che funziona al tavolo.
 
 ---
 
-## Difficoltà degli incontri
+## Orientamento
 
-Ogni modulo con combattimento deve includere nella sezione `## Nemici` la difficoltà calcolata:
-
-```markdown
-## Nemici
-
-**Difficoltà incontro:** HARD (4 PG lv3) — calcolata con `encounter-difficulty.py`
-
-| nome | numero | PF | CA | attacco | note |
-...
-```
-
-Per calcolare la difficoltà:
-```bash
-python3 tech/scripts/encounter-difficulty.py -p <N> <LVL> -m <N> <CR> [...]
-```
-
-Riferimento: `tech/how-to/how-to-encounter-difficulty.md`
-
-### Nota sul sistema CR/XP
-
-Il sistema DMG è oggettivo ma impreciso. Affiancare sempre una nota narrativa se la difficoltà effettiva si discosta da quella calcolata (es. boss progettato per fuggire, incontro evitabile con roleplay, ecc.).
+| Scopo | File |
+|-------|------|
+| **Storytelling e semantica** (questo file) | `tech/rules/content-rules.md` |
+| Stile di scrittura, formato testo, convenzioni linguistiche | `tech/rules/writing-style.md` |
+| Struttura tecnica: directory, naming, file obbligatori, formato sezioni | `tech/rules/adventure-template.md` |
 
 ---
 
-## Scalabilità degli incontri
+## Avventura scritta vs avventura giocata
 
-Se l'avventura è progettata per un party specifico, documentare come scalare per party diversi. Formato suggerito nella sezione `## Note al master` del modulo:
+L'avventura scritta descrive il mondo: luoghi, personaggi, oggetti, conseguenze delle azioni. Non descrive lo stato meccanico dei PG (punti ferita, condizioni, risorse spese), che appartiene alla giocata e cambia al tavolo.
 
-```markdown
-**Scalabilità:**
-- Party più piccolo (2-3 PG): rimuovere X nemici comuni
-- Party più grande (5-6 PG): aggiungere X nemici comuni o aumentare PF del boss di Y
-- Party di livello superiore: aumentare CR dei nemici principali di 1-2
-```
+L'avventura reagisce ai comportamenti dei PG, di solito non li obbliga. Usare strutture "se... allora..." per descrivere le conseguenze, non sequenze lineari che assumono un comportamento specifico.
+
+### Eccezioni
+
+L'avventura può descrivere lo stato meccanico dei PG o forzare un passaggio quando:
+
+- **La situazione iniziale lo richiede**: i PG sono stati rapiti, tramortiti, avvelenati. Il modulo può dichiarare "i PG si risvegliano legati, con 0 slot incantesimo" se è il punto di partenza della scena.
+- **Un passaggio è obbligato per motivi meta**: un NPC non può morire perché serve alla saga, una porta teletrasporta i PG in un luogo specifico qualunque cosa facciano. In questi casi dichiararlo esplicitamente come nota meta, separata dal testo narrativo.
+
+In entrambi i casi, segnalare chiaramente che si tratta di un'eccezione (es. prefisso "Meta:" o nota DM dedicata).
+
+L'avventura non può affermare cosa faranno i PG. Al limite può presumere un comportamento probabile, usando formule condizionali:
+
+| ❌ Non scrivere | ✅ Scrivere |
+|----------------|------------|
+| I PG prendono il registro e lo portano a Vellun. | Se i PG portano il registro a Vellun, lo legge in silenzio. |
+| Dopo il combattimento, il PG sa che deve cercare aiuto. | Dopo il combattimento, è probabile che il PG cerchi un modo per risolvere la situazione. |
+| I PG scendono nella cripta. | Se i PG decidono di scendere nella cripta... |
+
+Il DM adatta la narrazione alle scelte dei giocatori. Il modulo fornisce contenuto e conseguenze, non una sceneggiatura.
+
+---
+
+## Schede personaggio
+
+Le schede NPC/MON (`characters/markdown/`) descrivono le caratteristiche generali e permanenti del personaggio: aspetto, personalità, motivazioni, stat block, tattiche. Non descrivono cosa il personaggio ha fatto in una specifica situazione di gioco. Gli eventi situazionali vanno nel testo del modulo dove accadono.
+
+---
+
+## Dungeon e luoghi esplorabili
+
+Se i PG entrano in un dungeon o in un luogo con più stanze/aree, il modulo deve fornire abbastanza dettagli per giocarlo: almeno una mappa DM (anche schematica, in formato testo) o una descrizione con dimensioni, connessioni tra le stanze e posizioni dei nemici/oggetti.
+
+---
+
+## Struttura narrativa
+
+Ogni avventura deve avere almeno:
+- Un incontro di combattimento
+- Un incontro di esplorazione
+- Un incontro di roleplay
+
+Prevedere sempre almeno una soluzione alternativa al combattimento per ogni scontro principale.
 
 ---
 
@@ -66,24 +68,11 @@ Se l'avventura è progettata per un party specifico, documentare come scalare pe
 
 ### Separazione stat block dal testo dell'avventura
 
-Gli stat block completi dei personaggi **non vanno inseriti nel corpo dei moduli**. Devono risiedere esclusivamente nelle schede dedicate in `characters/markdown/` (formato: `NPC_Nome.md`, `MON_Nome.md`).
+Gli stat block completi dei personaggi non vanno inseriti nel corpo dei moduli. Devono risiedere esclusivamente nelle schede dedicate in `characters/markdown/`.
 
-Quando un NPC o mostro compare nel testo di un modulo, riferirsi a lui per **nome** con una breve descrizione inline delle caratteristiche essenziali, seguita dal rimando alla scheda:
+Quando un NPC o mostro compare nel testo di un modulo, riferirsi a lui per nome con una breve descrizione inline delle caratteristiche essenziali, seguita dal rimando alla scheda.
 
-```markdown
-I PG affrontano **Alaric il Giusto** (umano, mago corrotto, CA 15, PF 90 —
-stat block completo: vedi `characters/markdown/NPC_SirAlaric.md`).
-```
-
-Nelle tabelle nemici dei moduli, indicare i dati minimi per il combattimento (nome, n., PF, CA, attacco principale, note) e rimandare alla scheda per il dettaglio:
-
-```markdown
-| nome | n. | PF | CA | attacco | note |
-|------|-----|----|----|---------|------|
-| Alaric il Giusto | 1 | 90 | 15 | vedi scheda | `NPC_SirAlaric.md` |
-```
-
-**Razionale**: i moduli devono essere leggibili e scorrevoli al tavolo. Gli stat block completi interrompono il flusso narrativo e sono difficili da consultare nel mezzo di una descrizione. Tenerli separati permette anche di stamparli come schede singole e di generare stat block grafici (PDF/PNG) con la pipeline FightClub.
+Nelle tabelle nemici dei moduli, indicare i dati minimi per il combattimento (nome, n., PF, CA, attacco principale, note) e rimandare alla scheda per il dettaglio.
 
 ### Contenuto delle schede NPC
 
@@ -93,8 +82,8 @@ Ogni PNG deve avere (indipendentemente dal tipo di scheda):
 - **Tratto distintivo**: un dettaglio fisico o comportamentale memorabile
 
 ### Antagonisti principali
-- Scheda completa con stat block (vedi template)
-- Non devono esistere solo per essere sconfitti — hanno un piano proprio
+- Scheda completa con stat block
+- Non devono esistere solo per essere sconfitti; hanno un piano proprio
 - Documentare il comportamento in combattimento (tattiche, condizioni di fuga/resa)
 
 ### PNG secondari
@@ -103,14 +92,28 @@ Ogni PNG deve avere (indipendentemente dal tipo di scheda):
 
 ---
 
-## Struttura narrativa
+## Difficoltà degli incontri
 
-Ogni avventura deve avere almeno:
-- **Un incontro di combattimento**
-- **Un incontro di esplorazione**
-- **Un incontro di roleplay**
+Ogni modulo con combattimento deve includere la difficoltà calcolata nella sezione nemici.
 
-Prevedere sempre almeno una soluzione alternativa al combattimento per ogni scontro principale.
+### Nota sul sistema CR/XP
+
+Il sistema DMG è oggettivo ma impreciso. Affiancare sempre una nota narrativa se la difficoltà effettiva si discosta da quella calcolata (es. boss progettato per fuggire, incontro evitabile con roleplay).
+
+### Difficoltà sospette
+
+Gli incontri TRIVIAL e DEADLY vanno controllati e giustificati:
+
+- **TRIVIAL**: rischia di essere noioso. Accettabile solo se ha uno scopo narrativo preciso (es. far sentire l'Exhaustion, mostrare la forza del party, introdurre un NPC). Dichiarare il motivo nelle note al master.
+- **DEADLY**: rischia di uccidere i PG. Accettabile solo se c'è una via d'uscita (fuga, resa, intervento NPC) o se la morte è una possibilità accettata dal tavolo. Dichiarare la via d'uscita nelle note al master.
+
+---
+
+## Scalabilità degli incontri
+
+Il numero di PG, il loro livello e la presenza di companion NPC dipendono dall'avventura e dal modulo specifico. La difficoltà va sempre calcolata per il party effettivo dichiarato nel documento principale dell'avventura (sezione "Consigli al master").
+
+Se l'avventura è progettata per un party specifico, documentare come scalare per party diversi.
 
 ---
 
@@ -125,120 +128,29 @@ Prevedere sempre almeno una soluzione alternativa al combattimento per ogni scon
 
 ## Milestone
 
-Le avventure di questo progetto usano il sistema **milestone** per l'avanzamento di livello (non XP). La milestone è un dato strutturale opzionale del modulo — non tutti i moduli ne hanno una.
+Le avventure di questo progetto usano il sistema milestone per l'avanzamento di livello (non XP).
 
 ### Regole
 
-- Una milestone è triggerata da un **evento narrativo specifico** (es. "trovare la lettera di Sergius e consegnarla a Gorim") o dal **completamento di un certo numero di obiettivi** (es. "completati almeno 3 dei 5 obiettivi secondari").
-- Il trigger deve essere un momento **identificabile in gioco**, non generico ("completare il modulo" non è un buon trigger — "sconfiggere il boss" o "consegnare l'artefatto" sì).
-- Una milestone può **non essere conseguita** in una sessione: se i PG non raggiungono il trigger, non avanzano.
+- Una milestone è triggerata da un evento narrativo specifico (es. "trovare la lettera di Sergius e consegnarla a Gorim") o dal completamento di un certo numero di obiettivi.
+- Il trigger deve essere un momento identificabile in gioco, non generico ("completare il modulo" non è un buon trigger; "sconfiggere il boss" o "consegnare l'artefatto" sì).
+- Una milestone può non essere conseguita in una sessione: se i PG non raggiungono il trigger, non avanzano.
 - In una campagna multi-sessione, le milestone scandiscono il ritmo della progressione. Non è necessario che ogni modulo ne abbia una.
 
-### Formato nel modulo
+---
 
-```markdown
-## Milestone
+## Fonte di verità per regole e mostri
 
-**Livello raggiunto:** X
-**Trigger:** [evento o condizione]
-```
-
-Per la posizione e il formato strutturale, vedere `tech/rules/adventure-template.md`.
+Per verificare una regola su mostri, incantesimi, oggetti o meccaniche, la fonte di verità è l'SRD 5.1 in `tech/data/compendium/Sources/SystemReferenceDocument/all-srd.xml`. Se una regola è homebrew (diversa dall'SRD), deve essere specificata esplicitamente nella scheda del mostro/oggetto o in un documento dedicato.
 
 ---
 
-## Testo da leggere ai giocatori
+## Pianificazione vs avventura
 
-Usare blockquote per il testo da leggere ad alta voce:
-
-```markdown
-> Davanti a voi si apre una sala buia. L'aria odora di muffa e pietra bagnata.
-> Al centro, una figura incappucciata vi volta le spalle.
-```
-
----
-
-## Stile di scrittura
-
-### Punteggiatura
-
-Non usare il trattino lungo (—) nel testo delle avventure. Sostituire con virgola, punto, punto e virgola, o riformulare la frase.
-
-### Azioni dei PG
-
-L'avventura non può affermare cosa faranno i PG. Al limite può presumere un comportamento probabile, usando formule condizionali:
-
-| ❌ Non scrivere | ✅ Scrivere |
-|----------------|------------|
-| I PG prendono il registro e lo portano a Vellun. | Se i PG portano il registro a Vellun, lo legge in silenzio. |
-| Dopo il combattimento, il PG sa che deve cercare aiuto. | Dopo il combattimento, è probabile che il PG cerchi un modo per risolvere la situazione. |
-| I PG scendono nella cripta. | Se i PG decidono di scendere nella cripta... |
-
-Il DM adatta la narrazione alle scelte dei giocatori. Il modulo fornisce contenuto e conseguenze, non una sceneggiatura.
-
----
-
-## Distanze e unità di misura
-
-Le distanze vanno espresse in formato triplo: **metri / feet / qd** (quadretti).
-
-| qd | ft | m |
-|----|----|---|
-| 1 | 5ft | 1,5m |
-| 2 | 10ft | 3m |
-| 4 | 20ft | 6m |
-| 6 | 30ft | 9m |
-| 8 | 40ft | 12m |
-| 12 | 60ft | 18m |
-| 24 | 120ft | 36m |
-
-**qd** = quadretto (square) — l'unità base delle battle map D&D (5ft × 5ft / 1,5m × 1,5m).
-
-Esempio: `12m / 40ft / 8qd`
+I dubbi, le domande aperte e le decisioni da prendere vanno nei documenti di pianificazione (PlanBook, meta/), non nel testo dell'avventura. L'avventura contiene solo contenuto giocabile e definitivo.
 
 ---
 
 ## Foreshadowing e agganci futuri
 
-Se l'avventura è parte di una campagna o lascia agganci aperti, documentarli in una sezione dedicata nel documento principale o nel `PlanBook.md`:
-
-```markdown
-## Agganci futuri
-- [elemento] → può essere sviluppato in [avventura futura]
-```
-
----
-
-## Multilingua
-
-Le avventure possono essere tradotte in più lingue. La versione italiana è la **fonte di verità**; le traduzioni sono derivate.
-
-### Disclaimer
-
-Ogni file tradotto in inglese deve iniziare con:
-
-```markdown
-> ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
-```
-
-### Cosa si traduce e cosa no
-
-| Elemento | Tradotto? | Esempio |
-|----------|-----------|---------|
-| Nomi propri (NPC) | **No** | SirGorimVel, Korex, Fin Ditasvelte |
-| Titoli descrittivi | **Sì** | Il Conte → The Count, Teppista Charmato → Charmed Thug |
-| Nomi di mostri | **Sì** — usare nomi ufficiali SRD WotC dove disponibili | Ratto Corrotto → Corrupted Rat |
-| Label stat block | **Sì** — definite in `tech/i18n/<lang>.json` | Punti ferita → Hit Points, Attacchi → Attacks |
-| Distanze | **No** — formato triplo mantenuto in entrambe le lingue | `12m / 40ft / 8qd` |
-| Testo narrativo | **Sì** | Traduzione completa del contenuto |
-
-### File i18n
-
-Le label localizzate per intestazioni di sezione e campi degli stat block sono in:
-
-```
-tech/i18n/it.json
-tech/i18n/en.json
-```
-
-Questi file sono usati dal parser `md-to-fightclub.py` e dagli script di generazione PDF.
+Se l'avventura è parte di una campagna o lascia agganci aperti, documentarli in una sezione dedicata nel documento principale o nel `PlanBook.md`.

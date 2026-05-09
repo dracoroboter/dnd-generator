@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>MON_SciameDiRatti</name>
+        <name>SciameDiRatti</name>
         <size>M</size>
         <type>humanoid (sciame di bestie minuscole)</type>
         <alignment>senza allineamento</alignment>
@@ -14,6 +14,7 @@
         <int>2</int>
         <wis>10</wis>
         <cha>3</cha>
+        <conditionImmune>affascinato, spaventato, paralizzato, pietrificato, prono, trattenuto, stordito</conditionImmune>
         <senses>darkvision 60 ft. 9m / 30ft / 6qd</senses>
         <cr>1/4</cr>
         <trait>

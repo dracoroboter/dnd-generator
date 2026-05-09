@@ -1,4 +1,4 @@
-# MON_SciameDiRatti — servitore
+# MON_SciameDiRatti, servitore
 
 ## Informazioni generali
 
@@ -44,5 +44,5 @@ Nessuna. Agisce per istinto di branco.
 
 ## Note al master
 
-- Resistente alle armi normali — i PG devono usare magia, fuoco o AoE.
+- Resistente alle armi normali: i PG devono usare magia, fuoco o AoE.
 - Sotto metà PF fa solo 1d6 danni. Diventa meno pericoloso ma non smette di attaccare.

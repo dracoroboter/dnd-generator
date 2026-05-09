@@ -1,4 +1,4 @@
-# MON_Specter — entità sigillata
+# MON_Specter, entità sigillata
 
 ## Informazioni generali
 

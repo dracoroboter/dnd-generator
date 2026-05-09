@@ -50,7 +50,7 @@ def parse_md(filepath, lang="it"):
 
     data = {}
     # Nome dal titolo
-    m = re.search(r"^# (?:NPC_)?(.+?)(?:\s*—.*)?$", text, re.MULTILINE)
+    m = re.search(r"^# (?:NPC_|MON_|OBJ_)?(.+?)(?:\s*[,—].*)?$", text, re.MULTILINE)
     data["name"] = m.group(1).strip() if m else os.path.basename(filepath).replace("NPC_", "").replace(".md", "")
 
     # Informazioni generali — use i18n labels
@@ -93,6 +93,10 @@ def parse_md(filepath, lang="it"):
         (r"\*\*(?:Performance)\*\*:\s*(.+)", "performance"),
         (r"\*\*(?:Furtività|Stealth)\*\*:\s*(.+)", "stealth"),
         (r"\*\*(?:Immunità|Immunity)\*\*:\s*(.+)", "immune"),
+        (r"\*\*(?:Vulnerabilità ai danni|Damage Vulnerabilities)\*\*:\s*(.+)", "vulnerable"),
+        (r"\*\*(?:Resistenza ai danni|Damage Resistances)\*\*:\s*(.+)", "resist"),
+        (r"\*\*(?:Immunità ai danni|Damage Immunities)\*\*:\s*(.+)", "immune"),
+        (r"\*\*(?:Immunità alle condizioni|Immunità a condizioni|Condition Immunities)\*\*:\s*(.+)", "conditionImmune"),
     ]:
         m = re.search(pattern, text)
         if m:
@@ -245,12 +249,19 @@ def build_xml(data):
     if skills:
         SubElement(monster, "skill").text = ", ".join(skills)
 
-    # Immunities
+    # Immunities, vulnerabilities, resistances
+    if "vulnerable" in data:
+        SubElement(monster, "vulnerable").text = data["vulnerable"]
+    if "resist" in data:
+        SubElement(monster, "resist").text = data["resist"]
     if "immune" in data:
         immune_text = data["immune"].lower()
         SubElement(monster, "immune").text = immune_text
-        if "veleno" in immune_text or "poison" in immune_text:
-            SubElement(monster, "conditionImmune").text = "poisoned"
+        if "conditionImmune" not in data:
+            if "veleno" in immune_text or "poison" in immune_text:
+                SubElement(monster, "conditionImmune").text = "poisoned"
+    if "conditionImmune" in data:
+        SubElement(monster, "conditionImmune").text = data["conditionImmune"]
 
     # Senses
     if "senses" in data:

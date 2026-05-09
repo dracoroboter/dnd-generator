@@ -49,6 +49,8 @@
 ## Da fare
 
 - [ ] Generare stat block per guardia posseduta (Piano B cliffhanger)
+- [ ] **Stat block Jason Accordion troppo lungo**: il PNG generato non sta in una pagina. Bisogna trovare un modo per farlo stare (split in due pagine? ridurre il contenuto dello stat block? formato diverso per NPC con meccaniche complesse?)
+- [ ] **Meccanica Presa non visibile nel modulo 3**: il modulo dice "Presa +1" ma non spiega cosa significa. Serve un rimando chiaro all'appendice o una tabella riassuntiva nel modulo stesso.
 - [ ] Definire cliffhanger alternativo Piano B per la saga (dopo la guardia, l'anello resta — e poi?)
 - [ ] Punti aperti saga: dove è lo scheletro di Jason, chi è il mago/ordine, soglia possessione permanente
 - [ ] Rileggere il PDF generato (releases/FuoriDaHellfire/FuoriDaHellfire_20260425.pdf) e verificare impaginazione
@@ -65,6 +67,27 @@
 - Modulo 03 La Cripta sotto la Taverna (draft completo)
 - Immagini NPC generate (Korex, Udo, Fin, Jason)
 - Gemidesc per tutti gli NPC
+
+### 2026-05-09 (sessione giocata)
+
+**Giocato:** Modulo 3, La Cripta sotto la Taverna.
+
+**Cosa è successo:**
+- Il portatore dell'anello (paladino) non ha dormito. Insight CD 10 passato: ha visto l'inseguimento di Jason. Religione CD 22 passata: "l'imprigionato ti imprigiona".
+- Combattimento ratti in cantina (Swarm of Rats), triviale.
+- I PG hanno chiesto aiuto a Udo, che li ha indirizzati a Vellun a Hawksbridge.
+- Vellun ha eseguito il rituale del sonno: tiro 1d6+1 = 4 giorni di sonno protetto.
+- Esplorazione della cripta: corridoio, trappola, scheletri (guardie della tomba), cucina con Chef Morticcio, biblioteca con il registro.
+- Aperto il cofanetto nella stanza 6: spoglie di Aldric Sr. + il suo spettro.
+- Aldric Sr. convinto a parlare (Aldric Jr. presente).
+- **Cliffhanger:** Aldric Sr. sta per rivelare dove è sepolto Jason.
+
+**Decisioni prese al tavolo:**
+- Korex è morto (ucciso nel modulo 2).
+- Il paladino è il portatore dell'anello (Piano A attivo).
+- Fin presente (party di 3 PG).
+
+**Modifiche all'avventura derivate:** vedi `meta/post-sessione-2026-05-09.md`
 
 ---
 

@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
+        <name>MON_Baboon</name>
+        <size>S</size>
+        <type>beast</type>
+        <alignment>non allineato</alignment>
+        <ac>12</ac>
+        <hp>3 (1d6)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>4</int>
+        <wis>12</wis>
+        <cha>6</cha>
+        <senses>Percezione passiva 11</senses>
+        <languages>—</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>Il babbuino ha vantaggio ai tiri per colpire contro una creatura se almeno un alleato del babbuino si trova entro 5 ft. dalla creatura e l'alleato non è incapacitato.</text>
+        </trait>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +1, mischia 5ft Danni: 1d4-1 perforanti</text>
+            <attack>Morso (mischia)|+1|1d4-1</attack>
+        </action>
+        <description>Scimmie urlanti e aggressive, intrappolate nelle casse del Magazzino 4. Quando la cassa si apre escono in coppia, terrorizzate e furiose. Lanciano oggetti, rubano cose dalle mani dei PG, e creano caos generale.
+Role: animale esotico fuggito dalle casse</description>
+    </monster>
+    <monster>
+        <name>MON_GiantWolfSpider</name>
+        <size>M</size>
+        <type>beast</type>
+        <alignment>non allineato</alignment>
+        <ac>13</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>40 ft.</speed>
+        <str>12</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>3</int>
+        <wis>12</wis>
+        <cha>4</cha>
+        <senses>Vista cieca 10 ft., Scurovisione 60 ft., Percezione passiva 13</senses>
+        <languages>—</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Spider Climb</name>
+            <text>Il ragno può arrampicarsi su superfici difficili, incluso a testa in giù sui soffitti, senza bisogno di una prova di caratteristica.</text>
+        </trait>
+        <trait>
+            <name>Web Sense</name>
+            <text>Mentre è a contatto con una ragnatela, il ragno conosce la posizione esatta di qualsiasi altra creatura a contatto con la stessa ragnatela.</text>
+        </trait>
+        <trait>
+            <name>Web Walker</name>
+            <text>Il ragno ignora le restrizioni di movimento causate dalle ragnatele.</text>
+        </trait>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +3, mischia 5ft Danni: 1d6+1 perforanti + 2d6 veleno (COS CD 11, dimezza)</text>
+            <attack>Morso (mischia)|+3|1d6+1</attack>
+        </action>
+        <description>Un ragno grande come un cane, peloso, con otto occhi neri e mandibole gocciolanti. Cala dalle travi del soffitto quando la sua cassa si rompe. Si muove veloce tra le casse e le pareti.
+Role: animale esotico fuggito dalle casse</description>
+    </monster>
+    <monster>
+        <name>MON_PoisonousSnake</name>
+        <size>T</size>
+        <type>beast</type>
+        <alignment>non allineato</alignment>
+        <ac>13</ac>
+        <hp>2 (1d4)</hp>
+        <speed>30 ft.</speed>
+        <str>2</str>
+        <dex>16</dex>
+        <con>11</con>
+        <int>1</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <senses>Vista cieca 10 ft., Percezione passiva 10</senses>
+        <languages>—</languages>
+        <cr>1/8</cr>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +5, mischia 5ft Danni: 1 perforante + 2d4 veleno (COS CD 10, dimezza)</text>
+            <attack>Morso (mischia)|+5|2d4</attack>
+        </action>
+        <description>Serpenti sottili e veloci, color verde scuro con striature gialle. Scivolano fuori dalle casse rotte e si nascondono tra i barili e le reti. Mordono chi si avvicina troppo.
+Role: animale esotico fuggito dalle casse</description>
+    </monster>
+    <monster>
         <name>MON_Rhinoceros</name>
         <size>L</size>
         <type>beast</type>
@@ -60,6 +151,35 @@ Role: animale esotico intrappolato nel magazzino</description>
 Role: scagnozzo di Er Braccio</description>
     </monster>
     <monster>
+        <name>Contessina</name>
+        <size>M</size>
+        <type>humanoid (umana)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>15 (corazza di maglia)</ac>
+        <hp>9 (2d8)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>11</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <senses>Percezione passiva 12</senses>
+        <languages>Common</languages>
+        <cr>1/8</cr>
+        <trait>
+            <name>Parry</name>
+            <text>La Contessina aggiunge 2 alla sua CA contro un attacco in mischia che la colpirebbe. Per farlo, deve vedere l'attaccante e impugnare un'arma da mischia.</text>
+        </trait>
+        <action>
+            <name>Rapier (mischia)</name>
+            <text>Attacco: +3, mischia 5ft Danni: 1d8+1 perforanti</text>
+            <attack>Rapier (mischia)|+3|1d8+1</attack>
+        </action>
+        <description>Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma senza gusto — troppi gioielli, troppi colori. Parla con accento marcato e gesticola molto. Tiene su il castello di Aviano mentre il Conte è &quot;in viaggio&quot; (cioè sempre). Sa del ricatto ma la sua preoccupazione principale è la propria reputazione, non il marito.
+Role: nobildonna, moglie del Conte di Fianus</description>
+    </monster>
+    <monster>
         <name>Domina Lella</name>
         <size>M</size>
         <type>humanoid (humanoid)</type>
@@ -114,6 +234,31 @@ Role: scagnozzo di Er Braccio</description>
 Diretto, sboccato, pragmatico. Non è malvagio — è un uomo d'affari del porto che opera fuori dalla legge. Contrabbando, ricettazione, qualche estorsione leggera. Niente omicidi, niente schiavismo. Ha un codice, anche se non lo chiamerebbe così.
 Arimano gli ha commissionato il trasporto di merci via mare. Er Braccio ha consegnato, Arimano non ha pagato abbastanza. Er Braccio ha trattenuto la merce. Semplice. Non c'è rancore — solo contabilità.
 Role: capo banda a Vetusta Portus, fornitore di Sergius/Marchese Arimano</description>
+    </monster>
+    <monster>
+        <name>Flavia</name>
+        <size>M</size>
+        <type>humanoid (umana)</type>
+        <alignment>neutral</alignment>
+        <ac>10</ac>
+        <hp>4 (1d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>12</dex>
+        <con>10</con>
+        <int>11</int>
+        <wis>12</wis>
+        <cha>13</cha>
+        <senses>Percezione passiva 11</senses>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <action>
+            <name>Coltellino (mischia)</name>
+            <text>Attacco: +2, mischia 5ft Danni: 1d4 perforanti</text>
+            <attack>Coltellino (mischia)|+2|1d4</attack>
+        </action>
+        <description>Donna magra, occhi rapidi, capelli neri raccolti sotto un fazzoletto colorato. Si muove tra i mercati di Fianus e Vetusta Portus vendendo erbe, unguenti e rimedi popolari. La chiamano &quot;La Biscia&quot; per come sguscia via quando le cose si mettono male. Prima della Gabella vendeva anche le pozioni rinvigorenti &quot;La Rocca Imponente&quot; — le comprava da un intermediario anonimo al porto.
+Role: ex-venditrice di pozioni rinvigorenti</description>
     </monster>
     <monster>
         <name>IlConte</name>

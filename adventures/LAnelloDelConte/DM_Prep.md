@@ -114,7 +114,7 @@ L'incontro è **opzionale** — avviene solo se i PG individuano Sergius. Sergiu
 | 1 | Magazzino 4, Vetusta Portus | Combattimento | 1× Er Braccio (Bandit Captain CR 2) + 4× Bandit (CR 1/8) | Hard (4 PG lv2) |
 | 2 | Magazzino 4 (fase 2) | Caos ambientale | 1× Rinoceronte (CR 2) + animali vari (scimmie, serpenti, ragni) | — |
 
-Il combattimento è un unico scontro caotico in due fasi. Il rinoceronte si libera durante il combattimento con i banditi.
+Il combattimento è un unico scontro caotico in due fasi. Il rinoceronte attacca la cassa dall'interno (CA 15, PF 18, soglia 5) a partire dal round 2 — sfonda tipicamente in 2-3 round.
 
 **Nota: Er Braccio probabilmente scappa nel caos. Serve come sospetto nelle puntate successive.**
 

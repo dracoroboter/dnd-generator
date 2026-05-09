@@ -1,4 +1,4 @@
-# Puntata 3 — La Cripta sotto la Taverna
+# Puntata 3: La Cripta sotto la Taverna
 
 ## Descrizione
 
@@ -11,7 +11,7 @@ La mattina dopo la cattura di Korex. Il PG portatore dell'anello non ha dormito:
 
 ---
 
-## Cheat Sheet — L'Ordine della Chiave Spezzata
+## Cheat Sheet: L'Ordine della Chiave Spezzata
 
 ### Cos'è
 
@@ -31,6 +31,8 @@ Una chiave spezzata in due metà. L'ouroboros musicale nell'anello di Jason è i
 
 ### Collegamento con Jason
 
+Jason Accordion era un bardo di talento mediocre che voleva fama e potere. Attraverso un rituale necromantico amplificò le sue capacità di manipolazione fino a diventare irresistibile. Uno dei suoi burattini si accorse dell'inganno e, con l'aiuto di un mago dell'Ordine della Chiave Spezzata, imprigionò l'anima di Jason nell'Anello del Virtuoso. L'anello è passato di portatore in portatore per secoli, fino a Korex, e ora al PG.
+
 L'Ordine lo ha imprigionato secoli fa. Per liberarsene definitivamente servono:
 
 1. Lo scheletro di Jason (localizzazione persa)
@@ -39,7 +41,7 @@ L'Ordine lo ha imprigionato secoli fa. Per liberarsene definitivamente servono:
 
 ---
 
-## Prologo — Greyhawkins, la mattina dopo
+## Prologo: Greyhawkins, la mattina dopo
 
 ### La notte insonne
 
@@ -57,11 +59,13 @@ L'Ordine lo ha imprigionato secoli fa. Per liberarsene definitivamente servono:
 
 Il PG portatore ha **1 livello di Exhaustion** (svantaggio a tutte le prove di abilità). Non ha ottenuto beneficio dal riposo lungo. Questo è immediato e non negoziabile: l'anello lo ha tenuto sveglio.
 
-Jason è in fase seduzione: gentile, dispiaciuto, non minaccioso. Mente.
+**Il sogno:** se il portatore vuole capire cosa ha sognato, Insight CD 10. Se passa: ha visto persone che inseguono qualcuno, dal punto di vista dell'inseguito. L'inseguito grida "non mi avrete". È Jason, ma il PG non lo sa ancora. Se il PG è un paladino e fa Religione CD 22: il suo dio gli rivela "l'imprigionato ti imprigiona".
+
+Jason è in fase seduzione: gentile, dispiaciuto, non minaccioso. Mente. Il "Libero!" esultante del cliffhanger era la reazione istintiva. In poche ore Jason ha capito che spaventare il portatore è controproducente: se il PG resiste attivamente, la possessione rallenta. Strategia nuova: gentilezza, empatia, farsi percepire come vittima.
 
 ---
 
-### Il Pint Ahoy — combattimento facile
+### Il Pint Ahoy: combattimento facile
 
 ### 📖 Da leggere ai giocatori
 
@@ -73,15 +77,19 @@ Jason è in fase seduzione: gentile, dispiaciuto, non minaccioso. Mente.
 
 ### 🎲 Note per il DM
 
-Nella cantina: **3 Ratti Corrotti** (Giant Rat, CR 1/8), residui delle fogne attirati in superficie dopo che il nido di Korex è stato distrutto. Sono confusi e aggressivi.
+**Barney Mezzapinta**: halfling, barista del Pint Ahoy (la taverna di Greyhawkins dove alloggiano i PG). Sostituisce i due proprietari.
 
-**Difficoltà**: EASY (triviale per lv4). Il PG con Exhaustion sente la differenza: svantaggio alle prove, si sente debole. Il punto non è il pericolo, è l'umiliazione.
+Nella cantina: **1 Sciame di Ratti** (Swarm of Rats, CR 1/4). Confuso e aggressivo.
 
-| Nome      | N.  | PF  | CA  | Attacco              | Note         |
-| --------- | --- | --- | --- | -------------------- | ------------ |
-| Giant Rat | 3   | 7   | 12  | +4, 1d4+2 perforanti | Pack Tactics |
+**Difficoltà**: TRIVIAL (per 5 combattenti lv4). Il punto non è il pericolo, è l'umiliazione.
+
+| Nome            | N.  | PF  | CA  | Attacco              | Note                          |
+| --------------- | --- | --- | --- | -------------------- | ----------------------------- |
+| Swarm of Rats   | 1   | 24  | 10  | +2, 2d6 perforanti   | Resistente ad armi normali    |
 
 Dopo il combattimento, è probabile che il PG portatore cerchi un modo per risolvere la situazione. L'anello non si toglie e non riesce a dormire.
+
+**Scalabilità:** Fin non compare in questo modulo se il party ha 4 o più PG. In quel caso i PG arrivano a Vellun da soli o con Udo.
 
 ---
 
@@ -104,11 +112,11 @@ Se il PG accetta:
 - Jason prende il controllo per **1 minuto**. Dice poche parole ("Aria. Luce. Bene.Libero!"), guarda intorno, poi esce.
 - Il PG può dormire normalmente quella notte. Exhaustion rimossa.
 - Per i prossimi giorni, nessun effetto negativo. Jason mantiene la promessa, per ora.
-- **Presa +1.**
+- **Presa +1** (il portatore ha ceduto volontariamente il controllo).
 
-Se il PG rifiuta: resta con Exhaustion fino a trovare un'altra soluzione (il mago).
+Se il PG rifiuta: resta con Exhaustion fino a trovare un'altra soluzione (Vellun).
 
-### 🎲 Note per il DM — Il controllo di Jason
+### 🎲 Note per il DM: Il controllo di Jason
 
 Quando Jason ha il controllo, il **DM controlla il personaggio**. All'inizio è innocuo (1 minuto, poche parole). Con il tempo:
 
@@ -123,22 +131,24 @@ Quando Jason ha il controllo, il **DM controlla il personaggio**. All'inizio è 
 
 ---
 
-## Il mago — viaggio a Hawksbridge
+## Il mago: viaggio a Hawksbridge
+
+Tutti a Hawksbridge pensano che Vellun sia un mago. Non lo è.
 
 ### Come ci arrivano
 
-Qualcuno suggerisce un esperto di maledizioni. Opzioni:
+Se i PG chiedono aiuto a Udo, oppure se citano il fatto che l'anello è maledetto, qualcuno suggerisce un esperto:
 
-- **Udo** conosce un tipo a Hawksbridge: *"C'è un vecchio matto sulla collina. Dice di sapere tutto sugli oggetti maledetti. Non so se è bravo o pazzo, ma è l'unico che conosco."*
+- **Udo**: *"C'è un vecchio matto nella torre Vellun. Dice di sapere tutto sugli oggetti maledetti. Non so se è bravo o pazzo, ma è l'unico che conosco."*
 - **Fin** ha sentito parlare di lui: *"Vellun? Sì, il vecchio della torre. Dicono che compra roba strana al mercato. Ossa, sale, candele nere."*
 
-**Hawksbridge** è a un giorno di cammino da Greyhawkins. Città mercantile di medie dimensioni attraversata da un fiume, ponte di pietra al centro, quartieri ordinati. Il tipo di posto dove "non succede mai niente".
+**Hawksbridge** è a qualche ora di cammino da Greyhawkins (tre camminando, due a buon passo). Città mercantile di medie dimensioni attraversata da un fiume, ponte di pietra al centro, quartieri ordinati. Il tipo di posto dove "non succede mai niente".
 
-### Aldric Vellun — il mago
+### Aldric Vellun, lo studioso
 
-Pro-pro-pro-pronipote del Magister Aldric Vellun originale. Vive in una torre bassa alla periferia di Hawksbridge. Settantenne, barba grigia disordinata, occhi vivaci. Circondato da libri, barattoli, e un gatto che lo ignora.
+Discendente del Magister Aldric Vellun originale. Vive in una torre bassa alla periferia di Hawksbridge. Settantenne, barba grigia disordinata, occhi vivaci. Circondato da libri, barattoli, e un gatto che lo ignora.
 
-Non è potente, è un accademico. Sa cose, non lancia palle di fuoco.
+Non è potente, è un accademico. Sa cose, non lancia palle di fuoco. Grazie ai suoi studi generici riesce a compiere rituali con grandi sforzi (ci deve studiare ore), ma non è un mago.
 
 ### 📖 Da leggere ai giocatori
 
@@ -150,24 +160,26 @@ Non è potente, è un accademico. Sa cose, non lancia palle di fuoco.
 > 
 > *"Ah. Quello."*
 
-### 🎲 Note per il DM — cosa sa Vellun
+### 🎲 Note per il DM: cosa sa Vellun
 
 Vellun riconosce l'anello. Non l'ha mai visto, ma conosce il simbolo (ouroboros musicale) dai libri del suo antenato. Sa:
 
 - È un sigillo dell'Ordine della Chiave Spezzata
 - Contiene un'entità pericolosa (non sa il nome "Jason")
 - Il suo antenato era il custode di questo sigillo specifico
-- Per rimuoverlo serve il rituale originale, che è nel **registro dei sigilli** del Terzo Archivio
+- Per capire come rimuoverlo serve il **registro dei sigilli** del Terzo Archivio (contiene i dettagli su cosa c'è nell'anello)
 
 Non sa:
 
 - Dove sia lo scheletro di Jason
-- I dettagli del rituale (sono nel registro)
+- Come disfarsi dell'anello (dovrà studiare il registro per giorni dopo averlo ottenuto)
 - Come funziona la possessione (solo teoria)
 
 ### Cosa offre Vellun
 
-> *"Posso farti dormire stanotte. Un rituale semplice; ti costa niente, a me costa componenti che non ricrescono sugli alberi. Ma è una toppa, non una soluzione."*
+Vellun non offre nulla finché non sa qual è il problema. I PG devono spiegargli dell'anello. Quando vede l'anello e capisce la situazione:
+
+> *"Posso farti dormire stanotte. Un rituale semplice; mi servono alcune componenti che riesco a recuperare in qualche ora. Ma è una toppa, non una soluzione."*
 > 
 > Pausa.
 > 
@@ -175,21 +187,21 @@ Non sa:
 > 
 > *"Portatemi il registro. Io vi do il sonno e, se il registro contiene quello che spero, il modo per togliervi quella cosa dal dito."*
 
-**Il patto:** Vellun rimuove l'Exhaustion con un rituale (una notte di sonno protetto). In cambio i PG scendono nella cripta e recuperano il registro dei sigilli.
+**Il patto:** Vellun rimuove l'Exhaustion con un rituale (non un incantesimo standard, è una procedura da accademico). Il portatore potrà dormire tranquillamente per **1d6+1 giorni**. In cambio i PG scendono nella cripta e recuperano il registro dei sigilli.
 
 ---
 
 ## La Cripta
 
-Sotto Hawksbridge. L'ingresso è in una cantina abbandonata nel quartiere vecchio. Vellun li guida fino alla porta murata, poi aspetta fuori.
+L'ingresso alla cripta non è nella torre di Vellun. È in un palazzo storico in un'altra parte di Hawksbridge, vicino alla torre. Vellun ha il compito di mantenere in buono stato quell'edificio. Li guida fino all'atrio del palazzo, poi indica il muro in fondo.
 
-### Stanza 1 — La discesa
+### Stanza 1: La discesa
 
 ### 📖 Da leggere ai giocatori
 
-> Vellun indica un muro di mattoni in fondo alla cantina. *"Dietro lì. Sfondatelo, non è spesso."*
+> Vellun indica un muro di mattoni in fondo all'atrio. *"Dietro lì. Sfondatelo, non è spesso."*
 > 
-> Tre colpi di mazza e il muro cede. Dietro, scalini di pietra che scendono nel buio. L'aria cambia: umida, fredda, con un odore di muffa e qualcosa di dolciastro. Spezie?
+> Quando il muro cede, dietro ci sono scalini di pietra che scendono nel buio. L'aria cambia: umida, fredda, con un odore di muffa e qualcosa di dolciastro. Spezie?
 > 
 > Sul muro, all'ingresso, un bassorilievo consumato dal tempo: una chiave spezzata in due metà.
 
@@ -197,11 +209,11 @@ Sotto Hawksbridge. L'ingresso è in una cantina abbandonata nel quartiere vecchi
 
 Il simbolo della Chiave Spezzata. Se il PG portatore lo guarda, Jason tace per la prima volta. Silenzio totale. Se il PG chiede a Jason: nessuna risposta. Insolito e inquietante.
 
-Percezione CD 14: impronte sul pavimento polveroso, piedi scalzi, trascinati. Vanno verso il fondo del corridoio.
+**Il muro:** PF 10, CA 15. È antico e mal fatto, si sfonda facilmente.
 
 ---
 
-### Stanza 2 — Il corridoio delle nicchie
+### Stanza 2: Il corridoio delle nicchie
 
 ### 📖 Da leggere ai giocatori
 
@@ -209,15 +221,15 @@ Percezione CD 14: impronte sul pavimento polveroso, piedi scalzi, trascinati. Va
 
 ### 🎲 Note per il DM
 
-4 nicchie vuote (gli scheletri sono nella stanza 3). Nessun combattimento qui.
+4 nicchie sono vuote (gli scheletri sono nella stanza 3). A discrezione del DM i PG possono notarlo subito o con un tiro di Percezione/Investigazione. Nessun combattimento qui.
 
-**Trappola**: a metà corridoio, lastra a pressione (Percezione CD 13 per notarla, Investigazione CD 12 per capire il meccanismo). Se attivata: dardo dalla parete, +5 al colpire, 1d4+2 perforanti + CD 11 COS o avvelenato per 1 minuto.
+**Trappola**: al 7° quadretto del corridoio (lungo 13 qd totali), lastra a pressione (Percezione CD 13 per notarla, Investigazione CD 12 per capire il meccanismo). Se attivata: dardo dalla parete, TS Destrezza CD 15 per evitarlo. Se fallito: 1d4+2 perforanti + CD 11 COS o avvelenato per 1 minuto.
 
 Sulla parete opposta alla trappola, un'iscrizione in Comune Antico (Arcano CD 10 o Storia CD 12 per leggere): *"Qui riposano i custodi del Terzo Archivio. Che la chiave resti spezzata."*
 
 ---
 
-### Stanza 3 — La sala comune
+### Stanza 3: La sala comune
 
 ### 📖 Da leggere ai giocatori
 
@@ -227,25 +239,26 @@ Sulla parete opposta alla trappola, un'iscrizione in Comune Antico (Arcano CD 10
 
 ### 🎲 Note per il DM
 
-**4 Scheletri** (MM p. 272, CR 1/4). Si animano se:
+**6 Scheletri** (MM p. 272, CR 1/4) + **1 Ghast** (MM p. 148, CR 2) al centro. Il Ghast era il capo delle guardie di Aldric Sr. in vita. Tre scheletri a sinistra, tre a destra, il Ghast al centro. Sono le guardie della tomba di Aldric Sr. (stanza 6). Si animano se:
 
-- Qualcuno tocca il tavolo
-- Qualcuno prende qualcosa dalla stanza
-- Qualcuno si avvicina entro 5 ft.
+- Qualcuno si avvicina entro 3 qd / 4,5m / 15ft
 
-Non inseguono oltre la stanza. Combattono in silenzio.
+Finché nessuno si avvicina, restano seduti e "brindano" in silenzio con i boccali vuoti. Non rispondono a nulla.
 
-**Difficoltà**: EASY (4 PG lv4 + Udo + Fin)
+Gli scheletri si animano subito. Il Ghast (al centro, più grande, con brandelli di armatura) si anima al round 2. Non inseguono oltre la stanza. Combattono in silenzio.
+
+**Difficoltà**: HARD (3 PG lv4 + Udo + Fin)
 
 | Nome     | N.  | PF  | CA                     | Attacco               | Note                      |
 | -------- | --- | --- | ---------------------- | --------------------- | ------------------------- |
-| Skeleton | 4   | 13  | 13 (armatura naturale) | +4, 1d6+2 spada corta | Vulnerabile a contundenti |
+| Skeleton | 6   | 13  | 13 (armatura naturale) | +4, 1d6+2 spada corta | Vulnerabile a contundenti, immune a veleno |
+| Ghast    | 1   | 36  | 13                     | +5, 2d8+3 morso / +3, 2d6+3 artigli + CD 10 COS paralisi | Resistente a necrotici, immune a veleno. Aura fetore (CD 10 COS o avvelenato), round 2 |
 
-**Loot**: sotto il tavolo, una borsa di cuoio marcio con 12 ma e una chiave di ferro arrugginita (apre la stanza 6).
+**Loot**: sotto il tavolo, una chiave di ferro arrugginita (apre la stanza 6).
 
 ---
 
-### Stanza 4 — La cucina di Chef Morticcio
+### Stanza 4: La cucina di Chef Morticcio
 
 ### 📖 Da leggere ai giocatori
 
@@ -259,7 +272,7 @@ Non inseguono oltre la stanza. Combattono in silenzio.
 
 ### 🎲 Note per il DM
 
-**Chef Morticcio** — Ghoul (MM p. 148, CR 1). NON è ostile di default. In vita era il cuoco del rifugio dell'Ordine. Si è risvegliato quando il muro è stato sfondato. Ha fame costante ma preferisce cucinare che cacciare.
+**Chef Morticcio**, Ghoul (MM p. 148, CR 1). NON è ostile di default. In vita era il cuoco del rifugio dell'Ordine. Ha fame costante ma preferisce cucinare che cacciare.
 
 | Nome                   | PF  | CA  | Attacco                                     | Note                      |
 | ---------------------- | --- | --- | ------------------------------------------- | ------------------------- |
@@ -279,19 +292,19 @@ Non inseguono oltre la stanza. Combattono in silenzio.
 
 ---
 
-### Stanza 5 — La biblioteca
+### Stanza 5: La biblioteca
 
 ### 📖 Da leggere ai giocatori
 
 > Una stanza piccola, scaffali di legno marcio lungo tre pareti. La maggior parte dei libri è polvere. Pergamene sbriciolate, inchiostro svanito. Secoli di umidità hanno distrutto quasi tutto.
 > 
-> Ma su un leggio di pietra al centro, protetta da una lastra di vetro (incrinata ma intatta), c'è una pergamena ancora leggibile.
+> Ma su un leggio di pietra al centro, c'è un libro con una custodia in pelle. Sulla custodia, impresso a fuoco, il simbolo della chiave spezzata.
 
 ### 🎲 Note per il DM
 
-La pergamena è protetta da un incantesimo di conservazione (ormai debole). Il testo:
+Il libro è protetto da un incantesimo di conservazione (ormai debole). Sulla prima pagina:
 
-> *"Archivio Terzo — Registro dei Sigilli*
+> *"Archivio Terzo. Registro dei Sigilli*
 > *Custode: Magister Aldric Vellun*
 > *Sede: Torre di Ashwick, costa nord*
 > *Sigilli attivi: 7*
@@ -299,11 +312,11 @@ La pergamena è protetta da un incantesimo di conservazione (ormai debole). Il t
 
 Sotto, una lista di sette righe. Sei sono illeggibili. Una è ancora visibile:
 
-> *"Sigillo #4 — Jason A. — Anello (argento/ouroboros) — Pericolosità: ALTA — Custode chiave: Vellun"*
+> *"Sigillo #4 / Jason A. / Anello (argento/ouroboros) / Pericolosità: ALTA / Custode chiave: Vellun"*
 
 **Questo è il registro che Vellun vuole.**
 
-### Collegamento anello — IMPORTANTE
+### Collegamento anello (IMPORTANTE)
 
 Quando il PG portatore entra in questa stanza, Jason reagisce. **Panico.**
 
@@ -311,47 +324,53 @@ Quando il PG portatore entra in questa stanza, Jason reagisce. **Panico.**
 > 
 > *"Via. Andiamo via. Non c'è niente qui. Niente di utile. Andiamo."*
 
-Se il PG ignora Jason e legge la pergamena:
+Se il PG ignora Jason e legge il registro:
 
 > Un flash. Per un istante vedete, no, *sentite*, una stanza buia, catene, voci che cantano in una lingua che non conoscete. Dolore. Rabbia. Terrore. Poi niente.
 > 
 > Jason non parla più. Per il resto della sessione, silenzio.
 
-**Presa +1.** Il flashback è involontario: Jason ha perso il controllo per un istante.
-
 ---
 
-### Stanza 6 — La cella sigillata (opzionale)
+### Stanza 6: La cella sigillata (opzionale)
 
 ### 🎲 Note per il DM
 
 Porta di ferro con il simbolo della Chiave Spezzata. Chiusa a chiave (la chiave è nella stanza 3). Anche con la chiave, la porta richiede Forza CD 15 (cardini arrugginiti).
 
+Questa è la tomba di **Aldric Vellun Senior**, il Magister fondatore dell'Ordine della Chiave Spezzata. Le guardie scheletro nella stanza 3 proteggevano questo luogo.
+
 ### 📖 Da leggere ai giocatori (se aprono)
 
-> La porta si apre con un gemito metallico. Dentro: una stanza minuscola, 3 metri per 3. Al centro, su un piedistallo di pietra, un cofanetto di piombo sigillato con ceralacca nera. Il simbolo della chiave spezzata è impresso nella ceralacca.
+> La porta si apre con un gemito metallico. Dentro: una stanza minuscola, 3×3m / 10×10ft / 2×2qd. Al centro, su un piedistallo di pietra, un cofanetto di piombo sigillato con ceralacca nera. Il simbolo della chiave spezzata è impresso nella ceralacca.
 > 
 > L'aria è gelida. Innaturalmente gelida. Sentite qualcosa premere contro la vostra mente. Non una voce, non un pensiero. Una *presenza*. Che vi guarda.
 
-Se i PG aprono il cofanetto: uno **Specter** (CR 1) si libera e attacca.
+### 🎲 Contenuto del cofanetto
+
+Ceneri e ossa: le spoglie di Aldric Senior. Se il cofanetto viene aperto, lo **spettro di Aldric Sr.** (Specter, CR 1) si manifesta.
+
+A differenza di uno Specter generico, Aldric Sr. non attacca immediatamente. È diffidente ma non ostile. Può essere convinto a parlare, soprattutto se è presente Aldric Jr. (il nipote studioso).
+
+**Se i PG parlano:** Aldric Sr. sa dove è sepolto Jason Accordion. Può rivelare la localizzazione della tomba (gancio per i moduli successivi). Serve convincerlo: Persuasione CD 14, oppure CD 10 se Aldric Jr. è presente e parla per i PG.
+
+**Se i PG attaccano:** combattimento come Specter standard.
 
 | Nome    | PF  | CA  | Attacco                        | Note                                     |
 | ------- | --- | --- | ------------------------------ | ---------------------------------------- |
 | Specter | 22  | 12  | +4, 3d6 necrotici (Life Drain) | Resistente a non-magici, immune a veleno |
 
-Se NON aprono: meglio. Il cofanetto resta, potenziale gancio futuro.
-
-Se il PG portatore si avvicina, Jason torna a parlare: *"Non aprirlo. Fidati."* È sincero: non vuole competizione.
+Se il PG portatore si avvicina, Jason torna a parlare: *"Non aprirlo. Fidati."* È sincero: non vuole che i PG trovino chi sa dove sono le sue ossa.
 
 ---
 
-## Chiusura — Ritorno da Vellun
+## Chiusura: Ritorno da Vellun
 
 Se i PG portano il registro a Vellun, lo legge in silenzio.
 
 ### 📖 Da leggere ai giocatori
 
-> Vellun legge la pergamena. La rilegge. Si siede. Il gatto gli salta in grembo e lui non lo nota.
+> Vellun legge il registro. Lo rilegge. Si siede. Il gatto gli salta in grembo e lui non lo nota.
 > 
 > *"Jason Accordion. Sigillo numero quattro. Pericolosità alta."* Pausa. *"Il mio antenato lo ha sigillato. E io... io ho il rituale. Da qualche parte. Nei suoi appunti. Ma non è semplice."*
 > 
@@ -365,17 +384,16 @@ Se i PG portano il registro a Vellun, lo legge in silenzio.
 
 Vellun è sincero. Ha bisogno di tempo per ricostruire il rituale (settimane). Nel frattempo i PG possono cercare lo scheletro di Jason, quest per i moduli successivi.
 
-Vellun può ripetere il rituale del sonno se i PG tornano, ma ogni volta costa componenti rare (50 mo in materiali). Non è una soluzione permanente.
+Vellun può ripetere il rituale del sonno se i PG tornano (1d6+1 giorni di protezione ogni volta). Il costo in componenti cresce esponenzialmente: la prima volta 3 mo, la seconda 30 mo, la terza 300 mo. Vellun se ne accorge solo alla seconda volta. Non è una soluzione permanente.
 
 ---
 
 ## Ricompense
 
-- **Oro:** 12 ma dalla borsa nella stanza 3
 - **Oggetti:** chiave di ferro, barattoli di spezie antiche (2 mo per un alchimista)
 - **Informazioni:** l'Ordine della Chiave Spezzata, il nome "Jason Accordion", la Torre di Ashwick, il rituale esiste
 - **Contatti:** Aldric Vellun (mago, alleato per la saga), Chef Morticcio (se vivo)
-- **Anello:** presa +1, Jason spaventato e silenzioso per qualche giorno
+- **Anello:** Jason spaventato e silenzioso per qualche giorno
 
 ## Milestone
 
@@ -385,12 +403,12 @@ Nessun level-up. I PG restano lv4.
 
 ## Nemici
 
-| Stanza  | Nemici                 | N.  | CR  | Difficoltà (5 PG lv4) |
-| ------- | ---------------------- | --- | --- | --------------------- |
-| Prologo | Giant Rat              | 3   | 1/8 | TRIVIAL               |
-| 3       | Skeleton               | 4   | 1/4 | EASY                  |
-| 4       | Chef Morticcio (Ghoul) | 1   | 1   | EASY (evitabile)      |
-| 6       | Specter                | 1   | 1   | MEDIUM (opzionale)    |
+| Stanza  | Nemici                 | N.  | CR  | Difficoltà (3 PG lv4 + Udo + Fin) |
+| ------- | ---------------------- | --- | --- | ---------------------------------- |
+| Prologo | Swarm of Rats          | 1   | 1/4 | TRIVIAL                            |
+| 3       | Skeleton + Ghast       | 6+1 | 1/4 + 2 | HARD                           |
+| 4       | Chef Morticcio (Ghoul) | 1   | 1   | TRIVIAL (evitabile)                |
+| 6       | Specter                | 1   | 1   | TRIVIAL (opzionale)                |
 
 ---
 
@@ -403,11 +421,3 @@ Nessun level-up. I PG restano lv4.
 - La stanza 5 è il momento serio: Jason in panico è la prima volta che i PG lo vedono vulnerabile.
 - Se il PG ha accettato il patto con Jason (opzione A) prima di trovare Vellun, il patto resta attivo. Jason mantiene la promessa per ora, ma i PG ora sanno che c'è un'alternativa.
 
-- [ ] Dove è lo scheletro di Jason? (quest principale della saga)
-- [ ] Il patto con Jason: a che punto smette di uscire quando glielo chiedono?
-- [ ] Altre modalità per forzare Jason fuori dal controllo (da valutare):
-  - Musica dissonante (Jason era un bardo, la musica stonata lo destabilizza)
-  - Nome completo di Jason pronunciato ad alta voce (lo forza fuori per 1d4 ore)
-  - Rituale di Vellun (forza Jason fuori per 24h, costoso e non ripetibile spesso)
-- [ ] La Torre di Ashwick (costa nord): cos'è adesso? Rovine? Occupata?
-- [ ] Il cofanetto nella stanza 6: cosa contiene davvero? Gancio per quale modulo?

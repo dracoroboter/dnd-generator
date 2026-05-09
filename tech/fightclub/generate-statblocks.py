@@ -89,11 +89,12 @@ def main():
     else:
         md_files = sorted(
             glob.glob(os.path.join(md_dir, "NPC_*.md")) +
-            glob.glob(os.path.join(md_dir, "MON_*.md"))
+            glob.glob(os.path.join(md_dir, "MON_*.md")) +
+            glob.glob(os.path.join(md_dir, "OBJ_*.md"))
         )
 
     if not md_files:
-        print("Nessuna scheda NPC_*.md o MON_*.md trovata.")
+        print("Nessuna scheda NPC_*.md, MON_*.md o OBJ_*.md trovata.")
         sys.exit(1)
 
     errors = 0

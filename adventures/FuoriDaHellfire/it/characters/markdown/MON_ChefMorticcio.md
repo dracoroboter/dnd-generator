@@ -1,4 +1,4 @@
-# MON_ChefMorticcio — ghoul cuoco
+# MON_ChefMorticcio, ghoul cuoco
 
 ## Informazioni generali
 
@@ -10,7 +10,7 @@
 
 ## Descrizione
 
-Grigio, secco, dita troppo lunghe, mandibola storta. Indossa un grembiule macchiato e impugna un coltello da cucina. In vita era il cuoco del rifugio dell'Ordine della Chiave Spezzata. Si è risvegliato come ghoul quando il muro della cripta è stato sfondato. Ha fame costante ma preferisce cucinare che cacciare. Vuole compagnia e qualcuno che apprezzi la sua cucina.
+Grigio, secco, dita troppo lunghe, mandibola storta. Indossa un grembiule macchiato e impugna un coltello da cucina. In vita era il cuoco del rifugio dell'Ordine della Chiave Spezzata. Ha fame costante ma preferisce cucinare che cacciare. Vuole compagnia e qualcuno che apprezzi la sua cucina.
 
 ## Stat Block
 

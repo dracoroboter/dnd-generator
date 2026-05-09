@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>MON_Specter</name>
+        <name>Specter</name>
         <size>M</size>
         <type>undead</type>
         <alignment>chaotic evil</alignment>
@@ -14,6 +14,9 @@
         <int>10</int>
         <wis>10</wis>
         <cha>11</cha>
+        <resist>acido, freddo, fuoco, fulmine, tuono; contundenti, perforanti e taglienti da attacchi non magici</resist>
+        <immune>necrotici, veleno</immune>
+        <conditionImmune>avvelenato, charmato, esausto, afferrato, paralizzato, pietrificato, prono, trattenuto, privo di sensi</conditionImmune>
         <senses>darkvision 60 ft. 18m / 60ft, Percezione passiva 10</senses>
         <languages>comprende le lingue che conosceva in vita ma non parla</languages>
         <cr>1</cr>

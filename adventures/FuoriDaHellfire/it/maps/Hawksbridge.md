@@ -1,6 +1,6 @@
 # Hawksbridge
 
-Città mercantile di medie dimensioni, a un giorno di cammino da Greyhawkins. Mappa: `Hawksbridge.png`.
+Città mercantile di medie dimensioni, a qualche ora di cammino da Greyhawkins. Mappa: `Hawksbridge.png`.
 
 ---
 

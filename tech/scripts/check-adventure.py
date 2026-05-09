@@ -239,10 +239,10 @@ def check_statblocks(adventure_dir):
     for f in sorted(os.listdir(sb_dir)):
         if not f.endswith(".png"):
             continue
-        if f.startswith("NPC_") or f.startswith("MON_"):
+        if f.startswith("NPC_") or f.startswith("MON_") or f.startswith("OBJ_"):
             ok(f"Stat block: {f}")
         else:
-            warn(f"characters/statblock/{f} — naming non riconosciuto (atteso NPC_* o MON_*). "
+            warn(f"characters/statblock/{f} — naming non riconosciuto (atteso NPC_*, MON_* o OBJ_*). "
                  "Se è un PG, spostare in other/pg/")
 
 

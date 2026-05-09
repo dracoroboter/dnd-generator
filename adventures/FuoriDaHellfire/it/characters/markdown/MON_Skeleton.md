@@ -1,4 +1,4 @@
-# MON_Skeleton — custode della cripta
+# MON_Skeleton, custode della cripta
 
 ## Informazioni generali
 

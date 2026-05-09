@@ -1,4 +1,4 @@
-# Mappa DM — Discesa nelle Fogne
+# Mappa DM: Discesa nelle Fogne
 
 Cheat sheet per disegnare la mappa al volo al tavolo.
 1 quadretto (qd) = 1,5m / 5ft.
@@ -63,7 +63,7 @@ Cheat sheet per disegnare la mappa al volo al tavolo.
 
 Percorso lineare totale: ~30 qd (~45m / ~150ft)
 
-## Posizioni chiave — cosa disegnare dove
+## Posizioni chiave: cosa disegnare dove
 
 ### Trappola (galleria d'ingresso)
 - **Dove**: a 4qd dall'ingresso (2qd prima della fine della galleria)
@@ -75,7 +75,7 @@ Percorso lineare totale: ~30 qd (~45m / ~150ft)
 - **Ramo nord**: impronte fangose FALSE verso l'acqua (Sopravvivenza CD 13)
 - **Ramo est**: tracce vere, meno evidenti
 - **Ramo sud**: niente, solo macerie
-- Graffito chiave di violino (marchio Korex) sul muro est — conferma direzione
+- Graffito chiave di violino (marchio Korex) sul muro est: conferma direzione
 
 ### Nido di ratti
 - **6 ratti corrotti** sparsi nella sala, nascosti dietro detriti
@@ -91,9 +91,9 @@ Percorso lineare totale: ~30 qd (~45m / ~150ft)
 
 ## Note per il disegno al volo
 
-1. **Parti dalla grata** — disegna il rettangolo della galleria, segna la trappola con una X
-2. **Al bivio** fai la T — i giocatori sceglieranno dove andare, disegna solo il ramo che esplorano
-3. **Il nido** è la prima sala vera — disegnalo più grande, segna le posizioni dei ratti
-4. **Il tunnel verso la soglia** si allarga — mostralo graficamente, è il segnale che qualcosa cambia
+1. **Parti dalla grata**: disegna il rettangolo della galleria, segna la trappola con una X
+2. **Al bivio** fai la T: i giocatori sceglieranno dove andare, disegna solo il ramo che esplorano
+3. **Il nido** è la prima sala vera: disegnalo più grande, segna le posizioni dei ratti
+4. **Il tunnel verso la soglia** si allarga: mostralo graficamente, è il segnale che qualcosa cambia
 5. **Alla soglia** cambia tratto se puoi (linea più spessa, diverso colore) per segnare la transizione
-6. Non disegnare tutto subito — rivela zona per zona mentre i PG avanzano
+6. Non disegnare tutto subito: rivela zona per zona mentre i PG avanzano

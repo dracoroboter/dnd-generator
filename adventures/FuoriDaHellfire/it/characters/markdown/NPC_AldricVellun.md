@@ -1,10 +1,10 @@
-# NPC_AldricVellun — mago accademico
+# NPC_AldricVellun, mago accademico
 
 ## Informazioni generali
 
 - **Nome completo**: Aldric Vellun
 - **Ruolo**: alleato, esperto di maledizioni, membro dell'Ordine della Chiave Spezzata (per discendenza)
-- **Classe**: Wizard (non combattente)
+- **Classe**: nessuna (studioso, non è un mago)
 - **Razza**: umano
 - **Allineamento**: Neutrale Buono
 
@@ -12,11 +12,15 @@
 
 Settantenne, magro, barba grigia disordinata, occhi vivaci dietro occhiali rotondi. Veste una tunica da studioso sbiadita con macchie di inchiostro e cera di candela. Un gatto arancione lo segue ovunque (e lo ignora). Vive in una torre bassa a due piani alla periferia di Hawksbridge, circondato da libri, barattoli di ingredienti e pergamene.
 
-Non è potente, è un accademico. Sa cose, non lancia palle di fuoco. Parla veloce, cambia argomento, si distrae. Genuinamente gentile ma distratto.
+Non è potente, è un accademico. Sa cose, non lancia palle di fuoco. Grazie ai suoi studi generici riesce a compiere rituali con grandi sforzi (ci deve studiare ore), ma non è un mago. Parla veloce, cambia argomento, si distrae. Genuinamente gentile ma distratto.
 
 ## Stat Block
 
-Nessuno. Aldric non combatte. Se attaccato, scappa. Se non può scappare, si arrende immediatamente.
+Nessuno stat block di combattimento. Aldric non combatte. Se attaccato, scappa. Se non può scappare, si arrende immediatamente.
+
+| FOR | DES | COS | INT | SAG | CAR |
+|-----|-----|-----|-----|-----|-----|
+| 7 (-2) | 10 (+0) | 10 (+0) | 18 (+4) | 10 (+0) | 10 (+0) |
 
 ## Motivazioni
 

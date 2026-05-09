@@ -12,7 +12,7 @@ Un **anello d'argento annerito** con un'incisione interna: una chiave di violino
 
 ### Backstory
 
-Korex ha trovato l'anello nelle fogne antiche, su uno scheletro seduto con un liuto in grembo — un bardo morto da secoli. L'ha infilato, e il potere è arrivato. Ma l'anello non si toglie. Korex ha smesso di provarci quando ha capito quanto era forte. L'anello contiene l'anima di un bardo antico che vuole tornare in vita.
+L'anello è passato di portatore in portatore per secoli, da quando l'Ordine della Chiave Spezzata vi ha imprigionato Jason Accordion. Korex l'ha ottenuto da un precedente portatore (come e dove è un punto aperto della saga). L'ha infilato, e il potere è arrivato. Ma l'anello non si toglie. Korex ha smesso di provarci quando ha capito quanto era forte. L'anello contiene l'anima di un bardo antico che vuole tornare in vita.
 
 Riferimento: Robert Johnson al crossroads — Korex ha "venduto l'anima" infilandolo, non al diavolo, ma a un altro bardo che voleva una seconda vita.
 
@@ -29,8 +29,8 @@ Il PG deve superare un **TS Saggezza CD 20**. Se fallisce, è obbligato a indoss
 **Livello 3 — Indossato (maledizione)**
 L'anello si stringe e non si toglie più.
 
-- **Vantaggio**: +2 al Carisma (max 22) e vantaggio ai TS contro essere charmato.
-- **Maledizione**: possessione progressiva. Il PG inizia ad assumere tratti del bardo morto (gusti, ricordi, tic). Dopo 1d4 settimane, il bardo inizia a "prendere il controllo" in momenti di stress (TS Saggezza CD 14, crescente +1/settimana). Se il PG fallisce troppi TS, il bardo prende il sopravvento permanentemente.
+- **Vantaggio**: +2 a una caratteristica (per classe del portatore, vedi tabella in `OBJ_AnelloDelVirtuoso.md`) + 1 incantesimo da bardo 1/giorno senza slot + vantaggio TS contro charm.
+- **Maledizione**: possessione progressiva (meccanica Presa). Vedi cheat sheet sotto per dettagli.
 
 ### Cliffhanger
 
@@ -76,7 +76,7 @@ Questo lancia la prossima avventura con un combattimento immediato e un mistero:
 ## Punti aperti — da approfondire
 
 - [ ] **Piano B — cliffhanger alternativo**: dopo la guardia posseduta, l'anello resta. I PG non sanno come eliminare il pericolo. La saga = come disfarsi dell'anello.
-- [ ] Dove ha trovato Korex l'anello? (non nelle fogne — su un cadavere altrove)
+- [ ] Come ha ottenuto Korex l'anello? (da chi, dove — non nelle fogne di Oakshore)
 - [ ] Dove è lo scheletro di Jason? (non nelle fogne — trovarlo è la vera quest della saga)
 - [ ] La catena dei portatori: quanti? Tracce/storie dei precedenti come indizi?
 - [ ] A che livello di presa la possessione diventa permanente e irreversibile?

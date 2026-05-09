@@ -70,7 +70,7 @@ def monster_to_md(monster, etype="monster"):
     align_it = ALIGNMENT_MAP.get(alignment.lower(), alignment) if alignment else ""
 
     lines = []
-    lines.append(f"# NPC_{name} — antagonista\n")
+    lines.append(f"# NPC_{name}, antagonista\n")
     lines.append("## Informazioni generali\n")
     if etype == "pc" and 'pc_class' in dir():
         lines.append(f"- **Ruolo**: PG")

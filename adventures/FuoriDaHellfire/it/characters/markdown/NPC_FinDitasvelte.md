@@ -1,9 +1,9 @@
-# NPC_FinDitasvelte — companion (rogue)
+# NPC_FinDitasvelte, companion (rogue)
 
 ## Informazioni generali
 
 - **Ruolo**: NPC companion del party
-- **Classe**: ladro (rogue) — archetipo Thief
+- **Classe**: ladro (rogue), archetipo Thief
 - **Livello**: 3
 - **Razza**: halfling (piedelesto)
 - **Allineamento**: Caotico Neutrale
@@ -12,7 +12,7 @@
 
 Basso anche per un halfling, capelli rossi arruffati, occhi marroni sempre in movimento. Sorriso da furbetto permanente. Parla veloce, gesticola troppo, e ha l'abitudine di rigirare una moneta tra le dita quando è nervoso. Veste pratico: gilet con troppe tasche, stivali morbidi, niente che faccia rumore.
 
-Tratto distintivo: non riesce a non toccare le cose. Se c'è un oggetto luccicante, lo prende. Se c'è un bottone, lo preme. Se c'è un anello su un cadavere, lo sfila. Non per avidità — per curiosità compulsiva.
+Tratto distintivo: non riesce a non toccare le cose. Se c'è un oggetto luccicante, lo prende. Se c'è un bottone, lo preme. Se c'è un anello su un cadavere, lo sfila. Non per avidità, per curiosità compulsiva.
 
 Frase ricorrente: *"Che male può fare dare un'occhiata?"*
 
@@ -53,26 +53,26 @@ Frase ricorrente: *"Che male può fare dare un'occhiata?"*
 
 ## Motivazioni
 
-Fin è stato charmato da Korex al porto di Oakshore — attirato dalla musica come gli altri, ma scaricato quando Korex è fuggito nelle fogne. Il charm si è spezzato e Fin è uscito dalla fogna confuso, umiliato e furioso. Vuole tornare giù e fargliela pagare.
+Fin è stato charmato da Korex al porto di Oakshore, attirato dalla musica come gli altri, ma scaricato quando Korex è fuggito nelle fogne. Il charm si è spezzato e Fin è uscito dalla fogna confuso, umiliato e furioso. Vuole tornare giù e fargliela pagare.
 
 Non lo ammetterà, ma sotto la rabbia c'è paura: sa cosa vuol dire perdere il controllo di sé stesso. Questo rende il suo eventuale contatto con l'anello ancora più tragico.
 
 ## Ruolo nell'avventura
 
-- **FuoriDaHellfire**: i PG lo incontrano all'ingresso della fogna, appena uscito, confuso e incazzato. Si offre di accompagnarli — conosce un po' il layout perché ci è stato sotto charm. Utile per furtività, trappole e serrature. È quello che probabilmente tocca l'anello per primo — la sua curiosità compulsiva è il trigger narrativo.
-- **Saga lv4-6**: se indossa l'anello, diventa il cuore emotivo della saga. I PG devono salvare il loro amico dalla possessione di Jason. Fin lotta contro Jason dall'interno — a volte vince, a volte perde.
+- **FuoriDaHellfire**: i PG lo incontrano all'ingresso della fogna, appena uscito, confuso e incazzato. Si offre di accompagnarli; conosce un po' il layout perché ci è stato sotto charm. Utile per furtività, trappole e serrature. È quello che probabilmente tocca l'anello per primo: la sua curiosità compulsiva è il trigger narrativo.
+- **Saga lv4-6**: se indossa l'anello, diventa il cuore emotivo della saga. I PG devono salvare il loro amico dalla possessione di Jason. Fin lotta contro Jason dall'interno; a volte vince, a volte perde.
 
 ### Comportamento con l'anello
 
 Se Fin indossa l'anello (scenario B):
 - **Subito**: "Wow, che roba. Mi sento... bene. Tipo, davvero bene." Poi il freddo alla mano, gli incubi.
 - **Presa bassa**: Fin è più sicuro di sé, meno nervoso. Smette di rigirare la moneta. Parla più lentamente. I PG notano che non è del tutto lui.
-- **Presa media**: Fin ha momenti in cui parla con una voce diversa — più profonda, più calma. Dice cose che non dovrebbe sapere. Si scusa dopo: "Non so perché ho detto quello."
+- **Presa media**: Fin ha momenti in cui parla con una voce diversa, più profonda, più calma. Dice cose che non dovrebbe sapere. Si scusa dopo: "Non so perché ho detto quello."
 - **Presa alta**: Fin scompare per periodi. Quando "torna", non ricorda cosa ha fatto. Jason usa il corpo di Fin per i suoi scopi.
 
 ## Note al master
 
 - Fin è progettato per essere simpatico. I giocatori devono volerlo salvare. Se non gli importa di Fin, la saga perde il motore emotivo.
-- Non forzare Fin a prendere l'anello — la sua curiosità è il trigger, ma se un PG lo fa prima, meglio. Fin è il piano B, non l'unica opzione.
-- Se i PG abbandonano Fin posseduto, Fin/Jason diventa un villain ricorrente — un ex-amico che li conosce, sa le loro debolezze, e ha i poteri dell'anello. Questo è un ottimo antagonista.
-- Fin ha SAG 10 — non è particolarmente forte di volontà. Jason lo troverà più facile da possedere rispetto a un chierico o paladino. Questo è intenzionale.
+- Non forzare Fin a prendere l'anello: la sua curiosità è il trigger, ma se un PG lo fa prima, meglio. Fin è il piano B, non l'unica opzione.
+- Se i PG abbandonano Fin posseduto, Fin/Jason diventa un villain ricorrente, un ex-amico che li conosce, sa le loro debolezze, e ha i poteri dell'anello. Questo è un ottimo antagonista.
+- Fin ha SAG 10, non è particolarmente forte di volontà. Jason lo troverà più facile da possedere rispetto a un chierico o paladino. Questo è intenzionale.

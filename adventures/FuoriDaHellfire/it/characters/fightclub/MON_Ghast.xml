@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Ghast</name>
+        <size>M</size>
+        <type>undead</type>
+        <alignment>chaotic evil</alignment>
+        <ac>13</ac>
+        <hp>36 (8d8)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>17</dex>
+        <con>10</con>
+        <int>11</int>
+        <wis>10</wis>
+        <cha>8</cha>
+        <resist>necrotici</resist>
+        <immune>veleno</immune>
+        <conditionImmune>avvelenato, charmato, esausto</conditionImmune>
+        <senses>darkvision 60 ft. 18m / 60ft, Percezione passiva 10</senses>
+        <languages>Common</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Stench (Aura di fetore)</name>
+            <text>qualsiasi creatura che inizia il turno entro 5 ft. dal Ghast deve superare CD 10 COS o è avvelenata fino all'inizio del suo prossimo turno. Successo: immune all'aura per 24 ore.</text>
+        </trait>
+        <trait>
+            <name>Turning Defiance</name>
+            <text>il Ghast e qualsiasi ghoul entro 9m / 30ft hanno vantaggio ai TS contro Turn Undead.</text>
+        </trait>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +5, mischia 5ft Danni: 2d8+3 perforanti</text>
+            <attack>Morso (mischia)|+5|2d8+3</attack>
+        </action>
+        <action>
+            <name>Artigli (mischia)</name>
+            <text>Attacco: +3, mischia 5ft Danni: 2d6+3 taglienti Effetto: CD 10 COS o paralizzato per 1 minuto (ripete TS a fine turno). Non funziona su elfi e non-morti.</text>
+            <attack>Artigli (mischia)|+3|2d6+3</attack>
+        </action>
+        <description>Seduto a capotavola nella sala comune della cripta. Più grande degli scheletri, con brandelli di armatura e carne secca grigia sulle ossa. Si anima per ultimo, al round 2, alzandosi lentamente dallo sgabello. Un fetore nauseante lo circonda.
+Role: capo custode non-morto della cripta, si anima al round 2</description>
+    </monster>
+</compendium>

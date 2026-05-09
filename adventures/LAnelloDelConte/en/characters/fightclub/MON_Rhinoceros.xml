@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>MON_Rhinoceros</name>
+        <size>L</size>
+        <type>beast</type>
+        <alignment>unaligned</alignment>
+        <ac>11 (natural armor)</ac>
+        <hp>45 (6d10+12)</hp>
+        <speed>40 ft.</speed>
+        <str>21</str>
+        <dex>8</dex>
+        <con>15</con>
+        <int>2</int>
+        <wis>12</wis>
+        <cha>6</cha>
+        <senses>passive Perception 11</senses>
+        <languages>—</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Charge</name>
+            <text>If the rhinoceros moves at least 20 ft. straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 2d8 bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
+        </trait>
+        <action>
+            <name>Gore (melee)</name>
+            <text>Attack: +7, melee 5ft Damage: 2d8+5 bludgeoning</text>
+            <attack>Gore (melee)|+7|2d8+5</attack>
+        </action>
+        <description>A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse 4 of Vetusta Portus. It's not an enemy — it's a terrified animal that wants to escape. It only attacks those in its path toward the door.
+Role: exotic animal trapped in the warehouse</description>
+    </monster>
+</compendium>

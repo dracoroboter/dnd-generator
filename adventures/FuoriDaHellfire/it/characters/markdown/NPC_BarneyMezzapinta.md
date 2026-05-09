@@ -1,4 +1,4 @@
-# NPC_BarneyMezzapinta — proprietario del Pint Ahoy
+# NPC_BarneyMezzapinta, proprietario del Pint Ahoy
 
 ## Informazioni generali
 

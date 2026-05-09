@@ -1,4 +1,4 @@
-# Mappa DM — Tana di Korex
+# Mappa DM: Tana di Korex
 
 Cheat sheet per disegnare la mappa al volo al tavolo.
 1 quadretto (qd) = 1,5m / 5ft.
@@ -56,17 +56,17 @@ Legenda:
 
 Soffitto a cupola: ~4qd (6m) di altezza.
 
-## Posizioni chiave — cosa disegnare dove
+## Posizioni chiave: cosa disegnare dove
 
 ### Korex (centro)
 - **Dove**: seduto sul rialzo centrale, sedia + liuto
-- **Cosa**: visibile appena i PG entrano — è teatrale, li aspetta
+- **Cosa**: visibile appena i PG entrano: è teatrale, li aspetta
 - Candele, tappeti, strumenti musicali attorno al rialzo
 
 ### Teppisti charmati (colonne est e sud)
 - **Dove**: nascosti dietro Ce e Cs
 - **Percezione CD 14** per notarli prima del combattimento
-- Si rivelano al round 1 — escono dalle colonne
+- Si rivelano al round 1: escono dalle colonne
 - Se Korex cade: si arrendono, confusi (non sono malvagi)
 
 ### Alcova (parete nord-est)
@@ -74,15 +74,15 @@ Soffitto a cupola: ~4qd (6m) di altezza.
 - **Contenuto**: giaciglio, appunti sparsi, cassa chiusa
 - Indagare CD 12 per appunti utili, Arcano CD 14 per decifrare codice
 - Cassa: 120 mo in monete + gioielli rubati
-- L'Anello del Virtuoso NON è qui — è al dito di Korex
+- L'Anello del Virtuoso NON è qui: è al dito di Korex
 
 ### Passaggio nascosto (sud-est)
 - **Dove**: dietro colonna crollata a SE, apertura 1qd
 - **Percezione CD 16** durante il combattimento, **CD 12** dopo
 - Korex lo usa come fuga se sotto metà PF
-- Il tunnel prosegue nel buio — non mappato, seme per "stagione 2"
+- Il tunnel prosegue nel buio: non mappato, seme per "stagione 2"
 
-## Tattiche di combattimento — promemoria
+## Tattiche di combattimento: promemoria
 
 | round | Korex | teppisti |
 |-------|-------|----------|
@@ -97,9 +97,9 @@ Soffitto a cupola: ~4qd (6m) di altezza.
 
 ## Note per il disegno al volo
 
-1. **Disegna l'ottagono** — 8qd di diametro, non serve che sia perfetto. Un cerchio approssimato va benissimo.
-2. **Rialzo al centro** — cerchio più piccolo (~3qd), segnalo rialzato. Metti una K per Korex.
-3. **4 colonne a croce** — punti a ~2qd dal centro (N, E, S, W). Quadratini pieni.
-4. **NON disegnare subito** l'alcova e il passaggio nascosto — rivelali solo quando i PG li trovano.
+1. **Disegna l'ottagono**: 8qd di diametro, non serve che sia perfetto. Un cerchio approssimato va benissimo.
+2. **Rialzo al centro**: cerchio più piccolo (~3qd), segnalo rialzato. Metti una K per Korex.
+3. **4 colonne a croce**: punti a ~2qd dal centro (N, E, S, W). Quadratini pieni.
+4. **NON disegnare subito** l'alcova e il passaggio nascosto: rivelali solo quando i PG li trovano.
 5. **Dopo il combattimento**: aggiungi l'alcova (NE, dietro tendaggio) e, se trovato, il passaggio (SE).
-6. Il tunnel d'ingresso arriva da ovest — i PG vedono Korex di fronte appena entrano.
+6. Il tunnel d'ingresso arriva da ovest: i PG vedono Korex di fronte appena entrano.

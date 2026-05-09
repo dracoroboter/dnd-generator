@@ -307,6 +307,8 @@ Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/script
 ### TODO
 
 - [ ] Aggiungere flag `--no-maps` a `create-pdf-adventure.py` per escludere mappe PNG inline
+- [ ] **Stat block a due colonne**: `md-to-statblock-pdf.js` genera stat block su una colonna. Per NPC con molto testo (es. Jason Accordion) il PNG sborda dalla pagina. Implementare layout a due colonne per stat block lunghi.
+- [ ] **Stat block per oggetti magici**: supportare il prefisso `OBJ_` nella pipeline stat block con un template dedicato. Il template oggetto deve mostrare: immagine (da `img/` o `characters/img/`), nome, breve descrizione. Diverso dal template creature (no stats FOR/DES/ecc, no attacchi). Esempio: `OBJ_AnelloDelVirtuoso.md` → PNG con immagine dell'anello + nome + descrizione meccanica.
 - [ ] Implementare `--split` in `create-pdf-adventure.py` per PDF divisi (lore, sessioni, appendice)
 - [ ] Implementare stat block multi-colonna nell'appendice PDF (2 per pagina)
 - [ ] Definire il tag di versione (manuale? campo nel README.md? tag git?)

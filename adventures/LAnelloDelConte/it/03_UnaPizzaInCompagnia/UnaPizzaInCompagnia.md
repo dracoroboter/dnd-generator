@@ -252,9 +252,21 @@ I due banditi di guardia fuori arrivano al round 2 se non sono già stati elimin
 
 **Fase 2 — Il rinoceronte (round 2-3)**
 
-A un certo punto durante il combattimento, una cassa enorme in fondo al magazzino inizia a tremare. Poi a scuotersi. Poi:
+A partire dal round 2, la cassa enorme in fondo al magazzino inizia a tremare. Il rinoceronte all'interno sente il rumore del combattimento e si agita. Ogni round tenta di sfondare la cassa dall'interno.
 
-### 📖 Da leggere ai giocatori
+**La cassa rinforzata:**
+
+| Oggetto | CA | PF | Soglia danno | Note |
+|---------|----|----|--------------|------|
+| Cassa del rinoceronte | 15 | 18 | 5 | Legno rinforzato con bande di ferro |
+
+Il rinoceronte attacca la cassa dall'interno con la sua incornata (+7, 2d8+5). Tira ogni round. Quando i PF della cassa arrivano a 0, il rinoceronte si libera.
+
+**Tempistica tipica:** con +7 vs CA 15 e danno medio 10, il rinoceronte sfonda in 2-3 round (round 3-4 del combattimento). Il DM può accelerare o rallentare narrando i colpi ("la cassa si crepa", "un'asse salta via").
+
+I PG possono anche attaccare la cassa per liberarlo prima (o rinforzarla per ritardarlo — Atletica CD 14, aggiunge 5 PF temporanei).
+
+### 📖 Da leggere ai giocatori (quando la cassa si rompe)
 
 > Un boato. Il legno esplode. Dalla cassa più grande del magazzino esce — no, *sfonda* — qualcosa che decisamente non è un "animaletto". Un rinoceronte. Un rinoceronte vero, grigio, enorme, furioso. Ha un corno lungo come il vostro avambraccio e gli occhi di chi non ha dormito, non ha mangiato, e non ha nessuna intenzione di discuterne.
 >

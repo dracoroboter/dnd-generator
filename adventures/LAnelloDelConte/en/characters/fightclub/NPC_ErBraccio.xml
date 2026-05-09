@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>ErBraccio</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>15 (studded leather)</ac>
+        <hp>65 (10d8+20)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>14</cha>
+        <senses>passive Perception 10</senses>
+        <languages>Common</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Multiattack</name>
+            <text>Er Braccio makes three melee attacks: two with his scimitar and one with his dagger.</text>
+        </trait>
+        <action>
+            <name>Scimitar (melee)</name>
+            <text>Attack: +5, melee 5ft Damage: 2d6+3 slashing</text>
+            <attack>Scimitar (melee)|+5|2d6+3</attack>
+        </action>
+        <action>
+            <name>Dagger (melee/ranged)</name>
+            <text>Attack: +5, melee 5ft or ranged 20/60 ft. Damage: 1d4+3 piercing</text>
+            <attack>Dagger (melee/ranged)|+5|1d4+3</attack>
+        </action>
+        <description>A massive man with bare arms and an anchor tattoo on his right bicep. Sits on a crate with a knife in one hand and an apple in the other. He runs the port's smuggling operations from Warehouse 4. He's not stupid — he's a businessman who happens to be a criminal. He has a grudge against the Count for ruining his trade with new taxes.
+Role: bandit leader, port crime boss</description>
+    </monster>
+</compendium>
