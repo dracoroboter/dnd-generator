@@ -8,8 +8,8 @@
 **Autore**: dracoroboter
 **Prima stesura**: 2026
 **Ultimo aggiornamento**: 2026-04-22
-**Saga**: Lo Scettro di Tyr
-**Posizione**: Puntata 1 di 5 (prequel)
+**Sequenza**: LAnelloDelConte → IlReSpezzato
+**Posizione**: Puntata 1 di 2
 **Segue**: —
 **Precede**: IlReSpezzato
 

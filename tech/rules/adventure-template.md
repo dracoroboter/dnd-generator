@@ -155,6 +155,20 @@ Lingua commenti: **inglese**.
 
 ### Immagini e asset
 
+#### Tipi di immagine e directory
+
+| Tipo | Directory | Contenuto | Esempio |
+|------|-----------|-----------|---------|
+| **Mappe** (pianta dall'alto, griglia) | `maps/` e `NN_Modulo/maps/` | PNG/JPG per Roll20 o stampa | `maps/CasaArimano.png` |
+| **Illustrazioni** (prospettiva, atmosfera) | `img/scenes/` e `NN_Modulo/img/scenes/` | Handout per giocatori, scene evocative | `img/scenes/SalaDaPranzoArimano.png` |
+| **Personaggi** (ritratti NPC/PG) | `characters/img/` | Ritratti, artwork personaggi | `characters/img/ErBraccio.png` |
+| **Oggetti** (item narrativi) | `objects/` | Immagini di oggetti specifici | `objects/DoppiaS.png` |
+| **Cover** | `img/` (root) | Solo la copertina dell'avventura | `img/LAnelloDelConte_COVER.png` |
+
+La directory determina il tipo — non serve prefisso nel nome file.
+
+#### Naming
+
 | elemento | convenzione | esempio |
 |----------|-------------|---------|
 | Immagini avventure | PascalCase | `FianusRomanus.png`, `SirGorimVel.png` |

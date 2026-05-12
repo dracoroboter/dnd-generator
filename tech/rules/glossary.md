@@ -27,7 +27,7 @@ Le avventure appartenenti a una saga si collegano tramite metadati nel `README.m
 Formato obbligatorio per avventure parte di una saga:
 
 ```markdown
-**Saga**: Nome della Saga
+**Saga**: Nome della Saga (o **Sequenza** per avventure in serie senza saga)
 **Posizione**: Puntata N di M
 **Precede**: NomeAvventuraSuccessiva (o —)
 **Segue**: NomeAvventuraPrecedente (o —)
@@ -35,18 +35,19 @@ Formato obbligatorio per avventure parte di una saga:
 
 Esempio — `LAnelloDelConte/README.md`:
 ```markdown
-**Saga**: Lo Scettro di Tyr
-**Posizione**: Puntata 1 di 5 (prequel)
+**Sequenza**: LAnelloDelConte → IlReSpezzato
+**Posizione**: Puntata 1 di 2
 **Segue**: —
 **Precede**: IlReSpezzato
 ```
 
-Le avventure standalone (non parte di saga) non includono questi campi.
+Le avventure standalone (non parte di saga o sequenza) non includono questi campi.
 
 ---
 
 ## Saga esistenti
 
-| Saga | Avventure (in ordine) |
+| Saga / Sequenza | Avventure (in ordine) |
 |------|-----------------------|
-| Lo Scettro di Tyr | LAnelloDelConte → IlReSpezzato → LoScettroDityr (A→B→C→D) |
+| Lo Scettro di Tyr (saga) | LoScettroDityr (A→B→C→D) |
+| LAnelloDelConte → IlReSpezzato (sequenza) | LAnelloDelConte → IlReSpezzato |

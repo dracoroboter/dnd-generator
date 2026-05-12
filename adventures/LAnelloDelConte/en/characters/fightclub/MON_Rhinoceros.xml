@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>MON_Rhinoceros</name>
+        <name>Rhinoceros</name>
         <size>L</size>
         <type>beast</type>
         <alignment>unaligned</alignment>

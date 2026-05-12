@@ -42,6 +42,19 @@ I PG sono avventurieri squattrinati che vivono a Fianus Romanus. La povertà è 
 
 **Regola:** ogni PG inizia con **5 monete d'argento**. Nient'altro.
 
+**Regola economia:** ad ogni entrata deve corrispondere un'uscita altrettanto grande per qualche sfiga intercorsa. I PG non devono mai accumulare ricchezza. Ogni giorno di gioco, il DM tira 1d6 sulla tabella sfighe. Se i PG hanno soldi, la sfiga li prende. Se sono già al verde, niente tiro.
+
+| d6 | Sfiga | Costo |
+|----|-------|-------|
+| 1 | Sora Lella reclama la pigione (*"So' tre monete d'oro! Come sempre!"*) | 3 mo |
+| 2 | Equipaggiamento rotto (arma scheggiata, armatura bucata, stivale sfondato) — riparazione dal fabbro | 2 mo |
+| 3 | Multa delle guardie per "disturbo della quiete pubblica" (qualcuno ha denunciato qualcosa) | 1 mo |
+| 4 | Cibo avariato al mercato — tutti malati, serve un guaritore | 1 mo |
+| 5 | Un creditore dimenticato si presenta (*"Vi ricordate quel prestito a Vetusta...?"*) | 2 mo |
+| 6 | Nessuna sfiga oggi. Miracolo. | — |
+
+La povertà è comica, non punitiva. I PG non muoiono di fame — ma non comprano mai niente di bello.
+
 ---
 
 ## NPC principali
@@ -66,6 +79,24 @@ Nessuno sa come si chiama. Nessuno ha visto il suo volto. L'unica cosa nota è c
 
 → Scheda completa: `characters/NPC_IlConte.md`
 
+### Dove sono i personaggi (posizioni base)
+
+| NPC | Dove | Disponibilità |
+|-----|------|---------------|
+| Sir Gorim Vel | Castello del Conte, Aviano | Sempre raggiungibile |
+| Domina Lella | Taberna, piazza del Mercato Centrale | Sempre (ci vive e lavora) |
+| La Contessina (Concetta Sgamarri) | Castello del Conte, Aviano | Solo con lettera/sigillo di Gorim |
+| Flavia "La Biscia" | Itinerante, base a Vetusta Portus | Al mercato di giorno, sparisce di sera |
+| Mastro Cecio | Bottega vicino alla piazza del Mercato | Sempre (ma inutile) |
+| Donna Ortensia | Aviano, vicino al castello | A casa, non esce volentieri |
+| Terzilio (a volte Sergius) | Settebagni → mercato di Fianus | Al mercato di giorno col carretto |
+| Ermolao "Il Profondo" | Fogne di Fianus | Bisogna scendere |
+| Marchese Arimano (Sergius) | Vetusta Portus, casa in collina | Solo dopo che i PG lo conoscono |
+| Er Braccio (Salvatore Soggettoni) | Vetusta Portus, Magazzino 4 | Al porto |
+| Simpatico Figuro | Bottega a Monteverde | Di giorno |
+
+I moduli indicano solo le eccezioni a questa tabella.
+
 ---
 
 ## Running Gag
@@ -78,6 +109,17 @@ Ogni volta che un NPC sta per dire il nome del Conte, viene interrotto:
 - Starnuto
 - Crollo di qualcosa
 - "Il Conte... come si chiama... aspetta, ce l'ho sulla punta della lingua..."
+
+### Nomi e soprannomi
+
+A Fianus la gente si conosce per soprannome. I nomi completi sono nei registri pubblici (Gorim può consultarli). "Tutti conoscono tutti" è un'esagerazione — chi davvero sa i nomi di tutti sono **Domina Lella** (dalla taverna passa chiunque) e **Flavia** (commercia con tutti). Gli altri conoscono i propri vicini e poco più. I PG, pur essendo di Fianus, non conoscono necessariamente il nome di battesimo di chiunque — soprattutto di gente di Vetusta Portus come Er Braccio.
+
+Se i PG chiedono un nome vero, le fonti sono:
+- **Gorim** — ha accesso ai registri (tasse, licenze, denunce)
+- **Domina Lella** — conosce tutti quelli che sono passati dalla taverna
+- **Chiedere direttamente** — alcuni lo dicono con orgoglio (Er Braccio), altri no (la Contessina)
+
+**Eccezione — il Marchese Arimano:** nei registri di Vetusta Portus è registrato solo come "Marchese Arimano Improbus". Il nome di battesimo "Sergius" non compare in nessun documento pubblico — è un nobile, usa il titolo. Nessuno a Vetusta lo chiama Sergius. Il nome compare solo nella firma clandestina (doppia S) che usa per i suoi traffici.
 - Le lettere ufficiali hanno il sigillo ma la firma è illeggibile
 - Un NPC giura di saperlo ma vuole essere pagato prima — poi non lo sa neanche lui
 
@@ -138,9 +180,9 @@ Fianus Romanus celebra la Festa del Grazie. Sergius travestito da funzionario ti
 
 I PG sono in stallo. Dopo due giorni senza piste, ricevono un invito dal Marchese Arimano — un nobile di Vetusta Portus — che li vuole a cena per offrirgli un lavoro. Devono recuperare merce rubata dai magazzini del porto. Il combattimento nel magazzino è caotico: banditi, un rinoceronte furioso, e animali esotici che scappano dalle casse. Er Braccio, il capo della banda, ce l'ha col Conte — un nuovo sospetto.
 
-### Puntata 4 — "La Pista Vera (forse)" (da sviluppare)
+### Puntata 4 — "Il Corniciaio"
 
-Una pista porta fuori dal borgo. Mercante di anelli contraffatti. Un indizio reale che i PG non riconoscono.
+Simpatico Figuro trova il pittore dei ritratti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano, ma la Contessina Sgamarri manda i suoi uomini a zittirlo. I PG devono salvare Sberluccica e scoprono che tutti a Fianus hanno un nome con la S — la firma non identifica nessuno.
 
 ### Puntata 5 — "Il Finale di Stagione" (da sviluppare)
 

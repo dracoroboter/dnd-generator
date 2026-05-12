@@ -233,3 +233,37 @@ Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
 
 ### Schede mappa DM
 - [ ] Nessun `MappaDM.md` per il modulo 01 — creare se serve per sessioni dal vivo
+
+---
+
+## Decisioni prese (Sessione di lavoro 12 maggio 2026)
+
+| # | Decisione | Risultato |
+|---|-----------|-----------|
+| D14 | Nome completo Sergius | **Sergius Stanislao Arimano Improbus**. La doppia S = Sergius Stanislao. "Stanislao" è omaggio a Stanislau Molisky (Nick Carter). |
+| D15 | Nome nei registri | Solo "Marchese Arimano Improbus" — "Sergius" non compare in nessun documento pubblico. |
+| D16 | Ritratti = deepfake medievali | Testa del nobile (da descrizione) su corpo scultoreo di modello. I nobili li commissionavano volontariamente per vanità. |
+| D17 | Pozioni = acqua colorata | Acqua colorata e speziata. Le spezie servono per colore/odore/consistenza. Non funzionano. |
+| D18 | Animali esotici = marketing | Il rinoceronte e simili servono per convincere i compratori che la ricetta è pregiata e alzare i prezzi. Mossa disperata. |
+| D19 | Business in declino | Dopo la Gabella, pochi clienti spaventati. Arimano investe in animali costosi → si sta rovinando. |
+| D20 | Er Braccio = Salvatore Soggettoni | Nome completo deciso. |
+| D21 | Contessina = Concetta Sgamarri | Cognome da nubile. Si vergogna delle origini, non lo dice mai. |
+| D22 | Speziale = Sempronio Scrocchiazeppi | Ex produttore pozioni, ora spezieria legittima a Vetusta. |
+| D23 | Pittore = Mastro Cecilio Sberluccica | Ex pittore ritratti, ora corniciaio a Monteverde. |
+| D24 | Simpatico Figuro | Bottegaio Monteverde, vendeva ritratti erotici, ha smesso per Gabella. Chiede 5 ma per informazioni. |
+| D25 | Gag della S | Tutti hanno la S nel nome. Opzionale, solo se emerge naturalmente. |
+| D26 | Travestimenti usa e getta | Ogni travestimento di Sergius appare una volta sola (tranne Terzilio e Marchese = identità stabili). |
+| D27 | Puntata 4 = Il Corniciaio | Sberluccica interrogato → rapito dalla Contessina → salvato dai PG. Sergius aiuta travestito. |
+| D28 | Sergius aiuta i PG (puntata 4) | Vuole Sberluccica vivo (serve come depistaggio). Travestito da lavandaia (Monteverde) o signore con baffi/marsina/bombetta (altrove). |
+| D29 | Contessina non confessa | Nega tutto, caccia i PG se insistono. La conferma arriva da Bruto/Sberluccica nella cantina. |
+| D30 | Arimano paga 5 mo | + "eterna riconoscenza". Non ammette la povertà (orgoglio). |
+| D31 | Tabella sfighe giornaliera | 1d6/giorno, nel documento principale. I PG non accumulano mai. |
+| D32 | Nomi e soprannomi | Fonti: Gorim (registri), Domina Lella (taverna), Flavia (commerci). Non tutti sanno tutto. |
+
+### Puntata 4 — scritta (draft)
+
+- File: `it/04_IlCorniciaio/IlCorniciaio.md`
+- Combattimento: cantina, Medium per lv3 (1 Thug + 3 Guard + 1 Spy ridotta)
+- Side quest: Scrocchiazeppi (opzionale, pista morta)
+- Mappe TODO: CantinaPonteMilvio (battle map), BottegaSberluccica (illustrazione)
+- Gemidesc creati in `04_IlCorniciaio/maps/` e `04_IlCorniciaio/img/scenes/`

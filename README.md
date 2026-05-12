@@ -46,7 +46,7 @@ Entrambi i piani sono assistiti da AI.
 | `IlReSpezzato` | Saga puntata 2 | Draft | it | Plot, meccanica medaglione, modulo 1 (Nerrok). NPC e moduli successivi da sviluppare. |
 | `LoScettroDityr` | Saga (4 moduli A/B/C/D) | Normalizzata | it, en | Versione "Draco" — 4 moduli, 16 NPC, 1 MON, 29 asset grafici. Tradotta IT+EN |
 
-La saga "Lo Scettro di Tyr" copre `LAnelloDelConte` → `IlReSpezzato` → `LoScettroDityr` in sequenza narrativa.
+`LAnelloDelConte` e `IlReSpezzato` sono in sequenza narrativa (puntate 1 e 2). `LoScettroDityr` è una saga indipendente (4 moduli A/B/C/D).
 
 ---
 

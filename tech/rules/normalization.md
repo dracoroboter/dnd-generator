@@ -210,7 +210,7 @@ Il report viene salvato in `tech/reports/`. Iterare fino a zero errori (i warnin
 Già normalizzata. Riferimento per casi dubbi.
 
 ### LoScettroDityr
-Formato `.odt`, 4 moduli (A: FugaDaOrcastle, B: LoScettroDiTyr, C: RitornoACasa, D: LaFineNonAppartieneAiMorti). Saga "Lo Scettro di Tyr", puntate 3-6. Normalizzare un modulo alla volta.
+Formato `.odt`, 4 moduli (A: FugaDaOrcastle, B: LoScettroDiTyr, C: RitornoACasa, D: LaFineNonAppartieneAiMorti). Saga indipendente, 4 moduli. Normalizzare un modulo alla volta.
 
 ### IlReSpezzato
 Formato `.odt` + prologo a fumetti (tavole PNG). Draft incompleto. Normalizzare dopo LoScettroDityr.

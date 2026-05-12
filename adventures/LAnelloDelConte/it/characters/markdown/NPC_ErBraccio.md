@@ -2,7 +2,7 @@
 
 ## Informazioni generali
 
-- **Nome completo**: Er Braccio (nessuno conosce il vero nome)
+- **Nome completo**: Salvatore Soggettoni, detto "Er Braccio"
 - **Nome pubblico**: Er Braccio — tutti lo chiamano così per le braccia scoperte e il fisico massiccio
 - **Ruolo**: capo banda a Vetusta Portus, fornitore di Sergius/Marchese Arimano
 - **Classe**: Fighter (base Bandit Captain, MM p. 344)

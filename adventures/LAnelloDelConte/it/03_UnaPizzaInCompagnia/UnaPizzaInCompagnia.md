@@ -15,18 +15,14 @@ I PG sono in stallo: hanno il frammento del ritratto e la bottiglietta di pozion
 
 ### Dove sono i personaggi
 
-| NPC | Dove | Disponibilità |
-|-----|------|---------------|
-| Sir Gorim Vel | Castello del Conte, Aviano | Sempre raggiungibile |
-| Domina Lella | Taberna, piazza del Mercato Centrale | Sempre (ci vive e lavora) |
-| La Contessina | Castello del Conte, Aviano | Solo con lettera/sigillo di Gorim (vedi sotto) |
-| Flavia "La Biscia" | Itinerante, base a Vetusta Portus | Al mercato di giorno, sparisce di sera |
-| Mastro Cecio | Bottega vicino alla piazza del Mercato | Sempre (ma inutile) |
-| Donna Ortensia | Aviano, vicino al castello | A casa, non esce volentieri |
-| Terzilio | Settebagni → mercato di Fianus | Al mercato di giorno col carretto |
-| Ermolao "Il Profondo" | Fogne di Fianus | Bisogna scendere |
-| Marchese Arimano (Sergius) | Vetusta Portus, casa in collina | Solo dopo l'invito |
-| Er Braccio | Vetusta Portus, Magazzino 4 | Solo nell'Atto 3 |
+Vedi tabella posizioni base in `LAnelloDelConte.md` § NPC principali. Eccezioni per questa puntata:
+
+| NPC | Eccezione |
+|-----|-----------|
+| Marchese Arimano (Sergius) | Disponibile solo dopo l'invito (o al porto dopo il combattimento) |
+| Er Braccio | Solo al Magazzino 4, Vetusta Portus |
+
+> **Nota DM:** Il vero nome di Er Braccio è **Salvatore Soggettoni**. I PG possono scoprirlo chiedendoglielo direttamente o interrogando i banditi. Serve per la gag della S nella Puntata 4.
 
 ### Cosa sa ciascun NPC
 
@@ -103,6 +99,12 @@ Se i PG chiedono del Conte: *"È in viaggio. È SEMPRE in viaggio. Io sto qua a 
 
 **Parlare con Donna Ortensia** — Terrorizzata che si sappia che era cliente di Sergius. Se i PG la pressano (Intimidazione CD 14 o Persuasione CD 16): ammette di aver comprato "certe cose" ma non sa chi le produceva. *"Me le portava una donna al mercato."* (Flavia.)
 
+**Andare a Monteverde** — Se i PG cercano informazioni sui ritratti o sui pittori, possono andare a Monteverde (quartiere artigiani/artisti di Fianus). Lì incontrano **Simpatico Figuro**, bottegaio chiacchierone (CAR 15, INT 12). Vende cornici, colori, tele — conosce tutti gli artisti del quartiere.
+
+Se i PG chiedono di pittori che facevano ritratti "particolari": Figuro alza un sopracciglio. *"Ah, 'ste cose... c'è molto riserbo, sapete. Ma io ho le mie fonti. Datemi qualche giorno e cinque monete d'argento, e vi trovo un nome."*
+
+Figuro non sa niente di preciso ora — ma sotto pagamento (5 ma) cercherà e tornerà con il nome del pittore nella Puntata 4. Se i PG non hanno i soldi adesso, possono tornare da lui in qualsiasi momento — la bottega è sempre lì.
+
 ### L'invito del Marchese
 
 Dopo due giorni, un paggio in livrea consunta ma dignitosa si presenta alla Taberna con un messaggio inceralaccato.
@@ -130,7 +132,7 @@ Se i PG chiedono a Gorim del Marchese: *"Arimano? Sì, lo conosco di nome. Nobil
 
 ### Il viaggio a Vetusta Portus
 
-Vetusta Portus è la frazione sul mare a sud di Fianus. Mezza giornata di cammino lungo la strada costiera. Mappa: `maps/VetustaPortus.md`.
+Vetusta Portus è la frazione sul mare a sud di Fianus. Mezza giornata di cammino lungo la strada costiera. Mappa: `../maps/VetustaPortus.md`.
 
 ### 📖 Da leggere ai giocatori
 
@@ -144,6 +146,47 @@ Sergius si presenta come Marchese Arimano. Aspetto: uomo di mezza età, portamen
 
 **Nota meta: Sergius NON deve essere riconosciuto come S. Se i PG fanno tiri per sospettare, le CD devono essere impossibili a questo punto (CD 25+). Il collegamento arriverà nelle puntate successive.**
 
+**Capacità di fuga di Sergius (promemoria DM):**
+- Rete di informatori (sa sempre cosa succede prima che succeda)
+- Oggetto magico di invisibilità (per sparire quando serve)
+- Maestro del camuffamento (può cambiare aspetto radicalmente, anche dal sé stesso aitante al vero sé gobbo)
+
+Sergius NON è un combattente. Se messo alle strette: si arrende, è cortese, chiama le guardie cittadine. Se ha tempo: usa l'invisibilità e sparisce. Non attacca mai.
+
+### 🎲 Note per il DM — Il piano di Arimano
+
+Arimano vuole invitare i PG a cena per proporre la quest (recuperare la merce da Er Braccio) e studiarli. L'invito arriva qualche giorno dopo — tramite paggio con lettera inceralaccata.
+
+**Se i PG ci arrivano da soli** (come nella sessione 3 — tramite Flavia o marinai al porto): Arimano lo viene a sapere tramite i suoi informatori ("uccellini di Varys"). Si presenta al magazzino **dopo** il combattimento, accompagnato da 3-4 scaricatori per portare via la merce. Si congratula, li premia, e li invita a cena.
+
+### Arimano al porto (dopo il combattimento — per premiarli e invitarli a cena)
+
+### 📖 Da leggere ai giocatori
+
+> Mentre riprendete fiato tra le casse rovesciate e i banditi a terra, una voce cordiale arriva dall'ingresso del magazzino.
+>
+> *"Impressionante. Davvero impressionante."*
+>
+> Un uomo di mezza età, vestito bene ma non troppo, si fa avanti con le mani alzate in segno di pace. Dietro di lui, tre scaricatori con l'aria di chi aspetta ordini.
+>
+> *"Marchese Arimano. Credo che la mia merce sia qui dentro — grazie a voi, posso finalmente recuperarla."*
+
+### 🎲 Note per il DM
+
+Arimano si congratula, paga i PG (5 mo e la sua "eterna riconoscenza" — *"Vi devo un favore, e un Arimano non dimentica i debiti"*), e li invita a cena. Gli scaricatori intanto portano via le casse (destinazione non nota ai PG).
+
+Arimano presenta la questione come una truffa subita: Er Braccio lo ha fregato, punto. Non ammette la sua povertà relativa — è orgoglioso. Se i PG chiedono perché non ha pagato Er Braccio: *"Un malinteso. Avevamo un accordo e lui ha cambiato le carte in tavola."* Non dice mai "non ho i soldi".
+
+I PG possono capire la situazione economica reale osservando la casa durante la cena (Percezione CD 12 o senza tiro se cercano attivamente): ragnatele negli angoli alti, sedie che traballano, muri scrostati dietro i quadri, polvere sui mobili meno usati, il giardino incolto. Tutto dice "qui una volta c'erano soldi, ora no".
+
+Se i PG esitano:
+
+> *"Venite a cena da me stasera. Pizza e vino buono. Di cosa avete paura — non sono mica un vampiro."*
+
+Ride. Se insistono nel rifiutare, Arimano non forza — ma li cercherà di nuovo (tramite paggio).
+
+**Economia — la sfiga giornaliera:** Le 5 mo di Arimano non durano. Vedi tabella sfighe in `LAnelloDelConte.md` § I PG.
+
 ### La cena
 
 ### 📖 Da leggere ai giocatori
@@ -154,7 +197,25 @@ Sergius si presenta come Marchese Arimano. Aspetto: uomo di mezza età, portamen
 >
 > L'interno della casa conferma l'impressione esterna: mobili di qualità, quadri alle pareti, un camino grande — tutto leggermente sbiadito, leggermente polveroso, leggermente triste. Come un uomo ricco che non è più ricco ma non ha ancora accettato la cosa.
 >
-> Vi fa accomodare in una sala da pranzo con un tavolo apparecchiato per cinque. La pizza è buona — impasto sottile, pomodoro, formaggio, olive. Il vino è migliore di quello di Domina Lella (non ci vuole molto).
+> Vi fa accomodare in una sala da pranzo con un tavolo apparecchiato per cinque. Il camino è acceso e proietta ombre calde sulle pareti — carta da parati a fiori, un tempo elegante, ora un po' scrostata agli angoli. Un lampadario in ferro con metà delle candele mancanti. Una credenza con bottiglie di vino e piatti di ceramica. Due finestre alte danno sul giardino buio — si intravedono i cipressi e la sagoma della fontana secca.
+>
+> La pizza è buona — impasto sottile, pomodoro, formaggio, olive. Il vino è migliore di quello di Domina Lella (non ci vuole molto). Il Marchese versa con generosità.
+
+### 🎲 Note per il DM — Cosa vuole davvero Sergius dalla cena
+
+Sergius ha **tre obiettivi** alla cena, in ordine di priorità:
+
+1. **Capire chi sono e cosa sanno.** Quanto sono vicini a scoprire la sua identità? Sanno della doppia S? Hanno collegato le pozioni a lui? Se sì, quanto è urgente depistare.
+
+2. **Capire se li può portare dalla sua parte.** Se i PG odiano il Conte o sono cinici/mercenari, Sergius potrebbe usarli in futuro — non come complici, ma come pedine inconsapevoli. La domanda sul Conte e sulla Gabella serve a questo.
+
+3. **Recuperare la merce.** Obiettivo esplicito e pratico. Le casse contengono ingredienti per le pozioni (erbe, polveri) e il rinoceronte (che Sergius rivende come "animale esotico" — in realtà il corno serve per le pozioni). Se la cena avviene prima del magazzino, è una richiesta. Se i PG hanno già trovato il magazzino, è un obiettivo già soddisfatto — Sergius arriva con gli scaricatori a ritirare. In entrambi i casi, gli scaricatori sono suoi uomini fidati.
+
+**Come si comporta in base alle risposte dei PG:**
+- Se i PG criticano il Conte → Sergius è soddisfatto, annota mentalmente, potrebbe offrire lavori futuri
+- Se i PG difendono il Conte → Sergius cambia argomento, li classifica come "non utili ma non pericolosi"
+- Se i PG menzionano la doppia S o le indagini → Sergius resta impassibile (Inganno +7) ma internamente si mette in allerta. Nelle puntate successive sarà più cauto.
+- Se i PG sono sospettosi di lui → Sergius è affabile e disarmante. Non si tradisce.
 
 ### 🎲 Note per il DM — Sergius li studia
 
@@ -163,10 +224,51 @@ Durante la cena Sergius chiacchiera. È affabile, fa domande, ascolta. Quello ch
 1. **Quanto sono pericolosi?** — Chiede delle loro avventure. *"Ho sentito che siete scesi nelle fogne di Fianus. Coraggiosi. O disperati."* Ride.
 2. **Cosa pensano del Conte?** — Butta lì commenti. *"Il Conte... un uomo misterioso. Voi che ne pensate? Governa bene Fianus?"* Se i PG criticano il Conte, Sergius annuisce con interesse. Se lo difendono, cambia argomento con grazia.
 3. **Cosa pensano della Gabella Pudicitiae?** — *"Ah, la famosa Gabella. Una legge curiosa, non trovate? Tassare la... la fantasia, diciamo. C'è chi ci ha rimesso parecchio."* Pausa. *"Ma non parliamo di politica. Parliamo di affari."*
+4. **Possono essere utili?** — *"Avete altri impegni a Fianus? Lavorate per qualcuno?"* Se menzionano Gorim: *"Ah, il buon Gorim. Un uomo... zelante."* Sorriso enigmatico.
 
 Intuizione CD 15: il Marchese è genuinamente interessato alle risposte, non sta facendo conversazione. C'è un motivo dietro le domande.
 
-### La missione
+### Se i PG esplorano la casa
+
+### 🎲 Note per il DM
+
+Sergius non impedisce ai PG di muoversi — sarebbe sospetto. Se qualcuno chiede del bagno o si allontana dal tavolo, indica il corridoio con un gesto. Ma la casa è piccola e Sergius ha l'orecchio fino.
+
+**Piano terra — accessibile liberamente:**
+- **Corridoio**: quadri di paesaggi, niente di sospetto.
+- **Salotto**: polveroso, inutilizzato. Niente.
+- **Cucina**: una cuoca (pagata per la serata) prepara la pizza. Niente.
+
+**Piano terra — richiede scusa per allontanarsi:**
+- **Studio**: porta chiusa ma non a chiave. Cassetto della scrivania chiuso a chiave (Scassinare DC 18 o Forza DC 20). Contiene: corrispondenza con iniziali cifrate, nomi in codice, riferimenti a "consegne" e "clienti". Non c'è la firma doppia S — Sergius non è stupido. Un PG con Investigazione CD 16 nota che la calligrafia è la stessa della lettera d'invito.
+
+**Piano superiore — richiede una scusa molto buona:**
+- **Camera padronale**: armadio con compartimento segreto (Investigazione DC 20, fondo falso). Contiene: parrucche, trucco teatrale, un mantello con cappuccio, scarpe con rialzo. Materiali da travestimento.
+- **Ripostiglio**: porta chiusa a chiave (Scassinare DC 15). Casse con etichette grattate via. Una scatola con bottiglie vuote — Investigazione DC 17: stessa forma delle bottiglie "La Rocca Imponente". Un registro con voci in codice.
+
+**Se Sergius li scopre a curiosare:**
+
+Non si arrabbia. Non attacca. È gelido e cortese:
+
+> *"Vi siete persi? Il bagno è la prima porta a sinistra."*
+
+Se i PG insistono o vengono trovati con le mani nel cassetto:
+
+> *"Capisco. Siete persone... curiose. Va bene. Credo che la serata sia finita. Vi ringrazio per la compagnia."*
+
+Li accompagna alla porta con fermezza educata. Non li minaccia. Non chiama le guardie (non vuole attenzione). Ma da quel momento Sergius sa che i PG sono pericolosi e nelle puntate successive sarà molto più cauto.
+
+**Se i PG lo attaccano fisicamente:**
+
+Sergius alza le mani. *"Fermi! Che fate? Sono un cittadino! Guardie!"* Si arrende immediatamente. Se ha un round libero, usa l'oggetto di invisibilità e sparisce. Se non può fuggire, si lascia catturare — e poi sparisce dalla cella con un travestimento (la rete di informatori gli porta quello che serve).
+
+**Nota meta:** Sergius NON deve morire. Se i PG lo uccidono, la trama si rompe. Usare l'invisibilità come ultima risorsa per farlo scappare prima del colpo fatale.
+
+### La missione (solo se la cena avviene PRIMA del magazzino)
+
+### 🎲 Note per il DM
+
+Questa sezione si usa solo se i PG accettano l'invito e vanno a cena **prima** di andare al magazzino. Se sono già andati al magazzino da soli, Arimano non propone la quest — si congratula e basta. La cena diventa solo il momento in cui li studia.
 
 ### 📖 Da leggere ai giocatori
 
@@ -180,12 +282,14 @@ Intuizione CD 15: il Marchese è genuinamente interessato alle risposte, non sta
 
 ### 🎲 Note per il DM
 
+Sergius porta con sé 3-4 scaricatori (gente del porto, non combattenti) per trasportare le casse una volta recuperate. Li presenta come "i miei uomini, per il trasporto". Non partecipano al combattimento — aspettano fuori.
+
 Se i PG chiedono dettagli:
 
 - **Cosa c'è nelle casse?** — *"Ingredienti. Erbe, polveri, e degli animaletti che mi servono per... preparati. Niente di illegale, ve lo assicuro."* (Intuizione CD 13: non sta mentendo del tutto, ma sta omettendo parecchio.)
 - **Come riconoscono le casse?** — *"Hanno il mio marchio: una A con una corona sopra. Ce ne sono sei o sette. Più una gabbia grande — quella è per gli animaletti."*
 - **Er Braccio è pericoloso?** — *"È un uomo del porto. Ha i suoi... collaboratori. Non vi sottovalutate, ma non sottovalutate nemmeno lui."*
-- **Quanto paga?** — *"Dieci monete d'oro. Cinque ora, cinque alla consegna."* (Trattabile fino a 15 mo totali con Persuasione CD 14.)
+- **Quanto paga?** — *"Cinque monete d'oro e la mia eterna riconoscenza. Un Arimano non dimentica chi lo aiuta."* (Trattabile fino a 8 mo con Persuasione CD 14, ma Arimano soffre visibilmente.)
 - **Perché non va lui?** — *"Perché Er Braccio mi conosce e non mi aprirebbe la porta. A voi sì — siete nuovi, siete armati, e non avete una storia con lui."*
 
 Sergius dà ai PG 5 mo di anticipo.
@@ -196,7 +300,7 @@ Sergius dà ai PG 5 mo di anticipo.
 
 ### Vetusta Portus — il porto
 
-Mappa: `maps/VetustaPortus.md`.
+Mappa: `../maps/VetustaPortus.md`.
 
 Il porto è una fila di magazzini in legno e pietra lungo la banchina. Di giorno: scaricatori, pescatori, mercanti. Di sera: meglio non farsi vedere. Er Braccio opera dal **Magazzino 4** — il più grande, con le porte sbarrate e un paio di tizi dall'aria poco raccomandabile fuori.
 
@@ -240,7 +344,7 @@ Questo lo rende sospetto come possibile S — ce l'ha col Conte, è un criminale
 
 ### Il combattimento nel magazzino
 
-**Mappa:** `maps/MagazzinidelPorto.md`
+**Mappa:** `maps/MagazziniDelPorto.md`
 
 ### 🎲 Note per il DM
 
@@ -252,7 +356,7 @@ Il magazzino è pieno di ostacoli: casse impilate (copertura mezza), barili (ter
 
 | Nome | N. | PF | CA | Attacco | Note |
 |------|----|----|----|---------| -----|
-| Er Braccio (Bandit Captain) | 1 | 65 | 15 | +5, 2d6+3 scimitarra × 2 + 1d6+1 pugnale | Multiattack (3 attacchi) |
+| Er Braccio (Bandit Captain) | 1 | 65 | 15 | +5, 1d6+3 scimitarra × 2 + 1d4+3 pugnale | Multiattack (3 attacchi) |
 | Bandit | 4 | 11 | 12 | +3, 1d6+1 scimitarra | |
 
 I due banditi di guardia fuori arrivano al round 2 se non sono già stati eliminati.
@@ -311,17 +415,23 @@ Il rinoceronte **non è un nemico** — è un animale terrorizzato che vuole sca
 ### Dopo il combattimento
 
 Le casse con il marchio di Arimano (A con corona) sono nel magazzino — quelle ancora intatte. Contengono:
-- Erbe essiccate e polveri (ingredienti grezzi, non lavorati)
-- Parti animali conservate in barattoli (corna macinate, ghiandole, peli — niente di riconoscibile a prima vista)
+- Spezie ed erbe aromatiche (ingredienti per le pozioni — colore, odore, sapore)
+- Parti animali conservate in barattoli (corna macinate, ghiandole — non servono per le pozioni, servono per convincere i compratori che la ricetta è pregiata)
 - Gabbie vuote (gli animali sono scappati)
+
+### 🎲 Note per il DM — Il business di Arimano
+
+Le pozioni di vigore sono acqua colorata e speziata — le spezie servono a renderle credibili (odore, colore, consistenza). Gli animali esotici (il rinoceronte) sono **marketing**: Arimano li mostra ai pochi clienti rimasti per giustificare prezzi altissimi ("ci metto il corno di rinoceronte, ingrediente rarissimo"). Che lo metta davvero o no è irrilevante — il punto è convincere il compratore.
+
+È una mossa disperata: dopo la Gabella i clienti sono pochi e spaventati. Arimano investe in animali costosi per un business che non rende più. Per questo è in rovina — spende più di quanto guadagna.
 
 ### 🎲 Note per il DM — Indizi
 
 I PG ora sanno che:
-- Il Marchese Arimano commercia in ingredienti esotici (erbe, parti animali)
+- Il Marchese Arimano commercia in spezie e animali esotici
 - Er Braccio ce l'ha col Conte — è un possibile sospetto come S
 - Il Marchese ha detto "animaletti" per un rinoceronte — non è del tutto onesto
-- Gli ingredienti grezzi potrebbero servire a qualsiasi cosa — i PG non hanno modo di collegarli alle pozioni di vigore (per ora)
+- Le spezie potrebbero servire a qualsiasi cosa — i PG non hanno modo di collegarle alle pozioni di vigore (per ora)
 
 I PG non devono poter collegare il Marchese a S in questa puntata. Il seme è che il Marchese è un tipo ambiguo con affari poco chiari.
 
@@ -368,7 +478,7 @@ Il gancio per la Puntata 4: Er Braccio è in circolazione (se è scappato), ce l
 
 ## Ricompense
 
-- **Oro:** 10-15 mo dal Marchese + eventuale loot dal magazzino
+- **Oro:** 5 mo dal Marchese (+ "eterna riconoscenza") + eventuale loot dal magazzino
 - **Oggetti:** Ingredienti grezzi (erbe, polveri, parti animali — valore commerciale minimo, uso non chiaro)
 - **Informazioni:** Il Marchese commercia in ingredienti esotici. Er Braccio ce l'ha col Conte. Il Marchese non è del tutto onesto.
 - **Contatti:** Il Marchese Arimano come possibile committente futuro
