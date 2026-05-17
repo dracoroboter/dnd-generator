@@ -149,12 +149,17 @@ def main():
 
     # PDF per ogni lingua
     for lang in langs:
-        suffix = f"_{lang}" if lang != "it" else ""
-        pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*lowres{suffix}*only*.pdf")
+        suffix = f"_{lang}"
+        # Il PDF generato ha _en alla fine per inglese, niente per italiano
+        gen_suffix = f"_{lang}" if lang != "it" else ""
+        pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*only*lowres{gen_suffix}.pdf")
         candidates = sorted(glob.glob(pattern))
         if not candidates:
-            pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*lowres{suffix}*.pdf")
+            pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*lowres{gen_suffix}.pdf")
             candidates = sorted(glob.glob(pattern))
+            # Escludi quelli con _en se cerchiamo italiano
+            if lang == "it":
+                candidates = [c for c in candidates if not c.endswith("_en.pdf")]
         if candidates:
             src = candidates[-1]
             dest_name = f"{adventure}_{date_str}_lowres{suffix}.pdf"
@@ -177,7 +182,7 @@ def main():
 
     # ZIP stat block + compendium per ogni lingua
     for lang in langs:
-        suffix = f"_{lang}" if lang != "it" else ""
+        suffix = f"_{lang}"
         lang_dir = os.path.join(adv_dir, lang) if os.path.isdir(os.path.join(adv_dir, lang)) else adv_dir
         sb_dir = os.path.join(lang_dir, "characters", "statblock")
 

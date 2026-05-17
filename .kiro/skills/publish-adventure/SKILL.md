@@ -36,15 +36,15 @@ Dopo aver generato per tutte le lingue:
 
 3. Rimuovi da `public/` le vecchie versioni: `rm -f public/<NomeAvventura>_*`
 4. Copia i PDF in `public/`:
-   - `<NomeAvventura>_YYYYMMDD_lowres.pdf` (IT)
+   - `<NomeAvventura>_YYYYMMDD_lowres_it.pdf` (IT)
    - `<NomeAvventura>_YYYYMMDD_lowres_en.pdf` (EN)
 5. Crea ZIP mappe:
    - `cd adventures/<NomeAvventura>/maps && zip -j /path/public/<NomeAvventura>_Maps.zip *.png *.jpg 2>/dev/null`
 6. Crea ZIP stat block:
-   - `cd adventures/<NomeAvventura>/<lang>/characters/statblock && zip -j /path/public/<NomeAvventura>_Statblocks.zip *.png`
+   - `cd adventures/<NomeAvventura>/<lang>/characters/statblock && zip -j /path/public/<NomeAvventura>_Statblocks_it.zip *.png`
    - `cd adventures/<NomeAvventura>/<lang>/characters/statblock && zip -j /path/public/<NomeAvventura>_Statblocks_en.zip *.png` (per EN)
 7. Copia compendium XML:
-   - `<NomeAvventura>_Compendium.xml` (IT)
+   - `<NomeAvventura>_Compendium_it.xml` (IT)
    - `<NomeAvventura>_Compendium_en.xml` (EN)
 8. Mostra il riepilogo: nome file, dimensione, data
 
