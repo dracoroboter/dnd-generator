@@ -42,45 +42,39 @@ def run(cmd, cwd):
 
 
 def collect_images(adv_dir):
-    """Collect all images from the adventure (maps, characters, scenes, cover, objects)."""
+    """Collect all images from the adventure (maps, characters, scenes, cover, objects).
+    Prefers -lowres versions when available."""
     images = []
     img_exts = (".png", ".jpg", ".jpeg")
 
-    # maps/ (exclude other/)
-    maps_dir = os.path.join(adv_dir, "maps")
-    if os.path.isdir(maps_dir):
-        for f in os.listdir(maps_dir):
-            if os.path.splitext(f)[1].lower() in img_exts:
-                images.append(("maps", os.path.join(maps_dir, f)))
+    def add_from_dir(category, directory):
+        if not os.path.isdir(directory):
+            return
+        seen_bases = set()
+        # First pass: collect all files
+        all_files = [f for f in os.listdir(directory) if os.path.splitext(f)[1].lower() in img_exts]
+        # Prefer lowres: if NomeMappa-lowres.jpg exists, skip NomeMappa.png
+        lowres_bases = set()
+        for f in all_files:
+            if "-lowres" in f:
+                base = f.split("-lowres")[0]
+                lowres_bases.add(base)
+        for f in sorted(all_files):
+            base = os.path.splitext(f)[0]
+            if "-lowres" in f:
+                images.append((category, os.path.join(directory, f)))
+            elif base not in lowres_bases:
+                images.append((category, os.path.join(directory, f)))
 
-    # characters/img/
-    chars_dir = os.path.join(adv_dir, "characters", "img")
-    if os.path.isdir(chars_dir):
-        for f in os.listdir(chars_dir):
-            if os.path.splitext(f)[1].lower() in img_exts:
-                images.append(("characters", os.path.join(chars_dir, f)))
-
-    # img/ (cover etc)
-    img_dir = os.path.join(adv_dir, "img")
-    if os.path.isdir(img_dir):
-        for f in os.listdir(img_dir):
-            if os.path.splitext(f)[1].lower() in img_exts:
-                images.append(("img", os.path.join(img_dir, f)))
-
-    # objects/*.png
-    obj_dir = os.path.join(adv_dir, "objects")
-    if os.path.isdir(obj_dir):
-        for f in os.listdir(obj_dir):
-            if os.path.splitext(f)[1].lower() in img_exts:
-                images.append(("objects", os.path.join(obj_dir, f)))
+    add_from_dir("maps", os.path.join(adv_dir, "maps"))
+    add_from_dir("characters", os.path.join(adv_dir, "characters", "img"))
+    add_from_dir("img", os.path.join(adv_dir, "img"))
+    add_from_dir("objects", os.path.join(adv_dir, "objects"))
 
     # */img/scenes/ (module scenes)
     for d in os.listdir(adv_dir):
         scenes_dir = os.path.join(adv_dir, d, "img", "scenes")
-        if os.path.isdir(scenes_dir):
-            for f in os.listdir(scenes_dir):
-                if os.path.splitext(f)[1].lower() in img_exts:
-                    images.append(("scenes", os.path.join(scenes_dir, f)))
+        add_from_dir("scenes", scenes_dir)
 
     return images
 
