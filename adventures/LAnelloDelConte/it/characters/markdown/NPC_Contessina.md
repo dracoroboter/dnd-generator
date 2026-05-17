@@ -2,7 +2,8 @@
 
 ## Informazioni generali
 
-- **Nome completo**: La Contessina (moglie del Conte)
+- **Nome completo**: Concetta Priapi (nome vero, mai usato in pubblico)
+- **Nome pubblico**: Contessa Sarah Serbelloni Vien dal Porto — o più popolarmente, "la Contessina"
 - **Ruolo**: nobildonna, moglie del Conte di Fianus
 - **Classe**: —
 - **Livello**: —

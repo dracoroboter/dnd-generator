@@ -185,7 +185,31 @@ Se i PG esitano:
 
 Ride. Se insistono nel rifiutare, Arimano non forza — ma li cercherà di nuovo (tramite paggio).
 
-**Economia — la sfiga giornaliera:** Le 5 mo di Arimano non durano. Vedi tabella sfighe in `LAnelloDelConte.md` § I PG.
+**Economia, la sfiga giornaliera:** Le 5 mo di Arimano non durano. Vedi tabella sfighe in `LAnelloDelConte.md` § I PG.
+
+**Se i PG vanno da Gorim per farsi togliere una sfiga:**
+
+| Sfiga | Reazione di Gorim |
+|-------|-------------------|
+| Pigione di Sora Lella | *"E che c'entro io? Pagatevi l'affitto come tutti. Io non sono il vostro padrone di casa."* Non aiuta. |
+| Equipaggiamento rotto | *"Siete avventurieri o ragionieri? Arrangiatevi."* Non aiuta. |
+| Multa delle guardie | Sospira. *"Fatemi vedere la multa."* La guarda, sbuffa. Se i PG hanno fatto qualcosa per lui di recente: *"Va bene, parlo io con le guardie. Ma è l'ultima volta."* La annulla. Se non gli devono niente: *"E perché dovrei? Pagate e non fate casino la prossima volta."* |
+| Cibo avariato | *"Andate dal guaritore come tutti. Non sono un ospedale."* Non aiuta. |
+| Creditore | *"I debiti vostri non sono affari miei. Io vi pago per lavorare, non per coprirvi i debiti."* Non aiuta. |
+
+In generale Gorim aiuta **solo con le multe** (ha autorità sulle guardie) e **solo se i PG gli sono utili in quel momento**. Per tutto il resto li manda via.
+
+**Soglie per convincere Gorim ad annullare una multa:**
+
+| Condizione | Risultato |
+|------------|-----------|
+| I PG hanno completato un incarico per lui nella stessa puntata | Annulla senza tiro |
+| I PG hanno informazioni utili da dargli (pista su S, nome, luogo) | Annulla senza tiro |
+| I PG non hanno fatto niente di utile di recente, ma chiedono bene | Persuasione CD 14 |
+| I PG non hanno fatto niente E la multa è colpa loro (es. rinoceronte) | Persuasione CD 16 |
+| I PG lo minacciano o lo insultano | Rifiuta, si offende, li caccia |
+
+Se il tiro fallisce, Gorim non cambia idea: *"Ho detto no. Pagate e basta."*
 
 ### La cena
 
@@ -195,11 +219,27 @@ Ride. Se insistono nel rifiutare, Arimano non forza — ma li cercherà di nuovo
 >
 > *"Benvenuti, benvenuti. Entrate — la cena è quasi pronta. Non è niente di elaborato, ma a Vetusta Portus sappiamo fare la pizza come si deve."*
 >
-> L'interno della casa conferma l'impressione esterna: mobili di qualità, quadri alle pareti, un camino grande — tutto leggermente sbiadito, leggermente polveroso, leggermente triste. Come un uomo ricco che non è più ricco ma non ha ancora accettato la cosa.
+> Vi fa accomodare in una sala da pranzo con un tavolo apparecchiato per cinque. Il camino è acceso e proietta ombre calde sulle pareti — carta da parati a fiori, un po' scrostata agli angoli. Un lampadario in ferro con metà delle candele mancanti. Una credenza con bottiglie di vino e piatti di ceramica. Due finestre alte danno sul giardino buio — si intravedono i cipressi e la sagoma di una fontana.
 >
-> Vi fa accomodare in una sala da pranzo con un tavolo apparecchiato per cinque. Il camino è acceso e proietta ombre calde sulle pareti — carta da parati a fiori, un tempo elegante, ora un po' scrostata agli angoli. Un lampadario in ferro con metà delle candele mancanti. Una credenza con bottiglie di vino e piatti di ceramica. Due finestre alte danno sul giardino buio — si intravedono i cipressi e la sagoma della fontana secca.
+> Dalla cucina arriva una donna robusta con un grembiule, che si affaccia: *"Marchese, le posate buone... dove le tenete?"* Lui si alza con un sorriso: *"Scusate un momento."*
 >
-> La pizza è buona — impasto sottile, pomodoro, formaggio, olive. Il vino è migliore di quello di Domina Lella (non ci vuole molto). Il Marchese versa con generosità.
+> La pizza è buona — impasto sottile, pomodoro, formaggio, olive. Il vino è il **Vino del Castello di Portus** — detto anche "il Vino del Castello" — ed è decisamente migliore di quello di Domina Lella (non ci vuole molto). Il Marchese versa con generosità.
+>
+> Per chiudere, dalla cucina arriva il **Porco Fritto Imburrato** — il dolce tipico di Vetusta Portus. Frittelle di maiale dolci, zuccherate e unte di burro. I vetustiani ne lodano la leggerezza. I PG possono giudicare da soli.
+
+### 🎲 Dettagli della casa — cosa notano i PG
+
+**Senza tiro (guardandosi intorno normalmente):**
+
+La decadenza è visibile a chiunque: la carta da parati è scrostata agli angoli, il lampadario in ferro ha metà delle candele mancanti, e dalla finestra si intravede la fontana secca nel giardino buio. La cameriera — una donna robusta con grembiule, chiaramente a ore e non fissa — non sa dove sono le posate buone e deve chiedere al Marchese.
+
+**Con Percezione CD 12-14** (il DM decide la CD al momento, in base a quanto i PG stanno cercando attivamente):
+
+Chi guarda con più attenzione nota che le sedie scricchiolano e una è stata riparata con chiodi. I mobili sono di qualità ma impolverati, come se nessuno li pulisse da settimane. Sulla parete ci sono rettangoli più chiari dove stavano dei quadri — rimossi o venduti. Nella credenza il servizio di ceramica è incompleto: i piatti sono quasi uguali ma non identici, come se fossero stati rimpiazzati alla spicciolata. Mancano soprammobili — si vede l'orma della polvere dove stavano. Il vino è buono ma è l'unica bottiglia — niente riserva. Le posate d'argento sono per i PG; il Marchese usa posate normali.
+
+**Con Intuizione CD 13:** La cuoca non conosce la casa — non sa dove sono le cose, apre i cassetti sbagliati. Non è una domestica fissa.
+
+**Con Investigazione CD 14:** Il ferro battuto dei balconi non è solo arrugginito esteticamente — è compromesso strutturalmente. Nessuno ha i soldi per ripararlo.
 
 ### 🎲 Note per il DM — Cosa vuole davvero Sergius dalla cena
 
@@ -225,6 +265,14 @@ Durante la cena Sergius chiacchiera. È affabile, fa domande, ascolta. Quello ch
 2. **Cosa pensano del Conte?** — Butta lì commenti. *"Il Conte... un uomo misterioso. Voi che ne pensate? Governa bene Fianus?"* Se i PG criticano il Conte, Sergius annuisce con interesse. Se lo difendono, cambia argomento con grazia.
 3. **Cosa pensano della Gabella Pudicitiae?** — *"Ah, la famosa Gabella. Una legge curiosa, non trovate? Tassare la... la fantasia, diciamo. C'è chi ci ha rimesso parecchio."* Pausa. *"Ma non parliamo di politica. Parliamo di affari."*
 4. **Possono essere utili?** — *"Avete altri impegni a Fianus? Lavorate per qualcuno?"* Se menzionano Gorim: *"Ah, il buon Gorim. Un uomo... zelante."* Sorriso enigmatico.
+
+**La moglie:** A un certo punto della serata, Arimano menziona casualmente una moglie — *"Mia moglie è in villeggiatura, nelle campagne a nord di Fianus. L'aria di mare non le fa bene."* Non si dilunga. Se i PG chiedono: *"Si chiama... beh, la conoscerete quando torna. Donna riservata."* Cambia argomento.
+
+> **Nota DM — apertura di sceneggiatura:** La moglie è un seme narrativo. Da decidere nelle puntate successive se esiste davvero, se è morta, se è un'invenzione per sembrare rispettabile, o se nasconde qualcos'altro.
+
+**La S sui prodotti:** Se i PG menzionano la doppia S o i prodotti piccanti (pozioni, ritratti), Arimano conferma con naturalezza: *"Ah sì, la S. Quel marchio c'è da sempre — non è mai cambiato. I ritratti, quelli sì, erano solo suoi. Nessun altro li faceva. Le pozioni miracolose invece... beh, quelle le facevano in tanti. Ma la S era il marchio più noto."*
+
+> **Nota DM:** Sergius conferma informazioni utili ai PG: il marchio S non è mai cambiato, i nudi/ritratti erano prodotti esclusivamente da S (monopolio), mentre le pozioni rinvigorenti avevano anche altri produttori concorrenti. Questo rafforza la pista — la S è una persona specifica, non un marchio generico. Ovviamente Arimano non rivela che la S è lui.
 
 Intuizione CD 15: il Marchese è genuinamente interessato alle risposte, non sta facendo conversazione. C'è un motivo dietro le domande.
 
@@ -289,7 +337,7 @@ Se i PG chiedono dettagli:
 - **Cosa c'è nelle casse?** — *"Ingredienti. Erbe, polveri, e degli animaletti che mi servono per... preparati. Niente di illegale, ve lo assicuro."* (Intuizione CD 13: non sta mentendo del tutto, ma sta omettendo parecchio.)
 - **Come riconoscono le casse?** — *"Hanno il mio marchio: una A con una corona sopra. Ce ne sono sei o sette. Più una gabbia grande — quella è per gli animaletti."*
 - **Er Braccio è pericoloso?** — *"È un uomo del porto. Ha i suoi... collaboratori. Non vi sottovalutate, ma non sottovalutate nemmeno lui."*
-- **Quanto paga?** — *"Cinque monete d'oro e la mia eterna riconoscenza. Un Arimano non dimentica chi lo aiuta."* (Trattabile fino a 8 mo con Persuasione CD 14, ma Arimano soffre visibilmente.)
+- **Quanto paga?** — *"Cinque monete d'oro e la mia eterna riconoscenza. Un Arimano non dimentica chi lo aiuta."* Se i PG provano a trattare, Arimano si irrigidisce: *"È quello che posso offrire."* Non sale — non può, anche se non lo dice.
 - **Perché non va lui?** — *"Perché Er Braccio mi conosce e non mi aprirebbe la porta. A voi sì — siete nuovi, siete armati, e non avete una storia con lui."*
 
 Sergius dà ai PG 5 mo di anticipo.
@@ -341,6 +389,8 @@ Er Braccio durante il dialogo, se i PG menzionano il Conte o Fianus:
 > *"Il Conte? Quel fantasma? Ce l'ho con lui da prima che nasceste voi. Le sue leggi mi hanno rovinato il commercio. Se potessi, gli farei un bel discorsetto in faccia."*
 
 Questo lo rende sospetto come possibile S — ce l'ha col Conte, è un criminale, opera al porto.
+
+**Il vero nome:** Er Braccio NON dice mai il suo vero nome in questa puntata. Se i PG chiedono, risponde solo *"Er Braccio. Basta."* Il nome "Salvatore Soggettoni" emerge solo nella Puntata 4, quando Gorim lo dice per caso consultando i registri — senza notare la doppia S. La gag è che Gorim si eccita per la S di Sberluccica ma ignora completamente la S.S. di Soggettoni.
 
 ### Il combattimento nel magazzino
 
@@ -394,11 +444,24 @@ Il rinoceronte **non è un nemico** — è un animale terrorizzato che vuole sca
 - **Obiettivo:** sfondare la porta del magazzino (la porta ha CA 15, PF 20, soglia danno 5)
 - **Attacca** chiunque si trovi sulla sua traiettoria o si avvicini entro 5 ft.
 - **Non insegue** — se i PG si tolgono di mezzo, li ignora
-- **Ogni carica** contro la porta o i muri fa tremare le casse vicine. Tiro 1d4:
-  1. Niente
-  2. Una cassa si apre: 2 scimmie (Baboon) escono urlando e lanciano oggetti
-  3. Una cassa si apre: 2 serpenti velenosi (Poisonous Snake) scivolano fuori
-  4. Una cassa si apre: 1 ragno gigante (Giant Wolf Spider) cala dal soffitto
+- **Sfonda solo due cose:** la sua cassa e la porta d'ingresso. Non colpisce le altre casse.
+
+### 🎲 Note per il DM — Le casse degli animali
+
+Le casse con gli animali minori si aprono **a discrezione del DM** quando serve aumentare il caos — non c'è un tiro automatico. Momenti buoni per aprirne una:
+
+- Un PG si appoggia a una cassa per ripararsi
+- Il combattimento sta diventando troppo facile
+- Serve un diversivo per far scappare Er Braccio
+- Un PG critica o colpisce una cassa
+
+Ogni cassa contiene uno dei seguenti:
+
+| Contenuto | Stat block | Note |
+|-----------|-----------|------|
+| 2 scimmie | Baboon | Fastidiose, rubano oggetti, lanciano cose |
+| 2 serpenti velenosi | Poisonous Snake | Scivolano fuori silenziosi |
+| 1 ragno gigante | Giant Wolf Spider | Cala dal soffitto |
 
 | Animale | PF | CA | Attacco | Note |
 |---------|----|----|---------|------|
@@ -453,7 +516,7 @@ Se i PG sono passati da Arimano prima del magazzino, tornano da lui con la merce
 >
 > *"Il rinoceronte era una sorpresa, immagino. Mi scuso — avrei dovuto essere più specifico. Ma avete fatto un lavoro eccellente."*
 
-Paga le 5 mo rimanenti (o di più se avevano trattato). È genuinamente soddisfatto.
+Paga 5 mo e la sua "eterna riconoscenza". Non offre di più — non può permetterselo, anche se non lo ammette. È genuinamente soddisfatto.
 
 Se i PG lo confrontano sugli "animaletti":
 

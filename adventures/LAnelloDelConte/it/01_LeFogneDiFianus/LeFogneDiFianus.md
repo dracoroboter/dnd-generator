@@ -213,7 +213,7 @@ Sotto il carretto di Terzilio c'è una botola di ferro (2qd / 3m / 10ft) con lo 
 
 Le fogne di Fianus sono sorprendentemente elaborate per un borgo di queste dimensioni. Nessuno sa chi le abbia costruite né perché. Sono un dungeon a 5 stanze con un mix di architettura costruita e caverne naturali.
 
-**Perché l'Anello è qui e non sotto il castello:** Le fogne scorrono da est (Aviano, dove c'è il castello del Conte) verso ovest (Settebagni, dove c'è l'ingresso). La corrente ha trasportato l'Anello dalle latrine del Conte fino a queste stanze, dove Sergius l'ha trovato.
+**Perché l'Anello è qui e non sotto il castello:** Le fogne scorrono da est (Aviano, dove c'è il castello del Conte) verso ovest (Settebagni, dove c'è l'ingresso). La corrente ha trasportato l'Anello dalle latrine del Conte fino a queste stanze. Sergius non l'ha mai trovato — ha solo scoperto che era stato perduto e ha mentito nella lettera per attirare avventurieri. L'Anello è ancora qui da qualche parte, perso nel fango e nelle fogne. Verrà trovato miracolosamente nell'ultima puntata.
 
 **Il cunicolo:** Dalla Stanza 1, un lungo cunicolo parte verso est in direzione del castello. Circa 10 minuti di cammino a luce fioca — sgocciolii, eco, rumore di topi, ma non succede nulla. Il cunicolo si restringe progressivamente fino a diventare impraticabile. I PG non possono raggiungere il castello da qui, ma capiscono che le fogne collegano effettivamente Settebagni ad Aviano.
 

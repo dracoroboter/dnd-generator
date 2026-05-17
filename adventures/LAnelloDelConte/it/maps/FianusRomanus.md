@@ -8,6 +8,7 @@ Borgo nel sud di Drakenhold, collegato alla capitale. Circondato da terre fertil
 - **Aviano** — quartiere sud-est; residenza del Conte (chiusa, presidiata)
 - **Settebagni** — quartiere a sud del Mercato Centrale e a sud-ovest di Aviano; ingresso alle fogne sotto il carretto di Terzilio il verduraio
 - **Ponte Milvius** — collega il Mercato a Settebagni
+- **Monteverde** — quartiere artigiani; via principale est-ovest con botteghe (Simpatico Figuro, Sberluccica in vicolo delle Arti)
 - **Tempio** — vicino all'ingresso delle fogne
 
 ## Note geografiche

@@ -25,7 +25,7 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 - [ ] Definire il quarto PG
 - [x] Puntata 2: La Festa del Grazie — discorso di Sergius, caccia al tesoro, NPC nuovi
 - [x] Puntata 3: ~~Il Rivale~~ → Una Pizza in Compagnia (scritta, vedi modulo 03)
-- [ ] Puntata 4: La Pista Vera (forse) — mercante di anelli contraffatti, indizio reale non riconosciuto
+- [x] Puntata 4: Il Corniciaio — Sberluccica interrogato, rapito dalla Contessina, salvato dai PG (scritta, vedi modulo 04)
 - [ ] Puntata finale (numero da stabilire): Il Finale — rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
 - [ ] Definire cosa sia davvero l'Anello e perché la rivelazione finale è soddisfacente
 - [ ] Definire l'esclamazione ricorrente del borgo (equivalente di "Daje!")
@@ -73,7 +73,7 @@ La doppia vita di S. (Arimano/Sergius) e i ritratti sono vaghi. Precisare senza 
 
 ## Problemi aperti — Puntata 1
 
-1. **La lettera nella stanza 5**: il cattivo misterioso (Sergius) ha trovato l'Anello e lasciato una caccia al tesoro. Va definito meglio cosa vuole e come ha saputo dell'Anello.
+1. **La lettera nella stanza 5**: ~~il cattivo misterioso (Sergius) ha trovato l'Anello e lasciato una caccia al tesoro. Va definito meglio cosa vuole e come ha saputo dell'Anello.~~ → ✅ RISOLTO: Sergius non ha l'Anello, è un bluff. Ha scoperto che era stato perduto e finge di averlo per attirare avventurieri.
 2. **Due incontri sociali di fila** (stanza 1 e 2): Ratti + Ermolao sono entrambi dialogo. Valutare se invertire stanza 2 e 3.
 3. **Grunzio è troppo pericoloso**: anche con 30 PF, un Ogre fa 2d8+4 — one-shot su PG lv1. Abbassare il danno o rendere esplicito che non colpisce per uccidere.
 4. **Manca un motivo per cui i PG accettano**: Gorim dice "ordine del Conte" ma i PG non lavorano per lui. La trattativa sul compenso è il motivo, ma va reso più esplicito.
@@ -213,7 +213,77 @@ Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
 
 ---
 
+## Pulizia stile (em dash e emoji)
+
+Regola: no trattino lungo, no emoji (tranne ✅). Da applicare progressivamente quando si toccano i file.
+
+- [x] `it/XX_IlFinaleDiStagione/IlFinaleDiStagione.md`
+- [ ] `it/03_UnaPizzaInCompagnia/UnaPizzaInCompagnia.md` (~106 occorrenze)
+- [ ] `it/04_IlCorniciaio/IlCorniciaio.md`
+- [ ] `it/01_LeFogneDiFianus/LeFogneDiFianus.md`
+- [ ] `it/02_LaFestaDelGrazie/LaFestaDelGrazie.md`
+- [ ] `it/LAnelloDelConte.md`
+- [ ] `it/characters/markdown/NPC_SergiusArimano.md`
+- [ ] `it/characters/markdown/NPC_Contessina.md`
+- [ ] `it/characters/markdown/NPC_SirGorimVel.md`
+- [ ] `PlanBook.md`
+- [ ] `meta/DiarioSessioni.md`
+
+---
+
 *Ultimo aggiornamento: Maggio 2026*
+
+---
+
+## Buchi e contraddizioni da risolvere (emersi sessione 4)
+
+### Contraddizioni
+
+- [x] **Chi commissionava i ritratti?** DECISO: S faceva da tramite. I committenti erano facoltosi (spesso nobili) e di solito il consenso c'era. I ritratti del Conte erano stati commissionati da altri senza il suo consenso. Il Conte, divertito, una volta ha posato per un vero ritratto nudo (mai pagato, Arimano se l'è tenuto). La Contessina sa dei deepfake, NON del vero ritratto.
+- [x] **La Gabella — chi l'ha imposta?** DECISO: la Contessina l'ha ideata, il Conte l'ha firmata per quiete familiare.
+- [x] **Sergius ce l'ha col Conte o con la Contessina?** DECISO: con entrambi. Contessina = ha ideato la tassa (odio pratico). Conte = ha firmato per quiete familiare + non ha pagato il vero ritratto (odio personale, tradimento di un cliente).
+
+### Buchi
+
+- [x] **Tempistica della Gabella** — DECISO: circa un anno e mezzo fa. Abbastanza per la decadenza visibile della casa e per Sberluccica/Scrocchiazeppi di rifarsi una vita.
+- [ ] **La moglie di Arimano** — aggiunta sessione 4. Esiste? È morta? È un'invenzione? Perché non sa dei commerci?
+- [x] **Come Sergius ha trovato l'Anello nelle fogne?** DECISO: Non l'ha trovato. Ha scoperto fortuitamente che era stato perduto e ha mentito nella lettera dicendo di averlo per attirare l'attenzione degli avventurieri e testarne le capacità. L'Anello viene trovato miracolosamente nell'ultima puntata, i PG vanno verso il castello per consegnarlo e il castello esplode.
+- [x] **Cosa vuole fare Sergius con l'Anello?** DECISO: Niente — non ce l'ha. L'Anello è il pretesto per attirare avventurieri da testare e reclutare. Il bluff è coerente col personaggio Enigmista.
+- [x] **Puntata 4 nel todo** — aggiornato: "Il Corniciaio" (già scritta).
+- [x] **Il vecchio marchio di S** — DECISO: il logo è l'alabarda che sbuca dal cespuglio (sulle etichette), la firma/marchio è la doppia S. Sono sempre stati questi, non sono mai cambiati.
+- [x] **Il quarto PG** — nella campagna giocata sono sempre in 4. L'avventura scritta è bilanciata per 3-4 PG; se il party è 3, il DM riduce la difficoltà degli scontri (indicato nelle note dei combattimenti).
+
+---
+
+## Linee di sviluppo — decisioni da prendere
+
+### Puntata 5 (da scrivere)
+
+- [ ] Cosa succede tra la puntata 4 e la finale? Serve almeno una puntata intermedia?
+- [ ] Il "progetto misterioso" per cui i PG hanno accettato di lavorare per Arimano — cos'è? Dove porta?
+- [ ] I PG scoprono che Sergius = Marchese Arimano in quale puntata? Prima o durante la finale?
+- [ ] Come viene smascherato Sergius? I PG collegano i travestimenti? Qualcuno lo tradisce?
+
+### Puntata finale
+
+- [ ] Come viene trovato l'Anello miracolosamente? Dove, come, perché proprio ora?
+- [ ] Sergius vuole essere portato dal Conte per rivelare il ritratto — come ci arrivano i PG?
+- [ ] Il Burmini: che affari aveva il Conte? Commercio? Alleanze militari? Debiti?
+- [ ] I maghi del Burmini: quanti, come attaccano, cosa vogliono (vendetta? messaggio politico?)
+- [ ] Sergius muore con alta probabilità — lasciare una porta aperta per la sopravvivenza o no?
+
+### Moglie di Arimano
+
+- [ ] Esiste davvero? È morta? È un'invenzione?
+- [ ] Se esiste: perché non sa dei commerci? Perché è lontana?
+- [ ] Ha un ruolo nella storia o resta solo colore?
+
+### Arco narrativo generale
+
+- [ ] Quante puntate totali? (4 scritte + almeno 1 intermedia + finale = minimo 6?)
+- [ ] La vendetta di Sergius si compie o viene interrotta dall'esplosione?
+- [ ] I PG alla fine sono dalla parte di Sergius, contro di lui, o ambigui?
+- [ ] Cosa resta irrisolto volutamente per Il Re Spezzato?
 
 > **TODO strutturale:** Valutare se spostare anche `PlanBook.md` nella directory `meta/` insieme a `DiarioSessioni.md`. Entrambi sono documenti di lavoro del DM, non contenuto pubblicabile.
 
@@ -247,7 +317,7 @@ Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
 | D18 | Animali esotici = marketing | Il rinoceronte e simili servono per convincere i compratori che la ricetta è pregiata e alzare i prezzi. Mossa disperata. |
 | D19 | Business in declino | Dopo la Gabella, pochi clienti spaventati. Arimano investe in animali costosi → si sta rovinando. |
 | D20 | Er Braccio = Salvatore Soggettoni | Nome completo deciso. |
-| D21 | Contessina = Concetta Sgamarri | Cognome da nubile. Si vergogna delle origini, non lo dice mai. |
+| D21 | Contessina = Concetta Priapi | Nome vero. Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle origini, non dice mai il vero nome. |
 | D22 | Speziale = Sempronio Scrocchiazeppi | Ex produttore pozioni, ora spezieria legittima a Vetusta. |
 | D23 | Pittore = Mastro Cecilio Sberluccica | Ex pittore ritratti, ora corniciaio a Monteverde. |
 | D24 | Simpatico Figuro | Bottegaio Monteverde, vendeva ritratti erotici, ha smesso per Gabella. Chiede 5 ma per informazioni. |

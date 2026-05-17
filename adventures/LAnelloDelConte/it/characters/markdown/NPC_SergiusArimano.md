@@ -14,13 +14,13 @@
 
 ## Descrizione
 
-Il Sergio di Boris: maneggione, subdolo, muove i fili dietro le quinte. Ex proprietario de "L'Immane Alabarda", vendeva pozioni di vigore (acqua colorata e speziata) e ritratti erotici personalizzati ai nobili di Fianus. I ritratti erano "deepfake medievali": testa del nobile (da descrizione) su corpo scultoreo di un modello — i nobili li commissionavano volontariamente per vanità. Le pozioni non funzionavano ma i clienti ci credevano.
+Il Sergio di Boris: maneggione, subdolo, muove i fili dietro le quinte. Ex proprietario de "L'Immane Alabarda", vendeva pozioni di vigore (acqua colorata e speziata) e faceva da tramite per ritratti erotici personalizzati. I committenti erano facoltosi (spesso nobili) che volevano ritratti idealizzati — di solito il consenso del soggetto c'era. I pittori ricevevano descrizioni via lettera firmata con la doppia S, senza mai incontrare nessuno. Le pozioni non funzionavano ma i clienti ci credevano.
 
-Il Conte era un ottimo cliente — si è fatto fare un ritratto "artistico" che non ha mai pagato. La moglie del Conte (beghina) ha scoperto tutto e ha fatto imporre la "Gabella Pudicitiae" su tutte le merci birichine. Il Marchese Arimano da commerciante legittimo è diventato contrabbandiere, e ora si vendica.
+Il caso del Conte: svariati facoltosi avevano commissionato ritratti del Conte nudo senza il suo consenso. Il Conte, quando l'ha scoperto, si è divertito — e una volta ha posato volontariamente per un vero ritratto nudo da donare a una dama. Quel ritratto non è mai stato pagato — Arimano se l'è tenuto. La Contessina (beghina) ha scoperto i deepfake e ha fatto imporre la "Gabella Pudicitiae" su tutte le merci birichine. Non sa del vero ritratto. Il Conte ha mentito alla moglie dicendo che non lo ritraevano.
 
 Dopo la Gabella il business è in declino. I pochi clienti rimasti sono spaventati. Arimano investe in animali esotici (rinoceronte, ecc.) come marketing per giustificare prezzi alti ("ci metto il corno di rinoceronte!") — mossa disperata che lo sta mandando in rovina. Le spezie servono per le pozioni (colore, odore), gli animali servono per convincere i compratori.
 
-Ha trovato fortuitamente l'Anello del Conte nelle fogne e lo usa come strumento di una vendetta elaborata — una caccia al tesoro pubblica che umilia il Conte. Ha ancora il ritratto non pagato e lo usa come leva.
+Ha scoperto fortuitamente che l'Anello del Conte era stato perduto nelle fogne e ha mentito dicendo di averlo trovato — un bluff per attirare l'attenzione di avventurieri e testarne le capacità. Non ha mai avuto l'Anello. Ha ancora il ritratto non pagato e lo usa come leva.
 
 Intelligentissimo, sempre tre passi avanti a tutti. Parla poco, sorride molto — il sorriso di chi sa qualcosa che tu non sai. Non si sporca le mani se può evitarlo. Vanitoso nella sua astuzia: lascia indizi perché vuole che sappiano che è stato lui. La doppia S è la sua firma — ego travestito da anonimato.
 
@@ -64,11 +64,11 @@ Intelligentissimo, sempre tre passi avanti a tutti. Parla poco, sorride molto �
 
 ## Motivazioni
 
-Vendetta contro il Conte. Ex-socio fregato, usa l'Anello come strumento per umiliarlo pubblicamente. Non vuole l'Anello per sé — vuole che il Conte sappia chi gliel'ha preso e perché.
+Vendetta contro il Conte e la Contessina. La Contessina ha ideato la Gabella che lo ha rovinato. Il Conte l'ha firmata per quieto vivere e non ha mai pagato il vero ritratto. L'Anello era solo un pretesto — Sergius non l'ha mai avuto, ha bluffato per attirare avventurieri e iniziare il suo piano di vendetta. La vera arma è la minaccia di rivelare il ritratto autentico del Conte.
 
 ## Ruolo nell'avventura
 
-Antagonista nascosto per tutta l'avventura. I PG non sanno della sua esistenza all'inizio. Ogni puntata contiene indizi lasciati da lui, firmati con una "S" intrecciata. Nell'ultima puntata i PG lo trovano e lo portano dal Conte. Dice che rivelerà la posizione dell'anello solo al Conte di persona. L'esplosione finale uccide entrambi.
+Antagonista nascosto per tutta l'avventura. I PG non sanno della sua esistenza all'inizio. Ogni puntata contiene indizi lasciati da lui, firmati con una "S" intrecciata. Nell'ultima puntata i PG lo portano dal Conte — Sergius vuole rivelare il ritratto e completare la vendetta. L'esplosione dei terroristi del Burmini interrompe tutto.
 
 ## Note al master
 
@@ -87,4 +87,4 @@ Antagonista nascosto per tutta l'avventura. I PG non sanno della sua esistenza a
 
 ## Agganci futuri
 
-Nessuno diretto. Sergius muore nell'esplosione finale insieme al Conte.
+Sergius muore con alta probabilità nell'esplosione finale. Il Conte muore sicuramente (necessario per la sceneggiatura — aggancio a Il Re Spezzato). I PG non vedranno mai il Conte in volto.

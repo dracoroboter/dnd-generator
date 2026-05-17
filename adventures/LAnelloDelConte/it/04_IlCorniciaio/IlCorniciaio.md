@@ -2,7 +2,7 @@
 
 ## Descrizione
 
-Simpatico Figuro ha trovato il pittore che faceva i ritratti compromettenti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano e scoprono un nome — ma quando tornano, la bottega è a soqquadro. La Contessina Sgamarri ha mandato i suoi uomini a zittire chiunque sappia dei ritratti. I PG devono salvare Sberluccica prima che sia troppo tardi.
+Simpatico Figuro ha trovato il pittore che faceva i ritratti compromettenti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano e scoprono un nome — ma quando tornano, la bottega è a soqquadro. La Contessina Serbelloni ha mandato i suoi uomini a zittire chiunque sappia dei ritratti. I PG devono salvare Sberluccica prima che sia troppo tardi.
 
 ## Obiettivo
 
@@ -61,16 +61,16 @@ Vedi tabella posizioni base in `LAnelloDelConte.md` § NPC principali. Eccezioni
 |-----|-----------|------------|-------------------|
 | **Simpatico Figuro** | Il pittore è Sberluccica, vicolo delle Arti. Una volta dipingeva, poi ha smesso di colpo. Figuro stesso vendeva ritratti erotici prima della Gabella. | Tutto quello che sa (sotto pagamento, 5 ma). Ha smesso per la Gabella e le vessazioni delle guardie. | Chi li produceva (non lo sa) |
 | **Sberluccica** | Dipingeva per un committente anonimo (firma doppia S). Le pozioni le faceva Sempronio Scrocchiazeppi, speziale a Vetusta. Il committente una volta è venuto di persona: mascherato, alto, sicuro — ma allontanandosi si è "piegato in due". | Sotto pressione: tutto | Il nome del committente (non lo sa davvero) |
-| **Contessina Sgamarri** | Sa dei ritratti. Vuole distruggere le prove e zittire chi sa. Ha mandato i suoi uomini. | "Quel pittore sa troppo. Deve stare zitto." | Non ammette il collegamento col Conte |
+| **Contessina Serbelloni** | Sa dei ritratti. Vuole distruggere le prove e zittire chi sa. Ha mandato i suoi uomini. | "Quel pittore sa troppo. Deve stare zitto." | Non ammette il collegamento col Conte |
 | **Gorim** | Niente di nuovo. Si eccita quando sente "Sberluccica" (la S!) | "S! Sberluccica! È lui!" | Non capisce che la S non significa niente |
-| **Er Braccio** | Se i PG chiedono il suo vero nome: Salvatore Soggettoni | Lo dice con orgoglio se glielo chiedono | — |
+| **Er Braccio** | Se i PG chiedono il suo vero nome: Salvatore Soggettoni | Non lo dice — *"Er Braccio. Basta."* Solo Gorim lo sa (registri) | — |
 
 ### Indizi seminati
 
 **La gag della S — tutti hanno la S:**
 - Sberluccica (il pittore) → S
 - Salvatore Soggettoni (Er Braccio) → S.S.
-- Sgamarri (la Contessina) → S
+- Serbelloni (la Contessina) → S
 - Scrocchiazeppi (lo speziale, menzionato) → S
 - Simpatico Figuro (il bottegaio) → S
 - Sergius S. Arimano → la vera S (ma i PG non possono collegarlo)
@@ -171,7 +171,7 @@ Quando i PG tornano a Monteverde — o la prossima volta che passano dal vicolo 
 
 **Se i PG non tornano a Monteverde:** Simpatico Figuro li cerca. Arriva alla Taberna (o dove sono i PG) trafelato: *"Hanno sfasciato la bottega di Sberluccica! L'hanno portato via stanotte! Io ho sentito il casino ma non sono uscito — non sono matto. Però ho visto un carro andare verso... boh, non so dove."* Figuro non sa dove l'hanno portato — serve comunque la lavandaia (Sergius) o la Contessina per avere la location.
 
-La Contessina Sgamarri ha mandato i suoi uomini la notte stessa. Ha saputo del pittore da un "gentiluomo premuroso" che l'ha avvisata — Sergius travestito (vedi § Sergius nell'ombra). Sergius ha manipolato la Contessina sapendo che avrebbe reagito così: vuole che i PG trovino il casino e sospettino lei, allontanandosi ulteriormente dalla verità.
+La Contessina Serbelloni ha mandato i suoi uomini la notte stessa. Ha saputo del pittore da un "gentiluomo premuroso" che l'ha avvisata — Sergius travestito (vedi § Sergius nell'ombra). Sergius ha manipolato la Contessina sapendo che avrebbe reagito così: vuole che i PG trovino il casino e sospettino lei, allontanandosi ulteriormente dalla verità.
 
 ### 📖 Da leggere ai giocatori
 
@@ -203,7 +203,7 @@ Se i PG insistono (Persuasione CD 16 o Intimidazione CD 15): *"La cantina sotto 
 
 **B) Chiedere in giro a Monteverde** — Percezione CD 14 o Investigazione CD 13: qualcuno ha visto un carro coperto andare verso Ponte Milvio stanotte.
 
-**C) Chiedere a Gorim** — Gorim non sa niente della Contessina. Ma se gli dicono che la Contessina ha rapito il pittore: *"Quella... quella Sgamarri! Sempre a complicare tutto! Andiamo a riprendercelo!"* Vuole venire.
+**C) Chiedere a Gorim** — Gorim non sa niente della Contessina. Ma se gli dicono che la Contessina ha rapito il pittore: *"Quella... quella Serbelloni! Sempre a complicare tutto! Andiamo a riprendercelo!"* Vuole venire.
 
 ---
 
@@ -213,7 +213,7 @@ Se i PG insistono (Persuasione CD 16 o Intimidazione CD 15): *"La cantina sotto 
 
 La "vecchia lavanderia" è un edificio abbandonato nel quartiere Ponte Milvio (quello col nome assurdo dalla Puntata 1). La cantina sotto è usata dalla Contessina come deposito/prigione improvvisata. Non è un dungeon — è una cantina umida con botti vuote e un prigioniero legato a una sedia.
 
-**Mappa:** cantina rettangolare, ~30×20 piedi. Scala di legno (nord), botti e casse lungo le pareti (copertura), sedia al centro dove è legato Sberluccica. Una porta secondaria (sud) che dà su un vicolo.
+**Mappa:** cantina rettangolare, ~120×75 piedi. Scala di legno (nord), botti e casse lungo le pareti (copertura), sedia al centro dove è legato Sberluccica. Una porta secondaria (sud) che dà su un vicolo.
 
 ### Approccio
 
@@ -240,7 +240,7 @@ I PG possono:
 |------|----|----|----|----|---------|------|
 | Sergente Bruto | 1 | Thug | 32 | 11 | +4, 1d6+2 mazza × 2 | Multiattack (2). Pack Tactics. |
 | Guardie della Contessina | 3 | Guard | 11 | 16 | +3, 1d6+1 spada corta | — |
-| Mafalda (la donna) | 1 | Spy (ridotta) | 27 | 12 | +4, 1d6+2 spada corta | Sneak Attack 2d6. Cunning Action. |
+| Mafalda (la donna) | 1 | Spy (ridotta) | 27 | 12 | +4, 1d6+2 spada corta | Sneak Attack 2d6. Cunning Action. No Multiattack. |
 
 **Tattiche:**
 - Bruto protegge Sberluccica (non vuole che scappi) — resta vicino alla sedia
@@ -278,7 +278,7 @@ La gag della S è **opzionale** — funziona solo se emerge naturalmente al tavo
 
 Se Gorim è presente e i nomi vengono elencati in sequenza (es. durante un resoconto), potrebbe sbottare:
 
-> *"Sberluccica. Soggettoni. Sgamarri. Scrocchiazeppi. Ma che è, un'epidemia? Mezza Fianus si chiama con la S! Come facciamo a trovare il colpevole se TUTTI hanno la S nel nome?!"*
+> *"Sberluccica. Soggettoni. Serbelloni. Scrocchiazeppi. Ma che è, un'epidemia? Mezza Fianus si chiama con la S! Come facciamo a trovare il colpevole se TUTTI hanno la S nel nome?!"*
 
 Ma solo se il momento è naturale. Se non lo è, lascia perdere.
 
@@ -363,7 +363,7 @@ Un solo combattimento (cantina): MEDIUM per 3-4 PG di livello 3.
 
 | NPC | Ruolo | Note |
 |-----|-------|------|
-| Mastro Cecilio Sberluccica | Ex pittore, ora corniciaio | Terrorizzato, innocente, vittima |
+| Mastro Cecilio Sberluccica | Ex pittore, ora corniciaio | Commoner (non ha bisogno di scheda). Terrorizzato, innocente, vittima |
 | Sergente Bruto | Capo degli uomini della Contessina | Thug, non fanatico, negoziabile |
 | Mafalda | Agente della Contessina | Spy, pericolosa, pragmatica |
 | Sempronio Scrocchiazeppi (menzionato) | Ex speziale, ora legittimo | Non appare — pista per puntata 5 |

@@ -16,6 +16,45 @@ I PG vengono ingaggiati da Sir Gorim Vel per recuperare l'Anello del Conte, cadu
 
 ---
 
+## La verità — chi è S (solo DM)
+
+**Sergius S. Arimano**, Marchese di campagna di secondo piano. Nobile decaduto di Vetusta Portus.
+
+### Il commercio
+
+Sergius ha costruito un fiorente commercio clandestino su due prodotti:
+
+1. **Ritratti di nudi** ("deep fake" pittorici) — S faceva da tramite. I committenti erano facoltosi (spesso nobili, ma non solo) che volevano ritratti idealizzati di sé stessi o di altri. Di solito il consenso del soggetto c'era. I pittori (come Sberluccica) ricevevano descrizioni dettagliate via lettera firmata con la doppia S e dipingevano senza mai incontrare né il committente né il soggetto. Prodotti **esclusivamente** tramite la rete di S — nessun altro offriva questo servizio.
+
+   **Il caso del Conte:** Svariati facoltosi avevano commissionato ritratti del Conte nudo per soddisfare le proprie voglie — senza il consenso del Conte. Il Conte, quando l'ha scoperto, si è divertito. Tanto che una volta ha deciso di donare a una dama che lo richiedeva un **vero** suo ritratto nudo, posando di persona. Quel ritratto non è mai stato pagato — Arimano se l'è tenuto.
+
+   **Cosa sa la Contessina:** Sa dei ritratti deepfake del marito (commissionati da altri). NON sa del vero ritratto posato volontariamente dal Conte.
+
+2. **Pozioni rinvigorenti** (per il vigore maschile) — acqua colorata con erbe aromatiche, nomi roboanti ("L'Immane Alabarda", "La Rocca Imponente"). Non funzionavano. Queste **non erano un'esclusiva di S** — anche altri le producevano e vendevano. Ma il marchio S era il più noto e organizzato.
+
+Il marchio della doppia S non è mai cambiato. Nessuno sa chi ci sia dietro — neanche la moglie di Sergius (se esiste davvero). Il commercio è sempre stato discreto: i nomi dei pittori non sono pubblici, le consegne avvenivano tramite intermediari e ragazzini, nessun contatto diretto.
+
+### La Gabella Pudicitiae
+
+Circa **un anno e mezzo fa**, la Contessina Sarah Serbelloni Vien dal Porto scopre che alcuni dei ritratti ritraggono **suo marito** (il Conte). Arrabbiata per la brutta immagine che questo darebbe di lei e del marito, e non potendo semplicemente vietare la cosa, fa approvare la **Gabella Pudicitiae**: una forte tassa su questo tipo di commerci. In più, ordina continui controlli giudiziari e fiscali a chiunque commerci palesemente in questi prodotti.
+
+Il Conte, interpellato dalla Contessina, ha mentito dichiarando che quel dipinto non ritrae lui. In realtà ha posato volontariamente per il vero ritratto — ma la Contessina non lo sa e non deve saperlo.
+
+### Dopo la Gabella
+
+Sergius ha smesso di produrre i nudi. Continua solo con le pozioni, ma con molta più attenzione — nasconde le merci nelle fogne, nei magazzini del porto, in altri posti segreti. La Gabella lo ha reso significativamente più povero. Vuole vendicarsi di entrambi:
+
+- **La Contessina** — ha ideato la tassa, ha distrutto il suo commercio (odio pratico)
+- **Il Conte** — per quiete familiare ha firmato la Gabella, e in più non ha mai pagato quel suo ultimo vero ritratto che Arimano si è tenuto (odio personale, tradimento di un cliente)
+
+Il vero ritratto del Conte è l'arma segreta di Sergius — una leva di ricatto che nessun altro possiede.
+
+### La Contessina oggi
+
+La Contessina sta cercando di insabbiare tutto e mettere a tacere chi sa dei ritratti. Il suo movente è opposto a quello di S: lei vuole che nessuno ne parli più, lui vuole far emergere lo scandalo per vendetta. Questo la rende un sospetto plausibile ma falso — non è S, agisce per coprire, non per ricattare.
+
+---
+
 ## Concept
 
 Un'avventura D&D 5e (2014) a episodi, ispirata alla serie comica **Boris**. Tono umoristico senza esagerare: situazioni assurde trattate con serietà dai personaggi. Burocrazia, incompetenza, ego smisurati. Struttura a "puntate" come una stagione TV.
@@ -79,13 +118,29 @@ Nessuno sa come si chiama. Nessuno ha visto il suo volto. L'unica cosa nota è c
 
 → Scheda completa: `characters/NPC_IlConte.md`
 
+### Cheat Sheet — Luoghi
+
+| Luogo | Dove | Usato in |
+|-------|------|----------|
+| Castello del Conte | Aviano (quartiere SE di Fianus) | Puntata 1+ |
+| Taberna de Franciosibus aut Hispanardis | Piazza del Mercato Centrale (Fianus) | Tutte |
+| Fogne di Fianus | Sotto Settebagni, ingresso dal carretto di Terzilio (Fianus) | Puntata 1 |
+| Piazza del Mercato Centrale | Centro di Fianus | Tutte |
+| Casa del Marchese Arimano | Cima della collina, Vetusta Portus | Puntata 3 |
+| Magazzino 4 | Porto di Vetusta Portus (il più grande dei 6 magazzini lungo il molo) | Puntata 3 |
+| Piazzetta del Porto | Tra porto e borgo, Vetusta Portus | Puntata 3 |
+| Bottega Simpatico Figuro | Via principale, Monteverde (Fianus) | Puntata 2, 4 |
+| Bottega Sberluccica | Vicolo delle Arti, Monteverde (Fianus) | Puntata 4 |
+| Cantina Ponte Milvio | Sotto la vecchia lavanderia, Ponte Milvio (Fianus) | Puntata 4 |
+| Spezieria Scrocchiazeppi | Piazzetta del porto, Vetusta Portus | Puntata 4 (side quest) |
+
 ### Dove sono i personaggi (posizioni base)
 
 | NPC | Dove | Disponibilità |
 |-----|------|---------------|
 | Sir Gorim Vel | Castello del Conte, Aviano | Sempre raggiungibile |
 | Domina Lella | Taberna, piazza del Mercato Centrale | Sempre (ci vive e lavora) |
-| La Contessina (Concetta Sgamarri) | Castello del Conte, Aviano | Solo con lettera/sigillo di Gorim |
+| La Contessina (Concetta Priapi) | Castello del Conte, Aviano | Solo con lettera/sigillo di Gorim |
 | Flavia "La Biscia" | Itinerante, base a Vetusta Portus | Al mercato di giorno, sparisce di sera |
 | Mastro Cecio | Bottega vicino alla piazza del Mercato | Sempre (ma inutile) |
 | Donna Ortensia | Aviano, vicino al castello | A casa, non esce volentieri |
@@ -182,8 +237,8 @@ I PG sono in stallo. Dopo due giorni senza piste, ricevono un invito dal Marches
 
 ### Puntata 4 — "Il Corniciaio"
 
-Simpatico Figuro trova il pittore dei ritratti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano, ma la Contessina Sgamarri manda i suoi uomini a zittirlo. I PG devono salvare Sberluccica e scoprono che tutti a Fianus hanno un nome con la S — la firma non identifica nessuno.
+Simpatico Figuro trova il pittore dei ritratti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano, ma la Contessina Serbelloni manda i suoi uomini a zittirlo. I PG devono salvare Sberluccica e scoprono che tutti a Fianus hanno un nome con la S — la firma non identifica nessuno.
 
-### Puntata 5 — "Il Finale di Stagione" (da sviluppare)
+### Puntata finale (numero da definire) — "Il Finale di Stagione"
 
-I PG finalmente stanno per incontrare il Conte. Esplosione. Il Conte muore. Niente nome, niente volto, niente Anello, niente risposte. Il caos che segue li trascina verso Il Re Spezzato.
+L'Anello viene trovato miracolosamente. I PG vanno verso il castello per consegnarlo. Esplosione — i terroristi del Burmini attaccano. Il Conte muore sicuramente (i PG non lo vedranno mai in volto). Sergius muore con alta probabilità. Niente nome, niente risposte. Il caos che segue li trascina verso Il Re Spezzato.

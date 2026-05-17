@@ -54,6 +54,36 @@ dungeonandragon/
 
 Per le convenzioni di naming complete (4 categorie: PascalCase avventure, kebab-case tech, UPPER_SNAKE_CASE meta, kebab-case script) vedere **`tech/rules/adventure-template.md` § Convenzioni di naming** — fonte di verità unica.
 
+### Stile e interpunzione
+
+- **No trattino lungo (—)**: non usare l'em dash. Al suo posto usare la normale interpunzione italiana (virgola, punto, due punti, punto e virgola, parentesi). Eccezioni tecniche ammesse: separatore in tabelle markdown se necessario per leggibilità.
+- **No emoji**: non usare emoji nel testo. Unica eccezione: ✅ per task completati nelle checklist.
+
+### Moduli XX (draft aperti)
+
+I moduli con prefisso `XX_` sono draft con linee di sviluppo ancora aperte. Le parti non definite si segnalano con i tag `[TODO]` e `[/TODO]` **inline nel testo**, nel punto esatto dove andrà il contenuto definitivo. Dentro il tag si descrive:
+
+- L'effetto narrativo desiderato, oppure
+- Le possibilità tra cui scegliere, oppure
+- La decisione generale da prendere, oppure
+- La dipendenza dall'avanzamento del resto della storia
+
+Non usare sezioni "Da decidere" separate: i TODO vanno nel punto del testo dove manca il contenuto.
+
+Esempio:
+
+Gorim li accompagna alla porta del castello. Le guardie li fanno entrare.
+
+[TODO]
+Scena comica in cui l'Anello viene trovato per caso.
+Possibilità: calpestato nelle fogne / portato da un ratto sindacalizzato / trovato in uno scarico.
+Dipende da: come i PG tornano nelle fogne (serve un motivo nella puntata precedente).
+[/TODO]
+
+I PG consegnano l'Anello a Gorim, che quasi piange di gioia.
+
+Quando la decisione viene presa, il blocco si rimuove e si scrive il contenuto definitivo. Il prefisso `XX_` diventa il numero di puntata corretto.
+
 ### File obbligatori per ogni avventura
 
 | file | contenuto |

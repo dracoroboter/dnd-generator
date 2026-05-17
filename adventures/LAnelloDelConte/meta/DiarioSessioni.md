@@ -142,7 +142,7 @@ Gorim furioso per il discorso pubblico. Ha detto ai PG di cercare S. Ha promesso
 ## Sessione 3 — Venerdì 9 Maggio 2026
 
 **Puntata:** 3 — Una Pizza in Compagnia
-**Giocatori:** 3 PG di livello 2
+**Giocatori:** 4 PG di livello 2
 **Livello finale:** 2 (in corso, combattimento non concluso)
 
 ### Cosa è successo
@@ -174,3 +174,42 @@ Hanno parlato con Er Braccio spacciandosi per compratori. Er Braccio ci è casca
 ### Chiusura
 
 Sessione interrotta a metà combattimento. Riprende la prossima volta.
+
+---
+
+## Sessione 4 — Venerdì 16 Maggio 2026
+
+**Puntata:** 3 — Una Pizza in Compagnia (continuazione)
+**Giocatori:** 4 PG di livello 2
+**Livello finale:** 3 (milestone: accordo col Marchese)
+
+### Cosa è successo
+
+Continuazione del combattimento al magazzino. Il rinoceronte è fuggito dalla gabbia e ha seminato il caos per le strade.
+
+I PG sono stati invitati a casa del Marchese Arimano a Vetusta Portus. Arimano si è presentato nella sua versione "aitante" (travestimento). Ha rivelato di sapere che lavorano per Gorim/il Conte e di considerarli alleati nella lotta contro la legge liberticida della Contessina. Ha spiegato che la marca dei prodotti piccanti è sempre stata con il simbolo della S.
+
+Ha menzionato una moglie, attualmente in villeggiatura nelle campagne di Fianus a nord.
+
+La cena: pizza (piatto della zona), il Porco Fritto Imburrato (dolce tipico di Vetusta Portus — i vetustiani ne lodano la leggerezza), il Vino del Castello di Portus.
+
+La casa mostra segni di decadenza economica: carta da parati scrostata, cameriera a ore che non sa qual è il servizio buono, lampadario con poche candele, fontana secca. A un occhio più attento: sedie scricchiolanti, mobili impolverati, soprammobili mancanti (si vede l'orma della polvere), servizio di piatti spaiati.
+
+### Chiusura
+
+I PG e Arimano si sono promessi vicendevolmente di darsi una mano. I PG hanno accettato di lavorare per il Marchese a un suo progetto — i dettagli restano misteriosi.
+
+I PG salgono a **livello 3** (milestone).
+
+### Sfiga giornaliera
+
+Multa delle guardie per disturbo della quiete pubblica (fuga del rinoceronte): **1 mo**. Non ancora pagata.
+
+### Retrofitting — modifiche da applicare al modulo 3
+
+- [ ] Mappa casa Arimano: aggiungere scala al secondo piano
+- [ ] Trasformare la tabella della casa in descrizione discorsiva (dettagli senza tiro + dettagli con Percezione CD 12-14)
+- [ ] Aggiungere gastronomia locale: Porco Fritto Imburrato (dolce), Vino del Castello di Portus
+- [ ] Aggiungere la moglie di Arimano in villeggiatura (apertura di sceneggiatura — decidere se è vero e cosa nasconde)
+- [ ] Aggiungere immagine di Arimano "aitante" (già creata)
+- [ ] Verificare che la S sui prodotti piccanti non contraddica nulla nell'avventura scritta
