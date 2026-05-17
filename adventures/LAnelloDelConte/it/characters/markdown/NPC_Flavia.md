@@ -1,17 +1,15 @@
-# NPC_Flavia — Flavia "La Biscia"
+# NPC_Flavia - secondario
 
 ## Informazioni generali
 
 - **Nome completo**: Flavia "La Biscia"
-- **Ruolo**: ex-venditrice di pozioni rinvigorenti
-- **Classe**: —
-- **Livello**: —
+- **Ruolo**: ex-venditrice di pozioni rinvigorenti, fonte di informazioni
 - **Razza**: umana
 - **Allineamento**: Neutrale
 
 ## Descrizione
 
-Donna magra, occhi rapidi, capelli neri raccolti sotto un fazzoletto colorato. Si muove tra i mercati di Fianus e Vetusta Portus vendendo erbe, unguenti e rimedi popolari. La chiamano "La Biscia" per come sguscia via quando le cose si mettono male. Prima della Gabella vendeva anche le pozioni rinvigorenti "La Rocca Imponente" — le comprava da un intermediario anonimo al porto.
+Donna magra, occhi rapidi, capelli neri sotto un fazzoletto colorato. Si muove tra i mercati vendendo erbe e rimedi. "La Biscia" per come sguscia via quando le cose si mettono male. Moralista: vendeva pozioni ma non nudi.
 
 ## Stat Block
 
@@ -23,7 +21,7 @@ Donna magra, occhi rapidi, capelli neri raccolti sotto un fazzoletto colorato. S
 
 - **Punti ferita**: 4 (1d8)
 - **Classe armatura**: 10
-- **Velocità**: 9m / 30ft / 6qd
+- **Velocita**: 9m / 30ft / 6qd
 - **Sensi**: Percezione passiva 11
 - **Lingue**: Comune
 - **Sfida**: 0 (10 PE)
@@ -34,13 +32,8 @@ Donna magra, occhi rapidi, capelli neri raccolti sotto un fazzoletto colorato. S
 - **Attacco**: +2, mischia 5ft
 - **Danni**: 1d4 perforanti
 
-## Ruolo nell'avventura
-
-NPC di indagine nella Puntata 3. Sa delle pozioni rinvigorenti perché le vendeva, ma non conosce il produttore — comprava da un intermediario che lasciava le casse al porto. Non può collegare le pozioni a Sergius.
-
 ## Note al master
 
-- Non è un nemico. È una fonte di informazioni parziali.
-- Se i PG le mostrano la bottiglietta, conferma di averla venduta ("La Rocca Imponente").
-- Non mente — davvero non sa chi produceva le pozioni.
-- Si trova al mercato di giorno, sparisce di sera.
+- Fonte di informazioni parziali, non un nemico.
+- Non sa chi produceva le pozioni (comprava da intermediario al porto).
+- Al mercato di giorno, sparisce di sera.

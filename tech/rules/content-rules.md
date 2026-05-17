@@ -66,7 +66,26 @@ Prevedere sempre almeno una soluzione alternativa al combattimento per ogni scon
 
 ## PNG — Linee guida contenuto
 
-### Separazione stat block dal testo dell'avventura
+### Separazione stat block dalla descrizione narrativa
+
+Le schede in `characters/markdown/` contengono **solo lo stat block**: meccaniche, valori numerici, attacchi, capacita, e un breve accenno al ruolo (una riga). Sono quello che serve al tavolo durante il gioco.
+
+La **descrizione estesa** del personaggio (storia, background, motivazioni, segreti, ruolo nella trama, indizi, agganci futuri, tattiche narrative) va nel testo dell'avventura: nella sezione personaggi del documento principale (`NomeAvventura.md`) o nel modulo dove il personaggio compare.
+
+| Contenuto | Dove va |
+|-----------|---------|
+| Stat block, CA, PF, attacchi, capacita, abilita | `characters/markdown/NPC_*.md` |
+| Ruolo breve (una riga) | `characters/markdown/NPC_*.md` |
+| Aspetto fisico (breve, per lo stat block grafico) | `characters/markdown/NPC_*.md` § Descrizione |
+| Tattiche di combattimento (breve) | `characters/markdown/NPC_*.md` § Note al master |
+| Storia, background, motivazioni, segreti | Documento principale o modulo |
+| Ruolo nella trama, come si comporta, cosa sa | Documento principale o modulo |
+| Indizi, agganci futuri, note DM narrative | Documento principale o modulo |
+| Tattiche narrative (come reagisce, cosa rivela) | Modulo dove compare |
+
+**Razionale:** lo stat block si stampa come scheda singola e si genera come PDF/PNG. Non deve contenere spoiler narrativi o testo lungo. La descrizione estesa vive nel contesto della storia dove ha senso leggerla.
+
+### Separazione stat block dal testo dei moduli
 
 Gli stat block completi dei personaggi non vanno inseriti nel corpo dei moduli. Devono risiedere esclusivamente nelle schede dedicate in `characters/markdown/`.
 
@@ -170,4 +189,6 @@ Il debriefing produce un file temporaneo in `meta/post-sessione-YYYY-MM-DD.md`. 
 
 ## Foreshadowing e agganci futuri
 
-Se l'avventura è parte di una campagna o lascia agganci aperti, documentarli in una sezione dedicata nel documento principale o nel `PlanBook.md`.
+Gli agganci futuri (semi da piantare per avventure successive, archi narrativi a lungo termine, collegamenti con altre avventure della saga) vanno nel **PlanBook**, non nel testo dell'avventura. Sono pianificazione della scrittura, non contenuto giocabile.
+
+Nel testo dell'avventura vanno solo gli elementi che il DM usa effettivamente al tavolo (es. una frase di Gorim che tradisce preoccupazione, una menzione di un luogo lontano). Questi vanno nelle note DM del modulo specifico dove compaiono.

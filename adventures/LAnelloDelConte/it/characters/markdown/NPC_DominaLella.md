@@ -1,77 +1,39 @@
-# Domina Lella
-
-**"O pagate, o dormite in strada."**
+# NPC_DominaLella - secondario
 
 ## Informazioni generali
 
-Taverniera della Taberna de Franciosibus aut Hispanardis. Donna massiccia, opinioni forti, mattarello sempre a portata di mano. I PG le devono 3 monete d'oro di pigione arretrata (luglio) — almeno così dice lei. — dormono nelle stanze sopra la taverna da settimane e non hanno mai pagato. Domina Lella ha pazientato fin troppo.
-
-Ogni volta che i PG la reincontrano, ricorda loro che le devono la pigione di luglio. Anche se l'hanno già pagata, trova un motivo per cui non basta ("E gli interessi? E il disturbo? E la biancheria?").
-
-**Costo reale:** 1 ma/giorno a persona (vitto e alloggio, qualità discutibile). 4 PG = 4 ma/giorno, 28 ma a settimana. Sora Lella però dice cifre a sentimento — il conto non corrisponde mai a quello reale.
+- **Ruolo**: taverniera, creditrice dei PG
+- **Razza**: umana
+- **Allineamento**: Legale Neutrale
 
 ## Descrizione
 
-- Pratica, diretta, zero diplomazia
-- Porzioni enormi, conto preciso
-- Sa tutto di tutti a Fianus Romanus, ma le informazioni si pagano
-- Il mattarello non è solo per la cucina
-
-## Agganci futuri
-
-- Nessuno diretto. Domina Lella è un personaggio dell'Anello del Conte.
-
-## Agganci futuri
-
-NPC ricorrente per tutta l'avventura. Creditrice dei PG, fonte di informazioni (a pagamento), punto di riferimento al borgo.
-
----
-
-## Motivazioni
-
-> ⚠ *Da rivedere dall'autore — estrarre da Descrizione e Agganci futuri.*
-
-## Note al master
-
-> ⚠ *Da rivedere dall'autore.*
-
----
+Donna massiccia, mattarello sempre a portata di mano. Pratica, diretta, zero diplomazia. Sa tutto di tutti a Fianus. Pigione: 1 ma/giorno a persona (dice cifre a sentimento, il conto non torna mai).
 
 ## Stat Block
 
-**Umana, Media, Legale Neutrale**
-**Commoner** (MM p. 345)
-
----
-
-**Classe Armatura:** 10
-**Punti Ferita:** 4 (1d8)
-**Velocità:** 30 ft.
-
----
+> Base: **Commoner** (Monster Manual p. 345, CR 0)
 
 | FOR | DES | COS | INT | SAG | CAR |
 |-----|-----|-----|-----|-----|-----|
 | 14 (+2) | 10 (+0) | 12 (+1) | 11 (+0) | 14 (+2) | 13 (+1) |
 
----
+- **Punti ferita**: 4 (1d8)
+- **Classe armatura**: 10
+- **Velocita**: 9m / 30ft / 6qd
+- **Competenze**: Intuizione +4, Intimidazione +3
+- **Sensi**: Percezione passiva 12
+- **Lingue**: Comune
+- **Sfida**: 0 (10 PE)
 
-**Tiri Salvezza:** nessuno rilevante
-**Competenze:** Intuizione +4, Intimidazione +3
-**Sensi:** Percezione passiva 12
-**Lingue:** Comune
-**Sfida:** 0 (10 PE)
+## Attacchi
 
----
+### Mattarello (mischia)
+- **Attacco**: +4, mischia 5ft
+- **Danni**: 1d4+2 contundenti
 
-### Azioni
+## Note al master
 
-**Mattarello.** +4 al tiro per colpire, portata 5 ft., un bersaglio. *Colpisce:* 1d4+2 danni contundenti.
-
----
-
-### Note per il DM
-
-- Non combatte sul serio, ma il mattarello è una minaccia credibile al tavolo.
-- FOR 14 e Intimidazione riflettono il fatto che nessuno a Fianus Romanus osa contraddirla.
-- Sa tutto di tutti, ma bisogna pagarla o trattarla bene per farla parlare.
+- Non combatte sul serio, ma il mattarello e una minaccia credibile.
+- FOR 14 e Intimidazione: nessuno a Fianus osa contraddirla.
+- Fonte di informazioni a pagamento o in cambio di favori.

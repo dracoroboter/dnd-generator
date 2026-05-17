@@ -14,6 +14,7 @@
         <int>20</int>
         <wis>15</wis>
         <cha>16</cha>
+        <resist>necrotic</resist>
         <senses>Passive Perception 12</senses>
         <languages>Common, Draconic, Infernal, Abyssal</languages>
         <cr>12</cr>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>IlConte</name>
+        <name>IlConte - secondario</name>
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>neutral</alignment>
@@ -22,11 +22,7 @@
             <text>Attacco: +3, mischia, portata 1,5m / 5ft / 1qd Danni: 1d8+1 perforanti</text>
             <attack>Stocco (mischia)|+3|1d8+1</attack>
         </action>
-        <description>Il cui nome nessuno conosce, il cui volto nessuno ha visto. Il Conte è il mandante di tutto — ha inviato Gorim, vuole l'Anello, governa il territorio — ma nessuno riesce a nominarlo, descriverlo o incontrarlo. È una presenza costante e totalmente assente.
-La sua personalità è un mosaico di racconti contraddittori: per alcuni è generoso, per altri è avaro, per altri ancora è folle. Gli ordini che manda sono incoerenti — a volte ragionevoli, a volte assurdi.
-**Running gag — il nome:** ogni volta che un NPC sta per dirlo, viene interrotto (rumore, starnuto, crollo, amnesia improvvisa). Le lettere ufficiali hanno il sigillo ma la firma è illeggibile.
-**Running gag — il volto:** nessun NPC lo ha mai visto di persona. I ritratti ufficiali sono sempre coperti, danneggiati, o girati al contrario.
-Il Conte NON è Dorian Valemarch. È un nobile locale, vassallo del Re, che governa Fianus Romanus.
-Role: MacGuffin vivente, mandante</description>
+        <description>Il cui nome nessuno conosce, il cui volto nessuno ha visto. Governa Fianus tramite lettere e messaggeri. Ordini spesso contraddittori. Sempre in viaggio.
+Role: MacGuffin vivente, mandante assente</description>
     </monster>
 </compendium>

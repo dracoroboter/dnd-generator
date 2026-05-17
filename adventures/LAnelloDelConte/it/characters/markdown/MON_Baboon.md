@@ -1,4 +1,4 @@
-# MON_Baboon — babbuino
+# MON_Baboon - babbuino
 
 ## Informazioni generali
 
@@ -24,7 +24,7 @@ Scimmie urlanti e aggressive, intrappolate nelle casse del Magazzino 4. Quando l
 - **Classe armatura**: 12
 - **Velocità**: 9m / 30ft / 6qd, arrampicata 9m / 30ft
 - **Sensi**: Percezione passiva 11
-- **Lingue**: —
+- **Lingue**: -
 - **Sfida**: 0 (10 PE)
 
 ## Capacità notevoli
@@ -43,6 +43,6 @@ Escono dalle casse nel Magazzino 4 (Puntata 3) quando il rinoceronte carica cont
 
 ## Note al master
 
-- Non sono una minaccia seria — sono fastidiose e creano caos.
+- Non sono una minaccia seria - sono fastidiose e creano caos.
 - Rubano oggetti dalle mani (Destrezza contesa) se un PG è a portata.
 - Scappano dopo 1-2 round, arrampicandosi sulle casse o uscendo dalle finestre.

@@ -1,17 +1,17 @@
-# NPC_Bandit — bandito
+# NPC_Bandit - bandito
 
 ## Informazioni generali
 
 - **Nome completo**: Bandit
 - **Ruolo**: scagnozzo di Er Braccio
-- **Classe**: —
-- **Livello**: —
+- **Classe**: -
+- **Livello**: -
 - **Razza**: umano
 - **Allineamento**: Caotico Neutrale
 
 ## Descrizione
 
-Uomini del porto di Vetusta Portus. Scaricatori, ex-marinai, piccoli criminali. Lavorano per Er Braccio per soldi facili. Non sono fanatici — se la situazione si mette male, scappano.
+Uomini del porto di Vetusta Portus. Scaricatori, ex-marinai, piccoli criminali. Lavorano per Er Braccio per soldi facili. Non sono fanatici - se la situazione si mette male, scappano.
 
 ## Stat Block
 

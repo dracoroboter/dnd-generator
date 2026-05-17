@@ -14,6 +14,7 @@
         <int>2</int>
         <wis>10</wis>
         <cha>3</cha>
+        <conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
         <senses>darkvision 9m / 30ft / 6qd</senses>
         <cr>1/4</cr>
         <trait>

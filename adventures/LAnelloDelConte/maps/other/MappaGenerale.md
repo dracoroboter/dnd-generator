@@ -2,18 +2,18 @@
 
 ## Luoghi principali
 
-- **Fianus Romanus** — borgo nel sud di Drakenhold, hub dell'avventura
-- **Drakenhold** — il regno, governato da Re Dorian Valemarch (mappa: `RealmOfAmrog`)
+- **Fianus Romanus** - borgo nel sud di Drakenhold, hub dell'avventura
+- **Drakenhold** - il regno, governato da Re Dorian Valemarch (mappa: `RealmOfAmrog`)
 
-## Fianus Romanus — quartieri e luoghi interni
+## Fianus Romanus - quartieri e luoghi interni
 
 (mappa: `FianusRomanus`)
 
-- **Mercato Centrale** — piazza principale; qui si trova la Taberna de Franciosibus aut Hispanardis
-- **Aviano** — quartiere sud; residenza del Conte (chiusa, presidiata)
-- **Settebagni** — quartiere basso; ingresso alle fogne sotto il carretto di Terzilio il verduraio
-- **Ponte Milvius** — collega il Mercato a Settebagni
-- **Tempio** — vicino all'ingresso delle fogne
+- **Mercato Centrale** - piazza principale; qui si trova la Taberna de Franciosibus aut Hispanardis
+- **Aviano** - quartiere sud; residenza del Conte (chiusa, presidiata)
+- **Settebagni** - quartiere basso; ingresso alle fogne sotto il carretto di Terzilio il verduraio
+- **Ponte Milvius** - collega il Mercato a Settebagni
+- **Tempio** - vicino all'ingresso delle fogne
 
 ## Fogne di Fianus
 

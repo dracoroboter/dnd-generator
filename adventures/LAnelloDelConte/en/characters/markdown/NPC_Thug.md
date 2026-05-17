@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# NPC_Thug — henchman
+# NPC_Thug - henchman
 
 ## General Information
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Grazie. They only intervene if Sergius is spotted, covering his escape. They're not loyal — after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *"They don't pay us enough for this!"*
+Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Grazie. They only intervene if Sergius is spotted, covering his escape. They're not loyal - after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *"They don't pay us enough for this!"*
 
 ## Stat Block
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>SirGorimVel</name>
+        <name>SirGorimVel - ally</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>lawful neutral</alignment>
@@ -40,12 +40,12 @@
         </action>
         <action>
             <name>Dagger (melee/ranged)</name>
-            <text>Attack: +4, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq Damage: 1d4+2 piercing</text>
+            <text>Attack: +4, melee 5ft / 1sq or ranged 20ft / 4sq - 60ft / 12sq Damage: 1d4+2 piercing</text>
             <attack>Dagger (melee/ranged)|+4|1d4+2</attack>
         </action>
-        <description>The René Ferretti of Fianus Romanus. Former captain of the Drakenhold garrison, assigned to serve as the Count's official in Fianus Romanus as a &quot;promotion&quot; — actually a disguised exile. A soldier forced to be a bureaucrat. Constantly exasperated by the incompetence surrounding him.
+        <description>The René Ferretti of Fianus Romanus. Former captain of the Drakenhold garrison, assigned to serve as the Count's official in Fianus Romanus as a &quot;promotion&quot; - actually a disguised exile. A soldier forced to be a bureaucrat. Constantly exasperated by the incompetence surrounding him.
 Pragmatic to the core, allergic to pointless heroism. Gesticulates a lot, gets exasperated easily, talks to himself. Has a weakness for food (his belly confirms it).
-**Pathological stinginess:** Every time he has to pay the PCs, the scene must be an ordeal. Gorim doesn't want to do it in any way. He counts coins one by one, sighs at each coin, looks for excuses to pay less (&quot;that wasn't information, that was an opinion&quot;), asks for receipts, tries to pay in kind (&quot;I'll give you a ham, it's the same&quot;), proposes installments, accuses the PCs of not having done enough. No matter the amount — even 5 silver pieces cause him physical pain.
+**Pathological stinginess:** Every time he has to pay the PCs, the scene must be an ordeal. Gorim doesn't want to do it in any way. He counts coins one by one, sighs at each coin, looks for excuses to pay less (&quot;that wasn't information, that was an opinion&quot;), asks for receipts, tries to pay in kind (&quot;I'll give you a ham, it's the same&quot;), proposes installments, accuses the PCs of not having done enough. No matter the amount - even 5 silver pieces cause him physical pain.
 Recurring phrases adapted from Ferretti:
 - &quot;Come on come on come on, we can do this&quot; (he doesn't believe it)
 - &quot;Splendid. Wonderful.&quot; (sarcastic)

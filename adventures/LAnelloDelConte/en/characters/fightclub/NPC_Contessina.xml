@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Contessina</name>
+        <name>Contessina - The Countess</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>lawful neutral</alignment>
@@ -26,7 +26,7 @@
             <text>Attack: +3, melee 5ft Damage: 1d8+1 piercing</text>
             <attack>Rapier (melee)|+3|1d8+1</attack>
         </action>
-        <description>A stout woman with a round face and a permanently indignant expression. She dresses well but without taste — too many jewels, too many colors. She speaks with a thick accent and gesticulates a lot. She holds down the castle in Aviano while the Count is &quot;traveling&quot; (i.e., always). She knows about the blackmail but her main concern is her own reputation, not her husband.
+        <description>A stout woman with a round face and a permanently indignant expression. She dresses well but without taste - too many jewels, too many colors. She speaks with a thick accent and gesticulates a lot. She holds down the castle in Aviano while the Count is &quot;traveling&quot; (i.e., always). She knows about the blackmail but her main concern is her own reputation, not her husband.
 Role: noblewoman, wife of the Count of Fianus</description>
     </monster>
 </compendium>

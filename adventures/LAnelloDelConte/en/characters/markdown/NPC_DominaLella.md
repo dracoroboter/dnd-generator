@@ -6,11 +6,11 @@
 
 ## General Information
 
-Tavern keeper of the Taberna de Franciosibus aut Hispanardis. Massive woman, strong opinions, rolling pin always within reach. The PCs owe her 3 gold pieces in back rent (July) — at least that's what she says. They've been sleeping in the rooms above the tavern for weeks and have never paid. Domina Lella has been patient long enough.
+Tavern keeper of the Taberna de Franciosibus aut Hispanardis. Massive woman, strong opinions, rolling pin always within reach. The PCs owe her 3 gold pieces in back rent (July) - at least that's what she says. They've been sleeping in the rooms above the tavern for weeks and have never paid. Domina Lella has been patient long enough.
 
 Every time the PCs meet her again, she reminds them they owe July's rent. Even if they've already paid, she finds a reason it's not enough ("And the interest? And the inconvenience? And the linens?").
 
-**Actual cost:** 1 gp/day per person (room and board, questionable quality). 4 PCs = 4 gp/day, 28 gp per week. Domina Lella, however, quotes figures by feel — the bill never matches the real amount.
+**Actual cost:** 1 gp/day per person (room and board, questionable quality). 4 PCs = 4 gp/day, 28 gp per week. Domina Lella, however, quotes figures by feel - the bill never matches the real amount.
 
 ## Description
 
@@ -31,7 +31,7 @@ Recurring NPC throughout the adventure. The PCs' creditor, source of information
 
 ## Motivations
 
-> ⚠ *To be reviewed by the author — extract from Description and Future Hooks.*
+> ⚠ *To be reviewed by the author - extract from Description and Future Hooks.*
 
 ## DM Notes
 

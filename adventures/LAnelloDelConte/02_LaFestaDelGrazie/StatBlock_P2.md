@@ -1,10 +1,10 @@
-# Stat Block — Puntata 2: La Festa del Grazie
+# Stat Block - Puntata 2: La Festa del Grazie
 
 ---
 
 ## Sergius S. Arimano Improbus (Marchese Arimano)
 
-*Umano, Medio, Neutrale Malvagio — Rogue 3 (Assassin)*
+*Umano, Medio, Neutrale Malvagio - Rogue 3 (Assassin)*
 
 **Classe Armatura:** 14 (armatura di cuoio)
 **Punti Ferita:** 18 (3d8+3)
@@ -36,7 +36,7 @@
 
 **Balestra a mano.** +5, distanza 30/120 ft. *Colpisce:* 1d6+3 perforanti (+2d6 Sneak Attack).
 
-**Nota meta: Sergius NON può essere catturato a questo punto — vietato dalla sceneggiatura.** Non combatte. Scappa dalla strada a sinistra del palco, subito, ancora parzialmente vestito da Grigius. Figura gobba mascherata, non riconoscibile. Usa Invisibilità se necessario.
+**Nota meta: Sergius NON può essere catturato a questo punto - vietato dalla sceneggiatura.** Non combatte. Scappa dalla strada a sinistra del palco, subito, ancora parzialmente vestito da Grigius. Figura gobba mascherata, non riconoscibile. Usa Invisibilità se necessario.
 
 ---
 
@@ -116,4 +116,4 @@
 
 **Randello.** +2, mischia 5 ft. *Colpisce:* 1d4 contundenti.
 
-**Eccezione — Mastro Cecio:** FOR 18 (+4). Randello: +6, 1d4+4 contundenti.
+**Eccezione - Mastro Cecio:** FOR 18 (+4). Randello: +6, 1d4+4 contundenti.

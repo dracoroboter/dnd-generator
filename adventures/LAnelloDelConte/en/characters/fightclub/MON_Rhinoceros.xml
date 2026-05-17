@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Rhinoceros</name>
+        <name>Rhinoceros - rhinoceros</name>
         <size>L</size>
         <type>beast</type>
         <alignment>unaligned</alignment>
@@ -15,7 +15,7 @@
         <wis>12</wis>
         <cha>6</cha>
         <senses>passive Perception 11</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>2</cr>
         <trait>
             <name>Charge</name>
@@ -26,7 +26,7 @@
             <text>Attack: +7, melee 5ft Damage: 2d8+5 bludgeoning</text>
             <attack>Gore (melee)|+7|2d8+5</attack>
         </action>
-        <description>A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse 4 of Vetusta Portus. It's not an enemy — it's a terrified animal that wants to escape. It only attacks those in its path toward the door.
+        <description>A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse 4 of Vetusta Portus. It's not an enemy - it's a terrified animal that wants to escape. It only attacks those in its path toward the door.
 Role: exotic animal trapped in the warehouse</description>
     </monster>
 </compendium>

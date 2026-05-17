@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# MON_Rhinoceros — rhinoceros
+# MON_Rhinoceros - rhinoceros
 
 ## General Information
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse 4 of Vetusta Portus. It's not an enemy — it's a terrified animal that wants to escape. It only attacks those in its path toward the door.
+A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse 4 of Vetusta Portus. It's not an enemy - it's a terrified animal that wants to escape. It only attacks those in its path toward the door.
 
 ## Stat Block
 
@@ -26,7 +26,7 @@ A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse
 - **Armor Class**: 11 (natural armor)
 - **Speed**: 12m / 40ft / 8sq
 - **Senses**: passive Perception 11
-- **Languages**: —
+- **Languages**: -
 - **Challenge**: 2 (450 XP)
 
 ## Notable Abilities
@@ -41,7 +41,7 @@ A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse
 
 ## Role in the Adventure
 
-Breaks free from its reinforced crate (AC 15, HP 18, damage threshold 5) in Warehouse 4. Starting round 2 of combat, it attacks the crate from inside (+7, 2d8+5) each round. Once the crate breaks, its goal is to smash through the warehouse door and escape. It doesn't chase PCs — it only attacks those in its path.
+Breaks free from its reinforced crate (AC 15, HP 18, damage threshold 5) in Warehouse 4. Starting round 2 of combat, it attacks the crate from inside (+7, 2d8+5) each round. Once the crate breaks, its goal is to smash through the warehouse door and escape. It doesn't chase PCs - it only attacks those in its path.
 
 ## DM Notes
 

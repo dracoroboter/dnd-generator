@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-release-bundle.py — Genera lo ZIP di pubblicazione di un'avventura.
+release-bundle.py - Pubblica un'avventura in public/.
 
 Uso:
   python3 tech/scripts/release-bundle.py <NomeAvventura>
-  python3 tech/scripts/release-bundle.py <NomeAvventura> --tag v1.0
+  python3 tech/scripts/release-bundle.py <NomeAvventura> --full
 
-Flusso completo:
-  1. Rigenera stat block + compendium XML (generate-statblocks.py)
-  2. Genera PDF fullres + lowres (create-pdf-adventure.py)
-  3. Assembla lo ZIP con formato directory standard
-  4. Copia lo ZIP in public/
+Output in public/:
+  - PDF lowres (testo + stat block inline, no immagini)
+  - ZIP immagini (mappe, personaggi, scene, cover, oggetti)
+  - ZIP stat block (PNG schede meccaniche)
+  - Compendium XML (non zippato)
 
-Richiede: generate-statblocks.py, create-pdf-adventure.py già funzionanti.
+Con --full: genera anche il PDF completo con tutto inline.
 """
 
 import sys
@@ -25,40 +25,75 @@ import json
 from datetime import datetime
 
 
-def is_multilingual(adv_dir):
-    return os.path.isfile(os.path.join(adv_dir, "manifest.json"))
-
-def get_lang_dir(adv_dir, lang="it"):
-    if is_multilingual(adv_dir):
-        return os.path.join(adv_dir, lang)
-    return adv_dir
-
-def get_default_lang(adv_dir):
+def get_langs(adv_dir):
     manifest = os.path.join(adv_dir, "manifest.json")
     if os.path.isfile(manifest):
         with open(manifest) as f:
-            return json.loads(f.read()).get("default_lang", "it")
-    return "it"
+            return json.loads(f.read()).get("languages", ["it"])
+    return ["it"]
+
+
+def run(cmd, cwd):
+    r = subprocess.run(cmd, capture_output=True, text=True, cwd=cwd)
+    if r.returncode != 0:
+        print(f"  ERRORE: {r.stderr.strip()}")
+        sys.exit(1)
+    return r.stdout
+
+
+def collect_images(adv_dir):
+    """Collect all images from the adventure (maps, characters, scenes, cover, objects)."""
+    images = []
+    img_exts = (".png", ".jpg", ".jpeg")
+
+    # maps/ (exclude other/)
+    maps_dir = os.path.join(adv_dir, "maps")
+    if os.path.isdir(maps_dir):
+        for f in os.listdir(maps_dir):
+            if os.path.splitext(f)[1].lower() in img_exts:
+                images.append(("maps", os.path.join(maps_dir, f)))
+
+    # characters/img/
+    chars_dir = os.path.join(adv_dir, "characters", "img")
+    if os.path.isdir(chars_dir):
+        for f in os.listdir(chars_dir):
+            if os.path.splitext(f)[1].lower() in img_exts:
+                images.append(("characters", os.path.join(chars_dir, f)))
+
+    # img/ (cover etc)
+    img_dir = os.path.join(adv_dir, "img")
+    if os.path.isdir(img_dir):
+        for f in os.listdir(img_dir):
+            if os.path.splitext(f)[1].lower() in img_exts:
+                images.append(("img", os.path.join(img_dir, f)))
+
+    # objects/*.png
+    obj_dir = os.path.join(adv_dir, "objects")
+    if os.path.isdir(obj_dir):
+        for f in os.listdir(obj_dir):
+            if os.path.splitext(f)[1].lower() in img_exts:
+                images.append(("objects", os.path.join(obj_dir, f)))
+
+    # */img/scenes/ (module scenes)
+    for d in os.listdir(adv_dir):
+        scenes_dir = os.path.join(adv_dir, d, "img", "scenes")
+        if os.path.isdir(scenes_dir):
+            for f in os.listdir(scenes_dir):
+                if os.path.splitext(f)[1].lower() in img_exts:
+                    images.append(("scenes", os.path.join(scenes_dir, f)))
+
+    return images
 
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    flags = [a for a in sys.argv[1:] if a.startswith("--")]
+    full = "--full" in sys.argv
 
     if not args:
-        print(f"Uso: {sys.argv[0]} <NomeAvventura> [--tag vX.Y]")
+        print(f"Uso: {sys.argv[0]} <NomeAvventura> [--full]")
         sys.exit(1)
 
     adventure = args[0]
-    tag = None
-    for i, f in enumerate(flags):
-        if f == "--tag" and i + 1 < len(flags):
-            tag = flags[i + 1]
-    # Also check sys.argv directly for --tag
-    for i, a in enumerate(sys.argv):
-        if a == "--tag" and i + 1 < len(sys.argv):
-            tag = sys.argv[i + 1]
-
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
     adv_dir = os.path.join(project_root, "adventures", adventure)
     releases_dir = os.path.join(project_root, "releases", adventure)
@@ -68,165 +103,119 @@ def main():
         print(f"Errore: {adv_dir} non trovata.")
         sys.exit(1)
 
+    langs = get_langs(adv_dir)
     date_str = datetime.now().strftime("%Y%m%d")
-    tag_str = f"_{tag}" if tag else ""
-    bundle_name = f"{adventure}{tag_str}_{date_str}"
 
-    print(f"=== Release bundle: {bundle_name} ===\n")
+    print(f"=== Pubblicazione: {adventure} ({', '.join(langs)}) ===\n")
 
-    # Step 1: generate stat blocks + compendium
-    print("[1/4] Stat block + compendium...")
-    r = subprocess.run(
-        ["python3", os.path.join(project_root, "tech/fightclub/generate-statblocks.py"), adventure],
-        capture_output=True, text=True, cwd=project_root
-    )
-    if r.returncode != 0:
-        print(f"  Errore: {r.stderr.strip()}")
-        sys.exit(1)
-    # Count generated
-    lines = [l for l in r.stdout.strip().split("\n") if l.startswith("✓")]
-    for l in lines:
-        print(f"  {l}")
-
-    # Step 2: generate PDFs
-    print("[2/4] PDF fullres...")
-    r = subprocess.run(
-        ["python3", os.path.join(project_root, "tech/create-pdf-adventure/create-pdf-adventure.py"), adventure],
-        capture_output=True, text=True, cwd=project_root
-    )
-    if r.returncode != 0:
-        print(f"  Errore: {r.stderr.strip()}")
-        sys.exit(1)
-    for l in r.stdout.strip().split("\n"):
-        if "PDF generato" in l:
-            print(f"  {l.strip()}")
-
-    print("  PDF lowres...")
-    r = subprocess.run(
-        ["python3", os.path.join(project_root, "tech/create-pdf-adventure/create-pdf-adventure.py"), adventure, "--lowres"],
-        capture_output=True, text=True, cwd=project_root
-    )
-    if r.returncode != 0:
-        print(f"  Errore: {r.stderr.strip()}")
-        sys.exit(1)
-    for l in r.stdout.strip().split("\n"):
-        if "PDF generato" in l:
-            print(f"  {l.strip()}")
-
-    # Step 3: assemble ZIP
-    print("[3/4] Assemblaggio ZIP...")
-
-    # Find latest PDFs
-    fullres = sorted(glob.glob(os.path.join(releases_dir, f"{adventure}_*.pdf")))
-    fullres = [f for f in fullres if "lowres" not in f]
-    lowres = sorted(glob.glob(os.path.join(releases_dir, f"{adventure}_*_lowres.pdf")))
-    pdf_full = fullres[-1] if fullres else None
-    pdf_low = lowres[-1] if lowres else None
-
-    # Compendium
-    lang_dir = get_lang_dir(adv_dir)
-    compendium = os.path.join(lang_dir, "characters", "fightclub", f"{adventure}_Compendium.xml")
-
-    # Cover
-    cover = None
-    for ext in (".png", ".jpg"):
-        c = os.path.join(adv_dir, "img", f"{adventure}_COVER{ext}")
-        if os.path.isfile(c):
-            cover = c
-            break
-
-    # Maps: collect from all module maps/ dirs + top-level maps/ (images only, in root)
-    maps = []
-    # In multilingual mode, module map images are in root NN_Name/maps/
-    # In legacy mode, they're in the same place
-    for maps_dir in glob.glob(os.path.join(adv_dir, "*/maps")) + [os.path.join(adv_dir, "maps")]:
-        if os.path.isdir(maps_dir):
-            for ext in ("*.png", "*.jpg", "*.jpeg"):
-                maps.extend(glob.glob(os.path.join(maps_dir, ext)))
-    # Also check lang_dir for module maps (multilingual: images may be in root modules)
-    if is_multilingual(adv_dir):
-        for maps_dir in glob.glob(os.path.join(lang_dir, "*/maps")):
-            if os.path.isdir(maps_dir):
-                for ext in ("*.png", "*.jpg", "*.jpeg"):
-                    maps.extend(glob.glob(os.path.join(maps_dir, ext)))
-    # Exclude other/ subdirs and deduplicate
-    maps = list(set(m for m in maps if "/other/" not in m))
-
-    # Stat block PNGs
-    sb_dir = os.path.join(lang_dir, "characters", "statblock")
-    statblocks = sorted(glob.glob(os.path.join(sb_dir, "*.png"))) if os.path.isdir(sb_dir) else []
-
-    # Build ZIP
-    os.makedirs(releases_dir, exist_ok=True)
-    zip_path = os.path.join(releases_dir, f"{bundle_name}.zip")
-
-    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-        # PDFs — only lowres in the bundle (fullres is for print, separate)
-        if pdf_low:
-            zf.write(pdf_low, os.path.basename(pdf_low))
-            print(f"  + {os.path.basename(pdf_low)}")
-
-        # Compendium
-        if os.path.isfile(compendium):
-            zf.write(compendium, os.path.basename(compendium))
-            print(f"  + {os.path.basename(compendium)}")
-
-        # Cover
-        if cover:
-            zf.write(cover, os.path.basename(cover))
-            print(f"  + {os.path.basename(cover)}")
-
-        # Maps
-        for m in maps:
-            arcname = f"maps/{os.path.basename(m)}"
-            zf.write(m, arcname)
-        if maps:
-            print(f"  + maps/ ({len(maps)} file)")
-
-        # Stat blocks
-        for s in statblocks:
-            arcname = f"statblocks/{os.path.basename(s)}"
-            zf.write(s, arcname)
-        if statblocks:
-            print(f"  + statblocks/ ({len(statblocks)} file)")
-
-        # README.txt
-        readme = (
-            f"{adventure}\n"
-            f"{'=' * len(adventure)}\n\n"
-            f"Versione: {tag or 'non taggata'}\n"
-            f"Data: {datetime.now().strftime('%Y-%m-%d')}\n"
-            f"Autore: dracoroboter\n"
-            f"Licenza: CC BY-SA 4.0\n\n"
-            f"Questo pacchetto è pensato per campagne online (Roll20, VTT).\n"
-            f"Per la stampa fisica, usare il PDF printable fullres generato separatamente.\n\n"
-            f"Contenuto:\n"
-            f"- PDF avventura lowres (senza mappe/stat block inline)\n"
-            f"- Compendium XML FightClub ({len(statblocks)} creature)\n"
-            f"- {len(maps)} mappe PNG\n"
-            f"- {len(statblocks)} stat block PNG\n"
+    # Step 1: stat block + compendium
+    print("[1/3] Stat block + compendium...")
+    for lang in langs:
+        lang_flag = ["--lang", lang] if lang != "it" else []
+        out = run(
+            ["python3", "tech/fightclub/generate-statblocks.py", adventure] + lang_flag,
+            project_root
         )
-        if cover:
-            readme += f"- Copertina\n"
-        zf.writestr("README.txt", readme)
-        print(f"  + README.txt")
+        for l in out.strip().split("\n"):
+            if l.startswith("✓") or "Compendium" in l:
+                print(f"  {l}")
 
-    zip_size = os.path.getsize(zip_path) / (1024 * 1024)
-    print(f"\n  ZIP: {zip_path} ({zip_size:.1f} MB)")
+    # Step 2: PDF
+    print("[2/3] PDF...")
+    for lang in langs:
+        lang_flag = ["--lang", lang] if lang != "it" else []
+        out = run(
+            ["python3", "tech/create-pdf-adventure/create-pdf-adventure.py",
+             adventure, "--lowres", "--only", "cover,frontmatter,doc,statblocks"] + lang_flag,
+            project_root
+        )
+        for l in out.strip().split("\n"):
+            if "PDF generato" in l:
+                print(f"  {l.strip()}")
 
-    # Step 4: copy to public/
-    print("[4/4] Pubblicazione in public/...")
+        if full:
+            out = run(
+                ["python3", "tech/create-pdf-adventure/create-pdf-adventure.py",
+                 adventure, "--lowres"] + lang_flag,
+                project_root
+            )
+            for l in out.strip().split("\n"):
+                if "PDF generato" in l:
+                    print(f"  (full) {l.strip()}")
+
+    # Step 3: pubblica in public/
+    print("[3/3] Pubblicazione in public/...")
     os.makedirs(public_dir, exist_ok=True)
 
-    # Remove old versions
+    # Rimuovi vecchie versioni
     for old in glob.glob(os.path.join(public_dir, f"{adventure}_*")):
         os.remove(old)
 
-    dest = os.path.join(public_dir, os.path.basename(zip_path))
-    shutil.copy2(zip_path, dest)
-    print(f"  → {dest}")
+    published = []
 
-    print(f"\n=== Pubblicazione completata: {os.path.basename(zip_path)} ({zip_size:.1f} MB) ===")
+    # PDF per ogni lingua
+    for lang in langs:
+        suffix = f"_{lang}" if lang != "it" else ""
+        pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*lowres{suffix}*only*.pdf")
+        candidates = sorted(glob.glob(pattern))
+        if not candidates:
+            pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*lowres{suffix}*.pdf")
+            candidates = sorted(glob.glob(pattern))
+        if candidates:
+            src = candidates[-1]
+            dest_name = f"{adventure}_{date_str}_lowres{suffix}.pdf"
+            dest = os.path.join(public_dir, dest_name)
+            shutil.copy2(src, dest)
+            size = os.path.getsize(dest) / (1024 * 1024)
+            published.append((dest_name, f"{size:.1f} MB"))
+
+    # ZIP immagini (tutte)
+    images = collect_images(adv_dir)
+    if images:
+        zip_name = f"{adventure}_Images.zip"
+        zip_path = os.path.join(public_dir, zip_name)
+        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+            for category, path in sorted(images, key=lambda x: x[1]):
+                arcname = f"{category}/{os.path.basename(path)}"
+                zf.write(path, arcname)
+        size = os.path.getsize(zip_path) / (1024 * 1024)
+        published.append((zip_name, f"{size:.1f} MB ({len(images)} file)"))
+
+    # ZIP stat block + compendium per ogni lingua
+    for lang in langs:
+        suffix = f"_{lang}" if lang != "it" else ""
+        lang_dir = os.path.join(adv_dir, lang) if os.path.isdir(os.path.join(adv_dir, lang)) else adv_dir
+        sb_dir = os.path.join(lang_dir, "characters", "statblock")
+
+        if os.path.isdir(sb_dir):
+            sb_files = sorted(glob.glob(os.path.join(sb_dir, "*.png")))
+            if sb_files:
+                zip_name = f"{adventure}_Statblocks{suffix}.zip"
+                zip_path = os.path.join(public_dir, zip_name)
+                with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+                    for s in sb_files:
+                        zf.write(s, os.path.basename(s))
+                size = os.path.getsize(zip_path) / (1024 * 1024)
+                published.append((zip_name, f"{size:.1f} MB ({len(sb_files)} file)"))
+
+        # Compendium XML
+        fc_dir = os.path.join(lang_dir, "characters", "fightclub")
+        comp = os.path.join(fc_dir, f"{adventure}_Compendium.xml")
+        if os.path.isfile(comp):
+            comp_name = f"{adventure}_Compendium{suffix}.xml"
+            dest = os.path.join(public_dir, comp_name)
+            shutil.copy2(comp, dest)
+            size = os.path.getsize(dest) / 1024
+            published.append((comp_name, f"{size:.0f} KB"))
+
+    # Riepilogo
+    print(f"\n{'='*60}")
+    print(f"Pubblicato in public/:")
+    print(f"{'='*60}")
+    for name, size in published:
+        print(f"  {name:45s} {size}")
+    print(f"{'='*60}")
+    print(f"\nRicorda di committare i cambiamenti in public/.")
 
 
 if __name__ == "__main__":

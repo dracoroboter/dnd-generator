@@ -1,18 +1,18 @@
-# DM Prep — L'Anello del Conte
+# DM Prep - L'Anello del Conte
 
 Riepilogo incontri e NPC per configurare Roll20 / FightClub / Game Master 5e.
 Un file unico per tutta la campagna.
 
 ---
 
-## Puntata 1 — Le Fogne di Fianus
+## Puntata 1 - Le Fogne di Fianus
 
 ### Incontri
 
 | # | Luogo | Tipo | Nemici | Difficoltà |
 |---|-------|------|--------|------------|
-| 1 | Stanza 1 — Ingresso Allagato | Combattimento / sociale | 5× Giant Rat (MM p. 327, CR 1/8) | Easy |
-| 2 | Stanza 3 — Grande Caverna | Combattimento / sociale | 1× Grunzio (Ogre, MM p. 237, PF ridotti a 30) | Medium |
+| 1 | Stanza 1 - Ingresso Allagato | Combattimento / sociale | 5× Giant Rat (MM p. 327, CR 1/8) | Easy |
+| 2 | Stanza 3 - Grande Caverna | Combattimento / sociale | 1× Grunzio (Ogre, MM p. 237, PF ridotti a 30) | Medium |
 
 Entrambi gli incontri sono risolvibili senza combattimento.
 
@@ -25,7 +25,7 @@ Entrambi gli incontri sono risolvibili senza combattimento.
 | Sir Gorim Vel | Custom (Fighter, CR 3) | Committente |
 | Domina Lella | Commoner (custom) | Taverniera, creditrice dei PG |
 
-#### Borgo — Settebagni / Mercato
+#### Borgo - Settebagni / Mercato
 
 | NPC | Stat block | Note |
 |-----|-----------|------|
@@ -36,9 +36,9 @@ Entrambi gli incontri sono risolvibili senza combattimento.
 
 | NPC | Stat block | Note |
 |-----|-----------|------|
-| 5× Giant Rat | MM p. 327, CR 1/8 | Stanza 1 — ratti sindacalizzati |
-| Ermolao "Il Profondo" | Commoner (MM p. 345) | Stanza 2 — ex contabile, inutile |
-| Grunzio | Ogre (MM p. 237), PF 30 | Stanza 3 — troll esattore |
+| 5× Giant Rat | MM p. 327, CR 1/8 | Stanza 1 - ratti sindacalizzati |
+| Ermolao "Il Profondo" | Commoner (MM p. 345) | Stanza 2 - ex contabile, inutile |
+| Grunzio | Ogre (MM p. 237), PF 30 | Stanza 3 - troll esattore |
 
 ### Stat block
 
@@ -53,7 +53,7 @@ Entrambi gli incontri sono risolvibili senza combattimento.
 
 ---
 
-## Puntata 2 — La Festa del Grazie
+## Puntata 2 - La Festa del Grazie
 
 ### Incontri
 
@@ -61,9 +61,9 @@ Entrambi gli incontri sono risolvibili senza combattimento.
 |---|-------|------|--------|------------|
 | 1 | Piazza (se PG individuano Sergius) | Combattimento | 3× Thug (MM p. 350, CR 1/2) + Sergius (fuga) | Hard (4 PG lv2) |
 
-L'incontro è **opzionale** — avviene solo se i PG individuano Sergius. Sergius non combatte (usa Invisibilità e scappa). I Thug coprono la fuga per 1-2 round e si arrendono.
+L'incontro è **opzionale** - avviene solo se i PG individuano Sergius. Sergius non combatte (usa Invisibilità e scappa). I Thug coprono la fuga per 1-2 round e si arrendono.
 
-**Nota meta: Sergius NON può essere catturato a questo punto — vietato dalla sceneggiatura.**
+**Nota meta: Sergius NON può essere catturato a questo punto - vietato dalla sceneggiatura.**
 
 ### NPC per luogo
 
@@ -74,22 +74,22 @@ L'incontro è **opzionale** — avviene solo se i PG individuano Sergius. Sergiu
 | Sir Gorim Vel | Custom (Fighter, CR 3) | Ricorrente |
 | Domina Lella | Commoner (custom) | Ricorrente |
 
-#### Piazza del Mercato — Festa del Grazie
+#### Piazza del Mercato - Festa del Grazie
 
 | NPC | Stat block | Ruolo |
 |-----|-----------|-------|
-| Flavia "La Biscia" | Commoner (MM p. 345) | Mercante ambulante, fonte pettegolezzi. Vende pozioni rinvigorenti di nascosto. Non conosce il produttore — comprava da intermediario. |
+| Flavia "La Biscia" | Commoner (MM p. 345) | Mercante ambulante, fonte pettegolezzi. Vende pozioni rinvigorenti di nascosto. Non conosce il produttore - comprava da intermediario. |
 | Mastro Cecio | Commoner (MM p. 345), **FOR 18** (+6 randello, 1d4+4) | Fabbro, giudice braccio di ferro |
 | Terzilio | Commoner (MM p. 345) | Il vero Terzilio (non Sergius) |
 | Grigius Voidus | Noble (MM p. 348, CR 1/8) | Funzionario, imbavagliato da Sergius |
 | Donna Ortensia | Noble (MM p. 348, CR 1/8) | Nobile minore, cliente segreta di Sergius. Moglie di Grigius Voidus |
 | La Contessina | Noble (MM p. 348, CR 1/8) | Moglie del Conte, causa Gabella Pudicitiae |
 
-#### Piazza — Incontro (opzionale)
+#### Piazza - Incontro (opzionale)
 
 | NPC | Stat block | Ruolo |
 |-----|-----------|-------|
-| Sergius S. Arimano | Custom (Rogue 3, CR 1) | Antagonista — scappa subito dalla strada a sinistra del palco |
+| Sergius S. Arimano | Custom (Rogue 3, CR 1) | Antagonista - scappa subito dalla strada a sinistra del palco |
 | 3× Thug | MM p. 350, CR 1/2 | Copertura fuga Sergius |
 
 ### Stat block
@@ -105,36 +105,36 @@ L'incontro è **opzionale** — avviene solo se i PG individuano Sergius. Sergiu
 
 ---
 
-## Puntata 3 — Una Pizza in Compagnia
+## Puntata 3 - Una Pizza in Compagnia
 
 ### Incontri
 
 | # | Luogo | Tipo | Nemici | Difficoltà |
 |---|-------|------|--------|------------|
 | 1 | Magazzino 4, Vetusta Portus | Combattimento | 1× Er Braccio (Bandit Captain CR 2) + 4× Bandit (CR 1/8) | Hard (4 PG lv2) |
-| 2 | Magazzino 4 (fase 2) | Caos ambientale | 1× Rinoceronte (CR 2) + animali vari (scimmie, serpenti, ragni) | — |
+| 2 | Magazzino 4 (fase 2) | Caos ambientale | 1× Rinoceronte (CR 2) + animali vari (scimmie, serpenti, ragni) | - |
 
-Il combattimento è un unico scontro caotico in due fasi. Il rinoceronte attacca la cassa dall'interno (CA 15, PF 18, soglia 5) a partire dal round 2 — sfonda tipicamente in 2-3 round.
+Il combattimento è un unico scontro caotico in due fasi. Il rinoceronte attacca la cassa dall'interno (CA 15, PF 18, soglia 5) a partire dal round 2 - sfonda tipicamente in 2-3 round.
 
 **Nota: Er Braccio probabilmente scappa nel caos. Serve come sospetto nelle puntate successive.**
 
 ### NPC per luogo
 
-#### Fianus — Atto 1 (roleplay)
+#### Fianus - Atto 1 (roleplay)
 
 | NPC | Stat block | Note |
 |-----|-----------|------|
 | Sir Gorim Vel | Custom (Fighter, CR 3) | Ricorrente, al castello |
 | La Contessina | Noble (MM p. 348) | Informata del ricatto, imbarazzata |
-| Flavia "La Biscia" | Commoner (MM p. 345) | Sa delle pozioni ma non il produttore — comprava da intermediario |
+| Flavia "La Biscia" | Commoner (MM p. 345) | Sa delle pozioni ma non il produttore - comprava da intermediario |
 
-#### Vetusta Portus — Casa del Marchese
+#### Vetusta Portus - Casa del Marchese
 
 | NPC | Stat block | Note |
 |-----|-----------|------|
 | Marchese Arimano (Sergius) | Custom (Rogue 3, CR 1) | Committente. NON deve essere riconosciuto come S. |
 
-#### Vetusta Portus — Magazzino 4
+#### Vetusta Portus - Magazzino 4
 
 | NPC | Stat block | Note |
 |-----|-----------|------|

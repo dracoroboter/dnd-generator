@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>PoisonousSnake</name>
+        <name>PoisonousSnake - serpente velenoso</name>
         <size>T</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -15,7 +15,7 @@
         <wis>10</wis>
         <cha>3</cha>
         <senses>Vista cieca 10 ft., Percezione passiva 10</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>1/8</cr>
         <action>
             <name>Morso (mischia)</name>

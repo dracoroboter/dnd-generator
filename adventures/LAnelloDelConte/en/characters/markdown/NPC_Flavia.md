@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# NPC_Flavia — Flavia "The Snake"
+# NPC_Flavia - Flavia "The Snake"
 
 ## General Information
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-A thin woman with quick eyes and black hair gathered under a colorful headscarf. She moves between the markets of Fianus and Vetusta Portus selling herbs, ointments, and folk remedies. They call her "The Snake" for how she slips away when things go bad. Before the Gabella she also sold "La Rocca Imponente" invigorating potions — she bought them from an anonymous intermediary at the port.
+A thin woman with quick eyes and black hair gathered under a colorful headscarf. She moves between the markets of Fianus and Vetusta Portus selling herbs, ointments, and folk remedies. They call her "The Snake" for how she slips away when things go bad. Before the Gabella she also sold "La Rocca Imponente" invigorating potions - she bought them from an anonymous intermediary at the port.
 
 ## Stat Block
 
@@ -36,11 +36,11 @@ A thin woman with quick eyes and black hair gathered under a colorful headscarf.
 
 ## Role in the Adventure
 
-Investigation NPC in Episode 3. She knows about the invigorating potions because she sold them, but doesn't know the producer — she bought from an intermediary who left crates at the port. She cannot link the potions to Sergius.
+Investigation NPC in Episode 3. She knows about the invigorating potions because she sold them, but doesn't know the producer - she bought from an intermediary who left crates at the port. She cannot link the potions to Sergius.
 
 ## DM Notes
 
 - Not an enemy. She's a source of partial information.
 - If PCs show her the bottle, she confirms she sold it ("La Rocca Imponente").
-- She's not lying — she genuinely doesn't know who produced the potions.
+- She's not lying - she genuinely doesn't know who produced the potions.
 - Found at the market during the day, disappears in the evening.

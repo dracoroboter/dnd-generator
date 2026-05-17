@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Bandit</name>
+        <name>Bandit - bandit</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>chaotic neutral</alignment>
@@ -27,7 +27,7 @@
             <text>Attack: +3, ranged 80/320 ft. Damage: 1d8+1 piercing</text>
             <attack>Light Crossbow (ranged)|+3|1d8+1</attack>
         </action>
-        <description>Port men of Vetusta Portus. Dockworkers, ex-sailors, petty criminals. They work for Er Braccio for easy money. They're not fanatics — if things go south, they run.
+        <description>Port men of Vetusta Portus. Dockworkers, ex-sailors, petty criminals. They work for Er Braccio for easy money. They're not fanatics - if things go south, they run.
 Role: Er Braccio's henchman</description>
     </monster>
 </compendium>

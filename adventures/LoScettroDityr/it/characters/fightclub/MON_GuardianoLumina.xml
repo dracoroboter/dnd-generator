@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>MON_GuardianoLumina</name>
+        <name>GuardianoLumina</name>
         <size>M</size>
         <type>humanoid (costrutto (golem di pietra))</type>
         <alignment>neutrale (corrotto da vecna)</alignment>

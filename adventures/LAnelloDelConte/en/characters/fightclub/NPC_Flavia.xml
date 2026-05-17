@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Flavia</name>
+        <name>Flavia - Flavia &quot;The Snake&quot;</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>neutral</alignment>
@@ -22,7 +22,7 @@
             <text>Attack: +2, melee 5ft Damage: 1d4 piercing</text>
             <attack>Small knife (melee)|+2|1d4</attack>
         </action>
-        <description>A thin woman with quick eyes and black hair gathered under a colorful headscarf. She moves between the markets of Fianus and Vetusta Portus selling herbs, ointments, and folk remedies. They call her &quot;The Snake&quot; for how she slips away when things go bad. Before the Gabella she also sold &quot;La Rocca Imponente&quot; invigorating potions — she bought them from an anonymous intermediary at the port.
+        <description>A thin woman with quick eyes and black hair gathered under a colorful headscarf. She moves between the markets of Fianus and Vetusta Portus selling herbs, ointments, and folk remedies. They call her &quot;The Snake&quot; for how she slips away when things go bad. Before the Gabella she also sold &quot;La Rocca Imponente&quot; invigorating potions - she bought them from an anonymous intermediary at the port.
 Role: former seller of invigorating potions</description>
     </monster>
 </compendium>

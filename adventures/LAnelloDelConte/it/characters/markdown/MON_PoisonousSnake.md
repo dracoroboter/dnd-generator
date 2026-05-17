@@ -1,4 +1,4 @@
-# MON_PoisonousSnake — serpente velenoso
+# MON_PoisonousSnake - serpente velenoso
 
 ## Informazioni generali
 
@@ -24,7 +24,7 @@ Serpenti sottili e veloci, color verde scuro con striature gialle. Scivolano fuo
 - **Classe armatura**: 13
 - **Velocità**: 9m / 30ft / 6qd, nuoto 9m / 30ft
 - **Sensi**: Vista cieca 10 ft., Percezione passiva 10
-- **Lingue**: —
+- **Lingue**: -
 - **Sfida**: 1/8 (25 PE)
 
 ## Attacchi
@@ -39,6 +39,6 @@ Escono dalle casse nel Magazzino 4 (Puntata 3) quando il rinoceronte carica (tab
 
 ## Note al master
 
-- Pericolosi per i PG di basso livello — 2d4 veleno può fare male.
+- Pericolosi per i PG di basso livello - 2d4 veleno può fare male.
 - Si nascondono tra le casse (Furtività +5 implicita dalla DES).
-- Non inseguono — mordono chi calpesta la loro zona e poi scivolano via.
+- Non inseguono - mordono chi calpesta la loro zona e poi scivolano via.

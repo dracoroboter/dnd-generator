@@ -1,18 +1,15 @@
-# NPC_Contessina — La Contessina
+# NPC_Contessina - secondario
 
 ## Informazioni generali
 
-- **Nome completo**: Concetta Priapi (nome vero, mai usato in pubblico)
-- **Nome pubblico**: Contessa Sarah Serbelloni Vien dal Porto — o più popolarmente, "la Contessina"
-- **Ruolo**: nobildonna, moglie del Conte di Fianus
-- **Classe**: —
-- **Livello**: —
+- **Nome completo**: Concetta Priapi (si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto")
+- **Ruolo**: nobildonna, moglie del Conte
 - **Razza**: umana
 - **Allineamento**: Legale Neutrale
 
 ## Descrizione
 
-Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma senza gusto — troppi gioielli, troppi colori. Parla con accento marcato e gesticola molto. Tiene su il castello di Aviano mentre il Conte è "in viaggio" (cioè sempre). Sa del ricatto ma la sua preoccupazione principale è la propria reputazione, non il marito.
+Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma senza gusto - troppi gioielli, troppi colori. Accento marcato, gesticola molto. Si vergogna delle origini (padre camallo a Vetusta Portus).
 
 ## Stat Block
 
@@ -24,7 +21,7 @@ Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma sen
 
 - **Punti ferita**: 9 (2d8)
 - **Classe armatura**: 15 (corazza di maglia)
-- **Velocità**: 9m / 30ft / 6qd
+- **Velocita**: 9m / 30ft / 6qd
 - **Competenze**: Intuizione +4, Persuasione +5, Inganno +5
 - **Sensi**: Percezione passiva 12
 - **Lingue**: Comune
@@ -36,18 +33,11 @@ Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma sen
 - **Attacco**: +3, mischia 5ft
 - **Danni**: 1d8+1 perforanti
 
-## Capacità notevoli
+## Capacita notevoli
 
-- **Parry**: La Contessina aggiunge 2 alla sua CA contro un attacco in mischia che la colpirebbe. Per farlo, deve vedere l'attaccante e impugnare un'arma da mischia.
-
-## Ruolo nell'avventura
-
-NPC narrativo nella Puntata 3. Sa del ricatto (il ritratto compromettente) perché Gorim l'ha informata. È imbarazzata e preoccupata per la sua reputazione. Non sa chi è S. Accessibile solo con lettera/sigillo di Gorim.
+- **Parry**: +2 alla CA contro un attacco in mischia che la colpirebbe. Deve vedere l'attaccante e impugnare un'arma da mischia.
 
 ## Note al master
 
-- Non combatte — lo stat block Noble è per completezza.
-- La sua preoccupazione è la reputazione, non il Conte.
-- Se i PG chiedono del Conte: "È in viaggio. È SEMPRE in viaggio."
-- Non ammette di sapere dei "commerci" del Conte.
-- Accesso al castello: serve lettera di Gorim o 1 ma a testa per le guardie.
+- Non combatte. Lo stat block Noble e per completezza.
+- Accessibile solo con lettera/sigillo di Gorim.

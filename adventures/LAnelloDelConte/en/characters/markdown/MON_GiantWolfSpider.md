@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# MON_GiantWolfSpider — giant wolf spider
+# MON_GiantWolfSpider - giant wolf spider
 
 ## General Information
 
@@ -26,7 +26,7 @@ A dog-sized spider, hairy, with eight black eyes and dripping mandibles. It drop
 - **Armor Class**: 13
 - **Speed**: 12m / 40ft / 8sq, climb 12m / 40ft
 - **Senses**: Blindsight 10 ft., Darkvision 60 ft., passive Perception 13
-- **Languages**: —
+- **Languages**: -
 - **Challenge**: 1/4 (50 XP)
 
 ## Notable Abilities
@@ -47,6 +47,6 @@ Drops from the ceiling in Warehouse 4 (Episode 3) when the rhinoceros charges (1
 
 ## DM Notes
 
-- The most dangerous of the minor animals — 2d6 poison is serious for level 2 PCs.
-- Climbs walls and ceiling — melee PCs need to reach it.
+- The most dangerous of the minor animals - 2d6 poison is serious for level 2 PCs.
+- Climbs walls and ceiling - melee PCs need to reach it.
 - Flees the warehouse after 2-3 rounds if not killed.

@@ -20,6 +20,12 @@ Non usare il trattino lungo (—) nel testo delle avventure. Sostituire con virg
 
 ---
 
+## Emoji
+
+Non usare emoji nel testo delle avventure e nei documenti di progetto. Unica eccezione: ✅ nelle checklist del PlanBook e nei documenti di lavoro.
+
+---
+
 ## Testo da leggere ai giocatori
 
 Usare blockquote per il testo da leggere ad alta voce:

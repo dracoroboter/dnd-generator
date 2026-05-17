@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Domina Lella</name>
+        <name>DominaLella - secondario</name>
         <size>M</size>
-        <type>humanoid (humanoid)</type>
-        <alignment>neutral</alignment>
+        <type>humanoid (umana)</type>
+        <alignment>lawful neutral</alignment>
         <ac>10</ac>
-        <hp>1</hp>
+        <hp>4 (1d8)</hp>
         <speed>30 ft.</speed>
         <str>14</str>
         <dex>10</dex>
@@ -14,10 +14,15 @@
         <int>11</int>
         <wis>14</wis>
         <cha>13</cha>
-        <cr>1</cr>
-        <description>- Pratica, diretta, zero diplomazia
-- Porzioni enormi, conto preciso
-- Sa tutto di tutti a Fianus Romanus, ma le informazioni si pagano
-- Il mattarello non è solo per la cucina</description>
+        <senses>Percezione passiva 12</senses>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <action>
+            <name>Mattarello (mischia)</name>
+            <text>Attacco: +4, mischia 5ft Danni: 1d4+2 contundenti</text>
+            <attack>Mattarello (mischia)|+4|1d4+2</attack>
+        </action>
+        <description>Donna massiccia, mattarello sempre a portata di mano. Pratica, diretta, zero diplomazia. Sa tutto di tutti a Fianus. Pigione: 1 ma/giorno a persona (dice cifre a sentimento, il conto non torna mai).
+Role: taverniera, creditrice dei PG</description>
     </monster>
 </compendium>

@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# NPC_SirGorimVel — ally
+# NPC_SirGorimVel - ally
 
 ## General Information
 
@@ -12,11 +12,11 @@
 
 ## Description
 
-The René Ferretti of Fianus Romanus. Former captain of the Drakenhold garrison, assigned to serve as the Count's official in Fianus Romanus as a "promotion" — actually a disguised exile. A soldier forced to be a bureaucrat. Constantly exasperated by the incompetence surrounding him.
+The René Ferretti of Fianus Romanus. Former captain of the Drakenhold garrison, assigned to serve as the Count's official in Fianus Romanus as a "promotion" - actually a disguised exile. A soldier forced to be a bureaucrat. Constantly exasperated by the incompetence surrounding him.
 
 Pragmatic to the core, allergic to pointless heroism. Gesticulates a lot, gets exasperated easily, talks to himself. Has a weakness for food (his belly confirms it).
 
-**Pathological stinginess:** Every time he has to pay the PCs, the scene must be an ordeal. Gorim doesn't want to do it in any way. He counts coins one by one, sighs at each coin, looks for excuses to pay less ("that wasn't information, that was an opinion"), asks for receipts, tries to pay in kind ("I'll give you a ham, it's the same"), proposes installments, accuses the PCs of not having done enough. No matter the amount — even 5 silver pieces cause him physical pain.
+**Pathological stinginess:** Every time he has to pay the PCs, the scene must be an ordeal. Gorim doesn't want to do it in any way. He counts coins one by one, sighs at each coin, looks for excuses to pay less ("that wasn't information, that was an opinion"), asks for receipts, tries to pay in kind ("I'll give you a ham, it's the same"), proposes installments, accuses the PCs of not having done enough. No matter the amount - even 5 silver pieces cause him physical pain.
 
 Recurring phrases adapted from Ferretti:
 - "Come on come on come on, we can do this" (he doesn't believe it)
@@ -53,22 +53,22 @@ Recurring phrases adapted from Ferretti:
 - **Damage**: 1d8+2 slashing (1d10+2 two-handed without shield)
 
 ### Dagger (melee/ranged)
-- **Attack**: +4, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq
+- **Attack**: +4, melee 5ft / 1sq or ranged 20ft / 4sq - 60ft / 12sq
 - **Damage**: 1d4+2 piercing
 
 ## Motivations
 
-He's the only NPC with direct (though vague) contact with the Count. He receives orders via sealed letters, messengers, or pigeons that arrive at the worst possible moment. The orders are often contradictory. He tries to complete the mission (find the Ring) with the resources he has — namely the PCs. He's not happy about it.
+He's the only NPC with direct (though vague) contact with the Count. He receives orders via sealed letters, messengers, or pigeons that arrive at the worst possible moment. The orders are often contradictory. He tries to complete the mission (find the Ring) with the resources he has - namely the PCs. He's not happy about it.
 
 ## Role in the Adventure
 
-Quest giver and guide for the PCs. He pays them (little), directs them (badly), insults them (often). He's stronger than the level 1 PCs but not strong enough to solve problems alone — he needs them, and this destroys him.
+Quest giver and guide for the PCs. He pays them (little), directs them (badly), insults them (often). He's stronger than the level 1 PCs but not strong enough to solve problems alone - he needs them, and this destroys him.
 
 ## DM Notes
 
 - Gorim doesn't fight if he can avoid it. He directs, orders, curses.
 - In combat he uses Action Surge only if the situation is desperate, accompanied by a "FINE, I'LL DO EVERYTHING MYSELF"
-- Occasionally show moments of genuine loyalty and duty beneath the exasperation — not just gags. These moments are the seed of the tragic Gorim from Il Re Spezzato.
+- Occasionally show moments of genuine loyalty and duty beneath the exasperation - not just gags. These moments are the seed of the tragic Gorim from Il Re Spezzato.
 - Sometimes he stops mid-sentence, worried, as if he knows something he's not saying
 - If pressed about the Count, he abruptly changes the subject
 

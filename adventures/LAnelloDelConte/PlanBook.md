@@ -1,4 +1,4 @@
-# PlanBook — L'Anello del Conte
+# PlanBook - L'Anello del Conte
 
 *Documento di lavoro: stato del progetto, idee, problemi aperti.*
 
@@ -6,7 +6,7 @@
 
 ## Relazione con Il Re Spezzato
 
-L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, stesso cast di base, tono opposto. Il passaggio di tono è il colpo di scena finale: la morte del Conte nell'ultima puntata non è comica — è il momento in cui la commedia finisce e inizia la storia seria.
+L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, stesso cast di base, tono opposto. Il passaggio di tono è il colpo di scena finale: la morte del Conte nell'ultima puntata non è comica - è il momento in cui la commedia finisce e inizia la storia seria.
 
 ---
 
@@ -23,10 +23,10 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 ### Da fare
 
 - [ ] Definire il quarto PG
-- [x] Puntata 2: La Festa del Grazie — discorso di Sergius, caccia al tesoro, NPC nuovi
+- [x] Puntata 2: La Festa del Grazie - discorso di Sergius, caccia al tesoro, NPC nuovi
 - [x] Puntata 3: ~~Il Rivale~~ → Una Pizza in Compagnia (scritta, vedi modulo 03)
-- [x] Puntata 4: Il Corniciaio — Sberluccica interrogato, rapito dalla Contessina, salvato dai PG (scritta, vedi modulo 04)
-- [ ] Puntata finale (numero da stabilire): Il Finale — rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
+- [x] Puntata 4: Il Corniciaio - Sberluccica interrogato, rapito dalla Contessina, salvato dai PG (scritta, vedi modulo 04)
+- [ ] Puntata finale (numero da stabilire): Il Finale - rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
 - [ ] Definire cosa sia davvero l'Anello e perché la rivelazione finale è soddisfacente
 - [ ] Definire l'esclamazione ricorrente del borgo (equivalente di "Daje!")
 - [ ] Definire l'equivalente fantasy di "Smarmella tutto"
@@ -34,15 +34,15 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 
 ---
 
-## La morte del Conte — Puntata finale
+## La morte del Conte - Puntata finale
 
 La puntata finale è anche una sorta di epilogo che porta al Re Spezzato.
 
-**Cosa succede:** Esplosione nel castello del Conte. Maghi laici terroristi del **Burmini** (paese lontano) attaccano il castello a causa degli affari che il Conte aveva in quel paese — questo spiega i suoi frequenti "viaggi".
+**Cosa succede:** Esplosione nel castello del Conte. Maghi laici terroristi del **Burmini** (paese lontano) attaccano il castello a causa degli affari che il Conte aveva in quel paese - questo spiega i suoi frequenti "viaggi".
 
-**Tono:** La morte del Conte non è comica — è il momento in cui la commedia finisce. Proprio quando i PG stavano finalmente per incontrare il Conte (e conoscerne il nome, il volto, tutto), lui muore per una causa completamente esterna e inaspettata. Niente nome, niente volto, niente risposte.
+**Tono:** La morte del Conte non è comica - è il momento in cui la commedia finisce. Proprio quando i PG stavano finalmente per incontrare il Conte (e conoscerne il nome, il volto, tutto), lui muore per una causa completamente esterna e inaspettata. Niente nome, niente volto, niente risposte.
 
-**Sergius:** È sorpreso quanto gli altri. A questo punto ha già compiuto la sua vendetta sul Conte (o non può più farla). La morte del Conte per mano di terroristi stranieri è beffarda e casuale — rende inutile tutto il suo piano.
+**Sergius:** È sorpreso quanto gli altri. A questo punto ha già compiuto la sua vendetta sul Conte (o non può più farla). La morte del Conte per mano di terroristi stranieri è beffarda e casuale - rende inutile tutto il suo piano.
 
 **I PG:** Completa sorpresa. Nessuno sapeva degli affari del Conte col Burmini. Il mistero si chiarisce dopo (forse nel Re Spezzato).
 
@@ -71,11 +71,11 @@ La doppia vita di S. (Arimano/Sergius) e i ritratti sono vaghi. Precisare senza 
 
 ---
 
-## Problemi aperti — Puntata 1
+## Problemi aperti - Puntata 1
 
 1. **La lettera nella stanza 5**: ~~il cattivo misterioso (Sergius) ha trovato l'Anello e lasciato una caccia al tesoro. Va definito meglio cosa vuole e come ha saputo dell'Anello.~~ → ✅ RISOLTO: Sergius non ha l'Anello, è un bluff. Ha scoperto che era stato perduto e finge di averlo per attirare avventurieri.
 2. **Due incontri sociali di fila** (stanza 1 e 2): Ratti + Ermolao sono entrambi dialogo. Valutare se invertire stanza 2 e 3.
-3. **Grunzio è troppo pericoloso**: anche con 30 PF, un Ogre fa 2d8+4 — one-shot su PG lv1. Abbassare il danno o rendere esplicito che non colpisce per uccidere.
+3. **Grunzio è troppo pericoloso**: anche con 30 PF, un Ogre fa 2d8+4 - one-shot su PG lv1. Abbassare il danno o rendere esplicito che non colpisce per uccidere.
 4. **Manca un motivo per cui i PG accettano**: Gorim dice "ordine del Conte" ma i PG non lavorano per lui. La trattativa sul compenso è il motivo, ma va reso più esplicito.
 
 ---
@@ -93,7 +93,7 @@ La doppia vita di S. (Arimano/Sergius) e i ritratti sono vaghi. Precisare senza 
 
 - Pochi combattimenti, molti skill check sociali (Persuasion, Deception, Performance)
 - Complicazioni da tabella random per ogni puntata
-- Niente morte dei PG — al massimo conseguenze comiche
+- Niente morte dei PG - al massimo conseguenze comiche
 - **Ermolao "Il Profondo"**: NPC ricorrente trovato in posti improbabili in ogni puntata
 - **I Ratti Sindacalizzati**: running gag, tornano a protestare in piazza alla Festa del Grazie
 - **Grunzio**: potrebbe tornare come alleato improbabile nelle puntate successive
@@ -101,7 +101,7 @@ La doppia vita di S. (Arimano/Sergius) e i ritratti sono vaghi. Precisare senza 
 
 ---
 
-## Sergius S. Arimano Improbus — il Marchese Arimano
+## Sergius S. Arimano Improbus - il Marchese Arimano
 
 Ha trovato l'Anello nelle fogne prima dei PG e lo usa per una vendetta contro il Conte. Da definire:
 - In che modo è stato fregato dal Conte
@@ -113,8 +113,8 @@ Ha trovato l'Anello nelle fogne prima dei PG e lo usa per una vendetta contro il
 
 I giocatori hanno iniziato a chiedersi il perché delle stranezze nelle fogne. Servono risposte coerenti:
 
-- **Perché Sergius ha un magazzino nelle fogne?** — ✅ DECISO: le fogne collegano il mare (Settebagni) al centro del borgo. Sergius fa arrivare merce via mare e la deposita nelle fogne. I clienti (nobili) vengono a ritirare di nascosto.
-- **Cosa commercia Sergius?** — ✅ DECISO: **pozioni di vigore** e **ritratti "artistici" erotici personalizzati** dei nobili in pose eroiche/romantiche idealizzate.
+- **Perché Sergius ha un magazzino nelle fogne?** - ✅ DECISO: le fogne collegano il mare (Settebagni) al centro del borgo. Sergius fa arrivare merce via mare e la deposita nelle fogne. I clienti (nobili) vengono a ritirare di nascosto.
+- **Cosa commercia Sergius?** - ✅ DECISO: **pozioni di vigore** e **ritratti "artistici" erotici personalizzati** dei nobili in pose eroiche/romantiche idealizzate.
 
   Le pozioni hanno nomi allusivi in stile retorico:
   - *La Rocca Imponente*
@@ -125,19 +125,19 @@ I giocatori hanno iniziato a chiedersi il perché delle stranezze nelle fogne. S
   - *Il Corno del Rinoceronte*
 
   Non funzionano (sono acqua colorata con erbe), ma i nobili ci credono e pagano cifre assurde. L'etichetta ha il vecchio simbolo di Sergius: un'alabarda che sbuca da un cespuglio (logo de "L'Immane Alabarda").
-- **Perché ce l'ha con il Conte?** — ✅ DECISO: il Conte era un ottimo cliente — si è fatto fare un ritratto "artistico". La moglie del Conte (beghina) ha scoperto tutto e ha fatto imporre la **"Gabella Pudicitiae"**: tassa su tutte le merci "birichine". Il Conte non ha mai pagato il ritratto. Sergius ce l'ha ancora e lo usa come leva. Sergius da commerciante legittimo è diventato contrabbandiere per colpa del Conte.
-- **La porta burocratica (stanza 4) — che senso ha?** — ✅ DECISO: è antica. Nessuno sa perché è lì. Non c'è nessuna ragione. Fa parte dell'assurdità inspiegabile di Fianus.
-- **Il sigillo doppia S** — ✅ DECISO: è il marchio nuovo, clandestino. La doppia S viene da **Sergius S. Arimano** — il middle name non viene mai rivelato (come il nome del Conte). Prima del divieto Sergius usava un simbolo diverso: un'immagine innocua a doppio senso sessuale (da decidere quale immagine). I PG conoscono il vecchio marchio ma non collegano la doppia S a Sergius.
+- **Perché ce l'ha con il Conte?** - ✅ DECISO: il Conte era un ottimo cliente - si è fatto fare un ritratto "artistico". La moglie del Conte (beghina) ha scoperto tutto e ha fatto imporre la **"Gabella Pudicitiae"**: tassa su tutte le merci "birichine". Il Conte non ha mai pagato il ritratto. Sergius ce l'ha ancora e lo usa come leva. Sergius da commerciante legittimo è diventato contrabbandiere per colpa del Conte.
+- **La porta burocratica (stanza 4) - che senso ha?** - ✅ DECISO: è antica. Nessuno sa perché è lì. Non c'è nessuna ragione. Fa parte dell'assurdità inspiegabile di Fianus.
+- **Il sigillo doppia S** - ✅ DECISO: è il marchio nuovo, clandestino. La doppia S viene da **Sergius S. Arimano** - il middle name non viene mai rivelato (come il nome del Conte). Prima del divieto Sergius usava un simbolo diverso: un'immagine innocua a doppio senso sessuale (da decidere quale immagine). I PG conoscono il vecchio marchio ma non collegano la doppia S a Sergius.
 
 ### Personalità: l'Enigmista
 
-Sergius non è un cattivo che si nasconde — è un cattivo che **gioca**. Gli piace prendere in giro chi lo insegue: lascia indizi, biglietti beffardi ("Per voi straccioni"), cacce al tesoro. Non vuole scappare — vuole divertirsi a spese del Conte e di chiunque il Conte mandi a cercarlo. È sempre un passo avanti.
+Sergius non è un cattivo che si nasconde - è un cattivo che **gioca**. Gli piace prendere in giro chi lo insegue: lascia indizi, biglietti beffardi ("Per voi straccioni"), cacce al tesoro. Non vuole scappare - vuole divertirsi a spese del Conte e di chiunque il Conte mandi a cercarlo. È sempre un passo avanti.
 
 ### Aspetto e travestimento (stile Stanislau Molisky)
 
 Il vero Sergius è un cinquantenne malaticcio, un po' gobbo. Ma nessuno lo vede mai così.
 
-Come Stanislau Molisky di Nick Carter, Sergius può cambiare radicalmente aspetto quando si traveste: più alto, più grasso, più magro, persino cambiare sesso. La cosa non è spiegata — fa parte della componente surreale della storia.
+Come Stanislau Molisky di Nick Carter, Sergius può cambiare radicalmente aspetto quando si traveste: più alto, più grasso, più magro, persino cambiare sesso. La cosa non è spiegata - fa parte della componente surreale della storia.
 
 In pubblico, quando non è dedito ai suoi traffici, va normalmente in giro "travestito" da una versione più aitante e non gobba di sé stesso. I PG non lo vedranno mai nel suo vero aspetto a meno di circostanze particolari.
 
@@ -145,13 +145,13 @@ In pubblico, quando non è dedito ai suoi traffici, va normalmente in giro "trav
 
 Tre armi che lo rendono impossibile da catturare prima del lv4:
 
-1. **Rete di informatori** — tipo gli uccellini di Varys (GOT). Gente del borgo che gli riferisce tutto: movimenti dei PG, piani di Gorim, ordini del Conte. Sa sempre cosa succede prima che succeda.
-2. **Oggetto magico di invisibilità** — per sparire quando serve.
-3. **Maestro del camuffamento** — travestimenti, identità false.
+1. **Rete di informatori** - tipo gli uccellini di Varys (GOT). Gente del borgo che gli riferisce tutto: movimenti dei PG, piani di Gorim, ordini del Conte. Sa sempre cosa succede prima che succeda.
+2. **Oggetto magico di invisibilità** - per sparire quando serve.
+3. **Maestro del camuffamento** - travestimenti, identità false.
 
 **COLPO DI SCENA:** Uno dei personaggi che i PG incontrano regolarmente **è** Sergius sotto copertura. Li frequenta, li conosce, sa tutto di loro di prima mano. La rivelazione (puntata 4? 5?) è che l'hanno avuto sotto il naso tutto il tempo.
 
-**DECISO: Sergius si traveste da Terzilio il verduraio.** Il vero Terzilio esiste e vende rape normalmente. Sergius ne prende il posto travestendosi quando gli serve — per accedere alle fogne (il carretto è la copertura della botola), per spiare i PG, per operare al mercato. A volte i PG parlano col vero Terzilio, a volte con Sergius. Nessuno nota la differenza.
+**DECISO: Sergius si traveste da Terzilio il verduraio.** Il vero Terzilio esiste e vende rape normalmente. Sergius ne prende il posto travestendosi quando gli serve - per accedere alle fogne (il carretto è la copertura della botola), per spiare i PG, per operare al mercato. A volte i PG parlano col vero Terzilio, a volte con Sergius. Nessuno nota la differenza.
 
 Questo spiega:
 - Come Sergius sapeva che qualcuno sarebbe sceso nelle fogne (era al mercato quando Gorim ha reclutato i PG)
@@ -160,7 +160,7 @@ Questo spiega:
 - Come Sergius sa sempre dove sono i PG e cosa fanno
 
 **Da decidere:** quale NPC ricorrente è Sergius in realtà? ~~Candidati possibili:~~
-- ~~Ermolao "Il Profondo" (il saggio delle fogne — troppo ovvio?)~~
+- ~~Ermolao "Il Profondo" (il saggio delle fogne - troppo ovvio?)~~
 - ~~Un NPC nuovo introdotto nella Puntata 2 (alla Festa del Grazie)~~
 - ~~Un commerciante/artigiano del borgo che i PG frequentano~~
 - ~~Qualcuno nella cerchia di Gorim~~
@@ -194,9 +194,9 @@ Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
 |---|-----------|-----------|
 | D1 | Acconto di Gorim | **1 mo** (10 ma contate una alla volta) |
 | D2 | Magazzino nelle fogne | Fogne collegano il mare al borgo. Sergius fa arrivare merce via mare, clienti ritirano di nascosto. |
-| D3 | Merce di Sergius | Oggetti sessuali — ridicoli e imbarazzanti ma non illegali. Intuizione dalle casse vera ma fuorviante. |
+| D3 | Merce di Sergius | Oggetti sessuali - ridicoli e imbarazzanti ma non illegali. Intuizione dalle casse vera ma fuorviante. |
 | D4 | Perché ce l'ha col Conte | Il Conte ha imposto tassa/divieto sulla merce (tipo proibizionismo). Sergius da legittimo a contrabbandiere. |
-| D5 | Doppia S non nota | Marchio nuovo clandestino. La doppia S viene da "Sergius S." — il middle name non viene mai rivelato. Prima usava un'immagine innocua a doppio senso sessuale (da decidere quale). |
+| D5 | Doppia S non nota | Marchio nuovo clandestino. La doppia S viene da "Sergius S." - il middle name non viene mai rivelato. Prima usava un'immagine innocua a doppio senso sessuale (da decidere quale). |
 | D6 | Porta burocratica | Antica. Nessuna ragione. Assurdità inspiegabile di Fianus. |
 | D7 | Armi segrete Sergius | Informatori (tipo Varys), invisibilità, camuffamento. Colpo di scena: un NPC ricorrente È Sergius. |
 | D8 | Cos'è l'Anello | Puro MacGuffin. Non magico, non speciale, mai trovato. Come il nome del Conte. |
@@ -205,7 +205,7 @@ Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
 
 | # | Decisione | Risultato |
 |---|-----------|-----------|
-| D9 | Flavia = Flavia + Tulia | Un solo NPC. Vende pozioni rinvigorenti di nascosto. Non conosce il produttore — comprava da intermediario. Non può collegare la doppia S a nessuno. |
+| D9 | Flavia = Flavia + Tulia | Un solo NPC. Vende pozioni rinvigorenti di nascosto. Non conosce il produttore - comprava da intermediario. Non può collegare la doppia S a nessuno. |
 | D10 | Donna Ortensia | Moglie di Grigius Voidus |
 | D11 | Sergius aspetto | Stile Molisky: cinquantenne gobbo, travestimenti radicali, in pubblico va come versione aitante di sé |
 | D12 | Sergius non catturabile | Nota meta: vietato dalla sceneggiatura fino a puntata 4-5 |
@@ -215,19 +215,36 @@ Modifiche applicate al modulo e alle schede NPC dopo la prima giocata:
 
 ## Pulizia stile (em dash e emoji)
 
-Regola: no trattino lungo, no emoji (tranne ✅). Da applicare progressivamente quando si toccano i file.
+Regola: no trattino lungo, no emoji (tranne ✅ e ⚠). Da applicare progressivamente quando si toccano i file.
 
 - [x] `it/XX_IlFinaleDiStagione/IlFinaleDiStagione.md`
-- [ ] `it/03_UnaPizzaInCompagnia/UnaPizzaInCompagnia.md` (~106 occorrenze)
-- [ ] `it/04_IlCorniciaio/IlCorniciaio.md`
-- [ ] `it/01_LeFogneDiFianus/LeFogneDiFianus.md`
-- [ ] `it/02_LaFestaDelGrazie/LaFestaDelGrazie.md`
-- [ ] `it/LAnelloDelConte.md`
-- [ ] `it/characters/markdown/NPC_SergiusArimano.md`
-- [ ] `it/characters/markdown/NPC_Contessina.md`
-- [ ] `it/characters/markdown/NPC_SirGorimVel.md`
-- [ ] `PlanBook.md`
-- [ ] `meta/DiarioSessioni.md`
+- [x] `it/03_UnaPizzaInCompagnia/UnaPizzaInCompagnia.md`
+- [x] `it/04_IlCorniciaio/IlCorniciaio.md`
+- [x] `it/01_LeFogneDiFianus/LeFogneDiFianus.md`
+- [x] `it/02_LaFestaDelGrazie/LaFestaDelGrazie.md`
+- [x] `it/LAnelloDelConte.md`
+- [x] `it/characters/markdown/` (tutte le schede NPC e MON)
+- [x] `PlanBook.md`
+- [x] `meta/DiarioSessioni.md`
+
+---
+
+## Agganci futuri (semi da piantare)
+
+Elementi da seminare nelle puntate comiche per preparare Il Re Spezzato:
+
+- Gorim a volte si ferma a meta frase, preoccupato per motivi che vanno oltre l'incompetenza locale
+- Il Conte riceve ordini da qualcuno piu in alto (il Re?) - accenni vaghi
+- Nelle vicinanze c'e una miniera abbandonata (Nerrok) che "nessuno vuole visitare"
+- La morte del Conte nell'ultima puntata non e comica - e il momento in cui la commedia finisce
+- Gorim riceve un messaggio urgente dalla capitale dopo l'esplosione: il Re vuole vederlo
+- Il vuoto di potere lasciato dal Conte trascina i PG nella storia piu grande di Drakenhold
+
+### L'arco di Gorim
+
+Dopo l'esplosione, Gorim cambia. Non e piu il funzionario esasperato - e un uomo che ha perso il suo signore. Tra L'Anello del Conte e Il Re Spezzato passa un anno. Gorim viene convocato a corte e diventa il confidente di Re Dorian Valemarch. Quando i PG lo ritrovano, e un uomo diverso: serio, stanco, leale fino all'osso.
+
+Nelle puntate comiche, seminare piccoli momenti in cui Gorim mostra lealta e senso del dovere che vanno oltre la gag - sono i tratti che Dorian notera.
 
 ---
 
@@ -240,69 +257,151 @@ Regola: no trattino lungo, no emoji (tranne ✅). Da applicare progressivamente 
 ### Contraddizioni
 
 - [x] **Chi commissionava i ritratti?** DECISO: S faceva da tramite. I committenti erano facoltosi (spesso nobili) e di solito il consenso c'era. I ritratti del Conte erano stati commissionati da altri senza il suo consenso. Il Conte, divertito, una volta ha posato per un vero ritratto nudo (mai pagato, Arimano se l'è tenuto). La Contessina sa dei deepfake, NON del vero ritratto.
-- [x] **La Gabella — chi l'ha imposta?** DECISO: la Contessina l'ha ideata, il Conte l'ha firmata per quiete familiare.
+- [x] **La Gabella - chi l'ha imposta?** DECISO: la Contessina l'ha ideata, il Conte l'ha firmata per quiete familiare.
 - [x] **Sergius ce l'ha col Conte o con la Contessina?** DECISO: con entrambi. Contessina = ha ideato la tassa (odio pratico). Conte = ha firmato per quiete familiare + non ha pagato il vero ritratto (odio personale, tradimento di un cliente).
 
 ### Buchi
 
-- [x] **Tempistica della Gabella** — DECISO: circa un anno e mezzo fa. Abbastanza per la decadenza visibile della casa e per Sberluccica/Scrocchiazeppi di rifarsi una vita.
-- [ ] **La moglie di Arimano** — aggiunta sessione 4. Esiste? È morta? È un'invenzione? Perché non sa dei commerci?
+- [x] **Tempistica della Gabella** - DECISO: circa un anno e mezzo fa. Abbastanza per la decadenza visibile della casa e per Sberluccica/Scrocchiazeppi di rifarsi una vita.
+- [ ] **La moglie di Arimano** - aggiunta sessione 4. Esiste? È morta? È un'invenzione? Perché non sa dei commerci?
 - [x] **Come Sergius ha trovato l'Anello nelle fogne?** DECISO: Non l'ha trovato. Ha scoperto fortuitamente che era stato perduto e ha mentito nella lettera dicendo di averlo per attirare l'attenzione degli avventurieri e testarne le capacità. L'Anello viene trovato miracolosamente nell'ultima puntata, i PG vanno verso il castello per consegnarlo e il castello esplode.
-- [x] **Cosa vuole fare Sergius con l'Anello?** DECISO: Niente — non ce l'ha. L'Anello è il pretesto per attirare avventurieri da testare e reclutare. Il bluff è coerente col personaggio Enigmista.
-- [x] **Puntata 4 nel todo** — aggiornato: "Il Corniciaio" (già scritta).
-- [x] **Il vecchio marchio di S** — DECISO: il logo è l'alabarda che sbuca dal cespuglio (sulle etichette), la firma/marchio è la doppia S. Sono sempre stati questi, non sono mai cambiati.
-- [x] **Il quarto PG** — nella campagna giocata sono sempre in 4. L'avventura scritta è bilanciata per 3-4 PG; se il party è 3, il DM riduce la difficoltà degli scontri (indicato nelle note dei combattimenti).
+- [x] **Cosa vuole fare Sergius con l'Anello?** DECISO: Niente - non ce l'ha. L'Anello è il pretesto per attirare avventurieri da testare e reclutare. Il bluff è coerente col personaggio Enigmista.
+- [x] **Puntata 4 nel todo** - aggiornato: "Il Corniciaio" (già scritta).
+- [x] **Il vecchio marchio di S** - DECISO: il logo è l'alabarda che sbuca dal cespuglio (sulle etichette), la firma/marchio è la doppia S. Sono sempre stati questi, non sono mai cambiati.
+- [x] **Il quarto PG** - nella campagna giocata sono sempre in 4. L'avventura scritta è bilanciata per 3-4 PG; se il party è 3, il DM riduce la difficoltà degli scontri (indicato nelle note dei combattimenti).
 
 ---
 
-## Linee di sviluppo — decisioni da prendere
+## Linee di sviluppo - decisioni da prendere
 
 ### Puntata 5 (da scrivere)
 
 - [ ] Cosa succede tra la puntata 4 e la finale? Serve almeno una puntata intermedia?
-- [ ] Il "progetto misterioso" per cui i PG hanno accettato di lavorare per Arimano — cos'è? Dove porta?
-- [ ] I PG scoprono che Sergius = Marchese Arimano in quale puntata? Prima o durante la finale?
-- [ ] Come viene smascherato Sergius? I PG collegano i travestimenti? Qualcuno lo tradisce?
+- [ ] Il "progetto misterioso" per cui i PG hanno accettato di lavorare per Arimano - cos'è? Dove porta?
+  - **Opzione A:** Vuole che i PG trovino il pittore Sberluccica per riattivare il business dei ritratti in segreto (si collega alla Puntata 4)
+  - **Opzione B:** Vuole che i PG recuperino il vero ritratto del Conte da un nascondiglio (forse troppo presto per rivelarlo?)
+  - **Opzione C:** Il progetto è vago di proposito, non lo rivela mai. Li usa come pedine quando serve.
+  - **Opzione D:** Vuole smascherare la Contessina pubblicamente come ipocrita. Cerca prove e testimoni.
+### Smascheramento Sergius = S - indizi
+
+Non possiamo decidere quando i giocatori capiscono. Possiamo solo seminare indizi e lasciare che li colleghino.
+
+**Indizi attivi:**
+
+| # | Indizio | Dove | CD | Forza |
+|---|---------|------|----|-------|
+| 2 | Bottiglie vuote stessa forma delle pozioni rinvigorenti in casa Arimano | Puntata 3, ripostiglio | 17 | Medio: collega Arimano al commercio di pozioni |
+| 3 | Materiali da travestimento in camera di Arimano | Puntata 3, camera | 20 | Debole: strano ma non prova nulla |
+| 5 | Caratteristica ricorrente in tutti i travestimenti di Sergius | Tutte le puntate | - | Forte se notata: collega i travestimenti tra loro |
+| 6 | Il nome "Sergius Stanislao" = doppia S | Quando scoprono il nome di battesimo | - | Forte ma sepolto: tutti gli NPC hanno la S |
+| 7 | Calligrafia lettera fogne (Puntata 1) = calligrafia invito Arimano | Se confrontano le due lettere | Alta (capacità speciale o proficiency) | Decisivo |
+
+**Indizi scartati:**
+- ~~Calligrafia dello studio~~: è casa sua, ovvio che sia la sua calligrafia
+- ~~Arimano sa cose che non dovrebbe~~: spiegabile con l'essersi informato
+- ~~Terzilio = Sergius~~: non funziona come indizio
+
+**DA DEFINIRE - Caratteristica ricorrente (indizio 5):**
+
+DECISO: **"Ma parliamo di..."** - Sergius usa sempre questa formula per cambiare argomento o deviare l'attenzione. E un tic verbale inconscio, presente in tutti i travestimenti:
+- Festa del Grazie (P2): "Ma parliamo di commercio"
+- Cena (P3): "Ma non parliamo di politica. Parliamo di affari."
+- Lavandaia (P4): "Ma parliamo di cose serie"
+- Signore coi baffi (P4): "Ma parliamo di cose interessanti"
+
+La moglie, se interrogata, potrebbe essersene accorta.
 
 ### Puntata finale
 
 - [ ] Come viene trovato l'Anello miracolosamente? Dove, come, perché proprio ora?
-- [ ] Sergius vuole essere portato dal Conte per rivelare il ritratto — come ci arrivano i PG?
-- [ ] Il Burmini: che affari aveva il Conte? Commercio? Alleanze militari? Debiti?
-- [ ] I maghi del Burmini: quanti, come attaccano, cosa vogliono (vendetta? messaggio politico?)
-- [ ] Sergius muore con alta probabilità — lasciare una porta aperta per la sopravvivenza o no?
+  - **DECISO:** L'Anello è indossato da qualcuno di insospettabile e completamente ignaro di tutto. Questa persona l'ha trovato per caso e lo porta al dito semplicemente perché gli piace. I PG lo notano e lo riconoscono.
+  - [ ] Chi lo indossa? Possibilità:
+    - Sora Lella (lo porta da mesi, nessuno ci ha fatto caso)
+    - La cuoca di Arimano (trovato per terra a Vetusta)
+    - Un bambino al mercato
+    - Terzilio (trovato nel fango sotto il carretto)
+    - Il pescivendolo Sabatino (pescato in una sardina)
+    - Il guardiano del faro Salvuccio (trovato sulla scogliera)
+  - [ ] Quando lo notano? (fine P6 o inizio P7?)
+- [ ] Sergius vuole essere portato dal Conte per rivelare il ritratto - come ci arrivano i PG?
+- [x] **Brandello della Puntata 2 vs ritratto del finale:** DECISO. Il brandello viene da un DEEPFAKE (non dal quadro vero). Sergius l'ha strappato da un deepfake sacrificabile per la provocazione alla Festa. Il quadro vero (posato dal Conte) resta intatto e lo porta al castello nel finale. Sono due oggetti diversi. **Gag:** la Contessina, vedendo il brandello (nudita + stemma, senza faccia), riconosce che NON e il Conte. Sa di chi e. Non lo dice.
+- [ ] Sergius muore con alta probabilità - lasciare una porta aperta per la sopravvivenza o no?
+
+### Il Burmini - decisioni prese
+
+Il Burmini resta **volutamente indefinito**. Non si spiega tutto. I PG (e il DM) capiscono solo questo:
+
+- Il Conte viaggiava spesso e passava molto tempo nel Burmini
+- Per ragioni mai precisate, nel Burmini il Conte era considerato un **oppressore**
+- I maghi terroristi compiono un'**azione suicida**: si lanciano contro il castello per uccidere "gli oppressori"
+- Non c'è meccanica: l'esplosione succede e basta. Il Conte e tutta la sua corte vengono spazzati via
+- Gorim si salva solo perché è con i PG (fuori dal castello o in un'altra ala)
+- I PG capiscono la motivazione politica direttamente (se vedono la processione) o tramite un sopravvissuto/testimone che descrive i maghi e le loro parole
+
+**Cosa NON va definito:**
+- Che affari aveva il Conte nel Burmini (resta misterioso)
+- Perché esattamente lo consideravano oppressore
+- Chi ha organizzato l'attacco
+- Quanti maghi erano esattamente
+
+**Cosa seminare nelle puntate precedenti:**
+- [ ] Il Conte è spesso in viaggio (gia noto)
+- [ ] Qualcuno menziona il Burmini come destinazione dei viaggi del Conte (P5 o P6)
+- [ ] Gorim accenna a "affari del Conte all'estero" con tono preoccupato (P4 o P5)
 
 ### Moglie di Arimano
 
-- [ ] Esiste davvero? È morta? È un'invenzione?
-- [ ] Se esiste: perché non sa dei commerci? Perché è lontana?
-- [ ] Ha un ruolo nella storia o resta solo colore?
+- [x] Esiste davvero.
+- [ ] Potrebbe avere un ruolo nella storia (da definire quale).
+- [ ] Il posto dove dice che si trova ("in villeggiatura a nord") potrebbe essere fittizio. Da decidere.
+- [ ] Perché non sa dei commerci? Perché è lontana?
 
 ### Arco narrativo generale
 
-- [ ] Quante puntate totali? (4 scritte + almeno 1 intermedia + finale = minimo 6?)
+Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
+
+| # | Titolo | Stato | Livello | Milestone |
+|---|--------|-------|---------|-----------|
+| 1 | Le Fogne di Fianus | Scritta, giocata | 1-2 | Trovata lettera di S |
+| 2 | La Festa del Grazie | Scritta, giocata | 2 | - |
+| 3 | Una Pizza in Compagnia | Scritta, giocata | 2-3 | Banditi sconfitti, merce restituita |
+| 4 | Il Corniciaio | Scritta, non giocata | 3 | - |
+| 5 | [da titolare] (XX1) | Draft | 3-4 | Compito di Arimano completato [da definire trigger] |
+| 6 | [da titolare] (XX2) | Draft | 4 | - |
+| 7 | Il Finale di Stagione (XX3) | Draft | 4-5 | Sopravvivenza all'esplosione / fine avventura |
+
+**Progressione:** lv1 - lv2 - lv2 - lv3 - lv3/4 - lv4 - lv4/5. Livello finale: **5** (partenza per Il Re Spezzato).
+**Regola:** almeno 2 puntate tra una milestone e la successiva.
+
+**Arco dei PG:**
+- P1-3: lavorano per Gorim/il Conte (ignari)
+- P4: capiscono che Conte/Contessina sono gli oppressori
+- P5: lavorano per Arimano (ignari che è vendetta)
+- P6: scoprono la verita, scelgono da che parte stare
+- P7: vanno al castello (alleati o contro Arimano), esplosione, fine
+
 - [ ] La vendetta di Sergius si compie o viene interrotta dall'esplosione?
-- [ ] I PG alla fine sono dalla parte di Sergius, contro di lui, o ambigui?
+- [ ] I PG alla fine sono dalla parte di Sergius, contro di lui, o ambigui? (dipende dai giocatori)
 - [ ] Cosa resta irrisolto volutamente per Il Re Spezzato?
 
 > **TODO strutturale:** Valutare se spostare anche `PlanBook.md` nella directory `meta/` insieme a `DiarioSessioni.md`. Entrambi sono documenti di lavoro del DM, non contenuto pubblicabile.
 
 ---
 
-## TODO — PDF avventura (create-pdf-adventure)
+## TODO - PDF avventura (create-pdf-adventure)
 
 ### Cover
-- [ ] La cover (`LAnelloDelConte_COVER.png`) è landscape 1408x768px — serve portrait per A4. Lo script dovrebbe adattare l'immagine: aggiungere bande nere/sfondo, centrare, sovrapporre titolo. Da implementare nello script come trasformazione automatica per cover non-portrait.
+- [ ] La cover (`LAnelloDelConte_COVER.png`) è landscape 1408x768px - serve portrait per A4. Lo script dovrebbe adattare l'immagine: aggiungere bande nere/sfondo, centrare, sovrapporre titolo. Da implementare nello script come trasformazione automatica per cover non-portrait.
 
 ### Mappe nel PDF
-- [ ] Le mappe PNG del modulo (`01_LeFogneDiFianus/maps/LeFogneDiFianus.png`, `LeFogneDiFianusAlt.png`) non sono incluse nel PDF — lo script include solo `MappaDM.md`, non mappe grafiche. Aggiungere supporto per includere PNG dalle directory `maps/` dei moduli.
-- [ ] Mappe generali (`maps/FianusRomanus.png`, `maps/RealmOfAmrog.png`) non incluse — decidere se servono nel PDF
+- [ ] Le mappe PNG del modulo (`01_LeFogneDiFianus/maps/LeFogneDiFianus.png`, `LeFogneDiFianusAlt.png`) non sono incluse nel PDF - lo script include solo `MappaDM.md`, non mappe grafiche. Aggiungere supporto per includere PNG dalle directory `maps/` dei moduli.
+- [ ] Mappe generali (`maps/FianusRomanus.png`, `maps/RealmOfAmrog.png`) non incluse - decidere se servono nel PDF
 
 ### Stat block
-- [ ] Stat block con naming non-standard (`Barbara_GM.png`, `Maria_Biscanna_GM.png`) esclusi — rinominarli con prefisso `NPC_`/`PG_` per seguire la convenzione
+- [ ] Stat block con naming non-standard (`Barbara_GM.png`, `Maria_Biscanna_GM.png`) esclusi - rinominarli con prefisso `NPC_`/`PG_` per seguire la convenzione
 
 ### Schede mappa DM
-- [ ] Nessun `MappaDM.md` per il modulo 01 — creare se serve per sessioni dal vivo
+- [ ] Nessun `MappaDM.md` per il modulo 01 - creare se serve per sessioni dal vivo
 
 ---
 
@@ -311,7 +410,7 @@ Regola: no trattino lungo, no emoji (tranne ✅). Da applicare progressivamente 
 | # | Decisione | Risultato |
 |---|-----------|-----------|
 | D14 | Nome completo Sergius | **Sergius Stanislao Arimano Improbus**. La doppia S = Sergius Stanislao. "Stanislao" è omaggio a Stanislau Molisky (Nick Carter). |
-| D15 | Nome nei registri | Solo "Marchese Arimano Improbus" — "Sergius" non compare in nessun documento pubblico. |
+| D15 | Nome nei registri | Solo "Marchese Arimano Improbus" - "Sergius" non compare in nessun documento pubblico. |
 | D16 | Ritratti = deepfake medievali | Testa del nobile (da descrizione) su corpo scultoreo di modello. I nobili li commissionavano volontariamente per vanità. |
 | D17 | Pozioni = acqua colorata | Acqua colorata e speziata. Le spezie servono per colore/odore/consistenza. Non funzionano. |
 | D18 | Animali esotici = marketing | Il rinoceronte e simili servono per convincere i compratori che la ricetta è pregiata e alzare i prezzi. Mossa disperata. |
@@ -330,7 +429,7 @@ Regola: no trattino lungo, no emoji (tranne ✅). Da applicare progressivamente 
 | D31 | Tabella sfighe giornaliera | 1d6/giorno, nel documento principale. I PG non accumulano mai. |
 | D32 | Nomi e soprannomi | Fonti: Gorim (registri), Domina Lella (taverna), Flavia (commerci). Non tutti sanno tutto. |
 
-### Puntata 4 — scritta (draft)
+### Puntata 4 - scritta (draft)
 
 - File: `it/04_IlCorniciaio/IlCorniciaio.md`
 - Combattimento: cantina, Medium per lv3 (1 Thug + 3 Guard + 1 Spy ridotta)

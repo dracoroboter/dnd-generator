@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Baboon</name>
+        <name>Baboon - baboon</name>
         <size>S</size>
         <type>beast</type>
         <alignment>unaligned</alignment>
@@ -15,7 +15,7 @@
         <wis>12</wis>
         <cha>6</cha>
         <senses>passive Perception 11</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>0</cr>
         <trait>
             <name>Pack Tactics</name>
@@ -26,7 +26,7 @@
             <text>Attack: +1, melee 5ft Damage: 1d4-1 piercing</text>
             <attack>Bite (melee)|+1|1d4-1</attack>
         </action>
-        <description>Screaming, aggressive monkeys trapped in the crates of Warehouse 4. When a crate breaks open, they escape in pairs — terrified and furious. They throw objects, snatch things from PCs' hands, and create general chaos.
+        <description>Screaming, aggressive monkeys trapped in the crates of Warehouse 4. When a crate breaks open, they escape in pairs - terrified and furious. They throw objects, snatch things from PCs' hands, and create general chaos.
 Role: exotic animal escaped from crates</description>
     </monster>
 </compendium>

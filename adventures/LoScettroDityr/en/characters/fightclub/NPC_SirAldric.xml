@@ -14,6 +14,8 @@
         <int>11</int>
         <wis>12</wis>
         <cha>14</cha>
+        <resist>necrotic; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+        <conditionImmune>exhaustion, frightened, poisoned</conditionImmune>
         <senses>darkvision 18m / 60ft, Passive Perception 14</senses>
         <languages>Common</languages>
         <cr>8</cr>

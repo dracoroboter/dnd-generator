@@ -1,4 +1,4 @@
-# MON_GiantWolfSpider — ragno lupo gigante
+# MON_GiantWolfSpider - ragno lupo gigante
 
 ## Informazioni generali
 
@@ -24,7 +24,7 @@ Un ragno grande come un cane, peloso, con otto occhi neri e mandibole gocciolant
 - **Classe armatura**: 13
 - **Velocità**: 12m / 40ft / 8qd, arrampicata 12m / 40ft
 - **Sensi**: Vista cieca 10 ft., Scurovisione 60 ft., Percezione passiva 13
-- **Lingue**: —
+- **Lingue**: -
 - **Sfida**: 1/4 (50 PE)
 
 ## Capacità notevoli
@@ -45,6 +45,6 @@ Cala dal soffitto nel Magazzino 4 (Puntata 3) quando il rinoceronte carica (tabe
 
 ## Note al master
 
-- Il più pericoloso degli animali minori — 2d6 veleno è serio per PG lv2.
-- Si arrampica sulle pareti e sul soffitto — i PG in mischia devono raggiungerlo.
+- Il più pericoloso degli animali minori - 2d6 veleno è serio per PG lv2.
+- Si arrampica sulle pareti e sul soffitto - i PG in mischia devono raggiungerlo.
 - Scappa dal magazzino dopo 2-3 round se non ucciso.

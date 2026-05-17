@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Rhinoceros</name>
+        <name>Rhinoceros - rinoceronte</name>
         <size>L</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -15,7 +15,7 @@
         <wis>12</wis>
         <cha>6</cha>
         <senses>Percezione passiva 11</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>2</cr>
         <trait>
             <name>Charge</name>
@@ -26,7 +26,7 @@
             <text>Attacco: +7, mischia 5ft Danni: 2d8+5 contundenti</text>
             <attack>Incornata (mischia)|+7|2d8+5</attack>
         </action>
-        <description>Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel Magazzino 4 di Vetusta Portus. Non è un nemico — è un animale terrorizzato che vuole scappare. Attacca solo chi si trova sulla sua traiettoria verso la porta.
+        <description>Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel Magazzino 4 di Vetusta Portus. Non è un nemico - è un animale terrorizzato che vuole scappare. Attacca solo chi si trova sulla sua traiettoria verso la porta.
 Role: animale esotico intrappolato nel magazzino</description>
     </monster>
 </compendium>

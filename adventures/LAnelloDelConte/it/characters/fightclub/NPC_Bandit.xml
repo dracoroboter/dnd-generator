@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Bandit</name>
+        <name>Bandit - bandito</name>
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>chaotic neutral</alignment>
@@ -27,7 +27,7 @@
             <text>Attacco: +3, distanza 80/320 ft. Danni: 1d8+1 perforanti</text>
             <attack>Balestra leggera (distanza)|+3|1d8+1</attack>
         </action>
-        <description>Uomini del porto di Vetusta Portus. Scaricatori, ex-marinai, piccoli criminali. Lavorano per Er Braccio per soldi facili. Non sono fanatici — se la situazione si mette male, scappano.
+        <description>Uomini del porto di Vetusta Portus. Scaricatori, ex-marinai, piccoli criminali. Lavorano per Er Braccio per soldi facili. Non sono fanatici - se la situazione si mette male, scappano.
 Role: scagnozzo di Er Braccio</description>
     </monster>
 </compendium>

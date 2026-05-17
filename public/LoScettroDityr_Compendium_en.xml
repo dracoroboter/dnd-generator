@@ -186,6 +186,7 @@ Role: secondary</description>
         <int>20</int>
         <wis>15</wis>
         <cha>16</cha>
+        <resist>necrotic</resist>
         <senses>Passive Perception 12</senses>
         <languages>Common, Draconic, Infernal, Abyssal</languages>
         <cr>12</cr>
@@ -383,6 +384,8 @@ Role: recurring antagonist</description>
         <int>18</int>
         <wis>14</wis>
         <cha>12</cha>
+        <resist>necrotic, psychic</resist>
+        <conditionImmune>frightened</conditionImmune>
         <cr>1</cr>
         <description>Sir Alaric presents himself as an austere and devout man, with short-cropped gray hair and clear eyes that convey authority. He wears the ceremonial robes of the Keepers of the Balance with a naturalness that inspires trust. His voice is calm, measured — every word seems weighed and just.
 Beneath the facade, Alaric is a man consumed by ambition. His eyes betray a greed that no prayer can hide, if you know where to look.
@@ -403,6 +406,8 @@ Role: antagonist</description>
         <int>11</int>
         <wis>12</wis>
         <cha>14</cha>
+        <resist>necrotic; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+        <conditionImmune>exhaustion, frightened, poisoned</conditionImmune>
         <senses>darkvision 18m / 60ft, Passive Perception 14</senses>
         <languages>Common</languages>
         <cr>8</cr>

@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# NPC_Contessina — The Countess
+# NPC_Contessina - The Countess
 
 ## General Information
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-A stout woman with a round face and a permanently indignant expression. She dresses well but without taste — too many jewels, too many colors. She speaks with a thick accent and gesticulates a lot. She holds down the castle in Aviano while the Count is "traveling" (i.e., always). She knows about the blackmail but her main concern is her own reputation, not her husband.
+A stout woman with a round face and a permanently indignant expression. She dresses well but without taste - too many jewels, too many colors. She speaks with a thick accent and gesticulates a lot. She holds down the castle in Aviano while the Count is "traveling" (i.e., always). She knows about the blackmail but her main concern is her own reputation, not her husband.
 
 ## Stat Block
 
@@ -45,7 +45,7 @@ Narrative NPC in Episode 3. She knows about the blackmail (the compromising port
 
 ## DM Notes
 
-- She doesn't fight — the Noble stat block is for completeness.
+- She doesn't fight - the Noble stat block is for completeness.
 - Her concern is reputation, not the Count.
 - If PCs ask about the Count: "He's traveling. He's ALWAYS traveling."
 - She won't admit knowing about the Count's "business dealings."

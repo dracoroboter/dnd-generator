@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Baboon</name>
+        <name>Baboon - baboon</name>
         <size>S</size>
         <type>beast</type>
         <alignment>unaligned</alignment>
@@ -15,7 +15,7 @@
         <wis>12</wis>
         <cha>6</cha>
         <senses>passive Perception 11</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>0</cr>
         <trait>
             <name>Pack Tactics</name>
@@ -26,11 +26,11 @@
             <text>Attack: +1, melee 5ft Damage: 1d4-1 piercing</text>
             <attack>Bite (melee)|+1|1d4-1</attack>
         </action>
-        <description>Screaming, aggressive monkeys trapped in the crates of Warehouse 4. When a crate breaks open, they escape in pairs — terrified and furious. They throw objects, snatch things from PCs' hands, and create general chaos.
+        <description>Screaming, aggressive monkeys trapped in the crates of Warehouse 4. When a crate breaks open, they escape in pairs - terrified and furious. They throw objects, snatch things from PCs' hands, and create general chaos.
 Role: exotic animal escaped from crates</description>
     </monster>
     <monster>
-        <name>GiantWolfSpider</name>
+        <name>GiantWolfSpider - giant wolf spider</name>
         <size>M</size>
         <type>beast</type>
         <alignment>unaligned</alignment>
@@ -44,7 +44,7 @@ Role: exotic animal escaped from crates</description>
         <wis>12</wis>
         <cha>4</cha>
         <senses>Blindsight 10 ft., Darkvision 60 ft., passive Perception 13</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>1/4</cr>
         <trait>
             <name>Spider Climb</name>
@@ -67,7 +67,7 @@ Role: exotic animal escaped from crates</description>
 Role: exotic animal escaped from crates</description>
     </monster>
     <monster>
-        <name>PoisonousSnake</name>
+        <name>PoisonousSnake - poisonous snake</name>
         <size>T</size>
         <type>beast</type>
         <alignment>unaligned</alignment>
@@ -81,18 +81,18 @@ Role: exotic animal escaped from crates</description>
         <wis>10</wis>
         <cha>3</cha>
         <senses>Blindsight 10 ft., passive Perception 10</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>1/8</cr>
         <action>
             <name>Bite (melee)</name>
             <text>Attack: +5, melee 5ft Damage: 1 piercing + 2d4 poison (CON DC 10, halved)</text>
             <attack>Bite (melee)|+5|2d4</attack>
         </action>
-        <description>Thin, fast snakes — dark green with yellow stripes. They slither out of broken crates and hide among barrels and nets. They bite anyone who gets too close.
+        <description>Thin, fast snakes - dark green with yellow stripes. They slither out of broken crates and hide among barrels and nets. They bite anyone who gets too close.
 Role: exotic animal escaped from crates</description>
     </monster>
     <monster>
-        <name>Rhinoceros</name>
+        <name>Rhinoceros - rhinoceros</name>
         <size>L</size>
         <type>beast</type>
         <alignment>unaligned</alignment>
@@ -106,7 +106,7 @@ Role: exotic animal escaped from crates</description>
         <wis>12</wis>
         <cha>6</cha>
         <senses>passive Perception 11</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>2</cr>
         <trait>
             <name>Charge</name>
@@ -117,11 +117,11 @@ Role: exotic animal escaped from crates</description>
             <text>Attack: +7, melee 5ft Damage: 2d8+5 bludgeoning</text>
             <attack>Gore (melee)|+7|2d8+5</attack>
         </action>
-        <description>A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse 4 of Vetusta Portus. It's not an enemy — it's a terrified animal that wants to escape. It only attacks those in its path toward the door.
+        <description>A grey rhinoceros, enormous, furious. Trapped in a reinforced crate in Warehouse 4 of Vetusta Portus. It's not an enemy - it's a terrified animal that wants to escape. It only attacks those in its path toward the door.
 Role: exotic animal trapped in the warehouse</description>
     </monster>
     <monster>
-        <name>Bandit</name>
+        <name>Bandit - bandit</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>chaotic neutral</alignment>
@@ -147,11 +147,11 @@ Role: exotic animal trapped in the warehouse</description>
             <text>Attack: +3, ranged 80/320 ft. Damage: 1d8+1 piercing</text>
             <attack>Light Crossbow (ranged)|+3|1d8+1</attack>
         </action>
-        <description>Port men of Vetusta Portus. Dockworkers, ex-sailors, petty criminals. They work for Er Braccio for easy money. They're not fanatics — if things go south, they run.
+        <description>Port men of Vetusta Portus. Dockworkers, ex-sailors, petty criminals. They work for Er Braccio for easy money. They're not fanatics - if things go south, they run.
 Role: Er Braccio's henchman</description>
     </monster>
     <monster>
-        <name>Contessina</name>
+        <name>Contessina - The Countess</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>lawful neutral</alignment>
@@ -176,7 +176,7 @@ Role: Er Braccio's henchman</description>
             <text>Attack: +3, melee 5ft Damage: 1d8+1 piercing</text>
             <attack>Rapier (melee)|+3|1d8+1</attack>
         </action>
-        <description>A stout woman with a round face and a permanently indignant expression. She dresses well but without taste — too many jewels, too many colors. She speaks with a thick accent and gesticulates a lot. She holds down the castle in Aviano while the Count is &quot;traveling&quot; (i.e., always). She knows about the blackmail but her main concern is her own reputation, not her husband.
+        <description>A stout woman with a round face and a permanently indignant expression. She dresses well but without taste - too many jewels, too many colors. She speaks with a thick accent and gesticulates a lot. She holds down the castle in Aviano while the Count is &quot;traveling&quot; (i.e., always). She knows about the blackmail but her main concern is her own reputation, not her husband.
 Role: noblewoman, wife of the Count of Fianus</description>
     </monster>
     <monster>
@@ -208,7 +208,7 @@ Role: noblewoman, wife of the Count of Fianus</description>
 - The rolling pin isn't just for cooking</description>
     </monster>
     <monster>
-        <name>ErBraccio</name>
+        <name>ErBraccio - Er Braccio</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>chaotic neutral</alignment>
@@ -238,11 +238,11 @@ Role: noblewoman, wife of the Count of Fianus</description>
             <text>Attack: +5, melee 5ft or ranged 20/60 ft. Damage: 1d4+3 piercing</text>
             <attack>Dagger (melee/ranged)|+5|1d4+3</attack>
         </action>
-        <description>A massive man with bare arms and an anchor tattoo on his right bicep. Sits on a crate with a knife in one hand and an apple in the other. He runs the port's smuggling operations from Warehouse 4. He's not stupid — he's a businessman who happens to be a criminal. He has a grudge against the Count for ruining his trade with new taxes.
+        <description>A massive man with bare arms and an anchor tattoo on his right bicep. Sits on a crate with a knife in one hand and an apple in the other. He runs the port's smuggling operations from Warehouse 4. He's not stupid - he's a businessman who happens to be a criminal. He has a grudge against the Count for ruining his trade with new taxes.
 Role: bandit leader, port crime boss</description>
     </monster>
     <monster>
-        <name>Flavia</name>
+        <name>Flavia - Flavia &quot;The Snake&quot;</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>neutral</alignment>
@@ -263,7 +263,7 @@ Role: bandit leader, port crime boss</description>
             <text>Attack: +2, melee 5ft Damage: 1d4 piercing</text>
             <attack>Small knife (melee)|+2|1d4</attack>
         </action>
-        <description>A thin woman with quick eyes and black hair gathered under a colorful headscarf. She moves between the markets of Fianus and Vetusta Portus selling herbs, ointments, and folk remedies. They call her &quot;The Snake&quot; for how she slips away when things go bad. Before the Gabella she also sold &quot;La Rocca Imponente&quot; invigorating potions — she bought them from an anonymous intermediary at the port.
+        <description>A thin woman with quick eyes and black hair gathered under a colorful headscarf. She moves between the markets of Fianus and Vetusta Portus selling herbs, ointments, and folk remedies. They call her &quot;The Snake&quot; for how she slips away when things go bad. Before the Gabella she also sold &quot;La Rocca Imponente&quot; invigorating potions - she bought them from an anonymous intermediary at the port.
 Role: former seller of invigorating potions</description>
     </monster>
     <monster>
@@ -292,15 +292,15 @@ Role: former seller of invigorating potions</description>
             <text>Attack: +3, melee, reach 5ft / 1sq Damage: 1d8+1 piercing</text>
             <attack>Rapier (melee)|+3|1d8+1</attack>
         </action>
-        <description>Whose name nobody knows, whose face nobody has seen. The Count is the instigator of everything — he sent Gorim, he wants the Ring, he governs the territory — but nobody can name him, describe him, or meet him. He is a constant and totally absent presence.
-His personality is a mosaic of contradictory accounts: to some he's generous, to others he's miserly, to others still he's mad. The orders he sends are inconsistent — sometimes reasonable, sometimes absurd.
-**Running gag — the name:** every time an NPC is about to say it, they get interrupted (noise, sneeze, collapse, sudden amnesia). Official letters have the seal but the signature is illegible.
-**Running gag — the face:** no NPC has ever seen him in person. Official portraits are always covered, damaged, or turned backwards.
+        <description>Whose name nobody knows, whose face nobody has seen. The Count is the instigator of everything - he sent Gorim, he wants the Ring, he governs the territory - but nobody can name him, describe him, or meet him. He is a constant and totally absent presence.
+His personality is a mosaic of contradictory accounts: to some he's generous, to others he's miserly, to others still he's mad. The orders he sends are inconsistent - sometimes reasonable, sometimes absurd.
+**Running gag - the name:** every time an NPC is about to say it, they get interrupted (noise, sneeze, collapse, sudden amnesia). Official letters have the seal but the signature is illegible.
+**Running gag - the face:** no NPC has ever seen him in person. Official portraits are always covered, damaged, or turned backwards.
 The Count is NOT Dorian Valemarch. He's a local noble, a vassal of the King, who governs Fianus Romanus.
 Role: Living MacGuffin, quest giver</description>
     </monster>
     <monster>
-        <name>SergiusArimano</name>
+        <name>SergiusArimano - antagonist</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>neutral evil</alignment>
@@ -338,22 +338,22 @@ Role: Living MacGuffin, quest giver</description>
         </trait>
         <action>
             <name>Dagger (melee/ranged)</name>
-            <text>Attack: +5, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq Damage: 1d4+3 piercing (+2d6 Sneak Attack if applicable)</text>
+            <text>Attack: +5, melee 5ft / 1sq or ranged 20ft / 4sq - 60ft / 12sq Damage: 1d4+3 piercing (+2d6 Sneak Attack if applicable)</text>
             <attack>Dagger (melee/ranged)|+5|1d4+3</attack>
         </action>
         <action>
             <name>Hand Crossbow (ranged)</name>
-            <text>Attack: +5, ranged 30ft / 6sq — 120ft / 24sq Damage: 1d6+3 piercing (+2d6 Sneak Attack if applicable)</text>
+            <text>Attack: +5, ranged 30ft / 6sq - 120ft / 24sq Damage: 1d6+3 piercing (+2d6 Sneak Attack if applicable)</text>
             <attack>Hand Crossbow (ranged)|+5|1d6+3</attack>
         </action>
-        <description>The Sergio of Boris: a schemer, underhanded, pulling strings behind the scenes. Former owner of &quot;L'Immane Alabarda,&quot; he sold vigor potions and personalized erotic portraits to the nobles of Fianus. The Count was an excellent client — he had an &quot;artistic&quot; portrait commissioned that he never paid for. The Count's wife (a prude) discovered everything and had the &quot;Gabella Pudicitiae&quot; imposed on all risqué merchandise. Marchese Arimano went from legitimate merchant to smuggler, and now he's getting his revenge.
-He fortuitously found the Count's Ring in the sewers and uses it as the instrument of an elaborate revenge — a public treasure hunt that humiliates the Count. He still has the unpaid portrait and uses it as leverage.
-Extremely intelligent, always three steps ahead of everyone. Speaks little, smiles a lot — the smile of someone who knows something you don't. Doesn't get his hands dirty if he can avoid it. Vain about his cunning: he leaves clues because he wants people to know it was him. The double S is his signature — ego disguised as anonymity.
+        <description>The Sergio of Boris: a schemer, underhanded, pulling strings behind the scenes. Former owner of &quot;L'Immane Alabarda,&quot; he sold vigor potions and personalized erotic portraits to the nobles of Fianus. The Count was an excellent client - he had an &quot;artistic&quot; portrait commissioned that he never paid for. The Count's wife (a prude) discovered everything and had the &quot;Gabella Pudicitiae&quot; imposed on all risqué merchandise. Marchese Arimano went from legitimate merchant to smuggler, and now he's getting his revenge.
+He fortuitously found the Count's Ring in the sewers and uses it as the instrument of an elaborate revenge - a public treasure hunt that humiliates the Count. He still has the unpaid portrait and uses it as leverage.
+Extremely intelligent, always three steps ahead of everyone. Speaks little, smiles a lot - the smile of someone who knows something you don't. Doesn't get his hands dirty if he can avoid it. Vain about his cunning: he leaves clues because he wants people to know it was him. The double S is his signature - ego disguised as anonymity.
 **Master of disguise:** regularly disguises himself as Terzilio the greengrocer (and others). Has a network of informants in the village (Varys/GOT type). Possesses a magical invisibility item. Sometimes the PCs talk to him without knowing it.
 Role: hidden antagonist</description>
     </monster>
     <monster>
-        <name>SirGorimVel</name>
+        <name>SirGorimVel - ally</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>lawful neutral</alignment>
@@ -392,12 +392,12 @@ Role: hidden antagonist</description>
         </action>
         <action>
             <name>Dagger (melee/ranged)</name>
-            <text>Attack: +4, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq Damage: 1d4+2 piercing</text>
+            <text>Attack: +4, melee 5ft / 1sq or ranged 20ft / 4sq - 60ft / 12sq Damage: 1d4+2 piercing</text>
             <attack>Dagger (melee/ranged)|+4|1d4+2</attack>
         </action>
-        <description>The René Ferretti of Fianus Romanus. Former captain of the Drakenhold garrison, assigned to serve as the Count's official in Fianus Romanus as a &quot;promotion&quot; — actually a disguised exile. A soldier forced to be a bureaucrat. Constantly exasperated by the incompetence surrounding him.
+        <description>The René Ferretti of Fianus Romanus. Former captain of the Drakenhold garrison, assigned to serve as the Count's official in Fianus Romanus as a &quot;promotion&quot; - actually a disguised exile. A soldier forced to be a bureaucrat. Constantly exasperated by the incompetence surrounding him.
 Pragmatic to the core, allergic to pointless heroism. Gesticulates a lot, gets exasperated easily, talks to himself. Has a weakness for food (his belly confirms it).
-**Pathological stinginess:** Every time he has to pay the PCs, the scene must be an ordeal. Gorim doesn't want to do it in any way. He counts coins one by one, sighs at each coin, looks for excuses to pay less (&quot;that wasn't information, that was an opinion&quot;), asks for receipts, tries to pay in kind (&quot;I'll give you a ham, it's the same&quot;), proposes installments, accuses the PCs of not having done enough. No matter the amount — even 5 silver pieces cause him physical pain.
+**Pathological stinginess:** Every time he has to pay the PCs, the scene must be an ordeal. Gorim doesn't want to do it in any way. He counts coins one by one, sighs at each coin, looks for excuses to pay less (&quot;that wasn't information, that was an opinion&quot;), asks for receipts, tries to pay in kind (&quot;I'll give you a ham, it's the same&quot;), proposes installments, accuses the PCs of not having done enough. No matter the amount - even 5 silver pieces cause him physical pain.
 Recurring phrases adapted from Ferretti:
 - &quot;Come on come on come on, we can do this&quot; (he doesn't believe it)
 - &quot;Splendid. Wonderful.&quot; (sarcastic)
@@ -406,7 +406,7 @@ Recurring phrases adapted from Ferretti:
 Role: main ally, quest giver</description>
     </monster>
     <monster>
-        <name>Thug</name>
+        <name>Thug - henchman</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>neutral evil</alignment>
@@ -440,7 +440,7 @@ Role: main ally, quest giver</description>
             <text>Attack: +2, ranged 100/400 ft. Damage: 1d10 piercing</text>
             <attack>Heavy Crossbow (ranged)|+2|1d10</attack>
         </action>
-        <description>Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Grazie. They only intervene if Sergius is spotted, covering his escape. They're not loyal — after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *&quot;They don't pay us enough for this!&quot;*
+        <description>Low-ranking thugs in Sergius's service. Disguised as porters or merchants, they blend into the crowd at the Festa del Grazie. They only intervene if Sergius is spotted, covering his escape. They're not loyal - after 1 round or as soon as 2 are wounded, the most wounded one flees. The others fight until surrender. *&quot;They don't pay us enough for this!&quot;*
 Role: Sergius's henchman</description>
     </monster>
 </compendium>

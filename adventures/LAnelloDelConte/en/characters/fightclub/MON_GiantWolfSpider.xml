@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>GiantWolfSpider</name>
+        <name>GiantWolfSpider - giant wolf spider</name>
         <size>M</size>
         <type>beast</type>
         <alignment>unaligned</alignment>
@@ -15,7 +15,7 @@
         <wis>12</wis>
         <cha>4</cha>
         <senses>Blindsight 10 ft., Darkvision 60 ft., passive Perception 13</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>1/4</cr>
         <trait>
             <name>Spider Climb</name>

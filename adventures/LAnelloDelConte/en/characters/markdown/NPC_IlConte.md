@@ -11,13 +11,13 @@
 
 ## Description
 
-Whose name nobody knows, whose face nobody has seen. The Count is the instigator of everything — he sent Gorim, he wants the Ring, he governs the territory — but nobody can name him, describe him, or meet him. He is a constant and totally absent presence.
+Whose name nobody knows, whose face nobody has seen. The Count is the instigator of everything - he sent Gorim, he wants the Ring, he governs the territory - but nobody can name him, describe him, or meet him. He is a constant and totally absent presence.
 
-His personality is a mosaic of contradictory accounts: to some he's generous, to others he's miserly, to others still he's mad. The orders he sends are inconsistent — sometimes reasonable, sometimes absurd.
+His personality is a mosaic of contradictory accounts: to some he's generous, to others he's miserly, to others still he's mad. The orders he sends are inconsistent - sometimes reasonable, sometimes absurd.
 
-**Running gag — the name:** every time an NPC is about to say it, they get interrupted (noise, sneeze, collapse, sudden amnesia). Official letters have the seal but the signature is illegible.
+**Running gag - the name:** every time an NPC is about to say it, they get interrupted (noise, sneeze, collapse, sudden amnesia). Official letters have the seal but the signature is illegible.
 
-**Running gag — the face:** no NPC has ever seen him in person. Official portraits are always covered, damaged, or turned backwards.
+**Running gag - the face:** no NPC has ever seen him in person. Official portraits are always covered, damaged, or turned backwards.
 
 The Count is NOT Dorian Valemarch. He's a local noble, a vassal of the King, who governs Fianus Romanus.
 
@@ -47,7 +47,7 @@ The Count is NOT Dorian Valemarch. He's a local noble, a vassal of the King, who
 
 ## Motivations
 
-Unknown. The Count wants the Ring, but nobody knows why. His orders are contradictory — perhaps he doesn't write them himself, perhaps someone else is pulling the strings.
+Unknown. The Count wants the Ring, but nobody knows why. His orders are contradictory - perhaps he doesn't write them himself, perhaps someone else is pulling the strings.
 
 ## Role in the Adventure
 
@@ -56,13 +56,13 @@ In the final episode, just as the PCs are finally about to meet him, the Count d
 ## DM Notes
 
 - This stat block is a placeholder. The Count doesn't fight in L'Anello del Conte.
-- If for some reason the PCs meet him before the final episode, he's masked/hooded/backlit — his face is NEVER visible.
+- If for some reason the PCs meet him before the final episode, he's masked/hooded/backlit - his face is NEVER visible.
 - The DM must never reveal the Count's name.
 
 ## Future Hooks
 
-- The Count's death creates a power vacuum in the region — who's in charge now?
+- The Count's death creates a power vacuum in the region - who's in charge now?
 - Gorim receives an urgent message from the capital: the King wants to see him
-- The Count's letters had different handwriting — perhaps he didn't write them himself
+- The Count's letters had different handwriting - perhaps he didn't write them himself
 - The abandoned mine of Nerrok is mentioned as a place connected to the Count
-- The explosion isn't comedic — it's the moment the comedy ends and Il Re Spezzato begins
+- The explosion isn't comedic - it's the moment the comedy ends and Il Re Spezzato begins

@@ -3,7 +3,7 @@
     <monster>
         <name>Corrupted Rat</name>
         <size>M</size>
-        <type>humanoid (beast)</type>
+        <type>beast</type>
         <alignment>unaligned</alignment>
         <ac>12</ac>
         <hp>7 (2d6)</hp>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Baboon</name>
+        <name>Baboon - babbuino</name>
         <size>S</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -15,7 +15,7 @@
         <wis>12</wis>
         <cha>6</cha>
         <senses>Percezione passiva 11</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>0</cr>
         <trait>
             <name>Pack Tactics</name>

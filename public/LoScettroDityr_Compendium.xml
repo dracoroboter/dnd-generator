@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>MON_GuardianoLumina</name>
+        <name>GuardianoLumina</name>
         <size>M</size>
         <type>humanoid (costrutto (golem di pietra))</type>
         <alignment>neutrale (corrotto da vecna)</alignment>
@@ -383,6 +383,7 @@ Role: antagonista ricorrente</description>
         <int>18</int>
         <wis>14</wis>
         <cha>12</cha>
+        <conditionImmune>spaventato</conditionImmune>
         <cr>1</cr>
         <description>Sir Alaric si presenta come un uomo austero e devoto, con capelli grigi tagliati corti e occhi chiari che trasmettono autorità. Indossa le vesti cerimoniali dei Custodi dell'Equilibrio con una naturalezza che ispira fiducia. La sua voce è calma, misurata — ogni parola sembra pesata e giusta.
 Sotto la facciata, Alaric è un uomo consumato dall'ambizione. I suoi occhi tradiscono un'avidità che nessuna preghiera può nascondere, se si sa dove guardare.
@@ -403,6 +404,7 @@ Role: antagonista</description>
         <int>11</int>
         <wis>12</wis>
         <cha>14</cha>
+        <conditionImmune>affaticamento, spaventato, avvelenato</conditionImmune>
         <senses>darkvision 60 ft. 18m / 60ft, Percezione passiva 14</senses>
         <languages>Common</languages>
         <cr>8</cr>

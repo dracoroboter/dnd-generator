@@ -1,4 +1,4 @@
-# NPC_Thug — scagnozzo
+# NPC_Thug - scagnozzo
 
 ## Informazioni generali
 
@@ -9,7 +9,7 @@
 
 ## Descrizione
 
-Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Grazie. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *"Non ci pagano abbastanza per questo!"*
+Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Grazie. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali - dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *"Non ci pagano abbastanza per questo!"*
 
 ## Stat Block
 

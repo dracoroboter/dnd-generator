@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# NPC_Bandit — bandit
+# NPC_Bandit - bandit
 
 ## General Information
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-Port men of Vetusta Portus. Dockworkers, ex-sailors, petty criminals. They work for Er Braccio for easy money. They're not fanatics — if things go south, they run.
+Port men of Vetusta Portus. Dockworkers, ex-sailors, petty criminals. They work for Er Braccio for easy money. They're not fanatics - if things go south, they run.
 
 ## Stat Block
 

@@ -1,8 +1,8 @@
-# Puntata 1 — Le Fogne di Fianus
+# Puntata 1 - Le Fogne di Fianus
 
 ## Descrizione
 
-I PG vengono reclutati da Sir Gorim Vel alla Taberna di Fianus Romanus per recuperare l'Anello del Conte nelle fogne del borgo. L'Anello non c'è — troveranno una lettera beffarda che li lancia verso la Puntata 2.
+I PG vengono reclutati da Sir Gorim Vel alla Taberna di Fianus Romanus per recuperare l'Anello del Conte nelle fogne del borgo. L'Anello non c'è - troveranno una lettera beffarda che li lancia verso la Puntata 2.
 
 ## Obiettivo
 
@@ -11,54 +11,54 @@ I PG vengono reclutati da Sir Gorim Vel alla Taberna di Fianus Romanus per recup
 
 ---
 
-## Intro — La Taberna
+## Intro - La Taberna
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
-> Il regno di Drakenhold attraversa la sua stagione più radiosa. Nel sud, il borgo di **Fianus Romanus** — un paesino baciato dal sole e circondato da terre fertili — sonnecchia tra tradizioni rurali e commerci modesti. La vita scorre serena, o almeno così sembra.
+> Il regno di Drakenhold attraversa la sua stagione più radiosa. Nel sud, il borgo di **Fianus Romanus** - un paesino baciato dal sole e circondato da terre fertili - sonnecchia tra tradizioni rurali e commerci modesti. La vita scorre serena, o almeno così sembra.
 > 
-> Voi siete arrivati qui per motivi vostri — una consegna, un debito, un esilio più o meno volontario — e vi siete ritrovati seduti alla **Taberna de Franciosibus aut Hispanardis**, l'unica taverna di Fianus Romanus.
+> Voi siete arrivati qui per motivi vostri - una consegna, un debito, un esilio più o meno volontario - e vi siete ritrovati seduti alla **Taberna de Franciosibus aut Hispanardis**, l'unica taverna di Fianus Romanus.
 > 
-> L'insegna raffigura un cinghiale sdraiato su un fianco con un'espressione di beata soddisfazione. L'interno è all'altezza della promessa: tavoli appiccicosi, un camino che fa più fumo che calore, prosciutti appesi al soffitto a distanza pericolosa dalle teste dei clienti, e un odore permanente di vino versato e formaggio stagionato. La taverniera — una donna massiccia che risponde solo a "**Domina Lella**" — serve porzioni enormi e opinioni non richieste. Il vino della casa è rosso, forte, e nessuno sa da quale vigna venga. Meglio non chiedere.
+> L'insegna raffigura un cinghiale sdraiato su un fianco con un'espressione di beata soddisfazione. L'interno è all'altezza della promessa: tavoli appiccicosi, un camino che fa più fumo che calore, prosciutti appesi al soffitto a distanza pericolosa dalle teste dei clienti, e un odore permanente di vino versato e formaggio stagionato. La taverniera - una donna massiccia che risponde solo a "**Domina Lella**" - serve porzioni enormi e opinioni non richieste. Il vino della casa è rosso, forte, e nessuno sa da quale vigna venga. Meglio non chiedere.
 > 
 > Stamattina però Domina Lella non serve niente. Domina Lella vuole i soldi. Vi deve ancora **la pigione di luglio**, e ve lo sta ricordando con un volume e una frequenza che hanno fatto ammutolire l'intera taverna. Un dito grosso come una salsiccia vi punta dal bancone: *"O pagate, o dormite in strada. E non credete di scappare, che vi trovo."*
 > 
-> È in questo momento — mentre cercate disperatamente le parole giuste per calmarla — che un uomo tarchiato, con un mantello verde e una pergamena in mano, entra nella taverna. Si guarda intorno. I suoi occhi si posano su di voi — gli unici in tutto il locale che hanno l'aria di possedere un'arma, o quantomeno di sapere da che parte si impugna.
+> È in questo momento - mentre cercate disperatamente le parole giuste per calmarla - che un uomo tarchiato, con un mantello verde e una pergamena in mano, entra nella taverna. Si guarda intorno. I suoi occhi si posano su di voi - gli unici in tutto il locale che hanno l'aria di possedere un'arma, o quantomeno di sapere da che parte si impugna.
 > 
 > Si avvicina, vi squadra meglio, e il suo volto si illumina:
 > 
 > *"Ma... ma voi siete...!"*
 
-### 🎲 Note per il DM — Lo scambio di identità
+### Note per il DM - Lo scambio di identità
 
-Gorim è convinto di riconoscere i PG come famosi avventurieri. Li chiama per nome — nomi sbagliati, di eroi che non sono loro:
+Gorim è convinto di riconoscere i PG come famosi avventurieri. Li chiama per nome - nomi sbagliati, di eroi che non sono loro:
 
 - **Femmine:** "Misty", "Gowen", "Enlet", "Diamante", "Giustina" o "Ludovica"
 - **Maschi:** "Ander", "Goffredo" o "Draco"
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
-> *"Diamante! La sterminatrice di dei di Westmarch! E voi... Draco! Lo sterminatore di draghi del Passo di Nerrok! È un onore! Un ONORE! Ho sentito della vostra impresa contro i giganti del nord — magnifica, magnifica!"*
+> *"Diamante! La sterminatrice di dei di Westmarch! E voi... Draco! Lo sterminatore di draghi del Passo di Nerrok! È un onore! Un ONORE! Ho sentito della vostra impresa contro i giganti del nord - magnifica, magnifica!"*
 
 Nessuno dei PG ha mai fatto nulla di tutto questo.
 
-*Nota per il DM: adattare nomi e imprese ai PG presenti al tavolo. L'esempio sopra è indicativo — scegliere dalla lista in base al sesso dei personaggi e inventare imprese assurde al momento.*
+*Nota per il DM: adattare nomi e imprese ai PG presenti al tavolo. L'esempio sopra è indicativo - scegliere dalla lista in base al sesso dei personaggi e inventare imprese assurde al momento.*
 
-### 🎲 Note per il DM — Reazione dei PG
+### Note per il DM - Reazione dei PG
 
-**Se i PG stanno al gioco** (nessun tiro richiesto, basta non contraddirlo): Gorim è entusiasta, li tratta con deferenza, e la trattativa sul compenso parte più alta. Domina Lella li guarda con sospetto ma tace — se sono davvero eroi famosi, forse la pigione arriverà.
+**Se i PG stanno al gioco** (nessun tiro richiesto, basta non contraddirlo): Gorim è entusiasta, li tratta con deferenza, e la trattativa sul compenso parte più alta. Domina Lella li guarda con sospetto ma tace - se sono davvero eroi famosi, forse la pigione arriverà.
 
-**Se i PG si fanno scoprire** (o si tradiscono, o sono onesti): Gorim si rabbuia. *"Ah. Non siete... Ah."* Pausa. *"Vabbè, fate lo stesso. Venite con me. Ordine del Conte."* La proposta monetaria scende ulteriormente — partirà ancora più bassa nella trattativa.
+**Se i PG si fanno scoprire** (o si tradiscono, o sono onesti): Gorim si rabbuia. *"Ah. Non siete... Ah."* Pausa. *"Vabbè, fate lo stesso. Venite con me. Ordine del Conte."* La proposta monetaria scende ulteriormente - partirà ancora più bassa nella trattativa.
 
 ## La Pergamena
 
-### 🎲 Note per il DM
+### Note per il DM
 
-L'uomo è **Sir Gorim Vel**, funzionario del Conte — il cui nome nessuno riesce a pronunciare. Srotola una pergamena e legge:
+L'uomo è **Sir Gorim Vel**, funzionario del Conte - il cui nome nessuno riesce a pronunciare. Srotola una pergamena e legge:
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
-> *"Sia noto a chiunque legga il presente proclama che Sua Eccellenza Illustrissima il Conte di [macchia d'inchiostro], Signore di Fianus Romanus e vassallo fedele della Corona di Drakenhold, comunica con sommo rammarico e profonda costernazione che il Suo preziosissimo Anello — cimelio di inestimabile valore e simbolo del Suo augusto casato — è andato smarrito in circostanze tanto sfortunate quanto impreviste, essendo scivolato dalle Sue nobili dita e precipitato nello scarico delle Sue private latrine.*
+> *"Sia noto a chiunque legga il presente proclama che Sua Eccellenza Illustrissima il Conte di [macchia d'inchiostro], Signore di Fianus Romanus e vassallo fedele della Corona di Drakenhold, comunica con sommo rammarico e profonda costernazione che il Suo preziosissimo Anello - cimelio di inestimabile valore e simbolo del Suo augusto casato - è andato smarrito in circostanze tanto sfortunate quanto impreviste, essendo scivolato dalle Sue nobili dita e precipitato nello scarico delle Sue private latrine.*
 > 
 > *Pertanto, il sottoscritto Sir Gorim Vel, messo e fiduciario di Sua Eccellenza, è incaricato di reclutare un manipolo di avventurieri valorosi, o quantomeno disponibili, affinché discendano nelle fogne del borgo e recuperino il suddetto Anello, restituendolo intatto e, possibilmente, pulito.*
 > 
@@ -70,29 +70,29 @@ L'uomo è **Sir Gorim Vel**, funzionario del Conte — il cui nome nessuno riesc
 
 > Gorim arrotola la pergamena, vi guarda, e dice: *"Bene. Domande?"*
 
-### 🎲 Note per il DM — Le domande dei PG
+### Note per il DM - Le domande dei PG
 
 I PG avranno domande. Gorim risponde a tutto con impazienza crescente:
 
-- **"Cos'è l'Anello?"** — *"L'Anello del Conte. È un anello. Del Conte. Cos'altro vi serve sapere?"*
-- **"Che aspetto ha?"** — *"È un anello. D'oro. Con un sigillo. Grosso così."* (indica una misura diversa ogni volta)
-- **"Perché è nelle fogne?"** — *"Perché Sua Eccellenza ha avuto un... incidente igienico. Non fate domande."*
-- **"Chi è il Conte?"** — *"Il Conte è il Conte. Il vostro datore di lavoro. Basta."*
-- **"Come si chiama il Conte?"** — Gorim apre la bocca, si ferma, guarda la pergamena, la rigira, e dice: *"È scritto qui. Chiaramente."* (non è scritto chiaramente)
-- **"Quanto ci pagate?"** — Apre la trattativa (vedi sotto).
-- **Qualsiasi altra domanda** — *"Sì sì, dettagli. Andiamo, che si fa tardi."*
+- **"Cos'è l'Anello?"** - *"L'Anello del Conte. È un anello. Del Conte. Cos'altro vi serve sapere?"*
+- **"Che aspetto ha?"** - *"È un anello. D'oro. Con un sigillo. Grosso così."* (indica una misura diversa ogni volta)
+- **"Perché è nelle fogne?"** - *"Perché Sua Eccellenza ha avuto un... incidente igienico. Non fate domande."*
+- **"Chi è il Conte?"** - *"Il Conte è il Conte. Il vostro datore di lavoro. Basta."*
+- **"Come si chiama il Conte?"** - Gorim apre la bocca, si ferma, guarda la pergamena, la rigira, e dice: *"È scritto qui. Chiaramente."* (non è scritto chiaramente)
+- **"Quanto ci pagate?"** - Apre la trattativa (vedi sotto).
+- **Qualsiasi altra domanda** - *"Sì sì, dettagli. Andiamo, che si fa tardi."*
 
 Quando le domande si esauriscono (o Gorim perde la pazienza), si passa alla trattativa.
 
 ## La trattativa
 
-### 🎲 Note per il DM
+### Note per il DM
 
 I PG, che devono **3 monete d'oro** di pigione a Domina Lella (che è lì che ascolta con le braccia incrociate), chiederanno inevitabilmente: "E quanto ci date?"
 
 **Se i PG non si sono fatti scoprire** (Gorim crede ancora che siano eroi famosi): parte da **5 monete d'oro**. I PG possono trattare fino a 10.
 
-**Se i PG si sono fatti scoprire** (o sono stati onesti): Gorim offre **1 moneta d'oro**. Una. I PG devono 3 mo alla Domina — l'offerta non basta neanche a pagare il debito.
+**Se i PG si sono fatti scoprire** (o sono stati onesti): Gorim offre **1 moneta d'oro**. Una. I PG devono 3 mo alla Domina - l'offerta non basta neanche a pagare il debito.
 
 Se i PG accettano l'offerta da 1 mo senza trattare, Domina Lella afferra un mattarello dal bancone e minaccia di chiamare le guardie: *"UNA moneta?! E io come le vedo le mie tre monete d'oro?! O trattate meglio o chiamo le guardie e vi faccio sbattere dentro!"* I PG sono costretti a negoziare.
 
@@ -100,7 +100,7 @@ Si apre una scena di contrattazione. Gorim si offende, i PG insistono, Gorim tir
 
 **Risultato massimo:** 10 monete d'oro, ma solo per il recupero dell'Anello. Gorim specifica: *"10 monete d'oro. DIECI. Ma solo se mi portate l'anello."*
 
-**Quando dovrà effettivamente pagare** (nelle puntate successive), ogni pagamento è una scena comica — vedi scheda NPC di Gorim (§ Tirchieria patologica).
+**Quando dovrà effettivamente pagare** (nelle puntate successive), ogni pagamento è una scena comica - vedi scheda NPC di Gorim (§ Tirchieria patologica).
 
 Gorim promette poco e paga ancora meno.
 
@@ -108,29 +108,29 @@ Gorim promette poco e paga ancora meno.
 
 ## La ricerca dell'ingresso
 
-L'anello è caduto nelle latrine del Conte, quindi va cercato nelle fogne. Gorim lo sa e sa dove si trova l'ingresso, ma preferirebbe che i PG ci arrivassero da soli — "Se devo fare tutto io, a che servite?"
+L'anello è caduto nelle latrine del Conte, quindi va cercato nelle fogne. Gorim lo sa e sa dove si trova l'ingresso, ma preferirebbe che i PG ci arrivassero da soli - "Se devo fare tutto io, a che servite?"
 
 **Posizioni nel borgo** (vedi mappa `../maps/FianusRomanus`):
 
 - La **Taberna de Franciosibus aut Hispanardis** si trova al **Mercato Centrale**, la piazza principale del borgo.
-- La **residenza del Conte** è il palazzo più grande del quartiere **Aviano**. Chiuso e presidiato — il Conte non c'è mai, ma le guardie fanno finta che ci sia.
+- La **residenza del Conte** è il palazzo più grande del quartiere **Aviano**. Chiuso e presidiato - il Conte non c'è mai, ma le guardie fanno finta che ci sia.
 - L'**ingresso alle fogne** è una botola nel quartiere **Settebagni**, oltre il **Ponte Milvius**. La botola è coperta dal carretto di Terzilio.
 - **Terzilio il verduraio** vende rape e cipolle. Ha un banco al **Mercato Centrale** ma vive a **Settebagni** (dove trovarlo è lasciato al DM).
 - Le **guardie** presidiano la residenza del Conte ad **Aviano**.
 
-### 🎲 Note per il DM — I PG sono del luogo
+### Note per il DM - I PG sono del luogo
 
-I PG sono avventurieri squattrinati che vivono a Fianus Romanus da un po'. Si conoscono già tra loro e conoscono il borgo. La prima scena alla Taberna serve per far conoscere i personaggi l'un l'altro ai giocatori (non ai PG). Non c'è bisogno di spiegare loro dov'è Settebagni o cos'è Ponte Milvio — lo sanno.
+I PG sono avventurieri squattrinati che vivono a Fianus Romanus da un po'. Si conoscono già tra loro e conoscono il borgo. La prima scena alla Taberna serve per far conoscere i personaggi l'un l'altro ai giocatori (non ai PG). Non c'è bisogno di spiegare loro dov'è Settebagni o cos'è Ponte Milvio - lo sanno.
 
 ### Le informazioni di Domina Lella
 
-Le informazioni di Sora Lella non arrivano tutte insieme. Vanno date in momenti separati, in risposta a domande specifiche dei PG. Domina Lella vuole almeno un acconto sulla pigione (5 ma, o un bicchiere offerto, o una promessa convincente — Persuasion CD 12) prima di parlare.
+Le informazioni di Sora Lella non arrivano tutte insieme. Vanno date in momenti separati, in risposta a domande specifiche dei PG. Domina Lella vuole almeno un acconto sulla pigione (5 ma, o un bicchiere offerto, o una promessa convincente - Persuasion CD 12) prima di parlare.
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
 > Domina Lella incrocia le braccia: *"Prima i soldi. Poi le informazioni."*
 
-### 🎲 Note per il DM
+### Note per il DM
 
 Dopo aver pagato/convinto, Sora Lella risponde alle domande una alla volta:
 
@@ -147,11 +147,11 @@ Dopo aver pagato/convinto, Sora Lella risponde alle domande una alla volta:
 
 **Terzilio il verduraio**
 
-### 🎲 Note per il DM
+### Note per il DM
 
 Un ometto nervoso che vende rape e cipolle. Vive a Settebagni e ha un parcheggio per il suo carretto vicino a casa. Se i PG gli chiedono di mostrargli il vicolo, li accompagna ma non si avvicina troppo.
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
 > *"Er carretto! Ogni giorno lo trovo spostato dal parcheggio mio! Sempre nello stesso punto, lì vicino."*
 
@@ -161,13 +161,13 @@ Un ometto nervoso che vende rape e cipolle. Vive a Settebagni e ha un parcheggio
 
 **Le guardie della residenza del Conte**
 
-### 🎲 Note per il DM
+### Note per il DM
 
-Due guardie annoiate davanti al palazzo ad Aviano. Se i PG provano a entrare nel castello, gli ridono in faccia. Se chiedono delle fogne, sanno dov'è l'ingresso principale — è informazione nota, non un segreto.
+Due guardie annoiate davanti al palazzo ad Aviano. Se i PG provano a entrare nel castello, gli ridono in faccia. Se chiedono delle fogne, sanno dov'è l'ingresso principale - è informazione nota, non un segreto.
 
-I PG probabilmente vorranno andare direttamente sotto il castello, visto che la latrina del Conte è lì. Le guardie confermano che le fogne partono da Settebagni e arrivano fin sotto il castello — ma l'ingresso è a Settebagni, non ad Aviano.
+I PG probabilmente vorranno andare direttamente sotto il castello, visto che la latrina del Conte è lì. Le guardie confermano che le fogne partono da Settebagni e arrivano fin sotto il castello - ma l'ingresso è a Settebagni, non ad Aviano.
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
 > *"Entrare nel castello? Ahah. No."*
 
@@ -181,11 +181,11 @@ I PG probabilmente vorranno andare direttamente sotto il castello, visto che la 
 
 ### Se i PG non trovano l'ingresso
 
-### 🎲 Note per il DM
+### Note per il DM
 
 Dopo che i PG hanno girato abbastanza (o se il DM sente che si stanno impantanando), Gorim perde la pazienza.
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
 > Gorim tira fuori una mappa sgualcita del borgo e indica Settebagni: *"Ma devo fa' tutto io? È LÀ. Giù a Settebagni, dopo il ponte. C'è una botola. Trovatela. Dai dai dai."*
 
@@ -193,15 +193,15 @@ Dopo che i PG hanno girato abbastanza (o se il DM sente che si stanno impantanan
 
 ### La botola
 
-### 🎲 Note per il DM
+### Note per il DM
 
-Sotto il carretto di Terzilio c'è una botola di ferro (2qd / 3m / 10ft) con lo stemma del borgo (un cinghiale, ovviamente). Non è chiusa a chiave — il lucchetto è arrugginito e si apre con una tirata decisa (FOR CD 8) o un colpo secco (CA 10).
+Sotto il carretto di Terzilio c'è una botola di ferro (2qd / 3m / 10ft) con lo stemma del borgo (un cinghiale, ovviamente). Non è chiusa a chiave - il lucchetto è arrugginito e si apre con una tirata decisa (FOR CD 8) o un colpo secco (CA 10).
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
 > Una scala di ferro scende nel buio. L'odore è esattamente quello che ci si aspetta.
 > 
-> La scala porta a un tubo fognario abbastanza largo da essere percorso a piedi, ma molto basso — dovete camminare piegati, i più alti quasi carponi. L'aria è densa, umida, e puzza esattamente di quello che ci si aspetta da un tubo che raccoglie gli scarichi di un borgo intero. Un rivolo di liquido scorre ai vostri piedi. Non è acqua. Non esattamente.
+> La scala porta a un tubo fognario abbastanza largo da essere percorso a piedi, ma molto basso - dovete camminare piegati, i più alti quasi carponi. L'aria è densa, umida, e puzza esattamente di quello che ci si aspetta da un tubo che raccoglie gli scarichi di un borgo intero. Un rivolo di liquido scorre ai vostri piedi. Non è acqua. Non esattamente.
 > 
 > Si sentono sgocciolii continui, echi lontani, e il rumore di zampette che si muovono nell'ombra. Ogni tanto qualcosa sfiora una caviglia.
 > 
@@ -213,15 +213,15 @@ Sotto il carretto di Terzilio c'è una botola di ferro (2qd / 3m / 10ft) con lo 
 
 Le fogne di Fianus sono sorprendentemente elaborate per un borgo di queste dimensioni. Nessuno sa chi le abbia costruite né perché. Sono un dungeon a 5 stanze con un mix di architettura costruita e caverne naturali.
 
-**Perché l'Anello è qui e non sotto il castello:** Le fogne scorrono da est (Aviano, dove c'è il castello del Conte) verso ovest (Settebagni, dove c'è l'ingresso). La corrente ha trasportato l'Anello dalle latrine del Conte fino a queste stanze. Sergius non l'ha mai trovato — ha solo scoperto che era stato perduto e ha mentito nella lettera per attirare avventurieri. L'Anello è ancora qui da qualche parte, perso nel fango e nelle fogne. Verrà trovato miracolosamente nell'ultima puntata.
+**Perché l'Anello è qui e non sotto il castello:** Le fogne scorrono da est (Aviano, dove c'è il castello del Conte) verso ovest (Settebagni, dove c'è l'ingresso). La corrente ha trasportato l'Anello dalle latrine del Conte fino a queste stanze. Sergius non l'ha mai trovato - ha solo scoperto che era stato perduto e ha mentito nella lettera per attirare avventurieri. L'Anello è ancora qui da qualche parte, perso nel fango e nelle fogne. Verrà trovato miracolosamente nell'ultima puntata.
 
-**Il cunicolo:** Dalla Stanza 1, un lungo cunicolo parte verso est in direzione del castello. Circa 10 minuti di cammino a luce fioca — sgocciolii, eco, rumore di topi, ma non succede nulla. Il cunicolo si restringe progressivamente fino a diventare impraticabile. I PG non possono raggiungere il castello da qui, ma capiscono che le fogne collegano effettivamente Settebagni ad Aviano.
+**Il cunicolo:** Dalla Stanza 1, un lungo cunicolo parte verso est in direzione del castello. Circa 10 minuti di cammino a luce fioca - sgocciolii, eco, rumore di topi, ma non succede nulla. Il cunicolo si restringe progressivamente fino a diventare impraticabile. I PG non possono raggiungere il castello da qui, ma capiscono che le fogne collegano effettivamente Settebagni ad Aviano.
 
 **Mappa:** `maps/LeFogneDiFianus.png`
 
-**Collegamento tra le stanze:** L'esplorazione non è lineare. Dalla Stanza 1 i PG possono andare verso la Stanza 2 (corridoio in alto) o la Stanza 3 (passaggio al centro). La Stanza 4 è raggiungibile dalla 3 e dalla 5 (corridoi a destra della mappa). La Stanza 5 è accessibile solo attraverso la Stanza 4 (la porta col modulo burocratico). I PG possono esplorare nell'ordine che preferiscono — le stanze funzionano indipendentemente.
+**Collegamento tra le stanze:** L'esplorazione non è lineare. Dalla Stanza 1 i PG possono andare verso la Stanza 2 (corridoio in alto) o la Stanza 3 (passaggio al centro). La Stanza 4 è raggiungibile dalla 3 e dalla 5 (corridoi a destra della mappa). La Stanza 5 è accessibile solo attraverso la Stanza 4 (la porta col modulo burocratico). I PG possono esplorare nell'ordine che preferiscono - le stanze funzionano indipendentemente.
 
-**Tono:** I problemi sono banali ma trattati come epici. Nessun pericolo mortale reale — le conseguenze sono comiche (debiti, figuracce, maledizioni ridicole).
+**Tono:** I problemi sono banali ma trattati come epici. Nessun pericolo mortale reale - le conseguenze sono comiche (debiti, figuracce, maledizioni ridicole).
 
 **Durata stimata:** 1-2 sessioni (1-3 ore ciascuna).
 
@@ -229,12 +229,12 @@ Le fogne di Fianus sono sorprendentemente elaborate per un borgo di queste dimen
 
 ## Le Stanze
 
-### Stanza 1 — L'Ingresso Allagato
+### Stanza 1 - L'Ingresso Allagato
 
 Grande sala circolare con due ambienti collegati (visibili sulla mappa). Acqua stagnante alle caviglie, odore terribile.
 
 **Incontro: I Ratti Sindacalizzati**
-Un gruppo di ratti giganti (5x **Giant Rat**, MM p. 327) blocca fisicamente il passaggio verso la stanza 2. Sono disposti in fila, immobili, e non si spostano. Il loro capo, un ratto insolitamente grosso con un minuscolo cappello — **Biascica** — squittisce in modo che sembra organizzato. È un picchetto.
+Un gruppo di ratti giganti (5x **Giant Rat**, MM p. 327) blocca fisicamente il passaggio verso la stanza 2. Sono disposti in fila, immobili, e non si spostano. Il loro capo, un ratto insolitamente grosso con un minuscolo cappello - **Biascica** - squittisce in modo che sembra organizzato. È un picchetto.
 
 Ogni ratto indossa un accessorio: uno ha una sciarpa, uno un guanto, uno un cappellino (il capo), uno delle calze, uno un fazzoletto al collo. Sono chiaramente oggetti rubati a qualcuno.
 
@@ -243,7 +243,7 @@ I PG devono decidere in fretta: passare con la forza o trovare un altro modo.
 - **Combattimento:** I PG attaccano. I ratti combattono ma fuggono dopo che 2 di loro vengono sconfitti. I sopravvissuti torneranno nella stanza 3 a fare dispetti.
 - **Forza bruta (Athletics CD 10):** Spingerli via fisicamente. Funziona, ma i ratti li seguiranno ostili per il resto del dungeon.
 - **Cibo/pagamento:** Se un PG offre una razione di cibo o 5 monete di rame, il capo annuisce e i ratti si spostano ordinatamente.
-- **Speak with Animals / Silvano:** I ratti hanno formato un sindacato e chiedono un "pedaggio". Se pagati, offrono un consiglio: "Non fidarti di quello nella stanza 2." Se un PG ha Speak with Animals (o capacità simile), la conversazione può essere molto più ricca — i ratti hanno opinioni su tutto e tutti nelle fogne.
+- **Speak with Animals / Silvano:** I ratti hanno formato un sindacato e chiedono un "pedaggio". Se pagati, offrono un consiglio: "Non fidarti di quello nella stanza 2." Se un PG ha Speak with Animals (o capacità simile), la conversazione può essere molto più ricca - i ratti hanno opinioni su tutto e tutti nelle fogne.
 
 **Nota per il DM:** I 5 ratti sindacalizzati sono NPC ricorrenti. Vanno riutilizzati nelle puntate successive (protesta in piazza alla Festa del Grazie, picchetto davanti a un negozio, ecc.). Sono riconoscibili dagli accessori.
 
@@ -251,7 +251,7 @@ I PG devono decidere in fretta: passare con la forza o trovare un altro modo.
 
 ---
 
-### Stanza 2 — Il Saggio delle Fogne
+### Stanza 2 - Il Saggio delle Fogne
 
 Caverna naturale con stalattiti e un'area asciutta rialzata. Qualcuno ci ha messo una sedia, un tavolino, e una candela.
 
@@ -268,7 +268,7 @@ Un uomo di mezza età che vive nelle fogne per scelta. Ex contabile del borgo, s
 
 ---
 
-### Stanza 3 — La Grande Caverna (Il Troll Esattore)
+### Stanza 3 - La Grande Caverna (Il Troll Esattore)
 
 La caverna centrale più grande della mappa. Spazio aperto, colonne naturali, eco.
 
@@ -279,13 +279,13 @@ Non è un vero troll (sarebbe troppo per PG livello 1). Usare lo stat block di u
 - Parla Comune (male)
 - Non è ostile di default
 
-Grunzio vive qui da anni e considera le fogne casa sua. Vuole solo che qualcuno gli paghi l'affitto arretrato — 47 monete d'oro e 3 di rame, "precisi precisi". Non sa a chi pagare l'affitto. Non sa perché deve pagarlo. Ma è convinto di doverlo fare.
+Grunzio vive qui da anni e considera le fogne casa sua. Vuole solo che qualcuno gli paghi l'affitto arretrato - 47 monete d'oro e 3 di rame, "precisi precisi". Non sa a chi pagare l'affitto. Non sa perché deve pagarlo. Ma è convinto di doverlo fare.
 
-**Se i PG insistono con la violenza — escalation in 3 fasi:**
+**Se i PG insistono con la violenza - escalation in 3 fasi:**
 
 1. **Prima respinta:** Grunzio spintona il PG più vicino (nessun danno, il PG finisce a terra nell'acqua lurida). *"NO! Grunzio non vuole! Parlate! PARLATE!"*
 2. **Seconda respinta:** Grunzio afferra un PG e lo lancia contro il muro (1d4 danni contundenti). *"BASTA! Grunzio non cattivo! VOI cattivi!"*
-3. **Terza volta:** Grunzio colpisce davvero con la clava — danni pieni da Ogre (2d8+4). Il PG va probabilmente a terra. Grunzio si ferma immediatamente, si mette a piangere, si inginocchia accanto al PG ferito e cerca goffamente di soccorrerlo. *"No no no no... Grunzio non voleva... Grunzio cattivo... perdonare Grunzio..."* Tenta di fasciarlo con un pezzo della sua tunica lurida. Il combattimento finisce qui — Grunzio non attacca più.
+3. **Terza volta:** Grunzio colpisce davvero con la clava - danni pieni da Ogre (2d8+4). Il PG va probabilmente a terra. Grunzio si ferma immediatamente, si mette a piangere, si inginocchia accanto al PG ferito e cerca goffamente di soccorrerlo. *"No no no no... Grunzio non voleva... Grunzio cattivo... perdonare Grunzio..."* Tenta di fasciarlo con un pezzo della sua tunica lurida. Il combattimento finisce qui - Grunzio non attacca più.
 
 **Opzioni pacifiche:**
 
@@ -295,25 +295,25 @@ Grunzio vive qui da anni e considera le fogne casa sua. Vuole solo che qualcuno 
 
 ---
 
-### Stanza 4 — La Trappola Burocratica
+### Stanza 4 - La Trappola Burocratica
 
 Stanza esagonale costruita, più curata delle altre. Una porta chiusa con un meccanismo.
 
 **Trappola: Il Modulo**
-La porta non si apre con la forza né con lo scasso. Accanto c'è un leggio con un modulo da compilare: "RICHIESTA DI ACCESSO ALLA STANZA SUCCESSIVA — Modulo 7B/bis". Chiede:
+La porta non si apre con la forza né con lo scasso. Accanto c'è un leggio con un modulo da compilare: "RICHIESTA DI ACCESSO ALLA STANZA SUCCESSIVA - Modulo 7B/bis". Chiede:
 
 - Nome completo del richiedente
 - Motivo della visita (max 3 parole)
 - Nome del Conte (campo obbligatorio)
 - 
 
-Il campo "Nome del Conte" accetta qualsiasi risposta. La porta si apre comunque. Ma una voce magica, piatta e burocratica, dice: *"Manca il timbro."* Non succede nient'altro. La porta è aperta. Se i PG tornano indietro a cercare un timbro, perdono tempo — non esiste nessun timbro. Se ignorano e proseguono, va tutto bene. Trappola puramente psicologica.
+Il campo "Nome del Conte" accetta qualsiasi risposta. La porta si apre comunque. Ma una voce magica, piatta e burocratica, dice: *"Manca il timbro."* Non succede nient'altro. La porta è aperta. Se i PG tornano indietro a cercare un timbro, perdono tempo - non esiste nessun timbro. Se ignorano e proseguono, va tutto bene. Trappola puramente psicologica.
 
 Il modulo viene magicamente archiviato in un cesto vicino alla porta.
 
 **Investigation CD 12:** Il modulo è stato compilato centinaia di volte. Ogni compilazione ha un nome diverso per il Conte. Nessuno è uguale.
 
-### 🎲 Note per il DM — Moduli già compilati (tabella)
+### Note per il DM - Moduli già compilati (tabella)
 
 Se i PG esaminano i moduli nel cesto, leggere a caso dalla tabella. Utile anche se il DM deve improvvisare un nome del Conte al volo.
 
@@ -326,31 +326,31 @@ Se i PG esaminano i moduli nel cesto, leggere a caso dalla tabella. Utile anche 
 | 5 | Maria la lavandaia | Recupero biancheria | Conte Brrglmfh |
 | 6 | Nessuno | Nessuno | Conte Nessuno |
 | 7 | Pipinius (cancellato e riscritto 3 volte) | Esibizione | Conte Magnifico |
-| 8 | Un ratto (impronta di zampa) | — | — (impronta di zampa) |
+| 8 | Un ratto (impronta di zampa) | - | - (impronta di zampa) |
 | 9 | Sergius S. | Affari | (campo lasciato vuoto) |
 | 10 | Il Conte stesso | Ispezione | (macchia d'inchiostro identica alla pergamena) |
 
 ---
 
-### Stanza 5 — La Stanza del "Tesoro"
+### Stanza 5 - La Stanza del "Tesoro"
 
-Stanza costruita, relativamente pulita — troppo pulita rispetto al resto delle fogne. Al centro, un piedistallo con un forziere. Ma non è tutto: lungo le pareti ci sono **casse di legno aperte**, alcune vuote, altre con residui di paglia da imballaggio. Il pavimento è segnato da **impronte di stivali recenti** — qualcuno viene qui regolarmente. Non sono impronte di mostri: sono stivali da uomo, di buona fattura.
+Stanza costruita, relativamente pulita - troppo pulita rispetto al resto delle fogne. Al centro, un piedistallo con un forziere. Ma non è tutto: lungo le pareti ci sono **casse di legno aperte**, alcune vuote, altre con residui di paglia da imballaggio. Il pavimento è segnato da **impronte di stivali recenti** - qualcuno viene qui regolarmente. Non sono impronte di mostri: sono stivali da uomo, di buona fattura.
 
-**Investigation CD 12:** Le casse hanno un marchio bruciato sul fianco — una doppia S intrecciata (tipo simbolo del dollaro), lo stesso sigillo del forziere.
+**Investigation CD 12:** Le casse hanno un marchio bruciato sul fianco - una doppia S intrecciata (tipo simbolo del dollaro), lo stesso sigillo del forziere.
 
-**Investigation CD 15:** Nelle casse c'è solo paglia da imballaggio. Ma dalla forma delle impronte nella paglia e dalle dimensioni delle casse, il PG può intuire il tipo generico di merce contenuta — oggetti di dimensione media, probabilmente avvolti singolarmente. (Il DM decide cosa siano quando definisce i traffici di Sergius.)
+**Investigation CD 15:** Nelle casse c'è solo paglia da imballaggio. Ma dalla forma delle impronte nella paglia e dalle dimensioni delle casse, il PG può intuire il tipo generico di merce contenuta - oggetti di dimensione media, probabilmente avvolti singolarmente. (Il DM decide cosa siano quando definisce i traffici di Sergius.)
 
-Questa stanza è il magazzino di **Sergius Arimano** — il luogo dove raccoglie le sue mercanzie prima di smerciarle. I PG non lo sanno ancora, ma la doppia S tornerà.
+Questa stanza è il magazzino di **Sergius Arimano** - il luogo dove raccoglie le sue mercanzie prima di smerciarle. I PG non lo sanno ancora, ma la doppia S tornerà.
 
 **Il Forziere**
-Aperto, nessuna trappola. Il sigillo non è quello del Conte — è un sigillo sconosciuto, una doppia S intrecciata (il marchio di Sergius Arimano, che i PG non riconosceranno ancora). Dentro c'è:
+Aperto, nessuna trappola. Il sigillo non è quello del Conte - è un sigillo sconosciuto, una doppia S intrecciata (il marchio di Sergius Arimano, che i PG non riconosceranno ancora). Dentro c'è:
 
 - Una lettera
 - Un sacchetto con 15 monete d'argento e un biglietto: *"Per voi straccioni."*
 - Un anello di cipolla essiccato (non è l'Anello del Conte)
 
 **La Lettera:**
-*"Cercavate qualcosa? Peccato. Sono arrivato prima io. L'anello del vostro padrone è al sicuro — più pulito di come l'ho trovato, ve lo assicuro. Se lo rivuole, dovrà fare molto meglio di mandare dei topi nelle fogne a cercarlo. Alla Festa del Grazie, forse, ci sarà qualcosa per voi. O forse no. Dipende da quanto mi divertite. — S."*
+*"Cercavate qualcosa? Peccato. Sono arrivato prima io. L'anello del vostro padrone è al sicuro - più pulito di come l'ho trovato, ve lo assicuro. Se lo rivuole, dovrà fare molto meglio di mandare dei topi nelle fogne a cercarlo. Alla Festa del Grazie, forse, ci sarà qualcosa per voi. O forse no. Dipende da quanto mi divertite. - S."*
 
 La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Sergius Arimano.
 
@@ -362,7 +362,7 @@ La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Se
 
 - **Oro:** 15 ma (nel sacchetto con biglietto *"Per voi straccioni"*)
 - **Oggetti:** Anello di rame ossidato (valore: 1 mr), anello di cipolla essiccato (valore: commestibile), lettera sigillata
-- **Informazioni:** Il nome del Conte è stato scritto in centinaia di modi diversi (stanza 4). L'Anello non è nelle fogne — qualcuno l'ha preso prima di loro. La Festa del Grazie è la prossima pista.
+- **Informazioni:** Il nome del Conte è stato scritto in centinaia di modi diversi (stanza 4). L'Anello non è nelle fogne - qualcuno l'ha preso prima di loro. La Festa del Grazie è la prossima pista.
 
 ---
 
@@ -382,28 +382,28 @@ La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Se
 
 ---
 
-## Chiusura della puntata — Il ritorno alla Taberna
+## Chiusura della puntata - Il ritorno alla Taberna
 
-### 🎲 Note per il DM
+### Note per il DM
 
 I PG risalgono dalle fogne e mostrano la lettera a Gorim. Lui la legge, diventa rosso in faccia, la rilegge, la gira come se potesse esserci qualcosa sul retro.
 
-### 📖 Da leggere ai giocatori
+### Da leggere ai giocatori
 
 > Gorim fissa la lettera in silenzio per un tempo imbarazzante. Poi la piega con cura, se la infila nella cintura, e vi guarda.
 > 
 > *"Bene. Non avete trovato l'anello. Avete trovato un problema. Che è peggio."*
 > 
-> Tira fuori una borsa di monete, la soppesa, sospira profondamente, e conta **10 monete d'argento** — una alla volta, con la faccia di chi sta donando un rene.
+> Tira fuori una borsa di monete, la soppesa, sospira profondamente, e conta **10 monete d'argento** - una alla volta, con la faccia di chi sta donando un rene.
 > 
-> *"Ecco. Dieci d'argento. Una moneta d'oro, se preferite contarla così. Il resto ve lo guadagnate continuando a lavorare per me. Questo 'S' — chiunque sia — va trovato. E l'anello va recuperato. Alla Festa del Grazie, dice la lettera? Bene. Ci saremo."*
+> *"Ecco. Dieci d'argento. Una moneta d'oro, se preferite contarla così. Il resto ve lo guadagnate continuando a lavorare per me. Questo 'S' - chiunque sia - va trovato. E l'anello va recuperato. Alla Festa del Grazie, dice la lettera? Bene. Ci saremo."*
 > 
 > Pausa.
 > 
 > *"E stavolta cercate di non tornare a mani vuote."*
 
-### 🎲 Note per il DM
+### Note per il DM
 
 I PG ricevono **10 monete d'argento** (1 mo), indipendentemente da quanto pattuito nella trattativa. Gorim conta ogni moneta con dolore visibile. Se i PG protestano, Gorim alza le spalle: *"Non avete trovato l'anello. Ringraziate che vi do qualcosa."*
 
-Questo lega i PG a Gorim per le puntate successive — devono continuare a lavorare per lui per avere il resto. Il gancio per la Puntata 2 (la Festa del Grazie) è stabilito.
+Questo lega i PG a Gorim per le puntate successive - devono continuare a lavorare per lui per avere il resto. Il gancio per la Puntata 2 (la Festa del Grazie) è stabilito.

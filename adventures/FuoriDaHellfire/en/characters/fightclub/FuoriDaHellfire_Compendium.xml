@@ -3,7 +3,7 @@
     <monster>
         <name>Corrupted Rat</name>
         <size>M</size>
-        <type>humanoid (beast)</type>
+        <type>beast</type>
         <alignment>unaligned</alignment>
         <ac>12</ac>
         <hp>7 (2d6)</hp>
@@ -46,6 +46,7 @@ Role: corrupted minion of Korex</description>
         <int>2</int>
         <wis>10</wis>
         <cha>3</cha>
+        <conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
         <senses>darkvision 9m / 30ft / 6qd</senses>
         <cr>1/4</cr>
         <trait>

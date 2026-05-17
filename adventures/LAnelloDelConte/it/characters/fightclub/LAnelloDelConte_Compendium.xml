@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>Baboon</name>
+        <name>Baboon - babbuino</name>
         <size>S</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -15,7 +15,7 @@
         <wis>12</wis>
         <cha>6</cha>
         <senses>Percezione passiva 11</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>0</cr>
         <trait>
             <name>Pack Tactics</name>
@@ -30,7 +30,7 @@
 Role: animale esotico fuggito dalle casse</description>
     </monster>
     <monster>
-        <name>GiantWolfSpider</name>
+        <name>GiantWolfSpider - ragno lupo gigante</name>
         <size>M</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -44,7 +44,7 @@ Role: animale esotico fuggito dalle casse</description>
         <wis>12</wis>
         <cha>4</cha>
         <senses>Vista cieca 10 ft., Scurovisione 60 ft., Percezione passiva 13</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>1/4</cr>
         <trait>
             <name>Spider Climb</name>
@@ -67,7 +67,7 @@ Role: animale esotico fuggito dalle casse</description>
 Role: animale esotico fuggito dalle casse</description>
     </monster>
     <monster>
-        <name>PoisonousSnake</name>
+        <name>PoisonousSnake - serpente velenoso</name>
         <size>T</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -81,7 +81,7 @@ Role: animale esotico fuggito dalle casse</description>
         <wis>10</wis>
         <cha>3</cha>
         <senses>Vista cieca 10 ft., Percezione passiva 10</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>1/8</cr>
         <action>
             <name>Morso (mischia)</name>
@@ -92,7 +92,7 @@ Role: animale esotico fuggito dalle casse</description>
 Role: animale esotico fuggito dalle casse</description>
     </monster>
     <monster>
-        <name>Rhinoceros</name>
+        <name>Rhinoceros - rinoceronte</name>
         <size>L</size>
         <type>beast</type>
         <alignment>non allineato</alignment>
@@ -106,7 +106,7 @@ Role: animale esotico fuggito dalle casse</description>
         <wis>12</wis>
         <cha>6</cha>
         <senses>Percezione passiva 11</senses>
-        <languages>—</languages>
+        <languages>-</languages>
         <cr>2</cr>
         <trait>
             <name>Charge</name>
@@ -117,11 +117,11 @@ Role: animale esotico fuggito dalle casse</description>
             <text>Attacco: +7, mischia 5ft Danni: 2d8+5 contundenti</text>
             <attack>Incornata (mischia)|+7|2d8+5</attack>
         </action>
-        <description>Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel Magazzino 4 di Vetusta Portus. Non è un nemico — è un animale terrorizzato che vuole scappare. Attacca solo chi si trova sulla sua traiettoria verso la porta.
+        <description>Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel Magazzino 4 di Vetusta Portus. Non è un nemico - è un animale terrorizzato che vuole scappare. Attacca solo chi si trova sulla sua traiettoria verso la porta.
 Role: animale esotico intrappolato nel magazzino</description>
     </monster>
     <monster>
-        <name>Bandit</name>
+        <name>Bandit - bandito</name>
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>chaotic neutral</alignment>
@@ -147,11 +147,11 @@ Role: animale esotico intrappolato nel magazzino</description>
             <text>Attacco: +3, distanza 80/320 ft. Danni: 1d8+1 perforanti</text>
             <attack>Balestra leggera (distanza)|+3|1d8+1</attack>
         </action>
-        <description>Uomini del porto di Vetusta Portus. Scaricatori, ex-marinai, piccoli criminali. Lavorano per Er Braccio per soldi facili. Non sono fanatici — se la situazione si mette male, scappano.
+        <description>Uomini del porto di Vetusta Portus. Scaricatori, ex-marinai, piccoli criminali. Lavorano per Er Braccio per soldi facili. Non sono fanatici - se la situazione si mette male, scappano.
 Role: scagnozzo di Er Braccio</description>
     </monster>
     <monster>
-        <name>Contessina</name>
+        <name>Contessina - secondario</name>
         <size>M</size>
         <type>humanoid (umana)</type>
         <alignment>lawful neutral</alignment>
@@ -167,25 +167,21 @@ Role: scagnozzo di Er Braccio</description>
         <senses>Percezione passiva 12</senses>
         <languages>Common</languages>
         <cr>1/8</cr>
-        <trait>
-            <name>Parry</name>
-            <text>La Contessina aggiunge 2 alla sua CA contro un attacco in mischia che la colpirebbe. Per farlo, deve vedere l'attaccante e impugnare un'arma da mischia.</text>
-        </trait>
         <action>
             <name>Rapier (mischia)</name>
             <text>Attacco: +3, mischia 5ft Danni: 1d8+1 perforanti</text>
             <attack>Rapier (mischia)|+3|1d8+1</attack>
         </action>
-        <description>Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma senza gusto — troppi gioielli, troppi colori. Parla con accento marcato e gesticola molto. Tiene su il castello di Aviano mentre il Conte è &quot;in viaggio&quot; (cioè sempre). Sa del ricatto ma la sua preoccupazione principale è la propria reputazione, non il marito.
-Role: nobildonna, moglie del Conte di Fianus</description>
+        <description>Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma senza gusto - troppi gioielli, troppi colori. Accento marcato, gesticola molto. Si vergogna delle origini (padre camallo a Vetusta Portus).
+Role: nobildonna, moglie del Conte</description>
     </monster>
     <monster>
-        <name>Domina Lella</name>
+        <name>DominaLella - secondario</name>
         <size>M</size>
-        <type>humanoid (humanoid)</type>
-        <alignment>neutral</alignment>
+        <type>humanoid (umana)</type>
+        <alignment>lawful neutral</alignment>
         <ac>10</ac>
-        <hp>1</hp>
+        <hp>4 (1d8)</hp>
         <speed>30 ft.</speed>
         <str>14</str>
         <dex>10</dex>
@@ -193,14 +189,19 @@ Role: nobildonna, moglie del Conte di Fianus</description>
         <int>11</int>
         <wis>14</wis>
         <cha>13</cha>
-        <cr>1</cr>
-        <description>- Pratica, diretta, zero diplomazia
-- Porzioni enormi, conto preciso
-- Sa tutto di tutti a Fianus Romanus, ma le informazioni si pagano
-- Il mattarello non è solo per la cucina</description>
+        <senses>Percezione passiva 12</senses>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <action>
+            <name>Mattarello (mischia)</name>
+            <text>Attacco: +4, mischia 5ft Danni: 1d4+2 contundenti</text>
+            <attack>Mattarello (mischia)|+4|1d4+2</attack>
+        </action>
+        <description>Donna massiccia, mattarello sempre a portata di mano. Pratica, diretta, zero diplomazia. Sa tutto di tutti a Fianus. Pigione: 1 ma/giorno a persona (dice cifre a sentimento, il conto non torna mai).
+Role: taverniera, creditrice dei PG</description>
     </monster>
     <monster>
-        <name>ErBraccio</name>
+        <name>ErBraccio - capo banda</name>
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>chaotic neutral</alignment>
@@ -216,10 +217,6 @@ Role: nobildonna, moglie del Conte di Fianus</description>
         <senses>Percezione passiva 10</senses>
         <languages>Common</languages>
         <cr>2</cr>
-        <trait>
-            <name>Multiattacco</name>
-            <text>Er Braccio effettua tre attacchi in mischia: due con la scimitarra e uno con il pugnale.</text>
-        </trait>
         <action>
             <name>Scimitarra (mischia)</name>
             <text>Attacco: +4, mischia 1,5m / 5ft / 1qd Danni: 1d6+2 taglienti</text>
@@ -227,16 +224,14 @@ Role: nobildonna, moglie del Conte di Fianus</description>
         </action>
         <action>
             <name>Pugnale (mischia/distanza)</name>
-            <text>Attacco: +4, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd — 18m / 60ft / 12qd Danni: 1d4+2 perforanti</text>
+            <text>Attacco: +4, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd - 18m / 60ft / 12qd Danni: 1d4+2 perforanti</text>
             <attack>Pugnale (mischia/distanza)|+4|1d4+2</attack>
         </action>
-        <description>Massiccio, braccia sempre scoperte, tatuaggio di un'ancora sul bicipite destro. Ha sempre un coltello in mano — lo usa per gesticolare, pulirsi le unghie, tagliare il formaggio. Non è un'arma, è un'estensione del braccio.
-Diretto, sboccato, pragmatico. Non è malvagio — è un uomo d'affari del porto che opera fuori dalla legge. Contrabbando, ricettazione, qualche estorsione leggera. Niente omicidi, niente schiavismo. Ha un codice, anche se non lo chiamerebbe così.
-Arimano gli ha commissionato il trasporto di merci via mare. Er Braccio ha consegnato, Arimano non ha pagato abbastanza. Er Braccio ha trattenuto la merce. Semplice. Non c'è rancore — solo contabilità.
-Role: capo banda a Vetusta Portus, fornitore di Sergius/Marchese Arimano</description>
+        <description>Massiccio, braccia sempre scoperte, tatuaggio di un'ancora sul bicipite destro. Ha sempre un coltello in mano - lo usa per gesticolare, pulirsi le unghie, tagliare il formaggio. Diretto, sboccato, pragmatico.
+Role: capo banda a Vetusta Portus</description>
     </monster>
     <monster>
-        <name>Flavia</name>
+        <name>Flavia - secondario</name>
         <size>M</size>
         <type>humanoid (umana)</type>
         <alignment>neutral</alignment>
@@ -257,11 +252,11 @@ Role: capo banda a Vetusta Portus, fornitore di Sergius/Marchese Arimano</descri
             <text>Attacco: +2, mischia 5ft Danni: 1d4 perforanti</text>
             <attack>Coltellino (mischia)|+2|1d4</attack>
         </action>
-        <description>Donna magra, occhi rapidi, capelli neri raccolti sotto un fazzoletto colorato. Si muove tra i mercati di Fianus e Vetusta Portus vendendo erbe, unguenti e rimedi popolari. La chiamano &quot;La Biscia&quot; per come sguscia via quando le cose si mettono male. Prima della Gabella vendeva anche le pozioni rinvigorenti &quot;La Rocca Imponente&quot; — le comprava da un intermediario anonimo al porto.
-Role: ex-venditrice di pozioni rinvigorenti</description>
+        <description>Donna magra, occhi rapidi, capelli neri sotto un fazzoletto colorato. Si muove tra i mercati vendendo erbe e rimedi. &quot;La Biscia&quot; per come sguscia via quando le cose si mettono male. Moralista: vendeva pozioni ma non nudi.
+Role: ex-venditrice di pozioni rinvigorenti, fonte di informazioni</description>
     </monster>
     <monster>
-        <name>IlConte</name>
+        <name>IlConte - secondario</name>
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>neutral</alignment>
@@ -282,15 +277,11 @@ Role: ex-venditrice di pozioni rinvigorenti</description>
             <text>Attacco: +3, mischia, portata 1,5m / 5ft / 1qd Danni: 1d8+1 perforanti</text>
             <attack>Stocco (mischia)|+3|1d8+1</attack>
         </action>
-        <description>Il cui nome nessuno conosce, il cui volto nessuno ha visto. Il Conte è il mandante di tutto — ha inviato Gorim, vuole l'Anello, governa il territorio — ma nessuno riesce a nominarlo, descriverlo o incontrarlo. È una presenza costante e totalmente assente.
-La sua personalità è un mosaico di racconti contraddittori: per alcuni è generoso, per altri è avaro, per altri ancora è folle. Gli ordini che manda sono incoerenti — a volte ragionevoli, a volte assurdi.
-**Running gag — il nome:** ogni volta che un NPC sta per dirlo, viene interrotto (rumore, starnuto, crollo, amnesia improvvisa). Le lettere ufficiali hanno il sigillo ma la firma è illeggibile.
-**Running gag — il volto:** nessun NPC lo ha mai visto di persona. I ritratti ufficiali sono sempre coperti, danneggiati, o girati al contrario.
-Il Conte NON è Dorian Valemarch. È un nobile locale, vassallo del Re, che governa Fianus Romanus.
-Role: MacGuffin vivente, mandante</description>
+        <description>Il cui nome nessuno conosce, il cui volto nessuno ha visto. Governa Fianus tramite lettere e messaggeri. Ordini spesso contraddittori. Sempre in viaggio.
+Role: MacGuffin vivente, mandante assente</description>
     </monster>
     <monster>
-        <name>SergiusArimano</name>
+        <name>SergiusArimano - antagonista</name>
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>neutral evil</alignment>
@@ -306,54 +297,22 @@ Role: MacGuffin vivente, mandante</description>
         <senses>Percezione passiva 14</senses>
         <languages>Common, Elvish, Linguaggio dei Ladri</languages>
         <cr>1</cr>
-        <trait>
-            <name>Expertise</name>
-            <text>Furtività, Investigazione, Inganno (bonus doppio già incluso)</text>
-        </trait>
-        <trait>
-            <name>Sneak Attack (2d6)</name>
-            <text>una volta per turno, danni extra se ha vantaggio o un alleato è adiacente al bersaglio</text>
-        </trait>
-        <trait>
-            <name>Cunning Action</name>
-            <text>azione bonus: Dash, Disengage o Hide</text>
-        </trait>
-        <trait>
-            <name>Assassinate</name>
-            <text>vantaggio sui tiri per colpire contro creature che non hanno ancora agito. Colpo critico automatico contro creature sorprese.</text>
-        </trait>
-        <trait>
-            <name>Anello dell'Ombra (oggetto magico)</name>
-            <text>può lanciare *Invisibilità* (su sé stesso) 1/giorno. Non richiede concentrazione ma termina se attacca o lancia un incantesimo.</text>
-        </trait>
-        <trait>
-            <name>Maestro del Camuffamento</name>
-            <text>con 10 minuti e il kit da travestimento, può assumere un aspetto completamente diverso (altezza, corporatura, sesso). CD 25 per smascherarlo (Investigazione o Intuizione). Può passare dal suo vero aspetto (gobbo, malaticcio) a quello del Marchese aitante, o a Terzilio, o a chiunque altro.</text>
-        </trait>
-        <trait>
-            <name>Rete di Informatori (non meccanica, narrativa)</name>
-            <text>Sergius sa sempre dove sono i PG e cosa stanno facendo. Ha occhi e orecchie in tutto il borgo — gente comune che gli riferisce in cambio di favori. Il DM può assumere che Sergius conosca qualsiasi informazione pubblica entro 1d4 ore.</text>
-        </trait>
         <action>
             <name>Pugnale (mischia/distanza)</name>
-            <text>Attacco: +5, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd — 18m / 60ft / 12qd Danni: 1d4+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
+            <text>Attacco: +5, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd - 18m / 60ft / 12qd Danni: 1d4+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
             <attack>Pugnale (mischia/distanza)|+5|1d4+3</attack>
         </action>
         <action>
             <name>Balestra a mano (distanza)</name>
-            <text>Attacco: +5, distanza 9m / 30ft / 6qd — 36m / 120ft / 24qd Danni: 1d6+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
+            <text>Attacco: +5, distanza 9m / 30ft / 6qd - 36m / 120ft / 24qd Danni: 1d6+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
             <attack>Balestra a mano (distanza)|+5|1d6+3</attack>
         </action>
-        <description>Il Sergio di Boris: maneggione, subdolo, muove i fili dietro le quinte. Ex proprietario de &quot;L'Immane Alabarda&quot;, vendeva pozioni di vigore (acqua colorata e speziata) e ritratti erotici personalizzati ai nobili di Fianus. I ritratti erano &quot;deepfake medievali&quot;: testa del nobile (da descrizione) su corpo scultoreo di un modello — i nobili li commissionavano volontariamente per vanità. Le pozioni non funzionavano ma i clienti ci credevano.
-Il Conte era un ottimo cliente — si è fatto fare un ritratto &quot;artistico&quot; che non ha mai pagato. La moglie del Conte (beghina) ha scoperto tutto e ha fatto imporre la &quot;Gabella Pudicitiae&quot; su tutte le merci birichine. Il Marchese Arimano da commerciante legittimo è diventato contrabbandiere, e ora si vendica.
-Dopo la Gabella il business è in declino. I pochi clienti rimasti sono spaventati. Arimano investe in animali esotici (rinoceronte, ecc.) come marketing per giustificare prezzi alti (&quot;ci metto il corno di rinoceronte!&quot;) — mossa disperata che lo sta mandando in rovina. Le spezie servono per le pozioni (colore, odore), gli animali servono per convincere i compratori.
-Ha trovato fortuitamente l'Anello del Conte nelle fogne e lo usa come strumento di una vendetta elaborata — una caccia al tesoro pubblica che umilia il Conte. Ha ancora il ritratto non pagato e lo usa come leva.
-Intelligentissimo, sempre tre passi avanti a tutti. Parla poco, sorride molto — il sorriso di chi sa qualcosa che tu non sai. Non si sporca le mani se può evitarlo. Vanitoso nella sua astuzia: lascia indizi perché vuole che sappiano che è stato lui. La doppia S è la sua firma — ego travestito da anonimato.
-**Maestro del camuffamento:** si traveste regolarmente da Terzilio il verduraio (e da altri). Ha una rete di informatori nel borgo (tipo Varys/GOT). Possiede un oggetto magico di invisibilità. A volte i PG parlano con lui senza saperlo.
+        <description>Cinquantenne malaticcio, un po' gobbo (vero aspetto). In pubblico appare come un uomo di mezza eta, portamento eretto, vestiti eleganti ma non nuovi (travestimento da Marchese). Sorriso di chi sa qualcosa che tu non sai.
+**Tic verbale:** usa sempre &quot;Ma parliamo di...&quot; per cambiare argomento.
 Role: antagonista nascosto</description>
     </monster>
     <monster>
-        <name>SirGorimVel</name>
+        <name>SirGorimVel - alleato</name>
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>lawful neutral</alignment>
@@ -369,22 +328,6 @@ Role: antagonista nascosto</description>
         <senses>Percezione passiva 11</senses>
         <languages>Common, Nanico</languages>
         <cr>1</cr>
-        <trait>
-            <name>Stile di Combattimento: Difesa</name>
-            <text>+1 CA quando indossa armatura (già incluso)</text>
-        </trait>
-        <trait>
-            <name>Second Wind (1/riposo breve)</name>
-            <text>azione bonus, recupera 1d10+3 PF</text>
-        </trait>
-        <trait>
-            <name>Action Surge (1/riposo breve)</name>
-            <text>un'azione aggiuntiva nel suo turno</text>
-        </trait>
-        <trait>
-            <name>Rallying Cry</name>
-            <text>quando usa Second Wind, fino a 3 alleati entro 18m / 60ft / 12qd recuperano 3 PF ciascuno. Meccanicamente: Gorim urla &quot;FORZA, MUOVETEVI!&quot; e tutti si sentono leggermente meglio, più per paura che per ispirazione.</text>
-        </trait>
         <action>
             <name>Spada lunga (mischia)</name>
             <text>Attacco: +4, mischia, portata 1,5m / 5ft / 1qd Danni: 1d8+2 taglienti (1d10+2 a due mani senza scudo)</text>
@@ -392,21 +335,15 @@ Role: antagonista nascosto</description>
         </action>
         <action>
             <name>Pugnale (mischia/distanza)</name>
-            <text>Attacco: +4, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd — 18m / 60ft / 12qd Danni: 1d4+2 perforanti</text>
+            <text>Attacco: +4, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd - 18m / 60ft / 12qd Danni: 1d4+2 perforanti</text>
             <attack>Pugnale (mischia/distanza)|+4|1d4+2</attack>
         </action>
-        <description>Il René Ferretti di Fianus Romanus. Ex-capitano della guarnigione di Drakenhold, messo a fare il funzionario del Conte a Fianus Romanus come &quot;promozione&quot; — in realtà un esilio mascherato. Un militare costretto a fare il burocrate. Costantemente esasperato dall'incompetenza che lo circonda.
-Pragmatico fino al midollo, allergico all'eroismo inutile. Gesticola molto, si esaspera facilmente, parla da solo. Ha un debole per il cibo (la pancia lo conferma).
-**Tirchieria patologica:** Ogni volta che deve pagare i PG, la scena deve essere un calvario. Gorim non vuole farlo in nessun modo. Conta le monete una per una, sospira ad ogni moneta, cerca scuse per pagare meno (&quot;questo non era un'informazione, era un'opinione&quot;), chiede ricevute, tenta di pagare in natura (&quot;vi do un prosciutto, vale lo stesso&quot;), propone dilazioni, accusa i PG di non aver fatto abbastanza. Non importa la cifra — anche 5 monete d'argento gli causano dolore fisico.
-Frasi ricorrenti riadattate da Ferretti:
-- &quot;Dai dai dai, che ce la facciamo&quot; (non ci crede)
-- &quot;Splendido. Meraviglioso.&quot; (sarcastico)
-- &quot;Ma che state a fa'?&quot;
-- &quot;Io non ce la faccio più con voi&quot;
+        <description>Tarchiato, pancia prominente, gesticola con la pergamena in mano. Ex-capitano della guarnigione, ora funzionario del Conte. Costantemente esasperato. Tirchio patologico: ogni pagamento e un calvario.
+Frasi ricorrenti: &quot;Dai dai dai, che ce la facciamo&quot;, &quot;Splendido. Meraviglioso.&quot; (sarcastico), &quot;Ma che state a fa'?&quot;, &quot;Io non ce la faccio piu con voi&quot;.
 Role: alleato principale, committente</description>
     </monster>
     <monster>
-        <name>Thug</name>
+        <name>Thug - scagnozzo</name>
         <size>M</size>
         <type>humanoid (umano)</type>
         <alignment>neutral evil</alignment>
@@ -440,7 +377,7 @@ Role: alleato principale, committente</description>
             <text>Attacco: +2, distanza 100/400 ft. Danni: 1d10 perforanti</text>
             <attack>Balestra pesante (distanza)|+2|1d10</attack>
         </action>
-        <description>Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Grazie. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali — dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *&quot;Non ci pagano abbastanza per questo!&quot;*
+        <description>Teppisti di basso rango al servizio di Sergius. Travestiti da facchini o mercanti, si mescolano alla folla della Festa del Grazie. Intervengono solo se Sergius viene individuato, coprendo la sua fuga. Non sono leali - dopo 1 round o appena 2 sono feriti, il più ferito scappa. Gli altri combattono fino a resa. *&quot;Non ci pagano abbastanza per questo!&quot;*
 Role: scagnozzo di Sergius</description>
     </monster>
 </compendium>

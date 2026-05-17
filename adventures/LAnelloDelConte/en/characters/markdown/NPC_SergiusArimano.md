@@ -1,13 +1,13 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# NPC_SergiusArimano — antagonist
+# NPC_SergiusArimano - antagonist
 
 ## General Information
 
 - **Full name**: Sergius S. Arimano Improbus
-- **Public name**: Marchese Arimano — everyone calls him that
+- **Public name**: Marchese Arimano - everyone calls him that
 - **Clandestine mark**: double S (from Sergius + S., middle name never revealed)
-- **Company (before the ban)**: "L'Immane Alabarda" — logo: a halberd poking out of a bush
+- **Company (before the ban)**: "L'Immane Alabarda" - logo: a halberd poking out of a bush
 - **Role**: hidden antagonist
 - **Class**: Rogue 3 (Assassin)
 - **Level**: 3
@@ -16,11 +16,11 @@
 
 ## Description
 
-The Sergio of Boris: a schemer, underhanded, pulling strings behind the scenes. Former owner of "L'Immane Alabarda," he sold vigor potions and personalized erotic portraits to the nobles of Fianus. The Count was an excellent client — he had an "artistic" portrait commissioned that he never paid for. The Count's wife (a prude) discovered everything and had the "Gabella Pudicitiae" imposed on all risqué merchandise. Marchese Arimano went from legitimate merchant to smuggler, and now he's getting his revenge.
+The Sergio of Boris: a schemer, underhanded, pulling strings behind the scenes. Former owner of "L'Immane Alabarda," he sold vigor potions and personalized erotic portraits to the nobles of Fianus. The Count was an excellent client - he had an "artistic" portrait commissioned that he never paid for. The Count's wife (a prude) discovered everything and had the "Gabella Pudicitiae" imposed on all risqué merchandise. Marchese Arimano went from legitimate merchant to smuggler, and now he's getting his revenge.
 
-He fortuitously found the Count's Ring in the sewers and uses it as the instrument of an elaborate revenge — a public treasure hunt that humiliates the Count. He still has the unpaid portrait and uses it as leverage.
+He fortuitously found the Count's Ring in the sewers and uses it as the instrument of an elaborate revenge - a public treasure hunt that humiliates the Count. He still has the unpaid portrait and uses it as leverage.
 
-Extremely intelligent, always three steps ahead of everyone. Speaks little, smiles a lot — the smile of someone who knows something you don't. Doesn't get his hands dirty if he can avoid it. Vain about his cunning: he leaves clues because he wants people to know it was him. The double S is his signature — ego disguised as anonymity.
+Extremely intelligent, always three steps ahead of everyone. Speaks little, smiles a lot - the smile of someone who knows something you don't. Doesn't get his hands dirty if he can avoid it. Vain about his cunning: he leaves clues because he wants people to know it was him. The double S is his signature - ego disguised as anonymity.
 
 **Master of disguise:** regularly disguises himself as Terzilio the greengrocer (and others). Has a network of informants in the village (Varys/GOT type). Possesses a magical invisibility item. Sometimes the PCs talk to him without knowing it.
 
@@ -51,16 +51,16 @@ Extremely intelligent, always three steps ahead of everyone. Speaks little, smil
 ## Attacks
 
 ### Dagger (melee/ranged)
-- **Attack**: +5, melee 5ft / 1sq or ranged 20ft / 4sq — 60ft / 12sq
+- **Attack**: +5, melee 5ft / 1sq or ranged 20ft / 4sq - 60ft / 12sq
 - **Damage**: 1d4+3 piercing (+2d6 Sneak Attack if applicable)
 
 ### Hand Crossbow (ranged)
-- **Attack**: +5, ranged 30ft / 6sq — 120ft / 24sq
+- **Attack**: +5, ranged 30ft / 6sq - 120ft / 24sq
 - **Damage**: 1d6+3 piercing (+2d6 Sneak Attack if applicable)
 
 ## Motivations
 
-Revenge against the Count. A cheated former business partner, he uses the Ring as a tool to publicly humiliate him. He doesn't want the Ring for himself — he wants the Count to know who took it and why.
+Revenge against the Count. A cheated former business partner, he uses the Ring as a tool to publicly humiliate him. He doesn't want the Ring for himself - he wants the Count to know who took it and why.
 
 ## Role in the Adventure
 
@@ -72,7 +72,7 @@ Hidden antagonist throughout the adventure. The PCs don't know of his existence 
 - If forced to fight, he uses Assassinate on the first round and then flees with Cunning Action.
 - The Ring of Shadows is the reason nobody has ever seen him in the sewers.
 - He's not designed as a boss fight. He's an elusive antagonist the PCs chase throughout the adventure.
-- When the PCs find him in the final episode, he surrenders without fighting — he wants to be brought to the Count. It's part of his plan.
+- When the PCs find him in the final episode, he surrenders without fighting - he wants to be brought to the Count. It's part of his plan.
 
 ## To Be Defined
 

@@ -77,19 +77,26 @@ Per ogni file legacy, decidere dove va nella struttura normalizzata:
 | Documento principale avventura | `NomeAvventura.md` |
 | Scheda NPC | `characters/markdown/NPC_NomePersonaggio.md` |
 | Modulo/dungeon/episodio | `NN_NomeModulo/NomeModulo.md` |
-| Mappa grafica generale | `maps/NomeMappa.png` |
-| Descrizione mappa generale | `maps/NomeMappa.md` (stesso nome del PNG) |
-| Mappa grafica di un modulo | `NN_NomeModulo/maps/NomeMappa.png` |
-| Descrizione mappa di un modulo | `NN_NomeModulo/maps/NomeMappa.md` |
+| Mappa grafica (qualsiasi) | `maps/NomeMappa.png` |
+| Descrizione mappa (localizzata) | `<lang>/maps/NomeMappa.md` |
+| Gemidesc mappa | `maps/NomeMappa.gemidesc` |
 | SVG sorgente di una mappa | `maps/other/NomeMappa.svg` |
-| Mappa draft/schematica | `maps/other/NomeMappa_draft.png` o `NN_*/maps/other/` |
+| Mappa draft/schematica | `maps/other/NomeMappa_draft.png` |
 | Artwork personaggio | `characters/img/NomePersonaggio.png` |
-| Stat block NPC/mostro | `characters/statblock/NPC_*.png` o `MON_*.png` |
+| Stat block NPC/mostro | `<lang>/characters/statblock/NPC_*.png` o `MON_*.png` |
 | Stat block PG (*_GM) | `other/pg/*_GM.png` |
 | Copertina | `img/NomeAvventura_COVER.png` |
+| Immagini scene | `NN_NomeModulo/img/scenes/NomeScena.png` |
+| Oggetti con immagine | `objects/NomeOggetto.png` |
 | Note di lavoro, todo | `PlanBook.md` |
 | File di versione/release | ignorare (non migrato) |
 | Script legacy | ignorare (sostituito da `tech/scripts/release.sh`) |
+
+### Regole immagini
+
+**Tutte le immagini delle mappe vanno nella root `maps/`** dell'avventura, non nelle directory dei moduli. Le mappe non sono localizzate (sono le stesse per tutte le lingue).
+
+Le descrizioni `.md` delle mappe vanno nelle directory localizzate (`<lang>/maps/`). I file `.gemidesc` (prompt per generazione) vanno con le immagini in `maps/`.
 
 ### Regole mappe
 
@@ -97,7 +104,7 @@ Per ogni file legacy, decidere dove va nella struttura normalizzata:
 - Le mappe `.md` sono **schede DM**: contengono mappa testuale e informazioni segrete. Si usano quando la mappa grafica è assente o insufficiente.
 - Se esistono sia PNG che SVG, il **PNG è la versione canonica**. L'SVG va in `other/`.
 - Il nome generico `MappaDM.md` è **deprecato**: rinominare con nome specifico PascalCase.
-- Il file `MappaGenerale.md` è **deprecato**: splittare in un `.md` per ogni mappa.
+- Il file `MappaGenerale.md` e **deprecato**: splittare in un `.md` per ogni mappa.
 - Le versioni di lavoro/draft vanno in `other/` (con suffisso `_draft` se necessario).
 
 ### Regole stat block

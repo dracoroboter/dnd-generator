@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# MON_Baboon — baboon
+# MON_Baboon - baboon
 
 ## General Information
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-Screaming, aggressive monkeys trapped in the crates of Warehouse 4. When a crate breaks open, they escape in pairs — terrified and furious. They throw objects, snatch things from PCs' hands, and create general chaos.
+Screaming, aggressive monkeys trapped in the crates of Warehouse 4. When a crate breaks open, they escape in pairs - terrified and furious. They throw objects, snatch things from PCs' hands, and create general chaos.
 
 ## Stat Block
 
@@ -26,7 +26,7 @@ Screaming, aggressive monkeys trapped in the crates of Warehouse 4. When a crate
 - **Armor Class**: 12
 - **Speed**: 9m / 30ft / 6sq, climb 9m / 30ft
 - **Senses**: passive Perception 11
-- **Languages**: —
+- **Languages**: -
 - **Challenge**: 0 (10 XP)
 
 ## Notable Abilities
@@ -45,6 +45,6 @@ Escape from crates in Warehouse 4 (Episode 3) when the rhinoceros charges walls/
 
 ## DM Notes
 
-- Not a serious threat — they're annoying and create chaos.
+- Not a serious threat - they're annoying and create chaos.
 - They snatch objects from hands (contested Dexterity) if a PC is within reach.
 - They flee after 1-2 rounds, climbing crates or escaping through windows.

@@ -1,4 +1,4 @@
-# MON_Rhinoceros — rinoceronte
+# MON_Rhinoceros - rinoceronte
 
 ## Informazioni generali
 
@@ -10,7 +10,7 @@
 
 ## Descrizione
 
-Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel Magazzino 4 di Vetusta Portus. Non è un nemico — è un animale terrorizzato che vuole scappare. Attacca solo chi si trova sulla sua traiettoria verso la porta.
+Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel Magazzino 4 di Vetusta Portus. Non è un nemico - è un animale terrorizzato che vuole scappare. Attacca solo chi si trova sulla sua traiettoria verso la porta.
 
 ## Stat Block
 
@@ -24,7 +24,7 @@ Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel
 - **Classe armatura**: 11 (armatura naturale)
 - **Velocità**: 12m / 40ft / 8qd
 - **Sensi**: Percezione passiva 11
-- **Lingue**: —
+- **Lingue**: -
 - **Sfida**: 2 (450 PE)
 
 ## Capacità notevoli
@@ -39,7 +39,7 @@ Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel
 
 ## Ruolo nell'avventura
 
-Intrappolato in una cassa rinforzata (CA 15, PF 18, soglia danno 5) nel Magazzino 4. Dal round 2 del combattimento, attacca la cassa dall'interno (+7, 2d8+5) ogni round. Quando la cassa si rompe, il suo obiettivo è sfondare la porta del magazzino e scappare. Non insegue i PG — li attacca solo se si trovano sulla sua traiettoria.
+Intrappolato in una cassa rinforzata (CA 15, PF 18, soglia danno 5) nel Magazzino 4. Dal round 2 del combattimento, attacca la cassa dall'interno (+7, 2d8+5) ogni round. Quando la cassa si rompe, il suo obiettivo è sfondare la porta del magazzino e scappare. Non insegue i PG - li attacca solo se si trovano sulla sua traiettoria.
 
 ## Note al master
 

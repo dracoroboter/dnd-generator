@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
-        <name>ErBraccio</name>
+        <name>ErBraccio - Er Braccio</name>
         <size>M</size>
         <type>humanoid (human)</type>
         <alignment>chaotic neutral</alignment>
@@ -31,7 +31,7 @@
             <text>Attack: +5, melee 5ft or ranged 20/60 ft. Damage: 1d4+3 piercing</text>
             <attack>Dagger (melee/ranged)|+5|1d4+3</attack>
         </action>
-        <description>A massive man with bare arms and an anchor tattoo on his right bicep. Sits on a crate with a knife in one hand and an apple in the other. He runs the port's smuggling operations from Warehouse 4. He's not stupid — he's a businessman who happens to be a criminal. He has a grudge against the Count for ruining his trade with new taxes.
+        <description>A massive man with bare arms and an anchor tattoo on his right bicep. Sits on a crate with a knife in one hand and an apple in the other. He runs the port's smuggling operations from Warehouse 4. He's not stupid - he's a businessman who happens to be a criminal. He has a grudge against the Count for ruining his trade with new taxes.
 Role: bandit leader, port crime boss</description>
     </monster>
 </compendium>

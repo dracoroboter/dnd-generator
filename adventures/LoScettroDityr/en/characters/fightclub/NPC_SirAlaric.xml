@@ -14,6 +14,8 @@
         <int>18</int>
         <wis>14</wis>
         <cha>12</cha>
+        <resist>necrotic, psychic</resist>
+        <conditionImmune>frightened</conditionImmune>
         <cr>1</cr>
         <description>Sir Alaric presents himself as an austere and devout man, with short-cropped gray hair and clear eyes that convey authority. He wears the ceremonial robes of the Keepers of the Balance with a naturalness that inspires trust. His voice is calm, measured — every word seems weighed and just.
 Beneath the facade, Alaric is a man consumed by ambition. His eyes betray a greed that no prayer can hide, if you know where to look.

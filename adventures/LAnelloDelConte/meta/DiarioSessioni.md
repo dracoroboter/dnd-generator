@@ -1,4 +1,4 @@
-# Diario delle Sessioni — L'Anello del Conte
+# Diario delle Sessioni - L'Anello del Conte
 
 > **Nota:** Questo file è un documento di lavoro del DM. Naming convention e inclusione nel repository da decidere.
 
@@ -6,9 +6,9 @@ Registro di cosa è successo al tavolo. Le decisioni di design e il retrofitting
 
 ---
 
-## Sessione 1 — Venerdì 25 Aprile 2026
+## Sessione 1 - Venerdì 25 Aprile 2026
 
-**Puntata:** 1 — Le Fogne di Fianus
+**Puntata:** 1 - Le Fogne di Fianus
 **Giocatori:** 4 PG di livello 1
 **Livello finale:** 2 (milestone: ritrovamento lettera di Sergius)
 
@@ -24,11 +24,11 @@ La scena si apre alla Taberna, piazza del Mercato Centrale. Sora Lella reclama l
 
 Entra Sir Gorim Vel, ribattezzato immediatamente **"Giorgio"** dai giocatori.
 
-Gorim li scambia per eroi famosi. I PG hanno lasciato intendere a Sora Lella che i soldi arriveranno da Giorgio — lei ci ha creduto e ha smesso di insistere (per ora).
+Gorim li scambia per eroi famosi. I PG hanno lasciato intendere a Sora Lella che i soldi arriveranno da Giorgio - lei ci ha creduto e ha smesso di insistere (per ora).
 
 ### La trattativa
 
-Dopo contrattazione, Gorim ha promesso **30 monete d'oro** — ma solo per il recupero dell'Anello.
+Dopo contrattazione, Gorim ha promesso **30 monete d'oro** - ma solo per il recupero dell'Anello.
 
 ### Esplorazione del borgo
 
@@ -47,13 +47,13 @@ Gorim convinto ad accompagnare (Persuasion CD 17).
 
 **Ratti sindacalizzati (Stanza 1):** Momento migliore della sessione. I 5 ratti con accessori (cappellino, sciarpa, guanto, calzino, fazzoletto al collo) hanno fatto colpo. Il capo col cappellino è "Biascica". Un PG ci ha parlato (Speak with Animals).
 
-**Grunzio (Stanza 3):** Fatto fuori in un turno scarso — ultimo nell'iniziativa. Troppo poco pericoloso, non troppo.
+**Grunzio (Stanza 3):** Fatto fuori in un turno scarso - ultimo nell'iniziativa. Troppo poco pericoloso, non troppo.
 
 **Stanza del Tesoro (Stanza 5):** Forziere aperto, 15 ma con biglietto "Per voi straccioni". I giocatori si sono fatti domande serie: magazzino nelle fogne? Casse vuote? Chi è "S"? Doppia S? Porta burocratica?
 
 ### Chiusura
 
-Lettera di Sergius trovata, livello 2 raggiunto. La scena alla Taberna (consegna lettera, pagamento acconto) **non è stata giocata** — apre la prossima sessione.
+Lettera di Sergius trovata, livello 2 raggiunto. La scena alla Taberna (consegna lettera, pagamento acconto) **non è stata giocata** - apre la prossima sessione.
 
 ### Cosa aprire la prossima sessione
 
@@ -63,15 +63,15 @@ Lettera di Sergius trovata, livello 2 raggiunto. La scena alla Taberna (consegna
 
 ---
 
-## Sessione 2 — Lunedì 28 Aprile 2026
+## Sessione 2 - Lunedì 28 Aprile 2026
 
-**Puntata:** 2 — La Festa del Grazie
+**Puntata:** 2 - La Festa del Grazie
 **Giocatori:** 4 PG di livello 2
 **Livello finale:** 2 (nessun avanzamento previsto)
 
 ### La settimana prima
 
-Montaggio veloce dei lavoretti. I PG hanno lavorato per pagare la pigione a Sora Lella. Economia stretta — la povertà resta il motore narrativo.
+Montaggio veloce dei lavoretti. I PG hanno lavorato per pagare la pigione a Sora Lella. Economia stretta - la povertà resta il motore narrativo.
 
 ### La Festa del Grazie
 
@@ -79,15 +79,15 @@ Attrazioni: tiro con l'arco, braccio di ferro, lotteria del Conte. La Contessina
 
 I ratti sindacalizzati erano in piazza con una petizione (non si sa per cosa). Il druido ci ha parlato. Chiedono firme. Stessi personaggi della sessione 1 (cappellino, sciarpa, etc.).
 
-Flavia "La Biscia" è stata incontrata — vende pozioni rinvigorenti di nascosto. Ha spiegato ai PG di cosa si tratta.
+Flavia "La Biscia" è stata incontrata - vende pozioni rinvigorenti di nascosto. Ha spiegato ai PG di cosa si tratta.
 
-Mastro Cecio è comparso — di nessun aiuto. I PG hanno tentato di coinvolgerlo.
+Mastro Cecio è comparso - di nessun aiuto. I PG hanno tentato di coinvolgerlo.
 
 Donna Ortensia è comparsa brevemente in soccorso del marito Grigius Voidus (imbavagliato da Sergius).
 
 ### Il discorso
 
-Sergius travestito da Grigius Voidus ha tenuto il discorso sul palco. Ha accennato alle pozioni di vigore, ai ritratti compromettenti, e ha lanciato la caccia al tesoro. Poi è scappato dalla strada a sinistra del palco — ancora parzialmente vestito da Grigius, figura gobba mascherata, non riconoscibile.
+Sergius travestito da Grigius Voidus ha tenuto il discorso sul palco. Ha accennato alle pozioni di vigore, ai ritratti compromettenti, e ha lanciato la caccia al tesoro. Poi è scappato dalla strada a sinistra del palco - ancora parzialmente vestito da Grigius, figura gobba mascherata, non riconoscibile.
 
 ### La caccia al tesoro
 
@@ -97,7 +97,7 @@ I PG hanno completato tutte e tre le tappe. Hanno ottenuto:
 - 3 mo
 - Biglietti con la doppia S
 
-### Combattimento — i Thug
+### Combattimento - i Thug
 
 3 Thug hanno coperto la fuga di Sergius. Imprigionati o morti.
 
@@ -109,10 +109,10 @@ Gorim furioso per il discorso pubblico. Ha detto ai PG di cercare S. Ha promesso
 
 ### Cosa aprire la prossima sessione
 
-- I PG hanno il frammento del ritratto e la bottiglietta — devono capire cosa farne
+- I PG hanno il frammento del ritratto e la bottiglietta - devono capire cosa farne
 - Gorim vuole il ritratto completo e l'identità di S
 - Piste possibili: logo alabarda/cespuglio sulla bottiglietta, Flavia conosce le pozioni ma non il produttore, Donna Ortensia era cliente
-- Terzilio non è stato incontrato — il seme del doppio Terzilio non è ancora piantato
+- Terzilio non è stato incontrato - il seme del doppio Terzilio non è ancora piantato
 
 ---
 
@@ -130,18 +130,18 @@ Gorim furioso per il discorso pubblico. Ha detto ai PG di cercare S. Ha promesso
 | Donna Ortensia + Grigius Voidus | Aviano, vicino al castello |
 | La Contessina | Castello del Conte, Aviano |
 | Ermolao "Il Profondo" | Fogne di Fianus |
-| Marchese Arimano (Sergius) | Vetusta Portus — casa signorile in collina |
-| Er Braccio | Vetusta Portus — porto |
+| Marchese Arimano (Sergius) | Vetusta Portus - casa signorile in collina |
+| Er Braccio | Vetusta Portus - porto |
 
 ---
 
-*Prossima sessione: da programmare — Puntata 3 (Una Pizza in Compagnia)*
+*Prossima sessione: da programmare - Puntata 3 (Una Pizza in Compagnia)*
 
 ---
 
-## Sessione 3 — Venerdì 9 Maggio 2026
+## Sessione 3 - Venerdì 9 Maggio 2026
 
-**Puntata:** 3 — Una Pizza in Compagnia
+**Puntata:** 3 - Una Pizza in Compagnia
 **Giocatori:** 4 PG di livello 2
 **Livello finale:** 2 (in corso, combattimento non concluso)
 
@@ -177,9 +177,9 @@ Sessione interrotta a metà combattimento. Riprende la prossima volta.
 
 ---
 
-## Sessione 4 — Venerdì 16 Maggio 2026
+## Sessione 4 - Venerdì 16 Maggio 2026
 
-**Puntata:** 3 — Una Pizza in Compagnia (continuazione)
+**Puntata:** 3 - Una Pizza in Compagnia (continuazione)
 **Giocatori:** 4 PG di livello 2
 **Livello finale:** 3 (milestone: accordo col Marchese)
 
@@ -187,17 +187,19 @@ Sessione interrotta a metà combattimento. Riprende la prossima volta.
 
 Continuazione del combattimento al magazzino. Il rinoceronte è fuggito dalla gabbia e ha seminato il caos per le strade.
 
+I PG hanno esplorato Vetusta Portus. Sono andati al faro e hanno sfondato la porta. Dentro hanno trovato un guardiano che parla uno strano dialetto del sud (misto di napoletano, siciliano e barese). Si è arrabbiato perché non capisce cosa vogliano e pretende che gli ripaghino la porta. Non sa niente di utile - si vanta di sapere tutto ma è una pista morta.
+
 I PG sono stati invitati a casa del Marchese Arimano a Vetusta Portus. Arimano si è presentato nella sua versione "aitante" (travestimento). Ha rivelato di sapere che lavorano per Gorim/il Conte e di considerarli alleati nella lotta contro la legge liberticida della Contessina. Ha spiegato che la marca dei prodotti piccanti è sempre stata con il simbolo della S.
 
 Ha menzionato una moglie, attualmente in villeggiatura nelle campagne di Fianus a nord.
 
-La cena: pizza (piatto della zona), il Porco Fritto Imburrato (dolce tipico di Vetusta Portus — i vetustiani ne lodano la leggerezza), il Vino del Castello di Portus.
+La cena: pizza (piatto della zona), il Porco Fritto Imburrato (dolce tipico di Vetusta Portus - i vetustiani ne lodano la leggerezza), il Vino del Castello di Portus.
 
 La casa mostra segni di decadenza economica: carta da parati scrostata, cameriera a ore che non sa qual è il servizio buono, lampadario con poche candele, fontana secca. A un occhio più attento: sedie scricchiolanti, mobili impolverati, soprammobili mancanti (si vede l'orma della polvere), servizio di piatti spaiati.
 
 ### Chiusura
 
-I PG e Arimano si sono promessi vicendevolmente di darsi una mano. I PG hanno accettato di lavorare per il Marchese a un suo progetto — i dettagli restano misteriosi.
+I PG e Arimano si sono promessi vicendevolmente di darsi una mano. I PG hanno accettato di lavorare per il Marchese a un suo progetto - i dettagli restano misteriosi.
 
 I PG salgono a **livello 3** (milestone).
 
@@ -205,11 +207,14 @@ I PG salgono a **livello 3** (milestone).
 
 Multa delle guardie per disturbo della quiete pubblica (fuga del rinoceronte): **1 mo**. Non ancora pagata.
 
-### Retrofitting — modifiche da applicare al modulo 3
+### Retrofitting - modifiche da applicare al modulo 3
 
-- [ ] Mappa casa Arimano: aggiungere scala al secondo piano
-- [ ] Trasformare la tabella della casa in descrizione discorsiva (dettagli senza tiro + dettagli con Percezione CD 12-14)
-- [ ] Aggiungere gastronomia locale: Porco Fritto Imburrato (dolce), Vino del Castello di Portus
-- [ ] Aggiungere la moglie di Arimano in villeggiatura (apertura di sceneggiatura — decidere se è vero e cosa nasconde)
-- [ ] Aggiungere immagine di Arimano "aitante" (già creata)
-- [ ] Verificare che la S sui prodotti piccanti non contraddica nulla nell'avventura scritta
+- [x] Mappa casa Arimano: aggiungere scala al secondo piano (aggiornato gemidesc, scala a destra nella cucina)
+- [x] Trasformare la tabella della casa in descrizione discorsiva (dettagli senza tiro + dettagli con Percezione CD 12-14) - gia fatto
+- [x] Aggiungere gastronomia locale: Porco Fritto Imburrato (dolce), Vino del Castello di Portus - gia nel modulo
+- [x] Aggiungere la moglie di Arimano in villeggiatura (apertura di sceneggiatura) - gia nel modulo
+- [x] Aggiungere immagine di Arimano "aitante" (copiata in characters/img/)
+- [x] Verificare che la S sui prodotti piccanti non contraddica nulla nell'avventura scritta - coerente
+- [x] Luoghi non definiti nella mappa di Vetusta Portus: aggiunti NPC e dettagli.
+- [x] Il Faro: aggiunto guardiano Salvuccio "Er Lampione" nella mappa di Vetusta Portus.
+- [x] NPC minori di Vetusta Portus (marinai bergamaschi, oste, pescivendolo, guardiano del faro): nominati, possono servire come semi di narrazione per puntate future.
