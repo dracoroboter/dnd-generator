@@ -229,6 +229,29 @@ Regola: no trattino lungo, no emoji (tranne ✅ e ⚠). Da applicare progressiva
 
 ---
 
+## TODO - Contraddizioni e buchi da risolvere
+
+### Critici
+
+- [ ] **P1 - Terzilio = Sergius**: il modulo 01 non dice al DM che quel Terzilio e Sergius travestito. Aggiungere nota DM.
+- [ ] **Come Sergius sa dell'Anello perduto**: non e mai spiegato. Esplicitare (rete informatori? ha origliato al castello?).
+- [ ] **P2 - Brandello ritratto**: il modulo 02 dice "ritratto del Conte" senza specificare che e un deepfake. Aggiornare con la decisione presa (brandello = deepfake).
+- [ ] **Chi ricatta chi**: la Contessina "sa del ricatto" ma non sa del ritratto vero. Chiarire cosa intende Gorim quando dice "il Conte e finito" (si riferisce ai deepfake, non al vero ritratto).
+- [ ] **Timeline lettera nelle fogne**: Sergius ha piazzato la lettera lo stesso giorno del reclutamento? Decidere: la lettera era li da prima (Sergius sapeva gia) o l'ha messa quel giorno.
+- [ ] **Calligrafia indizio "decisivo" inaccessibile**: i PG non hanno la lettera della P1 (l'ha Gorim). Aggiungere un'occasione per rivederla.
+- [ ] **P2 - Transizione Sergius-Terzilio alla Festa**: il modulo non gestisce il passaggio tra Sergius travestito da Terzilio e il vero Terzilio. Aggiungere nota DM con timeline.
+- [ ] **P4 - Sberluccica e la posa del Conte**: il modulo 04 non menziona che qualcuno e venuto a posare nudo con maschera. Aggiungere nelle risposte di Sberluccica.
+
+### Minori
+
+- [ ] **Compenso Gorim**: modulo 01 dice max 10 mo, i giocatori hanno ottenuto 30 mo. Aggiornare il modulo.
+- [ ] **Nome Contessina**: il documento principale non riporta "Concetta Priapi" ne "Serbelloni". Aggiornare con decisione D21.
+- [ ] **Vetusta Portus**: "frazione" vs "citta" - decidere e uniformare.
+- [ ] **Er Braccio falsa pista debole nella P3**: nella P3 non c'e nulla che colleghi Er Braccio alla doppia S. Valutare se aggiungere un indizio.
+- [ ] **Progetto misterioso**: le parole esatte di Arimano non sono registrate. Annotare prima di scrivere la P5.
+
+---
+
 ## Agganci futuri (semi da piantare)
 
 Elementi da seminare nelle puntate comiche per preparare Il Re Spezzato:

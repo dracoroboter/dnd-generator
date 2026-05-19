@@ -14,11 +14,18 @@ Usa questa skill quando l'utente dice "pubblica X", "pubblica l'ultima versione 
 | Tipo | Formato | Note |
 |------|---------|------|
 | PDF avventura | `.pdf` (lowres, solo cover come immagine) | Generato con `--only cover,frontmatter,doc,statblocks --lowres` |
-| Mappe | `.zip` (tutte le mappe PNG/JPG) | ZIP unico per avventura |
+| Mappe | `.zip` (versioni lowres JPG) | ZIP unico per avventura, suffisso `_lowres` |
 | Stat block | `.zip` (tutti i PNG stat block) | ZIP unico per avventura |
 | Compendium | `.xml` (non zippato) | FightClub XML |
 
 Il PDF completo con tutte le mappe incluse e una possibilita (flag `--full`), non il default.
+
+## Regole immagini lowres
+
+- Le immagini `-lowres.jpg/png` sono generate da `optimize-images.py` e **non vanno committate** (sono in `.gitignore`)
+- Le lowres delle mappe vanno in `maps/lowres/` (directory separata dagli originali PNG)
+- Lo ZIP mappe in `public/` contiene **solo le versioni lowres** (suffisso `_Maps_lowres.zip`)
+- Per pubblicare le mappe full-size (PNG originali), usare il flag `--full-maps` → `_Maps.zip` (senza suffisso lowres)
 
 ## Come usarla
 
@@ -38,8 +45,12 @@ Dopo aver generato per tutte le lingue:
 4. Copia i PDF in `public/`:
    - `<NomeAvventura>_YYYYMMDD_lowres_it.pdf` (IT)
    - `<NomeAvventura>_YYYYMMDD_lowres_en.pdf` (EN)
-5. Crea ZIP mappe:
-   - `cd adventures/<NomeAvventura>/maps && zip -j /path/public/<NomeAvventura>_Maps.zip *.png *.jpg 2>/dev/null`
+5. Genera lowres mappe (se non esistono già):
+   - `python3 tech/create-pdf-adventure/optimize-images.py <NomeAvventura>`
+   - Sposta le lowres delle mappe in `maps/lowres/`: `mkdir -p adventures/<NomeAvventura>/maps/lowres && mv adventures/<NomeAvventura>/maps/*-lowres.jpg adventures/<NomeAvventura>/maps/lowres/`
+6. Crea ZIP mappe (lowres):
+   - `zip -j public/<NomeAvventura>_Maps_lowres.zip adventures/<NomeAvventura>/maps/lowres/*-lowres.jpg`
+   - Per full-size (su richiesta `--full-maps`): `zip -j public/<NomeAvventura>_Maps.zip adventures/<NomeAvventura>/maps/*.png`
 6. Crea ZIP stat block:
    - `cd adventures/<NomeAvventura>/<lang>/characters/statblock && zip -j /path/public/<NomeAvventura>_Statblocks_it.zip *.png`
    - `cd adventures/<NomeAvventura>/<lang>/characters/statblock && zip -j /path/public/<NomeAvventura>_Statblocks_en.zip *.png` (per EN)

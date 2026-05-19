@@ -26,6 +26,10 @@ tech/data/compendium/Sources/*
 !tech/data/compendium/Sources/Homebrew.xml
 !tech/data/compendium/Sources/README.md
 
+# Immagini lowres singole (generate da optimize-images.py, usate solo per PDF/ZIP)
+*-lowres.jpg
+*-lowres.png
+
 # Node
 node_modules/
 package-lock.json
