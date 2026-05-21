@@ -47,20 +47,36 @@ Come lo presenta ai PG:
 
 ## Plot: il quadro vero e la moglie di Arimano
 
-**Nota: questo plot non e ancora nell'avventura. E una possibilita da valutare.**
+Il quadro vero (posato dal Conte di persona) ritrae il Conte nudo con la moglie di Arimano (rinomata per la bellezza). Commissionato al pittore **Candido Michelangeli**. Il Conte non ha mai pagato.
 
-Il quadro vero (posato dal Conte di persona) ritrae il Conte con una donna che somiglia alla moglie di Arimano. Il Conte ha commissionato il quadro direttamente a un pittore, bypassando la rete di Arimano. Arimano ha scoperto il quadro DOPO: il pittore gliel'ha consegnato per errore o gliel'ha venduto. A quel punto ha riconosciuto sua moglie (o quella che sembra sua moglie) e il mondo gli e crollato addosso.
+### Catena degli eventi
 
-La moglie dice che non e lei (forse e vero, forse no - ambiguita). Arimano non sa se crederle. L'ha allontanata per questo.
+1. (~2+ anni fa) Commercio di Arimano fiorisce. Michelangeli è nella rete come Sberluccica.
+2. (~2 anni fa) Il Conte commissiona quadro vero tramite la rete di S. Pittore: Michelangeli. Posa mascherato, con la moglie di Arimano. Non paga.
+3. (Poco dopo) Arimano, travestito da amico di Michelangeli, si fa consegnare il quadro non pagato. Vede la moglie. Litigata. Moglie ad Amatri dalla madre.
+4. (~1.5 anni fa) La Contessina scopre i deepfake del marito. Indaga, risale a Michelangeli. Lo fa arrestare illegalmente, per rabbia. Arresto segreto (se si sapesse = sommosse). NON sa del quadro vero.
+5. (Subito dopo) La Contessina impone la Gabella Pudicitiae come vendetta pubblica. Sberluccica, Scrocchierello e gli altri smettono per paura (non arrestati).
+6. (Da 1.5 anni a oggi) Michelangeli nel dungeon. Arimano ha il quadro ma non può usarlo (c'è la moglie). Impoverito. Vuole vendetta ma non ha i mezzi.
+7. (P1-P4) Arrivano i PG. Arimano li testa e coltiva.
+8. (P5) Missione: "Ho un amico pittore, sparito. Guardie della Contessina."
+9. (P6) I PG liberano Michelangeli. Arimano ha quadro + testimone = prova che il Conte ha posato.
 
-**Collegamento con la quest di XX1:** Arimano potrebbe chiedere ai PG di recuperare questo quadro da qualche parte (dal pittore? da un nascondiglio? dal castello?) presentandolo come "prova della corruzione del Conte" senza rivelare che c'e sua moglie dentro. I PG lo recuperano senza guardarlo (e sigillato/arrotolato). Arimano lo apre dopo e la sua reazione e strana - troppo personale per una semplice "prova politica".
+### Stato attuale
 
-**Cosa risolve:**
-- Motivo forte per l'allontanamento della moglie
-- Motivo personale profondo per la vendetta (non solo soldi)
-- Vergogna di Arimano nel mostrare il quadro nel finale
-- Il Conte diventa un vero bastardo
-- La quest di XX1 ha un oggetto concreto da recuperare
+- **Arimano** ha il quadro. Non può usarlo (c'è la moglie). Vuole Michelangeli libero come testimone.
+- **Michelangeli** è prigioniero nel dungeon del castello da ~1.5 anni. Arresto illegale e segreto.
+- **La Contessina** non sa del quadro vero. Ha arrestato Michelangeli perché pittore di deepfake. Lo tiene nascosto per rabbia e per evitare sommosse.
+- **La moglie** è ad Amatri dalla madre. Esilio volontario dopo la litigata.
+
+### Collegamento con P5
+
+Arimano manda i PG a scoprire cosa è successo a Michelangeli. La scusa: "Ho un amico, un pittore, sparito mesi fa. Guardie della Contessina lo portavano via. Non ho mai avuto modo di cercarlo — fino a ora." Non dice perché è stato preso, non dice del quadro.
+
+Perché solo ora: Arimano è squattrinato e non poteva entrare nel castello di persona. Ha aspettato di trovare avventurieri capaci (li ha testati in P3) e poco costosi (sono al verde quanto lui).
+
+### Collegamento con P6
+
+I PG liberano Michelangeli dal dungeon del castello. Michelangeli è il testimone che il Conte ha posato di persona. Senza di lui il quadro potrebbe essere un deepfake qualsiasi. Con lui, Arimano ha la prova completa per la vendetta.
 
 ---
 

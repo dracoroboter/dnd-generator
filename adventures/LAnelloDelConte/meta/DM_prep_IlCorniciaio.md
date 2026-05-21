@@ -24,7 +24,7 @@
 - I PG lo interrogano. Rivela:
   1. Dipingeva per committente anonimo (lettere firmate doppia S)
   2. Soggetti: nobili in pose "artistiche", descrizioni via lettera
-  3. Pozioni fatte da **Sempronio Scrocchiazeppi**, speziale a Vetusta Portus
+  3. Pozioni fatte da **Sempronio Scrocchierello**, speziale a Vetusta Portus
   4. Ha smesso per la Gabella. Ultima lettera: "riprenderemo quando i tempi saranno maturi"
   5. (CD 18) L'ha visto una volta: mascherato, alto, sicuro — ma allontanandosi "si è piegato in due"
 
@@ -167,7 +167,7 @@ Se Gorim è presente e i nomi vengono elencati: *"Ma che è, un'epidemia?! Mezza
 
 ---
 
-## Side Quest — Sempronio Scrocchiazeppi (opzionale)
+## Side Quest — Sempronio Scrocchierello (opzionale)
 
 Se i PG seguono la pista: spezieria "Erbe e Rimedi di Sempronio" a Vetusta Portus, piazzetta del porto.
 

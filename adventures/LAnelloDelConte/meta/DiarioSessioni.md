@@ -218,3 +218,45 @@ Multa delle guardie per disturbo della quiete pubblica (fuga del rinoceronte): *
 - [x] Luoghi non definiti nella mappa di Vetusta Portus: aggiunti NPC e dettagli.
 - [x] Il Faro: aggiunto guardiano Salvuccio "Er Lampione" nella mappa di Vetusta Portus.
 - [x] NPC minori di Vetusta Portus (marinai bergamaschi, oste, pescivendolo, guardiano del faro): nominati, possono servire come semi di narrazione per puntate future.
+
+---
+
+## Sessione 5 - Domenica 18 Maggio 2026
+
+**Puntata:** 4 - Il Corniciaio (non conclusa)
+**Giocatori:** 4 PG di livello 3
+**Livello finale:** 3 (in corso, combattimento non concluso)
+
+### Il party
+
+La **Compagnia delle Beccaccine** (nome ufficiale del gruppo).
+
+### Cosa è successo
+
+Simpatico Figuro ha dato il nome del pittore (pagato 5 ma come promesso). I PG sono andati da Sberluccica a Monteverde. Frase d'apertura: "Benvenuti, volete una cornice? Ce n'è per tutti i prezzi."
+
+Il convincimento di Sberluccica a parlare è stato ruolato bene, nessun tiro necessario. Ha rivelato il sistema: commissioni via lettera (doppia S), messaggeri generici che portavano merce e denaro senza sapere niente, pozioni fatte da Sempronio Scrocchierello a Vetusta.
+
+I PG sono andati al castello di Aviano a riferire a Gorim. Le guardie li hanno fatti entrare: Gorim aveva lasciato una lista con i nomi e l'istruzione "lasciateli entrare solo se dicono che hanno informazioni." Gorim ha pagato 3 mo totali, trattenendo 1 mo per la multa del rinoceronte (sessione 4).
+
+Tornati a Monteverde: bottega a soqquadro, Sberluccica rapito. Sergius travestito ha indicato la direzione (lavandaia e/o signore coi baffi a manubrio).
+
+### Domande dei giocatori e improvvisazioni
+
+**Come funzionava lo scambio S-pittori-venditori?** Messaggeri generici (ragazzini, gente qualunque) portavano commissioni, ritiravano merce, consegnavano denaro. Non sapevano niente del contenuto o del committente. Sistema compartimentato.
+
+**Chi erano i nobili implicati?** Si rumoreggia che uno fosse il **Notabile San Giovanni** (sta ad Aviano). È quello che Sergius stava indicando dal palco alla Festa del Grazie (P2).
+
+**La servitù sapeva?** La servitù dei nobili committenti sapeva qualcosa dei dipinti.
+
+### Stato (in corso)
+
+I PG devono ancora fare il combattimento alla cantina di Ponte Milvio per salvare Sberluccica.
+
+### Decisioni prese
+
+- Scrocchierello rinominato **Scrocchierello**
+- Il party si chiama **Compagnia delle Beccaccine**
+- Terzilio rimosso dai travestimenti fissi di Sergius (non sviluppato)
+- Guardie del Conte: incorruttibili. Guardie della Contessina: brutali e malvage.
+- Pozioni tollerate dalle guardie, quadri vietati con velate minacce

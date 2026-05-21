@@ -26,34 +26,44 @@ Sergius ha costruito un fiorente commercio clandestino su due prodotti:
 
 1. **Ritratti di nudi** ("deep fake" pittorici) - S faceva da tramite. I committenti erano facoltosi (spesso nobili, ma non solo) che volevano ritratti idealizzati di sé stessi o di altri. Di solito il consenso del soggetto c'era. I pittori (come Sberluccica) ricevevano descrizioni dettagliate via lettera firmata con la doppia S e dipingevano senza mai incontrare né il committente né il soggetto. Prodotti **esclusivamente** tramite la rete di S - nessun altro offriva questo servizio.
 
-   **Il caso del Conte:** Svariati facoltosi avevano commissionato ritratti del Conte nudo per soddisfare le proprie voglie - senza il consenso del Conte. Il Conte, quando l'ha scoperto, si è divertito. Tanto che una volta ha deciso di donare a una dama che lo richiedeva un **vero** suo ritratto nudo, posando di persona. Quel ritratto non è mai stato pagato - Arimano se l'è tenuto.
+   **Il caso del Conte:** Svariati facoltosi avevano commissionato ritratti del Conte nudo per soddisfare le proprie voglie - senza il consenso del Conte. Il Conte, quando l'ha scoperto, si è divertito. Tanto che una volta ha deciso di posare di persona per un **vero** ritratto nudo, con la moglie di Arimano (rinomata per la bellezza). Il quadro è stato commissionato al pittore **Candido Michelangeli**. Il Conte non ha mai pagato.
 
-   **Il pittore del quadro vero:** Sberluccica. Il Conte è andato a posare da lui di persona, ma indossando solo una maschera che gli copriva il volto. Sberluccica non sa chi ha ritratto - ha dipinto un uomo mascherato e nudo, con lo stemma della casata del Conte visibile (anello, spilla, o tatuaggio). La Contessina, vedendo il quadro, riconosce immediatamente che è il Conte (AHEM). Il volto resta un mistero per tutti gli altri.
+   **Il pittore del quadro vero: Candido Michelangeli.** Faceva parte della rete di Arimano (come Sberluccica). Il Conte ha commissionato il quadro tramite la rete, come tutti. Arimano non ha mai visto il contenuto — i quadri venivano consegnati sigillati. Il Conte non ha mai pagato (il debito è verso Arimano). Arimano ha scoperto il contenuto del quadro solo dopo: travestito da amico di Michelangeli, se l'è fatto consegnare (non pagato, il pittore era contento di liberarsene). Ha visto sua moglie. Ora Arimano ha il quadro. Vorrebbe usarlo ma non può (c'è la moglie).
 
-   **Cosa sa la Contessina:** Sa dei ritratti deepfake del marito (commissionati da altri). NON sa del vero ritratto posato volontariamente dal Conte.
+   La Contessina, indagando sui deepfake, è risalita a Michelangeli. Lo ha fatto arrestare illegalmente, per rabbia — arresto segreto, se si sapesse creerebbe scontento e sommosse. Michelangeli è nel dungeon del castello da ~1.5 anni. La Contessina non sa del quadro vero — ha arrestato Michelangeli perché era un pittore di nudi.
 
-2. **Pozioni rinvigorenti** (per il vigore maschile) - acqua colorata con erbe aromatiche, nomi roboanti ("L'Immane Alabarda", "La Rocca Imponente"). Non funzionavano. Queste **non erano un'esclusiva di S** - anche altri le producevano e vendevano. Ma il marchio S era il più noto e organizzato.
+   **Cosa sa la Contessina:** Sa dei ritratti deepfake del marito (commissionati da altri). NON sa del quadro vero. Ha arrestato Michelangeli come pittore di deepfake, non per il quadro vero.
 
-Il marchio della doppia S non è mai cambiato. Nessuno sa chi ci sia dietro - neanche la moglie di Sergius (se esiste davvero). Il commercio è sempre stato discreto: i nomi dei pittori non sono pubblici, le consegne avvenivano tramite intermediari e ragazzini, nessun contatto diretto.
+2. **Pozioni rinvigorenti** (per il vigore maschile) - alcol, acqua e spezie (sostanzialmente degli amari). Nomi roboanti ("L'Immane Alabarda", "La Rocca Imponente"). Non funzionano come afrodisiaci ma la gente ci crede e paga. Nel magazzino (P3) i PG hanno trovato bottiglie di alcol puro (la base per le infusioni). Queste **non erano un'esclusiva di S** - anche altri le producevano e vendevano. Ma il marchio S era il più noto e organizzato.
+
+Il marchio della doppia S non è mai cambiato. Nessuno sa chi ci sia dietro - neanche la moglie di Sergius (che è ad Amatri, dalla madre, dopo una litigata storica). Il commercio è sempre stato discreto: i nomi dei pittori non sono pubblici, nessun contatto diretto.
+
+**Sistema di distribuzione (compartimentato):** Messaggeri generici (ragazzini, gente qualunque) portavano commissioni, ritiravano merce, consegnavano denaro. I messaggeri non sapevano niente del contenuto o del committente. La servitù dei nobili committenti sapeva qualcosa dei dipinti.
+
+**Nobili implicati:** Diversi notabili di Fianus e Vetusta Portus compravano ritratti. Tra questi il **Notabile San Giovanni** (Aviano) - quello che Sergius indicava dal palco alla Festa del Grazie (P2). Sergius li conosce tutti perché era il venditore diretto.
 
 ### La Gabella Pudicitiae
 
 Circa **un anno e mezzo fa**, la Contessina Sarah Serbelloni Vien dal Porto scopre che alcuni dei ritratti ritraggono **suo marito** (il Conte). Arrabbiata per la brutta immagine che questo darebbe di lei e del marito, e non potendo semplicemente vietare la cosa, fa approvare la **Gabella Pudicitiae**: una forte tassa su questo tipo di commerci. In più, ordina continui controlli giudiziari e fiscali a chiunque commerci palesemente in questi prodotti.
 
-Il Conte, interpellato dalla Contessina, ha mentito dichiarando che quel dipinto non ritrae lui. In realtà ha posato volontariamente per il vero ritratto - ma la Contessina non lo sa e non deve saperlo.
+**Legalità in pratica:** Le pozioni sono più o meno tollerate dalle guardie (sono amari, in fondo). I quadri invece sono stati sostanzialmente vietati, se non direttamente con velate minacce.
+
+Il Conte, interpellato dalla Contessina dopo la scoperta dei deepfake, ha mentito dichiarando che quei dipinti non ritraggono lui. La Contessina non sa del quadro vero.
 
 ### Dopo la Gabella
 
 Sergius ha smesso di produrre i nudi. Continua solo con le pozioni, ma con molta più attenzione - nasconde le merci nelle fogne, nei magazzini del porto, in altri posti segreti. La Gabella lo ha reso significativamente più povero. Vuole vendicarsi di entrambi:
 
 - **La Contessina** - ha ideato la tassa, ha distrutto il suo commercio (odio pratico)
-- **Il Conte** - per quiete familiare ha firmato la Gabella, e in più non ha mai pagato quel suo ultimo vero ritratto che Arimano si è tenuto (odio personale, tradimento di un cliente)
+- **Il Conte** - per quiete familiare ha firmato la Gabella, e in più non ha mai pagato il vero ritratto (odio personale, tradimento di un cliente)
 
-Il vero ritratto del Conte è l'arma segreta di Sergius - una leva di ricatto che nessun altro possiede.
+**Verso i PG:** Sergius vuole che passino dalla sua parte e decidano che la Contessina è il nemico. Tutta la manipolazione (aiutarli travestito, mostrare la brutalità della Contessina, offrire lavoro) serve a questo.
+
+Il vero ritratto del Conte è in mano a Sergius (se l'è fatto consegnare dal pittore travestendosi da suo amico). Vorrebbe usarlo per ricattare il Conte o esporlo pubblicamente — ma non può, perché nel quadro c'è anche sua moglie. È un'arma che non può usare.
 
 ### La Contessina oggi
 
-La Contessina sta cercando di insabbiare tutto e mettere a tacere chi sa dei ritratti. Il suo movente è opposto a quello di S: lei vuole che nessuno ne parli più, lui vuole far emergere lo scandalo per vendetta. Questo la rende un sospetto plausibile ma falso - non è S, agisce per coprire, non per ricattare.
+La Contessina sta cercando di insabbiare tutto e mettere a tacere chi sa dei ritratti. Tiene Candido Michelangeli prigioniero nel dungeon del castello (arresto illegale, segreto, per rabbia — se si sapesse creerebbe sommosse). Il suo movente è opposto a quello di S: lei vuole che nessuno ne parli più, lui vuole far emergere lo scandalo per vendetta. Questo la rende un sospetto plausibile ma falso - non è S, agisce per coprire, non per ricattare.
 
 ---
 
@@ -100,61 +110,199 @@ La povertà è comica, non punitiva. I PG non muoiono di fame - ma non comprano 
 
 ## NPC principali
 
-Le schede complete sono in `characters/`.
+Le schede meccaniche (stat block) sono in `characters/`. Qui sotto: chi sono, cosa sanno, dove trovarli, come si comportano.
 
 ### Sir Gorim Vel
 
-*Fighter 3 (Defence) - Il René Ferretti di Fianus Romanus*
+Funzionario del Conte, ex-capitano della guarnigione. Tarchiato, pancia prominente, gesticola con la pergamena. Tirchio patologico. Sinceramente legato al Conte, disprezza la Contessina ma la difende per difendere il Conte.
 
-Funzionario del Conte, inviato a gestire il borgo. Tarchiato, esasperato, gesticola con la pergamena in mano. Cerca di portare a termine la missione con le risorse che ha - cioè i PG. Non è contento della cosa. È l'unico NPC con contatto diretto (anche se vago) con il Conte.
+- **Dove:** Castello del Conte, Aviano. Sempre raggiungibile.
+- **Cosa sa:** Del ritratto compromettente (si è allarmato vedendo il brandello). Della Gabella. Ha informato la Contessina del ricatto. NON sa dei traffici di amari nel dettaglio. NON sa che la Contessina agisce per conto suo.
+- **Come si comporta:** Esasperato, impulsivo ma non stupido. Paga a malincuore. Si eccita quando sente nomi con la S ("È lui!"). Se i PG gli dicono della Contessina: nega, dice impossibile, ma internamente si schiera contro di lei.
+- **Frasi:** "Dai dai dai, che ce la facciamo", "Splendido. Meraviglioso." (sarcastico), "Io non ce la faccio più con voi"
+- **Guardie del castello:** incorruttibili, leali. Gorim ha lasciato una lista con i nomi dei PG: "lasciateli entrare solo se dicono che hanno informazioni."
 
-Frasi ricorrenti: "Dai dai dai, che ce la facciamo", "Splendido. Meraviglioso." (sarcastico), "Ma che state a fa'?", "Io non ce la faccio più con voi".
+**Se i PG chiedono del Conte:** Sa che è sempre in viaggio. Dalla P5 in poi menziona il Burmini senza dargli peso.
 
-**Se i PG chiedono del Conte:** Gorim sa che il Conte è sempre in viaggio, in luoghi lontani. Non sa esattamente dove e non gli piace parlarne. Dalla Puntata 5 in poi, ha ricevuto un messaggio dal Conte proveniente dal Burmini (il contenuto è irrilevante, ordini amministrativi di routine). Se i PG chiedono, lo menziona senza dargli peso: *"Mi ha scritto dal Burmini, pare. Chissà che ci fa laggiù."*
-
-→ Scheda completa: `characters/NPC_SirGorimVel.md`
+→ Scheda: `characters/NPC_SirGorimVel.md`
 
 ### Il Conte
 
-*Noble - Il MacGuffin vivente*
+Nessuno sa come si chiama. Nessuno ha visto il suo volto. Governa tramite lettere e messaggeri. Sempre in viaggio (nel Burmini, ma nessuno lo sa). Ha posato volontariamente per un ritratto nudo, divertito dalla cosa. Muore nell'esplosione finale senza che i PG lo incontrino mai.
 
-Nessuno sa come si chiama. Nessuno ha visto il suo volto. L'unica cosa nota è che è un vassallo di Re Dorian Valemarch. Governa Fianus Romanus tramite lettere, decreti e messaggeri. I suoi ordini sono spesso contraddittori. Nell'ultima puntata, proprio quando i PG stanno per incontrarlo, muore in un'esplosione. Niente nome, niente volto, niente risposte. La sua morte e il vuoto di potere che ne segue sono il gancio verso Il Re Spezzato.
+- **Dove:** All'estero (Burmini). Mai presente fisicamente.
+- **Cosa sa:** Ignaro di tutto quello che succede a Fianus in sua assenza.
 
-→ Scheda completa: `characters/NPC_IlConte.md`
+→ Scheda: `characters/NPC_IlConte.md`
 
-### Cheat Sheet - Luoghi
+### La Contessina (Concetta Priapi)
 
-| Luogo | Dove | Usato in |
-|-------|------|----------|
-| Castello del Conte | Aviano (quartiere SE di Fianus) | Puntata 1+ |
-| Taberna de Franciosibus aut Hispanardis | Piazza del Mercato Centrale (Fianus) | Tutte |
-| Fogne di Fianus | Sotto Settebagni, ingresso dal carretto di Terzilio (Fianus) | Puntata 1 |
-| Piazza del Mercato Centrale | Centro di Fianus | Tutte |
-| Casa del Marchese Arimano | Cima della collina, Vetusta Portus | Puntata 3 |
-| Magazzino 4 | Porto di Vetusta Portus (il più grande dei 6 magazzini lungo il molo) | Puntata 3 |
-| Piazzetta del Porto | Tra porto e borgo, Vetusta Portus | Puntata 3 |
-| Bottega Simpatico Figuro | Via principale, Monteverde (Fianus) | Puntata 2, 4 |
-| Bottega Sberluccica | Vicolo delle Arti, Monteverde (Fianus) | Puntata 4 |
-| Cantina Ponte Milvio | Sotto la vecchia lavanderia, Ponte Milvio (Fianus) | Puntata 4 |
-| Spezieria Scrocchiazeppi | Piazzetta del porto, Vetusta Portus | Puntata 4 (side quest) |
+Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle origini. Ha ideato la Gabella Pudicitiae dopo aver scoperto i ritratti deepfake del marito. NON sa del vero ritratto posato volontariamente dal Conte. Ha segregato il pittore del quadro vero nel dungeon del castello.
 
-### Dove sono i personaggi (posizioni base)
+- **Dove:** Castello del Conte, Aviano. Accessibile solo con credenziali di Gorim.
+- **Cosa sa:** Dei ritratti deepfake del marito. Vuole insabbiare tutto. Ha mandato i suoi a rapire Sberluccica (P4).
+- **Come si comporta:** Nega tutto, caccia i PG se insistono. Chiama le guardie.
+- **Guardie della Contessina:** brutali e malvage (diverse da quelle di Gorim).
 
-| NPC | Dove | Disponibilità |
-|-----|------|---------------|
-| Sir Gorim Vel | Castello del Conte, Aviano | Sempre raggiungibile |
-| Domina Lella | Taberna, piazza del Mercato Centrale | Sempre (ci vive e lavora) |
-| La Contessina (Concetta Priapi) | Castello del Conte, Aviano | Solo con lettera/sigillo di Gorim |
-| Flavia "La Biscia" | Itinerante, base a Vetusta Portus | Al mercato di giorno, sparisce di sera |
-| Mastro Cecio | Bottega vicino alla piazza del Mercato | Sempre (ma inutile) |
-| Donna Ortensia | Aviano, vicino al castello | A casa, non esce volentieri |
-| Terzilio (a volte Sergius) | Settebagni → mercato di Fianus | Al mercato di giorno col carretto |
-| Ermolao "Il Profondo" | Fogne di Fianus | Bisogna scendere |
-| Marchese Arimano (Sergius) | Vetusta Portus, casa in collina | Solo dopo che i PG lo conoscono |
-| Er Braccio (Salvatore Soggettoni) | Vetusta Portus, Magazzino 4 | Al porto |
-| Simpatico Figuro | Bottega a Monteverde | Di giorno |
+→ Scheda: `characters/NPC_Contessina.md`
 
-I moduli indicano solo le eccezioni a questa tabella.
+### Sergius Stanislao Arimano Improbus (il Marchese)
+
+Nobile decaduto di Vetusta Portus. È "S". Cinquantenne gobbo nel vero aspetto, in pubblico va come versione aitante di sé stesso. Maestro del camuffamento. Vuole vendetta su Conte e Contessina. Vuole che i PG passino dalla sua parte e decidano che la Contessina è il nemico.
+
+- **Dove:** Vetusta Portus, casa signorile in collina. Solo dopo che i PG lo conoscono (P3+).
+- **Cosa sa:** Tutto. È il burattinaio.
+- **Come si comporta:** Affabile, curioso, fa domande. Offre lavoro. Non rivela mai la sua identità.
+- **Tic verbale:** "Ma parliamo di..." (presente in TUTTI i travestimenti).
+- **Nei registri:** solo "Marchese Arimano Improbus". "Sergius" non compare in nessun documento pubblico.
+- **Travestimenti usa e getta** (il DM decide quando e dove):
+  1. Lavandaia sovrappeso con neo peloso in faccia
+  2. Signore distinto con baffi a manubrio e bombetta
+  3. Scaricatore di porto dai capelli rossi e naso grosso e rosso da ubriacone
+- **Ogni travestimento appare una volta sola.** CD 25 per smascherarlo.
+
+→ Scheda: `characters/NPC_SergiusArimano.md`
+
+### Domina Lella
+
+Padrona della Taberna de Franciosibus aut Hispanardis. Grossa, voce tonante, grembiule unto. Reclama la pigione con insistenza. Conosce tutti quelli che passano dalla taverna.
+
+- **Dove:** Taberna, piazza del Mercato Centrale. Sempre (ci vive e lavora).
+- **Cosa sa:** Nomi e facce di chiunque sia passato dalla taverna. Pettegolezzi. Niente di utile sulla trama.
+- **Come si comporta:** Reclama soldi. Pigione: 3 mo/settimana (1 ma/giorno a persona).
+
+→ Scheda: `characters/NPC_DominaLella.md`
+
+### Flavia "La Biscia"
+
+Commerciante itinerante. Vendeva pozioni rinvigorenti (marchio "Immane Alabarda"), le comprava da intermediario anonimo. Non vendeva nudi - è una moralista.
+
+- **Dove:** Itinerante, base a Vetusta Portus. Al mercato di giorno.
+- **Cosa sa:** Le pozioni le portava un tizio mai visto in faccia, lasciava le casse al porto. Non conosce il produttore (davvero).
+- **Come si comporta:** Diretta, pratica. Parla liberamente delle pozioni ma non dei nudi.
+
+→ Scheda: `characters/NPC_Flavia.md`
+
+### Er Braccio (Salvatore Soggettoni)
+
+Capo della banda al Magazzino 4. Grosso, violento, ce l'ha col Conte per le tasse. Falsa pista per S.
+
+- **Dove:** Vetusta Portus, porto (Magazzino 4). Probabilmente fuggito dopo P3-4.
+- **Cosa sa:** Arimano gli deve soldi. Non sa nulla di S. Non è S.
+- **Come si comporta:** Insulta il Conte, vuole i soldi. Non dice il suo vero nome ("Er Braccio. Basta.").
+
+→ Scheda: `characters/NPC_ErBraccio.md`
+
+### Sigfrido Terzilio Scacciapreti
+
+Verduraio a Settebagni. Carretto di rape. L'ingresso delle fogne è sotto il suo carretto (non lo sa o finge di non saperlo). NPC indipendente, non è Sergius.
+
+- **Dove:** Settebagni → mercato di Fianus col carretto, di giorno.
+- **Cosa sa:** Dove sono le fogne (ci parcheggia sopra). Pettegolezzi di mercato. Niente di utile.
+- **Come si comporta:** Burbero, vende rape, non vuole seccature.
+
+### Simpatico Figuro
+
+Bottegaio a Monteverde. Vendeva ritratti erotici prima della Gabella, ha smesso. CAR 15, INT 12.
+
+- **Dove:** Bottega via principale, Monteverde. Di giorno.
+- **Cosa sa:** Il pittore è Sberluccica (P4). Vendeva ritratti ma non sa chi li produceva. Ha smesso per la Gabella e le vessazioni delle guardie.
+- **Come si comporta:** Vuole essere pagato per le informazioni (5 ma). Sotto pagamento, dice tutto quello che sa.
+
+### Mastro Cecilio Sberluccica (M.C. Sberluccica)
+
+Ex pittore dei ritratti deepfake, ora corniciaio a Monteverde. Terrorizzato, innocente, vittima.
+
+- **Dove:** Bottega in vicolo delle Arti, Monteverde (P4 Atto 1). Rapito dalla Contessina (P4 Atto 2+).
+- **Cosa sa:** Dipingeva per committente anonimo (doppia S). Pozioni fatte da Sempronio Scrocchierello. Ha visto il committente una volta: mascherato, alto, sicuro - allontanandosi "si è piegato in due".
+- **Come si comporta:** Terrorizzato. Se ruolato bene il convincimento non serve tiro. Frase d'apertura: "Benvenuti, volete una cornice? Ce n'è per tutti i prezzi."
+
+### Sempronio Scrocchierello
+
+Ex speziale delle pozioni, ora spezieria legittima a Vetusta Portus. 60enne, calvo, occhiali tondi.
+
+- **Dove:** Spezieria "Erbe e Rimedi di Sempronio", piazzetta del porto, Vetusta Portus.
+- **Cosa sa:** Pozioni = alcol, acqua e spezie (amari). Non funzionano. Committente via lettera (doppia S). Non ha mai incontrato Sberluccica. Ha smesso per la Gabella.
+- **Come si comporta:** Nervoso ma non terrorizzato. Parla se i PG sono ragionevoli (Persuasione CD 13). Pista morta - conferma solo cose già note.
+
+### Donna Ortensia
+
+Moglie di Grigius Voidus. Era cliente (comprava pozioni da Flavia).
+
+- **Dove:** Aviano, vicino al castello. A casa, non esce volentieri.
+- **Cosa sa:** Comprava pozioni. Non sa chi le produce.
+- **Come si comporta:** Ammette solo sotto pressione (Intimidazione CD 14 / Persuasione CD 16).
+
+### Mastro Cecio
+
+Bottegaio vicino alla piazza del Mercato. Di nessun aiuto.
+
+- **Dove:** Bottega, piazza del Mercato Centrale.
+- **Cosa sa:** Niente.
+- **Come si comporta:** "No." / "Non so." / "Andate via."
+
+### Ermolao "Il Profondo"
+
+Saggio delle fogne. Running gag: compare in posti improbabili.
+
+- **Dove:** Fogne di Fianus. Bisogna scendere.
+- **Cosa sa:** Cose criptiche e inutili.
+
+### Salvuccio "Er Lampione"
+
+Guardiano del faro a Vetusta Portus. Parla un dialetto del sud incomprensibile (misto napoletano, siciliano, barese). Pista morta comica.
+
+- **Dove:** Faro, Vetusta Portus.
+- **Cosa sa:** Niente di utile. Si vanta di sapere tutto.
+- **Come si comporta:** Si arrabbia, pretende che gli ripaghino la porta.
+
+### Notabile San Giovanni
+
+Nobile ad Aviano. Ha comprato un quadro piccante da Sergius. Sergius lo indicava dal palco alla Festa del Grazie (P2).
+
+- **Dove:** Aviano. Difeso da guardie.
+- **Cosa sa:** Ha comprato un ritratto. Sa che il venditore usava la doppia S. Non sa niente del quadro vero — ha sentito voci che "esiste un ritratto vero del Conte" ma non sa dove né chi l'ha fatto.
+- **Come si comporta:** Reticente, protetto. Difficile parlarci.
+
+### Don Silverio Scannabue
+
+Prete/chierico ad Aviano. Ipocrita totale — comprava quadri piccanti di nascosto.
+
+- **Dove:** Aviano, vicino al castello.
+- **Cosa sa:** Ha comprato ritratti tramite la rete di S. Non sa niente del quadro vero — stesse voci vaghe degli altri.
+- **Come si comporta:** Nega tutto con indignazione religiosa. Difficile da incastrare.
+
+### Dottor Salomone Spaccafegato
+
+Medico/cerusico a Vetusta Portus. Sfigato, pochi clienti. Comprava i quadri per consolarsi. Più accessibile degli altri.
+
+- **Dove:** Vetusta Portus, vicino alla casa di Arimano.
+- **Cosa sa:** Ha comprato ritratti tramite la rete di S. Non sa niente del quadro vero — stesse voci. Potrebbe aver visto qualcosa in più (vicino di Arimano).
+- **Come si comporta:** Nervoso, imbarazzato, crolla facilmente sotto pressione.
+
+### [Altri notabili da creare]
+
+Servono almeno altri 2 notabili implicati nei ritratti (Vetusta Portus e Fianus). Uno più sfigato e accessibile. Tutti con la S nel nome.
+
+### Luoghi
+
+| Luogo | Dove | Descrizione |
+|-------|------|-------------|
+| Castello del Conte | Aviano (quartiere SE) | Sede del potere. Gorim ci lavora. Contessina ci vive. Guardie incorruttibili (Gorim) + guardie brutali (Contessina). Dungeon sotto. |
+| Taberna de Franciosibus aut Hispanardis | Piazza del Mercato, Fianus | Locanda di Domina Lella. I PG ci vivono. Punto di ritrovo di tutti. |
+| Piazza del Mercato Centrale | Centro di Fianus | Mercato, vita quotidiana. Terzilio col carretto. |
+| Fogne di Fianus | Sotto Settebagni | Ingresso dalla botola sotto il carretto di Terzilio. Elaborate per un borgo così piccolo (nessuno sa perché). |
+| Monteverde | Quartiere artigiani, Fianus | Botteghe d'arte modesta. Simpatico Figuro, Sberluccica, vicolo delle Arti. |
+| Ponte Milvio | Quartiere, Fianus | Strade-ponte sopra le mura. Nome assurdo (running gag dalla P1). Vecchia lavanderia con cantina sotto. |
+| Settebagni | Quartiere periferico, Fianus | Zona residenziale. Terzilio ci vive. Ingresso fogne. |
+| Aviano | Quartiere SE, Fianus | Zona nobile. Castello del Conte. Donna Ortensia. Notabile San Giovanni. |
+| Vetusta Portus | Frazione costiera | Porto, commerci, criminalità. Più pericolosa di Fianus. Casa Arimano in collina. Magazzini sul molo. Faro. |
+| Casa del Marchese Arimano | Collina, Vetusta Portus | Signorile ma decadente: carta da parati scrostata, fontana secca, mobili impolverati, soprammobili mancanti. |
+| Magazzino 4 | Porto, Vetusta Portus | Il più grande dei 6 magazzini. Covo di Er Braccio (P3). Animali esotici, merce di contrabbando. |
+| Faro | Vetusta Portus | Guardiano: Salvuccio "Er Lampione". Pista morta comica. |
+| Spezieria Scrocchierello | Piazzetta del porto, Vetusta Portus | "Erbe e Rimedi di Sempronio". Bottega legittima, odore di erbe. Side quest P4. |
+
+Descrizioni più lunghe (battle map, dettagli esplorazione) nei moduli corrispondenti.
 
 ---
 
@@ -184,9 +332,8 @@ Elenco di tutti gli indizi seminati nell'avventura che collegano il Marchese Ari
 ### Capacita narrative di Sergius (non meccaniche)
 
 - **Rete di informatori**: sa sempre dove sono i PG e cosa fanno. Gente del borgo che riferisce in cambio di favori.
-- **Maestro del camuffamento**: ogni travestimento appare una volta sola (tranne Terzilio e Marchese = identita stabili). CD 25 per smascherarlo.
+- **Maestro del camuffamento**: ogni travestimento appare una volta sola. Il Marchese è l'unica identità stabile. CD 25 per smascherarlo. Tre travestimenti usa e getta disponibili (vedi lista in § Sergius sopra).
 - **Anello dell'Ombra**: invisibilita 1/giorno. Spiega come sparisce.
-- **Terzilio**: a volte i PG parlano col vero Terzilio, a volte con Sergius travestito. Nessuno nota la differenza.
 - **La moglie** (se interrogata): potrebbe aver notato il tic verbale.
 
 ---
@@ -214,6 +361,17 @@ Se i PG chiedono un nome vero, le fonti sono:
 **Eccezione - il Marchese Arimano:** nei registri di Vetusta Portus è registrato solo come "Marchese Arimano Improbus". Il nome di battesimo "Sergius" non compare in nessun documento pubblico - è un nobile, usa il titolo. Nessuno a Vetusta lo chiama Sergius. Il nome compare solo nella firma clandestina (doppia S) che usa per i suoi traffici.
 - Le lettere ufficiali hanno il sigillo ma la firma è illeggibile
 - Un NPC giura di saperlo ma vuole essere pagato prima - poi non lo sa neanche lui
+
+### La gag della S
+
+Tutti i personaggi hanno un nome che inizia per S. Regola semplice: usare quando opportuno, non forzare.
+
+- Quando un NPC viene accusato per il proprio nome, si sorprende genuinamente
+- Gorim se ne accorge per un personaggio ma non per altri (effetto comico)
+- Servono altri notabili con la S (Fianus, Vetusta Portus, Aviano) per alimentare la gag
+- La gag funziona per accumulo: più nomi con la S emergono, più diventa assurdo
+
+Nomi con la S attivi: Sergius, Serbelloni, Sberluccica, Soggettoni, Scrocchierello, Simpatico, Scacciapreti, San Giovanni.
 
 ### L'Anello
 

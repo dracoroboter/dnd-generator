@@ -15,26 +15,25 @@ I PG sono in stallo: hanno il frammento del ritratto e la bottiglietta di pozion
 
 ### Dove sono i personaggi
 
-Vedi tabella posizioni base in `LAnelloDelConte.md` § NPC principali. Eccezioni per questa puntata:
+Vedi § NPC principali in `LAnelloDelConte.md`. Eccezioni per questa puntata:
 
 | NPC | Eccezione |
 |-----|-----------|
 | Marchese Arimano (Sergius) | Disponibile solo dopo l'invito (o al porto dopo il combattimento) |
 | Er Braccio | Solo al Magazzino 4, Vetusta Portus |
 
-> **Nota DM:** Il vero nome di Er Braccio è **Salvatore Soggettoni**. I PG possono scoprirlo chiedendoglielo direttamente o interrogando i banditi. Serve per la gag della S nella Puntata 4.
-
 ### Cosa sa ciascun NPC
 
-| NPC | Sa davvero | Dice ai PG | Non dice / Non sa |
-|-----|-----------|------------|-------------------|
-| **Gorim** | Il Marchese è un nobile minore di Vetusta. Non lo collega a S. | "Lo conosco di nome, aveva dei commerci" | Non sa nulla di utile |
-| **Contessina** | Il Conte è in viaggio. Sa del ricatto (ritratto). Non sa chi è S. | Imbarazzata, vuole che sparisca tutto | Non ammette di sapere dei "commerci" del Conte |
-| **Flavia** | Vendeva pozioni rinvigorenti (marchio "Immane Alabarda"), le comprava da intermediario anonimo. Non vendeva nudi, è una moralista. | "Me le portava un tizio, mai visto in faccia, lasciava le casse al porto" | Non conosce il produttore (davvero) |
-| **Donna Ortensia** | Era cliente (comprava da Flavia). Non sa chi produce. | Ammette solo sotto pressione (Intimidazione CD 14 / Persuasione CD 16) | Il nome del produttore (non lo sa) |
-| **Mastro Cecio** | Niente | "No." / "Non so." / "Andate via." | - |
-| **Er Braccio** | Arimano gli deve soldi. Ce l'ha col Conte per le tasse. Non sa nulla di S. | Insulta il Conte, vuole i soldi | Non è S, non sa chi sia |
-| **Marchese (Sergius)** | Tutto. È S. | Affabile, curioso, fa domande. Offre lavoro. | La sua identità, il collegamento con le pozioni, l'Anello |
+Vedi conoscenze base in § NPC principali. In questa puntata in più:
+
+| NPC | In più rispetto alla base |
+|-----|--------------------------|
+| **Gorim** | Del Marchese: "Lo conosco di nome, aveva dei commerci." Non lo collega a S. |
+| **Contessina** | Sa del ricatto (Gorim l'ha informata). Imbarazzata, vuole che sparisca tutto. Non ammette di sapere dei "commerci" del Conte. |
+| **Flavia** | Indica che i malviventi operano a Vetusta Portus |
+| **Donna Ortensia** | Era cliente (comprava pozioni da Flavia). Ammette solo sotto pressione (Intimidazione CD 14 / Persuasione CD 16). |
+| **Er Braccio** | Arimano gli deve soldi. Ce l'ha col Conte per le tasse. Non sa nulla di S. Vero nome: Salvatore Soggettoni (serve per gag S in P4). |
+| **Marchese (Sergius)** | Affabile, offre lavoro. Fa domande (studia i PG - Intuizione CD 15) |
 
 ### Indizi seminati - principio guida
 

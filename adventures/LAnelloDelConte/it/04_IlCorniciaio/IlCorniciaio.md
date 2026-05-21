@@ -45,11 +45,9 @@ Poi guarda un orologio immaginario: *"Oh, ma guardate l'ora. Devo proprio andare
 
 **Atto 3 - NON presente.** Non rischia di essere visto vicino a violenza.
 
-**Indizio retroattivo:** Il "vicino" che li ha aiutati non esiste. Questo dettaglio può tornare nelle puntate successive quando i PG inizieranno a notare che persone misteriose appaiono e scompaiono intorno a loro.
-
 ### Dove sono i personaggi
 
-Vedi tabella posizioni base in `LAnelloDelConte.md` § NPC principali. Eccezioni per questa puntata:
+Vedi § NPC principali in `LAnelloDelConte.md`. Eccezioni per questa puntata:
 
 | NPC | Eccezione |
 |-----|-----------|
@@ -57,29 +55,20 @@ Vedi tabella posizioni base in `LAnelloDelConte.md` § NPC principali. Eccezioni
 
 ### Cosa sa ciascun NPC
 
-| NPC | Sa davvero | Dice ai PG | Non dice / Non sa |
-|-----|-----------|------------|-------------------|
-| **Simpatico Figuro** | Il pittore è Sberluccica, vicolo delle Arti. Una volta dipingeva, poi ha smesso di colpo. Figuro stesso vendeva ritratti erotici prima della Gabella. | Tutto quello che sa (sotto pagamento, 5 ma). Ha smesso per la Gabella e le vessazioni delle guardie. | Chi li produceva (non lo sa) |
-| **Sberluccica** | Dipingeva per un committente anonimo (firma doppia S). Le pozioni le faceva Sempronio Scrocchiazeppi, speziale a Vetusta. Il committente una volta è venuto di persona: mascherato, alto, sicuro - ma allontanandosi si è "piegato in due". | Sotto pressione: tutto | Il nome del committente (non lo sa davvero) |
-| **Contessina Serbelloni** | Sa dei ritratti. Vuole distruggere le prove e zittire chi sa. Ha mandato i suoi uomini. | "Quel pittore sa troppo. Deve stare zitto." | Non ammette il collegamento col Conte |
-| **Gorim** | Niente di nuovo. Si eccita quando sente "Sberluccica" (la S!) | "S! Sberluccica! È lui!" | Non capisce che la S non significa niente |
-| **Er Braccio** | Se i PG chiedono il suo vero nome: Salvatore Soggettoni | Non lo dice - *"Er Braccio. Basta."* Solo Gorim lo sa (registri) | - |
+Vedi conoscenze base in § NPC principali. In questa puntata in più:
+
+| NPC | In più rispetto alla base |
+|-----|--------------------------|
+| **Simpatico Figuro** | Ha trovato il pittore (5 ma). Lui stesso vendeva ritratti prima della Gabella. |
+| **Sberluccica** | Vedi interrogatorio Atto 1 sotto |
+| **Contessina** | Ha mandato i suoi a rapire Sberluccica. "Quel pittore sa troppo. Deve stare zitto." Nega se confrontata (CD 16 per farla parlare). |
+| **Gorim** | Si eccita per la S di Sberluccica ("È lui!"). Non capisce che non significa niente. |
 
 ### Indizi seminati
 
-**La gag della S - tutti hanno la S:**
-- Sberluccica (il pittore) → S
-- Salvatore Soggettoni (Er Braccio) → S.S.
-- Serbelloni (la Contessina) → S
-- Scrocchiazeppi (lo speziale, menzionato) → S
-- Simpatico Figuro (il bottegaio) → S
-- Sergius S. Arimano → la vera S (ma i PG non possono collegarlo)
+Vedi § Cheat Sheet Indizi e § Running Gag (gag della S) in `LAnelloDelConte.md`.
 
-**Indizio vero (difficile da cogliere ora):**
-- Sberluccica descrive il committente: mascherato, alto e sicuro di sé, ma allontanandosi "si è piegato in due" → Sergius che perde la postura del travestimento aitante quando si crede non osservato. I PG non possono collegarlo ora (conoscono il Marchese solo come aitante), ma quando scopriranno il vero aspetto di Sergius, questo dettaglio tornerà.
-
-**Indizio sulla Contessina:**
-- La Contessina agisce per insabbiare, non per vendetta. Il suo movente è opposto a quello di S (che vuole far emergere lo scandalo). Questo dovrebbe far capire ai PG che la Contessina non è S - ma potrebbe confonderli ulteriormente.
+In questa puntata: Sberluccica descrive il committente "piegato in due" (= Sergius che perde la postura). La Contessina agisce per insabbiare (movente opposto a S).
 
 ---
 
@@ -115,7 +104,7 @@ Simpatico Figuro contatta i PG (o loro tornano da lui). Ha trovato il pittore. V
 
 > L'interno è piccolo e ordinato: cornici di ogni dimensione appese alle pareti, un banco da lavoro con attrezzi, l'odore di colla e legno. In fondo, un uomo magro sulla cinquantina con le mani macchiate di vernice vi guarda con l'espressione di un coniglio che ha sentito un rumore.
 >
-> *"S-sì? Posso aiutarvi? Cercate una cornice?"*
+> *"Benvenuti, volete una cornice? Ce n'è per tutti i prezzi."*
 
 ### Note per il DM
 
@@ -132,7 +121,7 @@ Sberluccica è terrorizzato. Se i PG menzionano i ritratti, impallidisce. Se men
 
 2. *"I soggetti erano... nobili. In pose... artistiche. Mi mandava le descrizioni dettagliate - altezza, corporatura, segni particolari. Io dipingevo. Pagava bene."*
 
-3. *"Le pozioni non le facevo io! Quelle le faceva un altro - uno speziale. Sempronio Scrocchiazeppi, a Vetusta Portus. Facevamo parte della stessa... organizzazione, diciamo. Ma non ci conoscevamo di persona."*
+3. *"Le pozioni non le facevo io! Quelle le faceva un altro - uno speziale. Sempronio Scrocchierello, a Vetusta Portus. Facevamo parte della stessa... organizzazione, diciamo. Ma non ci conoscevamo di persona."*
 
 4. *"Ho smesso quando è arrivata la Gabella. Troppo pericoloso. L'ultima lettera diceva 'non preoccuparti, riprenderemo quando i tempi saranno maturi'. Non ho più avuto notizie."*
 
@@ -278,13 +267,13 @@ La gag della S è **opzionale** - funziona solo se emerge naturalmente al tavolo
 
 Se Gorim è presente e i nomi vengono elencati in sequenza (es. durante un resoconto), potrebbe sbottare:
 
-> *"Sberluccica. Soggettoni. Serbelloni. Scrocchiazeppi. Ma che è, un'epidemia? Mezza Fianus si chiama con la S! Come facciamo a trovare il colpevole se TUTTI hanno la S nel nome?!"*
+> *"Sberluccica. Soggettoni. Serbelloni. Scrocchierello. Ma che è, un'epidemia? Mezza Fianus si chiama con la S! Come facciamo a trovare il colpevole se TUTTI hanno la S nel nome?!"*
 
 Ma solo se il momento è naturale. Se non lo è, lascia perdere.
 
 ### Ricompensa
 
-- Gorim paga 2 mo per le informazioni (se i PG riferiscono)
+- Gorim paga 3 mo per le informazioni (se i PG riferiscono)
 - Sberluccica offre una cornice gratis (inutile ma gentile)
 - XP: nessun avanzamento di livello (restano lv3).
 
@@ -296,15 +285,15 @@ Ma solo se il momento è naturale. Se non lo è, lascia perdere.
 
 ---
 
-## Side Quest - Sempronio Scrocchiazeppi (opzionale)
+## Side Quest - Sempronio Scrocchierello (opzionale)
 
 ### Note per il DM
 
-Se i PG seguono la pista data da Sberluccica ("le pozioni le faceva Sempronio Scrocchiazeppi, speziale a Vetusta Portus"), possono cercarlo. Questa side quest può avvenire in qualsiasi momento dopo l'interrogatorio di Sberluccica - anche durante i "tempi morti" tra un atto e l'altro. È una pista morta ma aggiunge colore e conferma informazioni.
+Se i PG seguono la pista data da Sberluccica ("le pozioni le faceva Sempronio Scrocchierello, speziale a Vetusta Portus"), possono cercarlo. Questa side quest può avvenire in qualsiasi momento dopo l'interrogatorio di Sberluccica - anche durante i "tempi morti" tra un atto e l'altro. È una pista morta ma aggiunge colore e conferma informazioni.
 
-### Trovare Scrocchiazeppi
+### Trovare Scrocchierello
 
-Scrocchiazeppi ha una spezieria legittima a Vetusta Portus - "Erbe e Rimedi di Sempronio", vicino alla piazzetta del porto. Vende tisane, unguenti, erbe medicinali. Bottega piccola, ordinata, odore forte di erbe secche. Un uomo sulla sessantina, calvo, occhiali tondi, grembiule macchiato di verde.
+Scrocchierello ha una spezieria legittima a Vetusta Portus - "Erbe e Rimedi di Sempronio", vicino alla piazzetta del porto. Vende tisane, unguenti, erbe medicinali. Bottega piccola, ordinata, odore forte di erbe secche. Un uomo sulla sessantina, calvo, occhiali tondi, grembiule macchiato di verde.
 
 ### Da leggere ai giocatori
 
@@ -314,7 +303,7 @@ Scrocchiazeppi ha una spezieria legittima a Vetusta Portus - "Erbe e Rimedi di S
 
 ### Note per il DM
 
-Scrocchiazeppi è nervoso se i PG menzionano le pozioni di vigore, ma non terrorizzato come Sberluccica - ha fatto pace con il passato. Parla se i PG sono ragionevoli (Persuasione CD 13 o semplicemente spiegando che non sono guardie).
+Scrocchierello è nervoso se i PG menzionano le pozioni di vigore, ma non terrorizzato come Sberluccica - ha fatto pace con il passato. Parla se i PG sono ragionevoli (Persuasione CD 13 o semplicemente spiegando che non sono guardie).
 
 **Cosa rivela:**
 
@@ -366,4 +355,4 @@ Un solo combattimento (cantina): MEDIUM per 3-4 PG di livello 3.
 | Mastro Cecilio Sberluccica | Ex pittore, ora corniciaio | Commoner (non ha bisogno di scheda). Terrorizzato, innocente, vittima |
 | Sergente Bruto | Capo degli uomini della Contessina | Thug, non fanatico, negoziabile |
 | Mafalda | Agente della Contessina | Spy, pericolosa, pragmatica |
-| Sempronio Scrocchiazeppi (menzionato) | Ex speziale, ora legittimo | Non appare - pista per puntata 5 |
+| Sempronio Scrocchierello (menzionato) | Ex speziale, ora legittimo | Non appare - pista per puntata 5 |

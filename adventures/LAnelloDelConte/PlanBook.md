@@ -151,7 +151,7 @@ Tre armi che lo rendono impossibile da catturare prima del lv4:
 
 **COLPO DI SCENA:** Uno dei personaggi che i PG incontrano regolarmente **è** Sergius sotto copertura. Li frequenta, li conosce, sa tutto di loro di prima mano. La rivelazione (puntata 4? 5?) è che l'hanno avuto sotto il naso tutto il tempo.
 
-**DECISO: Sergius si traveste da Terzilio il verduraio.** Il vero Terzilio esiste e vende rape normalmente. Sergius ne prende il posto travestendosi quando gli serve - per accedere alle fogne (il carretto è la copertura della botola), per spiare i PG, per operare al mercato. A volte i PG parlano col vero Terzilio, a volte con Sergius. Nessuno nota la differenza.
+**DECISO: ~~Sergius si traveste da Terzilio il verduraio.~~** RIMOSSO (sessione 5): idea non sviluppata al tavolo, non usata. Terzilio resta un NPC indipendente. I travestimenti di Sergius sono usa e getta (lista di 3 personaggi con informazioni, il DM decide quando e dove).
 
 Questo spiega:
 - Come Sergius sapeva che qualcuno sarebbe sceso nelle fogne (era al mercato quando Gorim ha reclutato i PG)
@@ -240,7 +240,7 @@ Regola: no trattino lungo, no emoji (tranne ✅ e ⚠). Da applicare progressiva
 - [ ] **Timeline lettera nelle fogne**: Sergius ha piazzato la lettera lo stesso giorno del reclutamento? Decidere: la lettera era li da prima (Sergius sapeva gia) o l'ha messa quel giorno.
 - [ ] **Calligrafia indizio "decisivo" inaccessibile**: i PG non hanno la lettera della P1 (l'ha Gorim). Aggiungere un'occasione per rivederla.
 - [ ] **P2 - Transizione Sergius-Terzilio alla Festa**: il modulo non gestisce il passaggio tra Sergius travestito da Terzilio e il vero Terzilio. Aggiungere nota DM con timeline.
-- [ ] **P4 - Sberluccica e la posa del Conte**: il modulo 04 non menziona che qualcuno e venuto a posare nudo con maschera. Aggiungere nelle risposte di Sberluccica.
+- [x] **P4 - Sberluccica e la posa del Conte**: OBSOLETO. Il pittore del quadro vero è Candido Michelangeli (non Sberluccica, senza la S). Sberluccica faceva solo deepfake.
 
 ### Minori
 
@@ -285,7 +285,7 @@ Nelle puntate comiche, seminare piccoli momenti in cui Gorim mostra lealta e sen
 
 ### Buchi
 
-- [x] **Tempistica della Gabella** - DECISO: circa un anno e mezzo fa. Abbastanza per la decadenza visibile della casa e per Sberluccica/Scrocchiazeppi di rifarsi una vita.
+- [x] **Tempistica della Gabella** - DECISO: circa un anno e mezzo fa. Abbastanza per la decadenza visibile della casa e per Sberluccica/Scrocchierello di rifarsi una vita.
 - [ ] **La moglie di Arimano** - aggiunta sessione 4. Esiste? È morta? È un'invenzione? Perché non sa dei commerci?
 - [x] **Come Sergius ha trovato l'Anello nelle fogne?** DECISO: Non l'ha trovato. Ha scoperto fortuitamente che era stato perduto e ha mentito nella lettera dicendo di averlo per attirare l'attenzione degli avventurieri e testarne le capacità. L'Anello viene trovato miracolosamente nell'ultima puntata, i PG vanno verso il castello per consegnarlo e il castello esplode.
 - [x] **Cosa vuole fare Sergius con l'Anello?** DECISO: Niente - non ce l'ha. L'Anello è il pretesto per attirare avventurieri da testare e reclutare. Il bluff è coerente col personaggio Enigmista.
@@ -299,12 +299,22 @@ Nelle puntate comiche, seminare piccoli momenti in cui Gorim mostra lealta e sen
 
 ### Puntata 5 (da scrivere)
 
-- [ ] Cosa succede tra la puntata 4 e la finale? Serve almeno una puntata intermedia?
-- [ ] Il "progetto misterioso" per cui i PG hanno accettato di lavorare per Arimano - cos'è? Dove porta?
-  - **Opzione A:** Vuole che i PG trovino il pittore Sberluccica per riattivare il business dei ritratti in segreto (si collega alla Puntata 4)
-  - **Opzione B:** Vuole che i PG recuperino il vero ritratto del Conte da un nascondiglio (forse troppo presto per rivelarlo?)
-  - **Opzione C:** Il progetto è vago di proposito, non lo rivela mai. Li usa come pedine quando serve.
-  - **Opzione D:** Vuole smascherare la Contessina pubblicamente come ipocrita. Cerca prove e testimoni.
+- [ ] Missione di Arimano: "Ho un amico pittore (Candido Michelangeli), sparito mesi fa. Guardie della Contessina." I PG indagano, scoprono che è nel dungeon del castello.
+- [ ] Arimano sa con certezza che Michelangeli è prigioniero (rete informatori). Non può entrare nel castello di persona (squattrinato, non ha accesso).
+- [ ] Perché solo ora: servivano avventurieri capaci (testati in P3) e poco costosi (sono al verde quanto lui).
+- [ ] I PG parlano coi notabili (San Giovanni, Scannabue, Spaccafegato) — confermano le voci sul quadro vero ma non sanno niente di concreto.
+- [ ] Come i PG scoprono che Michelangeli è nel dungeon? (Gorim dall'interno? Un servitore del castello? Le guardie parlano?)
+
+### Puntata 6 — Il Pittore Prigioniero
+
+I PG sanno che Michelangeli è nel dungeon. Devono entrare e liberarlo.
+
+- Infiltrazione nel dungeon del castello contro le guardie della Contessina (brutali)
+- Gorim potrebbe aiutarli dall'interno (se le condizioni sono giuste)
+- Michelangeli liberato = Arimano ha quadro + testimone = prova completa
+- [ ] Il dungeon del castello: layout, guardie, come entrarci
+- [ ] Gorim aiuta? A quali condizioni?
+- [ ] Cosa succede dopo la liberazione? Arimano rivela il piano?
 ### Smascheramento Sergius = S - indizi
 
 Non possiamo decidere quando i giocatori capiscono. Possiamo solo seminare indizi e lasciare che li colleghino.
@@ -347,7 +357,7 @@ La moglie, se interrogata, potrebbe essersene accorta.
     - Il guardiano del faro Salvuccio (trovato sulla scogliera)
   - [ ] Quando lo notano? (fine P6 o inizio P7?)
 - [ ] Sergius vuole essere portato dal Conte per rivelare il ritratto - come ci arrivano i PG?
-- [x] **Brandello della Puntata 2 vs ritratto del finale:** DECISO. Il brandello viene da un DEEPFAKE (non dal quadro vero). Sergius l'ha strappato da un deepfake sacrificabile per la provocazione alla Festa. Il quadro vero (posato dal Conte) resta intatto e lo porta al castello nel finale. Sono due oggetti diversi. **Gag:** la Contessina, vedendo il brandello (nudita + stemma, senza faccia), riconosce che NON e il Conte. Sa di chi e. Non lo dice.
+- [x] **Brandello della Puntata 2 vs ritratto del finale:** DECISO. Il brandello viene da un DEEPFAKE che Sergius ha fatto a pezzi per rabbia (a un certo punto non li vendeva più, invenduti dopo la Gabella). L'ha usato per la provocazione alla Festa. Il quadro vero (posato dal Conte, dipinto da Candido Michelangeli) ce l'ha Arimano. Sono due oggetti diversi. **Gag:** la Contessina, vedendo il brandello (nudita + stemma, senza faccia), riconosce che NON e il Conte. Sa di chi e. Non lo dice.
 - [ ] Sergius muore con alta probabilità - lasciare una porta aperta per la sopravvivenza o no?
 
 ### Il Burmini - decisioni prese
@@ -379,6 +389,33 @@ Il Burmini resta **volutamente indefinito**. Non si spiega tutto. I PG (e il DM)
 - [ ] Il posto dove dice che si trova ("in villeggiatura a nord") potrebbe essere fittizio. Da decidere.
 - [ ] Perché non sa dei commerci? Perché è lontana?
 
+---
+
+## Punti aperti - Sessione 5 (18 maggio 2026)
+
+### Da decidere prima della prossima sessione
+
+- [ ] **Cosa sa Gorim dei traffici?** Decidere chiaramente: cosa sa dei ritratti? Cosa sa delle pozioni? Come reagisce se i PG gli dicono della Contessina dopo il combattimento?
+- [ ] **La M di M.C. Sberluccica:** Per cosa sta?
+- [ ] **Notabile San Giovanni:** I PG vogliono parlargli. Cosa sa, come reagisce, è raggiungibile?
+- [ ] **Dopo il combattimento alla cantina:** Cosa succede se i PG dicono a Gorim della Contessina?
+
+### Retrofitting da applicare al modulo 4
+
+- [ ] Aggiungere motivazione Sergius: vuole che i PG passino dalla sua parte contro la Contessina
+- [ ] Aggiungere meccanica messaggeri generici (compartimentazione)
+- [ ] Aggiungere Notabile San Giovanni (Aviano, indicato da Sergius alla Festa P2)
+- [ ] Rimuovere Terzilio dai travestimenti fissi
+- [ ] Rimuovere il "vicino" come indizio retroattivo
+- [ ] Semplificare travestimenti: lista di 3 con info, DM decide quando
+- [ ] Aggiungere regola guardie Conte (incorruttibili) vs guardie Contessina (brutali)
+- [ ] Rinominare Scrocchierello -> Scrocchierello ovunque
+- [ ] Gag della S: mettere in un posto unico con regola semplice
+- [ ] Semplificare e snellire la prosa del modulo (meno ripetizioni, più schematico)
+- [ ] Aggiungere lista guardie castello con istruzione di Gorim
+- [ ] Frase d'apertura Sberluccica: "Benvenuti, volete una cornice? Ce n'è per tutti i prezzi"
+- [ ] Gorim paga 3 mo (non 2) e trattiene 1 per la multa
+
 ### Arco narrativo generale
 
 Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
@@ -388,9 +425,9 @@ Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
 | 1 | Le Fogne di Fianus | Scritta, giocata | 1-2 | Trovata lettera di S |
 | 2 | La Festa del Grazie | Scritta, giocata | 2 | - |
 | 3 | Una Pizza in Compagnia | Scritta, giocata | 2-3 | Banditi sconfitti, merce restituita |
-| 4 | Il Corniciaio | Scritta, non giocata | 3 | - |
-| 5 | [da titolare] (XX1) | Draft | 3-4 | Compito di Arimano completato [da definire trigger] |
-| 6 | [da titolare] (XX2) | Draft | 4 | - |
+| 4 | Il Corniciaio | Scritta, in corso | 3 | - |
+| 5 | [da titolare] (XX1) | Idea | 3-4 | Scoprono del pittore prigioniero (lavoro per Arimano) |
+| 6 | [Il Pittore Prigioniero?] (XX2) | Idea | 4 | Pittore liberato, quadro vero scoperto |
 | 7 | Il Finale di Stagione (XX3) | Draft | 4-5 | Sopravvivenza all'esplosione / fine avventura |
 
 **Progressione:** lv1 - lv2 - lv2 - lv3 - lv3/4 - lv4 - lv4/5. Livello finale: **5** (partenza per Il Re Spezzato).
@@ -428,6 +465,26 @@ Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
 
 ---
 
+## Decisioni prese (Sessione 5 - 18 maggio 2026)
+
+| # | Decisione | Risultato |
+|---|-----------|-----------|
+| D33 | Scambio merce S-pittori/venditori | Messaggeri generici portavano commissioni, merce e denaro. Non sapevano niente. Sistema compartimentato. |
+| D34 | Servitù dei nobili | La servitù dei nobili committenti sapeva qualcosa dei dipinti. |
+| D35 | Notabile San Giovanni | Nobile ad Aviano, implicato nei ritratti. Sergius lo indicava dal palco alla Festa del Grazie (P2). I PG vogliono parlargli. |
+| D36 | Gorim paga 3 mo (-1 multa) | 3 mo totali, 1 trattenuta per la multa del rinoceronte. Netto: 2 mo. |
+| D37 | Accesso al castello | Gorim ha lasciato lista con nomi alle guardie: "lasciateli entrare solo se dicono che hanno informazioni." |
+| D38 | Scrocchierello -> Scrocchierello | Il nome dello speziale diventa Sempronio Scrocchierello. |
+| D45 | Pozioni = amari | Alcol, acqua e spezie. Sostanzialmente degli amari. Non funzionano come afrodisiaci ma la gente ci crede. |
+| D39 | Nome del party | La Compagnia delle Beccaccine. |
+| D40 | M.C. Sberluccica | La M sta per Mastro. Insegna: "M.C. SBERLUCCICA" = Mastro Cecilio Sberluccica. |
+| D41 | Terzilio non è Sergius | Rimosso dai travestimenti fissi. Idea non sviluppata. |
+| D42 | Guardie Conte vs Contessina | Guardie del Conte (Gorim): incorruttibili. Guardie della Contessina: brutali e malvage. |
+| D43 | Pozioni vs quadri legalità | Pozioni tollerate dalle guardie. Quadri vietati con velate minacce. |
+| D44 | Motivazione extra Sergius | Vuole che i PG passino dalla sua parte e decidano che la Contessina è il nemico. |
+
+---
+
 ## Decisioni prese (Sessione di lavoro 12 maggio 2026)
 
 | # | Decisione | Risultato |
@@ -440,7 +497,7 @@ Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
 | D19 | Business in declino | Dopo la Gabella, pochi clienti spaventati. Arimano investe in animali costosi → si sta rovinando. |
 | D20 | Er Braccio = Salvatore Soggettoni | Nome completo deciso. |
 | D21 | Contessina = Concetta Priapi | Nome vero. Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle origini, non dice mai il vero nome. |
-| D22 | Speziale = Sempronio Scrocchiazeppi | Ex produttore pozioni, ora spezieria legittima a Vetusta. |
+| D22 | Speziale = Sempronio Scrocchierello | Ex produttore pozioni, ora spezieria legittima a Vetusta. |
 | D23 | Pittore = Mastro Cecilio Sberluccica | Ex pittore ritratti, ora corniciaio a Monteverde. |
 | D24 | Simpatico Figuro | Bottegaio Monteverde, vendeva ritratti erotici, ha smesso per Gabella. Chiede 5 ma per informazioni. |
 | D25 | Gag della S | Tutti hanno la S nel nome. Opzionale, solo se emerge naturalmente. |
@@ -456,6 +513,6 @@ Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
 
 - File: `it/04_IlCorniciaio/IlCorniciaio.md`
 - Combattimento: cantina, Medium per lv3 (1 Thug + 3 Guard + 1 Spy ridotta)
-- Side quest: Scrocchiazeppi (opzionale, pista morta)
+- Side quest: Scrocchierello (opzionale, pista morta)
 - Mappe TODO: CantinaPonteMilvio (battle map), BottegaSberluccica (illustrazione)
 - Gemidesc creati in `04_IlCorniciaio/maps/` e `04_IlCorniciaio/img/scenes/`
