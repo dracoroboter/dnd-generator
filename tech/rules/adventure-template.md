@@ -251,6 +251,8 @@ Contiene tutto ciò che serve per capire l'avventura: lore, introduzione, plot, 
 
 **Regola contenuto vs pianificazione:** il documento principale contiene **decisioni prese** — la versione definitiva di plot, meccaniche, NPC. Non contiene varianti, linee di sviluppo alternative, idee da esplorare o agganci futuri speculativi. Quel materiale va nel **PlanBook** dell'avventura.
 
+**Regola file committati:** vanno committati solo i file sorgente (non rigenerabili). I file generati dagli script (stat block PNG/PDF/HTML, XML FightClub, compendium) **non vanno committati** — sono rigenerabili con `generate-statblocks.py`. Eccezione: la directory `public/` contiene il "compilato" pubblicato e va committata. I sorgenti delle stat block sono i file `.md` in `characters/markdown/`.
+
 Sezioni obbligatorie:
 ```
 ## Lore

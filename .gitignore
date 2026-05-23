@@ -26,6 +26,13 @@ tech/data/compendium/Sources/*
 !tech/data/compendium/Sources/Homebrew.xml
 !tech/data/compendium/Sources/README.md
 
+# Stat block e FightClub generati (rigenerabili con generate-statblocks.py)
+# Solo i sorgenti .md in characters/markdown/ vanno committati
+adventures/*/it/characters/statblock/
+adventures/*/it/characters/fightclub/
+adventures/*/en/characters/statblock/
+adventures/*/en/characters/fightclub/
+
 # Immagini lowres singole (generate da optimize-images.py, usate solo per PDF/ZIP)
 *-lowres.jpg
 *-lowres.png
