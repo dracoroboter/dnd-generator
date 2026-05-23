@@ -1,7 +1,7 @@
 # DM Prep — Fuori da Hellfire
 
 Riepilogo incontri e NPC per configurare Roll20 / FightClub / Game Master 5e.
-One-shot (1-2 sessioni). Party: 3 PG lv3 + Udo Hutchinson (CR 3) + Fin Ditasvelte (lv3).
+Saga (5+ moduli). Party: 4-5 PG lv3 (iniziale) + Udo Hutchinson (CR 3) + Fin Ditasvelte (lv3).
 
 ---
 

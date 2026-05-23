@@ -271,6 +271,8 @@ Sezioni consigliate (non obbligatorie):
 ### Moduli (`NN_NomeModulo/NomeModulo.md`)
 Un file per ogni quest, dungeon o luogo significativo.
 
+**Titolo:** `# Puntata N: NomeModulo` — ogni modulo ha un numero progressivo nel titolo. La numerazione è un riferimento, non un ordine obbligatorio di gioco (i moduli possono essere giocati in ordine diverso a discrezione del DM).
+
 Sezioni obbligatorie:
 ```
 ## Descrizione
@@ -355,6 +357,13 @@ Il CSS `tech/create-pdf-adventure/dm-prep.css` impedisce il page-break dentro st
 ### Schede PNG (`NPC_NomePersonaggio.md`)
 - **Antagonisti principali**: scheda completa con stat block
 - **PNG secondari**: scheda semplificata con stat essenziali
+
+**Regola mostri generici:** i mostri generici (senza nome proprio né particolarità homebrew — es. Skeleton, Giant Rat, Swarm of Rats) **non vanno nel PDF pubblicato**. Le loro stat block vanno comunque create, ma in una directory comune a tutte le avventure (`adventures/data/monsters/`), non nella singola avventura. I moduli li referenziano con il nome e la pagina del Monster Manual. Se serve una versione modificata (es. "Ratto Corrotto" con Pack Tactics), quella è homebrew e va nell'avventura come `MON_NomeCreatura.md`.
+
+**Procedura:**
+1. Prima di creare uno stat block, verificare se esiste già in `adventures/data/monsters/`
+2. Se esiste: referenziare. Se non esiste: creare lì.
+3. Solo i mostri con nome/particolarità homebrew vanno in `adventures/<Avventura>/<lang>/characters/markdown/`
 
 Sezioni obbligatorie (tutti i PNG):
 ```

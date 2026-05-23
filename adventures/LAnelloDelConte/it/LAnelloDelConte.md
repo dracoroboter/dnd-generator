@@ -1,5 +1,20 @@
 # L'Anello del Conte
 
+## Indice
+
+- Introduzione
+- Plot generale
+- La verità - chi è S (solo DM)
+- Concept
+- Lore
+- I PG
+- NPC principali
+- Cheat Sheet - Indizi sulla vera natura di S (solo DM)
+- Running Gag
+- Struttura dell'avventura
+
+---
+
 ## Introduzione
 
 Il regno di Drakenhold attraversa la sua stagione più radiosa. Nel sud del regno, il borgo di **Fianus Romanus** - un paesino baciato dal sole e circondato da terre fertili - è il posto dove non succede mai niente di importante. Almeno finché **Sir Gorim Vel**, funzionario del Conte, non decide che è il momento di reclutare un gruppo di avventurieri per una missione "di importanza capitale": trovare **l'Anello del Conte**.

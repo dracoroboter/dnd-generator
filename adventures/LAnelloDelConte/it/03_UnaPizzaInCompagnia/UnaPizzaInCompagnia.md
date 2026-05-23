@@ -1,4 +1,4 @@
-# Puntata 3 - Una Pizza in Compagnia
+# Puntata 3: Una Pizza in Compagnia
 
 ## Descrizione
 

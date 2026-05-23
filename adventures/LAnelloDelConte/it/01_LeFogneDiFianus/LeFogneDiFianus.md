@@ -1,4 +1,4 @@
-# Puntata 1 - Le Fogne di Fianus
+# Puntata 1: Le Fogne di Fianus
 
 ## Descrizione
 

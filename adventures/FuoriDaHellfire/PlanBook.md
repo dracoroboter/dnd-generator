@@ -2,8 +2,8 @@
 
 ## Concept
 
-- **Tipo**: one-shot (1-2 sessioni), con semi per saga fino a lv6
-- **Livello**: 3 (milestone → lv4)
+- **Tipo**: saga (5+ moduli), i primi 2 moduli giocabili come one-shot
+- **Livello**: 3 iniziale, progressione fino a 5-6
 - **Party**: 3 PG lv3 + Udo Hutchinson (veterano CR3) + Fin Ditasvelte (rogue lv3)
 - **Tono**: pulp adventure, camp anni '80, coerente con lo starter kit "Welcome to the Hellfire Club"
 - **Ambientazione**: fogne inesplorate sotto Oakshore Docks, Greyhawkins

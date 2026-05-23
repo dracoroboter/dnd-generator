@@ -1,5 +1,19 @@
 # Fuori da Hellfire
 
+## Indice
+
+- Lore
+- Introduzione
+- Plot generale
+- Consigli al master
+- NPC principali
+- Luoghi
+- Struttura dell'avventura
+- Appendice: Cheat Sheet Anello del Virtuoso
+- Appendice: Simulazione progressione Presa
+
+---
+
 ## Lore
 
 Greyhawkins è una città portuale dove il bizzarro è la norma, ma nessuno si aspettava quello che è successo ai moli di Oakshore. Una serie di omicidi, ratti corrotti ovunque, e dietro a tutto un elfo dal sorriso troppo largo e una melodia che ti entrava nella testa: **Korex**.
@@ -25,8 +39,8 @@ I PG hanno appena finito lo scontro con i ratti. Korex è fuggito attraverso una
 - **Cattura vs uccisione**: entrambe le opzioni sono valide. Se catturato vivo, Korex può dare informazioni (vere e false mescolate). Se ucciso, le informazioni si trovano nei suoi appunti nella tana.
 - **Il cliffhanger**: dopo la milestone, l'Anello del Virtuoso entra in gioco. L'anello era al dito di Korex, è l'origine del suo potere. Contiene l'anima di un bardo antico che vuole tornare in vita. Meccanica a tre livelli: attrazione passiva → tocco (TS Sag CD 20 o indossamento forzato) → possessione progressiva. Se nessun PG lo tocca, una guardia NPC lo indossa e attacca. Dettagli in `DiscussioneNarrativa.md`.
 
-**Difficoltà consigliata:** 3 PG di livello 3 + Udo Hutchinson + Fin Ditasvelte (NPC companion)
-**Scalabilità:** per 4+ PG, Udo resta indietro a sorvegliare l'ingresso e Fin non si unisce (il charm non si è ancora spezzato). Per 2 PG, tenere entrambi i companion.
+**Difficoltà consigliata:** 4-5 PG di livello 3 (iniziale) + Udo Hutchinson + Fin Ditasvelte (NPC companion)
+**Scalabilità:** per 4+ PG, Udo resta indietro a sorvegliare l'ingresso e Fin non si unisce (il charm non si è ancora spezzato). Per 2-3 PG, tenere entrambi i companion.
 
 ## NPC principali
 

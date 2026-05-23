@@ -1,13 +1,14 @@
 # Fuori da Hellfire
 
 **Sistema**: D&D 5e (2014)
-**Livello consigliato**: 3
-**Durata**: one-shot (1-2 sessioni)
+**Livello consigliato**: 3 (iniziale), progressione fino a 5-6
+**Party consigliato**: 4-5 PG
+**Durata**: saga (5+ sessioni, 5+ moduli)
 **Struttura**: lineare
 **Tono**: pulp adventure, camp anni '80
 **Autore**: dracoroboter
 **Prima stesura**: 2026
-**Ultimo aggiornamento**: 2026-04-25
+**Ultimo aggiornamento**: 2026-05-24
 
 Continuazione di "Ballad of the Rat King" (Welcome to the Hellfire Club, Stranger Things D&D Starter Set). Korex è fuggito nelle fogne sotto i moli di Oakshore. La compagnia lo insegue nel buio — ma le fogne nascondono più di quanto chiunque sospetti.
 

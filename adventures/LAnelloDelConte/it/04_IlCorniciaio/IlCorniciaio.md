@@ -1,4 +1,4 @@
-# Puntata 4 - Il Corniciaio
+# Puntata 4: Il Corniciaio
 
 ## Descrizione
 

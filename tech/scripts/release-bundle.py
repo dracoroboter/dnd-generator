@@ -118,9 +118,21 @@ def main():
     print("[2/3] PDF...")
     for lang in langs:
         lang_flag = ["--lang", lang] if lang != "it" else []
+
+        # PDF avventura: doc + tutti i moduli (no stat block)
         out = run(
             ["python3", "tech/create-pdf-adventure/create-pdf-adventure.py",
-             adventure, "--lowres", "--only", "cover,frontmatter,doc,statblocks"] + lang_flag,
+             adventure, "--lowres", "--only", "cover,frontmatter,doc,01,02,03,04,05,06,07,08,09,10"] + lang_flag,
+            project_root
+        )
+        for l in out.strip().split("\n"):
+            if "PDF generato" in l:
+                print(f"  {l.strip()}")
+
+        # PDF stat block separato (solo homebrew)
+        out = run(
+            ["python3", "tech/create-pdf-adventure/create-pdf-adventure.py",
+             adventure, "--lowres", "--only", "statblocks"] + lang_flag,
             project_root
         )
         for l in out.strip().split("\n"):
@@ -150,14 +162,15 @@ def main():
     # PDF per ogni lingua
     for lang in langs:
         suffix = f"_{lang}"
-        # Il PDF generato ha _en alla fine per inglese, niente per italiano
-        gen_suffix = f"_{lang}" if lang != "it" else ""
-        pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*only*lowres{gen_suffix}.pdf")
+        gen_suffix = f"_en" if lang == "en" else ""
+
+        # PDF avventura (doc + moduli, no stat block)
+        pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*only-01*lowres{gen_suffix}.pdf")
         candidates = sorted(glob.glob(pattern))
         if not candidates:
+            # Fallback: qualsiasi PDF lowres che non sia statblocks
             pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*lowres{gen_suffix}.pdf")
-            candidates = sorted(glob.glob(pattern))
-            # Escludi quelli con _en se cerchiamo italiano
+            candidates = [c for c in sorted(glob.glob(pattern)) if "statblocks" not in c]
             if lang == "it":
                 candidates = [c for c in candidates if not c.endswith("_en.pdf")]
         if candidates:
@@ -180,22 +193,22 @@ def main():
         size = os.path.getsize(zip_path) / (1024 * 1024)
         published.append((zip_name, f"{size:.1f} MB ({len(images)} file)"))
 
-    # ZIP stat block + compendium per ogni lingua
+    # ZIP stat block → PDF stat block per ogni lingua
     for lang in langs:
         suffix = f"_{lang}"
         lang_dir = os.path.join(adv_dir, lang) if os.path.isdir(os.path.join(adv_dir, lang)) else adv_dir
-        sb_dir = os.path.join(lang_dir, "characters", "statblock")
 
-        if os.path.isdir(sb_dir):
-            sb_files = sorted(glob.glob(os.path.join(sb_dir, "*.png")))
-            if sb_files:
-                zip_name = f"{adventure}_Statblocks{suffix}.zip"
-                zip_path = os.path.join(public_dir, zip_name)
-                with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-                    for s in sb_files:
-                        zf.write(s, os.path.basename(s))
-                size = os.path.getsize(zip_path) / (1024 * 1024)
-                published.append((zip_name, f"{size:.1f} MB ({len(sb_files)} file)"))
+        # PDF stat block (generato dallo step 2)
+        gen_suffix = f"_en" if lang == "en" else ""
+        sb_pattern = os.path.join(releases_dir, f"{adventure}_{date_str}*only-statblocks*{gen_suffix}.pdf")
+        sb_candidates = sorted(glob.glob(sb_pattern))
+        if sb_candidates:
+            src = sb_candidates[-1]
+            dest_name = f"{adventure}_Statblocks{suffix}.pdf"
+            dest = os.path.join(public_dir, dest_name)
+            shutil.copy2(src, dest)
+            size = os.path.getsize(dest) / (1024 * 1024)
+            published.append((dest_name, f"{size:.1f} MB"))
 
         # Compendium XML
         fc_dir = os.path.join(lang_dir, "characters", "fightclub")

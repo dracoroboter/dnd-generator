@@ -4,7 +4,7 @@ Questa avventura segue la struttura standard definita in `tech/rules/adventure-t
 
 ## Note specifiche
 
-- One-shot (1-2 sessioni), 2 moduli, livello 3 con milestone a lv4
+- Saga (5+ moduli), livello 3-6, 4-5 PG consigliati. I primi 2 moduli giocabili come one-shot.
 - Continuazione diretta di "Ballad of the Rat King" (Welcome to the Hellfire Club starter set)
 - Tono pulp/camp anni '80 coerente con lo starter kit, con cambio di registro nel cliffhanger finale
 - Party: 3 PG lv3 + 2 NPC companion (Udo Hutchinson veterano, Fin Ditasvelte rogue)

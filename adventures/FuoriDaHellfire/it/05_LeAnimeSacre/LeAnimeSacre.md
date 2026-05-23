@@ -2,7 +2,7 @@
 
 ## Descrizione
 
-I PG tornano alla Torre di Ashwick con Aldric Jr per eseguire il rituale di dissoluzione. Aldric legge il rituale dal pavimento della cella e scopre che va eseguito all'aperto, in un luogo con caratteristiche specifiche (non nella torre). Trovano il luogo, preparano il rituale. Le iscrizioni stesse li avvertono: senza pericolo di vita e di morte, il rituale non è giustificato. Poi arrivano i guardiani dell'Ordine — spettri saggi che vogliono impedire il rituale senza uccidere, e scheletri in massa che invece attaccano per uccidere.
+Quando i PG tornano alla Torre di Ashwick con Aldric Jr per eseguire il rituale di dissoluzione, Aldric legge il rituale dal pavimento della cella e scopre che va eseguito all'aperto, in un luogo con caratteristiche specifiche (non nella torre). Trovano il luogo, preparano il rituale. Le iscrizioni stesse li avvertono: senza pericolo di vita e di morte, il rituale non è giustificato. Poi arrivano i guardiani dell'Ordine — spettri saggi che vogliono impedire il rituale senza uccidere, e scheletri in massa che invece attaccano per uccidere.
 
 ## Obiettivo
 
@@ -11,7 +11,7 @@ I PG tornano alla Torre di Ashwick con Aldric Jr per eseguire il rituale di diss
 
 ---
 
-## Prologo: Hawksbridge, la partenza
+## Prologo: Prima della partenza
 
 ### L'avvertimento di Aldric Jr
 

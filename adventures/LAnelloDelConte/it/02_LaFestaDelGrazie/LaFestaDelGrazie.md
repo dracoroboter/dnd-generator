@@ -1,4 +1,4 @@
-# Puntata 2 - La Festa del Grazie
+# Puntata 2: La Festa del Grazie
 
 ## Descrizione
 
