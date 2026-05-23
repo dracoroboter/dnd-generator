@@ -116,6 +116,13 @@ Scorta di un carico nel bosco. Creatura esotica scappa durante imboscata. Colleg
 
 ## Punti aperti saga
 
+### Agganci futuri
+
+- L'Anello del Virtuoso → saga lv4-6: chi era il bardo nell'anello? Corsa contro il tempo per rimuoverlo prima della possessione totale
+- Korex (se catturato vivo) → fonte di informazioni inaffidabili per avventure future
+- Le fogne antiche → perché sono così grandi? Chi le ha costruite? Il passaggio nascosto nella tana porta più in profondità
+- Il bardo nell'anello ha un piano proprio, non è un alleato
+
 ### Decisioni prese
 
 - **Udo e Fin**: restano nel party come companion a discrezione del DM. Il party base è 3 PG, troppo piccolo senza di loro. Bilanciare gli incontri per 5 combattenti (3 PG lv4 + Udo + Fin).
@@ -125,8 +132,9 @@ Scorta di un carico nel bosco. Creatura esotica scappa durante imboscata. Colleg
 
 ### Da definire
 
-- [ ] Dove è lo scheletro di Jason? (quest principale della saga)
+- [x] Dove è lo scheletro di Jason? → **Torre di Ashwick** (costa nord), la sede originale dell'Ordine della Chiave Spezzata. In rovine.
 - [ ] Il patto con Jason: a che punto smette di uscire quando glielo chiedono?
+- [ ] Trigger possessione Presa 7-9: quando Jason tenta il controllo 1/giorno? Prima di un combattimento? Prima di una decisione importante? Da definire per la saga lv4-6.
 - [ ] Altre modalità per forzare Jason fuori dal controllo (da valutare):
   - Musica dissonante (Jason era un bardo, la musica stonata lo destabilizza)
   - Nome completo di Jason pronunciato ad alta voce (lo forza fuori per 1d4 ore)

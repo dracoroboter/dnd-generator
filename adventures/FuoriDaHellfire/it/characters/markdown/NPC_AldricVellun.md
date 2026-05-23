@@ -32,7 +32,7 @@ Vuole aiutare perché: a) è la cosa giusta, b) è il lavoro della sua famiglia,
 
 - Vellun è il punto di riferimento della saga. I PG torneranno da lui per informazioni, rituali del sonno, e alla fine per il rituale di rimozione.
 - Non sa tutto subito. Scopre le cose studiando (tra una sessione e l'altra). Questo permette di dosare le informazioni.
-- Il rituale del sonno costa 50 mo in componenti ogni volta. Non è una soluzione permanente.
+- Il rituale del sonno ha costi progressivi (3 mo la prima volta, poi ×10 ogni volta). Non è una soluzione permanente.
 - Può forzare Jason fuori dal corpo per 24h con un rituale più costoso (da definire).
 - Non conosce il nome "Jason Accordion" finché non legge il registro.
 - Dopo aver letto il registro, sa che servono: il rituale completo (nei suoi appunti, da ricostruire), lo scheletro di Jason (localizzazione ignota), e il coraggio di farlo.

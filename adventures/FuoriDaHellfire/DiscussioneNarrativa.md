@@ -86,7 +86,7 @@ Questo lancia la prossima avventura con un combattimento immediato e un mistero:
 
 ## Cheat Sheet — L'Anello del Virtuoso (riferimento rapido DM)
 
-**Aspetto**: anello d'argento annerito, incisione ouroboros musicale. È al dito di Korex.
+> ⚠️ **SUPERATA** — La versione definitiva della meccanica Presa è nel documento principale (`FuoriDaHellfire.md` § "Appendice: Cheat Sheet Anello del Virtuoso"). La cheat sheet sotto è la versione di lavoro originale, mantenuta solo come storico. In caso di conflitto, il documento principale prevale.
 
 ### Attivazione — 3 livelli
 

@@ -247,13 +247,20 @@ Le directory `other/` dentro `maps/` dei moduli contengono le mappe di lavoro di
 ### Documento principale
 Contiene tutto ciò che serve per capire l'avventura: lore, introduzione, plot, NPC principali (con rimandi alle schede), consigli al master, tabella dei moduli con link.
 
+**Regola di non-duplicazione:** le informazioni a valenza generale — meccaniche trasversali, tabelle di riferimento, elenco NPC con ruoli e relazioni, elenco luoghi, lore del mondo — vanno scritte **solo** nel documento principale. I moduli non le ripetono: rimandano al documento principale con un riferimento esplicito (es. `→ vedi FuoriDaHellfire.md § "Appendice: Cheat Sheet Anello del Virtuoso"`). Nei moduli va solo il contenuto specifico di quel modulo.
+
+**Regola contenuto vs pianificazione:** il documento principale contiene **decisioni prese** — la versione definitiva di plot, meccaniche, NPC. Non contiene varianti, linee di sviluppo alternative, idee da esplorare o agganci futuri speculativi. Quel materiale va nel **PlanBook** dell'avventura.
+
 Sezioni obbligatorie:
 ```
 ## Lore
 ## Introduzione
 ## NPC principali
+## Luoghi
 ## Struttura dell'avventura
 ```
+
+**Regola NPC principali:** ogni NPC nell'elenco deve indicare il modulo in cui compare per la prima volta nel titolo (es. `### Nome NPC (modulo N)`).
 
 Sezioni consigliate (non obbligatorie):
 ```
@@ -300,6 +307,50 @@ La sezione `## Milestone` è un dato strutturale del modulo, non una semplice no
 - **Trigger** — l'evento specifico (es. "consegna della lettera a Gorim") o una condizione cumulativa (es. "completati almeno 3 dei 5 obiettivi secondari"). Deve essere un momento identificabile in gioco, non generico.
 
 La milestone è **opzionale**: non tutti i moduli ne hanno una. Un modulo senza `## Milestone` significa che non c'è avanzamento di livello in quel modulo.
+
+### DM Prep (`DM_Prep.md`)
+
+Documento di riferimento rapido per il DM durante la sessione. Uno per modulo, nella directory del modulo (`NN_NomeModulo/DM_Prep.md`). Contiene solo informazioni operative — niente prosa, niente testo da leggere ai giocatori.
+
+**Sezioni obbligatorie:**
+
+```
+## Passaggi della storia
+## Stat block
+## Tiri chiave
+## Mappe
+```
+
+**Sezioni opzionali:**
+
+```
+## Loot
+## Milestone
+```
+
+**Regole di contenuto:**
+
+- **Passaggi della storia**: lista numerata, una riga per passaggio. Solo cosa succede, non come descriverlo.
+- **Stat block**: tutti i nemici e NPC rilevanti del modulo. Ogni stat block deve essere autocontenuto (non rimandare ad altri file). Include i companion del party con PF/CA/attacco.
+- **Tiri chiave**: tabella con luogo, tipo di tiro, CD, effetto.
+- **Mappe**: ASCII art compatte dei luoghi del modulo.
+
+**Regole di formato:**
+
+- Gli stat block non devono essere interrotti da cambio pagina nel PDF.
+- Le tabelle non devono essere spezzate tra pagine.
+
+**Generazione PDF:**
+
+```bash
+pandoc adventures/<Avventura>/it/NN_NomeModulo/DM_Prep.md \
+  --pdf-engine=weasyprint \
+  --metadata title="DM Prep — Modulo N" \
+  --css tech/create-pdf-adventure/dm-prep.css \
+  -o releases/<Avventura>/DM_Prep_NN_NomeModulo.pdf
+```
+
+Il CSS `tech/create-pdf-adventure/dm-prep.css` impedisce il page-break dentro stat block e tabelle.
 
 ### Schede PNG (`NPC_NomePersonaggio.md`)
 - **Antagonisti principali**: scheda completa con stat block

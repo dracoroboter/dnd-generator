@@ -35,22 +35,22 @@ Anello d'argento annerito con un'incisione interna: una chiave di violino che si
 
 ## Poteri (per classe del portatore)
 
-L'anello amplifica ciò che il portatore già ha. Bonus +2 a una caratteristica e un incantesimo da bardo 1/giorno senza slot:
+L'anello amplifica ciò che il portatore già ha. Bonus +2 a una caratteristica e un cantrip da bardo utilizzabile a volontà:
 
-| Classe | Bonus | Incantesimo 1/giorno |
-|--------|-------|---------------------|
-| Barbaro | +2 FOR | *Heroism* |
-| Bardo | +2 CAR | *Charm Person* (CD +2) |
-| Chierico | +2 SAG | *Command* |
-| Druido | +2 SAG | *Animal Friendship* |
-| Guerriero | +2 FOR o DES | *Heroism* |
-| Ladro | +2 DES | *Disguise Self* |
-| Monaco | +2 SAG | *Calm Emotions* |
-| Paladino | +2 FOR | *Command* (CD +2) |
-| Ranger | +2 DES | *Speak with Animals* |
-| Stregone | +2 CAR | *Charm Person* |
-| Warlock | +2 CAR | *Suggestion* |
-| Wizard | +2 INT | *Detect Thoughts* |
+| Classe | Bonus | Cantrip |
+|--------|-------|---------|
+| Barbaro | +2 FOR | *Blade Ward* |
+| Bardo | +2 CAR | *Friends* |
+| Chierico | +2 SAG | *Thaumaturgy* (via anello) |
+| Druido | +2 SAG | *Druidcraft* (via anello) |
+| Guerriero | +2 FOR o DES | *Blade Ward* |
+| Ladro | +2 DES | *Minor Illusion* |
+| Monaco | +2 SAG | *Prestidigitation* |
+| Paladino | +2 FOR | *Vicious Mockery* |
+| Ranger | +2 DES | *Minor Illusion* |
+| Stregone | +2 CAR | *Friends* |
+| Warlock | +2 CAR | *Vicious Mockery* |
+| Wizard | +2 INT | *Message* |
 
 ## Malus immediati
 
@@ -61,10 +61,7 @@ L'anello amplifica ciò che il portatore già ha. Bonus +2 a una caratteristica 
 
 ## Possessione: meccanica Presa
 
-Ogni uso dell'incantesimo 1/giorno: il DM chiede di tirare un **d8** ("per vedere se funziona").
-
-- **2-8**: funziona normalmente.
-- **1**: fallisce + onda psichica **1d4 + presa** danni a tutte le creature entro 10qd + **presa +1**.
+> ⚠️ **SUPERATA** — La versione definitiva della meccanica Presa è nel documento principale (`FuoriDaHellfire.md` § "Appendice: Cheat Sheet Anello del Virtuoso"). La tabella sotto è la versione di lavoro originale.
 
 | Presa | Effetti narrativi | Effetti meccanici |
 |-------|-------------------|-------------------|

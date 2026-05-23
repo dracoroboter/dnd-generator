@@ -118,16 +118,7 @@ Se il PG rifiuta: resta con Exhaustion fino a trovare un'altra soluzione (Vellun
 
 ### 🎲 Note per il DM: Il controllo di Jason
 
-Quando Jason ha il controllo, il **DM controlla il personaggio**. All'inizio è innocuo (1 minuto, poche parole). Con il tempo:
-
-| Fase                | Durata      | Cosa fa Jason                            |
-| ------------------- | ----------- | ---------------------------------------- |
-| Prima volta         | 1 minuto    | Guarda, respira, dice poche parole, esce |
-| Dopo qualche giorno | 5-10 minuti | Cammina, parla con NPC, esplora          |
-| Dopo settimane      | 1 ora+      | Conversazioni, compra cose, fa piani     |
-| Punto critico       | Non esce    | Rifiuta di restituire il corpo           |
-
-**Come riprendere il controllo:** dolore fisico. Un colpo, anche senza danni meccanici (uno schiaffo, acqua gelata, un pizzicotto forte), destabilizza Jason e lo forza fuori. Funziona sempre nelle prime fasi. Nelle fasi avanzate serve un colpo più forte.
+→ Meccanica completa (scala Presa 0-10, durata, come riprendere il controllo) nel documento principale: `FuoriDaHellfire.md` § "Appendice: Cheat Sheet Anello del Virtuoso".
 
 ---
 
@@ -142,7 +133,7 @@ Se i PG chiedono aiuto a Udo, oppure se citano il fatto che l'anello è maledett
 - **Udo**: *"C'è un vecchio matto nella torre Vellun. Dice di sapere tutto sugli oggetti maledetti. Non so se è bravo o pazzo, ma è l'unico che conosco."*
 - **Fin** ha sentito parlare di lui: *"Vellun? Sì, il vecchio della torre. Dicono che compra roba strana al mercato. Ossa, sale, candele nere."*
 
-**Hawksbridge** è a qualche ora di cammino da Greyhawkins (tre camminando, due a buon passo). Città mercantile di medie dimensioni attraversata da un fiume, ponte di pietra al centro, quartieri ordinati. Il tipo di posto dove "non succede mai niente".
+**Hawksbridge** è a una giornata di cammino da Greyhawkins (verso nord, nell'entroterra). Città mercantile di medie dimensioni attraversata da un fiume, ponte di pietra al centro, quartieri ordinati. Il tipo di posto dove "non succede mai niente".
 
 ### Aldric Vellun, lo studioso
 
@@ -332,13 +323,15 @@ Se il PG ignora Jason e legge il registro:
 
 ---
 
-### Stanza 6: La cella sigillata (opzionale)
+### Stanza 6: La cella sigillata
 
 ### 🎲 Note per il DM
 
 Porta di ferro con il simbolo della Chiave Spezzata. Chiusa a chiave (la chiave è nella stanza 3). Anche con la chiave, la porta richiede Forza CD 15 (cardini arrugginiti).
 
 Questa è la tomba di **Aldric Vellun Senior**, il Magister fondatore dell'Ordine della Chiave Spezzata. Le guardie scheletro nella stanza 3 proteggevano questo luogo.
+
+**Questa stanza è necessaria per la saga:** Aldric Sr. è l'unica fonte della localizzazione della Torre di Ashwick (dove sono le ossa di Jason). Se i PG non aprono il cofanetto, Vellun li indirizza qui: *"Il registro menziona il mio antenato. Le sue spoglie sono nella cella sigillata. Se qualcuno sa dove sono le ossa del bardo, è lui."*
 
 ### 📖 Da leggere ai giocatori (se aprono)
 
@@ -384,7 +377,7 @@ Se i PG portano il registro a Vellun, lo legge in silenzio.
 
 Vellun è sincero. Ha bisogno di tempo per ricostruire il rituale (settimane). Nel frattempo i PG possono cercare lo scheletro di Jason, quest per i moduli successivi.
 
-Vellun può ripetere il rituale del sonno se i PG tornano (1d6+1 giorni di protezione ogni volta). Il costo in componenti cresce esponenzialmente: la prima volta 3 mo, la seconda 30 mo, la terza 300 mo. Vellun se ne accorge solo alla seconda volta. Non è una soluzione permanente.
+Vellun può ripetere il rituale del sonno se i PG tornano (1d6+1 giorni di protezione ogni volta, costi e tempi crescenti — vedi tabella nel documento principale). Vellun se ne accorge solo alla seconda volta. Non è una soluzione permanente. Funziona solo a Presa 1-4; a Presa 5+ non ha effetto.
 
 ---
 
@@ -408,7 +401,7 @@ Nessun level-up. I PG restano lv4.
 | Prologo | Swarm of Rats          | 1   | 1/4 | TRIVIAL                            |
 | 3       | Skeleton + Ghast       | 6+1 | 1/4 + 2 | HARD                           |
 | 4       | Chef Morticcio (Ghoul) | 1   | 1   | TRIVIAL (evitabile)                |
-| 6       | Specter                | 1   | 1   | TRIVIAL (opzionale)                |
+| 6       | Specter                | 1   | 1   | TRIVIAL                            |
 
 ---
 

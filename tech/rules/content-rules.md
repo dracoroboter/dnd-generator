@@ -136,6 +136,38 @@ Se l'avventura è progettata per un party specifico, documentare come scalare pe
 
 ---
 
+## Documento principale: lista personaggi e luoghi
+
+Il documento principale di ogni avventura (`NomeAvventura.md`) deve contenere una sezione centralizzata con personaggi e luoghi. I moduli non ripetono queste informazioni — riportano solo le eccezioni specifiche della puntata.
+
+### Lista personaggi
+
+**Tabella riassuntiva** (formato tabellare, breve): nome, ruolo in poche parole.
+
+**Schede estese** (formato lista, una per personaggio): per ogni NPC con nome proprio, elencare:
+- Dove si trova di solito (posizione base)
+- Cosa sa (conoscenze rilevanti per la trama)
+- Come si comporta (temperamento, reazioni tipiche)
+- Relazioni con altri personaggi (amicizie, inimicizie, debiti)
+- Frasi ricorrenti o tratti distintivi (se rilevanti)
+
+Non includere villain generici (Thug, Guard, ecc.) — quelli vanno solo nei moduli come stat block per i combattimenti.
+
+### Lista luoghi
+
+**Formato tabellare**: nome, dove si trova, descrizione breve (1-2 frasi che danno il contesto al DM).
+
+Le descrizioni lunghe (layout stanze, battle map, dettagli esplorazione) restano nei moduli dove servono.
+
+### Nei moduli
+
+I moduli riportano solo:
+- **Eccezioni** alla posizione base dei personaggi (es. "Sberluccica: rapito nell'Atto 2")
+- **Informazioni aggiuntive** specifiche della puntata (es. "Gorim in questa puntata sa anche che...")
+- Rimando esplicito al documento principale per il resto (es. "Vedi § NPC principali in NomeAvventura.md")
+
+---
+
 ## Loot e ricompense
 
 - Ogni modulo dichiara le ricompense nella sezione `## Ricompense`

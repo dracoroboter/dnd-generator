@@ -137,7 +137,7 @@ Nessuno sa come si chiama. Nessuno ha visto il suo volto. Governa tramite letter
 
 ### La Contessina (Concetta Priapi)
 
-Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle origini. Ha ideato la Gabella Pudicitiae dopo aver scoperto i ritratti deepfake del marito. NON sa del vero ritratto posato volontariamente dal Conte. Ha segregato il pittore del quadro vero nel dungeon del castello.
+Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle origini. Ha ideato la Gabella Pudicitiae dopo aver scoperto i ritratti deepfake del marito. NON sa del vero ritratto posato volontariamente dal Conte. Ha fatto arrestare illegalmente Candido Michelangeli (pittore di deepfake) per rabbia — arresto segreto, nel dungeon del castello.
 
 - **Dove:** Castello del Conte, Aviano. Accessibile solo con credenziali di Gorim.
 - **Cosa sa:** Dei ritratti deepfake del marito. Vuole insabbiare tutto. Ha mandato i suoi a rapire Sberluccica (P4).

@@ -193,6 +193,7 @@ dungeonandragon/
 | File | Scopo |
 |------|-------|
 | `tech/rules/git-workflow.md` | Convenzioni git: commit message, branch, push, credential helper |
+| `tech/rules/session-cycle.md` | Ciclo di sessione: pianificazione, giocata, debriefing, retrofitting — dove va ogni tipo di informazione |
 
 ### Multilingua
 
