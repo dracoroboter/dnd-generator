@@ -139,7 +139,7 @@ Funzionario del Conte, ex-capitano della guarnigione. Tarchiato, pancia prominen
 
 **Se i PG chiedono del Conte:** Sa che è sempre in viaggio. Dalla P5 in poi menziona il Burmini senza dargli peso.
 
-→ Scheda: `characters/NPC_SirGorimVel.md`
+→ Scheda: NPC_SirGorimVel
 
 ### Il Conte (modulo 1)
 
@@ -148,7 +148,7 @@ Nessuno sa come si chiama. Nessuno ha visto il suo volto. Governa tramite letter
 - **Dove:** All'estero (Burmini). Mai presente fisicamente.
 - **Cosa sa:** Ignaro di tutto quello che succede a Fianus in sua assenza.
 
-→ Scheda: `characters/NPC_IlConte.md`
+→ Scheda: NPC_IlConte
 
 ### La Contessina — Concetta Priapi (modulo 2)
 
@@ -159,7 +159,7 @@ Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle ori
 - **Come si comporta:** Nega tutto, caccia i PG se insistono. Chiama le guardie.
 - **Guardie della Contessina:** brutali e malvage (diverse da quelle di Gorim).
 
-→ Scheda: `characters/NPC_Contessina.md`
+→ Scheda: NPC_Contessina
 
 ### Sergius Stanislao Arimano Improbus — il Marchese (modulo 2)
 
@@ -176,7 +176,7 @@ Nobile decaduto di Vetusta Portus. È "S". Cinquantenne gobbo nel vero aspetto, 
   3. Scaricatore di porto dai capelli rossi e naso grosso e rosso da ubriacone
 - **Ogni travestimento appare una volta sola.** CD 25 per smascherarlo.
 
-→ Scheda: `characters/NPC_SergiusArimano.md`
+→ Scheda: NPC_SergiusArimano
 
 ### Domina Lella (modulo 1)
 
@@ -186,7 +186,7 @@ Padrona della Taberna de Franciosibus aut Hispanardis. Grossa, voce tonante, gre
 - **Cosa sa:** Nomi e facce di chiunque sia passato dalla taverna. Pettegolezzi. Niente di utile sulla trama.
 - **Come si comporta:** Reclama soldi. Pigione: 3 mo/settimana (1 ma/giorno a persona).
 
-→ Scheda: `characters/NPC_DominaLella.md`
+→ Scheda: NPC_DominaLella
 
 ### Flavia "La Biscia" (modulo 2)
 
@@ -196,7 +196,7 @@ Commerciante itinerante. Vendeva pozioni rinvigorenti (marchio "Immane Alabarda"
 - **Cosa sa:** Le pozioni le portava un tizio mai visto in faccia, lasciava le casse al porto. Non conosce il produttore (davvero).
 - **Come si comporta:** Diretta, pratica. Parla liberamente delle pozioni ma non dei nudi.
 
-→ Scheda: `characters/NPC_Flavia.md`
+→ Scheda: NPC_Flavia
 
 ### Er Braccio — Salvatore Soggettoni (modulo 3)
 
@@ -206,7 +206,7 @@ Capo della banda al Magazzino 4. Grosso, violento, ce l'ha col Conte per le tass
 - **Cosa sa:** Arimano gli deve soldi. Non sa nulla di S. Non è S.
 - **Come si comporta:** Insulta il Conte, vuole i soldi. Non dice il suo vero nome ("Er Braccio. Basta.").
 
-→ Scheda: `characters/NPC_ErBraccio.md`
+→ Scheda: NPC_ErBraccio
 
 ### Sigfrido Terzilio Scacciapreti (modulo 1)
 

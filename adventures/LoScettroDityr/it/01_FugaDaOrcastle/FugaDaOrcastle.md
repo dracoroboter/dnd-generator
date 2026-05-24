@@ -43,7 +43,7 @@ La nana **Mesusu Merconè**, capitano della nave, li invita a sedersi. Sono pres
 
 Mesusu non rivela, neanche se interrogato, che può localizzare i PG sull'isola grazie ai collari.
 
-Viene poi presentato lo "specialista" Frankie Partenope (vedi `../../characters/markdown/NPC_FrankiePartenope.md`): un criminale che è già riuscito a fuggire da Orcastle. Frankie non risponde a nessuna domanda prima dell'arrivo sull'isola. Mesusu, se interrogato, aggiunge solo che all'arrivo c'è una porta nella cupola e che Ombrascura è un dragonide.
+Viene poi presentato lo "specialista" Frankie Partenope (vedi scheda NPC_FrankiePartenope): un criminale che è già riuscito a fuggire da Orcastle. Frankie non risponde a nessuna domanda prima dell'arrivo sull'isola. Mesusu, se interrogato, aggiunge solo che all'arrivo c'è una porta nella cupola e che Ombrascura è un dragonide.
 
 ### Un inizio traumatico — la caduta sull'isola
 

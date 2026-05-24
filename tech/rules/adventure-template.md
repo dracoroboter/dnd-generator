@@ -276,8 +276,10 @@ Descrizione breve (1-2 righe): razza, ruolo, aspetto distintivo.
 - **Come si comporta:** personalità, tic, atteggiamento verso i PG.
 - **Frase:** (opzionale) battuta ricorrente o frase d'apertura.
 
-→ Scheda: `NPC_NomePersonaggio.md`
+→ Scheda: NPC_NomePersonaggio
 ```
+
+**Regola riferimenti a file:** nel testo dei moduli e del documento principale, non citare path di file (non hanno senso nel PDF). Citare per nome: "→ Scheda: NPC_NomePersonaggio" (senza `.md`, senza path). Il lettore sa che le schede sono in `characters/markdown/`.
 
 Sezioni consigliate (non obbligatorie):
 ```

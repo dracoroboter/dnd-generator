@@ -37,7 +37,7 @@ I PG hanno appena finito lo scontro con i ratti. Korex è fuggito attraverso una
 - **Tono**: mantenere il camp dello starter kit. Korex è teatrale, i ratti sono grotteschi, le fogne sono esagerate. Ma il cliffhanger finale deve avere un cambio di registro, il momento in cui la commedia si ferma e i giocatori capiscono che c'è qualcosa di serio.
 - **Korex in combattimento**: non combatte lealmente. Charma, scappa, manda avanti i servitori. Se messo alle strette, implora pietà. E mente.
 - **Cattura vs uccisione**: entrambe le opzioni sono valide. Se catturato vivo, Korex può dare informazioni (vere e false mescolate). Se ucciso, le informazioni si trovano nei suoi appunti nella tana.
-- **Il cliffhanger**: dopo la milestone, l'Anello del Virtuoso entra in gioco. L'anello era al dito di Korex, è l'origine del suo potere. Contiene l'anima di un bardo antico che vuole tornare in vita. Meccanica a tre livelli: attrazione passiva → tocco (TS Sag CD 20 o indossamento forzato) → possessione progressiva. Se nessun PG lo tocca, una guardia NPC lo indossa e attacca. Dettagli in `DiscussioneNarrativa.md`.
+- **Il cliffhanger**: dopo la milestone, l'Anello del Virtuoso entra in gioco. L'anello era al dito di Korex, è l'origine del suo potere. Contiene l'anima di un bardo antico che vuole tornare in vita. Meccanica a tre livelli: attrazione passiva → tocco (TS Sag CD 20 o indossamento forzato) → possessione progressiva. Se nessun PG lo tocca, una guardia NPC lo indossa e attacca. Dettagli in DiscussioneNarrativa.
 
 **Difficoltà consigliata:** 4-5 PG di livello 3 (iniziale) + Udo Hutchinson + Fin Ditasvelte (NPC companion)
 **Scalabilità:** per 4+ PG, Udo resta indietro a sorvegliare l'ingresso e Fin non si unisce (il charm non si è ancora spezzato). Per 2-3 PG, tenere entrambi i companion.
@@ -56,7 +56,7 @@ Sceriffo di Oakshore, veterano. Uomo robusto sulla cinquantina, capelli grigi, c
 - **Come si comporta:** Diretto, impaziente, non sopporta le perdite di tempo. Non guida il gruppo ma commenta.
 - **Frase:** *"Non ho tempo per queste stronzate."*
 
-→ Scheda: `NPC_UdoHutchinson.md`
+→ Scheda: NPC_UdoHutchinson
 
 ### Korex (modulo 1-2)
 
@@ -68,7 +68,7 @@ Elfo bardo CE, antagonista. Alto, magro, sorriso permanente, occhi che non sorri
 - **Come si comporta:** Teatrale, vigliacco, manipolatore. Charma, scappa, manda avanti i servitori. Se messo alle strette, implora pietà. E mente.
 - **Frase:** *"Pubblico! Finalmente!"*
 
-→ Scheda: `NPC_Korex.md`
+→ Scheda: NPC_Korex
 
 ### Fin Ditasvelte (modulo 1)
 
@@ -80,7 +80,7 @@ Halfling ladro CN, ex-charmato di Korex. Basso, capelli rossi arruffati, sorriso
 - **Come si comporta:** Veloce, curioso, impulsivo. Vuole vendetta su Korex. Tocca tutto.
 - **Frase:** *"Che male può fare dare un'occhiata?"*
 
-→ Scheda: `NPC_FinDitasvelte.md`
+→ Scheda: NPC_FinDitasvelte
 
 ### Jason Accordion (modulo 2)
 
@@ -92,7 +92,7 @@ Bardo umano NM, anima nell'Anello del Virtuoso. Villain della saga. Manipolatore
 - **Come si comporta:** Paziente, affabile, mai aggressivo all'inizio. Offre aiuto, crea dipendenza, poi ricatta.
 - **Frase:** *"Posso aiutarti. Ho bisogno solo di un minuto."*
 
-→ Scheda: `NPC_JasonAccordion.md`
+→ Scheda: NPC_JasonAccordion
 
 ### Aldric Vellun (modulo 3)
 
@@ -104,7 +104,7 @@ Studioso settantenne, discendente del Magister Vellun. Non è un mago — è un 
 - **Come si comporta:** Parla veloce, cambia argomento, si distrae. Genuinamente gentile.
 - **Frase:** *"Vi aspettavo. No, mento. Non vi aspettavo per niente. Ma entrate, entrate. Tè?"*
 
-→ Scheda: `NPC_AldricVellun.md`
+→ Scheda: NPC_AldricVellun
 
 ### Barney Mezzapinta (modulo 3)
 
@@ -115,7 +115,7 @@ Halfling, proprietario della taverna Pint Ahoy a Greyhawkins. Calvo, nervoso, ti
 - **Cosa sa:** Pettegolezzi locali. Sa che qualcosa è salito dalla cantina stanotte.
 - **Come si comporta:** Si torce le mani, vuole che i problemi spariscano senza costargli soldi.
 
-→ Scheda: `NPC_BarneyMezzapinta.md`
+→ Scheda: NPC_BarneyMezzapinta
 
 ### Chef Morticcio (modulo 3)
 
@@ -126,7 +126,7 @@ Ghoul cuoco nella cripta sotto il Pint Ahoy. Grigio, secco, grembiule macchiato.
 - **Cosa sa:** Conosce la cripta. Ricordi frammentari dell'Ordine.
 - **Come si comporta:** Vuole compagnia e qualcuno che apprezzi la sua cucina. Ha fame costante.
 
-→ Scheda: `MON_ChefMorticcio.md`
+→ Scheda: MON_ChefMorticcio
 
 ### Aldric Sr. (modulo 3, stanza 6)
 
@@ -163,12 +163,12 @@ Alchimista umano anziano in un villaggio a mezza giornata da Hawksbridge. Distra
 
 ### Mostri
 
-- **Teppisti charmati** — servitori di Korex, gente del porto sotto incantesimo. → `MON_TeppistaCharmato.md`
-- **Ratti corrotti** — ratti con occhi rossi e comportamento innaturale. → `MON_RattoCorrotto.md`
-- **Sciame di ratti** — sciame nelle fogne. → `MON_SciameDiRatti.md`
-- **Scheletri** — custodi della cripta. → `MON_Skeleton.md`
-- **Ghast** — capo custode della cripta. → `MON_Ghast.md`
-- **Specter** — entità sigillata nel cofanetto. → `MON_Specter.md`
+- **Teppisti charmati** — servitori di Korex, gente del porto sotto incantesimo. → MON_TeppistaCharmato
+- **Ratti corrotti** — ratti con occhi rossi e comportamento innaturale. → MON_RattoCorrotto
+- **Sciame di ratti** — sciame nelle fogne. → MON_SciameDiRatti
+- **Scheletri** — custodi della cripta. → MON_Skeleton
+- **Ghast** — capo custode della cripta. → MON_Ghast
+- **Specter** — entità sigillata nel cofanetto. → MON_Specter
 
 ## Luoghi
 
@@ -198,7 +198,7 @@ Alchimista umano anziano in un villaggio a mezza giornata da Hawksbridge. Distra
 
 ## Appendice: Cheat Sheet Anello del Virtuoso
 
-Riferimento rapido per il DM. Dettagli completi in `NPC_JasonAccordion.md` e `DiscussioneNarrativa.md`.
+Riferimento rapido per il DM. Dettagli completi in NPC_JasonAccordion e DiscussioneNarrativa.
 
 **Aspetto**: anello d'argento annerito, incisione ouroboros musicale. È al dito di Korex.
 
@@ -213,7 +213,7 @@ Riferimento rapido per il DM. Dettagli completi in `NPC_JasonAccordion.md` e `Di
 | vantaggi | malus |
 |----------|-------|
 | +2 a una caratteristica (per classe) | L'anello non si toglie |
-| 1 cantrip da bardo 1/giorno senza slot (fisso per classe, vedi `OBJ_AnelloDelVirtuoso.md`) | Incubi la prima notte (niente riposo lungo) |
+| 1 cantrip da bardo 1/giorno senza slot (fisso per classe, vedi OBJ_AnelloDelVirtuoso) | Incubi la prima notte (niente riposo lungo) |
 | Vantaggio TS contro charm | Freddo costante alla mano |
 | Jason può offrire un suo incantesimo da bardo lv1-5 (sceglie lui quale e quando — Presa +1) | Vulnerabilità danni psichici |
 
@@ -234,7 +234,7 @@ Riferimento rapido per il DM. Dettagli completi in `NPC_JasonAccordion.md` e `Di
 | Evento | Presa |
 |--------|-------|
 | Cedere a una richiesta di Jason (lasciarlo uscire, fare qualcosa per lui) | +1 |
-| Usare il potere minore dell'anello (cantrip da bardo per classe, vedi `OBJ_AnelloDelVirtuoso.md`) | +1 (solo su risultato 1 al d8) |
+| Usare il potere minore dell'anello (cantrip da bardo per classe, vedi OBJ_AnelloDelVirtuoso) | +1 (solo su risultato 1 al d8) |
 | Lasciare che Jason usi un suo incantesimo da bardo attraverso il portatore (Jason sceglie quale, lv1-5) | +1 |
 | Credere a un'influenza di Jason / agire sulla base di una sua menzogna | +1 |
 

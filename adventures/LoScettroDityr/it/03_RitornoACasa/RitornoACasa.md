@@ -357,7 +357,7 @@ Sul fondo della vasca i PG trovano uno **Scudo Guardia dell'Incantesimo (Spellgu
 
 ### Othran Vorash
 
-Mezzelfo warlock di Vecna lv10, CR 8. Stat block completo: vedi `characters/markdown/NPC_OthranVorash.md`.
+Mezzelfo warlock di Vecna lv10, CR 8. Stat block completo: vedi scheda NPC_OthranVorash.
 
 ### Il piano di Othran Vorash
 

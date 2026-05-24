@@ -203,7 +203,7 @@ Colonne con raffigurazioni di Tyr e iscrizioni con passi teologici degli scritti
 
 Un enorme affresco sulla parete ovest raffigura il Tempio di Tyr con discepoli che entrano ed escono. Le immagini dei discepoli sono lievemente luminose — senza bisogno di tiri, i personaggi lo notano. Se indagano, percepiscono una lieve magia di evocazione emanata dall'affresco. Possono vedere la scritta in antico elfico "Il Guardiano di Lumina/Tyr", che è il titolo e il compito del golem.
 
-Un golem di pietra è accovacciato in mezzo alla stanza. Attacca chiunque entri. Il golem è chiaramente ferito. Era originariamente un guardiano sacro del tempio, ma ora è pervaso dall'influenza oscura di Vecna. Stat block completo: vedi `characters/markdown/MON_GuardianoLumina.md`.
+Un golem di pietra è accovacciato in mezzo alla stanza. Attacca chiunque entri. Il golem è chiaramente ferito. Era originariamente un guardiano sacro del tempio, ma ora è pervaso dall'influenza oscura di Vecna. Stat block completo: vedi scheda MON_GuardianoLumina.
 
 **Difficoltà incontro:** MEDIUM (4-5 PG lv9) — il golem ha solo 50 PF dei 178 originali.
 
@@ -336,9 +336,9 @@ Se il golem della Sala 4 non è stato sconfitto in precedenza, si trova di fianc
 | Alaric il Giusto | 1 | 90 | 15 | vedi sotto | Variante Mago (MM pag. 348) |
 | Guardiano di Lumina | 1 | 50 | 17 | +8, 3d8+6 pugno | Solo se non sconfitto prima. Combatte al fianco dei PG |
 
-Stat block completo: vedi `characters/markdown/NPC_SirAlaric.md`.
+Stat block completo: vedi scheda NPC_SirAlaric.
 
-Stat block completo: vedi `characters/markdown/MON_GuardianoLumina.md`.
+Stat block completo: vedi scheda MON_GuardianoLumina.
 
 ## Indizi chiave
 

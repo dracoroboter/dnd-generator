@@ -47,97 +47,97 @@ L'avventura inizia con il rapimento dei PG da parte di **Lord Cedric Malebranche
 
 ## NPC principali
 
-Schede complete in `characters/markdown/`.
+Schede complete nella sezione characters.
 
 ### Frankie Partenope (modulo 1)
 
 Barbaro umano lv5, ex avventuriero ed eroe del popolo. Costretto a collaborare con i PG nel Modulo 1 (collare esplosivo). Odia Malebranche. Torna nel Modulo 4 come alleato.
 
-→ Scheda: `NPC_FrankiePartenope.md`
+→ Scheda: NPC_FrankiePartenope
 
 ### Malachias Ombrascura (modulo 1)
 
 Chierico dragonide, alias Elemir Strunz. Ha rubato la Pergamena del Giudizio. Si nasconde a Orcastle sotto falsa identità. Torna nel Modulo 4.
 
-→ Scheda: `NPC_MalachiasOmbrascura.md`
+→ Scheda: NPC_MalachiasOmbrascura
 
 ### Brother Thaddeus (modulo 2)
 
 Monaco, ex discepolo di Tyr. Ha lasciato l'ordine dopo aver scoperto le vere intenzioni di Alaric. Offre informazioni cruciali nel Modulo 2.
 
-→ Scheda: `NPC_BrotherThaddeus.md`
+→ Scheda: NPC_BrotherThaddeus
 
 ### Ludmilla Dawnshield (modulo 3)
 
 Esploratrice umana, discendente dei primi esploratori di Svoalbard. Guida i PG verso l'isola nel Modulo 3.
 
-→ Scheda: `NPC_LudmillaDawnshield.md`
+→ Scheda: NPC_LudmillaDawnshield
 
 ### Helmut Van Heuten (modulo 3)
 
 Mercante devoto a Tyr, finanzia e supporta la missione nel Modulo 3.
 
-→ Scheda: `NPC_HelmutVanHeuten.md`
+→ Scheda: NPC_HelmutVanHeuten
 
 ### Lord Cedric Malebranche (modulo 1)
 
 Arcimago necromante, governatore corrotto di Orcastle. Mandante del rapimento nel Modulo 1. Villain finale nel Modulo 4.
 
-→ Scheda: `NPC_LordMalebranche.md`
+→ Scheda: NPC_LordMalebranche
 
 ### Sir Alaric il Giusto (modulo 2)
 
 Alto sacerdote dei Custodi dell'Equilibrio. Nasconde ambizioni di potere assoluto. Antagonista del Modulo 2.
 
-→ Scheda: `NPC_SirAlaric.md`
+→ Scheda: NPC_SirAlaric
 
 ### Othran Vorash (modulo 3)
 
 Mezzelfo warlock di Vecna, lv10. Insegue i PG per rubare lo Scettro nei Moduli 3-4.
 
-→ Scheda: `NPC_OthranVorash.md`
+→ Scheda: NPC_OthranVorash
 
 ### Zalhara Lorenn (modulo 3)
 
 Spia umana al servizio di Vecna. Viaggia sulla stessa nave dei PG nel Modulo 3.
 
-→ Scheda: `NPC_ZalharaLorenn.md`
+→ Scheda: NPC_ZalharaLorenn
 
 ### Axel Ruby (modulo 1)
 
 Leader della banda dei Ruby (est di Orcastle), ex vassallo di Malebranche.
 
-→ Scheda: `NPC_AxelRuby.md`
+→ Scheda: NPC_AxelRuby
 
 ### Miranda Emerald (modulo 1)
 
 Leader della banda degli Emerald (ovest di Orcastle), maga esperta di illusioni.
 
-→ Scheda: `NPC_MirandaEmerald.md`
+→ Scheda: NPC_MirandaEmerald
 
 ### Lord Kreig Highlander (modulo 1)
 
 Leader del Castro (centro di Orcastle), cugino segreto di Malebranche. Diventa conte nel Modulo 4.
 
-→ Scheda: `NPC_KreigHighlander.md`
+→ Scheda: NPC_KreigHighlander
 
 ### Mesusu Merconè (modulo 3)
 
 Nana, capitano della nave volante Airborne.
 
-→ Scheda: `NPC_MesusuMercone.md`
+→ Scheda: NPC_MesusuMercone
 
 ### Kurzum (modulo 1)
 
 Nana, proprietaria del Giavellotto Fantasma, mediatrice della missione.
 
-→ Scheda: `NPC_Kurzum.md`
+→ Scheda: NPC_Kurzum
 
 ### Zikle l'Illuminato (modulo 4)
 
 Mago goblin, creatore della Pergamena del Giudizio. Ucciso da Malebranche, evocato come wraith nel Modulo 4.
 
-→ Scheda: `NPC_Zikle.md`
+→ Scheda: NPC_Zikle
 
 ### Tungsten (modulo 4)
 
@@ -147,7 +147,7 @@ Nano, ex compagno d'avventura dei PG. Ha lasciato la vita da avventuriero, si è
 
 Gnomo, capitano della nave La Nuova Speranza.
 
-→ Scheda: `NPC_OrlommGlittergear.md`
+→ Scheda: NPC_OrlommGlittergear
 
 ### Divinità
 
