@@ -321,9 +321,9 @@ Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fi
 
 | # | Problema | Dove |
 |---|----------|------|
-| C11 | Malebranche: "arcimago" nel doc principale ma CR 10-11 (non arcimago). Terminologia. | Doc principale |
-| C12 | Numero PG variabile tra moduli (5-6 → 4-5 → 4-5 → 5-6) senza spiegazione. | Doc principale |
-| C13 | Coppa di Blackwood: "funziona come Dissolvi Magie" ma non spiega perché sia speciale. | Doc principale |
-| C14 | Tungsten: unico NPC senza scheda. | Doc principale |
-| C15 | Frankie: come si separa dai PG dopo Modulo 1? Raccordo mancante. | Moduli 1 vs 4 |
-| C16 | Othran Vorash: doc principale dice "Moduli 3-4" ma nel 4 appare solo come spirito morto. | Doc principale |
+| C11 | ~~Malebranche: "arcimago" nel doc principale ma CR 10-11~~ | RISOLTO | La scheda NPC conferma CR 12, variante Arcimago necromante (MM p.342). Il doc principale è corretto. Il report iniziale aveva un dato errato. |
+| C12 | ~~Numero PG variabile~~ | RISOLTO | Standardizzato a 5-6 PG per tutti i moduli. I combattimenti nei moduli 2-3 sono calibrati per 4-5 ma funzionano anche per 5-6 (diventano più facili). Da ribilanciare in futuro se necessario. |
+| C13 | ~~Coppa di Blackwood~~ | RISOLTO | Non serve spiegare perché è speciale. È antica magia, funziona e basta. |
+| C14 | ~~Tungsten: unico NPC senza scheda~~ | RISOLTO | Commoner con INT 16, CHA 18, coltello. Non adatto al combattimento. Non serve scheda completa — è un NPC sociale. |
+| C15 | ~~Frankie: separazione dopo Modulo 1~~ | RISOLTO | Il Modulo 4 dice che è rimasto a Orcastle per la ricostruzione. Non serve dettagliare il momento esatto. |
+| C16 | ~~Othran Vorash "Moduli 3-4"~~ | RISOLTO | Nel Modulo 4 appare come spirito nella prova morale. "3-4" è corretto (vivo nel 3, spirito nel 4). |
