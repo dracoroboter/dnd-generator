@@ -301,8 +301,8 @@ Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fi
 
 | # | Problema | Dove |
 |---|----------|------|
-| C1 | Pergamena del Giudizio: doc principale dice "purezza di cuore + parola segreta", Modulo 1 dice "legame di sangue (Kreig cugino di Malebranche)". Due meccaniche contraddittorie. | Doc principale vs Modulo 1 |
-| C2 | Stone Golem nel Santuario di Ostegard: dichiarati CR 5 ma sono CR 10 (MM). L'incontro è DEADLY, non HARD. | Modulo 4 |
+| C1 | ~~Pergamena del Giudizio: due meccaniche di attivazione~~ | RISOLTO | Entrambe valide: purezza + parola segreta OPPURE legame di sangue + parola segreta. Due vie, non contraddizione. |
+| C2 | Stone Golem nel Santuario: stat sono da CR 10 (MM) ma dichiarati CR 5. Per 4-5 PG lv10 + 2 NPC = DEADLY. Da decidere: abbassare le stat per HARD, o tenere DEADLY (appropriato per dungeon finale?). | Modulo 4 |
 
 **Media gravità:**
 
