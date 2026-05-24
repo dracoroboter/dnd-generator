@@ -263,7 +263,21 @@ Sezioni obbligatorie:
 ## Struttura dell'avventura
 ```
 
-**Regola NPC principali:** ogni NPC nell'elenco deve indicare il modulo in cui compare per la prima volta nel titolo (es. `### Nome NPC (modulo N)`).
+**Regola NPC principali:** ogni NPC nell'elenco deve indicare il modulo in cui compare per la prima volta nel titolo (es. `### Nome NPC (modulo N)`). Il corpo segue questo formato:
+
+```markdown
+### Nome NPC (modulo N)
+
+Descrizione breve (1-2 righe): razza, ruolo, aspetto distintivo.
+
+- **Dove:** dove si trova di solito o dove i PG lo incontrano.
+- **Ruolo:** funzione nell'avventura (alleato, antagonista, quest giver, companion...).
+- **Cosa sa:** informazioni che possiede, rilevanti per la trama.
+- **Come si comporta:** personalità, tic, atteggiamento verso i PG.
+- **Frase:** (opzionale) battuta ricorrente o frase d'apertura.
+
+→ Scheda: `NPC_NomePersonaggio.md`
+```
 
 Sezioni consigliate (non obbligatorie):
 ```

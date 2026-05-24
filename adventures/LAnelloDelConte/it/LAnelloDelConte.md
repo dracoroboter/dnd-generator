@@ -127,7 +127,7 @@ La povertà è comica, non punitiva. I PG non muoiono di fame - ma non comprano 
 
 Le schede meccaniche (stat block) sono in `characters/`. Qui sotto: chi sono, cosa sanno, dove trovarli, come si comportano.
 
-### Sir Gorim Vel
+### Sir Gorim Vel (modulo 1)
 
 Funzionario del Conte, ex-capitano della guarnigione. Tarchiato, pancia prominente, gesticola con la pergamena. Tirchio patologico. Sinceramente legato al Conte, disprezza la Contessina ma la difende per difendere il Conte.
 
@@ -141,7 +141,7 @@ Funzionario del Conte, ex-capitano della guarnigione. Tarchiato, pancia prominen
 
 → Scheda: `characters/NPC_SirGorimVel.md`
 
-### Il Conte
+### Il Conte (modulo 1)
 
 Nessuno sa come si chiama. Nessuno ha visto il suo volto. Governa tramite lettere e messaggeri. Sempre in viaggio (nel Burmini, ma nessuno lo sa). Ha posato volontariamente per un ritratto nudo, divertito dalla cosa. Muore nell'esplosione finale senza che i PG lo incontrino mai.
 
@@ -150,7 +150,7 @@ Nessuno sa come si chiama. Nessuno ha visto il suo volto. Governa tramite letter
 
 → Scheda: `characters/NPC_IlConte.md`
 
-### La Contessina (Concetta Priapi)
+### La Contessina — Concetta Priapi (modulo 2)
 
 Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle origini. Ha ideato la Gabella Pudicitiae dopo aver scoperto i ritratti deepfake del marito. NON sa del vero ritratto posato volontariamente dal Conte. Ha fatto arrestare illegalmente Candido Michelangeli (pittore di deepfake) per rabbia — arresto segreto, nel dungeon del castello.
 
@@ -161,7 +161,7 @@ Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle ori
 
 → Scheda: `characters/NPC_Contessina.md`
 
-### Sergius Stanislao Arimano Improbus (il Marchese)
+### Sergius Stanislao Arimano Improbus — il Marchese (modulo 2)
 
 Nobile decaduto di Vetusta Portus. È "S". Cinquantenne gobbo nel vero aspetto, in pubblico va come versione aitante di sé stesso. Maestro del camuffamento. Vuole vendetta su Conte e Contessina. Vuole che i PG passino dalla sua parte e decidano che la Contessina è il nemico.
 
@@ -178,7 +178,7 @@ Nobile decaduto di Vetusta Portus. È "S". Cinquantenne gobbo nel vero aspetto, 
 
 → Scheda: `characters/NPC_SergiusArimano.md`
 
-### Domina Lella
+### Domina Lella (modulo 1)
 
 Padrona della Taberna de Franciosibus aut Hispanardis. Grossa, voce tonante, grembiule unto. Reclama la pigione con insistenza. Conosce tutti quelli che passano dalla taverna.
 
@@ -188,7 +188,7 @@ Padrona della Taberna de Franciosibus aut Hispanardis. Grossa, voce tonante, gre
 
 → Scheda: `characters/NPC_DominaLella.md`
 
-### Flavia "La Biscia"
+### Flavia "La Biscia" (modulo 2)
 
 Commerciante itinerante. Vendeva pozioni rinvigorenti (marchio "Immane Alabarda"), le comprava da intermediario anonimo. Non vendeva nudi - è una moralista.
 
@@ -198,7 +198,7 @@ Commerciante itinerante. Vendeva pozioni rinvigorenti (marchio "Immane Alabarda"
 
 → Scheda: `characters/NPC_Flavia.md`
 
-### Er Braccio (Salvatore Soggettoni)
+### Er Braccio — Salvatore Soggettoni (modulo 3)
 
 Capo della banda al Magazzino 4. Grosso, violento, ce l'ha col Conte per le tasse. Falsa pista per S.
 
@@ -208,7 +208,7 @@ Capo della banda al Magazzino 4. Grosso, violento, ce l'ha col Conte per le tass
 
 → Scheda: `characters/NPC_ErBraccio.md`
 
-### Sigfrido Terzilio Scacciapreti
+### Sigfrido Terzilio Scacciapreti (modulo 1)
 
 Verduraio a Settebagni. Carretto di rape. L'ingresso delle fogne è sotto il suo carretto (non lo sa o finge di non saperlo). NPC indipendente, non è Sergius.
 
