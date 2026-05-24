@@ -149,10 +149,19 @@ Gnomo, capitano della nave La Nuova Speranza.
 
 → Scheda: NPC_OrlommGlittergear
 
-### Divinità
+### Vecna — divinità (trasversale)
 
-- **Vecna** — Dio dei Segreti. Manipolatore, non combatte direttamente. Appare come avatar alla Torre di Torth.
-- **Tyr** — Dio della Giustizia. Appare al Tempio di Lumina e a Svoalbard. Pone prove di purezza.
+Dio dei Segreti. Manipolatore, non combatte direttamente. Appare come avatar alla Torre di Torth.
+
+- **Ruolo:** burattinaio, dà la missione nel Modulo B, insegue tramite agenti nei Moduli C-D.
+- **Come si comporta:** divertito, calcolatore, tratta i mortali come pedine.
+
+### Tyr — divinità (trasversale)
+
+Dio della Giustizia. Appare al Tempio di Lumina e a Svoalbard. Pone prove di purezza.
+
+- **Ruolo:** giudice, protegge lo Scettro, premia i puri di cuore.
+- **Come si comporta:** severo, imparziale, non interviene direttamente se non attraverso prove.
 
 ## Luoghi
 
