@@ -65,6 +65,7 @@ Questa è la versione **"Draco"** — porting fedele del materiale legacy. Una v
 ### Altro
 - [x] NPC 'Divinità': manca tag (modulo N) — riformattate come `### Nome — divinità (trasversale)`
 - [ ] Nomenclatura moduli: sostituire "Modulo A/B/C/D" → "Modulo 1/2/3/4" nel testo (doc principale, PlanBook, AdventureBook). Le directory sono già numeriche.
+- [ ] **Three Clue Rule — parola segreta pergamena (Modulo 1):** solo Ombrascura conosce la parola per attivare la pergamena. Se i PG non lo trovano o non lo convincono, l'avventura si blocca. Aggiungere almeno un secondo modo per scoprirla (es. Kreig la conosce per tradizione familiare, o è scritta in un documento nel castro).
 
 ## Log sessioni di lavoro
 
