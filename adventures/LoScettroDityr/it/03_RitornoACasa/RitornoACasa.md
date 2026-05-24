@@ -1,4 +1,4 @@
-# Modulo C: Ritorno a Casa
+# Puntata 3: Ritorno a Casa
 
 ## Preludio — Dopo il Tempio di Lumina
 

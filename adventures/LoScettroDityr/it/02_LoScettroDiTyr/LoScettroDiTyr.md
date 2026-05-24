@@ -1,4 +1,4 @@
-# Modulo B: Lo Scettro di Tyr
+# Puntata 2: Lo Scettro di Tyr
 
 ## Preludio — Dopo Orcastle
 
