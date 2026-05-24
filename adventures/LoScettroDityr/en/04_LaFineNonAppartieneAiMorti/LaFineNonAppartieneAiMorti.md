@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# The End Does Not Belong to the Dead
+# Module 4: The End Does Not Belong to the Dead
 
 ## Prelude — After Svoalbard
 

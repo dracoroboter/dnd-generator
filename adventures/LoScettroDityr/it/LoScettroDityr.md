@@ -1,5 +1,19 @@
 # Lo Scettro di Tyr
 
+## Indice
+
+- Lore
+- Introduzione
+- Plot generale
+- Consigli al master
+- NPC principali
+- Luoghi
+- Oggetti chiave
+- Struttura dell'avventura
+- Agganci futuri
+
+---
+
 ## Lore
 
 Lo **Scettro di Tyr** è un'arma divina che si narra fosse impugnata da Tyr stesso. Solo i puri possono usarlo senza subire la maledizione che consuma l'anima e trasforma in un servitore non morto. Lo Scettro fu perduto durante la **Caduta del Tempio di Lumina**, quando un sacerdote corrotto da Vecna tentò di rubarlo. **Ormut**, un incantatore devoto di Tyr, lo teletrasportò in un luogo sconosciuto — il **Regno di Erythale**, un piano etereo di luce e cristallo — prima di morire per mano dei traditori.

@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# Return Home
+# Module 3: Return Home
 
 ## Prelude — After the Temple of Lumina
 

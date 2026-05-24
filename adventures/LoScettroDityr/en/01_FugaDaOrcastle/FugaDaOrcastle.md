@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# Escape from Orcastle
+# Module 1: Escape from Orcastle
 
 ## Description
 

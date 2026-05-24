@@ -1,6 +1,6 @@
 > ⚠️ Auto-translated from Italian. The Italian version is the source of truth.
 
-# The Scepter of Tyr
+# Module 2: The Scepter of Tyr
 
 ## Prelude — After Orcastle
 
