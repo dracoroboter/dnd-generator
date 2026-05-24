@@ -299,6 +299,7 @@ Descrizione breve (1-2 righe): razza, ruolo, aspetto distintivo.
 - **Ruolo:** funzione nell'avventura (alleato, antagonista, quest giver, companion...).
 - **Cosa sa:** informazioni che possiede, rilevanti per la trama.
 - **Come si comporta:** personalità, tic, atteggiamento verso i PG.
+- **Come reagisce:** (opzionale) reazione a inganno, diplomazia, intimidazione, violenza.
 - **Frase:** (opzionale) battuta ricorrente o frase d'apertura.
 
 → Scheda: NPC_NomePersonaggio

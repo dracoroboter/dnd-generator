@@ -35,6 +35,8 @@ Usare blockquote per il testo da leggere ad alta voce:
 > Al centro, una figura incappucciata vi volta le spalle.
 ```
 
+**Suggerimento:** mantenere il boxed text breve (3-5 frasi). Descrivere solo ciò che i PG percepiscono (vista, udito, olfatto), non le loro emozioni né azioni che non hanno scelto. Le informazioni che richiedono un tiro vanno dopo il blockquote, non dentro.
+
 ---
 
 ## Distanze e unità di misura

@@ -53,6 +53,12 @@ Se i PG entrano in un dungeon o in un luogo con più stanze/aree, il modulo deve
 
 ---
 
+## Brevità nei moduli
+
+I moduli contengono solo ciò che serve al tavolo. La backstory lunga (storia del mondo, antefatti, motivazioni profonde degli antagonisti) va nel documento principale (sezione Lore o NPC principali), non ripetuta nei moduli. Nei moduli: situazione attuale, cosa succede, cosa possono fare i PG.
+
+---
+
 ## Struttura narrativa
 
 Ogni avventura deve avere almeno:
@@ -61,6 +67,10 @@ Ogni avventura deve avere almeno:
 - Un incontro di roleplay
 
 Prevedere sempre almeno una soluzione alternativa al combattimento per ogni scontro principale.
+
+### Regola degli indizi multipli
+
+Per ogni informazione critica che i PG devono scoprire per far avanzare l'avventura, prevedere **almeno 2-3 modi** per trovarla. Se ne esiste solo uno e i PG lo mancano, l'avventura si blocca. Esempi di modi alternativi: un NPC diverso che sa la stessa cosa, un documento trovabile in un altro luogo, un incantesimo di divinazione, un indizio ambientale.
 
 ### Checkpoint narrativi (suggerimento per avventure multi-modulo)
 
@@ -71,6 +81,14 @@ Nelle avventure con più moduli sequenziali, le scelte dei giocatori possono cre
 - Il corpo del modulo non cambia in base alle scelte precedenti
 
 Questo approccio non è obbligatorio ma è consigliato quando il numero di percorsi possibili rende il testo ingestibile.
+
+### Struttura a nodi (alternativa per avventure sandbox)
+
+Per avventure non lineari, considerare il **node-based design**: l'avventura è un grafo di nodi (luoghi, NPC, eventi) collegati da indizi. I PG possono attraversare il grafo in qualsiasi ordine. Ogni nodo deve avere almeno 2-3 indizi che puntano ad altri nodi (coerente con la regola degli indizi multipli). Questo approccio è consigliato per avventure sandbox; le avventure lineari possono ignorarlo.
+
+### Minacce che avanzano (opzionale)
+
+Per dare urgenza senza forzare i PG su un percorso, considerare minacce che avanzano nel tempo indipendentemente dalle azioni dei PG (es. timer che scade, nemico che si rafforza, situazione che peggiora). Se i PG non agiscono, il mondo cambia. Documentare nel modulo cosa succede se i PG ignorano la minaccia.
 
 ---
 
