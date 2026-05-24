@@ -2,7 +2,7 @@
 
 ## Panoramica
 
-Antico tempio dedicato a Vecna, costruito dal sacerdote Ablunth Torth come monumento al potere oscuro. Si trova nella zona Nord dell'isola di Orcastle, oltre la pianura rocciosa infestata da cultisti e diavoli. La torre è in pietra nera, apparentemente disabitata, con una spirale di scale ripide. L'aria è densa di energia magica e sulle pareti ci sono iscrizioni in una lingua perduta.
+Antico tempio dedicato a Dispater, costruito dal sacerdote Ablunth Torth come monumento al potere oscuro. Si trova nella zona Nord dell'isola di Orcastle, oltre la pianura rocciosa infestata da cultisti e diavoli. La torre è in pietra nera, apparentemente disabitata, con una spirale di scale ripide. L'aria è densa di energia magica e sulle pareti ci sono iscrizioni in una lingua perduta.
 
 La struttura ha tre livelli: ingresso/salone al piano terra, stanza dell'altare in cima, e dungeon sotterraneo accessibile tramite un pozzo che si apre con un rituale.
 
@@ -26,7 +26,7 @@ La struttura ha tre livelli: ingresso/salone al piano terra, stanza dell'altare 
             [INGRESSO]
 ```
 
-- **Pareti:** Iscrizioni in lingua perduta. Decifrabili con Comprendere Linguaggi o Arcano CD 15. Testo: "Onore a Vecna, Vecna che apre le porte; alzo il calice e brindo a te."
+- **Pareti:** Iscrizioni in lingua perduta. Decifrabili con Comprendere Linguaggi o Arcano CD 15. Testo: "Dispater signore degli inferi, Dispater che apre le porte; alzo il calice e brindo a te."
 - **Scala a spirale:** Scale ripide che portano alla stanza in cima alla torre.
 - **Aspetto:** Pietra nera, aria densa di energia magica.
 
@@ -70,7 +70,7 @@ La struttura ha tre livelli: ingresso/salone al piano terra, stanza dell'altare 
 - **Aria:** Fredda e vibrante di potere antico.
 
 **Contenuto chiave:**
-- **Coppa di Blackwood** — Nascosta tra le altre coppe sull'altare. Scritta in comune: "Oscura è la notte nel cuore dei giusti". Raccoglierla e leggere la scritta fa apparire Vecna.
+- **Coppa di Blackwood** — Nascosta tra le altre coppe sull'altare. Scritta in comune: "Oscura è la notte nel cuore dei giusti". Raccoglierla e leggere la scritta fa apparire Dispater.
 - **Iscrizione del rituale:** "Il tuo sangue offrire, un segreto rivelare e infine brucia, figlio mio, brucia ciò che è già bruciato."
 - **Murales:** Rappresenta gocce rosse, un fuoco, un'ombra che scende da una scala uscendo da un pozzo aperto.
 
@@ -129,7 +129,7 @@ La struttura ha tre livelli: ingresso/salone al piano terra, stanza dell'altare 
 - Intuizione o Arcano CD 15 per capire che ignorare i doppi è la soluzione.
 - I doppi usano solo attacchi base e cantrip, stessi PF/CA dei PG, vulnerabili a danni psichici, non guariscono.
 
-**Prova 2 — Labirinto di Vecna:**
+**Prova 2 — Labirinto di Dispater:**
 - Pavimento a scacchiera con lettere su ogni piastrella.
 - Camminare sulle lettere giuste per formare "V.E.C.N.A."
 - Lettera errata: dardo avvelenato, 2d4+2 danni perforanti a tutti (TS Destrezza CD 12 dimezza).
@@ -143,7 +143,7 @@ La struttura ha tre livelli: ingresso/salone al piano terra, stanza dell'altare 
 **Il Portale del Teletrasporto:**
 - Richiede la Coppa di Blackwood.
 - Arcana o Storia CD 15 per capire il rito.
-- Brindare con la coppa in onore di Vecna attiva il portale.
+- Brindare con la coppa in onore di Dispater attiva il portale.
 - Teletrasporta nei pressi del palazzo di Malebranche sul continente.
 
 ## Note per il DM
@@ -156,12 +156,12 @@ Servono almeno **2 passaggi su 3**:
 2. **Evocare il passato** — Raccontare ad alta voce un ricordo o promessa. Persuasione o Religione CD 13. Se falliscono, le statue prendono vita e attaccano.
 3. **Accendere le fiamme sacre** — Incantesimo di fuoco (Palla di Fuoco, Mano Bruciante o simile) sulle ceneri nella vasca. Le gemme delle statue brillano, forte rumore dalle fondamenta.
 
-### Apparizione di Vecna (Livello 2)
+### Apparizione di Dispater (Livello 2)
 
 - Appare quando la Coppa di Blackwood viene raccolta e la scritta letta.
 - È un avatar: non può essere colpito e non può colpire.
 - Propone un patto: toglierà i collari in cambio di una missione futura (non specificata).
-- Se accettano, rivela che la coppa funziona come Dissolvi Magie. Parola magica: "Obloc Vecnal" (Lode a Vecna in infernale).
+- Se accettano, rivela che la coppa funziona come Dissolvi Magie. Parola magica: "Dispater ekar rulvar" (Dispater regna eternamente in infernale).
 - I PG possono scoprire la funzione anche con Arcana CD 15. Individuazione del Magico rivela solo abiurazione.
 
 ### Doppi nella Sala del Riflesso

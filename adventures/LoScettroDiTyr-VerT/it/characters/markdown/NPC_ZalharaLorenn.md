@@ -2,7 +2,7 @@
 
 ## Informazioni generali
 
-- **Ruolo**: spia al servizio di Vecna
+- **Ruolo**: spia al servizio di Dispater
 - **Razza**: umana
 - **Allineamento**: Neutrale Malvagio
 - **Stat block**: Spia (*Manuale dei Mostri*) — vedi [Stat Block](#stat-block)
@@ -33,7 +33,7 @@ Tratto distintivo: è così convincente nel suo ruolo di studiosa che persino i 
 
 ## Motivazioni
 
-Zalhara è una fanatica di Vecna, devota al dio dei segreti con la stessa intensità che finge di avere per Tyr. La sua missione è spiare i PG e riferire ogni loro mossa a Othran Vorash.
+Zalhara è una fanatica di Dispater, devota al dio dei segreti con la stessa intensità che finge di avere per Tyr. La sua missione è spiare i PG e riferire ogni loro mossa a Othran Vorash.
 
 Conosce la maledizione dello Scettro di Tyr — sa cosa succede a chi lo impugna senza esserne degno. Questa conoscenza la rende pericolosa: potrebbe manipolare i PG verso lo Scettro sapendo che li distruggerà.
 
@@ -45,10 +45,10 @@ La sua missione è osservare e riferire — non combattere. Evita lo scontro dir
 
 ## Note al master
 
-- Zalhara è progettata per essere scoperta *tardi*. Più a lungo resta nel gruppo o nelle vicinanze dei PG, più informazioni passa a Vecna. Il danno che fa è informativo, non fisico.
+- Zalhara è progettata per essere scoperta *tardi*. Più a lungo resta nel gruppo o nelle vicinanze dei PG, più informazioni passa a Dispater. Il danno che fa è informativo, non fisico.
 - I documenti nella sua borsa sono la prova della sua vera identità — ma la trappola esplosiva (3d6 fuoco, TS Des CD 13) scoraggia i curiosi. L'incisione sull'anello (*"gira a sinistra"*) è l'unico indizio per disarmarla.
 - Se i PG la confrontano con prove, Zalhara nega tutto con calma e cerca di ribaltare le accuse. Solo se messa alle strette senza via d'uscita rivela la sua vera natura — e a quel punto cerca di fuggire, non di combattere.
-- **Indizi per i PG**: Zalhara sa troppo sulla maledizione dello Scettro per essere una semplice studiosa. Un PG attento (Intuizione CD 15) potrebbe notare che le sue conoscenze su Vecna sono sospettosamente dettagliate per una devota di Tyr.
+- **Indizi per i PG**: Zalhara sa troppo sulla maledizione dello Scettro per essere una semplice studiosa. Un PG attento (Intuizione CD 15) potrebbe notare che le sue conoscenze su Dispater sono sospettosamente dettagliate per una devota di Tyr.
 
 ## Stat Block
 

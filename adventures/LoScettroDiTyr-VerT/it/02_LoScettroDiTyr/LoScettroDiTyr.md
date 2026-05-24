@@ -2,29 +2,33 @@
 
 ## Preludio — Dopo Orcastle
 
-> ⚠ *Questo preludio va adattato dal DM in base alle scelte dei giocatori nel Modulo A. I dettagli sotto assumono il percorso più comune (fuga dalla Torre di Torth), ma le varianti sono molte.*
+> ⚠ *Questo preludio va adattato dal DM in base alle scelte dei giocatori nel Modulo A.*
 
-Dopo la fuga da Orcastle — attraverso il portale della Torre di Torth, con la pergamena, o con altri mezzi — i PG si ritrovano sul continente. Se hanno consegnato la pergamena a Malebranche, hanno ricevuto le 2500 mo e i collari sono stati rimossi. Se sono fuggiti con altri mezzi, i collari sono stati neutralizzati dalla Coppa di Blackwood o dal patto con Vecna.
+Dopo Orcastle i PG si ritrovano sul continente. Hanno consegnato la pergamena a Malebranche, ricevuto le 2500 mo e i collari sono stati rimossi. Al palazzo hanno combattuto Malebranche — che è fuggito attraverso un portale dimensionale — e il palazzo è passato a Wildforge.
 
-In ogni caso, Vecna ha preso nota. Che i PG abbiano accettato il suo patto alla Torre di Torth o meno, il Dio dei Segreti li ha osservati e li considera suoi strumenti. Nelle notti successive alla fuga, tutti i PG ricevono lo stesso sogno: Vecna che parla nell'oscurità, ricordando il debito (se hanno accettato il patto) o minacciando conseguenze (se non lo hanno fatto).
+I PG non hanno accettato il patto con Dispater alla Torre di Torth. Ma Dispater li ha osservati per tutta l'avventura (i corvi/IMP) e li considera "interessanti": hanno fatto esattamente ciò che voleva (eliminare Malebranche dal gioco) senza nemmeno rendersene conto. Per Dispater, questo li rende strumenti perfetti — obbedienti senza saperlo.
 
-I PG raggiungono Baldur's Gate — la città più grande e sicura della Costa della Spada — per riposare, rifornirsi e decidere il passo successivo. È qui che il sogno di Vecna diventa un ordine esplicito.
+Nelle notti successive, tutti i PG ricevono lo stesso sogno: una voce fredda e calcolatrice nell'oscurità.
+
+> "Mi avete già reso un servizio, anche se non lo sapevate. Malebranche era un mio cultista — debole, inutile, un peso. Voi lo avete rimosso per me. Ora ho un altro compito per voi. Non è una richiesta — è un'opportunità. Rifiutare sarebbe... imprudente."
+
+I PG raggiungono Baldur's Gate per riposare e rifornirsi. È qui che il sogno di Dispater diventa più insistente.
 
 ---
 
 ## Descrizione
 
-> Una missione vi è stata affidata — non per scelta, ma per necessità. Vecna, il Dio dei Segreti che vi tiene in pugno, pretende che recuperiate lo Scettro di Tyr, un'antica reliquia di cristallo che si narra fosse impugnata dal dio della giustizia in persona. Il viaggio vi porterà da Baldur's Gate fino alle rovine del Tempio di Lumina, attraverso montagne ghiacciate e pericoli dimenticati. Ma lo Scettro è maledetto: chi lo possiede senza essere puro di cuore perde lentamente la propria anima, trasformandosi in un servitore non morto. E il solo fatto di aver accettato la missione di Vecna vi ha già resi impuri.
+> Una missione vi è stata affidata — non per scelta, ma per necessità. Dispater, l'Arciduca di Dis che vi tiene in pugno, pretende che recuperiate lo Scettro di Tyr, un'antica reliquia di cristallo che si narra fosse impugnata dal dio della giustizia in persona. Il viaggio vi porterà da Baldur's Gate fino alle rovine del Tempio di Lumina, attraverso montagne ghiacciate e pericoli dimenticati. Ma lo Scettro è maledetto: chi lo possiede senza essere puro di cuore perde lentamente la propria anima, trasformandosi in un servitore non morto. E il solo fatto di aver accettato la missione di Dispater vi ha già resi impuri.
 
-I personaggi vengono incaricati da Vecna di recuperare lo Scettro di Tyr dal Tempio di Lumina, un luogo perduto da millenni nelle montagne a est di Baldur's Gate. Lo Scettro è un antico artefatto di cristallo che concede un potere immenso, ma è maledetto: chi lo utilizza senza essere puro perde la propria anima e diventa un servitore non morto. Solo i puri possono sopportarne la potenza.
+I personaggi vengono incaricati da Dispater di recuperare lo Scettro di Tyr dal Tempio di Lumina, un luogo perduto da millenni nelle montagne a est di Baldur's Gate. Lo Scettro è un antico artefatto di cristallo che concede un potere immenso, ma è maledetto: chi lo utilizza senza essere puro perde la propria anima e diventa un servitore non morto. Solo i puri possono sopportarne la potenza.
 
-Vecna vuole lo Scettro per amplificare il suo potere oscuro e trasformare chiunque si opponga in non morto. I Custodi dell'Equilibrio, un ordine devoto a Tyr guidato da Sir Alaric il Giusto, cercano la stessa reliquia — ma Alaric nasconde ambizioni personali di potere assoluto. I protagonisti si trovano potenzialmente dalla parte del male, e le loro scelte determineranno il loro destino.
+Dispater vuole lo Scettro per amplificare il suo potere oscuro e trasformare chiunque si opponga in non morto. I Custodi dell'Equilibrio, un ordine devoto a Tyr guidato da Sir Alaric il Giusto, cercano la stessa reliquia — ma Alaric nasconde ambizioni personali di potere assoluto. I protagonisti si trovano potenzialmente dalla parte del male, e le loro scelte determineranno il loro destino.
 
 Il modulo copre l'intero arco narrativo: la partenza da Baldur's Gate, il viaggio attraverso le montagne, l'esplorazione del dungeon del Tempio di Lumina, il passaggio nel piano etereo di Erythale, e lo scontro finale con Alaric.
 
 ## Obiettivo
 
-Recuperare lo Scettro di Tyr dal Tempio di Lumina e deciderne il destino: consegnarlo a Vecna, usarlo contro di lui, distruggerlo, o riconsegnarlo a Tyr.
+Recuperare lo Scettro di Tyr dal Tempio di Lumina e deciderne il destino: consegnarlo a Dispater, usarlo contro di lui, distruggerlo, o riconsegnarlo a Tyr.
 
 ## Luoghi interni
 
@@ -32,22 +36,22 @@ Recuperare lo Scettro di Tyr dal Tempio di Lumina e deciderne il destino: conseg
 
 ### Parte 1 — Baldur's Gate
 
-La missione inizia a Baldur's Gate. Il gruppo si ritrova in una taverna per discutere il sogno che Vecna ha inviato a tutti (vedi Preludio). Vecna ricorda loro il debito contratto e che la sua ira si abbatterà su di loro se non cercheranno lo Scettro — ma premi incommensurabili li attendono se compiranno l'impresa. Fornisce un indizio criptico:
+La missione inizia a Baldur's Gate. Il gruppo si ritrova in una taverna per discutere il sogno ricorrente di Dispater (vedi Preludio). Dispater non ha un debito formale da riscuotere, ma fa capire che rifiutare sarebbe pericoloso — e che premi incommensurabili li attendono se compiranno l'impresa. Fornisce un indizio criptico:
 
 > "Nel luogo dove lo scettro cadde e la giustizia fu accecata, cercate la chiave che apre la strada verso il potere che vi spetta."
 
 L'indizio si riferisce alle rovine del Tempio di Lumina, il luogo dove lo Scettro fu perduto secoli fa durante la Caduta del Tempio. Si dice che il tempio sia infestato da spiriti e custodisca segreti dimenticati.
 
-Se i personaggi scelgono di ignorare la richiesta di Vecna, iniziano a verificarsi eventi sinistri che segnalano la crescente ira del Dio dei Segreti. Tirare 1d6 ogni riposo lungo:
+Se i personaggi scelgono di ignorare la richiesta di Dispater, iniziano a verificarsi eventi sinistri che segnalano la crescente ira del Arciduca di Dis. Tirare 1d6 ogni riposo lungo:
 
 | d6 | Effetto |
 |----|---------|
 | 1 | Rigidità dei muscoli — svantaggio sui tiri di Destrezza (temporaneo, si risolve dopo un riposo lungo) |
 | 2 | Iniziativa −2 (temporaneo, si risolve dopo un riposo lungo) |
 | 3 | Un livello di affaticamento (cumulabile, permanente) |
-| 4 | Un incubo con Vecna che promette la morte |
+| 4 | Un incubo con Dispater che promette la morte |
 | 5 | Mal di testa — svantaggio sui tiri di Storia e Religione (temporaneo, si risolve dopo un riposo lungo) |
-| 6 | Apparizione fugace di Vecna che li maledice |
+| 6 | Apparizione fugace di Dispater che li maledice |
 
 #### La taverna
 
@@ -57,9 +61,9 @@ A Baldur's Gate tutti sanno chi è Tyr e sanno vagamente che in un tempio venne 
 
 Nel tempio sono raffigurati, come in un fumetto, Tyr con in mano uno scettro e la caduta del tempio. Sir Alaric, membro dei Custodi dell'Equilibrio, originario delle Ten Towns e poi trasferitosi a Baldur's Gate, può essere incontrato qui oppure davanti al manifesto della conferenza di Maestro Elrin.
 
-Alaric è più che disposto a descrivere chi è e cosa sta facendo se crede che i PG siano studiosi di religione o di cose antiche. Se citano Vecna diventa cupo; se dichiarano di lavorare per il dio malvagio diventa ostile e non li aiuta. Dice che sta investigando su attività sospette legate a Vecna, il quale pare voglia riappropriarsi dello Scettro. Se parlano di Vecna dovranno fare un tiro di Inganno (CD 12) oppure essere convincenti nell'interpretazione per dimostrare di non essere legati a Vecna.
+Alaric è più che disposto a descrivere chi è e cosa sta facendo se crede che i PG siano studiosi di religione o di cose antiche. Se citano Dispater diventa cupo; se dichiarano di lavorare per il dio malvagio diventa ostile e non li aiuta. Dice che sta investigando su attività sospette legate a Dispater, il quale pare voglia riappropriarsi dello Scettro. Se parlano di Dispater dovranno fare un tiro di Inganno (CD 12) oppure essere convincenti nell'interpretazione per dimostrare di non essere legati a Dispater.
 
-Se riescono a guadagnare la fiducia di Alaric, potrebbero ottenere altri indizi. Alaric sa che Vecna è alla ricerca dello Scettro e che i Custodi sono preoccupati che possa arrivare al Tempio di Lumina. Progetta di andare lui stesso al tempio, ma non vuole in nessun caso unirsi ai PG. Arriverà al Tempio di Lumina alcune ore dopo di loro. Se i PG avranno attaccato i Custodi alla Valle del Giudizio, Alaric sarà allarmato e ostile.
+Se riescono a guadagnare la fiducia di Alaric, potrebbero ottenere altri indizi. Alaric sa che Dispater è alla ricerca dello Scettro e che i Custodi sono preoccupati che possa arrivare al Tempio di Lumina. Progetta di andare lui stesso al tempio, ma non vuole in nessun caso unirsi ai PG. Arriverà al Tempio di Lumina alcune ore dopo di loro. Se i PG avranno attaccato i Custodi alla Valle del Giudizio, Alaric sarà allarmato e ostile.
 
 #### La Biblioteca di Baldur's Gate
 
@@ -91,7 +95,7 @@ Le tappe del viaggio:
 
 #### Valle del Giudizio — L'assalto dei Custodi dell'Equilibrio
 
-In una stretta gola montana chiamata la Valle del Giudizio, i PG incontrano una pattuglia di paladini di Tyr guidati da un ufficiale. I Custodi pensano — e non hanno tutti i torti — che i PG siano agenti di Vecna intenzionati a rubare lo Scettro. I paladini bloccano il passaggio e interrogano i personaggi sulle loro intenzioni. Con un tiro di Inganno (CD 16) riescono a superare il posto di blocco senza combattere.
+In una stretta gola montana chiamata la Valle del Giudizio, i PG incontrano una pattuglia di paladini di Tyr guidati da un ufficiale. I Custodi pensano — e non hanno tutti i torti — che i PG siano agenti di Dispater intenzionati a rubare lo Scettro. I paladini bloccano il passaggio e interrogano i personaggi sulle loro intenzioni. Con un tiro di Inganno (CD 16) riescono a superare il posto di blocco senza combattere.
 
 **Difficoltà incontro:** DEADLY (4 veterani CR 3 + 1 sacerdote CR 2 = ~11000 XP aggiustati per 4-5 PG lv9). Questi sono guerrieri sacri di Tyr, non cultisti — combattono con disciplina e convinzione.
 
@@ -100,7 +104,7 @@ In una stretta gola montana chiamata la Valle del Giudizio, i PG incontrano una 
 | Veterano (paladino di Tyr) | 4 | 58 | 17 | +5, 2d8+3 spadone | MM pag. 350 CR 3. Disciplinati, combattono in formazione |
 | Sacerdote (ufficiale dei Custodi) | 1 | 27 | 13 | +4, 1d6+1 mazza + incantesimi | MM pag. 348 CR 2. Cura Ferite, Scudo della Fede, Guardiani Spirituali |
 
-I Custodi rivelano dettagli sui piani di Vecna e sulla maledizione dello Scettro se interrogati o se l'incontro si risolve in modo amichevole. È chiaro che i Custodi dell'Equilibrio sono determinati a fermare chiunque cerchi lo Scettro per scopi nefasti. Se i PG non nascondono i cadaveri, Alaric verrà a conoscenza del loro tradimento.
+I Custodi rivelano dettagli sui piani di Dispater e sulla maledizione dello Scettro se interrogati o se l'incontro si risolve in modo amichevole. È chiaro che i Custodi dell'Equilibrio sono determinati a fermare chiunque cerchi lo Scettro per scopi nefasti. Se i PG non nascondono i cadaveri, Alaric verrà a conoscenza del loro tradimento.
 
 #### Villaggio di Silenza
 
@@ -108,13 +112,13 @@ Un villaggio abbandonato di montagna. Se i PG cercano, trovano dei fantasmi. Non
 
 > "Eravamo qui migliaia di anni, durante la battaglia per lo Scettro. Tyr è grande, Ormut il più puro di noi. Lui salvò tutti portando lo Scettro oltre il ciglio."
 
-Sono due sacerdoti di Tyr morti dopo essere scappati dalla battaglia; erano dalla parte dei lealisti nella guerra civile che ha portato alla distruzione di Lumina. Se interrogati ulteriormente, raccontano che, scappati in questo villaggio mesi dopo la battaglia, furono raggiunti dalle forze di Vecna che voleva sapere dove fosse lo Scettro. La battaglia che ne seguì distrusse anche questo villaggio. Dopo di che continuano a ripetere quanto sopra.
+Sono due sacerdoti di Tyr morti dopo essere scappati dalla battaglia; erano dalla parte dei lealisti nella guerra civile che ha portato alla distruzione di Lumina. Se interrogati ulteriormente, raccontano che, scappati in questo villaggio mesi dopo la battaglia, furono raggiunti dalle forze di Dispater che voleva sapere dove fosse lo Scettro. La battaglia che ne seguì distrusse anche questo villaggio. Dopo di che continuano a ripetere quanto sopra.
 
 #### Rocca Bianca — Brother Thaddeus
 
 In un villaggio di montagna, la Rocca Bianca, può essere incontrato Brother Thaddeus, un monaco ed ex discepolo di Tyr. Ne porta ancora le insegne (una mano mozzata stilizzata) e mantiene la fede. Ha lasciato l'ordine dopo aver scoperto le vere intenzioni di Alaric il Giusto.
 
-Può essere trovato nella taverna o nel tempio locale. Se capisce e approva le intenzioni dei PG, offre informazioni cruciali: spiega cos'è lo Scettro e il suo rapporto con il Tempio di Lumina, rivela le ambizioni nascoste di Alaric il Giusto e mette in guardia sulle vere intenzioni di Vecna. Sottolinea il pericolo della maledizione dello Scettro per chi non è puro di cuore. Se i personaggi non si fidano, possono effettuare un tiro di Intuizione (CD 12) per valutare la sincerità di Thaddeus.
+Può essere trovato nella taverna o nel tempio locale. Se capisce e approva le intenzioni dei PG, offre informazioni cruciali: spiega cos'è lo Scettro e il suo rapporto con il Tempio di Lumina, rivela le ambizioni nascoste di Alaric il Giusto e mette in guardia sulle vere intenzioni di Dispater. Sottolinea il pericolo della maledizione dello Scettro per chi non è puro di cuore. Se i personaggi non si fidano, possono effettuare un tiro di Intuizione (CD 12) per valutare la sincerità di Thaddeus.
 
 Chiunque altro incontrino alla Rocca Bianca li avverte dei pericoli (freddo, scalate, mostri) che troveranno sul cammino. Possono trovare a pagamento abiti pesanti, piccozze e quanto serve per scalare.
 
@@ -179,9 +183,9 @@ Ormut era un leggendario devoto di Tyr, un guardiano incaricato di proteggere lo
 
 All'ingresso del tempio, la figura di Tyr appare davanti ai PG e dice:
 
-> "Siete giunti fin qui cercando lo Scettro, ma nessuno di voi è degno. Il vostro patto con Vecna vi ha corrotti, macchiando la vostra anima. Finché non dimostrerete di essere puri, il potere che cercate vi condurrà solo alla rovina. Lo Scettro non si rivelerà mai a cuori impuri, né il suo potere sarà vostro senza un prezzo."
+> "Siete giunti fin qui cercando lo Scettro, ma nessuno di voi è degno. Il vostro patto con Dispater vi ha corrotti, macchiando la vostra anima. Finché non dimostrerete di essere puri, il potere che cercate vi condurrà solo alla rovina. Lo Scettro non si rivelerà mai a cuori impuri, né il suo potere sarà vostro senza un prezzo."
 
-> "Esiste un modo, ma sarà un cammino di sofferenza e sacrificio. Solo affrontando le prove che vi porrò davanti potrete sperare di purificare i vostri spiriti e liberarvi dall'ombra di Vecna."
+> "Esiste un modo, ma sarà un cammino di sofferenza e sacrificio. Solo affrontando le prove che vi porrò davanti potrete sperare di purificare i vostri spiriti e liberarvi dall'ombra di Dispater."
 
 > "Ricordatevi: è puro il magnanimo che sa perdonare lo sconfitto, chi si vota a me rinnegando il male e promettendo futuro bene, chi infine sacrifica qualcosa per il bene di tutti."
 
@@ -205,7 +209,7 @@ Colonne con raffigurazioni di Tyr e iscrizioni con passi teologici degli scritti
 
 Un enorme affresco sulla parete ovest raffigura il Tempio di Tyr con discepoli che entrano ed escono. Le immagini dei discepoli sono lievemente luminose — senza bisogno di tiri, i personaggi lo notano. Se indagano, percepiscono una lieve magia di evocazione emanata dall'affresco. Possono vedere la scritta in antico elfico "Il Guardiano di Lumina/Tyr", che è il titolo e il compito del golem.
 
-Un golem di pietra è accovacciato in mezzo alla stanza. Attacca chiunque entri. Il golem è chiaramente ferito. Era originariamente un guardiano sacro del tempio, ma ora è pervaso dall'influenza oscura di Vecna. Stat block completo: vedi scheda MON_GuardianoLumina.
+Un golem di pietra è accovacciato in mezzo alla stanza. Attacca chiunque entri. Il golem è chiaramente ferito. Era originariamente un guardiano sacro del tempio, ma ora è pervaso dall'influenza oscura di Dispater. Stat block completo: vedi scheda MON_GuardianoLumina.
 
 **Difficoltà incontro:** MEDIUM (4-5 PG lv9) — il golem ha solo 50 PF dei 178 originali.
 
@@ -235,13 +239,13 @@ C'è un pozzo e altri simboli di Tyr. Un affresco mostra dei discepoli che si im
 
 > "Chi è il male?"
 
-I PG possono rispondere "Vecna" o qualcosa di appropriato.
+I PG possono rispondere "Dispater" o qualcosa di appropriato.
 
 > "Prometti di difendere il bene? Prometti per tre volte!"
 
 Devono rispondere "Prometto, prometto, prometto". Se non lo fanno, Tyr insiste.
 
-La benedizione di Tyr ricade sui PG se maledicono il nome di Vecna e promettono di salvare tre innocenti bagnandosi nella fonte. Massimo due avventurieri possono fare il rito. (Nota al DM: potenziale aggancio per la prossima avventura — le tre azioni di bene promesse.)
+La benedizione di Tyr ricade sui PG se maledicono il nome di Dispater e promettono di salvare tre innocenti bagnandosi nella fonte. Massimo due avventurieri possono fare il rito. (Nota al DM: potenziale aggancio per la prossima avventura — le tre azioni di bene promesse.)
 
 #### Sala 9 — Le Ombre Giuste
 
@@ -295,7 +299,7 @@ I Guardiani Luminosi sono esseri alti 3m / 10ft / 2qd fatti di pura luce con ali
 
 I Guardiani sono amichevoli e portano i PG al Santuario di Cristallo dove è custodito lo Scettro. Consegneranno lo Scettro dopo essere stati convinti delle buone intenzioni dei PG e della necessità di farlo. Nessuna meccanica particolare: devono solo essere minimamente convincenti e farsi aiutare da Ormut.
 
-I Guardiani spiegano quello che i PG probabilmente già sanno: la città di Lumina cadde a causa del tradimento di un suo sacerdote, corrotto dalle promesse di Vecna, che — come Alaric — aveva promesso la pace in terra grazie alla potenza dello Scettro e al suo comando. Tyr stesso comandò a Ormut di nascondere lo Scettro per impedirne l'uso improprio.
+I Guardiani spiegano quello che i PG probabilmente già sanno: la città di Lumina cadde a causa del tradimento di un suo sacerdote, corrotto dalle promesse di Dispater, che — come Alaric — aveva promesso la pace in terra grazie alla potenza dello Scettro e al suo comando. Tyr stesso comandò a Ormut di nascondere lo Scettro per impedirne l'uso improprio.
 
 I PG dovranno decidere chi sarà il portatore dello Scettro. Il portatore dovrà giurare sulla propria vita di non cederlo a terzi, di difenderlo e di seguire le indicazioni di Tyr sul suo destino. Viene avvertito che è un grosso onore ma anche un grosso onere.
 
@@ -314,11 +318,11 @@ Un'arma divina che incanala la giustizia e la purezza, maledetta per chi non è 
 
 ### Parte 5 — Il ritorno al tempio: la battaglia finale
 
-Uscendo dalla Sala 1 prendendo la scala in salita, i PG trovano davanti a sé schierati 15 veterani e Alaric il Giusto. Alaric intima di consegnargli lo Scettro. Gli avatar di Tyr e Vecna appaiono silenti, osservando senza intervenire nella battaglia.
+Uscendo dalla Sala 1 prendendo la scala in salita, i PG trovano davanti a sé schierati 15 veterani e Alaric il Giusto. Alaric intima di consegnargli lo Scettro. Gli avatar di Tyr e Dispater appaiono silenti, osservando senza intervenire nella battaglia.
 
-> Vecna dice: "Ricordate la vostra promessa." E aggiunge: "Date lo Scettro ad Alaric."
+> Dispater dice: "Ricordate la vostra promessa." E aggiunge: "Date lo Scettro ad Alaric."
 
-*Nota al DM: Vecna sta mentendo. Non vuole che Alaric tenga lo Scettro — sa che Alaric è corruttibile e che lo Scettro lo consumerà, rendendolo un burattino. Vecna intende recuperare lo Scettro da Alaric in un secondo momento, quando sarà troppo debole per resistere. Se i PG glielo danno, Vecna vince a lungo termine.*
+*Nota al DM: Dispater sta mentendo. Non vuole che Alaric tenga lo Scettro — sa che Alaric è corruttibile e che lo Scettro lo consumerà, rendendolo un burattino. Dispater intende recuperare lo Scettro da Alaric in un secondo momento, quando sarà troppo debole per resistere. Se i PG glielo danno, Dispater vince a lungo termine.*
 
 > Tyr dice: "Ricordate la vostra promessa. Usatelo per il bene, o distruggetelo."
 
@@ -344,9 +348,9 @@ Stat block completo: vedi scheda MON_GuardianoLumina.
 
 ## Indizi chiave
 
-- **L'indizio di Vecna** nella taverna rimanda al Tempio di Lumina.
+- **L'indizio di Dispater** nella taverna rimanda al Tempio di Lumina.
 - **Il libro "Cronache della Caduta di Lumina"** nella biblioteca di Baldur's Gate contiene la mappa del tempio e la storia dello Scettro.
-- **Sir Alaric** al tempio di Tyr rivela che Vecna cerca lo Scettro e che i Custodi vogliono impedirlo.
+- **Sir Alaric** al tempio di Tyr rivela che Dispater cerca lo Scettro e che i Custodi vogliono impedirlo.
 - **I fantasmi di Silenza** parlano di Ormut che portò lo Scettro "oltre il ciglio".
 - **Brother Thaddeus** alla Rocca Bianca rivela le vere ambizioni di Alaric e mette in guardia sulla maledizione.
 - **L'iscrizione alla Piana delle Lacrime** conferma che Ormut nascose lo Scettro in un altro piano e che "la parola dei puri" è la chiave.
@@ -356,8 +360,8 @@ Stat block completo: vedi scheda MON_GuardianoLumina.
 
 Con lo Scettro in mano, i personaggi devono deciderne il destino:
 
-1. **Consegnare lo Scettro ad Alaric** — Vecna non li perseguiterà più, ma il portatore rischia di morire per la maledizione del patto violato, e Tyr diventerà loro nemico, togliendogli lentamente l'anima.
-2. **Usare lo Scettro per combattere Vecna** — Dovranno prima sconfiggere Alaric nella battaglia finale. Vecna sarà il loro nemico mortale per sempre.
+1. **Consegnare lo Scettro ad Alaric** — Dispater non li perseguiterà più, ma il portatore rischia di morire per la maledizione del patto violato, e Tyr diventerà loro nemico, togliendogli lentamente l'anima.
+2. **Usare lo Scettro per combattere Dispater** — Dovranno prima sconfiggere Alaric nella battaglia finale. Dispater sarà il loro nemico mortale per sempre.
 3. **Distruggere lo Scettro** — Il portatore può distruggerlo trovando un modo magico per infliggere 100 danni in un solo colpo. Questa informazione può essere richiesta ai Guardiani Luminosi o a Tyr. Questa è una delle tre azioni di bene richieste da Tyr per diventare puri.
 4. **Riconsegnare lo Scettro a Tyr** — Aggancio per un'avventura futura. Anche questa è una delle tre azioni di bene.
 
@@ -391,16 +395,16 @@ Con lo Scettro in mano, i personaggi devono deciderne il destino:
 
 **Le benedizioni:** Ci sono tre modi per ottenere la benedizione di Tyr: salvare il golem (un solo PG), il rito alla fonte della Sala 8 (massimo due PG), il sacrificio nella fiamma della Sala 12 (tutti). Senza almeno una benedizione, i PG non possono attraversare la soglia verso Erythale.
 
-**Vecna e la punizione:** Se i PG ignorano la missione, la tabella d6 degli effetti sinistri rende la vita progressivamente più difficile. Il livello di affaticamento al risultato 3 è cumulabile e permanente — usarlo con parsimonia.
+**Dispater e la punizione:** Se i PG ignorano la missione, la tabella d6 degli effetti sinistri rende la vita progressivamente più difficile. Il livello di affaticamento al risultato 3 è cumulabile e permanente — usarlo con parsimonia.
 
 **Agganci futuri:** Le tre azioni di bene promesse a Tyr durante il rito della Sala 8 sono un aggancio esplicito per le avventure successive. La distruzione o riconsegna dello Scettro conta come una di queste azioni.
 
 ### La lore
 
-**La Caduta del Tempio di Lumina:** Lo Scettro di Tyr fu perduto durante la Caduta del Tempio di Lumina, un evento catastrofico avvenuto migliaia di anni fa. Durante un attacco da parte di una fazione di sacerdoti che si sospetta fosse sotto l'influsso di Vecna, il tempio principale dedicato a Tyr fu assediato. Nel caos della battaglia, un giovane sacerdote corrotto dalle promesse di potere di Vecna rubò lo Scettro e tentò di consegnarlo a Vecna. Tuttavia, il traditore fu fermato da Ormut, un incantatore che teletrasportò l'artefatto in una località sconosciuta per poi morire per mano dei traditori. Da allora, lo Scettro è rimasto nascosto, la sua posizione perduta nel tempo.
+**La Caduta del Tempio di Lumina:** Lo Scettro di Tyr fu perduto durante la Caduta del Tempio di Lumina, un evento catastrofico avvenuto migliaia di anni fa. Durante un attacco da parte di una fazione di sacerdoti che si sospetta fosse sotto l'influsso di Dispater, il tempio principale dedicato a Tyr fu assediato. Nel caos della battaglia, un giovane sacerdote corrotto dalle promesse di potere di Dispater rubò lo Scettro e tentò di consegnarlo a Dispater. Tuttavia, il traditore fu fermato da Ormut, un incantatore che teletrasportò l'artefatto in una località sconosciuta per poi morire per mano dei traditori. Da allora, lo Scettro è rimasto nascosto, la sua posizione perduta nel tempo.
 
 **I Custodi dell'Equilibrio:** Un ordine dedicato a mantenere l'equilibrio tra bene e male nel mondo, incarnando i principi di giustizia e imparzialità promossi da Tyr. Storicamente incaricati di proteggere lo Scettro di Tyr, simbolo supremo di giustizia divina.
 
 **I segreti di Alaric:** Dietro la sua facciata di rettitudine, Alaric nasconde un desiderio di potere assoluto. Vuole utilizzare lo Scettro non solo per riportare la pace, ma per instaurare un ordine mondiale sotto il suo controllo. Ha scoperto antichi rituali che gli permetterebbero di sfruttare il potere dello Scettro per ascendere a uno stato semidivino, sostituendo Tyr e ridisegnando il mondo secondo la sua visione.
 
-**Vecna:** Non è puro, quindi non può recuperare lo Scettro da solo — lo ha scoperto negli anni e per questo deve mandare qualcun altro.
+**Dispater:** Non è puro, quindi non può recuperare lo Scettro da solo — lo ha scoperto negli anni e per questo deve mandare qualcun altro.

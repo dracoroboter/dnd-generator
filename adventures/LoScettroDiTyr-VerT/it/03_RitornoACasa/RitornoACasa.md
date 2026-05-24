@@ -20,11 +20,11 @@ Dopo gli eventi al Tempio di Lumina e lo scontro con Alaric, i PG tornano a Bald
 
 > Il vento del porto di Baldur's Gate porta odore di salsedine e catrame. Le vele della "Nuova Speranza" si gonfiano pigramente alla fonda, mentre i gabbiani strillano sopra i moli affollati. Il viaggio sarà lungo — settimane di mare aperto, città sconosciute, e poi il gelo del Grande Nord. Ma lo Scettro di Tyr pesa nelle vostre mani più di quanto dovrebbe, e l'altare vi aspetta.
 
-I personaggi sono in possesso dello Scettro di Tyr, nelle mani dell'araldo. Devono riconsegnarlo all'altare di Tyr sull'isola di Svoalbard, a nord di Bryn Shander. Il viaggio li porterà via nave da Baldur's Gate a Luskan (con tappe a Waterdeep e Neverwinter), poi in slitta fino a Bryn Shander, e infine via mare fino a Svoalbard. Saranno aiutati dai Custodi dell'Equilibrio (sacerdoti di Tyr) e ostacolati dai seguaci di Vecna: la spia Zalhara Lorenn viaggia con loro sulla nave, e il warlock Othran Vorash li attende a Luskan.
+I personaggi sono in possesso dello Scettro di Tyr, nelle mani dell'araldo. Devono riconsegnarlo all'altare di Tyr sull'isola di Svoalbard, a nord di Bryn Shander. Il viaggio li porterà via nave da Baldur's Gate a Luskan (con tappe a Waterdeep e Neverwinter), poi in slitta fino a Bryn Shander, e infine via mare fino a Svoalbard. Saranno aiutati dai Custodi dell'Equilibrio (sacerdoti di Tyr) e ostacolati dai seguaci di Dispater: la spia Zalhara Lorenn viaggia con loro sulla nave, e il warlock Othran Vorash li attende a Luskan.
 
 ## Obiettivo
 
-Raggiungere l'isola di Svoalbard e riconsegnare lo Scettro di Tyr al suo altare. Sopravvivere al viaggio, smascherare la spia di Vecna e sconfiggere Othran Vorash.
+Raggiungere l'isola di Svoalbard e riconsegnare lo Scettro di Tyr al suo altare. Sopravvivere al viaggio, smascherare la spia di Dispater e sconfiggere Othran Vorash.
 
 ## Preludio — Connessione con "Lo Scettro di Tyr"
 
@@ -58,7 +58,7 @@ La maledizione si manifesta ogni volta che qualcuno entra in possesso dello Scet
 - Un marchio invisibile (percepibile dai chierici di Tyr) sigilla l'anima dell'intruso. Incubi ricorrenti, visioni oppressive, capacità di riposare e guarire ridotta. Recupera solo metà PF dopo un riposo lungo; pozioni e *Cura Ferite* non funzionano. L'effetto inizia e dura 24 ore anche solo tentando di prendere lo scettro, senza riuscirci.
 - Se si continua a possedere lo scettro, ogni giorno i PF massimi si dimezzano fino alla morte del portatore.
 - L'effetto termina solo quando lo Scettro viene restituito **e** il reo compie un sincero atto di pentimento e redenzione.
-- Solo i maghi più potenti (tra cui Vecna) possono evitare gli effetti. Non esiste altro modo.
+- Solo i maghi più potenti (tra cui Dispater) possono evitare gli effetti. Non esiste altro modo.
 
 ---
 
@@ -66,7 +66,7 @@ La maledizione si manifesta ogni volta che qualcuno entra in possesso dello Scet
 
 ### Intro — Baldur's Gate
 
-I personaggi sono considerati eroi dai Custodi dell'Equilibrio per aver salvato lo scettro dalle grinfie di Vecna. **Helmut Van Heuten** (popolano umano, legale buono), ricco mercante devoto a Tyr, li contatta per aiutarli. Famoso per i suoi numerosi traffici commerciali e i contatti in tutto il Faerûn, Helmut riceve i personaggi in un'elegante sala delle riunioni presso la sua dimora a Baldur's Gate. Con grande generosità distribuisce rotoli di pergamena e mappe dettagliate dei mari del Nord e delle terre gelide attorno a Bryn Shander.
+I personaggi sono considerati eroi dai Custodi dell'Equilibrio per aver salvato lo scettro dalle grinfie di Dispater. **Helmut Van Heuten** (popolano umano, legale buono), ricco mercante devoto a Tyr, li contatta per aiutarli. Famoso per i suoi numerosi traffici commerciali e i contatti in tutto il Faerûn, Helmut riceve i personaggi in un'elegante sala delle riunioni presso la sua dimora a Baldur's Gate. Con grande generosità distribuisce rotoli di pergamena e mappe dettagliate dei mari del Nord e delle terre gelide attorno a Bryn Shander.
 
 La posizione esatta di Svoalbard è sconosciuta: si sa solo che è "a nord di Bryn Shander". Helmut fornisce le informazioni per raggiungere il molo da cui salperà la **Nuova Speranza**, che li porterà fino a Luskan. Le mappe contengono indicazioni su passi montani e rotte sicure per il tragitto in slitta dopo lo sbarco, fino a Bryn Shander. Helmut avverte che il viaggio durerà più di un mese e che le condizioni climatiche nel nord sono estreme.
 
@@ -95,17 +95,17 @@ Il comandante **Orlomm Glittergear** (neutrale buono, gnomo esploratore) comunic
 |------|------------|-------------|------|
 | Hilda Davenport | Popolano, donna umana | Waterdeep | Donna d'affari, vende tessuti pregiati |
 | Edgard Flint | Bandito (redento), umano | Neverwinter | Mercante itinerante, carico di spezie e pelli |
-| Zalhara Lorenn | Spia, donna umana | Luskan | **La spia di Vecna** (vedi sotto) |
+| Zalhara Lorenn | Spia, donna umana | Luskan | **La spia di Dispater** (vedi sotto) |
 
-### Zalhara Lorenn — la spia di Vecna
+### Zalhara Lorenn — la spia di Dispater
 
-Zalhara sostiene di essere una studiosa in cerca di rari testi di teologia di Tyr a Luskan. In realtà ha ricevuto l'ordine di spiare i personaggi e riferire a un emissario di Vecna all'arrivo. Possiede un **Anello dell'Ombra Evanescente** (anello di giada raffinato, valore 75 mo) che contiene 5 cariche di *Invisibilità* non ricaricabili. Ha un'aura di illusione.
+Zalhara sostiene di essere una studiosa in cerca di rari testi di teologia di Tyr a Luskan. In realtà ha ricevuto l'ordine di spiare i personaggi e riferire a un emissario di Dispater all'arrivo. Possiede un **Anello dell'Ombra Evanescente** (anello di giada raffinato, valore 75 mo) che contiene 5 cariche di *Invisibilità* non ricaricabili. Ha un'aura di illusione.
 
-La spia mira a trasmettere al seguace di Vecna ogni dettaglio sulla natura e sulla protezione dello Scettro: chi lo custodisce, quali poteri ne sono noti, le tappe del viaggio e il modo di evitare la maledizione. Tenterà di passare le informazioni alla cellula locale a ogni tappa, a meno che non venga scoperta. Non vuole passare tempo con i PG appena sbarcata, proprio per questo motivo. La cellula locale contattata tenterà di rubare lo scettro.
+La spia mira a trasmettere al seguace di Dispater ogni dettaglio sulla natura e sulla protezione dello Scettro: chi lo custodisce, quali poteri ne sono noti, le tappe del viaggio e il modo di evitare la maledizione. Tenterà di passare le informazioni alla cellula locale a ogni tappa, a meno che non venga scoperta. Non vuole passare tempo con i PG appena sbarcata, proprio per questo motivo. La cellula locale contattata tenterà di rubare lo scettro.
 
-Zalhara conosce la maledizione dello scettro e non tenterà di rubarlo personalmente, soprattutto non sulla nave. Sta cercando un modo di evitare la maledizione, ma non sa che non esiste un modo se non essere potenti come Vecna stesso.
+Zalhara conosce la maledizione dello scettro e non tenterà di rubarlo personalmente, soprattutto non sulla nave. Sta cercando un modo di evitare la maledizione, ma non sa che non esiste un modo se non essere potenti come Dispater stesso.
 
-Se scoperta e interrogata, non parla — ha troppa paura di Vecna. Dice solo che per lei è un lavoro e l'hanno pagata per sorvegliarli, senza dare dettagli. Può accennare alla maledizione dello scettro senza entrare nei particolari.
+Se scoperta e interrogata, non parla — ha troppa paura di Dispater. Dice solo che per lei è un lavoro e l'hanno pagata per sorvegliarli, senza dare dettagli. Può accennare alla maledizione dello scettro senza entrare nei particolari.
 
 Al collo ha un piccolo anello senza valore, con uno strano spuntone. All'interno ha una scritta in comune: "*gira a sinistra*". È la chiave della trappola sui documenti.
 
@@ -117,7 +117,7 @@ Al collo ha un piccolo anello senza valore, con uno strano spuntone. All'interno
 - **Disinnesco:** Intelligenza (Indagare) CD 15 per individuare il cavo di innesco. Poi Strumenti da Scasso CD 15 per scollegare il meccanismo (CD 20 senza strumenti da scasso).
 - **Chiave:** L'anello al collo di Zalhara. Se si gira nella direzione sbagliata (quella giusta è antioraria, "sinistra") esplode.
 
-**Contenuto dei documenti:** Zalhara è stata ingaggiata da **Othran Vorash**, un seguace di Vecna che sta viaggiando anche lui verso Luskan. Othran è partito prima dei PG e ha un vantaggio di qualche giorno — è là in attesa di informazioni dalla spia. Zalhara deve raccogliere informazioni senza farsi scoprire e ingaggiare locali a ogni tappa per tentare di rubare lo scettro. È a conoscenza della maledizione (sa che è mortale, non conosce i dettagli). Conosce il nome dell'araldo originale (non quello nuovo, se è stato cambiato).
+**Contenuto dei documenti:** Zalhara è stata ingaggiata da **Othran Vorash**, un seguace di Dispater che sta viaggiando anche lui verso Luskan. Othran è partito prima dei PG e ha un vantaggio di qualche giorno — è là in attesa di informazioni dalla spia. Zalhara deve raccogliere informazioni senza farsi scoprire e ingaggiare locali a ogni tappa per tentare di rubare lo scettro. È a conoscenza della maledizione (sa che è mortale, non conosce i dettagli). Conosce il nome dell'araldo originale (non quello nuovo, se è stato cambiato).
 
 ### Condizioni del mare (viaggio)
 
@@ -173,7 +173,7 @@ Mare più agitato: Molto Mosso anche con risultato 16 al dado. Mal di mare frequ
 
 ### Tappa: Neverwinter
 
-Edgard Flint saluta i personaggi e sbarca. I PG possono rifocillarsi. Vengono attirati in un'imboscata urbana orchestrata da sicari al servizio di Vecna, in un quartiere malfamato vicino a vecchi magazzini. Le strade sono strette, alcune abitazioni in rovina si affacciano sui vicoli. È tarda sera, la luce fioca delle lanterne crea molte ombre.
+Edgard Flint saluta i personaggi e sbarca. I PG possono rifocillarsi. Vengono attirati in un'imboscata urbana orchestrata da sicari al servizio di Dispater, in un quartiere malfamato vicino a vecchi magazzini. Le strade sono strette, alcune abitazioni in rovina si affacciano sui vicoli. È tarda sera, la luce fioca delle lanterne crea molte ombre.
 
 **Difficoltà incontro:** MEDIUM
 
@@ -277,7 +277,7 @@ Othran Vorash seguirà i PG in segreto nel viaggio verso Svoalbard.
 
 Arrivati a Bryn Shander, i PG devono trovare informazioni su Svoalbard. Se hanno Ludmilla con loro, li porta direttamente dalla famiglia. Altrimenti tutti in città conoscono i Dawnshield, e i PG potrebbero già conoscere l'indirizzo (via Grande 42) dal passante salvato a Neverwinter.
 
-**La famiglia Dawnshield** è conosciuta come antica devota di Tyr. Si dice che discendano dai primi esploratori che raggiunsero e descrissero Svoalbard. Hanno sempre tenuto segreti i dettagli esatti della rotta e della conformazione dell'isola, per timore che avventurieri senza scrupoli o seguaci di Vecna possano profanare i luoghi sacri.
+**La famiglia Dawnshield** è conosciuta come antica devota di Tyr. Si dice che discendano dai primi esploratori che raggiunsero e descrissero Svoalbard. Hanno sempre tenuto segreti i dettagli esatti della rotta e della conformazione dell'isola, per timore che avventurieri senza scrupoli o seguaci di Dispater possano profanare i luoghi sacri.
 
 Una volta trovati e convinti della buona fede del gruppo, i Dawnshield forniscono indicazioni cruciali su come arrivare e avvertono sui pericoli del viaggio.
 
@@ -327,7 +327,7 @@ Quando i personaggi sbarcano sull'isola di Svoalbard, Othran Vorash è arrivato 
 4. **Coordinazione con i Wight.** I Wight hanno resistenze necrotiche e immunità al veleno. Se un PG va a terra, cercheranno di finirlo per trasformarlo in zombi.
 5. **Fuga o ultima carta.** Se la battaglia volge a sfavore, Othran tenta la ritirata con *Misty Step*. Se con le spalle al muro, getta tutte le risorse (Eldritch Blast a ripetizione, magie) cercando di danneggiare il più possibile.
 
-**Indizi su Vecna:** sul corpo di Othran (o tra i suoi averi) possono esserci pergamene con istruzioni esplicite di Vecna.
+**Indizi su Dispater:** sul corpo di Othran (o tra i suoi averi) possono esserci pergamene con istruzioni esplicite di Dispater.
 
 **Danni collaterali:** l'imbarcazione dei PG subisce danni dalle energie liberate, costringendoli a cercare un'altra via per proseguire.
 
@@ -343,7 +343,7 @@ A quel punto si deposita lo Scettro sull'altare; le fiamme azzurre si intensific
 
 La voce di Tyr rimbomba nelle menti dei personaggi:
 
-> "L'equilibrio è stato ristabilito e la mia giustizia ha prevalso sopra ogni menzogna. Eppure, le ombre di Vecna già si stendono sui reami, in agguato. Attendete un mio segno, o fedeli della luce: quando l'ora giungerà, alzerete le vostre spade per annientare l'oscura brama del Dio dei Segreti. In me ponete il vostro coraggio, ché la legge non sarà mai spezzata."
+> "L'equilibrio è stato ristabilito e la mia giustizia ha prevalso sopra ogni menzogna. Eppure, le ombre di Dispater già si stendono sui reami, in agguato. Attendete un mio segno, o fedeli della luce: quando l'ora giungerà, alzerete le vostre spade per annientare l'oscura brama del Arciduca di Dis. In me ponete il vostro coraggio, ché la legge non sarà mai spezzata."
 
 Sul fondo della vasca i PG trovano uno **Scudo Guardia dell'Incantesimo (Spellguard Shield)**.
 
@@ -357,13 +357,13 @@ Sul fondo della vasca i PG trovano uno **Scudo Guardia dell'Incantesimo (Spellgu
 
 ### Othran Vorash
 
-Mezzelfo warlock di Vecna lv10, CR 8. Stat block completo: vedi scheda NPC_OthranVorash.
+Mezzelfo warlock di Dispater lv10, CR 8. Stat block completo: vedi scheda NPC_OthranVorash.
 
 ### Il piano di Othran Vorash
 
-Othran è un fedele servitore di Vecna, assetato di conoscenza proibita e desideroso di strappare lo Scettro di Tyr per rafforzare il proprio potere. Ha inviato Zalhara Lorenn come spia per monitorare il gruppo, indebolire moralmente e fisicamente i personaggi sabotando il viaggio, e intervenire al momento opportuno. Othran attende in segreto a Luskan; non appena Zalhara lo avviserà di un momento di vulnerabilità, cercherà di colpire con i suoi accoliti.
+Othran è un fedele servitore di Dispater, assetato di conoscenza proibita e desideroso di strappare lo Scettro di Tyr per rafforzare il proprio potere. Ha inviato Zalhara Lorenn come spia per monitorare il gruppo, indebolire moralmente e fisicamente i personaggi sabotando il viaggio, e intervenire al momento opportuno. Othran attende in segreto a Luskan; non appena Zalhara lo avviserà di un momento di vulnerabilità, cercherà di colpire con i suoi accoliti.
 
-Se tutto fallisce e i PG raggiungono Svoalbard, Othran tenta un'ultima mossa disperata: apparire sul luogo sacro e usare i suoi poteri per strappare lo Scettro, confidando in un artefatto o rituale che possa mitigare la maledizione. Il suo azzardo finale rivela fino a che punto è disposto a spingersi per la gloria (o la follia) al servizio di Vecna.
+Se tutto fallisce e i PG raggiungono Svoalbard, Othran tenta un'ultima mossa disperata: apparire sul luogo sacro e usare i suoi poteri per strappare lo Scettro, confidando in un artefatto o rituale che possa mitigare la maledizione. Il suo azzardo finale rivela fino a che punto è disposto a spingersi per la gloria (o la follia) al servizio di Dispater.
 
 ---
 

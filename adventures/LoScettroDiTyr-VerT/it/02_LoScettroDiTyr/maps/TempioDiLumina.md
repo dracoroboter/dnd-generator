@@ -6,7 +6,7 @@ Antico tempio dedicato a Tyr, situato alla fine della Piana delle Lacrime, in un
 
 Il dungeon ha 12 sale disposte su più livelli (scale in discesa). I PG devono dimostrare la loro purezza per ottenere la benedizione di Tyr e accedere al piano etereo di Erythale.
 
-All'ingresso del tempio, Tyr appare e avverte i PG che il patto con Vecna li ha corrotti e che dovranno purificarsi.
+All'ingresso del tempio, Tyr appare e avverte i PG che il patto con Dispater li ha corrotti e che dovranno purificarsi.
 
 ## Layout
 
@@ -107,7 +107,7 @@ All'ingresso del tempio, Tyr appare e avverte i PG che il patto con Vecna li ha 
 ### Sala 4 — Il Guardiano di Lumina (sala della magnanimità)
 
 - **Descrizione:** Enorme affresco sulla parete ovest: Tempio di Tyr con discepoli luminosi. Scritta in antico elfico "Il Guardiano di Lumina/Tyr".
-- **Contenuto:** **Golem di Pietra** accovacciato al centro. Attacca chiunque entri. Ha solo 50 PF dei 178 originali (ferito). Pervaso dall'influenza oscura di Vecna.
+- **Contenuto:** **Golem di Pietra** accovacciato al centro. Attacca chiunque entri. Ha solo 50 PF dei 178 originali (ferito). Pervaso dall'influenza oscura di Dispater.
 - **Pericoli:** Combattimento con il golem (MEDIUM per 4-5 PG lv9).
 - **Segreto:** Intuizione CD 12 per notare che combatte disperato. Percezione CD 10 per sentire le figure dell'affresco bisbigliare "Aiutate... purificare... perdono..." Può essere liberato con Dissolvi Magie CD 14 (4° livello) o reso incosciente e lasciato risvegliare. Chi lo risparmia/salva riceve la **benedizione di Tyr** (un solo PG).
 - **Uscite:** Sud (→ Sala 3), Nord (→ Sala 7).
@@ -134,7 +134,7 @@ All'ingresso del tempio, Tyr appare e avverte i PG che il patto con Vecna li ha 
 
 - **Descrizione:** Pozzo/fonte al centro e simboli di Tyr. Affresco di discepoli che si immergono nella fonte.
 - **Contenuto:** Se i PG toccano l'acqua, Tyr appare e pone due domande.
-- **Segreto:** Tyr chiede "Chi è il male?" (risposta: "Vecna" o equivalente) e "Prometti di difendere il bene? Prometti per tre volte!" (risposta: "Prometto, prometto, prometto"). Massimo **due** avventurieri possono fare il rito. Chi maledice Vecna e promette di salvare tre innocenti bagnandosi nella fonte riceve la **benedizione di Tyr**. Le tre azioni di bene promesse sono aggancio per avventure future.
+- **Segreto:** Tyr chiede "Chi è il male?" (risposta: "Dispater" o equivalente) e "Prometti di difendere il bene? Prometti per tre volte!" (risposta: "Prometto, prometto, prometto"). Massimo **due** avventurieri possono fare il rito. Chi maledice Dispater e promette di salvare tre innocenti bagnandosi nella fonte riceve la **benedizione di Tyr**. Le tre azioni di bene promesse sono aggancio per avventure future.
 - **Uscite:** Sud (→ Sala 7), Nord (→ Sala 9).
 
 ### Sala 9 — Le Ombre Giuste
@@ -176,7 +176,7 @@ Se risparmiato, il golem si dirige all'ingresso del tempio a riprendere il suo s
 
 ### Battaglia finale all'uscita
 
-Uscendo dalla Sala 1 prendendo la scala in salita, i PG trovano 15 veterani + Alaric il Giusto schierati. Gli avatar di Tyr e Vecna osservano senza intervenire. Se i PG usano la Sentenza di Tyr o fanno confessare Alaric, i veterani si rivoltano contro di lui.
+Uscendo dalla Sala 1 prendendo la scala in salita, i PG trovano 15 veterani + Alaric il Giusto schierati. Gli avatar di Tyr e Dispater osservano senza intervenire. Se i PG usano la Sentenza di Tyr o fanno confessare Alaric, i veterani si rivoltano contro di lui.
 
 ### Sala 11
 

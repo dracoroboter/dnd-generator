@@ -267,13 +267,18 @@ def test_resolve_local():
 @test("adventure_utils: resolve_asset_dir from parent")
 def test_resolve_parent():
     sys.path.insert(0, str(TECH_DIR / "scripts"))
-    from adventure_utils import resolve_asset_dir
+    from adventure_utils import resolve_asset_dir, resolve_asset_dirs
     variant = ADVENTURES_DIR / "LoScettroDiTyr-VerT"
     if not variant.exists():
         return  # skip if variant not present
-    result = resolve_asset_dir(variant, "maps")
-    expected = ADVENTURES_DIR / "LoScettroDityr" / "maps"
-    assert result == expected, f"Expected parent maps {expected}, got {result}"
+    # characters/img has no local override — should resolve to parent
+    result = resolve_asset_dir(variant, "characters/img")
+    expected = ADVENTURES_DIR / "LoScettroDityr" / "characters" / "img"
+    assert result == expected, f"Expected parent characters/img {expected}, got {result}"
+    # maps has local override — resolve_asset_dirs should return both
+    dirs = resolve_asset_dirs(variant, "maps")
+    assert len(dirs) >= 2, f"Expected >=2 dirs for maps, got {dirs}"
+    assert dirs[0] == variant / "maps", f"First should be local, got {dirs[0]}"
     sys.path.pop(0)
 
 @test("adventure_utils: is_variant")

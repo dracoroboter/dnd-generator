@@ -28,7 +28,7 @@ I PG incontrano Brother Thaddeus a Rocca Bianca — in una taverna tranquilla o 
 
 **Informazioni che può rivelare** (gradualmente, man mano che si fida dei PG):
 1. Le ambizioni nascoste di Alaric — non è il servitore devoto di Tyr che sembra
-2. L'influenza di Vecna si estende più di quanto chiunque sospetti
+2. L'influenza di Dispater si estende più di quanto chiunque sospetti
 3. La maledizione dello Scettro di Tyr è reale e pericolosa — chi lo impugna senza esserne degno paga un prezzo terribile
 
 **TS Intuizione CD 12**: i PG possono valutare la sincerità di Thaddeus. Successo: percepiscono che è genuinamente preoccupato e dice la verità. Fallimento: non riescono a leggere le sue intenzioni — potrebbe essere sincero o potrebbe avere un secondo fine.

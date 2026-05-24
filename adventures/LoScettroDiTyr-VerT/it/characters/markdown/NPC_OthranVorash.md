@@ -3,14 +3,14 @@
 ## Informazioni generali
 
 - **Ruolo**: antagonista ricorrente
-- **Classe**: warlock (patrono: Vecna)
+- **Classe**: warlock (patrono: Dispater)
 - **Livello**: 10
 - **Razza**: mezzelfo
 - **Allineamento**: Neutrale Malvagio
 
 ## Descrizione
 
-Othran è un mezzelfo dal portamento elegante e lo sguardo calcolatore. I tratti elfici sono appena accennati — orecchie leggermente a punta, lineamenti affilati — ma i suoi occhi hanno una luce innaturale, un riflesso verdastro che tradisce il patto con Vecna. Veste di scuro, pratico, senza ostentazione.
+Othran è un mezzelfo dal portamento elegante e lo sguardo calcolatore. I tratti elfici sono appena accennati — orecchie leggermente a punta, lineamenti affilati — ma i suoi occhi hanno una luce innaturale, un riflesso verdastro che tradisce il patto con Dispater. Veste di scuro, pratico, senza ostentazione.
 
 Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazione fosse un interrogatorio. Ha l'abitudine di fissare le persone in silenzio prima di rispondere — un trucco per metterle a disagio.
 
@@ -61,7 +61,7 @@ Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazion
 
 ## Motivazioni
 
-Othran serve Vecna con devozione fanatica. Il suo obiettivo è recuperare lo Scettro di Tyr per il suo patrono — o per sé stesso, se l'opportunità si presenta. Non ha lealtà verso nessuno se non verso il potere.
+Othran serve Dispater con devozione fanatica. Il suo obiettivo è recuperare lo Scettro di Tyr per il suo patrono — o per sé stesso, se l'opportunità si presenta. Non ha lealtà verso nessuno se non verso il potere.
 
 Insegue i PG con pazienza e metodo. Non attacca frontalmente se può evitarlo: preferisce tendere imboscate, manipolare alleati dei PG, e colpire quando sono deboli.
 

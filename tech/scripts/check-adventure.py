@@ -184,12 +184,14 @@ def check_maps(adventure_dir):
     lang_dir = get_lang_dir(adventure_dir)
     multilingual = is_multilingual(adventure_dir)
 
-    # Root maps: images in adventure_dir/maps/ (or parent if variant), descriptions in lang_dir/maps/
-    maps_dir = str(resolve_asset_dir(Path(adventure_dir), "maps"))
-    desc_dir = os.path.join(lang_dir, "maps") if multilingual else maps_dir
-    if os.path.isdir(maps_dir) or os.path.isdir(desc_dir):
-        _check_maps_dir(maps_dir if os.path.isdir(maps_dir) else desc_dir, "maps",
-                        desc_dir=desc_dir if multilingual else None)
+    # Root maps: images from all asset dirs (local + parent), descriptions in lang_dir/maps/
+    from adventure_utils import resolve_asset_dirs
+    maps_dirs = resolve_asset_dirs(Path(adventure_dir), "maps")
+    desc_dir = os.path.join(lang_dir, "maps") if multilingual else (str(maps_dirs[0]) if maps_dirs else "")
+    # Merge all map image dirs
+    all_maps_dir = str(maps_dirs[0]) if maps_dirs else os.path.join(adventure_dir, "maps")
+    if any(os.path.isdir(str(d)) for d in maps_dirs) or os.path.isdir(desc_dir):
+        _check_maps_dir_multi(maps_dirs, "maps", desc_dir=desc_dir if multilingual else None)
 
     # Module maps
     mod_base = lang_dir if multilingual else adventure_dir
@@ -202,6 +204,24 @@ def check_maps(adventure_dir):
             _check_maps_dir(mod_maps_img if os.path.isdir(mod_maps_img) else mod_maps_desc,
                             f"{d}/maps",
                             desc_dir=mod_maps_desc if multilingual else None)
+
+
+def _check_maps_dir_multi(maps_dirs, label, desc_dir=None):
+    """Check maps across multiple directories (local + parent). Merge PNGs from all dirs."""
+    pngs = set()
+    for d in maps_dirs:
+        d_str = str(d)
+        if os.path.isdir(d_str):
+            files = [f for f in os.listdir(d_str) if os.path.isfile(os.path.join(d_str, f))]
+            pngs.update(os.path.splitext(f)[0] for f in files if f.lower().endswith((".png", ".jpg", ".jpeg")))
+
+    mds = set()
+    if desc_dir and os.path.isdir(desc_dir):
+        desc_files = [f for f in os.listdir(desc_dir) if os.path.isfile(os.path.join(desc_dir, f))]
+        mds = {os.path.splitext(f)[0] for f in desc_files if f.endswith(".md")}
+
+    for name in sorted(pngs - mds):
+        warn(f"{label}/{name}.png senza descrizione {name}.md corrispondente")
 
 
 def _check_maps_dir(maps_dir, label, desc_dir=None):

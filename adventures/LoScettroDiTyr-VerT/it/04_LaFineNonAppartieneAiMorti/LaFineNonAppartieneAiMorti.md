@@ -4,9 +4,9 @@
 
 > ⚠ *Questo preludio va adattato dal DM in base a come si è concluso il Modulo C e al tempo trascorso.*
 
-Dopo aver riconsegnato lo Scettro all'altare di Tyr a Svoalbard (o dopo la distruzione dello Scettro nel Modulo B), i PG fanno ritorno verso sud. Il viaggio di ritorno è lungo ma senza incidenti — Vecna ha perso il suo strumento principale (Othran) e per ora si ritira nell'ombra.
+Dopo aver riconsegnato lo Scettro all'altare di Tyr a Svoalbard (o dopo la distruzione dello Scettro nel Modulo B), i PG fanno ritorno verso sud. Il viaggio di ritorno è lungo ma senza incidenti — Dispater ha perso il suo strumento principale (Othran) e per ora si ritira nell'ombra.
 
-Nel frattempo, a Orcastle le cose sono cambiate. La caduta della cupola magica (se i PG hanno usato la pergamena nel Modulo A) o l'indebolimento di Malebranche hanno permesso ai prigionieri di ribellarsi. **Kreig Highlander** — ora **conte Wildforge** (ha ripreso il cognome di famiglia, abbandonando quello della banda) — ha preso il controllo della contea con **Miranda** e **Ruby** come vassalli, le vecchie rivalità messe da parte dalla necessità di ricostruire.
+Nel frattempo, a Orcastle le cose sono cambiate. La fuga dei capi attraverso il portale della Torre di Torth e la sconfitta di Malebranche hanno permesso ai prigionieri di ribellarsi. **Kreig Highlander** — ora **conte Wildforge** (ha ripreso il cognome di famiglia, abbandonando quello della banda) — ha preso il controllo della contea con **Miranda** e **Ruby** come vassalli, le vecchie rivalità messe da parte dalla necessità di ricostruire.
 
 **Frankie** e **Ombrascura**, separatisi dai PG dopo la fuga da Orcastle, sono rimasti nella contea per aiutare la ricostruzione. Hanno assistito alla disperazione di Malebranche e al suo rituale di evocazione di Zikle prima che fuggisse a Uluvin — è così che sanno della maledizione.
 

@@ -4,12 +4,12 @@
 
 - **Ruolo**: guardiano del tempio, potenziale alleato
 - **Razza**: costrutto (golem di pietra)
-- **Allineamento**: Neutrale (corrotto da Vecna)
+- **Allineamento**: Neutrale (corrotto da Dispater)
 - **Base**: variante Golem di Pietra (MM pag. 178)
 
 ## Descrizione
 
-Un enorme golem di pietra accovacciato, chiaramente ferito — crepe profonde attraversano il suo corpo e frammenti di pietra mancano dal torso e dalle braccia. Era un guardiano sacro del Tempio di Lumina, ora pervaso dall'influenza oscura di Vecna. Un'aura di energia necromantica lo circonda.
+Un enorme golem di pietra accovacciato, chiaramente ferito — crepe profonde attraversano il suo corpo e frammenti di pietra mancano dal torso e dalle braccia. Era un guardiano sacro del Tempio di Lumina, ora pervaso dall'influenza oscura di Dispater. Un'aura di energia necromantica lo circonda.
 
 Non parla se non a parole singole e monosillabi. Ha una comprensione approssimativa del linguaggio umano, non è abbastanza intelligente per discuterci. Riconosce i portatori dello Scettro e i loro compagni come amici e li difende da chi dice di volerglielo strappare.
 
@@ -44,7 +44,7 @@ Non parla se non a parole singole e monosillabi. Ha una comprensione approssimat
 
 ## Motivazioni
 
-Il golem è intrappolato dalla corruzione di Vecna. La sua natura originale è quella di un guardiano devoto — se liberato (Dissolvi Magie CD 14 o reso incosciente e risvegliato), torna al suo servizio originale e si dirige verso l'ingresso del tempio.
+Il golem è intrappolato dalla corruzione di Dispater. La sua natura originale è quella di un guardiano devoto — se liberato (Dissolvi Magie CD 14 o reso incosciente e risvegliato), torna al suo servizio originale e si dirige verso l'ingresso del tempio.
 
 ## Note al master
 

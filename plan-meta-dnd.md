@@ -146,7 +146,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] Copertina: `img/NomeAvventura_COVER.png`
 - [x] Milestone: sezione `## Milestone` opzionale nei moduli (separata da `## Ricompense`)
 - [x] Struttura avventura: campo `**Struttura**: lineare/sandbox/mista` nel `README.md`
-- [x] Test di non regressione: dopo ogni modifica agli script in `tech/`, lanciare `python3 tech/tests/test_regression.py`. In caso di fallimento, chiedersi prima se è sbagliato il test o il codice.
+- [x] Test di non regressione: dopo ogni **modifica** agli script in `tech/`, lanciare `python3 tech/tests/test_regression.py`. Non serve lanciarli quando si usa uno script senza modificarlo. In caso di fallimento, chiedersi prima se è sbagliato il test o il codice.
 - [ ] Copertura test incompleta — feature non testate:
   - `--lang en` (multilingua) su create-pdf-adventure, generate-statblocks, md-to-fightclub
   - Varianti con parent (resolve_asset_dir da parent, check-adventure su variante, PDF da variante)

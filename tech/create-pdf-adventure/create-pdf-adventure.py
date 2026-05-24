@@ -284,10 +284,25 @@ def find_maps_in_dir(maps_dir, desc_dir=None):
 
 def find_adventure_maps(adventure_dir, lang_dir=None):
     """Find maps in the adventure root maps/ directory.
-    Images in adventure_dir/maps/ (or parent if variant), descriptions in lang_dir/maps/ (if multilingual)."""
-    img_maps = resolve_asset_dir(adventure_dir, "maps")
-    desc_maps = (lang_dir / "maps") if lang_dir else img_maps
-    return find_maps_in_dir(img_maps, desc_maps)
+    Images from all asset dirs (local + parent if variant), descriptions in lang_dir/maps/ (if multilingual)."""
+    from adventure_utils import resolve_asset_dirs
+    maps_dirs = resolve_asset_dirs(adventure_dir, "maps")
+    desc_maps = (lang_dir / "maps") if lang_dir else (maps_dirs[0] if maps_dirs else adventure_dir / "maps")
+    # Merge maps from all directories
+    all_maps = []
+    for img_maps in maps_dirs:
+        all_maps.extend(find_maps_in_dir(img_maps, desc_maps))
+    # Deduplicate by image stem (local overrides parent)
+    seen = set()
+    result = []
+    for map_md, map_img in all_maps:
+        key = map_img.stem if map_img else (map_md.stem if map_md else None)
+        if key and key not in seen:
+            seen.add(key)
+            result.append((map_md, map_img))
+        elif not key:
+            result.append((map_md, map_img))
+    return result
 
 
 def find_module_maps(module_dir, adventure_dir=None, lang_dir=None, mod_name=None):

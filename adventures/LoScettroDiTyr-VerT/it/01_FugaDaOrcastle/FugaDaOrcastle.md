@@ -249,6 +249,30 @@ Se i PG si liberano dai collari o dopo il settimo riposo: 3d6 mercenari al soldo
 - Se consegnano la pergamena: Malebranche rafforza la sua posizione, ma i PG sono in debito con un tiranno più potente
 - Se usano la pergamena per distruggere la cupola: Malebranche viene deposto, ma il caos si diffonde in Orcastle
 
+### Il punto di recupero
+
+Una volta che i PG usano la pergamena di messaggio per avvertire Malebranche, ricevono istruzioni: tornare alla porta nella cupola (da dove sono entrati). Una guardia di Malebranche li attende e li scorta fuori. Una barca (o la nave volante Airborne) li porta al palazzo di Malebranche sul continente. Durante il tragitto i collari vengono disattivati a distanza — Malebranche mantiene la parola.
+
+I PG possono aver rivelato ai capi dell'isola (Wildforge, Ruby, Emerald) come uscire tramite il portale della Torre di Torth. Se lo hanno fatto, i capi usciranno dal portale e raggiungeranno il palazzo alcune ore dopo i PG.
+
+### Al palazzo — la scelta
+
+Una volta al palazzo, i PG consegnano la pergamena. Malebranche la prende con soddisfazione — intende mostrarla ai vassalli per confermare il suo potere politico. I PG sono liberi: possono andarsene con le 2500 mo e la missione è completata.
+
+Ma se hanno rivelato il portale ai capi di Orcastle, questi stanno arrivando. I PG possono:
+- **Andarsene** — missione completata, lasciano che Wildforge e i capi si occupino di Malebranche
+- **Restare e attaccare** — si uniscono all'assalto dei capi di Orcastle contro Malebranche
+
+Se i PG restano, dopo 1d4 turni dall'inizio del combattimento arrivano Wildforge e i capi con le loro forze (2d6 veterani + i leader delle fazioni). La battaglia diventa uno scontro su larga scala.
+
+*Nota al DM: Malebranche ha una protezione narrativa — serve nei moduli successivi. Se scende sotto 25 PF, apre un portale dimensionale e fugge gridando "ci rivedremo". Se i PG lo portano a 0 PF in un singolo colpo, il portale si attiva automaticamente un istante prima del colpo fatale.*
+
+### Epilogo
+
+- **Se Malebranche fugge:** il palazzo viene preso da Wildforge. I vassalli si arrendono o fuggono. Wildforge diventa il nuovo signore del palazzo — un alleato potenziale per il futuro.
+- **Se i PG se ne vanno senza combattere:** Malebranche mantiene il potere (per ora). I capi di Orcastle arriveranno comunque e lo affronteranno — l'esito è incerto e a discrezione del DM.
+- **Dispater osserva:** i PG hanno fatto esattamente ciò che Dispater voleva — eliminare (o indebolire) Malebranche. Anche senza patto, Dispater li considera "interessanti". Questo sarà l'aggancio per il modulo B.
+
 ---
 
 ### Il Palazzo di Malebranche
@@ -306,10 +330,9 @@ Meccaniche:
 Strategia: Rompere gli specchi (ogni parete specchio: 5 PF, CA 6) elimina le illusioni e lo svantaggio.
 
 **Esito:**
-- **Vittoria:** Il potere di Malebranche crolla, i vassalli fuggono o combattono tra loro
+- **Vittoria (Malebranche fugge):** Sotto 25 PF apre un portale dimensionale e fugge ("ci rivedremo"). Il palazzo passa a Wildforge. I vassalli si arrendono.
 - **Sconfitta:** Malebranche completa il rituale, magia immortale, regione diventa dominio necrotico
-- **Finale alternativo:** Sigillare Malebranche nella Torre di Torth usando la pergamena
-- Se rimane con meno di 25 PF: apre un portale dimensionale e fugge gridando "ci rivedremo"
+- **I PG se ne vanno:** Missione completata pacificamente. L'assalto dei capi di Orcastle avviene senza di loro.
 
 ---
 

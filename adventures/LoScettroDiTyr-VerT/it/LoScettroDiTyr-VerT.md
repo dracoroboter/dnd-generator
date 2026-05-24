@@ -16,9 +16,9 @@
 
 ## Lore
 
-Lo **Scettro di Tyr** è un'arma divina che si narra fosse impugnata da Tyr stesso. Solo i puri possono usarlo senza subire la maledizione che consuma l'anima e trasforma in un servitore non morto. Lo Scettro fu perduto durante la **Caduta del Tempio di Lumina**, quando un sacerdote corrotto da Vecna tentò di rubarlo. **Ormut**, un incantatore devoto di Tyr, lo teletrasportò in un luogo sconosciuto — il **Regno di Erythale**, un piano etereo di luce e cristallo — prima di morire per mano dei traditori.
+Lo **Scettro di Tyr** è un'arma divina che si narra fosse impugnata da Tyr stesso. Solo i puri possono usarlo senza subire la maledizione che consuma l'anima e trasforma in un servitore non morto. Lo Scettro fu perduto durante la **Caduta del Tempio di Lumina**, quando un sacerdote corrotto da Dispater tentò di rubarlo. **Ormut**, un incantatore devoto di Tyr, lo teletrasportò in un luogo sconosciuto — il **Regno di Erythale**, un piano etereo di luce e cristallo — prima di morire per mano dei traditori.
 
-Da allora lo Scettro è diventato oggetto di leggende. **Vecna**, il Dio dei Segreti, lo vuole per amplificare il suo potere oscuro e trasformare l'umanità in servitori non morti. I **Custodi dell'Equilibrio**, un ordine dedicato a Tyr, vogliono recuperarlo per il loro leader **Sir Alaric il Giusto** — che nasconde ambizioni personali di potere assoluto.
+Da allora lo Scettro è diventato oggetto di leggende. **Dispater**, l'Arciduca di Dis, lo vuole per amplificare il suo potere oscuro e trasformare l'umanità in servitori non morti. I **Custodi dell'Equilibrio**, un ordine dedicato a Tyr, vogliono recuperarlo per il loro leader **Sir Alaric il Giusto** — che nasconde ambizioni personali di potere assoluto.
 
 La saga si svolge lungo la Costa della Spada e oltre, da **Orcastle** (una città-prigione sotto una cupola magica) fino alle terre ghiacciate di **Svoalbard** a nord di Bryn Shander.
 
@@ -26,22 +26,22 @@ La saga si svolge lungo la Costa della Spada e oltre, da **Orcastle** (una citt�
 
 > "Vi devo la vita. La mia ira si abbatterà su di voi se non inizierete a cercare lo Scettro di Tyr. Premi incommensurabili vi verranno donati se compirete l'impresa."
 
-I personaggi si trovano coinvolti in una catena di eventi che li porta dal servizio forzato per un tiranno (Malebranche) a una missione per conto di Vecna, fino a dover scegliere da che parte stare in un conflitto tra divinità. Le loro scelte morali determinano il destino di regni interi.
+I personaggi si trovano coinvolti in una catena di eventi che li porta dal servizio forzato per un tiranno (Malebranche) a una missione per conto di Dispater, fino a dover scegliere da che parte stare in un conflitto tra divinità. Le loro scelte morali determinano il destino di regni interi.
 
-L'avventura inizia con il rapimento dei PG da parte di **Lord Cedric Malebranche**, che li costringe a recuperare la **Pergamena del Giudizio** nella città-prigione di Orcastle. Da lì, un patto con **Vecna** li manda alla ricerca dello Scettro di Tyr. Il viaggio li porta attraverso montagne, templi in rovina e piani di esistenza alternativi, fino alla resa dei conti finale.
+L'avventura inizia con il rapimento dei PG da parte di **Lord Cedric Malebranche**, che li costringe a recuperare la **Pergamena del Giudizio** nella città-prigione di Orcastle. Da lì, un patto con **Dispater** li manda alla ricerca dello Scettro di Tyr. Il viaggio li porta attraverso montagne, templi in rovina e piani di esistenza alternativi, fino alla resa dei conti finale.
 
 ## Plot generale
 
 - **Modulo 1 — Fuga da Orcastle**: i PG, rapiti e dotati di collari esplosivi, devono recuperare la Pergamena del Giudizio nella città-prigione di Orcastle e trovare un modo per fuggire. Quattro fazioni controllano l'isola, ognuna con i propri segreti.
-- **Modulo 2 — Lo Scettro di Tyr**: Vecna incarica i PG di recuperare lo Scettro dal Tempio di Lumina. Viaggio da Baldur's Gate attraverso montagne pericolose, prove di purezza nel tempio, e scontro finale con Alaric il Giusto.
-- **Modulo 3 — Ritorno a Casa**: i PG devono riconsegnare lo Scettro all'altare di Tyr a Svoalbard. Viaggio via nave lungo la Costa della Spada, inseguiti da una spia di Vecna e dal warlock Othran Vorash.
+- **Modulo 2 — Lo Scettro di Tyr**: Dispater incarica i PG di recuperare lo Scettro dal Tempio di Lumina. Viaggio da Baldur's Gate attraverso montagne pericolose, prove di purezza nel tempio, e scontro finale con Alaric il Giusto.
+- **Modulo 3 — Ritorno a Casa**: i PG devono riconsegnare lo Scettro all'altare di Tyr a Svoalbard. Viaggio via nave lungo la Costa della Spada, inseguiti da una spia di Dispater e dal warlock Othran Vorash.
 - **Modulo 4 — La fine non appartiene ai morti**: Malebranche, sconfitto, evoca il mago Zikle e maledice i PG. I morti si rialzano ovunque passino. Devono trovare il Monile d'Oro di Ostegard per spezzare la maledizione e sconfiggere Malebranche una volta per tutte.
 
 ## Consigli al master
 
-- **Tono**: dark fantasy con momenti di tensione morale. I PG partono dalla parte del male (lavorano per Vecna) e devono guadagnarsi la redenzione. Le scelte morali hanno conseguenze meccaniche reali.
+- **Tono**: dark fantasy con momenti di tensione morale. I PG partono dalla parte del male (lavorano per Dispater) e devono guadagnarsi la redenzione. Le scelte morali hanno conseguenze meccaniche reali.
 - **Continuità**: i moduli sono sequenziali. Personaggi come Frankie, Ombrascura, Kreig, Miranda e Ruby tornano in moduli diversi. Tenere traccia delle relazioni.
-- **Vecna**: è sempre presente come minaccia. Se i PG ignorano le sue richieste, subiscono maledizioni progressive (tabella d6 nel Modulo 2). Non è un nemico da combattere direttamente — è un burattinaio.
+- **Dispater**: è sempre presente come minaccia. Se i PG ignorano le sue richieste, subiscono maledizioni progressive (tabella d6 nel Modulo 2). Non è un nemico da combattere direttamente — è un burattinaio.
 - **Lo Scettro**: è un oggetto potentissimo ma pericoloso. La maledizione di Tyr colpisce chiunque lo tocchi senza essere puro. Solo l'araldo designato può impugnarlo. Tenere traccia di chi lo porta e delle conseguenze.
 - **Difficoltà**: l'avventura scala da lv8 (Modulo 1) a lv10 (Moduli 3-4). Gli incontri sono calibrati per 4-6 PG. Il Modulo 1 ha molte opzioni non-combat; il Modulo 4 è il più combat-heavy.
 
@@ -93,13 +93,13 @@ Alto sacerdote dei Custodi dell'Equilibrio. Nasconde ambizioni di potere assolut
 
 ### Othran Vorash (modulo 3)
 
-Mezzelfo warlock di Vecna, lv10. Insegue i PG per rubare lo Scettro nei Moduli 3-4.
+Mezzelfo warlock di Dispater, lv10. Insegue i PG per rubare lo Scettro nei Moduli 3-4.
 
 → Scheda: NPC_OthranVorash
 
 ### Zalhara Lorenn (modulo 3)
 
-Spia umana al servizio di Vecna. Viaggia sulla stessa nave dei PG nel Modulo 3.
+Spia umana al servizio di Dispater. Viaggia sulla stessa nave dei PG nel Modulo 3.
 
 → Scheda: NPC_ZalharaLorenn
 
@@ -149,9 +149,9 @@ Gnomo, capitano della nave La Nuova Speranza.
 
 → Scheda: NPC_OrlommGlittergear
 
-### Vecna — divinità (trasversale)
+### Dispater — divinità (trasversale)
 
-Dio dei Segreti. Manipolatore, non combatte direttamente. Appare come avatar alla Torre di Torth.
+Arciduca di Dis. Manipolatore, non combatte direttamente. Appare come avatar alla Torre di Torth.
 
 - **Ruolo:** burattinaio, dà la missione nel Modulo B, insegue tramite agenti nei Moduli C-D.
 - **Come si comporta:** divertito, calcolatore, tratta i mortali come pedine.
@@ -169,7 +169,7 @@ Dio della Giustizia. Appare al Tempio di Lumina e a Svoalbard. Pone prove di pur
 |-------|-------------|--------|
 | **Orcastle** | Città-prigione su un'isola in mare a sud di Waterdeep, sotto una cupola magica. La cupola genera correnti e nebbia che impediscono la navigazione nelle vicinanze — raggiungibile solo con navi volanti (passano sopra). Se la cupola cade, le correnti spariscono e la fuga via nave è possibile. Quattro fazioni la controllano (Ruby, Emerald, Castro, Malebranche). | 1 |
 | **Fortezza di Orcastle** | Sede di Lord Malebranche, centro della cupola magica. | 1, 4 |
-| **Torre di Torth** | Torre di Vecna. Contiene la Coppa di Blackwood. Avatar di Vecna appare qui. | 1 |
+| **Torre di Torth** | Torre di Dispater. Contiene la Coppa di Blackwood. Avatar di Dispater appare qui. | 1 |
 | **Baldur's Gate** | Città di partenza del Modulo 2. Porto sulla Costa della Spada. | 2 |
 | **Tempio di Lumina** | Tempio in rovina dedicato a Tyr, nelle montagne. Contiene lo Scettro. Prove di purezza. | 2 |
 | **Costa della Spada** | Rotta marittima dal sud (Baldur's Gate) al nord (Svoalbard). | 2-3 |
@@ -192,7 +192,7 @@ Arma divina di cristallo. Proprietà: Resurrezione Sacra (1 carica), Potenziamen
 
 ### La Coppa di Blackwood (Modulo 1)
 
-Artefatto nella Torre di Torth. Funziona come Dissolvi Magie (abbastanza potente per i collari). Parola magica: "Obloc Vecnal" (Lode a Vecna in infernale).
+Artefatto nella Torre di Torth. Funziona come Dissolvi Magie (abbastanza potente per i collari). Parola magica: "Dispater ekar rulvar" (Dispater regna eternamente in infernale).
 
 ### Il Monile d'Oro di Ostegard (Modulo 4)
 
@@ -209,7 +209,7 @@ Talismano che canalizza energia sacra per disperdere la corruzione necromantica.
 
 ## Agganci futuri
 
-- Il patto con Vecna alla Torre di Torth (Modulo 1) può essere un hook per avventure successive
+- Il patto con Dispater alla Torre di Torth (Modulo 1) può essere un hook per avventure successive
 - Le tre azioni del bene richieste da Tyr per diventare puri (Modulo 2) possono essere hook per one-shot
-- La voce finale di Tyr a Svoalbard (Modulo 3) promette una chiamata futura contro Vecna
+- La voce finale di Tyr a Svoalbard (Modulo 3) promette una chiamata futura contro Dispater
 - Il matrimonio di Tungsten (epilogo Modulo 4) è un punto di partenza naturale per nuove avventure
