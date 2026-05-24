@@ -64,6 +64,7 @@ Questa è la versione **"Draco"** — porting fedele del materiale legacy. Una v
 
 ### Altro
 - [x] NPC 'Divinità': manca tag (modulo N) — riformattate come `### Nome — divinità (trasversale)`
+- [ ] Nomenclatura moduli: sostituire "Modulo A/B/C/D" → "Modulo 1/2/3/4" nel testo (doc principale, PlanBook, AdventureBook). Le directory sono già numeriche.
 
 ## Log sessioni di lavoro
 
