@@ -49,6 +49,11 @@ __pycache__/
 tmp-*.sh
 mdpdf.log
 
+# Test generati (rigenerabili)
+tech/fightclub/test/*.png
+tech/fightclub/test/*.pdf
+tech/fightclub/test/*.html
+
 # OS
 .DS_Store
 Thumbs.db
