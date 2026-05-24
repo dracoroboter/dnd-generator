@@ -101,12 +101,15 @@ def resolve_image(img_path, use_lowres):
 
 def find_cover(adventure_dir):
     """Find cover image: img/*_COVER.png (standard convention)."""
-    img_dir = resolve_asset_dir(adventure_dir, "img")
-    if not img_dir.exists():
-        return None
-    covers = list(img_dir.glob("*_COVER.png")) + list(img_dir.glob("*_COVER.jpg"))
-    covers = [c for c in covers if LOWRES_SUFFIX not in c.stem]
-    return covers[0] if covers else None
+    from adventure_utils import resolve_asset_dirs
+    for img_dir in resolve_asset_dirs(adventure_dir, "img"):
+        if not img_dir.exists():
+            continue
+        covers = list(img_dir.glob("*_COVER.png")) + list(img_dir.glob("*_COVER.jpg"))
+        covers = [c for c in covers if LOWRES_SUFFIX not in c.stem]
+        if covers:
+            return covers[0]
+    return None
 
 
 def is_portrait(img_path):
