@@ -291,6 +291,23 @@ def test_is_variant():
         assert is_variant(variant)
     sys.path.pop(0)
 
+@test("adventure_utils: resolve_asset_dirs partial override")
+def test_resolve_dirs_partial():
+    sys.path.insert(0, str(TECH_DIR / "scripts"))
+    from adventure_utils import resolve_asset_dirs
+    variant = ADVENTURES_DIR / "LoScettroDiTyr-VerT"
+    if not variant.exists():
+        return
+    # img/scenes exists locally but img is shared — local should come first
+    dirs = resolve_asset_dirs(variant, "img")
+    assert dirs[0] == variant / "img", f"Local img should be first, got {dirs[0]}"
+    # characters/img has no local dir — only parent
+    dirs = resolve_asset_dirs(variant, "characters/img")
+    assert len(dirs) == 1, f"Expected 1 dir for characters/img, got {len(dirs)}"
+    parent_img = ADVENTURES_DIR / "LoScettroDityr" / "characters" / "img"
+    assert dirs[0] == parent_img, f"Expected parent, got {dirs[0]}"
+    sys.path.pop(0)
+
 @test("check-adventure: LoScettroDiTyr-VerT runs (variant with parent)")
 def test_check_variant():
     variant = ADVENTURES_DIR / "LoScettroDiTyr-VerT"
