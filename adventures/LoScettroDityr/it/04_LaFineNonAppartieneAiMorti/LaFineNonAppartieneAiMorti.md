@@ -166,11 +166,11 @@ Il Santuario Sommerso di Ostegard è un antico tempio ora sommerso dalle acque i
 
 Il passaggio per la camera centrale è bloccato da un'enorme porta con tre sigilli sacri che vanno attivati con un giuramento sacro. Il testo è scritto in comune sulla porta. Arcana CD 12 per capire il significato magico della scritta e la connessione tra la scritta e la porta inamovibile. La porta non ha una chiusura meccanica e non può essere aperta in altro modo.
 
-**Difficoltà incontro:** HARD (5–6 PG lv10)
+**Difficoltà incontro:** DEADLY (5–6 PG lv10 + companion)
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Stone Golem | 2 | 178 | 17 | +10, 3d8+6 schianto | CR 5, Immutabile, Resistenza magica |
+| Stone Golem | 2 | 178 | 17 | +10, 3d8+6 schianto | CR 10, Immutabile, Resistenza magica |
 
 #### Il giuramento
 

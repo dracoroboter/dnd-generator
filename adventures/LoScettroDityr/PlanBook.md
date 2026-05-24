@@ -302,7 +302,7 @@ Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fi
 | # | Problema | Dove |
 |---|----------|------|
 | C1 | ~~Pergamena del Giudizio: due meccaniche di attivazione~~ | RISOLTO | Entrambe valide: purezza + parola segreta OPPURE legame di sangue + parola segreta. Due vie, non contraddizione. |
-| C2 | Stone Golem nel Santuario: stat sono da CR 10 (MM) ma dichiarati CR 5. Per 4-5 PG lv10 + 2 NPC = DEADLY. Da decidere: abbassare le stat per HARD, o tenere DEADLY (appropriato per dungeon finale?). | Modulo 4 |
+| C2 | ~~Stone Golem CR errato~~ | RISOLTO | CR corretto a 10 (MM), difficoltà DEADLY. Intenzionale per dungeon finale lv10 con companion. |
 
 **Media gravità:**
 
