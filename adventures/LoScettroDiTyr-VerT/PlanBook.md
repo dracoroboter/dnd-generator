@@ -75,6 +75,16 @@ Sequenza confermata:
 
 ### Vecna → Dispater (completato)
 
+### Suggerimenti di miglioramento (basati sulle nuove content-rules)
+
+Nessuno di questi è un errore — sono miglioramenti opzionali.
+
+- [ ] **Three Clue Rule — parola segreta pergamena:** solo Ombrascura la conosce. Aggiungere un secondo modo (es. accenno nel libro di Miranda, o Kreig la conosce per tradizione familiare)
+- [ ] **Minacce che avanzano — timeline esplicita:** documentare cosa succede giorno per giorno se i PG non agiscono (es. giorno 3: mercenari, giorno 5: rinforzi Malebranche)
+- [ ] **Brevità — Modulo 2:** spostare la backstory inline (Caduta del Tempio, storia di Alaric) nel documento principale, lasciare nel modulo solo la situazione attuale
+- [ ] **NPC "Come reagisce":** aggiungere il campo per Axel, Miranda, Kreig nel documento principale (utile al DM)
+- [ ] **Scalabilità:** aggiungere nota nei Consigli al master su come adattare per 4 PG o per lv8
+
 ### Checkpoint narrativi (regola di design)
 
 Per evitare l'esplosione combinatoriale delle scelte, ogni modulo parte da uno **stato garantito** (checkpoint). Il modulo non gestisce tutte le varianti di come ci si è arrivati — assume il checkpoint e basta. Le varianti vanno solo nel preludio (1-2 paragrafi adattabili dal DM). Prerequisito implicito: i PG sono vivi.
