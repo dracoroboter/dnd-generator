@@ -74,6 +74,22 @@ Sequenza confermata:
 
 ### Vecna → Dispater (completato)
 
+### Checkpoint narrativi (regola di design)
+
+Per evitare l'esplosione combinatoriale delle scelte, ogni modulo parte da uno **stato garantito** (checkpoint). Il modulo non gestisce tutte le varianti di come ci si è arrivati — assume il checkpoint e basta. Le varianti vanno solo nel preludio (1-2 paragrafi adattabili dal DM). Prerequisito implicito: i PG sono vivi.
+
+| Checkpoint | Stato garantito | Tra |
+|-----------|----------------|-----|
+| **C1** | I PG sono sul continente, liberi dai collari, con 2500 mo. Malebranche è fuggito. Wildforge controlla il palazzo. Dispater li ha osservati. | Fine Mod A → Inizio Mod B |
+| **C2** | I PG hanno lo Scettro (o l'hanno distrutto/consegnato). Dispater è stato servito o sfidato. Alaric è sconfitto. | Fine Mod B → Inizio Mod C |
+| **C3** | Lo Scettro è stato riconsegnato a Tyr (o distrutto). Othran è sconfitto. I PG tornano verso sud. | Fine Mod C → Inizio Mod D |
+| **C4** | Malebranche è sconfitto definitivamente. La maledizione è spezzata. | Fine Mod D |
+
+**Regole:**
+- Ogni modulo assume il checkpoint di ingresso senza spiegare come ci si è arrivati
+- Il preludio del modulo gestisce le varianti con "se X / se Y" in 1-2 paragrafi — poi converge
+- Se la partita giocata non porta al checkpoint (es. TPK, scelta radicalmente diversa), il DM adatta — ma il modulo scritto non cambia
+
 - Il Modulo A VerT usa **Dispater** nella Torre di Torth, mentre la versione Draco usa **Vecna**. I moduli B/C/D fanno riferimento a Vecna. Serve decidere se uniformare tutto a Dispater o mantenere Vecna nei moduli successivi.
 - Il palazzo di Malebranche è nel Modulo A (VerT) ma anche nel Modulo D (Draco). Serve decidere se rimuoverlo dal D o se il D ha un secondo confronto con Malebranche.
 - Il livello di partenza è 7 (VerT) vs 8 (Draco). I moduli B/C/D sono calibrati per lv9-10. Serve una milestone nel Modulo A per portare i PG a lv8-9 prima del Modulo B.
