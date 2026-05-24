@@ -279,7 +279,7 @@ Descrizione breve (1-2 righe): razza, ruolo, aspetto distintivo.
 → Scheda: NPC_NomePersonaggio
 ```
 
-**Regola riferimenti a file:** nel testo dei moduli e del documento principale, non citare path di file (non hanno senso nel PDF). Citare per nome: "→ Scheda: NPC_NomePersonaggio" (senza `.md`, senza path). Il lettore sa che le schede sono in `characters/markdown/`.
+**Regola riferimenti a file:** nel testo dei moduli e del documento principale, non citare path di file (non hanno senso nel PDF). Citare per nome: "→ Scheda: NPC_NomePersonaggio" (senza `.md`, senza path). Il lettore sa che le schede sono in `characters/markdown/`. Nessun path deve comparire nel PDF pubblicato.
 
 Sezioni consigliate (non obbligatorie):
 ```
