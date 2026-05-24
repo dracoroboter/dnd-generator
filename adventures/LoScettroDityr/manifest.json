@@ -11,6 +11,11 @@
     "en": "A Dungeons & Dragons 5e adventure"
   },
   "frontmatter": {
+    "it": {
+      "Durata": "campagna (4 moduli, 8-12 sessioni)",
+      "Struttura": "lineare",
+      "Tono": "dark fantasy, scelte morali"
+    },
     "en": {
       "Durata": "campaign (4 modules, 8-12 sessions)",
       "Struttura": "linear",
