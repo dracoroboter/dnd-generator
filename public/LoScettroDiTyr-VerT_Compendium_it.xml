@@ -4,7 +4,7 @@
         <name>GuardianoLumina</name>
         <size>M</size>
         <type>humanoid (costrutto (golem di pietra))</type>
-        <alignment>neutrale (corrotto da vecna)</alignment>
+        <alignment>neutrale (corrotto da dispater)</alignment>
         <ac>17</ac>
         <hp>50 (di 178 massimi — pesantemente ferito)</hp>
         <speed>10 ft.</speed>
@@ -36,7 +36,7 @@
             <name>Esplosione Oscura (1/combattimento, solo se corrotto)</name>
             <text>Raggio: 4,5m / 15ft / 3qd Tiro salvezza: Destrezza CD 15 Fallimento: 3d8+6 danni necrotici Successo: metà danni</text>
         </action>
-        <description>Un enorme golem di pietra accovacciato, chiaramente ferito — crepe profonde attraversano il suo corpo e frammenti di pietra mancano dal torso e dalle braccia. Era un guardiano sacro del Tempio di Lumina, ora pervaso dall'influenza oscura di Vecna. Un'aura di energia necromantica lo circonda.
+        <description>Un enorme golem di pietra accovacciato, chiaramente ferito — crepe profonde attraversano il suo corpo e frammenti di pietra mancano dal torso e dalle braccia. Era un guardiano sacro del Tempio di Lumina, ora pervaso dall'influenza oscura di Dispater. Un'aura di energia necromantica lo circonda.
 Non parla se non a parole singole e monosillabi. Ha una comprensione approssimativa del linguaggio umano, non è abbastanza intelligente per discuterci. Riconosce i portatori dello Scettro e i loro compagni come amici e li difende da chi dice di volerglielo strappare.
 Role: guardiano del tempio, potenziale alleato</description>
     </monster>
@@ -149,7 +149,7 @@ Role: secondario</description>
         <description>Uomo alto e imponente, portamento militare anche quando è seduto. Capelli grigi tagliati corti, barba curata, cicatrice sottile che attraversa la tempia sinistra. Indossa sempre un'armatura a piastre lucida — anche quando non serve. Mantello blu scuro con lo stemma Highlander: un falco su sfondo montano.
 Parla con voce tonante, abituato a dare ordini e a essere obbedito. Guarda gli interlocutori dall'alto in basso — letteralmente e figurativamente. Ha l'abitudine di tamburellare le dita sull'elsa della spada quando si annoia.
 Tratto distintivo: arrogante e sicuro di sé fino all'eccesso. Sottovaluta sistematicamente gli avversari — un difetto che potrebbe costargli caro.
-Role: leader del Castro (centro di Orcastle); conte Wildforge nel Modulo D</description>
+Role: leader del Castro (centro di Orcastle); conte Wildforge nel Modulo 4</description>
     </monster>
     <monster>
         <name>Kurzum</name>
@@ -365,7 +365,7 @@ Role: capitano della nave La Nuova Speranza</description>
             <text>Attacco: +6 Danni: 1d4+3 perforanti</text>
             <attack>Pugnale (mischia/distanza)|+6|1d4+3</attack>
         </action>
-        <description>Othran è un mezzelfo dal portamento elegante e lo sguardo calcolatore. I tratti elfici sono appena accennati — orecchie leggermente a punta, lineamenti affilati — ma i suoi occhi hanno una luce innaturale, un riflesso verdastro che tradisce il patto con Vecna. Veste di scuro, pratico, senza ostentazione.
+        <description>Othran è un mezzelfo dal portamento elegante e lo sguardo calcolatore. I tratti elfici sono appena accennati — orecchie leggermente a punta, lineamenti affilati — ma i suoi occhi hanno una luce innaturale, un riflesso verdastro che tradisce il patto con Dispater. Veste di scuro, pratico, senza ostentazione.
 Tratto distintivo: parla con un tono basso e misurato, come se ogni conversazione fosse un interrogatorio. Ha l'abitudine di fissare le persone in silenzio prima di rispondere — un trucco per metterle a disagio.
 Role: antagonista ricorrente</description>
     </monster>
@@ -453,7 +453,7 @@ Role: guardiano del Monile d'Oro di Ostegard</description>
         <description>Donna di mezza età, aspetto anonimo e rassicurante — esattamente come vuole lei. Capelli castani raccolti, occhiali tondi, abiti da studiosa modesti ma puliti. Porta sempre una borsa di cuoio piena di pergamene e libri. Parla con tono pacato e colto, citando testi sacri di Tyr con disinvoltura.
 Al collo porta un anello appeso a una catenina — l'**Anello dell'Ombra Evanescente**. Se qualcuno chiede, dice che è un ricordo di famiglia. L'anello reca un'incisione: *&quot;gira a sinistra&quot;*.
 Tratto distintivo: è così convincente nel suo ruolo di studiosa che persino i sacerdoti di Tyr la trovano credibile. La sua arma migliore è la fiducia che ispira.
-Role: spia al servizio di Vecna</description>
+Role: spia al servizio di Dispater</description>
     </monster>
     <monster>
         <name>Zikle</name>
