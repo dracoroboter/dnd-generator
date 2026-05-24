@@ -345,6 +345,7 @@ Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/script
      - **Fronts/minacce che avanzano**: non abbiamo il concetto di "cosa succede se i PG non agiscono". Proposta: aggiungere come strumento opzionale.
      - **Secrets & Clues come lista separata**: le nostre regole mettono gli indizi nei moduli dove servono. L'approccio Lazy DM li prepara come lista separata da distribuire al volo. Proposta: non cambiare (il nostro approccio è per avventure scritte, non per prep sessione).
   6. Proporre eventuali miglioramenti (solo dopo conferma)
+  - **Dubbio aperto (non risolvibile):** le fonti spingono verso sandbox e node-based design, ma un autore di avventure ha osservato che se vuoi "raccontare una storia" il sandbox rende la cosa molto difficile. Tensione irrisolta tra libertà dei giocatori e arco narrativo coerente. Le nostre avventure sono lineari per scelta — questo è un trade-off consapevole, non un difetto.
 
 ---
 
