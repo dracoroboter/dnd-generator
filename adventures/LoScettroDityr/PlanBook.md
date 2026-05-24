@@ -285,12 +285,45 @@ Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fi
 - [x] Frontmatter IT nel manifest.json
 - [x] Pubblicazione con nuove regole (PDF doc+moduli, stat block separato, images ZIP)
 
-### Da fare
+### Da fare (formato)
 
 | # | Cosa | Priorità | Note |
 |---|------|----------|------|
-| 1 | NPC principali → formato `### Nome (Modulo X)` con descrizione sotto | ALTA | Attualmente sono bullet point. Ristrutturare come in FuoriDaHellfire. |
-| 2 | Aggiungere sezione `## Luoghi` nel documento principale | MEDIA | Elencare: Orcastle, Baldur's Gate, Tempio di Lumina, Torre di Torth, Svoalbard, Santuario di Ostegard |
-| 3 | Rimuovere Tungsten duplicato nel documento principale | BASSA | Appare due volte nella sezione personaggi secondari |
+| 1 | NPC principali → espandere con Dove/Cosa sa/Come si comporta | MEDIA | Formato base (### + modulo) già fatto. Manca il corpo dettagliato. |
+| 2 | ~~Aggiungere sezione `## Luoghi`~~ | ~~MEDIA~~ | FATTO |
+| 3 | ~~Rimuovere Tungsten duplicato~~ | ~~BASSA~~ | FATTO |
 | 4 | Creare `it/maps/` con descrizioni .md per le mappe generali | BASSA | OrcastleCounty, FortezzaDiOrcastle, LabirintoDiVecna, LuminaTown, ecc. |
 | 5 | DM_Prep per i moduli (opzionale) | BASSA | Utile per sessioni future se si rigioca |
+
+### Contraddizioni e buchi narrativi (analisi 2026-05-24)
+
+**Alta gravità:**
+
+| # | Problema | Dove |
+|---|----------|------|
+| C1 | Pergamena del Giudizio: doc principale dice "purezza di cuore + parola segreta", Modulo 1 dice "legame di sangue (Kreig cugino di Malebranche)". Due meccaniche contraddittorie. | Doc principale vs Modulo 1 |
+| C2 | Stone Golem nel Santuario di Ostegard: dichiarati CR 5 ma sono CR 10 (MM). L'incontro è DEADLY, non HARD. | Modulo 4 |
+
+**Media gravità:**
+
+| # | Problema | Dove |
+|---|----------|------|
+| C3 | Tempio di Lumina: lo Scettro è "perduto in un luogo sconosciuto" (doc principale) ma il tempio è facilmente rintracciabile in biblioteca (Modulo 2). | Doc principale vs Modulo 2 |
+| C4 | Transizione Modulo 1→2: come arrivano i PG da Orcastle (isola) a Baldur's Gate? Il portale della Torre di Torth dove li porta? | Tra moduli 1 e 2 |
+| C5 | Orcastle: "poco a sud di Waterdeep" (Modulo 4) ma descritta come isola remota raggiungibile solo con navi volanti (Modulo 1). | Moduli 1 vs 4 |
+| C6 | Timeline maledizione Modulo 4: "settimane/mesi" passano ma la maledizione si manifesta solo durante il viaggio. Quando si attiva? | Modulo 4 |
+| C7 | Zikle lv15 ucciso da Malebranche CR 10-11. Incoerenza di potere. | Doc principale + Modulo 4 |
+| C8 | Sir Aldric (Sword Wraith CR 8): stat block mancante o da verificare (non è MM standard). | Modulo 4 |
+| C9 | Custodi dell'Equilibrio: nemici nel Modulo 2, alleati nel Modulo 3. Manca raccordo narrativo. | Moduli 2 vs 3 |
+| C10 | "Tre azioni del bene" di Tyr: criteri di purezza non collegati meccanicamente alle prove del dungeon. | Modulo 2 |
+
+**Bassa gravità:**
+
+| # | Problema | Dove |
+|---|----------|------|
+| C11 | Malebranche: "arcimago" nel doc principale ma CR 10-11 (non arcimago). Terminologia. | Doc principale |
+| C12 | Numero PG variabile tra moduli (5-6 → 4-5 → 4-5 → 5-6) senza spiegazione. | Doc principale |
+| C13 | Coppa di Blackwood: "funziona come Dissolvi Magie" ma non spiega perché sia speciale. | Doc principale |
+| C14 | Tungsten: unico NPC senza scheda. | Doc principale |
+| C15 | Frankie: come si separa dai PG dopo Modulo 1? Raccordo mancante. | Moduli 1 vs 4 |
+| C16 | Othran Vorash: doc principale dice "Moduli 3-4" ma nel 4 appare solo come spirito morto. | Doc principale |
