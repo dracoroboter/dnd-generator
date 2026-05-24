@@ -45,8 +45,8 @@ Charmed thug stat block: see `MON_TeppistaCharmato.md`.
 
 | # | name | type | file |
 |---|------|------|------|
-| 1 | Descent into the Sewers | dungeon / exploration | [01_DiscesaNelleFogne/DiscesaNelleFogne.md](01_DiscesaNelleFogne/DiscesaNelleFogne.md) |
-| 2 | Korex's Lair | dungeon / final encounter | [02_TanaDiKorex/TanaDiKorex.md](02_TanaDiKorex/TanaDiKorex.md) |
+| 1 | Descent into the Sewers | dungeon / exploration |
+| 2 | Korex's Lair | dungeon / final encounter |
 
 ## Future Hooks
 

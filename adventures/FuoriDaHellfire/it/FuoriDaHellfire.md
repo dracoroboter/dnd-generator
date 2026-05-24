@@ -186,13 +186,13 @@ Alchimista umano anziano in un villaggio a mezza giornata da Hawksbridge. Distra
 
 ## Struttura dell'avventura
 
-| # | nome | tipo | file |
-|---|------|------|------|
-| 1 | Discesa nelle Fogne | dungeon / esplorazione | [01_DiscesaNelleFogne/DiscesaNelleFogne.md](01_DiscesaNelleFogne/DiscesaNelleFogne.md) |
-| 2 | Tana di Korex | dungeon / scontro finale | [02_TanaDiKorex/TanaDiKorex.md](02_TanaDiKorex/TanaDiKorex.md) |
-| 3 | La Cripta sotto la Taverna | dungeon / esplorazione + roleplay | [03_LaCriptaSottoLaTaverna/LaCriptaSottoLaTaverna.md](03_LaCriptaSottoLaTaverna/LaCriptaSottoLaTaverna.md) |
-| 4 | La Torre di Ashwick | dungeon / esplorazione + finale | [04_LaTorreDiAshwick/LaTorreDiAshwick.md](04_LaTorreDiAshwick/LaTorreDiAshwick.md) |
-| 5 | Le Anime Sacre | roleplay / combattimento + scelta | [05_LeAnimeSacre/LeAnimeSacre.md](05_LeAnimeSacre/LeAnimeSacre.md) |
+| # | nome | tipo |
+|---|------|------|
+| 1 | Discesa nelle Fogne | dungeon / esplorazione |
+| 2 | Tana di Korex | dungeon / scontro finale |
+| 3 | La Cripta sotto la Taverna | dungeon / esplorazione + roleplay |
+| 4 | La Torre di Ashwick | dungeon / esplorazione + finale |
+| 5 | Le Anime Sacre | roleplay / combattimento + scelta |
 
 ---
 

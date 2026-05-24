@@ -191,12 +191,12 @@ Talismano che canalizza energia sacra per disperdere la corruzione necromantica.
 
 ## Struttura dell'avventura
 
-| # | nome | livello | tipo | file |
-|---|------|---------|------|------|
-| 1 | Fuga da Orcastle | lv8, 5-6 PG | sandbox / esplorazione | [01_FugaDaOrcastle/FugaDaOrcastle.md](01_FugaDaOrcastle/FugaDaOrcastle.md) |
-| 2 | Lo Scettro di Tyr | lv9, 5-6 PG | viaggio / dungeon | [02_LoScettroDiTyr/LoScettroDiTyr.md](02_LoScettroDiTyr/LoScettroDiTyr.md) |
-| 3 | Ritorno a Casa | lv10, 5-6 PG | viaggio / intrigo | [03_RitornoACasa/RitornoACasa.md](03_RitornoACasa/RitornoACasa.md) |
-| 4 | La fine non appartiene ai morti | lv10, 5-6 PG | viaggio / combat | [04_LaFineNonAppartieneAiMorti/LaFineNonAppartieneAiMorti.md](04_LaFineNonAppartieneAiMorti/LaFineNonAppartieneAiMorti.md) |
+| # | nome | livello | tipo |
+|---|------|---------|------|
+| 1 | Fuga da Orcastle | lv8, 5-6 PG | sandbox / esplorazione |
+| 2 | Lo Scettro di Tyr | lv9, 5-6 PG | viaggio / dungeon |
+| 3 | Ritorno a Casa | lv10, 5-6 PG | viaggio / intrigo |
+| 4 | La fine non appartiene ai morti | lv10, 5-6 PG | viaggio / combat |
 
 ## Agganci futuri
 
