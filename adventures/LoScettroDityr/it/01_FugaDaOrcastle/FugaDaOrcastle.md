@@ -253,7 +253,7 @@ Una volta in possesso della pergamena, i PG devono decidere cosa farne. Malebran
 I PG hanno quattro opzioni per uscire da Orcastle:
 
 1. **Grifoni:** Non più disponibili — l'ultimo è stato usato da Frankie nella sua precedente fuga, gli altri sono morti in una battaglia tra Highlander.
-2. **Teletrasporto alla Torre di Torth:** Il portale nei sotterranei della torre, attivabile con la Coppa di Blackwood e il brindisi a Vecna. Teletrasporta sul continente — la destinazione esatta è variabile: il DM può scegliere o tirare (30% palazzo di Malebranche, 30% pressi del palazzo, 30% lontano dal palazzo, 10% luogo casuale).
+2. **Teletrasporto alla Torre di Torth:** Il portale nei sotterranei della torre, attivabile con la Coppa di Blackwood e il brindisi a Vecna. Teletrasporta sul continente — la destinazione esatta è variabile: il DM può scegliere o tirare 1d6 (1-2: palazzo di Malebranche, 3-4: pressi del palazzo, 5-6: lontano dal palazzo).
 3. **Navi volanti di Malebranche:** Raggiungibili dalla porta a sud-est sulla penisola esterna o dall'alto sopra il castro. Normalmente non atterrano, quindi rubarle è complicato.
 4. **Abbattere le mura con la pergamena e fuggire via nave:** Navi ormeggiate nel porto vicino alla penisola esterna, male in arnese ma funzionanti. Utilizzabili solo se le mura magiche cadono.
 
