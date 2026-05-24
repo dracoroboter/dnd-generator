@@ -318,7 +318,7 @@ Strumenti di controllo e coercizione progettati per eliminare i portatori in cas
 
 Questa è un'avventura sandbox: i PG possono esplorare le quattro zone in qualsiasi ordine. Il timer dei collari (7 riposi lunghi) crea urgenza ma non deve soffocare l'esplorazione — i PG hanno abbastanza tempo per visitare tutte le zone se non sprecano giorni.
 
-**Frankie Partenope** è la guida narrativa. Inizia a parlare solo una volta sull'isola e conosce informazioni cruciali: le due aperture nella cupola (sopra il castro, sorvegliata; penisola esterna, si apre ogni due settimane — troppo tardi), la leggenda della Torre di Torth come terza via di fuga, e il fatto che i grifoni non ci sono più. Frankie odia Malebranche perché lo ha imprigionato ingiustamente.
+**Frankie Partenope** è la guida narrativa. Inizia a parlare solo una volta sull'isola e conosce informazioni cruciali: le due aperture nella cupola (sopra il castro, sorvegliata; penisola esterna, si apre ogni due settimane — troppo tardi), la leggenda della Torre di Torth come terza via di fuga, il fatto che i grifoni non ci sono più, e che via mare non si esce ("La cupola fa qualcosa all'acqua — correnti, nebbia, non so. Le barche nel porto sono inutili finché quella cosa sta su"). Frankie odia Malebranche perché lo ha imprigionato ingiustamente.
 
 **Ombrascura** è il vero motore dell'intrigo. Si nasconde a Est come Elemir Strunz, seguace di Axel. Il suo piano originario — entrare a Orcastle con la pergamena, liberare tutti e terminare il potere di Malebranche — non sta funzionando perché non può attivare la pergamena. Conosce la leggenda della torre e l'esistenza del libro di Miranda, ma non sa se il contenuto sia veritiero.
 
