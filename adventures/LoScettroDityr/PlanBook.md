@@ -275,3 +275,22 @@ Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fi
 ---
 
 *Ultimo aggiornamento: 2 maggio 2026*
+
+---
+
+## Conformità regole progetto (2026-05-24)
+
+### Fatto
+- [x] Titoli moduli → formato "Modulo A/B/C/D: Nome"
+- [x] Frontmatter IT nel manifest.json
+- [x] Pubblicazione con nuove regole (PDF doc+moduli, stat block separato, images ZIP)
+
+### Da fare
+
+| # | Cosa | Priorità | Note |
+|---|------|----------|------|
+| 1 | NPC principali → formato `### Nome (Modulo X)` con descrizione sotto | ALTA | Attualmente sono bullet point. Ristrutturare come in FuoriDaHellfire. |
+| 2 | Aggiungere sezione `## Luoghi` nel documento principale | MEDIA | Elencare: Orcastle, Baldur's Gate, Tempio di Lumina, Torre di Torth, Svoalbard, Santuario di Ostegard |
+| 3 | Rimuovere Tungsten duplicato nel documento principale | BASSA | Appare due volte nella sezione personaggi secondari |
+| 4 | Creare `it/maps/` con descrizioni .md per le mappe generali | BASSA | OrcastleCounty, FortezzaDiOrcastle, LabirintoDiVecna, LuminaTown, ecc. |
+| 5 | DM_Prep per i moduli (opzionale) | BASSA | Utile per sessioni future se si rigioca |
