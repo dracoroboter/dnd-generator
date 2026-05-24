@@ -314,8 +314,8 @@ Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fi
 | C6 | Timeline maledizione Modulo 4: quanto tempo passa tra Modulo 3 e 4 non è definito. Il DM decide a seconda delle necessità. La maledizione si attiva quando il DM lo ritiene opportuno. | Modulo 4 — a discrezione del DM |
 | C7 | ~~Zikle lv15 ucciso da Malebranche CR 10-11~~ | RISOLTO | Tradimento, non scontro aperto. Malebranche ha approfittato della fiducia di Zikle. Non serve specificare i dettagli. |
 | C8 | ~~Sir Aldric (Sword Wraith CR 8): stat block mancante~~ | RISOLTO | Stat block creato nel modulo 4 (basato su Sword Wraith Commander, Mordenkainen's). EASY/MEDIUM per 6-7 lv10 — è punizione per fallimento prova morale, non boss fight. |
-| C9 | Custodi dell'Equilibrio: nemici nel Modulo 2, alleati nel Modulo 3. Manca raccordo narrativo. | Moduli 2 vs 3 |
-| C10 | "Tre azioni del bene" di Tyr: criteri di purezza non collegati meccanicamente alle prove del dungeon. | Modulo 2 |
+| C9 | ~~Custodi dell'Equilibrio: nemici nel Modulo 2, alleati nel Modulo 3~~ | RISOLTO | I Custodi sono buoni ma guidati da Alaric (corrotto). Attaccano i PG perché li credono agenti di Vecna (correttamente). Dopo la sconfitta di Alaric, capiscono che i PG hanno salvato lo Scettro → eroi. Transizione implicita, coerente. |
+| C10 | "Tre azioni del bene" di Tyr: i criteri di purezza ("perdonare lo sconfitto", "rinnegare il male", "sacrificare per il bene di tutti") dovrebbero essere collegati alle prove del dungeon. Probabilmente i PG devono scegliere l'azione corretta tra due possibili durante le prove. Da verificare e rendere esplicito nel modulo 2. | Modulo 2 — da dettagliare |
 
 **Bassa gravità:**
 
