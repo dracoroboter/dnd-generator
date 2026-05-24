@@ -356,3 +356,18 @@ Un solo combattimento (cantina): MEDIUM per 3-4 PG di livello 3.
 | Sergente Bruto | Capo degli uomini della Contessina | Thug, non fanatico, negoziabile |
 | Mafalda | Agente della Contessina | Spy, pericolosa, pragmatica |
 | Sempronio Scrocchierello (menzionato) | Ex speziale, ora legittimo | Non appare - pista per puntata 5 |
+
+---
+
+## Ricompense
+
+- Gorim paga 3 mo per le informazioni (se i PG riferiscono)
+- Sberluccica offre una cornice gratis (inutile ma gentile)
+- XP: nessun avanzamento di livello (restano lv3)
+
+## Note al master
+
+- Il modulo è quasi interamente roleplay — il combattimento alla cantina è opzionale e evitabile
+- Sergius non deve essere riconosciuto come S. La descrizione di Sberluccica ("si è piegato in due") è un seme per il futuro
+- La gag della S è opzionale — funziona solo se emerge naturalmente al tavolo
+- Er Braccio non appare in questa puntata ma viene menzionato — mantenere il sospetto su di lui

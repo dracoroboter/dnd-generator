@@ -11,6 +11,10 @@
 
 Donna magra, occhi rapidi, capelli neri sotto un fazzoletto colorato. Si muove tra i mercati vendendo erbe e rimedi. "La Biscia" per come sguscia via quando le cose si mettono male. Moralista: vendeva pozioni ma non nudi.
 
+## Motivazioni
+
+Sopravvivenza e moralità selettiva. Vende rimedi e pozioni (non nudi — ha i suoi principi). Vuole guadagnare abbastanza per vivere senza attirare attenzione.
+
 ## Stat Block
 
 > Base: **Commoner** (Monster Manual p. 345, CR 0)

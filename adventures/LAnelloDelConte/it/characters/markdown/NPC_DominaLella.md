@@ -10,6 +10,10 @@
 
 Donna massiccia, mattarello sempre a portata di mano. Pratica, diretta, zero diplomazia. Sa tutto di tutti a Fianus. Pigione: 1 ma/giorno a persona (dice cifre a sentimento, il conto non torna mai).
 
+## Motivazioni
+
+Mandare avanti la locanda e tenere in riga Fianus. Pragmatica: aiuta chi paga, ignora chi non paga. Curiosa per natura — sa tutto di tutti perché le interessa.
+
 ## Stat Block
 
 > Base: **Commoner** (Monster Manual p. 345, CR 0)

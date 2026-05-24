@@ -13,6 +13,10 @@
 
 Uomini del porto di Vetusta Portus. Scaricatori, ex-marinai, piccoli criminali. Lavorano per Er Braccio per soldi facili. Non sono fanatici - se la situazione si mette male, scappano.
 
+## Motivazioni
+
+Soldi facili. Non hanno lealtà verso nessuno — lavorano per Er Braccio perché paga. Se la situazione si mette male, scappano senza pensarci.
+
 ## Stat Block
 
 > Base: **Bandit** (Monster Manual p. 343, CR 1/8)

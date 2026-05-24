@@ -13,6 +13,10 @@ Tarchiato, pancia prominente, gesticola con la pergamena in mano. Ex-capitano de
 
 Frasi ricorrenti: "Dai dai dai, che ce la facciamo", "Splendido. Meraviglioso." (sarcastico), "Ma che state a fa'?", "Io non ce la faccio piu con voi".
 
+## Motivazioni
+
+Dovere e quieto vivere. Funzionario del Conte per obbligo, non per passione. Vuole risolvere i problemi con il minimo sforzo (e la minima spesa). Tiene ai PG più di quanto ammetta.
+
 ## Stat Block
 
 | FOR | DES | COS | INT | SAG | CAR |
@@ -28,7 +32,7 @@ Frasi ricorrenti: "Dai dai dai, che ce la facciamo", "Splendido. Meraviglioso." 
 - **Lingue**: Comune, Nanico
 - **Sfida**: 1 (200 PE)
 
-## Capacita notevoli
+## Capacità notevoli
 
 - **Stile di Combattimento: Difesa**: +1 CA quando indossa armatura (gia incluso)
 - **Second Wind (1/riposo breve)**: azione bonus, recupera 1d10+3 PF

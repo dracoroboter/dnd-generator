@@ -373,7 +373,7 @@ Il gancio per la Puntata 3: scoprire chi è "S" e recuperare il ritratto. Gorim 
 
 ---
 
-## Note per il DM
+## Note al master
 
 - La Festa è una sessione di roleplay puro - nessun combattimento previsto (a meno che non individuino Sergius).
 - Sergius è presente alla Festa **travestito da Terzilio** (vedi PlanBook § Sergius). Il vero Terzilio è anche lui alla Festa col suo banco. Il DM deve decidere in quali scene è il vero Terzilio e in quali è Sergius. Annotare per coerenza.

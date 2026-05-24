@@ -142,6 +142,9 @@ def check_naming_conventions(adventure_dir):
         for d in dirs:
             if re.match(r'^\d{2}_', d) or d.startswith('.') or d == "other":
                 continue
+            # XX* directories are intentional drafts (future modules)
+            if re.match(r'^XX\d*_', d):
+                continue
             if d != d.lower():
                 error(f"Directory non minuscola: {os.path.join(rel_root, d)}/")
 

@@ -216,7 +216,7 @@ Verduraio a Settebagni. Carretto di rape. L'ingresso delle fogne è sotto il suo
 - **Cosa sa:** Dove sono le fogne (ci parcheggia sopra). Pettegolezzi di mercato. Niente di utile.
 - **Come si comporta:** Burbero, vende rape, non vuole seccature.
 
-### Simpatico Figuro
+### Simpatico Figuro (modulo 4)
 
 Bottegaio a Monteverde. Vendeva ritratti erotici prima della Gabella, ha smesso. CAR 15, INT 12.
 
@@ -224,7 +224,7 @@ Bottegaio a Monteverde. Vendeva ritratti erotici prima della Gabella, ha smesso.
 - **Cosa sa:** Il pittore è Sberluccica (P4). Vendeva ritratti ma non sa chi li produceva. Ha smesso per la Gabella e le vessazioni delle guardie.
 - **Come si comporta:** Vuole essere pagato per le informazioni (5 ma). Sotto pagamento, dice tutto quello che sa.
 
-### Mastro Cecilio Sberluccica (M.C. Sberluccica)
+### Mastro Cecilio Sberluccica (modulo 4)
 
 Ex pittore dei ritratti deepfake, ora corniciaio a Monteverde. Terrorizzato, innocente, vittima.
 
@@ -232,7 +232,7 @@ Ex pittore dei ritratti deepfake, ora corniciaio a Monteverde. Terrorizzato, inn
 - **Cosa sa:** Dipingeva per committente anonimo (doppia S). Pozioni fatte da Sempronio Scrocchierello. Ha visto il committente una volta: mascherato, alto, sicuro - allontanandosi "si è piegato in due".
 - **Come si comporta:** Terrorizzato. Se ruolato bene il convincimento non serve tiro. Frase d'apertura: "Benvenuti, volete una cornice? Ce n'è per tutti i prezzi."
 
-### Sempronio Scrocchierello
+### Sempronio Scrocchierello (modulo 5)
 
 Ex speziale delle pozioni, ora spezieria legittima a Vetusta Portus. 60enne, calvo, occhiali tondi.
 
@@ -240,7 +240,7 @@ Ex speziale delle pozioni, ora spezieria legittima a Vetusta Portus. 60enne, cal
 - **Cosa sa:** Pozioni = alcol, acqua e spezie (amari). Non funzionano. Committente via lettera (doppia S). Non ha mai incontrato Sberluccica. Ha smesso per la Gabella.
 - **Come si comporta:** Nervoso ma non terrorizzato. Parla se i PG sono ragionevoli (Persuasione CD 13). Pista morta - conferma solo cose già note.
 
-### Donna Ortensia
+### Donna Ortensia (modulo 5)
 
 Moglie di Grigius Voidus. Era cliente (comprava pozioni da Flavia).
 
@@ -248,7 +248,7 @@ Moglie di Grigius Voidus. Era cliente (comprava pozioni da Flavia).
 - **Cosa sa:** Comprava pozioni. Non sa chi le produce.
 - **Come si comporta:** Ammette solo sotto pressione (Intimidazione CD 14 / Persuasione CD 16).
 
-### Mastro Cecio
+### Mastro Cecio (modulo 4)
 
 Bottegaio vicino alla piazza del Mercato. Di nessun aiuto.
 
@@ -256,14 +256,14 @@ Bottegaio vicino alla piazza del Mercato. Di nessun aiuto.
 - **Cosa sa:** Niente.
 - **Come si comporta:** "No." / "Non so." / "Andate via."
 
-### Ermolao "Il Profondo"
+### Ermolao "Il Profondo" (modulo 1)
 
 Saggio delle fogne. Running gag: compare in posti improbabili.
 
 - **Dove:** Fogne di Fianus. Bisogna scendere.
 - **Cosa sa:** Cose criptiche e inutili.
 
-### Salvuccio "Er Lampione"
+### Salvuccio "Er Lampione" (modulo 3)
 
 Guardiano del faro a Vetusta Portus. Parla un dialetto del sud incomprensibile (misto napoletano, siciliano, barese). Pista morta comica.
 
@@ -271,7 +271,7 @@ Guardiano del faro a Vetusta Portus. Parla un dialetto del sud incomprensibile (
 - **Cosa sa:** Niente di utile. Si vanta di sapere tutto.
 - **Come si comporta:** Si arrabbia, pretende che gli ripaghino la porta.
 
-### Notabile San Giovanni
+### Notabile San Giovanni (modulo 5)
 
 Nobile ad Aviano. Ha comprato un quadro piccante da Sergius. Sergius lo indicava dal palco alla Festa del Grazie (P2).
 
@@ -279,7 +279,7 @@ Nobile ad Aviano. Ha comprato un quadro piccante da Sergius. Sergius lo indicava
 - **Cosa sa:** Ha comprato un ritratto. Sa che il venditore usava la doppia S. Non sa niente del quadro vero — ha sentito voci che "esiste un ritratto vero del Conte" ma non sa dove né chi l'ha fatto.
 - **Come si comporta:** Reticente, protetto. Difficile parlarci.
 
-### Don Silverio Scannabue
+### Don Silverio Scannabue (modulo 5)
 
 Prete/chierico ad Aviano. Ipocrita totale — comprava quadri piccanti di nascosto.
 
@@ -287,7 +287,7 @@ Prete/chierico ad Aviano. Ipocrita totale — comprava quadri piccanti di nascos
 - **Cosa sa:** Ha comprato ritratti tramite la rete di S. Non sa niente del quadro vero — stesse voci vaghe degli altri.
 - **Come si comporta:** Nega tutto con indignazione religiosa. Difficile da incastrare.
 
-### Dottor Salomone Spaccafegato
+### Dottor Salomone Spaccafegato (modulo 5)
 
 Medico/cerusico a Vetusta Portus. Sfigato, pochi clienti. Comprava i quadri per consolarsi. Più accessibile degli altri.
 
@@ -295,7 +295,7 @@ Medico/cerusico a Vetusta Portus. Sfigato, pochi clienti. Comprava i quadri per 
 - **Cosa sa:** Ha comprato ritratti tramite la rete di S. Non sa niente del quadro vero — stesse voci. Potrebbe aver visto qualcosa in più (vicino di Arimano).
 - **Come si comporta:** Nervoso, imbarazzato, crolla facilmente sotto pressione.
 
-### [Altri notabili da creare]
+### [Altri notabili da creare] (modulo 5+)
 
 Servono almeno altri 2 notabili implicati nei ritratti (Vetusta Portus e Fianus). Uno più sfigato e accessibile. Tutti con la S nel nome.
 
@@ -412,6 +412,18 @@ Tutti ne parlano, nessuno sa cosa fa, nessuno sa dov'è:
 ---
 
 ---
+
+## Luoghi
+
+| Luogo | Descrizione | Moduli |
+|-------|-------------|--------|
+| Fianus Romanus | Borgo nel sud di Drakenhold, affacciato sul mare. Vita rurale, tutti si conoscono. Fogne sorprendentemente elaborate. | 1, 2, 3, 4 |
+| Fogne di Fianus | Rete sotterranea sotto il borgo, usata da Sergius per nascondere merci | 1 |
+| Vetusta Portus | Frazione costiera a sud di Fianus, mezza giornata di cammino | 3 |
+| Magazzini del Porto | Magazzini a Vetusta Portus, deposito segreto di Sergius | 3 |
+| Cantina di Ponte Milvio | Locale dove si riuniscono i notabili | 2 |
+| Casa Arimano | Casa signorile di Sergius in collina a Vetusta Portus | 3+ |
+| Drakenhold | Regno e capitale, al centro del continente. Governato da Re Dorian Valemarch | contesto |
 
 ## Struttura dell'avventura
 

@@ -373,7 +373,7 @@ La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Se
 
 ---
 
-## Note per il DM
+## Note al master
 
 - Gorim può accompagnare i PG o aspettarli fuori ("Io nelle fogne non ci scendo, ho la sciatica"). Convincerlo richiede **Persuasion CD 17**. Se accompagna, commenta tutto con esasperazione.
 - Nessun incontro deve essere letale. Se i PG sono in difficoltà con Grunzio, farlo scivolare su qualcosa di comico.

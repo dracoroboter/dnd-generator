@@ -290,6 +290,8 @@ Sezioni consigliate (non obbligatorie):
 ### Moduli (`NN_NomeModulo/NomeModulo.md`)
 Un file per ogni quest, dungeon o luogo significativo.
 
+**Convenzione directory:** `NN_` con numero progressivo (01_, 02_, ...). Le directory `XX*_` (es. `XX3_IlFinaleDiStagione/`) sono bozze di moduli futuri non ancora numerati — escluse dai check di normalizzazione.
+
 **Titolo:** `# Puntata N: NomeModulo` — ogni modulo ha un numero progressivo nel titolo. La numerazione è un riferimento, non un ordine obbligatorio di gioco (i moduli possono essere giocati in ordine diverso a discrezione del DM).
 
 Sezioni obbligatorie:

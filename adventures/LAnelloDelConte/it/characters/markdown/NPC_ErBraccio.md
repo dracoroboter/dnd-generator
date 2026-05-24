@@ -11,6 +11,10 @@
 
 Massiccio, braccia sempre scoperte, tatuaggio di un'ancora sul bicipite destro. Ha sempre un coltello in mano - lo usa per gesticolare, pulirsi le unghie, tagliare il formaggio. Diretto, sboccato, pragmatico.
 
+## Motivazioni
+
+Soldi e tranquillità. Gestisce il porto di Vetusta Portus come suo territorio. Non è malvagio — è un criminale pratico che vuole guadagnare senza complicazioni.
+
 ## Stat Block
 
 > Base: **Bandit Captain** (Monster Manual p. 344, CR 2)
@@ -28,7 +32,7 @@ Massiccio, braccia sempre scoperte, tatuaggio di un'ancora sul bicipite destro. 
 - **Lingue**: Comune
 - **Sfida**: 2 (450 PE)
 
-## Capacita notevoli
+## Capacità notevoli
 
 - **Multiattacco**: tre attacchi in mischia: due con la scimitarra e uno con il pugnale.
 

@@ -13,6 +13,10 @@ Cinquantenne malaticcio, un po' gobbo (vero aspetto). In pubblico appare come un
 
 **Tic verbale:** usa sempre "Ma parliamo di..." per cambiare argomento.
 
+## Motivazioni
+
+Vendetta. Nobile decaduto, rovinato dalla Gabella del Conte e tradito dalla Contessina. Vuole distruggere entrambi — non con la forza, ma con l'umiliazione pubblica. Vuole che i PG scelgano la sua parte.
+
 ## Stat Block
 
 | FOR | DES | COS | INT | SAG | CAR |
@@ -29,7 +33,7 @@ Cinquantenne malaticcio, un po' gobbo (vero aspetto). In pubblico appare come un
 - **Lingue**: Comune, Elfico, Linguaggio dei Ladri
 - **Sfida**: 1 (200 PE)
 
-## Capacita notevoli
+## Capacità notevoli
 
 - **Expertise**: Furtivita, Investigazione, Inganno (bonus doppio gia incluso)
 - **Sneak Attack (2d6)**: una volta per turno, danni extra se ha vantaggio o un alleato e adiacente al bersaglio

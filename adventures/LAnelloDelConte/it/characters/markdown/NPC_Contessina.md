@@ -11,6 +11,10 @@
 
 Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma senza gusto - troppi gioielli, troppi colori. Accento marcato, gesticola molto. Si vergogna delle origini (padre camallo a Vetusta Portus).
 
+## Motivazioni
+
+Controllo e rispettabilità. Vuole cancellare le sue origini umili e mantenere il potere che ha conquistato sposando il Conte. Odia chiunque minacci la sua posizione sociale.
+
 ## Stat Block
 
 > Base: **Noble** (Monster Manual p. 348, CR 1/8)
@@ -33,7 +37,7 @@ Donna robusta, viso tondo, espressione perennemente indignata. Veste bene ma sen
 - **Attacco**: +3, mischia 5ft
 - **Danni**: 1d8+1 perforanti
 
-## Capacita notevoli
+## Capacità notevoli
 
 - **Parry**: +2 alla CA contro un attacco in mischia che la colpirebbe. Deve vedere l'attaccante e impugnare un'arma da mischia.
 

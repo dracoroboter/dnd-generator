@@ -551,7 +551,7 @@ Il gancio per la Puntata 4: Er Braccio è in circolazione (se è scappato), ce l
 
 ---
 
-## Note per il DM
+## Note al master
 
 - L'Atto 1 è breve - serve a stabilire lo stallo e a far sentire ai PG che non hanno piste. Non deve durare più di 15-20 minuti.
 - L'Atto 2 è il cuore narrativo: Sergius che studia i PG è la scena più importante della puntata. Lasciare spazio alla conversazione.
@@ -559,5 +559,3 @@ Il gancio per la Puntata 4: Er Braccio è in circolazione (se è scappato), ce l
 - Er Braccio deve probabilmente scappare - serve come sospetto nelle puntate successive. Se i PG lo catturano, non sa niente di S (perché non è S).
 - Sergius non deve essere riconosciuto come S. Se i PG sospettano, le CD sono impossibili (25+).
 - La "S." nella firma della lettera è un seme - non forzare il collegamento.
-
-## Note per il DM

@@ -10,6 +10,10 @@
 
 Il cui nome nessuno conosce, il cui volto nessuno ha visto. Governa Fianus tramite lettere e messaggeri. Ordini spesso contraddittori. Sempre in viaggio.
 
+## Motivazioni
+
+Sconosciute. Il Conte governa da lontano, non si mostra mai, e nessuno conosce i suoi veri obiettivi. Potrebbe non averne — o potrebbe averne troppi.
+
 ## Stat Block
 
 > Base: **Noble** (Monster Manual p. 348, CR 1/8). Placeholder - il Conte non combatte.
