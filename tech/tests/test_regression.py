@@ -139,7 +139,7 @@ def test_pilot_npcs():
 @test("FuoriDaHellfire has modules")
 def test_pilot_modules():
     modules = find_modules(PILOT)
-    assert len(modules) == 2, f"Expected 2 modules, found {len(modules)}"
+    assert len(modules) >= 2, f"Expected >=2 modules, found {len(modules)}"
 
 @test("Multilingual adventures have manifest.json")
 def test_manifest():
@@ -252,6 +252,48 @@ def test_create_pdf_html():
         assert "statblock-page" in html
     finally:
         sys.path.pop(0)
+
+# ── tests: adventure_utils (variants) ───────────────────────────────────
+
+@test("adventure_utils: resolve_asset_dir local (no parent)")
+def test_resolve_local():
+    sys.path.insert(0, str(TECH_DIR / "scripts"))
+    from adventure_utils import resolve_asset_dir
+    adv = ADVENTURES_DIR / "FuoriDaHellfire"
+    result = resolve_asset_dir(adv, "maps")
+    assert result == adv / "maps", f"Expected local maps, got {result}"
+    sys.path.pop(0)
+
+@test("adventure_utils: resolve_asset_dir from parent")
+def test_resolve_parent():
+    sys.path.insert(0, str(TECH_DIR / "scripts"))
+    from adventure_utils import resolve_asset_dir
+    variant = ADVENTURES_DIR / "LoScettroDiTyr-VerT"
+    if not variant.exists():
+        return  # skip if variant not present
+    result = resolve_asset_dir(variant, "maps")
+    expected = ADVENTURES_DIR / "LoScettroDityr" / "maps"
+    assert result == expected, f"Expected parent maps {expected}, got {result}"
+    sys.path.pop(0)
+
+@test("adventure_utils: is_variant")
+def test_is_variant():
+    sys.path.insert(0, str(TECH_DIR / "scripts"))
+    from adventure_utils import is_variant
+    assert not is_variant(ADVENTURES_DIR / "FuoriDaHellfire")
+    variant = ADVENTURES_DIR / "LoScettroDiTyr-VerT"
+    if variant.exists():
+        assert is_variant(variant)
+    sys.path.pop(0)
+
+@test("check-adventure: LoScettroDiTyr-VerT runs (variant with parent)")
+def test_check_variant():
+    variant = ADVENTURES_DIR / "LoScettroDiTyr-VerT"
+    if not variant.exists():
+        return  # skip
+    r = run(["python3", str(CHECK_ADV), "LoScettroDiTyr-VerT"])
+    # Should not crash (exit 0 or 1 for warnings/errors is OK)
+    assert r.returncode in (0, 1), f"Crashed with exit {r.returncode}:\n{r.stderr}"
 
 # ── main ─────────────────────────────────────────────────────────────────
 

@@ -22,6 +22,49 @@
 
 Questa è la versione **"Draco"** — porting fedele del materiale legacy. Una versione **"Trust"** è prevista in futuro.
 
+## Warning check-adventure.py (maggio 2026)
+
+### Documento principale
+- [x] Sezione non prevista `## Oggetti chiave` — rinominata in `## Oggetti` (aggiunta come sezione consigliata in adventure-template.md)
+
+### Mappe senza descrizione .md
+- [x] AirborneMachine.png — spostata in `img/` (illustrazione, non mappa)
+- [x] CerchiConcentrici.png — spostata in `objects/` (diagramma)
+- [x] StemmaDawnshield.png — spostata in `objects/` (oggetto narrativo)
+- [x] LaPergamenaDelGiudizio.png — spostata in `objects/` (handout)
+- [ ] FortezzaDiOrcastle.png — da creare .md
+- [ ] FortezzaDiOrcastle_master.png — da creare .md
+- [ ] LabirintoDiVecna.png — da creare .md
+- [ ] LuminaDungeon.png — descrizione già in it/02_LoScettroDiTyr/maps/TempioDiLumina.md (check non la trova perché cerca in maps/ root)
+- [ ] LuminaDungeonV2.png — da creare .md o rimuovere (versione alternativa?)
+- [ ] LuminaTown.png — da creare .md
+- [ ] OrcastleCounty.png — da creare .md
+- [ ] Svoalbard.jpg — da creare .md
+- [ ] TorreDiTorth.png — descrizione già in it/01_FugaDaOrcastle/maps/TorreDiTorth.md (check non la trova)
+- [ ] TorthTower_Entrance.png — da creare .md
+- [ ] TorthTower_MainSaloon.png — da creare .md
+- [ ] TorthTower_altarRoom.png — da creare .md
+- [ ] 02_LoScettroDiTyr/maps/LoScettroDiTyrGeoMap.jpeg — da creare .md
+
+### NPC — sezioni non previste
+- [ ] NPC_LordMalebranche.md: `## Incantesimi` — trasformare in `### Incantesimi` sotto `## Stat Block`
+- [ ] NPC_MalachiasOmbrascura.md: `## Incantesimi` — idem
+- [ ] NPC_MirandaEmerald.md: `## Incantesimi (trucchi arcani)` — idem
+- [ ] NPC_ZalharaLorenn.md: `## Equipaggiamento speciale` — trasformare in `### Equipaggiamento speciale` sotto `## Stat Block`
+
+### Immagini NPC mancanti
+- [ ] BrotherThaddeus.png — da generare o segnare no-photo
+- [ ] HelmutVanHeuten.png — da generare o segnare no-photo
+- [ ] LudmillaDawnshield.png — da generare o segnare no-photo
+- [ ] OrlommGlittergear.png — da generare o segnare no-photo
+- [ ] OthranVorash.png — da generare o segnare no-photo
+- [ ] SirAlaric.png — da generare o segnare no-photo
+- [ ] SirAldric.png — da generare o segnare no-photo
+- [ ] ZalharaLorenn.png — da generare o segnare no-photo
+
+### Altro
+- [x] NPC 'Divinità': manca tag (modulo N) — riformattate come `### Nome — divinità (trasversale)`
+
 ## Log sessioni di lavoro
 
 ### 1-2 maggio 2026 (sessione Kiro)

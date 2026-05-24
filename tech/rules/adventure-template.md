@@ -80,6 +80,30 @@ adventures/
 }
 ```
 
+### Varianti (manifest con `parent`)
+
+Una variante è un'avventura che condivide asset pesanti (mappe, immagini personaggi, cover) con un'avventura "padre". La variante contiene solo il contenuto che differisce; gli asset condivisi vengono cercati nel padre.
+
+```json
+{
+  "adventure_name": "LoScettroDiTyr-VerT",
+  "parent": "LoScettroDityr",
+  "shared_from_parent": ["maps", "characters/img", "img"],
+  "default_lang": "it",
+  "languages": ["it"]
+}
+```
+
+**Campi:**
+- `parent` — nome della directory dell'avventura padre (deve esistere in `adventures/`)
+- `shared_from_parent` — lista di directory che la variante non possiede e che vanno cercate nel padre
+
+**Regole:**
+- Se una directory è in `shared_from_parent`, la variante **non deve** contenerla (gli script la cercano nel padre)
+- Se la variante ha bisogno di un file diverso dal padre (es. una mappa aggiuntiva), lo mette nella propria directory — in quel caso rimuovere quella directory da `shared_from_parent`
+- Il padre non sa nulla delle varianti — è un'avventura normale
+- Gli script (`create-pdf-adventure.py`, `generate-statblocks.py`, `check-adventure.py`, `release-bundle.py`) risolvono i path tramite la funzione `resolve_asset_dir()` in `tech/scripts/adventure_utils.py`
+
 ### Regole multilingua
 
 - Le immagini (img/, maps/*.png, characters/img/) sono **condivise** tra le lingue e restano nella root
@@ -114,6 +138,7 @@ File narrativi dentro `adventures/`: moduli, NPC, mappe, documento principale.
 | Schede NPC/mostri | prefisso `NPC_` o `MON_` + PascalCase | `NPC_SirGorimVel.md`, `MON_DragonRosso.md` |
 | Mappe (descrizione) | PascalCase, stesso nome base del PNG | `FianusRomanus.md` |
 | Nome avventura (directory) | PascalCase | `LAnelloDelConte/`, `FuoriDaHellfire/` |
+| Variante di un'avventura | `PascalCase-VerNomeVersione` | `LoScettroDiTyr-VerT/` |
 | File fissi dell'avventura | PascalCase | `AdventureBook.md`, `PlanBook.md` |
 
 Lingua: **italiano**.
@@ -279,12 +304,15 @@ Descrizione breve (1-2 righe): razza, ruolo, aspetto distintivo.
 → Scheda: NPC_NomePersonaggio
 ```
 
+**Divinità e entità trasversali:** le divinità e le entità cosmiche che non si incontrano fisicamente ma agiscono nell'avventura vanno nella stessa sezione NPC principali, con il formato `### Nome — divinità (trasversale)`. Non hanno scheda in `characters/markdown/`, non hanno stat block. Il corpo è libero ma deve includere almeno **Ruolo** e **Come si comporta**.
+
 **Regola riferimenti a file:** nel testo dei moduli e del documento principale, non citare path di file (non hanno senso nel PDF). Citare per nome: "→ Scheda: NPC_NomePersonaggio" (senza `.md`, senza path). Il lettore sa che le schede sono in `characters/markdown/`. Nessun path deve comparire nel PDF pubblicato.
 
 Sezioni consigliate (non obbligatorie):
 ```
 ## Plot generale
 ## Consigli al master
+## Oggetti
 ```
 
 ### Moduli (`NN_NomeModulo/NomeModulo.md`)

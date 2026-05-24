@@ -22,6 +22,10 @@ import argparse, subprocess, sys, os, re, base64, io, json
 from pathlib import Path
 from datetime import datetime
 
+# Add scripts dir to path for adventure_utils
+sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+from adventure_utils import resolve_asset_dir
+
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
 CSS_FILE = SCRIPT_DIR / "adventure.css"
@@ -97,7 +101,7 @@ def resolve_image(img_path, use_lowres):
 
 def find_cover(adventure_dir):
     """Find cover image: img/*_COVER.png (standard convention)."""
-    img_dir = adventure_dir / "img"
+    img_dir = resolve_asset_dir(adventure_dir, "img")
     if not img_dir.exists():
         return None
     covers = list(img_dir.glob("*_COVER.png")) + list(img_dir.glob("*_COVER.jpg"))
@@ -189,7 +193,15 @@ def fit_cover(img_path, title, author=None, year=None, scale=1.0, subtitle=None)
     # Title — upper area (20% from top)
     title_upper = title.upper()
     title_y = int(out_h * 0.20)
-    title_h = centered_outlined_text(title_y, title_upper, title_font)
+    # If title contains " — ", split into main title + version line (smaller font)
+    if " — " in title:
+        main_title, version_line = title.split(" — ", 1)
+        title_h = centered_outlined_text(title_y, main_title.upper(), title_font)
+        version_font = ImageFont.truetype(font_path, int(80 * scale))
+        version_y = title_y + title_h + int(out_h * 0.01)
+        title_h += int(out_h * 0.01) + centered_outlined_text(version_y, version_line, version_font)
+    else:
+        title_h = centered_outlined_text(title_y, title_upper, title_font)
 
     # Blue stripe under title
     stripe_y = title_y + title_h + int(out_h * 0.015)
@@ -272,8 +284,8 @@ def find_maps_in_dir(maps_dir, desc_dir=None):
 
 def find_adventure_maps(adventure_dir, lang_dir=None):
     """Find maps in the adventure root maps/ directory.
-    Images in adventure_dir/maps/, descriptions in lang_dir/maps/ (if multilingual)."""
-    img_maps = adventure_dir / "maps"
+    Images in adventure_dir/maps/ (or parent if variant), descriptions in lang_dir/maps/ (if multilingual)."""
+    img_maps = resolve_asset_dir(adventure_dir, "maps")
     desc_maps = (lang_dir / "maps") if lang_dir else img_maps
     return find_maps_in_dir(img_maps, desc_maps)
 

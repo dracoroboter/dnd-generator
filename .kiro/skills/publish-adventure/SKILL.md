@@ -13,9 +13,9 @@ Usa questa skill quando l'utente dice "pubblica X", "pubblica l'ultima versione 
 
 | Tipo | Formato | Note |
 |------|---------|------|
-| PDF avventura | `.pdf` (lowres, solo cover come immagine) | Generato con `--only cover,frontmatter,doc,statblocks --lowres` |
+| PDF avventura | `.pdf` (lowres, solo cover come immagine) | Generato con `--lowres` (senza `--only`, include tutto tranne mappe) oppure `--only cover,frontmatter,doc,01,02,...` |
 | Mappe | `.zip` (versioni lowres JPG) | ZIP unico per avventura, suffisso `_lowres` |
-| Stat block | `.zip` (tutti i PNG stat block) | ZIP unico per avventura |
+| Stat block | `.pdf` (tutti gli stat block PNG in un unico PDF) | PDF unico per avventura |
 | Compendium | `.xml` (non zippato) | FightClub XML |
 
 Il PDF completo con tutte le mappe incluse e una possibilita (flag `--full`), non il default.
@@ -37,7 +37,7 @@ Il PDF completo con tutte le mappe incluse e una possibilita (flag `--full`), no
 Per ogni lingua presente nel `manifest.json` (tipicamente `it` e `en`):
 
 1. Esegui `python3 tech/fightclub/generate-statblocks.py <NomeAvventura> [--lang <lang>]` per rigenerare stat block (XML + PDF + PNG + Compendium)
-2. Esegui `python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --lowres --only cover,frontmatter,doc,statblocks [--lang <lang>]`
+2. Esegui `python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --lowres --only cover,frontmatter,doc,01,02,03,04 [--lang <lang>]`
 
 Dopo aver generato per tutte le lingue:
 
@@ -51,9 +51,9 @@ Dopo aver generato per tutte le lingue:
 6. Crea ZIP mappe (lowres):
    - `zip -j public/<NomeAvventura>_Maps_lowres.zip adventures/<NomeAvventura>/maps/lowres/*-lowres.jpg`
    - Per full-size (su richiesta `--full-maps`): `zip -j public/<NomeAvventura>_Maps.zip adventures/<NomeAvventura>/maps/*.png`
-6. Crea ZIP stat block:
-   - `cd adventures/<NomeAvventura>/<lang>/characters/statblock && zip -j /path/public/<NomeAvventura>_Statblocks_it.zip *.png`
-   - `cd adventures/<NomeAvventura>/<lang>/characters/statblock && zip -j /path/public/<NomeAvventura>_Statblocks_en.zip *.png` (per EN)
+6. Genera PDF stat block:
+   - `python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --lowres --only statblocks [--lang <lang>]`
+   - Copia in `public/<NomeAvventura>_Statblocks_it.pdf` (e `_en.pdf` per EN)
 7. Copia compendium XML:
    - `<NomeAvventura>_Compendium_it.xml` (IT)
    - `<NomeAvventura>_Compendium_en.xml` (EN)
@@ -73,7 +73,7 @@ Ripeti la procedura sopra per ogni avventura normalizzata:
 - I file in `public/` sono tracciati da git
 - Per default il PDF contiene solo testo + cover + stat block (no mappe nel PDF)
 - Le mappe vanno come ZIP separato (per uso diretto in Roll20/VTT)
-- Gli stat block vanno come ZIP separato (per stampa singola)
+- Gli stat block vanno come PDF separato (per stampa)
 - Il compendium XML va non zippato (per import diretto in FightClub/Game Master 5e)
 - Le lingue disponibili si leggono dal `manifest.json` dell'avventura
 - Dopo la pubblicazione, suggerire all'utente di committare i cambiamenti in `public/`

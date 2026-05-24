@@ -115,6 +115,9 @@ dungeonandragon/
 ├── meta-dnd.md                  # regole generali del progetto (lingua, naming, struttura)
 ├── plan-meta-dnd.md             # todo list operativa
 │
+├── .kiro/                       # configurazione Kiro CLI locale al progetto
+│   └── skills/                  # skill committate con il progetto (vedi sotto)
+│
 ├── adventures/                  # avventure
 │   ├── AdventureTemplate/       # scaffold vuoto (usato da new-adventure.sh)
 │   ├── LAnelloDelConte/         # saga puntata 1
@@ -240,6 +243,18 @@ dungeonandragon/
 | Script | Linguaggio | Scopo |
 |--------|-----------|-------|
 | `test_regression.py` | Python | Test di non regressione per pipeline multilingua, stat block, PDF (15 test) |
+
+---
+
+## Skill Kiro (`.kiro/skills/`)
+
+Skill committate con il progetto — configurano il comportamento di Kiro CLI quando lavora su questo repository.
+
+| Skill | Scopo |
+|-------|-------|
+| `dungeonmaster` | Assistente D&D: regole di bilanciamento, linee guida NPC, struttura avventure |
+| `publish-adventure` | Procedura di pubblicazione: genera PDF + stat block + compendium + mappe e li copia in `public/` |
+| `check-kiro-profile` | Verifica che la sessione Kiro sia sul profilo hobby (Builder ID), non aziendale |
 
 ---
 

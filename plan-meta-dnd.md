@@ -146,6 +146,12 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] Copertina: `img/NomeAvventura_COVER.png`
 - [x] Milestone: sezione `## Milestone` opzionale nei moduli (separata da `## Ricompense`)
 - [x] Struttura avventura: campo `**Struttura**: lineare/sandbox/mista` nel `README.md`
+- [x] Test di non regressione: dopo ogni modifica agli script in `tech/`, lanciare `python3 tech/tests/test_regression.py`. In caso di fallimento, chiedersi prima se è sbagliato il test o il codice.
+- [ ] Copertura test incompleta — feature non testate:
+  - `--lang en` (multilingua) su create-pdf-adventure, generate-statblocks, md-to-fightclub
+  - Varianti con parent (resolve_asset_dir da parent, check-adventure su variante, PDF da variante)
+  - `--lowres`, `--only`, `--raw-cover` di create-pdf-adventure
+  - adventure_utils.py (resolve_asset_dir locale e da parent, is_variant)
 
 ---
 
@@ -323,6 +329,7 @@ Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/script
 - [ ] Valutare layout PDF ottimizzato per stampa fisica (margini, formato A5/A4)
 - [ ] Valutare pubblicazione su piattaforme dedicate (DMsGuild, itch.io)
 - [x] Script per PDF unico pubblicabile (copertina `NomeAvventura_COVER.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data) → `create-pdf-adventure.py`
+- [ ] **Formattazione stat block NPC variabile** — Rendere lo stat block PNG variabile in grandezza e numero colonne. Attualmente ogni stat block occupa una pagina intera. Obiettivo: stat block brevi su mezza pagina o in layout a 2 colonne. Le sezioni `## Incantesimi` e `## Equipaggiamento speciale` diventeranno `###` sotto `## Stat Block` quando implementato.
 
 ---
 

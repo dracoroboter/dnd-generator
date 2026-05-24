@@ -14,6 +14,9 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from adventure_utils import resolve_asset_dir
+
 ERRORS = []
 WARNINGS = []
 LOG = []
@@ -181,8 +184,8 @@ def check_maps(adventure_dir):
     lang_dir = get_lang_dir(adventure_dir)
     multilingual = is_multilingual(adventure_dir)
 
-    # Root maps: images in adventure_dir/maps/, descriptions in lang_dir/maps/
-    maps_dir = os.path.join(adventure_dir, "maps")
+    # Root maps: images in adventure_dir/maps/ (or parent if variant), descriptions in lang_dir/maps/
+    maps_dir = str(resolve_asset_dir(Path(adventure_dir), "maps"))
     desc_dir = os.path.join(lang_dir, "maps") if multilingual else maps_dir
     if os.path.isdir(maps_dir) or os.path.isdir(desc_dir):
         _check_maps_dir(maps_dir if os.path.isdir(maps_dir) else desc_dir, "maps",
@@ -401,14 +404,13 @@ def check_npc_images(adventure_dir):
     md_dir = os.path.join(lang_dir, "characters", "markdown")
     if not os.path.isdir(md_dir):
         return
-    img_dir = os.path.join(adventure_dir, "characters", "img")
+    img_dir = str(resolve_asset_dir(Path(adventure_dir), "characters/img"))
     existing_images = set()
     if os.path.isdir(img_dir):
         existing_images = {os.path.splitext(f)[0] for f in os.listdir(img_dir)
                           if f.endswith((".png", ".jpg", ".jpeg", ".webp"))}
     npcs = [f for f in os.listdir(md_dir) if f.startswith("NPC_") and f.endswith(".md")]
     for npc in sorted(npcs):
-        # NPC_SirGorimVel.md -> SirGorimVel
         name = npc[4:-3]
         if name not in existing_images:
             warn(f"Immagine mancante per {npc} — atteso characters/img/{name}.png")

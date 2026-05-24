@@ -1,0 +1,20 @@
+{
+  "adventure_name": "LoScettroDiTyr-VerT",
+  "parent": "LoScettroDityr",
+  "shared_from_parent": ["maps", "characters/img", "img"],
+  "default_lang": "it",
+  "languages": ["it"],
+  "title": {
+    "it": "Lo Scettro di Tyr — Versione TrustInArt"
+  },
+  "subtitle": {
+    "it": "Un'avventura Dungeons & Dragons 5e"
+  },
+  "frontmatter": {
+    "it": {
+      "Durata": "campagna (4 moduli, 8-12 sessioni)",
+      "Struttura": "lineare",
+      "Tono": "dark fantasy, scelte morali"
+    }
+  }
+}

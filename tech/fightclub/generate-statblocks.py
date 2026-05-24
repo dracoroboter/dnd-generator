@@ -23,14 +23,21 @@ def resolve_dirs(project_root, adventure, lang):
     adv_dir = os.path.join(project_root, "adventures", adventure)
     manifest_path = os.path.join(adv_dir, "manifest.json")
 
+    # Import resolve_asset_dir
+    scripts_dir = os.path.join(project_root, "tech", "scripts")
+    if scripts_dir not in sys.path:
+        sys.path.insert(0, scripts_dir)
+    from adventure_utils import resolve_asset_dir
+    from pathlib import Path
+
     if os.path.isfile(manifest_path):
         # Multilingual structure: <lang>/characters/{markdown,fightclub,statblock}
         lang_dir = os.path.join(adv_dir, lang)
         md_dir = os.path.join(lang_dir, "characters", "markdown")
         fc_dir = os.path.join(lang_dir, "characters", "fightclub")
         sb_dir = os.path.join(lang_dir, "characters", "statblock")
-        # Images are always shared in root
-        img_dir = os.path.join(adv_dir, "characters", "img")
+        # Images: resolve from parent if variant
+        img_dir = str(resolve_asset_dir(Path(adv_dir), "characters/img"))
     else:
         # Legacy structure
         md_dir = os.path.join(adv_dir, "characters", "markdown")
