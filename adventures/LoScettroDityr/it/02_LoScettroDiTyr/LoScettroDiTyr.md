@@ -187,6 +187,8 @@ All'ingresso del tempio, la figura di Tyr appare davanti ai PG e dice:
 
 Il dungeon ha 12 sale. I personaggi devono dimostrare la loro purezza per ottenere la benedizione di Tyr e accedere a Erythale.
 
+**Nota al DM:** le prove di purezza principali sono nelle Sale 4, 8 e 9 (corrispondono ai tre criteri di Tyr: perdonare lo sconfitto, rinnegare il male, sacrificare per il bene). Tuttavia, qualsiasi scelta difficile che comporti scegliere il bene a proprio svantaggio può essere riconosciuta da Tyr come prova di purezza, a discrezione del DM, purché coerente con il contesto.
+
 #### Sala 1 — Ingresso
 
 Una scala che scende verso il basso. Tre aperture a est, ovest e nord. La sala è completamente vuota: crepe sui muri, polvere e rovine.
