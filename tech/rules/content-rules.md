@@ -62,6 +62,16 @@ Ogni avventura deve avere almeno:
 
 Prevedere sempre almeno una soluzione alternativa al combattimento per ogni scontro principale.
 
+### Checkpoint narrativi (suggerimento per avventure multi-modulo)
+
+Nelle avventure con più moduli sequenziali, le scelte dei giocatori possono creare un'esplosione combinatoriale difficile da gestire nel testo scritto. Una soluzione è definire **checkpoint**: stati garantiti tra un modulo e l'altro, indipendenti da come ci si è arrivati.
+
+- Ogni modulo assume il checkpoint di ingresso senza spiegare tutte le varianti
+- Le varianti vanno gestite nel preludio del modulo successivo (1-2 paragrafi "se X / se Y") e poi convergono
+- Il corpo del modulo non cambia in base alle scelte precedenti
+
+Questo approccio non è obbligatorio ma è consigliato quando il numero di percorsi possibili rende il testo ingestibile.
+
 ---
 
 ## PNG — Linee guida contenuto
