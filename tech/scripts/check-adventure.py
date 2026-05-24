@@ -90,7 +90,7 @@ def check_sections(filepath, sections, label):
 
 KNOWN_MAIN_SECTIONS = {
     "Lore", "Introduzione", "NPC principali", "Struttura dell'avventura",
-    "Plot generale", "Consigli al master", "Running Gag", "Foreshadowing",
+    "Plot generale", "Consigli al master", "Scalabilità", "Running Gag", "Foreshadowing",
     "Agganci futuri", "Concept", "Ambientazione", "Luoghi", "Indice", "Oggetti",
 }
 
