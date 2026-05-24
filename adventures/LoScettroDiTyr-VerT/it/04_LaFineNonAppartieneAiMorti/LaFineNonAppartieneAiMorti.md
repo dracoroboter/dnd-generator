@@ -2,9 +2,9 @@
 
 ## Preludio — Dopo Svoalbard
 
-> ⚠ *Questo preludio va adattato dal DM in base a come si è concluso il Modulo C e al tempo trascorso.*
+> ⚠ *Questo preludio va adattato dal DM in base a come si è concluso il Modulo 3 e al tempo trascorso.*
 
-Dopo aver riconsegnato lo Scettro all'altare di Tyr a Svoalbard (o dopo la distruzione dello Scettro nel Modulo B), i PG fanno ritorno verso sud. Il viaggio di ritorno è lungo ma senza incidenti — Dispater ha perso il suo strumento principale (Othran) e per ora si ritira nell'ombra.
+Dopo aver riconsegnato lo Scettro all'altare di Tyr a Svoalbard (o dopo la distruzione dello Scettro nel Modulo 2), i PG fanno ritorno verso sud. Il viaggio di ritorno è lungo ma senza incidenti — Dispater ha perso il suo strumento principale (Othran) e per ora si ritira nell'ombra.
 
 Nel frattempo, a Orcastle le cose sono cambiate. La fuga dei capi attraverso il portale della Torre di Torth e la sconfitta di Malebranche hanno permesso ai prigionieri di ribellarsi. **Kreig Highlander** — ora **conte Wildforge** (ha ripreso il cognome di famiglia, abbandonando quello della banda) — ha preso il controllo della contea con **Miranda** e **Ruby** come vassalli, le vecchie rivalità messe da parte dalla necessità di ricostruire.
 
@@ -21,6 +21,8 @@ Passano settimane, forse mesi. I PG ricevono l'invito al matrimonio di **Tungste
 Malebranche è stato sconfitto e cacciato da Orcastle, ma nella disperazione ha compiuto un ultimo atto di vendetta: un rituale che ha evocato **Zikle**, il potentissimo mago del 15° livello autore della pergamena del giudizio (quella che aveva creato la cupola su Orcastle). Malebranche lo ha soggiogato e attraverso di lui ha lanciato una maledizione sui suoi nemici.
 
 Malebranche si è rifugiato a **Uluvin**, un piccolo villaggio nella Valle di Delymbir, non troppo distante dalla sua contea e vicino a Waterdeep. Vive in una casupola fuori dal villaggio sotto mentite spoglie. In paese sanno che è arrivato solo da pochi mesi — le date coincidono con la fuga da Orcastle — e raramente visita il paese. Un paio di popolani potrebbero testimoniare, non troppo facilmente, che nei pressi della sua casa lo hanno visto fare dei rituali. Da quella volta hanno paura e non si sono più avvicinati. Solo Zikle sa che Malebranche si nasconde lì.
+
+*Nota al DM: i PG non devono andare a Uluvin. È Malebranche che li raggiunge alla tomba di Zikle per lo scontro finale (vedi § Scontro finale). Questa informazione è background — serve solo se i PG indagano attivamente su dove si nasconde.*
 
 I personaggi, vittoriosi, sono in viaggio verso Waterdeep per il matrimonio di **Tungsten**, che ha lasciato la cittadella radiosa, si è trasferito sulla Costa della Spada e ha aperto una taverna — ***All'orco che rutta*** — insieme a **Grimilda**, la nana barbuta che sta per sposare. Provengono da nord, parecchio tempo dopo la caduta di Orcastle e la consegna dello scettro a Tyr.
 

@@ -10,13 +10,13 @@
 **Prima stesura**: 2024
 **Ultimo aggiornamento**: 2026-05
 
-Variante della saga "Lo Scettro di Tyr" con il Modulo A (Fuga da Orcastle) riscritto dalla versione G 2.2. Quattro avventure collegate che portano i personaggi da una città-prigione sotto una cupola magica fino alle terre ghiacciate del nord.
+Variante della saga "Lo Scettro di Tyr" con il Modulo 1 (Fuga da Orcastle) riscritto dalla versione G 2.2. Quattro avventure collegate che portano i personaggi da una città-prigione sotto una cupola magica fino alle terre ghiacciate del nord.
 
 ---
 
 ## Differenze dalla versione Draco (LoScettroDityr)
 
-- **Modulo A**: riscritto dalla variante G 2.2 (livello 7, 5-6 PG). Include il palazzo di Malebranche e il finale diretto contro il necromante.
+- **Modulo 1**: riscritto dalla variante G 2.2 (livello 7, 5-6 PG). Include il palazzo di Malebranche e il finale diretto contro il necromante.
 - **Moduli B, C, D**: identici alla versione Draco (al momento).
 
 ## Ambientazione

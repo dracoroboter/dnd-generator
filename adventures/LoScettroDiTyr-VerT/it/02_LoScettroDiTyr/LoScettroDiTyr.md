@@ -2,7 +2,7 @@
 
 ## Preludio — Dopo Orcastle
 
-> ⚠ *Questo preludio va adattato dal DM in base alle scelte dei giocatori nel Modulo A.*
+> ⚠ *Questo preludio va adattato dal DM in base alle scelte dei giocatori nel Modulo 1.*
 
 Dopo Orcastle i PG si ritrovano sul continente. Hanno consegnato la pergamena a Malebranche, ricevuto le 2500 mo e i collari sono stati rimossi. Al palazzo hanno combattuto Malebranche — che è fuggito attraverso un portale dimensionale — e il palazzo è passato a Wildforge.
 

@@ -129,6 +129,8 @@ def check_unknown_sections(filepath, known, label, prefixes=None):
 def check_naming_conventions(adventure_dir):
     # In multilingual mode, check inside lang dir
     check_base = get_lang_dir(adventure_dir)
+    # Get adventure name for variant exception (PascalCase-VerX)
+    adventure_name = os.path.basename(adventure_dir)
     for root, dirs, files in os.walk(check_base):
         rel_root = os.path.relpath(root, check_base)
         # Skip other/ directories entirely
@@ -139,6 +141,9 @@ def check_naming_conventions(adventure_dir):
             if not f.endswith(".md"):
                 continue
             if f in ("README.md", "AdventureBook.md", "PlanBook.md"):
+                continue
+            # Variant naming exception: PascalCase-VerX.md
+            if f == f"{adventure_name}.md" and "-Ver" in f:
                 continue
             if not re.match(r'^[A-Z][A-Za-z0-9_]*\.md$', f):
                 error(f"Naming non PascalCase: {os.path.join(rel_root, f)}")

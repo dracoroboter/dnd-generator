@@ -330,6 +330,13 @@ Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/script
 - [ ] Valutare pubblicazione su piattaforme dedicate (DMsGuild, itch.io)
 - [x] Script per PDF unico pubblicabile (copertina `NomeAvventura_COVER.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data) → `create-pdf-adventure.py`
 - [ ] **Formattazione stat block NPC variabile** — Rendere lo stat block PNG variabile in grandezza e numero colonne. Attualmente ogni stat block occupa una pagina intera. Obiettivo: stat block brevi su mezza pagina o in layout a 2 colonne. Le sezioni `## Incantesimi` e `## Equipaggiamento speciale` diventeranno `###` sotto `## Stat Block` quando implementato.
+- [ ] **Review regole di contenuto vs fonti autorevoli** — Una volta che la VerT è in stato accettabile:
+  1. Controllare tutte le avventure in base alle regole formali e semantiche aggiornate
+  2. Cercare in rete fonti autorevoli su "costruire una buona avventura D&D" (es. The Alexandrian, Sly Flourish, r/DnDBehindTheScreen, DMG advice)
+  3. Riportare le fonti nel README generale (sezione Fonti)
+  4. Verificare la bontà delle fonti prima di qualsiasi modifica
+  5. Confrontare le nostre content-rules con le best practice trovate
+  6. Proporre eventuali miglioramenti (solo dopo conferma)
 
 ---
 

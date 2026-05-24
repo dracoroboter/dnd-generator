@@ -62,7 +62,7 @@ L'atmosfera è opprimente: pareti e pavimento grondano umidità, il santuario è
 ### Anticamera (ingresso)
 
 - **Descrizione:** Scala in discesa. Santuario parzialmente allagato. Due figure di pietra immobili nell'acqua scura.
-- **Contenuto:** 2 **Stone Golem** (PF 178, CA 17, +10, 3d8+6 schianto, CR 5, Immutabile, Resistenza magica).
+- **Contenuto:** 2 **Stone Golem** (PF 178, CA 17, +10, 3d8+6 schianto, CR 10, Immutabile, Resistenza magica).
 - **Pericoli:** Incontro HARD per 5-6 PG lv10.
 - **Uscite:** Indietro (scala verso l'esterno), Avanti (porta sigillata → Camera centrale).
 

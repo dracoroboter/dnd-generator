@@ -102,7 +102,7 @@ La struttura ha tre livelli: ingresso/salone al piano terra, stanza dell'altare 
               ▼
     ┌─────────────────────┐
     │  PROVA 2            │
-    │  LABIRINTO DI VECNA │
+    │  LABIRINTO DI DISPATER │
     │                     │
     │  Pavimento a        │
     │  scacchiera con     │
@@ -118,7 +118,7 @@ La struttura ha tre livelli: ingresso/salone al piano terra, stanza dell'altare 
     │                     │
     │  Circolo di pietre  │
     │  runiche (portale)  │
-    │  Golem di Pietra    │
+    │  Mirmidone Elementale│
     └─────────────────────┘
 ```
 
@@ -131,12 +131,12 @@ La struttura ha tre livelli: ingresso/salone al piano terra, stanza dell'altare 
 
 **Prova 2 — Labirinto di Dispater:**
 - Pavimento a scacchiera con lettere su ogni piastrella.
-- Camminare sulle lettere giuste per formare "V.E.C.N.A."
+- Camminare sulle lettere giuste per formare "D.I.S.P.A.T.E.R."
 - Lettera errata: dardo avvelenato, 2d4+2 danni perforanti a tutti (TS Destrezza CD 12 dimezza).
 
 **Prova 3 — Guardiano del Portale:**
 - Sala finale con il Portale del Teletrasporto (circolo di pietre runiche).
-- **Golem di Pietra** (PF 178, CA 17, +10, 3d8+6 schianto) sorveglia il portale.
+- **Mirmidone Elementale di Pietra** (PF 127, CA 18, +7, 2d12+4 tuono) sorveglia il portale.
 - Combattimento oppure Inganno/Persuasione CD 18 per convincerlo di essere i nuovi custodi.
 - Affresco sul muro: portale aperto e chierico che beve da una coppa.
 
@@ -170,9 +170,8 @@ Gestire come copie semplificate: solo attacchi base (arma principale) e cantrip,
 
 ### Accesso alla zona Nord
 
-Prima di raggiungere la torre, i PG devono attraversare la pianura rocciosa a nord con tre incontri in sequenza:
-1. 4 cultisti fanatici (CR 2) — EASY
-2. 2 diavoli barbuti (CR 5) + 2 imp (CR 1) invisibili — MEDIUM
-3. 1 diavolo delle catene (CR 8) + imp sopravvissuti — HARD
+Prima di raggiungere la torre, i PG devono attraversare la pianura rocciosa a nord con due incontri in sequenza:
+1. 8 cultisti (pag. 345) + 2 cultisti fanatici (pag. 346) di Dispater — nel mezzo di un rituale, ostili, combattono fino alla morte
+2. 1 diavolo barbuto (pag. 70) + 2 diavoli spinati — tentano di prendere i PG di sorpresa dopo 4 turni o dopo il primo incontro
 
 La pianura offre copertura parziale o totale (1d4: 1-3 parziale, 4 totale).

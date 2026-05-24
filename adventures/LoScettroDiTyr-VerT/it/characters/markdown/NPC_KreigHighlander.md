@@ -2,7 +2,7 @@
 
 ## Informazioni generali
 
-- **Ruolo**: leader del Castro (centro di Orcastle); conte Wildforge nel Modulo D
+- **Ruolo**: leader del Castro (centro di Orcastle); conte Wildforge nel Modulo 4
 - **Razza**: umano
 - **Allineamento**: Legale Neutrale
 - **Stat block**: Cavaliere (*Manuale dei Mostri*) — vedi [Stat Block](#stat-block)
@@ -29,13 +29,13 @@ Kreig controlla il Castro, la fortezza al centro di Orcastle — la posizione st
 
 **Moduli A–C**: Kreig è uno dei tre leader di fazione. I PG possono trattare con lui, ma la sua arroganza rende i negoziati difficili. Tende a trattare i PG come pedine, non come alleati.
 
-**Modulo D**: Kreig diventa il **conte Wildforge**, signore legittimo della contea. Miranda e Axel Ruby diventano suoi vassalli. In questa fase collabora attivamente con i PG — ha bisogno di loro per stabilizzare il territorio.
+**Modulo 4**: Kreig diventa il **conte Wildforge**, signore legittimo della contea. Miranda e Axel Ruby diventano suoi vassalli. In questa fase collabora attivamente con i PG — ha bisogno di loro per stabilizzare il territorio.
 
 ## Note al master
 
 - La parentela con Malebranche è il segreto più esplosivo di Kreig. Se i PG la scoprono e la rendono pubblica, Kreig perde la legittimità e la situazione politica di Orcastle precipita nel caos.
 - La sua arroganza è un difetto narrativo intenzionale: i PG possono sfruttarla per manipolarlo, e i suoi nemici possono usarla per tendergli trappole.
-- Nel Modulo D, Kreig è un alleato imperfetto: collabora con i PG ma cerca sempre di mantenere il controllo. Non accetta ordini — al massimo "suggerimenti".
+- Nel Modulo 4, Kreig è un alleato imperfetto: collabora con i PG ma cerca sempre di mantenere il controllo. Non accetta ordini — al massimo "suggerimenti".
 - In combattimento, Kreig è un Cavaliere competente ma prevedibile. Carica in prima linea, si espone troppo, e si rifiuta di ritirarsi anche quando sarebbe saggio farlo.
 
 ## Stat Block

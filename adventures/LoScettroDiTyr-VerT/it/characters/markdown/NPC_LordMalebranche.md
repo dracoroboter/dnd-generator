@@ -71,11 +71,11 @@ Per recuperarla, non si sporca le mani — manda i PG a fare il lavoro sporco, v
 - Ha imprigionato Frankie Partenope e altri avventurieri.
 - Manda i PG a recuperare la Pergamena del Giudizio tramite collari esplosivi.
 - Ha costruito il suo potere sulla cupola magica di Orcastle.
-- Nel **Modulo D** evoca Zikle e maledice i PG.
+- Nel **Modulo 4** evoca Zikle e maledice i PG.
 
 ## Note al master
 
-- Malebranche non combatte mai se può evitarlo. Usa intermediari, trappole e ricatti. Quando i PG lo affrontano nel Modulo D, è perché lui ha scelto quel momento — o perché è stato messo all'angolo.
-- L'evocazione di Zikle nel Modulo D è il suo atto disperato: se perde il controllo della situazione, preferisce distruggere tutto piuttosto che cedere il potere.
+- Malebranche non combatte mai se può evitarlo. Usa intermediari, trappole e ricatti. Quando i PG lo affrontano nel Modulo 4, è perché lui ha scelto quel momento — o perché è stato messo all'angolo.
+- L'evocazione di Zikle nel Modulo 4 è il suo atto disperato: se perde il controllo della situazione, preferisce distruggere tutto piuttosto che cedere il potere.
 - La maledizione ai PG è un aggancio narrativo per avventure future — non deve essere risolta immediatamente.
 - In combattimento usa tattiche da necromante: non-morti come scudi, incantesimi di controllo, e fuga appena possibile. Non è un combattente frontale.

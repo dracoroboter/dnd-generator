@@ -28,7 +28,7 @@ Axel è uno dei tre leader di fazione a Orcastle. I PG lo incontrano nel quartie
 
 **Prova di fiducia**: per guadagnare la fiducia di Axel, i PG devono portargli un membro degli Emerald — vivo o morto. Non accetta scuse, non accetta promesse. Vuole risultati.
 
-**Modulo D**: dopo la presa di Orcastle, Axel diventa vassallo del conte Wildforge (Kreig Highlander). Collabora con i PG, anche se a malincuore.
+**Modulo 4**: dopo la presa di Orcastle, Axel diventa vassallo del conte Wildforge (Kreig Highlander). Collabora con i PG, anche se a malincuore.
 
 ## Note al master
 

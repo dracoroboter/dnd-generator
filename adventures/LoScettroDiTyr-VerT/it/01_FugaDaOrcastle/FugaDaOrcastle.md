@@ -90,7 +90,7 @@ Se gli chiedono informazioni, pone una condizione: per ottenere la sua fiducia d
 **Malachias Ombrascura (Mal T. Hel):**
 Dragonide con una cicatrice a forma di stella sul polpaccio sinistro. Ha rubato la pergamena e l'ha nascosta nel castro, nel dungeon sotto la bandiera a Nord. Si nasconde a Est come seguace di Axel sotto il falso nome di Mal T. Hel. Sta cercando il modo di utilizzare la pergamena per uscire dalla fortezza.
 
-La pergamena contiene tre informazioni: uno spell che fa cadere le mura invisibili, uno spell per mandare un messaggio a Cedric, e la parola da spedire "Zikzle l'Illuminato" (nome del creatore, un mago goblin buono).
+La pergamena contiene tre informazioni: uno spell che fa cadere le mura invisibili, uno spell per mandare un messaggio a Cedric, e la parola da spedire "Zikle l'Illuminato" (nome del creatore, un mago goblin buono).
 
 La pergamena è protetta da una maledizione potente: solo Malebranche (per sangue) o un personaggio puro di cuore può attivarla. Ombrascura conosce la parola segreta ma non può usarla. Stava cercando di usare dispel magic ma non è abbastanza potente.
 
@@ -382,12 +382,21 @@ Strategia: Rompere gli specchi (ogni parete specchio: 5 PF, CA 6) elimina le ill
 - Il palazzo di Malebranche è opzionale: i PG possono consegnare la pergamena e andarsene pacificamente, oppure attaccare
 - Kreig Wildforge è un parente di Malebranche — può attivare la pergamena se conosce la parola segreta (da Ombrascura)
 
+### Aggancio iniziale (suggerimenti)
+
+L'avventura inizia con il rapimento — come i PG ci arrivano è lasciato aperto al DM. Opzioni:
+
+1. **Rapimento puro** — i PG vengono rapiti senza preavviso (in medias res). Adatto a one-shot o inizio campagna.
+2. **Missione a scatola chiusa** — un NPC propone un lavoro ben pagato senza dettagli. I PG accettano e vengono rapiti subito dopo.
+3. **Debito pregresso** — i PG devono un favore a qualcuno che li "vende" a Malebranche. Funziona se c'è una campagna precedente.
+4. **Inizio di campagna** — i PG si conoscono appena, vengono rapiti separatamente e si risvegliano insieme sull'Airborne (sessione 0 + sessione 1).
+
 ---
 
 ## Oggetti chiave
 
 ### La Pergamena del Giudizio
-Potere principale: aprire la barriera magica di Orcastle. Contiene anche un incantesimo messaggio con la parola d'ordine "Zikzle l'Illuminato".
+Potere principale: aprire la barriera magica di Orcastle. Contiene anche un incantesimo messaggio con la parola d'ordine "Zikle l'Illuminato".
 
 Attivazione: solo un paladino, un personaggio puro di cuore, o Malebranche/parenti per sangue. Deve essere pronunciata la parola segreta "I muri cadranno il potere terminerà" (nota a Ombrascura).
 

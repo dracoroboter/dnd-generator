@@ -40,7 +40,7 @@ Nonostante la costrizione, Frankie è un alleato sincero: condivide gli obiettiv
 
 - Conosce la cupola magica di Orcastle: sa che ha 2 aperture e conosce la leggenda della torre collegata.
 - Collabora con i PG perché costretto dal collare esplosivo.
-- Torna nel **Modulo D** come alleato attivo.
+- Torna nel **Modulo 4** come alleato attivo.
 
 ## Note al master
 

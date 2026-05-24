@@ -22,7 +22,7 @@ Desidera due cose: **vendetta** contro chi lo ha tradito e **riscatto** — che 
 
 ## Ruolo nell'avventura
 
-- Viene **evocato come wraith nel Modulo D**.
+- Viene **evocato come wraith nel Modulo 4**.
 - È l'**unico a conoscere la formula per spezzare la maledizione**.
 - Rivela ai PG l'esistenza del **Monile d'Oro di Ostegard**, un artefatto chiave.
 - Se il **rituale fallisce**, Zikle **attacca i PG** in preda alla furia — il fallimento è per lui la conferma definitiva che il suo riscatto è impossibile.
@@ -30,7 +30,7 @@ Desidera due cose: **vendetta** contro chi lo ha tradito e **riscatto** — che 
 ## Note al master
 
 - Zikle è un PNG volatile: collabora con i PG solo finché crede che possano dargli ciò che vuole. Il master deve interpretarlo come un alleato instabile — utile ma pericoloso.
-- La scena dell'evocazione è un momento chiave del Modulo D. Zikle non appare docile: i PG devono convincerlo a collaborare. Diplomazia, promesse di vendetta contro Malebranche, o appelli al suo orgoglio di mago funzionano. Minacce e intimidazioni lo rendono ostile.
+- La scena dell'evocazione è un momento chiave del Modulo 4. Zikle non appare docile: i PG devono convincerlo a collaborare. Diplomazia, promesse di vendetta contro Malebranche, o appelli al suo orgoglio di mago funzionano. Minacce e intimidazioni lo rendono ostile.
 - Se il rituale fallisce, Zikle usa le statistiche del **Wraith (MM) CR 5**. È un combattimento non pianificato — i PG potrebbero non essere preparati. Questo è intenzionale: le conseguenze del fallimento devono essere tangibili.
 - Il Monile d'Oro di Ostegard è un'informazione che Zikle rivela solo se si fida dei PG o se è parte del rituale. Non la dà gratis.
 - In vita era livello 15 — come wraith è molto più debole. Questo lo frustra e lo rende ancora più instabile. Se i PG glielo fanno notare, reagisce male.

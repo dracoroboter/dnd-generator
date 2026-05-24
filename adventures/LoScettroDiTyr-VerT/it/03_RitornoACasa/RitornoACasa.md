@@ -2,17 +2,17 @@
 
 ## Preludio — Dopo il Tempio di Lumina
 
-> ⚠ *Questo preludio va adattato dal DM in base alle scelte dei giocatori nel Modulo B. Il modulo assume che i PG abbiano lo Scettro — se non ce l'hanno, vedi le varianti sotto.*
+> ⚠ *Questo preludio va adattato dal DM in base alle scelte dei giocatori nel Modulo 2. Il modulo assume che i PG abbiano lo Scettro — se non ce l'hanno, vedi le varianti sotto.*
 
 Dopo gli eventi al Tempio di Lumina e lo scontro con Alaric, i PG tornano a Baldur's Gate con lo Scettro di Tyr (o senza, a seconda delle scelte). Tyr compare in sogno all'araldo con istruzioni chiare: lo Scettro deve essere riconsegnato al suo altare a Svoalbard, nel Grande Nord.
 
-### Varianti in base al finale del Modulo B
+### Varianti in base al finale del Modulo 2
 
-**Se i PG hanno lo Scettro (opzioni 2 o 4 del Modulo B):** il modulo procede normalmente. Tyr ordina di portare lo Scettro a Svoalbard.
+**Se i PG hanno lo Scettro (opzioni 2 o 4 del Modulo 2):** il modulo procede normalmente. Tyr ordina di portare lo Scettro a Svoalbard.
 
 **Se i PG hanno dato lo Scettro ad Alaric (opzione 1):** Tyr appare in sogno, furioso. Alaric è stato corrotto dallo Scettro e sta usando il suo potere per costruire un esercito. I PG devono prima rintracciare Alaric (che si è ritirato nelle Ten Towns, la sua terra d'origine) e recuperare lo Scettro — con la forza o con l'astuzia. Solo dopo possono procedere verso Svoalbard. Il DM deve gestire questa quest aggiuntiva prima di iniziare il viaggio.
 
-**Se i PG hanno distrutto lo Scettro (opzione 3):** questo modulo non si gioca. Tyr è soddisfatto — la distruzione dello Scettro è una delle tre azioni di bene. I PG possono procedere direttamente al Modulo D (la maledizione di Malebranche scatta comunque, indipendentemente dallo Scettro). Il DM deve trovare un aggancio alternativo per portare i PG verso Waterdeep (es. il matrimonio di Tungsten, una richiesta di aiuto da Kreig).
+**Se i PG hanno distrutto lo Scettro (opzione 3):** questo modulo non si gioca. Tyr è soddisfatto — la distruzione dello Scettro è una delle tre azioni di bene. I PG possono procedere direttamente al Modulo 4 (la maledizione di Malebranche scatta comunque, indipendentemente dallo Scettro). Il DM deve trovare un aggancio alternativo per portare i PG verso Waterdeep (es. il matrimonio di Tungsten, una richiesta di aiuto da Kreig).
 
 ---
 

@@ -6,21 +6,21 @@ Questa avventura segue la struttura standard definita in `tech/rules/adventure-t
 
 - Variante "TrustInArt" (VerT) della saga Lo Scettro di Tyr
 - Campagna in 4 moduli sequenziali (A→B→C→D), livelli 7-10
-- Il Modulo A è basato sulla variante G 2.2 di Fuga da Orcastle (legacy: `legacy/DracoAvventure/Fuga_da_Orcastle_G - 2.2/`)
+- Il Modulo 1 è basato sulla variante G 2.2 di Fuga da Orcastle (legacy: `legacy/DracoAvventure/Fuga_da_Orcastle_G - 2.2/`)
 - I Moduli B, C, D sono copiati dalla versione Draco (LoScettroDityr) — da uniformare in futuro
 - Continuità narrativa forte: NPC ricorrenti attraversano più moduli
-- Dispater (non Vecna) è il filo conduttore nel Modulo A di questa variante
+- Dispater (non Vecna) è il filo conduttore nel Modulo 1 di questa variante
 - Lo Scettro di Tyr è l'oggetto centrale dei moduli B-D
-- La Pergamena del Giudizio è l'oggetto centrale del Modulo A
+- La Pergamena del Giudizio è l'oggetto centrale del Modulo 1
 
 ## Differenze chiave dalla versione Draco
 
 | Aspetto | Versione Draco | Versione VerT |
 |---------|---------------|---------------|
-| Livello Modulo A | 8 | 7 |
-| PG Modulo A | 4-6 | 5-6 |
+| Livello Modulo 1 | 8 | 7 |
+| PG Modulo 1 | 4-6 | 5-6 |
 | Patto Torre di Torth | Vecna | Dispater |
-| Palazzo Malebranche | nel Modulo D | nel Modulo A (finale) |
+| Palazzo Malebranche | nel Modulo 4 | nel Modulo 1 (finale) |
 | Frankie Partenope | Barbaro lv5 | Barbaro lv5 |
 
 ## Struttura dei moduli
@@ -39,5 +39,5 @@ Questa avventura segue la struttura standard definita in `tech/rules/adventure-t
 
 ## Fonti
 
-- Modulo A: `legacy/DracoAvventure/Fuga_da_Orcastle_G - 2.2/Fuga_da_Orcastle_G - 2.2.pdf`
-- Moduli B/C/D: copiati da `adventures/LoScettroDityr/`
+- Modulo 1: `legacy/DracoAvventure/Fuga_da_Orcastle_G - 2.2/Fuga_da_Orcastle_G - 2.2.pdf`
+- Moduli 2/3/4: copiati da `adventures/LoScettroDityr/`

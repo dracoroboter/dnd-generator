@@ -43,7 +43,7 @@ L'avventura inizia con il rapimento dei PG da parte di **Lord Cedric Malebranche
 - **Continuità**: i moduli sono sequenziali. Personaggi come Frankie, Ombrascura, Kreig, Miranda e Ruby tornano in moduli diversi. Tenere traccia delle relazioni.
 - **Dispater**: è sempre presente come minaccia. Se i PG ignorano le sue richieste, subiscono maledizioni progressive (tabella d6 nel Modulo 2). Non è un nemico da combattere direttamente — è un burattinaio.
 - **Lo Scettro**: è un oggetto potentissimo ma pericoloso. La maledizione di Tyr colpisce chiunque lo tocchi senza essere puro. Solo l'araldo designato può impugnarlo. Tenere traccia di chi lo porta e delle conseguenze.
-- **Difficoltà**: l'avventura scala da lv8 (Modulo 1) a lv10 (Moduli 3-4). Gli incontri sono calibrati per 4-6 PG. Il Modulo 1 ha molte opzioni non-combat; il Modulo 4 è il più combat-heavy.
+- **Difficoltà**: l'avventura scala da lv7 (Modulo 1) a lv10 (Moduli 3-4). Gli incontri sono calibrati per 4-6 PG. Il Modulo 1 ha molte opzioni non-combat; il Modulo 4 è il più combat-heavy.
 
 ## NPC principali
 
@@ -121,17 +121,11 @@ Leader del Castro (centro di Orcastle), cugino segreto di Malebranche. Diventa c
 
 → Scheda: NPC_KreigHighlander
 
-### Mesusu Merconè (modulo 3)
+### Mesusu Merconè (modulo 1)
 
 Nana, capitano della nave volante Airborne.
 
 → Scheda: NPC_MesusuMercone
-
-### Kurzum (modulo 1)
-
-Nana, proprietaria del Giavellotto Fantasma, mediatrice della missione.
-
-→ Scheda: NPC_Kurzum
 
 ### Zikle l'Illuminato (modulo 4)
 
@@ -143,6 +137,8 @@ Mago goblin, creatore della Pergamena del Giudizio. Ucciso da Malebranche, evoca
 
 Nano, ex compagno d'avventura dei PG. Ha lasciato la vita da avventuriero, si è trasferito sulla Costa della Spada e ha aperto la taverna *All'orco che rutta* a Waterdeep. Sposa Grimilda nell'epilogo del Modulo 4.
 
+Statistiche: Commoner. Nessuna scheda dedicata (NPC minore, solo epilogo).
+
 ### Orlomm Glittergear (modulo 3)
 
 Gnomo, capitano della nave La Nuova Speranza.
@@ -153,7 +149,7 @@ Gnomo, capitano della nave La Nuova Speranza.
 
 Arciduca di Dis. Manipolatore, non combatte direttamente. Appare come avatar alla Torre di Torth.
 
-- **Ruolo:** burattinaio, dà la missione nel Modulo B, insegue tramite agenti nei Moduli C-D.
+- **Ruolo:** burattinaio, dà la missione nel Modulo 2, insegue tramite agenti nei Moduli 3-4.
 - **Come si comporta:** divertito, calcolatore, tratta i mortali come pedine.
 
 ### Tyr — divinità (trasversale)
@@ -174,8 +170,7 @@ Dio della Giustizia. Appare al Tempio di Lumina e a Svoalbard. Pone prove di pur
 | **Tempio di Lumina** | Tempio in rovina dedicato a Tyr, nelle montagne. Contiene lo Scettro. Prove di purezza. | 2 |
 | **Costa della Spada** | Rotta marittima dal sud (Baldur's Gate) al nord (Svoalbard). | 2-3 |
 | **Svoalbard** | Isola ghiacciata a nord di Bryn Shander. Altare di Tyr dove riconsegnare lo Scettro. | 3 |
-| **Il Giavellotto Fantasma** | Taverna di Kurzum, punto di incontro per la missione. | 1 |
-| **Nave Airborne** | Nave volante di Mesusu Merconè. | 3 |
+| **Nave Airborne** | Nave volante di Mesusu Merconè. | 1 |
 | **Nave La Nuova Speranza** | Nave di Orlomm Glittergear, viaggio verso Svoalbard. | 3 |
 | **Santuario Sommerso di Ostegard** | Santuario sottomarino/sotterraneo. Custodisce il Monile d'Oro. Protetto da Sir Aldric (sword wraith). | 4 |
 | **All'orco che rutta** | Taverna di Tungsten a Waterdeep. Epilogo. | 4 |
@@ -186,7 +181,7 @@ Dio della Giustizia. Appare al Tempio di Lumina e a Svoalbard. Pone prove di pur
 
 Contiene l'incantesimo per abbattere la cupola magica di Orcastle. Protetta da una maledizione: solo un paladino o un personaggio puro di cuore può attivarla (più la parola segreta nota a Ombrascura). Include anche un incantesimo messaggio con la parola d'ordine "Zikle l'Illuminato".
 
-### Lo Scettro di Tyr (Moduli B-C)
+### Lo Scettro di Tyr (Moduli 2-3)
 
 Arma divina di cristallo. Proprietà: Resurrezione Sacra (1 carica), Potenziamento della Giustizia (+2 tiri per colpire, resistenza necrotica/psichica, vantaggio vs paura in 30 piedi), Scudo della Purezza (1/giorno, dimezza danni per 3 turni), Sentenza di Tyr (1/giorno, paralisi + verità). Maledizione: chi lo tocca senza il consenso di Tyr subisce incubi, cure dimezzate, PF massimi che si dimezzano ogni giorno fino alla morte o al pentimento.
 
@@ -202,7 +197,7 @@ Talismano che canalizza energia sacra per disperdere la corruzione necromantica.
 
 | # | nome | livello | tipo |
 |---|------|---------|------|
-| 1 | Fuga da Orcastle | lv8, 5-6 PG | sandbox / esplorazione |
+| 1 | Fuga da Orcastle | lv7, 5-6 PG | sandbox / esplorazione |
 | 2 | Lo Scettro di Tyr | lv9, 5-6 PG | viaggio / dungeon |
 | 3 | Ritorno a Casa | lv10, 5-6 PG | viaggio / intrigo |
 | 4 | La fine non appartiene ai morti | lv10, 5-6 PG | viaggio / combat |

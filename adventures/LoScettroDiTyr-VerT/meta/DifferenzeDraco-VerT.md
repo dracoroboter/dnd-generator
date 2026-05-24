@@ -1,6 +1,6 @@
 # Differenze tra LoScettroDityr (Draco) e LoScettroDiTyr-VerT (TrustInArt)
 
-Confronto limitato al Modulo A (Fuga da Orcastle). I moduli B/C/D sono identici (copiati).
+Confronto limitato al Modulo 1 (Fuga da Orcastle). I moduli B/C/D sono identici (copiati).
 
 ---
 

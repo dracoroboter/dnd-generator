@@ -59,7 +59,7 @@ Sa anche dell'esistenza del libro della Torre di Torth, attualmente in mano a Mi
 - Ha nascosto la Pergamena del Giudizio nel castro sotto il pennone.
 - Conosce la parola segreta della pergamena ma non può attivarla.
 - Sa del libro della Torre di Torth in possesso di Miranda.
-- Torna nel **Modulo D**.
+- Torna nel **Modulo 4**.
 
 ## Note al master
 

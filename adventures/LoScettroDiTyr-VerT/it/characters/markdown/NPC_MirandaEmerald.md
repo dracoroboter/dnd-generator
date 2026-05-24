@@ -61,7 +61,7 @@ Miranda è la leader della fazione ovest di Orcastle. I PG la incontrano nel ter
 1. Portarle un membro dei Ruby (vivo o morto)
 2. Battere il suo campione in un duello singolo — il campione usa le statistiche del **Cavaliere** (*Manuale dei Mostri*). Regola: niente magie durante il duello.
 
-**Modulo D**: dopo la presa di Orcastle, Miranda diventa vassalla del conte Wildforge. La sua rete di spie la rende una risorsa preziosa ma anche un'alleata pericolosa.
+**Modulo 4**: dopo la presa di Orcastle, Miranda diventa vassalla del conte Wildforge. La sua rete di spie la rende una risorsa preziosa ma anche un'alleata pericolosa.
 
 ## Note al master
 

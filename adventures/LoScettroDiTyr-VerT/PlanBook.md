@@ -3,9 +3,9 @@
 ## Stato del progetto
 
 - [x] Scaffolding struttura directory
-- [x] Normalizzazione Modulo A da variante G 2.2
-- [x] Copia Moduli B/C/D da LoScettroDityr
-- [ ] Uniformare Moduli B/C/D alle differenze del Modulo A VerT
+- [x] Normalizzazione Modulo 1 da variante G 2.2
+- [x] Copia Moduli 2/3/4 da LoScettroDityr
+- [ ] Uniformare Moduli 2/3/4 alle differenze del Modulo 1 VerT
 - [ ] Traduzione inglese
 - [ ] Verifica con check-adventure.py (zero errori)
 
@@ -62,11 +62,12 @@ Sequenza confermata:
 
 - Punto di recupero: barca o nave volante? (da decidere)
 - Zikle: se in futuro si vuole aggiungere, scrivere la scena. Mappa DM esiste in legacy (`Mappa_zikle_DM.png`)
+- Sala 11 del Tempio di Lumina (modulo 2): la numerazione salta da 10 a 12. Da ricontrollare — rinumerare o aggiungere sala mancante.
 
 ### Conseguenze per i moduli successivi
 
-- **Modulo B — Nessun patto con Dispater:** non c'è debito, Dispater non può ordinare nulla. Serve un aggancio alternativo. Proposta: Dispater li contatta comunque (sogno) come manipolatore/datore di lavoro, non come creditore. Tabella d6 maledizioni come pressione se rifiutano.
-- **Modulo D — Malebranche morto:** il modulo D si basa sul ritorno di Malebranche come antagonista. Con Malebranche ucciso nel modulo A, serve un antagonista sostitutivo. Opzioni da valutare:
+- **Modulo 2 — Nessun patto con Dispater:** non c'è debito, Dispater non può ordinare nulla. Serve un aggancio alternativo. Proposta: Dispater li contatta comunque (sogno) come manipolatore/datore di lavoro, non come creditore. Tabella d6 maledizioni come pressione se rifiutano.
+- **Modulo 4 — Malebranche morto:** il modulo D si basa sul ritorno di Malebranche come antagonista. Con Malebranche ucciso nel modulo A, serve un antagonista sostitutivo. Opzioni da valutare:
   - Un vassallo di Malebranche prende il suo posto
   - Malebranche ritorna come non morto (coerente col tema necromante)
   - Altro antagonista completamente diverso
@@ -90,9 +91,9 @@ Per evitare l'esplosione combinatoriale delle scelte, ogni modulo parte da uno *
 - Il preludio del modulo gestisce le varianti con "se X / se Y" in 1-2 paragrafi — poi converge
 - Se la partita giocata non porta al checkpoint (es. TPK, scelta radicalmente diversa), il DM adatta — ma il modulo scritto non cambia
 
-- Il Modulo A VerT usa **Dispater** nella Torre di Torth, mentre la versione Draco usa **Vecna**. I moduli B/C/D fanno riferimento a Vecna. Serve decidere se uniformare tutto a Dispater o mantenere Vecna nei moduli successivi.
-- Il palazzo di Malebranche è nel Modulo A (VerT) ma anche nel Modulo D (Draco). Serve decidere se rimuoverlo dal D o se il D ha un secondo confronto con Malebranche.
-- Il livello di partenza è 7 (VerT) vs 8 (Draco). I moduli B/C/D sono calibrati per lv9-10. Serve una milestone nel Modulo A per portare i PG a lv8-9 prima del Modulo B.
+- Il Modulo 1 VerT usa **Dispater** nella Torre di Torth, mentre la versione Draco usa **Vecna**. I moduli B/C/D fanno riferimento a Vecna. Serve decidere se uniformare tutto a Dispater o mantenere Vecna nei moduli successivi.
+- Il palazzo di Malebranche è nel Modulo 1 (VerT) ma anche nel Modulo 4 (Draco). Serve decidere se rimuoverlo dal D o se il D ha un secondo confronto con Malebranche.
+- Il livello di partenza è 7 (VerT) vs 8 (Draco). I moduli B/C/D sono calibrati per lv9-10. Serve una milestone nel Modulo 1 per portare i PG a lv8-9 prima del Modulo 2.
 
 ## Note sulla variante G 2.2
 
