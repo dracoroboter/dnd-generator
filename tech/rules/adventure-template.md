@@ -215,6 +215,7 @@ I file `.gemidesc` non vengono inclusi nel PDF né nello ZIP di pubblicazione. S
 - Le versioni di lavoro, draft o schematiche vanno in `other/` (con suffisso `_draft` se necessario).
 - Il nome generico `MappaDM.md` è **deprecato**: usare un nome specifico PascalCase.
 - Il file `MappaGenerale.md` è **deprecato**: splittare in un `.md` per ogni mappa.
+- **Preferire SVG** quando si scaricano mappe da internet: il formato vettoriale permette di modificare facilmente le scritte (nomi, etichette) senza rigenerare l'intera immagine. Per modificare: aprire con Inkscape (`inkscape file.svg`), selezionare il testo, cancellare e riscrivere, poi esportare PNG (`inkscape file.svg --export-type=png --export-filename=file.png --export-dpi=150`).
 
 ### Directory `other/`
 

@@ -516,3 +516,8 @@ Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
 - Side quest: Scrocchierello (opzionale, pista morta)
 - Mappe TODO: CantinaPonteMilvio (battle map), BottegaSberluccica (illustrazione)
 - Gemidesc creati in `04_IlCorniciaio/maps/` e `04_IlCorniciaio/img/scenes/`
+
+### Da decidere
+
+- [ ] **VetustaPortus.png** (`img/other/`): è un'illustrazione prospettica della città. Va in `img/` o in `maps/`? Le mappe geografiche/di insieme possono essere anche prospettiche — la regola va chiarita.
+- [x] **RealmOfAmrog**: rinominato in CountyOfDrakenhold (file). Il testo dentro l'SVG va modificato con un editor (Inkscape) — è lettera per lettera con posizionamento individuale. Dopo la modifica, esportare nuovo PNG e cancellare il vecchio.
