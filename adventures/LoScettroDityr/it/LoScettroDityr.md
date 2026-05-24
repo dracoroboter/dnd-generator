@@ -35,39 +35,110 @@ L'avventura inizia con il rapimento dei PG da parte di **Lord Cedric Malebranche
 
 Schede complete in `characters/markdown/`.
 
-### Alleati e compagni
+### Frankie Partenope (modulo 1)
 
-- **Frankie Partenope** — barbaro umano lv5, ex avventuriero ed eroe del popolo. Costretto a collaborare con i PG nel Modulo 1 (collare esplosivo). Odia Malebranche. Torna nel Modulo 4 come alleato.
-- **Malachias Ombrascura** (alias Elemir Strunz) — chierico dragonide, ha rubato la Pergamena del Giudizio. Si nasconde a Orcastle sotto falsa identità. Torna nel Modulo 4.
-- **Brother Thaddeus** — monaco, ex discepolo di Tyr. Ha lasciato l'ordine dopo aver scoperto le vere intenzioni di Alaric. Offre informazioni cruciali nel Modulo 2.
-- **Ludmilla Dawnshield** — esploratrice umana, discendente dei primi esploratori di Svoalbard. Guida i PG verso l'isola nel Modulo 3.
-- **Helmut Van Heuten** — mercante devoto a Tyr, finanzia e supporta la missione nel Modulo 3.
+Barbaro umano lv5, ex avventuriero ed eroe del popolo. Costretto a collaborare con i PG nel Modulo 1 (collare esplosivo). Odia Malebranche. Torna nel Modulo 4 come alleato.
 
-### Antagonisti
+→ Scheda: `NPC_FrankiePartenope.md`
 
-- **Lord Cedric Malebranche** — arcimago necromante, governatore corrotto. Mandante del rapimento nel Modulo 1. Villain finale nel Modulo 4.
-- **Sir Alaric il Giusto** — alto sacerdote dei Custodi dell'Equilibrio. Nasconde ambizioni di potere assoluto. Antagonista del Modulo 2.
-- **Othran Vorash** — mezzelfo warlock di Vecna, lv10. Insegue i PG per rubare lo Scettro nei Moduli 3-4.
-- **Zalhara Lorenn** — spia umana al servizio di Vecna. Viaggia sulla stessa nave dei PG nel Modulo 3.
+### Malachias Ombrascura (modulo 1)
 
-### Fazioni di Orcastle (Modulo 1)
+Chierico dragonide, alias Elemir Strunz. Ha rubato la Pergamena del Giudizio. Si nasconde a Orcastle sotto falsa identità. Torna nel Modulo 4.
 
-- **Axel Ruby** — leader della banda dei Ruby (est), ex vassallo di Malebranche.
-- **Miranda Emerald** — leader della banda degli Emerald (ovest), maga esperta di illusioni.
-- **Lord Kreig Highlander** — leader del Castro (centro), cugino segreto di Malebranche. Diventa conte nel Modulo 4.
+→ Scheda: `NPC_MalachiasOmbrascura.md`
 
-### Divinità e entità
+### Brother Thaddeus (modulo 2)
+
+Monaco, ex discepolo di Tyr. Ha lasciato l'ordine dopo aver scoperto le vere intenzioni di Alaric. Offre informazioni cruciali nel Modulo 2.
+
+→ Scheda: `NPC_BrotherThaddeus.md`
+
+### Ludmilla Dawnshield (modulo 3)
+
+Esploratrice umana, discendente dei primi esploratori di Svoalbard. Guida i PG verso l'isola nel Modulo 3.
+
+→ Scheda: `NPC_LudmillaDawnshield.md`
+
+### Helmut Van Heuten (modulo 3)
+
+Mercante devoto a Tyr, finanzia e supporta la missione nel Modulo 3.
+
+→ Scheda: `NPC_HelmutVanHeuten.md`
+
+### Lord Cedric Malebranche (modulo 1)
+
+Arcimago necromante, governatore corrotto di Orcastle. Mandante del rapimento nel Modulo 1. Villain finale nel Modulo 4.
+
+→ Scheda: `NPC_LordMalebranche.md`
+
+### Sir Alaric il Giusto (modulo 2)
+
+Alto sacerdote dei Custodi dell'Equilibrio. Nasconde ambizioni di potere assoluto. Antagonista del Modulo 2.
+
+→ Scheda: `NPC_SirAlaric.md`
+
+### Othran Vorash (modulo 3)
+
+Mezzelfo warlock di Vecna, lv10. Insegue i PG per rubare lo Scettro nei Moduli 3-4.
+
+→ Scheda: `NPC_OthranVorash.md`
+
+### Zalhara Lorenn (modulo 3)
+
+Spia umana al servizio di Vecna. Viaggia sulla stessa nave dei PG nel Modulo 3.
+
+→ Scheda: `NPC_ZalharaLorenn.md`
+
+### Axel Ruby (modulo 1)
+
+Leader della banda dei Ruby (est di Orcastle), ex vassallo di Malebranche.
+
+→ Scheda: `NPC_AxelRuby.md`
+
+### Miranda Emerald (modulo 1)
+
+Leader della banda degli Emerald (ovest di Orcastle), maga esperta di illusioni.
+
+→ Scheda: `NPC_MirandaEmerald.md`
+
+### Lord Kreig Highlander (modulo 1)
+
+Leader del Castro (centro di Orcastle), cugino segreto di Malebranche. Diventa conte nel Modulo 4.
+
+→ Scheda: `NPC_KreigHighlander.md`
+
+### Mesusu Merconè (modulo 3)
+
+Nana, capitano della nave volante Airborne.
+
+→ Scheda: `NPC_MesusuMercone.md`
+
+### Kurzum (modulo 1)
+
+Nana, proprietaria del Giavellotto Fantasma, mediatrice della missione.
+
+→ Scheda: `NPC_Kurzum.md`
+
+### Zikle l'Illuminato (modulo 4)
+
+Mago goblin, creatore della Pergamena del Giudizio. Ucciso da Malebranche, evocato come wraith nel Modulo 4.
+
+→ Scheda: `NPC_Zikle.md`
+
+### Tungsten (modulo 4)
+
+Nano, ex compagno d'avventura dei PG. Ha lasciato la vita da avventuriero, si è trasferito sulla Costa della Spada e ha aperto la taverna *All'orco che rutta* a Waterdeep. Sposa Grimilda nell'epilogo del Modulo 4.
+
+### Orlomm Glittergear (modulo 3)
+
+Gnomo, capitano della nave La Nuova Speranza.
+
+→ Scheda: `NPC_OrlommGlittergear.md`
+
+### Divinità
 
 - **Vecna** — Dio dei Segreti. Manipolatore, non combatte direttamente. Appare come avatar alla Torre di Torth.
 - **Tyr** — Dio della Giustizia. Appare al Tempio di Lumina e a Svoalbard. Pone prove di purezza.
-
-### Personaggi secondari
-
-- **Mesusu Merconè** — nana, capitano della nave volante Airborne.
-- **Kurzum** — nana, proprietaria del Giavellotto Fantasma, mediatrice della missione.
-- **Zikle l'Illuminato** — mago goblin, creatore della Pergamena del Giudizio. Ucciso da Malebranche, evocato come wraith nel Modulo 4.
-- **Tungsten** — nano, ex compagno d'avventura dei PG (NPC amico già conosciuto da avventure precedenti). Ha lasciato la vita da avventuriero, si è trasferito sulla Costa della Spada e ha aperto la taverna *All'orco che rutta* a Waterdeep. Sposa Grimilda nell'epilogo del Modulo 4.
-- **Orlomm Glittergear** — gnomo, capitano della nave La Nuova Speranza (Modulo 3).
 
 ## Oggetti chiave
 
