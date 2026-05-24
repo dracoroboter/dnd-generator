@@ -6,13 +6,17 @@
 
 Dopo Orcastle i PG si ritrovano sul continente. Hanno consegnato la pergamena a Malebranche, ricevuto le 2500 mo e i collari sono stati rimossi. Al palazzo hanno combattuto Malebranche — che è fuggito attraverso un portale dimensionale — e il palazzo è passato a Wildforge.
 
-I PG non hanno accettato il patto con Dispater alla Torre di Torth. Ma Dispater li ha osservati per tutta l'avventura (i corvi/IMP) e li considera "interessanti": hanno fatto esattamente ciò che voleva (eliminare Malebranche dal gioco) senza nemmeno rendersene conto. Per Dispater, questo li rende strumenti perfetti — obbedienti senza saperlo.
+Dispater li ha osservati per tutta l'avventura (i corvi/IMP). Nelle notti successive, tutti i PG ricevono lo stesso sogno: una voce fredda e calcolatrice nell'oscurità.
 
-Nelle notti successive, tutti i PG ricevono lo stesso sogno: una voce fredda e calcolatrice nell'oscurità.
+**Se i PG hanno accettato il patto alla Torre di Torth:**
+
+> "Ricordate la vostra promessa. Vi ho liberato dai collari, vi ho aperto la strada. Ora è il momento di saldare il debito. Ho un compito per voi — e non accetto rifiuti."
+
+**Se i PG hanno rifiutato il patto:**
 
 > "Mi avete già reso un servizio, anche se non lo sapevate. Malebranche era un mio cultista — debole, inutile, un peso. Voi lo avete rimosso per me. Ora ho un altro compito per voi. Non è una richiesta — è un'opportunità. Rifiutare sarebbe... imprudente."
 
-I PG raggiungono Baldur's Gate per riposare e rifornirsi. È qui che il sogno di Dispater diventa più insistente.
+In entrambi i casi, Dispater vuole lo Scettro di Tyr. I PG raggiungono Baldur's Gate per riposare e rifornirsi. È qui che il sogno diventa più insistente.
 
 ---
 
