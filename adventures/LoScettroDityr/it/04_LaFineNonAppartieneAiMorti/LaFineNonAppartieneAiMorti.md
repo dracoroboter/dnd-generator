@@ -193,7 +193,26 @@ Il Monile è custodito da **Sir Aldric**, uno Sword Wraith (CR 8), un guerriero 
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Sword Wraith (Sir Aldric) | 1 | — | — | — | CR 8, vedi stat in fondo al sorgente |
+| Sword Wraith — Sir Aldric | 1 | 136 | 16 | +9, 2d6+5 spada lunga + 4d8 necrotici | CR 8, vedi sotto |
+
+**Stat block — Sir Aldric (Sword Wraith Commander, CR 8)**
+
+| FOR | DES | COS | INT | SAG | CAR |
+|-----|-----|-----|-----|-----|-----|
+| 18 (+4) | 14 (+2) | 18 (+4) | 11 (+0) | 12 (+1) | 14 (+2) |
+
+- **PF:** 136 (16d8+64)
+- **CA:** 16 (cotta di maglia + scudo)
+- **Velocità:** 9m / 30ft
+- **Resistenze:** Necrotici; non-magici (tranne argento)
+- **Immunità:** Veleno; esausto, avvelenato, spaventato
+- **Percezione passiva:** 11
+- **Multiattack:** 2 attacchi con spada lunga
+- **Spada lunga:** +7, 2d6+4 taglienti
+- **Chiamata alla guerra (1/giorno):** azione bonus, per 1 minuto ogni attacco in mischia infligge +4d8 necrotici extra
+- **Aura di paura (raggio 9m):** TS Sag CD 14 o spaventato per 1 minuto (ripetibile a fine turno)
+
+**Note:** Sir Aldric attacca solo se i PG falliscono la prova morale. Per 6-7 combattenti lv10 è un incontro EASY/MEDIUM — è una punizione, non un boss fight. Con Chiamata alla guerra attiva diventa pericoloso (2d6+4 + 4d8 per colpo × 2 = media 50 danni/round).
 
 Sir Aldric dice:
 

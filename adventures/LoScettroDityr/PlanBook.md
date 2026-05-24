@@ -308,12 +308,12 @@ Gli XML FightClub sono già generati per tutti i 16 NPC/mostri in `characters/fi
 
 | # | Problema | Dove |
 |---|----------|------|
-| C3 | Tempio di Lumina: lo Scettro è "perduto in un luogo sconosciuto" (doc principale) ma il tempio è facilmente rintracciabile in biblioteca (Modulo 2). | Doc principale vs Modulo 2 |
-| C4 | Transizione Modulo 1→2: come arrivano i PG da Orcastle (isola) a Baldur's Gate? Il portale della Torre di Torth dove li porta? | Tra moduli 1 e 2 |
-| C5 | Orcastle: "poco a sud di Waterdeep" (Modulo 4) ma descritta come isola remota raggiungibile solo con navi volanti (Modulo 1). | Moduli 1 vs 4 |
-| C6 | Timeline maledizione Modulo 4: "settimane/mesi" passano ma la maledizione si manifesta solo durante il viaggio. Quando si attiva? | Modulo 4 |
-| C7 | Zikle lv15 ucciso da Malebranche CR 10-11. Incoerenza di potere. | Doc principale + Modulo 4 |
-| C8 | Sir Aldric (Sword Wraith CR 8): stat block mancante o da verificare (non è MM standard). | Modulo 4 |
+| C3 | ~~Tempio di Lumina "luogo sconosciuto"~~ | RISOLTO | Sconosciuto ai mortali comuni. Vecna (dio) sa dov'è e dà un indizio criptico. I PG lo trovano con ricerca in biblioteca. Coerente. |
+| C4 | Transizione Modulo 1→2: il portale della Torre di Torth porta "sul continente" ma non è specificato dove. Intenzionale: il DM decide sul momento a seconda dell'avventura giocata (può essere il castello di Malebranche o lontano). | Tra moduli 1 e 2 — buco noto, a discrezione del DM |
+| C5 | Orcastle: posizione coerente (isola in mare a sud di Waterdeep). Raggiungibile solo con navi volanti perché qualcosa rende impossibile la navigazione in mare (da inventare: mostri marini? correnti magiche? nebbia permanente?). Da specificare nel modulo 1. | Modulo 1 — buco minore, da definire |
+| C6 | Timeline maledizione Modulo 4: quanto tempo passa tra Modulo 3 e 4 non è definito. Il DM decide a seconda delle necessità. La maledizione si attiva quando il DM lo ritiene opportuno. | Modulo 4 — a discrezione del DM |
+| C7 | ~~Zikle lv15 ucciso da Malebranche CR 10-11~~ | RISOLTO | Tradimento, non scontro aperto. Malebranche ha approfittato della fiducia di Zikle. Non serve specificare i dettagli. |
+| C8 | ~~Sir Aldric (Sword Wraith CR 8): stat block mancante~~ | RISOLTO | Stat block creato nel modulo 4 (basato su Sword Wraith Commander, Mordenkainen's). EASY/MEDIUM per 6-7 lv10 — è punizione per fallimento prova morale, non boss fight. |
 | C9 | Custodi dell'Equilibrio: nemici nel Modulo 2, alleati nel Modulo 3. Manca raccordo narrativo. | Moduli 2 vs 3 |
 | C10 | "Tre azioni del bene" di Tyr: criteri di purezza non collegati meccanicamente alle prove del dungeon. | Modulo 2 |
 
