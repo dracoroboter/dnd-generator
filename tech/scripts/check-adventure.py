@@ -377,9 +377,21 @@ def check_npcs(adventure_dir):
     if not npcs:
         warn("Nessuna scheda NPC trovata in characters/markdown/")
         return
+    # Generic NPC types (stat blocks without personal identity) don't need Motivazioni
+    GENERIC_NPC_NAMES = {
+        "Bandit", "Thug", "Guard", "Spy", "Commoner", "Knight", "Veteran",
+        "Assassin", "Berserker", "Gladiator", "Mage", "Priest", "Scout",
+        "Acolyte", "Noble", "Captain", "Archer",
+    }
+
     for npc in sorted(npcs):
         npc_path = os.path.join(md_dir, npc)
-        check_sections(npc_path, ["Informazioni generali", "Descrizione", "Motivazioni", "Note al master"], f"NPC {npc}")
+        npc_name = npc[4:-3]  # strip NPC_ and .md
+        is_generic = npc_name in GENERIC_NPC_NAMES
+        required_sections = ["Informazioni generali", "Descrizione", "Note al master"]
+        if not is_generic:
+            required_sections.append("Motivazioni")
+        check_sections(npc_path, required_sections, f"NPC {npc}")
         check_unknown_sections(npc_path, KNOWN_NPC_SECTIONS, f"NPC {npc}")
 
 

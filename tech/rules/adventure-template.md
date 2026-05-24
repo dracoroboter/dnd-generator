@@ -394,6 +394,8 @@ Sezioni obbligatorie (tutti i PNG):
 ## Note al master
 ```
 
+**Eccezione:** gli NPC/mostri generici (Bandit, Thug, Guard, ecc. — stat block standard senza personalità specifica) non richiedono `## Motivazioni`. La sezione è obbligatoria solo per NPC con nome proprio e ruolo narrativo nell'avventura.
+
 Sezioni opzionali:
 ```
 ## Stat Block
