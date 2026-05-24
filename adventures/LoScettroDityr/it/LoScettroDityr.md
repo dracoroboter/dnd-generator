@@ -158,7 +158,7 @@ Gnomo, capitano della nave La Nuova Speranza.
 
 | Luogo | Descrizione | Moduli |
 |-------|-------------|--------|
-| **Orcastle** | Città-prigione su un'isola in mare a sud di Waterdeep, sotto una cupola magica. Raggiungibile solo con navi volanti (la cupola impedisce l'accesso via mare). Quattro fazioni la controllano (Ruby, Emerald, Castro, Malebranche). Se la cupola cade (Pergamena), fuga via nave possibile. | 1 |
+| **Orcastle** | Città-prigione su un'isola in mare a sud di Waterdeep, sotto una cupola magica. La cupola genera correnti e nebbia che impediscono la navigazione nelle vicinanze — raggiungibile solo con navi volanti (passano sopra). Se la cupola cade, le correnti spariscono e la fuga via nave è possibile. Quattro fazioni la controllano (Ruby, Emerald, Castro, Malebranche). | 1 |
 | **Fortezza di Orcastle** | Sede di Lord Malebranche, centro della cupola magica. | 1, 4 |
 | **Torre di Torth** | Torre di Vecna. Contiene la Coppa di Blackwood. Avatar di Vecna appare qui. | 1 |
 | **Baldur's Gate** | Città di partenza del Modulo 2. Porto sulla Costa della Spada. | 2 |
