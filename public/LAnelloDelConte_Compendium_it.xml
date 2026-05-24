@@ -167,6 +167,10 @@ Role: scagnozzo di Er Braccio</description>
         <senses>Percezione passiva 12</senses>
         <languages>Common</languages>
         <cr>1/8</cr>
+        <trait>
+            <name>Parry</name>
+            <text>+2 alla CA contro un attacco in mischia che la colpirebbe. Deve vedere l'attaccante e impugnare un'arma da mischia.</text>
+        </trait>
         <action>
             <name>Rapier (mischia)</name>
             <text>Attacco: +3, mischia 5ft Danni: 1d8+1 perforanti</text>
@@ -217,6 +221,10 @@ Role: taverniera, creditrice dei PG</description>
         <senses>Percezione passiva 10</senses>
         <languages>Common</languages>
         <cr>2</cr>
+        <trait>
+            <name>Multiattacco</name>
+            <text>tre attacchi in mischia: due con la scimitarra e uno con il pugnale.</text>
+        </trait>
         <action>
             <name>Scimitarra (mischia)</name>
             <text>Attacco: +4, mischia 1,5m / 5ft / 1qd Danni: 1d6+2 taglienti</text>
@@ -297,6 +305,30 @@ Role: MacGuffin vivente, mandante assente</description>
         <senses>Percezione passiva 14</senses>
         <languages>Common, Elvish, Linguaggio dei Ladri</languages>
         <cr>1</cr>
+        <trait>
+            <name>Expertise</name>
+            <text>Furtivita, Investigazione, Inganno (bonus doppio gia incluso)</text>
+        </trait>
+        <trait>
+            <name>Sneak Attack (2d6)</name>
+            <text>una volta per turno, danni extra se ha vantaggio o un alleato e adiacente al bersaglio</text>
+        </trait>
+        <trait>
+            <name>Cunning Action</name>
+            <text>azione bonus: Dash, Disengage o Hide</text>
+        </trait>
+        <trait>
+            <name>Assassinate</name>
+            <text>vantaggio sui tiri per colpire contro creature che non hanno ancora agito. Colpo critico automatico contro creature sorprese.</text>
+        </trait>
+        <trait>
+            <name>Anello dell'Ombra (oggetto magico)</name>
+            <text>puo lanciare *Invisibilita* (su se stesso) 1/giorno. Non richiede concentrazione ma termina se attacca o lancia un incantesimo.</text>
+        </trait>
+        <trait>
+            <name>Maestro del Camuffamento</name>
+            <text>con 10 minuti e il kit da travestimento, puo assumere un aspetto completamente diverso (altezza, corporatura, sesso). CD 25 per smascherarlo (Investigazione o Intuizione).</text>
+        </trait>
         <action>
             <name>Pugnale (mischia/distanza)</name>
             <text>Attacco: +5, mischia 1,5m / 5ft / 1qd o distanza 6m / 20ft / 4qd - 18m / 60ft / 12qd Danni: 1d4+3 perforanti (+2d6 Sneak Attack se applicabile)</text>
@@ -328,6 +360,22 @@ Role: antagonista nascosto</description>
         <senses>Percezione passiva 11</senses>
         <languages>Common, Nanico</languages>
         <cr>1</cr>
+        <trait>
+            <name>Stile di Combattimento: Difesa</name>
+            <text>+1 CA quando indossa armatura (gia incluso)</text>
+        </trait>
+        <trait>
+            <name>Second Wind (1/riposo breve)</name>
+            <text>azione bonus, recupera 1d10+3 PF</text>
+        </trait>
+        <trait>
+            <name>Action Surge (1/riposo breve)</name>
+            <text>un'azione aggiuntiva nel suo turno</text>
+        </trait>
+        <trait>
+            <name>Rallying Cry</name>
+            <text>quando usa Second Wind, fino a 3 alleati entro 18m / 60ft / 12qd recuperano 3 PF ciascuno.</text>
+        </trait>
         <action>
             <name>Spada lunga (mischia)</name>
             <text>Attacco: +4, mischia, portata 1,5m / 5ft / 1qd Danni: 1d8+2 taglienti (1d10+2 a due mani senza scudo)</text>
