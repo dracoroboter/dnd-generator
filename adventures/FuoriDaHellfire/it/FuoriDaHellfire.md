@@ -44,7 +44,7 @@ I PG hanno appena finito lo scontro con i ratti. Korex è fuggito attraverso una
 
 ## NPC principali
 
-Schede complete in `characters/`.
+Schede complete nella sezione characters.
 
 ### Udo Hutchinson (modulo 1)
 

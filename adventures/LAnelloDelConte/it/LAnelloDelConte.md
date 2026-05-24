@@ -125,7 +125,7 @@ La povertà è comica, non punitiva. I PG non muoiono di fame - ma non comprano 
 
 ## NPC principali
 
-Le schede meccaniche (stat block) sono in `characters/`. Qui sotto: chi sono, cosa sanno, dove trovarli, come si comportano.
+Le schede meccaniche (stat block) sono nella sezione characters. Qui sotto: chi sono, cosa sanno, dove trovarli, come si comportano.
 
 ### Sir Gorim Vel (modulo 1)
 

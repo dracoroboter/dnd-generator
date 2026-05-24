@@ -47,7 +47,7 @@ Poi guarda un orologio immaginario: *"Oh, ma guardate l'ora. Devo proprio andare
 
 ### Dove sono i personaggi
 
-Vedi § NPC principali in `LAnelloDelConte.md`. Eccezioni per questa puntata:
+Vedi § NPC principali nel documento principale. Eccezioni per questa puntata:
 
 | NPC | Eccezione |
 |-----|-----------|
@@ -66,7 +66,7 @@ Vedi conoscenze base in § NPC principali. In questa puntata in più:
 
 ### Indizi seminati
 
-Vedi § Cheat Sheet Indizi e § Running Gag (gag della S) in `LAnelloDelConte.md`.
+Vedi § Cheat Sheet Indizi e § Running Gag (gag della S) nel documento principale.
 
 In questa puntata: Sberluccica descrive il committente "piegato in due" (= Sergius che perde la postura). La Contessina agisce per insabbiare (movente opposto a S).
 

@@ -6,7 +6,7 @@
 >
 > "Ah, i miei fan preferiti. Accomodatevi, lo spettacolo sta per cominciare."
 
-La tana di Korex è una cisterna antica riconvertita in rifugio. Korex ha avuto tempo di prepararsi: conosce il terreno, ha piazzato i teppisti dietro le colonne, e ha una via di fuga. Dimensioni e layout: vedi mappa DM in `maps/TanaDiKorex.md`.
+La tana di Korex è una cisterna antica riconvertita in rifugio. Korex ha avuto tempo di prepararsi: conosce il terreno, ha piazzato i teppisti dietro le colonne, e ha una via di fuga. Dimensioni e layout: vedi mappa DM TanaDiKorex.
 
 Tra gli strumenti appoggiati alle pareti c'è un liuto di buona fattura, bottino rubato, non l'arma di Korex. Il flauto è quello che conta, e Korex ce l'ha in mano.
 
@@ -38,8 +38,8 @@ Dietro una colonna crollata a sud-est, un'apertura stretta che prosegue nel buio
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Korex | 1 | 52 | 13 | +5, 2d4+3 perf. + 2d6 veleno / Flauto 4d6 psy CD12 Sag | vedi `NPC_Korex.md` |
-| Teppista charmato | 2 | 13 | 12 | +3, 1d6+1 mazza | vedi `MON_TeppistaCharmato.md` |
+| Korex | 1 | 52 | 13 | +5, 2d4+3 perf. + 2d6 veleno / Flauto 4d6 psy CD12 Sag | vedi NPC_Korex |
+| Teppista charmato | 2 | 13 | 12 | +3, 1d6+1 mazza | vedi MON_TeppistaCharmato |
 
 ### Tattiche di Korex
 
@@ -79,7 +79,7 @@ L'anello è al dito del cadavere. Si allenta da solo. L'attrazione (Livello 1) �
 
 ### Il cliffhanger: L'Anello del Virtuoso
 
-Vedi cheat sheet operativo dell'anello in `DiscussioneNarrativa.md`.
+Vedi cheat sheet operativo dell'anello nella DiscussioneNarrativa.
 
 **Se un PG tocca l'anello**: TS Saggezza CD 20. Fallimento → obbligato a indossarlo.
 
@@ -89,7 +89,7 @@ Vedi cheat sheet operativo dell'anello in `DiscussioneNarrativa.md`.
 >
 > L'anello si stringe. Non si toglie più. E per un istante, solo un istante, vedete qualcosa nei vostri occhi riflessi in una pozza d'acqua. Non il vostro volto. Quello di qualcun altro. Che sorride.
 
-Effetti meccanici: +2 a una caratteristica (vedi tabella per classe in `NPC_JasonAccordion.md`), vantaggio TS contro charm. Maledizione: possessione progressiva.
+Effetti meccanici: +2 a una caratteristica (vedi tabella per classe in NPC_JasonAccordion), vantaggio TS contro charm. Maledizione: possessione progressiva.
 
 **Se nessun PG lo tocca**: l'anello viene consegnato alla Guardia con il bottino.
 

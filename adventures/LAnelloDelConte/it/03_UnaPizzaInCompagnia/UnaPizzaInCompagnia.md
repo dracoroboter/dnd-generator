@@ -15,7 +15,7 @@ I PG sono in stallo: hanno il frammento del ritratto e la bottiglietta di pozion
 
 ### Dove sono i personaggi
 
-Vedi § NPC principali in `LAnelloDelConte.md`. Eccezioni per questa puntata:
+Vedi § NPC principali nel documento principale. Eccezioni per questa puntata:
 
 | NPC | Eccezione |
 |-----|-----------|
@@ -131,7 +131,7 @@ Se i PG chiedono a Gorim del Marchese: *"Arimano? Sì, lo conosco di nome. Nobil
 
 ### Il viaggio a Vetusta Portus
 
-Vetusta Portus è la frazione sul mare a sud di Fianus. Mezza giornata di cammino lungo la strada costiera. Mappa: `../maps/VetustaPortus.md`.
+Vetusta Portus è la frazione sul mare a sud di Fianus. Mezza giornata di cammino lungo la strada costiera. Mappa: VetustaPortus.
 
 ### Da leggere ai giocatori
 
@@ -184,7 +184,7 @@ Se i PG esitano:
 
 Ride. Se insistono nel rifiutare, Arimano non forza - ma li cercherà di nuovo (tramite paggio).
 
-**Economia, la sfiga giornaliera:** Le 5 mo di Arimano non durano. Vedi tabella sfighe in `LAnelloDelConte.md` § I PG.
+**Economia, la sfiga giornaliera:** Le 5 mo di Arimano non durano. Vedi tabella sfighe nel documento principale § I PG.
 
 **Se i PG vanno da Gorim per farsi togliere una sfiga:**
 
@@ -347,7 +347,7 @@ Sergius dà ai PG 5 mo di anticipo.
 
 ### Vetusta Portus - il porto
 
-Mappa: `../maps/VetustaPortus.md`.
+Mappa: VetustaPortus.
 
 Il porto è una fila di magazzini in legno e pietra lungo la banchina. Di giorno: scaricatori, pescatori, mercanti. Di sera: meglio non farsi vedere. Er Braccio opera dal **Magazzino 4** - il più grande, con le porte sbarrate e un paio di tizi dall'aria poco raccomandabile fuori.
 
@@ -393,7 +393,7 @@ Questo lo rende sospetto come possibile S - ce l'ha col Conte, è un criminale, 
 
 ### Il combattimento nel magazzino
 
-**Mappa:** `maps/MagazziniDelPorto.md`
+**Mappa:** MagazziniDelPorto
 
 ### Note per il DM
 

@@ -8,9 +8,9 @@ I PG inseguono Korex nelle fogne sotto il molo est di Oakshore. Tunnel in matton
 
 Udo Hutchinson, lo sceriffo, si unisce al gruppo all'ingresso della grata. Non fa discorsi: controlla la spada e scende per primo.
 
-Mentre il gruppo si prepara, un halfling esce barcollando dalla grata: **Fin Ditasvelte**, confuso, sporco di fogna, furioso. Era stato charmato da Korex al porto, scaricato quando Korex è fuggito. Il charm si è spezzato e Fin vuole vendetta. Conosce un po' il layout delle fogne perché ci è stato sotto charm, e si offre di accompagnare il gruppo. Scheda completa in `NPC_FinDitasvelte.md`.
+Mentre il gruppo si prepara, un halfling esce barcollando dalla grata: **Fin Ditasvelte**, confuso, sporco di fogna, furioso. Era stato charmato da Korex al porto, scaricato quando Korex è fuggito. Il charm si è spezzato e Fin vuole vendetta. Conosce un po' il layout delle fogne perché ci è stato sotto charm, e si offre di accompagnare il gruppo. Scheda completa: NPC_FinDitasvelte.
 
-Dimensioni e layout: vedi mappa DM in `maps/DiscesaNelleFogne.md`.
+Dimensioni e layout: vedi mappa DM DiscesaNelleFogne.
 
 ## Obiettivo
 
@@ -38,8 +38,8 @@ Le coperture nella sala sono importanti: i ratti le usano per tendere agguati, i
 
 | nome | n. | PF | CA | attacco | note |
 |------|-----|----|----|---------|------|
-| Ratto corrotto | 6 | 7 | 12 | +4, 1d4+2 morso | Pack Tactics, vedi `MON_RattoCorrotto.md` |
-| Sciame di ratti | 1 | 24 | 10 | +2, 2d6 morsi | resistenza armi, vedi `MON_SciameDiRatti.md` |
+| Ratto corrotto | 6 | 7 | 12 | +4, 1d4+2 morso | Pack Tactics, vedi MON_RattoCorrotto |
+| Sciame di ratti | 1 | 24 | 10 | +2, 2d6 morsi | resistenza armi, vedi MON_SciameDiRatti |
 
 Se la trappola in galleria è stata attivata, i ratti sono già allertati e non c'è sorpresa.
 

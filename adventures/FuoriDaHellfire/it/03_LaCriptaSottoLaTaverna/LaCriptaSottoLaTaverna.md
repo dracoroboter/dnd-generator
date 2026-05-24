@@ -118,7 +118,7 @@ Se il PG rifiuta: resta con Exhaustion fino a trovare un'altra soluzione (Vellun
 
 ### 🎲 Note per il DM: Il controllo di Jason
 
-→ Meccanica completa (scala Presa 0-10, durata, come riprendere il controllo) nel documento principale: `FuoriDaHellfire.md` § "Appendice: Cheat Sheet Anello del Virtuoso".
+→ Meccanica completa (scala Presa 0-10, durata, come riprendere il controllo) nel documento principale, § "Appendice: Cheat Sheet Anello del Virtuoso".
 
 ---
 
