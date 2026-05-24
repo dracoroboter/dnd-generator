@@ -140,6 +140,23 @@ Gnomo, capitano della nave La Nuova Speranza.
 - **Vecna** — Dio dei Segreti. Manipolatore, non combatte direttamente. Appare come avatar alla Torre di Torth.
 - **Tyr** — Dio della Giustizia. Appare al Tempio di Lumina e a Svoalbard. Pone prove di purezza.
 
+## Luoghi
+
+| Luogo | Descrizione | Moduli |
+|-------|-------------|--------|
+| **Orcastle** | Città-prigione su un'isola, sotto una cupola magica. Quattro fazioni la controllano (Ruby, Emerald, Castro, Malebranche). | 1 |
+| **Fortezza di Orcastle** | Sede di Lord Malebranche, centro della cupola magica. | 1, 4 |
+| **Torre di Torth** | Torre di Vecna. Contiene la Coppa di Blackwood. Avatar di Vecna appare qui. | 1 |
+| **Baldur's Gate** | Città di partenza del Modulo 2. Porto sulla Costa della Spada. | 2 |
+| **Tempio di Lumina** | Tempio in rovina dedicato a Tyr, nelle montagne. Contiene lo Scettro. Prove di purezza. | 2 |
+| **Costa della Spada** | Rotta marittima dal sud (Baldur's Gate) al nord (Svoalbard). | 2-3 |
+| **Svoalbard** | Isola ghiacciata a nord di Bryn Shander. Altare di Tyr dove riconsegnare lo Scettro. | 3 |
+| **Il Giavellotto Fantasma** | Taverna di Kurzum, punto di incontro per la missione. | 1 |
+| **Nave Airborne** | Nave volante di Mesusu Merconè. | 3 |
+| **Nave La Nuova Speranza** | Nave di Orlomm Glittergear, viaggio verso Svoalbard. | 3 |
+| **Santuario Sommerso di Ostegard** | Santuario sottomarino/sotterraneo. Custodisce il Monile d'Oro. Protetto da Sir Aldric (sword wraith). | 4 |
+| **All'orco che rutta** | Taverna di Tungsten a Waterdeep. Epilogo. | 4 |
+
 ## Oggetti chiave
 
 ### La Pergamena del Giudizio (Modulo 1)
