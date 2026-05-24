@@ -88,7 +88,7 @@ def check_sections(filepath, sections, label):
 KNOWN_MAIN_SECTIONS = {
     "Lore", "Introduzione", "NPC principali", "Struttura dell'avventura",
     "Plot generale", "Consigli al master", "Running Gag", "Foreshadowing",
-    "Agganci futuri", "Concept", "Ambientazione",
+    "Agganci futuri", "Concept", "Ambientazione", "Luoghi", "Indice",
 }
 
 # Sezioni con prefisso accettato (match parziale)
@@ -246,6 +246,84 @@ def check_statblocks(adventure_dir):
                  "Se è un PG, spostare in other/pg/")
 
 
+def check_no_paths_in_text(adventure_dir):
+    """Check that no file paths (.md links, explicit paths) appear in narrative text."""
+    lang_dir = get_lang_dir(adventure_dir)
+    adventure_name = os.path.basename(adventure_dir)
+    main_md = os.path.join(lang_dir, f"{adventure_name}.md")
+
+    # Check main doc and all module .md files
+    files_to_check = []
+    if os.path.isfile(main_md):
+        files_to_check.append(main_md)
+    for d in sorted(os.listdir(lang_dir)):
+        if re.match(r'^\d{2}_', d):
+            mod_dir = os.path.join(lang_dir, d)
+            for f in os.listdir(mod_dir):
+                if f.endswith(".md"):
+                    files_to_check.append(os.path.join(mod_dir, f))
+
+    # Patterns that indicate paths in text
+    path_patterns = [
+        (r'\]\([^)]*\.md\)', "link markdown a .md"),
+        (r'`[^`]*characters/[^`]*`', "path a characters/"),
+        (r'`[^`]*\.md`', "riferimento a file .md"),
+    ]
+
+    for filepath in files_to_check:
+        content = open(filepath, encoding="utf-8").read()
+        rel = os.path.relpath(filepath, adventure_dir)
+        for pattern, desc in path_patterns:
+            matches = re.findall(pattern, content)
+            for m in matches:
+                warn(f"{rel}: path nel testo ({desc}): {m}")
+
+
+def check_module_titles(adventure_dir):
+    """Check that module titles follow '# Puntata N: Nome' format."""
+    lang_dir = get_lang_dir(adventure_dir)
+    modules = sorted([
+        d for d in os.listdir(lang_dir)
+        if os.path.isdir(os.path.join(lang_dir, d)) and re.match(r'^\d{2}_', d)
+    ])
+    for mod in modules:
+        mod_dir = os.path.join(lang_dir, mod)
+        mod_name = mod[3:]
+        mod_file = os.path.join(mod_dir, f"{mod_name}.md")
+        if not os.path.isfile(mod_file):
+            continue
+        content = open(mod_file, encoding="utf-8").read()
+        # Find first H1
+        h1_match = re.search(r'^# (.+)$', content, re.MULTILINE)
+        if not h1_match:
+            error(f"Modulo {mod}: nessun titolo H1 trovato")
+            continue
+        title = h1_match.group(1).strip()
+        if not re.match(r'Puntata \d+:', title):
+            warn(f"Modulo {mod}: titolo '{title}' non segue formato 'Puntata N: Nome'")
+
+
+def check_npc_module_tag(adventure_dir):
+    """Check that NPC entries in main doc follow '### Name (modulo N)' format."""
+    lang_dir = get_lang_dir(adventure_dir)
+    adventure_name = os.path.basename(adventure_dir)
+    main_md = os.path.join(lang_dir, f"{adventure_name}.md")
+    if not os.path.isfile(main_md):
+        return
+    content = open(main_md, encoding="utf-8").read()
+
+    # Find NPC section
+    npc_section = re.search(r'^## NPC principali\s*\n(.*?)(?=^## |\Z)', content, re.MULTILINE | re.DOTALL)
+    if not npc_section:
+        return
+
+    npc_text = npc_section.group(1)
+    h3s = re.findall(r'^### (.+)$', npc_text, re.MULTILINE)
+    for h3 in h3s:
+        if not re.search(r'\([Mm]odul[oi] \w+\)', h3):
+            warn(f"NPC '{h3}': manca tag (modulo N)")
+
+
 def check_orphan_files(adventure_dir):
     """Flag files that don't match any known pattern."""
     known_root_files = {"README.md", "AdventureBook.md", "PlanBook.md", "DiscussioneNarrativa.md", "manifest.json"}
@@ -373,7 +451,7 @@ def main():
 
     section("Sezioni documento principale")
     check_sections(main_md,
-        ["Lore", "Introduzione", "NPC principali", "Struttura dell'avventura"],
+        ["Lore", "Introduzione", "NPC principali", "Struttura dell'avventura", "Luoghi", "Indice"],
         adventure_name)
     check_unknown_sections(main_md, KNOWN_MAIN_SECTIONS, adventure_name, KNOWN_MAIN_PREFIXES)
     if os.path.isfile(main_md):
@@ -394,6 +472,11 @@ def main():
 
     section("Stat block")
     check_statblocks(adventure_dir)
+
+    section("Regole formali")
+    check_no_paths_in_text(adventure_dir)
+    check_module_titles(adventure_dir)
+    check_npc_module_tag(adventure_dir)
 
     section("Naming convention")
     check_naming_conventions(adventure_dir)
