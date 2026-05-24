@@ -275,11 +275,28 @@ Skill committate con il progetto — configurano il comportamento di Kiro CLI qu
 
 ## Fonti e ringraziamenti
 
+### Tool e codice
+
 | progetto | autore | licenza | uso nel progetto |
 |----------|--------|---------|-----------------|
 | [FightClub5eXML](https://github.com/kinkofer/FightClub5eXML) | kinkofer + community | MIT | Compendium XML di tutte le fonti D&D 5e ufficiali per FightClub/Game Master 5e. Include schema XSD e script di merge. Riferimento per il formato XML dei nostri NPC homebrew. |
 | [statblock5e](https://github.com/Valloric/statblock5e) | Valloric | Apache-2.0 | Web Component HTML/CSS per stat block nella grafica WotC. Template per l'export PDF/PNG. |
 | [tetra-cube.com](https://tetra-cube.com/dnd/dnd-statblock) | Tetra-cube | — | Generatore web di stat block basato su statblock5e. Riferimento per il formato. |
+
+### Adventure design — fonti di riferimento
+
+Fonti autorevoli su come costruire avventure D&D. Da studiare e confrontare con le nostre `tech/rules/content-rules.md`.
+
+| fonte | autore | tipo | concetti chiave |
+|-------|--------|------|-----------------|
+| [The Alexandrian](https://thealexandrian.net) | Justin Alexander | Blog | Node-based adventure design, Three Clue Rule, Don't Prep Plots, Jaquaying the Dungeon |
+| [Return of the Lazy Dungeon Master](https://slyflourish.com/return_of_the_lazy_dm.html) | Mike Shea | Libro (2018) | 8 steps per prep: strong start, secrets & clues, locations, NPCs, monsters, treasure |
+| [On Writing Adventures](https://slyflourish.com/on_writing_adventures.html) | Mike Shea (Sly Flourish) | Articolo | Riassume le WotC freelancer guidelines: motivazione, locations, villain, decisioni significative |
+| [DMDave's Ultimate Guide to Writing 5E Adventures](https://dmdave.com/good-dd-5e-adventure/) | Dave Hamrick | Libro (2023) | Hook, location, encounters, rewards — struttura in 4 step |
+| [Let's Design an Adventure](https://www.dndbeyond.com/posts/623-lets-design-an-adventure-outlines-and-frameworks) | Shawn Merwin (D&D Beyond) | Serie articoli | Outlines, frameworks, thinking like a designer |
+| [The DNA of Adventure Modules](https://loottheroom.uk/form-and-structure-the-dna-of-adventure-modules) | Oliver Darkshire (Loot The Room) | Articolo | Evoluzione storica del formato avventura da TSR a oggi |
+| [Advanced D&D Adventure Design](https://www.flutesloot.com/dnd-adventure-design-guide-advanced/) | Flutes Loot | Articolo | Three-act structure applicata al game design, nodi narrativi |
+| [WotC Style Templates](https://adventurersleague.wordpress.com/wotc-style-templates/) | WotC / Adventurers League | Template | Template ufficiali Word/InDesign per avventure AL |
 
 Il file `tech/data/compendium/Sources/SystemReferenceDocument/all-srd.xml` contiene l'SRD 5.1 in formato FightClub XML, rilasciato da Wizards of the Coast sotto [Creative Commons Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/). Lo schema `tech/data/compendium/compendium.xsd` è parte del repo kinkofer (MIT).
 

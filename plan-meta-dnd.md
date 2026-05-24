@@ -331,11 +331,19 @@ Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/script
 - [x] Script per PDF unico pubblicabile (copertina `NomeAvventura_COVER.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data) → `create-pdf-adventure.py`
 - [ ] **Formattazione stat block NPC variabile** — Rendere lo stat block PNG variabile in grandezza e numero colonne. Attualmente ogni stat block occupa una pagina intera. Obiettivo: stat block brevi su mezza pagina o in layout a 2 colonne. Le sezioni `## Incantesimi` e `## Equipaggiamento speciale` diventeranno `###` sotto `## Stat Block` quando implementato.
 - [ ] **Review regole di contenuto vs fonti autorevoli** — Una volta che la VerT è in stato accettabile:
-  1. Controllare tutte le avventure in base alle regole formali e semantiche aggiornate
-  2. Cercare in rete fonti autorevoli su "costruire una buona avventura D&D" (es. The Alexandrian, Sly Flourish, r/DnDBehindTheScreen, DMG advice)
-  3. Riportare le fonti nel README generale (sezione Fonti)
-  4. Verificare la bontà delle fonti prima di qualsiasi modifica
-  5. Confrontare le nostre content-rules con le best practice trovate
+  1. ~~Controllare tutte le avventure in base alle regole formali e semantiche aggiornate~~
+  2. ~~Cercare in rete fonti autorevoli su "costruire una buona avventura D&D"~~ ✅ fatto
+  3. ~~Riportare le fonti nel README generale (sezione Fonti)~~ ✅ fatto
+  4. ~~Creare riassunto in tech/rules/adventure-design-sources.md~~ ✅ fatto
+  5. Confrontare content-rules con le best practice — problemi trovati (da discutere uno alla volta):
+     - **Three Clue Rule mancante**: le nostre regole non richiedono esplicitamente 3+ modi per scoprire ogni informazione critica. Proposta: aggiungere come regola per gli indizi chiave.
+     - **Node-based design non menzionato**: le nostre regole non parlano di struttura a grafo. Le avventure possono essere lineari (e lo sono). Proposta: menzionare come alternativa consigliata per avventure sandbox.
+     - **Boxed text senza regole di lunghezza**: usiamo blockquote per il testo ai giocatori ma non abbiamo un limite (le fonti dicono 3-5 frasi max). Proposta: aggiungere linea guida.
+     - **NPC: manca "come reagisce a..."**: le nostre regole chiedono motivazione/segreto/tratto ma non "come reagisce a inganno/diplomazia/intimidazione/violenza". Proposta: aggiungere come campo opzionale.
+     - **Backstory verbose non esplicitamente vietata**: la regola "contenuto vs pianificazione" copre parzialmente, ma non dice esplicitamente "ometti backstory lunghe nel testo dei moduli". Proposta: rendere esplicito.
+     - **Scaling advice mancante**: le nostre avventure sono per un party specifico, non c'è guida su come scalare. Proposta: aggiungere sezione opzionale "Scalabilità" nei Consigli al master.
+     - **Fronts/minacce che avanzano**: non abbiamo il concetto di "cosa succede se i PG non agiscono". Proposta: aggiungere come strumento opzionale.
+     - **Secrets & Clues come lista separata**: le nostre regole mettono gli indizi nei moduli dove servono. L'approccio Lazy DM li prepara come lista separata da distribuire al volo. Proposta: non cambiare (il nostro approccio è per avventure scritte, non per prep sessione).
   6. Proporre eventuali miglioramenti (solo dopo conferma)
 
 ---
