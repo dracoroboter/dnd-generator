@@ -514,7 +514,7 @@ Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
 - File: `it/04_IlCorniciaio/IlCorniciaio.md`
 - Combattimento: cantina, Medium per lv3 (1 Thug + 3 Guard + 1 Spy ridotta)
 - Side quest: Scrocchierello (opzionale, pista morta)
-- Mappe TODO: CantinaPonteMilvio (battle map), BottegaSberluccica (illustrazione)
+- Mappe TODO: CantinaAviano (battle map), BottegaSberluccica (illustrazione)
 - Gemidesc creati in `04_IlCorniciaio/maps/` e `04_IlCorniciaio/img/scenes/`
 
 ### Da decidere

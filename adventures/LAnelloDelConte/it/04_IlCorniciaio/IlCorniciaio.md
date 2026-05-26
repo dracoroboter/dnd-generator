@@ -2,7 +2,7 @@
 
 ## Descrizione
 
-Simpatico Figuro ha trovato il pittore che faceva i ritratti compromettenti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano e scoprono un nome - ma quando tornano, la bottega è a soqquadro. La Contessina Serbelloni ha mandato i suoi uomini a zittire chiunque sappia dei ritratti. I PG devono salvare Sberluccica prima che sia troppo tardi.
+Simpatico Figuro ha trovato il pittore che faceva i ritratti compromettenti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano e scoprono un nome - ma quando tornano, la bottega è a soqquadro. La Contessina Serbelloni ha mandato i suoi uomini a recuperare i quadri e distruggerli. I PG devono salvare Sberluccica prima che sia troppo tardi.
 
 ## Obiettivo
 
@@ -17,33 +17,19 @@ Simpatico Figuro ha trovato il pittore che faceva i ritratti compromettenti: Mas
 
 Sergius è presente in questa puntata **travestito** e **agisce**. I PG non possono riconoscerlo (CD 25).
 
-**Motivazione:** Sergius vuole che Sberluccica resti vivo e libero. Se la Contessina lo zittisce, perde un pezzo della sua rete di depistaggio - Sberluccica vivo è un altro sospetto con la S che confonde le acque. Quindi Sergius manipola la Contessina per creare il casino, poi aiuta i PG a risolvere il casino. Risultato: la Contessina diventa sospetta, Sberluccica è salvo e grato ai PG (non a Sergius), e nessuno guarda nella direzione giusta.
+**Motivazione:** Sergius vuole che Sberluccica resti vivo e libero. Sberluccica vivo è un altro sospetto con la S che confonde le acque. Sergius manipola la Contessina per creare il casino, poi aiuta i PG a risolverlo. Risultato: la Contessina diventa sospetta, Sberluccica è salvo, nessuno guarda nella direzione giusta.
 
-**Tra Atto 1 e Atto 2 - L'avviso alla Contessina:** Sergius, travestito da "gentiluomo premuroso", si presenta alla Contessina e la avvisa dell'esistenza del pittore. Sa che lei reagirà mandando i suoi uomini. Vuole che i PG trovino il casino e sospettino la Contessina.
+**Azioni di Sergius in questa puntata:**
 
-**Atto 2 - Aiuta i PG a Monteverde:** I PG trovano la bottega a soqquadro e non sanno dove cercare. Stanno discutendo, chiedendo ai vicini (che non sanno niente o hanno paura). Momento di stallo.
+| Quando | Cosa fa | Travestimento |
+|--------|---------|---------------|
+| Tra Atto 1 e Atto 2 | Avvisa la Contessina dell'esistenza del pittore (sa che reagirà mandando i suoi) | "Gentiluomo premuroso" (non visto dai PG) |
+| Atto 2 | Indica ai PG dove hanno portato Sberluccica | Lavandaia (a Monteverde) oppure Signore coi baffi (altrove) |
+| Atto 3 | NON presente — non rischia di essere visto vicino a violenza | — |
 
-A quel punto, una voce alle loro spalle - acuta, femminile:
+**Regole:** Ogni travestimento appare una volta sola. CD 25 per collegare uno dei due al Marchese. Il DM usa UN solo travestimento.
 
-> *"Aviano. La lavanderia vecchia, vicino al castello. Li ho visti portarlo lì stanotte."*
-
-I PG si voltano: una donna robusta, bassa, con un enorme neo peloso sulla guancia e un seno imponente che precede il resto del corpo di almeno mezzo metro. Grembiule da lavandaia, cuffia in testa, mani sui fianchi. Completamente credibile come comare del quartiere.
-
-Se i PG chiedono qualcosa - chi sei, come lo sai - lei risponde con voce stridula: *"So' una che se fa i fatti sua. Ma quelli stanotte facevano un casino... e io c'ho gli occhi buoni."*
-
-Se i PG insistono o cercano di trattenerla, si allontana borbottando: *"E mo' basta con le domande, c'ho da fa'. Ma parliamo di cose serie: se volete trovarlo, sbrigatevi."* e sparisce in un vicolo.
-
-**Se i PG non tornano a Monteverde - il signore coi baffi:** Sergius li trova altrove (alla Taberna, al mercato, per strada). Travestimento diverso: baffi a manubrio enormi, marsina, bombetta. Bastone da passeggio. Aria da nobile eccentrico.
-
-Si avvicina con naturalezza, come uno che attacca bottone. Parla del più e del meno - il tempo, il mercato, la qualità del vino quest'anno. Poi, come per caso:
-
-> *"Ma parliamo di cose interessanti - avete sentito del corniciaio a Monteverde? Quello in vicolo delle Arti? Pare che stanotte ci sia stato un trambusto. Un carro coperto, gente che urlava. Dicono sia andato verso Aviano - zona del castello, la vecchia lavanderia. Mah, chissà cosa combinano."*
-
-Poi guarda un orologio immaginario: *"Oh, ma guardate l'ora. Devo proprio andare. Buona giornata!"* Si tocca la bombetta e se ne va.
-
-**Nota DM:** Due travestimenti diversi, due personaggi diversi, stessa persona (Sergius). Ogni personaggio che scompare appare **una volta sola** - Sergius non riusa mai lo stesso travestimento (tranne Terzilio, che è un'identità stabile). Se i PG vivono entrambe le scene (improbabile ma possibile), hanno due misteriosi sconosciuti che li aiutano e spariscono - il pattern diventa evidente. Non serve un tiro. CD 25 per collegare uno dei due al Marchese.
-
-**Atto 3 - NON presente.** Non rischia di essere visto vicino a violenza.
+Le scene complete (dialogo, descrizione) sono nell'Atto 2 sotto "Sergius indica la strada".
 
 ### Dove sono i personaggi
 
@@ -61,7 +47,7 @@ Vedi conoscenze base in § NPC principali. In questa puntata in più:
 |-----|--------------------------|
 | **Simpatico Figuro** | Ha trovato il pittore (5 ma). Lui stesso vendeva ritratti prima della Gabella. |
 | **Sberluccica** | Vedi interrogatorio Atto 1 sotto |
-| **Contessina** | Ha mandato i suoi a rapire Sberluccica. "Quel pittore sa troppo. Deve stare zitto." Nega se confrontata (CD 16 per farla parlare). |
+| **Contessina** | Ha mandato i suoi a rapire Sberluccica per riavere i quadri e distruggerli. Non conosceva l'identità dei pittori — ha agito su segnalazione. Nega se confrontata (CD 16 per farla parlare). |
 | **Gorim** | Si eccita per la S di Sberluccica ("È lui!"). Non capisce che non significa niente. |
 
 ### Indizi seminati
@@ -129,9 +115,6 @@ Sberluccica è terrorizzato. Se i PG menzionano i ritratti, impallidisce. Se men
 
 **Se i PG chiedono di vedere la lettera** (quella dell'ultimo messaggio del committente, punto 4): Sberluccica l'ha ancora. La tira fuori da un cassetto - pergamena ingiallita, calligrafia elegante, firma doppia S. Il testo dice solo "Non preoccuparti. Riprenderemo quando i tempi saranno maturi. S.S." Nessun altro indizio utile - niente indirizzo, niente sigillo riconoscibile.
 
-**Se i PG chiedono "Ma tu ti chiami Sberluccica - la S!":** Sberluccica li guarda confuso. *"E allora? Mezzo borgo si chiama con la S. Io sono Cecilio. La S è il cognome. Che c'entra?"*
-
-Se i PG insistono o lo accusano di essere il ricattatore: Sberluccica si offende e si spaventa allo stesso tempo. *"Ma che dite?! Io facevo cornici! Dipingevo quello che mi chiedevano e basta! Non ho ricattato nessuno, non ho rubato niente, non so nemmeno chi è 'sto Conte! Sono innocente!"* Piange.
 
 ---
 
@@ -143,11 +126,6 @@ Se i PG portano l'informazione a Gorim prima di tornare da Sberluccica, Gorim si
 
 > *"Sberluccica! S! La doppia S! È lui, vi dico! Dipingeva i ritratti, aveva il movente - la Gabella lo ha rovinato! Andiamo a prenderlo!"*
 
-I PG possono:
-- Frenarlo (Persuasione CD 12 - non è difficile, Gorim è impulsivo ma non stupido)
-- Lasciarlo fare (porta a una scena comica ma non cambia la trama - Sberluccica non c'è più quando arrivano)
-- Ignorarlo e tornare da soli
-
 **La gag:** Se i PG menzionano Er Braccio, Gorim dice il vero nome - lo sa, è nei registri. *"Er Braccio? Ah, Salvatore Soggettoni."* Non nota la S. Non ci arriva. I PG sì (forse).
 
 ---
@@ -156,11 +134,14 @@ I PG possono:
 
 ### Note per il DM
 
-Quando i PG tornano a Monteverde - o la prossima volta che passano dal vicolo delle Arti, o il giorno dopo l'interrogatorio - trovano la bottega devastata. Il rapimento è avvenuto nella notte. Tempistica flessibile - il DM decide quando scatta in base al ritmo della sessione. L'importante è che passi almeno qualche ora dall'interrogatorio (tempo per Sergius di avvisare la Contessina e per lei di mandare i suoi).
+Quando i PG tornano a Monteverde trovano la bottega devastata. Il DM decide quando scatta in base al ritmo della sessione. L'importante è che i PG abbiano già interrogato Sberluccica (deve essere credibile: Sergius deve aver avuto il tempo di avvisare la Contessina e lei di mandare i suoi).
 
-**Se i PG non tornano a Monteverde:** Simpatico Figuro li cerca. Arriva alla Taberna (o dove sono i PG) trafelato: *"Hanno sfasciato la bottega di Sberluccica! L'hanno portato via stanotte! Io ho sentito il casino ma non sono uscito - non sono matto. Però ho visto un carro andare verso... boh, non so dove."* Figuro non sa dove l'hanno portato - serve comunque la lavandaia (Sergius) o la Contessina per avere la location.
+La Contessina ha saputo del pittore da un "gentiluomo premuroso" (Sergius travestito, vedi § Sergius nell'ombra). Ha mandato i suoi uomini la notte stessa.
 
-La Contessina Serbelloni ha mandato i suoi uomini la notte stessa. Ha saputo del pittore da un "gentiluomo premuroso" che l'ha avvisata - Sergius travestito (vedi § Sergius nell'ombra). Sergius ha manipolato la Contessina sapendo che avrebbe reagito così: vuole che i PG trovino il casino e sospettino lei, allontanandosi ulteriormente dalla verità.
+**Chi avvisa i PG (a scelta del DM):**
+
+- **Una guardia di Gorim** — se i PG vanno al castello: *"C'è stato un trambusto a Monteverde stanotte. La bottega del corniciaio."*
+- **Simpatico Figuro** — se i PG traccheggiano: *"Hanno sfasciato la bottega di Sberluccica! L'hanno portato via stanotte!"*
 
 ### Da leggere ai giocatori
 
@@ -174,9 +155,34 @@ La Contessina Serbelloni ha mandato i suoi uomini la notte stessa. Ha saputo del
 
 - **Investigazione CD 12:** Hanno portato via Sberluccica (segni di trascinamento verso il retro). Non hanno trovato quello che cercavano - i cassetti sono stati svuotati ma le cornici rotte suggeriscono che cercavano qualcosa nascosto dietro/dentro le cornici.
 - **Investigazione CD 15:** Impronte di stivali militari - non banditi, gente organizzata. Almeno 3-4 persone.
-- **Percezione CD 13:** Un vicino sbircia dalla finestra di fronte. Se avvicinato: *"Sono venuti stanotte. Tre uomini e una donna. Hanno detto che era per ordine della Contessina. Io non ho visto niente, eh! Niente!"*
 
 ### Seguire la pista
+
+#### Sergius indica la strada
+
+**Se i PG sono in stallo** 
+
+**Lavandaia**
+
+A quel punto, una voce alle loro spalle - acuta, femminile:
+
+> *"Aviano. La lavanderia vecchia, vicino al castello. Li ho visti portarlo lì stanotte."*
+
+I PG si voltano: una donna robusta, bassa, con un enorme neo peloso sulla guancia e un seno imponente che precede il resto del corpo di almeno mezzo metro. Grembiule da lavandaia, cuffia in testa, mani sui fianchi. Completamente credibile come comare del quartiere.
+
+Se i PG chiedono qualcosa - chi sei, come lo sai - lei risponde con voce stridula: *"So' una che se fa i fatti sua. Ma quelli stanotte facevano un casino... e io c'ho gli occhi buoni."*
+
+Se i PG insistono o cercano di trattenerla, si allontana borbottando: *"E mo' basta con le domande, c'ho da fa'. Ma parliamo di cose serie: se volete trovarlo, sbrigatevi."* e sparisce in un vicolo.
+
+**Il signore coi baffi:**
+
+Baffi a manubrio enormi, marsina, bombetta. Bastone da passeggio. Aria da nobile eccentrico. Si avvicina con naturalezza, come uno che attacca bottone. Parla del più e del meno - il tempo, il mercato, la qualità del vino quest'anno. Poi, come per caso:
+
+> *"Ma parliamo di cose interessanti - avete sentito del corniciaio a Monteverde? Quello in vicolo delle Arti? Pare che stanotte ci sia stato un trambusto. Un carro coperto, gente che urlava. Dicono sia andato verso Aviano - zona del castello, la vecchia lavanderia. Mah, chissà cosa combinano."*
+
+Poi guarda un orologio immaginario: *"Oh, ma guardate l'ora. Devo proprio andare. Buona giornata!"* Si tocca la bombetta e se ne va.
+
+#### Altre piste
 
 I PG possono:
 
@@ -188,19 +194,17 @@ Intuizione CD 13: i PG notano nervosismo e fretta nel mandarli via. Ma non confe
 
 **La conferma arriva dopo:** nella cantina, il Sergente Bruto dice *"ordini della Contessina"* durante il combattimento o la negoziazione. Sberluccica salvato conferma: *"Hanno detto che era per ordine della Contessina."* I PG non hanno bisogno della confessione diretta - le prove arrivano dalla scena del salvataggio.
 
-Se i PG insistono (Persuasione CD 16 o Intimidazione CD 15): *"La cantina sotto la vecchia lavanderia, a Ponte Milvio. Ma non andate là - i miei uomini hanno ordini precisi."*
-
-**B) Chiedere in giro a Monteverde** - Percezione CD 14 o Investigazione CD 13: qualcuno ha visto un carro coperto andare verso Ponte Milvio stanotte.
+**B) Chiedere in giro a Monteverde** - Percezione CD 14 o Investigazione CD 13: qualcuno ha visto un carro coperto andare verso Aviano stanotte.
 
 **C) Chiedere a Gorim** - Gorim non sa niente della Contessina. Ma se gli dicono che la Contessina ha rapito il pittore: *"Quella... quella Serbelloni! Sempre a complicare tutto! Andiamo a riprendercelo!"* Vuole venire.
 
 ---
 
-## Atto 3 - La cantina di Ponte Milvio
+## Atto 3 - La cantina di Aviano
 
 ### Note per il DM
 
-La "vecchia lavanderia" è un edificio abbandonato nel quartiere Ponte Milvio (quello col nome assurdo dalla Puntata 1). La cantina sotto è usata dalla Contessina come deposito/prigione improvvisata. Non è un dungeon - è una cantina umida con botti vuote e un prigioniero legato a una sedia.
+La "vecchia lavanderia" è un edificio abbandonato ad Aviano, vicino al castello. La cantina sotto è usata dalla Contessina come deposito/prigione improvvisata. Non è un dungeon - è una cantina umida con botti vuote e un prigioniero legato a una sedia.
 
 **Mappa:** cantina rettangolare, ~120×75 piedi. Scala di legno (nord), botti e casse lungo le pareti (copertura), sedia al centro dove è legato Sberluccica. Una porta secondaria (sud) che dà su un vicolo.
 
@@ -241,21 +245,9 @@ I PG possono:
 
 ### Dopo il combattimento
 
-Sberluccica è grato e terrorizzato. Dà l'informazione bonus:
+**Cosa scoprono i PG dalla scena:** La Contessina vuole i quadri — probabilmente per distruggerli. Le guardie non sanno molto di più. Se messe alle strette si arrendono o scappano (Mafalda in particolare scappa alla prima occasione).
 
-> *"Grazie... grazie... Io non c'entro niente, ve lo giuro. Io dipingevo e basta. Ma... una cosa ve la dico. Una volta sola l'ho visto, il committente. È venuto di persona. Era mascherato - cappuccio, mantello. Alto, sicuro di sé."*
-
-Se i PG chiedono se ricorda altro (e insistono): Sberluccica si sforza. Il DM tira Intelligenza per Sberluccica (INT 10, CD 13). Se passa:
-
-> *"Aspettate... sì. Quando se n'è andato... l'ho guardato allontanarsi e a un certo punto, in lontananza, è come se si fosse piegato in due. Come se il corpo cedesse. Strano, no?"*
-
-Se fallisce: *"No... non ricordo altro. Era mascherato. Basta."* L'indizio è perso per questa puntata.
-
-Se i PG chiedono se potrebbe riconoscerlo: *"No. Era mascherato."*
-
-### Note per il DM - la descrizione del committente
-
-Sberluccica ha visto Sergius **in personaggio** (alto, sicuro) ma l'ha colto nel momento in cui lasciava cadere la postura - allontanandosi, credendosi non osservato. È il vero Sergius che emerge: gobbo, curvo, piccolo. I PG conoscono Sergius solo come il Marchese Arimano (aitante, eretto). Non possono fare il collegamento ora. Ma quando nella puntata 5-6 scopriranno la verità, questo indizio tornerà in mente: "si è piegato in due" = il Marchese che torna al suo vero aspetto.
+**Sberluccica** è grato e terrorizzato. Dà l'informazione bonus (o la ripete se l'ha già data nell'Atto 1): il committente mascherato, alto, sicuro — che allontanandosi "si è piegato in due" (vedi Atto 1, punto 5 dell'interrogatorio).
 
 ---
 
@@ -276,6 +268,8 @@ Ma solo se il momento è naturale. Se non lo è, lascia perdere.
 - Gorim paga 3 mo per le informazioni (se i PG riferiscono)
 - Sberluccica offre una cornice gratis (inutile ma gentile)
 - XP: nessun avanzamento di livello (restano lv3).
+
+**Nota — Gorim e la Contessina:** Gorim non può che far finta di stare dalla parte della Contessina (difende il Conte = difende la moglie del Conte). Ma da questo momento inizia a credere che lei sia il problema. Non lo dice apertamente — nega, minimizza — ma internamente si è schierato.
 
 ### Piste aperte per la puntata 5
 
@@ -308,14 +302,14 @@ Scrocchierello è nervoso se i PG menzionano le pozioni di vigore, ma non terror
 **Cosa rivela:**
 
 - *"Sì, le facevo. Tempo fa. L'Immane Alabarda, La Rocca Imponente... tutti nomi suoi, del committente. Io mettevo insieme le erbe."*
-- *"Non funzionavano, eh. Acqua colorata con erbe aromatiche. Niente di magico. Ma la gente ci credeva e pagava."* (Ride amaro.)
+- *"Non funzionavano, eh. Alcol, acqua e spezie. Degli amari, praticamente. Niente di magico. Ma la gente ci credeva e pagava."* (Ride amaro.)
 - *"Mica ero l'unico, eh. Di pozioni miracolose ne vendevano in tanti. Io facevo la mia parte e basta."*
-- *"Il committente? Mai visto. Lettere firmate con una doppia S. Pagava bene, puntuale. Poi è arrivata la Gabella e ho smesso. Troppi rischi per acqua colorata."*
+- *"Il committente? Mai visto. Lettere firmate con una doppia S. Pagava bene, puntuale. Poi è arrivata la Gabella e ho smesso. Troppi rischi per degli amari."*
 - *"Non so chi sia. Non voglio saperlo. Io adesso faccio tisane vere e campo onestamente."*
 
 **Cosa NON sa:** chi è il committente, dove opera, cosa fa adesso. Non ha mai incontrato Sberluccica (lavoravano in parallelo senza conoscersi). Non sa degli altri commerci del committente (animali, spezie).
 
-**Valore per i PG:** conferma che le pozioni erano una truffa (acqua colorata), conferma la doppia S, conferma che il committente operava solo per lettera, rivela che c'erano più produttori. Nessuna pista nuova - ma un pezzo del puzzle in più.
+**Valore per i PG:** conferma che le pozioni erano amari (alcol e spezie, niente di magico), conferma la doppia S, conferma che il committente operava solo per lettera, rivela che c'erano più produttori. Nessuna pista nuova - ma un pezzo del puzzle in più.
 
 ---
 
@@ -327,7 +321,7 @@ Un solo combattimento (cantina): MEDIUM per 3-4 PG di livello 3.
 
 | Incontro | Nemici | Difficoltà | XP |
 |----------|--------|------------|-----|
-| Cantina di Ponte Milvio | 1 Thug + 3 Guard + 1 Spy (ridotta) | Medium | 450 XP |
+| Cantina di Aviano | 1 Thug + 3 Guard + 1 Spy (ridotta) | Medium | 450 XP |
 
 ### Note sul bilanciamento
 
@@ -344,7 +338,7 @@ Un solo combattimento (cantina): MEDIUM per 3-4 PG di livello 3.
 | Mappa | Tipo | File |
 |-------|------|------|
 | Bottega Sberluccica | Illustrazione | TODO |
-| Cantina Ponte Milvio | Battle map | TODO |
+| Cantina Aviano | Battle map | TODO |
 
 ---
 

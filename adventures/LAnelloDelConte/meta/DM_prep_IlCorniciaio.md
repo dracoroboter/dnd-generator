@@ -46,7 +46,7 @@
 
 ## Battle Map — Cantina di Ponte Milvio
 
-**File:** `maps/CantinaPonteMilvio.png`
+**File:** `maps/CantinaAviano.png`
 **Dimensioni:** 120×75 piedi (24×15 quadretti da 5ft)
 
 ### Setup Roll20

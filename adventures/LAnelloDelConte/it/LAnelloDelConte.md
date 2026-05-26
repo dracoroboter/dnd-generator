@@ -43,9 +43,9 @@ Sergius ha costruito un fiorente commercio clandestino su due prodotti:
 
    **Il caso del Conte:** Svariati facoltosi avevano commissionato ritratti del Conte nudo per soddisfare le proprie voglie - senza il consenso del Conte. Il Conte, quando l'ha scoperto, si è divertito. Tanto che una volta ha deciso di posare di persona per un **vero** ritratto nudo, con la moglie di Arimano (rinomata per la bellezza). Il quadro è stato commissionato al pittore **Candido Michelangeli**. Il Conte non ha mai pagato.
 
-   **Il pittore del quadro vero: Candido Michelangeli.** Faceva parte della rete di Arimano (come Sberluccica). Il Conte ha commissionato il quadro tramite la rete, come tutti. Arimano non ha mai visto il contenuto — i quadri venivano consegnati sigillati. Il Conte non ha mai pagato (il debito è verso Arimano). Arimano ha scoperto il contenuto del quadro solo dopo: travestito da amico di Michelangeli, se l'è fatto consegnare (non pagato, il pittore era contento di liberarsene). Ha visto sua moglie. Ora Arimano ha il quadro. Vorrebbe usarlo ma non può (c'è la moglie).
+   **Il pittore del quadro vero: Candido Michelangeli.** Faceva parte della rete di Arimano (come Sberluccica). Il Conte ha commissionato il quadro tramite la rete, come tutti. Arimano non ha mai visto il contenuto — i quadri venivano consegnati sigillati. Il Conte non ha mai pagato (il debito è verso Arimano). Arimano è andato da Michelangeli travestito, gli ha detto che il committente si era rifiutato di pagare. Michelangeli gli ha ceduto il quadro per pochi spiccioli — con la Gabella quel mercato stava morendo e voleva liberarsene. Arimano ha visto il contenuto solo dopo: sua moglie. Ora Arimano ha il quadro. Vorrebbe usarlo ma non può (c'è la moglie).
 
-   La Contessina, indagando sui deepfake, è risalita a Michelangeli. Lo ha fatto arrestare illegalmente, per rabbia — arresto segreto, se si sapesse creerebbe scontento e sommosse. Michelangeli è nel dungeon del castello da ~1.5 anni. La Contessina non sa del quadro vero — ha arrestato Michelangeli perché era un pittore di nudi.
+   La Contessina, indagando sui deepfake, è risalita a Michelangeli. Lo ha fatto arrestare illegalmente, per rabbia — arresto segreto, se si sapesse creerebbe scontento e sommosse. Michelangeli è nel dungeon del castello da molto tempo. La Contessina non sa del quadro vero — ha arrestato Michelangeli perché era un pittore di nudi.
 
    **Cosa sa la Contessina:** Sa dei ritratti deepfake del marito (commissionati da altri). NON sa del quadro vero. Ha arrestato Michelangeli come pittore di deepfake, non per il quadro vero.
 
@@ -74,7 +74,7 @@ Sergius ha smesso di produrre i nudi. Continua solo con le pozioni, ma con molta
 
 **Verso i PG:** Sergius vuole che passino dalla sua parte e decidano che la Contessina è il nemico. Tutta la manipolazione (aiutarli travestito, mostrare la brutalità della Contessina, offrire lavoro) serve a questo.
 
-Il vero ritratto del Conte è in mano a Sergius (se l'è fatto consegnare dal pittore travestendosi da suo amico). Vorrebbe usarlo per ricattare il Conte o esporlo pubblicamente — ma non può, perché nel quadro c'è anche sua moglie. È un'arma che non può usare.
+Il vero ritratto del Conte è in mano a Sergius (Michelangeli glielo ha ceduto per pochi spiccioli quando il committente non ha pagato). Vorrebbe usarlo per ricattare il Conte o esporlo pubblicamente — ma non può, perché nel quadro c'è anche sua moglie. È un'arma che non può usare.
 
 ### La Contessina oggi
 
@@ -444,7 +444,7 @@ I PG sono in stallo. Dopo due giorni senza piste, ricevono un invito dal Marches
 
 ### Puntata 4 - "Il Corniciaio"
 
-Simpatico Figuro trova il pittore dei ritratti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano, ma la Contessina Serbelloni manda i suoi uomini a zittirlo. I PG devono salvare Sberluccica e scoprono che tutti a Fianus hanno un nome con la S - la firma non identifica nessuno.
+Simpatico Figuro trova il pittore dei ritratti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano, ma la Contessina Serbelloni manda i suoi uomini a recuperare i quadri. I PG devono salvare Sberluccica e scoprono che tutti a Fianus hanno un nome con la S - la firma non identifica nessuno.
 
 ### Puntata 5 - [da titolare] (draft: XX1)
 

@@ -80,9 +80,9 @@ Ripeti la procedura sopra per ogni avventura normalizzata:
 
 ---
 
-# Rilascia Modulo - Genera PDF stampabile di un singolo modulo
+# Rilascia Modulo - Genera PDF di un singolo modulo per la sessione
 
-Genera un PDF con un singolo modulo di un'avventura, le sue mappe e gli stat block. A differenza della pubblicazione (che genera il PDF completo e lo mette in `public/`), il rilascio modulo e per uso personale/stampa e resta in `releases/`.
+Genera un PDF con il documento principale dell'avventura (contesto, NPC, plot) e un singolo modulo. Per uso personale/sessione, resta in `releases/`.
 
 ## Come usarla
 
@@ -90,16 +90,15 @@ Chiedi a Kiro: "rilascia modulo 3 di FuoriDaHellfire", "stampa modulo 2", "rilas
 
 ## Procedura
 
-1. Esegui `python3 tech/fightclub/generate-statblocks.py <NomeAvventura>` per rigenerare stat block
-2. Esegui `python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --only <NN>,maps,statblocks`
-3. Mostra il path del PDF generato e la dimensione
+1. Esegui `python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --only doc,<NN>`
+2. Mostra il path del PDF generato e la dimensione
 
 ## Output
 
-`releases/<NomeAvventura>/<NomeAvventura>_YYYYMMDD_only-<NN>_maps_statblocks.pdf`
+`releases/<NomeAvventura>/<NomeAvventura>_YYYYMMDD_only-<NN>_doc.pdf`
 
 ## Note
 
 - Il file resta in `releases/` (non va in `public/`, non e tracciato da git)
-- Include tutte le mappe dell'avventura e tutti gli stat block, non solo quelli del modulo specifico
-- Per avere solo gli stat block rilevanti al modulo, usare `--only <NN>,statblocks` (senza maps)
+- Contiene il documento principale (informazioni di contesto: plot, NPC, lore) + il modulo richiesto
+- NON include mappe né stat block (quelli si consultano su Roll20 / FightClub separatamente)
