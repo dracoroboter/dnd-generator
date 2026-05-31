@@ -366,6 +366,21 @@ def test_check_enc_runs():
     assert r.returncode in (0, 1), f"Crashed with exit {r.returncode}:\n{r.stderr}"
     assert "Report Difficoltà" in r.stdout
 
+@test("check-encounter-difficulty: groups combined encounters by location")
+def test_check_enc_combined():
+    """Verify that enemies with the same Luogo are grouped into one encounter."""
+    r = run(["python3", str(CHECK_ENC), PILOT])
+    assert r.returncode in (0, 1)
+    # Module 02 has Korex + Teppisti at "La cisterna" — should appear as combined
+    assert "Korex" in r.stdout and "Teppista" in r.stdout
+    # They should be on the SAME line (combined), not separate lines
+    for line in r.stdout.splitlines():
+        if "La cisterna" in line and "Korex" in line:
+            assert "Teppista" in line, "Combined encounter not grouped by location"
+            break
+    else:
+        assert False, "La cisterna encounter not found in output"
+
 # ── main ─────────────────────────────────────────────────────────────────
 
 def collect_tests():

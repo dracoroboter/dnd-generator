@@ -182,7 +182,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] `tech/scripts/release.sh` — genera PDF + ZIP per una avventura
 - [x] `tech/scripts/check-adventure.py` — verifica normalizzazione + genera report in `tech/reports/` (aggiornato: riconosce sezioni meccaniche NPC: Attacchi, Azioni bonus, Reazioni, Backstory, Punti aperti)
 - [x] `tech/scripts/encounter-difficulty.py` — calcola difficoltà incontro D&D 5e
-- [ ] **Calcolo automatico difficoltà nei moduli** — `check-adventure.py` (o script dedicato) legge il party size/livello dal documento principale e le tabelle nemici dai moduli, calcola la difficoltà (Easy/Medium/Hard/Deadly) e verifica che corrisponda a quella dichiarata. Il party va dichiarato nel documento principale (es. `**Party**: 3 PG lv3 + Udo (CR3) + Fin (lv3)`)
+- [x] **Calcolo automatico difficoltà nei moduli** — `check-encounter-difficulty.py`: legge `**Party:**` dai moduli, raggruppa nemici per Luogo, calcola difficoltà, confronta con dichiarata. Tabella Xanathar CR→livello per companion. Report in `tech/reports/`.
 - [x] `tech/scripts/new-adventure.sh` — scaffolding nuova avventura da template
 - [x] `tech/scripts/adventure-wizard.py` — wizard interattivo per metadati avventura (rilanciabile)
 - [x] `tech/scripts/new-npc.py` — crea scheda NPC (interattivo o template vuoto)
@@ -197,7 +197,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] `tech/how-to/how-to-release.md`
 - [x] `tech/how-to/how-to-encounter-difficulty.md`
 - [x] `tech/how-to/how-to-new-adventure.md`
-- [ ] `tech/how-to/how-to-normalization.md` — guida passo-passo normalizzazione legacy (da `.odt`)
+- [x] `tech/how-to/how-to-normalization.md` — guida passo-passo normalizzazione legacy → realizzata come `tech/rules/normalization.md` (223 righe, 7 fasi)
 - [ ] TODO: studiare sistema di prefissi/suffissi per sezioni libere dei moduli
 
 ---
@@ -323,7 +323,7 @@ Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/script
 - [ ] **Stat block per oggetti magici**: supportare il prefisso `OBJ_` nella pipeline stat block con un template dedicato. Il template oggetto deve mostrare: immagine (da `img/` o `characters/img/`), nome, breve descrizione. Diverso dal template creature (no stats FOR/DES/ecc, no attacchi). Esempio: `OBJ_AnelloDelVirtuoso.md` → PNG con immagine dell'anello + nome + descrizione meccanica.
 - [ ] Implementare `--split` in `create-pdf-adventure.py` per PDF divisi (lore, sessioni, appendice)
 - [ ] Implementare stat block multi-colonna nell'appendice PDF (2 per pagina)
-- [ ] Definire il tag di versione (manuale? campo nel README.md? tag git?)
+- [x] Definire il tag di versione → la data nel nome file (`YYYYMMDD`) è sufficiente
 
 ---
 
@@ -332,7 +332,7 @@ Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/script
 - [ ] **Ridurre verbosità moduli a parità di informazioni** — I moduli sono troppo lunghi da stampare. Due aspetti separati:
   1. **Contenuto**: eliminare ripetizioni, condensare tabelle, usare riferimenti invece di ricopiare informazioni già presenti altrove (es. stat block base dal MM, posizioni NPC dal documento principale)
   2. **Layout stampa**: ridurre spazi vuoti nel PDF, compattare tabelle, evitare page break inutili, valutare font size ridotto per le sezioni DM-only
-- [ ] Valutare layout PDF ottimizzato per stampa fisica (margini, formato A5/A4)
+- [x] Valutare layout PDF ottimizzato per stampa fisica → risolto con stampa 2 pagine per foglio A4
 - [ ] Valutare pubblicazione su piattaforme dedicate (DMsGuild, itch.io)
 - [x] Script per PDF unico pubblicabile (copertina `NomeAvventura_COVER.png` + tutti i MD + mappe + immagini, con indice, licenza, autore, data) → `create-pdf-adventure.py`
 - [ ] **Formattazione stat block NPC variabile** — Rendere lo stat block PNG variabile in grandezza e numero colonne. Attualmente ogni stat block occupa una pagina intera. Obiettivo: stat block brevi su mezza pagina o in layout a 2 colonne. Le sezioni `## Incantesimi` e `## Equipaggiamento speciale` diventeranno `###` sotto `## Stat Block` quando implementato.
