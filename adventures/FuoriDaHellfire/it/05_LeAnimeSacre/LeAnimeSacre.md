@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 3 PG lv5 + Udo CR3 + Fin lv3
+
 Quando i PG tornano alla Torre di Ashwick con Aldric Jr per eseguire il rituale di dissoluzione, Aldric legge il rituale dal pavimento della cella e scopre che va eseguito all'aperto, in un luogo con caratteristiche specifiche (non nella torre). Trovano il luogo, preparano il rituale. Le iscrizioni stesse li avvertono: senza pericolo di vita e di morte, il rituale non è giustificato. Poi arrivano i guardiani dell'Ordine — spettri saggi che vogliono impedire il rituale senza uccidere, e scheletri in massa che invece attaccano per uccidere.
 
 ## Obiettivo
@@ -330,9 +332,9 @@ Nessun level-up. I PG restano lv5.
 
 ## Nemici
 
-| Luogo | Nemici | N. | CR | Difficoltà (3 PG lv5 + Udo + Fin) |
+| Luogo | Nemici | N. | CR | Difficoltà |
 |-------|--------|----|----|-----|
-| Scogliera | Scheletri | 15 | 1/4 | HARD |
+| Scogliera | Scheletri | 15 | 1/4 | HARD (borderline MEDIUM — Udo CR3≈lv5 è generoso, in pratica è più duro) |
 | Scogliera | Spettri dell'Ordine | 3 | — | Non combattibili |
 
 ---

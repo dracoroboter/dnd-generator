@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 3 PG lv3 + Udo CR3 + Fin lv3
+
 > Il tunnel si apre in una sala circolare, alta almeno sei metri. Al centro, una cisterna asciutta trasformata in un palcoscenico improvvisato: candele, tappeti rubati, strumenti musicali appoggiati alle pareti. E lì, seduto su una sedia come se vi stesse aspettando, c'è Korex. Il flauto alle labbra, le dita che si muovono lente. Sorride senza smettere di suonare.
 >
 > "Ah, i miei fan preferiti. Accomodatevi, lo spettacolo sta per cominciare."
@@ -34,12 +36,10 @@ Dietro una colonna crollata a sud-est, un'apertura stretta che prosegue nel buio
 
 ## Nemici
 
-**Difficoltà incontro:** HARD (3 PG lv3 + Udo + Fin)
-
-| nome | n. | PF | CA | attacco | note |
-|------|-----|----|----|---------|------|
-| Korex | 1 | 52 | 13 | +5, 2d4+3 perf. + 2d6 veleno / Flauto 4d6 psy CD12 Sag | vedi NPC_Korex |
-| Teppista charmato | 2 | 13 | 12 | +3, 1d6+1 mazza | vedi MON_TeppistaCharmato |
+| Luogo | Nemici | N. | CR | Difficoltà |
+|-------|--------|----|----|-----|
+| La cisterna | Korex | 1 | 3 | HARD (borderline MEDIUM — Udo CR3≈lv5 è generoso, in pratica è più duro) |
+| La cisterna | Teppista charmato | 2 | 1/8 | — |
 
 ### Tattiche di Korex
 

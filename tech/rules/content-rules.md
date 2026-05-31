@@ -141,7 +141,59 @@ Ogni PNG deve avere (indipendentemente dal tipo di scheda):
 
 ## Difficoltà degli incontri
 
-Ogni modulo con combattimento deve includere la difficoltà calcolata nella sezione nemici.
+Ogni modulo con combattimento deve includere la difficoltà calcolata nella sezione `## Nemici`.
+
+### Formato standard della sezione Nemici
+
+La sezione `## Nemici` deve contenere una tabella con formato fisso:
+
+```markdown
+## Nemici
+
+| Luogo | Nemici | N. | CR | Difficoltà (3 PG lv5 + Udo + Fin) |
+|-------|--------|----|----|-----|
+| Scogliera | Scheletri | 15 | 1/4 | HARD |
+| Scogliera | Spettri dell'Ordine | 3 | — | Non combattibili |
+```
+
+**Colonne obbligatorie:**
+
+| Colonna | Contenuto |
+|---------|-----------|
+| Luogo | Dove avviene l'incontro |
+| Nemici | Nome del nemico o gruppo |
+| N. | Numero di creature |
+| CR | Challenge Rating (numerico: `1/4`, `1/2`, `1`, `3`). `—` se non combattibile |
+| Difficoltà | Label calcolata: TRIVIAL, EASY, MEDIUM, HARD, DEADLY. `Non combattibili` se CR è `—` |
+
+**Regole:**
+
+- L'intestazione della colonna Difficoltà è semplicemente `Difficoltà` (senza parentesi)
+- Il party di riferimento va dichiarato **una sola volta** all'inizio del modulo con il formato: `**Party:** 3 PG lv5 + Udo CR3 + Fin lv3`. Per ogni companion indicare il livello (`lv3`) o il CR (`CR3`). Lo script usa la tabella Xanathar per convertire CR → livello equivalente.
+- Note aggiuntive (evitabile, tattiche) vanno tra parentesi dopo la label: `HARD (evitabile con negoziazione)`
+- Lo script `check-encounter-difficulty.py` usa questa tabella per verificare automaticamente i calcoli
+
+### Incontri combinati (più tipi di nemici)
+
+Quando un incontro include nemici di tipo diverso (es. boss + minion), elencarli su **righe separate con lo stesso Luogo**. La difficoltà va dichiarata **solo sulla prima riga** del gruppo; le righe successive dello stesso luogo hanno `—` nella colonna Difficoltà.
+
+Lo script raggruppa automaticamente le righe con lo stesso Luogo e calcola la difficoltà combinata.
+
+```markdown
+| Luogo | Nemici | N. | CR | Difficoltà (3 PG lv3 + Udo + Fin) |
+|-------|--------|----|----|-----|
+| La cisterna | Korex | 1 | 3 | HARD |
+| La cisterna | Teppista charmato | 2 | 1/8 | — |
+| Nido ratti | Ratto corrotto | 6 | 1/8 | EASY |
+| Nido ratti | Sciame di ratti | 1 | 1/4 | — |
+```
+
+In questo esempio:
+- "La cisterna" è un incontro combinato: Korex CR 3 + 2 Teppisti CR 1/8 → calcolato insieme
+- "Nido ratti" è un incontro combinato: 6 Ratti + 1 Sciame → calcolato insieme
+- La difficoltà dichiarata sulla prima riga si riferisce all'intero gruppo
+
+**Questo formato è obbligatorio per tutti i moduli normalizzati.** I moduli legacy vanno aggiornati quando si toccano.
 
 ### Nota sul sistema CR/XP
 

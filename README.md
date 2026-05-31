@@ -88,7 +88,7 @@ create-pdf-adventure.py LAnelloDelConte --lang en   →  releases/LAnelloDelCont
 optimize-images.py LAnelloDelConte                  →  genera versioni -lowres.jpg delle immagini
 ```
 
-**Script:** `tech/create-pdf-adventure/create-pdf-adventure.py`, `tech/create-pdf-adventure/optimize-images.py`
+**Script:** `tech/create-pdf-adventure/create-pdf-adventure.py`, `tech/create-pdf-adventure/optimize-images.py`, `tech/create-pdf-adventure/split-pdf-adventure.py`
 **Documentazione:** `tech/create-pdf-adventure/docs-create-pdf-adventure.md`
 
 ---
@@ -220,6 +220,10 @@ dungeonandragon/
 | `new-npc.py` | Python | Crea scheda NPC interattivamente |
 | `encounter-difficulty.py` | Python | Calcola difficoltà incontro D&D 5e (XP soglia, CR multipli) |
 | `encounter-builder.py` | Python | Costruisce incontri bilanciati |
+| `check-encounter-difficulty.py` | Python | Verifica che le difficoltà dichiarate nei moduli corrispondano al calcolo XP. Report in `tech/reports/` |
+| `md-to-pdf.py` | Python | Converte un Markdown generico in PDF con il CSS avventura (auto-detect DM_Prep per page-break) |
+| `project-size.py` | Python | Calcola la dimensione del progetto suddivisa per categoria (solo file tracciati da git) |
+| `git-push.sh` | Bash | Add, commit e push in un colpo |
 | `setup.sh` | Bash | Installa dipendenze (pandoc, wkhtmltopdf, zip, python3, Node.js, Playwright) |
 | `backup.sh` | Bash | Backup del progetto (esclude `legacy/`) |
 

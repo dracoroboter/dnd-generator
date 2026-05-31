@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 5-6 PG lv8 + Frankie lv5
+
 > L'aria puzza di sale e disperazione. Sotto di voi, un'isola-fortezza avvolta da una cupola magica semitrasparente si staglia contro il mare grigio. Orcastle — un tempo centro di potere e commercio, ora prigione a cielo aperto dove criminali, ribelli e dissidenti vengono rinchiusi per sempre. Nessuno entra, nessuno esce, se non attraverso i voli controllati delle navi volanti di Malebranche.
 
 La città-stato di Orcastle è stata trasformata in una prigione a cielo aperto, circondata da una barriera magica impenetrabile. Il governatore corrotto Lord Cedric Malebranche ha costruito il suo potere sfruttando questo sistema crudele, imprigionando nemici politici e facendo affari nell'ombra con i peggiori criminali della regione.
@@ -211,19 +213,20 @@ Una volta compiuto il brindisi, la torre tremola brevemente e i PG si ritrovano 
 
 ## Nemici
 
-| nome | n. | PF | CA | attacco | note |
-|------|-----|----|----|---------|------|
-| Bandito (Ruby/Emerald) | variabile | 11 | 12 | +3, 1d6+1 scimitarra | drappelli da 2d4 |
-| Capo bandito | variabile | 65 | 15 | +5, 2d6+3 | guarnigione di Axel |
-| Assassino Emerald | 1d6 | 78 | 15 | +6, 1d8+3 spada corta + 7d6 veleno | Assassino MM pag. 343 CR 8. Dardi avvelenati (sonno, TS Cos CD 13). Attaccano di sorpresa |
-| Cavaliere (campione Emerald) | 1 | 52 | 18 | +5, 2d6+3 | pag. 344, duello senza magie |
-| Soldato Highlander | variabile | 58 | 17 | +5, 2d8+3 spadone | Veterano MM pag. 350 CR 3. Pattuglie organizzate |
-| Cultista di Vecna | 8 | 9 | 12 | +3, 1d6+1 scimitarra | pag. 345 |
-| Cultista fanatico | 1 | 33 | 13 | +4, 1d6+2 pugnale | pag. 346 |
-| Diavolo barbuto | 2 | 52 | 13 | +5, 1d10+3 alabarda | pag. 70 |
-| Diavolo delle catene | 1 | 85 | 16 | +8, 2d6+4 catena | pag. 75 |
-| Golem di Pietra | 1 | 178 | 17 | +10, 3d8+6 schianto | guardiano del portale |
-| Veterano (guardie Airborne) | 5 | 58 | 17 | +5, 2d8+3 | scorta di Mesusu |
+| Luogo | Nemici | N. | CR | Difficoltà (5-6 PG lv8) |
+|-------|--------|----|----|-----|
+| Porta nella cupola | Bandito (Ruby/Emerald) | 2d4 | 1/8 | Non combattibili |
+| Contea Ruby/Emerald | Capo bandito | 1-4 | 2 | — |
+| Contea Emerald | Assassino Emerald | 1d6 | 8 | — |
+| Contea Emerald | Cavaliere (campione) | 1 | 3 | — |
+| Castro | Soldato Highlander (Veterano) | variabile | 3 | — |
+| Nord — Cultisti | Cultista fanatico | 4 | 2 | EASY |
+| Nord — Diavoli | Diavolo barbuto | 2 | 5 | MEDIUM |
+| Nord — Diavoli | Imp | 2 | 1 | — |
+| Nord — Boss | Diavolo delle catene | 1 | 8 | MEDIUM |
+| Nord — Boss | Imp | 2 | 1 | — |
+| Dungeon — Guardiano | Golem di Pietra | 1 | 10 | — |
+| Airborne | Veterano (guardie) | 5 | 3 | Non combattibili |
 
 ## Indizi chiave
 

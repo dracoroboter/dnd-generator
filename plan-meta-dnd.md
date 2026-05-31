@@ -166,6 +166,12 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] Manuale di normalizzazione in `tech/rules/normalization.md`
 - [x] Normalizzare **LoScettroDityr** (saga, 4 moduli A/B/C/D, da `.odt`) — versione "Draco" completata (maggio 2026): 4 moduli, 16 NPC, 1 MON, 29 asset grafici, 0 errori check
 - [ ] Completare **IlReSpezzato** (draft IT creato maggio 2026: documento principale, modulo Nerrok, meccanica medaglione. Mancano: NPC schede, moduli successivi, traduzione EN)
+- [ ] **FuoriDaHellfire**: aggiungere descrizione mappa `HawksbridgeRegion.md` (mappa PNG senza .md)
+- [ ] **FuoriDaHellfire**: normalizzare tag NPC nel documento principale (formato `(modulo 1-2)` → `(modulo 1)` o accettare il formato esteso nello script)
+- [ ] **FuoriDaHellfire modulo 01**: aggiungere sezione `## Nemici` con formato standard (attualmente i nemici sono inline nel testo)
+- [ ] **LoScettroDityr**: aggiungere descrizioni `.md` per 13 mappe PNG senza corrispondente
+- [ ] **LoScettroDityr**: generare immagini per 8 NPC senza artwork (BrotherThaddeus, HelmutVanHeuten, LudmillaDawnshield, OrlommGlittergear, OthranVorash, SirAlaric, SirAldric, ZalharaLorenn)
+- [ ] **LoScettroDityr**: normalizzare sezioni NPC non standard (`## Incantesimi`, `## Equipaggiamento speciale` → spostare in stat block o note al master)
 
 ---
 

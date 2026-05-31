@@ -14,6 +14,8 @@ I PG raggiungono Baldur's Gate — la città più grande e sicura della Costa de
 
 ## Descrizione
 
+**Party:** 5-6 PG lv9
+
 > Una missione vi è stata affidata — non per scelta, ma per necessità. Vecna, il Dio dei Segreti che vi tiene in pugno, pretende che recuperiate lo Scettro di Tyr, un'antica reliquia di cristallo che si narra fosse impugnata dal dio della giustizia in persona. Il viaggio vi porterà da Baldur's Gate fino alle rovine del Tempio di Lumina, attraverso montagne ghiacciate e pericoli dimenticati. Ma lo Scettro è maledetto: chi lo possiede senza essere puro di cuore perde lentamente la propria anima, trasformandosi in un servitore non morto. E il solo fatto di aver accettato la missione di Vecna vi ha già resi impuri.
 
 I personaggi vengono incaricati da Vecna di recuperare lo Scettro di Tyr dal Tempio di Lumina, un luogo perduto da millenni nelle montagne a est di Baldur's Gate. Lo Scettro è un antico artefatto di cristallo che concede un potere immenso, ma è maledetto: chi lo utilizza senza essere puro perde la propria anima e diventa un servitore non morto. Solo i puri possono sopportarne la potenza.
@@ -328,19 +330,19 @@ Se il golem della Sala 4 non è stato sconfitto in precedenza, si trova di fianc
 
 ## Nemici
 
-### Battaglia finale — Alaric e i veterani
-
-**Difficoltà incontro:** DEADLY (4-5 PG lv9)
-
-| nome | n. | PF | CA | attacco | note |
-|------|-----|----|----|---------|------|
-| Veterano | 15 | 58 | 17 | +5, 2d8+3 spadone | MM pag. 350. Si rivoltano contro Alaric se confessa |
-| Alaric il Giusto | 1 | 90 | 15 | vedi sotto | Variante Mago (MM pag. 348) |
-| Guardiano di Lumina | 1 | 50 | 17 | +8, 3d8+6 pugno | Solo se non sconfitto prima. Combatte al fianco dei PG |
-
-Stat block completo: vedi scheda NPC_SirAlaric.
-
-Stat block completo: vedi scheda MON_GuardianoLumina.
+| Luogo | Nemici | N. | CR | Difficoltà (4-5 PG lv9) |
+|-------|--------|----|----|-----|
+| Valle del Giudizio | Veterano (paladino di Tyr) | 4 | 3 | EASY |
+| Valle del Giudizio | Sacerdote (ufficiale Custodi) | 1 | 2 | — |
+| Monti — Grotta Yeti | Abominable Yeti | 1 | 9 | HARD |
+| Monti — Grotta Yeti | Yeti | 2 | 3 | — |
+| Piana delle Lacrime | Roc (vecchio, ferito) | 1 | 11 | MEDIUM |
+| Tempio — Sala 4 | Guardiano di Lumina (golem ferito) | 1 | 10 | EASY |
+| Tempio — Sala 9 | Wraith | 2 | 5 | MEDIUM |
+| Tempio — Sala 9 | Spettro | 3 | 1 | — |
+| Tempio — Uscita | Veterano | 15 | 3 | DEADLY |
+| Tempio — Uscita | Alaric il Giusto | 1 | — | — |
+| Tempio — Uscita | Guardiano di Lumina (alleato) | 1 | 10 | — |
 
 ## Indizi chiave
 

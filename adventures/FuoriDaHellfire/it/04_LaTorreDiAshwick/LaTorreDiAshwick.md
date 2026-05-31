@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 3 PG lv4 + Udo CR3 + Fin lv3
+
 Aldric Sr. ha rivelato dove sono sepolte le ossa di Jason Accordion: la Torre di Ashwick, sulla costa nord. Era la sede operativa dell'Ordine della Chiave Spezzata, dove eseguivano i rituali di sigillatura e custodivano i resti dei sigillati. Ora è in rovine. I PG devono raggiungerla, trovare le ossa, e portarle a Vellun per il rituale di dissoluzione.
 
 ## Obiettivo
@@ -370,7 +372,7 @@ Se i PG decidono di aspettare → Aldric Jr ha bisogno di settimane/mesi per ric
 
 ## Nemici
 
-| Luogo | Nemici | N. | CR | Difficoltà (3 PG lv4 + Udo + Fin) |
+| Luogo | Nemici | N. | CR | Difficoltà |
 |-------|--------|----|----|-----|
 | Sotterranei | Wight (Custodi) | 2 | 3 | HARD (evitabile con negoziazione) |
 

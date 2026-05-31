@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 4 PG lv4-5
+
 I PG vengono inviati da Sir Gorim Vel nelle miniere abbandonate di Nerrok per recuperare il **Medaglione delle Tre Vie**. Gorim non conosce la verità sul rituale di Re Dorian — sa solo che il Re glielo ha ordinato in un momento di lucidità, insieme all'avvertimento di non seguire più i suoi ordini dopo il recupero.
 
 Le miniere non sono semplici scavi abbandonati. Sono ferite aperte nella terra, dove il silenzio è interrotto solo dallo sgocciolio di acque acide e dal sibilo del vento tra le impalcature marce. I soffitti sono instabili, l'aria è densa di polvere e residui di magia, e le ombre si muovono in modi che non dovrebbero. Qui il rituale fallito di Dorian ha lasciato cicatrici: echi del passato del Re che rievocano frammenti della sua storia.
@@ -240,24 +242,12 @@ Ogni PG che ha sentito una voce deve decidere se **accettare** o **rifiutare** l
 
 ## Nemici
 
-### Creature delle miniere
-
-| Creatura | Stat Block | Quantità | Note |
-|----------|-----------|----------|------|
-| Swarm of Bats (corrotti) | MM p. 337 | 2 | Occhi violacei, +1 necrotico al morso. Opzionale |
-| Ghoul | MM p. 148 | 3 | Ex minatori. Indossano brandelli di abiti da lavoro |
-| Shadow | MM p. 269 | 1 | Segue i PG, attacca chi resta solo. Opzionale |
-
-### Simulacri dei Tre Figli
-
-Non hanno stat block — non sono creature combattibili con mezzi normali.
-
-- **Tipo:** Manifestazione necromantica (non-morto incorporeo)
-- **Aspetto:** Figure umane di fumo nero, giovani, con lineamenti sfocati
-- **Effetto:** 1d6 danni necrotici/round a ogni creatura entro 30 ft.
-- **Immunità:** Tutti i danni fisici. Resistenza a tutti i danni magici tranne radiosi
-- **Debolezza:** Il Medaglione delle Tre Vie (vedi Atto 3)
-- **Comportamento:** Non attaccano — drenano la vita con la loro presenza. Bloccano l'uscita
+| Luogo | Nemici | N. | CR | Difficoltà (4 PG lv4-5) |
+|-------|--------|----|----|-----|
+| Tunnel esterni (opzionale) | Swarm of Bats (corrotti) | 2 | 1/4 | TRIVIAL |
+| Tunnel principale | Ghoul | 3 | 1 | MEDIUM |
+| Caverna laterale (opzionale) | Shadow | 1 | 1/2 | TRIVIAL |
+| Uscita — Fuga | Simulacri dei Tre Figli | 3 | — | Non combattibili |
 
 ---
 

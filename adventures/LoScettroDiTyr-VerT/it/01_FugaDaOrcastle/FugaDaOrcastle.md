@@ -338,23 +338,24 @@ Strategia: Rompere gli specchi (ogni parete specchio: 5 PF, CA 6) elimina le ill
 
 ## Nemici
 
-| Nemico | N. | PF | CA | Attacco | Note |
-|--------|----|----|----|---------| -----|
-| Banditi Ruby/Emerald | 2d4 | — | — | — | Statistiche: Bandito |
-| Capi banditi | 1-4 | — | — | — | Statistiche: Capo Bandito |
-| Assassini Emerald | 1d6 | — | — | Dardi avvelenati (sonno) | Non combattono fino alla morte |
-| Cultisti di Dispater | 8 | — | — | — | pag. 345 |
-| Cultisti fanatici | 2 | — | — | — | pag. 346 |
-| Diavolo barbuto | 1 | — | — | — | pag. 70, CR 3 |
-| Diavoli spinati | 2+2 | — | — | — | |
-| Mirmidone Elementale di Pietra | 1 | — | — | — | Guardiano portale |
-| Scheletri | 4 | — | — | — | Palazzo |
-| Zombie | 4+5 | — | — | — | Palazzo |
-| Spettri | 3 | — | — | — | Palazzo |
-| Vassalli (nobili) | 5 | — | — | — | Palazzo, evitabili |
-| Guardie vassalli | 5 | — | — | — | Palazzo |
-| Cavaliere vassalli | 1 | — | — | — | Palazzo |
-| Malebranche | 1 | — | — | — | Necromante CR 9, Mostri Multiverso p.170 |
+| Luogo | Nemici | N. | CR | Difficoltà (5-6 PG lv7) |
+|-------|--------|----|----|-----|
+| Porta nella cupola | Banditi Ruby/Emerald | 2d4 | 1/8 | Non combattibili |
+| Contea Ruby/Emerald | Capi banditi | 1-4 | 2 | — |
+| Contea Emerald | Assassini Emerald | 1d6 | 8 | — |
+| Nord — Cultisti | Cultisti di Dispater | 8 | 1/8 | EASY |
+| Nord — Cultisti | Cultisti fanatici | 2 | 2 | — |
+| Nord — Diavoli | Diavolo barbuto | 1 | 3 | MEDIUM |
+| Nord — Diavoli | Diavoli spinati | 2 | 3 | — |
+| Dungeon — Guardiano | Mirmidone Elementale di Pietra | 1 | 7 | — |
+| Palazzo — Corridoio | Scheletri | 4 | 1/4 | EASY |
+| Palazzo — Corridoio | Zombie | 4 | 1/4 | — |
+| Palazzo — Guardie | Spettri | 3 | 1 | — |
+| Palazzo — Vassalli | Nobili + Guardie + Cavaliere | 5+5+1 | — | Non combattibili |
+| Palazzo — Malebranche | Malebranche (necromante) | 1 | 9 | DEADLY |
+| Palazzo — Malebranche | Cultisti fanatici (charmati) | 2 | 2 | — |
+| Palazzo — Malebranche | Zombie (evocati) | 5 | 1/4 | — |
+| Palazzo — Malebranche | Diavoli spinati | 2 | 3 | — |
 
 ---
 

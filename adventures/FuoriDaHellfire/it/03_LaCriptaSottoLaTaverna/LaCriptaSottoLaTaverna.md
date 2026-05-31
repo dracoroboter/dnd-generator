@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 3 PG lv4 + Udo CR3 + Fin lv3
+
 La mattina dopo la cattura di Korex. Il PG portatore dell'anello non ha dormito: incubi violenti, freddo alla mano, una voce che sussurra. È esausto. L'anello non si toglie. E al Pint Ahoy qualcosa è salito dalla cantina durante la notte.
 
 ## Obiettivo
@@ -396,7 +398,7 @@ Nessun level-up. I PG restano lv4.
 
 ## Nemici
 
-| Stanza  | Nemici                 | N.  | CR  | Difficoltà (3 PG lv4 + Udo + Fin) |
+| Stanza  | Nemici                 | N.  | CR  | Difficoltà |
 | ------- | ---------------------- | --- | --- | ---------------------------------- |
 | Prologo | Swarm of Rats          | 1   | 1/4 | TRIVIAL                            |
 | 3       | Skeleton + Ghast       | 6+1 | 1/4 + 2 | HARD                           |

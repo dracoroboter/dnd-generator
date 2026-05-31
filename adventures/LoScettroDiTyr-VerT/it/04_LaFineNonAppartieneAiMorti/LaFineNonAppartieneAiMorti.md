@@ -248,22 +248,24 @@ Per decidere se stanno mentendo: o in base alle cose dette (ove possibile), oppu
 
 ## Nemici
 
-### Scontro finale — Tomba di Zikle, Foresta Nebbiosa
-
-Una volta ottenuto il Monile, il Santuario inizia a essere sommerso definitivamente. I PG devono fuggire.
-
-Malebranche, venuto a conoscenza tramite la sua rete di spie del rituale che i PG vogliono compiere, li raggiunge alla tomba di Zikle nella Foresta Nebbiosa per cercare di fermarli prima che compiano il rituale.
-
-**Difficoltà incontro:** DEADLY (5–6 PG lv10)
-
-| nome | n. | PF | CA | attacco | note |
-|------|-----|----|----|---------|------|
-| Malebranche (mago necromante) | 1 | — | — | — | CR 10–11, Nemico Leggendario, vedi stat in fondo al sorgente |
-| Wraith | 2 | 67 | 13 | +6, 4d8+3 risucchio vita | CR 5, Incorporeo |
-| Ghast | 2 | 36 | 13 | +5, 2d8+3 morso | CR 2, Fetore |
-| Skeleton | 5 | 13 | 13 | +4, 1d6+2 arco corto | CR 1/4, evocati da Malebranche al suo turno |
-
-La furia di Malebranche e la presenza dei non morti evocati costituiscono una minaccia seria per i PG, che devono bilanciare l'uso di risorse tra offesa e difesa, specialmente con le cure dimezzate.
+| Luogo | Nemici | N. | CR | Difficoltà (5-6 PG lv10) |
+|-------|--------|----|----|-----|
+| Costa della Spada — Banditi | Bandit | 4 | 1/8 | EASY |
+| Costa della Spada — Banditi | Bandit Captain | 1 | 2 | — |
+| Costa della Spada — Villaggio | Hobgoblin | 3 | 1/2 | EASY |
+| Costa della Spada — Villaggio | Goblin | 6 | 1/4 | — |
+| Costa della Spada — Ponte | Gnoll | 5 | 1/2 | EASY |
+| Leilon — Magazzini | Ghoul | 2 | 1 | EASY |
+| Leilon — Magazzini | Ghast | 1 | 2 | — |
+| Tomba di Zikle | Wraith (Zikle) | 1 | 5 | MEDIUM |
+| Tomba di Zikle | Spectre | 3 | 1 | — |
+| Viaggio Santuario | Ghoul | 4 | 1 | — |
+| Santuario Sommerso | Stone Golem | 2 | 10 | DEADLY |
+| Santuario — Guardiano | Sword Wraith (Sir Aldric) | 1 | 8 | MEDIUM |
+| Scontro finale — Tomba Zikle | Malebranche (necromante) | 1 | 10-11 | DEADLY |
+| Scontro finale — Tomba Zikle | Wraith | 2 | 5 | — |
+| Scontro finale — Tomba Zikle | Ghast | 2 | 2 | — |
+| Scontro finale — Tomba Zikle | Skeleton | 5 | 1/4 | — |
 
 ### Il rituale
 

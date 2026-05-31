@@ -19,10 +19,10 @@
 
 ## Nemici
 
-| nome | numero | PF | CA | attacco | note |
-|------|--------|----|----|---------|------|
-| [NemicoComune] | X | X | X | +X XdX+X | |
-| [NemicoBoss] | 1 | X | X | +X XdX+X | vedi scheda |
+| Luogo | Nemici | N. | CR | Difficoltà (PARTY) |
+|-------|--------|----|----|-----|
+| [NomeLuogo] | [NemicoComune] | X | Y | LABEL |
+| [NomeLuogo] | [NemicoBoss] | 1 | Y | LABEL |
 
 ## Indizi chiave
 

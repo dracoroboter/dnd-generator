@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 4 PG lv3
+
 Simpatico Figuro ha trovato il pittore che faceva i ritratti compromettenti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano e scoprono un nome - ma quando tornano, la bottega è a soqquadro. La Contessina Serbelloni ha mandato i suoi uomini a recuperare i quadri e distruggerli. I PG devono salvare Sberluccica prima che sia troppo tardi.
 
 ## Obiettivo
@@ -315,13 +317,11 @@ Scrocchierello è nervoso se i PG menzionano le pozioni di vigore, ma non terror
 
 ## Nemici
 
-### Difficoltà complessiva
-
-Un solo combattimento (cantina): MEDIUM per 3-4 PG di livello 3.
-
-| Incontro | Nemici | Difficoltà | XP |
-|----------|--------|------------|-----|
-| Cantina di Aviano | 1 Thug + 3 Guard + 1 Spy (ridotta) | Medium | 450 XP |
+| Luogo | Nemici | N. | CR | Difficoltà (3-4 PG lv3) |
+|-------|--------|----|----|-----|
+| Cantina di Aviano | Sergente Bruto (Thug) | 1 | 1/2 | MEDIUM |
+| Cantina di Aviano | Guardie della Contessina (Guard) | 3 | 1/8 | — |
+| Cantina di Aviano | Mafalda (Spy ridotta) | 1 | 1 | — |
 
 ### Note sul bilanciamento
 

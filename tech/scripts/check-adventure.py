@@ -218,7 +218,7 @@ def _check_maps_dir_multi(maps_dirs, label, desc_dir=None):
         d_str = str(d)
         if os.path.isdir(d_str):
             files = [f for f in os.listdir(d_str) if os.path.isfile(os.path.join(d_str, f))]
-            pngs.update(os.path.splitext(f)[0] for f in files if f.lower().endswith((".png", ".jpg", ".jpeg")))
+            pngs.update(os.path.splitext(f)[0] for f in files if f.lower().endswith((".png", ".jpg", ".jpeg")) and "-lowres" not in f.lower())
 
     mds = set()
     if desc_dir and os.path.isdir(desc_dir):
@@ -240,7 +240,7 @@ def _check_maps_dir(maps_dir, label, desc_dir=None):
 
     if os.path.isdir(maps_dir):
         files = [f for f in os.listdir(maps_dir) if os.path.isfile(os.path.join(maps_dir, f))]
-        pngs = {os.path.splitext(f)[0] for f in files if f.lower().endswith((".png", ".jpg", ".jpeg"))}
+        pngs = {os.path.splitext(f)[0] for f in files if f.lower().endswith((".png", ".jpg", ".jpeg")) and "-lowres" not in f.lower()}
         svgs = {os.path.splitext(f)[0] for f in files if f.lower().endswith(".svg")}
 
     if os.path.isdir(desc_dir):

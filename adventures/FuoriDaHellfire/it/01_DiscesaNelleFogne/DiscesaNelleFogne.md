@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 3 PG lv3 + Udo CR3 + Fin lv3
+
 > L'aria cambia appena scendete dalla grata. Umidità, buio, e un odore dolciastro che non è solo fogna. Da qualche parte, lontano, sentite un eco; potrebbe essere musica, potrebbe essere acqua che scorre. Difficile dirlo.
 
 I PG inseguono Korex nelle fogne sotto il molo est di Oakshore. Tunnel in mattoni, acqua stagnante alla caviglia, tubi arrugginiti che gocciolano. Korex è passato da poco e ha lasciato trappole e falsi indizi per rallentarli.

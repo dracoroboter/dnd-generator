@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 4 PG lv1
+
 I PG vengono reclutati da Sir Gorim Vel alla Taberna di Fianus Romanus per recuperare l'Anello del Conte nelle fogne del borgo. L'Anello non c'è - troveranno una lettera beffarda che li lancia verso la Puntata 2.
 
 ## Obiettivo

@@ -18,6 +18,8 @@ Dopo gli eventi al Tempio di Lumina e lo scontro con Alaric, i PG tornano a Bald
 
 ## Descrizione
 
+**Party:** 5-6 PG lv10
+
 > Il vento del porto di Baldur's Gate porta odore di salsedine e catrame. Le vele della "Nuova Speranza" si gonfiano pigramente alla fonda, mentre i gabbiani strillano sopra i moli affollati. Il viaggio sarà lungo — settimane di mare aperto, città sconosciute, e poi il gelo del Grande Nord. Ma lo Scettro di Tyr pesa nelle vostre mani più di quanto dovrebbe, e l'altare vi aspetta.
 
 I personaggi sono in possesso dello Scettro di Tyr, nelle mani dell'araldo. Devono riconsegnarlo all'altare di Tyr sull'isola di Svoalbard, a nord di Bryn Shander. Il viaggio li porterà via nave da Baldur's Gate a Luskan (con tappe a Waterdeep e Neverwinter), poi in slitta fino a Bryn Shander, e infine via mare fino a Svoalbard. Saranno aiutati dai Custodi dell'Equilibrio (sacerdoti di Tyr) e ostacolati dai seguaci di Vecna: la spia Zalhara Lorenn viaggia con loro sulla nave, e il warlock Othran Vorash li attende a Luskan.

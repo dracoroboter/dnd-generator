@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 4 PG lv2
+
 La Festa del Grazie è l'evento dell'anno a Fianus Romanus. Bancarelle, gare, cibo, musica, e tutto il borgo in piazza. I PG ci arrivano al verde, affamati, e con una lettera di "S" che promette qualcosa - o forse no. Sergius è qui, da qualche parte, e si sta divertendo.
 
 ## Obiettivo

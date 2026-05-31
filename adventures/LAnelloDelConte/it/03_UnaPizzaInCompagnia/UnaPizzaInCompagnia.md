@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 4 PG lv2
+
 I PG sono in stallo: hanno il frammento del ritratto e la bottiglietta di pozione, ma nessuna pista su chi sia "S". Dopo due giorni di indagini infruttuose a Fianus, ricevono un invito inaspettato: il Marchese Arimano - un nobile di Vetusta Portus - li vuole a cena per offrirgli un lavoro. Quello che non sanno è che il Marchese è Sergius, e li sta studiando.
 
 ## Obiettivo

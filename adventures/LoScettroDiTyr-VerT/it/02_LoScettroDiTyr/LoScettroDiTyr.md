@@ -336,19 +336,19 @@ Se il golem della Sala 4 non è stato sconfitto in precedenza, si trova di fianc
 
 ## Nemici
 
-### Battaglia finale — Alaric e i veterani
-
-**Difficoltà incontro:** DEADLY (4-5 PG lv9)
-
-| nome | n. | PF | CA | attacco | note |
-|------|-----|----|----|---------|------|
-| Veterano | 15 | 58 | 17 | +5, 2d8+3 spadone | MM pag. 350. Si rivoltano contro Alaric se confessa |
-| Alaric il Giusto | 1 | 90 | 15 | vedi sotto | Variante Mago (MM pag. 348) |
-| Guardiano di Lumina | 1 | 50 | 17 | +8, 3d8+6 pugno | Solo se non sconfitto prima. Combatte al fianco dei PG |
-
-Stat block completo: vedi scheda NPC_SirAlaric.
-
-Stat block completo: vedi scheda MON_GuardianoLumina.
+| Luogo | Nemici | N. | CR | Difficoltà (4-5 PG lv9) |
+|-------|--------|----|----|-----|
+| Valle del Giudizio | Veterano (paladino di Tyr) | 4 | 3 | DEADLY |
+| Valle del Giudizio | Sacerdote (ufficiale Custodi) | 1 | 2 | — |
+| Monti — Grotta Yeti | Abominable Yeti | 1 | 9 | MEDIUM |
+| Monti — Grotta Yeti | Yeti | 2 | 3 | — |
+| Piana delle Lacrime | Roc (vecchio, ferito) | 1 | 11 | HARD |
+| Tempio — Sala 4 | Guardiano di Lumina (golem ferito) | 1 | 10 | MEDIUM |
+| Tempio — Sala 9 | Wraith | 2 | 5 | HARD |
+| Tempio — Sala 9 | Spettro | 3 | 1 | — |
+| Tempio — Uscita | Veterano | 15 | 3 | DEADLY |
+| Tempio — Uscita | Alaric il Giusto | 1 | — | — |
+| Tempio — Uscita | Guardiano di Lumina (alleato) | 1 | 10 | — |
 
 ## Indizi chiave
 

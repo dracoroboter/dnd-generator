@@ -2,6 +2,8 @@
 
 ## Descrizione
 
+**Party:** 4 PG lv3
+
 Arimano affida ai PG un compito: trovare un suo amico pittore, sparito da molto tempo dopo essere stato portato via dalle guardie della Contessina. I PG indagano tra i notabili di Fianus e Aviano e scoprono che Michelangeli è prigioniero nel dungeon sotto il castello. Non sanno che stanno lavorando per la vendetta di Arimano.
 
 **Livello PG:** 3 (inizio) — nessun avanzamento (lv4 in P6)

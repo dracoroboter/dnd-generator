@@ -317,6 +317,55 @@ def test_check_variant():
     # Should not crash (exit 0 or 1 for warnings/errors is OK)
     assert r.returncode in (0, 1), f"Crashed with exit {r.returncode}:\n{r.stderr}"
 
+# ── tests: md-to-pdf ────────────────────────────────────────────────────
+
+MD_TO_PDF = TECH_DIR / "scripts" / "md-to-pdf.py"
+
+@test("md-to-pdf: script exists")
+def test_md_to_pdf_exists():
+    assert MD_TO_PDF.exists(), f"md-to-pdf.py not found at {MD_TO_PDF}"
+
+@test("md-to-pdf: converts DM_Prep to PDF")
+def test_md_to_pdf_dm_prep():
+    dm_prep = ADVENTURES_DIR / PILOT / "it" / "05_LeAnimeSacre" / "DM_Prep.md"
+    if not dm_prep.exists():
+        return  # skip if not present
+    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
+        tmp_path = tmp.name
+    try:
+        r = run(["python3", str(MD_TO_PDF), str(dm_prep), "-o", tmp_path])
+        assert r.returncode == 0, f"Exit {r.returncode}: {r.stderr}\n{r.stdout}"
+        assert Path(tmp_path).stat().st_size > 1000, "PDF too small"
+    finally:
+        os.unlink(tmp_path)
+
+@test("md-to-pdf: converts generic MD to PDF")
+def test_md_to_pdf_generic():
+    readme = ADVENTURES_DIR / PILOT / "README.md"
+    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
+        tmp_path = tmp.name
+    try:
+        r = run(["python3", str(MD_TO_PDF), str(readme), "-o", tmp_path])
+        assert r.returncode == 0, f"Exit {r.returncode}: {r.stderr}\n{r.stdout}"
+        assert Path(tmp_path).stat().st_size > 500, "PDF too small"
+    finally:
+        os.unlink(tmp_path)
+
+# ── tests: check-encounter-difficulty ────────────────────────────────────
+
+CHECK_ENC = TECH_DIR / "scripts" / "check-encounter-difficulty.py"
+
+@test("check-encounter-difficulty: script exists")
+def test_check_enc_exists():
+    assert CHECK_ENC.exists()
+
+@test("check-encounter-difficulty: runs on FuoriDaHellfire without crash")
+def test_check_enc_runs():
+    r = run(["python3", str(CHECK_ENC), PILOT])
+    # Exit 0 (all match) or 1 (problems found) are both OK — just no crash
+    assert r.returncode in (0, 1), f"Crashed with exit {r.returncode}:\n{r.stderr}"
+    assert "Report Difficoltà" in r.stdout
+
 # ── main ─────────────────────────────────────────────────────────────────
 
 def collect_tests():

@@ -74,3 +74,73 @@ Il `◄` indica la soglia raggiunta.
 Il sistema CR/XP del DMG è **oggettivo ma impreciso**: sovrastima la difficoltà con molti nemici deboli, sottostima con nemici con capacità speciali (incantatori, controllo). Usarlo come punto di partenza, non come verdetto definitivo.
 
 Per una valutazione più completa, affiancare al risultato una nota narrativa nel file del modulo (es. *"incontro pensato come HARD ma Cattivone è progettato per fuggire — difficoltà effettiva MEDIUM"*).
+
+## Party con NPC companion
+
+Quando il party include NPC companion (alleati che combattono), vanno inclusi nel calcolo delle soglie. Il problema è che un NPC con CR non ha un "livello" diretto.
+
+### Conversione CR → livello equivalente (Xanathar's Guide)
+
+Lo script `check-encounter-difficulty.py` usa questa tabella (derivata da Xanathar's Guide, matchup 1-a-1):
+
+| CR | Livello equivalente |
+|----|-------------------|
+| 1/8, 1/4, 1/2 | 1 |
+| 1 | 2 |
+| 2 | 4 |
+| 3 | 5 |
+| 4 | 6 |
+| 5 | 8 |
+| 6 | 9 |
+| 7 | 10 |
+| 8 | 11 |
+
+### Esempio con companion
+
+Party: 3 PG lv5 + Udo (veterano CR3) + Fin (rogue lv3)
+
+```bash
+# Calcolo manuale:
+python3 tech/scripts/encounter-difficulty.py -p 3 5 1 5 1 3 -m 15 1/4
+#                                               ↑PG  ↑Udo(CR3≈lv5) ↑Fin
+```
+
+Udo CR3 → livello equivalente 5. Fin lv3 → livello 3.
+Soglie: 3×750 + 1×750 + 1×225 = 3975 (Hard).
+
+### Nota sull'approssimazione
+
+La conversione CR→livello è generosa: un NPC CR3 non è forte come un PG lv5 (stat più basse, niente feature di classe). In pratica gli incontri dichiarati HARD con companion sono borderline MEDIUM/HARD. Questo è accettabile — il DM dichiara HARD come scelta conservativa.
+
+## Verifica automatica: check-encounter-difficulty.py
+
+Lo script `check-encounter-difficulty.py` verifica che le difficoltà dichiarate nei moduli corrispondano al calcolo XP.
+
+```bash
+python3 tech/scripts/check-encounter-difficulty.py FuoriDaHellfire
+```
+
+### Cosa fa
+
+1. Rileva il party dall'intestazione della tabella `## Nemici` (formato: `Difficoltà (3 PG lv5 + Udo CR3 + Fin lv3)`)
+2. Raggruppa i nemici per Luogo (stesso luogo = incontro combinato)
+3. Calcola la difficoltà e confronta con quella dichiarata
+4. Genera un report in `tech/reports/`
+
+### Formato intestazione tabella Nemici
+
+Il party si dichiara **una sola volta** all'inizio del modulo:
+
+```markdown
+## Descrizione
+
+**Party:** 3 PG lv5 + Udo CR3 + Fin lv3
+```
+
+La tabella Nemici ha solo `Difficoltà` senza ripetere il party:
+
+```markdown
+| Luogo | Nemici | N. | CR | Difficoltà |
+```
+
+Lo script cerca prima `**Party:**` nel testo del modulo. Se non lo trova, cerca `**Party:**` o il formato legacy nell'intestazione della tabella `Difficoltà (...)`. Per ogni companion indicare `CR3` (convertito con tabella Xanathar) o `lv3` (usato direttamente). Se manca il livello/CR, il companion è trattato come stesso livello dei PG.
