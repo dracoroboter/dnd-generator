@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Orcastle">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/legacy/DracoAvventure/Orcastle.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

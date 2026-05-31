@@ -82,7 +82,7 @@ Ripeti la procedura sopra per ogni avventura normalizzata:
 
 # Rilascia Modulo - Genera PDF di un singolo modulo per la sessione
 
-Genera un PDF con il documento principale dell'avventura (contesto, NPC, plot) e un singolo modulo. Per uso personale/sessione, resta in `releases/`.
+Genera un PDF con il documento principale dell'avventura (contesto, NPC, plot) e un singolo modulo, più gli stat block rilevanti. Per uso personale/sessione, resta in `releases/`.
 
 ## Come usarla
 
@@ -90,15 +90,20 @@ Chiedi a Kiro: "rilascia modulo 3 di FuoriDaHellfire", "stampa modulo 2", "rilas
 
 ## Procedura
 
-1. Esegui `python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --only doc,<NN>`
-2. Mostra il path del PDF generato e la dimensione
+1. Se non esiste, crea `DM_Prep.md` nella directory del modulo (`it/NN_NomeModulo/DM_Prep.md`) con: riassunto stringato dei passaggi, descrizione mappe (per disegno su quadrettata), stat block di tutti i nemici e NPC companion del modulo
+2. Esegui `python3 tech/create-pdf-adventure/create-pdf-adventure.py <NomeAvventura> --only doc,<NN>`
+3. Esegui `python3 tech/fightclub/generate-statblocks.py <NomeAvventura>` per rigenerare tutti gli stat block (XML + PDF + PNG)
+4. Mostra il path del PDF generato e la dimensione
 
 ## Output
 
-`releases/<NomeAvventura>/<NomeAvventura>_YYYYMMDD_only-<NN>_doc.pdf`
+- `releases/<NomeAvventura>/<NomeAvventura>_YYYYMMDD_only-<NN>_doc.pdf` — PDF con doc principale + modulo
+- `adventures/<NomeAvventura>/it/characters/statblock/` — stat block PNG/PDF stampabili
+- `adventures/<NomeAvventura>/it/NN_NomeModulo/DM_Prep.md` — riferimento rapido per il DM
 
 ## Note
 
-- Il file resta in `releases/` (non va in `public/`, non e tracciato da git)
+- Il file PDF resta in `releases/` (non va in `public/`, non è tracciato da git)
 - Contiene il documento principale (informazioni di contesto: plot, NPC, lore) + il modulo richiesto
-- NON include mappe né stat block (quelli si consultano su Roll20 / FightClub separatamente)
+- Gli stat block sono generati a parte come PNG/PDF (per stampa o consultazione separata)
+- Il DM_Prep contiene: passaggi della storia, stat block inline, tiri chiave, mappe ASCII per disegno su quadrettata

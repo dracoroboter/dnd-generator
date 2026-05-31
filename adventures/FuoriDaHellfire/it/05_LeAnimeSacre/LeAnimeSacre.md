@@ -43,9 +43,11 @@ Se i PG lo persuadono a comparire (Persuasione CD 18 o perorazione convincente),
 
 Stesso percorso del modulo 4: Hawksbridge → sud al mare (1 giorno) → costa verso nord-ovest (2 giorni) → torre. Totale: 3 riposi lunghi. Aldric Jr in viaggio: lento, si lamenta, porta zaino di libri.
 
-**Incubi (se Presa 1-4):** TS Sag CD 15 ogni notte. Fallimento = 1 exhaustion.
+**Se la portatrice è protetta dal rituale del sonno:** il viaggio si risolve in una frase narrativa. Tre giorni senza incidenti, la portatrice dorme, Jason tace, Aldric si lamenta dello zaino.
 
-**Incontri random:** come modulo 4 (1d6 banditi all'alba, prime 2 notti). A livello 5 sono TRIVIAL.
+**Se la portatrice NON è protetta:** riferirsi alla meccanica del viaggio del modulo 4 (incubi TS Sag CD 15 ogni notte, incontri random all'alba).
+
+**Incontri random:** a discrezione del DM. Se vuole randomizzare: 1d20 ogni alba, con ≥10 compaiono 1d6 banditi (stat: Teppista Charmato, CR 1/8). Intimidazione CD 13 li fa scappare.
 
 **Jason:** Silenzioso. Aspetta.
 
@@ -69,7 +71,9 @@ I Wight custodi non sono un ostacolo alla seconda visita: se sconfitti nel modul
 
 ### 🎲 Note per il DM
 
-Il luogo adatto è sulla **scogliera sopra la torre** — un pianoro erboso esposto al cielo, senza strutture. Aldric lo identifica facilmente (10 minuti di ricerca). Oppure i PG possono suggerire un altro luogo all'aperto nelle vicinanze — qualsiasi posto senza tetto e senza sigilli va bene.
+Il luogo adatto è sulla **scogliera sopra la torre** — un cimitero dei membri dell'Ordine della Chiave Spezzata, esposto al cielo, senza strutture. Aldric lo identifica facilmente (10 minuti di ricerca). Oppure i PG possono suggerire un altro luogo all'aperto nelle vicinanze — qualsiasi posto senza tetto e senza sigilli va bene.
+
+**Perché Aldric deve leggere dal pavimento:** la copia dei PG è incompleta. Aldric memorizza le parole del rituale nella cella (dove sono incise per intero), poi le recita all'aperto sulla scogliera. La cella è il "libro", la scogliera è il "luogo di esecuzione".
 
 ---
 
@@ -77,9 +81,52 @@ Il luogo adatto è sulla **scogliera sopra la torre** — un pianoro erboso espo
 
 ### 📖 Da leggere ai giocatori
 
-> Il pianoro sulla scogliera è battuto dal vento. Erba corta, roccia bianca, il mare sotto. Il cielo è grigio e aperto. Nessun muro, nessun tetto. Solo il vento e il rumore delle onde.
+> Il pianoro sulla scogliera è battuto dal vento. Erba corta tra le lapidi — decine di pietre tombali grigie, consumate dal tempo, disposte in file irregolari. Il simbolo della chiave spezzata è inciso su ognuna. Un cimitero. I custodi dell'Ordine sono sepolti qui.
+>
+> Al centro, uno spiazzo libero tra le tombe. Roccia bianca, il mare sotto. Il cielo è grigio e aperto. Nessun muro, nessun tetto. Solo il vento, il rumore delle onde, e i morti.
 >
 > Aldric annuisce. *"Qui. Qui va bene."*
+
+### Mappa: Cimitero sulla scogliera (17×17 quadretti)
+
+```
+    N (scogliera — caduta nel vuoto)
+    ═══════════════════════════════════
+    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+    .  .  .  ▪  .  .  .  ▪  .  .  ▪  .  .  .  ▪  .  .
+    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+    .  ▪  .  .  .  ▪  .  .  .  ▪  .  .  .  ▪  .  .  .
+    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+    .  .  ▪  .  .  .  .  .  .  .  .  .  .  ▪  .  .  .
+    .  .  .  .  .  .  ╔═══╗  .  .  .  .  .  .  .  .  .
+    .  .  .  .  .  .  ║ C ║  .  .  .  .  .  .  .  .  .
+    .  .  .  .  .  .  ╚═══╝  .  .  .  .  .  .  .  .  .
+    .  .  ▪  .  .  .  .  .  .  .  .  .  ▪  .  .  .  .
+    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+    .  ▪  .  .  ▪  .  .  .  .  .  ▪  .  .  ▪  .  .  .
+    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+    .  .  .  ▪  .  .  .  .  .  ▪  .  .  ▪  .  .  .  .
+    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+    .  .  .  .  .  .  .  ▲  .  .  .  .  .  .  .  .  .
+    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+    ═══════════════════════════════════
+    S (sentiero dalla torre, largo 2qd)
+
+    Legenda:
+    C = Cerchio del rituale (3×3 quadretti)
+    ▪ = Lapide (copertura mezza, 1×1) — punto di spawn scheletri
+    ▲ = Ingresso sentiero dalla torre
+    N = Scogliera (caduta nel vuoto, terreno difficile ultimo quadretto)
+```
+
+**Note mappa per disegno su quadrettata:**
+- 17×17 quadretti (5ft/quadretto)
+- Bordo nord: scogliera (linea irregolare, caduta = morte)
+- Centro: cerchio del rituale 3×3 (Aldric e portatrice qui)
+- ~12-15 lapidi sparse (1×1, copertura mezza) — gli scheletri emergono da sotto
+- Bordo sud: sentiero largo 2qd (ingresso dalla torre)
+- Gli scheletri escono dalle tombe in tutte le direzioni (i PG sono circondati)
+- Le lapidi hanno il simbolo della chiave spezzata — sono le tombe dei membri dell'Ordine
 
 ### Preparazione
 
@@ -101,19 +148,19 @@ Quando Aldric inizia a leggere le parole → le iscrizioni del cerchio si illumi
 >
 > Legge, lentamente:
 >
-> *"Il sigillo protegge. La dissoluzione distrugge. Solo quando l'ospite è in pericolo — quando l'altro ha preso abbastanza da minacciare la vita — il sigillo cede e la dissoluzione è giusta. Se il pericolo non è reale, il rituale non si compie. Questa è la legge dell'Ordine."*
+> *"Il sigillo protegge. La dissoluzione distrugge. Solo quando la minaccia per il portatore è mortale — quando l'altro cammina nei suoi gesti e nei suoi sogni — il sigillo cede e la dissoluzione è giusta. Se il pericolo non è reale, il rituale non si compie. Questa è la legge dell'Ordine."*
 
 ### 🎲 Note per il DM
 
 Questo è informativo, non pericoloso. I PG ora sanno la regola: serve Presa ≥6 (fase Influenza, Jason può prendere il controllo).
 
-Aldric: *"Il pericolo non è reale. L'entità non ha abbastanza influenza su di lei. Il rituale... non si compirà."*
+Aldric: *"Non si compie. Non capisco... non si compie."*
 
 **Indizi sulle condizioni** (i PG possono trovarli in momenti diversi):
 
 | Fonte | Indizio | Come ottenerlo |
 |-------|---------|----------------|
-| Iscrizioni del cerchio | "Quando l'altro ha preso abbastanza da minacciare la vita" | Automatico (si illumina durante il tentativo) |
+| Iscrizioni del cerchio | "Solo quando la minaccia per il portatore è mortale" | Automatico (si illumina durante il tentativo) |
 | Aldric Jr (se studia le iscrizioni) | "Il sigillo misura il legame. Deve essere profondo — l'entità deve avere influenza reale, non solo sussurri" | Aldric studia 10 minuti dopo il fallimento |
 | Jason (se la portatrice lo interroga) | *"Lo sai cosa vogliono. Vogliono che tu mi lasci entrare. Più a fondo."* | Jason parla solo se la portatrice chiede direttamente |
 | Spettri dell'Ordine (se i PG parlano) | *"Quando l'ospite non dorme più tranquillo. Quando l'altro cammina nei suoi sogni e nei suoi gesti."* | Persuasione CD 14 o domanda diretta |
@@ -126,11 +173,11 @@ Se i PG insistono e Aldric continua a leggere → arrivano i guardiani.
 
 ### 📖 Da leggere ai giocatori (se insistono)
 
-> Aldric riprende a leggere. Il cerchio pulsa. Poi — dal sentiero che sale dalla torre — figure. Tante.
+> Aldric riprende a leggere. Il cerchio pulsa. Poi — dalle tombe intorno a voi — movimento. La terra si spacca.
 >
-> Prima gli spettri. Tre forme traslucide in armatura cerimoniale, il simbolo della chiave spezzata sul petto. Si muovono lentamente, senza fretta. Non hanno armi sguainate. Vi guardano con qualcosa che somiglia a disapprovazione.
+> Prima gli spettri. Tre forme traslucide in armatura cerimoniale, il simbolo della chiave spezzata sul petto. Si materializzano vicino al cerchio. Non hanno armi sguainate. Vi guardano con qualcosa che somiglia a disapprovazione.
 >
-> Poi, dietro di loro, il rumore. Ossa su pietra. Decine di scheletri salgono il sentiero dalla torre. Questi non vi guardano con disapprovazione. Questi hanno le spade alzate.
+> Poi, dalle lapidi, il rumore. Ossa su pietra. Le tombe si aprono. Scheletri in armatura frammentaria si rialzano — uno dopo l'altro, sempre di più. Emergono da ogni direzione. Questi non vi guardano con disapprovazione. Questi hanno le spade alzate.
 
 ### 🎲 Note per il DM: Due tipi di guardiani
 
@@ -144,11 +191,11 @@ Non possono essere sconfitti in combattimento a questo livello. Se attaccati, di
 
 > *"Basta. Non c'è ragione. Tornate quando ce ne sarà una."*
 
-**Scheletri (12-15)** — guardie dell'Ordine, meno intelligenti, vogliono uccidere.
+**Scheletri (15)** — guardie dell'Ordine, meno intelligenti, vogliono uccidere.
 
 Ex-soldati dell'Ordine, rialzati come non-morti. Hanno perso memoria e intelletto. Obbediscono a un ordine semplice: "nessuno compie il rituale senza autorizzazione." Non distinguono tra "impedire" e "uccidere". Combattono fino alla distruzione.
 
-**Stat block: Scheletro (×12-15)**
+**Stat block: Scheletro (×15)**
 
 > Base: **Skeleton** (MM p. 272, CR 1/4)
 
@@ -161,15 +208,25 @@ Ex-soldati dell'Ordine, rialzati come non-morti. Hanno perso memoria e intellett
 | **Vulnerabilità** | Contundenti |
 | **Immunità** | Veleno; esausto, avvelenato |
 
-**Difficoltà:** 12 Scheletri CR 1/4 vs 3 PG lv5 + Udo + Fin = **MEDIUM-HARD**. Pericoloso per il numero, non per la potenza individuale. La vulnerabilità a contundenti li rende gestibili.
+**Difficoltà:** 15 Scheletri CR 1/4 vs 3 PG lv5 + Udo + Fin = **HARD**. Pericoloso per il numero, non per la potenza individuale. La vulnerabilità a contundenti li rende gestibili.
 
 ### Dinamica del combattimento
 
-**Round 1:** Gli Spettri bloccano il cerchio (Silence su Aldric, forza che respinge chi si avvicina). Gli scheletri caricano i PG.
+**Ondate:** Gli scheletri non emergono tutti insieme. Arrivano a ondate dalle tombe circostanti.
+
+| Ondata | Round | Scheletri | Da dove |
+|--------|-------|-----------|---------|
+| 1 | 1 | 5 | Tombe più vicine al cerchio |
+| 2 | 3 | 5 | Tombe ai lati |
+| 3 | 5 | 5 | Tombe più lontane (bordi mappa) |
+
+**Round 1:** Gli Spettri bloccano il cerchio (Silence su Aldric, forza che respinge chi si avvicina). Prima ondata di scheletri emerge.
 
 **Round 2+:** I PG combattono gli scheletri. Gli Spettri non intervengono nel combattimento — osservano. Se i PG uccidono tutti gli scheletri, gli Spettri restano comunque e il rituale resta bloccato.
 
-**Fine:** Quando i PG uccidono tutti o la maggior parte degli scheletri, gli Spettri intervengono come ultima risorsa: **rendono muto Aldric Jr** (maledizione permanente finché le condizioni del rituale non saranno soddisfatte). Aldric non può pronunciare le parole del rituale — né qui né altrove — finché la Presa non sarà ≥6.
+**Fine:** Quando i PG uccidono tutti o la maggior parte degli scheletri, gli Spettri intervengono come ultima risorsa: **rendono muto Aldric Jr** (maledizione che si spezza automaticamente quando la Presa raggiunge ≥6). Aldric non può pronunciare le parole del rituale — né qui né altrove — finché la Presa non sarà sufficiente.
+
+Quando la Presa raggiunge 6, una voce spettrale risuona nella mente di Aldric: *"Il pericolo è reale. La voce è tua."* — la maledizione si spezza, Aldric può parlare di nuovo. Questo avverte anche i giocatori che il rituale è ora possibile.
 
 > *"La voce del ritualista è nostra finché il pericolo non sarà reale. Tornate quando sarà il momento."*
 
@@ -177,9 +234,7 @@ Poi svaniscono. Gli scheletri rimasti crollano a terra, inerti. Aldric si tocca 
 
 **Se i PG non insistono** (smettono prima di uccidere tutti gli scheletri): gli Spettri non maledicono Aldric. Parlano e svaniscono. Aldric conserva la voce.
 
-In entrambi i casi il rituale fallisce. La differenza: con la maledizione, i PG hanno urgenza (Aldric è muto finché non risolvono — e senza voce non può compiere il rituale nemmeno quando le condizioni saranno soddisfatte). Senza, possono prendersi tempo.
-
-**Nota: la maledizione è un problema serio.** Senza la voce di Aldric, il rituale non può essere compiuto nemmeno a Presa ≥6. I PG dovranno trovare un modo per spezzare la maledizione (quest futura) oppure trovare un altro ritualista.
+In entrambi i casi il rituale fallisce. La differenza: con la maledizione, i PG hanno urgenza (devono far salire la Presa a ≥6 per sbloccare Aldric). Senza, possono prendersi tempo.
 
 ---
 
@@ -187,7 +242,7 @@ In entrambi i casi il rituale fallisce. La differenza: con la maledizione, i PG 
 
 ### 📖 Da leggere ai giocatori (se Aldric ha la voce)
 
-> Aldric si siede sulla roccia, esausto. Il vento porta via l'odore di ossa bruciate.
+> Aldric si siede sulla roccia, esausto. Le ossa al centro del cerchio sono annerite, ma intatte. Il rituale non le ha toccate.
 >
 > *"Non funziona. Non finché lei non è in pericolo vero. Jason deve avere più influenza — abbastanza da essere una minaccia reale alla sua vita. Solo allora i guardiani si faranno da parte."*
 >
@@ -277,16 +332,16 @@ Nessun level-up. I PG restano lv5.
 
 | Luogo | Nemici | N. | CR | Difficoltà (3 PG lv5 + Udo + Fin) |
 |-------|--------|----|----|-----|
-| Scogliera | Scheletri | 12-15 | 1/4 | MEDIUM-HARD |
+| Scogliera | Scheletri | 15 | 1/4 | HARD |
 | Scogliera | Spettri dell'Ordine | 3 | — | Non combattibili |
 
 ---
 
 ## Note al master
 
-- Il combattimento è all'aperto sulla scogliera — spazio ampio, vento, nessuna copertura. Gli scheletri arrivano dal sentiero (imbuto naturale, i PG possono sfruttarlo).
+- Il combattimento è all'aperto nel cimitero sulla scogliera — gli scheletri emergono dalle tombe in tutte le direzioni (i PG sono circondati). Le lapidi offrono copertura mezza. La scogliera a nord è una caduta mortale.
 - Gli Spettri sono la voce della narrazione. Non combattibili, non ingannabili. Sono la regola.
 - Aldric Jr durante il combattimento: si nasconde dietro una roccia. Non combatte.
-- Jason durante il rituale: silenzio totale. Quando il rituale fallisce: sospiro di sollievo udibile solo dalla portatrice.
+- Jason durante il rituale: silenzio totale. Quando il rituale fallisce: una risata bassa, soddisfatta, udibile solo dalla portatrice. Poi: *"Ve l'avevo detto, folli."*
 - Il modulo è breve (1-2 ore). Il peso è nella scelta finale.
 - Se i PG non insistono dopo l'avvertimento delle iscrizioni (non forzano il rituale), i guardiani non compaiono. Il modulo si chiude con la scelta senza combattimento.

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="public">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/public/LoScettroDiTyr-VerT_Maps_lowres.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/LAnelloDelConte_Images.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/FuoriDaHellfire_Images.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/LoScettroDityr_Images.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
