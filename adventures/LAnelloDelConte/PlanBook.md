@@ -418,27 +418,25 @@ Il Burmini resta **volutamente indefinito**. Non si spiega tutto. I PG (e il DM)
 
 ### Arco narrativo generale
 
-Struttura decisa: **7 puntate totali** (4 scritte + 3 da scrivere).
+Struttura decisa: **6 puntate totali** (5 scritte + 1 da scrivere).
 
 | # | Titolo | Stato | Livello | Milestone |
 |---|--------|-------|---------|-----------|
 | 1 | Le Fogne di Fianus | Scritta, giocata | 1-2 | Trovata lettera di S |
 | 2 | La Festa del Grazie | Scritta, giocata | 2 | - |
 | 3 | Una Pizza in Compagnia | Scritta, giocata | 2-3 | Banditi sconfitti, merce restituita |
-| 4 | Il Corniciaio | Scritta, in corso | 3 | - |
-| 5 | [da titolare] (XX1) | Idea | 3-4 | Scoprono del pittore prigioniero (lavoro per Arimano) |
-| 6 | [Il Pittore Prigioniero?] (XX2) | Idea | 4 | Pittore liberato, quadro vero scoperto |
-| 7 | Il Finale di Stagione (XX3) | Draft | 4-5 | Sopravvivenza all'esplosione / fine avventura |
+| 4 | Il Corniciaio | Scritta, giocata | 3 | - |
+| 5 | Ritorno alle Fogne | Scritta, in corso | 3-4 | Scoprono dov'è Michelangeli (lv4), poi dungeon mimic e liberazione |
+| 6 | Il Finale di Stagione (XX3) | Draft | 4-5 | Sopravvivenza all'esplosione / fine avventura |
 
-**Progressione:** lv1 - lv2 - lv2 - lv3 - lv3/4 - lv4 - lv4/5. Livello finale: **5** (partenza per Il Re Spezzato).
+**Progressione:** lv1 - lv2 - lv2 - lv3 - lv3/4 - lv4/5. Livello finale: **5** (partenza per Il Re Spezzato).
 **Regola:** almeno 2 puntate tra una milestone e la successiva.
 
 **Arco dei PG:**
 - P1-3: lavorano per Gorim/il Conte (ignari)
 - P4: capiscono che Conte/Contessina sono gli oppressori
-- P5: lavorano per Arimano (ignari che è vendetta)
-- P6: scoprono la verita, scelgono da che parte stare
-- P7: vanno al castello (alleati o contro Arimano), esplosione, fine
+- P5: lavorano per Arimano (indagine + dungeon, ignari che è vendetta)
+- P6: smascheramento Sergius, scelta, esplosione, fine
 
 - [ ] La vendetta di Sergius si compie o viene interrotta dall'esplosione?
 - [ ] I PG alla fine sono dalla parte di Sergius, contro di lui, o ambigui? (dipende dai giocatori)

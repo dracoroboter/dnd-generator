@@ -2,62 +2,60 @@
 
 ## Concept
 
-- **Tipo**: saga (5+ moduli), i primi 2 moduli giocabili come one-shot
-- **Livello**: 3 iniziale, progressione fino a 5-6
-- **Party**: 3 PG lv3 + Udo Hutchinson (veterano CR3) + Fin Ditasvelte (rogue lv3)
-- **Tono**: pulp adventure, camp anni '80, coerente con lo starter kit "Welcome to the Hellfire Club"
-- **Ambientazione**: fogne inesplorate sotto Oakshore Docks, Greyhawkins
-- **Plot in breve**: la compagnia ha sconfitto i ratti e messo in fuga Korex (elfo bardo CE, charmer musicale) nelle fogne che partono dai moli di Oakshore. I PG lo inseguono per consegnarlo vivo o morto alle autorità. L'inseguimento li porta in una sezione inesplorata delle fogne. Catturare o uccidere Korex risolve il problema immediato, ma nel processo i PG scoprono qualcosa di molto più grande — cliffhanger stile Buffy/Supernatural che lancia la "stagione 2".
+- **Tipo**: saga (8 moduli, stagione 2), livello 3-6
+- **Party**: 3 PG + Udo Hutchinson (veterano CR3) + Fin Ditasvelte (rogue lv3) + Erasmus Vael (mago, da modulo 6)
+- **Tono**: pulp adventure, camp anni '80, con cambio di registro progressivo (da Stranger Things a Buffy/Supernatural)
+- **Ambientazione**: Oakshore → Hawksbridge → costa nord (Torre di Ashwick)
+- **Plot in breve**: i PG hanno sconfitto Korex e scoperto l'Anello del Virtuoso. L'anello contiene Jason Accordion, un bardo antico che possiede progressivamente il portatore. La saga è la corsa per liberare il portatore — ma la soluzione crea un problema peggiore.
 
 ## Stato generale
 
-- [x] README.md
-- [x] documento principale (FuoriDaHellfire.md)
-- [x] AdventureBook.md
-- [x] mappa fogne (FogneDiOakshore.md)
-- [x] modulo 01 — Discesa nelle Fogne + mappa DM
-- [x] modulo 02 — Tana di Korex + mappa DM
-- [x] NPC_Korex.md — antagonista, stat block completo
-- [x] NPC_UdoHutchinson.md — sceriffo/veterano, companion del party
-- [x] NPC_FinDitasvelte.md — rogue, ex-charmato di Korex, companion del party
-- [x] NPC_JasonAccordion.md — entità nell'anello, villain della saga
-- [x] MON_TeppistaCharmato.md — servitori charmati di Korex (basati su Cultista)
-- [x] MON_RattoCorrotto.md — ratti corrotti (basati su Giant Rat)
-- [x] MON_SciameDiRatti.md — sciame (basato su Swarm of Rats)
-- [x] Stat block PNG/PDF per tutti i personaggi e mostri
-- [x] XML FightClub per tutti
-- [x] Cheat sheet anello nel documento principale
-- [x] DiscussioneNarrativa.md con cheat sheet operativo anello
-- [x] PDF generato (FuoriDaHellfire_20260425.pdf)
+### Moduli completati (giocati)
+- [x] modulo 01 — Discesa nelle Fogne (lv3)
+- [x] modulo 02 — Tana di Korex (lv3, Korex ucciso)
+- [x] modulo 03 — La Cripta sotto la Taverna (lv4)
+- [x] modulo 04 — La Torre di Ashwick (lv4→5)
+- [x] modulo 05 — Le Anime Sacre (lv5, rituale fallito)
 
-## Difficoltà incontri (3 PG lv3 + Udo + Fin = 5 combattenti)
+### Moduli scritti (da giocare)
+- [x] modulo 06 — Il Mercato di Hawksbridge (lv5, Erasmus introdotto)
+- [x] modulo 07 — Il Guardiano di Ashwick (DRAFT, lv5, scelta Via A/B)
+- [x] modulo 08 — Il Rituale (DRAFT, lv5→6, climax, due binari)
 
-| incontro | nemici | difficoltà |
-|----------|--------|------------|
-| Nido ratti (mod.01) | 6 ratti corrotti CR 1/8 + 1 sciame CR 1/4 | EASY |
-| Tana Korex (mod.02) | Korex CR 3 + 2 teppisti CR 1/8 | HARD |
+### Schede personaggi
+- [x] NPC_Korex.md — antagonista mod 1-2 (morto)
+- [x] NPC_UdoHutchinson.md — companion, veterano CR3
+- [x] NPC_FinDitasvelte.md — companion, rogue lv3
+- [x] NPC_JasonAccordion.md — entità nell'anello, villain
+- [x] NPC_AldricVellun.md — studioso, ritualista Via A
+- [x] NPC_BarneyMezzapinta.md — taverniere Hawksbridge
+- [x] NPC_ErasmusVael.md — mago traditore, ritualista Via B
+- [x] MON_TeppistaCharmato, MON_RattoCorrotto, MON_SciameDiRatti
+- [x] MON_Skeleton, MON_Specter, MON_Ghast, MON_ChefMorticcio
+- [x] MON_DireWolf, MON_OwlbearMadre, MON_OwlbearCucciolo
+- [x] OBJ_AnelloDelVirtuoso
 
-## Note
+### Stato campagna giocata (dopo sessione 31 maggio)
+- **Presa:** 4 (fase Sussurri)
+- **Incubi:** sospesi per 10 giorni
+- **PG livello:** 5
+- **Korex:** morto (mod 2)
+- **Ossa Jason:** in possesso dei PG
+- **Rituale dissoluzione:** fallito (mod 5), condizioni note ai PG
+- **Aldric Jr:** ha la voce (non maledetto)
+- **Piano attivo:** A (paladina portatrice)
 
-- Udo Hutchinson: sceriffo di Oakshore, si unisce ai PG all'ingresso. Veterano CR3, tank del gruppo.
-- Fin Ditasvelte: esce dalla fogna confuso, ex-charmato di Korex, vuole vendetta. Portatore dell'anello (scenario B).
-- Korex: flauto magico (arma), liuto nella tana è bottino rubato.
-- Passaggio nascosto nella tana: Korex lo ha scoperto esplorando le fogne antiche.
-- Il cliffhanger Piano A (PG indossa anello) è definito. Piano B (guardia → attacco) è definito.
-- Punti aperti per la saga lv4-6: vedi NPC_JasonAccordion.md sezione "Punti aperti" e DiscussioneNarrativa.md
+## Difficoltà incontri
 
-## Da fare
-
-- [ ] Generare stat block per guardia posseduta (Piano B cliffhanger)
-- [ ] **Stat block Jason Accordion troppo lungo**: il PNG generato non sta in una pagina. Bisogna trovare un modo per farlo stare (split in due pagine? ridurre il contenuto dello stat block? formato diverso per NPC con meccaniche complesse?)
-- [ ] **Meccanica Presa non visibile nel modulo 3**: il modulo dice "Presa +1" ma non spiega cosa significa. Serve un rimando chiaro all'appendice o una tabella riassuntiva nel modulo stesso.
-- [ ] Definire cliffhanger alternativo Piano B per la saga (dopo la guardia, l'anello resta — e poi?)
-- [ ] Punti aperti saga: dove è lo scheletro di Jason, chi è il mago/ordine, soglia possessione permanente
-- [ ] Rileggere il PDF generato (releases/FuoriDaHellfire/FuoriDaHellfire_20260425.pdf) e verificare impaginazione
-- [ ] Valutare se il nido ratti EASY è troppo facile — eventualmente aggiungere 2 ratti o un secondo sciame
-- [ ] Aggiornare `NPC_Korex.md`: togliere "liuto" dallo stat block se presente, confermare che l'arma è solo il flauto
-- [ ] Decidere: Fin è sempre presente o è opzionale? (attualmente: sempre presente per 3 PG)
-- [ ] Rigenerare stat block Fin/Korex se si modificano le schede (usare `generate-statblocks.py FuoriDaHellfire`)
+| Modulo | Incontro | Difficoltà |
+|--------|----------|------------|
+| 01 | 6 ratti + 1 sciame | EASY |
+| 02 | Korex + 2 teppisti | HARD (borderline MEDIUM) |
+| 03 | Swarm, Ghoul, Specter | TRIVIAL (×3) |
+| 04 | 2 Wight | HARD |
+| 05 | 15 Scheletri (ondate) | HARD (borderline MEDIUM) |
+| 06 | 2 Dire Wolf / Captain+Banditi / Captain+Thugs | EASY / MEDIUM / MEDIUM |
+| 07 | Veteran+2 Thugs (opzionale) | HARD |
 
 ## Log sessioni di lavoro
 
@@ -132,6 +130,8 @@ Scorta di un carico nel bosco. Creatura esotica scappa durante imboscata. Colleg
 
 ### Da definire
 
+- [ ] **Soglia rituale: 7 è il valore giusto?** Alzata da 6 a 7 (sessione 31 maggio). Motivazione: a 6 Jason può tentare il controllo ma non è ancora una minaccia mortale (TS CD 16, resistibile). A 7 il TS è CD 17, molto più difficile. Da valutare: quanti moduli servono per arrivare a 7? Il ritmo è sostenibile? Se troppo lento, abbassare a 6. Se troppo veloce, tenere 7.
+
 - [x] Dove è lo scheletro di Jason? → **Torre di Ashwick** (costa nord), la sede originale dell'Ordine della Chiave Spezzata. In rovine.
 - [ ] Il patto con Jason: a che punto smette di uscire quando glielo chiedono?
 - [ ] Trigger possessione Presa 7-9: quando Jason tenta il controllo 1/giorno? Prima di un combattimento? Prima di una decisione importante? Da definire per la saga lv4-6.
@@ -142,6 +142,46 @@ Scorta di un carico nel bosco. Creatura esotica scappa durante imboscata. Colleg
 - [ ] La Torre di Ashwick (costa nord): in rovine, occupata da chi? Fantasmi dei membri dell'Ordine? Un eremita che sa qualcosa?
 - [ ] Il cofanetto nella stanza 6: cosa contiene? Gancio per quale modulo?
 - [ ] Cosa c'è negli altri 6 sigilli del registro (quelli illeggibili)?
+- [ ] **I Sette Sigilli — sviluppo narrativo (IDEA PRINCIPALE):**
+
+  **Il dilemma a due vie:**
+
+  **Via A — Rituale di dissoluzione (Aldric Jr):** distrugge Jason definitivamente. Richiede Presa ≥7. Pericoloso per il portatore. Jason muore. L'anello diventa inerte.
+
+  **Via B — Rituale di incarnazione (nuovo companion mago):** Jason torna in carne e ossa MA senza poteri. Il portatore tiene l'anello (ora potenziato: cantrip + 1 incantesimo bardo/giorno dalla lista). Jason è libero, mortale, disarmato. **MA: il rituale spezza tutti e 7 i sigilli. Le altre 6 anime si liberano.**
+
+  **Il nuovo companion — il traditore:**
+  - Mago vero (non studioso come Aldric). Nome da definire.
+  - Fa parte dei **Figli del Perdono**, culto opposto all'Ordine della Chiave Spezzata.
+  - Filosofia del culto: imprigionare un'anima è un crimine peggiore di qualsiasi cosa il prigioniero abbia fatto. Ogni anima ha diritto alla morte o alla vita, non alla prigionia eterna.
+  - Propone la Via B come "soluzione migliore": Jason torna mortale e innocuo, il portatore tiene i poteri, nessuno muore.
+  - Il suo vero scopo: liberare tutte e 7 le anime. Non lo dice ai PG.
+  - Il tradimento: i PG scoprono (troppo tardi?) che il rituale di incarnazione libera anche gli altri 6.
+  - Non è malvagio in senso classico — crede davvero nella sua causa. È un antagonista ideologico.
+
+  **Conseguenze della Via B (cliffhanger "stagione 3"):**
+  - Jason è vivo, mortale, senza poteri. Cosa fa? Scappa? Chiede perdono? Si vendica?
+  - Le altre 6 anime sono libere. Cosa significa "libere"? Opzioni:
+    - Tornano nei loro oggetti e cercano un portatore (come Jason faceva)
+    - Si incarnano direttamente (6 villain nel mondo)
+    - Sono spiriti liberi che cercano i loro corpi (nella Torre)
+  - I PG hanno causato il problema → devono risolverlo (saga lv7+)
+
+  **Stile Buffy/Supernatural:** risolvere un problema ne crea uno peggiore.
+
+  **Da definire:**
+  - [ ] Nome e background del mago traditore → **Erasmus Vael** (introdotto modulo 6)
+  - [ ] Quando compare? → **Modulo 6** (taverna di Hawksbridge)
+  - [ ] Come guadagna la fiducia dei PG? → Si presenta come studioso, è utile e colto, interviene in combattimento se necessario
+  - [ ] Il rituale di incarnazione: meccanica (cosa serve, dove si fa, quanto dura)
+    - **Componente chiave: il cristallo di attrazione.** Erasmus ne ha bisogno per il rituale. Questo spiega perché era a Hawksbridge (seguiva il cristallo, non i PG). I PG devono recuperarlo da Prosperus Fiaschetti (l'alchimista della side quest mod 5).
+    - Dove: da definire (Torre? Luogo diverso?)
+    - Durata: da definire
+  - [ ] "Libere" = cosa succede esattamente alle 6 anime?
+  - [ ] Jason incarnato: alleato? nemico? neutrale?
+  - [ ] L'Ordine della Chiave Spezzata (fondato da Aldric Sr e predecessori): ha altri membri vivi? Il Guardiano di Ashwick è uno di loro?
+  - [ ] Il mago propone anche un modo per "controllare" Jason (pericoloso ma meno della Presa) — quale meccanica?
+  - [ ] **L'anello e il dito tagliato:** cosa succede se qualcuno taglia il dito al portatore? L'anello si trasferisce a un altro dito? Si attacca al moncone? Il taglio è impossibile (protezione magica)? Decidere — è una situazione che i PG o un nemico potrebbero tentare.
 
 ### 2026-04-25 (sessione Kiro)
 

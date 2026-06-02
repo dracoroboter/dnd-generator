@@ -235,7 +235,7 @@ I PG possono:
 |------|----|----|----|----|---------|------|
 | Sergente Bruto | 1 | Thug | 32 | 11 | +4, 1d6+2 mazza × 2 | Multiattack (2). Pack Tactics. |
 | Guardie della Contessina | 3 | Guard | 11 | 16 | +3, 1d6+1 spada corta | - |
-| Mafalda (la donna) | 1 | Spy (ridotta) | 27 | 12 | +4, 1d6+2 spada corta | Sneak Attack 2d6. Cunning Action. No Multiattack. |
+| Mafalda Silverbain (la donna) | 1 | Spy (ridotta) | 27 | 12 | +4, 1d6+2 spada corta | Sneak Attack 2d6. Cunning Action. No Multiattack. Braccio destro della Contessina. |
 
 **Tattiche:**
 - Bruto protegge Sberluccica (non vuole che scappi) - resta vicino alla sedia
@@ -250,6 +250,14 @@ I PG possono:
 **Cosa scoprono i PG dalla scena:** La Contessina vuole i quadri — probabilmente per distruggerli. Le guardie non sanno molto di più. Se messe alle strette si arrendono o scappano (Mafalda in particolare scappa alla prima occasione).
 
 **Sberluccica** è grato e terrorizzato. Dà l'informazione bonus (o la ripete se l'ha già data nell'Atto 1): il committente mascherato, alto, sicuro — che allontanandosi "si è piegato in due" (vedi Atto 1, punto 5 dell'interrogatorio).
+
+### Esito della sessione (28 maggio 2026)
+
+Il combattimento alla cantina si è risolto con violenza: 2 guardie uccise, le altre legate (inclusa Mafalda Silverbain). Mafalda interrogata non parla, non mostra paura. Dice solo: "Ordini della Contessina, voleva sapere dove sono i quadri." Non aggiunge altro.
+
+Le guardie di Gorim arrivano poco dopo. Mafalda viene rilasciata. Nega tutto l'accaduto nonostante i due cadaveri a terra.
+
+Gorim, informato, dice di non credere che la Contessina sia coinvolta, ma il tono lo tradisce.
 
 ---
 
@@ -271,7 +279,7 @@ Ma solo se il momento è naturale. Se non lo è, lascia perdere.
 - Sberluccica offre una cornice gratis (inutile ma gentile)
 - XP: nessun avanzamento di livello (restano lv3).
 
-**Nota — Gorim e la Contessina:** Gorim non può che far finta di stare dalla parte della Contessina (difende il Conte = difende la moglie del Conte). Ma da questo momento inizia a credere che lei sia il problema. Non lo dice apertamente — nega, minimizza — ma internamente si è schierato.
+**Nota — Gorim e la Contessina:** Gorim non può che far finta di stare dalla parte della Contessina (difende il Conte = difende la moglie del Conte). Ma da questo momento inizia a credere che lei sia il problema. Non lo dice apertamente, nega, minimizza, ma il tono lo tradisce. Internamente si è schierato.
 
 ### Piste aperte per la puntata 5
 
@@ -348,7 +356,7 @@ Scrocchierello è nervoso se i PG menzionano le pozioni di vigore, ma non terror
 |-----|-------|------|
 | Mastro Cecilio Sberluccica | Ex pittore, ora corniciaio | Commoner (non ha bisogno di scheda). Terrorizzato, innocente, vittima |
 | Sergente Bruto | Capo degli uomini della Contessina | Thug, non fanatico, negoziabile |
-| Mafalda | Agente della Contessina | Spy, pericolosa, pragmatica |
+| Mafalda Silverbain | Braccio destro della Contessina | Spy, pericolosa, pragmatica |
 | Sempronio Scrocchierello (menzionato) | Ex speziale, ora legittimo | Non appare - pista per puntata 5 |
 
 ---

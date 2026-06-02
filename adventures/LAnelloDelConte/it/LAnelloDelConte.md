@@ -133,7 +133,7 @@ Funzionario del Conte, ex-capitano della guarnigione. Tarchiato, pancia prominen
 
 - **Dove:** Castello del Conte, Aviano. Sempre raggiungibile.
 - **Cosa sa:** Del ritratto compromettente (si è allarmato vedendo il brandello). Della Gabella. Ha informato la Contessina del ricatto. NON sa dei traffici di amari nel dettaglio. NON sa che la Contessina agisce per conto suo.
-- **Come si comporta:** Esasperato, impulsivo ma non stupido. Paga a malincuore. Si eccita quando sente nomi con la S ("È lui!"). Se i PG gli dicono della Contessina: nega, dice impossibile, ma internamente si schiera contro di lei.
+- **Come si comporta:** Esasperato, impulsivo ma non stupido. Paga a malincuore. Si eccita quando sente nomi con la S ("È lui!"). Se i PG gli dicono della Contessina: nega, dice impossibile, ma internamente si schiera contro di lei. Dalla P4 in poi sospetta che la Contessina sia coinvolta, ma non agisce per lealtà verso il Conte.
 - **Frasi:** "Dai dai dai, che ce la facciamo", "Splendido. Meraviglioso." (sarcastico), "Io non ce la faccio più con voi"
 - **Guardie del castello:** incorruttibili, leali. Gorim ha lasciato una lista con i nomi dei PG: "lasciateli entrare solo se dicono che hanno informazioni."
 
@@ -160,6 +160,14 @@ Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle ori
 - **Guardie della Contessina:** brutali e malvage (diverse da quelle di Gorim).
 
 → Scheda: NPC_Contessina
+
+### Mafalda Silverbain (modulo 4)
+
+Braccio destro della Contessina. Pragmatica, pericolosa, leale. Comanda le operazioni sporche della Contessina sul campo.
+
+- **Dove:** Al seguito della Contessina o in missione per lei.
+- **Cosa sa:** Gli ordini della Contessina. Sa dei quadri e della volonta di recuperarli/distruggerli. Non sa altro della trama principale.
+- **Come si comporta:** Non parla sotto interrogatorio, non mostra paura. Se catturata, dice solo il minimo: "Ordini della Contessina." Se rilasciata, nega tutto l'accaduto.
 
 ### Sergius Stanislao Arimano Improbus — il Marchese (modulo 2)
 
@@ -246,7 +254,7 @@ Moglie di Grigius Voidus. Era cliente (comprava pozioni da Flavia).
 
 - **Dove:** Aviano, vicino al castello. A casa, non esce volentieri.
 - **Cosa sa:** Comprava pozioni. Non sa chi le produce.
-- **Come si comporta:** Ammette solo sotto pressione (Intimidazione CD 14 / Persuasione CD 16).
+- **Come si comporta:** Furiosa con la Contessina ma non può dirlo apertamente. Parla se i PG le danno ragione contro di lei (adulazione). Intimidazione controproducente.
 
 ### Mastro Cecio (modulo 4)
 

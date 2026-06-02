@@ -181,6 +181,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [x] `tech/scripts/backup.sh` — backup del progetto (escluso legacy/)
 - [x] `tech/scripts/release.sh` — genera PDF + ZIP per una avventura
 - [x] `tech/scripts/check-adventure.py` — verifica normalizzazione + genera report in `tech/reports/` (aggiornato: riconosce sezioni meccaniche NPC: Attacchi, Azioni bonus, Reazioni, Backstory, Punti aperti)
+- [ ] **Check multilingua** (bassa priorità): `check-adventure.py` e `check-encounter-difficulty.py` verificano solo la lingua italiana. Pensare a come estendere i check alla versione inglese (sezioni tradotte, nomi sezioni EN, ecc.)
 - [x] `tech/scripts/encounter-difficulty.py` — calcola difficoltà incontro D&D 5e
 - [x] **Calcolo automatico difficoltà nei moduli** — `check-encounter-difficulty.py`: legge `**Party:**` dai moduli, raggruppa nemici per Luogo, calcola difficoltà, confronta con dichiarata. Tabella Xanathar CR→livello per companion. Report in `tech/reports/`.
 - [x] `tech/scripts/new-adventure.sh` — scaffolding nuova avventura da template

@@ -54,6 +54,7 @@ Sceriffo di Oakshore, veterano. Uomo robusto sulla cinquantina, capelli grigi, c
 - **Ruolo:** Tank del gruppo, NPC companion.
 - **Cosa sa:** Conosce Oakshore e i suoi abitanti. Sa che Korex è arrivato da poco. Conosce Vellun di fama ("il vecchio matto nella torre").
 - **Come si comporta:** Diretto, impaziente, non sopporta le perdite di tempo. Non guida il gruppo ma commenta.
+- **Debolezza:** vuole tornare a casa. È uno sceriffo di quartiere, non un avventuriero. Più la saga si allunga, più diventa insofferente. Può annunciare che se ne va — i PG devono convincerlo a restare o accettare di perdere il tank.
 - **Frase:** *"Non ho tempo per queste stronzate."*
 
 → Scheda: NPC_UdoHutchinson
@@ -134,14 +135,14 @@ Spettro del Magister Aldric Vellun originale, fondatore dell'Ordine della Chiave
 
 - **Dove:** Cofanetto di piombo nella stanza 6 della cripta (modulo 3). Si manifesta se il cofanetto è aperto.
 - **Ruolo:** Fonte della localizzazione della Torre di Ashwick. Avverte sui pericoli del rituale.
-- **Cosa sa:** Dove sono le ossa di Jason. La regola dell'Ordine (le anime sono sacre, serve pericolo reale). La Torre di Ashwick.
+- **Cosa sa:** Dove sono le ossa di Jason. La regola dell'Ordine (le anime sono sacre, serve pericolo reale). La Torre di Ashwick. Sapeva che esistevano oppositori all'Ordine ("gente che diceva che l'imprigionamento era peggio della morte") ma ai suoi tempi non avevano potere né rituali alternativi — solo parole. Non sa dei Figli del Perdono come culto organizzato né del rituale di incarnazione (inventato dopo la sua morte).
 - **Come si comporta:** Pragmatico, diretto. Dà le informazioni necessarie e si dissolve. Non risponde più dopo la prima volta (Persuasione CD 18 per farlo ricomparire).
 
 ### Spettri dell'Ordine (modulo 5)
 
 Tre spiriti dei membri più importanti dell'Ordine della Chiave Spezzata. Proteggono la legge dell'Ordine: nessuna dissoluzione senza necessità.
 
-- **Dove:** Compaiono sulla scogliera della Torre di Ashwick se qualcuno tenta il rituale senza le condizioni (Presa < 6).
+- **Dove:** Compaiono sulla scogliera della Torre di Ashwick se qualcuno tenta il rituale senza le condizioni (Presa < 7).
 - **Ruolo:** Bloccano il rituale. Non combattibili. Possono rendere muto Aldric Jr come ultima risorsa.
 - **Come si comportano:** Lenti, solenni, disapprovanti. Non attaccano per uccidere. Parlano poco e con autorità.
 
@@ -160,6 +161,28 @@ Alchimista umano anziano in un villaggio a mezza giornata da Hawksbridge. Distra
 - **Dove:** Villaggio a mezza giornata da Hawksbridge.
 - **Ruolo:** Destinatario del pacco. Paga la ricompensa (pergamena + pozione).
 - **Come si comporta:** Apre il pacco con gioia infantile. Paga senza discutere. Non capisce perché il corriere abbia avuto problemi ("Ma è solo un cristallino!").
+
+### Erasmus Vael (modulo 6)
+
+Umano, quarantina, occhiali tondi, aspetto da studioso innocuo. In realtà mago lv8 del culto dei Figli del Perdono.
+
+- **Dove:** si presenta alla taverna di Hawksbridge (mod 6), viaggia con i PG verso Ashwick.
+- **Ruolo:** companion apparente, antagonista ideologico. Propone la Via B (rituale di incarnazione).
+- **Cosa sa:** tutto sui Sette Sigilli, il rituale di incarnazione, la posizione degli oggetti.
+- **Come si comporta:** affabile, colto, curioso. Mente con naturalezza (Inganno +5). Tic: si toglie gli occhiali quando è nervoso.
+- **Come reagisce:** non combatte mai i PG. Fugge se smascherato (Dimension Door). Rapisce Aldric se i PG scelgono la Via A.
+
+→ Scheda: NPC_ErasmusVael
+
+### Theron Ashwick (modulo 7)
+
+Umano, 80+, cieco da un occhio. Ultimo membro vivente dell'Ordine della Chiave Spezzata. Vive nel villaggio di Ashwick.
+
+- **Dove:** casa isolata nel villaggio di Ashwick, vicino alla Torre.
+- **Ruolo:** fonte di informazioni, custode del libro "I Sette Sigilli dell'Ordine".
+- **Cosa sa:** la storia dei 7 prigionieri, chi erano i Figli del Perdono, dove sono (forse) finiti gli oggetti.
+- **Come si comporta:** burbero, diretto, diffidente verso gli estranei. Riconosce immediatamente Erasmus come Figlio del Perdono.
+- **Frase:** *"L'Ordine non imprigiona per cattiveria. Imprigiona perché l'alternativa è peggiore."*
 
 ### Mostri
 
@@ -196,6 +219,28 @@ Alchimista umano anziano in un villaggio a mezza giornata da Hawksbridge. Distra
 
 ---
 
+## I Sette Sigilli dell'Ordine
+
+L'Ordine della Chiave Spezzata ha imprigionato sette anime in oggetti. Le ossa di ciascuno riposano in una cella nella Torre di Ashwick. Il simbolo sulla porta identifica il prigioniero.
+
+| Cella | Simbolo | Prigioniero | Oggetto | Natura del crimine |
+|-------|---------|-------------|---------|-------------------|
+| 1 | ☀ Sole | **Solara Dawnfire** — sacerdotessa corrotta di Lathander | Medaglione d'oro | Voleva l'immortalità, bruciava i "non degni" come purificazione |
+| 2 | ✝ Croce rovesciata | **Padre Mordecai** — chierico caduto | Crocifisso di ferro nero | Resuscitava i morti come schiavi, convinto di "salvarli" |
+| 3 | 🌀 Spirale | **Vorthan il Tessitore** — mago del tempo | Clessidra di cristallo | Intrappolava persone in loop temporali per studiarle |
+| 4 | 🎵 Chiave di violino | **Jason Accordion** — bardo | Anello d'argento (ouroboros) | Charmava e possedeva ospiti per vivere in eterno |
+| 5 | 🔑 Chiave | **Serraia** — ladra leggendaria | Grimaldello d'osso | Apriva porte tra i piani, lasciava passare cose che non dovevano |
+| 6 | ✊ Pugno | **Korgath il Martello** — guerriero berserker | Guanto di ferro | Furia incontrollabile, massacri di innocenti in stato di trance |
+| 7 | 👁 Mano con occhio | **Occhio-che-Vede** — veggente warlock | Occhio di vetro | Vedeva e manipolava destini, patto con entità extraplanare |
+
+**Tema comune:** tutti avevano un dono straordinario usato per fare del male. L'Ordine non li ha uccisi — ha separato anima e corpo perché distruggere un'anima è "l'ultima risorsa". Sono prigionieri, non condannati a morte.
+
+**Jason nel contesto:** non è diverso dagli altri. Era un predatore che viveva attraverso i corpi altrui. Si presenta come vittima — ma l'Ordine aveva ragione a imprigionarlo.
+
+**Fonte:** libro "I Sette Sigilli dell'Ordine" (biblioteca di Ashwick, parzialmente sopravvissuto all'incendio). Accessibile tramite il Guardiano di Ashwick (modulo 7+).
+
+---
+
 ## Appendice: Cheat Sheet Anello del Virtuoso
 
 Riferimento rapido per il DM. Dettagli completi in NPC_JasonAccordion e DiscussioneNarrativa.
@@ -226,8 +271,33 @@ Riferimento rapido per il DM. Dettagli completi in NPC_JasonAccordion e Discussi
 | 0 | Indossato | Freddo alla mano, incubi, vulnerabilità danni psichici. L'anello non si toglie. |
 | 1-4 | Sussurri | Jason parla, suggerisce, ricatta. Incubi ogni notte: TS Sag CD 15, fallimento = 1 livello exhaustion (prima notte automatica, niente TS). Nessun effetto meccanico aggiuntivo. |
 | 5-8 | Influenza | Jason può tentare di prendere il controllo all'inizio di un combattimento o prima di una decisione importante (TS Sag CD 10+Presa). Visioni involontarie. |
+
+**Fuga di Jason (Presa 5+):**
+
+Quando Jason prende il controllo, ha al massimo **1 ora** prima che il portatore riprenda il sopravvento (automatico). Il portatore non ricorda nulla di quello che Jason ha fatto durante la possessione.
+
+Cosa fa Jason con quell'ora:
+- **Presa 5-6:** scappa il più lontano possibile dal gruppo. Corre, non combatte. Vuole allontanarsi dalle ossa e da Aldric.
+- **Presa 7+:** potrebbe cercare di avvertire qualcuno (chi? Da definire) o nascondere le ossa se le ha addosso.
+
+**Come i PG lo ritrovano:**
+- Se Jason scappa di notte: il portatore si risveglia 1 ora dopo, da qualche parte (strada, bosco, fuori città). Non sa dov'è. Deve tornare o farsi trovare.
+- Se i PG erano svegli e hanno visto la fuga: inseguimento (Atletica vs Atletica del portatore). Jason nel corpo del portatore non è più veloce del normale.
+- Se non lo inseguono: il portatore torna da solo dopo 1 ora, confuso, senza ricordi.
+
+**Il portatore dopo la possessione:** non ricorda nulla. Può avere indizi fisici (fango sulle scarpe, graffi, oggetti spostati). I compagni possono raccontargli cosa è successo.
 | 9 | Dominio | Jason tenta di prendere il controllo 1/giorno (TS Sag CD 10+Presa per resistere). Se fallisce il TS: Jason controlla il personaggio. Il portatore può ripetere il TS durante un riposo breve. Il controllo termina automaticamente durante un riposo lungo. Dolore fisico per forzarlo fuori. Il portatore perde ricordi dei momenti di possessione. |
 | 10 | Punto di non ritorno | Jason non esce più. Il rituale a questo livello infligge 10d6 danni psichici al portatore (nessun TS). |
+
+**Segnali narrativi della Presa** (indizi per i giocatori, senza rivelare il numero):
+
+| Presa | La portatrice percepisce | Gli altri PG notano |
+|-------|--------------------------|---------------------|
+| 1-2 | Freddo alla mano, incubi, sensazione di essere osservata | Niente di visibile |
+| 3 | La mano con l'anello si muove da sola (tic). Momenti di assenza (2-3 secondi) | Tic e assenze visibili |
+| 4 | Sogni di Jason (vede i suoi ricordi). Sente musica quando non c'è. A volte parla con la voce di Jason senza accorgersene | La sentono canticchiare melodie sconosciute |
+| 5 | **Soglia critica**: sente che Jason potrebbe prendere il controllo. "Come stare in equilibrio su un bordo." Visioni involontarie da sveglia | I suoi occhi cambiano colore per un istante |
+| 6+ | Jason prende il controllo per brevi momenti (1d4 round). La portatrice non ricorda. "Ho perso tempo." | La vedono agire in modo diverso — postura, voce, sguardo |
 
 **Come sale la Presa:**
 
@@ -237,6 +307,17 @@ Riferimento rapido per il DM. Dettagli completi in NPC_JasonAccordion e Discussi
 | Usare il potere minore dell'anello (cantrip da bardo per classe, vedi OBJ_AnelloDelVirtuoso) | +1 (solo su risultato 1 al d8) |
 | Lasciare che Jason usi un suo incantesimo da bardo attraverso il portatore (Jason sceglie quale, lv1-5) | +1 |
 | Credere a un'influenza di Jason / agire sulla base di una sua menzogna | +1 |
+
+**Effetti collaterali della cessione:**
+
+| Cessione | Presa | Effetto collaterale |
+|----------|-------|---------------------|
+| Liberare Jason momentaneamente (lasciarlo uscire volontariamente) | +1 | Incubi sospesi per 3 giorni |
+| Farsi aiutare da Jason in combattimento (incantesimo) | +1 | Incubi sospesi per 7 giorni |
+
+- Max 1 liberazione/giorno.
+- Gli effetti si cumulano (es. liberazione + aiuto = 10 giorni senza incubi).
+- Jason usa questo come leva: "Lasciami uscire e dormirai stanotte."
 
 **Esempi di menzogne di Jason** (il DM sceglie quando inserirle):
 
@@ -260,7 +341,7 @@ Riferimento rapido per il DM. Dettagli completi in NPC_JasonAccordion e Discussi
 | *Lesser Restoration* | -1 |
 | *Greater Restoration* | -2 |
 
-**Soglia per il rituale di dissoluzione:** Presa deve essere ≥ 6. Sotto il 6, il rituale fallisce — non c'è abbastanza legame da spezzare, il portatore non è in pericolo reale. A Presa 10: il rituale infligge 10d6 danni psichici al portatore (nessun TS).
+**Soglia per il rituale di dissoluzione:** Presa deve essere ≥ 7. Sotto il 7, il rituale fallisce — non c'è abbastanza legame da spezzare, il portatore non è in pericolo reale. A Presa 10: il rituale infligge 10d6 danni psichici al portatore (nessun TS).
 
 **I tre rituali di Vellun** (sono cose diverse):
 
@@ -278,7 +359,7 @@ Riferimento rapido per il DM. Dettagli completi in NPC_JasonAccordion e Discussi
 | 4ª volta | 3.000 mo | Qualche giorno |
 | 5ª volta | 30.000 mo | Una settimana |
 | Rituale di riduzione Presa | Presa -1 | 30 mo × Presa attuale, 1 giorno | Richiede componenti e studio |
-| Rituale di dissoluzione | Distrugge Jason definitivamente | Ossa + anello + fuoco + parole + rituale dal pavimento | Richiede Presa ≥ 6. Serve essere mago + settimane di studio per capire il rituale. |
+| Rituale di dissoluzione | Distrugge Jason definitivamente | Ossa + anello + fuoco + parole + rituale dal pavimento | Richiede Presa ≥ 7. Serve conoscere il Comune Antico e aver studiato le iscrizioni del rituale (Aldric Jr). |
 
 **Stato attuale:** La Presa parte da 1 per imposizione narrativa (Jason esce per 1 minuto senza che il portatore possa impedirlo, per introdurre la meccanica della possessione al tavolo).
 
@@ -333,10 +414,10 @@ Stima del ritmo di crescita della Presa, assumendo:
 
 ### Finestra per il rituale di dissoluzione
 
-Con soglia ≥ 6, il rituale diventa possibile intorno al **modulo 6-7**. Dopo il modulo 5 i PG sanno che devono arrivare a Presa 6 — possono accelerare volontariamente. Se accelerano, il rituale è possibile già al modulo 6.
+Con soglia ≥ 7, il rituale diventa possibile intorno al **modulo 7-8**. Dopo il modulo 5 i PG sanno che la portatrice deve peggiorare — possono accelerare volontariamente. Se accelerano, il rituale è possibile già al modulo 7.
 
 Se i PG riducono la Presa (rituale di Vellun -1, Lesser Restoration -1), ritardano il momento — ma si proteggono dal Dominio.
 
 ### Conclusione
 
-La saga ha una tensione narrativa a doppio taglio: la Presa deve salire per permettere il rituale, ma salire troppo è pericoloso. Il DM può accelerare con eventi narrativi (+1 Presa) o rallentare con rituali di Vellun. Il punto critico è Presa 6-7: abbastanza per il rituale, non ancora Dominio (9).
+La saga ha una tensione narrativa a doppio taglio: la Presa deve salire per permettere il rituale, ma salire troppo è pericoloso. Il DM può accelerare con eventi narrativi (+1 Presa) o rallentare con rituali di Vellun. Il punto critico è Presa 7-8: abbastanza per il rituale, non ancora Dominio (9).

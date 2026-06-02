@@ -154,7 +154,7 @@ Quando Aldric inizia a leggere le parole → le iscrizioni del cerchio si illumi
 
 ### 🎲 Note per il DM
 
-Questo è informativo, non pericoloso. I PG ora sanno la regola: serve Presa ≥6 (fase Influenza, Jason può prendere il controllo).
+Questo è informativo, non pericoloso. I PG ora sanno la regola: serve Presa ≥7 (fase Influenza, Jason può prendere il controllo).
 
 Aldric: *"Non si compie. Non capisco... non si compie."*
 
@@ -226,9 +226,9 @@ Ex-soldati dell'Ordine, rialzati come non-morti. Hanno perso memoria e intellett
 
 **Round 2+:** I PG combattono gli scheletri. Gli Spettri non intervengono nel combattimento — osservano. Se i PG uccidono tutti gli scheletri, gli Spettri restano comunque e il rituale resta bloccato.
 
-**Fine:** Quando i PG uccidono tutti o la maggior parte degli scheletri, gli Spettri intervengono come ultima risorsa: **rendono muto Aldric Jr** (maledizione che si spezza automaticamente quando la Presa raggiunge ≥6). Aldric non può pronunciare le parole del rituale — né qui né altrove — finché la Presa non sarà sufficiente.
+**Fine:** Quando i PG uccidono tutti o la maggior parte degli scheletri, gli Spettri intervengono come ultima risorsa: **rendono muto Aldric Jr** (maledizione che si spezza automaticamente quando la Presa raggiunge ≥7). Aldric non può pronunciare le parole del rituale — né qui né altrove — finché la Presa non sarà sufficiente.
 
-Quando la Presa raggiunge 6, una voce spettrale risuona nella mente di Aldric: *"Il pericolo è reale. La voce è tua."* — la maledizione si spezza, Aldric può parlare di nuovo. Questo avverte anche i giocatori che il rituale è ora possibile.
+Quando la Presa raggiunge 7, una voce spettrale risuona nella mente di Aldric: *"Il pericolo è reale. La voce è tua."* — la maledizione si spezza, Aldric può parlare di nuovo. Questo avverte anche i giocatori che il rituale è ora possibile.
 
 > *"La voce del ritualista è nostra finché il pericolo non sarà reale. Tornate quando sarà il momento."*
 
@@ -236,7 +236,7 @@ Poi svaniscono. Gli scheletri rimasti crollano a terra, inerti. Aldric si tocca 
 
 **Se i PG non insistono** (smettono prima di uccidere tutti gli scheletri): gli Spettri non maledicono Aldric. Parlano e svaniscono. Aldric conserva la voce.
 
-In entrambi i casi il rituale fallisce. La differenza: con la maledizione, i PG hanno urgenza (devono far salire la Presa a ≥6 per sbloccare Aldric). Senza, possono prendersi tempo.
+In entrambi i casi il rituale fallisce. La differenza: con la maledizione, i PG hanno urgenza (devono far salire la Presa a ≥7 per sbloccare Aldric). Senza, possono prendersi tempo.
 
 ---
 
@@ -262,66 +262,18 @@ In entrambi i casi il rituale fallisce. La differenza: con la maledizione, i PG 
 
 Il dilemma centrale della saga:
 
-**Opzione A — Far peggiorare:** Lasciar salire la Presa a ≥6 (fase Influenza). Jason può tentare di prendere il controllo in combattimento, visioni involontarie, rischio reale. Poi tornare e fare il rituale.
+**Opzione A — Far peggiorare:** Lasciar salire la Presa a ≥7 (fase Influenza). Jason può tentare di prendere il controllo in combattimento, visioni involontarie, rischio reale. Poi tornare e fare il rituale.
 
 **Opzione B — Convivere:** Tenere la Presa bassa con i rituali del sonno. La portatrice resta stabile ma dipendente. Jason resta nell'anello per sempre.
 
 Non c'è fretta di decidere. I PG possono tornare a Hawksbridge e pensarci.
-
-**Percorso alternativo — se i PG non tornano alla torre dopo il modulo 4:**
-
-Se i PG decidono di aspettare che Aldric studi il rituale dalla copia (invece di tornare subito alla torre):
-- Aldric Jr ci mette **una settimana** per scoprire che il rituale va eseguito alla torre (all'aperto, nelle vicinanze).
-- Durante la settimana: side quest a Hawksbridge (vedi sotto).
-- Dopo la settimana: Aldric comunica che deve venire alla torre → si riconduce al modulo 5 normalmente.
-
-### Side quest: La Consegna Maledetta
-
-**Tono:** intermezzo leggero/avventuroso. Pausa dalla tensione dell'anello.
-
-**Aggancio:** un corriere halfling (nervoso, sudato, nome: **Titus Gambasvelta**) arriva dai PG cercando avventurieri. Dove li trova è indifferente — il percorso della consegna si adatta alla posizione attuale del party. Deve portare un pacco sigillato a un alchimista in un villaggio a mezza giornata da Hawksbridge. Tre volte ci ha provato, tre volte è stato attaccato sulla strada. Offre in cambio la ricompensa promessa dall'alchimista destinatario.
-
-**Il pacco:** contiene un frammento di cristallo magico che emana un odore percepibile solo da creature. Attira mostri. Il corriere non lo sa — sa solo che "la strada è maledetta". Il pacco è sigillato e il corriere non vuole aprirlo (contratto di consegna).
-
-**Incontro 1 — MEDIUM:** branco di lupi affamati, attirati dal cristallo.
-
-| Nemico | N. | PF | CA | Attacco | CR |
-|--------|----|----|----|---------|----|
-| Dire Wolf | 4 | 37 | 14 | +5, 2d6+3 (Pack Tactics, prone su colpo) | 1 |
-
-Difficoltà: 4 × Dire Wolf CR 1 = 800 XP adjusted (×2 moltiplicatore) = **MEDIUM** per 5 combattenti lv5.
-
-**Incontro 2 — HARD:** un Owlbear con cucciolo. La madre è aggressiva, il cucciolo scappa. Il cristallo li ha attirati fuori dalla tana.
-
-| Nemico | N. | PF | CA | Attacco | CR |
-|--------|----|----|----|---------|----|
-| Owlbear | 1 | 59 | 13 | Multiattack: +7 becco 1d10+5 + +7 artigli 2d8+5 | 3 |
-| Owlbear (madre, potenziata) | 1 | 85 | 14 | Multiattack: +8 becco 2d8+5 + +8 artigli 2d10+5. Furia materna: vantaggio se il cucciolo è minacciato. | 5 |
-
-Difficoltà: Owlbear CR 3 + Owlbear madre CR 5 = ~2400 XP adjusted = **HARD** per 5 combattenti lv5.
-
-**Alternativa non violenta (incontro 2):** se i PG capiscono che il cristallo attira le creature (Natura CD 13 o Arcano CD 14), possono avvolgere il pacco in piombo/stoffa spessa per mascherare l'odore. La madre Owlbear si calma e torna nella tana col cucciolo.
-
-**Arrivo:** il villaggio è piccolo, l'alchimista (**Prosperus Fiaschetti**, umano anziano, distratto, entusiasta) apre il pacco con gioia. "Finalmente! Sapete quanto è difficile trovare cristallo di attrazione? Costa una fortuna!" Paga senza discutere.
-
-**Ricompensa:**
-- **Pergamena di Greater Restoration** (uso singolo) — rimuove 1 livello di exhaustion
-- **Pozione di Vitalità** (rara, uso singolo) — rimuove tutti i livelli di exhaustion
-
-Entrambe curano l'exhaustion accumulata ma non prevengono gli incubi futuri. Sono un reset, non una soluzione permanente.
-
-**Nota:** questa side quest è opzionale. Può essere inserita in qualsiasi momento della saga a giudizio del master.
-
-**Se scelgono di far peggiorare:** i moduli successivi devono avere pressione narrativa che fa salire la Presa (incontri pericolosi dove Jason offre aiuto, situazioni dove cedere è tentante).
-
-**Se scelgono di convivere:** la saga si chiude qui. L'anello resta, Jason resta, la portatrice convive. Fine aperta.
 
 ---
 
 ## Ricompense
 
 - **Oggetti:** nessuno
-- **Informazioni:** la condizione per il rituale (Presa ≥6), il luogo (all'aperto), l'esistenza dei guardiani dell'Ordine
+- **Informazioni:** la condizione per il rituale (Presa ≥7), il luogo (all'aperto), l'esistenza dei guardiani dell'Ordine
 - **Contatti:** gli Spettri dell'Ordine (potenziali interlocutori in futuro)
 
 ## Milestone
@@ -347,3 +299,4 @@ Nessun level-up. I PG restano lv5.
 - Jason durante il rituale: silenzio totale. Quando il rituale fallisce: una risata bassa, soddisfatta, udibile solo dalla portatrice. Poi: *"Ve l'avevo detto, folli."*
 - Il modulo è breve (1-2 ore). Il peso è nella scelta finale.
 - Se i PG non insistono dopo l'avvertimento delle iscrizioni (non forzano il rituale), i guardiani non compaiono. Il modulo si chiude con la scelta senza combattimento.
+- Se Aldric inizia a leggere il rituale (anche brevemente), gli scheletri compaiono. Se Aldric interrompe, al turno successivo non ne emergono altri — quelli già emersi restano e combattono.

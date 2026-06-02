@@ -16,6 +16,20 @@ Regole semantiche e narrative: come scrivere un'avventura che funziona al tavolo
 
 ## Avventura scritta vs avventura giocata
 
+### Regola dei nomi meccanici
+
+I personaggi non conoscono i nomi degli incantesimi del manuale né le meccaniche di gioco. Nei dialoghi e nel testo da leggere ai giocatori non devono comparire termini come "Hold Person", "Healing Word", "tiro salvezza", "classe armatura". I personaggi descrivono gli effetti in modo narrativo. I nomi meccanici vanno solo nelle note DM (tra parentesi o in sezioni separate).
+
+| ❌ Non scrivere (dialogo) | ✅ Scrivere (dialogo) |
+|---------------------------|----------------------|
+| *"Healing Word. Lasciami."* | *"Posso aiutarti. Fammelo fare."* |
+| *"Lancia Hold Person su di lui"* | *"Lo blocco. Non si muoverà."* |
+| *"Il tuo TS Saggezza è fallito"* | *"Senti la volontà che cede"* |
+
+Le note DM possono e devono usare i termini meccanici per chiarezza: `(offre Hold Person — Presa +1 se accetta)`.
+
+---
+
 L'avventura scritta descrive il mondo: luoghi, personaggi, oggetti, conseguenze delle azioni. Non descrive lo stato meccanico dei PG (punti ferita, condizioni, risorse spese), che appartiene alla giocata e cambia al tavolo.
 
 L'avventura reagisce ai comportamenti dei PG, di solito non li obbliga. Usare strutture "se... allora..." per descrivere le conseguenze, non sequenze lineari che assumono un comportamento specifico.
@@ -89,6 +103,48 @@ Per avventure non lineari, considerare il **node-based design**: l'avventura è 
 ### Minacce che avanzano (opzionale)
 
 Per dare urgenza senza forzare i PG su un percorso, considerare minacce che avanzano nel tempo indipendentemente dalle azioni dei PG (es. timer che scade, nemico che si rafforza, situazione che peggiora). Se i PG non agiscono, il mondo cambia. Documentare nel modulo cosa succede se i PG ignorano la minaccia.
+
+---
+
+## Hint narrativi (suggerimenti, non regole)
+
+Suggerimenti per storie più interessanti. Non sono obbligatori — sono spunti da considerare. A volte il cattivo è cattivo e basta, e va benissimo.
+
+### Villain con motivazione
+
+I cattivi più interessanti sono convinti, con qualche ragione, di essere i buoni. Dare ai villain una motivazione comprensibile (anche se sbagliata) li rende più memorabili di un "malvagio generico". Non tutti i villain devono essere complessi — ma almeno l'antagonista principale dovrebbe avere un perché.
+
+### Il companion traditore
+
+Un alleato che ha un piano segreto è un motore narrativo potente. Il tradimento funziona meglio quando il companion è stato genuinamente utile e simpatico prima di rivelare le sue vere intenzioni. Il giocatore deve sentire la perdita, non solo la rabbia.
+
+### Mostri con una ragione
+
+I mostri dovrebbero avere una ragione per essere dove sono. Uno spettro è lo spettro di qualcuno (chi era? perché è ancora lì?). Un rinoceronte in un dungeon ci è stato portato da qualcuno, a meno che il dungeon non sia nella savana. Questo non significa che ogni goblin ha bisogno di un arco narrativo — ma chiedersi "perché è qui?" arricchisce la scena.
+
+### Alleati con difetti
+
+I buoni sono simpatici quando hanno debolezze e difetti. Un paladino perfetto è noioso — un paladino tentato dal male che dimostra la sua purezza resistendo è interessante. Gli alleati dovrebbero avere momenti di dubbio, scelte difficili, tentazioni. La virtù ha valore solo quando costa qualcosa. Con più sfumatura per le altre classi: il ladro che ruba ma ha un codice, il mago arrogante che impara l'umiltà, il chierico che dubita della sua fede.
+
+### Il plot base
+
+Il plot base di un'avventura è molto semplice: un messaggero dice che una persona o un oggetto va recuperato, e che ci sarà una ricompensa. Tutto il resto — complicazioni, tradimenti, dilemmi morali, colpi di scena — è ciò che rende la storia interessante. Ma il nucleo è sempre quello: qualcuno ha bisogno di qualcosa, i PG vanno a prenderlo. L'oggetto o la persona non devono necessariamente avere rilevanza in sé — quando non ce l'hanno si parla di MacGuffin: un pretesto per far muovere i personaggi e far succedere cose lungo la strada.
+
+### Scelte difficili
+
+Una storia interessante porta a scelte in cui tutte le opzioni hanno rischi o conseguenze negative. Fare la cosa giusta non deve essere facile — deve costare qualcosa (tempo, risorse, un alleato, un vantaggio). D'altro canto, fare la cosa sbagliata deve essere pericoloso — non solo moralmente, ma con conseguenze concrete nel mondo di gioco. Le scelte migliori sono quelle in cui i giocatori discutono al tavolo perché non c'è una risposta ovvia.
+
+### Il rischio di morte
+
+Ogni tanto nei combattimenti bisogna rischiare di morire. Non sempre — ma se i giocatori sanno che non possono mai perdere, la tensione scompare e i combattimenti diventano noiosi. Alternare incontri facili (dove i PG si sentono forti) a incontri dove un errore può costare la vita mantiene l'attenzione alta. I combattimenti sono pensati per essere consecutivi: i PG devono affrontarli già provati dai precedenti (slot incantesimo spesi, PF mancanti, risorse consumate). Un incontro MEDIUM dopo due incontri EASY diventa pericoloso. Un incontro HARD dopo un MEDIUM può essere letale.
+
+### Equilibrio tra i pilastri
+
+Un'avventura ha tre pilastri: esplorazione, investigazione (roleplay) e combattimento. In generale serve un equilibrio tra i tre — troppo combattimento stanca, troppo roleplay senza azione annoia, troppa esplorazione senza scopo disorienta. Detto questo, è del tutto legittimo che un'avventura sia sbilanciata verso uno dei pilastri per scelta di sceneggiatura (un'avventura investigativa, un dungeon crawl puro, una sessione di puro roleplay politico). Lo sbilanciamento deve essere intenzionale, non accidentale.
+
+### Il terreno come arma
+
+Nei combattimenti è bene usare il terreno di gioco come elemento tattico: coperture, parti pericolose (pareti da scalare, ponti stretti, fiumi che impediscono il passaggio), ostacoli che limitano il movimento, punti alti che danno vantaggio. Un combattimento in una stanza vuota 10×10 è noioso — lo stesso combattimento su un ponte stretto con un burrone sotto è memorabile. Il terreno rende gli incontri EASY interessanti e quelli HARD letali.
 
 ---
 

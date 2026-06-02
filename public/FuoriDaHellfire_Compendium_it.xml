@@ -33,6 +33,38 @@
 Role: occupante della cripta, potenziale NPC ricorrente</description>
     </monster>
     <monster>
+        <name>DireWolf</name>
+        <size>L</size>
+        <type>beast</type>
+        <alignment>unaligned</alignment>
+        <ac>14 (armatura naturale)</ac>
+        <hp>37 (5d10+10)</hp>
+        <speed>50 ft.</speed>
+        <str>17</str>
+        <dex>15</dex>
+        <con>15</con>
+        <int>3</int>
+        <wis>12</wis>
+        <cha>7</cha>
+        <senses>—</senses>
+        <cr>1</cr>
+        <trait>
+            <name>Keen Hearing and Smell</name>
+            <text>vantaggio su Percezione (udito e olfatto).</text>
+        </trait>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>vantaggio sull'attacco se un alleato è entro 1,5m / 5ft dal bersaglio e non è incapacitato.</text>
+        </trait>
+        <action>
+            <name>Morso (mischia)</name>
+            <text>Attacco: +5, portata 1,5m / 5ft Danni: 2d6+3 perforanti Prone: se il bersaglio è una creatura, TS Forza CD 13 o viene buttato a terra (prone).</text>
+            <attack>Morso (mischia)|+5|2d6+3</attack>
+        </action>
+        <description>Lupo gigante, alto quasi un metro al garrese. Caccia in branco, attirati dal cristallo di attrazione.
+Role: nemico (side quest La Consegna Maledetta)</description>
+    </monster>
+    <monster>
         <name>Ghast</name>
         <size>M</size>
         <type>undead</type>
@@ -72,6 +104,71 @@ Role: occupante della cripta, potenziale NPC ricorrente</description>
         </action>
         <description>Seduto a capotavola nella sala comune della cripta. Più grande degli scheletri, con brandelli di armatura e carne secca grigia sulle ossa. Si anima per ultimo, al round 2, alzandosi lentamente dallo sgabello. Un fetore nauseante lo circonda.
 Role: capo custode non-morto della cripta, si anima al round 2</description>
+    </monster>
+    <monster>
+        <name>OwlbearCucciolo</name>
+        <size>M</size>
+        <type>monstrosity</type>
+        <alignment>unaligned</alignment>
+        <ac>12 (armatura naturale)</ac>
+        <hp>25 (3d8+6)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>12</dex>
+        <con>14</con>
+        <int>3</int>
+        <wis>12</wis>
+        <cha>7</cha>
+        <senses>darkvision 60 ft. 18m / 60ft</senses>
+        <cr>1/4</cr>
+        <action>
+            <name>Artigli (mischia)</name>
+            <text>Attacco: +4, portata 1,5m / 5ft Danni: 1d6+2 taglienti</text>
+            <attack>Artigli (mischia)|+4|1d6+2</attack>
+        </action>
+        <description>Cucciolo di owlbear, taglia di un grosso cane. Spaventato, scappa se attaccato. La madre diventa feroce se il cucciolo è minacciato.
+Role: non combattente (side quest La Consegna Maledetta)</description>
+    </monster>
+    <monster>
+        <name>OwlbearMadre</name>
+        <size>L</size>
+        <type>monstrosity</type>
+        <alignment>unaligned</alignment>
+        <ac>14 (armatura naturale)</ac>
+        <hp>85 (10d10+30)</hp>
+        <speed>40 ft.</speed>
+        <str>22</str>
+        <dex>12</dex>
+        <con>19</con>
+        <int>3</int>
+        <wis>12</wis>
+        <cha>7</cha>
+        <senses>darkvision 60 ft. 18m / 60ft</senses>
+        <cr>5</cr>
+        <trait>
+            <name>Keen Sight and Smell</name>
+            <text>vantaggio su Percezione (vista e olfatto).</text>
+        </trait>
+        <trait>
+            <name>Furia materna</name>
+            <text>se il cucciolo è minacciato o ferito, la madre ha vantaggio su tutti gli attacchi fino alla fine del turno successivo.</text>
+        </trait>
+        <action>
+            <name>Multiattacco</name>
+            <text>La madre fa due attacchi: uno con il becco e uno con gli artigli.</text>
+        </action>
+        <action>
+            <name>Becco (mischia)</name>
+            <text>Attacco: +8, portata 1,5m / 5ft Danni: 2d8+6 perforanti</text>
+            <attack>Becco (mischia)|+8|2d8+6</attack>
+        </action>
+        <action>
+            <name>Artigli (mischia)</name>
+            <text>Attacco: +8, portata 1,5m / 5ft Danni: 2d10+6 taglienti</text>
+            <attack>Artigli (mischia)|+8|2d10+6</attack>
+        </action>
+        <description>Owlbear femmina adulta, più grande e aggressiva del normale. Protegge il cucciolo con ferocia. Attirata fuori dalla tana dal cristallo di attrazione nel pacco.
+Role: nemico (side quest La Consegna Maledetta)</description>
     </monster>
     <monster>
         <name>RattoCorrotto</name>
@@ -274,6 +371,26 @@ Tirchio ma non cattivo. Offre la colazione gratis solo in circostanze eccezional
 Role: proprietario della taverna Pint Ahoy, NPC ricorrente</description>
     </monster>
     <monster>
+        <name>ErasmusVael</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>12 (15 con Mage Armor)</ac>
+        <hp>40 (8d6+8)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>18</int>
+        <wis>13</wis>
+        <cha>14</cha>
+        <languages>Common, Elvish, Draconico, Common Antico, Infernale</languages>
+        <cr>5</cr>
+        <description>Uomo sulla quarantina, magro, occhiali tondi, capelli castani disordinati. Veste da studioso (tunica semplice, zaino di libri, niente armatura visibile). Parla con calma, sorride spesso, gesticola quando spiega qualcosa. Sembra innocuo.
+Tratto distintivo: si toglie gli occhiali e li pulisce quando è nervoso o sta per mentire.
+Role: companion (apparente), antagonista (reale)</description>
+    </monster>
+    <monster>
         <name>FinDitasvelte</name>
         <size>M</size>
         <type>humanoid (halfling (piedelesto))</type>
@@ -409,6 +526,27 @@ Role: villain della saga, entità nell'Anello del Virtuoso</description>
         </action>
         <description>Alto, magro, capelli neri lunghi legati con un nastro di seta rubata. Sorriso permanente, occhi che non sorridono mai. Parla come se stesse sempre sul palco: voce melodica, pause teatrali, gesti ampi. Veste abiti eleganti ma sporchi di fogna. Il suo tratto distintivo: non smette mai di canticchiare, nemmeno quando è in pericolo.
 Role: antagonista principale</description>
+    </monster>
+    <monster>
+        <name>TheronAshwick</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>10</ac>
+        <hp>9 (2d8)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>10</dex>
+        <con>11</con>
+        <int>16</int>
+        <wis>18</wis>
+        <cha>12</cha>
+        <languages>Common, Common Antico, Elvish, Celestiale</languages>
+        <cr>0</cr>
+        <description>Ottantenne, cieco dall'occhio sinistro (cicatrice), capelli bianchi lunghi, mani nodose ma ferme. Veste una tunica grigia con il simbolo sbiadito della chiave spezzata ricamato sul petto. Un gatto nero lo segue ovunque. Vive solo in una casa isolata nel villaggio di Ashwick, circondato da libri salvati dall'incendio della biblioteca.
+Tratto distintivo: parla come se ogni parola costasse fatica. Diretto, burbero, non sopporta le bugie.
+Frase ricorrente: *&quot;Non ho tempo per le mezze verità. Dite quello che volete o andatevene.&quot;*
+Role: fonte di informazioni, custode del libro &quot;I Sette Sigilli&quot;</description>
     </monster>
     <monster>
         <name>UdoHutchinson</name>

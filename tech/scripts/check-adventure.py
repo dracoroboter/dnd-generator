@@ -107,7 +107,7 @@ KNOWN_NPC_SECTIONS = {
     # Obbligatorie
     "Informazioni generali", "Descrizione", "Motivazioni", "Note al master",
     # Meccaniche (npc-format.md)
-    "Stat Block", "Attacchi", "Azioni bonus", "Reazioni",
+    "Stat Block", "Attacchi", "Azioni bonus", "Reazioni", "Incantesimi", "Tattiche",
     # Opzionali (npc-format.md)
     "Capacità notevoli", "Ruolo nell'avventura", "Agganci futuri", "Da definire",
     # Narrative
@@ -115,6 +115,8 @@ KNOWN_NPC_SECTIONS = {
 }
 
 def check_unknown_sections(filepath, known, label, prefixes=None):
+    """Check for unknown sections. Only warn for module files, not for main document
+    (main document can have adventure-specific sections like '## I Sette Sigilli')."""
     if not os.path.isfile(filepath):
         return
     content = open(filepath, encoding="utf-8").read()
@@ -123,6 +125,9 @@ def check_unknown_sections(filepath, known, label, prefixes=None):
         if name in known:
             continue
         if prefixes and any(name.startswith(p) for p in prefixes):
+            continue
+        # Skip: main document can have extra sections (adventure-specific content)
+        if label == os.path.splitext(os.path.basename(filepath))[0]:
             continue
         warn(f"{label}: sezione non prevista '## {name}'")
 
@@ -350,8 +355,13 @@ def check_npc_module_tag(adventure_dir):
 
     npc_text = npc_section.group(1)
     h3s = re.findall(r'^### (.+)$', npc_text, re.MULTILINE)
+    # Skip headings that are not NPC names (e.g. "Mostri", "Companion")
+    non_npc_headings = {"Mostri", "Companion", "Creature", "Oggetti"}
     for h3 in h3s:
-        if not re.search(r'\([Mm]odul[oi] \w+\)', h3):
+        if h3.strip() in non_npc_headings:
+            continue
+        # Accept any format containing "modulo/moduli" + number, or "trasversale", or "side quest"
+        if not re.search(r'modulo|trasversale|side quest', h3, re.IGNORECASE):
             warn(f"NPC '{h3}': manca tag (modulo N)")
 
 

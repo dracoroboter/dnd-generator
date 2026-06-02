@@ -178,7 +178,7 @@ dungeonandragon/
 |------|-------|
 | `tech/how-to/how-to-new-adventure.md` | Creare una nuova avventura da zero con `new-adventure.sh` e `adventure-wizard.py` |
 | `tech/how-to/how-to-new-npc.md` | Creare NPC: script `new-npc.py`, workflow AI, formato stat block, export FightClub/PDF |
-| `tech/how-to/how-to-release.md` | Generare PDF + ZIP con `release.sh` e pubblicare |
+| `tech/create-pdf-adventure/docs-create-pdf-adventure.md` | Generare PDF avventura con `create-pdf-adventure.py` |
 | `tech/how-to/how-to-encounter-difficulty.md` | Calcolare difficoltà incontri con `encounter-difficulty.py` |
 | `tech/how-to/how-to-git-profiles.md` | Separare profili git (account A / account B) sulla stessa macchina |
 | `tech/how-to/how-to-claude-code.md` | Usare un AI coding agent in questo progetto: configurazione, separazione ruoli narrativa vs tecnica |
