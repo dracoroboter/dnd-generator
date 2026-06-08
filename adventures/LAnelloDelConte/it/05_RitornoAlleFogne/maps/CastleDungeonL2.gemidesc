@@ -1,1 +1,33 @@
-Top-down dungeon map, dark fantasy style, ink and parchment aesthetic. Underground abandoned level, dim green bioluminescent light from fungi on walls. Water puddles on stone floor. Seven distinct areas connected by corridors. Central hub: irregular room with three exits (east, west, south). East wing: short corridor ending at a wooden door (suspiciously clean and well-maintained, polished handle), behind it a room divided by iron grate (cell on one side with straw, storage on other side with rotting crates and chains). West wing: small antechamber with well shaft opening in floor, then large 30ft square room with scattered objects (a pristine wooden chair perfectly centered, a clean ladder against west wall, an overturned table, a hanging chain, a wall candelabra, a closed chest in corner). South corridor: small room with graffiti-covered walls, then narrow passage with slightly different colored floor tile (trap), ending at descending stairs. A breach in the north wall of the main corridor reveals a tunnel leading away (sewer connection). Green-tinted dim lighting throughout, stalactites dripping. Grid overlay 5ft squares. No text, no labels.
+Generate a top-down 2D dungeon battle map. Flat overhead view, camera directly above looking straight down. NOT 3D, NOT isometric, NOT perspective. Dark fantasy style, same artistic style as the attached reference image (CastleDungeonL1.png).
+
+LAYOUT (square canvas, approximately 25x25 grid squares):
+
+TOP-RIGHT: A narrow vertical pipe/shaft (stone rim, 2ft diameter — too narrow for a person) descending from the ceiling. This is the external well from L1 that narrows into a provision tube below. Scattered food remains on the floor around it (old bread, bones, a spilled bowl) — provisions lowered from above accumulate here. Rats visible feeding on the scraps. Label: F.
+
+BOTTOM-CENTER: A stone staircase descending from above (arrival from L1, matching position of L1's iron door at bottom-center). Small landing room (10ft x 10ft). One exit leads UP into the dungeon. Label: L-entry.
+
+TOP-CENTER: A natural cavern area with irregular rock walls, stalactites hanging from ceiling (visible as dark circles from above), green bioluminescent fungi on walls giving dim light. Wet floor with puddles. A barely visible crack/breach in the north wall (hidden sewer passage — hard to spot). Label: G.
+
+CENTER: A wider room or junction area (20ft x 15ft). A figure sitting cross-legged on the floor (Ermolao, monk). A few crates, a chain hanging from ceiling. Fungal glow. Exits in multiple directions. Label: H.
+
+LEFT SIDE: A door with a conspicuously shiny/clean doormat in front of it (the doormat is a Mimic — it looks too clean and inviting for this environment). Beyond the door, a rectangular room (20ft x 15ft) with old furniture, broken shelves, cobwebs. A yellow-green patch of mold on one wall (Yellow Mold hazard). Label: I.
+
+BOTTOM-CENTER: A corridor leading south to a heavy iron door at the far end. The door has iron reinforcements and a large keyhole. Stalactites on the ceiling above the corridor (one is a Piercer — slightly different color/shape from the others, hanging lower). Label: L.
+
+CONNECTIONS:
+- L-entry (bottom-center, stairs from L1) connects to H (center junction)
+- F (top-right, well/pipe with rats) connects to H (center junction)
+- G (top-center cavern) connects to H (center junction)
+- H connects to I (left, through the mimic-doormat door)
+- H connects to L (bottom-left, corridor to iron door/L3)
+
+STYLE:
+- Dim green bioluminescent lighting throughout (fungi on walls and ceiling)
+- Wet stone and natural rock textures, water puddles, moss
+- Mix of constructed stone (corridors, doors, rooms) and natural cave (cavern area G)
+- Stalactites visible as dark circular shapes hanging from above
+- The doormat in front of room I should look distinctly clean/shiny compared to the grimy surroundings
+- 5ft grid overlay (subtle gray lines)
+- White circles with black capital letters for labels (F, G, H, I, L)
+- Square canvas
+- NO text other than the single-letter labels

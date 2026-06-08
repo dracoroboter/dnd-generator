@@ -6,12 +6,42 @@
 
 ---
 
+## Flusso della serata
+
+```
+INDAGINE (~1h)          MILESTONE         DUNGEON (~2h)              USCITA
+NPC → info → dove?  →  lv3→lv4  →  L1(guardie) o fogne  →  Ermolao fogne
+                                         ↓
+                                    L2: ratti + zerbino mimic + Ermolao + piercer
+                                         ↓
+                                    L3: Gelatinous Cube → mimic porte/scrigno → Michelangeli
+```
+
+**Compenso totale:** anticipo 4 mo (già dato) + info 8 mo + liberazione 12 mo = **24 mo**
+
+---
+
+## Incontri da preparare
+
+| # | Livello | Incontro | Difficoltà | Note |
+|---|---------|----------|------------|------|
+| 1 | L1 | 3 Guard | EASY | Si arrendono se 2/3 cadono |
+| 2 | L2 | Swarm of Rats | TRIVIAL | Fuggono sotto 7 PF |
+| 3 | L2 | Mimic giovane (zerbino) | TRIVIAL | Paranoia installata |
+| 4 | L2 | Yellow Mold | Trappola | CON CD 15, 2d10 veleno |
+| 5 | L2 | Piercer (stalattite) | TRIVIAL | 1 attacco solo, 3d6 |
+| 6 | L3 | Gelatinous Cube | MEDIUM | Percezione CD 15, Engulf DES CD 12 |
+| 7 | L3 | 2 Mimic (porte) | HARD | Le prime 2 porte che toccano |
+| 8 | L3 | Mimic (scrigno) | MEDIUM | Troppo bello per essere vero |
+
+---
+
 ## Passaggi della storia
 
 ### FASE 1 - Indagine (~1h)
 
 1. I PG decidono dove cercare informazioni su Michelangeli
-2. **Mafalda li segue** (Percezione CD 13 per notarla). Se ignorata: +2 CD successivi
+2. **Mafalda li segue** (Percezione CD 15 per notarla). Se ignorata: +2 CD successivi
 3. Visitano 2-3 NPC (ordine libero):
    - **Spaccafegato** (Vetusta): crolla subito, conferma urla e cibo portato nel dungeon
    - **San Giovanni** (Aviano): terrorizzato, parla se rassicurato, conferma guardie nel sotterraneo
@@ -24,7 +54,7 @@
 
 ### FASE 2 - Rapporto + Milestone
 
-7. Tornano da Arimano. Paga 2 mo/testa (8 mo). Offre 12 mo per liberarlo.
+7. Tornano da Arimano. Paga 2 mo/testa (8 mo). Offre 12 mo per liberarlo ("dodici monete d'oro").
 8. **MILESTONE lv4** — pausa 5 min per aggiornare schede
 9. Arimano dice del pozzo nel cortile nord (se chiedono come entrare)
 
@@ -32,71 +62,81 @@
 
 10. Entrano (fogne via Ermolao / pozzo / Gorim / bluff guardie)
 11. **Se entrano da L1:** Guardie (EASY): 3 Guard svogliate. Chiave sulla cintura del capo.
-12. **L1 - Celle:** Er Braccio (li riconosce, chiede di essere liberato), debitore, ubriacone
-13. **L2 - Corridoio umido:** funghi luminescenti, acqua alle caviglie, ratti
-14. **L2 - Bivio: ERMOLAO** seduto per terra, medita. Sa della via delle fogne (uscita!) e dei pericoli.
-15. **L2 - Ala est: PORTA MIMIC** (TRIVIAL): la porta si appiccica, morde. Paranoia installata.
-16. **L2 - Ala est: Sberluccica** in cella. Piange, terrorizzato. Ha sentito Michelangeli cantare.
-17. **L2 - Ala ovest: 2 MIMIC OGGETTI** (HARD): sedia + scala a pioli. Paranoia massima.
-18. **L2 - Corridoio sud: Trappola dardi** (Percezione CD 13, 1d4 dardi +4 1d4+1, arrugginiti)
-19. **L3 - Corridoio buio:** buio totale, serve luce. Pavimento pulito (indizio).
-20. **L3 - GELATINOUS CUBE** (MEDIUM): trasparente, ci camminano dentro. Percezione CD 15.
-21. **L3 - Anticamera:** porta normalissima. NON è un mimic. Colpiranno comunque.
-22. **L3 - Cella Michelangeli:** 1.5 anni prigioniero. Disegni a carboncino. Volto di donna ricorrente.
-23. **USCITA:** Ermolao li guida verso le fogne → escono senza farsi vedere. Carovana comica.
+12. **L1 - Celle:** Er Braccio, debitore, ubriacone, **Sberluccica** (piange, ha sentito cantare dal pozzo)
+13. **L2 - Arrivo [F]: RATTI** (TRIVIAL): mangiano resti di cibo. Indizio: "qualcuno doveva mangiare questo"
+14. **L2 - Caverna [G]:** passaggio fogne nascosto (Percezione CD 14)
+15. **L2 - Sala [H]: ERMOLAO** seduto. Sa dell'uscita fogne e dei pericoli.
+16. **L2 - Sala [I]: ZERBINO MIMIC** (TRIVIAL) davanti alla porta. Dentro: Yellow Mold (CON CD 15, 2d10).
+17. **L2 - Corridoio [L]: PIERCER** (stalattite, 3d6 singolo attacco). Porta ferro → L3.
+18. **L3 - Scala [M]: GELATINOUS CUBE** subito davanti (Percezione CD 15). Blocca il passaggio.
+19. **L3 - Corridoio [O]: 6 porte, 2 MIMIC** (HARD insieme). Le prime 2 che toccano.
+20. **L3 - Stanza [P]: SCRIGNO MIMIC** (MEDIUM). Troppo bello per essere vero.
+21. **L3 - Cella [Q]: MICHELANGELI** svenuto. Porta aperta. Serve cure per svegliarlo.
+22. **USCITA:** risalgono scala L3→L2, Ermolao li guida fogne → fuori.
 
 ---
 
 ## Stat block
 
+### Swarm of Rats (×1, L2)
+
+| CA | PF | Velocità | Attacco |
+|----|----|----------|---------|
+| 10 | 24 | 9m/30ft | Morsi +2, 2d6 (1d6 sotto metà PF) |
+
+- Resistenza: contundenti, perforanti, taglienti (metà danno). Fuggono sotto 7 PF.
+
 ### Guard (×3, L1)
 
 | CA | PF | Velocità | Attacco |
 |----|----|----------|---------|
-| 16 | 11 | 9m/30ft/6qd | Spada corta +3, 1d6+1 |
+| 16 | 11 | 9m/30ft | Spada corta +3, 1d6+1 |
 
 Si arrendono se 2/3 cadono.
 
-### Mimic giovane (×1, L2 porta)
+### Mimic giovane (×1, L2 zerbino)
 
 | CA | PF | Velocità | Attacco |
 |----|----|----------|---------|
-| 11 | 15 | 4,5m/15ft/3qd | Morso +3, 1d4+1 |
+| 11 | 15 | 4,5m/15ft | Morso +3, 1d4+1 |
 
-- **Adhesive:** FOR CD 10 per staccarsi
-- Sembra una porta. Si affloscia come carne quando muore.
+- Adhesive: FOR CD 10. Si affloscia come carne quando muore.
 
-### Mimic (×2, L2 sala grande)
+### Piercer (×1, L2 corridoio)
 
 | CA | PF | Velocità | Attacco |
 |----|----|----------|---------|
-| 12 | 58 | 4,5m/15ft/3qd | Morso +5, 1d8+3 |
+| 15 | 22 | 0 (cade) | +3, 3d6 perforanti (singolo attacco) |
 
-- **Adhesive:** FOR CD 13 per staccarsi
-- **Pseudopod:** +5, 1d8+3 contundenti
-- Sedia (attacca chi si siede) e scala a pioli (pioli si chiudono sulla mano)
-- Sotto 15 PF fuggono strisciando
+- Cade su chi passa sotto. Se manca: mollusco a terra, CA 5, indifeso.
 
 ### Gelatinous Cube (×1, L3)
 
 | CA | PF | Velocità | Attacco |
 |----|----|----------|---------|
-| 6 | 84 | 4,5m/15ft/3qd | Pseudopod +4, 3d6 acido |
+| 6 | 84 | 4,5m/15ft | Pseudopod +4, 3d6 acido |
 
-- **Transparent:** Percezione CD 15 (monete e scheletri "sospesi nel nulla")
-- **Engulf:** DES CD 12. 3d6 acido/turno. Accecato, trattenuto, non respira.
-- Avanza 1 qd/turno verso i PG
-- Dentro: 2 scheletri di ratto, fibbia, 14 ma
+- **Transparent:** Percezione CD 15
+- **Engulf:** DES CD 12. 3d6 acido/turno. Accecato, trattenuto.
+- Avanza 1 qd/turno. Dentro: 14 ma, fibbia, 2 scheletri ratto.
+
+### Mimic (×3, L3: 2 porte + 1 scrigno)
+
+| CA | PF | Velocità | Attacco |
+|----|----|----------|---------|
+| 12 | 58 | 4,5m/15ft | Morso +5, 1d8+3 |
+
+- **Adhesive:** FOR CD 13
+- **Pseudopod:** +5, 1d8+3
+- Sotto 15 PF fuggono strisciando. Non si coordinano.
 
 ### Mafalda Silverbain (spia, indagine)
 
 | CA | PF | Velocità | Attacco |
 |----|----|----------|---------|
-| 12 | 27 | 9m/30ft/6qd | Spada corta +4, 1d6+2 |
+| 12 | 27 | 9m/30ft | Spada corta +4, 1d6+2 |
 
-- Sneak Attack 2d6, Cunning Action
-- Inganno +5, Furtività +4, Intuizione +5
-- Non combatte in svantaggio numerico, fugge
+- Sneak Attack 2d6, Cunning Action. Inganno +5, Furtività +4. Fugge se in svantaggio.
 
 ---
 
@@ -104,124 +144,34 @@ Si arrendono se 2/3 cadono.
 
 | Situazione | Tipo | CD | Effetto |
 |-----------|------|-----|---------|
-| Notare Mafalda | Percezione | 13 | La riconoscono |
+| Notare Mafalda | Percezione | 15 | La riconoscono |
 | Seminare Mafalda | Furtività (gruppo) | 13 | La perdono |
-| Interrogare Mafalda | Intimidazione | 17/20 | Info base / info dungeon |
-| San Giovanni (senza Gorim) | Persuasione | 14 | Le guardie lasciano entrare |
-| Far parlare Ortensia (fallback) | Persuasione | 16 | Solo se non la adulano |
-| Gorim ammette | Persuasione | 15 | "Le chiavi le ha la Contessina" |
-| Gorim dà accesso (con prove) | Persuasione | 12 | Apre il dungeon per loro |
+| Notare passaggio fogne [G] | Percezione | 14 | Vedono la breccia |
+| Cercare passaggio fogne | Investigation | 10 | Lo trovano se cercano |
 | Furtività vs guardie L1 | Furtività | 12 | Bypassano senza combattere |
 | Borseggio chiave L1 | Rapidità di mano | 14 | Chiave senza combattere |
-| Scendere dal pozzo | Atletica | 12 | Con corda, entra al L2 |
-| Notare trappola dardi | Percezione | 13 | Evitano la piastra |
-| Disarmare trappola | Arnesi | 12 | Dardi neutralizzati |
+| Notare Yellow Mold | Percezione | 12 | Non la disturbano |
+| Notare Piercer | Percezione | 13 | Evitano la stalattite |
 | Notare Gelatinous Cube | Percezione | 15 | Monete sospese nel nulla |
-| Scassinare cella Michelangeli | Arnesi | 14 | Apre senza chiave |
-| Sfondare cella | Forza | 16 | Apre senza chiave |
+| Svegliare Michelangeli | Medicina | 10 | Conferma: disidratazione, vivo |
 
 ---
 
-## Mappe
+## Battute pronte
 
-### L1 - Prigione attiva
+**Zerbino mimic (L2):** *"Lo zerbino vi si avvolge attorno al piede. Denti spuntano dal bordo. Vi guarda dal basso con un occhio giallastro."*
 
-```
-╔═══════════════════════════════════╗
-║  [A] SCALA DAL CASTELLO          ║
-║         ↓                         ║
-║  ┌──────────────────┐            ║
-║  │ [B] GUARDIA       │            ║
-║  │  T    G  G  G    │            ║
-║  │  (carte, boccali) │            ║
-║  └────────┬─────────┘            ║
-║           ↓                       ║
-║  ┌──────────────────────────┐    ║
-║  │ [C] CORRIDOIO CELLE      │    ║
-║  │                           │    ║
-║  │ [1] Er Braccio  ║ [2] debit║  ║
-║  │ [3] ubriacone   ║ [4] vuota║  ║
-║  │                           │    ║
-║  └────────┬─────────────────┘    ║
-║           ↓                       ║
-║  [D] PORTA FERRO (chiave capo)   ║
-║           ↓                       ║
-║      SCALA → L2           ↕ CARRUCOLA (fune fino L3)
-╚═══════════════════════════════════╝
-```
+**Pavimento pulito L3:** *"Il corridoio è stranamente pulito da qui in avanti. Come se qualcosa avesse... leccato il pavimento."*
 
-### L2 - Segrete abbandonate
+**Engulf (Cube):** *"L'aria diventa densa. Vi circonda qualcosa di freddo e viscoso. Non riuscite a respirare."*
 
-```
-╔═══════════════════════════════════════════════════╗
-║  [E] Scala L1          [F] Pozzo (cortile nord)  ║
-║       ↓                      ↓                    ║
-║  ┌─────────────────────────────────┐             ║
-║  │ [G] CORRIDOIO UMIDO             │             ║
-║  │ (acqua caviglie, funghi verdi)   │             ║
-║  └──────────────┬──────────────────┘             ║
-║                 ↓                                  ║
-║            [H] BIVIO                              ║
-║           /    |    \                             ║
-║          ↙     ↓     ↘                           ║
-║  ┌────────┐ ┌────────────────┐ ┌──────────┐     ║
-║  │[I] ALA  │ │[J] ALA OVEST  │ │[K] SUD   │     ║
-║  │ EST     │ │               │ │          │     ║
-║  │         │ │  ?  SEDIA  ?  │ │ [piastra]│     ║
-║  │ [PORTA] │ │  SCALA    ?   │ │  dardi   │     ║
-║  │ MIMIC!  │ │  MIMIC×2     │ │          │     ║
-║  │         │ │  +baule(loot)│ │    ↓     │     ║
-║  │ Sberluc.│ │               │ │ SCALA L3 │     ║
-║  └────────┘ └────────────────┘ └──────────┘     ║
-╚═══════════════════════════════════════════════════╝
-```
+**Porta mimic L3:** *"La maniglia vi morde la mano. Il legno si piega. Due occhi giallastri si aprono dove stava la toppa."*
 
-### L3 - Dungeon profondo (BUIO TOTALE)
+**Scrigno mimic:** *"Il coperchio si apre — ma non c'è un fondo. Solo denti. Il bordo dorato vi si chiude sulla mano."*
 
-```
-╔═══════════════════════════════════════════════╗
-║  [L] Scala dal L2                             ║
-║       ↓                                       ║
-║  ┌────────────────────────────────────────┐   ║
-║  │ [M] CORRIDOIO LUNGO (18m)              │   ║
-║  │                                        │   ║
-║  │  (pavimento pulito - indizio!)         │   ║
-║  │                                        │   ║
-║  │         ████████████████               │   ║
-║  │         █ GELATINOUS  █               │   ║
-║  │         █   CUBE      █               │   ║
-║  │         █ (14ma,ossa) █               │   ║
-║  │         ████████████████               │   ║
-║  │                                        │   ║
-║  └────────────────┬───────────────────────┘   ║
-║                   ↓                            ║
-║  ┌────────────────────────┐                   ║
-║  │ [N] ANTICAMERA         │                   ║
-║  │ (porta NORMALE)        │                   ║
-║  └────────────┬───────────┘                   ║
-║               ↓                                ║
-║  ┌────────────────────────────────┐           ║
-║  │ [O] CELLA MICHELANGELI        │           ║
-║  │                                │           ║
-║  │  M = Michelangeli              │           ║
-║  │  (disegni a carboncino pareti) │           ║
-║  │  (volto donna ricorrente)      │  ↕ CARRUCOLA
-║  └────────────────────────────────┘           ║
-╚═══════════════════════════════════════════════╝
-```
+**Michelangeli:** *"Un uomo magro, barba lunga. Steso a terra, non si muove. Respira appena. Le pareti attorno coperte di disegni — centinaia di volti vi guardano dal buio."*
 
----
-
-## Loot
-
-| Fonte | Oggetto | Valore |
-|-------|---------|--------|
-| Arimano (fine indagine) | 2 mo/testa | 8 mo |
-| Arimano (dopo liberazione) | 12 mo | 12 mo |
-| Baule L2 sala grande | 3 mo, pugnale arrugginito, diario sbiadito | 3 mo |
-| Gelatinous Cube (dentro) | 14 ma, fibbia di cintura | 1.4 mo |
-| Guardie L1 | Spade corte, scudi, chiavi | ~ |
-| Cella Michelangeli | Disegni a carboncino (valore narrativo) | — |
+**Se risvegliato:** *"...siete veri? Non sono... non siete disegni?"*
 
 ---
 
@@ -229,36 +179,33 @@ Si arrendono se 2/3 cadono.
 
 | Chi | Dove | Reazione | Cosa sa |
 |-----|------|----------|---------|
-| **Er Braccio** | L1, cella 1 | "Le beccaccine! Tiratemi fuori!" | Niente. Conferma che la Contessina cercava info sulla S. |
+| **Er Braccio** | L1, cella 1 | "Le beccaccine! Tiratemi fuori!" | Niente. Contessina cercava info sulla S. |
 | Debitore | L1, cella 2 | Piange | Niente |
 | Ubriacone | L1, cella 3 | Dorme | Niente |
-| **Sberluccica** | L2, ala est | Piange, terrorizzato | Ha sentito qualcuno cantare sotto. Guardie chiedevano dei quadri. |
-| **Michelangeli** | L3, cella | "...siete veri?" | Ha dipinto il Conte, posato con donna bellissima. Non sa chi sia S. |
+| **Sberluccica** | L1, cella 4 | Piange, terrorizzato | Sentito cantare dal pozzo. Guardie chiedevano dei quadri. |
+| **Michelangeli** | L3, cella Q | Svenuto | Dipinto il Conte con donna bellissima. Non sa chi sia S. |
 
 ---
 
-## Milestone
+## Mappe
 
-**Livello:** 4
-**Quando:** dopo il rapporto ad Arimano (PRIMA del dungeon)
-**Pausa:** 5 min per aggiornare schede
+Vedi PNG: CastleDungeonL1.png, CastleDungeonL2.png, CastleDungeonL3.png nella directory maps/.
 
 ---
 
 ## Promemoria
 
-- **Entrata consigliata:** fogne via Ermolao (bypassa L1, uscita pulita). Pozzo se non trovano Ermolao. Gorim se vogliono la via legale.
-- **Uscita:** Ermolao li guida per le fogne → escono dalla botola di Terzilio. Nessuno li vede. La Contessina scopre la fuga in 1-2 giorni (prossima consegna cibo via carrucola).
+- **Entrata consigliata:** fogne via Ermolao (bypassa L1). Pozzo se non trovano Ermolao. Gorim via legale.
+- **Uscita:** risalgono L3→L2, Ermolao li guida fogne → fuori. Carovana comica.
+- **Michelangeli svenuto:** serve acqua/cibo o Healing Word / Cure Wounds. Medicina CD 10. Peso morto da portare.
+- **Tubo vettovaglie [N]:** troppo stretto (50cm), non ci passa nessuno. Solo cibo dal L1.
+- **Cube blocca la scala:** Michelangeli non è mai uscito per paura del cube.
 - **Timer:** se neutralizzano guardie L1, cambio turno in 1d4+3 ore.
-- **Ermolao al bivio L2:** seduto, medita, fungo sulla spalla. "Le fogne sono collegate a tutto." Conosce i pericoli. Li guida fuori se chiedono.
-- **Tic "Ma parliamo di..."** se usate lo scaricatore di porto
-- **Gag mimic:** dopo il primo, pausa teatrale a ogni oggetto. "Sei sicuro?"
-- **Secchio (L2 cella Sberluccica):** NON è un mimic. Lo colpiranno.
-- **Porta L3 (anticamera):** NON è un mimic. La colpiranno. "È solo una porta."
-- **Diario nel baule:** "giorno 43. La cosa sulla sedia mi guarda." (conferma mimic-sedia)
-- **Pavimento pulito L3:** indizio del Gelatinous Cube. "Come se qualcosa avesse leccato."
+- **Ermolao al L2 [H]:** seduto, medita, fungo sulla spalla. Li guida fuori se chiedono.
+- **Gag mimic:** dopo il primo (zerbino), pausa teatrale a ogni oggetto. "Sei sicuro?"
+- **Porte L3:** 6 porte, 2 mimic. Le prime 2 che toccano sono mimic. Le altre normali.
+- **Scrigno L3:** se lo attaccano a distanza, sospira e striscia via. Gag.
 - **Disegni Michelangeli:** volto di donna ricorrente = moglie di Arimano (seme per P6)
-- **Er Braccio:** se liberato, deve soldi ai PG. Gratitudine goffa. Potenziale alleato nel finale.
-- **Risalita:** carovana comica (Michelangeli non cammina, Sberluccica piange, Er Braccio bestemmia, Ermolao lento e filosofico)
-- **Gorim + Burmini:** "Il Conte è all'estero. Affari nel Burmini." (seme per il finale)
+- **Er Braccio:** se liberato, gratitudine goffa. Potenziale alleato nel finale.
+- **Risalita:** carovana comica (Michelangeli peso morto, Sberluccica piange, Er Braccio bestemmia)
 - **Mafalda:** se non gestita, +2 CD sociali e 4 guardie al L1

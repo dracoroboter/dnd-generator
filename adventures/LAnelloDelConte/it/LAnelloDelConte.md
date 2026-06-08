@@ -210,7 +210,7 @@ Commerciante itinerante. Vendeva pozioni rinvigorenti (marchio "Immane Alabarda"
 
 Capo della banda al Magazzino 4. Grosso, violento, ce l'ha col Conte per le tasse. Falsa pista per S.
 
-- **Dove:** Vetusta Portus, porto (Magazzino 4). Probabilmente fuggito dopo P3-4.
+- **Dove:** Vetusta Portus, porto (Magazzino 4). Catturato dalla Contessina dopo la fuga dal magazzino (P3). Prigioniero nel dungeon del castello (P5).
 - **Cosa sa:** Arimano gli deve soldi. Non sa nulla di S. Non è S.
 - **Come si comporta:** Insulta il Conte, vuole i soldi. Non dice il suo vero nome ("Er Braccio. Basta.").
 
@@ -351,6 +351,7 @@ Elenco di tutti gli indizi seminati nell'avventura che collegano il Marchese Ari
 | 3 | Marchese Arimano (cena) | "Ma non parliamo di politica. Parliamo di affari." |
 | 4 | Lavandaia | "Ma parliamo di cose serie" |
 | 4 | Signore coi baffi | "Ma parliamo di cose interessanti" |
+| 5 | Scaricatore di porto | "Ma parliamo di cose che contano" |
 
 ### Capacita narrative di Sergius (non meccaniche)
 

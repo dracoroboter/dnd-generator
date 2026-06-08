@@ -1,1 +1,32 @@
-Top-down dungeon map, dark fantasy style, ink and parchment aesthetic. Deep underground level, total darkness except for player light sources. Five rooms. Room 1: circular chamber with domed ceiling, well shaft opening in center ceiling with dangling basket on rope, puddle beneath. Room 2: very long straight corridor (60ft), low ceiling, the first half has dust and debris on floor, the second half is suspiciously clean and polished (Gelatinous Cube territory), a few coins and rat skeletons seem to float in mid-air in the clean section (suspended inside transparent cube). Room 3: small square antechamber, completely empty, single sturdy wooden door on far wall. Room 4: rectangular cell, walls completely covered in charcoal drawings (portraits, landscapes, a recurring woman's face), a thin bearded man sitting against the wall, basket hanging from ceiling hole (well shaft from above). Cold blue-black palette with warm spots only where light sources are placed. Wet stone textures. Grid overlay 5ft squares. No text, no labels.
+Generate a top-down 2D dungeon battle map. Flat overhead view, camera directly above looking straight down. NOT 3D, NOT isometric, NOT perspective. Dark fantasy style, same artistic style as the attached reference image (CastleDungeonL1.png).
+
+LAYOUT (square canvas, approximately 25x25 grid squares):
+
+TOP-CENTER: A stone staircase descending from above (arrival from L2). Small landing (10ft x 10ft). Immediately in front of the stairs: a large translucent greenish cube shape occupying a 10ft section of corridor (Gelatinous Cube — show coins and small bones floating/suspended inside it). Label: M.
+
+TOP-RIGHT: A narrow vertical pipe/shaft (stone rim, 2ft diameter — too narrow for a person) opening in the ceiling. Same provision tube from L2 above. A few old food scraps on the floor below it. Label: N.
+
+CENTER: A long corridor running north-to-south (50ft long, 10ft wide) with 6 doors on the sides (3 on each side). The doors are old wood with iron handles. TWO of the doors (not adjacent to each other) look slightly different — shinier, better maintained, handles that gleam (these are Mimics disguised as doors). The other 4 doors are normal and some are ajar, showing empty cells behind them. Label: O.
+
+BOTTOM-LEFT: One of the side rooms (15ft x 10ft), door open. Inside: a treasure chest (ornate, with gold trim — this is a Mimic disguised as a chest). Some scattered coins on the floor near it (bait). Old chains on the wall. Label: P.
+
+BOTTOM-RIGHT: A cell (15ft x 10ft), door open (normal door, NOT a mimic). Inside: walls covered in charcoal drawings — faces, portraits, a woman's face repeated. A thin bearded man lying unconscious on the floor against the far wall. A makeshift bed of rags. An empty water bowl. Tally marks scratched into the wall. A stub of charcoal near his hand. Label: Q.
+
+CONNECTIONS:
+- M (top, stairs + cube) leads into the top of corridor O
+- N (top-right, provision shaft) is a small alcove off the top of corridor O
+- O (central corridor) has 6 doors along its length, leading to side cells
+- P (bottom-left) is one of the side rooms (door open)
+- Q (bottom-right) is the last cell at the end of the corridor (door open)
+
+STYLE:
+- Darker than L2 but NOT pitch black — faint torch sconces (mostly burnt out), one or two still glowing faintly with embers
+- Cold stone, damp walls, condensation drops
+- The Gelatinous Cube should be shown as a semi-transparent square shape with objects visible inside
+- The two mimic-doors should look subtly shinier/cleaner than the other doors
+- The chest in P should look inviting and out-of-place (too nice for this dungeon)
+- Charcoal drawings in Q visible as dark marks/scratches on walls
+- 5ft grid overlay (subtle gray lines)
+- White circles with black capital letters for labels (M, N, O, P, Q)
+- Square canvas
+- NO text other than the single-letter labels

@@ -439,6 +439,18 @@ Struttura decisa: **6 puntate totali** (5 scritte + 1 da scrivere).
 - P6: smascheramento Sergius, scelta, esplosione, fine
 
 - [ ] La vendetta di Sergius si compie o viene interrotta dall'esplosione?
+
+### Cella vuota al L2 del dungeon (da decidere)
+
+La cella nell'ala est del L2 mostra segni di occupazione recente (paglia fresca, cibo non ammuffito, catene aperte). Chi c'era?
+
+Possibilità:
+- Un altro pittore/artista della rete di S, già spostato o morto
+- Un informatore della Contessina che sapeva troppo
+- Nessuno di rilevante (il mistero resta irrisolto, colore locale)
+- Un personaggio che ritorna nella puntata finale
+
+Da decidere prima di giocare la P5, oppure lasciare come mistero aperto.
 - [ ] I PG alla fine sono dalla parte di Sergius, contro di lui, o ambigui? (dipende dai giocatori)
 - [ ] Cosa resta irrisolto volutamente per Il Re Spezzato?
 
