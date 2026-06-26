@@ -12,7 +12,7 @@
 INDAGINE (~1h)          MILESTONE         DUNGEON (~2h)              USCITA
 NPC → info → dove?  →  lv3→lv4  →  L1(guardie) o fogne  →  Ermolao fogne
                                          ↓
-                                    L2: ratti + zerbino mimic + Ermolao + piercer
+                                    L2: ratti + zerbino mimic + Ermolao + darkmantle
                                          ↓
                                     L3: Gelatinous Cube → mimic porte/scrigno → Michelangeli
 ```
@@ -29,7 +29,8 @@ NPC → info → dove?  →  lv3→lv4  →  L1(guardie) o fogne  →  Ermolao f
 | 2 | L2 | Swarm of Rats | TRIVIAL | Fuggono sotto 7 PF |
 | 3 | L2 | Mimic giovane (zerbino) | TRIVIAL | Paranoia installata |
 | 4 | L2 | Yellow Mold | Trappola | CON CD 15, 2d10 veleno |
-| 5 | L2 | Piercer (stalattite) | TRIVIAL | 1 attacco solo, 3d6 |
+| 5 | L2 | Darkmantle (stalattite) | TRIVIAL | Crush + buio magico, FOR CD 13 staccare |
+| 5b | L2 | Mimic (porta a terra) | MEDIUM | Finta botola, sotto non c'è niente |
 | 6 | L3 | Gelatinous Cube | MEDIUM | Percezione CD 15, Engulf DES CD 12 |
 | 7 | L3 | 2 Mimic (porte) | HARD | Le prime 2 porte che toccano |
 | 8 | L3 | Mimic (scrigno) | MEDIUM | Troppo bello per essere vero |
@@ -67,7 +68,7 @@ NPC → info → dove?  →  lv3→lv4  →  L1(guardie) o fogne  →  Ermolao f
 14. **L2 - Caverna [G]:** passaggio fogne nascosto (Percezione CD 14)
 15. **L2 - Sala [H]: ERMOLAO** seduto. Sa dell'uscita fogne e dei pericoli.
 16. **L2 - Sala [I]: ZERBINO MIMIC** (TRIVIAL) davanti alla porta. Dentro: Yellow Mold (CON CD 15, 2d10).
-17. **L2 - Corridoio [L]: PIERCER** (stalattite, 3d6 singolo attacco). Porta ferro → L3.
+17. **L2 - Corridoio [L]: DARKMANTLE** (stalattite, Crush +5 1d6+3, Darkness Aura 15ft) + **MIMIC porta a terra** (finta botola, MEDIUM). Vera porta ferro → L3 in fondo.
 18. **L3 - Scala [M]: GELATINOUS CUBE** subito davanti (Percezione CD 15). Blocca il passaggio.
 19. **L3 - Corridoio [O]: 6 porte, 2 MIMIC** (HARD insieme). Le prime 2 che toccano.
 20. **L3 - Stanza [P]: SCRIGNO MIMIC** (MEDIUM). Troppo bello per essere vero.
@@ -102,13 +103,15 @@ Si arrendono se 2/3 cadono.
 
 - Adhesive: FOR CD 10. Si affloscia come carne quando muore.
 
-### Piercer (×1, L2 corridoio)
+### Darkmantle (×1, L2 corridoio)
 
 | CA | PF | Velocità | Attacco |
 |----|----|----------|---------|
-| 15 | 22 | 0 (cade) | +3, 3d6 perforanti (singolo attacco) |
+| 11 | 22 | 10ft, fly 30ft | Crush +5, 1d6+3 contundenti |
 
-- Cade su chi passa sotto. Se manca: mollusco a terra, CA 5, indifeso.
+- **Crush:** si attacca alla testa. Bersaglio accecato + non respira. FOR CD 13 per staccarlo.
+- **Darkness Aura (1/giorno):** 15ft di buio magico. Darkvision non funziona.
+- False Appearance: indistinguibile da stalattite.
 
 ### Gelatinous Cube (×1, L3)
 
@@ -151,7 +154,7 @@ Si arrendono se 2/3 cadono.
 | Furtività vs guardie L1 | Furtività | 12 | Bypassano senza combattere |
 | Borseggio chiave L1 | Rapidità di mano | 14 | Chiave senza combattere |
 | Notare Yellow Mold | Percezione | 12 | Non la disturbano |
-| Notare Piercer | Percezione | 13 | Evitano la stalattite |
+| Notare Darkmantle | Percezione | 13 | Evitano la stalattite |
 | Notare Gelatinous Cube | Percezione | 15 | Monete sospese nel nulla |
 | Svegliare Michelangeli | Medicina | 10 | Conferma: disidratazione, vivo |
 
@@ -205,7 +208,67 @@ Vedi PNG: CastleDungeonL1.png, CastleDungeonL2.png, CastleDungeonL3.png nella di
 - **Gag mimic:** dopo il primo (zerbino), pausa teatrale a ogni oggetto. "Sei sicuro?"
 - **Porte L3:** 6 porte, 2 mimic. Le prime 2 che toccano sono mimic. Le altre normali.
 - **Scrigno L3:** se lo attaccano a distanza, sospira e striscia via. Gag.
-- **Disegni Michelangeli:** volto di donna ricorrente = moglie di Arimano (seme per P6)
+- **Disegni Michelangeli:** vari, nessuno riconoscibile. Su richiesta, Michelangeli può fare uno schizzo della donna del quadro.
 - **Er Braccio:** se liberato, gratitudine goffa. Potenziale alleato nel finale.
 - **Risalita:** carovana comica (Michelangeli peso morto, Sberluccica piange, Er Braccio bestemmia)
 - **Mafalda:** se non gestita, +2 CD sociali e 4 guardie al L1
+
+---
+
+## Preparazione Roll20
+
+### Mappe da caricare
+
+| Pagina | File | Griglia | Note |
+|--------|------|---------|------|
+| Dungeon L1 | `maps/CastleDungeonL1.png` | 5ft | Guardie, celle prigionieri, pozzo |
+| Dungeon L2 | `maps/CastleDungeonL2.png` | 5ft | Ratti, Ermolao, zerbino, piercer |
+| Dungeon L3 | `maps/CastleDungeonL3.png` | 5ft | Cube, corridoio porte, scrigno, Michelangeli |
+
+Non serve mappa per l'indagine (teatro della mente).
+
+### Token da piazzare
+
+**L1 — Posto di guardia [B]:**
+- 3× Guard (al tavolo, giocano a carte)
+- Token Er Braccio in cella 1
+- Token Sberluccica in cella 4
+
+**L2 — Scala [F]:**
+- 1× Swarm of Rats (sul mucchio di cibo)
+
+**L2 — Bivio [H]:**
+- 1× Ermolao (seduto, GM layer — rivelare quando entrano)
+
+**L2 — Davanti porta [I]:**
+- 1× Mimic giovane (aspetto: zerbino — GM layer, rivelare al tocco)
+
+**L2 — Corridoio [L]:**
+- 1× Darkmantle (GM layer, sul soffitto — rivelare quando si attacca o viene notato)
+- 1× Mimic (aspetto: porta di legno a terra — GM layer, rivelare al tocco)
+
+**L3 — Scala [M]:**
+- 1× Gelatinous Cube (GM layer, largo quanto il corridoio — rivelare a Percezione CD 15 o contatto)
+
+**L3 — Corridoio [O]:**
+- 2× Mimic (aspetto: porte — GM layer, rivelare al tocco. Piazzare sulla 2ª porta sx e 3ª porta dx, o le prime 2 toccate)
+
+**L3 — Stanza [P]:**
+- 1× Mimic (aspetto: scrigno — GM layer)
+
+**L3 — Cella [Q]:**
+- 1× Michelangeli (a terra, incapacitato)
+
+### Schede NPC da creare/importare
+
+| Creatura | Fonte | Azione |
+|----------|-------|--------|
+| Guard | SRD Compendium | Importa (cerca "Guard") |
+| Swarm of Rats | SRD Compendium | Importa |
+| Mimic | SRD Compendium | Importa |
+| Gelatinous Cube | SRD Compendium | Importa |
+| Spy (Mafalda) | SRD Compendium | Importa |
+| Darkmantle | SRD Compendium | Importa |
+| Mimic giovane | — | Crea NPC: CA 11, PF 15, Bite +3 1d4+1. Adhesive DC 10. |
+
+

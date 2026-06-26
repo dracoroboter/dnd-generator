@@ -41,9 +41,9 @@ Sergius ha costruito un fiorente commercio clandestino su due prodotti:
 
 1. **Ritratti di nudi** ("deep fake" pittorici) - S faceva da tramite. I committenti erano facoltosi (spesso nobili, ma non solo) che volevano ritratti idealizzati di sé stessi o di altri. Di solito il consenso del soggetto c'era. I pittori (come Sberluccica) ricevevano descrizioni dettagliate via lettera firmata con la doppia S e dipingevano senza mai incontrare né il committente né il soggetto. Prodotti **esclusivamente** tramite la rete di S - nessun altro offriva questo servizio.
 
-   **Il caso del Conte:** Svariati facoltosi avevano commissionato ritratti del Conte nudo per soddisfare le proprie voglie - senza il consenso del Conte. Il Conte, quando l'ha scoperto, si è divertito. Tanto che una volta ha deciso di posare di persona per un **vero** ritratto nudo, con la moglie di Arimano (rinomata per la bellezza). Il quadro è stato commissionato al pittore **Candido Michelangeli**. Il Conte non ha mai pagato.
+   **Il caso del Conte:** Svariati facoltosi avevano commissionato ritratti del Conte nudo per soddisfare le proprie voglie - senza il consenso del Conte. Il Conte, quando l'ha scoperto, si è divertito. Tanto che ha deciso di posare di persona per un **vero** ritratto nudo, commissionato al pittore **Candido Michelangeli**. Nel quadro compare anche **Viola** (moglie di Arimano, rinomata per la bellezza), anche lei nuda. Conte e Viola sono stati dipinti dal vivo ma in due momenti separati — non stavano posando insieme. Viola è stata pagata come modella, il pagamento serviva a non sollevare sospetti. La verità è che il Conte voleva un quadro suo con Viola. Dopo la Gabella ha deciso che era troppo pericoloso (avrebbe litigato con la moglie) e non ha più voluto il quadro. Non ha mai pagato Michelangeli.
 
-   **Il pittore del quadro vero: Candido Michelangeli.** Faceva parte della rete di Arimano (come Sberluccica). Il Conte ha commissionato il quadro tramite la rete, come tutti. Arimano non ha mai visto il contenuto — i quadri venivano consegnati sigillati. Il Conte non ha mai pagato (il debito è verso Arimano). Arimano è andato da Michelangeli travestito, gli ha detto che il committente si era rifiutato di pagare. Michelangeli gli ha ceduto il quadro per pochi spiccioli — con la Gabella quel mercato stava morendo e voleva liberarsene. Arimano ha visto il contenuto solo dopo: sua moglie. Ora Arimano ha il quadro. Vorrebbe usarlo ma non può (c'è la moglie).
+   **Il pittore del quadro vero: Candido Michelangeli.** Faceva parte della rete di Arimano (come Sberluccica). Il Conte ha commissionato il quadro tramite la rete, come tutti. Arimano non ha mai visto il contenuto — i quadri venivano consegnati sigillati. Il quadro è rimasto a Michelangeli dopo che il Conte ha rifiutato di pagare e ritirare. Arimano è andato da Michelangeli travestito, gli ha detto che il committente si era rifiutato di pagare. Michelangeli gli ha ceduto il quadro per pochi spiccioli — con la Gabella quel mercato stava morendo e voleva liberarsene. Arimano ha visto il contenuto solo dopo: sua moglie. Ora Arimano ha il quadro. Vorrebbe usarlo ma non può (c'è la moglie).
 
    La Contessina, indagando sui deepfake, è risalita a Michelangeli. Lo ha fatto arrestare illegalmente, per rabbia — arresto segreto, se si sapesse creerebbe scontento e sommosse. Michelangeli è nel dungeon del castello da molto tempo. La Contessina non sa del quadro vero — ha arrestato Michelangeli perché era un pittore di nudi.
 
@@ -138,6 +138,8 @@ Funzionario del Conte, ex-capitano della guarnigione. Tarchiato, pancia prominen
 - **Guardie del castello:** incorruttibili, leali. Gorim ha lasciato una lista con i nomi dei PG: "lasciateli entrare solo se dicono che hanno informazioni."
 
 **Se i PG chiedono del Conte:** Sa che è sempre in viaggio. Dalla P5 in poi menziona il Burmini senza dargli peso.
+
+**Gorim come motore dell'avventura:** Il DM può usare Gorim liberamente per far avanzare la storia. Si presenta quando serve per chiedere aggiornamenti sulle indagini. Se i PG lo convincono (Persuasione variabile), paga e condivide quello che sa. Sulla Contessina mantiene il velo di ipocrisia (non può ammettere nulla per la posizione che ricopre, servirebbero prove schiaccianti per il Conte) — toglie il velo solo dopo aver visto il quadro, o in caso di scontro diretto con le guardie della Contessina (nel qual caso prende le parti dei PG).
 
 → Scheda: NPC_SirGorimVel
 
@@ -289,10 +291,11 @@ Nobile ad Aviano. Ha comprato un quadro piccante da Sergius. Sergius lo indicava
 
 ### Don Silverio Scannabue (modulo 5)
 
-Prete/chierico ad Aviano. Ipocrita totale — comprava quadri piccanti di nascosto.
+Chierico di Pelor ad Aviano. Tunica bianca dal bordo dorato, simbolo del sole sul petto. Ipocrita totale — comprava quadri piccanti di nascosto. Ha ancora dei quadri in casa.
 
-- **Dove:** Aviano, vicino al castello.
-- **Cosa sa:** Ha comprato ritratti tramite la rete di S. Non sa niente del quadro vero — stesse voci vaghe degli altri.
+- **Dove:** Canonica ad Aviano, vicino al castello.
+- **Aspetto:** Tunica bianca con bordo dorato, sole di Pelor sul petto.
+- **Cosa sa:** Ha comprato ritratti tramite la rete di S. Non sa niente del quadro vero né di Michelangeli — stesse voci vaghe degli altri. Pista morta.
 - **Come si comporta:** Nega tutto con indignazione religiosa. Difficile da incastrare.
 
 ### Dottor Salomone Spaccafegato (modulo 5)

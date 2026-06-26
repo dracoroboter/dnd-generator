@@ -357,7 +357,7 @@ La moglie, se interrogata, potrebbe essersene accorta.
     - Il guardiano del faro Salvuccio (trovato sulla scogliera)
   - [ ] Quando lo notano? (fine P6 o inizio P7?)
 - [ ] Sergius vuole essere portato dal Conte per rivelare il ritratto - come ci arrivano i PG?
-- [x] **Brandello della Puntata 2 vs ritratto del finale:** DECISO. Il brandello viene da un DEEPFAKE che Sergius ha fatto a pezzi per rabbia (a un certo punto non li vendeva più, invenduti dopo la Gabella). L'ha usato per la provocazione alla Festa. Il quadro vero (posato dal Conte, dipinto da Candido Michelangeli) ce l'ha Arimano. Sono due oggetti diversi. **Gag:** la Contessina, vedendo il brandello (nudita + stemma, senza faccia), riconosce che NON e il Conte. Sa di chi e. Non lo dice.
+- [x] **Brandello della Puntata 2 vs ritratto del finale:** ~~VECCHIA DECISIONE: deepfake separato.~~ **RETCON (16/06/2026):** Il brandello viene dal **quadro vero**. Arimano ha sfregiato il quadro per rabbia: ha bucato la faccia del Conte e ha strappato la striscia con i gioielli di famiglia (stemma nobiliare). Ha usato la striscia come provocazione alla Festa del Grazie. I PG hanno in mano un pezzo di prova autentica senza saperlo. Il quadro vero: ambiente bucolico rinascimentale, folletti e fate seminudi, Conte nudo in primo piano, moglie di Arimano riconoscibile a destra. Sfregiato: faccia bucata, striscia gioielli mancante (= brandello PG).
 - [ ] Sergius muore con alta probabilità - lasciare una porta aperta per la sopravvivenza o no?
 
 ### Il Burmini - decisioni prese
@@ -418,7 +418,7 @@ Il Burmini resta **volutamente indefinito**. Non si spiega tutto. I PG (e il DM)
 
 ### Arco narrativo generale
 
-Struttura decisa: **6 puntate totali** (5 scritte + 1 da scrivere).
+Struttura decisa: **7 puntate totali** (6 scritte + 1 in corso).
 
 | # | Titolo | Stato | Livello | Milestone |
 |---|--------|-------|---------|-----------|
@@ -426,10 +426,11 @@ Struttura decisa: **6 puntate totali** (5 scritte + 1 da scrivere).
 | 2 | La Festa del Grazie | Scritta, giocata | 2 | - |
 | 3 | Una Pizza in Compagnia | Scritta, giocata | 2-3 | Banditi sconfitti, merce restituita |
 | 4 | Il Corniciaio | Scritta, giocata | 3 | - |
-| 5 | Ritorno alle Fogne | Scritta, in corso | 3-4 | Scoprono dov'è Michelangeli (lv4), poi dungeon mimic e liberazione |
-| 6 | Il Finale di Stagione (XX3) | Draft | 4-5 | Sopravvivenza all'esplosione / fine avventura |
+| 5 | Ritorno alle Fogne | Scritta, in corso | 3-4 | Tornano da Arimano o entrano nel dungeon (lv4) |
+| 6 | I Nodi al Pettine | Scritta | 4 | - |
+| 7 | Il Finale di Stagione | Scritta | 4-5 | Sopravvivenza all'esplosione (lv5) |
 
-**Progressione:** lv1 - lv2 - lv2 - lv3 - lv3/4 - lv4/5. Livello finale: **5** (partenza per Il Re Spezzato).
+**Progressione:** lv1 - lv2 - lv2 - lv3 - lv3/4 - lv4 - lv4/5. Livello finale: **5** (partenza per Il Re Spezzato).
 **Regola:** almeno 2 puntate tra una milestone e la successiva.
 
 **Arco dei PG:**

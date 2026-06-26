@@ -263,7 +263,7 @@ I PG devono decifrare le tre frasi del discorso. Ogni frase indica un luogo. In 
 
 **Cosa trovano:** Sotto il banchetto dei ratti, un tubo di cuoio con la doppia S. Dentro:
 - Una fialetta vuota con un'etichetta: *"La Rocca Imponente - per i momenti che contano"* (logo: alabarda che sbuca da un cespuglio - marchio de "L'Immane Alabarda")
-- Un rotolo di pergamena: un frammento del **ritratto del Conte** - solo un angolo, abbastanza per capire che è un ritratto "artistico" ma non abbastanza per identificare il soggetto
+- Un rotolo di pergamena: un frammento del **ritratto del Conte** - una striscia di tela tagliata, abbastanza per capire che è un ritratto "artistico" ma non abbastanza per identificare il soggetto
 - Un biglietto: *"Il resto del ritratto è al sicuro. Se il vostro padrone lo rivuole, sa dove trovarmi. Ma dubito che abbia il coraggio. - S."*
 - Un secondo biglietto, con calligrafia diversa, più frettolosa: *"Non è il sottoscritto il vostro avversario, signori miei. Verrà il giorno in cui capirete da che parte stare. E quel giorno, vi assicuro, non sarà dalla parte del vostro padrone."*
 - Un sacchetto con **3 mo**

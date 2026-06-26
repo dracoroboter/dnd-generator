@@ -40,6 +40,13 @@ I PG parlano ancora con Sergius (Arimano). Gli dice di Michelangeli e di rivolge
 - Aspetto San Giovanni: baffetti stile anni '70, goatee (pizzetto), vestaglia da giorno lussuosa, monocolo, bastone. Parla con la R moscia in modo affettato. Brillantina sui capelli evidentemente tinti. Si presenta in "liseause" (negligé/vestaglia elegante).
 - **Cosa ha detto:** si dice — ma lo riferisce come "rumors" — che ci siano delle urla che provengono dal castello (Michelangeli).
 
+### Pista E — Don Silverio Scannabue (Aviano, pista morta)
+
+- Canonica ad Aviano, vicino al castello. Chierico di Pelor: tunica bianca dal bordo dorato, simbolo del sole sul petto.
+- Ha ancora dei quadri in casa. Non sa niente di utile — pista morta.
+- **Cosa è successo:** un PG si è fatto confessare e ha charmato Don Silverio, non ricavandone niente (non sa niente). Gli ha fatto promettere di non dire nulla a nessuno.
+- **Conseguenza:** Mafalda lo ha poi interrogato — presumibilmente ha ricavato solo che i PG stanno indagando.
+
 ### Bottega di Michelangeli (Monteverde)
 
 - La bottega è in una via laterale della via principale di Monteverde (via Selinunte S. Carini), quella che procede da est a ovest. Vicino al negozio di Sberluccica (chiuso) e allo speziale Scrocchiarello.
@@ -97,4 +104,5 @@ Aggiungere la bottega come location esplorabile nel modulo: via laterale Monteve
 
 ## Piano prossima sessione
 
+- **Level-up anticipato:** i PG partono a lv4 dall'inizio della sessione 8 (decisione pre-sessione 12/06/2026). Motivazione: evitare di livellare a metà sessione (scomodo). La milestone originale (dopo Atto 3) resta narrativamente valida, ma meccanicamente il livello è già applicato.
 - **Conseguenza Mafalda:** la Contessina sa che i PG indagano su Michelangeli. Potrebbe rinforzare le guardie al dungeon o preparare una trappola. Da decidere prima della sessione 8.

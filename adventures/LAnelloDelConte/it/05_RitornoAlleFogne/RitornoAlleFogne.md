@@ -2,7 +2,7 @@
 
 ## Descrizione
 
-**Party:** 4 PG lv3→lv4 (milestone dopo Atto 3, dungeon a lv4)
+**Party:** 4 PG lv4 (level-up anticipato prima della sessione per praticità)
 
 Arimano affida ai PG un compito: trovare il suo amico pittore Candido Michelangeli, sparito da tempo dopo essere stato portato via dalle guardie della Contessina. I PG indagano, scoprono che Michelangeli è nel dungeon sotto il castello, e scendono a liberarlo. Nel dungeon li attende un'infestazione di mimic.
 
@@ -235,7 +235,7 @@ Moglie di Grigius Voidus. Furiosa con la Contessina. **Arimano** (tramite interm
 - *"Le guardie della Contessina portano qualcuno da mangiare. Chissà chi sarà."* (Sarcasmo.)
 - *"Quella donna è capace di tutto. Ha fatto sparire il corniciaio, no? E prima di lui..."*
 
-### Pista D - Gorim
+### Pista D - Gorim / il Conte
 
 Se i PG gli chiedono del dungeon:
 
@@ -307,8 +307,8 @@ Arimano paga le 2 mo/testa promesse (8 mo) e offre 12 mo per la liberazione. Tot
 
 ## Milestone
 
-**Livello raggiunto:** 4
-**Trigger:** I PG scoprono dove si trova Michelangeli e riportano l'informazione ad Arimano
+**Livello 4:** I PG hanno abbastanza informazioni per andare nel dungeon, oppure tornano da Arimano a riferire.
+**Livello 5:** I PG escono dal dungeon del castello con Michelangeli.
 
 ---
 
@@ -333,7 +333,7 @@ Tre problemi che i PG devono risolvere. Non c'è una soluzione "giusta": tutte f
 
 #### Come hanno messo Michelangeli al L3
 
-Le guardie della Contessina lo hanno portato giù dalla scala del castello fino al L1, poi attraverso la porta di ferro e la scala fino al L2, e infine giù per la scala sud fino al L3. All'epoca (1.5 anni fa) il L2 era relativamente sicuro: i mimic non si erano ancora insediati. Il pozzo tra L2 e L3 era già stretto ma ancora percorribile.
+Le guardie della Contessina lo hanno portato giù dal magazzino esterno (scala [A]) fino al L1, poi attraverso la porta di ferro e la scala fino al L2, e infine giù per la scala sud fino al L3. All'epoca (1.5 anni fa) il L2 era relativamente sicuro: i mimic non si erano ancora insediati. Il pozzo tra L2 e L3 era già stretto ma ancora percorribile.
 
 Da allora due cose sono cambiate: i mimic si sono insediati al L2 (attirati dai ratti e dall'abbandono), e il pozzo ha subito un cedimento parziale tra L2 e L3 (umidità, peso della roccia). Le guardie non sanno del crollo: calano la cesta col cibo dal L1, la cesta passa ancora (è piccola), e non mandano mai nessuno di persona.
 
@@ -343,9 +343,11 @@ Da allora due cose sono cambiate: i mimic si sono insediati al L2 (attirati dai 
 
 | Via | Come funziona | Requisito | Dove arrivi |
 |-----|---------------|-----------|-------------|
-| **Scala castello → L1** | Gorim li fa entrare o bluff/forza sulle guardie di Gorim | Persuasione CD 12-15 / Inganno CD 14 | L1 posto di guardia |
+| **Scala castello → L1** | La scala sale fino a un magazzino esterno al castello (lucchetto dall'esterno, forzabile dall'interno CD 10) | Superare le guardie L1 | Magazzino → strada, fuori dalle mura |
 | **Pozzo cortile → L1** | Il pozzo del cortile nord scende fino alla sala carrucola del L1 | Furtività CD 13 (cortile di notte) + corda + Atletica CD 12 | L1 sala carrucola |
 | **Fogne → L2** | Ermolao conosce un passaggio dalla breccia nel corridoio umido | Trovare Ermolao nelle fogne + seguirlo | L2 corridoio umido |
+
+**Porta segreta nel cunicolo (P1):** i PG che tornano nelle fogne ricordando il cunicolo verso est (quello che "si restringeva fino a diventare impraticabile") possono cercarlo di nuovo. A metà del cunicolo c'è una porta segreta (Investigation CD 16, ma con vantaggio se sanno del dungeon → CD effettiva 11). Ermolao la conosce e la indica se accompagna i PG.
 
 Per andare oltre il L1 servono le chiavi della porta di ferro (capo-guardia) oppure la via delle fogne.
 
@@ -356,9 +358,9 @@ I PG escono con 1-3 prigionieri. Michelangeli non cammina da solo.
 | Via | Funziona? | Note |
 |-----|-----------|------|
 | **Fogne (via Ermolao)** | **SÌ, la più pulita** | Ermolao li guida dal L2 verso le fogne. Nessuno li vede. |
+| **Scala L1 → magazzino** | SÌ, se superano le guardie L1 + le 2 fuori | La scala [A] sale a un magazzino esterno alle mura del castello. Lucchettato dall'esterno, forzabile dall'interno (CD 10). **2 guardie della Contessina di pattuglia davanti alla porta esterna.** Si esce sulla strada senza passare dal castello. |
 | **Carrucola (pozzo L2 → L1 → cortile)** | Solo dal L2 | Il pozzo è ostruito tra L2 e L3. Funziona per risalire dal L2 al L1 (una persona alla volta). |
-| **Scala L3 → L2 → L1 → castello** | Rischioso | Serve attraversare L2, poi L1 (guardie) e poi il castello. |
-| **Scala + Gorim complice** | Funziona | "Io non ho visto niente." |
+| **Scala L3 → L2 → L1 → magazzino** | Rischioso | Serve attraversare L2, poi L1 (guardie), poi scala su al magazzino. |
 
 **Consiglio al DM:** non suggerire la soluzione. Il pozzo è ostruito tra L2 e L3, quindi i PG DEVONO passare per la scala sud per raggiungere (e tornare da) il L3. Ermolao al L2 è la valvola di sfogo per l'uscita finale.
 
@@ -424,7 +426,7 @@ Surreale, non horror. Running gag: **i mimic sembrano normalissimi, gli oggetti 
 
 **Veri mimic (sembrano perfettamente a posto):**
 - L2: zerbino davanti a [I] (pulitissimo, fuori posto)
-- L3: 2 porte in [O] (maniglie lucide, legno liscio)
+- L3: 4 porte in [O] (maniglie lucide, legno liscio — tutte tranne [Q] e quella in basso a sinistra)
 - L3: scrigno in [P] (finiture dorate, troppo bello)
 
 **Regola per il DM:** descrivere i mimic come gli unici oggetti "troppo belli" o "troppo puliti" per il contesto. Tutto il resto è vecchio, rotto, arrugginito. L'indizio è la perfezione in mezzo al degrado.
@@ -435,7 +437,7 @@ Surreale, non horror. Running gag: **i mimic sembrano normalissimi, gli oggetti 
 LIVELLO 1 - PRIGIONE ATTIVA (guardie della Contessina) — 5 stanze
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  [A] Scala dal castello (alto sx)     [E] Pozzo/carrucola (alto dx)
+  [A] Scala al magazzino (alto sx)     [E] Pozzo/carrucola (alto dx)
    ↓                                         ↕ (L1→L2, ostruito verso L3)
   [B] Posto di guardia (tavolo, carte, rastrelliere)
    ↓
@@ -445,7 +447,7 @@ LIVELLO 1 - PRIGIONE ATTIVA (guardie della Contessina) — 5 stanze
   (basso sx)                  ↓
                             SCALA LIVELLO 2
 
-LIVELLO 2 - SEGRETE ABBANDONATE (ratti + mimic-zerbino + Ermolao + Piercer) — 5 stanze
+LIVELLO 2 - SEGRETE ABBANDONATE (ratti + mimic-zerbino + Ermolao + Darkmantle) — 5 stanze
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   [F] Scala dal L1 (alto dx)    [G] Caverna naturale (alto centro)
@@ -455,18 +457,18 @@ LIVELLO 2 - SEGRETE ABBANDONATE (ratti + mimic-zerbino + Ermolao + Piercer) — 
                    /                    \
                   ↙                      ↘
   [I] Ovest:                           [L] Sud:
-  - zerbino MIMIC davanti porta         - corridoio con PIERCER (stalattite)
+  - zerbino MIMIC davanti porta         - corridoio con DARKMANTLE (stalattite)
   - sala con YELLOW MOLD                - porta di ferro → L3
                                         - graffito "cubo con omino"
 
-LIVELLO 3 - DUNGEON PROFONDO (Cube + 3 mimic + Michelangeli) — 5 stanze
+LIVELLO 3 - DUNGEON PROFONDO (Cube + 5 mimic + Michelangeli) — 5 stanze
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   [M] Scala dal L2 (alto centro)    [N] Tubo vettovaglie (alto dx)
   GELATINOUS CUBE subito davanti!    troppo stretto per una persona
         ↓
   [O] Corridoio celle (nord→sud)
-  6 porte laterali (2 sono MIMIC)
+  6 porte laterali (4 sono MIMIC)
         ↓                    ↘
   [Q] Cella Michelangeli     [P] Stanza scrigno MIMIC
   porta aperta, svenuto      scrigno troppo bello per essere vero
@@ -599,6 +601,8 @@ Caverna naturale con pareti di roccia irregolare. Funghi luminescenti verdastri.
 
 Sul muro nord, una breccia parzialmente nascosta da vegetazione e funghi: il passaggio verso le fogne di Fianus. **Non è chiuso, è semplicemente poco visibile** — bisogna essere molto vicini per notarlo (Percezione CD 14 passando, Investigation CD 10 se cercano attivamente). Ermolao lo usa regolarmente.
 
+**Retcon:** la breccia non esisteva prima che i PG passassero. È stato Ermolao ad aprirla dopo il loro primo passaggio nelle fogne (P1). È l'unica cosa utile che Ermolao abbia fatto per tutta la campagna.
+
 #### [H] Sala centrale — Ermolao
 
 Area più ampia al centro. Qualche cassa, una catena appesa al soffitto. Luce fioca dai funghi. Ermolao è qui, seduto a gambe incrociate. Fungo luminescente sulla spalla sinistra.
@@ -624,16 +628,25 @@ Stanza rettangolare. Mobili rotti, scaffali crollati, ragnatele. Sulla parete ov
 
 La muffa è sul muro — i PG la disturbano solo se toccano il muro o frugano tra i mobili appoggiati lì. Percezione CD 12 per notare che la chiazza non è muschio normale.
 
-#### [L] Corridoio sud — Piercer + porta di ferro verso L3
+#### [L] Corridoio sud — Darkmantle + porta-mimic a terra + porta di ferro verso L3
 
 Corridoio che va verso sud, termina con una porta di ferro pesante (stessa chiave del L1, Scassinare CD 14, Forza CD 16). Stalattiti sul soffitto.
 
-Una delle stalattiti è un **Piercer** — leggermente diversa dalle altre (più scura, più lucida, appesa più in basso).
+Una delle stalattiti è un **Darkmantle** — leggermente diversa dalle altre (più scura, più carnosa, appesa più in basso).
 
-**Piercer:** PF 22, CA 15, +3, 3d6 perforanti (cade su chi passa sotto). Un attacco solo — se manca, è un mollusco indifeso a terra (CA 5, PF 22, velocità 0).
-**Difficoltà:** TRIVIAL (singolo attacco, poi innocuo)
+**Darkmantle:** PF 22, CA 11, +5, 1d6+3 contundenti (Crush). Si attacca alla testa → accecato + non respira (FOR CD 13 per staccarlo). **Darkness Aura (1/giorno):** 15ft di buio magico (darkvision non funziona). Vola 30ft.
+**Difficoltà:** TRIVIAL (4 PG lv4)
 
-Percezione CD 13 per notare la stalattite sospetta. Se notato: basta non passarci sotto.
+Percezione CD 13 per notare la "stalattite" sospetta. Se notato: basta non passarci sotto, oppure attacco a distanza.
+
+**In fondo alla stanza, a terra:** una **grossa porta di legno rinforzata con del metallo**, posata orizzontalmente sul pavimento come una botola. Anello di ferro, cardini — surreale. **È un MIMIC.** Si attiva quando qualcuno afferra l'anello o ci cammina sopra. Sotto non c'è niente.
+
+**Mimic (porta a terra):** PF 58, CA 12, +5, 1d8+3 morso + 1d8 acido. Adhesive (FOR CD 13).
+**Difficoltà:** MEDIUM (4 PG lv4)
+
+> L'anello di ferro vi si serra attorno alla mano. La superficie di legno si piega verso l'alto, rivelando una fila di denti. La porta non era una porta — e sotto non c'è niente.
+
+**Gag:** sulla parete accanto alla vera porta di ferro, un graffito: un disegno grossolano di un cubo con dentro un omino. Qualcuno ha visto il Gelatinous Cube ed è tornato a raccontarlo.
 
 **Gag:** sulla parete accanto alla porta di ferro, un graffito: un disegno grossolano di un cubo con dentro un omino. Qualcuno ha visto il Gelatinous Cube ed è tornato a raccontarlo.
 
@@ -645,7 +658,7 @@ Oltre la porta di ferro del L2, una breve scala scende. L'aria è fredda e ferma
 
 #### [M] Scala e Gelatinous Cube
 
-La scala sbuca in un piccolo pianerottolo. **Subito davanti alla scala**, occupando l'intero passaggio, staziona il **Gelatinous Cube**. Trasparente. Dentro di lui: 2 scheletri di ratto, una fibbia di cintura, 14 ma (monete sospese a mezz'aria).
+La scala sbuca in un piccolo pianerottolo. **Subito davanti alla scala**, occupando l'intero passaggio, staziona il **Gelatinous Cube**. Trasparente. Dentro di lui: 2 scheletri di ratto, una fibbia di cintura corrosa (nessun valore).
 
 Questo è il motivo per cui Michelangeli non è mai uscito: ha visto il cubo e non si è più avvicinato alla scala.
 
@@ -656,10 +669,16 @@ Questo è il motivo per cui Michelangeli non è mai uscito: ha visto il cubo e n
 **Gelatinous Cube:** PF 84, CA 6, +4, 3d6 acido. Engulf (DES CD 12, 3d6 acido/turno). Trasparente.
 **Difficoltà:** MEDIUM (4 PG lv4)
 
+**⚠️ ATTENZIONE DM:** il Cube è molto pericoloso per un party lv4. Engulf + 3d6 acido/turno può abbattere un PG in 2 turni. Il corridoio stretto impedisce di aggirarlo. Gestire con cura:
+- Dare l'indizio del pavimento pulito PRIMA che ci camminino dentro
+- Se engulfed, il PG ha diritto a ripetere il tiro DES a fine turno per uscire
+- Il cubo è lento (movimento 15 ft) — i PG possono fuggire su per la scala e riorganizzarsi
+- Se la situazione diventa critica: il cubo potrebbe restare bloccato nell'apertura della scala (troppo grosso per salire)
+
 **Tattiche:**
 - Il cubo avanza di 1 quadretto/turno verso i PG (li spinge verso la scala)
 - I PG engulfed sono accecati e trattenuti
-- Il cubo muore sciogliendosi in una pozzanghera acida. Monete e fibbia restano a terra.
+- Il cubo muore sciogliendosi in una pozzanghera acida.
 
 #### [N] Tubo vettovaglie
 
@@ -669,16 +688,30 @@ Piccola alcova vicino alla scala. Un tubo/condotto verticale stretto (50cm diame
 
 Lungo corridoio nord-sud con **6 porte** sui lati (3 per lato). Porte di legno vecchio con maniglie di ferro.
 
-**2 delle 6 porte sono MIMIC** (non adiacenti tra loro). Si riconoscono appena: sono leggermente più lucide, le maniglie brillano come nuove. Le altre 4 porte sono normali — alcune socchiuse, mostrano celle vuote (paglia, catene, secchi).
+**4 delle 6 porte sono MIMIC.** Si riconoscono appena: sono leggermente più lucide, le maniglie brillano come nuove. Le uniche 2 porte normali sono: quella in basso a sinistra (socchiusa, cella vuota con paglia e catene) e quella della stanza [P] (aperta, dà sulla stanza dello scrigno mimic).
 
-**Quali porte sono mimic:** la 2ª a sinistra e la 3ª a destra (decidi tu al tavolo in base a quali toccano prima — scegli le prime 2 porte che provano ad aprire).
+La porta di Michelangeli [Q] **non esiste** — la cella è aperta, senza porta. I PG la vedono in fondo al corridoio.
 
-**Mimic (×2, porte):** PF 58, CA 12, +5, 1d8+3 morso. Adhesive (FOR CD 13). Shapechanger.
-**Difficoltà:** HARD (4 PG lv4) — se attaccano insieme. Se trovati uno alla volta: MEDIUM ciascuno.
+**Disposizione (da nord a sud):**
+
+| # | Lato | Tipo | Note |
+|---|------|------|------|
+| 1 | Sinistro | MIMIC | Maniglia lucida |
+| 2 | Destro | MIMIC | Maniglia lucida |
+| 3 | Sinistro | Normale | Socchiusa, cella vuota (paglia, catene) |
+| 4 | Destro | MIMIC | Maniglia lucida |
+| 5 | Sinistro | MIMIC | Maniglia lucida |
+| 6 | Destro | Aperta → [P] | Normale, dà sulla stanza scrigno mimic |
+| fondo | — | Aperta → [Q] | Nessuna porta. Cella Michelangeli. |
+
+**Mimic (×4, porte):** PF 58, CA 12, +5, 1d8+3 morso. Adhesive (FOR CD 13). Shapechanger. **Movimento 0** — sono fusi nelle porte, non si staccano.
+**Difficoltà:** DEADLY se ne attaccano più di 2 contemporaneamente. Se trovati uno alla volta: MEDIUM ciascuno.
 
 > La maniglia vi morde la mano. Il legno si piega, si appiccica. Due occhi giallastri si aprono dove stava la toppa.
 
-**Tattiche:** ogni mimic-porta attacca solo chi lo tocca. L'altro resta immobile finché non toccato. Se un PG è attento dopo il primo: vantaggio su Percezione per il secondo.
+**Tattiche:** il mimic-porta attacca appena un PG è davanti alla porta (non serve toccare la maniglia). Si aggancia al PG con **grapple** (Adhesive, FOR CD 13 per liberarsi). Una volta attaccato, il mimic non si muove — il PG è bloccato lì. Gli altri PG possono attaccarlo normalmente, ma chi è in grapple non può allontanarsi.
+
+**Nota:** i mimic-porta sono inchiodati al telaio (movimento 0). Non inseguono chi si allontana. Se un PG si libera dal grapple, il mimic non può seguirlo — resta lì a fissarlo con rancore.
 
 #### [P] Stanza dello scrigno — Mimic
 
@@ -686,37 +719,29 @@ Una delle celle laterali (porta aperta, normale). Dentro: catene a muro, paglia 
 
 **LO SCRIGNO È UN MIMIC.**
 
-**Mimic (scrigno):** PF 58, CA 12, +5, 1d8+3 morso. Adhesive (FOR CD 13).
+**Mimic (scrigno):** PF 58, CA 12, +5, 1d8+3 morso. Adhesive (FOR CD 13). **Movimento 15 ft** — questo può muoversi (non è fuso a niente).
 
 > Il coperchio si apre — ma non c'è un fondo. Solo denti. Il bordo dorato vi si chiude sulla mano.
 
 Se i PG sono ormai paranoici e lo attaccano a distanza: lo scrigno "sospira", si affloscia, e striscia via lentamente. Gag.
 
+**Loot (dopo aver ucciso il mimic):** dentro lo scrigno restano 2d20 monete di rame sparse. Sotto il fondo dello scrigno c'è un compartimento nascosto (Investigazione CD 17, oppure Forza se lo spaccano): 1d4 monete d'oro.
+
 #### [Q] Cella di Michelangeli
 
-In fondo al corridoio. Porta aperta (NON un mimic). Pareti coperte di disegni a carboncino: ritratti, paesaggi, volti di donna. Segni di lunga permanenza (giaciglio di stracci, ciotola vuota, segni dei giorni sul muro).
+In fondo al corridoio. Nessuna porta — l'apertura è libera. Pareti coperte di disegni a carboncino: ritratti, paesaggi, volti di donna. Segni di lunga permanenza (giaciglio di stracci, ciotola vuota, segni dei giorni sul muro).
 
 > Un uomo magro, con la barba lunga e gli occhi infossati, è steso a terra. Non si muove. Respira appena. Le pareti attorno a lui sono coperte di disegni — centinaia di volti vi guardano dal buio.
 
-Michelangeli è **incapacitato** (svenuto per disidratazione e malnutrizione). Non si sveglia con una scossa — serve acqua, cibo, o una Healing Word / Cure Wounds (lo stabilizza e riprende conoscenza dopo 1d4 minuti). Medicina CD 10 conferma: disidratazione grave, ma vivo.
+Michelangeli è svenuto, affamato e disidratato (qualche livello di exhaustion, a discrezione del DM). Confuso, balbetta. Non parla finché non gli danno da mangiare, da bere, o lo curano — o tutte e tre. È una questione narrativa, non meccanica: quando i PG si prendono cura di lui, torna lucido. Non cammina da solo. **Peso morto:** chiunque lo trasporti ha velocità dimezzata, a meno che non sia di taglia Grande o superiore.
 
 **Se risvegliato** (dopo cure minime):
 
 > *"...siete veri? Non sono... non siete disegni?"*
 
-**Cosa sa Michelangeli:**
-- Dipingeva per la rete della doppia S (come Sberluccica). Committente via lettera, mai visto.
-- Ha dipinto il quadro del Conte: il Conte ha posato di persona, con una donna bellissima. *"Non era sua moglie, quello era chiaro."*
-- La Contessina lo ha fatto arrestare. Voleva sapere dove sono i ritratti e chi li commissiona.
-- Ha visto il cubo trasparente alla scala. *"Non mi sono più avvicinato. Aspettavo che qualcuno venisse."*
+**Cosa sa Michelangeli:** vedi scheda dettagliata in Puntata 6 (§ Cosa sa Michelangeli). In sintesi: ha dipinto il quadro del Conte, è stato interrogato per mesi e poi dimenticato. Non riconosce Arimano di persona.
 
-**Cosa NON sa:**
-- Non sa che Arimano ha il quadro
-- Non sa chi fosse la donna nel quadro
-- Non riconosce Arimano (mai visto senza travestimento)
-- Non sa che Sberluccica è nelle celle sopra (se glielo dite: *"Cecilio? Anche lui? Povero Cristo."*)
-
-**Disegni sulle pareti:** tra i ritratti c'è un volto di donna ricorrente: bello, giovane, capelli scuri. È la donna del quadro (moglie di Arimano). Se i PG la descrivono ad Arimano in futuro, lui cambia espressione.
+**Disegni sulle pareti:** ritratti, paesaggi, volti vari — segni di lunga prigionia. Nessuno riconoscibile. Se i PG chiedono a Michelangeli di disegnare la donna del quadro (la modella), può farne uno schizzo a carboncino su richiesta.
 
 **Condizioni:** non può camminare da solo. Peso morto. Qualcuno deve portarlo (o trascinarlo su una coperta/mantello).
 
@@ -724,18 +749,19 @@ Michelangeli è **incapacitato** (svenuto per disidratazione e malnutrizione). N
 
 ## Nemici
 
-**Party:** 4 PG lv4 (post-milestone)
+**Party:** 4 PG lv4 (level-up anticipato prima della sessione)
 
 | Luogo | Nemici | N. | CR | Difficoltà |
 |-------|--------|----|----|------------|
-| L1, Posto di guardia | Guard | 3 | 1/8 | EASY (CA 16, terreno chiuso) |
+| L1, Posto di guardia | Guard | 3 | 1/8 | TRIVIAL (CA 16, terreno chiuso) |
 | L2, Scala [F] | Swarm of Rats | 1 | 1/4 | TRIVIAL |
 | L2, Porta sala [I] | Mimic giovane (zerbino) | 1 | 1/2 | TRIVIAL |
 | L2, Sala [I] | Yellow Mold | - | - | Trappola (CON CD 15, 2d10 veleno) |
-| L2, Corridoio [L] | Piercer | 1 | 1/2 | TRIVIAL (attacco singolo) |
-| L3, Scala [M] | Gelatinous Cube | 1 | 2 | MEDIUM |
-| L3, Corridoio [O] | Mimic (porte) | 2 | 2 | HARD (insieme) / MEDIUM (singoli) |
-| L3, Stanza [P] | Mimic (scrigno) | 1 | 2 | MEDIUM |
+| L2, Corridoio [L] | Darkmantle | 1 | 1/2 | TRIVIAL |
+| L2, Corridoio [L] | Mimic (porta a terra) | 1 | 2 | MEDIUM |
+| L3, Scala [M] | Gelatinous Cube | 1 | 2 | TRIVIAL |
+| L3, Corridoio [O] | Mimic (porte) | 2 | 2 | MEDIUM (insieme) / TRIVIAL (singoli) |
+| L3, Stanza [P] | Mimic (scrigno) | 1 | 2 | TRIVIAL |
 
 ---
 
@@ -743,9 +769,9 @@ Michelangeli è **incapacitato** (svenuto per disidratazione e malnutrizione). N
 
 - Arimano paga 12 mo alla consegna di Michelangeli
 - Michelangeli offre di dipingere i PG (ritratto di gruppo)
-- Milestone lv4 (dopo l'indagine, prima del dungeon)
+- Milestone lv4 (prima del dungeon) + lv5 (uscita dal dungeon)
 - Er Braccio liberato: potenziale alleato per il finale (deve soldi ai PG)
-- Loot dungeon: 14 ma (dal Gelatinous Cube) + fibbia di cintura
+- Loot dungeon: 2d20 mr + 1d4 mo (scrigno L3, fondo nascosto)
 
 ---
 
@@ -757,11 +783,11 @@ La sessione ha due tempi molto diversi:
 - **Prima metà (indagine):** roleplay, social, zero combattimento. I PG parlano con NPC, raccolgono indizi. Deve durare ~1h.
 - **Seconda metà (dungeon):** esplorazione, combattimento, paranoia. Deve durare ~2h.
 
-La milestone (lv4) avviene nel passaggio tra i due tempi: i PG tornano da Arimano, lui paga, livellano, poi scendono nel dungeon.
+La milestone (lv4) avviene nel passaggio tra i due tempi: i PG hanno le informazioni, livellano, poi scendono nel dungeon. Il lv5 arriva all'uscita.
 
 ### Il running gag dei mimic
 
-Dopo il primo mimic (porta, debole), i giocatori saranno paranoici. Usare la paranoia come strumento comico:
+Dopo il primo mimic (porta, debole), i giocatori speriamo siano paranoici. Usare la paranoia come strumento comico:
 - Ogni oggetto toccato: pausa teatrale. "Sei sicuro?"
 - Il secchio nel magazzino L2: non è un mimic. Colpiranno comunque.
 - La porta del L3 (anticamera): non è un mimic. Colpiranno comunque.
