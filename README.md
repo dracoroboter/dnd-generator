@@ -44,6 +44,7 @@ Entrambi i piani sono assistiti da AI.
 | `LAnelloDelConte` | Saga puntata 1 | Normalizzata | it, en | Prima avventura completa |
 | `FuoriDaHellfire` | One-shot (2 moduli) | Normalizzata | it, en | Continuazione "Ballad of the Rat King" (Hellfire Club starter set), lv3→4. PDF generato. |
 | `IlReSpezzato` | Saga puntata 2 | Draft | it | Plot, meccanica medaglione, modulo 1 (Nerrok). NPC e moduli successivi da sviluppare. |
+| `GlitchInTheMatrix-VerD` | Campagna (18 episodi) | In corso | it | Carbon 2185 (cyberpunk). 18 moduli giocabili, PG predefiniti. Autore: Zisho. |
 | `LoScettroDityr` | Saga (4 moduli A/B/C/D) | Normalizzata | it, en | Versione "Draco" — 4 moduli, 16 NPC, 1 MON, 29 asset grafici. Tradotta IT+EN |
 
 `LAnelloDelConte` e `IlReSpezzato` sono in sequenza narrativa (puntate 1 e 2). `LoScettroDityr` è una saga indipendente (4 moduli A/B/C/D).
@@ -303,6 +304,8 @@ Fonti autorevoli su come costruire avventure D&D. Da studiare e confrontare con 
 | [WotC Style Templates](https://adventurersleague.wordpress.com/wotc-style-templates/) | WotC / Adventurers League | Template | Template ufficiali Word/InDesign per avventure AL |
 
 Il file `tech/data/compendium/Sources/SystemReferenceDocument/all-srd.xml` contiene l'SRD 5.1 in formato FightClub XML, rilasciato da Wizards of the Coast sotto [Creative Commons Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/). Lo schema `tech/data/compendium/compendium.xsd` è parte del repo kinkofer (MIT).
+
+La directory `tech/data/compendium/Sources/Carbon2185/` contiene il Core Rulebook di Carbon 2185 (Dragon Turtle Games) in formato PDF e Markdown (EN + IT), rilasciato sotto Open Game License v1.0a. Sistema cyberpunk basato su SRD 5.1, usato nell'avventura `GlitchInTheMatrix-VerD`.
 
 ---
 

@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         (item.tags || []).some(t => t.toLowerCase().includes(f)))
       .map(item => `
         <div class="card" id="card-${item.title.replace(/[^a-zA-Z0-9]/g, '_')}">
+          ${item.img ? `<img class="card-img" src="${item.img}">` : ''}
           <h3>${item.title}</h3>
           ${item.meta ? `<div class="meta">${item.meta}</div>` : ''}
           <p>${linkify(item.text)}</p>

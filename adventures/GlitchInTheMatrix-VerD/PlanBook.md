@@ -4,10 +4,17 @@
 
 - [x] Struttura directory e manifest
 - [x] README, AdventureBook, PlanBook
-- [ ] Documento principale (GlitchInTheMatrix-VerD.md)
-- [ ] Moduli 00–17 in formato avventura giocabile
-- [ ] Schede NPC con stat block Carbon 2185
-- [ ] Bilanciamento incontri
+- [x] Documento principale (GlitchInTheMatrix-VerD.md) con Lore, NPC, Luoghi, Struttura, Appendice Background PG
+- [x] Moduli 00-17 in formato avventura giocabile
+- [x] Stat block PG: John Connor (other/pg/PG_JohnConnor.md + PDF)
+- [x] Script stat block Carbon 2185 (tech/fightclub/carbon-statblock-pdf.js)
+- [x] Copertina con autore e licenza OGL
+- [x] Sito FAQ (docs/) con NPC, Luoghi, Fazioni, Piste aperte, PG
+- [x] Carbon 2185 rulebook indicizzato (tech/data/compendium/Sources/Carbon2185/)
+- [x] Pubblicato in public/
+- [ ] Stat block PG: Glitch, T.S. Eliot, Kruna, Nyx
+- [ ] Schede NPC principali (characters/markdown/)
+- [ ] Bilanciamento incontri (tabelle Nemici con CR Carbon 2185)
 - [ ] Mappe
 
 ## Approccio
