@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glitch in the Matrix — FAQ</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; background: #0a0a0f; color: #e0e0e0; line-height: 1.6; }
+header { background: linear-gradient(135deg, #0d1117, #1a1a2e); padding: 2rem; text-align: center; border-bottom: 2px solid #00f0ff; }
+header h1 { color: #00f0ff; font-size: 2rem; text-transform: uppercase; letter-spacing: 3px; }
+header p { color: #888; margin-top: 0.5rem; }
+nav { background: #111; padding: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #333; }
+nav button { background: #1a1a2e; color: #00f0ff; border: 1px solid #00f0ff; padding: 0.5rem 1rem; cursor: pointer; border-radius: 3px; font-size: 0.9rem; }
+nav button:hover, nav button.active { background: #00f0ff; color: #0a0a0f; }
+main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+.section { display: none; }
+.section.active { display: block; }
+.section h2 { color: #00f0ff; border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+.card { background: #1a1a2e; border: 1px solid #333; border-radius: 5px; padding: 1rem; margin-bottom: 1rem; }
+.card h3 { color: #ff6090; margin-bottom: 0.5rem; }
+.card .meta { color: #888; font-size: 0.85rem; margin-bottom: 0.5rem; }
+.card ul { padding-left: 1.5rem; }
+.card li { margin-bottom: 0.3rem; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+th, td { border: 1px solid #333; padding: 0.5rem; text-align: left; }
+th { background: #1a1a2e; color: #00f0ff; }
+.search-box { width: 100%; padding: 0.7rem; background: #1a1a2e; border: 1px solid #333; color: #e0e0e0; border-radius: 3px; margin-bottom: 1rem; font-size: 1rem; }
+.search-box:focus { outline: none; border-color: #00f0ff; }
+.tag { display: inline-block; background: #2a2a3e; color: #00f0ff; padding: 0.1rem 0.5rem; border-radius: 3px; font-size: 0.8rem; margin-right: 0.3rem; }
+.spoiler { background: #333; color: #333; cursor: pointer; padding: 0.1rem 0.3rem; border-radius: 2px; }
+.spoiler:hover, .spoiler.revealed { color: #e0e0e0; }
+.card-link { color: #00f0ff; text-decoration: underline; cursor: pointer; }
+.card-link:hover { color: #ff6090; }
+footer { text-align: center; padding: 2rem; color: #555; font-size: 0.8rem; border-top: 1px solid #222; }
+</style>
+</head>
+<body>
+<header>
+<h1>Glitch in the Matrix</h1>
+<p>FAQ — Carbon 2185 — Zisho</p>
+</header>
+<nav>
+<button class="active" data-section="riassunto">Riassunto</button>
+<button data-section="npc">NPC</button>
+<button data-section="luoghi">Luoghi</button>
+<button data-section="fazioni">Fazioni</button>
+<button data-section="piste">Piste Aperte</button>
+<button data-section="pg">PG</button>
+</nav>
+<main>
+<input type="text" class="search-box" placeholder="Cerca...">
+<div id="content"></div>
+</main>
+<footer>Glitch in the Matrix — Zisho 2026 — OGL</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

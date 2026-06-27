@@ -23,3 +23,13 @@ Ogni modulo della versione narrativa (GlitchInTheMatrix) viene riscritto come mo
 
 - Il documento principale può essere condiviso con la versione base (stessi NPC, Luoghi, Struttura) con aggiunta di dettagli meccanici.
 - I moduli sono il vero lavoro: trasformare ogni episodio narrativo in qualcosa di giocabile al tavolo.
+
+## Sito FAQ (docs/)
+
+Sito statico HTML+JS hostato su GitHub Pages dalla directory `docs/`. Navigabile per sezioni: Riassunto, NPC, Luoghi, Fazioni, Piste Aperte, PG. Ricerca testuale.
+
+### Da valutare (NEXT)
+
+- **Accesso giocatori e spoiler:** decidere se il sito deve essere visibile ai giocatori o solo al DM. Se visibile, implementare un sistema di sezioni nascoste (piste aperte, segreti NPC). Possibile soluzione: due viste (giocatore/DM) con toggle o URL separati.
+- **Hosting separato:** il sito è nella directory `docs/` dello stesso repo delle avventure. Valutare se spostarlo in un repo dedicato (es. `dnd-faq`) per separare contenuto pubblico da sorgenti.
+- **Estensione ad altre avventure:** se il formato funziona, valutare di generare automaticamente il `data.js` dal documento principale dell'avventura (script di export).
