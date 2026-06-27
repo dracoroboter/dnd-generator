@@ -307,3 +307,124 @@ I nomi propri (Korex, Fin Ditasvelte, Sir Gorim Vel) **non si traducono**. Le de
 | Guardiano Lumina | Guardian of Lumina | homebrew |
 
 Per i mostri basati su creature SRD, aggiungere il riferimento WotC nel file EN (es. `*(Thug variant, Monster Manual p.350)*`).
+
+---
+
+## Variante Carbon 2185
+
+Per le avventure che usano il sistema Carbon 2185 (basato su SRD 5.1 ma con ambientazione cyberpunk), il formato della scheda cambia nei seguenti punti:
+
+### Ability Scores
+
+| D&D 5e | Carbon 2185 |
+|--------|-------------|
+| STR, DEX, CON, INT, WIS, CHA | STR, DEX, CON, INT, TEC, PEO |
+
+### Saving Throws
+
+| D&D 5e | Carbon 2185 |
+|--------|-------------|
+| Forza, Destrezza, Costituzione, Intelligenza, Saggezza, Carisma | Fortitude (CON), Reflex (DEX), Mind (INT) |
+
+### Campi aggiuntivi (PG)
+
+- **Origine:** equivalente di razza (Korporate Kid, Wormer, Street Rat, Synth, ecc.)
+- **Blood Toxicity:** limite di augmentations installabili (2 x CON modifier)
+- **Influence (Street/Corporate):** reputazione nei due mondi
+- **Wonlongs:** valuta (simbolo: ₩)
+- **Augmentations:** lista con nome e slot (Eyes, Torso, Arms, Legs, Head, Spine)
+- **Damage Resistance:** formato DR/X tipo (es. DR/3 Ballistic)
+
+### Formato scheda PG (Carbon 2185)
+
+```markdown
+# PG_NomePersonaggio, classe
+
+## Informazioni generali
+
+- **Nome completo**: Nome "Nickname" Cognome
+- **Classe**: Classe (Sottoclasse)
+- **Livello**: N
+- **Origine**: NomeOrigine
+- **Background**: descrizione breve
+- **Vice**: nome vice
+
+## Stat Block
+
+| STR | DEX | CON | INT | TEC | PEO |
+|-----|-----|-----|-----|-----|-----|
+| X (mod) | X (mod) | X (mod) | X (mod) | X (mod) | X (mod) |
+
+- **PF:** X/max (Dado vita: NdX)
+- **CA:** X (armatura)
+- **Velocita:** X ft
+- **Tiri salvezza:** Fortitude +X, Reflex +X, Mind +X
+- **Blood Toxicity:** X/max
+- **Influence:** Street X, Corporate X
+
+## Competenze
+
+Lista skill con bonus.
+
+## Augmentations
+
+| Nome | Slot | Effetto |
+|------|------|---------|
+| ... | ... | ... |
+
+## Armi
+
+| Nome | Bonus | Danno | Tipo | Note |
+|------|-------|-------|------|------|
+| ... | ... | ... | ... | ... |
+
+## Equipaggiamento
+
+Lista oggetti con peso.
+
+## Capacita di classe
+
+Lista feature attive al livello corrente.
+
+## Note
+
+Informazioni aggiuntive (manutenzione augmentations, dipendenze, ecc.)
+```
+
+### Formato stat block NPC/Nemici (Carbon 2185)
+
+Identico al formato D&D 5e presente nel rulebook, con le sostituzioni di ability scores e saving throws sopra indicate. Esempio:
+
+```markdown
+# NPC_NomePersonaggio, ruolo
+
+## Informazioni generali
+
+- **Nome**: NomePersonaggio
+- **Tipo**: Medium human (o machine/synthetic)
+- **Ruolo**: descrizione breve
+
+## Stat Block
+
+- **CA:** X (armatura)
+- **PF:** X (formula dadi)
+- **Velocita:** X ft
+- **DR:** DR/X tipo
+- **Tiri salvezza:** Fortitude +X
+- **Competenze:** Skill +X, Skill +X
+- **Sensi:** Percezione passiva X
+- **Lingue:** English, other
+- **Grado di Sfida:** X (XP)
+
+| STR | DEX | CON | INT | TEC | PEO |
+|-----|-----|-----|-----|-----|-----|
+| +X | +X | +X | +X | +X | +X |
+
+## Capacita
+
+Descrizione tratti speciali.
+
+## Azioni
+
+Descrizione attacchi e azioni.
+```

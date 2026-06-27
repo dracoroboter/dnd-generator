@@ -272,3 +272,17 @@ Assistente digitale del Rolex Synchromatic. Biolockato a T.S. Eliot.
 | 15 | The Painted Ladies | Ricognizione esterna, pianificazione infiltrazione, ingresso dai condotti |
 | 16 | La Verità | Infiltrazione piano -1, scontro con kronOS, scoperta dei laboratori e della classificazione |
 | 17 | Protocollo di Smaltimento | Piano -2, fornace, nastri, braccio meccanico, salvataggio H-4NN4H, shutdown temporaneo |
+
+---
+
+## Appendice: Background dei PG
+
+### John "Doc" Connor
+
+Ex medico di alto livello del Distretto 3, specializzato in cybernetics e chirurgia avanzata. Lavorava per una Corporation (non specificata) fino a quando un attentato lo ha quasi ucciso e gli ha distrutto la carriera. La Corporation lo ha ringraziato per il servizio e poi abbandonato a se stesso.
+
+Oggi vive nel Distretto 5, rattoppando gangster per pochi spicci. Dipendente dalla Lukolite (un farmaco che stabilizza il suo sistema dopo l'installazione del MSG-Renal Unit, ma anche una droga). Frequenta i VR Cafe per fuggire dalla realta, dove ha costruito una relazione con Sakura, una partner virtuale nel gioco "A Simple Life" di Okasama Starr.
+
+Jackie Chow gli deve dei soldi per aver curato un suo uomo. Il debito non pagato e cio che lo porta al Gwelio la sera del prologo. Jackie lo ripaga non in contanti ma con una "opportunita": due reni crioconservati (marchio Medi-Strike) e la promessa di un futuro, in cambio di lavoro continuativo per la Triade.
+
+**Cio che John non sa:** ogni sua sessione VR con Sakura e stata registrata, estratta e venduta da Okasama Starr a Shigeru Kojima per un DLC. Glitch ha scoperto questo al VR Cafe (Ep. 4) e ha scaricato il savegame di Sakura nella propria memoria. Non gliel'ha ancora detto.
