@@ -432,7 +432,8 @@ Sezioni opzionali:
 ```
 
 ### Schede PG
-Non fanno parte dell'avventura base. Se necessarie per una sessione con PG predefiniti, vanno in una directory separata fuori da `adventures/` (es. `sessions/NomeAvventura_NomeGruppo/`).
+
+Le schede PG non fanno parte della maggior parte delle avventure. Se un'avventura ha PG predefiniti, le schede vanno in `other/pg/` dentro l'avventura (vedi "Avventure con PG predefiniti" sotto).
 
 ### Avventure con PG predefiniti (opzionale, raro)
 

@@ -124,13 +124,16 @@ dungeonandragon/
 │   ├── LAnelloDelConte/         # saga puntata 1
 │   ├── FuoriDaHellfire/         # continuazione Hellfire Club starter set
 │   ├── IlReSpezzato/           # saga puntata 2 (draft)
-│   └── LoScettroDityr/          # saga 4 moduli (versione "Draco")
+│   ├── LoScettroDityr/          # saga 4 moduli (versione "Draco")
+│   └── GlitchInTheMatrix-VerD/  # campagna Carbon 2185 (18 episodi, Zisho)
 │
 ├── legacy/                      # .odt originali — sola lettura
 │
 ├── releases/                    # PDF + ZIP generati (non editare, in .gitignore)
 │
 ├── public/                      # PDF pubblicati (tracciata da git)
+│
+├── docs/                        # sito FAQ statico (GitHub Pages, HTML+JS)
 │
 └── tech/
     ├── scripts/                 # script gestione avventure (vedi indice sotto)
@@ -205,6 +208,14 @@ dungeonandragon/
 |------|-------|
 | `tech/i18n/it.json`, `tech/i18n/en.json` | Label i18n per supporto multilingua (copertina, sezioni PDF, etichette) |
 
+### Sito FAQ
+
+| File | Scopo |
+|------|-------|
+| `docs/index.html` | Sito FAQ statico per GlitchInTheMatrix-VerD (GitHub Pages da /docs) |
+| `docs/data.js` | Dati strutturati: NPC, Luoghi, Fazioni, Piste aperte, PG |
+| `docs/app.js` | Rendering, ricerca, navigazione tra schede con link |
+
 ---
 
 ## Indice script
@@ -241,6 +252,7 @@ dungeonandragon/
 | `md-to-fightclub.py` | Python | Converte NPC markdown → XML FightClub 5e |
 | `fightclub-to-md.py` | Python | Converte XML FightClub → NPC markdown |
 | `md-to-statblock-pdf.js` | Node.js | Genera stat block PDF/PNG via Playwright + statblock5e |
+| `carbon-statblock-pdf.js` | Node.js | Genera stat block PDF per Carbon 2185 (layout cyberpunk, Playwright) |
 | `generate-statblocks.py` | Python | Pipeline completa: .md → .xml + .pdf + .png (wrapper) |
 
 ### Test

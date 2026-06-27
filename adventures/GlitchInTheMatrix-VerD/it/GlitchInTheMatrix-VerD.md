@@ -229,6 +229,26 @@ Assistente digitale del Rolex Synchromatic. Biolockato a T.S. Eliot.
 | Piano -1 (laboratori) | Laboratori, sedia cyberdoc, classificazione soggetti (Σ Ψ Λ Θ Δ Ω Ξ Φ). | 16 |
 | Piano -2 (smaltimento) | Nastri trasportatori, fornace, braccio meccanico, nanobot, Overseer. Core room di kronOS oltre la porta finale. | 17 |
 
+#### Struttura dettagliata di Alamo Square
+
+**Proprietaria:** Medi-Strike (V. Kasuga, Direttore R&D)
+**Infrastruttura:** Shenzhen Solutions (synth), Tusk Enterprises/Boring Company (logistica, tunnel, camion), Okasama Starr (kronOS)
+**IA di controllo:** kronOS (vede attraverso tutti i synth come un'unica mente)
+
+**Piano 0 (facciata):** Sembra una casa-famiglia. Ospiti in tute comode, sbobba simile a semolino. Personale interamente sintetico (infermieri, Direttrice Umbridge). Nessuno esce mai: i synth non ne hanno bisogno. Ascensore interno verso il -1. Garage-magazzino sul retro (allarme disattivato 2 volte/settimana per consegne mech). Condotti d'areazione collegano le Painted Ladies vicine (via d'accesso del party).
+
+**Piano -1 (laboratori):** Corridoio con 5 laboratori (vetrate oscurabili). Sedia cyberdoc per prelievi/interventi. Soggetti classificati con simboli tatuati (Σ Ψ Λ Θ Δ Ω Ξ Φ). Neuralink espiantati (procedura normalmente letale). Liquido blu luminescente non identificato. Stanza test per H-4NN4H (cubi giocattolo, scacchiera, carte Zener, interruttore bruciato). Porta di sicurezza verso il -2 (si apre col dito di un synth ad alto livello, vivo). Documenti: accordi Medi-Strike/Shenzhen/Tusk/Okasama, ordine di Kasuga di fermare e smaltire.
+
+**Piano -2 (smaltimento):** Enorme (soffitto 10m). Nastri trasportatori convergono verso la fornace. Soggetti con collare (failsafe letale se rimosso) in piedi sui nastri, occhi vuoti. Braccio meccanico (gru, scaglia casse). Nanobot di pattuglia. Overseer (mech grande). Loader (caricano/scaricano). Manual Processing (gabbiotto con nanopack e diario di Leo Hwang). Furgone attivo (password necessaria). Porta al core room di kronOS (ultimo obiettivo). Timer: 90 minuti dopo lo shutdown prima del riavvio.
+
+**Difese kronOS:**
+- Se un synth viene attaccato, TUTTI i synth lo sanno istantaneamente
+- Nanobot (sciami, fuoco a distanza)
+- Restrictor (mech, afferra e immobilizza)
+- Braccio meccanico (piano -2, +8 al tiro, 3d10 danni)
+- Overseer (piano -2, cerca H-4NN4H)
+- Protocollo di emergenza: se attaccati, brucia tutti i soggetti (nastri verso fornace)
+
 ### Badlands (oltre Oakland)
 
 | Luogo | Descrizione | Episodi |
