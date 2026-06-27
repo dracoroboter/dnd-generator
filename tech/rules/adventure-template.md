@@ -434,6 +434,17 @@ Sezioni opzionali:
 ### Schede PG
 Non fanno parte dell'avventura base. Se necessarie per una sessione con PG predefiniti, vanno in una directory separata fuori da `adventures/` (es. `sessions/NomeAvventura_NomeGruppo/`).
 
+### Avventure con PG predefiniti (opzionale, raro)
+
+Alcune avventure possono essere scritte per un gruppo specifico di personaggi, con descrizione meccanica e narrativa predeterminata (background, classe, motivazioni, relazioni). In questo caso:
+
+- Il README dichiara il numero e i nomi dei PG.
+- Le schede PG vanno in `other/pg/` dentro l'avventura (non in una directory esterna).
+- I moduli possono fare riferimento ai PG per nome e alle loro motivazioni personali.
+- L'avventura non è pensata per essere giocata con personaggi diversi senza adattamento.
+
+Questo formato è l'eccezione, non la regola. La maggior parte delle avventure è scritta per un party generico.
+
 ---
 
 ## Razionale delle scelte

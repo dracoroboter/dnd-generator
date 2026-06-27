@@ -51,6 +51,8 @@ L'avventura non può affermare cosa faranno i PG. Al limite può presumere un co
 | Dopo il combattimento, il PG sa che deve cercare aiuto. | Dopo il combattimento, è probabile che il PG cerchi un modo per risolvere la situazione. |
 | I PG scendono nella cripta. | Se i PG decidono di scendere nella cripta... |
 
+**Eventi script-bounded (⚠️):** eventi che avvengono indipendentemente dalle azioni dei PG, per ragioni di struttura narrativa. Vanno segnalati con ⚠️ e dichiarati esplicitamente come non modificabili. Usare con parsimonia: solo per momenti strutturali della saga (es. morte di un NPC chiave, catastrofe che lancia l'atto successivo).
+
 Il DM adatta la narrazione alle scelte dei giocatori. Il modulo fornisce contenuto e conseguenze, non una sceneggiatura.
 
 ---

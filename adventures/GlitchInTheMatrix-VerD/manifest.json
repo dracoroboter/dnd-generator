@@ -1,0 +1,13 @@
+{
+  "adventure_name": "GlitchInTheMatrix-VerD",
+  "default_lang": "it",
+  "languages": ["it"],
+  "title": {
+    "it": "Glitch in the Matrix"
+  },
+  "subtitle": {
+    "it": "Un'avventura Carbon 2185"
+  },
+  "Autore": "Zisho",
+  "Prima stesura": "2026"
+}

@@ -119,7 +119,7 @@ def is_portrait(img_path):
         return img.height > img.width
 
 
-def fit_cover(img_path, title, author=None, year=None, scale=1.0, subtitle=None):
+def fit_cover(img_path, title, author=None, year=None, scale=1.0, subtitle=None, license=None):
     """Create cover: background image scaled to A4, logo top center, title upper-center,
     D&D subtitle under title, author at bottom. White uppercase text with black outline."""
     if subtitle is None:
@@ -223,7 +223,8 @@ def fit_cover(img_path, title, author=None, year=None, scale=1.0, subtitle=None)
         copy_font = ImageFont.truetype(font_path, int(30 * scale))
         copy_y = author_y + int(out_h * 0.035)
         yr = year or datetime.now().strftime("%Y")
-        centered_outlined_text(copy_y, f"© {yr} CC BY-SA 4.0", copy_font)
+        license_text = license or "CC BY-SA 4.0"
+        centered_outlined_text(copy_y, f"© {yr} {license_text}", copy_font)
 
     # Convert to RGB
     final = Image.new("RGB", (out_w, out_h), (0, 0, 0))
@@ -350,7 +351,7 @@ def extract_readme_meta(adventure_dir):
     if readme.exists():
         with open(readme) as f:
             for line in f:
-                for key in ("Livello consigliato", "Durata", "Struttura", "Tono", "Autore", "Prima stesura"):
+                for key in ("Livello consigliato", "Durata", "Struttura", "Tono", "Autore", "Prima stesura", "Licenza", "Sistema"):
                     if f"**{key}**:" in line:
                         meta[key] = line.split(":", 1)[1].strip()
     return meta
@@ -405,7 +406,7 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
             cover_scale = 0.5 if use_lowres else 1.0
             b64, fmt = fit_cover(cover, title, author=meta.get("Autore"),
                                  year=meta.get("Prima stesura"), scale=cover_scale,
-                                 subtitle=cover_subtitle)
+                                 subtitle=cover_subtitle, license=meta.get("Licenza"))
             parts.append(f'<div class="cover-page"><img src="data:image/{fmt};base64,{b64}"></div>')
             print(f"  Cover: {cover.name} (con logo/titolo/autore)")
 
@@ -419,7 +420,7 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
             parts.append(f'<div class="subtitle">{meta["Tono"]}</div>')
         parts.append("<hr>")
         parts.append('<div class="meta">')
-        parts.append("D&amp;D 5e (2014)<br>")
+        parts.append(f'{meta.get("Sistema", "D&amp;D 5e (2014)")}<br>')
         if meta.get("Livello consigliato"):
             parts.append(f'{i18n["pdf_level"]} {meta["Livello consigliato"]}<br>')
         if meta.get("Durata"):
@@ -430,7 +431,7 @@ def build_html(adventure_name, adventure_dir, raw_cover=False, use_lowres=False,
         if meta.get("Autore"):
             parts.append(f'<br><br><em>{meta["Autore"]}</em>')
             yr = meta.get("Prima stesura", datetime.now().strftime("%Y"))
-            parts.append(f'<br><small>© {yr} CC BY-SA 4.0</small>')
+            parts.append(f'<br><small>© {yr} {meta.get("Licenza", "CC BY-SA 4.0")}</small>')
         parts.append("</div></div>")
         print(f"  Frontmatter: {title}")
 

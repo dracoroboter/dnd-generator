@@ -330,6 +330,7 @@ Il vecchio `release.sh` (pandoc + ZIP) è deprecato — spostato in `tech/script
 
 ## Future / opzionali
 
+- [ ] **Caricare content-rules automaticamente a inizio sessione Kiro** — Decidere come fare in modo che `tech/rules/content-rules.md` sia già letto all'inizio di ogni sessione di lavoro. Opzioni: knowledge base dedicata, riferimento in AdventureBook.md, istruzione nella skill dungeonmaster.
 - [ ] **Ridurre verbosità moduli a parità di informazioni** — I moduli sono troppo lunghi da stampare. Due aspetti separati:
   1. **Contenuto**: eliminare ripetizioni, condensare tabelle, usare riferimenti invece di ricopiare informazioni già presenti altrove (es. stat block base dal MM, posizioni NPC dal documento principale)
   2. **Layout stampa**: ridurre spazi vuoti nel PDF, compattare tabelle, evitare page break inutili, valutare font size ridotto per le sezioni DM-only
