@@ -145,6 +145,10 @@ def parse_md(filepath, lang="it"):
                 dmg_match = re.search(r"(\d+d\d+[+-]?\d*)", damage)
                 if dmg_match:
                     action["attack"] = f"{name}|{atk_bonus}|{dmg_match.group(1)}"
+            elif damage and not atk_bonus:
+                dmg_match = re.search(r"(\d+d\d+[+-]?\d*)", damage)
+                if dmg_match:
+                    action["attack"] = f"{name}||{dmg_match.group(1)}"
             data["actions"].append(action)
 
     # Azioni bonus

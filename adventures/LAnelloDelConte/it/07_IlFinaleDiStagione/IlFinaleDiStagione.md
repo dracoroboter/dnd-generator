@@ -11,114 +11,156 @@ I PG vanno al castello con Arimano per chiedere giustizia al Conte (quadro + tes
 ## Obiettivo
 
 **Dichiarato:** Arrivare al Conte, esporre il quadro, chiedere giustizia.
-**Reale:** Nessuno ottiene quello che vuole. L'esplosione cancella tutto.
+**⚠️ Script-bounded:** Nessuno ottiene quello che vuole. L'esplosione cancella tutto.
 
 ---
 
 ## Atto 1 — Al castello
 
+### Il ritorno del Conte
+
+Il Conte è tornato dal Burmini dopo mesi di assenza. La notizia può arrivare ai PG tramite Gorim (che lo sa per vie ufficiali) o come voce di popolo (il borgo intero ne parla, è un evento). È la finestra per agire: Arimano vuole muoversi subito.
+
 ### Setup
 
-Poco dopo gli eventi di P6. I PG sono con Arimano — alleati, o almeno coinvolti. Il tempo trascorso dipende da come si è chiusa la sessione precedente.
+Arimano vuole andare al castello con Michelangeli per fare la scenata davanti al Conte. Propone ai PG di accompagnarlo come scorta. Se i PG rifiutano, ci va lo stesso (senza scorta viene arrestato durante il tragitto dalle guardie della Contessina). Gorim li avverte della cosa.
 
-Gorim ha confermato che il Conte è tornato dal Burmini. Arimano vuole andare al castello subito — ha il quadro e la testimonianza di Michelangeli. Vuole chiedere giustizia al Conte di persona.
+Gorim li accompagna. Vuole risposte dal Conte (cosa fa nel Burmini, perché non è mai presente).
 
-### Il piano
+**L'entrata:** se Gorim è presente (il DM dovrebbe spingere perché lo sia), ha autorità per entrare. I PG passano come scorta ufficiale.
 
-I PG vanno al castello con Arimano. Il piano di Arimano: arrivare davanti al Conte, mostrargli il quadro, mostrargli che Michelangeli è libero e può testimoniare. Vuole che il Conte sappia, e vuole giustizia per la Gabella e per il mancato pagamento.
-
-**Gorim** li accompagna. Vuole risposte dal Conte (cosa fa nel Burmini, perché ha finto di perdere l'Anello).
-
-**L'entrata:** Gorim ha autorità per entrare. I PG passano come scorta ufficiale.
+**Il quadro:** se Arimano ha ancora il quadro (nel tubo), lo porta con sé. Se il quadro è stato sequestrato o distrutto nella P6, la quest del finale potrebbe includere prima il recupero del quadro. Arimano paga 12 mo anche per il recupero del quadro.
 
 ### Il portone — 2 guardie
 
-Due guardie della Contessina al portone. Hanno ordini dalla P4: quei PG non devono passare. Gorim insiste (ha autorità), le guardie esitano. Stallo.
+Due guardie della Contessina al portone. In base a quello che la Contessina sa dai moduli precedenti, possono avere ordini più o meno severi sui PG. Il DM deve decidere il livello di allerta in base agli eventi giocati.
 
 **Opzioni:**
-- Gorim tira rango → le guardie mandano a chiamare la Contessina (tempo)
-- I PG forzano il passaggio → combattimento con 2 Guard (TRIVIAL)
+- Gorim fa valere la sua autorità → le guardie mandano a chiamare la Contessina (tempo)
+- I PG forzano il passaggio → combattimento con 2 Guard (TRIVIAL).
 - Inganno/Intimidazione CD 14 → le guardie si spostano
 
 In ogni caso i PG entrano nel cortile.
 
-### Il cortile — la Contessina
+### Timing della battaglia
 
-La Contessina è scesa (avvisata dalle guardie, o perché ha sentito il trambusto). Con lei: Mafalda, guardie veterane, guardie normali, balestrieri sugli spalti.
+| Round | Cosa succede |
+|-------|-------------|
+| 1-2 | Combattimento con le 2 guardie al portone (se forzano). |
+| 3-4 | Arrivano rinforzi: 2 Guard + 2 Veteran. I balestrieri (2) iniziano a tirare dagli spalti. La Contessina scende con Mafalda. Parla o ordina l'attacco. |
+| 5 | I maghi del Burmini irrompono dal portone. Inneggiano alla fine del Conte. I difensori si posizionano, i ritualisti iniziano il canto. Le guardie si girano verso di loro. |
+| 6-10 | Rituale in corso (5 turni). I PG decidono cosa fare. |
+| 10 | Il rituale si completa. Esplosione. |
 
-Non sa del quadro. Non sa cosa vogliono. Sa solo che quegli avventurieri le hanno già ucciso due guardie (P4) e portato via un prigioniero. Non devono arrivare dal Conte.
+**Nota:** i tempi sono indicativi. Il DM adatta in base a come procede la scena (se i PG non combattono al portone, i rinforzi non servono e la Contessina scende prima).
 
-> La Contessina esce da una porta laterale. Vestito scuro, capelli raccolti. Mafalda al fianco.
->
-> *"Sir Gorim. E i suoi... amici."*
->
-> Sguardo su Arimano.
->
-> *"E il Marchese. Che bella compagnia."*
+### Nemici fase 1 (guardie della Contessina)
 
-### La Contessina parla
+| Creatura | Quantità | Quando arrivano |
+|----------|----------|-----------------|
+| Guard (portone) | 2 | Subito |
+| Guard (rinforzi) | 2 | Round 3 |
+| Veteran (rinforzi) | 2 | Round 3 |
+| Guard Balestriere (spalti) | 2 | Round 3 (iniziano a tirare) |
 
-Vuole:
-1. Che tutti escano dal castello
-2. Che nessuno veda il Conte prima di lei
-
-Offre: *"Tornate domani. Il Conte non è ancora pronto a ricevere."*
-
-**Se Gorim interviene:** *"Il Conte è tornato. Io entro."* La Contessina: *"Fino a che non lo dice lui, comando io."* Gorim: *"Non su di me."* (Si schiera coi PG.)
-
-### Battaglia — Il cortile
-
-**Trigger:** I PG rifiutano, oppure Arimano provoca, oppure la tensione esplode.
-
-La Contessina fugge verso l'interno del castello al primo round di combattimento. Mafalda la segue. Entrambe muoiono nell'esplosione.
-
-**Nemici fase 1 (guardie della Contessina):**
-
-| Creatura | Quantità | Note |
-|----------|----------|------|
-| Guardie veterane (Veteran) | 2 | Capitani. Non si arrendono. |
-| Guardie (Guard) | 6 | Si arrendono se entrambi i veterani cadono. |
-| Balestrieri (Guard, sugli spalti) | 2 | Copertura 3/4. Fuggono se sotto attacco diretto. |
+**Totale:** 2 Guard + 2 Guard + 2 Veteran + 2 Balestrieri = 8
 
 **Alleati:** Gorim (Knight: CA 18, PF 52, +5, 1d8+3). Arimano si nasconde e protegge il tubo col quadro.
 
-**Difficoltà fase 1:** HARD per 4 PG lv5 (con Gorim alleato).
+**Difficoltà fase 1 (round 3+):** HARD per 4 PG lv5 (con Gorim alleato).
 
 ---
 
 ## Atto 2 — I maghi del Burmini
 
-### Irruzione (dopo qualche round di combattimento)
+### La Contessina (round 4-5)
 
-Dopo 2-3 round di battaglia con le guardie, i maghi del Burmini irrompono nel cortile dal portone principale. Non si curano dei PG — il loro obiettivo è il castello (il Conte).
+La Contessina scende nel cortile con Mafalda. Commenta sarcasticamente la composizione del gruppo. Vuole che tutti escano dal castello e che nessuno veda il Conte prima di lei.
 
-> Un boato dal portone. La porta di legno vola in pezzi. Otto figure in tuniche colorate entrano di corsa. Bastoni, cappelli a punta, mani che brillano.
+**Se Gorim interviene:** *"Il Conte è tornato. Io entro."* La Contessina: *"Fino a che non lo dice lui, comando io."* Gorim: *"Non su di me."*
+
+**Trigger per la battaglia:** I PG rifiutano, oppure Arimano provoca, oppure la tensione esplode. La Contessina fugge verso l'interno del castello al primo round di combattimento aperto. Mafalda la segue. Entrambe muoiono nell'esplosione.
+
+---
+
+## Atto 2 — I maghi del Burmini
+
+### Irruzione (round 8-10)
+
+I maghi irrompono dal portone dopo qualche round di battaglia nel cortile.
+
+> Un boato dal portone. La porta di legno vola in pezzi. Sei figure in tuniche colorate entrano di corsa. Bastoni, cappelli a punta, mani che brillano.
+>
+> Uno di loro grida: *"Morte al Conte! Traditore del Burmini!"*
 >
 > Non vi guardano. Guardano il castello.
+
+I PG capiscono immediatamente: ce l'hanno col Conte, non con loro. Non è possibile ragionare con loro (fanatici suicidi).
 
 ### Composizione dei maghi
 
 - **3 ritualisti** — si posizionano in triangolo davanti all'ingresso del castello, si inginocchiano, iniziano a cantare. Concentrati. Non combattono, non reagiscono a meno che colpiti.
-- **5 difensori** — formano un semicerchio attorno ai ritualisti. Lanciano incantesimi protettivi (Shield, Counterspell su chi attacca i ritualisti). Combattono solo se attaccati direttamente o se qualcuno si avvicina ai ritualisti.
+- **3 difensori** — formano un arco attorno ai ritualisti. Proteggono il rituale con incantesimi. Combattono solo chi interferisce.
 
-### Reazioni
+### Stat block maghi
 
-- **Le guardie della Contessina** si girano verso i maghi. Smettono di attaccare i PG (hanno un problema più grosso).
-- **Altre guardie** escono dal castello per affrontare i maghi (6+ Guard aggiuntive). L'apporto dei PG è irrilevante.
-- **I maghi difensori** si difendono solo se attaccati. Non sono aggressivi verso chi non interferisce col rituale.
-- **I PG** possono fare quello che vogliono: attaccare i maghi, aiutare le guardie, fuggire, tentare di entrare nel castello. Ma entrare nel castello = morire nell'esplosione.
+**Ritualista (×3)**
+- CA 12 (tuniche), PF 40, Velocità 30 ft
+- Non combattono. Concentrati sul rituale.
+- Se colpiti: CON save CD 10 + metà danno per mantenere Concentrazione. Se la perdono, si riconcentrano al turno successivo (perdono 1 round).
+- Se un ritualista muore, gli altri compensano (rituale completo al round 4 invece di 3). Se 2 muoiono, il terzo completa al round 5.
+- **Ultimo ritualista rimasto:** se vede che non riesce a completare il rituale (sotto attacco, sta per morire), si suicida per scagliare una maledizione mortale a distanza sul Conte. Il Conte muore comunque.
+- **Incantesimi del rituale (non usabili in combattimento):** il canto è un incantesimo collettivo di 9° livello (Power Word Kill potenziato) che richiede 3 caster e 3 round di concentrazione combinata. La loro forza vitale è il combustibile.
 
-### Il rituale — timer 3 round
+**Difensore (×3)**
+- CA 15 (Mage Armor), PF 50, Velocità 30 ft
+- **Slot incantesimo:** 4× lv1, 3× lv2, 2× lv3
+- **Incantesimi preparati:**
+  - Cantrip: Fire Bolt (+7, 2d10 fuoco)
+  - Lv1: Shield (reazione, +5 CA), Thunderwave (2d8 tuono, CON CD 15, spinta 10 ft), Sanctuary (bonus action, su un ritualista: chi lo attacca deve fare SAG CD 15 o perdere l'attacco)
+  - Lv2: Mirror Image (3 duplicati, già attivo), Misty Step (bonus action, teletrasporto 30 ft), Warding Bond (su un ritualista: +1 CA e save al ritualista, il difensore prende metà dei danni)
+  - Lv3: Counterspell (reazione, +6 al check per slot 4+)
+- **Difesa passiva:** Mirror Image già attivo all'ingresso (3 duplicati).
+- **Tattiche:**
+  - Counterspell su incantesimi diretti ai ritualisti (priorità massima)
+  - Shield su sé stessi se colpiti
+  - Fire Bolt su chi si avvicina entro 15 ft dai ritualisti
+  - Thunderwave se un nemico arriva in mischia vicino ai ritualisti
+  - Misty Step per riposizionarsi se circondati
+  - Non inseguono chi fugge. Non attaccano chi non interferisce.
 
-Il rituale richiede **3 round** per completarsi dall'arrivo dei maghi.
+### Bilanciamento
 
-- **Round 1:** I ritualisti iniziano. I difensori si posizionano. Le guardie si riorganizzano.
-- **Round 2:** L'energia cresce. Luce visibile attorno ai ritualisti. Le guardie caricano. I difensori li respingono.
-- **Round 3:** Il rituale si completa. I ritualisti muoiono (la loro forza vitale è il combustibile). Il castello esplode.
+| Chi combatte i maghi | Difficoltà |
+|---------------------|------------|
+| 4 PG lv5 (+ Gorim) | HARD |
+| 6 Guard da sole | MEDIUM (non riescono a fermare il rituale in tempo) |
+| Chi è dentro il castello quando esplode | DEADLY++ (morte certa, nessun tiro) |
 
-**Se i PG attaccano i ritualisti:** devono superare i difensori. I difensori sono troppo forti per il party (trattarli come Mage CR 6, non dettagliare lo stat block: i PG non possono vincere questo combattimento). Anche se raggiungono un ritualista: ne bastano 2 su 3 per completare il rituale. Anche se ne abbattono 2: il terzo completa da solo al round 4.
+### Reazioni all'irruzione
 
-**⚠️ SCRIPT-BOUNDED: il rituale non è fermabile. Il castello esplode. Il Conte muore.** I PG possono provarci — il tentativo crea tensione — ma non cambia l'esito.
+- **Le guardie della Contessina** si girano verso i maghi. Smettono di attaccare i PG.
+- **I difensori** si difendono solo se attaccati. Non sono aggressivi verso chi non interferisce.
+- **I PG** possono fare quello che vogliono: attaccare i maghi, aiutare le guardie, fuggire, tentare di entrare nel castello (= morire nell'esplosione).
+
+### Il rituale — timer 5 round
+
+I maghi irrompono al **round 5** della battaglia. Da quel momento il timer parte.
+
+- **Round 5-6:** I ritualisti cantano. I difensori si posizionano. Le guardie si girano verso i maghi.
+- **Round 7-8:** L'energia cresce. Luce visibile attorno ai ritualisti.
+- **Round 9-10:** Il canto diventa un urlo. Calore dal castello. Luce accecante. Chiunque sia saggio dovrebbe allontanarsi.
+- **Round 10:** Il rituale si completa. I ritualisti muoiono. I difensori superstiti scappano. Il castello esplode.
+
+**Scalabilita:** con 2 ritualisti il timer si allunga a 7 round. Con 1 ritualista: 9 round.
+
+**Nota:** i difensori non attaccano chi non li attacca. I maghi non attaccano nessuno: inneggiano alla fine del Conte, i difensori restano fermi, i ritualisti sono concentrati sul canto. Se nessuno interferisce, il rituale si completa indisturbato in 5 round.
+
+**Se i PG attaccano i ritualisti:** devono superare i difensori (Mirror Image + Shield + Counterspell + Sanctuary + Warding Bond). Con 10 round hanno tempo ma i difensori sono molto efficienti nel proteggerli.
+
+**Se un ritualista muore:** gli altri compensano (timer si allunga). Se 2 muoiono, il terzo continua da solo.
+
+**Se l'ultimo ritualista vede che non ce la fa:** si suicida scagliando la Maledizione del Burmini (Power Word Kill a distanza sul Conte). Il Conte muore comunque. L'esplosione non avviene, ma il risultato e lo stesso.
 
 ### L'esplosione
 
@@ -130,11 +172,9 @@ Al round 3 (o 4 se un ritualista è stato abbattuto):
 
 **Chi è nel castello:** muore. Il Conte, la Contessina, Mafalda, chiunque sia entrato. Nessun tiro salvezza.
 
-**Chi è nel cortile (5+ quadretti dal castello):** Tiro salvezza Destrezza CD 14.
-- **Successo:** 2d6 danni contundenti.
-- **Fallimento:** 4d6 danni contundenti. Prono.
+**Chi è nel cortile (5+ quadretti dal castello):** Tiro salvezza Destrezza CD 14. 4d6 danni contundenti (dimezzati se riesce). Prono se fallisce.
 
-**Nessun PG muore.** Se un PG scende a 0 PF: stabile, incosciente.
+**Nessun PG dovrebbe morire nell'esplosione.** Il DM deve fare in modo di avvertire i PG del pericolo prima che il rituale si completi (luce accecante, calore, rumore crescente, i difensori che arretrano). Se un PG scende a 0 PF: stabile, incosciente.
 
 **Arimano:** Tiro salvezza come i PG. Se fallisce: sotto le macerie, 1 PF. Se i PG lo cercano (Percezione CD 12): è vivo.
 
@@ -168,7 +208,7 @@ Al round 3 (o 4 se un ritualista è stato abbattuto):
 
 ### Il messaggero
 
-Dopo qualche minuto. Un cavaliere al galoppo. Smonta, cerca Gorim, gli consegna una pergamena sigillata. Gorim la legge.
+Dopo l'esplosione, a discrezione del DM. Un cavaliere arriva. Smonta, cerca Gorim, gli consegna una pergamena sigillata. Gorim la legge.
 
 > *"Devo andare alla capitale. Il Re mi vuole."*
 >
@@ -189,6 +229,8 @@ Viola si presenta. È tornata da Amatri. Ha sentito dell'esplosione. Cerca Sergi
 **L'Anello del Conte** è al suo dito. Anulare destro. Oro con un grosso diamante sopra — vistoso ma non unico. All'interno è inciso il simbolo del casato e la scritta "L'Anello del Conte" — riconoscibile solo se lo tolgono e guardano dentro.
 
 **Chi lo riconosce a vista:** Solo **Gorim** (se presente) può riconoscerlo immediatamente — ha visto quell'anello mille volte. Né i PG né Arimano possono: serve esaminare l'incisione interna.
+
+**Riconoscere Viola:** il DM deve fare in modo che i PG capiscano chi è Viola. Gorim la conosce di vista (moglie del Marchese), Michelangeli può fare uno schizzo della donna del quadro, Arimano ha il ritratto a casa. Almeno uno di questi indizi deve essere accessibile.
 
 ### Il confronto (se Arimano è vivo)
 
@@ -248,8 +290,8 @@ Nessuna. Il compenso promesso non verrà mai pagato. Il Conte non esiste più. I
 | Incontro | Nemici | Difficoltà |
 |----------|--------|-----------|
 | Portone | 2 Guard | TRIVIAL |
-| Cortile (fase 1) | 2 Veteran + 6 Guard + 2 balestrieri | HARD (lv5, con Gorim alleato) |
-| Maghi del Burmini | 3 ritualisti + 5 difensori (Mage CR 6+) | Non fermabili (⚠️ script-bounded) |
+| Cortile (fase 1) | 2 Veteran + 4 Guard + 2 balestrieri | HARD (lv5, con Gorim alleato) |
+| Maghi del Burmini | 3 ritualisti (PF 40) + 3 difensori (PF 50, CA 15) | HARD (PG), MEDIUM (guardie), DEADLY++ (castello) |
 | Esplosione | DEX save CD 14, 2d6/4d6 | Narrativa (nessun TPK) |
 
 ---

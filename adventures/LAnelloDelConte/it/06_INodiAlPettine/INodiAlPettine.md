@@ -4,7 +4,7 @@
 
 **Party:** 4 PG lv5
 
-Arimano rivela ai PG parte della verità — mostra il quadro sfregiato del Conte e chiede il loro aiuto per sputtanarlo pubblicamente. Non ammette di essere S a meno che i PG non lo incastrino o lo facciano parlare. Mafalda li ha seguiti — la Contessina manda i suoi sgherri a recuperare il pittore. Gorim arriva per primo ad avvertirli. I PG devono decidere da che parte stare, con il tempo che scorre.
+Arimano rivela ai PG parte della verità — mostra il quadro sfregiato del Conte e chiede il loro aiuto per sputtanarlo pubblicamente. Non ammette di essere S a meno che i PG non lo incastrino o lo facciano parlare. Mafalda li sta sorvegliando in continuazione (ordini dalla P4): se i PG si muovono con Michelangeli, la Contessina potrebbe mandare i suoi. Gorim arriva per avvertirli. I PG devono decidere da che parte stare.
 
 ---
 
@@ -16,32 +16,51 @@ Decidere se aiutare Arimano a esporre il Conte, proteggere Michelangeli dagli sg
 
 ## Atto 1 — Il quadro
 
-### Mafalda durante il tragitto
+### Mafalda — sorveglianza
 
-Mafalda li segue dal dungeon (o dal punto in cui escono dalle fogne). Il suo obiettivo è **solo osservare e riferire** — non li affronta, non li arresta.
+Mafalda sorveglia i PG in continuazione (ordini della Contessina dopo la P4). Li segue a distanza, aspetta che facciano qualcosa di interessante.
 
-**Percezione per notarla:** CD 18 (spia esperta, sessione precedente l'hanno già vista — si nasconde meglio).
+**Percezione per notarla:** CD 18.
 
-**Comportamento di Mafalda:**
-- Li segue a distanza
-- Quando li vede dirigersi a casa di Arimano con Michelangeli, ha quello che le serve
-- Torna al castello, riferisce alla Contessina
-- Si ripresenta a casa di Arimano con 6 guardie (= il cliffhanger)
+**Intenzioni:** Mafalda non ha iniziativa propria. Osserva e riferisce. Non attacca a meno che non le venga ordinato di recuperare qualcuno di specifico.
+
+**Cosa la fa agire:**
+- Se vede i PG con una persona in più (coperta o meno), si insospettisce. Riferisce alla Contessina. Torna con 2 guardie a interrogarli.
+- Se riconosce Michelangeli, riferisce e torna con 6 guardie per recuperarlo.
+
+**Cosa NON la fa agire:**
+- I PG che vanno in giro normalmente.
+- I PG che vanno da Arimano senza nessuno di sospetto.
+
+**Se i PG la seminano (Furtività gruppo CD 18):** li perde, non sa dove sono andati.
+
+**Se i PG la affrontano:** fugge (Cunning Action). Non combatte da sola. Se la bloccano, non parla.
+
+### La Contessina scopre la fuga dal dungeon?
+
+Nessuno scende al L3 da tempo: le guardie calano il cibo dalla carrucola e non fanno domande. Se i PG non hanno attaccato le guardie del L1, nessuno sa che qualcuno è passato.
+
+**Meccanica:** ogni giorno dopo la liberazione, il DM tira 1d20. Con un **20 naturale**, qualcuno ispeziona il L3 e scopre la cella vuota. Se i PG hanno attaccato le guardie del L1, l'allarme scatta immediatamente (niente d20).
+
+**Se scatta l'allarme:** Mafalda va dai PG ovunque si trovino, armata, con guardie, per interrogarli. I PG sono gli unici sospettati.
+
+**Interrogatorio:** i PG possono cavarsela con una buona storia (Inganno CD 15). Anche se la convincono, Mafalda non smette di sorvegliarli.
 
 **Cosa sa Mafalda (dipende dai PG):**
 
-| I PG hanno... | Mafalda sa... |
-|---------------|---------------|
-| Portato Michelangeli a viso scoperto | Chi è Michelangeli, dove l'hanno portato, che Arimano è coinvolto |
-| Travestito/coperto Michelangeli | Che hanno portato *qualcuno* da Arimano. Non sa chi. Sospetta. |
-| Seminato Mafalda (Furtività gruppo CD 18) | Niente. Ma Gorim arriva comunque (sa per altra via). Gli sgherri arrivano dopo, chiedendo se ha ospiti. |
+| Situazione | Mafalda... |
+|------------|------------|
+| PG vanno in giro normali | Li segue, prende nota, non agisce. |
+| PG con persona in più (coperta) | Sospettosa. Riferisce. Torna con guardie a interrogare. |
+| PG con Michelangeli a viso scoperto | Lo riconosce. Torna con 6 guardie. Vuole recuperarlo. |
+| d20 = 20 (ispezione dungeon) | Allarme. Va dai PG con guardie, interroga. |
+| PG seminano Mafalda (Furtività CD 18) | Li perde. Non sa dove sono andati. Non agisce. |
 
 **Se i PG la notano e vogliono agire:**
-- **Seminare:** Furtività di gruppo CD 18 (è molto attenta dopo le volte precedenti)
+- **Seminare:** Furtività di gruppo CD 18
 - **Affrontare/catturare:** Mafalda fugge (Cunning Action, Furtività +4). Non combatte. Se la bloccano: non parla, cerca di scappare alla prima occasione.
-- **Travestire Michelangeli:** basta un mantello e cappuccio. Nessun tiro — ma Mafalda sospetta comunque (vede i PG con uno sconosciuto che cammina male)
 
-**Nota DM:** Mafalda non è il nemico. È gli occhi della Contessina. Il problema non è lei — è quello che la Contessina fa con l'informazione.
+**Nota DM:** l'escalation dipende interamente da quanto i PG sono cauti con Michelangeli. Se lo lasciano alla Taberna e vanno da Arimano da soli, Mafalda non ha niente su cui agire. Il cliffhanger scatta solo se portano qualcuno con loro.
 
 ### Cosa sa Michelangeli (scheda interrogatorio)
 
@@ -62,80 +81,94 @@ Se i PG lo interrogano (durante il viaggio o da Arimano):
 
 **NON sa:** chi è S, che Arimano ha il quadro, chi fosse la donna, cosa è successo dopo il suo arresto.
 
+**Lo schizzo:** Michelangeli è un pittore. Se i PG gli chiedono di disegnare la donna del quadro, può farne uno schizzo a carboncino senza problemi. Il risultato è riconoscibile: se i PG lo confrontano col ritratto appeso in casa Arimano (o con la descrizione di Gorim della moglie di Arimano), il collegamento è immediato.
+
 ### I PG portano Michelangeli da Arimano
 
-I PG tornano dal dungeon con Michelangeli (peso morto, in condizioni pietose). Lo portano da Arimano per riscuotere la ricompensa della liberazione: **12 mo**.
+Se i PG portano Michelangeli da Arimano per riscuotere la ricompensa della liberazione (**12 mo**):
 
-Arimano apre la porta. Vede Michelangeli sorretto dai PG. Il sorriso si allarga — troppo.
+Se portano solo informazioni su dove si trova (senza liberarlo): **2 mo a testa**, come promesso nella P5. Se lo portano vivo: **12 mo ulteriori**.
+
+### Se i PG vanno da Arimano senza Michelangeli
+
+I PG potrebbero voler interrogare Arimano prima di consegnargli il pittore. Arimano li riceve volentieri ma vuole Michelangeli: cercherà di convincerli a portarglielo.
+
+**Intenzione di Arimano:** ottenere Michelangeli. Gli serve la sua testimonianza per tre ragioni: confermare che il Conte ha posato di persona (senza testimone il quadro potrebbe essere un altro deepfake senza valore), sapere se Viola e il Conte si conoscevano davvero o se lei era solo una modella (la versione che Viola gli ha dato), e infine usare pittore + quadro insieme per chiedere giustizia e sputtanare il Conte e la Contessina. Ha urgenza.
+
+**Bugie precedenti:** Arimano ha già mentito ai PG (P5): ha detto che Michelangeli è un suo "amico". In realtà Michelangeli non sa di conoscerlo: le volte che l'ha visto, Arimano era mascherato.
+
+| Domanda | Cosa dice | Verità |
+|---------|-----------|--------|
+| Perché ti serve Michelangeli? | *"Devo parlargli. È importante."* Se insistono: *"Ha informazioni che mi servono."* | Vuole la testimonianza sul quadro e su Viola. |
+| Ma non era un tuo amico? | Esita. *"...diciamo che lo conosco meglio di quanto lui conosca me."* | Michelangeli non sa chi sia Arimano. |
+| Cosa c'entra col quadro del Conte? | *"Quale quadro?"* Se insistono: *"Ho sentito voci su un ritratto vero."* | Ha il quadro in casa. |
+| Sei tu la doppia S? | *"No."* (Inganno +7) | Sì. |
+| Chi è la donna nel ritratto appeso? | *"Mia moglie. Viola."* Cambia argomento. | Verità. |
+| Cosa vuoi fare con Michelangeli? | *"Parlargli. Fargli delle domande."* | Verità parziale. |
+
+**Se i PG lo smascherano (tic verbale, brandello, pressione diretta):** Arimano può ammettere di aver mentito. *"Sì, vi ho mentito. Ho le mie ragioni."* Se costretto, racconta parte della vera storia anche senza Michelangeli presente: a giudizio del master quanta e quale. Non rivela tutto spontaneamente, ma non mente più se incastrato.
+
+**Se dicono di avere Michelangeli (senza portarlo):** diventa urgente. *"Portatelo qui. Devo parlargli. Vi pago il doppio."* Non spiega perché finché non lo vede.
+
+**Se rifiutano di portarglielo:** non si arrabbia. Paga le 2 mo/testa per le informazioni. Non forza la mano, ma è chiaramente frustrato.
+
+**Se chiedono di vedere il quadro del Conte (senza aver portato Michelangeli):** non lo mostra a meno che non lo abbiano smascherato o che non sia sotto forte pressione. Senza la conferma di Michelangeli, il quadro per lui è un'arma incompleta.
+
+### Se i PG portano Michelangeli
+
+Arimano apre la porta. Vede Michelangeli sorretto dai PG. Il sorriso si allarga.
 
 > *"Ce l'avete fatta. Sapevo di potermi fidare."*
 
 Li fa entrare. Fa sedere Michelangeli. Gli dà acqua, pane. Conta le 12 monete d'oro sul tavolo.
 
-**Il ritratto della moglie** è nascosto al piano di sopra — Arimano non ne sopporta la vista, roso dalla gelosia anche se Viola nega tutto. I PG avrebbero potuto trovarlo perquisendo la casa nelle visite precedenti (camera padronale, girato contro il muro o coperto da un panno). Se i PG hanno lo schizzo di Michelangeli o se vedono il ritratto ora: una donna di una bellezza sconcertante, giovane, capelli scuri, occhi a mandorla, sorriso sereno. Sfondo nero, cornice dorata.
+**Il ritratto della moglie** è appeso in soggiorno. In precedenza era nascosto al piano di sopra (i PG avrebbero potuto trovarlo perquisendo la casa nelle visite precedenti). Arimano lo ha spostato apposta per vedere se Michelangeli lo nota. È lì anche se i PG arrivano senza Michelangeli. Una donna di una bellezza sconcertante, giovane, capelli scuri, occhi a mandorla, sorriso sereno. Sfondo nero, cornice dorata.
 
 Se chiedono chi sia: *"Mia moglie."* E cambia argomento.
 
 > *"Come promesso."*
 
-Conta dodici monete d'oro sul tavolo e le spinge verso i PG. Dodici totali, per la liberazione del pittore.
+Conta dodici monete d'oro sul tavolo e le spinge verso i PG. Paga la liberazione del pittore come promesso.
 
-> *"Signor Michelangeli. Venite — di sopra c'è un letto vero."*
+Poi accompagna Michelangeli al piano di sopra: c'è un letto vero. Chiede ai PG di restare e fare la guardia: qualcuno potrebbe venire a cercarlo.
 
-Poi si gira verso i PG. Il tono cambia — serio, urgente:
+**Arimano vuole parlare con Michelangeli da solo.** Se i PG accettano, sale e chiude la porta. Se i PG insistono per assistere, cede: lo fa davanti a loro.
 
-> *"Voi restate qui. Fate la guardia. Qualcuno potrebbe venire a cercarlo — e non intendo gente amichevole."*
+**Nota:** se i PG restano al piano di sotto fanno la guardia e possono accorgersi dell'arrivo di Mafalda/guardie. Se sono al piano di sopra con Arimano, non se ne accorgono subito: a seconda del grado di sospetto le guardie potrebbero semplicemente bussare, oppure sfondare la porta ed entrare in casa prima che i PG scendano.
 
-Lo aiuta a salire. Torna giù dopo qualche minuto. Prende il ritratto della moglie dal piano di sopra (dove lo tiene nascosto) e lo porta nella stanza dove è Michelangeli. Chiude la porta.
-
-**Passa del tempo.** I PG sono soli al piano di sotto, a fare la guardia. Silenzio. Poi Arimano ridiscende.
+Arimano resta al piano di sopra per qualche tempo. I PG fanno la guardia. Quando ridiscende, ha il tono di chi ha ottenuto una conferma.
 
 ### Se i PG origliano (Percezione CD 14)
 
 - *"Il committente... quello che ha posato. Lo riconosceresti?"*
 - *"Certo. Un, ahem, 'volto' così non si dimentica."*
-- Rumore di panno tolto.
-- *"E questa donna. Guardala bene. È lei? Quella del quadro?"*
-- Silenzio lungo. Poi: *"...sì. È lei. Ne sono certo."*
-- Silenzio più lungo. Poi Arimano, voce più bassa: *"Bene."*
+- *"E la donna. Quella nel quadro. Come si comportava? Si conoscevano, lei e il committente?"*
+- Silenzio. Poi: *"Non saprei. Hanno posato in momenti diversi. Lei è venuta una volta sola, è stata pagata, e se ne è andata. Non li ho mai visti insieme."*
+
+Arimano è geloso della moglie: la sua speranza era proprio che Viola avesse effettivamente fatto solo la modella. La risposta di Michelangeli lo rassicura.
 
 ### La rivelazione
 
-Arimano torna dai PG. Il sorriso si è spento. Li guarda uno per uno.
+Arimano è serio, senza il solito sorriso. Non mostra il quadro subito. Prima sonda i PG su due punti:
 
-#### Prima: il sondaggio
-
-Arimano non mostra il quadro subito. Prima vuole sapere se sono dalla sua parte.
-
-Sonda i PG su due punti, in quest'ordine:
 1. **La Contessina:** ricorda che ha tenuto un uomo prigioniero senza processo. Chiede se sarebbero disposti a denunciarla pubblicamente.
-2. **Il Conte:** se accettano il primo punto, alza la posta — dice di avere qualcosa di compromettente sul Conte stesso. Chiede se lo aiuterebbero a farlo venire alla luce.
+2. **Il Conte:** se accettano il primo punto, alza la posta. Dice di avere qualcosa di compromettente sul Conte stesso. Chiede se lo aiuterebbero a farlo venire alla luce.
 
-Tono: serio, diretto, senza il solito sorriso. Vuole capire se sono alleati o solo mercenari.
+Vuole capire se sono alleati o solo mercenari.
 
-Se i PG dicono **sì** (o sono ambigui ma non ostili) → prosegue con la rivelazione del quadro.
+Se i PG accettano (o sono ambigui ma non ostili), prosegue con il quadro. Se rifiutano, annuisce, non insiste, non lo mostra. I PG restano coinvolti comunque perché hanno il pittore.
 
-Se i PG dicono **no** o esitano troppo → annuisce, non insiste, non mostra il quadro. La serata continua normalmente fino al cliffhanger (Gorim arriva comunque, gli sgherri arrivano comunque). I PG sono coinvolti lo stesso perché hanno il pittore in casa.
+**Il quadro:** Arimano sale e torna con un tubo di cuoio logoro. Srotola una tela grande, quasi un metro.
 
-#### Se accettano: la rivelazione del quadro
-
-> *"Sedetevi. Ho qualcosa da mostrarvi."*
-
-Sale al piano di sopra. Torna con un tubo di cuoio lungo, logoro. Lo appoggia sul tavolo con cura. Lo apre. Srotola una tela.
-
-> Il quadro è grande — quasi un metro. Un prato primaverile, luce dorata. Folletti con ali di libellula danzano tra i fiori. Fate seminude dormono sui rami. Al centro, un uomo in posa classica — muscoli, corona d'alloro. Completamente nudo.
+> Un prato primaverile, luce dorata. Folletti con ali di libellula danzano tra i fiori. Fate seminude dormono sui rami. Al centro, un uomo in posa classica, muscoli, corona d'alloro. Completamente nudo.
 >
-> O lo era. La faccia è un buco. Qualcuno ha sfondato la tela con un pugno — i bordi dello strappo si arricciano verso l'interno, i listelli del telaio si vedono dietro. E al centro del corpo, dal collo alle ginocchia, una striscia verticale manca del tutto. Tagliata con una lama. Solo le gambe sotto il ginocchio e le spalle sopra sono intatte.
+> O lo era. La faccia è un buco. Qualcuno ha sfondato la tela con un pugno. Al centro del corpo, dal collo alle ginocchia, una striscia verticale manca del tutto. Tagliata con una lama.
 >
 > A destra, intatta: una donna bellissima sdraiata sull'erba. Capelli scuri, occhi a mandorla, pelle d'oliva. Un sorriso sereno. Avvolta in un velo trasparente come una ninfa.
 
-Arimano lascia che guardino. Poi:
+Arimano lascia che guardino. Poi racconta: Michelangeli gli ha appena confermato che il Conte ha posato di persona. Non era un deepfake. La donna a destra è sua moglie.
 
-> *"Questo è il vero ritratto del Conte. Dipinto da Candido Michelangeli. Il Conte ha posato di persona."*
-
-Pausa. Si versa il vino. La mano trema leggermente.
-
-> *"La donna a destra è mia moglie."*
+Prima non ne era sicuro: si era ricomprato il quadro da Michelangeli per quattro soldi (per curiosità e per tenerlo buono), ma quella stessa notte Michelangeli è stato arrestato dalla Contessina. Non ha mai potuto chiedergli niente. Fino a oggi.
 
 **Se chiedono del buco e della striscia:** dice che era già così quando l'ha avuto, non sa chi sia stato. (Mente — li ha fatti lui. La striscia è il brandello dei PG dalla P2. Se collegano: è la prova decisiva. Arimano tentenna, si blocca, poi capitola — non può negare l'evidenza. È il trigger più forte per lo smascheramento.)
 
@@ -165,13 +198,13 @@ Intuizione CD 10: la rabbia è vera, ma c'è anche dolore. Non sa se credere all
 
 | Trigger | Come scatta |
 |---------|-------------|
-| Gorim collega la striscia | Quando Gorim arriva e vede il quadro sfregiato, nota la striscia mancante — quella che i PG hanno dalla P2. Collega: la striscia viene da quel quadro, il quadro è di Arimano. *"Marchese... quella striscia alla Festa... eravate VOI?"* |
+| Qualcuno collega la striscia | I PG hanno il brandello dalla P2. Se lo confrontano col quadro sfregiato, la striscia mancante combacia. *"Questa striscia... viene da quel quadro. Il quadro è vostro, Marchese."* |
 | I PG collegano i puntini | Tic verbale ("Ma parliamo di..."), il fatto che conosce troppi dettagli, che il pittore lavorava per lui, che il tubo col quadro era suo |
 | Arimano sotto pressione | Se gli sgherri arrivano e Arimano deve decidere: resa o fuga. Sotto pressione potrebbe lasciarsi sfuggire qualcosa che lo incastra |
 | Michelangeli dice qualcosa | Il DM tira Intelligenza per Michelangeli (CD 10, mod +0). Se riesce: *"La sua voce... mi sembra di averla già sentita. Ci conosciamo?"* Non accusa — dubita. I PG devono collegare. |
 | I PG lo accusano direttamente | Se le guardie sono già arrivate: ignora l'accusa. *"Abbiamo cose più importanti da fare adesso."* Non ammette, non nega — rimanda. Se le guardie NON sono ancora arrivate: può ammettere sotto pressione diretta (è troppo orgoglioso per negare con prove in faccia). |
 
-**Se lo smascheramento avviene:** Arimano non nega. Cambia postura — la gobba emerge. Si raddrizza per un momento, poi si lascia andare. *"Sì. Sono io."* È più stanco che trionfante. La maschera cade con un sospiro, non con un'esplosione. La frase alla Stanislao Molisky ("Maledetto X, sono io S!") va usata solo se il momento al tavolo la giustifica — non forzarla.
+**Se lo smascheramento avviene:** Arimano non nega. Cambia postura, la gobba emerge. Se il momento al tavolo lo giustifica e fa ridere, la scena può ricalcare il fumetto di Nick Carter: Arimano si ingobbisce e in qualche modo invecchia davanti ai loro occhi, poi dichiara *"Ebbene sì, maledetti, avete vinto! Io sono il Marchese Sergius Stanislao Arimano Improbus!"* (rivelando per la prima volta il nome completo).
 
 **Se NON avviene in questa sessione:** va bene. Lo smascheramento può arrivare in P7 quando Gorim lo vede arrivare al castello. Ma è più forte qui, nel momento intimo, che nel caos del finale.
 
@@ -191,89 +224,53 @@ Se i PG chiedono "cosa ci guadagniamo?": offre tutto quello che ha. Non è molto
 
 ## Atto 2 — Bussano alla porta
 
-### Timing
+### Timing e trigger
 
-Gorim arriva **dopo che Arimano ha mostrato il quadro ai PG** — non prima. Il DM decide quando, ma deve essere dopo la rivelazione (lasciare il momento respirare). Se Mafalda li ha seguiti senza problemi, gli sgherri sono già nel cortile quando Gorim bussa. Se l'hanno seminata, Gorim arriva qualche minuto prima degli sgherri.
+Questo atto scatta **solo se Mafalda ha motivo di agire** (vedi § Mafalda, escalation livello 3 o 4). Se i PG hanno lasciato Michelangeli alla Taberna e sono andati da Arimano da soli, Mafalda non ha niente e questo atto non avviene: la sessione procede direttamente alla transizione verso P7.
 
-### Possibile cliffhanger
+**Se Mafalda si è insospettita o è scattato l'allarme:** Gorim arriva poco prima di lei (le sue fonti al castello lo avvisano che Mafalda si muove).
 
-Se il DM vuole chiudere la sessione qui: Gorim non è ancora arrivato, ma dalla finestra i PG vedono sagome armate nel cortile. Mafalda, braccia conserte. Fine sessione — la prossima parte inizia con Gorim che bussa.
+**⚠️ Cliffhanger opzionale:** se il DM vuole chiudere la sessione qui, dalla finestra i PG vedono sagome armate nel cortile. Mafalda, braccia conserte. Fine sessione.
 
-### Gorim arriva primo
+### Gorim
 
-Gorim bussa forte, tre colpi secchi. Chiama Arimano per nome. Quando aprono, entra di corsa — sudato, affannato. Vede i PG, vede Arimano, nota il tubo di cuoio sul tavolo. Capisce qualcosa ma non commenta.
+Gorim deve essere presente per la battaglia finale (P7). Il DM deve trovare un modo verosimile per farlo incontrare ai PG durante questa puntata, in base a come si sviluppano gli eventi. Se Mafalda è tornata al castello, Gorim lo viene a sapere dalle sue fonti e arriva ad avvertirli. Se Mafalda non si è mossa, Gorim può presentarsi per altri motivi (chiedere aggiornamenti, portare notizie del ritorno del Conte dal Burmini).
 
-Avverte che la Contessina sa del pittore: Mafalda e due guardie stanno arrivando (se la mandano via, torna con 6 in più). Li spinge a fuggire dalle finestre sul retro. Guarda Arimano con sospetto ma non dice niente — non è il momento.
-
-Se i PG chiedono perché li aiuta: Gorim spiega che la Contessina ha oltrepassato il limite. Tiene un uomo prigioniero senza processo, manda sgherri a casa della gente, arresta chi le pare. Il Conte non c'è mai e lei fa quello che vuole. Gorim ammette di aver chiuso un occhio troppo a lungo.
-
-**Nota DM:** Gorim ha scelto. Non è una decisione facile — va contro il suo senso del dovere e della catena di comando. Ma ha visto troppo. La Contessina ha oltrepassato il limite e lui non può più fingere di non vedere. Questo momento costa al personaggio.
+Se i PG chiedono perché li aiuta: la Contessina ha oltrepassato il limite. Gorim ammette di aver chiuso un occhio troppo a lungo.
 
 ---
 
-## Atto 3 — Mafalda alla porta (sessione successiva)
+## Atto 3 — Mafalda alla porta
 
-### Cosa vuole Mafalda
+### Intenzioni di Mafalda
 
-Vuole **perquisire la casa**. Se ha visto Michelangeli a viso scoperto, sa che è lui e lo vuole. Se l'hanno travestito, sa solo che i PG hanno portato qualcuno da Arimano — sospetta ma non ha certezze.
+Mafalda vuole sapere cosa stanno combinando i PG. Se ha solo sospetti, interroga. Se sa di Michelangeli, vuole recuperarlo.
 
-**Mafalda NON è autorizzata a uccidere o arrestare i PG.** È qui per il pittore. Se i PG non hanno il pittore visibile e non le danno motivo, non può fare niente.
-
-### Meccaniche per convincerla ad andare via
-
-| Approccio | CD | Effetto |
-|-----------|-----|---------|
-| Inganno ("non c'è nessun pittore qui") | 16 | Se ne va con sospetti. Torna dopo poco con 6 guardie in più. |
-| Persuasione ("non avete giurisdizione in casa del Marchese") | 18 | Esita. Le guardie si guardano. Se ne va — torna dopo poco con 6 guardie in più. |
-| Intimidazione (i PG si schierano in armi sulla porta) | 14 | Le guardie non vogliono combattere. Mafalda valuta. Se ne va. |
-| Gorim media ("sono affari del Conte, non della Contessina") | 15 | Mafalda rispetta l'autorità di Gorim ma obbedisce alla Contessina. Ritarda, non risolve. |
-
-**Successo:** Mafalda se ne va. I PG hanno tempo per far sparire Michelangeli e il quadro (finestre sul retro).
-
-**Fallimento o rifiuto di aprire:** Mafalda ordina alle guardie di sfondare la porta. I PG devono decidere: combattere, fuggire (finestre sul retro), o consegnare.
+- **Sospetto:** 2 guardie. Chiede, interroga, non ha prove. Se i PG raccontano una storia convincente (Inganno CD 15), se ne va. Continua a sorvegliarli.
+- **Allarme (Michelangeli visto o fuga scoperta):** 6 guardie. Vuole il pittore. Non accetta storie (Inganno CD 18 per provare). Se non la convincono e non aprono, ordina di sfondare la porta.
 
 ### Se Mafalda entra
 
-Perquisisce. Cerca Michelangeli (piano di sopra) e qualsiasi cosa sospetta.
+Perquisisce. Se trova Michelangeli lo prende. Se trova il quadro lo sequestra. Combattimento solo se i PG si oppongono fisicamente.
 
-**Se trova Michelangeli:** lo prende. Combattimento solo se i PG si oppongono fisicamente.
+### Combattimento
 
-**Se trova il quadro:** lo sequestra. *"Questo va alla Contessina."*
-
-**Se non trova niente** (PG hanno nascosto/fatto fuggire prima): se ne va frustrata. Riferisce alla Contessina che sospetta ma non ha prove.
-
-### Combattimento (se scoppia)
-
-Scatta se:
-- I PG attaccano per primi
-- Mafalda trova Michelangeli e i PG si oppongono
-- Mafalda trova il quadro e i PG si oppongono
-
-**2 Guard** (CA 16, PF 11, +3 1d6+1) + **Mafalda Spy** (CA 12, PF 27, +4 1d6+2 +2d6 sneak)
-
-Difficoltà: EASY per 4 PG lv5 (prima ondata: 2 Guard + Mafalda). Se torna con 6 Guard in più: MEDIUM. Le guardie si arrendono se in svantaggio numerico. Mafalda fugge se in svantaggio.
+**2 guardie:** 2 Guard (CA 16, PF 11) + Mafalda Spy (CA 12, PF 27, sneak +2d6). EASY.
+**6 guardie:** 6 Guard + Mafalda. MEDIUM. Le guardie non si arrendono finché Mafalda è in piedi. Se Mafalda cade o fugge, si arrendono.
 
 ### Fuggire
 
-La casa non ha uscite segrete — è una normalissima casa, non ha porta sul retro. Se vogliono far sparire Michelangeli e il quadro, devono farlo dalle finestre sul retro, sperando che le guardie non coprano quel lato. Atletica o Furtività a discrezione del DM.
+La casa non ha uscite segrete. Finestre sul retro: 3m di caduta (1d6 danni), Atletica o Furtività a discrezione del DM.
 
 ---
 
-## Opzioni per i PG (da gestire nella sessione successiva)
+## Se Mafalda non arriva
 
-I PG hanno cinque minuti narrativi. Le opzioni:
-
-| Opzione | Come | Conseguenza |
-|---------|------|-------------|
-| **Combattere** | Aprono e attaccano (2 Guard + Mafalda Spy; se torna dopo: 6 Guard + Mafalda) | Vinta = fuga, ma la Contessina è furiosa |
-| **Fuggire** | Finestre sul retro (3m di caduta = 1d6 danni) | I PG fuggono con Michelangeli e il quadro. Mafalda trova la casa vuota |
-| **Negoziare** | Aprono e parlano con Mafalda | Persuasione CD 18 / Inganno CD 16. Mafalda vuole il pittore — potrebbe accettare "lo portiamo noi da Gorim" |
-| **Consegnare** | Danno Michelangeli a Mafalda | Arimano furioso, tradimento. Perde il testimone. Fine del piano |
-| **Gorim media** | Gorim esce e parla con Mafalda | Guadagna tempo (10 min). Non risolve. Mafalda obbedisce alla Contessina, non a Gorim |
+Se i PG non danno motivo a Mafalda di agire (Michelangeli nascosto, nessun allarme), l'Atto 2-3 non avviene. La puntata prosegue direttamente con la pianificazione del confronto col Conte (transizione verso P7).
 
 ### Tono
 
-Questo modulo è il pivot dell'avventura. Il tono passa da commedia a qualcosa di più serio — non ancora tragico (quello è P7), ma la posta in gioco è reale. Arimano non è più il nobile eccentrico: è un uomo ferito che chiede aiuto. Gorim non è più il funzionario esasperato: è qualcuno che ha fatto una scelta.
+Questo modulo è il pivot dell'avventura. Il tono passa da commedia a qualcosa di più serio. Arimano non è più il nobile eccentrico: è un uomo ferito che chiede aiuto. Gorim non è più il funzionario esasperato: è qualcuno che ha fatto una scelta.
 
 ### Arimano dopo lo smascheramento
 
@@ -282,10 +279,6 @@ Cambia postura. Letteralmente — la gobba emerge. Non si sforza più di apparir
 ### Gorim sceglie
 
 Gorim è venuto ad **avvertirli**, non ad arrestarli. Ha scelto. Non lo dice esplicitamente, ma è dalla parte dei PG — o almeno contro la Contessina. Questo costa al suo senso del dovere.
-
-### Mafalda non è stupida
-
-Se i PG escono dalla porta e "fanno finta di niente", Mafalda non ci casca. Sa che il pittore è dentro. Vuole il pittore. Non accetta scuse a meno che siano molto convincenti (CD 18+).
 
 ### Il quadro è la bomba narrativa
 

@@ -30,6 +30,74 @@
 Role: animale esotico fuggito dalle casse</description>
     </monster>
     <monster>
+        <name>DifensoreBurmini - mago difensore del Burmini</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>15 (Mage Armor)</ac>
+        <hp>50 (9d8+9)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <senses>Percezione passiva 14</senses>
+        <languages>Common, Burminese</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Mirror Image (pre-cast)</name>
+            <text>3 duplicati illusori attivi dall'ingresso. Ogni duplicato assorbe un attacco (CA 15 per colpire il duplicato; se colpito, il duplicato sparisce).</text>
+        </trait>
+        <trait>
+            <name>Protezione del Rituale</name>
+            <text>il difensore non abbandona mai la formazione attorno ai ritualisti. Non insegue nemici che fuggono. Non attacca chi non interferisce col rituale.</text>
+        </trait>
+        <trait>
+            <name>Incantatore (INT, CD 15, +6)</name>
+            <text>Slot: 4× lv1, 3× lv2, 2× lv3. Incantesimi preparati: Shield, Thunderwave, Sanctuary, Mirror Image, Misty Step, Warding Bond, Counterspell.</text>
+        </trait>
+        <action>
+            <name>Fire Bolt (cantrip, distanza)</name>
+            <text>Attacco: +7, distanza 120 ft Danni: 2d10 fuoco</text>
+            <attack>Fire Bolt (cantrip, distanza)|+7|2d10</attack>
+        </action>
+        <action>
+            <name>Thunderwave (lv1, area)</name>
+            <text>Attacco: CON CD 15 Danni: 2d8 tuono, spinta 10 ft se fallisce</text>
+            <attack>Thunderwave (lv1, area)||2d8</attack>
+        </action>
+        <action>
+            <name>Shield (lv1, reazione)</name>
+            <text>Effetto: +5 CA fino al prossimo turno. Reazione quando colpito.</text>
+        </action>
+        <action>
+            <name>Counterspell (lv3, reazione)</name>
+            <text>Effetto: annulla un incantesimo in fase di lancio entro 60 ft. Automatico per slot 1-3. Per slot 4+: check INT +6.</text>
+        </action>
+        <action>
+            <name>Sanctuary (lv1, bonus action, su un ritualista)</name>
+            <text>Effetto: chi attacca il bersaglio deve fare SAG CD 15 o perdere l'attacco. Dura 1 minuto.</text>
+        </action>
+        <action>
+            <name>Warding Bond (lv2, azione, su un ritualista)</name>
+            <text>Effetto: +1 CA e +1 ai save del bersaglio. Il difensore subisce gli stessi danni del bersaglio. Dura 1 ora.</text>
+        </action>
+        <action>
+            <name>Misty Step (lv2, bonus action)</name>
+            <text>Effetto: teletrasporto 30 ft senza provocare opportunita.</text>
+        </action>
+        <action>
+            <name>Spellcasting</name>
+            <text>Mirror Image (pre-cast): 3 duplicati illusori attivi dall'ingresso. Ogni duplicato assorbe un attacco (CA 15 per colpire il duplicato; se colpito, il duplicato sparisce).
+Protezione del Rituale: il difensore non abbandona mai la formazione attorno ai ritualisti. Non insegue nemici che fuggono. Non attacca chi non interferisce col rituale.
+Incantatore (INT, CD 15, +6): Slot: 4× lv1, 3× lv2, 2× lv3. Incantesimi preparati: Shield, Thunderwave, Sanctuary, Mirror Image, Misty Step, Warding Bond, Counterspell.</text>
+        </action>
+        <description>Figure in tuniche scure con cappucci bassi. Piu vecchi dei ritualisti, cicatrici da combattimento magico sulle mani. Si muovono con calma, occhi fissi su chiunque si avvicini ai ritualisti. Non parlano.
+Role: protezione del rituale</description>
+    </monster>
+    <monster>
         <name>GiantWolfSpider - ragno lupo gigante</name>
         <size>M</size>
         <type>beast</type>
@@ -65,6 +133,57 @@ Role: animale esotico fuggito dalle casse</description>
         </action>
         <description>Un ragno grande come un cane, peloso, con otto occhi neri e mandibole gocciolanti. Cala dalle travi del soffitto quando la sua cassa si rompe. Si muove veloce tra le casse e le pareti.
 Role: animale esotico fuggito dalle casse</description>
+    </monster>
+    <monster>
+        <name>GuardBalestriere - guardia con balestra</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>lawful neutral</alignment>
+        <ac>16 (cotta di maglia + scudo)</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>30 ft.</speed>
+        <str>13</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <senses>Percezione passiva 12</senses>
+        <languages>Common</languages>
+        <cr>1/8</cr>
+        <action>
+            <name>Balestra leggera (distanza)</name>
+            <text>Attacco: +3, distanza 80/320 ft Danni: 1d8+1 perforanti</text>
+            <attack>Balestra leggera (distanza)|+3|1d8+1</attack>
+        </action>
+        <action>
+            <name>Pugnale (mischia)</name>
+            <text>Attacco: +3, mischia 5 ft Danni: 1d4+1 perforanti</text>
+            <attack>Pugnale (mischia)|+3|1d4+1</attack>
+        </action>
+        <description>Guardia della Contessina posizionata sugli spalti del castello. Armatura leggera, balestra leggera, coltello per la mischia.
+Role: guardia della Contessina sugli spalti</description>
+    </monster>
+    <monster>
+        <name>Mimic Giovane</name>
+        <size>M</size>
+        <type>humanoid (humanoid)</type>
+        <alignment>neutral</alignment>
+        <ac>10</ac>
+        <hp>1</hp>
+        <speed>10 ft.</speed>
+        <str>10</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>4</int>
+        <wis>11</wis>
+        <cha>6</cha>
+        <senses>darkvision 60 ft., Percezione passiva 10</senses>
+        <languages>-</languages>
+        <cr>1/4</cr>
+        <description>Un mimic giovane, piccolo e debole, che ha assunto la forma di uno zerbino pulitissimo — fuori posto in un dungeon fradicio. Più fastidioso che pericoloso. Serve a installare la paranoia nei PG.
+Role: primo mimic del dungeon, effetto comico
+Role: mostro comico (zerbino mimetico)</description>
     </monster>
     <monster>
         <name>PoisonousSnake - serpente velenoso</name>
@@ -119,6 +238,42 @@ Role: animale esotico fuggito dalle casse</description>
         </action>
         <description>Un rinoceronte grigio, enorme, furioso. Intrappolato in una cassa rinforzata nel Magazzino 4 di Vetusta Portus. Non è un nemico - è un animale terrorizzato che vuole scappare. Attacca solo chi si trova sulla sua traiettoria verso la porta.
 Role: animale esotico intrappolato nel magazzino</description>
+    </monster>
+    <monster>
+        <name>RitualistaBurmini - mago ritualista del Burmini</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>12 (tuniche rinforzate)</ac>
+        <hp>40 (9d8)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>12</dex>
+        <con>14</con>
+        <int>18</int>
+        <wis>13</wis>
+        <cha>10</cha>
+        <senses>Percezione passiva 11</senses>
+        <languages>Common, Burminese</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Concentrazione Rituale</name>
+            <text>il ritualista è concentrato sull'incantesimo collettivo. Se subisce danni, CON save CD 10 + metà danno subito per mantenere la concentrazione. Se fallisce, perde 1 round (si riconcentra al turno successivo).</text>
+        </trait>
+        <trait>
+            <name>Combustibile Vitale</name>
+            <text>il rituale consuma la forza vitale del ritualista. Al completamento (round 3), il ritualista muore automaticamente.</text>
+        </trait>
+        <trait>
+            <name>Sacrificio Finale</name>
+            <text>se l'ultimo ritualista rimasto vede che non puo completare il rituale (gli altri 2 sono morti e lui sta per cadere), puo usare la sua azione per suicidarsi e scagliare la *Maledizione del Burmini*: Power Word Kill a distanza (300 ft) sul Conte. Il ritualista muore nell'atto, il Conte muore automaticamente.</text>
+        </trait>
+        <action>
+            <name>Nessuno</name>
+            <text>I ritualisti non combattono. Non hanno attacchi. Tutta la loro energia e nel rituale.</text>
+        </action>
+        <description>Figure in tuniche colorate (rosso, viola, blu), cappelli a punta, bastoni di legno intarsiato. Giovani, occhi spiritati, movimenti precisi e coordinati. Non parlano, non guardano nessuno tranne il castello. Si muovono come un solo organismo.
+Role: terrorista suicida</description>
     </monster>
     <monster>
         <name>Bandit - bandito</name>
@@ -287,6 +442,50 @@ Role: ex-venditrice di pozioni rinvigorenti, fonte di informazioni</description>
         </action>
         <description>Il cui nome nessuno conosce, il cui volto nessuno ha visto. Governa Fianus tramite lettere e messaggeri. Ordini spesso contraddittori. Sempre in viaggio.
 Role: MacGuffin vivente, mandante assente</description>
+    </monster>
+    <monster>
+        <name>Mafalda (Spia della Contessina)</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>neutral evil</alignment>
+        <ac>12</ac>
+        <hp>27 (6d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <skill>Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of Hand +4, Stealth +4</skill>
+        <senses>passive Perception 16</senses>
+        <languages>Common, Elvish</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Cunning Action</name>
+            <text>On each of her turns, Mafalda can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+        </trait>
+        <trait>
+            <name>Sneak Attack (1/Turn)</name>
+            <text>Mafalda deals an extra 7 (2d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of Mafalda that isn't incapacitated and Mafalda doesn't have disadvantage on the attack roll.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Mafalda makes two melee attacks.</text>
+        </action>
+        <action>
+            <name>Shortsword</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+            <attack>Shortsword|+4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Hand Crossbow</name>
+            <text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+            <attack>Hand Crossbow|+4|1d6+2</attack>
+        </action>
+        <description>Braccio destro della Contessina. Spia esperta, silenziosa, letale. Non parla se catturata. Fugge se in svantaggio numerico. Obbedisce solo alla Contessina.
+
+Comportamento in combattimento: protegge la Contessina, fugge con lei se la situazione è persa. Non combatte fino alla morte.</description>
     </monster>
     <monster>
         <name>SergiusArimano - antagonista</name>

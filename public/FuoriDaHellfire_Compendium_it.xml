@@ -462,6 +462,7 @@ Role: NPC companion del party</description>
         <action>
             <name>Onda psichica (automatica, quando esce 1 al d8)</name>
             <text>Danni: 1d4 + presa, psichici, tutte le creature entro 10qd</text>
+            <attack>Onda psichica (automatica, quando esce 1 al d8)||1d4</attack>
         </action>
         <action>
             <name>Conflitto mentale</name>

@@ -178,6 +178,7 @@ Role: NPC party companion</description>
         <action>
             <name>Psychic Wave (when a 1 comes up on the d8)</name>
             <text>Saving throw: none (automatic) Damage: 1d4 + grip level psychic damage Area: all creatures within 15m / 50ft / 10qd of the wearer Effect: hits allies and enemies indiscriminately</text>
+            <attack>Psychic Wave (when a 1 comes up on the d8)||1d4</attack>
         </action>
         <action>
             <name>Mental Conflict (when Jason forces control)</name>
@@ -186,6 +187,7 @@ Role: NPC party companion</description>
         <action>
             <name>Nightly Nightmares (grip 3+)</name>
             <text>Damage: 2d6 psychic per night Effect: no benefit from long rest</text>
+            <attack>Nightly Nightmares (grip 3+)||2d6</attack>
         </action>
         <description>In life, Jason Accordion was a handsome man with a smile that never reached his eyes — the type who walks into a room and everyone turns to look. Warm voice, impeccable manners, always the right word at the right time.
 Now he is just a voice in the ring. He whispers, suggests, flatters. The tone is that of an old friend — patient, understanding, never aggressive. At first. Over time he becomes more insistent, more present, more *him* and less the wearer.

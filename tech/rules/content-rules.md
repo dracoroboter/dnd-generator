@@ -34,6 +34,17 @@ L'avventura scritta descrive il mondo: luoghi, personaggi, oggetti, conseguenze 
 
 L'avventura reagisce ai comportamenti dei PG, di solito non li obbliga. Usare strutture "se... allora..." per descrivere le conseguenze, non sequenze lineari che assumono un comportamento specifico.
 
+### Cosa descrivere nei moduli
+
+I moduli descrivono:
+- Le **intenzioni** degli NPC (cosa vogliono, perché, come si muovono)
+- Gli **eventi strutturali** che accadono indipendentemente dalle scelte dei PG
+- I **legami** tra fatti, personaggi e luoghi (chi sa cosa, chi reagisce a cosa)
+
+Non serve prevedere ogni possibile esito: il DM colma i buchi al tavolo. Se un modulo dipende da un evento del modulo precedente, descrivere le intenzioni dell'NPC e i suoi obiettivi; il DM adatterà il comportamento alla situazione specifica del suo tavolo.
+
+**Non dare per scontato un esito specifico del modulo precedente** quando quell'esito dipende dalle scelte dei PG. Descrivere l'NPC in termini di cosa vuole e come agisce, non in termini di cosa è successo prima.
+
 ### Eccezioni
 
 L'avventura può descrivere lo stato meccanico dei PG o forzare un passaggio quando:
