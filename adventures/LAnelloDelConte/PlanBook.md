@@ -26,23 +26,27 @@ L'Anello del Conte è il prologo umoristico di Il Re Spezzato. Stesso mondo, ste
 - [x] Puntata 2: La Festa del Grazie - discorso di Sergius, caccia al tesoro, NPC nuovi
 - [x] Puntata 3: ~~Il Rivale~~ → Una Pizza in Compagnia (scritta, vedi modulo 03)
 - [x] Puntata 4: Il Corniciaio - Sberluccica interrogato, rapito dalla Contessina, salvato dai PG (scritta, vedi modulo 04)
-- [ ] Puntata finale (numero da stabilire): Il Finale - rivelazione dell'Anello, del Conte, cambio di tono verso Il Re Spezzato
-- [ ] Definire cosa sia davvero l'Anello e perché la rivelazione finale è soddisfacente
+- [x] Puntata 5: Ritorno alle Fogne (scritta, giocata)
+- [x] Puntata 6: I Nodi al Pettine (scritta, giocata)
+- [x] Puntata finale (7): Il Finale di Stagione (scritta e giocata)
+- [x] Definire cosa sia davvero l'Anello e perché la rivelazione finale è soddisfacente - L'Anello è un anello d'oro con diamante del Conte, regalato a Viola come compenso per la posa del quadro. Viola lo indossa. Gorim lo riconosce. La rivelazione è soddisfacente perché l'oggetto cercato per 7 puntate era al dito della moglie di Arimano - irrilevante.
 - [ ] Definire l'esclamazione ricorrente del borgo (equivalente di "Daje!")
 - [ ] Definire l'equivalente fantasy di "Smarmella tutto"
 - [ ] Tabella complicazioni random per sessione
 
 ---
 
-## La morte del Conte - Puntata finale
+## La morte del Conte - Puntata finale (P7)
 
 La puntata finale è anche una sorta di epilogo che porta al Re Spezzato.
 
-**Cosa succede:** Esplosione nel castello del Conte. Maghi laici terroristi del **Burmini** (paese lontano) attaccano il castello a causa degli affari che il Conte aveva in quel paese - questo spiega i suoi frequenti "viaggi".
+**Cosa succede:** La **Maledizione del Burmini** colpisce il Conte. Maghi laici terroristi del **Burmini** (paese lontano) attaccano il castello a causa degli affari che il Conte aveva in quel paese - questo spiega i suoi frequenti "viaggi". L'ultimo ritualista, morendo, lancia la Maledizione (Power Word Kill a distanza). Il Conte muore. Il castello resta intatto. Contessina e Mafalda sopravvivono.
+
+**Meccanica:** 3 ritualisti + 3 difensori. Fanatici suicidi. Meccanica a livelli (5 livelli per completare il rituale). L'ultimo ritualista si suicida lanciando la Maledizione.
 
 **Tono:** La morte del Conte non è comica - è il momento in cui la commedia finisce. Proprio quando i PG stavano finalmente per incontrare il Conte (e conoscerne il nome, il volto, tutto), lui muore per una causa completamente esterna e inaspettata. Niente nome, niente volto, niente risposte.
 
-**Sergius:** È sorpreso quanto gli altri. A questo punto ha già compiuto la sua vendetta sul Conte (o non può più farla). La morte del Conte per mano di terroristi stranieri è beffarda e casuale - rende inutile tutto il suo piano.
+**Sergius:** È sorpreso quanto gli altri. La Maledizione del Burmini uccide il Conte prima che Arimano possa mostrargli il quadro. La vendetta viene cancellata da un evento esterno e casuale - rende inutile tutto il suo piano. Sopravvive. Perdona Viola (Michelangeli conferma che ha fatto solo la modella). Se ne vanno insieme verso il tramonto.
 
 **I PG:** Completa sorpresa. Nessuno sapeva degli affari del Conte col Burmini. Il mistero si chiarisce dopo (forse nel Re Spezzato).
 
@@ -50,12 +54,12 @@ La puntata finale è anche una sorta di epilogo che porta al Re Spezzato.
 
 ### Da decidere
 
-- [ ] Numero della puntata finale (5? 6? dipende da quante puntate intermedie)
-- [ ] Sergius ha compiuto la vendetta o no? Come si è risolta la trama del ritratto?
-- [ ] I PG scoprono che Sergius = Marchese Arimano prima o durante la puntata finale?
-- [ ] Cosa succede a Sergius dopo la morte del Conte? Sparisce? Resta a Fianus?
-- [ ] Il Burmini: che affari aveva il Conte? Commercio? Alleanze militari? Debiti?
-- [ ] I maghi del Burmini: quanti, come attaccano, cosa vogliono (vendetta? messaggio politico?)
+- [x] Numero della puntata finale: **7**
+- [x] Sergius ha compiuto la vendetta o no? NO - la Maledizione del Burmini uccide il Conte prima che Arimano possa mostrargli il quadro. La vendetta viene cancellata da un evento esterno e casuale.
+- [x] I PG scoprono che Sergius = Marchese Arimano? SI, nella P6. Patto: Michelangeli in cambio di informazioni su S. Arimano si rivela dopo aver visto il pittore.
+- [x] Cosa succede a Sergius dopo la morte del Conte? Sopravvive. Perdona Viola (Michelangeli conferma che ha fatto solo la modella). Se ne vanno insieme verso il tramonto.
+- [x] Il Burmini: resta volutamente indefinito. Nessuna spiegazione data.
+- [x] I maghi del Burmini: 3 ritualisti + 3 difensori. Fanatici suicidi. Meccanica a livelli (5 livelli per completare). L'ultimo ritualista si suicida lanciando la Maledizione.
 
 ### Da definire prima della sessione 4
 
@@ -73,7 +77,7 @@ La doppia vita di S. (Arimano/Sergius) e i ritratti sono vaghi. Precisare senza 
 
 ## Problemi aperti - Puntata 1
 
-1. **La lettera nella stanza 5**: ~~il cattivo misterioso (Sergius) ha trovato l'Anello e lasciato una caccia al tesoro. Va definito meglio cosa vuole e come ha saputo dell'Anello.~~ → ✅ RISOLTO: Sergius non ha l'Anello, è un bluff. Ha scoperto che era stato perduto e finge di averlo per attirare avventurieri.
+1. **La lettera nella stanza 5**: ~~il cattivo misterioso (Sergius) ha trovato l'Anello e lasciato una caccia al tesoro. Va definito meglio cosa vuole e come ha saputo dell'Anello.~~ → [x] RISOLTO: Sergius non ha l'Anello, è un bluff. Ha scoperto che era stato perduto e finge di averlo per attirare avventurieri.
 2. **Due incontri sociali di fila** (stanza 1 e 2): Ratti + Ermolao sono entrambi dialogo. Valutare se invertire stanza 2 e 3.
 3. **Grunzio è troppo pericoloso**: anche con 30 PF, un Ogre fa 2d8+4 - one-shot su PG lv1. Abbassare il danno o rendere esplicito che non colpisce per uccidere.
 4. **Manca un motivo per cui i PG accettano**: Gorim dice "ordine del Conte" ma i PG non lavorano per lui. La trattativa sul compenso è il motivo, ma va reso più esplicito.
@@ -107,7 +111,7 @@ Ha trovato l'Anello nelle fogne prima dei PG e lo usa per una vendetta contro il
 - In che modo è stato fregato dal Conte
 - Quali traffici illeciti ha nelle fogne
 - Come i PG scoprono la sua esistenza (quale puntata?)
-- Chi o cosa causa l'esplosione finale
+- Chi o cosa causa la morte del Conte
 
 ### Domande emerse dal tavolo (sessione 1)
 
@@ -233,13 +237,13 @@ Regola: no trattino lungo, no emoji (tranne ✅ e ⚠). Da applicare progressiva
 
 ### Critici
 
-- [ ] **P1 - Terzilio = Sergius**: il modulo 01 non dice al DM che quel Terzilio e Sergius travestito. Aggiungere nota DM.
+- [x] **P1 - Terzilio = Sergius**: IRRILEVANTE - Terzilio non è Sergius, decisione D41 già presa.
 - [ ] **Come Sergius sa dell'Anello perduto**: non e mai spiegato. Esplicitare (rete informatori? ha origliato al castello?).
-- [ ] **P2 - Brandello ritratto**: il modulo 02 dice "ritratto del Conte" senza specificare che e un deepfake. Aggiornare con la decisione presa (brandello = deepfake).
+- [x] **P2 - Brandello ritratto**: RISOLTO - il brandello viene dal quadro vero (retcon 16/06/2026, confermato in sessione 10).
 - [ ] **Chi ricatta chi**: la Contessina "sa del ricatto" ma non sa del ritratto vero. Chiarire cosa intende Gorim quando dice "il Conte e finito" (si riferisce ai deepfake, non al vero ritratto).
-- [ ] **Timeline lettera nelle fogne**: Sergius ha piazzato la lettera lo stesso giorno del reclutamento? Decidere: la lettera era li da prima (Sergius sapeva gia) o l'ha messa quel giorno.
-- [ ] **Calligrafia indizio "decisivo" inaccessibile**: i PG non hanno la lettera della P1 (l'ha Gorim). Aggiungere un'occasione per rivederla.
-- [ ] **P2 - Transizione Sergius-Terzilio alla Festa**: il modulo non gestisce il passaggio tra Sergius travestito da Terzilio e il vero Terzilio. Aggiungere nota DM con timeline.
+- [x] **Timeline lettera nelle fogne**: IRRILEVANTE per la storia conclusa.
+- [x] **Calligrafia indizio "decisivo" inaccessibile**: I PG non hanno usato questo indizio. Lo smascheramento è avvenuto via patto diretto.
+- [x] **P2 - Transizione Sergius-Terzilio**: IRRILEVANTE - Terzilio non è Sergius.
 - [x] **P4 - Sberluccica e la posa del Conte**: OBSOLETO. Il pittore del quadro vero è Candido Michelangeli (non Sberluccica, senza la S). Sberluccica faceva solo deepfake.
 
 ### Minori
@@ -260,18 +264,18 @@ Elementi da seminare nelle puntate comiche per preparare Il Re Spezzato:
 - Il Conte riceve ordini da qualcuno piu in alto (il Re?) - accenni vaghi
 - Nelle vicinanze c'e una miniera abbandonata (Nerrok) che "nessuno vuole visitare"
 - La morte del Conte nell'ultima puntata non e comica - e il momento in cui la commedia finisce
-- Gorim riceve un messaggio urgente dalla capitale dopo l'esplosione: il Re vuole vederlo
+- Gorim riceve un messaggio urgente dalla capitale dopo la morte del Conte: il Re vuole vederlo
 - Il vuoto di potere lasciato dal Conte trascina i PG nella storia piu grande di Drakenhold
 
 ### L'arco di Gorim
 
-Dopo l'esplosione, Gorim cambia. Non e piu il funzionario esasperato - e un uomo che ha perso il suo signore. Tra L'Anello del Conte e Il Re Spezzato passa un anno. Gorim viene convocato a corte e diventa il confidente di Re Dorian Valemarch. Quando i PG lo ritrovano, e un uomo diverso: serio, stanco, leale fino all'osso.
+Dopo la morte del Conte, Gorim cambia. Non e piu il funzionario esasperato - e un uomo che ha perso il suo signore. Tra L'Anello del Conte e Il Re Spezzato passa un anno. Gorim viene convocato a corte e diventa il confidente di Re Dorian Valemarch. Quando i PG lo ritrovano, e un uomo diverso: serio, stanco, leale fino all'osso.
 
 Nelle puntate comiche, seminare piccoli momenti in cui Gorim mostra lealta e senso del dovere che vanno oltre la gag - sono i tratti che Dorian notera.
 
 ---
 
-*Ultimo aggiornamento: Maggio 2026*
+*Ultimo aggiornamento: Luglio 2026*
 
 ---
 
@@ -286,8 +290,8 @@ Nelle puntate comiche, seminare piccoli momenti in cui Gorim mostra lealta e sen
 ### Buchi
 
 - [x] **Tempistica della Gabella** - DECISO: circa un anno e mezzo fa. Abbastanza per la decadenza visibile della casa e per Sberluccica/Scrocchierello di rifarsi una vita.
-- [ ] **La moglie di Arimano** - aggiunta sessione 4. Esiste? È morta? È un'invenzione? Perché non sa dei commerci?
-- [x] **Come Sergius ha trovato l'Anello nelle fogne?** DECISO: Non l'ha trovato. Ha scoperto fortuitamente che era stato perduto e ha mentito nella lettera dicendo di averlo per attirare l'attenzione degli avventurieri e testarne le capacità. L'Anello viene trovato miracolosamente nell'ultima puntata, i PG vanno verso il castello per consegnarlo e il castello esplode.
+- [x] **La moglie di Arimano** - aggiunta sessione 4. Esiste: SI, si chiama Viola Arimano (nata Speroni). Porta l'Anello del Conte al dito. Era ad Amatri dalla madre dopo una litigata. Ha fatto la modella per il quadro - se ci sia stato qualcosa oltre resta nel non detto.
+- [x] **Come Sergius ha trovato l'Anello nelle fogne?** DECISO: Non l'ha trovato. Ha scoperto fortuitamente che era stato perduto e ha mentito nella lettera dicendo di averlo per attirare l'attenzione degli avventurieri e testarne le capacità. L'Anello viene trovato nell'ultima puntata al dito di Viola.
 - [x] **Cosa vuole fare Sergius con l'Anello?** DECISO: Niente - non ce l'ha. L'Anello è il pretesto per attirare avventurieri da testare e reclutare. Il bluff è coerente col personaggio Enigmista.
 - [x] **Puntata 4 nel todo** - aggiornato: "Il Corniciaio" (già scritta).
 - [x] **Il vecchio marchio di S** - DECISO: il logo è l'alabarda che sbuca dal cespuglio (sulle etichette), la firma/marchio è la doppia S. Sono sempre stati questi, non sono mai cambiati.
@@ -297,24 +301,24 @@ Nelle puntate comiche, seminare piccoli momenti in cui Gorim mostra lealta e sen
 
 ## Linee di sviluppo - decisioni da prendere
 
-### Puntata 5 (da scrivere)
+### Puntata 5 (scritta, giocata)
 
-- [ ] Missione di Arimano: "Ho un amico pittore (Candido Michelangeli), sparito mesi fa. Guardie della Contessina." I PG indagano, scoprono che è nel dungeon del castello.
-- [ ] Arimano sa con certezza che Michelangeli è prigioniero (rete informatori). Non può entrare nel castello di persona (squattrinato, non ha accesso).
-- [ ] Perché solo ora: servivano avventurieri capaci (testati in P3) e poco costosi (sono al verde quanto lui).
-- [ ] I PG parlano coi notabili (San Giovanni, Scannabue, Spaccafegato) — confermano le voci sul quadro vero ma non sanno niente di concreto.
-- [ ] Come i PG scoprono che Michelangeli è nel dungeon? (Gorim dall'interno? Un servitore del castello? Le guardie parlano?)
+- [x] Missione di Arimano: "Ho un amico pittore (Candido Michelangeli), sparito mesi fa. Guardie della Contessina." I PG indagano, scoprono che è nel dungeon del castello.
+- [x] Arimano sa con certezza che Michelangeli è prigioniero (rete informatori). Non può entrare nel castello di persona (squattrinato, non ha accesso).
+- [x] Perché solo ora: servivano avventurieri capaci (testati in P3) e poco costosi (sono al verde quanto lui).
+- [x] I PG parlano coi notabili (San Giovanni, Scannabue, Spaccafegato) - confermano le voci sul quadro vero ma non sanno niente di concreto.
+- [x] Come i PG scoprono che Michelangeli è nel dungeon? (Gorim dall'interno? Un servitore del castello? Le guardie parlano?)
 
-### Puntata 6 — Il Pittore Prigioniero
+### Puntata 6 - I Nodi al Pettine (scritta, giocata)
 
 I PG sanno che Michelangeli è nel dungeon. Devono entrare e liberarlo.
 
 - Infiltrazione nel dungeon del castello contro le guardie della Contessina (brutali)
 - Gorim potrebbe aiutarli dall'interno (se le condizioni sono giuste)
 - Michelangeli liberato = Arimano ha quadro + testimone = prova completa
-- [ ] Il dungeon del castello: layout, guardie, come entrarci
-- [ ] Gorim aiuta? A quali condizioni?
-- [ ] Cosa succede dopo la liberazione? Arimano rivela il piano?
+- [x] Il dungeon del castello: layout, guardie, come entrarci
+- [x] Gorim aiuta? A quali condizioni?
+- [x] Cosa succede dopo la liberazione? Arimano rivela il piano? SI - patto: Michelangeli in cambio di informazioni su S. Arimano si rivela dopo aver visto il pittore.
 ### Smascheramento Sergius = S - indizi
 
 Non possiamo decidere quando i giocatori capiscono. Possiamo solo seminare indizi e lasciare che li colleghino.
@@ -346,19 +350,13 @@ La moglie, se interrogata, potrebbe essersene accorta.
 
 ### Puntata finale
 
-- [ ] Come viene trovato l'Anello miracolosamente? Dove, come, perché proprio ora?
-  - **DECISO:** L'Anello è indossato da qualcuno di insospettabile e completamente ignaro di tutto. Questa persona l'ha trovato per caso e lo porta al dito semplicemente perché gli piace. I PG lo notano e lo riconoscono.
-  - [ ] Chi lo indossa? Possibilità:
-    - Sora Lella (lo porta da mesi, nessuno ci ha fatto caso)
-    - La cuoca di Arimano (trovato per terra a Vetusta)
-    - Un bambino al mercato
-    - Terzilio (trovato nel fango sotto il carretto)
-    - Il pescivendolo Sabatino (pescato in una sardina)
-    - Il guardiano del faro Salvuccio (trovato sulla scogliera)
-  - [ ] Quando lo notano? (fine P6 o inizio P7?)
-- [ ] Sergius vuole essere portato dal Conte per rivelare il ritratto - come ci arrivano i PG?
-- [x] **Brandello della Puntata 2 vs ritratto del finale:** ~~VECCHIA DECISIONE: deepfake separato.~~ **RETCON (16/06/2026):** Il brandello viene dal **quadro vero**. Arimano ha sfregiato il quadro per rabbia: ha bucato la faccia del Conte e ha strappato la striscia con i gioielli di famiglia (stemma nobiliare). Ha usato la striscia come provocazione alla Festa del Grazie. I PG hanno in mano un pezzo di prova autentica senza saperlo. Il quadro vero: ambiente bucolico rinascimentale, folletti e fate seminudi, Conte nudo in primo piano, moglie di Arimano riconoscibile a destra. Sfregiato: faccia bucata, striscia gioielli mancante (= brandello PG).
-- [ ] Sergius muore con alta probabilità - lasciare una porta aperta per la sopravvivenza o no?
+- [x] Come viene trovato l'Anello miracolosamente? Dove, come, perché proprio ora?
+  - **DECISO:** L'Anello è indossato da Viola (moglie di Arimano). Lo porta al dito. Gorim lo riconosce nell'epilogo della P7, dopo la morte del Conte.
+- [x] Chi lo indossa: Viola (moglie di Arimano). Lo porta al dito. Gorim lo riconosce.
+- [x] Quando lo notano: nell'epilogo della P7, dopo la morte del Conte.
+- [x] Sergius vuole essere portato dal Conte per rivelare il ritratto - i PG e Gorim lo accompagnano al castello.
+- [x] **Brandello della Puntata 2 vs ritratto del finale:** ~~VECCHIA DECISIONE: deepfake separato.~~ **RETCON (16/06/2026):** Il brandello viene dal **quadro vero**. Arimano ha sfregiato il quadro per rabbia: ha bucato la faccia del Conte e ha strappato la striscia con i gioielli di famiglia (stemma nobiliare). Ha usato la striscia come provocazione alla Festa del Grazie. I PG hanno in mano un pezzo di prova autentica senza saperlo. Il quadro vero: ambiente bucolico rinascimentale, folletti e fate seminudi, Conte nudo in primo piano, moglie di Arimano riconoscibile a destra. Sfregiato: faccia bucata, striscia gioielli mancante (= brandello PG). I PG hanno collegato il brandello al quadro sfregiato. Hanno riparato il quadro con Mending.
+- [x] Sergius muore?: NO. Sopravvive. Perdona Viola. Se ne vanno insieme.
 
 ### Il Burmini - decisioni prese
 
@@ -366,8 +364,9 @@ Il Burmini resta **volutamente indefinito**. Non si spiega tutto. I PG (e il DM)
 
 - Il Conte viaggiava spesso e passava molto tempo nel Burmini
 - Per ragioni mai precisate, nel Burmini il Conte era considerato un **oppressore**
-- I maghi terroristi compiono un'**azione suicida**: si lanciano contro il castello per uccidere "gli oppressori"
-- Non c'è meccanica: l'esplosione succede e basta. Il Conte e tutta la sua corte vengono spazzati via
+- I maghi terroristi compiono un'**azione suicida**: 3 ritualisti + 3 difensori, fanatici suicidi
+- Meccanica a livelli: 5 livelli per completare il rituale. L'ultimo ritualista si suicida lanciando la Maledizione (Power Word Kill a distanza)
+- Il Conte muore per la Maledizione. Il castello resta intatto. Contessina e Mafalda sopravvivono
 - Gorim si salva solo perché è con i PG (fuori dal castello o in un'altra ala)
 - I PG capiscono la motivazione politica direttamente (se vedono la processione) o tramite un sopravvissuto/testimone che descrive i maghi e le loro parole
 
@@ -375,19 +374,18 @@ Il Burmini resta **volutamente indefinito**. Non si spiega tutto. I PG (e il DM)
 - Che affari aveva il Conte nel Burmini (resta misterioso)
 - Perché esattamente lo consideravano oppressore
 - Chi ha organizzato l'attacco
-- Quanti maghi erano esattamente
 
-**Cosa seminare nelle puntate precedenti:**
-- [ ] Il Conte è spesso in viaggio (gia noto)
-- [ ] Qualcuno menziona il Burmini come destinazione dei viaggi del Conte (P5 o P6)
-- [ ] Gorim accenna a "affari del Conte all'estero" con tono preoccupato (P4 o P5)
+**Cosa seminato nelle puntate precedenti:**
+- [x] Il Conte è spesso in viaggio (noto fin dalla P1)
+- [x] Qualcuno menziona il Burmini come destinazione dei viaggi del Conte
+- [x] Gorim accenna a "affari del Conte all'estero" con tono preoccupato
 
 ### Moglie di Arimano
 
-- [x] Esiste davvero.
-- [ ] Potrebbe avere un ruolo nella storia (da definire quale).
-- [ ] Il posto dove dice che si trova ("in villeggiatura a nord") potrebbe essere fittizio. Da decidere.
-- [ ] Perché non sa dei commerci? Perché è lontana?
+- [x] Esiste davvero: SI, si chiama Viola Arimano (nata Speroni).
+- [x] Ruolo nella storia: porta l'Anello del Conte al dito (chiusura del MacGuffin). Entra nel castello dopo la morte del Conte, piange vicino al corpo, poi abbraccia Arimano.
+- [x] Perché non sa dei commerci: era ad Amatri dalla madre dopo una litigata.
+- [x] Il rapporto con il Conte: ha fatto la modella per il quadro. Se ci sia stato qualcosa oltre resta nel non detto. Il Conte le ha regalato l'Anello come compenso.
 
 ---
 
@@ -418,7 +416,7 @@ Il Burmini resta **volutamente indefinito**. Non si spiega tutto. I PG (e il DM)
 
 ### Arco narrativo generale
 
-Struttura decisa: **7 puntate totali** (6 scritte + 1 in corso).
+Struttura decisa: **7 puntate totali** (tutte scritte e giocate). Campagna conclusa in 10 sessioni.
 
 | # | Titolo | Stato | Livello | Milestone |
 |---|--------|-------|---------|-----------|
@@ -426,20 +424,21 @@ Struttura decisa: **7 puntate totali** (6 scritte + 1 in corso).
 | 2 | La Festa del Grazie | Scritta, giocata | 2 | - |
 | 3 | Una Pizza in Compagnia | Scritta, giocata | 2-3 | Banditi sconfitti, merce restituita |
 | 4 | Il Corniciaio | Scritta, giocata | 3 | - |
-| 5 | Ritorno alle Fogne | Scritta, in corso | 3-4 | Tornano da Arimano o entrano nel dungeon (lv4) |
-| 6 | I Nodi al Pettine | Scritta | 4 | - |
-| 7 | Il Finale di Stagione | Scritta | 4-5 | Sopravvivenza all'esplosione (lv5) |
+| 5 | Ritorno alle Fogne | Scritta, giocata | 4-5 | Michelangeli liberato, Er Braccio e Sberluccica liberati |
+| 6 | I Nodi al Pettine | Scritta, giocata | 5 | Smascheramento S, quadro mostrato e riparato con Mending |
+| 7 | Il Finale di Stagione | Scritta, giocata | 5-6 | Conte muore (Maledizione), Viola con l'Anello, sipario |
 
-**Progressione:** lv1 - lv2 - lv2 - lv3 - lv3/4 - lv4 - lv4/5. Livello finale: **5** (partenza per Il Re Spezzato).
+**Progressione:** lv1 - lv2 - lv2 - lv3 - lv4/5 - lv5 - lv5/6. Livello finale: **6** (partenza per Il Re Spezzato).
 **Regola:** almeno 2 puntate tra una milestone e la successiva.
 
 **Arco dei PG:**
 - P1-3: lavorano per Gorim/il Conte (ignari)
 - P4: capiscono che Conte/Contessina sono gli oppressori
 - P5: lavorano per Arimano (indagine + dungeon, ignari che è vendetta)
-- P6: smascheramento Sergius, scelta, esplosione, fine
+- P6: smascheramento Sergius, quadro riparato con Mending
+- P7: Maledizione del Burmini, morte del Conte, Viola con l'Anello, fine
 
-- [ ] La vendetta di Sergius si compie o viene interrotta dall'esplosione?
+- [x] La vendetta di Sergius si compie o viene interrotta? Interrotta dalla Maledizione del Burmini - evento esterno e casuale.
 
 ### Cella vuota al L2 del dungeon (da decidere)
 
@@ -532,3 +531,21 @@ Da decidere prima di giocare la P5, oppure lasciare come mistero aperto.
 
 - [ ] **VetustaPortus.png** (`img/other/`): è un'illustrazione prospettica della città. Va in `img/` o in `maps/`? Le mappe geografiche/di insieme possono essere anche prospettiche — la regola va chiarita.
 - [x] **RealmOfAmrog**: rinominato in CountyOfDrakenhold (file). Il testo dentro l'SVG va modificato con un editor (Inkscape) — è lettera per lettera con posizionamento individuale. Dopo la modifica, esportare nuovo PNG e cancellare il vecchio.
+
+---
+
+## Decisioni prese (Sessione 10 - 30 giugno 2026)
+
+| # | Decisione | Risultato |
+|---|-----------|-----------|
+| D53 | Patto PG-Arimano | I PG gli fanno vedere Michelangeli, lui rivela chi è S |
+| D54 | Smascheramento S | Arimano si rivela come S dopo aver visto Michelangeli (patto rispettato) |
+| D55 | Gorim si schiera | Furioso per l'incarcerazione di Michelangeli, si schiera apertamente con i PG contro la Contessina |
+| D56 | Quadro nascosto | I PG nascondono il quadro prima della perquisizione di Mafalda |
+| D57 | Rituale interrotto | Tutti i ritualisti abbattuti, l'ultimo lancia la Maledizione del Burmini morendo |
+| D58 | Castello intatto | Nessuna esplosione. Solo il Conte muore (maledizione a distanza) |
+| D59 | Contessina e Mafalda vive | Sopravvivono (il castello non esplode) |
+| D60 | Arimano perdona Viola | Michelangeli conferma che ha fatto solo la modella. Arimano la perdona, se ne vanno insieme |
+| D61 | Quadro riparato con Mending | I PG riparano il quadro (faccia del Conte + striscia mancante) |
+| D62 | Arimano persuaso a combattere terroristi | I PG lo convincono a combattere i maghi del Burmini nonostante volessero uccidere il Conte |
+| D63 | L'Anello | Viola lo indossa. Gorim lo riconosce. Fine della quest iniziale |

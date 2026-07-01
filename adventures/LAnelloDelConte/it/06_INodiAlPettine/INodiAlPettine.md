@@ -34,6 +34,8 @@ Mafalda sorveglia i PG in continuazione (ordini della Contessina dopo la P4). Li
 
 **Se i PG la seminano (Furtività gruppo CD 18):** li perde, non sa dove sono andati.
 
+**Mafalda interroga Domina Lella:** Se Mafalda perde le tracce dei PG o vuole informazioni su di loro, va alla Taberna a interrogare Domina Lella. Mafalda in questo momento è sola (non ha ancora le guardie con sé): chiede, non perquisisce. Lella riferisce quello che sa — se i PG non le hanno detto niente dei loro piani, Lella non ha niente da dare. Mafalda se ne va a mani vuote.
+
 **Se i PG la affrontano:** fugge (Cunning Action). Non combatte da sola. Se la bloccano, non parla.
 
 ### La Contessina scopre la fuga dal dungeon?
@@ -44,7 +46,7 @@ Nessuno scende al L3 da tempo: le guardie calano il cibo dalla carrucola e non f
 
 **Se scatta l'allarme:** Mafalda va dai PG ovunque si trovino, armata, con guardie, per interrogarli. I PG sono gli unici sospettati.
 
-**Interrogatorio:** i PG possono cavarsela con una buona storia (Inganno CD 15). Anche se la convincono, Mafalda non smette di sorvegliarli.
+**Interrogatorio:** i PG possono cavarsela con una buona storia (Inganno CD 15, oppure semplicemente con una storia convincente a discrezione del DM). Anche se la convincono, Mafalda non smette di sorvegliarli.
 
 **Cosa sa Mafalda (dipende dai PG):**
 
@@ -85,7 +87,7 @@ Se i PG lo interrogano (durante il viaggio o da Arimano):
 
 ### I PG portano Michelangeli da Arimano
 
-Se i PG portano Michelangeli da Arimano per riscuotere la ricompensa della liberazione (**12 mo**):
+Se i PG portano Michelangeli da Arimano per riscuotere la ricompensa della liberazione:
 
 Se portano solo informazioni su dove si trova (senza liberarlo): **2 mo a testa**, come promesso nella P5. Se lo portano vivo: **12 mo ulteriori**.
 
@@ -126,15 +128,13 @@ Li fa entrare. Fa sedere Michelangeli. Gli dà acqua, pane. Conta le 12 monete d
 
 Se chiedono chi sia: *"Mia moglie."* E cambia argomento.
 
-> *"Come promesso."*
-
-Conta dodici monete d'oro sul tavolo e le spinge verso i PG. Paga la liberazione del pittore come promesso.
+Conta dodici monete d'oro sul tavolo e le spinge verso i PG. Paga per avergli portato il pittore.
 
 Poi accompagna Michelangeli al piano di sopra: c'è un letto vero. Chiede ai PG di restare e fare la guardia: qualcuno potrebbe venire a cercarlo.
 
 **Arimano vuole parlare con Michelangeli da solo.** Se i PG accettano, sale e chiude la porta. Se i PG insistono per assistere, cede: lo fa davanti a loro.
 
-**Nota:** se i PG restano al piano di sotto fanno la guardia e possono accorgersi dell'arrivo di Mafalda/guardie. Se sono al piano di sopra con Arimano, non se ne accorgono subito: a seconda del grado di sospetto le guardie potrebbero semplicemente bussare, oppure sfondare la porta ed entrare in casa prima che i PG scendano.
+**Nota:** se i PG restano al piano di sotto fanno la guardia e possono accorgersi di chi bussa alla porta. Se sono al piano di sopra con Arimano, non se ne accorgono subito.
 
 Arimano resta al piano di sopra per qualche tempo. I PG fanno la guardia. Quando ridiscende, ha il tono di chi ha ottenuto una conferma.
 
@@ -180,7 +180,7 @@ Arimano racconta — **mezza verità**, non ammette di essere S:
 
 Se chiedono chi era: *"Non lo so. La voce era alterata."* Se insistono: *"Forse... sulla carta che avvolgeva il quadro c'era quel simbolo. La doppia S."*
 
-Se chiedono perché a lui: *"Sapeva di me e della Contessina. Sapeva della Gabella. Sapeva che avrei voluto vendicarmi."* (Intuizione CD 16: sta raccontando una versione troppo conveniente.)
+Se chiedono perché a lui: gliel'ha venduto mostrandogli la parte del quadro con sua moglie. Tanto è bastato. (Intuizione CD 16: sta raccontando una versione troppo conveniente.)
 
 **Nota DM:** mente. L'uomo camuffato è lui stesso — ha comprato il quadro direttamente da Michelangeli travestito. Dice che S glielo ha venduto per mantenere la copertura.
 
@@ -198,8 +198,8 @@ Intuizione CD 10: la rabbia è vera, ma c'è anche dolore. Non sa se credere all
 
 | Trigger | Come scatta |
 |---------|-------------|
-| Qualcuno collega la striscia | I PG hanno il brandello dalla P2. Se lo confrontano col quadro sfregiato, la striscia mancante combacia. *"Questa striscia... viene da quel quadro. Il quadro è vostro, Marchese."* |
-| I PG collegano i puntini | Tic verbale ("Ma parliamo di..."), il fatto che conosce troppi dettagli, che il pittore lavorava per lui, che il tubo col quadro era suo |
+| Qualcuno collega la striscia | I PG hanno il brandello dalla P2. Se lo confrontano col quadro sfregiato, la striscia mancante combacia. |
+| I PG collegano i puntini | Tic verbale ("Ma parliamo di...") o altri indizi accumulati nelle puntate precedenti |
 | Arimano sotto pressione | Se gli sgherri arrivano e Arimano deve decidere: resa o fuga. Sotto pressione potrebbe lasciarsi sfuggire qualcosa che lo incastra |
 | Michelangeli dice qualcosa | Il DM tira Intelligenza per Michelangeli (CD 10, mod +0). Se riesce: *"La sua voce... mi sembra di averla già sentita. Ci conosciamo?"* Non accusa — dubita. I PG devono collegare. |
 | I PG lo accusano direttamente | Se le guardie sono già arrivate: ignora l'accusa. *"Abbiamo cose più importanti da fare adesso."* Non ammette, non nega — rimanda. Se le guardie NON sono ancora arrivate: può ammettere sotto pressione diretta (è troppo orgoglioso per negare con prove in faccia). |
@@ -290,9 +290,11 @@ I PG ora sanno tutto: la doppia S, il Conte, la moglie, il brandello. Se lo vogl
 
 ### Se i PG lasciano andare Michelangeli
 
-La soluzione più probabile: Michelangeli ha già dato tutte le informazioni utili (ha confermato il quadro, il Conte che ha posato, la donna). Non serve più come prigioniero — lasciarlo andare è ragionevole e toglie alla Contessina il motivo di inseguirli.
+### Se i PG lasciano andare Michelangeli
 
-Se i PG lo consegnano a Mafalda o lo lasciano fuggire da solo, Arimano non è contento ma si adatta: ha comunque il quadro e la conferma verbale. Michelangeli non è più indispensabile — la sua testimonianza rafforza il caso, ma il quadro parla da solo.
+Arimano ha sempre avuto il quadro, ma non ha mai avuto la prova che fosse un ritratto dal vero del Conte (senza testimone, potrebbe essere un altro deepfake qualsiasi). Michelangeli è la prova vivente: solo lui può confermare che il Conte ha posato di persona. Senza Michelangeli, il quadro non vale niente.
+
+Se i PG lo consegnano a Mafalda o lo lasciano fuggire da solo, Arimano perde la sua arma principale. Resta con un quadro che non può dimostrare essere autentico.
 
 ### Complottare con Arimano
 

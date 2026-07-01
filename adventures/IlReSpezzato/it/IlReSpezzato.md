@@ -1,5 +1,17 @@
 # Il Re Spezzato
 
+## Prologo — La convocazione
+
+> Un anno è passato.
+>
+> Un giorno, un messaggero arriva. Porta una lettera con il sigillo reale di Drakenhold. Indirizzata ai PG, ovunque si trovino.
+>
+> *"Sir Gorim Vel richiede la vostra presenza alla capitale. Partite immediatamente."*
+>
+> Il Gorim che troverete non è quello che ricordate.
+
+---
+
 ## Lore
 
 **Drakenhold** è sia il nome del regno che della sua capitale, al centro del continente. Governato da **Re Dorian Valemarch**, conosciuto come il Giusto, che per lunghi anni resse i suoi domini con fermezza e saggezza.
@@ -12,7 +24,7 @@ Il rituale fallì. Dorian ottenne l'immortalità, ma la sua anima si spezzò in 
 
 Da quel momento, le tre anime emersero come entità incorporee che lottano per il controllo di Dorian, influenzando pensieri, decisioni e comportamenti. Ufficialmente Dorian è ancora il sovrano legittimo, giusto e temuto. Ma chi gli è vicino percepisce i segni della frattura interiore.
 
-**Fianus Romanus** è un borgo nel sud di Drakenhold, governato dal Conte — un vassallo di Dorian il cui nome nessuno conosce. Nell'ultima puntata de L'Anello del Conte, il Conte muore in un'esplosione. La morte del Conte e il vuoto di potere che ne segue trascinano i PG nella storia più grande di Drakenhold.
+**Fianus Romanus** è un borgo nel sud di Drakenhold, governato dal Conte — un vassallo di Dorian il cui nome nessuno conosce. Nell'ultima puntata de L'Anello del Conte, il Conte muore per la Maledizione del Burmini. La morte del Conte e il vuoto di potere che ne segue trascinano i PG nella storia più grande di Drakenhold.
 
 ---
 

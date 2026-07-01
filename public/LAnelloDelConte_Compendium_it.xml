@@ -258,11 +258,11 @@ Role: animale esotico intrappolato nel magazzino</description>
         <cr>3</cr>
         <trait>
             <name>Concentrazione Rituale</name>
-            <text>il ritualista è concentrato sull'incantesimo collettivo. Se subisce danni, CON save CD 10 + metà danno subito per mantenere la concentrazione. Se fallisce, perde 1 round (si riconcentra al turno successivo).</text>
+            <text>il ritualista è concentrato sull'incantesimo collettivo. Se subisce danni, CON save CD 10 + metà danno subito (il più alto dei due) per mantenere la concentrazione. Se fallisce, perde 1 turno intero a riconcentrarsi (non contribuisce al rituale in quel turno).</text>
         </trait>
         <trait>
             <name>Combustibile Vitale</name>
-            <text>il rituale consuma la forza vitale del ritualista. Al completamento (round 3), il ritualista muore automaticamente.</text>
+            <text>il rituale consuma la forza vitale del ritualista. Al completamento (livello 5), i ritualisti muoiono automaticamente.</text>
         </trait>
         <trait>
             <name>Sacrificio Finale</name>

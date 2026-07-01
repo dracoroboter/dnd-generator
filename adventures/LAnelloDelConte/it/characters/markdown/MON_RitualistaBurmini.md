@@ -28,8 +28,8 @@ Figure in tuniche colorate (rosso, viola, blu), cappelli a punta, bastoni di leg
 
 ## Capacità notevoli
 
-- **Concentrazione Rituale**: il ritualista è concentrato sull'incantesimo collettivo. Se subisce danni, CON save CD 10 + metà danno subito per mantenere la concentrazione. Se fallisce, perde 1 round (si riconcentra al turno successivo).
-- **Combustibile Vitale**: il rituale consuma la forza vitale del ritualista. Al completamento (round 3), il ritualista muore automaticamente.
+- **Concentrazione Rituale**: il ritualista è concentrato sull'incantesimo collettivo. Se subisce danni, CON save CD 10 + metà danno subito (il più alto dei due) per mantenere la concentrazione. Se fallisce, perde 1 turno intero a riconcentrarsi (non contribuisce al rituale in quel turno).
+- **Combustibile Vitale**: il rituale consuma la forza vitale del ritualista. Al completamento (livello 5), i ritualisti muoiono automaticamente.
 - **Sacrificio Finale**: se l'ultimo ritualista rimasto vede che non puo completare il rituale (gli altri 2 sono morti e lui sta per cadere), puo usare la sua azione per suicidarsi e scagliare la *Maledizione del Burmini*: Power Word Kill a distanza (300 ft) sul Conte. Il ritualista muore nell'atto, il Conte muore automaticamente.
 
 ## Attacchi
@@ -40,10 +40,10 @@ I ritualisti non combattono. Non hanno attacchi. Tutta la loro energia e nel rit
 ## Incantesimi — Il Rituale
 
 ### Ira del Burmini (rituale collettivo, 9° livello)
-- **Componenti**: 3 caster, 5 round di canto ininterrotto, forza vitale dei caster come combustibile
-- **Raggio**: 1 edificio/struttura entro 60 ft dai caster
-- **Effetto**: l'energia accumulata implode la struttura bersaglio dall'interno. Tutto cio che e dentro viene disintegrato. L'esplosione verso l'esterno causa danni a chi e nel raggio (vedi modulo P7).
-- **Scalabilita**: con 2 caster il rituale richiede 7 round. Con 1 caster richiede 9 round.
+- **Componenti**: almeno 2 caster con concentrazione simultanea, 5 livelli di rituale, forza vitale dei caster come combustibile
+- **Raggio**: una struttura/edificio entro 300 ft dai caster
+- **Effetto**: l'energia accumulata fa esplodere la struttura bersaglio dall'interno. Tutto cio che e dentro viene disintegrato. Chi e nel cortile (5+ quadretti): DEX save CD 14, 4d6 contundenti (dimezzati se riesce). I ritualisti si inceneriscono nel processo (forza vitale consumata).
+- **Meccanica**: almeno 2 ritualisti devono avere concentrazione contemporaneamente per far avanzare il livello del rituale. Se in un turno almeno 2 ritualisti hanno il turno e non hanno perso la concentrazione, il livello aumenta di 1. Il rituale si completa al livello 5. Il conteggio non riparte da zero se interrotto.
 
 ### Maledizione del Burmini (sacrificio, 7° livello)
 - **Componenti**: la vita del caster (muore nell'atto)
@@ -64,5 +64,6 @@ Irrompono nel cortile del castello durante il combattimento (Puntata 7). Si posi
 - Sono 3. Stat block identici.
 - Non combattono MAI. Se attaccati, subiscono i danni e fanno il CON save per la concentrazione.
 - Il DM non deve tirare iniziativa per loro: agiscono automaticamente a inizio round (cantano).
-- Se i PG li lasciano in pace, il rituale si completa in 3 round senza problemi.
-- L'ultimo sopravvissuto e il failsafe: anche se tutto va storto, il Conte muore.
+- Servono almeno 2 ritualisti con concentrazione per far avanzare il rituale. Se ne resta 1 solo, non avanza.
+- Se i PG li lasciano in pace, il rituale si completa in 5 round senza problemi.
+- L'ultimo sopravvissuto e il failsafe: anche se tutto va storto, il Conte muore (Maledizione del Burmini).

@@ -1,13 +1,14 @@
 # L'Anello del Conte
 
 **Sistema**: D&D 5e (2014)
-**Livello consigliato**: 1
-**Durata**: campagna (5+ puntate)
+**Livello consigliato**: 1-6
+**Durata**: campagna (7 puntate, 10 sessioni)
 **Struttura**: lineare
-**Tono**: umoristico
+**Tono**: umoristico (finale tragico)
 **Autore**: dracoroboter
 **Prima stesura**: 2026
-**Ultimo aggiornamento**: 2026-04-22
+**Ultimo aggiornamento**: 2026-07-01
+**Stato**: Completata (scritta e giocata)
 **Sequenza**: LAnelloDelConte → IlReSpezzato
 **Posizione**: Puntata 1 di 2
 **Segue**: -

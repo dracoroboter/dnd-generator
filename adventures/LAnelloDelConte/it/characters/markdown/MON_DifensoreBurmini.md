@@ -79,5 +79,5 @@ Formano un arco protettivo attorno ai 3 ritualisti (Puntata 7). Rendono quasi im
 - Sono 3. Stat block identici.
 - Mirror Image e gia attivo quando entrano: non spendono un turno a lanciarlo.
 - Ogni difensore ha 1 reazione per round: deve scegliere tra Shield (per se) e Counterspell (per i ritualisti). Decisione tattica del DM.
-- Se il rituale si completa (round 3), i difensori superstiti fuggono nel caos dell'esplosione.
-- Se tutti i ritualisti muoiono, l'ultimo difensore in vita si lancia nel castello per uccidere il Conte direttamente (suicidio).
+- Se il rituale si completa (livello 5), i difensori superstiti fuggono.
+- Se tutti i ritualisti muoiono, i difensori superstiti fuggono (la missione e compiuta — l'ultimo ritualista ha lanciato la Maledizione).

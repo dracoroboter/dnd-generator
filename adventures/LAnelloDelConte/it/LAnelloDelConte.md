@@ -86,7 +86,7 @@ La Contessina sta cercando di insabbiare tutto e mettere a tacere chi sa dei rit
 
 Un'avventura D&D 5e (2014) a episodi, ispirata alla serie comica **Boris**. Tono umoristico senza esagerare: situazioni assurde trattate con serietà dai personaggi. Burocrazia, incompetenza, ego smisurati. Struttura a "puntate" come una stagione TV.
 
-L'avventura è il **prologo** della campagna seria **Il Re Spezzato**. Il Conte è un nobile locale, non Re Dorian Valemarch. Nell'ultima puntata, proprio quando i PG stanno per incontrarlo e ottenere onore e gloria, il Conte muore in un'esplosione. Niente risposte, niente ricompensa, niente nome. La morte del Conte e il caos che ne segue sono il gancio che trascina i PG nella storia più grande di Drakenhold e del Re Spezzato.
+L'avventura è il **prologo** della campagna seria **Il Re Spezzato**. Il Conte è un nobile locale, non Re Dorian Valemarch. Nell'ultima puntata, proprio quando i PG stanno per incontrarlo e ottenere onore e gloria, il Conte muore per la Maledizione del Burmini - un Power Word Kill a distanza lanciato da terroristi stranieri. Niente risposte, niente ricompensa, niente nome. La morte del Conte e il caos che ne segue sono il gancio che trascina i PG nella storia più grande di Drakenhold e del Re Spezzato.
 
 **Livello PG:** 1 (con progressione durante le puntate)
 
@@ -145,7 +145,7 @@ Funzionario del Conte, ex-capitano della guarnigione. Tarchiato, pancia prominen
 
 ### Il Conte (modulo 1)
 
-Nessuno sa come si chiama. Nessuno ha visto il suo volto. Governa tramite lettere e messaggeri. Sempre in viaggio (nel Burmini, ma nessuno lo sa). Ha posato volontariamente per un ritratto nudo, divertito dalla cosa. Muore nell'esplosione finale senza che i PG lo incontrino mai.
+Nessuno sa come si chiama. Nessuno ha visto il suo volto. Governa tramite lettere e messaggeri. Sempre in viaggio (nel Burmini, ma nessuno lo sa). Ha posato volontariamente per un ritratto nudo, divertito dalla cosa. Muore nella P7 per la Maledizione del Burmini (Power Word Kill a distanza). Non viene mai visto in volto dai PG.
 
 - **Dove:** All'estero (Burmini). Mai presente fisicamente.
 - **Cosa sa:** Ignaro di tutto quello che succede a Fianus in sua assenza.
@@ -154,7 +154,7 @@ Nessuno sa come si chiama. Nessuno ha visto il suo volto. Governa tramite letter
 
 ### La Contessina — Concetta Priapi (modulo 2)
 
-Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle origini. Ha ideato la Gabella Pudicitiae dopo aver scoperto i ritratti deepfake del marito. NON sa del vero ritratto posato volontariamente dal Conte. Ha fatto arrestare illegalmente Candido Michelangeli (pittore di deepfake) per rabbia — arresto segreto, nel dungeon del castello.
+Si fa chiamare "Contessa Sarah Serbelloni Vien dal Porto". Si vergogna delle origini. Ha ideato la Gabella Pudicitiae dopo aver scoperto i ritratti deepfake del marito. NON sa del vero ritratto posato volontariamente dal Conte. Ha fatto arrestare illegalmente Candido Michelangeli (pittore di deepfake) per rabbia — arresto segreto, nel dungeon del castello. Sopravvive. Il castello non esplode.
 
 - **Dove:** Castello del Conte, Aviano. Accessibile solo con credenziali di Gorim.
 - **Cosa sa:** Dei ritratti deepfake del marito. Vuole insabbiare tutto. Ha mandato i suoi a rapire Sberluccica (P4).
@@ -173,7 +173,7 @@ Braccio destro della Contessina. Pragmatica, pericolosa, leale. Comanda le opera
 
 ### Sergius Stanislao Arimano Improbus — il Marchese (modulo 2)
 
-Nobile decaduto di Vetusta Portus. È "S". Cinquantenne gobbo nel vero aspetto, in pubblico va come versione aitante di sé stesso. Maestro del camuffamento. Vuole vendetta su Conte e Contessina. Vuole che i PG passino dalla sua parte e decidano che la Contessina è il nemico.
+Nobile decaduto di Vetusta Portus. È "S". Cinquantenne gobbo nel vero aspetto, in pubblico va come versione aitante di sé stesso. Maestro del camuffamento. Vuole vendetta su Conte e Contessina. Vuole che i PG passino dalla sua parte e decidano che la Contessina è il nemico. Smascherato nella P6 (patto coi PG). Sopravvive alla P7. Perdona Viola. Se ne vanno insieme.
 
 - **Dove:** Vetusta Portus, casa signorile in collina. Solo dopo che i PG lo conoscono (P3+).
 - **Cosa sa:** Tutto. È il burattinaio.
@@ -212,7 +212,7 @@ Commerciante itinerante. Vendeva pozioni rinvigorenti (marchio "Immane Alabarda"
 
 Capo della banda al Magazzino 4. Grosso, violento, ce l'ha col Conte per le tasse. Falsa pista per S.
 
-- **Dove:** Vetusta Portus, porto (Magazzino 4). Catturato dalla Contessina dopo la fuga dal magazzino (P3). Prigioniero nel dungeon del castello (P5).
+- **Dove:** Vetusta Portus, porto (Magazzino 4). Catturato dalla Contessina dopo la fuga dal magazzino (P3). Prigioniero nel dungeon del castello (P5). Liberato dai PG nella P5.
 - **Cosa sa:** Arimano gli deve soldi. Non sa nulla di S. Non è S.
 - **Come si comporta:** Insulta il Conte, vuole i soldi. Non dice il suo vero nome ("Er Braccio. Basta.").
 
@@ -439,7 +439,7 @@ Tutti ne parlano, nessuno sa cosa fa, nessuno sa dov'è:
 
 ## Struttura dell'avventura
 
-Struttura prevista: 7 puntate (potrebbe cambiare).
+Struttura definitiva: 7 puntate, giocate in 10 sessioni.
 
 ### Puntata 1 - "Le Fogne di Fianus"
 
@@ -458,14 +458,14 @@ I PG sono in stallo. Dopo due giorni senza piste, ricevono un invito dal Marches
 
 Simpatico Figuro trova il pittore dei ritratti: Mastro Cecilio Sberluccica, ora corniciaio a Monteverde. I PG lo interrogano, ma la Contessina Serbelloni manda i suoi uomini a recuperare i quadri. I PG devono salvare Sberluccica e scoprono che tutti a Fianus hanno un nome con la S - la firma non identifica nessuno.
 
-### Puntata 5 - [da titolare] (draft: XX1)
+### Puntata 5 - "Ritorno alle Fogne"
 
-Arimano affida ai PG un compito legato alla sua vendetta, presentato come cosa giusta. I PG non sanno di lavorare per la vendetta di qualcun altro.
+Arimano affida ai PG un compito: trovare il pittore Candido Michelangeli, sparito da mesi. I PG indagano, scoprono che è nel dungeon sotto il castello, e scendono a liberarlo.
 
-### Puntata 6 - [da titolare] (draft: XX2)
+### Puntata 6 - "I Nodi al Pettine"
 
-Le questioni si svelano. I PG scoprono la verita su Arimano e devono decidere da che parte stare.
+I PG tornano da Arimano col pittore. Patto: Michelangeli in cambio della verità su S. Arimano mostra il quadro sfregiato, si rivela come S. Gorim si schiera con i PG. Preparano il confronto col Conte.
 
-### Puntata 7 - "Il Finale di Stagione" (draft: XX3)
+### Puntata 7 - "Il Finale di Stagione"
 
-L'Anello viene trovato nel modo piu assurdo possibile. I PG vanno verso il castello per consegnarlo (o per costringere il Conte a cambiare la legge). Esplosione - i terroristi del Burmini attaccano. Il Conte muore sicuramente (i PG non lo vedranno mai in volto). Sergius muore con alta probabilita. Niente nome, niente risposte. Il caos che segue li trascina verso Il Re Spezzato.
+I PG vanno al castello col quadro per chiedere giustizia. Combattimento con le guardie della Contessina, poi i maghi del Burmini irrompono. I PG li abbattono ma l'ultimo ritualista lancia la Maledizione del Burmini: il Conte muore. Nell'epilogo, Viola esce dal castello abbracciata a Sergius con l'Anello del Conte al dito. Gorim lo nota. Sipario.

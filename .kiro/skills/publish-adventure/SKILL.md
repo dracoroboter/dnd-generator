@@ -14,8 +14,7 @@ Usa questa skill quando l'utente dice "pubblica X", "pubblica l'ultima versione 
 | Tipo | Formato | Note |
 |------|---------|------|
 | PDF avventura | `.pdf` (lowres, solo cover come immagine) | Generato con `--lowres` (senza `--only`, include tutto tranne mappe) oppure `--only cover,frontmatter,doc,01,02,...` |
-| Mappe | `.zip` (versioni lowres JPG) | ZIP unico per avventura, suffisso `_lowres` |
-| Stat block | `.pdf` (tutti gli stat block PNG in un unico PDF) | PDF unico per avventura |
+| Immagini | `.zip` (versioni lowres JPG) | ZIP unico per avventura, suffisso `_Images_lowres`. Include: mappe, personaggi, oggetti, scene, cover. |
 | Compendium | `.xml` (non zippato) | FightClub XML |
 
 Il PDF completo con tutte le mappe incluse e una possibilita (flag `--full`), non il default.
@@ -24,8 +23,8 @@ Il PDF completo con tutte le mappe incluse e una possibilita (flag `--full`), no
 
 - Le immagini `-lowres.jpg/png` sono generate da `optimize-images.py` e **non vanno committate** (sono in `.gitignore`)
 - Le lowres delle mappe vanno in `maps/lowres/` (directory separata dagli originali PNG)
-- Lo ZIP mappe in `public/` contiene **solo le versioni lowres** (suffisso `_Maps_lowres.zip`)
-- Per pubblicare le mappe full-size (PNG originali), usare il flag `--full-maps` → `_Maps.zip` (senza suffisso lowres)
+- Lo ZIP immagini in `public/` contiene **tutte le immagini lowres** dell'avventura (suffisso `_Images_lowres.zip`): mappe (`maps/lowres/`), personaggi (`characters/img/`), oggetti (`objects/`), scene (`*/img/scenes/`), cover (`img/`)
+- Per pubblicare le immagini full-size (PNG originali), usare il flag `--full-images` → `_Images.zip` (senza suffisso lowres)
 
 ## Come usarla
 
