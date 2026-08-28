@@ -11,7 +11,6 @@ La Festa del Grazie è l'evento dell'anno a Fianus Romanus. Bancarelle, gare, ci
 **Dichiarato:** Trovare "S" alla Festa del Grazie, come dice la lettera.
 **Reale:** Sergius non si fa trovare - lascia un altro indizio/beffa. I PG conoscono nuovi NPC, si cacciano nei guai, e scoprono qualcosa sul commercio clandestino di Sergius.
 
----
 
 ## La settimana prima della Festa
 
@@ -36,7 +35,6 @@ I PG hanno **10 ma** (acconto di Gorim). La pigione è 1 ma/giorno/persona. In u
 
 Ogni PG può fare 5-6 giorni di lavoro. Con un po' di fortuna arrivano a 25-30 ma - ce la fanno appena.
 
----
 
 ## Il giorno della Festa
 
@@ -56,7 +54,6 @@ Ogni PG può fare 5-6 giorni di lavoro. Con un po' di fortuna arrivano a 25-30 m
 | **Gara di braccio di ferro** | Competizione | 1 ma per partecipare. FOR CD progressiva: 10, 13, 16 - deve passarli tutti e tre. Premio: 1 mo al vincitore |
 | **La lotteria del Conte** | Gag/indizio | Biglietti da 1 mr. Il premio è un'udienza col Conte. Nessuno ha mai vinto. |
 
----
 
 ## NPC nuovi
 
@@ -103,7 +100,6 @@ Nata a **Vetusta Portus**, la frazione sul mare di Fianus. Suo padre faceva il c
 - *(a Gorim)* *"Voi dovreste fa' de più pe' proteggere la reputabilità de 'sta famija, invece de sta' lì a magnà."*
 - *(ai PG)* *"E voi chi sareste? Avventurieri? Gente de malaffare, sicuramente. Se vedete dall'aspetto."*
 
----
 
 ## L'incontro con la Contessina
 
@@ -113,13 +109,11 @@ Mentre i PG girano per la Festa con Gorim, una carrozza vistosa arriva in piazza
 
 ### Da leggere ai giocatori
 
-> Una carrozza dorata - o almeno ridipinta d'oro di recente, a giudicare dalle colature - si ferma al centro della piazza. Ne scende una donna con un vestito troppo elaborato per una festa di paese e un cappello che sfida le leggi della fisica. Si guarda intorno con l'aria di chi ha appena calpestato qualcosa di sgradevole.
+> Una carrozza ridipinta d'oro si ferma in piazza. Ne scende una donna con un vestito troppo elaborato e un cappello che sfida la fisica. Si guarda intorno con disgusto.
 >
-> Gorim si irrigidisce. *"La Contessina"*, mormora tra i denti. *"Magnifica Vien dal Porto. Fate finta di niente, forse non ci-"*
+> Gorim si irrigidisce. *"La Contessina. Fate finta di niente, forse non ci-"*
 >
-> *"GORIM!"*
->
-> Troppo tardi.
+> *"GORIM!"* Troppo tardi.
 
 ### Note per il DM
 
@@ -129,19 +123,13 @@ Mentre parlano, la Contessina nota qualcosa alla Festa che la scandalizza - una 
 
 ### Da leggere ai giocatori
 
-> La Contessina si blocca. Fissa la bancarella. Il suo volto diventa paonazzo.
+> La Contessina si blocca. Fissa la bancarella. Il volto diventa paonazzo.
 >
-> *"E QUESTO che cos'è?! Gorim! Ma che roba è?! 'Ste... 'ste oscenitudini in piazza, davanti ai bambini, davanti a TUTTI?! Ma lo sapete che c'è la Gabella Pudicitiae apposta pe' 'ste cose?! L'ho fatta mette io! IO! Pe' proteggere la moralitudine de 'sto borgo! E voi che fate? NIENTE!"*
+> *"E QUESTO che cos'è?! 'Ste oscenitudini in piazza?! C'è la Gabella Pudicitiae apposta! L'ho fatta mette io! Via quella roba. SUBITO. O faccio chiude tutto."*
 >
-> Si gira verso i PG.
->
-> *"E voi chi sareste? Avventurieri? Gente de malaffare, sicuramente. Se vedete dall'aspetto."*
->
-> Gorim, con la faccia di uno che sta contando fino a dieci: *"Contessina, questi sono... collaboratori. Del Conte."*
->
-> *"Collaboratori? Er Conte nun m'ha detto niente. Come ar solito. Comunque - via quella roba dalla piazza. SUBITO. O faccio chiude tutto."*
->
-> Se ne va sbuffando verso un'altra bancarella da ispezionare.
+> Gorim, con la faccia di uno che sta contando fino a dieci, mormora ai PG: *"Collaboratori. Del Conte."* La Contessina sbuffa e se ne va a ispezionare un'altra bancarella.
+
+*Nota DM — dettagli sfuriata:* La Contessina si rivolge anche ai PG: *"E voi chi sareste? Gente de malaffare, sicuramente. Se vedete dall'aspetto."* Gorim la presenta come "collaboratori del Conte". Lei risponde: *"Er Conte nun m'ha detto niente. Come ar solito."* Il tono è quello di una che comanda e si aspetta obbedienza immediata.
 
 ### Note per il DM
 
@@ -155,7 +143,6 @@ Se i PG chiedono a Gorim della Gabella Pudicitiae dopo che la Contessina se ne v
 
 > Gorim sospira: *"La Gabella Pudicitiae. La tassa sulla... sulla roba. Quella roba. L'ha voluta lei. Da quando ha scoperto che il Conte... vabbè, lasciamo stare. Fatto sta che adesso se vendi qualsiasi cosa che la Contessina considera 'sconcio' - e quella considera sconcio pure un gomito scoperto - paghi il triplo di tasse. E devi dichiarare chi compra. DICHIARARE. Capite? Nessuno compra più niente."*
 
----
 
 ## L'indizio di Sergius - Il discorso
 
@@ -209,7 +196,6 @@ Ora continua il suo commercio di nascosto, ma guadagna molto meno. Quello che fa
 
 Grigius non è il mandante - è l'esecutore. Ma per Sergius è il volto quotidiano dell'oppressione: quello che bussa alla porta, quello che controlla i registri, quello che ha firmato le multe. Umiliarlo sul palco della Festa, davanti a tutto il borgo, è una vendetta personale oltre che un diversivo.
 
----
 
 ## Dopo il discorso - Terzilio
 
@@ -239,7 +225,6 @@ Gli indizi nel discorso lanciano i PG in una caccia al tesoro per il borgo. Tre 
 
 I PG devono decifrare le tre frasi del discorso. Ogni frase indica un luogo. In ogni luogo trovano un biglietto con la doppia S, un premio in monete, e l'indizio per la tappa successiva. Se i PG si bloccano, gli NPC della Festa possono aiutare (Flavia in particolare).
 
----
 
 **Tappa 1 - "Dove il Conte non guarda mai"**
 
@@ -247,7 +232,6 @@ I PG devono decifrare le tre frasi del discorso. Ogni frase indica un luogo. In 
 
 **Cosa trovano:** Dietro un vecchio annuncio, una busta con la doppia S. Dentro un biglietto: *"Bravi. Non siete del tutto inutili. Ora cercate dove la virtù si compra a peso. Un consiglio: seguite l'odore intenso. - S."*
 
----
 
 **Tappa 2 - "Dove la virtù si compra a peso"**
 
@@ -255,7 +239,6 @@ I PG devono decifrare le tre frasi del discorso. Ogni frase indica un luogo. In 
 
 **Cosa trovano:** Nascosto in un sacco di erbe aromatiche, una busta con la doppia S. Dentro un biglietto: *"Quasi ci siete. L'ultimo indizio è dove i topi hanno più dignità dei nobili. - S."*
 
----
 
 **Tappa 3 - "Dove i topi hanno più dignità dei nobili"**
 
@@ -276,9 +259,7 @@ Se i PG inseguono: la scena di confronto con Sergius (vedi § Sergius - se indiv
 
 Se non inseguono: la figura è già sparita. Ma i PG sanno che "S" li stava guardando. Li sta studiando.
 
----
 
----
 
 ## Sergius - se individuato
 
@@ -321,7 +302,6 @@ Sergius scappa subito dalla strada a sinistra del palco, ancora parzialmente ves
 
 **Se i PG non individuano Sergius:** nessun combattimento. La Festa si chiude pacificamente.
 
----
 
 ## I Ratti Sindacalizzati alla Festa
 
@@ -329,7 +309,6 @@ I 5 ratti (con i loro accessori) sono in piazza. Hanno un minuscolo banchetto co
 
 Se il PG con Speak with Animals ci parla: stanno protestando contro le condizioni igieniche della Festa. Vogliono un rappresentante al consiglio del borgo. Hanno una petizione con 47 firme (impronte di zampa).
 
----
 
 ## Ricompense
 
@@ -339,7 +318,6 @@ Se il PG con Speak with Animals ci parla: stanno protestando contro le condizion
 - **Oggetti:** Fialetta vuota de "La Rocca Imponente" (logo alabarda/cespuglio de "L'Immane Alabarda"), frammento del ritratto del Conte
 - **Informazioni:** "S" vendeva pozioni di vigore e ritratti erotici. Il Conte era un cliente. Qualcuno ha imposto una tassa sulla merce. "S" ha un ritratto compromettente del Conte. Terzilio forse non è sempre Terzilio.
 
----
 
 ## Chiusura della puntata - Ritorno alla Taberna
 
@@ -349,21 +327,13 @@ I PG tornano alla Taberna con il frammento del ritratto e la fialetta. Gorim è 
 
 ### Da leggere ai giocatori
 
-> Gorim vi aspetta alla Taberna. Ha la faccia di uno che ha appena masticato un limone intero.
+> Gorim vi aspetta alla Taberna. Ha la faccia di uno che ha masticato un limone intero.
 >
-> *"L'avete visto? L'AVETE VISTO?! Quel... quel delinquente è salito sul palco e ha... davanti a TUTTI..."*
+> *"L'avete visto?! Quel delinquente sul palco... davanti a TUTTI. Se quel ritratto viene fuori, il Conte è finito."*
 >
-> Si siede. Si prende la testa tra le mani.
->
-> *"Il ritratto. Se quel ritratto viene fuori, il Conte è finito. La Contessina lo ammazza. Il consiglio lo depone. E io... io resto senza lavoro."*
->
-> Vi guarda.
->
-> *"Dovete scoprire chi è questo 'S'. E dovete trovare quel ritratto. Prima che lo usi."*
->
-> Pausa.
->
-> *"E no, non vi pago di più."*
+> Vi guarda. *"Dovete scoprire chi è questo 'S'. Trovate quel ritratto. E no, non vi pago di più."*
+
+*Nota DM — dettagli scena Taberna:* Gorim è in preda al panico. Si prende la testa tra le mani: *"La Contessina lo ammazza. Il consiglio lo depone. E io resto senza lavoro."* Non offre più soldi ma è chiaramente disperato — i PG possono negoziare se vogliono.
 
 ### Note per il DM
 
@@ -373,7 +343,6 @@ Il gancio per la Puntata 3: scoprire chi è "S" e recuperare il ritratto. Gorim 
 - Donna Ortensia era cliente - potrebbe sapere di più ma ha paura di parlare
 - I Thugs catturati (se ce ne sono) sanno poco ma il biglietto ha la doppia S
 
----
 
 ## Note al master
 

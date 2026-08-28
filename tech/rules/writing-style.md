@@ -1,3 +1,8 @@
+---
+name: writing-style
+description: Convenzioni formali e linguistiche. Punteggiatura, emoji, boxed text, distanze, multilingua. Regole di prolissita e forma (HR, dialogo diretto, heading, metriche target).
+---
+
 # WritingStyle — Convenzioni Formali e Linguistiche
 
 Regole di formato, punteggiatura e convenzioni linguistiche per il testo delle avventure.
@@ -64,6 +69,71 @@ Se una stanza contiene creature (mostri, NPC, PG), verificare che lo spazio sia 
 Regola pratica: contare i quadretti disponibili (area totale meno ingombri fissi) e verificare che siano almeno pari al numero di creature previste + spazio per muoversi.
 
 ---
+
+## Prolissita e forma
+
+Regole per mantenere i file concisi e leggibili al tavolo. Verificabili con `python3 tech/scripts/measure-prose.py <NomeAvventura>`.
+
+### Linee divisorie (HR)
+
+Non usare `---` come separatore orizzontale. La struttura e data dai titoli (`##`, `###`). Le HR non aggiungono informazione e sporcano il sorgente.
+
+### Boxed text (testo da leggere ai giocatori)
+
+- Max **5 righe** per blocco blockquote
+- Solo percezioni sensoriali (vista, udito, olfatto) e battute chiave
+- Non includere azioni o emozioni dei PG
+- Eccezioni consentite solo per effetto comico/drammatico voluto (documentare il perche nel file)
+
+### Dialogo diretto
+
+Limite: le righe con dialogo diretto (`*"..."*`) non devono superare il **20%** delle righe contenuto di un modulo (ideale: < 15%).
+
+Se un modulo supera il 20%:
+- Convertire battute ripetitive in bullet point di stile: `Gorim: impaziente, evasivo, tirchio. Frase tipica: "Dai dai dai."`
+- Tenere come dialogo scritto solo le battute plot-critical o con forte effetto comico
+- Le risposte a domande probabili dei PG vanno in tabella, non come dialogo
+
+### Heading e frammentazione
+
+- Ogni heading (`##`, `###`) deve avere almeno **5 righe di contenuto** sotto di se prima del prossimo heading (ideale: > 7)
+- Se una sezione ha meno di 3 righe, valutare se fonderla con la precedente o successiva
+- Non creare heading per ogni singolo passaggio: un elenco puntato sotto un heading unico e piu leggibile
+
+### Dati strutturati sopra prosa
+
+Preferire sempre formati strutturati per informazioni operative:
+
+| Informazione | Formato corretto | Formato da evitare |
+|-------------|-----------------|-------------------|
+| Nemici in una stanza | Tabella (nome, N, PF, CA, attacco) | Paragrafo descrittivo |
+| CD e conseguenze | `Se X, allora Y` oppure tabella | Frase discorsiva lunga |
+| Ricompense | Lista puntata | Paragrafo |
+| Tattiche combattimento | `Round 1: X. Round 2: Y. Se PF < 50%: Z.` | Prosa narrativa |
+| Comportamento NPC | Bullet point (cosa sa, come reagisce) | Descrizione in prosa |
+
+### Non-duplicazione
+
+Un'informazione deve esistere in un solo posto:
+
+| Informazione | Dove va | Nei moduli |
+|-------------|---------|-----------|
+| Background NPC, motivazioni, relazioni | Doc principale § NPC principali | Solo "Vedi §X" |
+| Lore del mondo, antefatti | Doc principale § Lore | Mai ripetere |
+| Regole di gioco (economia, milestone) | Doc principale | Reminder breve in DM_Prep |
+| Comportamento specifico di una scena | Nel modulo dove accade | — |
+| Stat block | `characters/markdown/` | Solo dati minimi in tabella Nemici |
+
+### Metriche target
+
+| Metrica | Soglia warning | Ideale |
+|---------|---------------|--------|
+| Rapporto prosa/dati | > 2.0 | < 1.5 |
+| Densita informativa | < 0.35 | > 0.45 |
+| Blocchi boxed > 5 righe | > 0 | 0 (eccezioni documentate) |
+| Dialogo diretto | > 20% | < 15% |
+| Righe per heading | < 5 | > 7 |
+| HR (`---`) | > 0 | 0 |
 
 ## Multilingua
 

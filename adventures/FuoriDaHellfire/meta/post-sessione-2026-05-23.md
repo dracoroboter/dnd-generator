@@ -5,7 +5,6 @@
 **Giocatori:** 3 PG di livello 4 + Udo + Fin
 **Livello finale:** 5 (milestone: recupero scheletro di Jason)
 
----
 
 ## Cosa è successo
 
@@ -44,7 +43,6 @@
 
 Decidono di tornare alla torre per compiere il rituale di dissoluzione. (Nella prossima sessione scopriranno che non funziona perché la Presa è troppo bassa.)
 
----
 
 ## Decisioni prese al tavolo
 
@@ -63,7 +61,6 @@ Decidono di tornare alla torre per compiere il rituale di dissoluzione. (Nella p
 | D11 | Presa +1 se fallisce TS nella cella | Portatrice ha passato, resta a 2 |
 | D12 | Milestone lv5 | Dopo recupero scheletro |
 
----
 
 ## Modifiche all'avventura scritta
 
@@ -113,7 +110,6 @@ Ha già detto tutto. Risponde solo con Persuasione CD 18 o perorazione molto con
 
 I PG sono ora lv5. I pericoli delle prossime sessioni devono essere più grandi.
 
----
 
 ## Punti aperti
 
@@ -130,7 +126,6 @@ I PG sono ora lv5. I pericoli delle prossime sessioni devono essere più grandi.
 - Il modulo 5 è il viaggio di ritorno alla torre con Aldric Jr + il rituale (che fallisce se Presa < 6)
 - Il dilemma centrale della saga: peggiorare per guarire, o restare stabili ma prigionieri
 
----
 
 ## Retrofitting da applicare
 
@@ -146,3 +141,14 @@ I PG sono ora lv5. I pericoli delle prossime sessioni devono essere più grandi.
 - [x] A10: Tempi viaggio e incontri
 - [x] A11: Aldric Sr. non risponde più
 - [ ] A12: Calibrare incontri futuri per lv5 (prossimi moduli)
+
+
+## Stato attuale della saga
+
+- **Giorno di gioco:** giorno 5
+- **Livello PG:** 5 (milestone dopo recupero scheletro)
+- **Presa:** 2 (fase Sussurri)
+- **Incubi:** attivi (TS Sag CD 15 ogni notte)
+- **Rituale del sonno:** 2ª volta usata (30 mo, prossima: 300 mo)
+- **Ossa Jason:** recuperate, in possesso dei PG
+- **Rituale dissoluzione:** copia dal pavimento (Performance 17), Aldric deve leggere l'originale

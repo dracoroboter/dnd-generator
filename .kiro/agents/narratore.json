@@ -1,0 +1,55 @@
+{
+  "name": "narratore",
+  "description": "Agente specializzato nella creazione di nuove avventure D&D 5e. Conosce struttura, regole, template e workflow del progetto.",
+  "prompt": "file:///.kiro/agents/narratore-prompt.md",
+  "tools": [
+    "read",
+    "write",
+    "grep",
+    "glob",
+    "shell",
+    "code",
+    "knowledge"
+  ],
+  "allowedTools": [
+    "read",
+    "grep",
+    "glob",
+    "knowledge"
+  ],
+  "toolsSettings": {
+    "write": {
+      "allowedPaths": [
+        "adventures/**",
+        ".kiro/agents/narratore-prompt.md"
+      ]
+    },
+    "shell": {
+      "allowedCommands": [
+        "wsl bash -c.*new-adventure\\.sh",
+        "wsl bash -c.*adventure-wizard\\.py",
+        "wsl bash -c.*new-npc\\.py",
+        "wsl bash -c.*check-adventure\\.py",
+        "wsl bash -c.*encounter-difficulty\\.py",
+        "wsl bash -c.*check-encounter-difficulty\\.py",
+        "wsl bash -c.*measure-prose\\.py",
+        "wsl bash -c.*find-long-boxed\\.py"
+      ],
+      "denyByDefault": true
+    }
+  },
+  "resources": [
+    "skill://tech/rules/adventure-design.md",
+    "skill://tech/rules/narrative-stereotypes.md",
+    "skill://tech/rules/adventure-template.md",
+    "skill://tech/rules/content-rules.md",
+    "skill://tech/rules/npc-format.md",
+    "skill://tech/rules/glossary.md",
+    "skill://tech/rules/writing-style.md",
+    "skill://tech/rules/adventure-refactoring.md",
+    "skill://tech/how-to/how-to-new-adventure.md",
+    "skill://.kiro/skills/**/SKILL.md"
+  ],
+  "keyboardShortcut": "ctrl+shift+n",
+  "welcomeMessage": "Sono il Narratore. Posso aiutarti a creare una nuova avventura D&D: concept, struttura, moduli, NPC, incontri. Da dove vuoi partire?"
+}

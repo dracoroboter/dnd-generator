@@ -1,3 +1,8 @@
+---
+name: npc-format
+description: Formato markdown per schede NPC/MON. Sezioni obbligatorie, stat block, attacchi, pipeline FightClub XML e stat block PDF/PNG. Naming con prefissi NPC_/MON_/PG_.
+---
+
 # Formato Markdown per NPC e Mostri
 
 Specifica del formato `.md` usato nelle schede personaggio del progetto.

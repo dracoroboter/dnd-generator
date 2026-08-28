@@ -5,7 +5,6 @@
 **Giocatori:** 3 PG di livello 5 + Udo + Fin
 **Livello finale:** 5 (nessuna milestone)
 
----
 
 ## Cosa è successo
 
@@ -35,8 +34,16 @@
 - Il portatore ha liberato Jason momentaneamente (Presa +1): incubi interrotti per 3 giorni.
 - Il portatore si è fatto aiutare da Jason in combattimento (Presa +1): incubi interrotti per una settimana.
 - **Presa attuale: 4** (era 2, +1 liberazione, +1 aiuto).
-- **Incubi sospesi per 10 giorni** (3 + 7, cumulativi).
+- **Incubi sospesi per 10 giorni** (3 + 7, cumulativi, dalla cessione).
 - I giocatori hanno capito che devono arrivare a Presa 6 per il rituale.
+
+### Timeline riposi lunghi sessione 5
+
+- Rituale del sonno (2ª volta, 30 mo): fatto a Hawksbridge nella sessione 4. I 3 giorni di protezione del rituale del sonno sono stati consumati durante il viaggio di andata.
+- **Viaggio andata** (Hawksbridge → torre): 3 riposi lunghi, protetti dal rituale del sonno (esaurito all'arrivo).
+- **Alla torre**: rituale fallito + combattimento scheletri. Cessione a Jason (liberazione, +1 Presa, +3gg) avvenuta qui.
+- **Side quest**: La Consegna Maledetta (dire wolves + owlbear). Aiuto di Jason in combattimento (+1 Presa, +7gg) qui.
+- **Fine sessione**: alla torre / zona Ashwick. Protezione 10 giorni (3+7) parte da qui.
 
 ### Nuova meccanica: liberazione temporanea di Jason
 
@@ -44,7 +51,6 @@
 - Se il portatore si fa aiutare da Jason (incantesimo in combattimento): **Presa +1**, incubi interrotti per **una settimana**.
 - Non può liberarlo più di una volta al giorno.
 
----
 
 ## Decisioni prese al tavolo
 
@@ -61,7 +67,6 @@
 | D9 | Jason ha Fear (lv3) | Confermato dalla lista incantesimi |
 | D10 | Side quest giocata | Dire Wolf + Owlbear potenziata |
 
----
 
 ## Modifiche all'avventura scritta
 
@@ -88,18 +93,19 @@ Mancano stat block per:
 
 La lista incantesimi era nel DM_Prep del modulo 4 ma non nel modulo 5. Aggiungere riferimento.
 
----
 
 ## Stato attuale della saga
 
+- **Giorno di gioco:** giorno 8
+- **Livello PG:** 5
 - **Presa:** 4 (fase Sussurri, prossimo incremento → 5 = Influenza)
 - **Incubi:** sospesi per 10 giorni
-- **Rituale:** fallito, condizioni note ai PG (serve Presa ≥6)
+- **Rituale del sonno:** 2ª volta usata (prossima: 300 mo)
+- **Rituale dissoluzione:** fallito, condizioni note ai PG (serve Presa ≥6)
 - **Aldric Jr:** ha la voce (non maledetto)
 - **Ossa Jason:** in possesso dei PG
 - **Prossima decisione:** i PG sanno che devono far salire la Presa. A 5 Jason può tentare il controllo.
 
----
 
 ## Retrofitting da applicare
 
@@ -107,3 +113,18 @@ La lista incantesimi era nel DM_Prep del modulo 4 ma non nel modulo 5. Aggiunger
 - [ ] A2: Aggiungere meccanica liberazione temporanea Jason al documento principale
 - [ ] A3: Creare stat block Owlbear potenziata, cucciolo, aggiungere Dire Wolf al DM_Prep
 - [ ] A4: Aggiungere riferimento incantesimi Jason nel DM_Prep mod 5
+
+
+## Riepilogo progressione
+
+| Sessione | Giorno di gioco | Presa | Riposi lunghi in sessione |
+|----------|-----------------|-------|--------------------------|
+| 3 (9 mag) | giorno 2 | 1 | — |
+| 4 (23 mag) | giorno 5 | 2 | 3 (tutti con incubi) |
+| 5 (31 mag) | giorno 8 | 4 | 1 (protetto da cessione) |
+
+**Nota:** i giorni della settimana si contano a partire dalla puntata 6 (sabato). Prima non erano tracciati.
+
+**Protezione incubi attuale:** 10 giorni senza incubi (3+7 cumulati dalla cessione a Jason). Parte dalla fine della sessione 5 (torre di Ashwick). Il rituale del sonno (2ª volta) si è esaurito durante il viaggio di andata (3 riposi consumati).
+
+**Nota per le prossime sessioni:** segnare sempre quanti riposi lunghi fanno i PG durante la sessione e se il portatore è protetto o no.

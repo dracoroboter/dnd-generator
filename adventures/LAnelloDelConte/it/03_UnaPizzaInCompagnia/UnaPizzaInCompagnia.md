@@ -11,7 +11,6 @@ I PG sono in stallo: hanno il frammento del ritratto e la bottiglietta di pozion
 **Dichiarato:** Recuperare la merce rubata al Marchese Arimano dai magazzini del porto di Vetusta Portus.
 **Reale:** Sergius valuta i PG - quanto sono pericolosi, quanto sono utili, cosa pensano del Conte. Er Braccio diventa un sospetto nella caccia a S.
 
----
 
 ## Cheat Sheet - Informazioni e Indizi
 
@@ -59,7 +58,6 @@ I PG devono uscire dalla puntata con **sospetti multipli** e **nessuna certezza*
 - Gli ingredienti servono per le pozioni di vigore (servirebbero competenze alchemiche + tempo)
 - Il Marchese conosce già i PG (li ha visti come Terzilio)
 
----
 
 ## Atto 1 - Fianus senza piste
 
@@ -78,9 +76,8 @@ Due giorni di tempo di gioco. I PG possono girare per Fianus e parlare con chi v
 > *"Chi siete? Dove andate?"*
 >
 > Qualunque cosa rispondano i PG: *"Una moneta d'argento."*
-> Se i PG protestano: *"Una moneta d'argento."*
-> Se i PG spiegano che lavorano per Gorim: *"Una moneta d'argento."*
-> Se i PG si arrabbiano: *"Due monete d'argento."*
+
+**Nota DM:** La guardia è incorreggibile. Se i PG protestano: *"Una moneta d'argento."* Se spiegano che lavorano per Gorim: *"Una moneta d'argento."* Se si arrabbiano: *"Due monete d'argento."*
 
 I PG passano SOLO se hanno una lettera con il sigillo di Gorim, o se Gorim li accompagna di persona. Senza credenziali, le guardie sono un muro. Non c'è CD che tenga - è burocrazia, non un tiro abilità.
 
@@ -112,22 +109,18 @@ Dopo due giorni, un paggio in livrea consunta ma dignitosa si presenta alla Tabe
 
 ### Da leggere ai giocatori
 
-> Il paggio è un ragazzino magro con una giacca troppo grande e un'aria di importanza studiata. Vi porge una busta di pergamena chiusa con ceralacca rossa - il sigillo è uno stemma nobiliare che non riconoscete.
+> Il paggio è un ragazzino magro con una giacca troppo grande. Vi porge una busta di pergamena chiusa con ceralacca rossa.
 >
 > *"Da parte del Marchese Arimano. Attende risposta."*
 >
-> La lettera, in calligrafia elegante:
->
-> *"Stimati avventurieri,*
-> *la vostra fama - per quanto modesta - è giunta alle mie orecchie. Ho un incarico che richiede persone di una certa... praticità. Vi attendo domani sera a casa mia, a Vetusta Portus, per discuterne davanti a un pasto caldo. Il paggio vi indicherà la strada.*
-> *Cordialmente,*
-> *Marchese Arimano Improbus"*
+> La lettera: *"Stimati avventurieri, ho un incarico che richiede persone di una certa praticità. Vi attendo domani sera a casa mia, a Vetusta Portus, per discuterne davanti a un pasto caldo. Il paggio vi indicherà la strada. — Marchese Arimano Improbus"*
+
+**Nota DM:** Il sigillo è uno stemma nobiliare che i PG non riconoscono. La calligrafia è elegante. Nella lettera completa Arimano scrive che la fama dei PG — "per quanto modesta" — è giunta alle sue orecchie. Il paggio ha un'aria di importanza studiata.
 
 ### Note per il DM
 
 Se i PG chiedono a Gorim del Marchese: *"Arimano? Sì, lo conosco di nome. Nobile minore, vive a Vetusta Portus. Aveva dei commerci, tempo fa. Non lo vedo da anni. Perché vi cerca?"* Non sospetta nulla.
 
----
 
 ## Atto 2 - Casa del Marchese Arimano
 
@@ -164,11 +157,9 @@ Arimano vuole invitare i PG a cena per proporre la quest (recuperare la merce da
 
 ### Da leggere ai giocatori
 
-> Mentre riprendete fiato tra le casse rovesciate e i banditi a terra, una voce cordiale arriva dall'ingresso del magazzino.
+> Mentre riprendete fiato tra le casse rovesciate, una voce cordiale arriva dall'ingresso del magazzino: *"Impressionante. Davvero impressionante."*
 >
-> *"Impressionante. Davvero impressionante."*
->
-> Un uomo di mezza età, vestito bene ma non troppo, si fa avanti con le mani alzate in segno di pace. Dietro di lui, tre scaricatori con l'aria di chi aspetta ordini.
+> Un uomo di mezza età, vestito bene ma non troppo, si fa avanti con le mani alzate in segno di pace. Dietro di lui, tre scaricatori.
 >
 > *"Marchese Arimano. Credo che la mia merce sia qui dentro - grazie a voi, posso finalmente recuperarla."*
 
@@ -216,17 +207,13 @@ Se il tiro fallisce, Gorim non cambia idea: *"Ho detto no. Pagate e basta."*
 
 ### Da leggere ai giocatori
 
-> Il Marchese vi accoglie personalmente alla porta. Un sorriso cortese, una stretta di mano ferma.
+> Il Marchese vi accoglie personalmente alla porta con un sorriso cortese e una stretta di mano ferma.
 >
 > *"Benvenuti, benvenuti. Entrate - la cena è quasi pronta. Non è niente di elaborato, ma a Vetusta Portus sappiamo fare la pizza come si deve."*
 >
-> Vi fa accomodare in una sala da pranzo con un tavolo apparecchiato per cinque. Il camino è acceso e proietta ombre calde sulle pareti - carta da parati a fiori, un po' scrostata agli angoli. Un lampadario in ferro con metà delle candele mancanti. Una credenza con bottiglie di vino e piatti di ceramica. Due finestre alte danno sul giardino buio - si intravedono i cipressi e la sagoma di una fontana.
->
-> Dalla cucina arriva una donna robusta con un grembiule, che si affaccia: *"Marchese, le posate buone... dove le tenete?"* Lui si alza con un sorriso: *"Scusate un momento."*
->
-> La pizza è buona - impasto sottile, pomodoro, formaggio, olive. Il vino è il **Vino del Castello di Portus** - detto anche "il Vino del Castello" - ed è decisamente migliore di quello di Domina Lella (non ci vuole molto). Il Marchese versa con generosità.
->
-> Per chiudere, dalla cucina arriva il **Porco Fritto Imburrato** - il dolce tipico di Vetusta Portus. Frittelle di maiale dolci, zuccherate e unte di burro. I vetustiani ne lodano la leggerezza. I PG possono giudicare da soli.
+> Vi fa accomodare in una sala da pranzo con un tavolo apparecchiato per cinque. Il camino è acceso e proietta ombre calde sulle pareti.
+
+**Nota DM:** La sala ha carta da parati a fiori scrostata agli angoli, un lampadario in ferro con metà delle candele mancanti, una credenza con bottiglie e piatti di ceramica, e due finestre alte sul giardino buio. Una donna robusta con grembiule si affaccia dalla cucina: *"Marchese, le posate buone... dove le tenete?"* — lui si scusa un momento. La pizza è buona (impasto sottile, pomodoro, formaggio, olive). Il vino è il **Vino del Castello di Portus**, decisamente migliore di quello di Domina Lella. Per chiudere, il **Porco Fritto Imburrato** — frittelle di maiale dolci, zuccherate e unte di burro. I vetustiani ne lodano la leggerezza; i PG possono giudicare da soli.
 
 ### Dettagli della casa - cosa notano i PG
 
@@ -323,11 +310,11 @@ Questa sezione si usa solo se i PG accettano l'invito e vanno a cena **prima** d
 
 > Il Marchese si fa serio.
 >
-> *"Ecco il punto. Ho un piccolo commercio - importo merci dal sud. Spezie, erbe, e... degli animaletti. Creature esotiche, niente di pericoloso. Un fornitore al porto, un certo Er Braccio, doveva consegnarmi un carico la settimana scorsa. Non l'ha fatto. Dice che non l'ho pagato abbastanza."*
+> *"Ecco il punto. Ho un piccolo commercio - importo merci dal sud. Un fornitore al porto, un certo Er Braccio, doveva consegnarmi un carico la settimana scorsa. Non l'ha fatto. Dice che non l'ho pagato abbastanza."*
 >
-> Sospiro.
->
-> *"La verità è che i tempi sono cambiati. Non ho più le risorse di una volta. Ma un accordo è un accordo, e quella merce è mia. È nei magazzini del porto - Er Braccio la tiene lì. Vorrei che andaste a recuperarla."*
+> *"La verità è che i tempi sono cambiati. Ma un accordo è un accordo, e quella merce è mia. È nei magazzini del porto - Er Braccio la tiene lì. Vorrei che andaste a recuperarla."*
+
+**Nota DM:** Nella versione estesa Arimano specifica: *"Spezie, erbe, e... degli animaletti. Creature esotiche, niente di pericoloso."* e sospira prima di ammettere di non avere più le risorse di una volta. Il DM può aggiungere questi dettagli se i PG fanno domande.
 
 ### Note per il DM
 
@@ -343,7 +330,6 @@ Se i PG chiedono dettagli:
 
 Sergius dà ai PG 5 mo di anticipo.
 
----
 
 ## Atto 3 - I magazzini del porto
 
@@ -501,7 +487,6 @@ I PG non devono poter collegare il Marchese a S in questa puntata. Il seme è ch
 
 Se i PG tornano da Arimano con la merce: vedi § Chiusura.
 
----
 
 ## Chiusura: Ritorno dal Marchese
 
@@ -512,8 +497,6 @@ Se i PG sono passati da Arimano prima del magazzino, tornano da lui con la merce
 > Il Marchese vi apre la porta. Guarda le casse, guarda voi - sporchi, graffiati, con un morso di scimmia e un po' di bava di rinoceronte addosso.
 >
 > *"Ah. Vedo che avete trovato gli... animaletti."*
->
-> Pausa.
 >
 > *"Il rinoceronte era una sorpresa, immagino. Mi scuso - avrei dovuto essere più specifico. Ma avete fatto un lavoro eccellente."*
 
@@ -538,7 +521,6 @@ Sergius è soddisfatto della valutazione:
 
 Il gancio per la Puntata 4: Er Braccio è in circolazione (se è scappato), ce l'ha col Conte, e i PG hanno lavorato per un nobile misterioso che commercia in ingredienti esotici. Chi è S? Er Braccio? Qualcun altro?
 
----
 
 ## Ricompense
 
@@ -551,7 +533,6 @@ Il gancio per la Puntata 4: Er Braccio è in circolazione (se è scappato), ce l
 
 **Livello 3** al completamento della missione (recupero merce e ritorno dal Marchese).
 
----
 
 ## Note al master
 

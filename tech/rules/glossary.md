@@ -1,3 +1,8 @@
+---
+name: glossary
+description: Definizioni dei termini del progetto. One-shot, campagna, saga, modulo, sessione, quest, plot. Metadati saga nei README.
+---
+
 # Glossary — Termini del Progetto
 
 ## Unità narrative

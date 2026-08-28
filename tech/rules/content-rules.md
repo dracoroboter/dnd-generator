@@ -1,3 +1,8 @@
+---
+name: content-rules
+description: Regole di storytelling per avventure D&D. Avventura scritta vs giocata, indizi multipli, NPC, difficolta incontri, milestone, brevita nei moduli, non-duplicazione, struttura narrativa.
+---
+
 # ContentRules — Regole di Storytelling per le Avventure
 
 Regole semantiche e narrative: come scrivere un'avventura che funziona al tavolo.

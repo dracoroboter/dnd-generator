@@ -6,13 +6,11 @@
 
 Arimano rivela ai PG parte della verità — mostra il quadro sfregiato del Conte e chiede il loro aiuto per sputtanarlo pubblicamente. Non ammette di essere S a meno che i PG non lo incastrino o lo facciano parlare. Mafalda li sta sorvegliando in continuazione (ordini dalla P4): se i PG si muovono con Michelangeli, la Contessina potrebbe mandare i suoi. Gorim arriva per avvertirli. I PG devono decidere da che parte stare.
 
----
 
 ## Obiettivo
 
 Decidere se aiutare Arimano a esporre il Conte, proteggere Michelangeli dagli sgherri della Contessina, e sopravvivere alla serata.
 
----
 
 ## Atto 1 — Il quadro
 
@@ -220,7 +218,6 @@ Se i PG chiedono "come?": ha bisogno di Michelangeli come testimone (conferma ch
 
 Se i PG chiedono "cosa ci guadagniamo?": offre tutto quello che ha. Non è molto, ma è sincero.
 
----
 
 ## Atto 2 — Bussano alla porta
 
@@ -238,7 +235,6 @@ Gorim deve essere presente per la battaglia finale (P7). Il DM deve trovare un m
 
 Se i PG chiedono perché li aiuta: la Contessina ha oltrepassato il limite. Gorim ammette di aver chiuso un occhio troppo a lungo.
 
----
 
 ## Atto 3 — Mafalda alla porta
 
@@ -262,7 +258,6 @@ Perquisisce. Se trova Michelangeli lo prende. Se trova il quadro lo sequestra. C
 
 La casa non ha uscite segrete. Finestre sul retro: 3m di caduta (1d6 danni), Atletica o Furtività a discrezione del DM.
 
----
 
 ## Se Mafalda non arriva
 
@@ -284,7 +279,6 @@ Gorim è venuto ad **avvertirli**, non ad arrestarli. Ha scelto. Non lo dice esp
 
 I PG ora sanno tutto: la doppia S, il Conte, la moglie, il brandello. Se lo vogliono possono ricomporre il puzzle completo. Non forzare la rivelazione — lascia che i giocatori colleghino i pezzi da soli.
 
----
 
 ## Transizione verso la Puntata 7
 

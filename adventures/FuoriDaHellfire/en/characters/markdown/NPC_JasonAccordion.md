@@ -36,7 +36,6 @@ When Korex falls (dead or captured), the bond breaks. Jason is fully sealed agai
 
 **"Free"** doesn't mean "out of the ring." It means: "finally a host who doesn't know how to resist me."
 
----
 
 ### The Ring of the Virtuoso — Sentient Item
 
@@ -147,7 +146,6 @@ The caster's level isn't the problem — the knowledge is. Finding it is the mai
 - **Purpose**: return to life by taking permanent control of a host body
 - **Conflict**: if the wearer acts against Jason's interests, Jason forces a WIS save (variable DC, see Grip). Failure → Jason takes control for 1d4 hours.
 
----
 
 ## Motivations
 
@@ -166,7 +164,6 @@ His strategy:
 - If the wearer actively tries to remove the ring, Jason becomes more aggressive: nightmares, psychic damage (2d6/night), more frequent control attempts.
 - **Narrative weakness**: Jason is afraid of being imprisoned again. If the PCs discover how he was trapped the first time, they have leverage over him.
 
----
 
 ## Stat Block
 
@@ -212,7 +209,6 @@ His strategy:
 - **Damage**: 2d6 psychic per night
 - **Effect**: no benefit from long rest
 
----
 
 ## Open Points
 

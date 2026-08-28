@@ -40,5 +40,5 @@ Odia i Figli del Perdono con passione fredda. Li considera irresponsabili e peri
 - Theron non combatte. Se attaccato, muore.
 - La sua utilità è informativa: sa tutto dell'Ordine, dei Sette Sigilli, della Torre.
 - Riconosce l'anello se lo vede ("L'ouroboros musicale. Cella 4."). Non conosce i Figli del Perdono — culto troppo recente, Theron è isolato da decenni.
-- Se i PG scelgono la Via B davanti a lui: li maledice verbalmente e li caccia di casa. Non li aiuterà più.
-- Se i PG scelgono la Via A: li aiuta con informazioni aggiuntive (posizione esatta della scogliera, consigli sul rituale).
+- Se i PG scelgono l'incarnazione davanti a lui: li maledice verbalmente e li caccia di casa. Non li aiuterà più.
+- Se i PG scelgono la dissoluzione: li aiuta con informazioni aggiuntive (posizione esatta della scogliera, consigli sul rituale).

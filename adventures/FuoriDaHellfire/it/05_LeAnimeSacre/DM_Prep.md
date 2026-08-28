@@ -2,7 +2,6 @@
 
 Party: 3 PG lv5 + Udo (CR 3) + Fin (lv3).
 
----
 
 ## Passaggi della storia
 
@@ -15,24 +14,14 @@ Party: 3 PG lv5 + Udo (CR 3) + Fin (lv3).
 7. **Se insistono** — Spettri (3, invincibili) + Scheletri (15, ondate da 5). Maledizione Aldric se uccidono tutti
 8. **Chiusura** — Il dilemma: peggiorare per guarire, o convivere per sempre. Jason ride: "Ve l'avevo detto, folli."
 
----
 
 ## Stat block
 
+→ Schede complete in `it/characters/statblock/` (PDF stampabili).
+
 ### Scheletro (Custode dell'Ordine) × 15
 
-| | |
-|---|---|
-| **PF** | 13 (2d8+4) |
-| **CA** | 13 (frammenti di armatura) |
-| **Velocità** | 9m / 30ft |
-| **FOR** 10 (+0) | **DES** 14 (+2) | **COS** 15 (+2) |
-| **INT** 6 (-2) | **SAG** 8 (-1) | **CAR** 5 (-3) |
-| **Vulnerabilità** | Contundenti |
-| **Immunità** | Veleno; esausto, avvelenato |
-| **Percezione passiva** | 9 |
-
-**Attacco:** Spada arrugginita: +4, 1d6+2 taglienti
+Scheda: `MON_Skeleton`. Particolarità: portano frammenti di armatura dell'Ordine e spade arrugginite. Compaiono a ondate dal terreno.
 
 **Ondate:**
 
@@ -44,42 +33,28 @@ Party: 3 PG lv5 + Udo (CR 3) + Fin (lv3).
 
 **Difficoltà:** HARD (3 PG lv5 + Udo + Fin)
 
----
 
-### NPC companion (già preparati)
+### NPC companion
 
-| NPC | PF | CA | Attacco principale |
-|-----|----|----|-------------------|
-| Udo Hutchinson | 58 | 14 | +5, 1d8+3 spada lunga (Multiattack ×2) |
-| Fin Ditasvelte | 21 | 14 | +5, 1d4+3 pugnale + Sneak Attack 2d6 |
+| NPC | Scheda | Ruolo in combattimento |
+|-----|--------|----------------------|
+| Udo Hutchinson | `NPC_UdoHutchinson` | Tank, Multiattack ×2 |
+| Fin Ditasvelte | `NPC_FinDitasvelte` | Sneak Attack, posizionamento |
 
----
 
 ### Teppista Charmato (banditi viaggio) × 1d6
 
-> Basato su Cultista (MM p.345, CR 1/8). Usare se il DM vuole incontri random durante il viaggio.
+Scheda: `MON_TeppistaCharmato`. Intimidazione CD 13 li fa scappare (primo giorno). 1d20 mr se perquisiti.
 
-| | |
-|---|---|
-| **PF** | 13 (2d8+4) |
-| **CA** | 12 (cuoio) |
-| **Velocità** | 9m / 30ft |
-| **Attacco** | Mazza: +3, 1d6+1 contundenti |
-| **Percezione passiva** | 10 |
-
-Intimidazione CD 13 li fa scappare (primo giorno). 1d20 mr se perquisiti.
-
----
 
 ### Spettri dell'Ordine × 3
 
 Non combattibili. Bloccano il cerchio (Silence su Aldric, forza che respinge). Se attaccati diventano incorporei e tornano. Svaniscono dopo aver parlato/maledetto.
 
----
 
-### Jason Accordion (riferimento incantesimi)
+### Jason Accordion (incantesimi disponibili per la Presa)
 
-CD 16, attacco +8. Lancia solo attraverso il portatore (Presa +1 per ogni uso).
+Scheda: `NPC_JasonAccordion`. CD 16, attacco +8. Lancia solo attraverso il portatore (Presa +1 per ogni uso).
 
 | Livello | Incantesimo |
 |---------|-------------|
@@ -89,7 +64,6 @@ CD 16, attacco +8. Lancia solo attraverso il portatore (Presa +1 per ogni uso).
 | 4 | *Greater Invisibility* |
 | 5 | *Hold Monster* |
 
----
 
 ## Tiri chiave
 
@@ -99,7 +73,6 @@ CD 16, attacco +8. Lancia solo attraverso il portatore (Presa +1 per ogni uso).
 | Scogliera | Persuasione (Spettri) | 14 | Ottenere indizio sulla condizione (Presa ≥7) |
 | Scogliera | — | — | Iscrizioni: informazione automatica |
 
----
 
 ## Mappe
 
@@ -142,13 +115,11 @@ CD 16, attacco +8. Lancia solo attraverso il portatore (Presa +1 per ogni uso).
 - Sud: sentiero largo 2qd dalla torre
 - Aldric si nasconde dietro una lapide durante il combattimento
 
----
 
 ## Loot
 
 Nessuno.
 
----
 
 ## Milestone
 

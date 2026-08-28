@@ -185,9 +185,7 @@ Il castello esplode dall'interno. Tutti quelli dentro muoiono (Conte, Contessina
 >
 > Gorim è in piedi nel cortile. Silenzioso. Guarda il castello.
 >
-> Non dice niente.
->
-> Resta lì, in piedi, a guardare.
+> Non dice niente. Resta lì, in piedi, a guardare.
 
 Se il castello è esploso (esito B), adattare: macerie fumanti, polvere, caos.
 

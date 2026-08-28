@@ -11,7 +11,6 @@ Simpatico Figuro ha trovato il pittore che faceva i ritratti compromettenti: Mas
 **Dichiarato:** Seguire la pista del pittore per risalire a "S".
 **Reale:** Falsa pista. Sberluccica non è S, ma la sua cattura rivela che la Contessina sta insabbiando tutto. I PG scoprono che *tutti* hanno la S nel nome - la firma non identifica nessuno.
 
----
 
 ## Cheat Sheet - Informazioni e Indizi
 
@@ -58,7 +57,6 @@ Vedi § Cheat Sheet Indizi e § Running Gag (gag della S) nel documento principa
 
 In questa puntata: Sberluccica descrive il committente "piegato in due" (= Sergius che perde la postura). La Contessina agisce per insabbiare (movente opposto a S).
 
----
 
 ## Atto 1 - Simpatico Figuro e il pittore
 
@@ -68,15 +66,13 @@ Simpatico Figuro contatta i PG (o loro tornano da lui). Ha trovato il pittore. V
 
 ### Da leggere ai giocatori
 
-> Simpatico Figuro vi aspetta sulla soglia della bottega con l'aria di chi ha un segreto che scotta. Si strofina le mani.
+> Simpatico Figuro vi aspetta sulla soglia con l'aria di chi ha un segreto che scotta. Si strofina le mani.
 >
-> *"Allora, l'ho trovato. Non è stato facile, eh - c'è molto riserbo su 'ste cose. Ma io ho le mie fonti."*
->
-> Pausa teatrale.
->
-> *"Il pittore si chiama Cecilio Sberluccica. Una volta dipingeva - e bene, dicono. Poi ha smesso di colpo, da un giorno all'altro. Adesso fa cornici. Bottega in vicolo delle Arti, insegna con una cornice dorata. Non potete sbagliare."*
+> *"L'ho trovato. Il pittore si chiama Cecilio Sberluccica. Una volta dipingeva — e bene, dicono. Poi ha smesso di colpo. Adesso fa cornici. Bottega in vicolo delle Arti, insegna con una cornice dorata."*
 >
 > Allunga la mano. *"Cinque monete d'argento, come d'accordo."*
+
+Figuro fa una pausa teatrale prima di rivelare il nome — vuole far pesare il servizio. Sottolinea che c'è molto riserbo su queste cose e che ha dovuto usare le sue fonti.
 
 ### Vicolo delle Arti - Monteverde
 
@@ -118,7 +114,6 @@ Sberluccica è terrorizzato. Se i PG menzionano i ritratti, impallidisce. Se men
 **Se i PG chiedono di vedere la lettera** (quella dell'ultimo messaggio del committente, punto 4): Sberluccica l'ha ancora. La tira fuori da un cassetto - pergamena ingiallita, calligrafia elegante, firma doppia S. Il testo dice solo "Non preoccuparti. Riprenderemo quando i tempi saranno maturi. S.S." Nessun altro indizio utile - niente indirizzo, niente sigillo riconoscibile.
 
 
----
 
 ## Intermezzo - Gorim e la S
 
@@ -130,7 +125,6 @@ Se i PG portano l'informazione a Gorim prima di tornare da Sberluccica, Gorim si
 
 **La gag:** Se i PG menzionano Er Braccio, Gorim dice il vero nome - lo sa, è nei registri. *"Er Braccio? Ah, Salvatore Soggettoni."* Non nota la S. Non ci arriva. I PG sì (forse).
 
----
 
 ## Atto 2 - La bottega a soqquadro
 
@@ -200,7 +194,6 @@ Intuizione CD 13: i PG notano nervosismo e fretta nel mandarli via. Ma non confe
 
 **C) Chiedere a Gorim** - Gorim non sa niente della Contessina. Ma se gli dicono che la Contessina ha rapito il pittore: *"Quella... quella Serbelloni! Sempre a complicare tutto! Andiamo a riprendercelo!"* Vuole venire.
 
----
 
 ## Atto 3 - La cantina di Aviano
 
@@ -219,11 +212,9 @@ I PG possono:
 
 ### Da leggere ai giocatori (quando vedono la cantina)
 
-> La cantina è buia e umida. L'unica luce viene da una lanterna appesa a un gancio nel soffitto. Botti vuote lungo le pareti, ragnatele ovunque, e al centro - legato a una sedia con le mani dietro la schiena - Mastro Sberluccica. Ha un occhio nero e il labbro spaccato. Trema.
+> La cantina è buia e umida. Lanterna appesa al soffitto, botti vuote, ragnatele. Al centro — legato a una sedia — Mastro Sberluccica. Occhio nero, labbro spaccato. Trema.
 >
-> Attorno a lui, tre uomini in giubbotti di cuoio e una donna con una spada corta al fianco. Il più grosso - un tipo con i baffi e un'aria da sergente - sta parlando a Sberluccica con voce bassa e minacciosa:
->
-> *"Te lo chiedo un'altra volta. Dove sono i ritratti originali?"*
+> Attorno a lui tre uomini in giubbotti di cuoio e una donna con spada corta. Il più grosso, baffi e aria da sergente, gli parla con voce bassa e minacciosa: *"Te lo chiedo un'altra volta. Dove sono i ritratti originali?"*
 >
 > Sberluccica singhiozza: *"Non li ho! Ve l'ho detto! Li consegnavo al ragazzino! Non ho tenuto niente!"*
 
@@ -259,7 +250,6 @@ Le guardie di Gorim arrivano poco dopo. Mafalda viene rilasciata. Nega tutto l'a
 
 Gorim, informato, dice di non credere che la Contessina sia coinvolta, ma il tono lo tradisce.
 
----
 
 ## Chiusura - Tutti con la S
 
@@ -287,7 +277,6 @@ Ma solo se il momento è naturale. Se non lo è, lascia perdere.
 - **Il committente "si è piegato in due"** - Descrizione che non corrisponde a nessuno che i PG conoscono. Seme per la rivelazione futura.
 - **Simpatico Figuro** - Potrebbe avere altre informazioni (a pagamento).
 
----
 
 ## Side Quest - Sempronio Scrocchierello (opzionale)
 
@@ -321,7 +310,6 @@ Scrocchierello è nervoso se i PG menzionano le pozioni di vigore, ma non terror
 
 **Valore per i PG:** conferma che le pozioni erano amari (alcol e spezie, niente di magico), conferma la doppia S, conferma che il committente operava solo per lettera, rivela che c'erano più produttori. Nessuna pista nuova - ma un pezzo del puzzle in più.
 
----
 
 ## Nemici
 
@@ -339,7 +327,6 @@ Scrocchierello è nervoso se i PG menzionano le pozioni di vigore, ma non terror
 - Le guardie cadono in fretta
 - Se i PG sono solo 3, rimuovere una guardia
 
----
 
 ## Mappa
 
@@ -348,7 +335,6 @@ Scrocchierello è nervoso se i PG menzionano le pozioni di vigore, ma non terror
 | Bottega Sberluccica | Illustrazione | TODO |
 | Cantina Aviano | Battle map | TODO |
 
----
 
 ## NPC introdotti in questa puntata
 
@@ -359,7 +345,6 @@ Scrocchierello è nervoso se i PG menzionano le pozioni di vigore, ma non terror
 | Mafalda Silverbain | Braccio destro della Contessina | Spy, pericolosa, pragmatica |
 | Sempronio Scrocchierello (menzionato) | Ex speziale, ora legittimo | Non appare - pista per puntata 5 |
 
----
 
 ## Ricompense
 

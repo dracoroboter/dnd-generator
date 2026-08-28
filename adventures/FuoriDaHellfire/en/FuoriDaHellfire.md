@@ -55,7 +55,6 @@ Charmed thug stat block: see `MON_TeppistaCharmato.md`.
 - The ancient sewers → why are they so large? Who built them? The hidden passage in the lair leads deeper
 - The bard in the ring has his own plan — he's not an ally
 
----
 
 ## Appendix — Anello del Virtuoso Cheat Sheet
 

@@ -174,6 +174,7 @@ Fase 5 — "Qualità di vita" (migliora tutto)
 - [ ] **LoScettroDityr**: aggiungere descrizioni `.md` per 13 mappe PNG senza corrispondente
 - [ ] **LoScettroDityr**: generare immagini per 8 NPC senza artwork (BrotherThaddeus, HelmutVanHeuten, LudmillaDawnshield, OrlommGlittergear, OthranVorash, SirAlaric, SirAldric, ZalharaLorenn)
 - [ ] **LoScettroDityr**: normalizzare sezioni NPC non standard (`## Incantesimi`, `## Equipaggiamento speciale` → spostare in stat block o note al master)
+- [ ] **Tutte le avventure**: normalizzare la sezione `## Capacità notevoli` nelle schede NPC/MON. È un tag legacy che mischia meccaniche di gioco (Pack Tactics, Sneak Attack) con tratti narrativi. Da decidere: separare in `## Capacità` (meccaniche, → traits FightClub) e `## Capacità notevoli` (narrativa, non esportata). Richiede aggiornamento di `md-to-fightclub.py` e test di non regressione.
 
 ---
 

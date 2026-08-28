@@ -1,3 +1,8 @@
+---
+name: how-to-new-adventure
+description: Guida completa per creare una nuova avventura D&D 5e. 7 fasi da concept a release. Script scaffolding, wizard metadati, naming, ordine di scrittura, checklist.
+---
+
 # How-To: Creare una Nuova Avventura
 
 Guida completa per progettare, strutturare e scrivere un'avventura D&D 5e nel formato del progetto.

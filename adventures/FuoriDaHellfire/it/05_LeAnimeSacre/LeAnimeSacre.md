@@ -11,7 +11,6 @@ Quando i PG tornano alla Torre di Ashwick con Aldric Jr per eseguire il rituale 
 **Dichiarato:** eseguire il rituale di dissoluzione e liberare la portatrice dall'anello.
 **Reale:** il rituale non può essere completato (la Presa è troppo bassa). I PG scoprono la condizione e devono scegliere.
 
----
 
 ## Prologo: Prima della partenza
 
@@ -37,7 +36,6 @@ Se i PG lo persuadono a comparire (Persuasione CD 18 o perorazione convincente),
 
 > *"Il rituale non si compie se il portatore non è in pericolo. L'Ordine lo ha voluto così — per impedire che qualcuno distrugga un'anima per capriccio. Finché l'entità non ha abbastanza influenza da minacciare la vita dell'ospite, i guardiani impediranno la dissoluzione."*
 
----
 
 ## Il viaggio
 
@@ -53,7 +51,6 @@ Stesso percorso del modulo 4: Hawksbridge → sud al mare (1 giorno) → costa v
 
 **Jason:** Silenzioso. Aspetta.
 
----
 
 ## La Torre: La scoperta
 
@@ -77,7 +74,6 @@ Il luogo adatto è sulla **scogliera sopra la torre** — un cimitero dei membri
 
 **Perché Aldric deve leggere dal pavimento:** la copia dei PG è incompleta. Aldric memorizza le parole del rituale nella cella (dove sono incise per intero), poi le recita all'aperto sulla scogliera. La cella è il "libro", la scogliera è il "luogo di esecuzione".
 
----
 
 ## Il luogo del rituale
 
@@ -136,7 +132,6 @@ Aldric traccia il cerchio sulla roccia (30 minuti). Posiziona le ossa al centro.
 
 Quando Aldric inizia a leggere le parole → le iscrizioni del cerchio si illuminano e mostrano un avvertimento.
 
----
 
 ## L'avvertimento delle iscrizioni
 
@@ -169,7 +164,6 @@ Aldric: *"Non si compie. Non capisco... non si compie."*
 
 Se i PG insistono e Aldric continua a leggere → arrivano i guardiani.
 
----
 
 ## I Guardiani dell'Ordine
 
@@ -238,7 +232,6 @@ Poi svaniscono. Gli scheletri rimasti crollano a terra, inerti. Aldric si tocca 
 
 In entrambi i casi il rituale fallisce. La differenza: con la maledizione, i PG hanno urgenza (devono far salire la Presa a ≥7 per sbloccare Aldric). Senza, possono prendersi tempo.
 
----
 
 ## Chiusura: La scelta
 
@@ -268,7 +261,6 @@ Il dilemma centrale della saga:
 
 Non c'è fretta di decidere. I PG possono tornare a Hawksbridge e pensarci.
 
----
 
 ## Ricompense
 
@@ -280,7 +272,6 @@ Non c'è fretta di decidere. I PG possono tornare a Hawksbridge e pensarci.
 
 Nessun level-up. I PG restano lv5.
 
----
 
 ## Nemici
 
@@ -289,7 +280,6 @@ Nessun level-up. I PG restano lv5.
 | Scogliera | Scheletri | 15 | 1/4 | HARD (borderline MEDIUM — Udo CR3≈lv5 è generoso, in pratica è più duro) |
 | Scogliera | Spettri dell'Ordine | 3 | — | Non combattibili |
 
----
 
 ## Note al master
 

@@ -163,13 +163,25 @@ def parse_md(filepath, lang="it"):
             if m:
                 data.setdefault("traits", []).append({"name": m.group(1), "text": m.group(2)})
 
+    # Incantesimi (sezione separata ## Incantesimi)
+    spell_section = re.search(r"## Incantesimi\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
+    if spell_section:
+        spell_text = spell_section.group(1).strip()
+        spell_lines = []
+        for line in spell_text.split("\n"):
+            line = line.strip("- ").strip()
+            if line and not line.startswith("#"):
+                spell_lines.append(re.sub(r"\*\*(.+?)\*\*", r"\1", line))
+        if spell_lines:
+            data.setdefault("actions", []).append({"name": "Spellcasting", "text": "\n".join(spell_lines)})
+
     # Capacità notevoli
     data.setdefault("traits", [])
     na_label = re.escape(i18n["section_notable_abilities"])
     cap_section = re.search(rf"## {na_label}\s*\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
     if cap_section:
         cap_text = cap_section.group(1).strip()
-        # Incantesimi
+        # Incantesimi dentro Capacità notevoli (formato legacy)
         if "Incantesimi" in cap_text or "Trucchetti" in cap_text:
             spell_lines = []
             for line in cap_text.split("\n"):

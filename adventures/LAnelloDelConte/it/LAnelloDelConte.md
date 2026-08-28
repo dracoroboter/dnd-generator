@@ -13,7 +13,6 @@
 - Running Gag
 - Struttura dell'avventura
 
----
 
 ## Introduzione
 
@@ -23,74 +22,46 @@ Nessuno sa cosa sia l'Anello. Nessuno sa a cosa serva. Nessuno sa dove sia. E ne
 
 Benvenuti a Fianus Romanus.
 
----
 
 ## Plot generale
 
 I PG vengono ingaggiati da Sir Gorim Vel per recuperare l'Anello del Conte, caduto nelle fogne di Fianus Romanus. Scendono nelle fogne e trovano solo una lettera beffarda: qualcuno - firmato "S" - ha preso l'Anello prima di loro e promette di farsi vivo alla Festa del Grazie. Gorim paga metà del compenso e li lega a sé per il seguito.
 
----
 
-## La verità - chi è S (solo DM)
+## La verita - chi e S (solo DM)
 
-**Sergius S. Arimano**, Marchese di campagna di secondo piano. Nobile decaduto di Vetusta Portus.
+**Sergius Stanislao Arimano Improbus**, Marchese decaduto di Vetusta Portus.
 
-### Il commercio
+### Fatti essenziali
 
-Sergius ha costruito un fiorente commercio clandestino su due prodotti:
+| Fatto | Dettaglio |
+|-------|-----------|
+| Commercio 1 | Ritratti "deepfake" pittorici tramite rete di pittori anonimi (Sberluccica, Michelangeli). Esclusiva di S. |
+| Commercio 2 | Pozioni rinvigorenti (amari spacciati per afrodisiaci: "L'Immane Alabarda", "La Rocca Imponente"). Non esclusiva. |
+| Distribuzione | Compartimentata: messaggeri generici, nessun contatto diretto. Doppia S come unico marchio. |
+| Evento scatenante | ~18 mesi fa: la Contessina scopre deepfake del marito → Gabella Pudicitiae (tassa + controlli). |
+| Conseguenza | Commercio nudi distrutto. Pozioni in clandestinita. Sergius impoverito. |
+| Il quadro vero | Il Conte ha posato volontariamente con Viola (moglie di S). Conte non ha mai pagato Michelangeli. S ha recuperato il quadro. Non puo usarlo (c'e la moglie). |
+| Michelangeli | Pittore del quadro vero. Arrestato illegalmente dalla Contessina (per i deepfake, non sa del quadro vero). Nel dungeon del castello. |
+| Motivazione di S | Vendetta: Contessina (ha distrutto il commercio) + Conte (ha firmato la Gabella, non ha pagato il quadro). |
+| Strategia di S | Far passare i PG dalla sua parte contro la Contessina. Manipolazione progressiva. |
 
-1. **Ritratti di nudi** ("deep fake" pittorici) - S faceva da tramite. I committenti erano facoltosi (spesso nobili, ma non solo) che volevano ritratti idealizzati di sé stessi o di altri. Di solito il consenso del soggetto c'era. I pittori (come Sberluccica) ricevevano descrizioni dettagliate via lettera firmata con la doppia S e dipingevano senza mai incontrare né il committente né il soggetto. Prodotti **esclusivamente** tramite la rete di S - nessun altro offriva questo servizio.
+### Chi sa cosa
 
-   **Il caso del Conte:** Svariati facoltosi avevano commissionato ritratti del Conte nudo per soddisfare le proprie voglie - senza il consenso del Conte. Il Conte, quando l'ha scoperto, si è divertito. Tanto che ha deciso di posare di persona per un **vero** ritratto nudo, commissionato al pittore **Candido Michelangeli**. Nel quadro compare anche **Viola** (moglie di Arimano, rinomata per la bellezza), anche lei nuda. Conte e Viola sono stati dipinti dal vivo ma in due momenti separati — non stavano posando insieme. Viola è stata pagata come modella, il pagamento serviva a non sollevare sospetti. La verità è che il Conte voleva un quadro suo con Viola. Dopo la Gabella ha deciso che era troppo pericoloso (avrebbe litigato con la moglie) e non ha più voluto il quadro. Non ha mai pagato Michelangeli.
+| NPC | Sa | Non sa |
+|-----|-----|--------|
+| Contessina | Deepfake del marito esistono; ha arrestato Michelangeli | Quadro vero; identita di S; Conte ha posato volontariamente |
+| Gorim | Gabella; ricatto generico; ha visto brandello del ritratto | Traffici nel dettaglio; azioni autonome della Contessina |
+| Sergius | Tutto (e il burattinaio) | — |
+| Il Conte | Ha posato per il quadro; ha firmato la Gabella | Tutto il resto (e all'estero, ignaro) |
+| Michelangeli | Ha dipinto il quadro vero; lavorava per la rete di S | Chi e S; dove e finito il quadro |
+| Nobili implicati | Compravano ritratti; conoscono il marchio doppia S | Chi c'e dietro; quadro vero |
 
-   **Il pittore del quadro vero: Candido Michelangeli.** Faceva parte della rete di Arimano (come Sberluccica). Il Conte ha commissionato il quadro tramite la rete, come tutti. Arimano non ha mai visto il contenuto — i quadri venivano consegnati sigillati. Il quadro è rimasto a Michelangeli dopo che il Conte ha rifiutato di pagare e ritirare. Arimano è andato da Michelangeli travestito, gli ha detto che il committente si era rifiutato di pagare. Michelangeli gli ha ceduto il quadro per pochi spiccioli — con la Gabella quel mercato stava morendo e voleva liberarsene. Arimano ha visto il contenuto solo dopo: sua moglie. Ora Arimano ha il quadro. Vorrebbe usarlo ma non può (c'è la moglie).
+### Legalita e Gabella
 
-   La Contessina, indagando sui deepfake, è risalita a Michelangeli. Lo ha fatto arrestare illegalmente, per rabbia — arresto segreto, se si sapesse creerebbe scontento e sommosse. Michelangeli è nel dungeon del castello da molto tempo. La Contessina non sa del quadro vero — ha arrestato Michelangeli perché era un pittore di nudi.
-
-   **Cosa sa la Contessina:** Sa dei ritratti deepfake del marito (commissionati da altri). NON sa del quadro vero. Ha arrestato Michelangeli come pittore di deepfake, non per il quadro vero.
-
-2. **Pozioni rinvigorenti** (per il vigore maschile) - alcol, acqua e spezie (sostanzialmente degli amari). Nomi roboanti ("L'Immane Alabarda", "La Rocca Imponente"). Non funzionano come afrodisiaci ma la gente ci crede e paga. Nel magazzino (P3) i PG hanno trovato bottiglie di alcol puro (la base per le infusioni). Queste **non erano un'esclusiva di S** - anche altri le producevano e vendevano. Ma il marchio S era il più noto e organizzato.
-
-Il marchio della doppia S non è mai cambiato. Nessuno sa chi ci sia dietro - neanche la moglie di Sergius (che è ad Amatri, dalla madre, dopo una litigata storica). Il commercio è sempre stato discreto: i nomi dei pittori non sono pubblici, nessun contatto diretto.
-
-**Sistema di distribuzione (compartimentato):** Messaggeri generici (ragazzini, gente qualunque) portavano commissioni, ritiravano merce, consegnavano denaro. I messaggeri non sapevano niente del contenuto o del committente. La servitù dei nobili committenti sapeva qualcosa dei dipinti.
-
-**Nobili implicati:** Diversi notabili di Fianus e Vetusta Portus compravano ritratti. Tra questi il **Notabile San Giovanni** (Aviano) - quello che Sergius indicava dal palco alla Festa del Grazie (P2). Sergius li conosce tutti perché era il venditore diretto.
-
-### La Gabella Pudicitiae
-
-Circa **un anno e mezzo fa**, la Contessina Sarah Serbelloni Vien dal Porto scopre che alcuni dei ritratti ritraggono **suo marito** (il Conte). Arrabbiata per la brutta immagine che questo darebbe di lei e del marito, e non potendo semplicemente vietare la cosa, fa approvare la **Gabella Pudicitiae**: una forte tassa su questo tipo di commerci. In più, ordina continui controlli giudiziari e fiscali a chiunque commerci palesemente in questi prodotti.
-
-**Legalità in pratica:** Le pozioni sono più o meno tollerate dalle guardie (sono amari, in fondo). I quadri invece sono stati sostanzialmente vietati, se non direttamente con velate minacce.
-
-Il Conte, interpellato dalla Contessina dopo la scoperta dei deepfake, ha mentito dichiarando che quei dipinti non ritraggono lui. La Contessina non sa del quadro vero.
-
-### Dopo la Gabella
-
-Sergius ha smesso di produrre i nudi. Continua solo con le pozioni, ma con molta più attenzione - nasconde le merci nelle fogne, nei magazzini del porto, in altri posti segreti. La Gabella lo ha reso significativamente più povero. Vuole vendicarsi di entrambi:
-
-- **La Contessina** - ha ideato la tassa, ha distrutto il suo commercio (odio pratico)
-- **Il Conte** - per quiete familiare ha firmato la Gabella, e in più non ha mai pagato il vero ritratto (odio personale, tradimento di un cliente)
-
-**Verso i PG:** Sergius vuole che passino dalla sua parte e decidano che la Contessina è il nemico. Tutta la manipolazione (aiutarli travestito, mostrare la brutalità della Contessina, offrire lavoro) serve a questo.
-
-Il vero ritratto del Conte è in mano a Sergius (Michelangeli glielo ha ceduto per pochi spiccioli quando il committente non ha pagato). Vorrebbe usarlo per ricattare il Conte o esporlo pubblicamente — ma non può, perché nel quadro c'è anche sua moglie. È un'arma che non può usare.
-
-### La Contessina oggi
-
-La Contessina sta cercando di insabbiare tutto e mettere a tacere chi sa dei ritratti. Tiene Candido Michelangeli prigioniero nel dungeon del castello (arresto illegale, segreto, per rabbia — se si sapesse creerebbe sommosse). Il suo movente è opposto a quello di S: lei vuole che nessuno ne parli più, lui vuole far emergere lo scandalo per vendetta. Questo la rende un sospetto plausibile ma falso - non è S, agisce per coprire, non per ricattare.
-
----
-
-## Concept
-
-Un'avventura D&D 5e (2014) a episodi, ispirata alla serie comica **Boris**. Tono umoristico senza esagerare: situazioni assurde trattate con serietà dai personaggi. Burocrazia, incompetenza, ego smisurati. Struttura a "puntate" come una stagione TV.
-
-L'avventura è il **prologo** della campagna seria **Il Re Spezzato**. Il Conte è un nobile locale, non Re Dorian Valemarch. Nell'ultima puntata, proprio quando i PG stanno per incontrarlo e ottenere onore e gloria, il Conte muore per la Maledizione del Burmini - un Power Word Kill a distanza lanciato da terroristi stranieri. Niente risposte, niente ricompensa, niente nome. La morte del Conte e il caos che ne segue sono il gancio che trascina i PG nella storia più grande di Drakenhold e del Re Spezzato.
-
-**Livello PG:** 1 (con progressione durante le puntate)
-
----
+- Pozioni: tollerate (sono amari). Quadri: vietati di fatto.
+- Il Conte ha mentito alla Contessina ("quei dipinti non sono io").
+- La Contessina agisce per coprire, non per ricattare (falso antagonista).
 
 ## Lore
 
@@ -100,7 +71,6 @@ L'avventura è il **prologo** della campagna seria **Il Re Spezzato**. Il Conte 
 
 **Mappe disponibili:** `maps/RealmOfAmrog` (regione), `maps/FianusRomanus` (borgo), `01_LeFogneDiFianus/maps/LeFogneDiFianus` (dungeon quest 1).
 
----
 
 ## I PG
 
@@ -121,7 +91,6 @@ I PG sono avventurieri squattrinati che vivono a Fianus Romanus. La povertà è 
 
 La povertà è comica, non punitiva. I PG non muoiono di fame - ma non comprano mai niente di bello.
 
----
 
 ## NPC principali
 
@@ -330,7 +299,6 @@ Servono almeno altri 2 notabili implicati nei ritratti (Vetusta Portus e Fianus)
 
 Descrizioni più lunghe (battle map, dettagli esplorazione) nei moduli corrispondenti.
 
----
 
 ## Cheat Sheet - Indizi sulla vera natura di S (solo DM)
 
@@ -363,7 +331,6 @@ Elenco di tutti gli indizi seminati nell'avventura che collegano il Marchese Ari
 - **Anello dell'Ombra**: invisibilita 1/giorno. Spiega come sparisce.
 - **La moglie** (se interrogata): potrebbe aver notato il tic verbale.
 
----
 
 ## Running Gag
 
@@ -421,9 +388,7 @@ Tutti ne parlano, nessuno sa cosa fa, nessuno sa dov'è:
 | "Daje!"                                              | Esclamazione ricorrente del borgo (da definire)      |
 | "Smarmella tutto"                                    | Equivalente fantasy (da definire)                    |
 
----
 
----
 
 ## Luoghi
 

@@ -11,6 +11,11 @@
     "en": "A Dungeons & Dragons 5e adventure"
   },
   "frontmatter": {
+    "it": {
+      "Durata": "saga (5+ sessioni, livelli 3-6)",
+      "Struttura": "lineare",
+      "Tono": "pulp adventure, camp anni '80"
+    },
     "en": {
       "Durata": "saga (5+ sessions, levels 3-6)",
       "Struttura": "linear",

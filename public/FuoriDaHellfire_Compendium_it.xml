@@ -1,6 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="NO">
     <monster>
+        <name>Bandito</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>qualsiasi non legale</alignment>
+        <ac>12 (cuoio)</ac>
+        <hp>11 (2d8+2)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>12</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <languages>Common</languages>
+        <cr>1/8</cr>
+        <action>
+            <name>Scimitarra (mischia)</name>
+            <text>Attacco: +3, portata 1.5m / 5ft / 1qd Danni: 1d6+1 taglienti</text>
+            <attack>Scimitarra (mischia)|+3|1d6+1</attack>
+        </action>
+        <action>
+            <name>Balestra leggera (distanza)</name>
+            <text>Attacco: +3, gittata 24m/80ft / 96m/320ft Danni: 1d8+1 perforanti</text>
+            <attack>Balestra leggera (distanza)|+3|1d8+1</attack>
+        </action>
+        <description>Teppisti locali, male in arnese. Armati di scimitarra e balestra leggera. Non sono professionisti — sono disperati che hanno visto un'opportunità.
+Role: bandito del mercato (modulo 6)</description>
+    </monster>
+    <monster>
+        <name>CapoBandito</name>
+        <size>M</size>
+        <type>humanoid (umano)</type>
+        <alignment>qualsiasi non legale</alignment>
+        <ac>15 (cuoio borchiato)</ac>
+        <hp>65 (10d8+20)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>14</cha>
+        <languages>Common, una a scelta</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Multiattacco</name>
+            <text>3 attacchi per round (2 scimitarra + 1 pugnale, oppure 2 pugnale a distanza).</text>
+        </trait>
+        <action>
+            <name>Scimitarra (mischia)</name>
+            <text>Attacco: +5, portata 1.5m / 5ft / 1qd Danni: 1d6+3 taglienti</text>
+            <attack>Scimitarra (mischia)|+5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Pugnale (mischia o distanza)</name>
+            <text>Attacco: +5, portata 1.5m / 5ft / 1qd (o gittata 6m/20ft / 18m/60ft) Danni: 1d4+3 perforanti</text>
+            <attack>Pugnale (mischia o distanza)|+5|1d4+3</attack>
+        </action>
+        <description>Grosso, cicatrice sulla fronte, voce rauca. Porta una torcia nella mano sinistra e una scimitarra nella destra. Si muove con sicurezza — questo non è il suo primo colpo. Tiene il mercante a terra col piede.
+Role: capo banditi del mercato (modulo 6)</description>
+    </monster>
+    <monster>
+        <name>CavalloDaTiro</name>
+        <size>M</size>
+        <type>humanoid (bestia, large)</type>
+        <alignment>non allineato</alignment>
+        <ac>10</ac>
+        <hp>19 (3d10+3)</hp>
+        <speed>40 ft.</speed>
+        <str>18</str>
+        <dex>10</dex>
+        <con>12</con>
+        <int>2</int>
+        <wis>11</wis>
+        <cha>7</cha>
+        <cr>1/4</cr>
+        <action>
+            <name>Zoccoli (mischia)</name>
+            <text>Attacco: +6, portata 1.5m / 5ft / 1qd Danni: 2d4+4 contundenti</text>
+            <attack>Zoccoli (mischia)|+6|2d4+4</attack>
+        </action>
+        <description>Cavalli da tiro robusti, abituati al lavoro ma non al combattimento. Se spaventati (fuoco, urla, combattimento) si imbizzarriscono e scappano trascinando il carro o travolgendo chi sta davanti.
+Role: pericolo ambientale (non nemico)</description>
+    </monster>
+    <monster>
         <name>ChefMorticcio</name>
         <size>M</size>
         <type>undead</type>

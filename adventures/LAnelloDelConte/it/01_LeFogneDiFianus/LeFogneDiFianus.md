@@ -11,25 +11,18 @@ I PG vengono reclutati da Sir Gorim Vel alla Taberna di Fianus Romanus per recup
 **Dichiarato:** Trovare l'Anello del Conte nelle fogne e riportarlo a Gorim.
 **Reale:** L'Anello non c'è. I PG trovano una lettera di "S" che rimanda alla Festa del Grazie.
 
----
 
 ## Intro - La Taberna
 
 ### Da leggere ai giocatori
 
-> Il regno di Drakenhold attraversa la sua stagione più radiosa. Nel sud, il borgo di **Fianus Romanus** - un paesino baciato dal sole e circondato da terre fertili - sonnecchia tra tradizioni rurali e commerci modesti. La vita scorre serena, o almeno così sembra.
-> 
-> Voi siete arrivati qui per motivi vostri - una consegna, un debito, un esilio più o meno volontario - e vi siete ritrovati seduti alla **Taberna de Franciosibus aut Hispanardis**, l'unica taverna di Fianus Romanus.
-> 
-> L'insegna raffigura un cinghiale sdraiato su un fianco con un'espressione di beata soddisfazione. L'interno è all'altezza della promessa: tavoli appiccicosi, un camino che fa più fumo che calore, prosciutti appesi al soffitto a distanza pericolosa dalle teste dei clienti, e un odore permanente di vino versato e formaggio stagionato. La taverniera - una donna massiccia che risponde solo a "**Domina Lella**" - serve porzioni enormi e opinioni non richieste. Il vino della casa è rosso, forte, e nessuno sa da quale vigna venga. Meglio non chiedere.
-> 
-> Stamattina però Domina Lella non serve niente. Domina Lella vuole i soldi. Vi deve ancora **la pigione di luglio**, e ve lo sta ricordando con un volume e una frequenza che hanno fatto ammutolire l'intera taverna. Un dito grosso come una salsiccia vi punta dal bancone: *"O pagate, o dormite in strada. E non credete di scappare, che vi trovo."*
-> 
-> È in questo momento - mentre cercate disperatamente le parole giuste per calmarla - che un uomo tarchiato, con un mantello verde e una pergamena in mano, entra nella taverna. Si guarda intorno. I suoi occhi si posano su di voi - gli unici in tutto il locale che hanno l'aria di possedere un'arma, o quantomeno di sapere da che parte si impugna.
-> 
-> Si avvicina, vi squadra meglio, e il suo volto si illumina:
-> 
-> *"Ma... ma voi siete...!"*
+> Siete alla **Taberna de Franciosibus aut Hispanardis**, l'unica taverna di Fianus Romanus. Stamattina **Domina Lella** non serve niente — vuole **la pigione di luglio**. Un dito grosso come una salsiccia vi punta dal bancone: *"O pagate, o dormite in strada. E non credete di scappare, che vi trovo."*
+>
+> È in questo momento che un uomo tarchiato, con un mantello verde e una pergamena in mano, entra nella taverna. I suoi occhi si posano su di voi — gli unici che hanno l'aria di possedere un'arma.
+>
+> Si avvicina, vi squadra, e il suo volto si illumina: *"Ma... ma voi siete...!"*
+
+*Nota DM — Ambientazione taverna:* Il regno di Drakenhold attraversa la sua stagione più radiosa. Fianus Romanus è un borgo nel sud, baciato dal sole e circondato da terre fertili. I PG sono arrivati per motivi propri (consegna, debito, esilio). La taverna ha un'insegna con un cinghiale sdraiato in beata soddisfazione, tavoli appiccicosi, un camino che fa più fumo che calore, prosciutti appesi al soffitto, e un odore permanente di vino versato e formaggio stagionato. Domina Lella è una donna massiccia che serve porzioni enormi e opinioni non richieste. Il vino della casa è rosso, forte, e nessuno sa da quale vigna venga.
 
 ### Note per il DM - Lo scambio di identità
 
@@ -106,7 +99,6 @@ Si apre una scena di contrattazione. Gorim si offende, i PG insistono, Gorim tir
 
 Gorim promette poco e paga ancora meno.
 
----
 
 ## La ricerca dell'ingresso
 
@@ -145,7 +137,6 @@ Dopo aver pagato/convinto, Sora Lella risponde alle domande una alla volta:
 **c) Casualmente, se la conversazione continua:**
 > *"Quello si lamenta sempre che ogni tanto gli spostano il carretto."*
 
----
 
 **Terzilio il verduraio**
 
@@ -159,7 +150,6 @@ Un ometto nervoso che vende rape e cipolle. Vive a Settebagni e ha un parcheggio
 
 > *(se gli chiedono di accompagnarli)* *"Io là sotto non ci vado. Si sentono rumori."*
 
----
 
 **Le guardie della residenza del Conte**
 
@@ -179,7 +169,6 @@ I PG probabilmente vorranno andare direttamente sotto il castello, visto che la 
 
 > L'altra guardia aggiunge: *"Una volta ho visto un ratto grosso così uscire da una botola vicino al tempio. Grosso così."* (esagera con le mani)
 
----
 
 ### Se i PG non trovano l'ingresso
 
@@ -191,7 +180,6 @@ Dopo che i PG hanno girato abbastanza (o se il DM sente che si stanno impantanan
 
 > Gorim tira fuori una mappa sgualcita del borgo e indica Settebagni: *"Ma devo fa' tutto io? È LÀ. Giù a Settebagni, dopo il ponte. C'è una botola. Trovatela. Dai dai dai."*
 
----
 
 ### La botola
 
@@ -202,14 +190,13 @@ Sotto il carretto di Terzilio c'è una botola di ferro (2qd / 3m / 10ft) con lo 
 ### Da leggere ai giocatori
 
 > Una scala di ferro scende nel buio. L'odore è esattamente quello che ci si aspetta.
-> 
-> La scala porta a un tubo fognario abbastanza largo da essere percorso a piedi, ma molto basso - dovete camminare piegati, i più alti quasi carponi. L'aria è densa, umida, e puzza esattamente di quello che ci si aspetta da un tubo che raccoglie gli scarichi di un borgo intero. Un rivolo di liquido scorre ai vostri piedi. Non è acqua. Non esattamente.
-> 
-> Si sentono sgocciolii continui, echi lontani, e il rumore di zampette che si muovono nell'ombra. Ogni tanto qualcosa sfiora una caviglia.
-> 
-> Il tubo sbuca in una stanza circolare. Qui il soffitto si alza e si può finalmente stare in piedi.
+>
+> Il tubo fognario è largo abbastanza da camminare, ma molto basso — dovete procedere piegati. Un rivolo di liquido scorre ai vostri piedi. Non è acqua. Sgocciolii continui, echi lontani, zampette nell'ombra.
+>
+> Il tubo sbuca in una stanza circolare dove si può finalmente stare in piedi.
 
----
+*Nota DM — Dettagli sensoriali fogne:* L'aria è densa e umida. Ogni tanto qualcosa sfiora una caviglia. I più alti devono camminare quasi carponi.
+
 
 ## Panoramica
 
@@ -229,7 +216,6 @@ Le fogne di Fianus sono sorprendentemente elaborate per un borgo di queste dimen
 
 **Durata stimata:** 1-2 sessioni (1-3 ore ciascuna).
 
----
 
 ## Le Stanze
 
@@ -253,7 +239,6 @@ I PG devono decidere in fretta: passare con la forza o trovare un altro modo.
 
 **Loot:** Tra i detriti, un anello di rame ossidato. Non è l'Anello del Conte. Gorim (se presente) lo esamina e dice "No. Prossima stanza."
 
----
 
 ### Stanza 2 - Il Saggio delle Fogne
 
@@ -270,7 +255,6 @@ Un uomo di mezza età che vive nelle fogne per scelta. Ex contabile del borgo, s
 
 **Utilità:** Se trattato bene, disegna una "mappa" delle fogne su un tovagliolo. È sbagliata, ma indica correttamente che nella stanza 5 c'è "qualcosa di importante".
 
----
 
 ### Stanza 3 - La Grande Caverna (Il Troll Esattore)
 
@@ -297,7 +281,6 @@ Grunzio vive qui da anni e considera le fogne casa sua. Vuole solo che qualcuno 
 - **Deception CD 10:** Dirgli che l'affitto si paga nella stanza 5 e che deve andare là. Grunzio esce dalla stanza.
 - **Performance CD 13 (Pipinius?):** Cantargli una canzone lo commuove e lo rende amichevole. Offre ai PG un "tesoro": un secchio pieno di tappi di bottiglia.
 
----
 
 ### Stanza 4 - La Trappola Burocratica
 
@@ -334,7 +317,6 @@ Se i PG esaminano i moduli nel cesto, leggere a caso dalla tabella. Utile anche 
 | 9 | Sergius S. | Affari | (campo lasciato vuoto) |
 | 10 | Il Conte stesso | Ispezione | (macchia d'inchiostro identica alla pergamena) |
 
----
 
 ### Stanza 5 - La Stanza del "Tesoro"
 
@@ -358,7 +340,6 @@ Aperto, nessuna trappola. Il sigillo non è quello del Conte - è un sigillo sco
 
 La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Sergius Arimano.
 
----
 
 ## Ricompense
 
@@ -368,14 +349,12 @@ La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Se
 - **Oggetti:** Anello di rame ossidato (valore: 1 mr), anello di cipolla essiccato (valore: commestibile), lettera sigillata
 - **Informazioni:** Il nome del Conte è stato scritto in centinaia di modi diversi (stanza 4). L'Anello non è nelle fogne - qualcuno l'ha preso prima di loro. La Festa del Grazie è la prossima pista.
 
----
 
 ## Milestone
 
 **Livello raggiunto:** 2
 **Trigger:** I PG trovano la lettera di Sergius nella Stanza 5 e la consegnano a Sir Gorim Vel.
 
----
 
 ## Note al master
 
@@ -384,7 +363,6 @@ La lettera è il gancio per la Puntata 2 e il primo indizio dell'esistenza di Se
 - Ermolao può diventare un NPC ricorrente che i PG ritrovano in posti improbabili nelle puntate successive.
 - I ratti sindacalizzati possono tornare come running gag: li si ritrova a protestare in piazza durante la Festa del Grazie.
 
----
 
 ## Chiusura della puntata - Il ritorno alla Taberna
 
@@ -394,17 +372,13 @@ I PG risalgono dalle fogne e mostrano la lettera a Gorim. Lui la legge, diventa 
 
 ### Da leggere ai giocatori
 
-> Gorim fissa la lettera in silenzio per un tempo imbarazzante. Poi la piega con cura, se la infila nella cintura, e vi guarda.
-> 
-> *"Bene. Non avete trovato l'anello. Avete trovato un problema. Che è peggio."*
-> 
-> Tira fuori una borsa di monete, la soppesa, sospira profondamente, e conta **10 monete d'argento** - una alla volta, con la faccia di chi sta donando un rene.
-> 
-> *"Ecco. Dieci d'argento. Una moneta d'oro, se preferite contarla così. Il resto ve lo guadagnate continuando a lavorare per me. Questo 'S' - chiunque sia - va trovato. E l'anello va recuperato. Alla Festa del Grazie, dice la lettera? Bene. Ci saremo."*
-> 
-> Pausa.
-> 
-> *"E stavolta cercate di non tornare a mani vuote."*
+> Gorim fissa la lettera in silenzio, la piega con cura, se la infila nella cintura, e vi guarda. *"Bene. Non avete trovato l'anello. Avete trovato un problema. Che è peggio."*
+>
+> Tira fuori una borsa di monete e conta **10 monete d'argento** — una alla volta, con la faccia di chi sta donando un rene.
+>
+> *"Questo 'S' — chiunque sia — va trovato. E l'anello va recuperato. Alla Festa del Grazie, dice la lettera? Bene. Ci saremo. E stavolta cercate di non tornare a mani vuote."*
+
+*Nota DM — Dettagli scena pagamento:* Gorim diventa rosso leggendo la lettera, la rilegge, la gira come se potesse esserci qualcosa sul retro. Le 10 monete d'argento equivalgono a 1 mo. "Il resto ve lo guadagnate continuando a lavorare per me."
 
 ### Note per il DM
 

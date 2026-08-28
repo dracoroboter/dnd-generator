@@ -2,7 +2,6 @@
 
 Party: 3 PG lv4 + Udo (CR 3) + Fin (lv3).
 
----
 
 ## Passaggi della storia
 
@@ -15,51 +14,28 @@ Party: 3 PG lv4 + Udo (CR 3) + Fin (lv3).
 7. **Cella di Jason** — Scheletro nel sarcofago. Jason urla, tenta TS Sag CD 14 per prendere il controllo. Poi silenzio
 8. **Ritorno** — 2-3 giorni, Jason muto. Consegnare ossa a Vellun. Milestone lv5
 
----
 
 ## Stat block
 
+→ Schede complete in `it/characters/statblock/` (PDF stampabili).
+
 ### Wight (Custode) × 2
 
-| | |
-|---|---|
-| **PF** | 45 |
-| **CA** | 14 (cotta di maglia) |
-| **Velocità** | 9m / 30ft |
-| **FOR** 15 (+2) | **DES** 14 (+2) | **COS** 16 (+3) |
-| **INT** 10 (+0) | **SAG** 13 (+1) | **CAR** 15 (+2) |
-| **Resistenze** | Necrotici; non-magici (tranne argento) |
-| **Immunità** | Veleno; condizione avvelenato |
-| **Percezione passiva** | 13 |
+Scheda: MM p.300 (non homebrew — stat standard). Particolarità: indossano cotte dell'Ordine, compaiono quando si tenta di aprire una porta del sotterraneo. Life Drain è il pericolo principale (riduce PF max).
 
-**Attacchi (Multiattack: 2 attacchi):**
-- Spada lunga: +4, 1d8+2 taglienti
-- Life Drain: +4, 1d6+2 necrotici. TS Cos CD 13 o PF max ridotti dell'ammontare. Muore se PF max = 0.
+**Tattiche:** Multiattack (spada + Life Drain). Puntano il PG più debole (meno PF). Non inseguono oltre il sotterraneo.
 
-**Sunlight Sensitivity:** svantaggio attacco e Percezione alla luce del sole (non rilevante nel sotterraneo).
 
----
+### NPC companion
 
-### NPC companion (già preparati)
-
-| NPC | PF | CA | Attacco principale |
-|-----|----|----|-------------------|
-| Udo Hutchinson | 58 | 14 | +5, 1d8+3 (spada lunga) |
-| Fin Ditasvelte | 21 | 14 | +5, 1d6+3 (stocco) + Sneak Attack 2d6 |
+| NPC | Scheda | Ruolo in combattimento |
+|-----|--------|----------------------|
+| Udo Hutchinson | `NPC_UdoHutchinson` | Tank, Multiattack ×2 |
+| Fin Ditasvelte | `NPC_FinDitasvelte` | Sneak Attack, posizionamento |
 
 ### Jason Accordion (entità nell'anello)
 
-| | |
-|---|---|
-| **PF** | 45 (10d8) |
-| **CA** | 12 |
-| **FOR** 8 (-1) | **DES** 14 (+2) | **COS** 12 (+1) |
-| **INT** 16 (+3) | **SAG** 14 (+2) | **CAR** 20 (+5) |
-| **TS** | DES +5, CAR +8 |
-| **Competenze** | Inganno +11, Persuasione +11, Performance +8 |
-| **Sfida** | 5 (1800 PE) |
-
-**Incantesimi (bardo lv10):** CD 16, attacco +8. Lancia solo attraverso il portatore quando ha il controllo.
+Scheda: `NPC_JasonAccordion`. CD 16, attacco +8. Lancia solo attraverso il portatore quando ha il controllo.
 
 **Incantesimi disponibili per la Presa** (Jason offre questi al portatore, Presa +1 per ogni uso):
 
@@ -74,11 +50,10 @@ Party: 3 PG lv4 + Udo (CR 3) + Fin (lv3).
 | 4 | *Greater Invisibility* | "Combatti invisibile, io ti copro" |
 | 5 | *Hold Monster* | "Anche quello grosso, lo fermo" |
 
-**Conflitto mentale (modulo 4, cella):** TS Sag CD 14. Fallimento: Jason prende il controllo, tenta di fuggire dalla stanza.
+**Conflitto mentale (cella 4):** TS Sag CD 14. Fallimento: Jason prende il controllo, tenta di fuggire dalla stanza.
 
 **Debolezza:** dolore fisico lo forza fuori dal controllo.
 
----
 
 ## Tiri chiave
 
@@ -94,7 +69,6 @@ Party: 3 PG lv4 + Udo (CR 3) + Fin (lv3).
 | Cella Jason | TS Saggezza (portatore) | 14 | Resistere a possessione disperata |
 | Cella Jason | Arcano | 12 | Leggere simboli sigillatura |
 
----
 
 ## Mappe
 
@@ -141,7 +115,6 @@ Party: 3 PG lv4 + Udo (CR 3) + Fin (lv3).
     ☠☠ = 2 Wight (Custodi)
 ```
 
----
 
 ## Loot
 
@@ -151,7 +124,6 @@ Party: 3 PG lv4 + Udo (CR 3) + Fin (lv3).
 | Chiave di ferro nero | Cassetto 2° piano |
 | Scheletro di Jason | Cella 4 |
 
----
 
 ## Milestone
 

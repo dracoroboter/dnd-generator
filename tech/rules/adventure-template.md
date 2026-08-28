@@ -1,3 +1,8 @@
+---
+name: adventure-template
+description: Struttura tecnica delle avventure. Directory, naming convention (PascalCase/kebab-case), file obbligatori, formato moduli, sezioni obbligatorie, regole multilingua, manifest.json.
+---
+
 # AdventureTemplate — Struttura Standard delle Avventure
 
 Struttura tecnica delle avventure: directory, naming, file obbligatori, formato delle sezioni, tipi di file.

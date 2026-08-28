@@ -9,10 +9,11 @@
 - NPC principali
 - Luoghi
 - Struttura dell'avventura
+- I Sette Sigilli dell'Ordine
+- Rituali
 - Appendice: Cheat Sheet Anello del Virtuoso
 - Appendice: Simulazione progressione Presa
 
----
 
 ## Lore
 
@@ -167,10 +168,10 @@ Alchimista umano anziano in un villaggio a mezza giornata da Hawksbridge. Distra
 Umano, quarantina, occhiali tondi, aspetto da studioso innocuo. In realtà mago lv8 del culto dei Figli del Perdono.
 
 - **Dove:** si presenta alla taverna di Hawksbridge (mod 6), viaggia con i PG verso Ashwick.
-- **Ruolo:** companion apparente, antagonista ideologico. Propone la Via B (rituale di incarnazione).
+- **Ruolo:** companion apparente, antagonista ideologico. Propone l'incarnazione (rituale per liberare Jason in un corpo nuovo).
 - **Cosa sa:** tutto sui Sette Sigilli, il rituale di incarnazione, la posizione degli oggetti.
 - **Come si comporta:** affabile, colto, curioso. Mente con naturalezza (Inganno +5). Tic: si toglie gli occhiali quando è nervoso.
-- **Come reagisce:** non combatte mai i PG. Fugge se smascherato (Dimension Door). Rapisce Aldric se i PG scelgono la Via A.
+- **Come reagisce:** non combatte mai i PG. Fugge se smascherato (Dimension Door). Rapisce Aldric se i PG scelgono la dissoluzione.
 
 → Scheda: NPC_ErasmusVael
 
@@ -202,7 +203,8 @@ Umano, 80+, cieco da un occhio. Ultimo membro vivente dell'Ordine della Chiave S
 | **Pint Ahoy** | Taverna di Barney Mezzapinta a Greyhawkins. Base operativa dei PG | 3 |
 | **Fogne sotto Oakshore** | Tunnel in mattoni → sezione antica in pietra. Più grandi e antiche di quanto dovrebbero | 1-2 |
 | **Tana di Korex** | Fondo delle fogne antiche. Rifugio improvvisato con bottino rubato | 2 |
-| **Hawksbridge** | Città mercantile a 1 giornata dal mare (nell'entroterra, nord di Greyhawkins). Ponte di pietra, quartieri ordinati. | 3-5 |
+| **Hawksbridge** | Città mercantile a 1 giornata dal mare (nell'entroterra, nord di Greyhawkins). Ponte di pietra, quartieri ordinati. | 3-6 |
+| **Castello di Hawksbridge** | Fortezza del signore locale, collina sopra la città. Segrete con prigionieri. | 7 |
 | **Cripta sotto Hawksbridge** | Antico rifugio dell'Ordine della Chiave Spezzata. Scheletri, Chef Morticcio, registro dei sigilli | 3 |
 | **Torre di Vellun** | Torre bassa a due piani, periferia di Hawksbridge. Casa/laboratorio di Aldric | 3-5 |
 | **Torre di Ashwick** | Costa nord-ovest, 3 giorni da Hawksbridge (1 giorno al mare + 2 giorni lungo la costa). In rovine. Sede dell'Ordine. Scheletro di Jason. | 4-5 |
@@ -216,8 +218,10 @@ Umano, 80+, cieco da un occhio. Ultimo membro vivente dell'Ordine della Chiave S
 | 3 | La Cripta sotto la Taverna | dungeon / esplorazione + roleplay |
 | 4 | La Torre di Ashwick | dungeon / esplorazione + finale |
 | 5 | Le Anime Sacre | roleplay / combattimento + scelta |
+| 6 | Il Mercato di Hawksbridge | urbano / roleplay + combattimento |
+| 7 | Il Guardiano di Ashwick | viaggio / scelta morale |
+| 8 | Il Rituale | finale / dissoluzione o incarnazione |
 
----
 
 ## I Sette Sigilli dell'Ordine
 
@@ -239,7 +243,97 @@ L'Ordine della Chiave Spezzata ha imprigionato sette anime in oggetti. Le ossa d
 
 **Fonte:** libro "I Sette Sigilli dell'Ordine" (biblioteca di Ashwick, parzialmente sopravvissuto all'incendio). Accessibile tramite il Guardiano di Ashwick (modulo 7+).
 
+### Background delle sei anime (escluso Jason)
+
+#### Solara Dawnfire — Cella 1, medaglione d'oro
+
+Sacerdotessa di Lathander, un tempo venerata per la sua devozione. Credeva che la vera luce divina non potesse coesistere con la corruzione mortale: iniziò a "purificare" i non degni bruciandoli vivi, convinta di liberarne l'anima. Mandò al rogo tre villaggi prima che l'Ordine la fermasse. Non si considerava un'assassina — si considerava un'apostola. Nell'anima conserva quella certezza intatta: ha ragione, e chiunque non lo capisca è uno dei non degni.
+
+*Pericolosità: alta. Carismatica, con seguito potenziale tra i devoti. In un corpo nuovo cercherebbe una congregazione.*
+
+#### Padre Mordecai — Cella 2, crocifisso di ferro nero
+
+Chierico caduto che aveva perso la fede nella morte come conclusione naturale. Resuscitava i morti come non-morti senzienti, convinto di salvarli dall'oblio. I suoi "salvati" erano prigionieri coscienti nei propri corpi in decomposizione — incapaci di riposare, incapaci di rifiutare. Credeva nel bene di quello che faceva fino alla fine. Non capisce ancora cosa ha sbagliato.
+
+*Pericolosità: media. Non violento di natura, ma le sue azioni causano orrore sistematico. In un corpo nuovo probabilmente riprenderebbe da dove ha lasciato.*
+
+#### Vorthan il Tessitore — Cella 3, clessidra di cristallo
+
+Mago ossessionato dallo studio del tempo. Scoprì come isolare persone in loop temporali — momenti che si ripetono all'infinito, pochi secondi o poche ore, senza che il soggetto ricordi. Li usava come soggetti di studio: osservava come reagivano all'iterazione, come la mente cedeva, come il corpo invecchiava mentre la coscienza restava bloccata. Aveva decine di soggetti attivi quando l'Ordine lo trovò. Freddo, metodico, genuinamente incuriosito dalle persone come fenomeni da misurare.
+
+*Pericolosità: alta. Intelligenza straordinaria, magia potente e non distruttiva in apparenza — difficile da individuare. In un corpo nuovo riprenderebbe gli esperimenti in silenzio.*
+
+#### Serraia — Cella 5, grimaldello d'osso
+
+Ladra leggendaria, la migliore della sua generazione. Scoprì come aprire non solo serrature fisiche ma soglie planari — passaggi tra il mondo materiale e i piani adiacenti. Non lo faceva per potere o conquista: lo faceva per curiosità, per vedere cosa c'era dall'altra parte, per il piacere puro di aprire ciò che era chiuso. Il problema è che alcune porte, una volta aperte, non si richiudono. Creature, energie e influenze di altri piani filtrarono nel mondo. Alcuni di quei "buchi" esistono ancora.
+
+*Pericolosità: bassa-media. Non violenta, non ambiziosa nel senso classico. Ma la sua curiosità è incontrollabile e le conseguenze delle sue azioni sono imprevedibili e spesso permanenti. È la meno pericolosa delle sei — per questo la setta dei Figli del Perdono ha scelto lei come prima incarnazione: un test controllabile.*
+
+**Nota DM:** Serraia è l'anima per cui Erasmus ha preparato un ospite consenziente. L'ospite è un membro del culto, convinto per fede. Erasmus considera Serraia abbastanza contenibile da poter essere il primo esperimento dell'incarnazione. Le altre cinque anime, liberate senza ospite pronto, vagheranno incorporee cercando qualcuno disposto ad accoglierle.
+
+#### Korgath il Martello — Cella 6, guanto di ferro
+
+Guerriero di fama, stimato dalla sua compagnia. In battaglia entrava in uno stato di furia che non riconosceva alleati o nemici — solo ostacoli. Per anni riuscì a controllarlo, a tenerlo per i momenti giusti. Poi smise di poterlo fermare. Massacrò la sua stessa compagnia di mercenari in un campo dopo una vittoria, senza ricordare nulla. Si consegnò all'Ordine di sua spontanea volontà — aveva paura di se stesso. Non è malvagio: è pericoloso, e lo sa.
+
+*Pericolosità: media. Fisicamente devastante ma privo di strategia o ambizione. In un corpo nuovo la furia tornerebbe — ma Korgath potrebbe anche cercare di resistere. È l'unico dei sette che si consegnò volontariamente.*
+
+#### Occhio-che-Vede — Cella 7, occhio di vetro
+
+Warlock che strinse un patto con un'entità extraplanare in cambio della visione totale: passato, presente, probabilità future. Iniziò a "correggere" i destini — piccole modifiche, scelte sottratte alle persone per il loro bene, come vedeva lui. Col tempo le modifiche diventarono più invasive. Manipolava matrimoni, elezioni, battaglie, morti. Non per tornaconto personale — per come vedeva l'ordine giusto delle cose. Quante persone ha distrutto convinto di migliorare il mondo, non lo sa nemmeno lui. L'entità con cui ha stretto il patto probabilmente esiste ancora.
+
+*Pericolosità: altissima. Invisibile nell'azione, razionale nell'intenzione, con accesso a poteri extraplanari. Il più pericoloso dei sette dopo Jason. In un corpo nuovo il patto potrebbe riattivarsi.*
+
+
+## Rituali
+
+### Rituale di dissoluzione
+
+Distrugge definitivamente l'anima imprigionata nell'oggetto. Irreversibile.
+
+**Dove:** cimitero sulla scogliera della Torre di Ashwick — il cerchio è inciso nel pavimento della Torre stessa, ma il rituale va eseguito all'aperto, nel cimitero.
+
+**Chi lo esegue:** Aldric Jr (discendente del Magister, conosce il rituale dalle iscrizioni del pavimento della Torre).
+
+**Componenti:**
+- Le ossa del prigioniero (fisicamente presenti nel cerchio)
+- L'oggetto contenente l'anima (al dito / in possesso del portatore, dentro il cerchio)
+- Fuoco e sale
+- Il testo del rituale (iscrizioni sul pavimento della Torre, memorizzate da Aldric)
+
+**Condizioni:**
+- Presa ≥7 — il legame deve essere abbastanza profondo da poter essere spezzato. Sotto il 7 il cerchio non si attiva.
+- Almeno 7 giorni dall'ultimo tentativo fallito — il cerchio ha bisogno di tempo per ricaricarsi.
+
+**Effetto:** l'anima viene distrutta. L'oggetto diventa inerte. Il portatore è libero.
+
+**Rischio:** a Presa 10 il rituale infligge 10d6 danni psichici al portatore (nessun TS) — il legame è talmente profondo che spezzarlo fa male.
+
+**Spettri dell'Ordine:** se le condizioni non sono soddisfatte (Presa < 7 o meno di 7 giorni), tre Spettri dei membri dell'Ordine intervengono per bloccare il rituale. Non sono combattibili. Svaniscono quando il rituale viene interrotto o quando il caster abbandona il cerchio.
+
 ---
+
+### Rituale di incarnazione
+
+Libera l'anima dall'oggetto incarnandola in un corpo mortale consenziente. L'anima vive, ma senza poteri.
+
+**Dove:** qualsiasi luogo non sigillato dall'Ordine della Chiave Spezzata. Erasmus sceglie una radura sulla scogliera fuori dal cimitero.
+
+**Chi lo esegue:** Erasmus Vael (mago lv8, Figli del Perdono). Il testo del rituale è antico — non è Comune Antico, è qualcosa di più vecchio.
+
+**Componenti:**
+- Le ossa del prigioniero
+- L'oggetto contenente l'anima (al dito del portatore, dentro il cerchio)
+- Il cristallo di attrazione (catalizzatore — senza di lui l'anima non ha dove convergere)
+- Un corpo ospite consenziente presente nel cerchio
+
+**Effetto:** l'anima entra nel corpo ospite. L'ospite originale scompare (o si fonde — non è chiaro). L'oggetto rimane al portatore, ora potenziato e privo di maledizione.
+
+**Effetto collaterale (nascosto da Erasmus):** il rituale libera simultaneamente tutte le anime sigillate nello stesso sistema di oggetti. Nel caso dei Sette Sigilli: tutte e 7. Jason si incarna nell'ospite presente. Le altre 6 vengono liberate come entità incorporee — in cerca di corpi consenzienti.
+
+**Nessuna condizione di Presa** — funziona a qualsiasi livello.
+
+→ Vedi puntata 8 per lo svolgimento di entrambi i rituali.
+
 
 ## Appendice: Cheat Sheet Anello del Virtuoso
 
@@ -271,23 +365,55 @@ Riferimento rapido per il DM. Dettagli completi in NPC_JasonAccordion e Discussi
 | 0 | Indossato | Freddo alla mano, incubi, vulnerabilità danni psichici. L'anello non si toglie. |
 | 1-4 | Sussurri | Jason parla, suggerisce, ricatta. Incubi ogni notte: TS Sag CD 15, fallimento = 1 livello exhaustion (prima notte automatica, niente TS). Nessun effetto meccanico aggiuntivo. |
 | 5-8 | Influenza | Jason può tentare di prendere il controllo all'inizio di un combattimento o prima di una decisione importante (TS Sag CD 10+Presa). Visioni involontarie. |
+| 9 | Dominio | Jason tenta di prendere il controllo 1/giorno (TS Sag CD 10+Presa per resistere). Se fallisce il TS: Jason controlla il personaggio. Il portatore può ripetere il TS durante un riposo breve. Il controllo termina automaticamente durante un riposo lungo. Dolore fisico per forzarlo fuori. Il portatore perde ricordi dei momenti di possessione. |
+| 10 | Punto di non ritorno | Jason non esce più. Il rituale a questo livello infligge 10d6 danni psichici al portatore (nessun TS). |
 
 **Fuga di Jason (Presa 5+):**
 
 Quando Jason prende il controllo, ha al massimo **1 ora** prima che il portatore riprenda il sopravvento (automatico). Il portatore non ricorda nulla di quello che Jason ha fatto durante la possessione.
 
-Cosa fa Jason con quell'ora:
-- **Presa 5-6:** scappa il più lontano possibile dal gruppo. Corre, non combatte. Vuole allontanarsi dalle ossa e da Aldric.
-- **Presa 7+:** potrebbe cercare di avvertire qualcuno (chi? Da definire) o nascondere le ossa se le ha addosso.
+**Obiettivo di Jason:** sopravvivere. Non vuole essere distrutto. Il rituale di dissoluzione lo cancellerà per sempre — e per funzionare servono tre cose insieme: le sue ossa, l'anello (al dito del portatore), e un caster che conosca il rituale. La strategia di Jason è **separare queste tre componenti**.
+
+**Cosa fa Jason con quell'ora:**
+
+| Presa | Priorità | Azione concreta |
+|-------|----------|-----------------|
+| 5-6 | Allontanarsi | Scappa il più lontano possibile dal gruppo. Corre, non combatte. Direzione: opposta al campo/città dove sono Aldric e le ossa. Se è notte, esce dalla locanda/accampamento e si dilegua nel buio. |
+| 7-8 | Sabotare il rituale | Se le ossa sono nello zaino del portatore: le nasconde (le seppellisce in un punto nel bosco, le getta in un fiume, le nasconde in un edificio abbandonato). Se non ha accesso alle ossa: cerca Erasmus Vael. |
+| 9 | Eliminare la minaccia | Cerca di distruggere le ossa (fuoco senza il rituale = le ossa bruciano ma Jason NON viene distrutto — serve il rituale completo con sale + parole + pavimento della Torre). Oppure attacca Aldric Jr se è raggiungibile (Aldric non sa combattere — PF 9, Sfida 0). |
+
+**Perché cerca Erasmus (Presa 7+):** Jason percepisce le intenzioni delle persone vicine al portatore (through i sensi dell'anello). Sa che Erasmus vuole liberarlo — non distruggerlo. Erasmus è il suo alleato naturale. Jason nel corpo del portatore si presenta a Erasmus e gli dice: *"Sono Jason. Ho poco tempo. Aiutami."* Erasmus lo riconosce dalla postura, dalla voce diversa, dallo sguardo. Questo crea un canale segreto tra Jason e Erasmus che i PG non conoscono.
+
+**Come Jason trova Erasmus:** Erasmus segue il gruppo a distanza (vedi NPC_ErasmusVael — si unisce dalla puntata 6). Se è già nel party, Jason si avvicina a lui durante la fuga. Se non è ancora apparso, Jason lascia un messaggio (simbolo di una chiave spezzata rovesciata inciso su una pietra/parete) in un luogo visibile — un segnale che i Figli del Perdono riconoscono.
+
+**Limiti di Jason nel corpo del portatore:**
+- Non ha accesso ai propri incantesimi da bardo (è un'anima, non un caster nel corpo)
+- Usa solo le capacità fisiche del portatore (FOR, DES, CON del portatore)
+- Non può attivare il potere dell'anello (quello funziona solo per il portatore consenziente)
+- Può parlare, correre, manipolare oggetti — nient'altro
+- Non combatte a meno che non sia messo all'angolo (e in quel caso combatte male — è un bardo, non un guerriero)
 
 **Come i PG lo ritrovano:**
-- Se Jason scappa di notte: il portatore si risveglia 1 ora dopo, da qualche parte (strada, bosco, fuori città). Non sa dov'è. Deve tornare o farsi trovare.
-- Se i PG erano svegli e hanno visto la fuga: inseguimento (Atletica vs Atletica del portatore). Jason nel corpo del portatore non è più veloce del normale.
-- Se non lo inseguono: il portatore torna da solo dopo 1 ora, confuso, senza ricordi.
 
-**Il portatore dopo la possessione:** non ricorda nulla. Può avere indizi fisici (fango sulle scarpe, graffi, oggetti spostati). I compagni possono raccontargli cosa è successo.
-| 9 | Dominio | Jason tenta di prendere il controllo 1/giorno (TS Sag CD 10+Presa per resistere). Se fallisce il TS: Jason controlla il personaggio. Il portatore può ripetere il TS durante un riposo breve. Il controllo termina automaticamente durante un riposo lungo. Dolore fisico per forzarlo fuori. Il portatore perde ricordi dei momenti di possessione. |
-| 10 | Punto di non ritorno | Jason non esce più. Il rituale a questo livello infligge 10d6 danni psichici al portatore (nessun TS). |
+| Situazione | Cosa succede |
+|------------|--------------|
+| Jason scappa di notte | Il portatore si risveglia 1 ora dopo, da qualche parte (strada, bosco, fuori città). Non sa dov'è. Deve tornare o farsi trovare. Indizi fisici: fango, graffi, terra sotto le unghie. |
+| I PG erano svegli | Inseguimento: **Atletica vs Atletica del portatore** (Jason non è più veloce del normale). Se lo raggiungono entro 1 minuto, possono tentare di "svegliare" il portatore: pronunciare il nome completo di Jason ad alta voce (il portatore riprende il controllo immediatamente, Presa -1 la prima volta). |
+| Nessuno lo insegue | Il portatore torna da solo dopo 1 ora, confuso, senza ricordi. |
+| Le ossa erano addosso al portatore | **TS Percezione CD 15** al risveglio per notare che mancano. Se fallisce, se ne accorge solo quando cerca le ossa. Jason le ha nascoste entro 1 ora di cammino — servirà cercarle (Sopravvivenza/Indagare CD 14 per seguire le tracce del portatore a ritroso). |
+
+**Contromisure dei PG (preventive):**
+
+| Contromisura | Efficacia |
+|--------------|-----------|
+| Turni di guardia dedicati al portatore | Funziona: vedono la fuga e possono inseguire |
+| Legare il portatore di notte | Jason nel corpo si libera (Atletica del portatore vs CD della corda). Funziona solo se le corde sono molto buone (CD 20+) o magiche |
+| *Alarm* (incantesimo) | Avverte i PG se il portatore si allontana |
+| Tenere le ossa in un Bag of Holding posseduto da un altro PG | Jason nel corpo del portatore non può accedervi |
+| Non tenere le ossa addosso al portatore | Soluzione migliore — ma se Jason sa dove sono (ha i sensi del portatore), può andarci di notte |
+| Dormire con il portatore nello stesso sacco a pelo / stringendo la mano | Narrativamente efficace: il PG si sveglia quando il portatore si muove (nessun tiro) |
+
+**Il portatore dopo la possessione:** non ricorda nulla. Può avere indizi fisici (fango sulle scarpe, graffi, oggetti spostati, terra sotto le unghie, fiato corto come dopo una corsa). I compagni possono raccontargli cosa è successo. Il portatore può fare un **TS Intelligenza CD 15**: successo = un flash (immagine di 2-3 secondi di quello che Jason ha visto — un albero specifico, una pietra, il volto di Erasmus). Questo dà un indizio su cosa ha fatto Jason.
 
 **Segnali narrativi della Presa** (indizi per i giocatori, senza rivelare il numero):
 
@@ -306,7 +432,6 @@ Cosa fa Jason con quell'ora:
 | Cedere a una richiesta di Jason (lasciarlo uscire, fare qualcosa per lui) | +1 |
 | Usare il potere minore dell'anello (cantrip da bardo per classe, vedi OBJ_AnelloDelVirtuoso) | +1 (solo su risultato 1 al d8) |
 | Lasciare che Jason usi un suo incantesimo da bardo attraverso il portatore (Jason sceglie quale, lv1-5) | +1 |
-| Credere a un'influenza di Jason / agire sulla base di una sua menzogna | +1 |
 
 **Effetti collaterali della cessione:**
 
@@ -319,16 +444,7 @@ Cosa fa Jason con quell'ora:
 - Gli effetti si cumulano (es. liberazione + aiuto = 10 giorni senza incubi).
 - Jason usa questo come leva: "Lasciami uscire e dormirai stanotte."
 
-**Esempi di menzogne di Jason** (il DM sceglie quando inserirle):
-
-| Menzogna | Contesto | Perché il portatore ci casca |
-|----------|----------|------------------------------|
-| *"Quel tipo mente. Lo sento dalla voce."* | NPC alleato che dà informazioni vere | Jason vuole isolare il portatore dal gruppo |
-| *"L'anello ti protegge. Senza di me saresti già morto nella cripta."* | Dopo un combattimento vinto | Crea dipendenza psicologica |
-| *"Io ero come te. Mi hanno tradito. Non fidarti del mago."* | Quando i PG vanno da Vellun | Sabota il rituale di rimozione |
-| *"Se mi togli, muori anche tu. Siamo legati."* | Quando il portatore parla di rimuovere l'anello | Falso — ma il portatore non può verificarlo |
-| *"Ti ho salvato stanotte. Non te ne sei accorto, ma qualcosa è entrato nella stanza."* | Al mattino dopo un riposo | Crea gratitudine per qualcosa che non è successo |
-| *"Sento un pericolo avanti. Lasciami guardare."* | Prima di una stanza/porta | Pretesto per prendere il controllo |
+**Tattica di Jason:** Jason mente costantemente per ingraziarsi il portatore. Alterna poliziotto buono (gentile, comprensivo, offre aiuto, si prende il merito di cose non sue) e poliziotto cattivo (minaccia, ricatta con l'insonnia, esagera i pericoli). L'obiettivo è sempre lo stesso: creare dipendenza e impedire la rimozione.
 
 **Come scende la Presa:**
 
@@ -363,7 +479,7 @@ Cosa fa Jason con quell'ora:
 
 **Stato attuale:** La Presa parte da 1 per imposizione narrativa (Jason esce per 1 minuto senza che il portatore possa impedirlo, per introdurre la meccanica della possessione al tavolo).
 
-**Ricatto di Jason:** Jason usa la Presa come leva. A Presa 1-4 ricatta con l'insonnia ("fammi uscire o non dormi"). A Presa 5+ offre aiuto in combattimento ("lasciami combattere per te, sei in pericolo"). Ogni cedimento è +1. Il giocatore deve scegliere: soffrire o cedere.
+**Ricatto di Jason:** Jason usa la Presa come leva. Ricatta con l'insonnia ("fammi uscire o non dormi") e offre aiuto in combattimento sin dall'inizio ("lasciami combattere per te, sei in pericolo"). Ogni cedimento è +1. Il giocatore deve scegliere: soffrire o cedere.
 
 ### Rimozione
 
@@ -377,7 +493,6 @@ Cosa fa Jason con quell'ora:
 
 **"Libero"** = nuovo ospite senza difese, non uscita dall'anello. Korex sapeva resistergli.
 
----
 
 ## Appendice: Simulazione progressione Presa
 

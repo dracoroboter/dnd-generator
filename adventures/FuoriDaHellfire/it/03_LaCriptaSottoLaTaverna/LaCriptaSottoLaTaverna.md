@@ -11,7 +11,6 @@ La mattina dopo la cattura di Korex. Il PG portatore dell'anello non ha dormito:
 **Dichiarato:** aiutare un mago a recuperare un registro da una cripta antica sotto Hawksbridge.
 **Reale:** i PG scoprono l'esistenza dell'Ordine della Chiave Spezzata, il primo indizio concreto su come liberarsi dell'anello.
 
----
 
 ## Cheat Sheet: L'Ordine della Chiave Spezzata
 
@@ -41,7 +40,6 @@ L'Ordine lo ha imprigionato secoli fa. Per liberarsene definitivamente servono:
 2. Il rituale di dissoluzione, custodito da un membro dell'Ordine
 3. Sale + fuoco + le parole giuste
 
----
 
 ## Prologo: Greyhawkins, la mattina dopo
 
@@ -65,7 +63,6 @@ Il PG portatore ha **1 livello di Exhaustion** (svantaggio a tutte le prove di a
 
 Jason è in fase seduzione: gentile, dispiaciuto, non minaccioso. Mente. Il "Libero!" esultante del cliffhanger era la reazione istintiva. In poche ore Jason ha capito che spaventare il portatore è controproducente: se il PG resiste attivamente, la possessione rallenta. Strategia nuova: gentilezza, empatia, farsi percepire come vittima.
 
----
 
 ### Il Pint Ahoy: combattimento facile
 
@@ -93,15 +90,10 @@ Dopo il combattimento, è probabile che il PG portatore cerchi un modo per risol
 
 **Scalabilità:** Fin non compare in questo modulo se il party ha 4 o più PG. In quel caso i PG arrivano a Vellun da soli o con Udo.
 
----
 
 ### L'anello non si toglie
 
-Se il PG prova a togliersi l'anello, non funziona:
-
-- Tirarlo: niente. È come saldato.
-- Olio/sapone: scivola sulla pelle ma l'anello non si muove.
-- Forza bruta: dolore, niente risultato.
+Se il PG prova a togliersi l'anello, nessun metodo fisico funziona.
 
 ### Jason offre il patto (Opzione A)
 
@@ -122,7 +114,6 @@ Se il PG rifiuta: resta con Exhaustion fino a trovare un'altra soluzione (Vellun
 
 → Meccanica completa (scala Presa 0-10, durata, come riprendere il controllo) nel documento principale, § "Appendice: Cheat Sheet Anello del Virtuoso".
 
----
 
 ## Il mago: viaggio a Hawksbridge
 
@@ -182,7 +173,6 @@ Vellun non offre nulla finché non sa qual è il problema. I PG devono spiegargl
 
 **Il patto:** Vellun rimuove l'Exhaustion con un rituale (non un incantesimo standard, è una procedura da accademico). Il portatore potrà dormire tranquillamente per **1d6+1 giorni**. In cambio i PG scendono nella cripta e recuperano il registro dei sigilli.
 
----
 
 ## La Cripta
 
@@ -204,7 +194,6 @@ Il simbolo della Chiave Spezzata. Se il PG portatore lo guarda, Jason tace per l
 
 **Il muro:** PF 10, CA 15. È antico e mal fatto, si sfonda facilmente.
 
----
 
 ### Stanza 2: Il corridoio delle nicchie
 
@@ -220,7 +209,6 @@ Il simbolo della Chiave Spezzata. Se il PG portatore lo guarda, Jason tace per l
 
 Sulla parete opposta alla trappola, un'iscrizione in Comune Antico (Arcano CD 10 o Storia CD 12 per leggere): *"Qui riposano i custodi del Terzo Archivio. Che la chiave resti spezzata."*
 
----
 
 ### Stanza 3: La sala comune
 
@@ -249,7 +237,6 @@ Gli scheletri si animano subito. Il Ghast (al centro, più grande, con brandelli
 
 **Loot**: sotto il tavolo, una chiave di ferro arrugginita (apre la stanza 6).
 
----
 
 ### Stanza 4: La cucina di Chef Morticcio
 
@@ -283,7 +270,6 @@ Gli scheletri si animano subito. Il Ghast (al centro, più grande, con brandelli
 
 **Se i PG lo lasciano in pace**: resta nella cripta. Potenziale NPC ricorrente comico.
 
----
 
 ### Stanza 5: La biblioteca
 
@@ -323,7 +309,6 @@ Se il PG ignora Jason e legge il registro:
 > 
 > Jason non parla più. Per il resto della sessione, silenzio.
 
----
 
 ### Stanza 6: La cella sigillata
 
@@ -357,7 +342,6 @@ A differenza di uno Specter generico, Aldric Sr. non attacca immediatamente. È 
 
 Se il PG portatore si avvicina, Jason torna a parlare: *"Non aprirlo. Fidati."* È sincero: non vuole che i PG trovino chi sa dove sono le sue ossa.
 
----
 
 ## Chiusura: Ritorno da Vellun
 
@@ -381,7 +365,6 @@ Vellun è sincero. Ha bisogno di tempo per ricostruire il rituale (settimane). N
 
 Vellun può ripetere il rituale del sonno se i PG tornano (1d6+1 giorni di protezione ogni volta, costi e tempi crescenti — vedi tabella nel documento principale). Vellun se ne accorge solo alla seconda volta. Non è una soluzione permanente. Funziona solo a Presa 1-4; a Presa 5+ non ha effetto.
 
----
 
 ## Ricompense
 
@@ -394,7 +377,6 @@ Vellun può ripetere il rituale del sonno se i PG tornano (1d6+1 giorni di prote
 
 Nessun level-up. I PG restano lv4.
 
----
 
 ## Nemici
 
@@ -405,7 +387,6 @@ Nessun level-up. I PG restano lv4.
 | 4       | Chef Morticcio (Ghoul) | 1   | 1   | TRIVIAL (evitabile)                |
 | 6       | Specter                | 1   | 1   | TRIVIAL                            |
 
----
 
 ## Note al master
 

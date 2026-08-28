@@ -20,6 +20,7 @@ Greyhawkins (sud, costa)
     │ 1 giorno, strada collinare
     │
 Hawksbridge (centro, entroterra, fiume)
+    ├───── mezza giornata, strada est ─────── Villaggio di Prosperus
     │
     │ 1 giorno, strada verso sud al mare
     │

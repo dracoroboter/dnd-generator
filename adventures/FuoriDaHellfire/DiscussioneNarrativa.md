@@ -2,7 +2,6 @@
 
 Todo list e note per le scelte narrative.
 
----
 
 ## L'Anello del Virtuoso — SCELTA DEFINITIVA
 
@@ -59,7 +58,6 @@ Questo lancia la prossima avventura con un combattimento immediato e un mistero:
 - Il bardo ha un piano proprio — non è un alleato, ha obiettivi che si rivelano progressivamente
 - Le fogne antiche: chi le ha costruite? Cosa c'è più in profondità?
 
----
 
 ## Decisioni prese
 
@@ -82,7 +80,6 @@ Questo lancia la prossima avventura con un combattimento immediato e un mistero:
 - [ ] A che livello di presa la possessione diventa permanente e irreversibile?
 - [ ] Livello esatto del caster per il rituale salt-and-burn, e se è un NPC chi è?
 
----
 
 ## Cheat Sheet — L'Anello del Virtuoso (riferimento rapido DM)
 

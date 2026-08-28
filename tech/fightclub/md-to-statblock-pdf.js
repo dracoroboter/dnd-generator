@@ -120,7 +120,8 @@ function buildHTML(monster, imagePath, wide = false) {
         if (items.length === 0) return;
         if (heading) blocks += `<h3>${heading}</h3>\n`;
         for (const item of items) {
-            blocks += `<property-block><h4>${item.name}.&nbsp;</h4><p>${item.text}</p></property-block>\n`;
+            const htmlText = item.text.replace(/\n/g, '<br>');
+            blocks += `<property-block><h4>${item.name}.&nbsp;</h4><p>${htmlText}</p></property-block>\n`;
         }
     };
 

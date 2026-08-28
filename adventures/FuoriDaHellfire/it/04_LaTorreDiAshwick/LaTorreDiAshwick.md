@@ -11,7 +11,6 @@ Aldric Sr. ha rivelato dove sono sepolte le ossa di Jason Accordion: la Torre di
 **Dichiarato:** recuperare lo scheletro di Jason dalla Torre di Ashwick.
 **Reale:** i PG scoprono che la Torre non è vuota, e che distruggere Jason non sarà semplice come pensavano.
 
----
 
 ## Cheat Sheet: La Torre di Ashwick
 
@@ -31,7 +30,6 @@ In rovine da secoli. L'Ordine si è estinto gradualmente. L'ultimo custode della
 
 I resti dei custodi dell'Ordine non riposano in pace. Alcuni si sono rialzati come non-morti (non per malvagità, ma per il dovere che li lega ancora al luogo). Proteggono i sigilli anche nella morte.
 
----
 
 ## Prologo: La rivelazione di Aldric Sr.
 
@@ -63,7 +61,6 @@ Aldric Sr. è pragmatico. Dà le informazioni perché il sigillo sta cedendo (Ja
 
 Dopo la rivelazione, Aldric Sr. si dissolve (torna nel cofanetto). Non li accompagna. **Non risponde più** se interpellato di nuovo — ha già detto tutto. Risponde solo con Persuasione CD 18 o perorazione molto convincente.
 
----
 
 ## Il viaggio
 
@@ -83,7 +80,6 @@ Due-tre giorni di cammino verso nord-ovest, lungo la costa. Hawksbridge → sud 
 
 Se Jason prende il controllo: tenta di far girare il PG e tornare indietro. Gli altri PG se ne accorgono (comportamento strano). Dolore fisico per riprendere il controllo (come da regola nel modulo 3).
 
----
 
 ## La Torre
 
@@ -185,7 +181,6 @@ Se Jason prende il controllo: tenta di far girare il PG e tornare indietro. Gli 
     Wight: invisibili, compaiono se si tenta di aprire una porta
 ```
 
----
 
 ## Atto 1 — Esplorazione della Torre
 
@@ -198,7 +193,6 @@ Dalle puntate precedenti:
 
 Quello che NON sanno: come entrare nel sotterraneo, quanti guardiani ci sono, come superarli.
 
----
 
 ### Piano terra: La sala in rovine
 
@@ -219,7 +213,6 @@ La porta di ferro non si forza (PF 50, CA 19). Serve la chiave dal 2° piano.
 - **Percezione CD 12:** rumori dal basso, oltre la porta ferro. Passi lenti, metallici.
 - **Investigazione CD 10 (mosaico):** attorno alla chiave spezzata, un'iscrizione in Comune Antico quasi cancellata. Arcano o Storia CD 10 per leggere: *"Il Custode veglia dall'alto. I sigilli dormono nel profondo."*
 
----
 
 ### Piano terra: La stanza laterale (armeria)
 
@@ -237,7 +230,6 @@ Questi indizi confermano: la chiave è al 2° piano. La nota sul "musicista" è 
 
 **Loot:** niente di valore nell'armeria (armi arrugginite, inutilizzabili).
 
----
 
 ### Secondo piano: Lo studio del Magister
 
@@ -259,7 +251,6 @@ Questi indizi confermano: la chiave è al 2° piano. La nota sul "musicista" è 
 - La chiave di ferro nero (impugnatura a forma di chiave spezzata). Apre la porta del sotterraneo.
 - Un foglio di pergamena: *"Se leggi questo, il sigillo ha ceduto. Cella 4, il bardo. I guardiani non ragionano più come i vivi — mostra loro l'autorità dell'Ordine o preparati a combattere. Che gli dèi ti assistano. — A.V."*
 
----
 
 ## Atto 2 — Il sotterraneo
 
@@ -289,7 +280,6 @@ Le sette porte corrispondono ai sette sigilli del registro. Sei sono chiuse e si
 
 **I Custodi non sono visibili.** Compaiono quando qualcuno tenta di aprire o forzare una qualsiasi porta del sotterraneo.
 
----
 
 ### Combattimento: I Custodi
 
@@ -313,7 +303,6 @@ Se convinti: *"Il Magister ha mandato voi. Bene. Aprite. Ma se il sigillo si spe
 
 **Difficoltà:** HARD (3 PG lv4 + Udo + Fin)
 
----
 
 ### La cella di Jason
 
@@ -335,15 +324,16 @@ Dopo il TS (riuscito o meno e risolto): Jason tace. Completamente. Per giorni. �
 
 **I simboli sul pavimento:** È il rituale di dissoluzione originale. Per capirlo serve essere mago (stregoni/warlock probabilmente no — non hanno studiato) + ore di studio. Un PG può tentare di copiarlo:
 
-| Tiro (Performance o Calligrafia) | Risultato |
-|----------------------------------|-----------|
-| < 10 | Nessuna informazione utile. Scarabocchi illeggibili. |
-| 10-16 | Aldric Jr riconosce che è un rituale ma non riesce a metterlo in pratica dalla copia (troppo incompleta). |
-| 17+ | Aldric Jr riconosce il rituale di dissoluzione, capisce la struttura, ma la copia non è abbastanza precisa per essere messa in pratica. Deve leggere l'originale sul pavimento. |
+**Tiro chiave:** Performance.
+
+| Tiro | Risultato |
+|------|-----------|
+| < 10 | Scarabocchi illeggibili. |
+| 10-16 | Aldric Jr riconosce un rituale ma la copia è troppo incompleta. |
+| 17+ | Aldric Jr capisce la struttura ma deve leggere l'originale sul pavimento. |
 
 In tutti i casi in cui Aldric riconosce il rituale, conferma che serve tornare alla torre con lui per leggerlo direttamente. Se i PG non copiano nulla, Aldric ha comunque bisogno di settimane/mesi per ricostruire il rituale dai frammenti del nonno — e alla fine dovrà comunque venire alla torre per verificare.
 
----
 
 ## Chiusura: Il ritorno
 
@@ -368,7 +358,6 @@ Se i PG decidono di aspettare → Aldric Jr ha bisogno di settimane/mesi per ric
 
 **Level up: 4 → 5.** I PG hanno trovato lo scheletro di Jason — la quest principale della saga è quasi completa.
 
----
 
 ## Nemici
 
@@ -376,7 +365,6 @@ Se i PG decidono di aspettare → Aldric Jr ha bisogno di settimane/mesi per ric
 |-------|--------|----|----|-----|
 | Sotterranei | Wight (Custodi) | 2 | 3 | HARD (evitabile con negoziazione) |
 
----
 
 ## Ricompense
 
@@ -384,7 +372,6 @@ Se i PG decidono di aspettare → Aldric Jr ha bisogno di settimane/mesi per ric
 - **Informazioni:** i simboli del rituale di dissoluzione (per Vellun)
 - **Milestone:** lv4 → lv5
 
----
 
 ## Note al master
 

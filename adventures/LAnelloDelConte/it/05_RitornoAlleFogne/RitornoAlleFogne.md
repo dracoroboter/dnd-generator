@@ -8,13 +8,11 @@ Arimano affida ai PG un compito: trovare il suo amico pittore Candido Michelange
 
 La puntata ha due fasi: l'indagine in città (Atti 1-3) e il dungeon crawl (Atto 4).
 
----
 
 ## Obiettivo
 
 Scoprire dove si trova Candido Michelangeli e liberarlo dal dungeon sotto il castello di Aviano.
 
----
 
 ## Cheat Sheet - Informazioni e Indizi
 
@@ -62,7 +60,6 @@ Perché solo ora: Arimano è squattrinato, non può entrare nel castello da solo
 - Arimano "troppo soddisfatto" quando i PG riferiscono
 - Gorim menziona il Burmini (seme per il finale)
 
----
 
 ## Atto 1 - L'incarico di Arimano
 
@@ -82,13 +79,11 @@ Casa signorile in collina a Vetusta Portus. Decadente: carta da parati scrostata
 
 > *"Grazie di essere venuti. Vi ho osservati — siete gente capace."*
 >
-> Pausa. Si versa il vino.
+> Si versa il vino. *"Ho un amico. Candido Michelangeli. Pittore. Bravo, discreto, gentile. È sparito da mesi — nessuno lo vede. È come se non fosse mai esistito."*
 >
-> *"Ho un amico. Candido Michelangeli. Pittore. Bravo, discreto, gentile. È sparito da tempo — mesi. All'inizio pensavo fosse in viaggio, ma nessuno lo vede da troppo."*
->
-> Si alza, guarda dalla finestra.
->
-> *"Ho chiesto in giro. Niente. È come se non fosse mai esistito. Ma parliamo di cose concrete: voglio sapere dove si trova. Se è vivo, lo voglio libero."*
+> *"Voglio sapere dove si trova. Se è vivo, lo voglio libero."*
+
+Arimano si alza e guarda dalla finestra mentre parla. Pausa drammatica prima di arrivare al punto — vuole capire se i PG sono affidabili.
 
 ### Cosa dice se i PG fanno domande
 
@@ -127,19 +122,14 @@ Arimano paga subito l'anticipo. Monete nuove, da un sacchetto di pelle. (I PG at
 
 ### Congedo
 
-> *"Cominciate da dove volete. Io sarò qui — non vado da nessuna parte."*
+> *"Cominciate da dove volete. Io sarò qui."*
 >
-> Sorriso. Li accompagna alla porta.
->
-> *"Ah — una cosa. Siate discreti. Michelangeli non è sparito per caso. Qualcuno lo ha fatto sparire."*
->
-> Si ferma sulla soglia.
+> Li accompagna alla porta. *"Ah — una cosa. Siate discreti. Michelangeli non è sparito per caso. Qualcuno lo ha fatto sparire."*
 >
 > *"Se fossi in voi partirei dai suoi clienti. Gente che comprava i suoi lavori. A Fianus tutti sanno chi ha un ritratto in casa — chiedete in giro ad Aviano."*
 
-Intuizione CD 12: non è un avvertimento — è una direzione. Vuole che cerchino chi lo ha preso.
+Si ferma sulla soglia con un sorriso. Intuizione CD 12: non è un avvertimento — è una direzione. Vuole che cerchino chi lo ha preso.
 
----
 
 ## Atto 2 - L'indagine
 
@@ -285,7 +275,6 @@ Via laterale della via principale di Monteverde (via Selinunte S. Carini, quella
 
 **Indizio — Investigation CD 12:** nel bancone, in un cassetto, trovano uno schizzo preparatorio di un dipinto con dei putti seminudi. **Intelligenza CD 14:** riconoscono che uno dei putti è uno dei notabili con cui hanno già parlato (Salomone Spaccafegato o un altro a discrezione del DM).
 
----
 
 ## Atto 3 - Il rapporto ad Arimano
 
@@ -293,9 +282,7 @@ I PG tornano da Arimano con la risposta.
 
 > Il Marchese ascolta in silenzio. Quando finite, si alza di scatto. Gli occhi brillano.
 >
-> *"Il dungeon. Certo. Certo!"*
->
-> Si strofina le mani. Sorride largo, quasi famelico. Poi si corregge.
+> *"Il dungeon. Certo. Certo!"* Si strofina le mani. Sorride largo, quasi famelico. Poi si corregge.
 >
 > *"Bisogna liberarlo. Vi pago il doppio di quanto promesso. Dodici monete d'oro."*
 
@@ -303,14 +290,12 @@ Intuizione CD 14: la gioia è genuina ma c'è calcolo sotto. Non solo sollievo.
 
 Arimano paga le 2 mo/testa promesse (8 mo) e offre 12 mo per la liberazione. Totale incarico se completato: 4 (anticipo) + 8 (informazioni) + 12 (liberazione) = 24 mo.
 
----
 
 ## Milestone
 
 **Livello 4:** I PG hanno abbastanza informazioni per andare nel dungeon, oppure tornano da Arimano a riferire.
 **Livello 5:** I PG escono dal dungeon del castello con Michelangeli.
 
----
 
 ## Atto 4 - Il Dungeon del Castello
 
@@ -376,7 +361,6 @@ I PG escono con 1-3 prigionieri. Michelangeli non cammina da solo.
 
 **Conseguenza narrativa:** se la Contessina scopre in fretta, reagisce nella P6 (vendetta, ricerca dei PG). Se scopre tardi, i PG hanno tempo.
 
----
 
 ### Ermolao "Il Profondo" nel dungeon
 
@@ -386,9 +370,7 @@ Lo trovano al **L2, bivio [H]**. Seduto per terra a gambe incrociate, occhi chiu
 >
 > *"Oh. Voi. Che fate qui sotto?"*
 >
-> Pausa.
->
-> *"No, aspettate. Non me lo dite. Non voglio saperlo. Rovinaste la concentrazione."*
+> *"No, aspettate. Non me lo dite. Non voglio saperlo. Rovinate la concentrazione."*
 
 **Come ci è arrivato:** dalle fogne. C'è un passaggio che collega le fogne di Fianus al L2 (corridoio umido, dietro una parete crollata a metà). Lui lo usa da sempre. *"Questo posto è tranquillo. Favorisce la riflessione. Tranne le cose che mordono."*
 
@@ -408,7 +390,6 @@ Lo trovano al **L2, bivio [H]**. Seduto per terra a gambe incrociate, occhi chiu
 
 **Se i PG chiedono del passaggio per entrare (prima del dungeon):** serve trovare Ermolao nelle fogne. Tiro di Fortuna (1d6): con 4+ lo trovano in 30 minuti. Con 1-3 cercano per un'ora e lo trovano comunque (non fallisce, solo tempo). Ermolao è sempre nelle fogne.
 
----
 
 ### Tono del dungeon
 
@@ -474,7 +455,6 @@ LIVELLO 3 - DUNGEON PROFONDO (Cube + 5 mimic + Michelangeli) — 5 stanze
   porta aperta, svenuto      scrigno troppo bello per essere vero
 ```
 
----
 
 ### LIVELLO 1 - La prigione attiva
 
@@ -576,7 +556,6 @@ Se le guardie del L1 si allarmano (combattimento rumoroso, prigioniero che grida
 
 Questo crea urgenza: se i PG fanno casino al L1, il pozzo si chiude e devono per forza trovare Ermolao al L2 per uscire.
 
----
 
 ### LIVELLO 2 - Le segrete abbandonate
 
@@ -650,7 +629,6 @@ Percezione CD 13 per notare la "stalattite" sospetta. Se notato: basta non passa
 
 **Gag:** sulla parete accanto alla porta di ferro, un graffito: un disegno grossolano di un cubo con dentro un omino. Qualcuno ha visto il Gelatinous Cube ed è tornato a raccontarlo.
 
----
 
 ### LIVELLO 3 - Il dungeon profondo
 
@@ -745,7 +723,6 @@ Michelangeli è svenuto, affamato e disidratato (qualche livello di exhaustion, 
 
 **Condizioni:** non può camminare da solo. Peso morto. Qualcuno deve portarlo (o trascinarlo su una coperta/mantello).
 
----
 
 ## Nemici
 
@@ -763,7 +740,6 @@ Michelangeli è svenuto, affamato e disidratato (qualche livello di exhaustion, 
 | L3, Corridoio [O] | Mimic (porte) | 2 | 2 | MEDIUM (insieme) / TRIVIAL (singoli) |
 | L3, Stanza [P] | Mimic (scrigno) | 1 | 2 | TRIVIAL |
 
----
 
 ## Ricompense
 
@@ -773,7 +749,6 @@ Michelangeli è svenuto, affamato e disidratato (qualche livello di exhaustion, 
 - Er Braccio liberato: potenziale alleato per il finale (deve soldi ai PG)
 - Loot dungeon: 2d20 mr + 1d4 mo (scrigno L3, fondo nascosto)
 
----
 
 ## Note al master
 
@@ -811,7 +786,6 @@ Se i PG non gestiscono Mafalda:
 
 Se i PG liberano Er Braccio, Sberluccica e Michelangeli: la risalita diventa una carovana comica (Michelangeli non cammina, Sberluccica piange, Er Braccio bestemmia, Ermolao cammina lento). Gestire narrativamente, non meccanicamente.
 
----
 
 ## NPC introdotti in questa puntata
 
@@ -830,7 +804,6 @@ Se i PG liberano Er Braccio, Sberluccica e Michelangeli: la risalita diventa una
 | Ermolao "Il Profondo" | Bivio L2 | Guida comica, via d'uscita dalle fogne |
 | Mafalda Silverbain | Segue i PG (indagine) | Spia della Contessina |
 
----
 
 ## Piste aperte per la puntata successiva
 

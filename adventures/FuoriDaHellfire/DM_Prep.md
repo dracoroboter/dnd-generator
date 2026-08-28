@@ -3,7 +3,6 @@
 Riepilogo incontri e NPC per configurare Roll20 / FightClub / Game Master 5e.
 Saga (5+ moduli). Party: 4-5 PG lv3 (iniziale) + Udo Hutchinson (CR 3) + Fin Ditasvelte (lv3).
 
----
 
 ## Modulo 1 — Discesa nelle Fogne
 
@@ -41,7 +40,6 @@ Saga (5+ moduli). Party: 4-5 PG lv3 (iniziale) + Udo Hutchinson (CR 3) + Fin Dit
 | Nido | Natura | 10 | Capire che i ratti sono corrotti |
 | Soglia | Storia | 15 | Pietra più antica della città |
 
----
 
 ## Modulo 2 — Tana di Korex
 
@@ -86,7 +84,6 @@ Saga (5+ moduli). Party: 4-5 PG lv3 (iniziale) + Udo Hutchinson (CR 3) + Fin Dit
 | Taglia: 50 mo (morto) / 75 mo (vivo) | Guardia di Oakshore |
 | Anello del Virtuoso | Dito di Korex |
 
----
 
 ## Il Cliffhanger — Anello del Virtuoso
 
@@ -101,7 +98,6 @@ Effetti immediati se indossato: +2 caratteristica (per classe), vantaggio TS cha
 
 Dettagli completi: `DiscussioneNarrativa.md` e `NPC_JasonAccordion.md`.
 
----
 
 ## Stat block da preparare
 
@@ -117,7 +113,6 @@ Dettagli completi: `DiscussioneNarrativa.md` e `NPC_JasonAccordion.md`.
 
 Tutti gli stat block sono già generati (XML + PDF + PNG) in `characters/`.
 
----
 
 ## Milestone
 

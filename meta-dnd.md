@@ -57,6 +57,7 @@ Per le convenzioni di naming complete (4 categorie: PascalCase avventure, kebab-
 ### Stile e interpunzione
 
 - **No trattino lungo (—)**: non usare l'em dash. Al suo posto usare la normale interpunzione italiana (virgola, punto, due punti, punto e virgola, parentesi). Eccezioni tecniche ammesse: separatore in tabelle markdown se necessario per leggibilità.
+- **No linee divisorie (hr)**: non usare `---` come separatore orizzontale nei documenti. La struttura è data dai titoli e sottotitoli (##, ###). Le hr non aggiungono informazione e sporcano il sorgente.
 - **No emoji**: non usare emoji nel testo. Unica eccezione: ✅ per task completati nelle checklist.
 
 ### Moduli XX (draft aperti)

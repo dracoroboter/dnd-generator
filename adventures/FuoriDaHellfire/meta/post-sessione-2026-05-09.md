@@ -50,7 +50,6 @@ Prima di offrire qualcosa, Vellun deve sapere qual è il problema. I PG devono s
 ### A16. Vellun: dove vive e dove si entra nella cripta
 Vellun vive nel palazzo storico dove si trova l'ingresso alla cripta. Il suo compito è mantenere in buono stato quell'edificio. L'ingresso alla cripta (il muro da abbattere) è in un'altra parte della città, vicina alla torre. I PG entrano in un grosso atrio e poi c'è il muro che Vellun chiede di abbattere. Separare i due luoghi: la torre di Vellun (dove vive e riceve i PG) e l'edificio con l'atrio (dove si entra nella cripta).
 
----
 
 ### B1. Log sessione 9 maggio 2026
 
@@ -58,11 +57,15 @@ Vellun vive nel palazzo storico dove si trova l'ingresso alla cripta. Il suo com
 - La sessione si è chiusa con Aldric Sr. (lo spettro) che sta per rivelare dove è sepolto Jason.
 - Dettagli da raccogliere.
 
----
 
-## Stato
+## Stato attuale della saga
 
-In attesa di tutti i dettagli prima di procedere con le modifiche.
+- **Giorno di gioco:** giorno 2
+- **Livello PG:** 4 (milestone dopo sconfitta Korex)
+- **Presa:** 1 (prima possessione automatica avvenuta)
+- **Incubi:** attivi (rituale del sonno 1ª volta: 4 giorni di protezione, 3 mo)
+- **Ossa Jason:** localizzazione sconosciuta (Aldric Sr. sta per rivelarla)
+- **Rituale dissoluzione:** non ancora scoperto
 
 ## Problemi di impaginazione PDF (da risolvere)
 

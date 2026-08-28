@@ -87,7 +87,6 @@
 
 **Modifiche all'avventura derivate:** vedi `meta/post-sessione-2026-05-09.md`
 
----
 
 ## Idee per moduli futuri
 
@@ -100,7 +99,6 @@ Regata annuale di Oakshore. Gara truccata, mostro marino a metà gara. Collegame
 ### "Caccia Grossa"
 Scorta di un carico nel bosco. Creatura esotica scappa durante imboscata. Collegamento anello: la creatura reagisce all'anello.
 
----
 
 ## Milestone della saga (lv4-6)
 
@@ -110,7 +108,6 @@ Scorta di un carico nel bosco. Creatura esotica scappa durante imboscata. Colleg
 | Modulo 4 o 5, trovare lo scheletro di Jason | 4 → 5 |
 | Modulo finale, rituale, liberazione dall'anello | 5 → 6 |
 
----
 
 ## Punti aperti saga
 
@@ -202,3 +199,38 @@ Scorta di un carico nel bosco. Creatura esotica scappa durante imboscata. Colleg
 - Aggiornato check-adventure.py: sezioni meccaniche NPC, prefissi documento principale
 - Aggiunto todo in plan-meta-dnd.md: calcolo automatico difficoltà incontri
 - PDF finale generato: FuoriDaHellfire_20260425.pdf (1.6 MB, 7 stat block)
+
+
+## Buchi da risolvere (puntate 6-8)
+
+### Puntata 6 — Il Mercato
+
+- [ ] **Dove si svolge?** I PG sono alla torre dopo la puntata 5. Il modulo è generico (Hawksbridge o villaggio Ashwick) ma serve decidere quale dei due.
+- [ ] **Marius Zoccalarga**: perché conosce vagamente il Guardiano? È un mercante che passa spesso dalla zona, o ha un altro motivo?
+- [ ] **Come Erasmus si presenta**: la scusa attuale è vaga ("conosco la zona"). Serve un pretesto più naturale per unirsi al gruppo.
+- [ ] **Jason offre Hold Person nell'Atto 1**: è coerente che Jason offra aiuto contro banditi generici? Non è una minaccia mortale.
+
+### Puntata 7 — Il Guardiano di Ashwick
+
+- [ ] **Il modulo presuppone un viaggio verso Ashwick**: se i PG sono già lì (dopo la puntata 5), il viaggio non esiste. Rendere flessibile.
+- [ ] **Quando Erasmus spiega l'incarnazione**: il modulo dice "seconda sera al fuoco" ma se non c'è viaggio non c'è fuoco. Decidere il trigger narrativo: dopo il Guardiano? Dopo che i PG esprimono frustrazione? Dopo un tot di riposi lunghi insieme?
+- [ ] **Erasmus spiega la possessione, poi l'incarnazione, poi offre il controllo**: sono 3 rivelazioni in 3 sere consecutive. Troppo veloce? O va bene perché il viaggio dura 3 giorni e Erasmus è sotto pressione?
+- [ ] **Troll sul ponte**: è l'unico combattimento del modulo. È necessario o forzato? Ha un collegamento narrativo?
+- [ ] **Theron non conosce Erasmus**: è coerente? I Figli del Perdono sono recenti, Theron è isolato da decenni. Ma Erasmus ha studiato l'Ordine — non ha mai cercato Theron?
+- [ ] **Il cristallo di attrazione**: chi è Prosperus Fiaschetti? Non esiste una scheda. Da creare o tagliare.
+- [ ] **Tabella dissoluzione vs incarnazione**: i "rischi" dell'incarnazione dicono "???" — da definire prima di giocare il modulo.
+
+### Puntata 8 — Il Rituale
+
+- [ ] **Erasmus rapisce Aldric se i PG scelgono la dissoluzione**: è troppo forzato? I PG potrebbero voler fare la dissoluzione senza che Erasmus interferisca. Alternativa: Erasmus tenta di convincere, se non riesce semplicemente se ne va (e magari torna come nemico in futuro).
+- [ ] **Il rituale di incarnazione libera anche le altre 6 anime**: Erasmus non lo dice. Ma i PG lo scoprono solo DOPO? O c'è un modo per scoprirlo prima (dal libro di Theron, da Jason stesso)?
+- [ ] **Stat block Jason incarnato**: non ne ha. È un vecchio mortale. Ma se i PG lo attaccano?
+- [ ] **6 anime libere = cosa succede?** Il cliffhanger dice "caos" ma non specifica. Gancio per stagione 3 — definire almeno 2-3 conseguenze immediate.
+- [ ] **Presa ≥7 per la dissoluzione**: il documento principale dice ≥7, la sessione 5 diceva ≥6. Uniformare (probabilmente ≥7).
+
+### Generali (tutte le puntate)
+
+- [ ] **Via A/Via B nel PlanBook stesso**: sostituire con dissoluzione/incarnazione anche qui.
+- [ ] **La protezione incubi (10 giorni)**: tracciare quanti riposi lunghi consumano da qui alla prossima sessione. Verificare se il rituale del sonno (3ª volta, 300 mo) sarà necessario.
+- [ ] **Udo vuole andarsene**: a che punto della saga Udo se ne va? Meccanica narrativa o scelta dei PG?
+- [ ] **Fin e l'anello**: se Fin è curioso dell'anello (tratto caratteriale), potrebbe tentare di toccarlo. Da usare come tensione o da lasciare in pace?
