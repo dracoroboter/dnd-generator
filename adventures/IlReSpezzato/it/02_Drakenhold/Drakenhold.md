@@ -2,11 +2,11 @@
 
 ## Descrizione
 
-**Party:** 4 PG lv7 (salgono a lv8 alla fine del modulo)
+**Party:** 4 PG lv6 (salgono a lv7 alla fine del modulo)
 
 I PG raggiungono la capitale con il Medaglione delle Tre Vie. Qui si compie il compito narrativo più importante della campagna: costruire il legame con Re Dorian, così che i finali del Modulo 5 pesino come scelte emotive e non come calcoli tecnici. I PG incontrano Dorian in tre fasi diverse (lucido e nobile, poi Guardia freddo e terribile, infine un lampo di Pazzo) e imparano a riconoscere l'uomo sotto il re. Le tre fazioni si presentano e si contendono i PG e il Medaglione. Le prime scelte spostano il contatore. Rivelazione parziale numero uno: i tre figli del Re esistevano, sono "scomparsi", nessuno ha visto i corpi.
 
-**Livello PG:** 7 → 8 (milestone a fine modulo)
+**Livello PG:** 6 → 7 (milestone a fine modulo)
 **Tono:** drammatico, di corte. Splendore che nasconde una crepa.
 **Durata stimata:** circa 4 sessioni.
 **Mappa:** `maps/Drakenhold.png` (capitale), `maps/CorteDiDrakenhold.png` (palazzo). Da disegnare.
@@ -104,7 +104,7 @@ Alla fine dell'udienza, senza motivo apparente, il Medaglione si scalda contro i
 
 ## Sviluppo — Le tre fazioni
 
-Le tre fazioni si presentano ai PG nei giorni a corte. Ognuna vuole il Medaglione, ognuna offre ragioni credibili, nessuna è malvagia. L'ordine è libero: i PG possono incontrarle come capita. Ogni fazione mette in scena una vittima concreta della propria via, un volto e un dettaglio umano, così che il contatore non resti mai un'astrazione.
+Le tre fazioni si presentano ai PG nei giorni a corte. Nessuna sa del Medaglione né lo cerca: ognuna vuole tirare il Re verso il proprio ideale e vede nei PG una pedina utile. Ognuna offre ragioni credibili, nessuna è malvagia. L'ordine è libero: i PG possono incontrarle come capita. Ogni fazione mette in scena una vittima concreta della propria via, un volto e un dettaglio umano, così che il contatore non resti mai un'astrazione.
 
 Regola trasversale: aiutare una fazione sposta il contatore verso la via corrispondente a fine sessione (vedi meccanica nel documento principale). Non annunciarlo ai giocatori.
 
@@ -149,7 +149,7 @@ Posizioni iniziali:
 
 - **Iselda:** sulla pedana, davanti alle celle. Non combatte in prima linea: comanda e prega.
 - **3 Cult Fanatic:** due tra la pedana e il sagrato, uno di guardia alla cella di Bram.
-- **4 Cultist:** sparsi sul sagrato, tra le colonne e il braciere.
+- **2 Cultist:** sul sagrato, tra le colonne e il braciere.
 - **Bram:** nella cella centrale, inerme, distante 9m / 30ft / 6qd dall'ingresso sud.
 - **PG:** entrano da sud, dall'imbocco del sagrato.
 
@@ -289,7 +289,7 @@ Il combattimento è il picco d'azione del modulo. Terreno come arma: un ponte st
 
 #### Note per il DM
 
-Vedi Incontro C nella sezione Nemici (HARD per lv7-8). Struttura tattica:
+Vedi Incontro C nella sezione Nemici (HARD per lv7). Struttura tattica:
 
 - **Obiettivo doppio:** vincere lo scontro E salvare i civili. Le due cose competono per le azioni dei PG.
 - **Le micce:** 3 cariche sotto le campate. Ogni carica salta dopo 3 round se non disinnescata (Arcano o Ladrocinio CD 14, azione). Una campata che salta fa cadere 1d4 civili nel fiume (Atletica CD 13 per salvarne uno, azione).
@@ -360,22 +360,22 @@ Domanda aperta che lancia il Modulo 3, da porre al tavolo tramite Gorim o il Med
 
 #### Milestone
 
-**Livello raggiunto:** 8
+**Livello raggiunto:** 7
 **Trigger:** i PG hanno incontrato Dorian in almeno due delle tre facce (lucido e Guardia) e almeno una delle tre fazioni ha ottenuto una risposta chiara (aiuto o rifiuto) dai PG.
 
 Se al tavolo il legame con Dorian non è scattato (i PG restano freddi), non forzare la milestone narrativa: aggiungere una scena di respiro con Gorim o un secondo gesto umano privato del Re nel viaggio verso il Modulo 3. Il legame è il prerequisito di tutta la campagna, vale più di una sessione in più.
 
 ## Nemici
 
-Difficoltà calcolate con `tech/scripts/encounter-difficulty.py` per il party dichiarato. Gli incontri A e B usano il party lv7; l'incontro C (picco, a fine modulo) usa lv8. Statistiche mostri: SRD 5.1.
+Difficoltà calcolate con `tech/scripts/encounter-difficulty.py` per il party dichiarato. Gli incontri A e B usano il party lv6; l'incontro C (picco, a fine modulo) usa lv7. Statistiche mostri: SRD 5.1.
 
 | Luogo | Nemici | N. | CR | Difficoltà |
 |-------|--------|----|----|-----|
 | Porte della città | Guard | 4 | 1/8 | EASY (evitabile con roleplay) |
 | Porte della città | Veteran (capoposto) | 1 | 3 | — |
-| Sagrato / celle della Fiamma | Cultist | 4 | 1/8 | MEDIUM (solo se i PG liberano Bram con la forza) |
+| Sagrato / celle della Fiamma | Cultist | 2 | 1/8 | MEDIUM (solo se i PG liberano Bram con la forza) |
 | Sagrato / celle della Fiamma | Cult Fanatic | 3 | 2 | — |
-| Ponte del porto | Thug (Senza Nome) | 5 | 1/2 | HARD (party lv8; via d'uscita: ritirata) |
+| Ponte del porto | Thug (Senza Nome) | 5 | 1/2 | HARD (party lv7; via d'uscita: ritirata) |
 | Ponte del porto | Berserker (Voci del caos) | 4 | 2 | — |
 | Corte (fase D1) | Guardia reale | varia | — | Sfavorevole di proposito: non è un incontro da vincere |
 
@@ -383,15 +383,15 @@ Note di difficoltà:
 
 - **Porte (EASY, evitabile):** progettato per essere disinnescato con una frase. Il capoposto Veteran non vuole morire per una perquisizione. Serve a mostrare la sorveglianza, non a far combattere.
 - **Fiamma Tersa (MEDIUM, condizionale):** avviene solo se i PG scelgono la forza invece della parola. È una conseguenza di una scelta, non un incontro fisso. Ironia tematica: liberare con la violenza sposta il contatore verso il Pazzo, non verso il Paladino.
-- **Ponte (HARD):** il picco. Calcolato per lv8. Con il gruppo già provato dalle fasi precedenti può diventare letale: via d'uscita dichiarata (ritirata, al costo dei civili). Il vero avversario non sono i PF nemici ma il dilemma vincere/salvare.
+- **Ponte (HARD):** il picco. Calcolato per lv7. Con il gruppo già provato dalle fasi precedenti può diventare letale: via d'uscita dichiarata (ritirata, al costo dei civili). Il vero avversario non sono i PF nemici ma il dilemma vincere/salvare.
 - **Corte (fase D1):** attaccare la guardia reale a corte non è un incontro bilanciato ma una scelta narrativa con conseguenze (i PG diventano ricercati). Non calcolato come combattimento.
 
 ### Verifica CR (comando per il DM)
 
 ```
-python3 tech/scripts/encounter-difficulty.py -p 4 7 -m 4 1/8 1 3      # Porte  -> EASY
-python3 tech/scripts/encounter-difficulty.py -p 4 7 -m 4 1/8 3 2      # Fiamma -> MEDIUM
-python3 tech/scripts/encounter-difficulty.py -p 4 8 -m 5 1/2 4 2      # Ponte  -> HARD
+python3 tech/scripts/encounter-difficulty.py -p 4 6 -m 4 1/8 1 3      # Porte  -> EASY
+python3 tech/scripts/encounter-difficulty.py -p 4 6 -m 2 1/8 3 2      # Fiamma -> MEDIUM
+python3 tech/scripts/encounter-difficulty.py -p 4 7 -m 5 1/2 4 2      # Ponte  -> HARD
 ```
 
 ## Indizi chiave
@@ -415,7 +415,7 @@ Altri indizi:
 
 ### Dalla corte e dalle fazioni
 
-- **Oro:** stipendio di corte, 200 mo al gruppo per il servizio reso (coerente con lv7-8).
+- **Oro:** stipendio di corte, 200 mo al gruppo per il servizio reso (coerente con lv6-7).
 - **Da Aldric, se ottengono il suo rispetto:** un lasciapassare della Mano di Ferro (apre ogni porta cittadina, vale finché la Guardia non domina in modo ostile).
 - **Da Iselda, se la assecondano:** un *Unguento della Fiamma Tersa* (3 dosi, funziona come *Cura Ferite* di 2° livello, ma chi lo usa ha svantaggio a Inganno per 1 ora: il potere ha un prezzo tematico).
 - **Da Vael, se lo aiutano:** nessun oggetto. Vael lascia solo una frase che vale come indizio futuro sul metodo per uccidere Dorian.

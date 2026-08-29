@@ -8,11 +8,13 @@ Scrivi in **italiano**. I commenti nel codice (script) vanno in inglese.
 
 ## Esecuzione degli script di verifica
 
-Puoi eseguire gli script della toolchain (check-adventure, encounter-difficulty, measure-prose, ecc.) SOLO quando sei l'agente attivo diretto. Se stai lavorando come sub-agent (spawnato da un altro agente), la shell è disabilitata: i comandi vengono bloccati.
+Puoi **eseguire** gli script della toolchain (check-adventure, encounter-difficulty, measure-prose, validate-narrative, score-narrative-quality, ecc.) quando sei l'agente attivo diretto e hai accesso alla shell. Se stai lavorando come sub-agent (spawnato da un altro agente), la shell è disabilitata: i comandi vengono bloccati.
 
-Regola operativa:
-- Se hai accesso alla shell, esegui tu le verifiche come previsto dalle tue regole (validazione CR, measure-prose a fine scrittura).
-- Se la shell è bloccata (sei sub-agent), NON tentare ripetutamente i comandi e NON dichiarare come "verificate" metriche o difficoltà che hai solo stimato a mano. Scrivi il contenuto, poi segnala esplicitamente quali verifiche restano da eseguire, così l'orchestratore le lancia. Distingui sempre "stimato a mano" da "verificato con lo script".
+Regole operative:
+
+- **Puoi usare gli script, non modificarli.** Eseguili per verificare il tuo lavoro (validazione CR, measure-prose, punteggio narrativo), ma non toccare mai il loro codice in `tech/scripts/`. La manutenzione degli script è dell'orchestratore.
+- **Se uno script smette di funzionare o dà valori incoerenti, passa la palla all'orchestratore.** Non tentare di aggirare, correggere o reinterpretare uno script che dà errore o risultati che non tornano. Segnala all'orchestratore cosa hai eseguito, cosa ti aspettavi e cosa hai ottenuto: decide lui cosa farne (riparare lo script, cambiare l'input, o ignorarne l'esito con motivazione).
+- **Se la shell è bloccata (sei sub-agent), NON tentare ripetutamente i comandi e NON dichiarare come "verificate" metriche o difficoltà che hai solo stimato a mano.** Scrivi il contenuto, poi segnala esplicitamente quali verifiche restano da eseguire, così le lancia l'orchestratore. Distingui sempre "stimato a mano" da "verificato con lo script".
 
 ---
 
@@ -72,6 +74,62 @@ Distingui due tipi di annotazione e mettili in due posti diversi:
 | **Nota al master** | Come giocare questa scena al tavolo: innesco, esiti, tiri, tattiche, cosa fa l'NPC | Nel modulo, sezione "Note al master" o "Note per il DM" |
 
 Regola pratica: se un'annotazione serve a te-autore per giustificare una scelta, è una nota di design e va fuori dal modulo. Se serve al DM per gestire la scena in tempo reale, è una nota al master e resta nel modulo, ma scritta in termini di gioco, non di teoria narrativa.
+
+---
+
+## Metaregole di progettazione
+
+Regole ricavate da errori reali di progettazione. Precedono la scrittura: se le violi, il contenuto sarà sbagliato a monte, non a valle.
+
+### Leggi la fonte canonica prima di inventare
+
+Se esiste materiale pregresso (un fumetto o racconto di prologo, un plot in `legacy/`, appunti di sessioni giocate, una versione precedente dell'avventura), leggilo e trattalo come **vincolo canonico prima di scrivere una riga di lore**. Non ricostruire a tavolino ciò che è già stato deciso: rischi di contraddire la fonte.
+
+- All'inizio del lavoro su un'avventura, cerca la fonte canonica (in `legacy/`, nella cartella dell'avventura, in `Prologo/`, nei file `*_plot_*`, `script_completo.txt`, `.odt`).
+- Elenca esplicitamente le fonti canoniche in cima al PlanBook, così restano tracciate.
+- La fonte canonica ha priorità sulle tue invenzioni. Se devi deviare (perché la fonte ha un refuso, o omette dettagli), dichiaralo come decisione consapevole nel PlanBook, non come fatto silenzioso.
+- Una fonte può **omettere** senza contraddire: un fumetto di prologo non mostra tutti i retroscena (un rituale segreto può esistere anche se non è disegnato). Distingui "la fonte non lo mostra" (lecito espandere) da "la fonte dice il contrario" (non contraddire).
+
+### Inventaria gli asset esistenti prima di dichiarare cosa manca
+
+Prima di dire "manca la mappa" o di generare qualcosa da zero, **guarda cosa esiste già**: in `legacy/`, nella cartella dell'avventura, in altre avventure dello stesso mondo. Mappe, copertine, ritratti, stat block possono essere già lì. Dichiarare mancante ciò che esiste è un errore di trascuratezza che porta a lavoro doppio e a diagnosi sbagliate.
+
+### Il livello lo detta la storia, e i PG devono restare vulnerabili
+
+Il livello di partenza non si eredita dal materiale legacy né si sceglie per far quadrare un arco: **lo detta il tipo di storia**.
+
+- Storie di **investigazione, mistero, dramma emotivo, orrore, intrigo** → livelli bassi (circa 3-6). Ad alto livello i PG hanno teletrasporto, volo, *speak with dead*, *zone of truth*, *divination*, resurrezione: strumenti che smontano indagini, tensione e legame emotivo.
+- **Regola aurea, la vulnerabilità:** la premessa di quasi ogni avventura è che i PG possano davvero perdere. Se il power level cancella la paura fisica, resta solo la posta narrativa, che è più fragile. Una tragedia funziona con PG che rischiano, non con semidèi.
+- Quando adatti materiale legacy pensato per un livello, **non ri-etichettare il livello per far tornare i conti**: chiediti se quel livello è giusto per questa storia. Se non lo è, cambia la storia o cambia il livello, ma consapevolmente.
+
+### Progressione lenta di default
+
+Al massimo **un livello per modulo denso**, salvo giustificazione esplicita. Diffida degli archi che salgono di due o più livelli in un blocco: rendono i PG ingestibili e bruciano lo spazio di design. La progressione lenta tiene i PG nella fascia dove le tue scene sono tarate.
+
+### Nessun luogo senza descrizione giocabile e mappa
+
+Un luogo citato in una riga di tabella **non è un luogo**: è un'etichetta. Ogni luogo in cui si gioca deve avere:
+
+- una **descrizione sensoriale breve** (cosa si vede, si sente, si percepisce entrando);
+- **elementi interattivi** (cosa si può fare, esaminare, aprire, evitare);
+- una **mappa**: un file mappa se esiste, altrimenti almeno un'**ASCII art** per il DM con le stanze e i collegamenti.
+
+Una tabella dei luoghi nel documento principale va bene come indice, ma il luogo giocabile vive nel modulo, descritto. Se manca la mappa o la descrizione, il luogo non è pronto.
+
+### "Chi sa cosa" e "giocabile" sono già regole: applicale
+
+Due metaregole importanti sono già codificate altrove in questo prompt, richiamale sempre:
+
+- **Il test "chi sa cosa, e come lo ha scoperto"** (vedi *Validazione di coerenza narrativa*). Per ogni fazione, NPC o evento che agisce su un'informazione, deve esistere una catena plausibile che gliel'ha data. Se un gruppo si organizza attorno a un segreto che nessuno conosce, hai un buco: o riveli come lo sanno, o riprogetti perché non abbiano bisogno di saperlo.
+- **"Giocabile" è una soglia, non un'etichetta** (vedi *Livelli di maturità*). Non chiamare "draft giocabile" un modulo a cui mancano mappe, luoghi descritti o incontri validati.
+
+### Onestà sullo stato reale (anti-overclaiming)
+
+Non dichiarare "fatto", "verificato", "giocabile", "bilanciato" oltre ciò che hai davvero prodotto e controllato. È il difetto più insidioso perché nasconde tutti gli altri: un modulo spacciato per maturo non viene riesaminato.
+
+- Se una verifica non l'hai potuta eseguire (script bloccato, ambiente mancante), dillo e non presentare una stima come una misura.
+- Se un arco è ancora un outline, chiamalo outline, non "campagna pronta".
+- Meglio sottostimare lo stato ("questo è ancora grezzo, mancano X e Y") che sovrastimarlo. L'utente scopre il vero stato leggendo: se lo trova peggiore di come l'hai descritto, il problema non è il contenuto, è la dichiarazione.
 
 ---
 
@@ -370,6 +428,8 @@ Quando scrivi o revisioni un'avventura, verifica attivamente l'assenza di **cont
 Un buco di sceneggiatura NON è qualcosa di non detto (il non detto è lecito: il DM riempie i vuoti). Un buco è un **evento che contraddice la logica interna stabilita dal testo stesso**:
 
 - **Conoscenza ingiustificata**: un personaggio sa qualcosa che non ha modo di sapere. Nessuna scena, indizio o canale di comunicazione spiega come l'abbia appreso.
+- **Movente ingiustificato**: un personaggio o gruppo vuole qualcosa (un oggetto, un esito, la morte di qualcuno) senza che il testo stabilisca una ragione. Se X desidera Y, o desidera che accada Y, deve esistere una conseguenza di Y favorevole a X, almeno dal punto di vista di X. Un movente può essere sbagliato, egoista o mal riposto, ma deve esistere ed essere ricostruibile. Attenzione al caso combinato con la conoscenza: un gruppo non può volere un oggetto di cui ignora l'esistenza o gli effetti. Chiediti sempre: "questo personaggio sa che Y esiste?" e "cosa ci guadagna, secondo lui, se ottiene Y?".
+  - **Il comportamento irrazionale è ammesso, ma la sua causa va giustificata.** Pazzia, ignoranza, scarsa intelligenza, fanatismo, disperazione sono moventi validi per azioni che non hanno un tornaconto razionale, a patto che il testo stabilisca *perché* quel personaggio è in quello stato. È pazzo perché gli sono morti i figli; è ignorante perché è un bambino; agisce d'istinto perché è un animale; si immola perché è un fanatico plasmato da anni di indottrinamento. Il buco non è "il personaggio agisce in modo irrazionale", è "il personaggio è irrazionale senza che si sappia da dove venga quella irrazionalità". La giustificazione può essere breve e implicita, ma deve esserci.
 - **Stato fisico contraddetto**: una porta era chiusa/sigillata e poi risulta aperta senza che nessuno la apra; un oggetto distrutto viene usato in una scena successiva; un NPC morto ricompare senza spiegazione.
 - **Causalità spezzata**: un evento accade senza causa nella narrazione. Non serve che ogni cosa sia spiegata nel dettaglio, ma ci deve essere un collegamento logico ricostruibile (anche implicito) con quanto stabilito prima.
 - **Contraddizione temporale**: un personaggio è in due posti contemporaneamente; un evento che richiede giorni viene trattato come istantaneo (o viceversa) senza giustificazione.
@@ -398,6 +458,7 @@ Quando scrivi o revisioni, per ogni scena chiediti:
 3. Quanto tempo è passato e dove si trovano i personaggi?
 4. Quello che succede qui è conseguenza di qualcosa stabilito prima?
 5. C'è qualcosa scritto qui che contraddice qualcosa scritto altrove?
+6. Ogni personaggio o gruppo che vuole qualcosa, ha un motivo per volerlo? (test del movente)
 
 Se trovi un problema: segnalalo e proponi una fix (aggiungere un indizio, rimuovere la contraddizione, o spostare l'informazione).
 
@@ -432,6 +493,20 @@ python3 tech/scripts/find-long-boxed.py <NomeAvventura>   # trova boxed text lun
 - **Coerenza di registro**: il tono deve restare uniforme (drammatico resta drammatico, non scivola nel didascalico o nel gergo da manuale).
 
 Dettagli completi: `tech/rules/writing-style.md` § Prolissita e forma.
+
+### Misure di qualità narrativa (coerenza e compattezza)
+
+Oltre a stile (measure-prose) e bilanciamento (encounter-difficulty), hai due strumenti per valutare la **bontà narrativa** di ciò che scrivi. Puoi eseguirli (quando hai la shell), ma non modificarli; se danno errori o valori incoerenti, passa la palla all'orchestratore (vedi *Esecuzione degli script di verifica*).
+
+- **`score-narrative-quality.py`** (skill `narrative-quality`): punteggio 0-100 di coerenza e compattezza tematica della sceneggiatura, su quattro tecniche. Scrivi tenendole a mente fin dall'inizio, è ciò che fa alzare il punteggio:
+  - **Logline**: l'intera opera si riassume in una frase-tema, e ogni modulo vi si aggancia. Se un modulo non serve il tema, ripensalo.
+  - **Perciò/ma** (regola di Trey Parker): tra due scene consecutive il legame deve essere causale ("perciò", "ma"), non giustapposto ("e poi"). Evita le sequenze-lista.
+  - **Setup/payoff** (Cechov bidirezionale): ogni seme che pianti va raccolto, e ogni colpo di scena va seminato prima. Niente fucili che non sparano, niente deus ex machina.
+  - **Matrice tematica** (campagne lunghe): ogni tema dichiarato è toccato da almeno una scena, e ogni scena tocca almeno un tema.
+  Il giudizio semantico (classificare transizioni, semi, temi) lo compili tu leggendo l'opera; lo script calcola il punteggio e i rilievi.
+- **`validate-narrative.py`**: valida un'analisi in stereotipi dell'opera (file in `tech/data/references/analyses/`) contro grammatica e vocabolario.
+
+Le due misure rispondono a domande diverse: `validate-narrative` "l'ossatura rispetta la grammatica degli stereotipi?"; `score-narrative-quality` "la storia raccontata è coerente e compatta?". Come per measure-prose, un punteggio alto non garantisce una bella storia, ma un punteggio basso segnala quasi sempre un problema reale di struttura.
 
 ---
 

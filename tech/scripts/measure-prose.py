@@ -241,19 +241,54 @@ def print_metrics(metrics, verbose=False):
     print(f"  DENSITÀ INFORMATIVA:   {metrics['density']}")
     print()
 
-    # Indicators
-    if metrics['prose_ratio'] > 3.0:
-        print(f"  ⚠️  Prosa/dati alto (>{3.0}): probabile prolissità")
+    # Suggerimenti azionabili (cosa migliorare al prossimo giro)
+    suggerimenti = build_suggestions(metrics)
+    if suggerimenti:
+        print("  SUGGERIMENTI (cosa migliorare):")
+        for s in suggerimenti:
+            print(f"    - {s}")
+
+
+def build_suggestions(metrics):
+    """Traduce le metriche fuori target in suggerimenti concreti e azionabili.
+    Ritorna una lista di stringhe (vuota se tutto in target)."""
+    s = []
+    name = os.path.basename(metrics["file"])
+    if metrics['prose_ratio'] > 2.0:
+        s.append(
+            f"Rapporto prosa/dati {metrics['prose_ratio']} (target < 2.0): "
+            f"accorcia la prosa discorsiva o convertila in tabelle/bullet "
+            f"(tattiche NPC, esiti, ricompense in elenco)."
+        )
     if metrics['boxed_text_blocks_over5'] > 0:
-        print(f"  ⚠️  {metrics['boxed_text_blocks_over5']} blocchi boxed text oltre 5 righe")
-    if metrics['density'] < 0.3:
-        print(f"  ⚠️  Densità informativa bassa (<0.3): pochi dati strutturati")
-    if metrics['dialogue_total_pct'] > 25:
-        print(f"  ⚠️  Dialogo diretto alto (>{25}%): il modulo è un copione, non un riferimento")
-    if metrics['lines_per_heading'] < 4:
-        print(f"  ⚠️  Frammentazione heading alta (<4 righe/heading): troppi titoli")
+        s.append(
+            f"{metrics['boxed_text_blocks_over5']} boxed text oltre 5 righe: "
+            f"accorciali tenendo solo le percezioni sensoriali; sposta i dettagli "
+            f"logici nelle Note per il DM. Usa find-long-boxed.py per le righe esatte."
+        )
+    if metrics['density'] < 0.35:
+        s.append(
+            f"Densità informativa {metrics['density']} (target > 0.35): "
+            f"poca sostanza per riga. Aggiungi dati strutturati (CD, tabelle, "
+            f"esiti) o taglia la prosa di riempimento."
+        )
+    if metrics['dialogue_total_pct'] > 20:
+        s.append(
+            f"Dialogo diretto {metrics['dialogue_total_pct']}% (target < 20%): "
+            f"il modulo tende al copione. Converti le battute non essenziali in "
+            f"bullet di intenzione ('Gorim spiega che...')."
+        )
+    if metrics['lines_per_heading'] < 5:
+        s.append(
+            f"Frammentazione heading ({metrics['lines_per_heading']} righe/heading, "
+            f"target > 5): accorpa sezioni troppo corte sotto un titolo comune."
+        )
     if metrics['hr_lines'] > 0:
-        print(f"  ⚠️  {metrics['hr_lines']} linee HR (---): rimuovere")
+        s.append(
+            f"{metrics['hr_lines']} separatori HR (---): rimuovili, la struttura "
+            f"la danno i titoli."
+        )
+    return s
 
 
 def print_summary(all_metrics):
@@ -294,6 +329,22 @@ def print_summary(all_metrics):
     print(f"    Blocchi boxed >5:     0 (eccezioni documentate)")
     print(f"    Dialogo diretto:      < 20% (ideale < 15%)")
     print(f"    Righe per heading:    > 5 (ideale > 7)")
+
+    # Suggerimenti aggregati: cosa migliorare al prossimo giro, per file
+    per_file = [(os.path.basename(m["file"]), build_suggestions(m)) for m in all_metrics]
+    con_problemi = [(n, sg) for n, sg in per_file if sg]
+    print()
+    print(f"{'#' * 60}")
+    if con_problemi:
+        print(f"  DA MIGLIORARE AL PROSSIMO GIRO ({len(con_problemi)} file)")
+        print(f"{'#' * 60}")
+        for nome, sugg in con_problemi:
+            print(f"\n  {nome}:")
+            for s in sugg:
+                print(f"    - {s}")
+    else:
+        print(f"  NESSUN SUGGERIMENTO: tutti i file sono nei target di stile.")
+        print(f"{'#' * 60}")
 
 
 def main():

@@ -2,6 +2,21 @@
 
 Assistente specializzato nella creazione di avventure Dungeons & Dragons. Usa questa skill quando lavori su qualsiasi contenuto D&D in questo progetto.
 
+## Divisione dei ruoli: scrittura al narratore, verifica all'orchestratore
+
+Quando crei o modifichi un'avventura, separa i due compiti:
+
+- **La scrittura va delegata al narratore.** Ideare e comporre contenuto (documento principale, moduli, schede NPC, descrizioni, scene, dialoghi, progettazione degli incontri) è compito dell'agente `narratore`, che conosce struttura, naming convention, template e stile del progetto. Delegalo come sub-agent quando c'è contenuto da produrre.
+- **La verifica resta all'orchestratore (tu).** Il controllo di qualità della scrittura (stile, prosa, coerenza narrativa, buchi di sceneggiatura, ripetizioni) e il controllo formale con gli script della toolchain (check-adventure, measure-prose, encounter-difficulty, check-encounter-difficulty, validazione YAML/JSON) li esegui tu, che hai accesso alla shell e la visione d'insieme.
+
+Perché: quando il narratore è spawnato come sub-agent ha la shell disabilitata e non può eseguire gli script; se dichiara "verificato" ciò che ha solo stimato, introduce errori nascosti. Quando invece il narratore è agente diretto, può eseguire gli script per autoverifica, ma non deve modificarli: la manutenzione degli script è tua. Se uno script fallisce o dà valori incoerenti, il narratore ti passa la palla e tu decidi cosa farne (riparare lo script, cambiare l'input, o ignorarne l'esito con motivazione). Quindi:
+
+1. Deleghi al narratore la scrittura o la modifica del contenuto.
+2. Il narratore produce e segnala quali verifiche restano (o l'esito di quelle che ha potuto eseguire).
+3. Tu esegui o riesegui le verifiche di qualità e formali; se emergono problemi di contenuto li rimandi al narratore, se emergono problemi negli script li risolvi tu.
+
+Non delegare mai al sub-agent la manutenzione degli script, e non accettare come "verificato" ciò che il narratore ha solo stimato a mano.
+
 ## Regole Generali per la Costruzione di Avventure
 
 ### Struttura di un'Avventura

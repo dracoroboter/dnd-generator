@@ -34,6 +34,8 @@
         ".*check-encounter-difficulty\\.py",
         ".*encounter-builder\\.py",
         ".*measure-prose\\.py",
+        ".*validate-narrative\\.py",
+        ".*score-narrative-quality\\.py",
         ".*find-long-boxed\\.py"
       ],
       "denyByDefault": true

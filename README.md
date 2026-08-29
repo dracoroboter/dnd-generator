@@ -236,6 +236,8 @@ dungeonandragon/
 | `md-to-pdf.py` | Python | Converte un Markdown generico in PDF con il CSS avventura (auto-detect DM_Prep per page-break) |
 | `project-size.py` | Python | Calcola la dimensione del progetto suddivisa per categoria (solo file tracciati da git) |
 | `rebuild-stereotypes-index.py` | Python | Rigenera `narrative-stereotypes-index.md` dal YAML e aggiorna il conteggio nell'header |
+| `score-narrative-quality.py` | Python | Punteggio 0-100 di coerenza e compattezza narrativa di un'avventura (logline, perciò/ma, setup/payoff, matrice tematica). Vedi skill `narrative-quality` |
+| `validate-syntax.py` | Python | Valida la sintassi di file YAML/JSON senza codice inline (evita l'escape PowerShell→wsl→bash). Preset `--agents`, `--narrative` |
 | `git-push.sh` | Bash | Add, commit e push in un colpo |
 | `setup.sh` | Bash | Installa dipendenze (pandoc, wkhtmltopdf, zip, python3, Node.js, Playwright) |
 | `backup.sh` | Bash | Backup del progetto (esclude `legacy/`) |
@@ -272,6 +274,8 @@ Skill committate con il progetto — configurano il comportamento di Kiro CLI qu
 |-------|-------|
 | `dungeonmaster` | Assistente D&D: regole di bilanciamento, linee guida NPC, struttura avventure |
 | `publish-adventure` | Procedura di pubblicazione: genera PDF + stat block + compendium + mappe e li copia in `public/` |
+| `narrative-quality` | Punteggio 0-100 di coerenza e compattezza narrativa (logline, perciò/ma, setup/payoff, matrice tematica) |
+| `refine-adventure` | Loop iterativo di miglioramento: validazione → correzione → giudizio umano → chiusura o nuovo giro (cap 3 giri) |
 | `check-kiro-profile` | Verifica che la sessione Kiro sia sul profilo hobby (Builder ID), non aziendale |
 
 ---

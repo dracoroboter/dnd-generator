@@ -505,3 +505,29 @@ Processo iterativo:
 4. Le regole sono storiche: violarle consapevolmente = colpo di scena
 
 Lanciare con: `@meta-narratore analizza [opera]` oppure `@meta-narratore valida la regola [X]`
+
+
+
+---
+
+## Loop di raffinamento avventure (refine-adventure)
+
+**Priorità: media**
+**Stato: prima forma operativa (skill descrittiva)**
+
+Ciclo iterativo per portare a maturità un'avventura o un modulo: validazione/giudizio → correzione → giudizio umano interattivo → chiusura o nuovo giro. Nasce dall'esperienza di revisione de Il Re Spezzato (agosto 2026), dove il valore è emerso dalla lettura critica dell'utente più che dagli script.
+
+### Decisioni prese (agosto 2026)
+
+- **Forma**: si parte da una **skill descrittiva** (`.kiro/skills/refine-adventure/SKILL.md`) che l'orchestratore segue. ✅ Fatto.
+- **Giudizio umano**: **libero** (prosa) in questa prima fase.
+- **Chiusura**: a **numero di giri, cap a 3**. Poi si rivaluta.
+- **Tracciamento**: **breve**, inline + riepilogo nel PlanBook dell'avventura. Serve per meta-analisi sul processo.
+
+### Esperimenti pianificati (da valutare dopo l'uso della prima forma)
+
+- [ ] **Opzione: log di raffinamento dedicato** per avventura (`adventures/<Nome>/meta/RefinementLog.md`) al posto del tracciamento inline nel PlanBook. Un giro per blocco: validazione automatica, giudizio orchestratore, correzioni, giudizio utente, decisione. Da valutare se il tracciamento breve inline si rivela insufficiente per la meta-analisi.
+- [ ] **Opzione: giudizio misto** (voti numerici per criterio + note libere) come seconda fase, estendendo il template di `score-narrative-quality.py`. Ora il giudizio è libero; il misto si sperimenta dopo.
+- [ ] **Opzione: pipeline automatica coi sub-agent** (validatore → correttore con `loop_to` e trigger). Più potente ma il punto di giudizio umano mal si presta all'automazione piena: un loop che si ferma ad aspettare l'utente a ogni giro non è davvero automatico. Da valutare solo se emerge un bisogno di batch.
+- [ ] **Meta-analisi**: dopo qualche avventura passata per il loop, rileggere i tracciamenti dei giri per capire quali critiche ricorrono (e quindi quali regole del narratore rafforzare). È lo scopo ultimo del tracciamento.
+- [ ] **Rivedere il cap a 3 giri** alla luce dell'esperienza reale.

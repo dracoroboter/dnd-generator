@@ -16,19 +16,13 @@
 - Agganci da L'Anello del Conte
 - Appendice — Il Medaglione delle Tre Vie
 
----
-
 ## Prologo — La convocazione
 
-> Un anno è passato.
->
-> Un giorno, un messaggero arriva. Porta una lettera con il sigillo reale di Drakenhold. Indirizzata ai PG, ovunque si trovino.
+> Un anno è passato. Un messaggero vi raggiunge, ovunque siate, e vi porge una lettera chiusa dal sigillo reale di Drakenhold.
 >
 > *"Sir Gorim Vel richiede la vostra presenza alla capitale. Partite immediatamente."*
 >
 > Il Gorim che troverete non è quello che ricordate.
-
----
 
 ## Lore
 
@@ -41,6 +35,8 @@ Per evitare il collasso del regno, Dorian compì un rituale necromantico volto a
 Il rituale fallì. Dorian ottenne l'immortalità, ma la sua anima si spezzò in tre frammenti distinti, il **Paladino**, la **Guardia** e il **Pazzo**, ciascuno portatore di un tratto essenziale della sua natura. Nel momento di maggiore squilibrio, la Guardia, la parte più rigida e inflessibile, condannò a morte i tre figli per indegnità e, con la stessa freddezza che guidava i suoi giudizi, eseguì di persona la sentenza.
 
 Da quel momento, le tre anime emersero come entità incorporee che lottano per il controllo di Dorian, influenzando pensieri, decisioni e comportamenti. Ufficialmente Dorian è ancora il sovrano legittimo, giusto e temuto. Ma chi gli è vicino percepisce i segni della frattura interiore.
+
+Nota sul fumetto prologo: il prologo a fumetti mostra soltanto gli eventi visibili di questa sequenza, Dorian che assume il volto della Guardia e uccide di persona i tre figli, con rimorso, e non spiega la causa arcana di quel gesto. Il rituale necromantico e la conseguente frattura dell'anima restano il retroscena segreto, noto solo a Dorian e mai mostrato per non anticiparlo ai lettori. Chi legge il prologo vede il crollo di un padre, non il rituale che lo ha provocato.
 
 **Fianus Romanus** è un borgo nel sud di Drakenhold, governato dal Conte, un vassallo di Dorian il cui nome nessuno conosce. Nell'ultima puntata de L'Anello del Conte, il Conte muore per la Maledizione del Burmini. La morte del Conte e il vuoto di potere che ne segue trascinano i PG nella storia più grande di Drakenhold.
 
@@ -58,15 +54,11 @@ L'immortalità di Dorian non risiede nel corpo, ma nell'equilibrio dei tre framm
 
 Il Pazzo conosce il solo modo per spezzare il nodo, e lo conosce perché è la parte di Dorian che desidera la dissoluzione. Il metodo è tematico e semplice: il Medaglione può **separare i tre frammenti** invece di amplificarne uno. Portato al punto di frattura originale (o davanti a Dorian stesso nel rituale finale), il Medaglione può essere spinto a strappare le tre anime l'una dall'altra anziché sceglierne una. Separate, le tre anime non si trattengono più a vicenda: perdono l'immortalità e possono essere annientate una per una. È un fratricidio in tre atti. Il Pazzo lo chiama *"sciogliere il nodo"*. È l'unico modo per una morte vera, ed è per questo un atto irreversibile: non resta nulla di Dorian da ricomporre.
 
----
-
 ## Introduzione
 
 > Un anno è passato dalla morte del Conte. Fianus Romanus non è più lo stesso borgo sonnolento: il vuoto di potere ha portato tensioni, fazioni, e un'ombra che arriva dalla capitale. Sir Gorim Vel, il funzionario esasperato che vi aveva ingaggiato per cercare un anello, è un uomo diverso: serio, stanco, leale fino all'osso. È stato convocato a corte e ora serve direttamente Re Dorian Valemarch.
 >
 > Gorim vi ha mandato a chiamare. Non per un anello, questa volta. Per qualcosa di molto più grande.
-
----
 
 ## Plot generale
 
@@ -75,8 +67,6 @@ I PG vengono convocati da Gorim, ora confidente del Re. In un momento di lucidit
 Il Medaglione è un artefatto antico che può rafforzare una delle tre anime o costringerle a confrontarsi. Una volta recuperato, il Medaglione si lega al portatore e le tre anime iniziano a influenzare i PG attraverso sussurri, visioni e tentazioni. Le scelte morali dei PG spostano l'equilibrio tra le tre vie, determinando il destino di Dorian e di Drakenhold.
 
 La campagna è una **tragedia**: Dorian non è un mostro, è un uomo giusto che si è distrutto per amore del regno. I PG entrano nel terzo atto della sua caduta e ne decidono l'esito. La posta emotiva (chi è Dorian, cosa gli è successo, cosa merita) pesa più della posta militare (il destino politico di Drakenhold).
-
----
 
 ## Le Tre Vie
 
@@ -98,37 +88,41 @@ Personificazione della libertà senza freni, della metamorfosi continua, del cao
 
 **Se domina:** anarchia totale. Le istituzioni e le infrastrutture crollano. Il regno diventa una landa selvaggia.
 
----
-
 ## Le tre fazioni
 
-Le tre vie non restano astratte: ognuna ha un volto nel regno, una fazione che la incarna e la spinge. Le tre fazioni esistevano già a Drakenhold come correnti politiche prima della frattura di Dorian; la sua anima spezzata le ha risvegliate e polarizzate. Aiutare una fazione sposta il contatore del Medaglione verso la via corrispondente. Nessuna fazione è malvagia: ognuna ha ragioni comprensibili e un leader sincero. Sono Anti-Villain, non Signori Oscuri. La complessità della campagna sta qui, nel fatto che ciascuna ha in parte ragione.
+Le tre fazioni esistono a Drakenhold come correnti politiche legittime, nate molto prima della frattura di Dorian e del tutto ignare di essa. Nessuna sa del rituale, dell'anima spezzata o delle tre vie: ciascuna persegue in buona fede un ideale in sé sano e positivo, la Giustizia per la Fiamma Tersa, l'Ordine per la Mano di Ferro, la Libertà per i Senza Nome. Sono ideali onesti, che diventano mostruosi soltanto se portati alle estreme conseguenze.
 
-### L'Ordine della Fiamma Tersa — via del Paladino
+Il legame con le tre anime non nasce dalle fazioni, ma dal Medaglione e da Dorian spezzato, che a posteriori mappano queste correnti sulle tre vie. Non sono le fazioni a inseguire una via: è la Giustizia spinta all'estremo a coincidere con il Paladino, l'Ordine assoluto a coincidere con la Guardia, la Libertà totale a coincidere con il Pazzo. Nessuno persegue il caos in quanto tale; i Senza Nome inseguono la libertà, ed è la libertà senza freni a rivelarsi indistinguibile dal Pazzo. Aiutare una fazione sposta il contatore del Medaglione verso la via corrispondente, ma i membri della fazione ignorano questo effetto. Nessuna fazione è malvagia: ognuna ha ragioni comprensibili e un leader sincero. Sono Anti-Villain, non Signori Oscuri. La complessità della campagna sta qui, nel fatto che ciascuna ha in parte ragione.
+
+### L'Ordine della Fiamma Tersa
+
+**Ideale:** la Giustizia. La corrente politica corrisponde, senza saperlo, alla via del Paladino.
 
 **Volto:** **Madre Iselda**, inquisitrice e predicatrice. Non ipocrita: crede davvero che un regno moralmente marcio meriti la purificazione, e vive lei stessa secondo la disciplina più dura che impone agli altri. È amata dai poveri, che vedono in lei l'unica che punisce anche i potenti.
 
-**Cosa vuole:** un Drakenhold senza peccato. Rafforzare in Dorian la via del Paladino perché il Re diventi il giudice perfetto e incorruttibile che il regno merita.
+**Cosa vuole:** un Drakenhold senza peccato. Iselda vuole che il Re torni a essere il giudice perfetto e incorruttibile che il regno merita, e preme perché Dorian abbracci una giustizia totale. Non sa nulla del Medaglione né delle tre anime: crede semplicemente in un sovrano giusto.
 
 **Vittime visibili:** cittadini arrestati per "pensieri impuri", confessioni estorte, libri bruciati. Un NPC che i PG hanno imparato ad apprezzare finisce nelle celle della Fiamma per una colpa minima.
 
-### La Mano di Ferro — via della Guardia
+### La Mano di Ferro
+
+**Ideale:** l'Ordine. La corrente politica corrisponde, senza saperlo, alla via della Guardia.
 
 **Volto:** **Lord Comandante Aldric Vorne**, capo della guardia reale. Leale, competente, senza ambizioni personali. Crede sinceramente che solo l'ordine assoluto salvi vite, e ha le cicatrici per dimostrare cosa succede quando l'ordine cede. Rispetta Gorim e i PG se li vede efficaci.
 
-**Cosa vuole:** sicurezza totale. Rafforzare la via della Guardia perché Dorian imponga l'ordine che tiene in piedi il regno mentre il Re vacilla.
+**Cosa vuole:** sicurezza totale. Aldric vuole che il Re imponga l'ordine che tiene in piedi il regno mentre il sovrano vacilla. Non conosce il Medaglione né le tre anime: vede solo un regno che rischia di sfaldarsi e un Re che deve tornare fermo.
 
 **Vittime visibili:** esecuzioni sommarie, coprifuoco, dissenso represso, una guerra "preventiva" ai confini. Un bambino giustiziato per un furto di pane, sotto una legge che Aldric applica senza gioia ma senza esitazione.
 
-### I Senza Nome — via del Pazzo
+### I Senza Nome
 
-**Volto:** **Vael**, profeta del caos. Non un pazzo da fumetto: un oratore affascinante che parla di libertà radicale, che dice ai servi che possono smettere di servire e ai prigionieri che possono smettere di obbedire. C'è una verità scomoda nelle sue parole.
+**Ideale:** la Libertà. La corrente politica corrisponde, senza saperlo, alla via del Pazzo.
 
-**Cosa vuole:** la dissoluzione del Re e del regno. Rafforzare la via del Pazzo perché Dorian si sciolga e Drakenhold torni libero, senza corona, senza legge.
+**Volto:** **Vael**, profeta della libertà radicale. Non un pazzo da fumetto: un oratore affascinante che parla di libertà assoluta, che dice ai servi che possono smettere di servire e ai prigionieri che possono smettere di obbedire. C'è una verità scomoda nelle sue parole.
+
+**Cosa vuole:** un regno senza catene. Vael vuole abbattere la corona e la legge perché Drakenhold torni libero, senza padroni. Non sa nulla del Medaglione né dell'anima spezzata: insegue la libertà come fine, ignaro che la libertà assoluta coincide con la dissoluzione.
 
 **Vittime visibili:** istituzioni che crollano, magazzini saccheggiati, un ponte fatto saltare "per liberare il fiume", il vuoto lasciato dove c'era la struttura. La libertà dei Senza Nome è anche la fame di chi dipendeva da quella struttura.
-
----
 
 ## I tre figli
 
@@ -157,8 +151,6 @@ I tre figli di Dorian furono giudicati indegni e uccisi dalla Guardia. Sono i si
 
 **Nel finale**, il destino dei tre figli è una delle varianti minori: il Paladino li condanna ancora (li ritiene meritevoli della morte), il Pazzo li libera (li dissolve nel nulla come Dorian), la Guardia li nega (non riconosce di aver sbagliato). Quale figlio sopravvive, se qualcuno, dipende dalla via e dalle scelte dei PG.
 
----
-
 ## NPC principali
 
 Le schede complete sono nella sezione characters.
@@ -185,8 +177,6 @@ Gorim non conosce la verità sul rituale. Sa solo che il Re è cambiato e che il
 
 Madre Iselda (Fiamma Tersa / Paladino), Lord Comandante Aldric Vorne (Mano di Ferro / Guardia), Vael (Senza Nome / Pazzo). Vedi la sezione "Le tre fazioni". Sono tre NPC forti, uno per via, ciascuno con ragioni credibili.
 
----
-
 ## Luoghi
 
 | Luogo | Descrizione | Moduli |
@@ -198,8 +188,6 @@ Madre Iselda (Fiamma Tersa / Paladino), Lord Comandante Aldric Vorne (Mano di Fe
 | **Il punto di frattura** | Il luogo (a Nerrok o davanti a Dorian) dove si compie il rituale finale sull'anima del Re. Convergenza di tutti i finali. | 5 |
 
 Luoghi minori (derive delle vie, roccaforti delle fazioni, ritorno dei figli) sono definiti nei singoli moduli M2-M5.
-
----
 
 ## Consigli al master
 
@@ -225,18 +213,16 @@ Questo è il rischio numero uno della campagna. Se i PG non hanno mai conosciuto
 
 Regola: senza il legame (affezione), non c'è Piedistallo Spezzato, né Sacrificio Volontario, né Resa dei Conti emotiva. Dedicate a questo il tempo necessario nel Modulo 2.
 
----
-
 ## Struttura dell'avventura
 
-La campagna è **autoconclusiva**: si apre con la convocazione di Gorim e si chiude con il destino dell'anima di Dorian. Livelli **lv7 → lv12**, circa **20 sessioni** distribuite su **5 moduli densi** (circa 4 sessioni ciascuno). La struttura converge sugli snodi fisici (i luoghi e gli eventi che tutti attraversano) e diverge sulle conseguenze (determinate dal contatore del Medaglione e dalle scelte dei PG).
+La campagna è **autoconclusiva**: si apre con la convocazione di Gorim e si chiude con il destino dell'anima di Dorian. Livelli **lv5 → lv10**, circa **20 sessioni** distribuite su **5 moduli densi** (circa 4 sessioni ciascuno), con una progressione di un livello per modulo. La struttura converge sugli snodi fisici (i luoghi e gli eventi che tutti attraversano) e diverge sulle conseguenze (determinate dal contatore del Medaglione e dalle scelte dei PG).
 
 ### Modulo 1 — Le Miniere di Nerrok (esiste)
 
 **Funzione narrativa:** hook, cambio di tono, il Medaglione, primo contatto con le tre anime.
 **Plot:** La Cerca, Il Mistero.
 **Posta in gioco:** un artefatto (micro); il legame con l'anima spezzata del Re (macro, nascosta).
-**Sessioni:** circa 2. **Livello PG:** lv7.
+**Sessioni:** circa 2. **Livello PG:** lv5 → lv6.
 
 I PG vengono inviati da Gorim nelle miniere abbandonate di Nerrok per recuperare il Medaglione delle Tre Vie. Le miniere sono instabili, infestate da echi del rituale fallito. Il Medaglione viene trovato e si lega al portatore. All'uscita, i simulacri dei tre figli uccisi bloccano la via: il primo confronto con le tre anime e la prima scelta morale.
 
@@ -248,18 +234,18 @@ Semina i Fucili di Čechov: i tre simboli (spada, scudo, spirale), il sangue dei
 **Funzione narrativa:** costruire il legame con Dorian, introdurre le tre fazioni.
 **Plot:** Viaggio, La Corte Decadente, Il Mistero.
 **Posta in gioco:** una città sull'orlo, e il primo incontro col Re.
-**Sessioni:** circa 4. **Livello PG:** lv7 → lv8.
+**Sessioni:** circa 4. **Livello PG:** lv6 → lv7.
 
 I PG raggiungono la capitale con il Medaglione. Qui si soddisfa la regola "il legame prima del finale". Incontrano Dorian in almeno due o tre fasi diverse (lucido e nobile, poi Guardia freddo e terribile, forse un lampo di Pazzo). Il contrasto costruisce sia affetto sia orrore. Scoprono la crepa dietro il re venerato dal regno (Piedistallo Spezzato in corso).
 
-Le tre fazioni si presentano: la Fiamma Tersa di Iselda, la Mano di Ferro di Aldric, i Senza Nome di Vael. Ognuna corteggia i PG, ognuna vuole il Medaglione, ognuna offre ragioni credibili. Le prime scelte dei PG cominciano a spostare il contatore. Rivelazione parziale numero uno: i figli esistevano, sono "scomparsi", nessuno ha visto i corpi (collega ai simulacri di Nerrok).
+Le tre fazioni si presentano: la Fiamma Tersa di Iselda, la Mano di Ferro di Aldric, i Senza Nome di Vael. Ognuna corteggia i PG, ognuna offre ragioni credibili. Nessuna sa del Medaglione né lo desidera: quello che ciascuna vuole è influenzare il Re verso il proprio ideale, e vede nei PG (arrivati a corte al servizio di Gorim) una pedina utile da tirare dalla propria parte. Le prime scelte dei PG cominciano a spostare il contatore, senza che le fazioni ne conoscano l'esistenza. Rivelazione parziale numero uno: i figli esistevano, sono "scomparsi", nessuno ha visto i corpi (collega ai simulacri di Nerrok).
 
 ### Modulo 3 — Il Ritorno dei Figli
 
 **Funzione narrativa:** payoff dei simulacri, rivelazione della verità sul rituale.
 **Plot:** Il Ritorno Sbagliato, La Scoperta della Verità, Spalle al Muro.
 **Posta in gioco:** un figlio torna, vittima o minaccia?
-**Sessioni:** circa 4. **Livello PG:** lv8 → lv9 → lv10.
+**Sessioni:** circa 4. **Livello PG:** lv7 → lv8.
 
 Payoff del Fucile di Čechov piantato a Nerrok. Aldous, il primogenito mite, torna per primo (evocato dallo squilibrio del Medaglione), quasi lucido e dolce. Lysia si manifesta come voce che conosce la verità. Attraverso di loro i PG apprendono perché i figli furono giudicati "indegni" e perché la Guardia li uccise, e cominciano a dubitare che quel giudizio fosse giusto. Colpo di scena preparato dalla semina di M1 e M2 (Regola dei Tre Indizi). La lettura si ribalta: forse i figli non erano così indegni, forse Dorian sbagliò. Questo cambia la relazione dei PG con il Re: nasce pietà o condanna.
 
@@ -268,7 +254,7 @@ Payoff del Fucile di Čechov piantato a Nerrok. Aldous, il primogenito mite, tor
 **Funzione narrativa:** mostrare le conseguenze di una via dominante, l'Ora più Buia.
 **Plot:** La Ribellione o L'Apocalisse in Corso (secondo la via), L'Ora più Buia.
 **Posta in gioco:** una regione, e poi il regno, sotto la deriva della via più forte.
-**Sessioni:** circa 4. **Livello PG:** lv10 → lv11.
+**Sessioni:** circa 4. **Livello PG:** lv8 → lv9.
 
 Lo Specchio: i PG vedono cosa succede quando una via vince. La via col punteggio più alto detta la deriva: la Grande Purificazione della Fiamma Tersa, lo stato di polizia della Mano di Ferro, l'anarchia dei Senza Nome. Vittime concrete, costruzione dell'odio verso gli effetti. Corven, il secondo figlio, torna rabbioso e corrotto dalla via dominante, come Alleato Scomodo o Nemesi.
 
@@ -279,11 +265,9 @@ L'Ora più Buia: un colpo devastante che dà fondo emotivo al climax. Opzioni (s
 **Funzione narrativa:** Resa dei Conti emotiva, convergenza pilotata sui tre finali.
 **Plot:** La Resa dei Conti, Il Dilemma del Carrello, poi Rinascita / Tragedia / Sconfiggere il Mostro.
 **Posta in gioco:** l'anima di un uomo e il destino del regno.
-**Sessioni:** circa 4. **Livello PG:** lv11 → lv12.
+**Sessioni:** circa 4. **Livello PG:** lv9 → lv10.
 
 Il climax non è una barra di punti ferita: è una scelta morale e un rituale a fasi, ognuna legata a una delle tre vie. Il Dilemma del Carrello finale: ricomporre l'anima, lasciar dominare una via, o sciogliere il nodo e uccidere l'immortale. La Terza Via (ricomporre) funziona solo se i PG hanno visto le alternative in M4. La Vittoria per Grazia: se i PG hanno mostrato pietà lungo la campagna, un atto precedente può sbloccare la ricomposizione, evitando il Deus Ex Machina. Il Debriefing chiude la campagna mostrando in dettaglio il regno risultante. Vedi "Possibili finali".
-
----
 
 ## Possibili finali
 
@@ -321,8 +305,6 @@ Dorian sopravvive come incarnazione di un solo frammento: non è più un uomo, �
 Il regno non può essere salvato finché Dorian vive. I PG spingono il Medaglione a separare i tre frammenti anziché sceglierne uno. Separate, le tre anime perdono l'immortalità e possono essere annientate una per una: un fratricidio in tre atti. È l'esito più cupo e irreversibile: non resta nulla di Dorian da ricomporre. Il Pazzo conosce questo metodo e lo rivela solo se domina o se i PG glielo strappano. È una uscita, non la premessa: va giocata come la scelta grimdark, non come "sconfiggere il boss".
 **Varianti minori:** se i PG affrontano i tre frammenti in sequenza o simultaneamente; se un figlio tornato li aiuta (Corven vuole vendetta); il costo umano (chi cade nel fratricidio); chi raccoglie il regno senza corona.
 
----
-
 ## Agganci da L'Anello del Conte
 
 Nota: la continuità con i PG de L'Anello del Conte è un fatto della campagna personale dell'autore, non un vincolo dell'avventura scritta. Gli agganci qui sotto funzionano con qualsiasi party: chiunque abbia conosciuto Gorim, o anche solo abbia una reputazione che arriva a corte, può essere convocato.
@@ -333,8 +315,6 @@ Nota: la continuità con i PG de L'Anello del Conte è un fatto della campagna p
 - I PG vengono ricontattati da Gorim per la missione a Nerrok.
 - Il tono cambia radicalmente: dalla commedia al dramma.
 - Sergius: la sua trama si è risolta (o è diventata irrilevante) con la morte del Conte.
-
----
 
 ## Appendice — Il Medaglione delle Tre Vie
 

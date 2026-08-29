@@ -29,8 +29,8 @@ Istruzioni per Kiro quando lavora su questa avventura.
 
 - La morte del Conte nell'ultima puntata è il gancio
 - Gorim cambia: da funzionario comico a confidente serio del Re
-- Tra le due avventure passa un anno (e, nella campagna dell'autore, una campagna intermedia che porta i PG a lv7)
-- I PG partono a lv7 e arrivano a lv12 nell'arco della campagna
+- Tra le due avventure passa un anno (e, nella campagna dell'autore, una campagna intermedia che porta i PG a lv5)
+- I PG partono a lv5 e arrivano a lv10 nell'arco della campagna (un livello per modulo)
 - Nota: l'avventura scritta NON assume PG specifici. La continuità coi PG dell'Anello del Conte è un fatto della campagna personale dell'autore. Gli agganci funzionano con qualsiasi party (chiunque porti il Medaglione è convocato da Gorim).
 
 ## Note di design (impalcatura, non prodotto)
