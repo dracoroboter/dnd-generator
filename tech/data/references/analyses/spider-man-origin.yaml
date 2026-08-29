@@ -1,0 +1,707 @@
+# Analisi: Spider-Man — Origin Story (come arco personaggio D&D)
+# Data: 2026-08-29
+# Esito: completa
+# Fonti: Spider-Man film Sam Raimi (2002) + Amazing Fantasy #15 (1962, Stan Lee / Steve Ditko)
+# Note: Analisi dell'origin story come arco di un singolo PG (Peter Parker) con
+#   focus sulla struttura eroe riluttante e la nemesi personale.
+#   PG: Peter Parker / Spider-Man
+#   NPC: Zio Ben, Green Goblin / Norman Osborn, Mary Jane Watson, Harry Osborn, J. Jonah Jameson
+
+opera:
+  titolo: "Spider-Man — Origin Story"
+  tipo: "film + fumetto"
+  epoca: "1962 (fumetto) / 2002 (film Raimi)"
+  genere_dnd_compatibile: true
+  note: >
+    Arco di un singolo PG che passa da Da Povero a Ricco a Tragedia personale
+    a Sconfiggere il Mostro. La peculiarità è che il trigger dell'avventura non
+    è un evento esterno (un attacco, un quest giver) ma un FALLIMENTO MORALE del
+    PG stesso — la scelta di non agire causa la morte dello zio. Questo rende
+    l'arco unico: il PG è contemporaneamente la causa e la vittima del proprio
+    inciting incident. Applicabile in D&D come backstory di PG o come arco di
+    primo livello dove il party fallisce una prova morale e ne paga le
+    conseguenze.
+    Livello D&D equivalente: 1-5 (da commoner con poteri a eroe riluttante).
+
+# ============================================================
+# STRUTTURA GLOBALE
+# ============================================================
+
+struttura:
+  plot_principale: Da Povero a Ricco
+  plot_secondari:
+    - Sconfiggere il Mostro
+    - La Vendetta
+    - La Rivalità
+    - La Tentazione
+  meta_plot: "Il potere come responsabilità, non come privilegio"
+
+  temi_portanti:
+    - nome: "Da grande potere deriva grande responsabilità"
+      funzione_narrativa: >
+        È il motore dell'intero arco. Non è un motto astratto — è la LEZIONE
+        appresa dalla morte dello zio. Peter ha il potere, sceglie di non usarlo
+        (egoismo adolescenziale), e la conseguenza è irreversibile. Da quel
+        momento ogni scelta di Peter è filtrata da questa regola: il potere
+        OBBLIGA all'azione. In termini D&D è un giuramento non pronunciato che
+        funziona come l'oath di un paladino — violarlo ha conseguenze narrative.
+      stereotipi_coinvolti:
+        - Il Debito d'Onore (La Promessa)
+        - Lo Specchio Interiore (La Virtù Fatale)
+        - Il Contatore
+
+    - nome: "L'identità segreta come fonte di tensione permanente"
+      funzione_narrativa: >
+        Peter ha DUE vite che si contraddicono. Come Spider-Man è potente e
+        libero; come Peter Parker è debole e vincolato. Il doppio segreto (gli
+        altri non sanno chi è, LUI non può dire chi è) genera tensione costante:
+        ogni relazione è costruita su una menzogna per omissione. In D&D questo
+        è applicabile come un vincolo di background: il PG ha un segreto che se
+        rivelato cambierebbe tutto — e deve scegliere continuamente tra il
+        segreto e le persone a cui tiene.
+      stereotipi_coinvolti:
+        - La Masquerade (Il Segreto del Mondo)
+        - Il Segreto Inconfessabile
+        - Spalle al Muro (La Scelta Impossibile)
+        - La Lealtà Divisa
+
+    - nome: "La nemesi personale come specchio"
+      funzione_narrativa: >
+        Green Goblin/Norman Osborn è il padre del migliore amico di Peter.
+        Sconfiggere il villain = distruggere la famiglia dell'amico. IL NEMICO
+        NON PUÒ ESSERE SEPARATO DALLA VITA CIVILE. Questa è la chiave: in D&D
+        un villain è "là fuori" — per Spider-Man il villain è a tavola per il
+        Ringraziamento. Ogni azione contro il Goblin colpisce Harry. Ogni
+        inazione protegge Harry ma mette in pericolo la città.
+      stereotipi_coinvolti:
+        - La Nemesi
+        - Lo Specchio (Il Doppio Oscuro)
+        - Spalle al Muro (La Scelta Impossibile)
+        - La Lealtà Divisa
+
+  # ============================================================
+  # ARCO: Origin Story
+  # Da nerd con poteri a eroe riluttante a protettore di New York
+  # ============================================================
+
+  archi:
+    - nome: "L'Origin Story — Da Grande Potere..."
+      plot_arco: [Da Povero a Ricco, Sconfiggere il Mostro, La Tentazione]
+      escalation: "Personale → familiare → cittadina (il Goblin minaccia tutta New York)"
+      posta_in_gioco: "L'anima di Peter (chi voglio essere?) + la vita di chi ama"
+
+      fasi:
+        - nome: "Fase 1 — La Vita Prima (La Falsa Pace)"
+          descrizione: >
+            Peter Parker è un adolescente nerd, emarginato, innamorato non
+            corrisposto di Mary Jane, cresciuto dagli zii. Ha una vita
+            ordinaria ma insoddisfacente. La mancanza è sociale, non materiale.
+          stereotipi:
+            - La Falsa Pace
+            - Il Pesce fuor d'Acqua
+
+        - nome: "Fase 2 — Il Morso (L'Eletto / L'Assegnazione del Ruolo)"
+          descrizione: >
+            Il ragno radioattivo/geneticamente modificato morde Peter. I poteri
+            arrivano senza scelta — non li ha cercati, non li ha voluti, non li
+            capisce. È l'Assegnazione del Ruolo nella variante più brutale:
+            il destino ti sceglie, non il contrario.
+          stereotipi:
+            - L'Eletto (Il Predestinato)
+            - L'Assegnazione del Ruolo
+
+        - nome: "Fase 3 — L'Egoismo (La Tentazione)"
+          descrizione: >
+            Peter usa i poteri per sé: soldi (wrestling), vendetta (bullo),
+            fama. NON è un eroe — è un adolescente con un giocattolo nuovo.
+            Rifiuta la responsabilità. Nel fumetto lascia fuggire il ladro
+            perché "non è affar mio". Nel film fa lo stesso con il promoter
+            che lo ha fregato. Questa è la scelta fatale.
+          stereotipi:
+            - La Tentazione (La Discesa)
+            - L'Eroe Riluttante
+          nota_dnd: >
+            Trasponibile: un PG ottiene un potere e sceglie di usarlo per
+            profitto personale anziché per il bene. La conseguenza non è
+            una punizione del DM — è una conseguenza NARRATIVA che il mondo
+            produce naturalmente. Il ladro che il PG ha lasciato andare
+            uccide qualcuno che il PG ama.
+
+        - nome: "Fase 4 — La Morte di Zio Ben (La Casa Distrutta)"
+          descrizione: >
+            Lo stesso ladro che Peter ha lasciato fuggire uccide Zio Ben.
+            Peter scopre la connessione: la sua INAZIONE ha causato la morte.
+            Non è un evento esterno — è una conseguenza diretta della sua
+            scelta egoista. Questo è il vero inciting incident: non il morso
+            (che dà i poteri) ma la morte (che dà il dovere).
+          stereotipi:
+            - La Casa Distrutta
+            - La Scelta Retroattiva
+            - Il Nemico Creato
+            - Il Legame (affezione)
+          nota_dnd: >
+            Questa è una delle strutture più potenti per un'origin story D&D:
+            il PG non è spinto all'avventura da un evento esterno (il villaggio
+            brucia) ma dalla CONSAPEVOLEZZA che la sua inazione ha causato una
+            tragedia. Il peso morale è enormemente superiore perché è
+            autoinflitta. Richiede: (1) costruire il Legame con lo zio PRIMA;
+            (2) dare al PG una scelta apparentemente innocua (lasciar andare
+            qualcuno); (3) rivelare dopo che quella scelta ha avuto conseguenze
+            mortali. La Scelta Retroattiva nella sua forma più devastante.
+
+        - nome: "Fase 5 — L'Eroe Riluttante Accetta (Il Debito d'Onore)"
+          descrizione: >
+            Peter accetta la responsabilità. Non per eroismo naturale, non per
+            desiderio di giustizia — per COLPA. È un eroe mosso dal senso di
+            colpa, non dall'idealismo. "Da grande potere..." non è un motto
+            ispiratore — è un memento mori. Ogni volta che esita, ricorda lo
+            zio. Il senso di colpa è il motore, non la virtù.
+          stereotipi:
+            - L'Eroe Riluttante
+            - Il Debito d'Onore (La Promessa)
+          nota_dnd: >
+            In D&D: il PG non ha un giuramento formale (non è un paladino) ma
+            ha un vincolo narrativo equivalente. Ogni volta che potrebbe non
+            agire, la voce dello zio (o il ricordo) lo spinge. È un Legame
+            (ideale) costruito sulla colpa, non sull'ammirazione. Funziona
+            magnificamente per PG rogues o fighters che non hanno un codice
+            formale ma hanno una bussola morale forgiata dalla perdita.
+
+        - nome: "Fase 6 — Il Doppio Segreto (La Masquerade)"
+          descrizione: >
+            Peter mantiene l'identità segreta. Questo crea una tensione
+            permanente: Mary Jane non sa perché sparisce, Harry non sa chi è
+            il nemico di suo padre, Zia May non sa che suo nipote rischia la
+            vita ogni notte. Il segreto protegge chi ama MA distrugge le
+            relazioni. È una scelta impossibile permanente: rivelare =
+            mettere in pericolo; nascondere = perdere le persone.
+          stereotipi:
+            - La Masquerade (Il Segreto del Mondo)
+            - Il Segreto Inconfessabile
+            - Lo Specchio Interiore (La Virtù Fatale)
+          nota_dnd: >
+            Trasponibile come vincolo di PG: il personaggio ha un segreto che
+            se rivelato esporrebbe i suoi cari a pericolo. Il DM può forzare
+            il dilemma: "L'NPC ti chiede direttamente se sei tu. Mentire
+            preserva la sicurezza ma distrugge il rapporto. Dire la verità
+            lo mette nel mirino." Funziona SOLO se il Legame con l'NPC è
+            stato costruito prima.
+
+        - nome: "Fase 7 — La Nemesi Personale (Green Goblin)"
+          descrizione: >
+            Norman Osborn diventa Green Goblin. È il padre surrogato (mentore
+            scientifico di Peter), il padre del migliore amico (Harry), e un
+            pazzo omicida. IL NEMICO È DENTRO LA FAMIGLIA. Peter non può
+            combattere Norman senza distruggere Harry. Norman non può
+            combattere Spider-Man senza scoprire che è il ragazzino che
+            ammira. Quando lo scopre, colpisce dove fa più male: le persone
+            che Peter ama.
+          stereotipi:
+            - La Nemesi
+            - Lo Specchio (Il Doppio Oscuro)
+            - La Lealtà Divisa
+            - Il Piedistallo Spezzato
+          nota_dnd: >
+            La struttura è: il villain è qualcuno LEGATO affettivamente al PG
+            attraverso un terzo NPC. Non è il padre del PG (troppo diretto) —
+            è il padre dell'AMICO. Ogni azione ha un costo relazionale. Il DM
+            può costruire questo facendo passare il villain come NPC benevolo
+            per 2-3 sessioni, costruendo il legame col figlio, e poi rivelando
+            la doppia identità. Il tradimento non è verso il PG direttamente —
+            è verso il mondo che il PG ama.
+
+        - nome: "Fase 8 — La Scelta Impossibile (Mary Jane o il Tram)"
+          descrizione: >
+            Green Goblin forza la scelta: Mary Jane da una parte, un tram pieno
+            di bambini dall'altra. "Chi salvi?" È il Trolley Problem reso
+            narrativo. Peter trova una Terza Via (salva entrambi) ma la
+            struttura della scelta è il climax emotivo: il villain ha capito
+            che il modo per distruggere Spider-Man non è la forza — è
+            COSTRINGERLO a scegliere tra il dovere e l'amore.
+          stereotipi:
+            - Spalle al Muro (La Scelta Impossibile)
+            - La Terza Via (Tagliare il Nodo)
+            - La Costruzione dell'Odio
+          nota_dnd: >
+            In D&D: il villain NON deve lasciare una terza via PREVISTA — ma
+            se i PG la trovano con ingegno, premiarla. La struttura è: il
+            villain ha studiato i PG e colpisce esattamente nel punto dove il
+            dovere contraddice l'affetto. Per costruirla servono: (1) Legame
+            con NPC in pericolo; (2) Dovere verso innocenti; (3) Timer che
+            impedisce di fare entrambe le cose. Se i PG trovano un modo
+            creativo, è una vittoria meritata. Se non lo trovano, la scelta
+            deve avere conseguenze PERMANENTI.
+
+        - nome: "Fase 9 — La Rinuncia (Il Prezzo della Vittoria)"
+          descrizione: >
+            Peter sconfigge il Goblin, Norman muore. Ma Peter non può stare
+            con Mary Jane — perché i suoi nemici la userebbero come arma.
+            La vittoria ha un prezzo: la solitudine. Il lieto fine gli è
+            negato DALLA SUA STESSA VIRTÙ. La responsabilità che lo rende
+            eroe è la stessa che gli nega la felicità. È Lo Specchio Interiore
+            nella sua forma più pura: la virtù È il difetto fatale.
+          stereotipi:
+            - Il Prezzo della Vittoria
+            - Lo Specchio Interiore (La Virtù Fatale)
+            - La Vittoria di Pirro
+            - Il Debito d'Onore (La Promessa)
+          nota_dnd: >
+            Il finale non è un lieto fine classico. Il PG vince ma paga un
+            costo personale permanente. Questo è raro in D&D (dove la vittoria
+            è generalmente celebrata) ma potente per archi maturi. Il DM può
+            offrirlo come scelta: "puoi avere la felicità personale, ma dovrai
+            smettere di proteggere la città. Oppure puoi continuare — ma solo."
+
+      # ============================================================
+      # PERSONAGGI
+      # ============================================================
+
+      personaggi:
+        - nome: Peter Parker / Spider-Man
+          ruolo: PG
+          archetipo: [L'Eroe Riluttante, L'Eletto (Il Predestinato), La Pedina del Destino]
+          funzione: >
+            Adolescente con poteri non richiesti, mosso dalla colpa. Non è un
+            eroe per vocazione — è un eroe per debito. La sua virtù (il senso
+            di responsabilità) è anche il suo difetto fatale (lo isola, lo
+            distrugge, i nemici la sfruttano). Unico tra gli eroi per la
+            totale assenza di desiderio di eroismo all'inizio.
+          arco: "Egoista adolescente → colpevole → eroe riluttante → protettore solitario"
+          virtù_fatale: "Il senso di responsabilità (lo obbliga ad agire anche a costo personale devastante)"
+          nota: >
+            In un tavolo D&D: il giocatore dovrebbe scegliere questo arco in
+            session zero. Non può essere imposto — è troppo personale. Il DM
+            fornisce le circostanze (morte dello zio, nemesi legata agli
+            affetti) ma il giocatore decide come reagisce il PG.
+
+        - nome: Zio Ben
+          ruolo: NPC
+          archetipo: [Il Mentore / Vecchio Saggio, L'Innocente]
+          funzione: >
+            Mentore morale (non tecnico/magico). Non insegna a combattere —
+            insegna a ESSERE. La sua morte è il trigger dell'avventura E la
+            fonte del codice morale del PG. È il Mentore che muore PRIMA
+            dell'avventura vera, non durante — la sua morte È l'avventura.
+          note: >
+            La frase "da grande potere..." è il suo lascito. In D&D: un NPC
+            mentore che muore nel modulo 1 e le cui parole guidano il PG per
+            tutta la campagna. Il Legame deve essere costruito in pochi
+            minuti ma con intensità (scene domestiche, affetto visibile,
+            un consiglio dato e ignorato che si rivela vero dopo).
+          morte: >
+            Causata indirettamente dal PG stesso (inazione = conseguenza).
+            Non è un sacrificio eroico — è un omicidio evitabile. La colpa
+            è del PG, non del villain. Questo è ciò che rende la morte
+            insopportabile: non è ingiustizia cosmica, è fallimento personale.
+
+        - nome: Norman Osborn / Green Goblin
+          ruolo: NPC antagonista
+          archetipo: [La Nemesi, Lo Specchio (Il Doppio Oscuro), Il Corruttore]
+          funzione: >
+            Padre dell'amico del PG. Scienziato brillante che diventa folle.
+            Specchio di Peter: entrambi trasformati dalla scienza, entrambi
+            con identità segreta, ma scelte morali opposte. Norman usa il
+            potere per dominio; Peter per responsabilità. Il Goblin SCOPRE
+            chi è Spider-Man e colpisce la vita civile — la Masquerade si
+            rompe dal lato sbagliato.
+          arco: "Mentor figure → villain → nemesi personale che sa il segreto"
+          note: >
+            Lo Specchio: stesso potere, stessa dualità, scelte opposte.
+            Norman è ciò che Peter diventerebbe se usasse i poteri per sé
+            (la Fase 3, la Tentazione, portata alle estreme conseguenze).
+            La morte di Norman è per mano propria (si infilza con il proprio
+            glider) — il villain è distrutto dalla propria arroganza, non
+            dalla forza dell'eroe. In D&D: il villain muore per una
+            conseguenza delle sue stesse azioni, non per un colpo del PG.
+          relazione_con_PG: >
+            Padre surrogato intellettuale → nemico che usa la conoscenza
+            personale come arma. Sa chi è Peter → colpisce Mary Jane e
+            Zia May. La Masquerade infranta è un'arma.
+
+        - nome: Mary Jane Watson
+          ruolo: NPC
+          archetipo: [L'Innocente (La Vittima da Proteggere)]
+          funzione: >
+            L'interesse romantico che non sa il segreto. La sua ignoranza la
+            protegge E la mette in pericolo. Per Peter rappresenta la vita
+            normale — ciò che avrebbe se non fosse Spider-Man. È il COSTO
+            visibile della scelta eroica: non può averla perché amarla =
+            metterla nel mirino.
+          note: >
+            In D&D: l'NPC che il PG ama ma che non può avere senza
+            esporlo al pericolo. È il centro di ogni Scelta Impossibile:
+            il villain la usa come leva. Il Legame deve essere costruito
+            affinché la minaccia colpisca il giocatore.
+
+        - nome: Harry Osborn
+          ruolo: NPC
+          archetipo: [Il Companion Fedele, Il Rivale Caduto (potenziale)]
+          funzione: >
+            Il migliore amico il cui padre è il villain. Harry non sa —
+            né che Norman è il Goblin, né che Peter è Spider-Man. È il
+            nodo impossibile: l'amicizia con Harry è incompatibile con la
+            missione di fermare Norman. Nella saga, Harry diventa nemesi
+            a sua volta (eredità del padre) — è L'Eredità Pesante incarnata.
+          note: >
+            Setup per archi futuri: Harry scoprirà la verità e diventerà
+            il Nuovo Goblin (L'Eredità Pesante + Il Rivale Caduto + Il
+            Nemico Creato). Il DM può pianificarlo su più avventure:
+            l'amico fedele che diventa nemesi perché il PG ha ucciso suo
+            padre. Devastante se il Legame è stato costruito.
+
+        - nome: J. Jonah Jameson
+          ruolo: NPC
+          archetipo: [Il Buon Diavolo (L'Antagonista Innocuo), La Voce della Ragione (perversa)]
+          funzione: >
+            L'antagonista sociale. Non è un villain — è un rompiscatole.
+            Dipinge Spider-Man come minaccia pubblica. Crea la tensione
+            sociale: il PG è eroe ma il mondo lo odia. Variante del
+            Profeta Ignorato al contrario: il "profeta" dice il FALSO e
+            viene creduto.
+          note: >
+            In D&D: l'NPC potente (un nobile, un giornalista, un prete)
+            che dipinge il party come criminali. Non è un villain da
+            sconfiggere — è un OSTACOLO SOCIALE da gestire con Persuasione,
+            non con Attacco. Funziona come timer di reputazione: più
+            Jameson pubblica, più la vita civile peggiora.
+
+      # ============================================================
+      # TECNICHE NARRATIVE USATE
+      # ============================================================
+
+      tecniche:
+        - nome: Il Legame (affezione)
+          applicazione: >
+            Zio Ben costruito in poche scene ma con intensità: il consiglio
+            al tavolo, l'abbraccio, il passaggio in macchina. In D&D: poche
+            interazioni ma CALDE. Qualità > quantità.
+
+        - nome: La Scelta Retroattiva
+          applicazione: >
+            Peter lascia fuggire il ladro → il ladro uccide lo zio. La scelta
+            SEMBRAVA irrilevante al momento. È la forma più potente di
+            conseguenza: una non-azione con risultato mortale.
+
+        - nome: Lo Specchio (Il Doppio Oscuro)
+          applicazione: >
+            Peter e Norman: stessa trasformazione (scienza), stessa dualità
+            (civile/alter ego), stessa segretezza. Scelta morale opposta.
+            Norman è Peter senza freni morali — la Fase 3 (egoismo)
+            portata all'estremo e mai abbandonata.
+
+        - nome: Lo Specchio Interiore (La Virtù Fatale)
+          applicazione: >
+            Il senso di responsabilità di Peter lo rende eroe MA lo condanna
+            alla solitudine. Non può avere Mary Jane, non può avere una vita
+            normale, non può smettere. La virtù È la prigione.
+
+        - nome: La Masquerade (Il Segreto del Mondo)
+          applicazione: >
+            L'identità segreta come struttura portante. Ogni relazione è
+            costruita su una menzogna per omissione. Il segreto protegge E
+            distrugge simultaneamente.
+
+        - nome: La Costruzione dell'Odio
+          applicazione: >
+            Green Goblin: (1) attacca la città, (2) scopre chi è Peter,
+            (3) attacca Zia May, (4) rapisce Mary Jane, (5) forza la scelta
+            impossibile. Escalation di crudeltà PERSONALE.
+
+        - nome: Spalle al Muro (La Scelta Impossibile)
+          applicazione: >
+            "Mary Jane o il tram." Il Goblin ha capito che Spider-Man non si
+            batte con la forza — si batte con i dilemmi morali. È l'arma
+            perfetta contro un eroe mosso dalla responsabilità.
+
+        - nome: La Terza Via (Tagliare il Nodo)
+          applicazione: >
+            Peter salva entrambi (nel film). Non era previsto dal villain.
+            È il momento in cui l'eroe supera le regole del gioco — ma solo
+            perché aveva costruito la forza per farlo.
+
+        - nome: Il Contatore
+          applicazione: >
+            Il senso di colpa come contatore nascosto: ogni fallimento
+            aggiunge peso, ogni salvataggio lo allevia temporaneamente.
+            Il contatore non scende mai a zero — Zio Ben non torna.
+
+        - nome: L'Ironia Drammatica
+          applicazione: >
+            Il pubblico (e Peter) sanno che Norman è il Goblin. Harry no.
+            Ogni scena con Harry è carica di tensione perché il pubblico
+            sa ciò che il personaggio ignora.
+
+      # ============================================================
+      # RELAZIONI
+      # ============================================================
+
+      relazioni:
+        - tipo: La Nemesi
+          tra: [Peter Parker, Norman Osborn / Green Goblin]
+          nota: >
+            Nemesi personale perfetta: legame affettivo preesistente
+            (padre dell'amico), speculare (stesso potere, scelte opposte),
+            conosce il segreto del PG, e colpisce la vita civile.
+
+        - tipo: Lo Specchio (Il Doppio Oscuro)
+          tra: [Peter Parker, Norman Osborn]
+          nota: >
+            Entrambi trasformati da incidente scientifico. Entrambi con
+            doppia identità. Peter sceglie la responsabilità, Norman il
+            dominio. Norman è il "Peter senza zio Ben" — ciò che succede
+            quando il potere non ha un freno morale.
+
+        - tipo: Il Legame (affezione)
+          tra: [Peter Parker, Zio Ben]
+          nota: >
+            Il legame fondativo. Costruito con poche scene ma caldo.
+            La morte è devastante PERCHÉ il legame era autentico E
+            perché il PG si sente responsabile.
+
+        - tipo: La Lealtà Divisa
+          tra: [Peter Parker, Harry Osborn]
+          nota: >
+            Peter è amico di Harry E nemico del padre di Harry. Non può
+            essere entrambe le cose — ma deve. Ogni vittoria su Norman
+            è una ferita a Harry. Ogni protezione di Harry è un rischio
+            nella lotta contro il Goblin.
+
+        - tipo: L'Eredità Pesante
+          tra: [Harry Osborn, Norman Osborn]
+          nota: >
+            Harry erediterà la follia del padre (film 2 e 3). È il setup
+            per il Rivale Caduto: l'amico che diventa nemesi per eredità
+            non scelta. L'Eredità Pesante nella variante tragica.
+
+        - tipo: Il Protetto Riluttante
+          tra: [Peter Parker, Mary Jane Watson]
+          nota: >
+            Peter protegge MJ senza che lei sappia di essere protetta.
+            La rinuncia finale (non stare con lei per proteggerla) è il
+            costo della Masquerade.
+
+# ============================================================
+# STEREOTIPI E REGOLE MANCANTI — PROPOSTE
+# ============================================================
+
+proposte_stereotipi_mancanti:
+
+  - tipo: tecnica
+    proposta: true
+    nome: La Colpa Fondativa (L'Errore Originale del PG)
+    nome_en: Founding Guilt / The Hero's Original Sin
+    nomi_alt: [Original Sin, L'Errore che Ha Iniziato Tutto, My Fault, Guilt-Driven Hero]
+    descrizione: >
+      Il PG è diventato eroe non per vocazione, destino, o evento esterno —
+      ma perché un suo ERRORE (o inazione) ha causato una tragedia. Il senso
+      di colpa è il motore dell'eroismo, non la virtù. È diverso dalla Casa
+      Distrutta (evento esterno subito) e dal Nemico Creato (il nemico nasce
+      dalla scelta): qui non c'è un nemico specifico creato — c'è una perdita
+      AUTOINFLITTA che trasforma il personaggio. La colpa non si estingue mai:
+      anche mille atti eroici non cancellano l'errore originale.
+    esempi:
+      - "Peter Parker — Spider-Man (lascia fuggire il ladro → morte dello zio)"
+      - "Tony Stark — Iron Man (le sue armi uccidono innocenti → diventa eroe per espiare)"
+      - "Geralt e la Legge della Sorpresa — The Witcher (scelta avventata → responsabilità per Ciri)"
+      - "Batman (versione guilt-driven) — DC (non ha salvato i genitori da bambino)"
+      - "Frodo — Il Signore degli Anelli (non è colpa sua MA si sente responsabile perché l'Anello è venuto a lui)"
+    uso_dnd: >
+      Background di PG: il personaggio ha fatto (o non fatto) qualcosa che ha
+      causato una morte/tragedia. L'avventura è l'espiazione permanente. A
+      differenza del Redento (che ha commesso atti malvagi e cerca redenzione),
+      qui il PG non era malvagio — era semplicemente egoista, distratto, o
+      codardo in un momento critico. La colpa è proporzionata all'innocenza
+      dell'errore: più era piccola la scelta, più è devastante la conseguenza.
+    rischio: >
+      Se il DM rinfaccia costantemente la colpa al PG, diventa tossico. La
+      colpa è INTERNA — il PG se la porta da solo. Il mondo può perdonarlo
+      (o non sapere), ma lui non si perdona. Funziona solo con giocatori che
+      vogliono esplorare questo tipo di arco.
+    differenza_da:
+      - "Il Redento: il Redento ha fatto MALE coscientemente. La Colpa Fondativa nasce da un errore innocente."
+      - "La Casa Distrutta: la Casa Distrutta è un evento SUBITO. La Colpa Fondativa è un evento CAUSATO dal PG."
+      - "Il Nemico Creato: il Nemico Creato produce un antagonista specifico. La Colpa Fondativa produce una MOTIVAZIONE interna."
+    puo_aver_bisogno_di: [Il Legame (affezione)]
+    usato_in: [Da Povero a Ricco, La Vendetta, La Cerca]
+    vedi_anche: [Il Redento, La Casa Distrutta, Il Nemico Creato, Il Debito d'Onore, Lo Specchio Interiore]
+
+  - tipo: situazione
+    proposta: true
+    nome: La Masquerade Personale (Il Doppio Segreto)
+    nome_en: Secret Identity Tension / Dual Life
+    nomi_alt: [Dual Life, Double Life, Il Doppio Segreto, Identity Crisis, Vita Doppia]
+    sottocaso_di: La Masquerade (Il Segreto del Mondo)
+    descrizione: >
+      A differenza della Masquerade (un MONDO nascosto alla popolazione), qui
+      è un singolo personaggio che mantiene due identità separate. La tensione
+      non viene da "il mondo non deve sapere che la magia esiste" ma da "le
+      PERSONE CHE AMO non devono sapere chi sono". Ogni relazione è costruita
+      su una menzogna. Ogni momento di intimità è compromesso dal segreto.
+      La rivelazione non minaccia il mondo — minaccia le relazioni personali.
+    esempi:
+      - "Peter Parker / Spider-Man — Marvel (MJ, Harry, Zia May non sanno)"
+      - "Bruce Wayne / Batman — DC (l'identità segreta come scudo E prigione)"
+      - "Clark Kent / Superman — DC (gli occhiali come metafora della separazione)"
+      - "Marinette / Ladybug — Miraculous (identità segreta come fonte di tensione romantica)"
+      - "Matt Murdock / Daredevil — Marvel (il segreto corrode ogni relazione)"
+      - "Il Warlock e il suo Patron — D&D (il party non sa a chi serve il PG)"
+    uso_dnd: >
+      Un PG ha un segreto sul suo vero ruolo/potere/identità che nasconde al
+      party o a NPC cari. Il DM crea situazioni dove il segreto rischia di
+      emergere: "L'NPC ti chiede perché eri assente stanotte." "Il Companion
+      trova il tuo equipaggiamento nascosto." Il PG deve mentire o rivelare.
+      La rivelazione deve avere conseguenze relazionali (fiducia persa,
+      pericolo per chi sa) ma anche potenziali benefici (aiuto, comprensione).
+    rischio: >
+      Se il segreto non ha mai rischio di essere scoperto, non c'è tensione.
+      Se viene scoperto troppo presto, l'arco si chiude. Il DM deve creare
+      near-misses costanti: quasi scoperto, salvato all'ultimo, ma il dubbio
+      cresce. Funziona solo se il PG ha una RAGIONE forte per mantenere il
+      segreto (protezione dei cari, pericolo se scoperto, vergogna).
+    differenza_da:
+      - "La Masquerade: la Masquerade è un segreto MONDIALE. Qui è un segreto PERSONALE."
+      - "Il Segreto Inconfessabile: il Segreto Inconfessabile è un PASSATO nascosto. Qui è un PRESENTE nascosto."
+      - "La Talpa: la Talpa serve il nemico. Qui il PG nasconde qualcosa per PROTEGGERE, non per tradire."
+    usato_in: [La Cerca, Spalle al Muro, Commedia degli Errori]
+    vedi_anche: [La Masquerade, Il Segreto Inconfessabile, La Lealtà Divisa, Spalle al Muro]
+
+  - tipo: tecnica
+    proposta: true
+    nome: La Nemesi Intima (Il Villain nella Famiglia)
+    nome_en: Intimate Nemesis / The Enemy at the Table
+    nomi_alt: [Enemy at the Table, Il Villain a Cena, Family Nemesis, Intimate Antagonist, The Villain You Can't Escape]
+    sottocaso_di: La Nemesi
+    descrizione: >
+      La nemesi del PG è intrecciata con la sua vita civile tramite un
+      legame affettivo con un terzo personaggio. Non è "il padre è il
+      villain" (troppo diretto) — è "il padre del tuo migliore amico è il
+      villain" o "il marito della tua mentore è il villain". Sconfiggere il
+      nemico = distruggere una relazione a cui il PG tiene. Il villain non
+      può essere affrontato senza danni collaterali alle persone amate.
+    esempi:
+      - "Norman Osborn — Spider-Man (padre del migliore amico di Peter)"
+      - "Itachi Uchiha — Naruto (fratello del compagno di squadra)"
+      - "Anakin/Vader — Star Wars (padre dell'eroe, marito dell'amica)"
+      - "Ozai — Avatar (padre di Zuko, che è nel party)"
+      - "Cersei — Game of Thrones (sorella di Jaime che è con i 'buoni')"
+    uso_dnd: >
+      Il DM crea un villain che è LEGATO AFFETTIVAMENTE a un NPC caro al party
+      (o a un altro PG). Non come amante (troppo romance-focused) ma come
+      parente, mentore, o protettore. Il party non può colpire il villain senza
+      ferire l'NPC. Ogni scontro ha un costo relazionale. La scelta finale è:
+      "colpisci il villain sapendo che perderai l'amico, o proteggi l'amicizia
+      lasciando il villain libero?"
+    rischio: >
+      Se l'NPC "ponte" non è abbastanza caro ai PG, il dilemma non esiste
+      (lo uccidono e basta). Costruire il Legame con l'NPC prima di rivelare
+      la connessione col villain. Min 3 sessioni di amicizia, poi la rivelazione.
+    puo_aver_bisogno_di: [Il Legame (affezione), La Costruzione dell'Odio]
+    usato_in: [Sconfiggere il Mostro, La Vendetta, La Rivalità]
+    vedi_anche: [La Nemesi, La Lealtà Divisa, Lo Specchio, Spalle al Muro, Il Piedistallo Spezzato]
+
+proposte_regole_grammatica:
+
+  - tipo: regola_sequenza
+    proposta: true
+    prima: La Colpa Fondativa
+    dopo: [Il Debito d'Onore (La Promessa), L'Eroe Riluttante]
+    forza: sempre
+    nota: >
+      La Colpa Fondativa è il TRIGGER che trasforma un personaggio passivo in
+      un eroe riluttante. Senza l'errore originale, il personaggio non ha
+      ragione di agire. L'ordine è: errore innocente → conseguenza tragica →
+      colpa → giuramento implicito → eroismo come espiazione.
+    esempio: >
+      Spider-Man: scelta egoista (Fase 3) → morte dello zio (conseguenza) →
+      colpa devastante → "da grande potere..." (giuramento) → eroismo
+      come espiazione permanente.
+
+  - tipo: regola_sequenza
+    proposta: true
+    prima: La Masquerade Personale
+    dopo: [Spalle al Muro (La Scelta Impossibile)]
+    forza: spesso
+    nota: >
+      Il doppio segreto deve essere STABILITO prima che il villain lo scopra
+      e lo usi come arma. La Scelta Impossibile è il momento in cui la
+      Masquerade Personale viene SFRUTTATA dal nemico: "so chi sei, so chi ami,
+      scegli." Senza la Masquerade costruita prima, il ricatto non ha mordente.
+    esempio: >
+      Spider-Man: Norman scopre chi è Peter → rapisce MJ → forza la scelta.
+      La Masquerade infranta è l'arma del villain.
+
+  - tipo: catena_prerequisiti
+    proposta: true
+    nome: L'Eroe per Colpa (The Guilt-Driven Hero)
+    effetto: >
+      Il PG diventa eroe per ragioni interne (colpa) anziché esterne (missione).
+      L'arco è più personale e la motivazione più resiliente di un quest esterno.
+    sequenza:
+      - Il Legame (affezione)
+      - La Colpa Fondativa
+      - L'Eroe Riluttante
+      - Il Debito d'Onore (La Promessa)
+      - La Masquerade Personale
+      - La Nemesi Intima
+      - Spalle al Muro (La Scelta Impossibile)
+      - La Terza Via (o Il Prezzo della Vittoria)
+    esempio: >
+      Spider-Man: ama lo zio (Legame) → lo lascia morire per egoismo
+      (Colpa Fondativa) → diventa eroe controvoglia (Riluttante) → "da
+      grande potere..." come giuramento (Debito) → identità segreta
+      (Masquerade Personale) → Norman = padre dell'amico (Nemesi Intima)
+      → MJ o il tram (Scelta Impossibile) → salva entrambi (Terza Via).
+
+  - tipo: anti_pattern
+    proposta: true
+    nome: La Nemesi Scollegata
+    errore: >
+      Il villain non ha NESSUN legame con la vita civile del PG. È un
+      cattivo "generico" che viene dal nulla e non conosce il PG come persona.
+      Gli scontri sono puramente fisici — nessuna tensione morale.
+    causa: >
+      Il villain non è intrecciato con le relazioni del PG. Non sa chi è
+      il PG al di fuori del combattimento. Non può colpire dove fa male.
+    fix: >
+      Intrecciare il villain con la rete relazionale del PG: farlo essere
+      il parente di un NPC amato, l'ex-mentore di un alleato, o qualcuno
+      che conosce il segreto del PG. Il villain migliore è quello che può
+      distruggere il PG senza toccarlo — solo rivelando la verità o
+      colpendo chi ama.
+    esempio_negativo: >
+      Un BBEG che attacca la città. I PG lo fermano. Non c'è nessun legame
+      personale. Reazione dei giocatori: "bel combattimento" — nessuna
+      emozione.
+    esempio_positivo: >
+      Norman Osborn: padre dell'amico, mentore scientifico di Peter, conosce
+      la sua identità segreta. Ogni scontro ha un costo relazionale.
+
+# ============================================================
+# NOTE FINALI — APPLICABILITÀ D&D
+# ============================================================
+
+applicabilita_dnd:
+  forza: alta
+  note: >
+    L'origin story di Spider-Man è una delle strutture più trasponibili in
+    D&D perché si basa su principi universali:
+    1. Il potere senza responsabilità ha conseguenze
+    2. Le scelte (anche piccole) hanno peso
+    3. Il villain migliore è quello intrecciato con la vita personale del PG
+    4. Il segreto come fonte di tensione permanente
+    5. La virtù dell'eroe è anche la sua debolezza
+    6. Il lieto fine non è garantito — il prezzo dell'eroismo è reale
+
+  limitazioni:
+    - "L'arco funziona per UN singolo PG — in un party di 4-5 bisogna distribuire il focus"
+    - "La Colpa Fondativa richiede consenso esplicito del giocatore (session zero)"
+    - "La Masquerade Personale funziona solo se il party NON sa — altrimenti è teatro"
+    - "La Nemesi Intima richiede costruzione di 3+ sessioni prima della rivelazione"
+
+  consigli_implementazione:
+    - "Session zero: chiedere al giocatore 'il tuo PG ha un errore nel passato che lo perseguita?'"
+    - "Modulo 1: costruire il Legame con l'NPC che sarà collegato al villain (l'amico)"
+    - "Modulo 2: introdurre il villain come NPC benevolo (il padre dell'amico)"
+    - "Modulo 3: il villain si rivela — il PG è in Scelta Impossibile tra amicizia e dovere"
+    - "Modulo 4: la Scelta Impossibile — il villain usa le conoscenze personali come arma"
+    - "Finale: il PG vince ma il costo è la relazione con l'amico (Il Prezzo della Vittoria)"

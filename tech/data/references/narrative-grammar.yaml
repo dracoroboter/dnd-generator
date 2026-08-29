@@ -1,0 +1,712 @@
+# Grammatica Narrativa — Regole di Composizione per Avventure D&D
+#
+# Questo file definisce le REGOLE per combinare gli stereotipi narrativi
+# (definiti in narrative-stereotypes.yaml) in avventure coerenti e soddisfacenti.
+#
+# Il file narrative-stereotypes.yaml è il VOCABOLARIO (i mattoni).
+# Questo file è la GRAMMATICA (come si combinano).
+#
+# Struttura:
+#
+#   regole_sequenza:
+#     Quale stereotipo deve venire PRIMA di un altro per funzionare.
+#     È un ordine parziale (non totale): A deve precedere B, ma tra A e B
+#     possono esserci altre cose.
+#
+#   catene_prerequisiti:
+#     Sequenze tipiche di stereotipi che insieme producono un effetto
+#     narrativo specifico. Sono "ricette" collaudate.
+#
+#   regole_casting:
+#     Quali archetipi di personaggio funzionano (o non funzionano) in
+#     quali situazioni. Non tutti i villain vanno bene per tutti i plot.
+#
+#   transizioni_plot:
+#     Come collegare plot/archi tra loro in una campagna multi-arco.
+#     Quali successioni sono naturali, quali stridono.
+#
+#   anti_pattern:
+#     Combinazioni che NON funzionano — errori comuni di design.
+#
+# Fonti:
+#   - Propp, Morfologia della Fiaba (1928) — 31 funzioni in sequenza obbligata
+#   - Greimas, Modello Attanziale (1966) — relazioni tra attanti
+#   - Vogler, Il Viaggio dell'Eroe (1992) — 12 stadi con ordine suggerito
+#   - The Alexandrian, Node-Based Design — grafi narrativi per RPG
+#   - Booker, The Seven Basic Plots (2004) — strutture archetipiche
+#   - Analisi empirica: LotR, Star Wars, Harry Potter, Game of Thrones, D&D
+#
+# Nota: le regole NON sono prescrittive (non DEVONO essere seguite) ma
+# descrittive (descrivono cosa funziona nella narrativa consolidata).
+# Rompere una regola consapevolmente è lecito — romperla per ignoranza
+# produce storie deboli.
+#
+# Quantificatori:
+#   sempre     = in tutte le opere analizzate (regola forte)
+#   quasi_sempre = eccezioni rare e documentate
+#   spesso     = pattern frequente, non obbligatorio
+#   a_piacimento = questione di gusto/tono
+#   qualsiasi_di_tipo = un elemento dalla categoria, non uno specifico
+#   quanto_basta = la quantità dipende dal contesto (es: "2-3 sessioni")
+#
+#
+# File companion:
+#   - tech/data/references/narrative-stereotypes.yaml (vocabolario)
+#   - tech/data/references/dm-conduct-principles.yaml (conduzione)
+#   - tech/rules/narrative-stereotypes.md (documentazione)
+#
+# VINCOLO GDR: i PG non sono dell'autore.
+#   Gli archetipi di personaggio si applicano quasi sempre a NPC (controllati
+#   dall'autore). L'autore NON decide chi sono i PG — può solo creare
+#   condizioni perché un archetipo emerga, o fare richieste generiche
+#   in session zero ("dovete essere tutti umani", "siete del villaggio X").
+#   Le regole_casting riguardano il CASTING DEGLI NPC, non dei PG.
+
+# ============================================================
+# REGOLE DI SEQUENZA
+# A deve precedere B perché B funzioni emotivamente.
+# ============================================================
+
+regole_sequenza:
+
+  # --- Il Legame precede tutto ciò che ne ha bisogno ---
+
+  - prima: Il Legame (affezione)
+    dopo: [Il Tradimento dell'Alleato, Il Sacrificio Volontario, Il Piedistallo Spezzato, Il Maestro Caduto, La Fiducia Tradita]
+    forza: sempre
+    quantita: quanto_basta (min 2-3 sessioni di costruzione)
+    nota: >
+      Senza investimento emotivo verso un NPC, il suo tradimento/morte/caduta
+      non colpisce. Min 2-3 sessioni di costruzione del legame.
+    esempio: >
+      LotR: Boromir è utile e onorevole per l'intera Fellowship → il suo
+      tentativo di rubare l'Anello E la sua morte eroica hanno peso.
+
+  - prima: Il Legame (luogo)
+    dopo: [La Casa Distrutta, L'Ora più Buia]
+    nota: >
+      Il luogo deve essere stato vissuto (i PG ci hanno passato tempo, hanno
+      relazioni lì) prima di essere distrutto.
+    esempio: >
+      LotR: La Contea è costruita nei primi 3 capitoli come paradiso →
+      la sua minaccia è il motore emotivo. Star Wars: la fattoria di Luke
+      è "casa" per 20 minuti → la sua distruzione lancia l'avventura.
+
+  - prima: Il Legame (oggetto)
+    dopo: [L'Anello al Dito, Il Tesoro Maledetto]
+    nota: >
+      L'oggetto deve essere stato desiderato/guadagnato prima che il suo
+      lato oscuro emerga.
+    esempio: >
+      LotR: l'Anello è il "regalo" di Bilbo, innocuo per 60 anni → la
+      rivelazione della sua natura è devastante perché Frodo ci teneva.
+
+  - prima: La Costruzione dell'Odio
+    dopo: [La Resa dei Conti, La Vendetta]
+    nota: >
+      Il villain deve essere odiato (atti crudeli ON SCREEN, impunità ripetuta)
+      prima che la battaglia finale sia catartica.
+    esempio: >
+      HP: Voldemort uccide i genitori, Cedric, Sirius, Dumbledore nel corso
+      di 6 libri → il duello finale è il payoff di tutto l'odio accumulato.
+      GoT: Joffrey è orribile per 4 stagioni → la sua morte è una festa.
+
+  - prima: Il Fucile di Čechov
+    dopo: [La Scelta Retroattiva, L'Alleato Inaspettato, La Callback]
+    nota: >
+      L'elemento deve essere stato introdotto (e notato) prima che il suo
+      ritorno abbia significato.
+    esempio: >
+      HP: il diadema nella Stanza delle Necessità è menzionato nel libro 6 →
+      diventa un Horcrux nel libro 7. I PG dicono "ah, era quello!".
+
+  - prima: La Falsa Pace
+    dopo: [La Festa Interrotta, L'Ora più Buia, L'Assedio]
+    nota: >
+      Il contrasto funziona solo se la calma è stata percepita come reale.
+      Serve almeno una scena di normalità prima del disastro.
+    esempio: >
+      GoT: il matrimonio è bello, la musica suona, tutti sorridono → Red
+      Wedding. Alien: cena tranquilla → chestburster.
+
+  - prima: L'Ora più Buia
+    dopo: [La Resa dei Conti, I Rinforzi, Il Sacrificio Volontario]
+    nota: >
+      Il momento più basso precede sempre la rimonta. Senza fondo, la
+      vittoria non ha altezza.
+    esempio: >
+      LotR: Helm's Deep sembra perduta → arriva Gandalf con i Rohirrim.
+      SW: i ribelli stanno perdendo → Luke distrugge la Morte Nera.
+
+  - prima: La Resa dei Conti
+    dopo: [Il Debriefing]
+    nota: >
+      Il debriefing è il respiro DOPO il climax. Senza climax, non c'è
+      nulla da elaborare.
+
+  - prima: Il Presagio
+    dopo: [Il Colpo di Scena]
+    nota: >
+      Il twist funziona meglio se era stato seminato prima — a posteriori
+      il pubblico dice "avrei dovuto capirlo". Senza presagi il twist è
+      un deus ex machina.
+    esempio: >
+      HP: Snape protegge Harry per 6 libri (presagi) → la rivelazione che
+      amava Lily è devastante E preparata. Senza i presagi sarebbe arbitraria.
+
+  - prima: Lo Specchio
+    dopo: [La Terza Via]
+    forza: spesso
+    nota: >
+      Perché un PG possa trovare la Terza Via in un dilemma morale, deve
+      prima aver VISTO cosa succede se sceglie l'opzione sbagliata (Lo
+      Specchio). Lo Specchio mostra il "futuro possibile" dell'eroe se cede.
+    esempio: >
+      SW: Luke vede la mano meccanica (sua = Vader) e getta la spada.
+      Senza aver visto cosa diventa chi sceglie il lato oscuro, la rinuncia
+      alla violenza sarebbe meno potente.
+    fonte: analisi Star Wars OT
+
+  - prima: Il Falso Finale
+    dopo: [La Resa dei Conti]
+    forza: quasi_sempre
+    nota: >
+      Il boss apparente deve cadere PRIMA del vero climax. La sconfitta del
+      Falso Finale fa credere al party di aver vinto → la rivelazione del
+      vero nemico alza la posta.
+    esempio: >
+      SW: Vader è sconfitto in Ep IV (Falso Finale) → l'Imperatore è il
+      vero nemico in Ep VI (Resa dei Conti). HP: ogni libro ha un falso
+      finale prima di Voldemort.
+    fonte: analisi Star Wars OT
+
+  - prima: Il Mentore
+    dopo: [La Resa dei Conti]
+    forza: spesso
+    quantita: "Il mentore deve sparire/morire PRIMA del climax"
+    nota: >
+      L'eroe deve affrontare la Resa dei Conti DA SOLO (o col party, ma
+      senza la guida). Se il mentore è presente al climax, l'eroe non è
+      cresciuto — la vittoria è del mentore, non sua.
+    esempio: >
+      SW: Obi-Wan muore in Ep IV, Yoda muore in Ep VI PRIMA del climax.
+      HP: Dumbledore muore nel libro 6, Harry affronta Voldemort da solo.
+      LotR: Gandalf è separato nella battaglia finale (combatte altrove).
+    eccezione: >
+      Funziona se il mentore è presente ma IMPOTENTE (prigioniero, ferito)
+      e l'eroe deve salvare lui anziché essere salvato.
+    fonte: analisi Star Wars OT
+
+  - prima: La Separazione del Gruppo
+    dopo: [L'Assedio, La Resa dei Conti]
+    forza: spesso
+    nota: >
+      Dividere il party e riunirlo per il climax è catartico. La separazione
+      crea tensione (ciascuno è vulnerabile), la riunione è emotiva e
+      tatticamente potente.
+    esempio: >
+      SW Ep V: Luke va su Dagobah, Han/Leia su Bespin → separati per tutto
+      il film. Ep VI: si riuniscono per l'assalto finale su Endor.
+      LotR: la Fellowship si spezza in 3 gruppi → convergono su Mordor.
+    fonte: analisi Star Wars OT
+
+  - prima: La Pietà (scelta morale costosa)
+    dopo: [La Vittoria per Grazia]
+    forza: sempre
+    nota: >
+      Affinché una eucatastrophe funzioni, il PG deve aver compiuto una
+      scelta morale COSTOSA in precedenza — e quella scelta deve essere la
+      causa della risoluzione. Senza pietà precedente, è Deus Ex Machina.
+    esempio: >
+      LotR: Frodo risparmia Gollum (costo: Gollum è pericoloso, Sam protesta)
+      → Gollum distrugge l'Anello al Monte Fato. HP: Harry libera Dobby
+      (costo: rischia punizione) → Dobby lo salva nel libro 7.
+    fonte: analisi LotR + HP
+
+  - prima: La Colpa Fondativa
+    dopo: [Il Debito d'Onore, L'Eroe Riluttante]
+    forza: quasi_sempre
+    nota: >
+      L'errore originale del PG crea sia il debito morale (devo rimediare)
+      sia la riluttanza (non voglio essere eroe, devo esserlo per espiare).
+      Senza la colpa, l'eroismo riluttante è solo pigrizia.
+    esempio: >
+      Spider-Man: lascia fuggire il rapinatore → zio Ben muore → Peter
+      DEVE essere eroe per espiare. Batman: non ha impedito la morte dei
+      genitori → DEVE proteggere Gotham.
+    fonte: analisi Spider-Man
+
+  - prima: La Millanteria
+    dopo: [La Prova Segreta, Spalle al Muro]
+    forza: spesso
+    nota: >
+      Il millantatore deve prima o poi essere messo alla prova REALE. Se
+      il bluff non viene mai chiamato, non c'è tensione. La prova rivela
+      se l'eroe di cartone diventa eroe vero o crolla.
+    esempio: >
+      Brancaleone: millanta eroismo → messo alla prova in ogni episodio.
+      Lockhart (HP): millanta → smascherato quando serve azione vera.
+    fonte: analisi Brancaleone + HP
+
+  - prima: Il Red Herring
+    dopo: [La Regola dei Tre Indizi]
+    forza: quasi_sempre
+    quantita: "1-2 red herring per mistero, mai più di 3"
+    nota: >
+      In un modulo investigativo, i red herring devono essere BILANCIATI
+      dagli indizi veri. Ogni falsa pista eliminata deve rilasciare un
+      residuo utile verso la soluzione vera.
+    esempio: >
+      Caves of Steel: 2 red herring in sequenza, ciascuno elimina un
+      sospettato E rilascia un indizio verso il vero colpevole.
+      HP: Snape è red herring per 6 libri ma ogni "prova" contro di lui
+      ha anche una lettura alternativa.
+    fonte: analisi Asimov + HP
+
+# ============================================================
+# CATENE PREREQUISITI (Ricette narrative collaudate)
+# Sequenze tipiche che producono un effetto emotivo specifico.
+# ============================================================
+
+catene_prerequisiti:
+
+  - nome: La Vendetta Soddisfacente
+    effetto: >
+      I giocatori VOGLIONO la resa dei conti e la vittoria è catartica.
+    sequenza:
+      - Il Legame (affezione)
+      - La Casa Distrutta
+      - La Costruzione dell'Odio
+      - L'Ora più Buia
+      - La Resa dei Conti
+      - Il Debriefing
+    esempio: >
+      Star Wars OT: Luke ama la fattoria (Legame) → la fattoria brucia
+      (Casa Distrutta) → l'Impero è crudele per 3 film (Odio) → Han
+      congelato, ribelli in fuga (Ora più Buia) → trono della Morte Nera
+      II (Resa dei Conti) → celebrazione su Endor (Debriefing).
+
+  - nome: Il Tradimento Devastante
+    effetto: >
+      I giocatori sono emotivamente distrutti dal tradimento.
+    sequenza:
+      - Il Legame (affezione)
+      - Il Companion Fedele
+      - Il Tradimento dell'Alleato
+      - L'Ora più Buia
+    esempio: >
+      GoT: Robb si fida dei Frey (Legame + Companion) → Red Wedding
+      (Tradimento) → gli Stark sembrano finiti (Ora più Buia).
+
+  - nome: La Caduta dell'Idolo
+    effetto: >
+      Disillusione dolorosa ma maturativa.
+    sequenza:
+      - Il Legame (affezione)
+      - Il Mentore
+      - Il Piedistallo Spezzato
+    esempio: >
+      SW prequel: Anakin ama Obi-Wan (Legame) → Obi-Wan è il maestro
+      (Mentore) → Anakin cade (Piedistallo Spezzato per chi lo ammirava).
+      HP: Dumbledore è perfetto per 5 libri → libro 7 rivela il suo passato.
+
+  - nome: L'Oggetto che Corrompe
+    effetto: >
+      Tensione crescente sulla corruzione del portatore.
+    sequenza:
+      - Il Legame (oggetto)
+      - L'Anello al Dito
+      - Il Dilemma del Carrello
+      - Il Sacrificio Volontario
+    esempio: >
+      LotR: Frodo riceve l'Anello come regalo (Legame) → l'Anello lo
+      corrompe gradualmente (Anello al Dito) → deve scegliere (Dilemma) →
+      Gollum/Sam "sacrificano" per completare la missione.
+
+  - nome: La Scoperta della Verità
+    effetto: >
+      Il mondo non è come sembrava. I giocatori rivalutano tutto.
+    sequenza:
+      - La Falsa Pace
+      - Il Mistero
+      - La Pergamena
+      - Il Colpo di Scena
+    esempio: >
+      Matrix: il mondo sembra normale (Falsa Pace) → qualcosa non torna
+      (Mistero) → Morpheus offre la pillola rossa (Pergamena/informazione)
+      → la realtà è un'illusione (Colpo di Scena).
+
+  - nome: Il Nemico Crescente
+    effetto: >
+      Il villain diventa progressivamente più minaccioso e personale.
+    sequenza:
+      - Il Presagio
+      - La Costruzione dell'Odio
+      - Il Falso Finale
+      - La Resa dei Conti
+    esempio: >
+      HP: presagi su Voldemort per 3 libri → atti crudeli crescenti
+      (Odio) → sconfitta del diario/Quirrell (Falsi Finali) → duello
+      finale a Hogwarts (Resa dei Conti vera).
+
+  - nome: L'Escalation Emotiva sopra la Militare
+    effetto: >
+      La campagna resta coinvolgente anche quando la posta "cosmica" sale —
+      perché la posta PERSONALE sale più velocemente.
+    sequenza:
+      - Il Legame (affezione)
+      - L'Escalation
+      - Lo Specchio
+      - Il Dilemma del Carrello
+      - La Resa dei Conti
+    nota: >
+      Meta-regola: in ogni arco, la posta EMOTIVA (chi amo è in pericolo)
+      deve pesare più della posta MILITARE (il mondo è in pericolo).
+      "Mio padre è il villain" colpisce più di "l'Impero dominerà la galassia".
+      Il climax si vince quando la scelta è personale, non tattica.
+    esempio: >
+      SW: il climax di Ep VI non è "distruggere la Morte Nera II" (militare)
+      ma "convincere Vader a scegliere l'amore" (emotiva). La vittoria
+      militare è conseguenza di quella emotiva, non viceversa.
+    forza: quasi_sempre
+    fonte: analisi Star Wars OT
+
+# ============================================================
+# REGOLE DI CASTING
+# Quali personaggi funzionano in quali situazioni/plot.
+# ============================================================
+
+regole_casting:
+
+  - situazione: Lo Stallo
+    personaggi_compatibili:
+      - qualsiasi_di_tipo: [L'Anti-Villain, Il Nemico Onorevole, Il Rivale Rispettoso]
+    personaggi_incompatibili:
+      - Il Signore Oscuro
+    forza: quasi_sempre
+    nota: >
+      Lo stallo richiede che entrambe le parti possano ragionevolmente
+      negoziare. Un Signore Oscuro puro non negozia — vuole distruggere.
+    eccezione: >
+      Funziona con un Signore Oscuro se lo stallo è puramente militare
+      (non diplomatico) — nessuno dei due può vincere per forza.
+
+  - situazione: Il Tradimento dell'Alleato
+    personaggi_compatibili:
+      - Il Companion Fedele
+      - Il Mutaforma
+      - La Talpa
+      - Il Ricattato
+    personaggi_incompatibili:
+      - Il Signore Oscuro
+      - Il Fanatico
+    nota: >
+      Il traditore deve essere stato DENTRO il gruppo. Personaggi
+      chiaramente malvagi non possono tradire (non erano mai alleati).
+
+  - situazione: La Resa dei Conti
+    personaggi_compatibili:
+      - Il Signore Oscuro
+      - L'Anti-Villain
+      - La Nemesi
+      - Lo Specchio
+      - Il Maestro Caduto
+    personaggi_incompatibili:
+      - Il Parassita
+      - Il Mercante Ambiguo
+    nota: >
+      Il boss finale deve essere stato costruito come minaccia credibile.
+      Personaggi comici o ambigui non funzionano come antagonisti del climax.
+
+  - situazione: Il Dilemma del Carrello
+    personaggi_compatibili:
+      - L'Anti-Villain
+      - Il Benefattore Misterioso
+      - Il Ricattato
+    personaggi_incompatibili:
+      - Il Signore Oscuro
+    nota: >
+      Il dilemma funziona quando chi lo pone ha ragioni comprensibili.
+      Un villain puro crea ultimatum, non dilemmi.
+
+  - situazione: L'Alleanza col Nemico
+    personaggi_compatibili:
+      - L'Anti-Villain
+      - Il Nemico Onorevole
+      - L'Alleato Scomodo
+      - Il Rivale Rispettoso
+    personaggi_incompatibili:
+      - Il Fanatico
+    nota: >
+      L'alleanza temporanea richiede che il nemico abbia interessi
+      allineabili. Il fanatico non scende a compromessi.
+
+  - plot: La Vendetta
+    antagonista_ideale:
+      - Il Signore Oscuro
+      - La Nemesi
+      - Il Corruttore
+    nota: >
+      La vendetta richiede un antagonista che abbia fatto qualcosa di
+      personale e imperdonabile ai PG.
+
+  - plot: La Ribellione
+    antagonista_ideale:
+      - Il Tiranno Locale
+      - Il Signore Oscuro
+      - Il Fanatico
+    alleati_tipici:
+      - L'Eroe Riluttante
+      - Il Branco di Disadattati
+      - Il Redento
+    nota: >
+      La ribellione ha bisogno di un oppressore visibile e di eroi
+      improbabili.
+
+  - plot: Commedia degli Errori
+    personaggi_compatibili:
+      - Il Trickster
+      - Il Parassita
+      - Il Ladro Gentiluomo
+      - Il Mercante Ambiguo
+    personaggi_incompatibili:
+      - Il Signore Oscuro
+      - Il Fanatico
+    nota: >
+      La commedia richiede personaggi che possano essere ridicoli senza
+      perdere il loro ruolo. Villain seri uccidono il tono.
+
+# ============================================================
+# TRANSIZIONI TRA PLOT (campagna multi-arco)
+# Come collegare un arco al successivo in modo naturale.
+# ============================================================
+
+transizioni_plot:
+
+  - da: Sconfiggere il Mostro
+    a_naturali:
+      - Da Povero a Ricco
+      - La Cerca
+      - La Vendetta
+    a_innaturali:
+      - Commedia degli Errori
+    nota: >
+      Dopo aver sconfitto un mostro, il tono è eroico. Passare subito
+      alla commedia stona (serve almeno una Pausa in mezzo).
+
+  - da: La Vendetta
+    a_naturali:
+      - Rinascita
+      - Tragedia
+      - La Rivalità
+    a_innaturali:
+      - Commedia degli Errori
+      - Da Povero a Ricco
+    nota: >
+      La vendetta lascia cicatrici. L'arco successivo elabora le
+      conseguenze — redenzione (Rinascita) o caduta (Tragedia).
+
+  - da: Commedia degli Errori
+    a_naturali:
+      - La Cerca
+      - Da Povero a Ricco
+      - La Rivalità
+    a_innaturali:
+      - Tragedia
+    nota: >
+      Dal tono leggero si può salire gradualmente. Un salto brusco
+      alla tragedia richiede un evento di rottura forte (La Casa Distrutta).
+
+  - da: La Ribellione
+    a_naturali:
+      - La Vendetta
+      - Sconfiggere il Mostro
+      - Rinascita
+    a_innaturali:
+      - Viaggio e Ritorno
+    nota: >
+      La ribellione vinta porta a ricostruire (Rinascita) o a combattere
+      il vuoto di potere. Se persa, diventa Vendetta.
+
+  - da: Tragedia
+    a_naturali:
+      - Rinascita
+      - La Vendetta
+      - La Ribellione
+    a_innaturali:
+      - Commedia degli Errori
+      - Da Povero a Ricco
+    nota: >
+      Dalla tragedia si esce solo con la rinascita (se c'è speranza) o
+      con la vendetta (se c'è rabbia). Non si passa a toni leggeri senza
+      un arco di transizione.
+
+  - da: La Cerca
+    a_naturali:
+      - Sconfiggere il Mostro
+      - Viaggio e Ritorno
+      - La Rivalità
+    nota: >
+      La Cerca porta a trovare — e ciò che trovi genera il prossimo arco.
+      Trovi il mostro (Sconfiggere), trovi il portale (Viaggio), trovi
+      che qualcun altro cercava la stessa cosa (Rivalità).
+
+  - da: Viaggio e Ritorno
+    a_naturali:
+      - Sconfiggere il Mostro
+      - La Ribellione
+      - La Cerca
+    nota: >
+      Il ritorno dal mondo strano può rivelare che il mondo "normale" è
+      cambiato (Ribellione) o che il viaggio era solo il primo passo (Cerca).
+
+  - da: La Picaresca
+    a_naturali:
+      - La Cerca
+      - Commedia degli Errori
+      - Da Povero a Ricco
+    a_innaturali:
+      - Tragedia
+      - Sconfiggere il Mostro
+    nota: >
+      La picaresca può evolvere in una quest seria (il mascalzone trova
+      uno scopo) o in una commedia. Non diventa tragedia senza un evento
+      di rottura fortissimo (la morte di un companion). Non diventa
+      "sconfiggere il mostro" perché il picaresco non ha la statura eroica.
+    fonte: analisi Brancaleone
+
+  - da: Commedia degli Errori
+    a_naturali:
+      - La Picaresca
+      - La Cerca
+      - Da Povero a Ricco
+    a_innaturali:
+      - Tragedia
+    nota: >
+      Dalla commedia si può restare in tono leggero (Picaresca) o salire
+      gradualmente. Il salto alla tragedia richiede un evento devastante
+      E un cambio di tono segnalato ai giocatori.
+    fonte: analisi Brancaleone
+
+# ============================================================
+# ANTI-PATTERN (combinazioni che non funzionano)
+# Errori comuni di design narrativo.
+# ============================================================
+
+anti_pattern:
+
+  - nome: Il Tradimento Vuoto
+    errore: >
+      Un NPC tradisce i PG ma i giocatori non se ne curano perché non
+      avevano costruito un legame con lui.
+    causa: Manca Il Legame (affezione) prima del Tradimento.
+    fix: Investire 2-3 sessioni dove l'NPC è utile e simpatico PRIMA.
+    esempio_negativo: >
+      Il quest giver che i PG hanno visto una volta li tradisce nel
+      modulo 3. Reazione dei giocatori: "chi era quello?"
+
+  - nome: Il Boss Anticlimactico
+    errore: >
+      Il boss finale viene sconfitto in 2 round e i giocatori dicono "tutto qui?"
+    causa: Manca La Costruzione dell'Odio + il boss non ha fasi/meccaniche.
+    fix: >
+      Costruire l'odio per moduli (il villain fa cose orribili e sfugge),
+      poi dare al boss fasi multiple e reazioni leggendarie.
+    esempio_negativo: >
+      Il BBEG appare solo nell'ultimo modulo, non ha fatto nulla di
+      personale ai PG, e ha solo un sacchetto di HP.
+
+  - nome: Il Twist Gratuito
+    errore: >
+      Un colpo di scena che non era stato preparato — appare dal nulla
+      e i giocatori si sentono fregati, non sorpresi.
+    causa: Manca Il Presagio + Il Fucile di Čechov.
+    fix: >
+      Seminare almeno 2-3 indizi che a posteriori rendano il twist
+      riconoscibile ("avremmo dovuto capirlo!").
+    esempio_negativo: >
+      "Il re era un doppelgänger!" — ma non c'era nessun indizio. I PG
+      non possono dire "ah sì, quella volta si è comportato strano".
+
+  - nome: L'Escalation Piatta
+    errore: >
+      Ogni modulo ha la stessa posta in gioco — il mondo è sempre "in pericolo"
+      ma niente sembra peggio di prima.
+    causa: Manca L'Escalation + il legame personale non cresce.
+    fix: >
+      Alzare la posta progressivamente: prima è in pericolo un NPC,
+      poi un luogo, poi il mondo. E il legame personale deve crescere
+      con la posta.
+    esempio_negativo: >
+      Modulo 1: "il mondo finirà!" Modulo 2: "il mondo finirà di nuovo!"
+      Modulo 3: "il mondo finirà per la terza volta!"
+
+  - nome: La Falsa Scelta
+    errore: >
+      I PG scelgono tra A e B, ma la scelta non ha conseguenze visibili —
+      il mondo è uguale qualunque cosa facciano.
+    causa: Manca La Scelta Significativa.
+    fix: >
+      Ogni scelta deve avere conseguenze VISIBILI nel modulo successivo.
+      Il mondo CAMBIA in base a cosa hanno fatto.
+    esempio_negativo: >
+      I PG scelgono di salvare il villaggio A. Nel modulo successivo,
+      il villaggio B è stato comunque salvato da "qualcun altro".
+
+  - nome: La Paranoia Totale
+    errore: >
+      Ogni NPC amichevole tradisce, ogni rifugio è una trappola, ogni
+      ricompensa è maledetta. I giocatori smettono di interagire col mondo.
+    causa: Troppi Tradimenti/Falsi Rifugi/Tesori Maledetti senza contrasto.
+    fix: >
+      La maggior parte dei rifugi deve essere VERA. La maggior parte
+      degli NPC deve essere AFFIDABILE. Il tradimento funziona perché è
+      RARO — max 1 per arco.
+    esempio_negativo: >
+      3 tradimenti in 5 sessioni. I giocatori: "non ci fidiamo di nessun
+      NPC, uccidiamo tutti preventivamente."
+
+
+  - nome: La Nemesi Scollegata
+    errore: >
+      Il villain non ha legami con la vita personale/civile dei PG — è
+      un "boss di fine livello" senza connessione emotiva.
+    causa: Manca la Nemesi Intima o Lo Specchio.
+    fix: >
+      Il villain deve essere intrecciato con le relazioni dei PG: è il
+      padre dell'amico, l'ex-maestro, il patrono tradito. Sconfiggerlo
+      deve COSTARE qualcosa a livello personale, non solo tattico.
+    esempio_negativo: >
+      Il BBEG è un lich in una torre che i PG non hanno mai incontrato.
+      Reazione: "ok, boss fight". Nessuna tensione morale.
+    fonte: analisi Spider-Man
+
+  - nome: Il Mistero Senza Indizi
+    errore: >
+      Il DM prepara un whodunit ma non semina abbastanza indizi — i PG
+      non possono risolvere il caso con le informazioni disponibili.
+    causa: Manca la Regola dei Tre Indizi.
+    fix: >
+      Per ogni fatto critico: 3 indizi in 3 fonti diverse. Almeno 1
+      deve essere automatico (i PG lo trovano senza tirare). I red
+      herring non devono superare gli indizi veri.
+    esempio_negativo: >
+      Il colpevole è il mercante ma l'unico indizio era un tiro
+      Percezione CD 18 in una stanza che i PG non hanno visitato.
+    fonte: analisi Asimov (Caves of Steel)
+
+  - nome: La Parodia Totale
+    errore: >
+      Una campagna comica che è SOLO parodia senza nessun elemento serio.
+      I giocatori ridono per 2 sessioni poi si annoiano perché niente ha
+      peso.
+    causa: Manca il contrasto comico/serio.
+    fix: >
+      Anche nella commedia più assurda, inserire 1-2 momenti di sincerità
+      per arco: un NPC che soffre davvero, una perdita reale, un momento
+      di dignità. Brancaleone funziona perché sotto la farsa c'è un arco
+      di dignità. Senza il serio, il comico perde contrasto.
+    esempio_negativo: >
+      Ogni NPC è una barzelletta, ogni incontro è una gag, nessuna
+      conseguenza è permanente. Dopo 3 sessioni: "ma a che serve?"
+    fonte: analisi Brancaleone

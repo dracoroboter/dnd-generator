@@ -5,7 +5,7 @@
 - [x] Scaffolding struttura directory
 - [x] Normalizzazione Modulo 1 da variante G 2.2
 - [x] Copia Moduli 2/3/4 da LoScettroDityr
-- [ ] Uniformare Moduli 2/3/4 alle differenze del Modulo 1 VerT
+- [x] Uniformare Moduli 2/3/4 alle differenze del Modulo 1 VerT
 - [ ] Traduzione inglese
 - [ ] Verifica con check-adventure.py (zero errori)
 

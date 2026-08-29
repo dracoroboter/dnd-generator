@@ -1,0 +1,798 @@
+# Analisi: Lo Scettro di Tyr — Saga D&D 5e (4 moduli)
+# Data: 2026-08-29
+# Esito: validazione contro grammatica narrativa
+# Autore avventura: dracoroboter
+# Note: Saga originale D&D 5e, 4 moduli (lv8→10), 5-6 PG.
+#   Tipo: validazione narrativa (non analisi di opera esistente).
+#   Vincolo GDR applicato: i PG non sono dell'autore.
+#   Gli archetipi si applicano agli NPC controllati dall'autore.
+
+opera:
+  titolo: "Lo Scettro di Tyr"
+  tipo: avventura_dnd_5e
+  epoca: 2024-2026 (scrittura)
+  genere_dnd_compatibile: true
+  livelli: "lv8-10"
+  moduli: 4
+  tono: "dark fantasy, tensione morale, redenzione"
+  note: >
+    Saga lineare di 4 moduli con forte arco morale: i PG partono al servizio
+    del male (Vecna) e devono guadagnarsi la redenzione. Struttura classica
+    della Cerca con forte elemento di Tentazione. Il mondo reagisce alle scelte
+    morali dei PG (benedizioni, maledizioni, NPC che cambiano atteggiamento).
+    16 NPC, 1 MON custom, buona varietà di situazioni.
+
+# ============================================================
+# STRUTTURA GLOBALE
+# ============================================================
+
+struttura:
+  plot_principale: La Cerca
+  plot_secondari:
+    - Sconfiggere il Mostro
+    - La Tentazione
+    - Rinascita
+    - La Vendetta
+  meta_plot: >
+    Arco morale dei PG: da strumenti di Vecna a campioni di Tyr.
+    La posta emotiva è la purezza dell'anima, non il potere.
+
+  archi:
+    # ============================================================
+    # MODULO 1: Fuga da Orcastle
+    # Sandbox, esplorazione fazioni, fuga dalla prigione
+    # Livello D&D: 8
+    # ============================================================
+
+    - nome: "Modulo 1 — Fuga da Orcastle: La Prigione a Cielo Aperto"
+      tipo_modulo: sandbox / esplorazione
+      plot_arco: [La Fuga dalla Prigione, Il Mistero, Lo Stallo]
+      escalation: "Sopravvivenza → libertà → patto con il diavolo"
+      posta_in_gioco: "La libertà fisica (collari) e morale (patto Vecna)"
+
+      situazioni:
+        - La Fuga dalla Prigione
+        - Il Mistero
+        - Lo Stallo
+        - In Medias Res
+        - La Corsa Contro il Tempo
+        - L'Infiltrazione
+        - Il Patto col Diavolo
+        - Il Branco di Disadattati
+        - La Pergamena
+        - L'Identità Scambiata
+
+      personaggi:
+        - nome: Lord Cedric Malebranche
+          archetipo: Il Tiranno Locale
+          funzione: >
+            Mandante del rapimento, detentore dei collari. Villain del Modulo 1
+            e BBEG del Modulo 4. Necromante corrotto che governa con la paura.
+          note: "Assente fisicamente nel M1 (agisce a distanza). Torna come boss nel M4."
+
+        - nome: Frankie Partenope
+          archetipo: Il Companion Fedele
+          funzione: >
+            Guida narrativa del Modulo 1. Ex avventuriero con collare, conosce
+            l'isola e le fazioni. Odia Malebranche. Torna nel M4 come alleato.
+          note: "Barbaro lv5, utile ma non dominante. Costruisce il Legame per il M4."
+
+        - nome: Malachias Ombrascura
+          archetipo: Il Mutaforma
+          funzione: >
+            Si nasconde sotto falsa identità (Elemir Strunz). Ha rubato la
+            Pergamena per una causa giusta ma con metodi ambigui. Chiave per
+            la fuga. Torna nel M4.
+          note: "Dragonide chierico. I PG non sanno se fidarsi. Ambiguità produttiva."
+
+        - nome: Axel Ruby
+          archetipo: Il Tiranno Locale (scala micro)
+          funzione: "Leader fazione est. Odia Miranda. Chiede un prezzo per la fiducia."
+
+        - nome: Miranda Emerald
+          archetipo: L'Informatore
+          funzione: >
+            Leader fazione ovest, maga. Possiede informazioni cruciali (libro,
+            riconoscimento Ombrascura) ma le vende care.
+          note: "Non è un broker neutrale — ha agenda propria."
+
+        - nome: Lord Kreig Highlander
+          archetipo: Il Segreto Inconfessabile
+          funzione: >
+            Leader del castro, cugino segreto di Malebranche. Potrebbe attivare
+            la pergamena. Diventa conte nel M4.
+          note: "Il suo segreto genealogico è un indizio chiave."
+
+        - nome: Mesusu Merconè
+          archetipo: Il Messaggero
+          funzione: "Capitano della nave volante. Trasporta i PG e spiega le regole."
+
+        - nome: Kurzum
+          archetipo: Il Mercante Ambiguo
+          funzione: "Mediatrice della missione. Presenta l'incarico senza rivelare i dettagli."
+
+        - nome: Vecna (avatar)
+          archetipo: Il Benefattore Misterioso / Il Corruttore
+          funzione: >
+            Appare alla Torre di Torth. Offre aiuto (rimozione collari) in cambio
+            di una missione futura. Introduce il patto che guiderà il M2.
+          note: "Non combatte. Burattinaio. Il patto è la Tentazione incarnata."
+
+      tecniche:
+        - nome: In Medias Res
+          applicazione: "I PG si svegliano rapiti sulla nave con collari esplosivi. Azione immediata."
+        - nome: La Corsa Contro il Tempo
+          applicazione: "Timer dei collari (7 riposi lunghi). Urgenza senza soffocare l'esplorazione."
+        - nome: La Pergamena
+          applicazione: "La Pergamena del Giudizio è sia MacGuffin sia strumento funzionale (abbatte la cupola)."
+        - nome: Il Patto col Diavolo
+          applicazione: >
+            Vecna offre libertà in cambio di servizio futuro. Il prezzo non è
+            chiaro al momento — si rivelerà nel M2.
+        - nome: Il Fucile di Čechov
+          applicazione: >
+            La Coppa di Blackwood (Dissolvi Magie), il legame di sangue di Kreig,
+            Frankie come alleato futuro — tutti setup per payoff successivi.
+
+      relazioni:
+        - tipo: Lo Stallo
+          tra: [Ruby, Emerald, Highlander]
+          nota: "Tre fazioni in equilibrio. I PG navigano tra le tre."
+        - tipo: La Coppia Forzata
+          tra: [PG, Frankie]
+          nota: "Compagni per costrizione (collari). Il legame cresce col tempo."
+
+    # ============================================================
+    # MODULO 2: Lo Scettro di Tyr
+    # Viaggio + dungeon + prove morali + boss fight
+    # Livello D&D: 9
+    # ============================================================
+
+    - nome: "Modulo 2 — Lo Scettro di Tyr: Il Viaggio della Purificazione"
+      tipo_modulo: viaggio / dungeon / prove morali
+      plot_arco: [La Cerca, La Tentazione, Rinascita]
+      escalation: "Da pedine di Vecna a candidati araldi di Tyr"
+      posta_in_gioco: "La purezza dell'anima dei PG (macro) + ottenere lo Scettro (micro)"
+
+      situazioni:
+        - La Cerca
+        - La Zona Proibita
+        - L'Addestramento
+        - Il Guardiano della Soglia
+        - La Prova Segreta
+        - L'Artefatto
+        - Il Piedistallo Spezzato
+        - Il Falso Finale
+        - La Resa dei Conti
+        - Il Viaggio dell'Esilio
+        - L'Escalation
+
+      personaggi:
+        - nome: Sir Alaric il Giusto
+          archetipo: [L'Anti-Villain, Il Maestro Caduto, Il Falso Eroe]
+          funzione: >
+            Alto sacerdote dei Custodi, nasconde ambizioni di potere.
+            Antagonista del M2. Può essere smascherato con roleplay.
+          note: >
+            Casting coerente: Anti-Villain nella Resa dei Conti (regola
+            casting rispettata). I veterani si rivoltano se lo smascherano.
+
+        - nome: Brother Thaddeus
+          archetipo: Il Profeta Ignorato / Il Redento
+          funzione: >
+            Ex discepolo che ha scoperto le vere intenzioni di Alaric.
+            Fornisce informazioni cruciali e il presagio del tradimento.
+          note: "Seminato alla Rocca Bianca. Il suo avvertimento è il Presagio per lo scontro finale."
+
+        - nome: Tyr (divinità)
+          archetipo: Il Guardiano della Soglia
+          funzione: >
+            Pone le prove di purezza. Giudice imparziale. Non interviene
+            direttamente ma definisce le regole del gioco.
+          note: "Non è un NPC nel senso classico — è una forza narrativa."
+
+        - nome: Ormut (spirito guida)
+          archetipo: Il Mentore (post-mortem)
+          funzione: "Voce guida dopo la benedizione. Aiuta i PG a raggiungere Erythale."
+
+        - nome: Vecna (sogno)
+          archetipo: Il Corruttore
+          funzione: >
+            Minaccia costante (tabella d6 maledizioni). Mentisce nel finale
+            ('Date lo Scettro ad Alaric'). La tentazione è sempre presente.
+
+      tecniche:
+        - nome: L'Escalation
+          applicazione: "Da taverna a biblioteca → viaggio pericoloso → dungeon → piano etereo → boss."
+        - nome: Il Presagio
+          applicazione: >
+            Brother Thaddeus avverte delle ambizioni di Alaric. I fantasmi di
+            Silenza raccontano il passato. L'iscrizione alla Piana conferma.
+        - nome: La Regola dei Tre Indizi
+          applicazione: >
+            Per lo Scettro: (1) libro in biblioteca, (2) fantasmi, (3) iscrizione.
+            Per Alaric: (1) Thaddeus, (2) Guardiani Luminosi, (3) comportamento di Alaric.
+        - nome: Il Potere ha un Prezzo
+          applicazione: "Lo Scettro è potentissimo ma la maledizione colpisce chi non è puro."
+        - nome: La Prova Segreta
+          applicazione: >
+            Le prove di purezza (golem, fonte, fiamma) sono test morali mascherati.
+            Non si può 'vincere' con la forza — solo con le scelte giuste.
+        - nome: La Terza Via
+          applicazione: >
+            Nello scontro finale: i PG possono combattere (difficilissimo) OPPURE
+            smascherare Alaric con roleplay (Sentenza di Tyr, Persuasione).
+
+      relazioni:
+        - tipo: Il Piedistallo Spezzato
+          tra: [PG (o Thaddeus), Alaric]
+          nota: "Alaric è presentato come 'il Giusto' — la rivelazione delle sue ambizioni è la caduta dell'idolo."
+        - tipo: Lo Specchio
+          tra: [Alaric, PG]
+          nota: >
+            Alaric cerca lo Scettro per lo stesso motivo dei PG (ordine di Vecna vs ambizione).
+            Entrambi vogliono il potere — la differenza è il percorso morale.
+
+    # ============================================================
+    # MODULO 3: Ritorno a Casa
+    # Viaggio via nave, intrigo, nemesi crescente
+    # Livello D&D: 10
+    # ============================================================
+
+    - nome: "Modulo 3 — Ritorno a Casa: La Scorta Sacra"
+      tipo_modulo: viaggio / intrigo
+      plot_arco: [La Scorta, La Consegna, Il Mistero]
+      escalation: "Dalla scorta del MacGuffin alla resa dei conti con Vecna"
+      posta_in_gioco: "Riconsegnare lo Scettro a Tyr e sopravvivere ai seguaci di Vecna"
+
+      situazioni:
+        - La Scorta
+        - La Consegna
+        - La Talpa
+        - La Rincorsa
+        - L'Imboscata
+        - La Caccia
+        - Il Dirottamento
+        - Lo Shock Culturale
+        - Il Naufragio
+        - La Resa dei Conti
+
+      personaggi:
+        - nome: Zalhara Lorenn
+          archetipo: La Talpa
+          funzione: >
+            Spia di Vecna sulla nave. Raccoglie informazioni e ingaggia
+            sicari a ogni tappa. Filo conduttore della prima metà del modulo.
+          note: >
+            Casting perfetto: Talpa nell'Infiltrazione/Mistero. Ha indizi
+            scopribili (documenti, comportamento, anello). Tensione crescente.
+
+        - nome: Othran Vorash
+          archetipo: La Nemesi
+          funzione: >
+            Warlock di Vecna. Cresce da nome su carta (documenti Zalhara) a
+            scontro diretto (Bryn Shander) a boss finale (Svoalbard).
+          note: >
+            Tre apparizioni con escalation: astratto → primo scontro (fugge) →
+            imboscata finale. Pattern della Nemesi rispettato.
+
+        - nome: Ludmilla Dawnshield
+          archetipo: Il Companion Fedele / La Scorta (invertita)
+          funzione: >
+            Guida verso Svoalbard. Custode del segreto della famiglia.
+            I PG la salvano → lei li guida. Debito di vita.
+          note: "Introduce la Lanterna dell'Aurora (meccanica narrativa del viaggio)."
+
+        - nome: Helmut Van Heuten
+          archetipo: Il Benefattore Misterioso (versione benigna)
+          funzione: "Mercante devoto. Finanzia la missione. Fornisce mappe e contatti."
+
+        - nome: Orlomm Glittergear
+          archetipo: Il Costruttore (versione navigatore)
+          funzione: "Capitano della Nuova Speranza. Trasporta i PG. Non è coinvolto nell'intrigo."
+
+      tecniche:
+        - nome: La Costruzione dell'Odio
+          applicazione: >
+            Othran Vorash: (1) i suoi sicari attaccano a Waterdeep, (2) imboscata
+            a Neverwinter, (3) scontro diretto prima di Bryn Shander (fugge!),
+            (4) imboscata finale a Svoalbard. Impunità crescente fino al climax.
+        - nome: La Regola dei Tre Indizi
+          applicazione: >
+            Per Svoalbard: (1) libro 'L'altare di Tyr', (2) passante a Neverwinter,
+            (3) famiglia Dawnshield. Per la spia: (1) comportamento, (2) documenti
+            in cabina, (3) lettera 'Z' sui sicari.
+        - nome: Il Contatore
+          applicazione: >
+            La Lanterna dell'Aurora: meccanica di navigazione basata sulla purezza
+            morale del gruppo. Feedback visibile sulle scelte passate.
+        - nome: La Paranoia Indotta
+          applicazione: >
+            Zalhara sulla nave: i PG non sanno chi è la spia. Ogni passeggero
+            è sospetto. La tensione si automantiene dopo il primo indizio.
+
+      relazioni:
+        - tipo: Il Debito di Vita
+          tra: [Ludmilla, PG]
+          nota: "I PG salvano Ludmilla → lei li guida a Svoalbard. Scambio equo."
+        - tipo: La Nemesi
+          tra: [Othran Vorash, PG]
+          nota: "Tre scontri con escalation. Pattern classico della Nemesi che sfugge."
+
+    # ============================================================
+    # MODULO 4: La Fine Non Appartiene ai Morti
+    # Maledizione, indagine, boss fight finale
+    # Livello D&D: 10
+    # ============================================================
+
+    - nome: "Modulo 4 — La Fine Non Appartiene ai Morti: La Vendetta del Tiranno"
+      tipo_modulo: viaggio / combat / indagine
+      plot_arco: [La Vendetta, La Maledizione, Sconfiggere il Mostro]
+      escalation: "Da maledizione passiva a scontro finale con Malebranche"
+      posta_in_gioco: "Spezzare la maledizione e sconfiggere Malebranche definitivamente"
+
+      situazioni:
+        - La Maledizione
+        - La Pestilenza
+        - L'Esplorazione
+        - Il Ritorno Sbagliato
+        - L'Artefatto
+        - La Resa dei Conti
+        - Il Debriefing
+        - La Pausa
+
+      personaggi:
+        - nome: Malebranche
+          archetipo: Il Signore Oscuro (ridotto)
+          funzione: >
+            BBEG della saga. Tornato come necromante vendicativo.
+            Ha evocato Zikle e maledetto i PG. Boss fight finale.
+          note: >
+            Evoluzione dal Tiranno Locale (M1) a Signore Oscuro disperato (M4).
+            La disperazione lo rende più pericoloso e imprevedibile.
+
+        - nome: Zikle l'Illuminato
+          archetipo: Il Ricattato (post-mortem)
+          funzione: >
+            Wraith costretto a servire Malebranche. Detiene la soluzione
+            (Monile d'Oro). Può diventare alleato o nemico.
+          note: "Versione post-mortem del Ricattato. Non è malvagio — è intrappolato."
+
+        - nome: Sir Aldric
+          archetipo: Il Guardiano della Soglia
+          funzione: >
+            Sword Wraith che custodisce il Monile. Pone una prova morale.
+            Non attacca se i PG rispondono sinceramente.
+          note: "Il combattimento è la punizione per la disonestà, non l'obiettivo."
+
+        - nome: Frankie Partenope (ritorno)
+          archetipo: La Vecchia Conoscenza
+          funzione: "Torna dal M1 come alleato. Fornisce informazioni su Malebranche."
+
+        - nome: Ombrascura (ritorno)
+          archetipo: La Vecchia Conoscenza
+          funzione: "Torna dal M1. Conferma il legame Malebranche-Zikle."
+
+        - nome: Kreig Wildforge (ritorno)
+          archetipo: La Vecchia Conoscenza / Il Redento
+          funzione: "Ex lord di Orcastle, ora conte. Aiuta i PG con informazioni e risorse."
+
+        - nome: Tungsten
+          archetipo: Il Companion Fedele (da lontano)
+          funzione: "Ex compagno d'avventura. Il suo matrimonio è l'epilogo e il Debriefing."
+
+      tecniche:
+        - nome: La Callback
+          applicazione: >
+            Frankie, Ombrascura, Kreig, Miranda, Ruby tornano tutti dal M1.
+            Il mondo è cambiato grazie alle azioni dei PG nel M1.
+            Il matrimonio di Tungsten chiude la saga.
+        - nome: La Scelta Retroattiva
+          applicazione: >
+            Se i PG hanno usato la pergamena nel M1, la cupola è caduta e
+            Orcastle è libera. Se no, la situazione è diversa.
+            Le conseguenze del M1 sono visibili nel M4.
+        - nome: Il Dilemma del Tram
+          applicazione: >
+            Prova morale nel Santuario: assolvere, condannare o sacrificarsi.
+            Non c'è risposta giusta — conta la sincerità.
+        - nome: Il Debriefing
+          applicazione: >
+            Il matrimonio di Tungsten è il ritorno a casa dopo l'avventura.
+            Momento di leggerezza che chiude la saga con il sorriso.
+        - nome: La Pestilenza
+          applicazione: >
+            I morti si rialzano ovunque passino i PG. Il contagio si diffonde.
+            Non è un nemico da combattere — è un problema sistemico.
+
+      relazioni:
+        - tipo: La Vecchia Conoscenza
+          tra: [PG, Frankie, Ombrascura, Kreig]
+          nota: "Tutti i NPC del M1 tornano cambiati. Il mondo ricorda le scelte dei PG."
+        - tipo: Il Nemico Creato
+          tra: [PG, Malebranche]
+          nota: "Malebranche è stato sconfitto DAI PG nel M1. La vendetta è personale."
+
+# ============================================================
+# VALIDAZIONE CONTRO LA GRAMMATICA NARRATIVA
+# ============================================================
+
+validazione:
+
+  copertura:
+    stereotipi_usati: 47
+    stereotipi_totali_catalogo: 228
+    percentuale: "20.6%"
+    nota: >
+      Copertura adeguata per una saga di 4 moduli. Non serve usare tutti
+      gli stereotipi — serve usare quelli giusti e bene. La varietà è buona:
+      plot (5), situazioni (25+), personaggi (16 NPC con ruoli definiti),
+      tecniche (15+), relazioni (8+).
+
+  regole_sequenza_rispettate:
+
+    - regola: "Il Legame (affezione) → [Il Sacrificio Volontario, La Fiducia Tradita]"
+      stato: RISPETTATA
+      evidenza: >
+        Frankie è companion nel M1 (legame costruito) → torna nel M4 (payoff).
+        Il tempo passato insieme nel M1 (intero modulo) costruisce il legame.
+
+    - regola: "La Costruzione dell'Odio → La Resa dei Conti"
+      stato: RISPETTATA
+      evidenza: >
+        Malebranche: rapisce i PG (M1), collari esplosivi, tiranno.
+        Othran Vorash: attacchi ripetuti M3 (Waterdeep, Neverwinter, Bryn Shander).
+        Entrambi hanno rese dei conti soddisfacenti (M4 per Malebranche, Svoalbard per Othran).
+
+    - regola: "Il Presagio → Il Colpo di Scena"
+      stato: RISPETTATA
+      evidenza: >
+        Alaric: Brother Thaddeus avverte PRIMA dello scontro.
+        Vecna mente: il sogno criptico e la tabella d6 presagiscono la manipolazione.
+
+    - regola: "L'Ora più Buia → La Resa dei Conti"
+      stato: PARZIALMENTE RISPETTATA
+      evidenza: >
+        M4 ha una forma di Ora più Buia (la maledizione, le cure dimezzate,
+        i morti che si rialzano ovunque), ma non c'è un momento singolo
+        devastante prima del climax. La pressione è graduale, non esplosiva.
+      suggerimento: >
+        Aggiungere un evento puntuale: es. un NPC amato muore per la
+        maledizione (Tungsten è in pericolo? Ludmilla viene infettata?).
+
+    - regola: "Il Legame (oggetto) → L'Anello al Dito"
+      stato: RISPETTATA
+      evidenza: >
+        Lo Scettro viene guadagnato con fatica (M2 intero) → la maledizione
+        del portatore emerge se il patto viene violato. L'oggetto è desiderato,
+        ottenuto, e poi il lato oscuro emerge.
+
+    - regola: "La Falsa Pace → L'Ora più Buia"
+      stato: RISPETTATA
+      evidenza: >
+        Tra M3 e M4: i PG hanno riconsegnato lo Scettro, la saga sembra finita,
+        sono in viaggio per un matrimonio → la maledizione colpisce.
+
+    - regola: "Il Fucile di Čechov"
+      stato: BEN UTILIZZATO
+      evidenza: >
+        Coppa di Blackwood (introdotta M1, usabile subito).
+        Kreig cugino di Malebranche (introdotto M1, usabile M1 e rilevante M4).
+        Frankie/Ombrascura (introdotti M1, tornano M4).
+        Le tre azioni di bene (promesse M2, aggancio futuro).
+
+    - regola: "Il Mentore deve sparire PRIMA del climax"
+      stato: RISPETTATA NATURALMENTE
+      evidenza: >
+        Non c'è un Mentore tradizionale — Vecna è il falso patron e Tyr è
+        il giudice. Ormut guida come voce, non come NPC presente.
+        I PG affrontano tutto da soli nelle rese dei conti.
+
+  regole_sequenza_violate:
+
+    - regola: "Il Legame (affezione) PRIMA del Tradimento dell'Alleato"
+      stato: POTENZIALE DEBOLEZZA
+      evidenza: >
+        Vecna 'tradisce' (mente nel M2 finale, minaccia) ma non c'è mai
+        stato un vero legame affettivo — è sempre stato presentato come nemico.
+        Non è un vero tradimento perché non c'era fiducia. OK narrativamente.
+      impatto: BASSO (non è un tradimento nel senso emotivo, è un inganno)
+
+    - regola: "La Costruzione dell'Odio per Malebranche"
+      stato: DEBOLEZZA MODERATA
+      evidenza: >
+        Malebranche è odioso nel M1 (rapimento, collari) ma poi sparisce per
+        2 moduli interi (M2, M3). Quando torna nel M4 come BBEG, l'odio si è
+        raffreddato. Il villain non ha fatto nulla ON SCREEN per moduli.
+      impatto: MEDIO
+      suggerimento: >
+        Aggiungere presagi di Malebranche nei M2-M3: un NPC menziona le sue
+        macchinazioni, i PG trovano tracce della sua fuga, una lettera
+        intercettata. Mantenere il nome vivo nella mente dei giocatori.
+
+  regole_casting:
+
+    - situazione: Lo Stallo (M1 — fazioni)
+      personaggi: [Ruby (Anti-Villain locale), Miranda (Informatore), Kreig (Neutrale con segreto)]
+      stato: COERENTE
+      nota: >
+        Nessun Signore Oscuro nello Stallo — corretto. Le tre fazioni sono
+        negoziabili, nessuna è puro male.
+
+    - situazione: La Resa dei Conti (M2 — Alaric)
+      personaggi: [Alaric (Anti-Villain / Falso Eroe)]
+      stato: COERENTE
+      nota: >
+        L'Anti-Villain nella Resa dei Conti è compatibile secondo la grammatica.
+        I veterani che si rivoltano sono il payoff dell'approccio non-combat.
+
+    - situazione: La Resa dei Conti (M4 — Malebranche)
+      personaggi: [Malebranche (Signore Oscuro)]
+      stato: COERENTE
+      nota: "Il Signore Oscuro come boss finale è il casting canonico."
+
+    - situazione: Il Dilemma del Carrello (M4 — Santuario)
+      personaggi: [Sir Aldric (Guardiano della Soglia)]
+      stato: COERENTE
+      nota: >
+        Il Guardiano pone il dilemma — non è il villain, è il giudice.
+        Compatibile con la regola (il dilemma viene da chi ha ragioni comprensibili).
+
+  anti_pattern_verificati:
+
+    - anti_pattern: "Il Tradimento Vuoto"
+      stato: NON PRESENTE ✓
+      nota: >
+        Non ci sono tradimenti senza legame costruito. Vecna non tradisce
+        perché non era mai stato alleato. Le fazioni del M1 possono tradire
+        ma solo dopo interazione significativa.
+
+    - anti_pattern: "Il Boss Anticlimactico"
+      stato: RISCHIO BASSO
+      nota: >
+        Alaric (M2): la soluzione roleplay è ben preparata (Thaddeus, Sentenza di Tyr).
+        Malebranche (M4): classificato DEADLY, con wraith e scheletri.
+        Othran (M3): tre scontri con escalation → il finale è preparato.
+
+    - anti_pattern: "Il Twist Gratuito"
+      stato: NON PRESENTE ✓
+      nota: >
+        La menzogna di Vecna nel M2 è presagita (Tyr dice il contrario, Thaddeus avverte).
+        Le ambizioni di Alaric sono seminabili per tutta la campagna.
+        Non ci sono twist dal nulla.
+
+    - anti_pattern: "L'Escalation Piatta"
+      stato: NON PRESENTE ✓
+      nota: >
+        M1: libertà personale. M2: anima/purezza. M3: missione sacra.
+        M4: maledizione e vendetta personale. La posta cambia ogni modulo.
+
+    - anti_pattern: "La Paranoia Totale"
+      stato: RISCHIO BASSO
+      nota: >
+        Zalhara è l'unica talpa. La maggior parte degli NPC (Helmut, Ludmilla,
+        Orlomm, Thaddeus, Frankie) è genuinamente alleata. Equilibrio buono.
+
+    - anti_pattern: "La Nemesi Scollegata"
+      stato: RISCHIO MODERATO PER MALEBRANCHE
+      nota: >
+        Othran Vorash è ben intrecciato (M3 interamente).
+        Malebranche è collegato ai PG (rapimento M1) ma assente per 2 moduli.
+        Vedi suggerimento sopra su mantenere la sua presenza narrativa.
+
+    - anti_pattern: "Il Mistero Senza Indizi"
+      stato: NON PRESENTE ✓
+      nota: >
+        Three Clue Rule applicata sistematicamente per tutti i misteri principali.
+        Ogni informazione critica ha 3+ fonti. Ben fatto.
+
+  catene_prerequisiti:
+
+    - catena: "La Vendetta Soddisfacente"
+      elementi_presenti: [Il Legame (affezione con Frankie), La Costruzione dell'Odio (Malebranche M1), La Resa dei Conti (M4)]
+      elementi_mancanti: [La Casa Distrutta (parziale — non c'è un luogo amato distrutto), L'Ora più Buia (graduale, non puntuale)]
+      stato: PARZIALMENTE SEGUITA (70%)
+      nota: >
+        Funziona perché il rapimento e i collari sono sufficientemente personali.
+        Manca il colpo devastante intermedio.
+
+    - catena: "La Scoperta della Verità"
+      elementi_presenti: [La Falsa Pace (M1 pre-rapimento), Il Mistero (chi è Ombrascura?), La Pergamena (info), Il Colpo di Scena (Vecna)]
+      stato: SEGUITA (90%)
+      nota: "La rivelazione al M2 (Alaric è corrotto) e nel M1 (Kreig è il cugino) funzionano bene."
+
+    - catena: "Il Nemico Crescente"
+      applicata_a: Othran Vorash
+      elementi_presenti: [Il Presagio (nome sui documenti), La Costruzione dell'Odio (3 attacchi), Il Falso Finale (fugge 2 volte), La Resa dei Conti (Svoalbard)]
+      stato: SEGUITA (95%)
+      nota: "Pattern eseguito in modo quasi perfetto nel singolo modulo M3."
+
+    - catena: "L'Oggetto che Corrompe"
+      applicata_a: Lo Scettro di Tyr
+      elementi_presenti: [Il Legame (oggetto — guadagnato con fatica), L'Anello al Dito (maledizione), Il Dilemma del Carrello (a chi darlo?)]
+      elementi_mancanti: [Il Sacrificio Volontario (opzionale — distruzione dello Scettro)]
+      stato: SEGUITA (85%)
+
+# ============================================================
+# PROPOSTE DI MIGLIORAMENTO
+# ============================================================
+
+proposte:
+
+  stereotipi_mancanti_suggeriti:
+
+    - stereotipo: "L'Ora più Buia (evento puntuale)"
+      dove: Modulo 4, prima dello scontro con Malebranche
+      suggerimento: >
+        Aggiungere un momento devastante: un NPC amato viene ucciso dalla
+        maledizione, o un villaggio che i PG avevano salvato viene distrutto.
+        Qualcosa che dica "è troppo tardi, tutto è perduto" prima della rimonta.
+
+    - stereotipo: "La Falsa Pace (nel M3)"
+      dove: Inizio Modulo 3
+      stato: GIÀ PRESENTE (implicita)
+      nota: >
+        Il periodo a Baldur's Gate tra M2 e M3 funziona come falsa pace.
+        Potrebbe essere reso più esplicito: una scena di normalità prima
+        che Vecna richiami all'ordine.
+
+    - stereotipo: "Il Sacrificio Volontario"
+      dove: Modulo 4 (climax o pre-climax)
+      suggerimento: >
+        Frankie o Ombrascura che si sacrificano per dare ai PG il tempo
+        di completare il rituale. Payoff del legame costruito nel M1.
+        Opzionale ma emotivamente potentissimo se preparato bene.
+
+    - stereotipo: "La Vittoria di Pirro (opzionale)"
+      dove: Finale M4
+      suggerimento: >
+        Se si vuole un tono più grimdark: la maledizione è spezzata ma i
+        danni al mondo restano (villaggi distrutti, NPC morti). La vittoria
+        ha un sapore amaro. Il matrimonio di Tungsten come contrasto.
+
+  regole_mancanti:
+
+    - regola: "Mantenere il BBEG presente durante l'assenza"
+      impatto: MEDIO
+      suggerimento: >
+        Malebranche sparisce dal M2 al M4. Aggiungere menzioni indirette:
+        (M2) un indizio alla Rocca Bianca che Malebranche sta perdendo potere.
+        (M3) un NPC a Neverwinter menziona l'esilio di un lord corrotto.
+        Non deve agire — basta che il suo nome resti in circolo.
+
+    - regola: "L'Escalation Emotiva sopra la Militare"
+      stato: BEN RISPETTATA
+      nota: >
+        La posta è sempre personale (anima, purezza, amici maledetti) più
+        che militare (nessun 'il mondo finirà'). Scelta di design eccellente.
+
+  miglioramenti_strutturali:
+
+    - area: "Transizioni tra moduli"
+      stato: BUONO
+      nota: >
+        Ogni modulo ha un preludio che adatta la transizione alle scelte
+        precedenti. Le varianti sono documentate. Ben fatto.
+
+    - area: "Ritorno dei personaggi (Callback)"
+      stato: ECCELLENTE
+      nota: >
+        Frankie, Ombrascura, Kreig, Miranda, Ruby tornano tutti nel M4.
+        Il mondo ricorda le scelte dei PG. Esempio di buon worldbuilding reattivo.
+
+    - area: "Diversità di gameplay"
+      stato: BUONO
+      nota: >
+        M1: sandbox/esplorazione. M2: viaggio/dungeon/prove morali.
+        M3: viaggio via nave/intrigo. M4: indagine/combat.
+        Buona varietà, nessun modulo è uguale al precedente.
+
+# ============================================================
+# FEEDBACK PER L'AUTORE
+# ============================================================
+
+feedback_per_autore:
+
+  punti_di_forza:
+    - titolo: "Arco morale coerente"
+      dettaglio: >
+        La progressione da pedine di Vecna a campioni di Tyr è il filo
+        conduttore più forte della saga. Le prove di purezza nel M2 sono
+        ben progettate e offrono agency ai giocatori. Il patto con Vecna
+        nel M1 è un hook magistrale perché crea tensione morale che paga
+        per 3 moduli.
+
+    - titolo: "Three Clue Rule applicata sistematicamente"
+      dettaglio: >
+        Ogni informazione critica ha 3+ fonti: la pergamena (M1), lo Scettro (M2),
+        Svoalbard (M3), la maledizione (M4). Questo è raro nelle avventure
+        homebrew e garantisce che i PG non si blocchino mai.
+
+    - titolo: "Le scelte hanno conseguenze visibili"
+      dettaglio: >
+        La pergamena nel M1 (usarla, darla, tenerla), lo Scettro nel M2
+        (4 destini possibili), il golem salvato che torna nel finale, Kreig
+        che diventa conte nel M4. Il mondo reagisce. Eccellente.
+
+    - titolo: "NPC che tornano (Callback)"
+      dettaglio: >
+        Il ritorno di Frankie, Ombrascura, Kreig nel M4 dà profondità al
+        mondo e premia i giocatori attenti. Il matrimonio di Tungsten come
+        epilogo è un tocco di classe che chiude con leggerezza.
+
+    - titolo: "Nemesi ben costruita (Othran Vorash)"
+      dettaglio: >
+        Il pattern nome → documenti → scontro indiretto → scontro diretto →
+        boss fight è eseguito quasi perfettamente nel M3. Modello da replicare.
+
+  aree_di_miglioramento:
+    - titolo: "Malebranche assente per troppo tempo"
+      priorita: MEDIA
+      dettaglio: >
+        Il BBEG finale sparisce dalla narrazione per 2 moduli interi (M2-M3).
+        Quando torna nel M4, i giocatori potrebbero non ricordare bene perché
+        lo odiano. Soluzione: inserire 2-3 menzioni indirette nei moduli
+        intermedi (un NPC che parla di lui, un evento collegato, un presagio).
+
+    - titolo: "L'Ora più Buia manca un picco emotivo nel M4"
+      priorita: BASSA
+      dettaglio: >
+        La maledizione è una pressione graduale (bene per il pacing) ma manca
+        un momento singolo devastante che faccia dire ai giocatori "è finita".
+        Opzionale — la struttura funziona anche senza, ma con un colpo emotivo
+        la resa dei conti con Malebranche sarebbe più catartica.
+
+    - titolo: "Il Debriefing del M2 è sottosviluppato"
+      priorita: BASSA
+      dettaglio: >
+        Dopo lo scontro con Alaric il modulo finisce. Non c'è una scena di
+        respiro in cui i PG elaborano cosa è successo, le conseguenze della
+        scelta (lo Scettro), il cambio di status. Il preludio del M3 copre
+        questo in parte, ma una scena di chiusura nel M2 aiuterebbe.
+
+    - titolo: "Vincolo GDR: le prove di purezza"
+      priorita: NOTA
+      dettaglio: >
+        Le prove di purezza (M2) funzionano bene perché offrono scelta reale
+        ai giocatori (salvare il golem, promettere, sacrificare). L'unico
+        rischio è che un giocatore NON voglia il ruolo di 'redento' — in quel
+        caso il giocatore si sentirà railroad-ato. La Sala 12 (sacrificio
+        di un oggetto) è la via di fuga perfetta per chi non vuole fare
+        promesse a Tyr. Già ben gestito con 3 opzioni.
+
+  valutazione_complessiva:
+    voto: "8/10"
+    nota: >
+      Saga solida con un arco morale coerente, buona varietà di gameplay,
+      e un uso quasi sistematico della Three Clue Rule. I NPC sono ben
+      differenziati e tornano in modo significativo. I punti deboli sono
+      minori (assenza del BBEG nei moduli intermedi, mancanza di un picco
+      emotivo nel M4) e facilmente risolvibili con piccole aggiunte. La
+      struttura narrativa rispetta la maggior parte delle regole della
+      grammatica. L'avventura è pronta per essere giocata con efficacia.
+
+  # Transizioni tra plot (verifica grammatica)
+  transizioni_plot:
+    - da: "La Fuga dalla Prigione (M1)"
+      a: "La Cerca (M2)"
+      valutazione: NATURALE
+      nota: "Dopo la fuga → la quest. Transizione organica via patto con Vecna."
+
+    - da: "La Cerca (M2)"
+      a: "La Scorta / Consegna (M3)"
+      valutazione: NATURALE
+      nota: "Dopo il recupero → la riconsegna. Logico e lineare."
+
+    - da: "La Scorta (M3)"
+      a: "La Vendetta / Sconfiggere il Mostro (M4)"
+      valutazione: NATURALE
+      nota: >
+        Dopo la consegna → il vecchio nemico colpisce. La Falsa Pace tra
+        M3 e M4 (viaggio per il matrimonio) rende la transizione efficace.
+
+    - da_plot_globale: "La Tentazione"
+      a_plot_globale: "Rinascita"
+      valutazione: NATURALE
+      nota: >
+        La grammatica conferma: dalla Tentazione (patto Vecna) alla Rinascita
+        (purificazione, prove di Tyr) è una transizione collaudata.

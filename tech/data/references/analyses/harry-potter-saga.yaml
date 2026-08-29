@@ -1,0 +1,916 @@
+# Analisi: Harry Potter — Saga Completa (come campagna D&D a 7 archi)
+# Data: 2026-08-29
+# Esito: completa
+# Note: Analisi dei 7 libri come unica campagna con escalation perfetta.
+#   PG: Harry, Ron, Hermione (non controllati dall'autore in un GDR)
+#   NPC: Dumbledore, Snape, Voldemort, Hagrid, i Weasley, Sirius, Neville, Draco
+
+opera:
+  titolo: "Harry Potter — Saga Completa"
+  tipo: romanzo (serie 7 volumi)
+  epoca: 1997-2007
+  genere_dnd_compatibile: true
+  note: >
+    Campagna a 7 archi con escalation lineare perfetta: da "salva una pietra"
+    a "salva il mondo magico". Struttura unica: ogni arco ha un Falso Finale
+    autonomo (boss diverso) mentre il BBEG cresce in potenza sullo sfondo.
+    Il villain non è mai confrontato direttamente fino all'arco 4 — costruzione
+    dell'odio e del terrore per 3 archi interi. Il Mentore muore all'arco 6,
+    lasciando i PG soli per la Resa dei Conti dell'arco 7.
+    La sovversione principale: Snape (6 archi di Red Herring / Falso Antagonista
+    che si rivela La Talpa positiva post-mortem) e Dumbledore (Il Piedistallo
+    Spezzato — il mentore non era perfetto).
+
+# ============================================================
+# STRUTTURA GLOBALE
+# ============================================================
+
+struttura:
+  plot_principale: Sconfiggere il Mostro
+  plot_secondari:
+    - Da Povero a Ricco
+    - La Cerca
+    - Il Mistero
+    - La Ribellione
+    - Rinascita
+  meta_plot: >
+    Il Nemico Crescente: Voldemort passa da ombra parassita (arco 1) a spirito
+    nel diario (arco 2) a fuggitivo menzionato (arco 3) a corpo rigenerato
+    (arco 4) a guerra aperta (arco 5-6) a tiranno al potere (arco 7).
+    Parallelamente: il Legame verso Hogwarts, Dumbledore e il party cresce
+    fino a rendere devastanti le perdite degli archi 5-7.
+
+  escalation_globale:
+    arco_1: "Salva un oggetto (la Pietra Filosofale) da un singolo infiltrato"
+    arco_2: "Salva la scuola da un mostro e scopri un segreto del villain"
+    arco_3: "Salva un innocente (Sirius) — scoperta che il passato era diverso"
+    arco_4: "Sopravvivi al ritorno fisico del villain — prima morte di un compagno"
+    arco_5: "Combatti la negazione del mondo — perdi il padrino, formazione dell'esercito"
+    arco_6: "Scopri la debolezza del villain — perdi il Mentore"
+    arco_7: "Distruggi il villain e salva il mondo magico — guerra totale"
+
+  sistema_falsi_finali:
+    descrizione: >
+      Ogni arco ha un boss diverso che sembra il climax ma non lo è.
+      Voldemort è DIETRO ogni falso finale, mai confrontabile direttamente
+      fino all'arco 4, mai sconfitto fino all'arco 7. Questo sistema
+      permette di avere 7 climax soddisfacenti senza bruciare il BBEG.
+    lista:
+      - arco: 1
+        falso_boss: "Quirrell (posseduto da Voldemort)"
+        vero_villain: "Voldemort-parassita"
+      - arco: 2
+        falso_boss: "Il Basilisco + Tom Riddle (memoria nel diario)"
+        vero_villain: "Voldemort-Horcrux"
+      - arco: 3
+        falso_boss: "Sirius Black (che si rivela innocente) → Peter Pettigrew"
+        vero_villain: "Nessuno diretto — arco mystery/sovversione"
+      - arco: 4
+        falso_boss: "Il Torneo Tremaghi (la competizione come distrazione)"
+        vero_villain: "Voldemort rigenerato — primo confronto diretto"
+      - arco: 5
+        falso_boss: "Dolores Umbridge (Tiranno Locale)"
+        vero_villain: "Voldemort (opera attraverso la profezia e la connessione mentale)"
+      - arco: 6
+        falso_boss: "Draco Malfoy (missione per uccidere Dumbledore)"
+        vero_villain: "Snape (apparente) — in realtà il piano di Dumbledore"
+      - arco: 7
+        falso_boss: "Gli Horcrux (la Cerca) + i Mangiamorte"
+        vero_villain: "Voldemort — Resa dei Conti finale"
+
+# ============================================================
+# PERSONAGGI — CASTING GLOBALE
+# ============================================================
+
+personaggi:
+
+  # --- PG ---
+
+  - nome: Harry Potter
+    ruolo: PG
+    archetipi: [L'Eletto, L'Eroe Riluttante, Lo Specchio (rispetto a Voldemort)]
+    arco: >
+      Orfano ignaro → scopre il mondo magico → cresce come leader →
+      accetta di dover morire per vincere → "muore" e torna → sconfigge
+      il villain. Arco Da Povero a Ricco + Il Sacrificio Volontario.
+    note: >
+      Funzione L'Eletto giustificata dalla Profezia Autoavverante (Voldemort
+      lo "sceglie" tentando di ucciderlo). Lo Specchio: condivide poteri con
+      Voldemort, parla Serpentese, ha infanzia simile (orfano, mondo babbano).
+      La differenza è nelle SCELTE — tema centrale della saga.
+
+  - nome: Ron Weasley
+    ruolo: PG
+    archetipi: [Il Companion Fedele, La Voce della Ragione]
+    arco: >
+      Amico leale che lotta con l'insicurezza (ombra dei fratelli, ombra
+      di Harry). Abbandona e torna (arco 7) — il ritorno è il payoff.
+    note: "La sua partenza nell'arco 7 è una mini-Tradimento dell'Alleato che si risolve in Rinascita."
+
+  - nome: Hermione Granger
+    ruolo: PG
+    archetipi: [Il Companion Fedele, La Voce della Ragione, Il Guardiano del Sapere]
+    arco: "Da secchiona emarginata a cuore strategico del party."
+    note: "Funzione meccanica: è il PG che ha sempre l'informazione giusta. Three Clue Rule incarnata."
+
+  # --- NPC PRINCIPALI ---
+
+  - nome: Albus Dumbledore
+    ruolo: NPC
+    archetipi: [Il Mentore / Vecchio Saggio, Il Benefattore Misterioso, Il Piedistallo Spezzato]
+    arco: >
+      Archi 1-5: Mentore onnisciente e protettivo. Arco 6: muore (piano
+      proprio). Arco 7: rivelazione post-mortem — era un manipolatore con
+      passato oscuro (amicizia con Grindelwald, morte della sorella).
+      Il Piedistallo Spezzato: il mentore non era perfetto.
+    funzione_narrativa: >
+      - Archi 1-5: dà informazioni dosate, protegge da lontano, limita
+        l'esposizione diretta al villain.
+      - Arco 6: la sua morte forza l'autonomia dei PG (regola: Il Mentore
+        deve sparire PRIMA della Resa dei Conti).
+      - Arco 7: Il Piedistallo Spezzato — i PG scoprono che il mentore
+        li usava come pedine nel suo piano. La fede vacilla ma il piano
+        era corretto.
+    morte: "Arco 6. Pianificata da lui stesso. Snape esegue su suo ordine."
+    note: >
+      Sovversione del Mentore classico: Gandalf/Obi-Wan sono imperfetti ma
+      moralmente limpidi. Dumbledore è moralmente ambiguo — manipola Harry
+      "per il bene superiore". La domanda è: aveva diritto di farlo?
+
+  - nome: Severus Snape
+    ruolo: NPC
+    archetipi: [Il Mutaforma, La Talpa (positiva), Il Falso Antagonista, Il Redento, L'Alleato Scomodo]
+    arco: >
+      6 archi di Red Herring totale: sembra il cattivo in OGNI libro.
+      Rivelazione post-mortem (arco 7): era la talpa di Dumbledore da 17 anni.
+      Motivazione: amore per Lily Potter (madre di Harry).
+      Il suo intero arco è un'Espiazione silenziosa.
+    funzione_narrativa: >
+      - Archi 1-6: Falso Antagonista. Il lettore/giocatore lo odia.
+        Comportamento ostile, sospetto costante, presagi ambigui.
+      - Arco 6: uccide Dumbledore → sembra la conferma definitiva.
+      - Arco 7 (post-mortem): La Frase Bomba ("Always") ribalta 6 archi
+        interi. Tutti i presagi si rileggono al contrario.
+    note: >
+      CASO DI STUDIO MAGISTRALE per il Red Herring prolungato.
+      Tecnica: 6 archi di indizi "è cattivo" mescolati con presagi sottili
+      "protegge Harry" — il lettore attento POTEVA capire, ma la narrazione
+      spinge verso il sospetto. Il payoff funziona perché è "sorprendente
+      ma inevitabile" a posteriori.
+
+  - nome: Lord Voldemort (Tom Riddle)
+    ruolo: NPC
+    archetipi: [Il Signore Oscuro, Lo Specchio (rispetto a Harry), Il Corruttore]
+    arco: >
+      Ombra → parassita → memoria → fuggitivo → corpo rigenerato →
+      guerra aperta → tiranno → sconfitto.
+      Mai presente direttamente fino all'arco 4. La Costruzione dell'Odio
+      avviene attraverso le sue CONSEGUENZE, non la sua presenza.
+    funzione_narrativa: >
+      - Arco 1-3: costruzione del terrore SENZA presenza diretta. Agisce
+        tramite proxy (Quirrell, diario, Pettigrew).
+      - Arco 4: ritorno fisico. Primo confronto diretto. Uccide Cedric
+        (prima morte "vera" on-screen).
+      - Arco 5-6: escalation — guerra, morti, terrore. Ma ancora non
+        confrontabile (troppo forte).
+      - Arco 7: Resa dei Conti — ma vinta attraverso conoscenza (Horcrux)
+        e sacrificio, non potenza.
+    note: >
+      Costruzione perfetta del BBEG: non è mai "il sacco di HP da battere".
+      Ogni arco aggiunge un MOTIVO per odiarlo (Costruzione dell'Odio):
+      1: ha ucciso i genitori. 2: ha creato un'arma di terrore (Basilisco).
+      4: uccide Cedric. 5: uccide Sirius (via Bellatrix). 6: ordina la morte
+      di Dumbledore. 7: regna col terrore. Quando cade, 7 archi di odio si
+      scaricano nel payoff.
+
+  - nome: Rubeus Hagrid
+    ruolo: NPC
+    archetipi: [Il Guardiano della Soglia, Il Companion Fedele]
+    funzione: >
+      Il primo contatto di Harry col mondo magico (Guardiano della Soglia
+      letterale). Poi companion ricorrente: cuore d'oro, fonte di guai
+      involontari, informazioni accidentali. Il suo amore per le creature
+      pericolose è un running gag E un Fucile di Čechov ricorrente.
+    note: "La sua cattura/esilio in vari archi è un termometro della situazione politica."
+
+  - nome: Sirius Black
+    ruolo: NPC
+    archetipi: [Il Falso Antagonista (arco 3), Il Companion Fedele (archi 4-5), Il Veterano Spezzato]
+    arco: >
+      Arco 3: sembra il villain (evaso per uccidere Harry) → si rivela
+      innocente e padrino. Arco 4-5: figura paterna sostitutiva. Arco 5:
+      muore — Il Legame costruito rende la perdita devastante.
+    funzione_narrativa: >
+      Costruzione del Legame (affezione): arco 3 introduce, arco 4-5
+      costruisce il rapporto padre/figlio. La morte all'arco 5 è il primo
+      colpo veramente personale a Harry (i genitori erano "prima della storia",
+      Cedric era un compagno, Sirius è FAMIGLIA scelta).
+    note: "Illustra perfettamente la regola: Il Legame deve precedere la perdita."
+
+  - nome: Neville Longbottom
+    ruolo: NPC
+    archetipi: [Il Figurante di Čechov, La Pedina del Destino (Il Prescelto Sbagliato)]
+    arco: >
+      Archi 1-5: figurante goffo, comic relief. Arco 5: si rivela che
+      AVREBBE POTUTO essere l'Eletto (la profezia era ambigua). Arco 7:
+      distrugge l'ultimo Horcrux (Nagini). Da figurante a eroe.
+    funzione_narrativa: >
+      Promozione narrativa classica: introdotto come background, diventa
+      cruciale al climax. La profezia alternativa (avrebbe potuto essere lui)
+      è un Fucile di Čechov seminato nell'arco 5 e sparato nell'arco 7.
+    note: >
+      Caso di studio per La Promozione (stereotipo NON ancora nel database —
+      vedi proposte sotto). Il personaggio "inutile" che si rivela essenziale.
+
+  - nome: Draco Malfoy
+    ruolo: NPC
+    archetipi: [La Nemesi (livello minore), Il Buon Diavolo, Il Ricattato (arco 6-7)]
+    arco: >
+      Archi 1-5: nemesi scolastica, bullo, mai davvero pericoloso.
+      Arco 6: diventa il Ricattato (Voldemort minaccia la sua famiglia) —
+      non riesce a uccidere Dumbledore. Arco 7: alleato riluttante involontario.
+    funzione_narrativa: >
+      Funziona come termometro dell'escalation: quando il bullo scolastico
+      diventa una vittima terrorizzata, il mondo è davvero diventato oscuro.
+      La sua incapacità di uccidere nell'arco 6 è un momento di umanizzazione
+      che ribalta 5 archi di antagonismo.
+    note: "L'Eredità Pesante: paga per le scelte del padre (Lucius)."
+
+  - nome: La famiglia Weasley
+    ruolo: NPC (collettivo)
+    archetipi: [Il Legame (luogo/famiglia), L'Innocente (da proteggere)]
+    funzione: >
+      La Tana è il secondo "casa" di Harry (dopo Hogwarts). I Weasley sono
+      la famiglia adottiva. Questa costruzione rende devastante ogni minaccia
+      verso di loro (Fred muore nell'arco 7 — Il Legame paga il suo prezzo).
+    note: "Molly Weasley incarna il tropo 'Mama Bear' — il suo momento (uccide Bellatrix) è un payoff di 7 archi."
+
+# ============================================================
+# ARCHI DETTAGLIATI
+# ============================================================
+
+archi:
+    # ============================================================
+    # ARCO 1: La Pietra Filosofale
+    # ============================================================
+    - nome: "Arco 1 — La Pietra Filosofale: L'Ingresso nel Mondo Magico"
+      libro: "Harry Potter e la Pietra Filosofale (1997)"
+      plot_arco: [Viaggio e Ritorno, Da Povero a Ricco, Sconfiggere il Mostro]
+      escalation: "Da 'orfano maltrattato' a 'salva un oggetto dal villain'"
+      posta_in_gioco: "La Pietra Filosofale (oggetto) + l'introduzione al mondo"
+      livello_dnd: "1-2"
+
+      situazioni:
+        - La Masquerade (Il Segreto del Mondo)
+        - Il Guardiano della Soglia
+        - Il Rito di Passaggio
+        - Il Branco di Disadattati
+        - Il Mistero
+        - Il Falso Antagonista
+        - La Zona Proibita
+        - Il Labirinto
+        - Il Falso Finale
+        - Il Debriefing
+
+      tecniche:
+        - nome: Il Legame (luogo)
+          applicazione: >
+            Hogwarts costruito come paradiso: cibo magico, amici, magia,
+            libertà dai Dursley. Il lettore/giocatore si innamora del luogo
+            insieme a Harry. Setup per 6 archi di investimento emotivo.
+        - nome: Il Legame (affezione)
+          applicazione: "Ron, Hermione, Hagrid — costruiti come famiglia sostitutiva."
+        - nome: Il Falso Antagonista
+          applicazione: >
+            Snape sembra il villain (comportamento ostile, zoppica, sospettato
+            dal party). In realtà protegge Harry. Quirrell è il vero nemico.
+            Setup del pattern "Snape sembra cattivo" che durerà 6 archi.
+        - nome: La Masquerade
+          applicazione: "Il mondo magico nascosto ai Babbani — Harry entra attraverso la soglia."
+        - nome: Il Fucile di Čechov
+          applicazione: >
+            La bacchetta gemella (menzionata da Ollivander arco 1, cruciale arco 4 e 7).
+            La cicatrice come connessione (arco 1 → payoff arco 5-7).
+            Il Mantello dell'Invisibilità (regalo arco 1, Reliquia della Morte arco 7).
+
+      boss: "Quirrell/Voldemort-parassita (il prof insospettabile era il vessel)"
+
+    # ============================================================
+    # ARCO 2: La Camera dei Segreti
+    # ============================================================
+    - nome: "Arco 2 — La Camera dei Segreti: Il Segreto del Villain"
+      libro: "Harry Potter e la Camera dei Segreti (1998)"
+      plot_arco: [Il Mistero, Sconfiggere il Mostro]
+      escalation: "Da 'oggetto da proteggere' a 'studenti pietrificati, la scuola rischia la chiusura'"
+      posta_in_gioco: "La vita degli studenti + Hogwarts stessa (rischia di chiudere)"
+      livello_dnd: "2-3"
+
+      situazioni:
+        - Il Mistero
+        - La Pergamena
+        - Il Falso Antagonista
+        - La Zona Proibita
+        - Il Mostro è una Persona (parziale — Ginny posseduta)
+        - Il Male Sigillato
+        - L'Esplorazione (dungeon: la Camera)
+        - La Resa dei Conti
+        - Il Debriefing
+
+      tecniche:
+        - nome: Il Fucile di Čechov
+          applicazione: >
+            Il diario di Tom Riddle: introdotto come oggetto misterioso, si
+            rivela Horcrux (payoff nell'arco 6 quando Harry capisce il pattern).
+            Il Basilisco: la sua zanna distrugge gli Horcrux (payoff arco 7).
+        - nome: Il Falso Antagonista
+          applicazione: "Draco sembra l'erede di Serpeverde. Non lo è. Pattern 'il sospettato ovvio è innocente'."
+        - nome: Il Red Herring
+          applicazione: "Snape ancora sospetto. Hagrid accusato e arrestato. Entrambi innocenti."
+        - nome: L'Escalation
+          applicazione: "Non più un oggetto da proteggere — ora sono PERSONE in pericolo (pietrificazione)."
+        - nome: La Profezia Autoavverante
+          applicazione: >
+            Voldemort crea il suo nemico: il diario mostra il giovane Tom Riddle,
+            rivelando che Voldemort era come Harry (orfano, Parseltongue).
+            Lo Specchio si approfondisce.
+
+      boss: "Il Basilisco + la memoria di Tom Riddle (Horcrux inconsapevole)"
+
+    # ============================================================
+    # ARCO 3: Il Prigioniero di Azkaban
+    # ============================================================
+    - nome: "Arco 3 — Il Prigioniero di Azkaban: Il Passato Ribaltato"
+      libro: "Harry Potter e il Prigioniero di Azkaban (1999)"
+      plot_arco: [Il Mistero, La Vendetta (subvertita)]
+      escalation: "Da 'minaccia scolastica' a 'il passato dei genitori irrompe nel presente'"
+      posta_in_gioco: "La verità sul tradimento dei Potter + la vita di un innocente"
+      livello_dnd: "3-4"
+      nota_speciale: "Unico arco SENZA Voldemort come antagonista diretto. Pausa nella costruzione del BBEG."
+
+      situazioni:
+        - Il Falso Antagonista
+        - Il Mistero
+        - Il Colpo di Scena
+        - L'Agnizione
+        - La Fuga dalla Prigione
+        - La Corsa Contro il Tempo
+        - Il Loop Temporale (il Giratempo)
+        - Il Debriefing
+
+      tecniche:
+        - nome: Il Falso Antagonista
+          applicazione: >
+            Sirius Black: 3/4 del libro costruito come il villain (evaso,
+            vuole uccidere Harry). Colpo di scena: è innocente. Pettigrew
+            (nascosto come topo per 12 anni!) è il vero traditore.
+            Sovversione totale delle aspettative.
+        - nome: L'Agnizione
+          applicazione: "Sirius è il padrino. La mappa mostra Pettigrew vivo. Il passato si ridefinisce."
+        - nome: Il Figurante di Čechov
+          applicazione: "Crosta (Scabbers) il topo — presente dalla pagina 1 dell'arco 1, è Pettigrew da sempre."
+        - nome: Il Legame (affezione)
+          applicazione: >
+            Sirius costruito come figura paterna DOPO la rivelazione. In un solo
+            arco passa da villain apparente a famiglia — setup per la devastazione
+            dell'arco 5.
+        - nome: La Terza Via
+          applicazione: >
+            Harry SCEGLIE di non uccidere Pettigrew. Scelta morale che lo
+            distingue dal villain. Pagherà un prezzo (Pettigrew fugge e aiuta
+            Voldemort a tornare nell'arco 4) ma è la scelta GIUSTA.
+
+      boss: "Nessun boss fisico classico — il 'nemico' è il tempo e la verità nascosta"
+      nota: "Arco anomalo: nessun confronto col villain. Serve come Pausa nell'escalation e come setup emotivo."
+
+    # ============================================================
+    # ARCO 4: Il Calice di Fuoco
+    # ============================================================
+    - nome: "Arco 4 — Il Calice di Fuoco: Il Ritorno del Signore Oscuro"
+      libro: "Harry Potter e il Calice di Fuoco (2000)"
+      plot_arco: [Sconfiggere il Mostro, La Corsa Contro il Tempo, La Pedina Inconsapevole]
+      escalation: "SALTO ENORME — il villain torna fisicamente. Prima morte di un 'innocente'."
+      posta_in_gioco: "La vita di Harry + il ritorno di Voldemort (posta cosmica)"
+      livello_dnd: "5-7"
+      nota_speciale: "Punto di svolta della saga. Da qui il tono diventa permanentemente più oscuro."
+
+      situazioni:
+        - L'Arena (Il Torneo Tremaghi)
+        - La Pedina Inconsapevole
+        - Il Falso Antagonista (Moody/Barty Crouch Jr.)
+        - Il Doppio (Polyjuice)
+        - La Trappola Evidente (il cimitero)
+        - La Resa dei Conti (primo duello diretto)
+        - L'Ora più Buia
+        - Il Debriefing
+
+      tecniche:
+        - nome: La Pedina Inconsapevole
+          applicazione: >
+            Harry è usato per tutto l'arco senza saperlo: il Torneo è una trappola
+            di Barty Crouch Jr. per portarlo al cimitero. Ogni "vittoria" del
+            Torneo lo avvicina alla trappola. I PG fanno il gioco del villain.
+        - nome: Il Doppio
+          applicazione: >
+            Barty Crouch Jr. impersona Moody per un anno intero (Polyjuice).
+            Il Falso Antagonista invertito: il "mentore dell'arco" è il villain.
+            Payoff del Figurante di Čechov: il baule con 7 serrature, il fiaschetto.
+        - nome: La Costruzione dell'Odio
+          applicazione: >
+            Voldemort uccide Cedric Diggory — prima morte di un personaggio
+            "buono" on-screen. Gratuita, spietata ("Kill the spare"). Da qui
+            il villain non è più un'ombra: è un assassino che uccide ragazzi.
+        - nome: Il Fucile di Čechov
+          applicazione: >
+            Priori Incantatem (le bacchette gemelle): seminato arco 1 (Ollivander),
+            sparato qui (il duello al cimitero). I "fantasmi" delle vittime
+            aiutano Harry a fuggire.
+        - nome: Il Cambio di Genere
+          applicazione: >
+            Il tono della saga cambia permanentemente: da mystery scolastico a
+            thriller/guerra. Il Torneo è "l'ultimo momento di normalità" — dopo
+            il cimitero nulla sarà più leggero.
+
+      boss: "Voldemort rigenerato — primo confronto diretto (Harry sopravvive per la bacchetta gemella, non per forza)"
+
+    # ============================================================
+    # ARCO 5: L'Ordine della Fenice
+    # ============================================================
+    - nome: "Arco 5 — L'Ordine della Fenice: La Guerra Negata"
+      libro: "Harry Potter e l'Ordine della Fenice (2003)"
+      plot_arco: [La Ribellione, La Tentazione, Tragedia]
+      escalation: "Il mondo nega la verità. Harry combatte su due fronti: il Ministero E Voldemort."
+      posta_in_gioco: "La verità (macro) + la vita di Sirius (personale) + la sanità di Harry"
+      livello_dnd: "7-9"
+
+      situazioni:
+        - La Ribellione
+        - Il Tiranno Locale (Umbridge)
+        - La Costruzione dell'Odio (Umbridge)
+        - La Radunata (Esercito di Dumbledore)
+        - La Tentazione (connessione mentale con Voldemort)
+        - Il Nemico Interiore
+        - La Profezia
+        - La Trappola Evidente (Ministero della Magia)
+        - Il Sacrificio Volontario (Sirius)
+        - L'Ora più Buia
+        - Il Debriefing
+
+      tecniche:
+        - nome: La Costruzione dell'Odio (Umbridge)
+          applicazione: >
+            Dolores Umbridge è PIÙ ODIATA di Voldemort. Non perché è più
+            potente — perché è più VICINA e più PERSONALE. Tortura quotidiana,
+            burocrazia oppressiva, negazione della verità. Il Tiranno Locale
+            funziona perché è reale e quotidiano dove il Dark Lord è astratto.
+        - nome: Il Legame → La Perdita
+          applicazione: >
+            Sirius muore. Setup: arco 3 (introduzione), arco 4-5 (costruzione
+            rapporto padre/figlio). Payoff: la morte è devastante PERCHÉ il
+            legame era reale. 2 archi di costruzione per 1 momento di perdita.
+        - nome: La Profezia
+          applicazione: >
+            La profezia viene rivelata: "l'uno deve morire per mano dell'altro".
+            Setup per il sacrificio dell'arco 7. Formulazione ambigua: avrebbe
+            potuto essere Neville (Fucile di Čechov per il suo arco).
+        - nome: Il Nemico Interiore
+          applicazione: >
+            La connessione mentale Harry-Voldemort: Harry vede attraverso gli
+            occhi del villain, viene influenzato dalla sua rabbia. Il nemico
+            è DENTRO di lui. Snape tenta di insegnargli Occlumanzia (fallimento
+            che porta alla trappola).
+        - nome: La Radunata
+          applicazione: "L'Esercito di Dumbledore: Harry addestra i compagni. Setup per la battaglia finale arco 7."
+
+      boss: "Voldemort al Ministero (duello con Dumbledore) — ma Harry lo combatte 'dentro' (possessione)"
+
+    # ============================================================
+    # ARCO 6: Il Principe Mezzosangue
+    # ============================================================
+    - nome: "Arco 6 — Il Principe Mezzosangue: La Morte del Mentore"
+      libro: "Harry Potter e il Principe Mezzosangue (2005)"
+      plot_arco: [La Cerca, Il Mistero, Tragedia]
+      escalation: "Il Mentore muore. I PG sono soli. La posta è massima."
+      posta_in_gioco: "La scoperta degli Horcrux (la debolezza di Voldemort) + la vita di Dumbledore"
+      livello_dnd: "9-12"
+
+      situazioni:
+        - La Pergamena (le memorie di Tom Riddle)
+        - La Cerca (gli Horcrux)
+        - Il Flashback (il Pensatoio)
+        - La Tentazione (il libro del Principe)
+        - Il Ricattato (Draco)
+        - Il Sacrificio Volontario (Dumbledore)
+        - Il Tradimento dell'Alleato (apparente — Snape)
+        - L'Ora più Buia
+        - Il Colpo di Scena
+
+      tecniche:
+        - nome: Il Flashback (diegetico)
+          applicazione: >
+            Il Pensatoio come veicolo diegetico perfetto: Dumbledore mostra a
+            Harry le memorie su Tom Riddle. Il passato del villain viene rivelato
+            attraverso un artefatto che giustifica la conoscenza dei PG.
+        - nome: La Morte del Mentore
+          applicazione: >
+            Dumbledore muore — ucciso da Snape. La regola è rispettata: il Mentore
+            DEVE sparire PRIMA della Resa dei Conti perché i PG crescano.
+            Sovversione: la morte è PIANIFICATA da Dumbledore stesso (rivelato arco 7).
+        - nome: Il Piedistallo Spezzato (setup)
+          applicazione: >
+            Indizi che Dumbledore non è perfetto: la mano annerita (ha ceduto alla
+            tentazione dell'Anello/Pietra della Resurrezione), il passato con
+            Grindelwald accennato. Payoff completo nell'arco 7.
+        - nome: Il Fucile di Čechov
+          applicazione: >
+            Il diadema nella Stanza delle Necessità: menzionato brevemente
+            (Harry nasconde il libro del Principe). Diventa Horcrux nell'arco 7.
+            Il medaglione di Serpeverde: la quest dell'arco 6 fallisce (falso
+            medaglione) — payoff nell'arco 7.
+        - nome: Il Colpo di Scena
+          applicazione: >
+            "Snape uccide Dumbledore" — sembra la conferma definitiva che Snape
+            è malvagio. 6 archi di Red Herring raggiungono il climax. Il lettore
+            è CERTO. Il ribaltamento arriverà solo nell'arco 7 post-mortem.
+
+      boss: "Snape (apparente) — in realtà esegue l'ordine di Dumbledore. Il 'boss' dell'arco è la verità nascosta."
+
+    # ============================================================
+    # ARCO 7: I Doni della Morte
+    # ============================================================
+    - nome: "Arco 7 — I Doni della Morte: La Resa dei Conti"
+      libro: "Harry Potter e i Doni della Morte (2007)"
+      plot_arco: [La Cerca, Sconfiggere il Mostro, Il Sacrificio Volontario, Rinascita]
+      escalation: "Guerra totale. I PG sono soli (no Mentore, no Hogwarts, no rete di sicurezza)."
+      posta_in_gioco: "Il mondo magico intero + la vita di Harry (accetta di morire)"
+      livello_dnd: "13-17"
+
+      situazioni:
+        - La Cerca (gli Horcrux)
+        - Il Viaggio dell'Esilio
+        - La Separazione del Gruppo (Ron parte)
+        - L'Infiltrazione (Ministero, Gringotts)
+        - Il Piedistallo Spezzato (Dumbledore rivelato)
+        - La Pergamena (il racconto dei Tre Fratelli / Le Reliquie)
+        - Il Sacrificio Volontario (Harry cammina verso la morte)
+        - L'Assedio (Battaglia di Hogwarts)
+        - I Rinforzi
+        - La Resa dei Conti
+        - Il Debriefing (Epilogo)
+
+      tecniche:
+        - nome: La Separazione del Gruppo
+          applicazione: >
+            Ron abbandona il party (l'Horcrux lo corrompe — L'Anello al Dito).
+            Il Companion Fedele tradisce → torna → il ritorno è il payoff.
+            L'assenza di Ron rende la reunion emotiva.
+        - nome: Il Piedistallo Spezzato
+          applicazione: >
+            Rita Skeeter pubblica la biografia di Dumbledore. Harry scopre:
+            amicizia con Grindelwald, ideali suprematisti giovanili, morte della
+            sorella Ariana. Il mentore non era perfetto. I PG devono scegliere:
+            la missione di Dumbledore era giusta anche se lui non lo era?
+        - nome: Il Sacrificio Volontario
+          applicazione: >
+            Harry cammina nel bosco per farsi uccidere. SA di essere un Horcrux.
+            Accetta la morte per salvare gli altri. È il climax EMOTIVO
+            (più del duello finale). Sovversione: sopravvive (la "morte" distrugge
+            l'Horcrux in lui, non lui).
+        - nome: I Rinforzi
+          applicazione: >
+            La Battaglia di Hogwarts: TUTTI i personaggi di 7 archi convergono.
+            L'Esercito di Dumbledore (arco 5), l'Ordine (arco 5), i centauri,
+            gli elfi domestici (Dobby/arco 2-7), i fantasmi. È il payoff di
+            7 archi di costruzione di alleanze.
+        - nome: La Callback
+          applicazione: >
+            - Il Mantello dell'Invisibilità (arco 1 → Reliquia della Morte)
+            - "Always" di Snape (rilegge tutti i presagi di 6 archi)
+            - La cicatrice non fa più male (epilogo — chiusura del primo indizio dell'arco 1)
+            - La Stanza delle Necessità (arco 5 → nascondino dell'Horcrux)
+            - Neville uccide Nagini (il Figurante di Čechov spara)
+        - nome: La Frase Bomba
+          applicazione: >
+            "After all this time?" — "Always."
+            Sette parole che ribaltano 6 archi di narrazione. La callback
+            definitiva. Snape amava Lily da sempre. Ogni atto "malvagio" era
+            protezione. Il lettore deve rileggere tutto.
+        - nome: La Resa dei Conti
+          applicazione: >
+            Il duello finale Harry-Voldemort è vinto non con potenza ma con
+            CONOSCENZA: Harry sa che la Bacchetta di Sambuco obbedisce a lui
+            (catena di possesso: Dumbledore → Draco → Harry). La vittoria è
+            intellettuale, non muscolare. Il villain muore per il suo stesso
+            incantesimo che rimbalza.
+
+      boss: "Voldemort — Resa dei Conti vera. Vinta con conoscenza e sacrificio, non con forza."
+
+# ============================================================
+# REGOLE NARRATIVE DIMOSTRATE
+# ============================================================
+
+regole_validate:
+
+  - regola: "Il Legame precede la perdita"
+    evidenza: >
+      Sirius: 2 archi di costruzione (3-4-5) prima della morte (5).
+      Dumbledore: 5 archi di costruzione (1-5) prima della morte (6).
+      Hogwarts: 6 archi di costruzione prima della Battaglia (7).
+      Dobby: 5 archi (2-7) prima della morte (7).
+      Fred Weasley: 7 archi di costruzione familiare prima della morte (7).
+
+  - regola: "Il Mentore deve morire/sparire PRIMA della Resa dei Conti"
+    evidenza: "Dumbledore muore arco 6. Harry affronta Voldemort SOLO nell'arco 7."
+
+  - regola: "La Costruzione dell'Odio precede La Resa dei Conti"
+    evidenza: >
+      7 archi di odio accumulato: genitori, Cedric, Sirius, Dumbledore,
+      la tortura di Hermione, Fred, Lupin, Tonks. Quando Voldemort cade,
+      il payoff è catartico.
+
+  - regola: "Il Presagio precede Il Colpo di Scena"
+    evidenza: >
+      Snape: 6 archi di presagi ambigui (protegge Harry arco 1, Giuramento
+      Infrangibile arco 6, "Don't call me coward"). A posteriori TUTTO
+      era lì. Il twist è "sorprendente ma inevitabile".
+
+  - regola: "Il Falso Finale precede La Resa dei Conti"
+    evidenza: "6 falsi finali (uno per arco) prima della vera Resa dei Conti nell'arco 7."
+
+  - regola: "L'Ora più Buia precede il trionfo"
+    evidenza: >
+      Arco 7: Harry muore (apparentemente), Hogwarts è sotto assedio,
+      il Mentore è morto, il party era stato separato. Il momento più
+      basso possibile → poi la vittoria.
+
+  - regola: "L'Escalation emotiva sopra la militare"
+    evidenza: >
+      Il climax NON è la Battaglia di Hogwarts (militare). È Harry che
+      cammina nel bosco per morire (emotivo). La battaglia è il contorno;
+      la scelta personale è il cuore. Come SW: il climax di Ep VI non è
+      la Morte Nera II ma "padre, ti salvo".
+
+# ============================================================
+# CATENE PREREQUISITI VALIDATE
+# ============================================================
+
+catene_validate:
+
+  - catena: La Vendetta Soddisfacente
+    applicazione: >
+      Legame (7 archi di costruzione) → Casa Distrutta (Hogwarts invasa) →
+      Costruzione dell'Odio (7 archi di morti) → Ora più Buia (Harry "muore") →
+      Resa dei Conti (duello finale) → Debriefing (epilogo "19 anni dopo").
+
+  - catena: La Caduta dell'Idolo
+    applicazione: >
+      Legame con Dumbledore (5 archi) → Mentore perfetto (5 archi) →
+      Piedistallo Spezzato (arco 7, biografia) → Maturazione: Harry
+      supera la disillusione e completa la missione comunque.
+
+  - catena: Il Nemico Crescente
+    applicazione: >
+      Presagi (archi 1-3, Voldemort come ombra) → Costruzione dell'Odio
+      (archi 4-6, uccide persone care) → Falsi Finali (6 boss proxy) →
+      Resa dei Conti (arco 7, duello diretto).
+
+  - catena: La Scoperta della Verità
+    applicazione: >
+      Falsa Pace (il mondo nega il ritorno, arco 5) → Mistero (gli Horcrux,
+      arco 6) → Pergamena (memorie nel Pensatoio, arco 6) → Colpo di Scena
+      (Snape/Dumbledore, arco 7 — "Always").
+
+# ============================================================
+# ANTI-PATTERN EVITATI
+# ============================================================
+
+anti_pattern_evitati:
+
+  - anti_pattern: Il Tradimento Vuoto
+    come_evitato: >
+      Ogni "tradimento" ha costruzione: Pettigrew (3 archi di setup come topo),
+      Snape (6 archi di sospetto costruito), Ron (7 archi di amicizia prima
+      della partenza). Il Legame precede SEMPRE.
+
+  - anti_pattern: Il Boss Anticlimactico
+    come_evitato: >
+      7 archi di Costruzione dell'Odio. Il boss ha "meccaniche" (Horcrux come
+      fasi, la catena di possesso della bacchetta come puzzle). La vittoria è
+      intellettuale, non un semplice sacco di HP.
+
+  - anti_pattern: Il Twist Gratuito
+    come_evitato: >
+      Il twist di Snape ha 6 archi di presagi. Il twist di Dumbledore ha indizi
+      dalla mano annerita (arco 6). Nessun twist arriva senza preparazione.
+
+  - anti_pattern: L'Escalation Piatta
+    come_evitato: >
+      Escalation perfetta: pietra → scuola → innocente → vita → padrino →
+      mentore → mondo. Ogni arco alza la posta rispetto al precedente.
+      L'escalation è EMOTIVA (non solo di potenza): chi si perde è sempre
+      più vicino a Harry.
+
+# ============================================================
+# SOVVERSIONI E INNOVAZIONI
+# ============================================================
+
+sovversioni:
+
+  - nome: "Il Red Herring da 6 archi (Snape)"
+    descrizione: >
+      Nella narrativa tradizionale il Falso Antagonista si risolve entro 1 arco
+      (es: Sirius nell'arco 3). Rowling lo estende a 6 archi interi — un livello
+      di pazienza narrativa straordinario. Il lettore è CERTO che Snape sia
+      malvagio quando uccide Dumbledore (arco 6). Il ribaltamento arriva solo
+      post-mortem (arco 7). È il Red Herring più lungo della letteratura popolare.
+    stereotipi_coinvolti: [Il Falso Antagonista, La Talpa, Il Redento, Il Mutaforma]
+    regola_implicata: >
+      Il presagio può essere seminato per archi MULTIPLI se ogni arco
+      aggiunge un "indizio in entrambe le direzioni" (uno che conferma il
+      sospetto + uno che a posteriori lo nega).
+
+  - nome: "Il Mentore Imperfetto (Dumbledore)"
+    descrizione: >
+      Gandalf e Obi-Wan sono mentori moralmente limpidi. Dumbledore è
+      moralmente ambiguo: manipola Harry, nasconde verità, ha un passato
+      di suprematismo, pianifica la propria morte usando Snape e Harry
+      come pedine. Il Piedistallo Spezzato applicato al Mentore stesso.
+    stereotipi_coinvolti: [Il Piedistallo Spezzato, Il Benefattore Misterioso, Il Mentore]
+    regola_implicata: >
+      Il Mentore può essere imperfetto senza perdere la sua funzione
+      narrativa, A PATTO CHE il suo piano fosse corretto nei risultati
+      anche se discutibile nei metodi.
+
+  - nome: "Il Villain Assente (archi 1-3)"
+    descrizione: >
+      Voldemort non è MAI fisicamente presente come antagonista nei primi
+      3 archi. È un'ombra (arco 1), una memoria (arco 2), non appare (arco 3).
+      Il terrore è costruito attraverso i suoi EFFETTI e i suoi PROXY.
+      Il confronto diretto arriva solo all'arco 4 — ed è devastante PERCHÉ
+      era stato ritardato.
+    stereotipi_coinvolti: [Il Signore Oscuro, Il Falso Finale, La Costruzione dell'Odio]
+    regola_implicata: >
+      Il BBEG può essere COMPLETAMENTE assente per la prima metà della
+      campagna se: (1) i suoi effetti sono costantemente visibili, (2) ogni
+      arco ha un boss proxy soddisfacente, (3) la costruzione dell'odio
+      avviene attraverso le conseguenze, non la presenza.
+
+  - nome: "Il Sistema dei Falsi Finali come struttura seriale"
+    descrizione: >
+      Ogni arco è autoconclusivo (ha il suo boss, il suo mistero, il suo
+      climax) ma contemporaneamente è un capitolo della meta-storia.
+      Il lettore è soddisfatto alla fine di ogni libro E vuole il prossimo.
+      È la struttura ideale per una campagna D&D a moduli.
+    stereotipi_coinvolti: [Il Falso Finale, Plot Concatenati, L'Escalation]
+    regola_implicata: >
+      In una campagna multi-arco, ogni arco deve avere un climax autonomo
+      e soddisfacente (non terminare "con un cliffhanger"). Il BBEG cresce
+      sullo sfondo. La struttura è: boss-proxy per arco + BBEG in crescita
+      costante. Regola derivata: "Ogni modulo deve funzionare da solo
+      E aggiungere un pezzo al puzzle globale."
+
+  - nome: "La Profezia Autoavverante come motore della saga"
+    descrizione: >
+      Voldemort CREA il suo nemico tentando di distruggerlo. Senza l'attacco
+      a Harry bambino, la profezia non si sarebbe avverata (avrebbe potuto
+      riferirsi a Neville). L'intero conflitto è innescato dalla paranoia
+      del villain che agisce su informazioni parziali.
+    stereotipi_coinvolti: [La Profezia Autoavverante, Lo Specchio, L'Eletto]
+    regola_implicata: >
+      La Profezia funziona meglio quando: (1) è ambigua (poteva essere
+      qualcun altro), (2) il villain la compie tentando di evitarla,
+      (3) l'Eletto non è speciale per nascita ma per la SCELTA del villain
+      di marcarlo.
+
+# ============================================================
+# PROPOSTE — STEREOTIPI/REGOLE MANCANTI
+# ============================================================
+
+proposte_stereotipi:
+
+  - nome_proposto: "La Promozione (Il Figurante che Diventa Eroe)"
+    nome_en: "Breakout Character / Ascended Extra"
+    tipo: tecnica
+    descrizione: >
+      Un personaggio introdotto come figurante (background, comic relief,
+      comprimario) acquisisce importanza crescente fino a diventare cruciale
+      nel climax. Non è il Figurante di Čechov (che era pianificato dall'inizio):
+      qui la promozione può essere organica, basata sull'affetto dei giocatori
+      o sulla necessità narrativa.
+    esempi:
+      - "Neville Longbottom — HP (da goffo a distruttore dell'ultimo Horcrux)"
+      - "Daryl Dixon — The Walking Dead (da secondario a protagonista per popolarità)"
+      - "Samwise Gamgee — LotR (da giardiniere a vero eroe)"
+      - "Bronn — GoT (da mercenario secondario a Lord)"
+      - "Dobby — HP (da comic relief arco 2 a sacrificio eroico arco 7)"
+    uso_dnd: >
+      Il DM nota che i PG si sono affezionati a un NPC secondario. Lo promuove
+      narrativamente: gli dà un arco, una competenza utile, un momento eroico.
+      È diverso dal pianificarlo dall'inizio (quello è Il Figurante di Čechov).
+      Qui è REATTIVO alla risposta dei giocatori.
+    relazione_con_esistenti: "sottocaso_di: Il Figurante di Čechov. Differenza: reattivo vs pianificato."
+    nota: "Presente nel database come riferimento in 'vedi_anche' ma non come voce propria."
+
+  - nome_proposto: "La Morte del Mentore (Il Passaggio di Responsabilità)"
+    nome_en: "Mentor's Death / Passing the Torch"
+    tipo: situazione
+    descrizione: >
+      Il Mentore muore in modo pianificato (dalla narrazione) per forzare
+      l'autonomia dei PG. Non è un Sacrificio Volontario generico: è
+      SPECIFICAMENTE la morte della guida che obbliga i PG a cavarsela
+      da soli. Deve avvenire PRIMA del climax. È un prerequisito strutturale
+      della Resa dei Conti.
+    esempi:
+      - "Dumbledore muore arco 6, Harry affronta Voldemort arco 7"
+      - "Obi-Wan muore Ep IV, Luke distrugge la Morte Nera"
+      - "Gandalf cade a Moria, la Compagnia prosegue senza guida"
+      - "Yoda muore Ep VI, Luke affronta Vader da solo"
+    uso_dnd: >
+      Il DM pianifica la morte del patron/mentore nel penultimo arco. I PG
+      devono affrontare il climax senza la rete di sicurezza. Se il mentore
+      sopravvive al climax, i PG non sono cresciuti — la vittoria è sua.
+    relazione_con_esistenti: >
+      Rafforza la regola di sequenza esistente "Il Mentore → La Resa dei Conti"
+      (il mentore deve sparire prima). Potrebbe essere un sottocaso del
+      Sacrificio Volontario con funzione strutturale specifica.
+
+  - nome_proposto: "Il Villain Assente (Il Terrore per Proxy)"
+    nome_en: "Absent Villain / Terror by Proxy"
+    tipo: tecnica
+    descrizione: >
+      Il BBEG non appare direttamente per interi archi della campagna. La sua
+      minaccia è costruita attraverso: proxy (luogotenenti, creature), effetti
+      (distruzione, corruzione), reputazione (NPC terrorizzati), e presagi.
+      Il primo confronto diretto è ritardato fino a quando il terrore è massimo.
+    esempi:
+      - "Voldemort archi 1-3 di HP (ombra, memoria, assente)"
+      - "Sauron in tutto LotR (mai confrontato direttamente)"
+      - "L'Imperatore in SW Ep IV-V (solo ologramma)"
+      - "Keyser Söze — Usual Suspects (il nome terrorizza)"
+    uso_dnd: >
+      Il DM non mostra il BBEG per i primi 2-3 archi. Mostra solo: (1) i
+      suoi servitori che tremano di paura, (2) i villaggi che ha distrutto,
+      (3) le leggende che lo riguardano, (4) gli effetti delle sue azioni.
+      Quando finalmente appare, l'impatto è massimo.
+    relazione_con_esistenti: >
+      Rafforza Il Signore Oscuro + La Costruzione dell'Odio. Potrebbe essere
+      una sotto-tecnica di La Costruzione dell'Odio nella variante "per assenza".
+
+  - nome_proposto: "Il Red Herring Prolungato (Multi-Arco)"
+    nome_en: "Long Red Herring / Saga-Length Misdirection"
+    tipo: tecnica
+    descrizione: >
+      Un Red Herring che dura più archi (non uno solo). Richiede che ogni arco
+      aggiunga "carburante" al sospetto E semini un presagio contrario sottile.
+      Il payoff è proporzionale alla durata: più a lungo il lettore è stato
+      ingannato, più potente la rivelazione.
+    esempi:
+      - "Snape — HP (6 archi di misdirection)"
+      - "Sirius — HP arco 3 (3/4 del libro)"
+    uso_dnd: >
+      Il DM mantiene un NPC come sospettato per più archi. Ogni modulo: 1 azione
+      sospetta visibile + 1 presagio nascosto che a posteriori lo scagiona.
+      Regola: max 1 red herring prolungato per campagna (altrimenti i PG
+      non si fidano di nessuno).
+    relazione_con_esistenti: >
+      Estensione del Red Herring esistente. La differenza è la DURATA e la
+      necessità di bilanciare "carburante del sospetto" con "presagi di
+      innocenza" ad ogni arco.
+
+proposte_regole:
+
+  - nome_proposto: "L'Arco Autoconclusivo nella Campagna Multi-Arco"
+    formulazione: >
+      In una campagna a più archi, ogni arco DEVE avere un climax autonomo
+      e soddisfacente (boss proxy, mistero risolto, obiettivo raggiunto).
+      Non terminare mai un arco solo con un cliffhanger verso il prossimo.
+      I PG devono sentire di aver VINTO qualcosa anche se la meta-storia
+      continua.
+    forza: quasi_sempre
+    evidenza: "HP: ogni libro ha un boss sconfitto, un mistero risolto. Il lettore chiude soddisfatto E vuole continuare."
+    eccezione: "Un arco può terminare sull'Ora più Buia (come Ep V di SW) se il prossimo arco è già garantito al tavolo."
+
+  - nome_proposto: "L'Escalation del Costo Personale"
+    formulazione: >
+      In una campagna a escalation, la posta PERSONALE deve salire più
+      velocemente della posta COSMICA. Non basta che le minacce siano
+      "più grandi" — devono essere "più vicine" ai PG. La progressione
+      ideale è: NPC lontano → NPC conosciuto → amico → famiglia → sé stessi.
+    forza: quasi_sempre
+    evidenza: >
+      HP: Cedric (conosciuto) → Sirius (padrino) → Dumbledore (mentore) →
+      Fred (famiglia adottiva) → Harry stesso (sacrificio). Ogni perdita è
+      più VICINA della precedente.
+    relazione: "Rafforza la catena 'L'Escalation Emotiva sopra la Militare' già presente."
+
+  - nome_proposto: "Il Presagio Bidirezionale (per Red Herring Multi-Arco)"
+    formulazione: >
+      Per mantenere un Red Herring per più archi senza barare, ogni arco deve
+      contenere: (1) almeno un'azione che CONFERMA il sospetto (visibile), E
+      (2) almeno un'azione che a POSTERIORI lo nega (sottile). Il lettore/
+      giocatore non nota il (2) fino al ribaltamento. A quel punto può
+      rileggere e trovare tutti i presagi di innocenza.
+    forza: sempre (se si usa un red herring multi-arco)
+    evidenza: >
+      Snape in HP: (1) ostile, sospetto, Mangiamorte, uccide Dumbledore.
+      (2) salva Harry arco 1, Giuramento Infrangibile per proteggere Draco,
+      manda la cerva d'argento, "Don't call me coward". TUTTO era lì.

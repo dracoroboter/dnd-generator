@@ -1,0 +1,93 @@
+# Analisi: Superman — Origin Arc (parziale)
+# Data: 2026-08-29
+# Esito: parziale (solo origin, struttura non pienamente D&D-compatibile)
+# Nota: Superman è TROPPO potente per una campagna D&D standard (nessun party,
+#   nessun rischio reale). L'analisi è utile SOLO per l'arco dell'origine e
+#   per i pattern trasferibili (il villain con kryptonite = La Debolezza Nota).
+
+opera:
+  titolo: "Superman — Origin Story (Action Comics #1 + Superman 1978 film)"
+  tipo: fumetto/film
+  epoca: 1938/1978
+  genere_dnd_compatibile: false
+  compatibilita_parziale: "Solo l'origin arc e il pattern villain-con-contromisura"
+  note: >
+    Superman viola il presupposto D&D fondamentale: il party deve essere
+    vulnerabile. Un PG invulnerabile rompe il gioco. Tuttavia l'ORIGIN
+    fornisce pattern utili: La Casa Distrutta cosmica (Krypton), L'Ultimo
+    della Sua Specie, il doppio segreto (Clark/Superman), e soprattutto
+    il modello "villain che compensa la sproporzione di potere con
+    l'intelligenza e una debolezza specifica".
+
+struttura:
+  plot_principale: Da Povero a Ricco
+  plot_secondari: [Rinascita, La Ribellione]
+
+  archi:
+    - nome: "Origin — Krypton → Smallville → Metropolis"
+      situazioni: [La Casa Distrutta, La Falsa Pace, Da Povero a Ricco]
+      personaggi: [L'Eletto, Il Mentore]
+      tecniche: [Il Legame (luogo), Il Presagio]
+      note: >
+        Krypton distrutto = La Casa Distrutta cosmica. Ma il PG è un bambino —
+        non ha agency. In D&D questo è un BACKGROUND, non un modulo giocato.
+        I Kent come Mentori silenziosi (non quest giver, solo genitori amorevoli).
+
+pattern_trasferibili_a_dnd:
+
+  - nome: "L'Ultimo della Sua Specie"
+    stereotipo_esistente: "L'Ultimo della Sua Specie"
+    nota: "Già presente nel vocabolario. Superman ne è l'archetipo."
+
+  - nome: "La Debolezza Nota (Kryptonite)"
+    descrizione: >
+      Il PG/NPC è troppo potente — ma ha UNA debolezza specifica che i
+      villain possono sfruttare. La debolezza è ciò che rende il
+      personaggio vulnerabile e quindi interessante. Senza kryptonite,
+      Superman è noioso. In D&D: un PG molto forte ma con una vulnerabilità
+      nota che i nemici possono exploitare.
+    stereotipo_proposto: false
+    nota: >
+      Non propongo come stereotipo — è una meccanica (vulnerabilità), non un
+      pattern narrativo. È già coperto parzialmente da "Il Potere ha un Prezzo".
+
+  - nome: "Il Villain che Compensa con l'Intelligenza"
+    descrizione: >
+      Quando il PG/eroe è fisicamente superiore, il villain deve vincere
+      con l'astuzia: trappole, ricatti, leva sulle debolezze emotive,
+      ostaggi. Lex Luthor non combatte Superman — lo mette in situazioni
+      dove la forza non serve.
+    stereotipo_esistente: "Il Piano Perfetto del Villain"
+    nota: "Già coperto. Luthor è l'archetipo del Piano Perfetto."
+
+  - nome: "La Masquerade Personale (Clark/Superman)"
+    descrizione: >
+      Identica a Spider-Man. La doppia identità come fonte di tensione.
+      Già proposta nell'analisi Spider-Man.
+    stereotipo_proposto: "Proposto in analisi Spider-Man"
+
+sovversioni:
+  - regola_violata: "Il PG deve essere vulnerabile"
+    effetto: >
+      Superman non è vulnerabile → le storie di Superman funzionano
+      NONOSTANTE la violazione. Compensano con: kryptonite, ostaggi,
+      dilemmi morali, il villain che attacca la vita civile non il corpo.
+    nota_dnd: >
+      In D&D questa violazione non funziona. Un PG invulnerabile rompe
+      il gioco per gli altri giocatori. La lezione: anche il PG più forte
+      deve avere almeno 1 vulnerabilità exploitabile.
+
+validazione:
+  copertura_percentuale: 60
+  nota: >
+    Copertura bassa perché l'opera non è pienamente D&D-compatibile.
+    I pattern utili sono stati estratti ma la struttura complessiva
+    (eroe singolo invulnerabile) non si trasferisce.
+  stereotipi_mancanti_proposti: []
+  regole_mancanti_proposte: []
+  conclusione: >
+    Superman conferma le regole esistenti piuttosto che proporne di nuove.
+    La sua unicità (invulnerabilità) è esattamente ciò che NON funziona
+    in D&D — e i suoi scrittori devono compensare con trucchi narrativi
+    che sono già nel nostro vocabolario (Piano Perfetto, Dilemma del
+    Carrello, Masquerade, Potere ha un Prezzo).

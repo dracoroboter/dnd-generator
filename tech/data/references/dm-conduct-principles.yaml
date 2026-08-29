@@ -1,0 +1,456 @@
+# Principi di Conduzione — Regole per il DM al Tavolo
+# Principi e tecniche per CONDURRE l'avventura durante il gioco.
+# Questi NON sono elementi della narrazione scritta (quelli sono in narrative-stereotypes.yaml).
+# Sono regole meta-gioco su come il DM reagisce, improvvisa, e gestisce il tavolo.
+#
+# Struttura campi:
+#   tipo: principio (tutti)
+#   nome: etichetta breve italiana
+#   nome_en: nome inglese standard
+#   nomi_alt: 3-5 sinonimi per ricerca
+#   descrizione: cos'è e quando si applica
+#   esempi: riferimenti (GDR, film, serie)
+#   uso_dnd: come applicarlo concretamente al tavolo
+#   rischio: cosa può andare storto
+#   vedi_anche: riferimenti ad altri principi o stereotipi correlati
+#
+# Differenza con narrative-stereotypes.yaml:
+#   - Stereotipi = "cosa scrivo nell'avventura PRIMA di giocarla"
+#   - Principi = "come reagisco DURANTE il gioco al tavolo"
+#
+# INDICE: 13 principi
+
+principi:
+
+  - tipo: principio
+    nome: La Pseudo-Scelta (Il Mostro di Schrödinger)
+    nome_en: Quantum Ogre / Illusory Choice
+    nomi_alt: [Quantum Ogre, Illusione della Scelta, Falsa Libertà, Railroad Mascherato]
+    descrizione: >
+      Per semplicità di preparazione, il DM fa accadere lo stesso evento
+      indipendentemente dalla scelta dei giocatori. I PG scelgono destra o
+      sinistra, ma il mostro è in entrambe le direzioni — l'incontro era
+      predeterminato, solo il vestito cambia. Le due strade possono apparire
+      completamente diverse (una è una foresta, l'altra una grotta) ma il
+      contenuto meccanico/narrativo è lo stesso. È un'illusione di agency.
+    esempi:
+      - "Quantum Ogre — termine della community D&D/OSR"
+      - "Videogiochi lineari — scelte di dialogo che portano allo stesso cutscene"
+      - "Bioware false choices — alcune scelte in Mass Effect cambiano solo la scena, non l'esito"
+      - "Moduli D&D lineari pubblicati — il percorso è unico mascherato da opzioni"
+    uso_dnd: >
+      Usare quando il DM ha poco tempo di preparazione e vuole garantire che un
+      incontro chiave avvenga. Tecniche per mascherarlo: (1) le due strade hanno
+      flavour diverso (mostro diverso, ambientazione diversa, stesso CR e funzione
+      narrativa); (2) l'incontro è narrativamente inevitabile (il villain insegue
+      i PG, non importa dove vanno); (3) usarlo solo per incontri non-critici,
+      mai per scelte morali o narrative importanti.
+    rischio: >
+      Se i giocatori se ne accorgono, la fiducia nel DM crolla. Regola d'oro:
+      le scelte che SEMBRANO importanti DEVONO essere importanti. Usare solo dove
+      i PG non stanno investendo emotivamente nella decisione. Mai su bivi
+      narrativi espliciti, mai dopo una deliberazione del gruppo.
+    usato_in: []
+    vedi_anche: [Spalle al Muro]
+
+
+  - tipo: principio
+    nome: La Promozione (Upgrade del Figurante)
+    nome_en: Ascended Extra / NPC Promotion
+    nomi_alt: [Ascended Extra, NPC Upgrade, From Extra to Hero, Breakout Character]
+    descrizione: >
+      Se i giocatori si affezionano spontaneamente a un NPC/mostro minore (un
+      goblin risparmiato, il taverniere con la battuta giusta, il lupo che li
+      seguiva), il DM può "promuoverlo" a personaggio ricorrente con un ruolo
+      nella trama. Il figurante ottiene nome, motivazione, backstory e rilevanza
+      narrativa a posteriori. È una tecnica reattiva: il DM ascolta i giocatori
+      e costruisce sopra il loro entusiasmo. Il mondo sembra vivo perché risponde
+      all'attenzione dei PG.
+    esempi:
+      - "Boblin the Goblin — meme D&D (goblin risparmiato che diventa companion fisso)"
+      - "Daryl Dixon — The Walking Dead (personaggio secondario promosso a protagonista per popolarità)"
+      - "Boba Fett — Star Wars (3 minuti di screen time → serie propria)"
+      - "Neville Longbottom — Harry Potter (da figurante a eroe del libro 7)"
+      - "Phil Coulson — MCU (agente di sfondo → protagonista di Agents of SHIELD)"
+    uso_dnd: >
+      Quando i PG interagiscono ripetutamente con un NPC non previsto o
+      risparmiano un nemico: dargli un nome (se non l'aveva), una motivazione,
+      e farlo riapparire nel modulo successivo con un ruolo. Può diventare:
+      informatore, companion, quest giver, o nemico ricorrente (se lo avevano
+      umiliato). È gratis — non richiede preparazione, solo attenzione a cosa
+      entusiasma il tavolo. Complementare all'Incontro Filler: il filler genera
+      figuranti, questa tecnica ne eleva i migliori.
+    rischio: >
+      Non forzare la promozione se l'interesse dei giocatori era momentaneo.
+      Se l'NPC torna e i giocatori non lo ricordano, cade nel vuoto. Regola:
+      promuovere solo NPC che i giocatori nominano spontaneamente tra le sessioni.
+    usato_in: [Il Legame, L'Incontro Filler]
+    vedi_anche: [L'Incontro Filler, Il Legame, Il Companion Fedele]
+
+
+
+  - tipo: principio
+    nome: Bella Idea (L'Ipotesi Adottata)
+    nome_en: Steal from Your Players / Player-Sourced Plot
+    nomi_alt: [Steal from Players, L'Idea Rubata, Player-Driven Plot, Collaborative Worldbuilding]
+    descrizione: >
+      I giocatori discutono tra loro e formulano un'ipotesi su cosa sta succedendo
+      ("secondo me il taverniere è il killer", "scommetto che il dungeon è sotto
+      il tempio"). Se l'ipotesi è più interessante di ciò che il DM aveva
+      preparato, il DM la adotta silenziosamente come verità. I giocatori si
+      sentono brillanti perché "avevano ragione" — in realtà hanno scritto la
+      storia senza saperlo. È improvvisazione collaborativa mascherata.
+    esempi:
+      - "Qualsiasi tavolo D&D dove il DM dice 'sì, era esattamente quello' (mentendo)"
+      - "Il Lazy DM (Sly Flourish) lo raccomanda esplicitamente come tecnica"
+      - "Qualsiasi serie TV che adatta la trama in base alle teorie dei fan"
+      - "Improv comedy — 'yes, and...' applicato al GDR"
+      - "Powered by the Apocalypse — sistemi che lo codificano come meccanica (Ask the players)"
+    uso_dnd: >
+      Ascoltare SEMPRE le discussioni dei giocatori tra loro. Se dicono "e se il
+      re fosse in realtà un doppelganger?" e tu non avevi pensato a nulla di
+      simile ma è più figo del tuo piano: adottalo. Non ammettere mai di averlo
+      fatto — i giocatori devono credere di aver dedotto. Funziona perché: (1) i
+      giocatori si sentono intelligenti; (2) la storia diventa ciò che il tavolo
+      VUOLE; (3) il DM risparmia prep.
+    rischio: >
+      Non adottare ogni idea — solo quelle migliori del piano originale. Se i PG
+      dicono qualcosa di assurdo e il DM lo rende vero, il mondo perde coerenza.
+      Regola: l'ipotesi adottata deve essere coerente con gli indizi già forniti.
+      Se contraddice fatti stabiliti, non si può adottare.
+    usato_in: []
+    vedi_anche: [La Pseudo-Scelta, La Promozione, La Regola dei Tre Indizi, Il Narratore Inaffidabile]
+
+
+
+  - tipo: principio
+    nome: Il Lampshading (Ammettere il Tropo)
+    nome_en: Lampshade Hanging
+    nomi_alt: [Lampshading, Meta-Commento, Hanging a Lampshade, Breaking the Fourth Wall lite]
+    descrizione: >
+      Riconoscere apertamente un cliché o una situazione assurda nel gioco
+      anziché ignorarla. Un NPC dice "sì, lo so, è sospetto che vi abbia
+      chiesto di andare proprio nella grotta maledetta" — e questo disinnesca
+      l'incredulità del tavolo. Non elimina il tropo, lo rende accettabile
+      ammettendolo.
+    esempi:
+      - "'Perché non usiamo le aquile?' — parodie del Signore degli Anelli"
+      - "'Dividiamoci!' 'Cattiva idea, ma ok.' — qualsiasi horror consapevole"
+      - "Deadpool — l'intero personaggio è un lampshade ambulante"
+      - "Scream — film (i personaggi conoscono le regole dell'horror)"
+      - "The Princess Bride — 'Inconceivable!' 'You keep using that word...'"
+    uso_dnd: >
+      Quando una situazione è troppo da cliché (il taverniere misterioso,
+      la damigella in pericolo, il dungeon sotto la taverna), far commentare
+      un NPC o un PG. "Sì, so cosa state pensando. Ma questa volta è vero."
+      Disinnesca il cinismo dei giocatori e permette di usare tropi classici
+      senza vergogna. Usare con parsimonia — se tutto è meta, nulla è serio.
+    rischio: >
+      Troppo lampshading rompe la quarta parete e il tono. Usare solo per
+      i cliché più ovvi, 1-2 volte per avventura, mai nei momenti emotivi.
+    usato_in: [Commedia degli Errori, La Finta Minaccia]
+    vedi_anche: [La Finta Minaccia, Bella Idea, Il Pacing]
+
+
+  - tipo: principio
+    nome: I Dial del Mostro (Difficoltà Regolabile)
+    nome_en: Monster Difficulty Dials (Sly Flourish)
+    nomi_alt: [Difficulty Dials, Manopole della Difficoltà, On-the-Fly Adjustment, Combat Tuning]
+    descrizione: >
+      Quattro "manopole" che il DM può girare durante il combattimento per
+      regolare la difficoltà al volo: (1) Punti Ferita — alzare o abbassare
+      i PF del mostro dentro il range del dado vita; (2) Numero di mostri —
+      farne fuggire o aggiungerne; (3) Danno — aumentare o diminuire il danno
+      per attacco; (4) Numero di attacchi — dare attacchi extra o toglierli.
+      Non è barare — è game design responsivo.
+    esempi:
+      - "Sly Flourish — Monster Difficulty Dials (il metodo originale)"
+      - "Matt Colville — 'Action Oriented Monsters' (concetto affine)"
+      - "Dark Souls — i boss hanno fasi che cambiano difficoltà"
+      - "Qualsiasi DM che ha mai abbassato i PF di un mostro perché il combat era noioso"
+    uso_dnd: >
+      Il combat è troppo facile? Il mostro colpisce più forte (Dial Danno su)
+      o chiama rinforzi (Dial Numero su). Il combat è troppo lungo e noioso?
+      Il mostro ha meno PF di quelli scritti (Dial PF giù). Un singolo mostro
+      contro 5 PG? Dargli 2 attacchi per turno (Dial Attacchi su). Dichiarare
+      al tavolo? NO — è trasparente nel risultato, nascosto nel metodo.
+    rischio: >
+      Se i giocatori scoprono che il DM modifica i numeri al volo, possono sentirsi
+      ingannati. Non esagerare: piccoli aggiustamenti, non stravolgimenti. Se il
+      mostro aveva 60 PF e lo riduci a 30, è un cambiamento troppo grande.
+    usato_in: [Sconfiggere il Mostro, L'Incontro Filler, L'Assedio]
+    vedi_anche: [Il Pacing, L'Incontro Filler, La Pseudo-Scelta]
+
+
+  - tipo: principio
+    nome: Stars and Wishes (Feedback dei Giocatori)
+    nome_en: Stars and Wishes (Gauntlet RPG / Sly Flourish)
+    nomi_alt: [Stelle e Desideri, Player Feedback, Roses and Thorns, Post-Session Debrief]
+    descrizione: >
+      Alla fine di ogni 2-3 sessioni, chiedere a ogni giocatore: (1) una "stella"
+      — cosa ha apprezzato di più; (2) un "desiderio" — cosa vorrebbe vedere di
+      più in futuro. È feedback strutturato che guida la prep del DM. Non è
+      una critica — è un dialogo costruttivo. Il DM scopre cosa funziona e cosa
+      manca PRIMA che diventi un problema.
+    esempi:
+      - "Gauntlet RPG community — ha creato il format"
+      - "Sly Flourish — lo raccomanda come pratica regolare"
+      - "Session zero inversa — feedback retroattivo invece che preventivo"
+    uso_dnd: >
+      Ogni 3 sessioni, 5 minuti a fine serata: "Cosa vi è piaciuto? Cosa vorreste
+      vedere?" Se i giocatori dicono "più combattimento" → il DM prepara più
+      combattimento. Se dicono "più intrigo" → più scene sociali. Se dicono "quel
+      NPC era fantastico" → il DM lo fa tornare (La Promozione). Il tavolo si
+      auto-calibra senza conflitti.
+    rischio: >
+      Se il DM chiede ma poi ignora i feedback, è peggio che non chiedere. Ogni
+      feedback deve produrre almeno un cambiamento visibile entro 2 sessioni.
+    usato_in: []
+    vedi_anche: [La Promozione, Bella Idea, Il Pacing, La Pausa]
+
+
+  - tipo: principio
+    nome: Il Danno Statico (Velocizzare il Combattimento)
+    nome_en: Static Monster Damage (Sly Flourish)
+    nomi_alt: [Average Damage, Danno Medio, No-Roll Damage, Speed Combat, Fixed Damage]
+    descrizione: >
+      Usare il valore medio di danno indicato nello stat block anziché tirare
+      i dadi per i mostri. Velocizza enormemente il combattimento senza cambiare
+      la difficoltà media. Il DM può comunque variare leggermente (+1/-1) per
+      non sembrare ripetitivo. Combinabile con i Dial del Mostro.
+    esempi:
+      - "Sly Flourish — Quick Tricks for Lazier Games"
+      - "D&D 5e stat block — il valore medio è già scritto: '7 (2d6)'"
+      - "Qualsiasi DM con 8 goblin da gestire in un turno"
+    uso_dnd: >
+      Con 5+ mostri, tirare dadi per ognuno rallenta tutto. Usare il valore
+      medio: il goblin fa sempre 5 danni, l'orco sempre 9. Variare di 1-2 punti
+      per non sembrare robotico. Il tempo risparmiato va nel roleplay e nella
+      descrizione dell'azione. I giocatori tirano i LORO dadi — il DM no.
+    rischio: >
+      Se OGNI colpo fa esattamente lo stesso danno, i giocatori lo notano e perde
+      il brivido dell'aleatorietà. Soluzione: variare leggermente o tirare solo
+      per i colpi critici/importanti.
+    usato_in: [Sconfiggere il Mostro, L'Incontro Filler, L'Assedio]
+    vedi_anche: [I Dial del Mostro, Il Pacing, L'Incontro Filler]
+
+
+  - tipo: principio
+    nome: Il Retcon (La Riscrittura Retroattiva)
+    nome_en: Retcon / Retroactive Continuity / Rewrite
+    nomi_alt: [Retcon, Retroactive Continuity, Rewrite, La Toppa Narrativa, Revision]
+    descrizione: >
+      Modificare retroattivamente un fatto già stabilito nella storia per
+      accordarlo con una decisione presa ora. Il passato viene riscritto: un
+      NPC che era morto "in realtà era sopravvissuto", un oggetto distrutto
+      "era una copia", una scelta dei PG "aveva conseguenze diverse da quelle
+      narrate". È considerato uno sporco trucco di sceneggiatura perché viola
+      il contratto narrativo — i giocatori si fidano che ciò che è accaduto
+      sia reale. Ma se usato con misura e trasparenza, può salvare una
+      campagna da un vicolo cieco.
+    esempi:
+      - "Star Wars — la parentela Vader/Luke non era pianificata nel primo film"
+      - "Comics Marvel/DC — i retcon sono la norma (personaggi resuscitano, origini cambiano)"
+      - "Bobby nella doccia — Dallas (un'intera stagione era un sogno)"
+      - "JK Rowling — dichiarazioni post-hoc che cambiano il contesto dei libri"
+      - "Metal Gear Solid — Kojima retcon continui sulla timeline"
+      - "Sherlock Holmes sopravvive alle cascate — Conan Doyle (il retcon più famoso)"
+    uso_dnd: >
+      Usi legittimi: (1) il DM ha commesso un errore che rovina la campagna →
+      "in realtà quella scena è andata diversamente" (confessare l'errore al
+      tavolo, chiedere la collaborazione dei giocatori); (2) un giocatore
+      lascia il gruppo → il suo PG "in realtà non era mai lì" o ha preso
+      un'altra strada; (3) intenzionale come twist — il Narratore Inaffidabile
+      rivela che ciò che i PG "ricordano" non è ciò che è accaduto (ma questo
+      deve essere pianificato, non improvvisato).
+      Usi illegittimi: cambiare le regole a partita in corso perché il DM si
+      è messo in un angolo. I giocatori lo sentono e perdono fiducia.
+    rischio: >
+      Il retcon distrugge la fiducia dei giocatori: se il passato può cambiare,
+      niente conta davvero. Le scelte dei PG diventano reversibili → l'agency
+      muore. Regola: MAI retconnare una scelta dei PG. Le uniche riscritture
+      accettabili sono: errori del DM confessati, adattamenti per cambio roster,
+      o twist pianificati fin dall'inizio (Narratore Inaffidabile). Se devi
+      retconnare, sii trasparente: "ragazzi, ho sbagliato, possiamo aggiustare?".
+    usato_in: [Commedia degli Errori, Il Mistero]
+    vedi_anche: [Il Narratore Inaffidabile, Il Flashback, Bella Idea, La Scelta Retroattiva]
+
+
+
+  - tipo: principio
+    nome: Il Fail Forward (Fallire in Avanti)
+    nome_en: Fail Forward / Success at a Cost
+    nomi_alt: [Fail Forward, Success at a Cost, Failing Up, Il Fallimento Produttivo, Complicare non Bloccare]
+    descrizione: >
+      Quando un PG fallisce un tiro, l'azione non si blocca — si complica.
+      Il fallimento non significa "non succede niente" ma "succede qualcosa
+      di peggiore/diverso". La porta si apre MA fa rumore. L'indizio si trova
+      MA costa tempo (il timer avanza). La trappola scatta MA il PG la evita
+      parzialmente. Il principio: mai un dead-end meccanico. Il gioco va sempre
+      avanti, ma il prezzo cambia.
+    esempi:
+      - "Powered by the Apocalypse — sistema (6-: successo con complicazione, non fallimento totale)"
+      - "Blades in the Dark — GDR (position + effect: il fallimento cambia la fiction, non la blocca)"
+      - "GUMSHOE — sistema (gli indizi core si trovano SEMPRE, il tiro decide bonus/costo)"
+      - "Dungeon World — GDR (7-9 = successo parziale, il DM fa una mossa)"
+      - "Qualsiasi film d'azione — l'eroe non 'fallisce a scassinare', la serratura scatta ma scatta anche l'allarme"
+    uso_dnd: >
+      Quando un PG fallisce un tiro critico per la trama (investigazione chiave,
+      scassinare la porta dell'unica via, persuadere l'NPC essenziale): NON
+      dire "non ci riesci". Dire invece: "ci riesci MA..." o "non ci riesci
+      in quel modo, però..." Esempi: fallire Percezione → trovi l'indizio ma
+      il nemico ti ha visto; fallire Scassinare → la porta si apre ma si rompe
+      il grimaldello; fallire Persuasione → l'NPC parla ma vuole qualcosa in
+      cambio. Per tiri non critici (combattimento puro, tiri salvataggio): il
+      fallimento resta fallimento — non tutto deve essere fail forward.
+    rischio: >
+      Se OGNI fallimento viene ammorbidito, i tiri perdono peso. I giocatori
+      devono sentire che fallire ha conseguenze. Usare fail forward solo per
+      i punti dove un fallimento bloccherebbe la sessione. In combattimento e
+      nelle situazioni dove il rischio è il punto, lasciare che il fallimento
+      sia fallimento.
+    usato_in: [Il Mistero, La Cerca, L'Infiltrazione]
+    vedi_anche: [La Regola dei Tre Indizi, La Pseudo-Scelta, La Terza Via]
+
+
+  - tipo: principio
+    nome: Il Contratto Sociale (Session Zero)
+    nome_en: Session Zero / Social Contract / Lines & Veils
+    nomi_alt: [Session Zero, Social Contract, Lines and Veils, Safety Tools, L'Accordo al Tavolo]
+    descrizione: >
+      Prima di giocare, il gruppo stabilisce aspettative, limiti, e regole
+      meta-gioco. Non è narrativa — è il PREREQUISITO di tutta la narrativa.
+      Copre: tono della campagna (serio/comico/horror), argomenti off-limits
+      (Lines = no assoluti, Veils = si implica ma non si gioca), frequenza,
+      regole homebrew, PvP, morte dei PG, livello di railroading accettato.
+      Senza contratto sociale, i conflitti al tavolo nascono da aspettative
+      non allineate.
+    esempi:
+      - "Lines & Veils — Ron Edwards (terminologia originale dal BDSM community → GDR)"
+      - "The X-Card — John Stavropoulos (safety tool: alzi la carta e la scena cambia)"
+      - "Session zero — prassi standard dal 2015+ in poi"
+      - "Stars and Wishes — feedback di fine sessione (correlato, non identico)"
+      - "Cats of Catthulhu — GDR che lo fa in-game (scegli il tono con le carte)"
+    uso_dnd: >
+      Nella prima sessione (o prima ancora): (1) il DM dichiara il tono
+      (dark fantasy? eroico? sandbox?); (2) ogni giocatore dichiara cosa
+      vuole dal gioco (combattimento? intrigo? esplorazione?); (3) si
+      stabiliscono i Lines (es: "niente torture in scena", "niente violenza
+      sessuale") e i Veils (es: "la tortura può accadere off-screen");
+      (4) si discutono le regole sociali (PvP? Il DM può uccidere i PG?
+      Quanto è punitivo il mondo?). Il risultato è un accordo condiviso
+      che previene il 90% dei conflitti.
+    rischio: >
+      Se troppo formale, spaventa i giocatori casual. Se assente, i problemi
+      emergono dopo 5 sessioni quando qualcuno è già frustrato. Approccio
+      ideale: conversazione naturale, non un contratto scritto (a meno che
+      il gruppo non sia grande o con sconosciuti).
+    usato_in: []
+    vedi_anche: [Stars and Wishes, L'Assegnazione del Ruolo, Il Pacing]
+
+
+  - tipo: principio
+    nome: La Domanda Drammatica (Il Motore della Scena)
+    nome_en: Dramatic Question / Scene Goal / What's at Stake
+    nomi_alt: [Dramatic Question, Scene Goal, What's at Stake, La Posta in Gioco, Il Punto della Scena]
+    descrizione: >
+      Ogni scena del gioco deve rispondere a UNA domanda chiara: "i PG
+      sopravviveranno alla trappola?", "l'NPC dirà la verità?", "riusciranno
+      a entrare?", "chi è il colpevole?". La domanda dà DIREZIONE alla scena
+      e dice al DM quando la scena è finita (quando la domanda ha una
+      risposta). Senza domanda drammatica, la scena vaga senza scopo.
+    esempi:
+      - "Hitchcock — 'la bomba sotto il tavolo' (la domanda è: esploderà?)"
+      - "Ogni scena di processo — la domanda è: colpevole o innocente?"
+      - "Ogni inseguimento — la domanda è: scapperanno?"
+      - "Ogni negoziazione — la domanda è: l'NPC accetterà?"
+      - "Sly Flourish — 'what's the strong start?' (iniziare con una domanda drammatica)"
+    uso_dnd: >
+      Per ogni scena preparata, il DM scrive UNA domanda: "I PG scopriranno
+      chi ha rubato la gemma?", "Riusciranno a convincere il drago?", "Il
+      ponte reggerà?". La scena finisce quando la domanda ha risposta (sì o
+      no, con conseguenze). Se una scena non ha domanda, non è una scena — è
+      riempitivo. Nella prep: annotare la domanda accanto a ogni location/
+      incontro. In play: se la scena si trascina, chiedersi "la domanda ha
+      già una risposta?" — se sì, avanti.
+    rischio: >
+      Non tutte le scene hanno UNA domanda netta (le scene di esplorazione
+      libera, il roleplay in taverna). La domanda drammatica è per le scene
+      con POSTA IN GIOCO. Le scene di respiro (La Pausa) sono intenzionalmente
+      senza domanda urgente.
+    usato_in: [Il Pacing, Il Mistero, La Corsa Contro il Tempo]
+    vedi_anche: [Il Pacing, In Medias Res, La Pausa, Il Cliffhanger]
+
+
+  - tipo: principio
+    nome: La Regola del Cool (Lo Spettacolo sopra il Manuale)
+    nome_en: Rule of Cool / Cinematic Ruling
+    nomi_alt: [Rule of Cool, Cinematic Ruling, La Regola della Figata, Power of Cool, Style over Rules]
+    descrizione: >
+      Quando un giocatore propone un'azione spettacolare che non è coperta
+      dalle regole (o che le regole impedirebbero), il DM la permette perché
+      è FICA. Il principio: se fa urlare "FIGO!" al tavolo, vale più di un
+      tecnicismo nel manuale. Non è anarchia — è un override puntuale del
+      regolamento in favore della narrazione cinematica. Si applica alle
+      azioni dei PG, MAI a quelle del DM contro i PG.
+    esempi:
+      - "Legolas surfa sullo scudo — Il Signore degli Anelli (fisicamente assurdo, visivamente epico)"
+      - "Indiana Jones spara al duellante — (soluzione creativa > regole del duello)"
+      - "Qualsiasi azione di Jackie Chan — Hong Kong cinema (improvvisazione spettacolare)"
+      - "Il grapple sul drago — D&D (non c'è una regola, ma è troppo figo per dire no)"
+      - "Critical Role — i giocatori descrivono kill shots elaborate (non meccaniche, solo fiction)"
+    uso_dnd: >
+      Quando un giocatore dice "voglio saltare dal balcone, atterrare sulla
+      chandelier, oscillare e colpire il nemico a mezz'aria": non cercare la
+      regola esatta. Chiedi un tiro (Acrobatics + Attack con svantaggio? DC 15
+      Atletica + danno extra se riesce?). Improvvisa una meccanica fair ma
+      generosa. Se riesce: è il momento che ricorderanno per anni. Se fallisce:
+      almeno ha provato (e fa fail forward, non morte istantanea).
+    rischio: >
+      Se applicata troppo spesso, le regole perdono significato e i giocatori
+      ottimizzati si sentono fregati ("perché studiare le meccaniche se basta
+      descrivere qualcosa di figo?"). Regola: la Rule of Cool è per momenti
+      speciali (1-2 per sessione), non per ogni turno. E il tiro deve essere
+      comunque significativo — non è un auto-successo.
+    usato_in: [Sconfiggere il Mostro, La Resa dei Conti, Commedia degli Errori]
+    vedi_anche: [La Terza Via, Bella Idea, Il Fail Forward, Il Lampshading]
+
+
+
+  - tipo: principio
+    nome: La Vecchia Conoscenza (Guarda Chi Si Rivede)
+    nome_en: Recurring Character / The Return / Remember Me?
+    nomi_alt: [Recurring Character, The Return, Guarda Chi Si Rivede, Remember Me, Il Ritorno del Figurante]
+    descrizione: >
+      Un personaggio minore dei primi moduli — che era rimasto impresso ai
+      giocatori per qualche motivo — riappare dopo un'assenza con un nuovo
+      ruolo drammatico. Non è la Promozione (che avviene subito, nella stessa
+      sessione): è un ritorno DOPO che il personaggio era uscito di scena.
+      Il suo riapparire dà senso di continuità alla storia, fa sembrare il
+      mondo vivo e interconnesso, e premia l'attenzione dei giocatori. Il
+      nuovo ruolo può essere alleato, nemico, vittima, testimone — diverso
+      da prima.
+    esempi:
+      - "Neville nel libro 7 — Harry Potter (da goffo a leader della resistenza)"
+      - "Boba Fett che torna — Star Wars (dato per morto, riappare con nuovo scopo)"
+      - "Il taverniere del primo episodio che è diventato sindaco — tropo D&D"
+      - "Butters che torna potente — South Park/qualsiasi serie long-running"
+      - "Il mercante di RE4 — Resident Evil (stesso NPC in luoghi impossibili, conforto ricorrente)"
+      - "Patches — Dark Souls/Elden Ring (lo stesso traditore in ogni gioco, i giocatori lo amano/odiano)"
+    uso_dnd: >
+      Tenere una lista dei personaggi minori che i giocatori hanno apprezzato
+      (quelli che nominano tra le sessioni). Dopo 2-3 moduli di assenza, farne
+      tornare uno in un contesto inatteso: il goblin risparmiato è ora capo
+      tribù, la ragazza salvata è diventata una guerriera, il mercante losco
+      è in prigione e ha informazioni. Il ritorno deve soddisfare 3 requisiti:
+      (1) i giocatori lo RICONOSCONO (dargli un tratto memorabile); (2) è
+      CAMBIATO (il tempo è passato anche per lui); (3) ha una nuova FUNZIONE
+      nella storia attuale.
+    rischio: >
+      Se i giocatori non ricordano il personaggio, il momento cade nel vuoto.
+      Aiutarli: "vedete un halfling con una cicatrice sulla guancia...
+      vi ricorda qualcuno?" Se proprio non ricordano, non forzare — il
+      personaggio funziona lo stesso come NPC nuovo, il bonus nostalgia è perso.
+    puo_aver_bisogno_di: [Il Legame (affezione)]
+    usato_in: [La Cerca, La Campagna a Spirale, Sconfiggere il Mostro]
+    vedi_anche: [La Promozione, La Callback, Il Legame, Il Companion Fedele]

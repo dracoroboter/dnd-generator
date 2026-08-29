@@ -9,7 +9,7 @@
 
 ## Descrizione
 
-Governatore corrotto di Orcastle, Lord Malebranche è un uomo magro, pallido, con occhi infossati che sembrano calcolare il valore di ogni persona nella stanza. Veste abiti nobiliari scuri con ricami d'argento. Le sue mani sono sempre fredde — un effetto collaterale della magia necromante che pratica.
+Signore della contea di Orcastle, Lord Malebranche è un uomo magro, pallido, con occhi infossati che sembrano calcolare il valore di ogni persona nella stanza. Veste abiti nobiliari scuri con ricami d'argento. Le sue mani sono sempre fredde — un effetto collaterale della magia necromante che pratica.
 
 Tratto distintivo: parla con cortesia impeccabile anche quando ordina atrocità. Non alza mai la voce. La sua calma è più inquietante di qualsiasi minaccia.
 

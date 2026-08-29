@@ -1,0 +1,880 @@
+# Analisi: Game of Thrones — Stagioni 1-4 (come campagna D&D sandbox multi-party)
+# Data: 2026-08-29
+# Esito: completa
+# Note: Caso SPECIALE — non c'è un party unico ma MULTIPLI archi paralleli con
+#   personaggi che si incrociano. Struttura a FAZIONI con PG potenzialmente
+#   intercambiabili. La morale grigia è la REGOLA, il tradimento è la NORMA.
+#   GoT ha riscritto le aspettative del pubblico post-2011.
+#
+#   STRUTTURA SANDBOX:
+#   - 4 archi principali paralleli che si intrecciano
+#   - Nessun "party" fisso — i personaggi cambiano arco, muoiono, tradiscono
+#   - Il DM gestisce FAZIONI, non un singolo gruppo
+#   - Qualunque personaggio PUÒ morire — nessun plot armor
+#
+#   PG: potenzialmente chiunque (campagna sandbox)
+#   NPC: tutti (in un sandbox, chi è PG e chi NPC cambia prospettiva)
+
+opera:
+  titolo: "Game of Thrones — Stagioni 1-4"
+  tipo: serie_tv
+  epoca: 2011-2014
+  genere_dnd_compatibile: true
+  note: >
+    Campagna sandbox politica con 4+ archi paralleli e fazioni in conflitto.
+    Ha riscritto le regole della narrativa televisiva: il protagonista PUÒ morire,
+    il tradimento è la norma, la morale grigia domina. Basata su "A Song of Ice
+    and Fire" di George R.R. Martin (1996-2011). Le stagioni 1-4 rappresentano
+    il picco narrativo (corrispondono ai libri 1-3 + inizio 4-5).
+    
+    Per il D&D: questo è il modello per campagne sandbox politiche dove il DM
+    gestisce fazioni con agende proprie e i PG navigano un mondo che NON ruota
+    attorno a loro. Le conseguenze sono permanenti e brutali.
+
+# ============================================================
+# STRUTTURA GLOBALE — CAMPAGNA SANDBOX A FAZIONI
+# ============================================================
+
+struttura:
+  tipo_campagna: sandbox_multi_party
+  plot_principale: La Crisi di Successione
+  plot_secondari:
+    - Tragedia
+    - La Ribellione
+    - Da Povero a Ricco
+    - L'Assedio
+    - La Vendetta
+    - L'Indagine sulla Cospirazione
+    - La Tentazione
+    - La Guerra
+  meta_plot: >
+    "Chi siede sul Trono di Spade?" — ma la vera domanda è: il potere
+    corrompe chiunque lo cerchi? Il trono è il MacGuffin politico che
+    tutti inseguono e nessuno può tenere senza pagare un prezzo.
+
+  fazioni:
+    - nome: Casa Stark
+      allineamento: Lawful Good → Tragedia
+      motto: "Winter Is Coming"
+      arco_globale: "La famiglia onorevole distrutta dalla politica. L'onore come Fatal Flaw."
+      stato_iniziale: "Potente, unita, onorevole"
+      stato_finale_s4: "Dispersa, decimata, sopravvissuti in trasformazione"
+
+    - nome: Casa Lannister
+      allineamento: Lawful Evil / Neutral Evil (variabile per membro)
+      motto: "A Lannister Always Pays His Debts"
+      arco_globale: "La famiglia più potente che si autodistrugge dall'interno."
+      stato_iniziale: "Ricca, temuta, unita in apparenza"
+      stato_finale_s4: "Dominante ma fratturata (Tyrion in esilio, Jaime cambiato, Tywin morto)"
+
+    - nome: Casa Targaryen (Daenerys)
+      allineamento: Chaotic Good → ambiguo
+      motto: "Fire and Blood"
+      arco_globale: "Da Povero a Ricco — la regina esiliata che costruisce un esercito."
+      stato_iniziale: "Esule impotente, venduta come merce"
+      stato_finale_s4: "Regina con esercito e draghi, ma scopre che governare ≠ conquistare"
+
+    - nome: La Guardia della Notte
+      allineamento: Neutral Good (istituzione)
+      motto: "Night gathers, and now my watch begins"
+      arco_globale: "L'istituzione dimenticata che fronteggia la vera minaccia."
+      stato_iniziale: "Sotto-finanziata, ignorata, piena di reietti"
+      stato_finale_s4: "Sopravvissuta per un pelo, Jon Snow leader de facto"
+
+    - nome: I Manipolatori (Littlefinger, Varys)
+      allineamento: Neutral Evil / True Neutral
+      arco_globale: "I burattinai che muovono le fazioni dall'ombra."
+      nota: "Non sono una fazione formale ma AGISCONO come una. Petyr e Varys hanno agende separate."
+
+  # Come tradurre in D&D sandbox:
+  note_dm: >
+    In una campagna sandbox multi-fazione:
+    1. Ogni fazione ha un OROLOGIO DEL VILLAIN (agenda che avanza)
+    2. I PG possono appartenere a una fazione O essere indipendenti
+    3. Le azioni dei PG influenzano TUTTE le fazioni (effetto farfalla)
+    4. Se i PG non intervengono, le fazioni agiscono comunque (Fronts)
+    5. La morte è permanente — nessun PG ha plot armor
+    6. Ogni NPC ha motivazioni proprie, non esiste per servire i PG
+
+  # ============================================================
+  # ARCO STARK: Tragedia politica (S1-S4)
+  # Il cuore emotivo. La famiglia "protagonista" che viene distrutta.
+  # ============================================================
+
+  archi:
+    - nome: "Arco Stark — La Tragedia dell'Onore"
+      stagioni: "S1-S4"
+      plot_arco: [Tragedia, La Crisi di Successione, La Vendetta, La Guerra]
+      escalation: "Famiglia unita → dispersa → decimata → sopravvissuti trasformati"
+      posta_in_gioco: "La sopravvivenza della famiglia (micro) + il Nord (macro)"
+      fatal_flaw: "L'onore. Ned gioca il gioco del potere con le regole dell'onore — e muore."
+
+      sotto_archi:
+        - nome: "Ned Stark (S1)"
+          plot: Tragedia
+          durata: "10 episodi"
+          ruolo: "Il 'protagonista' che muore nel primo arco — sovversione totale"
+          situazioni:
+            - L'Indagine sulla Cospirazione
+            - La Corte Decadente
+            - Il Mistero
+            - Il Barlume di Speranza
+            - Spalle al Muro (La Scelta Impossibile)
+            - Il Sacrificio Volontario
+          tecniche:
+            - nome: Lo Specchio Interiore (La Virtù Fatale)
+              applicazione: >
+                L'onore di Ned è la sua forza E la sua debolezza fatale. Avverte
+                Cersei prima di agire (per onore) → lei lo previene. Confessa il
+                falso per salvare le figlie → viene ucciso comunque.
+            - nome: Il Barlume di Speranza
+              applicazione: >
+                Ned sta per essere graziato (Joffrey dice 'mio padre era un uomo
+                misericordioso') → poi ordina l'esecuzione. Il barlume amplifica
+                lo shock. I giocatori pensano 'ce l'ha fatta' per 3 secondi.
+            - nome: La Frase Bomba
+              applicazione: "'Ser Ilyn, bring me his head.' — Joffrey sovverte la grazia attesa."
+
+        - nome: "Robb Stark (S2-S3)"
+          plot: [La Guerra, La Vendetta, Tragedia]
+          durata: "20 episodi"
+          ruolo: "Il Re del Nord — il figlio che eredita la guerra del padre"
+          situazioni:
+            - La Guerra
+            - La Vendetta
+            - Il Debito d'Onore (La Promessa)
+            - Lo Specchio Interiore (La Virtù Fatale)
+            - La Festa Interrotta
+            - Il Tradimento dell'Alleato
+          tecniche:
+            - nome: Il Debito d'Onore (La Promessa)
+              applicazione: >
+                Robb promette di sposare una Frey per attraversare il ponte.
+                Poi rompe la promessa (sposa Talisa per amore). La promessa
+                rotta è il Fucile di Čechov della Red Wedding.
+            - nome: La Festa Interrotta
+              applicazione: >
+                RED WEDDING. Il matrimonio di Edmure è la festa. La musica
+                cambia ('Rains of Castamere'). Le porte si chiudono. Il
+                massacro. La sovversione più brutale della storia televisiva.
+            - nome: Il Presagio
+              applicazione: >
+                'The Rains of Castamere' suona più volte prima della Red Wedding.
+                La canzone STESSA è il presagio — chi conosce la lore sa cosa
+                significa. Chi non la conosce lo scopre troppo tardi.
+
+        - nome: "Arya Stark (S1-S4)"
+          plot: [La Vendetta, Da Povero a Ricco, Il Viaggio dell'Esilio]
+          durata: "40 episodi"
+          ruolo: "La bambina che diventa assassina — arco di vendetta e sopravvivenza"
+          situazioni:
+            - La Fuga dalla Prigione
+            - Il Viaggio dell'Esilio
+            - L'Alleato Scomodo
+            - La Rincorsa
+            - La Vendetta
+          personaggi_correlati:
+            - nome: Sandor Clegane (Il Mastino)
+              archetipo: [L'Alleato Scomodo, Il Veterano Spezzato, Il Protetto Riluttante]
+              funzione: >
+                Scorta involontaria di Arya. Nemico → companion scomodo → quasi-padre.
+                La relazione è costruita su ostilità reciproca che diventa rispetto.
+              nota: "Illustra perfettamente Il Protetto Riluttante — non vuole proteggerla, lo fa comunque."
+            - nome: Jaqen H'ghar
+              archetipo: [Il Benefattore Misterioso, Il Corruttore]
+              funzione: "Offre ad Arya il potere della morte. È mentor E tentatore."
+
+        - nome: "Sansa Stark (S1-S4)"
+          plot: [Il Viaggio dell'Esilio, Da Povero a Ricco (invertito), La Tentazione]
+          durata: "40 episodi"
+          ruolo: "La ragazza ingenua che impara il gioco del potere dal suo peggior nemico"
+          situazioni:
+            - Il Pesce fuor d'Acqua
+            - La Fuga dalla Prigione
+            - Il Corruttore
+            - La Pedina Inconsapevole
+          personaggi_correlati:
+            - nome: Petyr Baelish (Littlefinger)
+              archetipo: [Il Corruttore, Il Benefattore Misterioso, Il Piano Perfetto del Villain]
+              funzione: >
+                Mentor oscuro di Sansa. La 'salva' per i suoi scopi. Le insegna
+                il gioco del potere — ma è anche la causa della distruzione della
+                sua famiglia. Il serpente che ti insegna a mordere.
+
+      personaggi_principali:
+        - nome: Eddard (Ned) Stark
+          archetipo: [L'Eroe Riluttante, La Voce della Ragione, Il Mentore]
+          funzione: >
+            Il 'protagonista' della S1 — ma la storia lo uccide per stabilire
+            le regole del mondo. Il suo onore è la Fatal Flaw che lo distrugge.
+            La sua morte è il messaggio al pubblico: NESSUNO è al sicuro.
+          nota: "Primo caso nella TV mainstream di 'morte del protagonista' senza ritorno."
+          fatal_flaw: "L'onore — gioca onestamente in un gioco dove tutti barano."
+
+        - nome: Robb Stark
+          archetipo: [L'Eroe Riluttante, Il Re Guerriero]
+          funzione: >
+            Eredita la guerra del padre. Vince ogni battaglia ma perde la guerra
+            per un errore politico (rompe una promessa). Tragedia classica:
+            l'hubris dell'amore sopra il dovere.
+          fatal_flaw: "L'amore romantico sopra il pragmatismo politico."
+
+        - nome: Catelyn Stark
+          archetipo: [La Voce della Ragione, L'Amico Velenoso]
+          funzione: >
+            Madre protettiva le cui azioni 'per proteggere i figli' causano
+            catastrofi (cattura Tyrion → scatena la guerra, libera Jaime →
+            aliena i Karstark). L'Amico Velenoso involontario.
+          fatal_flaw: "L'amore materno che sovrascrive la strategia."
+
+      regole_sovvertite:
+        - regola: "Il protagonista sopravvive almeno fino al climax"
+          sovversione: "Ned muore a fine S1. Robb muore a metà S3."
+          effetto: "Il pubblico impara: NESSUNO ha plot armor. La tensione diventa reale."
+
+    # ============================================================
+    # ARCO LANNISTER: Intrigo e morale grigia (S1-S4)
+    # La famiglia 'antagonista' che è più interessante dei 'buoni'.
+    # ============================================================
+
+    - nome: "Arco Lannister — Il Prezzo del Potere"
+      stagioni: "S1-S4"
+      plot_arco: [La Tentazione, Tragedia, Rinascita, La Rivalità]
+      escalation: "Dominanti → vittoriosi → fratturati dall'interno"
+      posta_in_gioco: "Il potere della famiglia (macro) + l'anima dei singoli (micro)"
+
+      sotto_archi:
+        - nome: "Tyrion Lannister (S1-S4)"
+          plot: [Da Povero a Ricco, Il Trickster, Tragedia, La Vendetta]
+          ruolo: "Il figlio reietto che è il più competente — ma mai riconosciuto"
+          situazioni:
+            - Il Pesce fuor d'Acqua
+            - Il Processo
+            - La Corte Decadente
+            - Spalle al Muro (La Scelta Impossibile)
+            - L'Assedio
+            - La Vendetta
+          tecniche:
+            - nome: Il Processo
+              applicazione: >
+                Due processi: (1) S1 alla Eyrie — comico, vinto con astuzia.
+                (2) S4 a King's Landing — tragico, perso nonostante l'innocenza.
+                L'evoluzione da commedia a tragedia in 3 stagioni.
+            - nome: L'Assedio
+              applicazione: "Blackwater (S2E9). Tyrion difende King's Landing — il suo momento eroico, mai riconosciuto."
+
+        - nome: "Jaime Lannister (S1-S4)"
+          plot: [Rinascita, La Tentazione, L'Alleanza Oscillante]
+          ruolo: "Il villain che diventa l'antieroe — arco di redenzione più complesso della serie"
+          situazioni:
+            - La Scorta
+            - L'Alleato Scomodo
+            - Il Redento
+            - Lo Specchio Interiore (La Virtù Fatale)
+          tecniche:
+            - nome: L'Alleanza Oscillante
+              applicazione: >
+                Villain (S1: butta Bran dalla finestra) → prigioniero → companion
+                scomodo di Brienne → antieroe che salva Brienne dall'orso →
+                uomo che cerca di essere migliore. Ogni cambio è motivato.
+            - nome: Lo Specchio (Il Doppio Oscuro)
+              applicazione: >
+                Jaime-Brienne sono specchi: lui è l'uomo d'onore diventato cinico,
+                lei è il cavaliere onorevole che il mondo deride. Si completano.
+            - nome: La Separazione dell'Identità
+              applicazione: >
+                La perdita della mano (S3) distrugge il 'Jaime guerriero' e forza
+                la nascita del 'Jaime uomo'. La mutilazione come catalizzatore
+                di cambiamento. Senza la spada, chi sei?
+
+        - nome: "Cersei Lannister (S1-S4)"
+          plot: [La Tentazione, La Crisi di Successione, La Vendetta]
+          ruolo: "La madre-leone che protegge i figli distruggendo tutto il resto"
+          situazioni:
+            - La Corte Decadente
+            - La Crisi di Successione
+            - L'Amico Velenoso
+            - La Paranoia Indotta
+          nota: >
+            Cersei è L'Amico Velenoso per i propri figli: tutto ciò che fa 'per
+            proteggerli' li mette più in pericolo. Il suo amore materno è tossico.
+
+      personaggi_principali:
+        - nome: Tyrion Lannister
+          archetipo: [Il Trickster, L'Eroe Riluttante, La Voce della Ragione]
+          funzione: >
+            Il cervello della famiglia — sopravvive con l'astuzia in un mondo
+            che lo disprezza per il suo corpo. Il suo arco S1-4: da comic relief
+            a eroe tragico a parricida in esilio. Mai un archetipo fisso.
+          fatal_flaw: "Il bisogno di approvazione del padre — lo guida e lo distrugge."
+
+        - nome: Jaime Lannister
+          archetipo: [L'Alleanza Oscillante, Il Redento, Lo Specchio]
+          funzione: >
+            L'arco di redenzione più lungo e complesso. Da 'il villain che butta
+            bambini dalle finestre' a 'l'uomo che salva una donna dall'orso per
+            onore'. La morale grigia incarnata: è buono E cattivo simultaneamente.
+          fatal_flaw: "Cersei. L'amore per la gemella lo trascina sempre indietro."
+
+        - nome: Tywin Lannister
+          archetipo: [Il Signore Oscuro (pragmatico), Il Fanatico (famiglia)]
+          funzione: >
+            Il patriarca come BBEG dell'arco Lannister. Non è malvagio per
+            crudeltà — è spietato per pragmatismo. Tutto per la famiglia,
+            niente per i singoli membri. Muore per mano del figlio che ha
+            sempre disprezzato — ironia drammatica perfetta.
+          nota: "La sua morte è il payoff della Costruzione dell'Odio di Tyrion."
+
+        - nome: Cersei Lannister
+          archetipo: [L'Amico Velenoso, Il Fanatico (figli), La Nemesi (di Tyrion)]
+          funzione: >
+            Antagonista interna della famiglia. Tutto ciò che fa per i figli li
+            distrugge. Il suo conflitto con Tyrion è il motore dell'arco familiare.
+
+    # ============================================================
+    # ARCO DAENERYS: Da Povero a Ricco / Ribellione (S1-S4)
+    # L'arco più classicamente eroico — ma con semi di corruzione.
+    # ============================================================
+
+    - nome: "Arco Daenerys — La Regina del Fuoco"
+      stagioni: "S1-S4"
+      plot_arco: [Da Povero a Ricco, La Ribellione, La Tentazione]
+      escalation: "Schiava → Khaleesi → Madre dei Draghi → Conquistatrice → Governante"
+      posta_in_gioco: "Il Trono di Spade (macro) + la libertà degli schiavi (ideale) + la sua identità (micro)"
+
+      situazioni:
+        - Da Povero a Ricco
+        - La Ribellione
+        - La Gestione del Territorio
+        - Il Compito Impossibile
+        - La Costruzione dell'Odio
+        - Spalle al Muro (La Scelta Impossibile)
+        - Il Patto col Diavolo
+        - La Tentazione
+
+      personaggi_principali:
+        - nome: Daenerys Targaryen
+          archetipo: [L'Eletto, Da Povero a Ricco, Il Fanatico (in germe)]
+          funzione: >
+            L'arco più classico: da zero a regina. Ma i semi della corruzione
+            futura sono già presenti in S1-4: la certezza di avere DIRITTO al
+            potere, la tendenza alla crudeltà 'giustificata', il fuoco come
+            soluzione a tutto. In S1-4 è ancora l'eroina — ma le crepe ci sono.
+          fatal_flaw: "Il senso di diritto divino — crede di meritare il potere per nascita."
+          nota: >
+            PRESAGIO per la corruzione futura (S5+): le crocifissioni a Meereen,
+            il piacere nel vedere bruciare i nemici, 'I will take what is mine
+            with fire and blood.' Sono Fucili di Čechov per la discesa.
+
+        - nome: Jorah Mormont
+          archetipo: [Il Companion Fedele, Il Redento, La Talpa (poi rivelata)]
+          funzione: >
+            Companion fedele con segreto: è una spia (Talpa) che si redime.
+            La rivelazione in S4 è il Piedistallo Spezzato per Daenerys.
+
+        - nome: Khal Drogo
+          archetipo: [Il Mentore (non convenzionale), Il Guardiano della Soglia]
+          funzione: "Primo marito/padrone/amante. La sua morte è il catalizzatore della trasformazione."
+
+        - nome: Missandei / Verme Grigio
+          archetipo: [Il Companion Fedele, Il Legame (affezione)]
+          funzione: "Costruiscono il Legame con Daenerys come persona, non come regina."
+
+      tecniche:
+        - nome: Da Povero a Ricco
+          applicazione: >
+            S1: venduta come schiava matrimoniale. S1 finale: esce dal fuoco con
+            3 draghi. S2-3: costruisce un esercito dal nulla. S4: governa Meereen.
+            Ogni stagione è un gradino dell'ascesa.
+        - nome: Il Patto col Diavolo
+          applicazione: >
+            Mirri Maz Duur (S1): Daenerys 'paga' con la vita di Drogo e del figlio
+            per... niente. Il patto insegna: la magia ha un prezzo, e chi patta
+            con te non è tuo amico. Setup per la sua diffidenza futura.
+        - nome: La Gestione del Territorio
+          applicazione: >
+            S4 Meereen: Daenerys scopre che GOVERNARE è diverso da CONQUISTARE.
+            Non basta liberare — bisogna amministrare. Il dominio come problema
+            narrativo, non come ricompensa.
+        - nome: Il Presagio
+          applicazione: >
+            Ogni volta che Daenerys usa il fuoco per risolvere problemi, è un
+            presagio della S8. In S1-4 è ancora 'giustizia' — ma il pattern
+            'fuoco come risposta' è già lì.
+
+    # ============================================================
+    # ARCO WALL: L'Assedio / La Minaccia Esterna (S1-S4)
+    # La trama che nessuno ascolta — finché non è troppo tardi.
+    # ============================================================
+
+    - nome: "Arco Wall — La Minaccia che Nessuno Crede"
+      stagioni: "S1-S4"
+      plot_arco: [L'Assedio, Sconfiggere il Mostro, La Cerca, Il Rito di Passaggio]
+      escalation: "Recluta → Ranger → Leader → Difensore del mondo"
+      posta_in_gioco: "La sopravvivenza dell'umanità (macro) + l'identità di Jon (micro)"
+
+      situazioni:
+        - Il Rito di Passaggio
+        - Il Branco di Disadattati
+        - La Zona Proibita
+        - Il Profeta Ignorato
+        - L'Infiltrazione
+        - La Lealtà Divisa
+        - L'Assedio
+        - Il Sacrificio Volontario
+        - La Minaccia Esterna Incomprensibile
+
+      personaggi_principali:
+        - nome: Jon Snow
+          archetipo: [L'Eroe Riluttante, L'Eletto (nascosto), Il Bastardo]
+          funzione: >
+            Il protagonista classico nascosto nella trama meno glamour. Il suo
+            arco è il più tradizionale (Da Povero a Ricco + L'Eletto) ma è
+            circondato dalla decostruzione degli altri archi. Cresce da bastardo
+            a Lord Commander.
+          fatal_flaw: "L'onore ereditato da Ned — stesse virtù, stesso rischio."
+          nota: "L'Agnizione (Targaryen) è seminata per tutta la serie ma rivelata molto dopo."
+
+        - nome: Ygritte
+          archetipo: [L'Alleanza col Nemico, Lo Specchio, Il Legame (affezione)]
+          funzione: >
+            L'amante nemica — costringe Jon a scegliere tra amore e dovere.
+            La sua morte in S4E9 è il payoff del Legame costruito in S3.
+          nota: "'You know nothing, Jon Snow' — la frase che definisce il loro rapporto."
+
+        - nome: Mance Rayder
+          archetipo: [L'Anti-Villain, Il Nemico Onorevole]
+          funzione: >
+            Il 're' dei bruti non è un villain — sta fuggendo dalla stessa
+            minaccia che Jon combatte. Morale grigia: il nemico ha ragione.
+
+        - nome: I White Walkers / Il Re della Notte
+          archetipo: [Il Dio Indifferente, La Minaccia Esterna Incomprensibile, Il Male Sigillato]
+          funzione: >
+            La vera minaccia che tutti ignorano. Mentre le fazioni si massacrano
+            per il trono, il vero nemico avanza. Nessuno ci crede — Il Profeta
+            Ignorato applicato a un intero arco.
+
+      tecniche:
+        - nome: Il Profeta Ignorato
+          applicazione: >
+            TUTTO l'arco del Wall è un Profeta Ignorato su scala macro: la
+            Guardia della Notte avverte del pericolo, nessuno al sud ascolta.
+            Il motto 'Winter Is Coming' è il presagio che TUTTI ignorano.
+        - nome: La Lealtà Divisa
+          applicazione: >
+            Jon infiltrato tra i Bruti (S3): deve tradire Ygritte per restare
+            fedele alla Guardia, o tradire la Guardia per stare con lei.
+            Sceglie il dovere — paga il prezzo emotivo.
+        - nome: L'Assedio
+          applicazione: >
+            S4E9 'The Watchers on the Wall': l'assedio perfetto. Risorse limitate,
+            ondate di nemici, scelte tattiche, morti di personaggi amati (Ygritte),
+            vittoria di Pirro (sopravvivono, ma a che costo?).
+
+# ============================================================
+# I MANIPOLATORI — Il Livello Meta del Sandbox
+# ============================================================
+
+  manipolatori:
+    nota: >
+      In una campagna sandbox, i manipolatori sono il LAYER NASCOSTO — agiscono
+      su tutte le fazioni simultaneamente. Sono il motivo per cui le cose 'vanno
+      male' in modo coordinato. Per il DM: sono gli NPC che muovono il mondo
+      MENTRE i PG agiscono.
+    lista:
+      - nome: Petyr Baelish (Littlefinger)
+        archetipo: [Il Piano Perfetto del Villain, Il Corruttore]
+        funzione: >
+          IL burattinaio. Ha orchestrato: la morte di Jon Arryn (che scatena
+          l'intera trama), il tradimento di Ned, la guerra dei Cinque Re,
+          l'omicidio di Joffrey, la fuga di Sansa.
+        piano: >
+          Xanatos Gambit puro: qualunque fazione vinca, lui sale. Non ha eserciti —
+          ha informazioni, debiti, e la capacità di far combattere gli altri.
+        uso_dnd: >
+          Il modello perfetto per un BBEG politico in un sandbox: non combatte mai,
+          non si espone, agisce tramite intermediari. I PG non sanno che esiste
+          come nemico fino a metà campagna. Quando lo scoprono, non possono provarlo.
+
+      - nome: Varys
+        archetipo: [L'Informatore, Il Benefattore Misterioso, La Talpa]
+        funzione: >
+          L'anti-Littlefinger. Ha una rete di spie ovunque. Serve 'il reame' —
+          non un re. Le sue informazioni sono accurate ma le sue motivazioni
+          restano ambigue fino alla fine.
+        uso_dnd: >
+          Il quest giver che non rivela mai PERCHÉ vi dà la missione. Le sue
+          informazioni sono sempre corrette — ma a chi servono davvero?
+
+# ============================================================
+# ESCALATION GLOBALE (S1 → S4)
+# ============================================================
+
+escalation_globale:
+  - stagione: 1
+    posta_narrativa: "Chi governa il regno dopo la morte di Robert?"
+    posta_emotiva: "La famiglia Stark sopravviverà alla corte?"
+    villain_visibility: "Nessun villain chiaro — tutti sono grigi. Joffrey emerge come Tiranno."
+    morte_chiave: "Ned Stark — il messaggio 'nessuno è al sicuro' è stabilito."
+    livello_dnd: "1-4 (intrigo locale, primo dungeon politico)"
+
+  - stagione: 2
+    posta_narrativa: "La Guerra dei Cinque Re — chi conquista il trono?"
+    posta_emotiva: "I figli Stark sopravvivranno divisi? Tyrion sarà riconosciuto?"
+    villain_visibility: "Joffrey è il tiranno. Tywin è il vero potere. Theon tradisce."
+    morte_chiave: "Renly (mostra che anche i re cadono facilmente)"
+    livello_dnd: "5-8 (guerra su scala regionale, battaglie campali)"
+
+  - stagione: 3
+    posta_narrativa: "La guerra finirà? Il Nord può vincere?"
+    posta_emotiva: "Robb può vendicare Ned? Jaime può essere redento?"
+    villain_visibility: "I Frey/Bolton emergono come traditori. Littlefinger è il burattinaio."
+    morte_chiave: "Red Wedding — Robb, Catelyn, Grey Wind, centinaia di soldati Stark."
+    livello_dnd: "9-12 (politica su scala continentale, tradimenti devastanti)"
+
+  - stagione: 4
+    posta_narrativa: "Chi controlla King's Landing dopo Joffrey? La Wall reggerà?"
+    posta_emotiva: "Tyrion sopravviverà al tradimento della sua stessa famiglia?"
+    villain_visibility: "Tywin è al culmine. Littlefinger agisce. L'Inverno avanza."
+    morte_chiave: "Joffrey (catarsi), Tywin (il potente cade), Shae/Lysa (tradimento personale)"
+    livello_dnd: "11-14 (scontri finali degli archi personali, setup per il climax cosmico)"
+
+# ============================================================
+# SOVVERSIONI DELLE META-REGOLE
+# ============================================================
+
+sovversioni:
+  - regola_violata: "Il protagonista non muore (o almeno non nel primo arco)"
+    effetto: >
+      Ned Stark muore alla fine di S1. Robb muore a metà S3. Il pubblico
+      impara in modo TRAUMATICO che nessun personaggio ha plot armor.
+      CONSEGUENZA per il medium: dopo GoT, tutte le serie devono gestire
+      l'aspettativa 'forse il protagonista muore davvero'.
+    uso_dnd: >
+      In una campagna sandbox, I PG POSSONO MORIRE. Se il DM stabilisce questa
+      regola in session zero e la applica, la tensione è reale. Ogni combattimento
+      conta. Ogni scelta politica ha conseguenze letali.
+
+  - regola_violata: "Il Tradimento è l'eccezione shock (max 1 per arco)"
+    effetto: >
+      In GoT il tradimento è la NORMA: Littlefinger tradisce Ned, Theon tradisce
+      Robb, i Frey tradiscono al matrimonio, i Bolton tradiscono il Nord, Shae
+      tradisce Tyrion, Lysa tradisce la sorella, il Consiglio tradisce Ned...
+      IL TRADIMENTO È IL CLIMA, NON L'ECCEZIONE.
+    uso_dnd: >
+      In una campagna politica: i PG devono ASPETTARSI il tradimento. La fiducia
+      è una risorsa rara e preziosa. I pochi NPC genuinamente leali (Brienne,
+      Sam, Davos) brillano PERCHÉ sono eccezioni.
+    nota_grammatica: >
+      SOVVERSIONE dell'anti-pattern 'La Paranoia Totale': in GoT funziona
+      PERCHÉ non tutti tradiscono — quelli che NON tradiscono (Brienne, Sam,
+      Davos, Jon) sono il contrasto che rende i tradimenti significativi.
+
+  - regola_violata: "La morale è chiara (buoni vs cattivi)"
+    effetto: >
+      NESSUN personaggio in GoT è solo buono o solo cattivo. Jaime (il villain
+      che si redime), Tyrion (l'eroe che uccide il padre), Daenerys (la
+      liberatrice che crocifigge), Tywin (il mostro che ama i nipoti), The Hound
+      (il bruto che protegge i bambini). La morale grigia è IL TONO dell'opera.
+    uso_dnd: >
+      REGOLA per campagne sandbox politiche: ogni NPC ha motivazioni comprensibili.
+      Il 'villain' della fazione A è l'eroe della fazione B. I PG devono fare
+      scelte senza la comodità di un bene/male chiaro. Il DM non giudica le
+      scelte — mostra le conseguenze.
+
+  - regola_violata: "Il villain ha un piano che i PG possono scoprire e fermare"
+    effetto: >
+      Littlefinger NON ha un piano fisso — adatta al caos. 'Chaos is a ladder.'
+      Non pianifica un risultato specifico: crea instabilità e sale sui detriti.
+      È impossibile da 'fermare' perché non c'è un piano da fermare.
+    uso_dnd: >
+      Il BBEG politico non ha un orologio lineare — ha un PRINCIPIO OPERATIVO.
+      Il DM non scrive 'giorno 3: fa X', scrive 'quando succede Y, Littlefinger
+      farà Z per sfruttarlo'. È reattivo, non proattivo.
+
+  - regola_violata: "I Rinforzi arrivano al momento giusto (payoff del Legame)"
+    effetto: >
+      RED WEDDING: i rinforzi NON arrivano. La catarsi NON c'è. Il tradimento
+      vince. Il bene perde. In D&D classico, la sessione finirebbe così SOLO
+      come Ora più Buia prima della rimonta. In GoT, è DEFINITIVO.
+    uso_dnd: >
+      In un sandbox: se i PG non hanno guadagnato i rinforzi, NON arrivano.
+      Se si fidano della persona sbagliata, MUOIONO. Il mondo non salva i PG.
+      I PG salvano sé stessi — o non si salvano.
+
+  - regola_violata: "L'onore e la virtù sono ricompensati"
+    effetto: >
+      Ned muore PER il suo onore. Robb muore PER il suo amore. L'onore non è
+      una forza protettiva — è una debolezza sfruttabile in un mondo di pragmatici.
+      La virtù come Fatal Flaw è IL TEMA CENTRALE di GoT S1-3.
+    uso_dnd: >
+      REGOLA PROPOSTA — 'Lo Specchio Interiore (La Virtù Fatale)': in campagne
+      politiche, le virtù dei PG DEVONO essere testate. L'onore è utile tra
+      persone oneste — ma nella Corte Decadente, è la corda per impiccarti.
+
+  - regola_violata: "Il Colpo di Scena richiede presagi sottili"
+    effetto: >
+      La Red Wedding HA presagi (la canzone, la rottura della promessa, il
+      comportamento dei Frey) ma l'INTENSITÀ è così oltre le aspettative che
+      anche chi aveva notato i presagi è devastato. GoT presagia il COSA ma
+      non il QUANTO. Il twist non è 'i Frey tradiscono' — è 'massacrano tutti
+      incluse le donne incinte durante un matrimonio'.
+    uso_dnd: >
+      Il presagio può indicare la DIREZIONE senza indicare la SCALA. I PG
+      possono capire 'qualcosa di brutto sta per succedere' ma non 'quanto brutto'.
+      L'intensità è il vero shock, non l'evento in sé.
+
+# ============================================================
+# CATENE PREREQUISITI SODDISFATTE
+# ============================================================
+
+catene_soddisfatte:
+  - nome: Il Tradimento Devastante
+    sequenza_nella_serie:
+      - "Il Legame (affezione): Robb è il nostro eroe per 2 stagioni"
+      - "Il Companion Fedele: il Nord è leale, i Tully sono famiglia"
+      - "Il Tradimento dell'Alleato: Red Wedding — i Frey e i Bolton tradiscono"
+      - "L'Ora più Buia: gli Stark sembrano definitivamente distrutti"
+    valutazione: >
+      Catena perfetta. Il Legame è costruito per 20+ episodi. Il tradimento
+      è il colpo più devastante della TV moderna. Funziona PERCHÉ il buildup
+      è enorme.
+
+  - nome: La Vendetta Soddisfacente (Tyrion)
+    sequenza_nella_serie:
+      - "Il Legame (affezione): il pubblico ama Tyrion per 4 stagioni"
+      - "La Costruzione dell'Odio: Tywin lo disprezza, Cersei lo odia, il processo è ingiusto"
+      - "L'Ora più Buia: condannato a morte per un crimine non commesso"
+      - "La Resa dei Conti: uccide Tywin (e Shae)"
+    valutazione: >
+      Catena soddisfatta MA con twist: la Resa dei Conti è AMARA. Tyrion vince
+      ma diventa un parricida. Non è una vittoria pulita — è GoT.
+
+  - nome: La Caduta dell'Idolo (il pubblico verso GoT stesso)
+    sequenza_nella_serie:
+      - "Il Legame (affezione): il pubblico si affeziona a Ned (S1 primi episodi)"
+      - "Il Mentore: Ned è il punto di vista, la guida morale"
+      - "Il Piedistallo Spezzato: Ned muore — non il piedistallo di Ned, ma del GENERE TELEVISIVO"
+    valutazione: >
+      Meta-catena: il 'piedistallo spezzato' non è un personaggio che cade —
+      è l'aspettativa del pubblico ('il protagonista non muore') che viene
+      distrutta. GoT rompe il piedistallo della TV stessa.
+
+# ============================================================
+# REGOLE NARRATIVE PROPOSTE PER CAMPAGNE SANDBOX/POLITICHE
+# ============================================================
+
+regole_proposte:
+
+  stereotipi_mancanti:
+    - tipo: tecnica
+      nome_proposto: "La Rete di Debiti (Web of Obligations)"
+      descrizione: >
+        In una campagna politica, OGNI favore crea un debito, OGNI debito è
+        una leva. Non esiste aiuto gratuito. Ogni NPC che aiuta i PG vorrà
+        qualcosa in futuro — e quel 'qualcosa' potrebbe essere incompatibile
+        con gli obiettivi dei PG. Il mondo funziona a scambi, non a favori.
+      esempio_got: >
+        Littlefinger aiuta Ned → Ned 'deve' a Littlefinger → Littlefinger
+        usa il debito per tradirlo. I Frey danno il passaggio → Robb 'deve'
+        una moglie → Robb rifiuta → Red Wedding.
+      uso_dnd: >
+        Ogni NPC che aiuta i PG registra il debito. Il DM tiene un ledger di
+        'chi deve cosa a chi'. I debiti diventano hook futuri, dilemmi, o
+        trappole. I PG imparano che 'accettare aiuto' ha un prezzo.
+
+    - tipo: tecnica
+      nome_proposto: "L'Orologio delle Fazioni (Faction Fronts)"
+      descrizione: >
+        Ogni fazione ha un'agenda che avanza indipendentemente dai PG.
+        Non è un singolo Orologio del Villain — sono N orologi paralleli che
+        interagiscono. Le azioni su un fronte influenzano gli altri.
+      esempio_got: >
+        Mentre Robb combatte al sud, i Bolton avanzano il loro piano al Nord.
+        Mentre Jon è al Wall, Mance assembla l'esercito. Mentre Daenerys
+        libera Meereen, i maestri tramano la rivolta. TUTTO si muove
+        simultaneamente.
+      uso_dnd: >
+        Il DM mantiene 3-5 Fronts (Dungeon World style) che avanzano di un
+        passo per sessione in cui i PG NON li affrontano. I PG devono
+        scegliere quale fronte gestire — non possono coprire tutto. Le
+        conseguenze degli orologi ignorati sono visibili.
+
+    - tipo: situazione
+      nome_proposto: "Il Matrimonio Politico (L'Alleanza Forzata)"
+      descrizione: >
+        Un'unione (matrimonio, patto di sangue, giuramento) imposta per
+        ragioni politiche che lega personaggi contro la loro volontà.
+        La tensione viene dal DOVERE vs DESIDERIO. Il matrimonio può
+        essere la soluzione (pace tra fazioni) o la trappola (Red Wedding).
+      esempio_got: >
+        Sansa-Joffrey, Sansa-Tyrion, Robb-Frey (promessa rotta), Daenerys-Drogo,
+        Margaery-Joffrey, Margaery-Tommen. OGNI matrimonio in GoT è politico.
+      uso_dnd: >
+        In campagne politiche: proporre ai PG matrimoni/patti di alleanza come
+        SOLUZIONE ai conflitti. Ma ogni alleanza ha clausole, ogni patto ha
+        costi nascosti, e rompere una promessa ha conseguenze letali.
+
+    - tipo: tecnica
+      nome_proposto: "La Morte Permanente con Conseguenze (Stakes Death)"
+      descrizione: >
+        La morte di un personaggio NON chiude la sua storyline — la TRASFORMA.
+        Il morto lascia vuoti di potere, debiti non pagati, vendette da compiere,
+        segreti non rivelati. La morte non è un punto finale ma un detonatore
+        che innesca conseguenze a catena.
+      esempio_got: >
+        Ned muore → Robb dichiara guerra. Robb muore → Arya diventa assassina,
+        Sansa impara la politica, Jon resta al Wall. Joffrey muore → Tyrion è
+        accusato, i Tyrell perdono influenza, Tommen sale (debole). Tywin muore
+        → Cersei perde il freno, il regno crolla.
+      uso_dnd: >
+        Quando un NPC importante muore: il DM documenta 5 conseguenze che si
+        propagano nei moduli successivi. La morte non è un evento isolato — è
+        un terremoto con onde successive.
+
+    - tipo: tecnica
+      nome_proposto: "Il Potere Corruttivo Progressivo (La Spirale del Trono)"
+      descrizione: >
+        Ogni passo verso il potere costa qualcosa di morale. Chi inizia come
+        eroe e persegue il potere perde pezzi di sé. Non è Il Contatore
+        (binario, soglia) — è un gradiente: ogni decisione di potere ha un
+        costo visibile ma accettabile, e la somma totale è la corruzione.
+        'Solo un'altra cosa orribile per il bene superiore' — ripetuto 20 volte.
+      esempio_got: >
+        Daenerys: libera schiavi (bene) → crocifigge maestri (discutibile) →
+        brucia prigionieri (preoccupante) → brucia King's Landing (S8, ma i
+        semi sono in S1-4). Ogni passo è 'giustificabile' — la somma no.
+      uso_dnd: >
+        Non un Contatore binario ma un GRADIENTE visibile: il DM descrive come
+        il mondo reagisce al PG. All'inizio: ammirazione. Poi: timore. Poi:
+        paura. Poi: odio. Il PG non 'scatta' — scivola.
+
+    - tipo: situazione
+      nome_proposto: "La Fazione Spezzata (Schism)"
+      descrizione: >
+        Una fazione alleata dei PG si divide internamente. Due sotto-fazioni
+        con obiettivi opposti chiedono ai PG di scegliere. Non è tradimento
+        (nessuno è sleale) — è DISACCORDO LEGITTIMO su come procedere. Entrambe
+        le sotto-fazioni hanno ragione dal loro punto di vista.
+      esempio_got: >
+        La Guardia della Notte: fazione di Jon (allearsi coi bruti per
+        sopravvivere) vs fazione di Thorne (i bruti sono nemici da sempre).
+        Entrambi hanno argomenti validi. La spaccatura porta all'assassinio
+        di Jon (S5).
+      uso_dnd: >
+        La gilda/clan/alleanza dei PG si spacca. Entrambe le parti vogliono
+        l'aiuto dei PG. Scegliere un lato aliena l'altro. Non c'è risposta
+        giusta — solo conseguenze diverse.
+
+  regole_grammatica_proposte:
+    - nome: "Regola del Tradimento Credibile"
+      descrizione: >
+        In campagne sandbox/politiche: il tradimento FUNZIONA se (1) il traditore
+        aveva una motivazione comprensibile, (2) c'erano indizi ma non prove,
+        (3) i PG potevano prevenirlo con azioni diverse. Se il tradimento è
+        totalmente imprevedibile, è un Deus Ex Machina negativo.
+      esempio: "I Frey: motivazione (Robb ha rotto la promessa), indizi (Walder è vendicativo), prevenibile (se Robb avesse sposato la Frey)."
+
+    - nome: "Regola dell'Onore come Weakness"
+      descrizione: >
+        In un mondo grigio: ogni virtù del PG DEVE essere testata almeno una
+        volta come debolezza sfruttabile. L'onore è un punto di leva per i
+        manipolatori. La generosità è una porta per i parassiti. Il coraggio
+        è un invito alla trappola. Non PUNIRE la virtù — COMPLICARLA.
+      esempio: "Ned è onesto → Cersei lo previene. Robb è leale → i Frey lo sfruttano. Jon è giusto → la Guardia lo uccide."
+
+    - nome: "Regola della Morte come Detonatore"
+      descrizione: >
+        La morte di un personaggio importante deve generare almeno 3 conseguenze
+        narrative nei moduli successivi. Se la morte non cambia nulla, è spreco.
+        Se cambia tutto, è significativa.
+      esempio: "Morte di Ned → (1) Robb dichiara guerra, (2) Arya fugge e inizia il viaggio, (3) Sansa è prigioniera, (4) il Nord si ribella, (5) Littlefinger sale."
+
+    - nome: "Regola del Sandbox Multipolare"
+      descrizione: >
+        In una campagna con 3+ fazioni: nessuna fazione è 'i buoni'. Ogni fazione
+        ha almeno un personaggio simpatico e almeno un'azione ripugnante. I PG
+        devono scegliere il 'meno peggio' o trovare una terza via. Il DM non ha
+        una fazione 'corretta'.
+      esempio: "Gli Stark sono onorevoli ma ingenui. I Lannister sono spietati ma competenti. I Targaryen sono liberatori ma autoritari. Nessuna scelta è sicura."
+
+# ============================================================
+# CONTESTO EPOCA — POST-GOT (2011+)
+# ============================================================
+
+contesto_epoca:
+  epoca: "2011-2014 (e impatto post-2014)"
+  paradigma_narrativo: "Decostruzione mainstream del fantasy eroico"
+  regole_attive:
+    - "La morale grigia è la norma, non l'eccezione"
+    - "Qualunque personaggio può morire in qualunque momento"
+    - "Il tradimento è un meccanismo narrativo normale (non shock)"
+    - "L'onore/virtù è una debolezza in contesti politici"
+    - "Il villain sympathetic è lo standard (nessuno è solo cattivo)"
+    - "Le conseguenze sono permanenti e brutali"
+    - "La struttura multi-POV è accettabile (non serve UN protagonista)"
+    - "Il presagio indica la direzione ma non la scala dell'evento"
+    - "La Guerra ha un costo visibile su tutti (non è eroica)"
+  regole_riscritte_dopo_got:
+    - "PRE-GoT: il protagonista non muore → POST-GoT: qualunque personaggio può morire"
+    - "PRE-GoT: il bene vince → POST-GoT: chi è preparato vince (a prescindere dalla morale)"
+    - "PRE-GoT: il twist è l'eccezione → POST-GoT: il twist è il ritmo narrativo"
+    - "PRE-GoT: l'onore protegge → POST-GoT: l'onore espone"
+    - "PRE-GoT: 1 villain + 1 eroe → POST-GoT: N fazioni grigie"
+    - "PRE-GoT: tradimento = shock isolato → POST-GoT: tradimento = clima politico"
+  impatto_su_dnd: >
+    Dopo GoT, i giocatori D&D si ASPETTANO morale grigia, tradimenti, e morte
+    permanente nelle campagne mature. Il DM che gioca 'bene vs male' classico
+    viene percepito come semplicistico. Le campagne sandbox politiche sono
+    diventate un genere richiesto. La 'Session Zero' dove si stabiliscono
+    letalità e tono è diventata standard.
+
+# ============================================================
+# PATTERN D&D DERIVATI DA GOT
+# ============================================================
+
+pattern_dnd:
+  - nome: "Il Sandbox Multipolare"
+    descrizione: >
+      3-5 fazioni con agende proprie. I PG non sono 'gli eroi' — sono UN
+      gruppo tra tanti. Le fazioni agiscono indipendentemente (Fronts).
+      I PG influenzano il mondo ma non lo controllano.
+    implementazione: >
+      Session zero: presentare 3+ fazioni, far scegliere ai PG dove collocarsi
+      (o restare indipendenti). Ogni sessione: aggiornare i Fronts di tutte
+      le fazioni. Le azioni dei PG su una fazione ripercuotono sulle altre.
+
+  - nome: "La Sessione Red Wedding"
+    descrizione: >
+      Un evento devastante e permanente che cambia la campagna. Funziona SOLO
+      se: (1) era presagito, (2) era prevenibile con azioni diverse dei PG,
+      (3) ha conseguenze a catena, (4) non succede ad ogni sessione.
+    implementazione: >
+      Max 1 per campagna. Preparare per almeno 5 sessioni. Seminare 3+ indizi.
+      Le conseguenze devono alimentare almeno 3 sessioni successive.
+      Se i PG prevengono l'evento: PREMIARE con un'alternativa positiva.
+      La Red Wedding funziona perché è RARA — se ogni sessione è un massacro,
+      nessuno è un massacro.
+
+  - nome: "Il PG Senza Plot Armor"
+    descrizione: >
+      In session zero: stabilire che i PG possono morire. La morte è permanente.
+      In cambio: il DM dà SEMPRE avvertimenti chiari prima di situazioni letali.
+      I PG possono SEMPRE fuggire. La morte arriva solo da scelte consapevoli
+      (o da tradimenti preparati con indizi).
+    implementazione: >
+      Regola al tavolo: 'se ignorate gli avvertimenti, morite'. Il DM NON uccide
+      a tradimento — ma il mondo è spietato con chi non ascolta. I PG con backup
+      characters pronti. La morte di un PG è un evento narrativo, non un
+      'game over' — le conseguenze alimentano la storia.
+
+  - nome: "Il Villain Comprensibile come Default"
+    descrizione: >
+      OGNI antagonista ha una motivazione comprensibile documentata nelle note DM.
+      Non 'è cattivo perché è cattivo' — ha ragioni. I PG possono scoprirle.
+      Alcuni nemici possono essere convinti, comprati, o alleati.
+    implementazione: >
+      Per ogni NPC antagonista: scrivere (1) cosa vuole, (2) perché lo vuole,
+      (3) cosa accetterebbe come compromesso. Se i PG scoprono (2), hanno una
+      leva. Se offrono (3), l'antagonista negozia.

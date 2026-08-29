@@ -6,11 +6,19 @@
 #   tipo: personaggio | situazione | plot | relazione | tecnica
 #   nome: etichetta breve italiana
 #   nome_en: nome inglese standard (TV Tropes / letteratura critica)
+#   nomi_alt: 3-5 sinonimi italiani/inglesi per ricerca semantica e cross-reference
 #   descrizione: cos'è in 2-3 frasi
 #   esempi: lista di opere note (film, libri, miti, serie TV, videogiochi)
 #   uso_dnd: come applicarlo concretamente in un'avventura
 #   rischio: cosa può andare storto se usato male (opzionale)
 #   sottocaso_di: questo stereotipo è una variante specifica di un altro (opzionale)
+#   puo_aver_bisogno_di: stereotipi che devono essere stati applicati PRIMA affinché questo funzioni (opzionale)
+#     Per Il Legame, specificare la variante tra parentesi:
+#       Il Legame (affezione) = verso NPC/companion
+#       Il Legame (odio) = verso villain (alias: La Costruzione dell'Odio)
+#       Il Legame (luogo) = verso un posto (villaggio, base, gilda)
+#       Il Legame (ideale) = verso una causa/promessa/valore
+#       Il Legame (oggetto) = verso un artefatto/possesso significativo
 #   usato_in: in quali plot/situazioni questo stereotipo ricorre tipicamente (opzionale)
 #   vedi_anche: riferimenti ad altri stereotipi correlati (opzionale)
 #
@@ -23,96 +31,15 @@
 #     (non "cosa succede" ma "come il DM prepara il terreno affinché qualcosa funzioni")
 #   - sottocaso_di esprime che X è una variante specifica di Y
 #   - usato_in esprime che X ricorre tipicamente dentro Y
+#   - puo_aver_bisogno_di esprime che X funziona meglio se Y è stato applicato prima
+#     (relazione causale: senza Y il payoff di X è debole o nullo)
 #
 # Fonti: Booker, Vogler, Propp, TV Tropes, S. John Ross, Hipsters & Dragons
 # File companion: tech/rules/narrative-stereotypes.md (versione formale con cross-reference)
 
-# ============================================================
-# INDICE (169 voci)
-# ============================================================
-#
-# PLOT (13):
-#   Sconfiggere il Mostro | Da Povero a Ricco | La Cerca |
-#   Viaggio e Ritorno | Commedia degli Errori | Tragedia | Rinascita |
-#   La Vendetta | La Rivalità | La Tentazione (La Discesa) |
-#   La Ribellione | Il Viaggio dell'Esilio | L'Indagine sulla Cospirazione
-#
-# SITUAZIONI (74):
-#   Il Colpo di Scena | L'Agnizione* | Il Falso Antagonista* |
-#   Il Tradimento dell'Alleato* | Il MacGuffin | La Profezia | L'Assedio |
-#   La Fuga dalla Prigione | L'Infiltrazione / Il Colpo | Il Mistero |
-#   La Scorta | Il Male Sigillato | La Corsa Contro il Tempo |
-#   La Finta Minaccia | Spalle al Muro | Il Falso Finale* |
-#   L'Alleanza col Nemico | La Vittoria di Pirro | I Rinforzi |
-#   Il Piano Perfetto del Villain | Il Patto col Diavolo |
-#   La Soglia di Godzilla | Lo Stallo | Il Branco di Disadattati |
-#   Il Luogo Impossibile | Il Pesce fuor d'Acqua |
-#   La Crisi di Successione | La Masquerade | Il Compito Impossibile |
-#   L'Arena* | Il Mondo Capovolto | La Zona Proibita | La Pestilenza |
-#   Il Loop Temporale | L'Identità Scambiata* | Il Salvataggio Impossibile* |
-#   La Maledizione | La Festa Interrotta* | L'Apocalisse in Corso* |
-#   Il Tesoro Maledetto* | La Separazione del Gruppo |
-#   Il Dilemma del Prigioniero | La Casa Distrutta | Il Ritorno Sbagliato |
-#   La Corte Decadente | Il Registro dell'Apocalisse | La Prova Segreta |
-#   Il Cavallo di Troia | Il Nemico Interiore |
-#   La Minaccia Esterna Incomprensibile | L'Arma Perduta* |
-#   Il Rito di Passaggio | Il Segreto Inconfessabile |
-#   La Pedina Inconsapevole | Il Sacrificio Volontario |
-#   La Lealtà Divisa | La Morale Grigia | La Truffa* |
-#   La Guerra | La Colonia Perduta |
-#   Il Mostro è una Persona | La Grazia o il Colpo di Grazia |
-#   Il Potere ha un Prezzo | Il Labirinto | Il Lieto Fine Guadagnato |
-#   Il Falso Rifugio | La Scelta Retroattiva |
-#   La Profezia Autoavverante | La Frase Bomba |
-#   Il Prezzo della Vittoria | L'Informazione che Nessuno Vuole |
-#   Il Conto alla Rovescia Pubblico | La Paranoia Indotta
-#
-# PERSONAGGI (29):
-#   L'Eletto | Il Signore Oscuro | Il Mentore | L'Eroe Riluttante |
-#   Il Trickster | Il Companion Fedele | Il Mutaforma | La Talpa* |
-#   Il Buon Diavolo | Il Dio Indifferente | Il Luogotenente |
-#   L'Anti-Villain | Il Benefattore Misterioso | Il Redento |
-#   Il Corruttore | Il Guardiano della Soglia | Il Collezionista |
-#   L'Informatore | Il Veterano Spezzato* | L'Innocente |
-#   La Carta Selvaggia | L'Ultimo della Sua Specie |
-#   La Pedina del Destino* | Il Ladro Gentiluomo |
-#   Il Servitore Enigmatico | Il Sopravvissuto |
-#   Il Profeta Ignorato | Il Guardiano del Sapere | Il Mercante Ambiguo
-#
-# RELAZIONI (16):
-#   L'Alleanza Oscillante | La Nemesi | Il Nemico Onorevole |
-#   Lo Specchio | L'Alleato Scomodo | L'Amico Velenoso |
-#   Il Debito di Vita | La Rivalità Amichevole* | Il Debito d'Onore |
-#   Il Protetto Riluttante | Il Piedistallo Spezzato | Il Rivale Caduto |
-#   Il Maestro e l'Allievo (Opposti) | L'Eredità Pesante |
-#   Il Nemico Creato | Il Nemico del Mio Nemico* |
-#   Il Rivale Rispettoso che Diventa Alleato* | L'Alleato Inaspettato
-#
-# TECNICHE (37):
-#   Il Legame | Il Fucile di Čechov | La Regola dei Tre Indizi |
-#   Il Presagio | L'Ironia Drammatica | In Medias Res | Il Contatore |
-#   La Pseudo-Scelta | L'Incontro Filler | La Promozione |
-#   Il Piano Non Detto | Il Figurante di Čechov* | Plot Concatenati |
-#   L'Assegnazione del Ruolo | Il Narratore Inaffidabile |
-#   L'Orologio del Villain* | L'Operazione Sotto Falsa Bandiera |
-#   L'Ora più Buia | Il Barlume di Speranza* | La Pausa |
-#   Il Deus Ex Machina (anti-pattern) | Il Pacing |
-#   Il Dilemma del Tram (Conseguenze Visibili) |
-#   Bella Idea | Il Cambio di Genere | Il Lampshading |
-#   La Trattativa con il Mostro | La Terza Via |
-#   La Ritirata Strategica | Il Debriefing |
-#   La Separazione del Gruppo | Il Danno Statico |
-#   I Segreti Flottanti | Le Location Fantastiche |
-#   La Campagna a Spirale | I Dial del Mostro | Stars and Wishes
-#
-# * = sottocaso di un altro stereotipo (vedi campo sottocaso_di)
-# ============================================================
+# INDICE: vedi narrative-stereotypes-index.md (228 voci)
 
 stereotipi:
-
-  # ============================================================
-  # PLOT (strutture narrative complete)
-  # ============================================================
 
   - tipo: plot
     nome: Sconfiggere il Mostro
@@ -258,10 +185,6 @@ stereotipi:
     usato_in: []
     vedi_anche: [Tragedia]
 
-  # ============================================================
-  # SITUAZIONI (eventi/dispositivi narrativi)
-  # ============================================================
-
   - tipo: situazione
     nome: Il Colpo di Scena (La Rivelazione)
     nome_en: The Reveal / Plot Twist
@@ -294,6 +217,7 @@ stereotipi:
       non sorpresi. La differenza tra un buon twist e un cattivo twist: a
       posteriori gli indizi erano lì.
     usato_in: []
+    puo_aver_bisogno_di: [Il Legame]
     vedi_anche: [L'Agnizione, Il Falso Antagonista, Il Tradimento dell'Alleato, La Talpa]
 
   - tipo: situazione
@@ -370,6 +294,7 @@ stereotipi:
       2-3 sessioni. Il tradimento deve avere una motivazione comprensibile
       (non gratuita). Lasciare indizi sottili che a posteriori si riconoscono.
     usato_in: [La Cerca, Sconfiggere il Mostro]
+    puo_aver_bisogno_di: [Il Legame (affezione)]
     vedi_anche: [Il Colpo di Scena, Il Companion Fedele, La Talpa]
 
   - tipo: situazione
@@ -484,7 +409,7 @@ stereotipi:
   - tipo: situazione
     nome: Il Mistero / Whodunit
     nome_en: The Mystery / Whodunit
-    nomi_alt: [L'Indagine, Murder Mystery, Giallo, Detective Story, Chi è stato?]
+    nomi_alt: [L'Indagine, Murder Mystery, Giallo, Detective Story, "Chi è stato?"]
     descrizione: >
       Qualcosa è successo, i protagonisti devono scoprire cosa e chi.
       Indizi, sospetti, false piste. La soluzione è logica ma non ovvia.
@@ -567,10 +492,6 @@ stereotipi:
       fare e cosa saltare. Non tutto è risolvibile nel tempo dato.
     usato_in: [Sconfiggere il Mostro, La Cerca, L'Assedio]
     vedi_anche: [L'Assedio, Il Male Sigillato]
-
-  # ============================================================
-  # PERSONAGGI (archetipi)
-  # ============================================================
 
   - tipo: personaggio
     nome: L'Eletto (Il Predestinato)
@@ -874,40 +795,88 @@ stereotipi:
     usato_in: [Sconfiggere il Mostro, La Cerca, Tragedia]
     vedi_anche: [La Corsa Contro il Tempo, Il Tradimento dell'Alleato]
 
-  # ============================================================
-  # TECNICHE (principi di costruzione narrativa)
-  # ============================================================
+  - tipo: tecnica
+    nome: Il Legame (Costruzione dell'Investimento Emotivo)
+    nome_en: Emotional Investment / Player Buy-In / Make Them Care
+    nomi_alt: [Player Buy-In, Attachment, La Connessione Emotiva, Make Them Care, Emotional Stakes]
+    descrizione: >
+      Il principio fondamentale di tutta la narrazione emotiva: affinché un
+      evento (perdita, tradimento, scelta, vittoria) colpisca i giocatori,
+      prima devono TENERE a ciò che è in gioco. L'investimento emotivo va
+      costruito nel tempo — non basta dichiarare "questo è importante". Si
+      applica a qualsiasi bersaglio: persone (NPC, companion), oggetti (la
+      spada del padre, l'artefatto guadagnato con fatica), luoghi (il villaggio,
+      la taverna, la gilda), cause astratte (la ribellione, la promessa, l'onore
+      del clan). Il Legame è il prerequisito di quasi tutti gli altri dispositivi
+      emotivi. Senza investimento → nessun impatto.
+    esempi:
+      - "Grogu — The Mandalorian (3 episodi di interazioni tenere → ogni pericolo colpisce)"
+      - "La Contea — Il Signore degli Anelli (luogo costruito con amore → la sua minaccia è devastante)"
+      - "Wilson il pallone — Cast Away (un OGGETTO a cui ci si affeziona davvero)"
+      - "Hogwarts — Harry Potter (luogo-casa → la Battaglia di Hogwarts ha peso emotivo)"
+      - "La spada Narsil/Andúril — Il Signore degli Anelli (oggetto con storia = investimento)"
+      - "Aerith — Final Fantasy VII (companion utile e amata → morte shock)"
+      - "La causa dei ribelli — Star Wars (costruita per un film intero → il sacrificio di Rogue One colpisce)"
+      - "Dobby — Harry Potter (buffo e leale per libri interi → la sua morte devasta)"
+    uso_dnd: >
+      Per qualsiasi cosa che dovrà essere in pericolo, persa, o al centro di
+      una scelta: investire tempo PRIMA perché i giocatori ci tengano.
+      Tecniche per PERSONE: l'NPC salva un PG, fa ridere il tavolo, ha un
+      tratto umano memorabile, offre qualcosa senza chiedere.
+      Tecniche per OGGETTI: l'oggetto ha una storia (apparteneva a qualcuno),
+      è stato guadagnato con fatica, ha un nome, ha salvato i PG in un momento
+      critico.
+      Tecniche per LUOGHI: i PG ci hanno passato tempo, ci hanno legami sociali,
+      ci hanno investito risorse (La Gestione del Territorio), ci tornano tra
+      le missioni.
+      Tecniche per CAUSE: mostrare le conseguenze concrete (le persone che
+      soffrono), dare un volto alla causa (un NPC che la incarna), far
+      scegliere ai PG di aderire (non imporla).
+      Solo DOPO aver costruito il legame, usare il dispositivo emotivo.
+    rischio: >
+      Se il DM mette in pericolo qualcosa prima che i giocatori ci tengano,
+      l'impatto è zero. Se distrugge troppo spesso ciò che i giocatori amano,
+      smettono di investire. Equilibrio: costruire con pazienza, minacciare
+      con parsimonia, perdere raramente.
+    usato_in: [Spalle al Muro, Il Tradimento dell'Alleato, Il Colpo di Scena, Rinascita]
+    vedi_anche: [Il Companion Fedele, Spalle al Muro, Il Tradimento dell'Alleato, La Costruzione dell'Odio, La Resa dei Conti]
 
   - tipo: tecnica
-    nome: Il Legame (Costruzione dell'Affezione)
-    nome_en: Emotional Investment / Player Punch Setup
-    nomi_alt: [Player Buy-In, Attachment, La Connessione Emotiva, Make Them Care]
+    nome: La Costruzione dell'Odio (Il Villain Odiabile)
+    nome_en: Hate Sink / Villain Build-Up / Make Them Hate
+    nomi_alt: [Hate Sink, Villain Build-Up, Make Them Hate, Il Villain Odiabile, Kick the Dog]
     descrizione: >
-      Non è un evento ma una tecnica di preparazione: affinché le scelte difficili,
-      i tradimenti e le morti funzionino emotivamente, i PG devono prima tenere a
-      qualcosa o a qualcuno. L'affezione va costruita durante l'avventura con tempo,
-      interazioni positive, utilità concreta e umanità del personaggio/oggetto/luogo.
-      Senza questo lavoro preparatorio, i colpi di scena emotivi cadono nel vuoto.
+      Lo specchio negativo del Legame applicato ai personaggi: affinché
+      sconfiggere il villain sia
+      soddisfacente, i giocatori devono ODIARLO prima. L'odio va costruito
+      durante l'avventura con atti ripetuti di crudeltà, ingiustizia, e
+      offese personali ai PG. Non basta dire "è cattivo" — il villain deve
+      fare cose orribili ON SCREEN, a persone/cose a cui i PG tengono (costruite
+      col Legame), e farla franca ripetutamente. Ogni volta che sfugge, l'odio
+      cresce. Solo quando l'odio è al culmine, la Resa dei Conti è catartica.
     esempi:
-      - "Grogu — The Mandalorian (3 episodi di interazioni tenere prima del primo pericolo reale)"
-      - "Dobby — Harry Potter (servile e buffo per libri interi → la sua morte colpisce)"
-      - "Boromir — Il Signore degli Anelli (costruisce fiducia col party → il tradimento/redenzione ha peso)"
-      - "Hodor — Game of Thrones (personaggio amato per stagioni → la rivelazione devasta)"
-      - "Aerith — Final Fantasy VII (companion utile e amata → morte shock)"
-      - "Wilson — Cast Away (un pallone a cui ci si affeziona davvero)"
+      - "Joffrey Baratheon — Game of Thrones (orribile per 4 stagioni → la sua morte è una festa)"
+      - "Dolores Umbridge — Harry Potter (più odiata di Voldemort perché fa cose piccole e crudeli)"
+      - "Micah Bell — Red Dead Redemption 2 (traditore costruito per tutto il gioco)"
+      - "Ramsey Bolton — Game of Thrones (crudeltà gratuita e ripetuta)"
+      - "Dio Brando — JoJo (uccide il cane nel primo episodio — 'kick the dog' letterale)"
+      - "Il Conte di Montecristo — Dumas (i traditori prosperano per anni prima della vendetta)"
     uso_dnd: >
-      Per ogni NPC che dovrà morire, tradire o essere al centro di una scelta
-      impossibile: investire almeno 2-3 sessioni in cui è utile, simpatico, e
-      presente. Tecniche: l'NPC salva un PG, fa ridere il tavolo, ha un tratto
-      umano memorabile (sogno, tic, debolezza), offre qualcosa senza chiedere
-      niente. Solo DOPO aver costruito il legame, usare il dispositivo emotivo
-      (morte, tradimento, rapimento). Senza setup, nessun payoff.
+      Tecniche per costruire l'odio: (1) Kick the Dog — il villain fa qualcosa
+      di gratuito e crudele alla prima apparizione (uccide un animale, umilia
+      un debole); (2) Tocca ciò che ami — distrugge/danneggia qualcosa costruito
+      col Legame (il village, l'NPC amato, la base); (3) Sfugge alla giustizia
+      — i PG lo affrontano presto e PERDONO, o non possono toccarlo (immunità,
+      potere, fuga); (4) È personale — insulta i PG, li umilia pubblicamente,
+      li usa. Ogni modulo aggiunge un motivo. La Resa dei Conti è il payoff.
     rischio: >
-      Se il DM "protegge" troppo gli NPC amati, il mondo sembra privo di
-      conseguenze. Se li uccide troppo spesso, i giocatori smettono di
-      affezionarsi. Equilibrio: 1 NPC amato in pericolo per arco, non tutti.
-    usato_in: [Spalle al Muro, Il Tradimento dell'Alleato, Il Colpo di Scena, Rinascita]
-    vedi_anche: [Il Companion Fedele, Spalle al Muro, Il Tradimento dell'Alleato]
+      Se il villain è odioso ma incompetente, diventa comico. Se è solo
+      potente ma non personalmente crudele, i PG lo rispettano invece di
+      odiarlo. L'odio richiede CRUDELTÀ PERSONALE + IMPUNITÀ. Se il villain
+      viene ucciso troppo presto (i PG forzano lo scontro), non c'è buildup.
+      Proteggerlo narrativamente (fuga, sottoposti, distanza) fino al climax.
+    usato_in: [Sconfiggere il Mostro, La Vendetta, La Resa dei Conti]
+    vedi_anche: [Il Legame, La Resa dei Conti, Il Signore Oscuro, L'Ora più Buia, La Nemesi]
 
   - tipo: tecnica
     nome: Il Fucile di Čechov
@@ -1090,38 +1059,6 @@ stereotipi:
     usato_in: [La Corsa Contro il Tempo, L'Assedio, Il Male Sigillato, Sconfiggere il Mostro]
     vedi_anche: [La Corsa Contro il Tempo, Il Male Sigillato, Spalle al Muro]
 
-
-  - tipo: tecnica
-    nome: La Pseudo-Scelta (Il Mostro di Schrödinger)
-    nome_en: Quantum Ogre / Illusory Choice
-    nomi_alt: [Quantum Ogre, Illusione della Scelta, Falsa Libertà, Railroad Mascherato]
-    descrizione: >
-      Per semplicità di preparazione, il DM fa accadere lo stesso evento
-      indipendentemente dalla scelta dei giocatori. I PG scelgono destra o
-      sinistra, ma il mostro è in entrambe le direzioni — l'incontro era
-      predeterminato, solo il vestito cambia. Le due strade possono apparire
-      completamente diverse (una è una foresta, l'altra una grotta) ma il
-      contenuto meccanico/narrativo è lo stesso. È un'illusione di agency.
-    esempi:
-      - "Quantum Ogre — termine della community D&D/OSR"
-      - "Videogiochi lineari — scelte di dialogo che portano allo stesso cutscene"
-      - "Bioware false choices — alcune scelte in Mass Effect cambiano solo la scena, non l'esito"
-      - "Moduli D&D lineari pubblicati — il percorso è unico mascherato da opzioni"
-    uso_dnd: >
-      Usare quando il DM ha poco tempo di preparazione e vuole garantire che un
-      incontro chiave avvenga. Tecniche per mascherarlo: (1) le due strade hanno
-      flavour diverso (mostro diverso, ambientazione diversa, stesso CR e funzione
-      narrativa); (2) l'incontro è narrativamente inevitabile (il villain insegue
-      i PG, non importa dove vanno); (3) usarlo solo per incontri non-critici,
-      mai per scelte morali o narrative importanti.
-    rischio: >
-      Se i giocatori se ne accorgono, la fiducia nel DM crolla. Regola d'oro:
-      le scelte che SEMBRANO importanti DEVONO essere importanti. Usare solo dove
-      i PG non stanno investendo emotivamente nella decisione. Mai su bivi
-      narrativi espliciti, mai dopo una deliberazione del gruppo.
-    usato_in: []
-    vedi_anche: [Spalle al Muro]
-
   - tipo: tecnica
     nome: L'Incontro Filler (Random Monster)
     nome_en: Random Encounter / Filler Combat
@@ -1156,41 +1093,6 @@ stereotipi:
       scappano da qualcosa di più grosso).
     usato_in: [La Cerca, Sconfiggere il Mostro]
     vedi_anche: [Il Fucile di Čechov, La Corsa Contro il Tempo]
-
-
-  - tipo: tecnica
-    nome: La Promozione (Upgrade del Figurante)
-    nome_en: Ascended Extra / NPC Promotion
-    nomi_alt: [Ascended Extra, NPC Upgrade, From Extra to Hero, Breakout Character]
-    descrizione: >
-      Se i giocatori si affezionano spontaneamente a un NPC/mostro minore (un
-      goblin risparmiato, il taverniere con la battuta giusta, il lupo che li
-      seguiva), il DM può "promuoverlo" a personaggio ricorrente con un ruolo
-      nella trama. Il figurante ottiene nome, motivazione, backstory e rilevanza
-      narrativa a posteriori. È una tecnica reattiva: il DM ascolta i giocatori
-      e costruisce sopra il loro entusiasmo. Il mondo sembra vivo perché risponde
-      all'attenzione dei PG.
-    esempi:
-      - "Boblin the Goblin — meme D&D (goblin risparmiato che diventa companion fisso)"
-      - "Daryl Dixon — The Walking Dead (personaggio secondario promosso a protagonista per popolarità)"
-      - "Boba Fett — Star Wars (3 minuti di screen time → serie propria)"
-      - "Neville Longbottom — Harry Potter (da figurante a eroe del libro 7)"
-      - "Phil Coulson — MCU (agente di sfondo → protagonista di Agents of SHIELD)"
-    uso_dnd: >
-      Quando i PG interagiscono ripetutamente con un NPC non previsto o
-      risparmiano un nemico: dargli un nome (se non l'aveva), una motivazione,
-      e farlo riapparire nel modulo successivo con un ruolo. Può diventare:
-      informatore, companion, quest giver, o nemico ricorrente (se lo avevano
-      umiliato). È gratis — non richiede preparazione, solo attenzione a cosa
-      entusiasma il tavolo. Complementare all'Incontro Filler: il filler genera
-      figuranti, questa tecnica ne eleva i migliori.
-    rischio: >
-      Non forzare la promozione se l'interesse dei giocatori era momentaneo.
-      Se l'NPC torna e i giocatori non lo ricordano, cade nel vuoto. Regola:
-      promuovere solo NPC che i giocatori nominano spontaneamente tra le sessioni.
-    usato_in: [Il Legame, L'Incontro Filler]
-    vedi_anche: [L'Incontro Filler, Il Legame, Il Companion Fedele]
-
 
   - tipo: situazione
     nome: Il Falso Finale
@@ -1286,6 +1188,7 @@ stereotipi:
       campagna, mai come pattern costante. Dopo una vittoria di Pirro, far seguire
       una vittoria pulita per compensare.
     usato_in: [Sconfiggere il Mostro, Tragedia, L'Assedio]
+    puo_aver_bisogno_di: [Il Legame]
     vedi_anche: [Spalle al Muro, Il Contatore, Il Legame]
 
   - tipo: situazione
@@ -1564,6 +1467,7 @@ stereotipi:
       complicazioni: il villain ha una famiglia, il torto iniziale era un
       malinteso, qualcun altro soffre per la caccia dei PG.
     usato_in: []
+    puo_aver_bisogno_di: [La Costruzione dell'Odio]
     vedi_anche: [Tragedia, Spalle al Muro, Il Legame]
 
   - tipo: plot
@@ -1715,10 +1619,6 @@ stereotipi:
     usato_in: [Viaggio e Ritorno, Commedia degli Errori]
     vedi_anche: [Il Branco di Disadattati, Commedia degli Errori]
 
-
-  # ============================================================
-  # RELAZIONI (pattern dinamici tra personaggi)
-  # ============================================================
 
   - tipo: relazione
     nome: La Nemesi
@@ -2448,6 +2348,7 @@ stereotipi:
       assalto finale. La complicazione: il tiranno caduto crea un vuoto di potere
       (Crisi di Successione). O i ribelli non sono migliori del tiranno.
     usato_in: []
+    puo_aver_bisogno_di: [Il Legame (ideale)]
     vedi_anche: [La Crisi di Successione, L'Assedio, Sconfiggere il Mostro]
 
   - tipo: plot
@@ -2697,6 +2598,7 @@ stereotipi:
       metà dell'avventura è liberarsene o imparare a controllarlo. Lega bene
       con Il Contatore (ogni uso aggiunge corruzione) e La Tentazione.
     usato_in: [La Cerca, La Tentazione, Sconfiggere il Mostro]
+    puo_aver_bisogno_di: [Il Legame (oggetto)]
     vedi_anche: [La Tentazione, Il Contatore, La Maledizione, Il MacGuffin]
 
   - tipo: relazione
@@ -2720,6 +2622,7 @@ stereotipi:
       una data. La promessa non può essere spezzata senza conseguenze (sociali,
       divine, o magiche). Crea tensione costante con decisioni significative.
     usato_in: [Spalle al Muro, La Cerca, La Vendetta]
+    puo_aver_bisogno_di: [Il Legame (ideale)]
     vedi_anche: [Spalle al Muro, Il Patto col Diavolo, Il Debito di Vita]
 
   - tipo: tecnica
@@ -2795,6 +2698,7 @@ stereotipi:
       emotiva immediata (vendetta + sopravvivenza) senza bisogno di un quest giver.
       Può essere il primo evento dell'avventura o un colpo di scena a metà.
     usato_in: [Sconfiggere il Mostro, La Vendetta, Il Viaggio dell'Esilio]
+    puo_aver_bisogno_di: [Il Legame (luogo)]
     vedi_anche: [La Vendetta, In Medias Res, Il Legame, La Festa Interrotta]
 
   - tipo: situazione
@@ -3113,6 +3017,81 @@ stereotipi:
     usato_in: [La Cerca, Sconfiggere il Mostro]
     vedi_anche: [Il MacGuffin, Il Tesoro Maledetto, La Soglia di Godzilla, Spalle al Muro]
 
+  - tipo: situazione
+    nome: La Pergamena (Il Portatore di Informazioni)
+    nome_en: The Clue Object / Plot Coupon / Information MacGuffin
+    nomi_alt: [Plot Coupon, Il Documento Chiave, Information MacGuffin, La Mappa del Tesoro, Il Diario]
+    descrizione: >
+      Un oggetto il cui valore non è nel possesso ma nell'INFORMAZIONE che
+      contiene. La mappa, il diario, la lettera cifrata, l'iscrizione, il
+      codice, il frammento di profezia. Trovarlo non risolve la quest — la
+      fa avanzare di un passo. È il veicolo diegetico per dare informazioni
+      ai PG senza ricorrere a esposizione diretta. A differenza del MacGuffin
+      (tutti lo vogliono, non importa cosa sia), la Pergamena ha valore
+      specifico e il suo contenuto CONTA — i PG devono decifrarlo, interpretarlo,
+      seguirlo.
+    esempi:
+      - "La mappa di Thorin — Lo Hobbit (mostra la porta segreta)"
+      - "Il diario di Tom Riddle — Harry Potter (rivela il passato e porta nel ricordo)"
+      - "I piani della Morte Nera — Star Wars (sono l'informazione, non il MacGuffin)"
+      - "La Mappa del Malandrino — Harry Potter (oggetto-informazione ricorrente)"
+      - "Il Necronomicon — Lovecraft (il libro che contiene la verità proibita)"
+      - "Il codice Da Vinci — Dan Brown (ogni indizio porta al prossimo)"
+      - "I terminali di Fallout — videogioco (frammenti di storia da ricostruire)"
+    uso_dnd: >
+      I PG trovano un oggetto-informazione che li indirizza verso il passo
+      successivo: mappa che rivela l'ingresso segreto, diario che spiega come
+      sconfiggere il mostro, lettera che svela l'identità del traditore,
+      formula per chiudere il portale. Usi: (1) come ricompensa di un modulo
+      — non oro ma informazione; (2) come innesco — trovare la pergamena È
+      la quest del modulo; (3) frammentata — servono 3 frammenti, ogni modulo
+      ne trova uno. Il contenuto può essere cifrato (richiede decodifica),
+      incompleto (richiede ricerca), o ambiguo (richiede interpretazione).
+    rischio: >
+      Se l'informazione è troppo chiara, non c'è gioco. Se è troppo criptica,
+      i PG si bloccano. Dare sempre almeno 2 livelli: il significato ovvio
+      (direziona) + il significato profondo (richiede un tiro o una connessione).
+      Se i PG hanno la Pergamena ma non sanno cosa farne, servono NPC-decodificatori.
+    usato_in: [Il Mistero, La Cerca, L'Indagine sulla Cospirazione]
+    vedi_anche: [Il MacGuffin, Il Flashback, La Rivelazione Ambientale, Il Registro dell'Apocalisse, Il Fucile di Čechov]
+
+  - tipo: situazione
+    nome: L'Artefatto (L'Oggetto Chiave)
+    nome_en: The Key Item / Quest Object / Amulet of Yendor
+    nomi_alt: [Quest Item, Key Item, Amulet of Yendor, L'Oggetto della Vittoria, Plot Device Object]
+    descrizione: >
+      L'oggetto concreto necessario per completare la quest — non un pretesto
+      (MacGuffin) ma uno strumento FUNZIONALE. Senza di esso la vittoria è
+      impossibile: è la chiave che apre la porta, l'arma che uccide il
+      demone, il sigillo che chiude il portale, l'antidoto che salva il re.
+      A differenza del MacGuffin (potrebbe essere qualsiasi cosa), l'Artefatto
+      è specifico e la sua natura conta. A differenza dell'Arma Perduta
+      (artefatto di potere distruttivo), può essere qualsiasi oggetto la cui
+      funzione è risolvere il problema centrale.
+    esempi:
+      - "L'Amulet of Yendor — Rogue/NetHack (l'oggetto che completa il gioco)"
+      - "Le chiavi del tempio — Zelda (servono per aprire il dungeon finale)"
+      - "La spada vorpal — D&D (l'unica arma che taglia la testa dell'idra)"
+      - "L'antidoto — qualsiasi quest medica (senza di esso il re muore)"
+      - "Il Santo Graal — Indiana Jones (cura le ferite, è l'obiettivo E la soluzione)"
+      - "La pietra filosofale — Harry Potter (Voldemort la vuole per tornare)"
+      - "Il flauto magico — Mozart/fiabe (lo strumento che risolve)"
+    uso_dnd: >
+      Struttura classica: modulo 1 = scoprire che l'Artefatto esiste e serve;
+      modulo 2 = trovare dove si trova; modulo 3 = raggiungerlo e ottenerlo;
+      modulo 4 = usarlo nel confronto finale. L'Artefatto deve avere: (1) una
+      ragione per cui è difficile da ottenere (custodito, perduto, in pezzi);
+      (2) una condizione d'uso (solo il puro, solo al solstizio, solo nel
+      luogo X); (3) opzionalmente un costo (si consuma, richiede un
+      sacrificio, ha effetti collaterali). Senza condizioni, è troppo facile.
+    rischio: >
+      Se l'Artefatto è l'unica soluzione possibile, i PG sono su un binario.
+      Dare almeno un'alternativa (meno efficace ma possibile) per chi non
+      trova l'oggetto o sceglie di non usarlo. Se l'Artefatto è ottenuto
+      troppo presto, la tensione crolla — proteggerlo con quest progressive.
+    usato_in: [La Cerca, Sconfiggere il Mostro, La Corsa Contro il Tempo]
+    vedi_anche: [Il MacGuffin, L'Arma Perduta, L'Anello al Dito, Il Tesoro Maledetto, La Pergamena]
+
   - tipo: tecnica
     nome: L'Operazione Sotto Falsa Bandiera
     nome_en: False Flag Operation
@@ -3264,6 +3243,7 @@ stereotipi:
       non in-character). Dare un segnale chiaro che "non è finita": un indizio,
       un NPC che sussurra "c'è ancora una possibilità", una risorsa nascosta.
     usato_in: [Sconfiggere il Mostro, La Cerca, L'Assedio]
+    puo_aver_bisogno_di: [Il Legame (affezione), Il Legame (luogo)]
     vedi_anche: [I Rinforzi, La Vittoria di Pirro, Il Colpo di Scena, Il Legame]
 
   - tipo: tecnica
@@ -3370,6 +3350,7 @@ stereotipi:
       aver commesso un errore in passato (Il Segreto Inconfessabile). La reazione
       dei PG definisce la loro maturità: perdonare, condannare, o superare.
     usato_in: [Il Colpo di Scena, La Crisi di Successione, Il Mistero]
+    puo_aver_bisogno_di: [Il Legame (affezione)]
     vedi_anche: [Il Mentore, Il Segreto Inconfessabile, Il Colpo di Scena, L'Alleanza Oscillante]
 
   - tipo: personaggio
@@ -3482,6 +3463,7 @@ stereotipi:
       Se ogni NPC amato muore in modo sacrificale, diventa prevedibile. Il
       sacrificio funziona perché è RARO. Max 1 per campagna.
     usato_in: [Sconfiggere il Mostro, L'Ora più Buia, L'Assedio]
+    puo_aver_bisogno_di: [Il Legame (affezione)]
     vedi_anche: [Il Legame, L'Ora più Buia, La Vittoria di Pirro, Spalle al Muro]
 
 
@@ -3509,6 +3491,7 @@ stereotipi:
       (consenso del giocatore) ha un doppio obbligo nel background che il DM
       attiva al momento giusto.
     usato_in: [Spalle al Muro, Il Tradimento dell'Alleato, La Crisi di Successione]
+    puo_aver_bisogno_di: [Il Legame (ideale)]
     vedi_anche: [Spalle al Muro, Il Tradimento dell'Alleato, Il Debito d'Onore, L'Alleato Scomodo]
 
   - tipo: personaggio
@@ -3994,6 +3977,7 @@ stereotipi:
       li ha denunciati, il re ha scoperto la bugia. I PG non possono prevedere
       quali scelte torneranno — tutte sono potenzialmente importanti.
     usato_in: [Il Contatore, Il Dilemma del Tram, La Morale Grigia]
+    puo_aver_bisogno_di: [Il Fucile di Čechov]
     vedi_anche: [Il Contatore, Il Fucile di Čechov, Il Dilemma del Tram, L'Orologio del Villain]
 
   - tipo: situazione
@@ -4129,6 +4113,7 @@ stereotipi:
       cerca un'altra via? Il momento di decisione È il climax emotivo, più della
       battaglia che segue.
     usato_in: [Sconfiggere il Mostro, L'Ora più Buia, Il Sacrificio Volontario]
+    puo_aver_bisogno_di: [Il Legame]
     vedi_anche: [Il Sacrificio Volontario, Spalle al Muro, La Vittoria di Pirro, L'Ora più Buia]
 
   - tipo: personaggio
@@ -4232,6 +4217,7 @@ stereotipi:
       Se è una saga: seminare il gancio per la prossima avventura. Il debriefing
       è dove le scelte dei PG diventano PERMANENTI nel mondo.
     usato_in: [Sconfiggere il Mostro, La Cerca, La Vendetta]
+    puo_aver_bisogno_di: [La Resa dei Conti]
     vedi_anche: [Il Lieto Fine Guadagnato, La Vittoria di Pirro, Il Dilemma del Tram, La Pausa]
 
   - tipo: situazione
@@ -4258,40 +4244,6 @@ stereotipi:
       tattica). Il nemico torna come boss finale quando i PG sono pronti.
     usato_in: [Sconfiggere il Mostro, L'Ora più Buia, La Cerca]
     vedi_anche: [L'Ora più Buia, In Medias Res, Il Pacing]
-
-
-  - tipo: tecnica
-    nome: Bella Idea (L'Ipotesi Adottata)
-    nome_en: Steal from Your Players / Player-Sourced Plot
-    nomi_alt: [Steal from Players, L'Idea Rubata, Player-Driven Plot, Collaborative Worldbuilding]
-    descrizione: >
-      I giocatori discutono tra loro e formulano un'ipotesi su cosa sta succedendo
-      ("secondo me il taverniere è il killer", "scommetto che il dungeon è sotto
-      il tempio"). Se l'ipotesi è più interessante di ciò che il DM aveva
-      preparato, il DM la adotta silenziosamente come verità. I giocatori si
-      sentono brillanti perché "avevano ragione" — in realtà hanno scritto la
-      storia senza saperlo. È improvvisazione collaborativa mascherata.
-    esempi:
-      - "Qualsiasi tavolo D&D dove il DM dice 'sì, era esattamente quello' (mentendo)"
-      - "Il Lazy DM (Sly Flourish) lo raccomanda esplicitamente come tecnica"
-      - "Qualsiasi serie TV che adatta la trama in base alle teorie dei fan"
-      - "Improv comedy — 'yes, and...' applicato al GDR"
-      - "Powered by the Apocalypse — sistemi che lo codificano come meccanica (Ask the players)"
-    uso_dnd: >
-      Ascoltare SEMPRE le discussioni dei giocatori tra loro. Se dicono "e se il
-      re fosse in realtà un doppelganger?" e tu non avevi pensato a nulla di
-      simile ma è più figo del tuo piano: adottalo. Non ammettere mai di averlo
-      fatto — i giocatori devono credere di aver dedotto. Funziona perché: (1) i
-      giocatori si sentono intelligenti; (2) la storia diventa ciò che il tavolo
-      VUOLE; (3) il DM risparmia prep.
-    rischio: >
-      Non adottare ogni idea — solo quelle migliori del piano originale. Se i PG
-      dicono qualcosa di assurdo e il DM lo rende vero, il mondo perde coerenza.
-      Regola: l'ipotesi adottata deve essere coerente con gli indizi già forniti.
-      Se contraddice fatti stabiliti, non si può adottare.
-    usato_in: []
-    vedi_anche: [La Pseudo-Scelta, La Promozione, La Regola dei Tre Indizi, Il Narratore Inaffidabile]
-
 
   - tipo: tecnica
     nome: Il Cambio di Genere
@@ -4320,35 +4272,6 @@ stereotipi:
       (la porta del dungeon si chiude, il sole tramonta, il villain appare).
     usato_in: [La Cerca, Sconfiggere il Mostro]
     vedi_anche: [Il Pacing, La Pausa, L'Ora più Buia, Il Luogo Impossibile]
-
-  - tipo: tecnica
-    nome: Il Lampshading (Ammettere il Tropo)
-    nome_en: Lampshade Hanging
-    nomi_alt: [Lampshading, Meta-Commento, Hanging a Lampshade, Breaking the Fourth Wall lite]
-    descrizione: >
-      Riconoscere apertamente un cliché o una situazione assurda nel gioco
-      anziché ignorarla. Un NPC dice "sì, lo so, è sospetto che vi abbia
-      chiesto di andare proprio nella grotta maledetta" — e questo disinnesca
-      l'incredulità del tavolo. Non elimina il tropo, lo rende accettabile
-      ammettendolo.
-    esempi:
-      - "'Perché non usiamo le aquile?' — parodie del Signore degli Anelli"
-      - "'Dividiamoci!' 'Cattiva idea, ma ok.' — qualsiasi horror consapevole"
-      - "Deadpool — l'intero personaggio è un lampshade ambulante"
-      - "Scream — film (i personaggi conoscono le regole dell'horror)"
-      - "The Princess Bride — 'Inconceivable!' 'You keep using that word...'"
-    uso_dnd: >
-      Quando una situazione è troppo da cliché (il taverniere misterioso,
-      la damigella in pericolo, il dungeon sotto la taverna), far commentare
-      un NPC o un PG. "Sì, so cosa state pensando. Ma questa volta è vero."
-      Disinnesca il cinismo dei giocatori e permette di usare tropi classici
-      senza vergogna. Usare con parsimonia — se tutto è meta, nulla è serio.
-    rischio: >
-      Troppo lampshading rompe la quarta parete e il tono. Usare solo per
-      i cliché più ovvi, 1-2 volte per avventura, mai nei momenti emotivi.
-    usato_in: [Commedia degli Errori, La Finta Minaccia]
-    vedi_anche: [La Finta Minaccia, Bella Idea, Il Pacing]
-
   - tipo: situazione
     nome: La Trattativa con il Mostro
     nome_en: Talking the Monster Down / Diplomacy with the Dragon
@@ -4431,6 +4354,241 @@ stereotipi:
     usato_in: [La Cerca, L'Infiltrazione, Commedia degli Errori]
     vedi_anche: [L'Informatore, Il Trickster, Il Ladro Gentiluomo]
 
+  - tipo: personaggio
+    nome: Il Fanatico (Il Crociato Cieco)
+    nome_en: The Zealot / True Believer / Fanatic
+    nomi_alt: [The Zealot, True Believer, Il Crociato, Blind Fanatic, L'Estremista]
+    descrizione: >
+      Un personaggio devoto alla sua causa fino all'autodistruzione. Non è
+      malvagio nel senso classico — crede genuinamente di avere ragione, e
+      questa certezza assoluta lo rende pericoloso. Non negozia, non dubita,
+      non si ferma. Può essere un alleato terrificante o un nemico impossibile
+      da ragionare.
+    esempi:
+      - "Frollo — Il Gobbo di Notre-Dame (fanatico religioso convinto di servire Dio)"
+      - "Stannis Baratheon — Game of Thrones (brucia la figlia per il dovere)"
+      - "Thanos — MCU (certezza assoluta nella sua missione)"
+      - "I Flagellanti — storia medievale (fede attraverso l'autolesionismo)"
+      - "Colonel Kurtz — Apocalypse Now (la missione diventa ossessione)"
+      - "Daenerys S8 — Game of Thrones (la liberatrice diventa conquistatrice)"
+    uso_dnd: >
+      NPC alleato che porta avanti la missione con metodi inaccettabili. Oppure
+      nemico impossibile da negoziare: non vuole oro, non ha paura della morte,
+      non ascolta ragioni. L'unico modo per fermarlo è la forza O distruggere
+      la sua fede (mostrargli che la sua causa è basata su una menzogna). Se la
+      sua fede è legittima, diventa un dilemma morale.
+    rischio: >
+      Se è solo "pazzo religioso", è piatto. Dargli una ragione comprensibile:
+      ha visto qualcosa, ha perso qualcuno, ha ricevuto una visione vera. I PG
+      devono chiedersi "ha ragione lui?"
+    usato_in: [La Ribellione, Sconfiggere il Mostro, La Guerra]
+    vedi_anche: [L'Anti-Villain, Il Signore Oscuro, Il Corruttore, L'Alleato Scomodo]
+
+  - tipo: personaggio
+    nome: Il Falso Eroe (L'Impostore)
+    nome_en: False Hero / Glory Hound / The Fraud
+    nomi_alt: [False Hero, The Fraud, Il Millantatore, Glory Thief, L'Eroe di Cartapesta]
+    descrizione: >
+      Un personaggio che si prende il merito delle azioni altrui, che mente
+      sulle proprie imprese, o che ha una reputazione immeritata. In Propp è
+      il "falso eroe" che cerca di rubare il posto del vero protagonista. Può
+      essere un avversario (ruba la gloria ai PG) o un NPC da smascherare.
+    esempi:
+      - "Gilderoy Lockhart — Harry Potter (finge le imprese degli altri)"
+      - "Gaston — La Bella e la Bestia (eroe del villaggio, in realtà un bullo)"
+      - "Il falso eroe — Propp (tenta di sposare la principessa spacciandosi per l'eroe)"
+      - "Zapp Brannigan — Futurama (incompetente con reputazione di eroe)"
+      - "Captain Hammer — Dr. Horrible (eroe di facciata, egoista)"
+      - "Syndrome — Gli Incredibili (vuole essere un eroe senza esserlo)"
+    uso_dnd: >
+      Un NPC celebrato come eroe è in realtà un impostore. I PG scoprono la
+      verità — ma nessuno gli crede perché l'impostore è amato. Devono trovare
+      prove concrete. Oppure: l'impostore ruba il merito ai PG stessi (dopo
+      una quest, il nobile si prende il credito). Variante Propp: un rivale
+      cerca di arrivare prima al re per prendersi la ricompensa.
+    rischio: >
+      Se l'impostore è troppo ovviamente falso, non c'è tensione. Deve avere
+      carisma, fan, e una versione dei fatti credibile. Lo smascheramento deve
+      richiedere lavoro.
+    usato_in: [Commedia degli Errori, Il Mistero, La Rivalità]
+    vedi_anche: [Il Trickster, L'Identità Scambiata, Il Capro Espiatorio, La Nemesi]
+
+  - tipo: personaggio
+    nome: Il Tiranno Locale (Il Piccolo Re)
+    nome_en: The Petty Tyrant / Local Despot
+    nomi_alt: [Petty Tyrant, Il Signorotto, Small-Town Bully, Il Despota Locale, The Sheriff of Nottingham]
+    sottocaso_di: Il Signore Oscuro
+    descrizione: >
+      Un oppressore di scala ridotta — non un Dark Lord cosmico, ma un
+      borgomastro corrotto, un capogilda abusivo, un nobile che terrorizza il
+      suo feudo. Il suo potere è locale ma assoluto per chi ci vive sotto.
+      Più odiabile del villain epico perché più reale e quotidiano.
+    esempi:
+      - "Lo Sceriffo di Nottingham — Robin Hood (il tiranno locale per eccellenza)"
+      - "Dolores Umbridge — Harry Potter (tiranno burocratico più odiata di Voldemort)"
+      - "Joffrey Baratheon — Game of Thrones (potere assoluto, zero competenza)"
+      - "Negan — The Walking Dead (tiranno della comunità)"
+      - "Il Commissario Politico — qualsiasi film di guerra (potere burocratico crudele)"
+      - "Don Rodrigo — I Promessi Sposi (il signorotto che abusa del suo rango)"
+    uso_dnd: >
+      Il villain del modulo 1-2: non il BBEG finale, ma l'oppressore che i PG
+      incontrano prima. Rendere la sua rimozione soddisfacente: la gente
+      festeggia, le vittime ringraziano. Può essere collegato al villain
+      principale (un sottoposto) o indipendente (puro ostacolo locale). I PG
+      possono rimuoverlo con la forza, l'inganno, o smascherandolo davanti ai
+      suoi superiori.
+    rischio: >
+      Se è troppo potente per i PG (circondato da guardie), è frustrante. Se è
+      troppo debole, non è una minaccia. Deve essere potente nel suo contesto
+      ma vulnerabile alla creatività dei PG.
+    usato_in: [La Ribellione, Da Povero a Ricco, Commedia degli Errori]
+    vedi_anche: [Il Signore Oscuro, Il Luogotenente, La Corte Decadente, La Ribellione]
+
+  - tipo: personaggio
+    nome: La Voce della Ragione (Il Pragmatico)
+    nome_en: The Pragmatist / Voice of Reason / The Realist
+    nomi_alt: [Voice of Reason, Il Cinico, The Realist, Il Pragmatico, The Skeptic]
+    descrizione: >
+      Un NPC che offre il punto di vista razionale, cinico, e spesso scomodo.
+      Non è un nemico — è quello che dice la verità che nessuno vuole sentire.
+      "Non possiamo salvare tutti." "Il piano è folle." "Avete pensato alle
+      conseguenze?" Può avere ragione (e i PG devono decidere se ascoltare) o
+      torto (e la sua cautela è l'ostacolo da superare).
+    esempi:
+      - "Samwise Gamgee — Il Signore degli Anelli (la voce pratica accanto al visionario)"
+      - "Han Solo — Star Wars ('Non dirmi le probabilità'... ma le calcola)"
+      - "Hermione — Harry Potter (la voce della logica nel trio)"
+      - "Alfred — Batman (il pragmatico che frena l'idealista)"
+      - "Tyrion — Game of Thrones (il consigliere cinico ma lucido)"
+      - "Dr. McCoy — Star Trek ('Sono un dottore, non un...')"
+    uso_dnd: >
+      NPC consigliere che presenta l'opzione prudente/cinica. Non un codardo:
+      un realista. Funziona come specchio per le scelte dei PG: se lo ignorano
+      e va male, "ve l'avevo detto"; se lo ignorano e va bene, il coraggio
+      ha vinto. Può evolvere: se i PG dimostrano che l'audacia paga, diventa
+      più coraggioso. Se falliscono, diventa più cauto.
+    usato_in: [La Cerca, Sconfiggere il Mostro, L'Assedio]
+    vedi_anche: [Il Mentore, Il Companion Fedele, L'Alleato Scomodo, Il Profeta Ignorato]
+
+  - tipo: personaggio
+    nome: Il Costruttore (L'Artefice)
+    nome_en: The Artificer / The Craftsman / Q
+    nomi_alt: [The Artificer, Q, Il Fabbro Magico, The Gadgeteer, L'Inventore]
+    descrizione: >
+      Il personaggio che crea gli strumenti: armi, pozioni, congegni, incantesimi
+      su commissione. Non combatte (o non in prima linea) — il suo valore è in
+      ciò che produce. I PG vanno da lui quando hanno bisogno di qualcosa di
+      specifico. Può essere eccentrico, esigente, o nascondere segreti nelle
+      sue creazioni.
+    esempi:
+      - "Q — James Bond (fornisce i gadget, spiega come funzionano)"
+      - "Hephaestus — mitologia greca (il fabbro degli dèi)"
+      - "Tony Stark/Iron Man — Marvel (l'eroe CHE costruisce)"
+      - "Ollivander — Harry Potter (il creatore di bacchette)"
+      - "Elrond/i Nani di Erebor — Tolkien (i forgiatori)"
+      - "Doc Brown — Ritorno al Futuro (l'inventore eccentrico)"
+    uso_dnd: >
+      NPC a cui i PG commissionano oggetti: richiede materiali rari (quest!),
+      tempo, e spesso un prezzo non monetario ("portami la scaglia del drago e
+      ti forgerò la spada"). Può rifiutarsi se disapprova l'uso. Variante: il
+      costruttore ha creato l'arma del villain e se ne pente. O: il costruttore
+      mette trappole segrete nelle sue creazioni "per sicurezza".
+    usato_in: [La Cerca, Sconfiggere il Mostro, La Radunata]
+    vedi_anche: [Il Mentore, Il Benefattore Misterioso, L'Oggetto Senziente, Il Mercante Ambiguo]
+
+  - tipo: personaggio
+    nome: Il Ricattato (Il Burattino Involontario)
+    nome_en: The Blackmailed / Reluctant Villain / Coerced Agent
+    nomi_alt: [Reluctant Villain, The Blackmailed, Il Servo Riluttante, Coerced Minion, Under Duress]
+    descrizione: >
+      Un personaggio che serve il villain non per scelta ma per costrizione:
+      la sua famiglia è in ostaggio, ha un segreto ricattabile, è sotto un
+      incantesimo, o ha un debito impossibile. Non è malvagio — è intrappolato.
+      Se i PG trovano il modo di liberarlo dalla costrizione, diventa un alleato.
+      Se lo uccidono senza sapere, è una tragedia.
+    esempi:
+      - "Lando sotto Vader — Star Wars (collabora per salvare la sua città)"
+      - "Severus Snape — Harry Potter (agente doppio per debito d'amore)"
+      - "Théoden sotto Saruman — Il Signore degli Anelli (controllo mentale)"
+      - "Il banchiere col figlio in ostaggio — qualsiasi heist movie"
+      - "Jessica Jones sotto Kilgrave — Marvel (controllo mentale)"
+      - "Draco Malfoy — Harry Potter (costretto dalla famiglia e da Voldemort)"
+    uso_dnd: >
+      Un NPC che ostacola i PG (chiude la porta, dà informazioni false, attacca)
+      ma mostra segni di conflitto interiore. Se i PG indagano anziché uccidere,
+      scoprono la costrizione. Liberarlo = alleato + informazioni sul villain.
+      Ucciderlo = rimorso quando scoprono la verità dopo. Seminare indizi:
+      tremori, sguardi disperati, frasi a doppio senso.
+    rischio: >
+      Se il ricatto è troppo nascosto, i PG lo uccidono e basta. Se è troppo
+      ovvio, non c'è tensione. Ideale: 1-2 indizi sottili nel primo incontro,
+      rivelazione piena nel secondo.
+    usato_in: [Il Mistero, Sconfiggere il Mostro, La Ribellione]
+    vedi_anche: [La Talpa, Il Luogotenente, Il Redento, La Pedina Inconsapevole]
+
+  - tipo: personaggio
+    nome: Il Sopravvissuto (L'Ultimo Testimone)
+    nome_en: The Sole Survivor / Last Witness
+    nomi_alt: [Sole Survivor, L'Unico Superstite, Last Man Standing, Il Testimone Unico, Final Girl]
+    descrizione: >
+      Unico sopravvissuto di un evento catastrofico — massacro, spedizione
+      fallita, villaggio distrutto, naufragio. Porta con sé informazioni vitali
+      e traumi profondi. La sua testimonianza è l'unico indizio su cosa è
+      successo, ma può essere inaffidabile (shock, sensi di colpa, memoria
+      frammentata). Qualcuno potrebbe volerlo morto per impedire che parli.
+    esempi:
+      - "Ishmael — Moby Dick ('Call me Ishmael' — unico superstite del Pequod)"
+      - "Ripley — Alien (unica sopravvissuta della Nostromo)"
+      - "Il sopravvissuto del villaggio bruciato — qualsiasi D&D (hook classico)"
+      - "Sole Survivor — Fallout 4 (unico sopravvissuto del Vault)"
+      - "La Principessa Leia con il messaggio — Star Wars (porta le informazioni vitali)"
+      - "Jonah — Tomb Raider reboot (unico sopravvissuto dell'equipaggio precedente)"
+    uso_dnd: >
+      Hook immediato: un NPC traumatizzato arriva barcollando con informazioni
+      frammentarie su cosa è successo. I PG devono proteggere il testimone
+      (qualcuno lo cerca), decifrare il suo racconto incoerente, e investigare
+      il luogo del disastro. Il sopravvissuto può anche essere un PG (background
+      concordato col giocatore). Variante oscura: il sopravvissuto è il colpevole
+      che finge di essere vittima.
+    rischio: >
+      Se il sopravvissuto sa tutto e lo racconta subito, non serve un'avventura.
+      Le informazioni devono essere incomplete, confuse, o deliberatamente
+      nascoste. Se invece non sa nulla di utile, è un NPC inutile.
+    usato_in: [Il Mistero, La Vendetta, Sconfiggere il Mostro]
+    vedi_anche: [La Casa Distrutta, Il Registro dell'Apocalisse, L'Informatore, Il Narratore Inaffidabile]
+
+  - tipo: personaggio
+    nome: Il Doppio (Il Sostituto)
+    nome_en: The Impostor / Body Double / Changeling
+    nomi_alt: [The Impostor, Changeling, Body Double, Il Sosia, La Sostituzione]
+    descrizione: >
+      Qualcuno sta impersonando fisicamente un altro personaggio — per magia
+      (polyjuice, alter self, changeling), chirurgia, o somiglianza naturale.
+      L'originale può essere morto, prigioniero, o ignaro della sostituzione.
+      Il conflitto nasce dallo smascheramento: chi è il vero? Come provarlo?
+      A differenza dello Specchio (doppio filosofico), qui la sostituzione è
+      fisica e letterale.
+    esempi:
+      - "I Doppelgänger — D&D Monster Manual (changelings infiltrati)"
+      - "Polyjuice Potion — Harry Potter (Barty Crouch Jr. come Moody per un anno)"
+      - "The Thing — film (chi è stato sostituito?)"
+      - "Arya con i volti — Game of Thrones (cambio fisico volontario)"
+      - "Invasion of the Body Snatchers — film (sostituzione di massa)"
+      - "Prince and the Pauper — Twain (sosia naturale)"
+    uso_dnd: >
+      Un NPC importante è stato sostituito da un changeling/doppelgänger. I PG
+      notano sottili differenze nel comportamento. L'indagine richiede: trovare
+      prove della sostituzione, localizzare l'originale (vivo? morto?),
+      smascherare l'impostore senza allarmarlo. Variante: un PG viene sostituito
+      (concordato col giocatore che interpreta il sostituto per una sessione).
+    rischio: >
+      Se non ci sono indizi percepibili, i PG non possono scoprirlo e si
+      sentono ingannati dal DM. Seminare almeno 3 differenze comportamentali
+      notabili (il sostituto non conosce un'informazione privata, reagisce
+      diversamente a un trigger emotivo, ha un tic assente nell'originale).
+    usato_in: [Il Mistero, L'Infiltrazione, Il Colpo di Scena]
+    vedi_anche: [Lo Specchio, La Talpa, L'Identità Scambiata, Il Mutaforma]
+
   - tipo: situazione
     nome: L'Alleato Inaspettato
     nome_en: Unexpected Ally / Surprise Reinforcement
@@ -4454,7 +4612,792 @@ stereotipi:
       azioni passate. Se non avevano risparmiato/aiutato, l'alleato non appare.
     sottocaso_di: I Rinforzi
     usato_in: [L'Ora più Buia, Sconfiggere il Mostro, L'Assedio]
+    puo_aver_bisogno_di: [Il Fucile di Čechov]
     vedi_anche: [I Rinforzi, La Scelta Retroattiva, Il Debito di Vita, La Promozione]
+
+  - tipo: situazione
+    nome: Lo Specchio Interiore (La Virtù Fatale)
+    nome_en: Fatal Flaw / Virtue Turned Weapon
+    nomi_alt: [Fatal Flaw, Hamartia, Virtue Is Weakness, La Virtù Avvelenata, Il Dono Maledetto]
+    descrizione: >
+      Una caratteristica positiva del personaggio — il suo coraggio, la sua
+      lealtà, la sua generosità, la sua fiducia — diventa l'arma che lo
+      distrugge. Non è un difetto nascosto: è la stessa qualità che lo rende
+      eroico, spinta troppo oltre o sfruttata da altri. Il personaggio fa la
+      cosa "giusta" e proprio per questo si condanna. La tragedia nasce dal
+      fatto che non può smettere di essere sé stesso.
+    esempi:
+      - "Ned Stark — Game of Thrones (l'onore lo porta alla decapitazione)"
+      - "Boromir — Il Signore degli Anelli (l'amore per il suo popolo lo corrompe)"
+      - "Otello — Shakespeare (la passione per Desdemona diventa gelosia mortale)"
+      - "Spider-Man — Marvel (il senso di responsabilità lo isola e lo distrugge)"
+      - "Anakin Skywalker — Star Wars (l'amore per Padmé lo porta al Lato Oscuro)"
+      - "Superman — DC (la compassione lo rende manipolabile tramite ostaggi)"
+    uso_dnd: >
+      La lealtà di un PG verso un NPC viene sfruttata dal villain per tendergli
+      una trappola. Il coraggio di un PG lo spinge in uno scontro che non può
+      vincere. La generosità di un PG viene abusata da un impostore. Il DM
+      identifica la virtù dominante del PG e crea situazioni dove quella virtù
+      ha un costo. NON è una punizione — è dramma. Il PG deve scegliere: restare
+      fedele a sé stesso (e pagarne il prezzo) o tradire la propria natura.
+    rischio: >
+      Se il giocatore sente che il DM "punisce" il suo personaggio per essere
+      buono, la fiducia al tavolo crolla. La virtù deve avere successo IL PIÙ
+      DELLE VOLTE — solo in momenti chiave il costo diventa alto. Il giocatore
+      deve sentire che la scelta è sua, non una trappola.
+    usato_in: [La Tentazione, L'Ora più Buia, La Scelta Impossibile]
+    vedi_anche: [La Tentazione, Il Nemico Interiore, L'Anello al Dito, La Fiducia Tradita]
+
+  - tipo: situazione
+    nome: La Rincorsa (L'Inseguimento)
+    nome_en: The Chase / Pursuit Sequence
+    nomi_alt: [Chase Scene, L'Inseguimento, Hot Pursuit, Corsa Contro il Tempo, The Hunt]
+    descrizione: >
+      Una sequenza ad alta energia in cui i PG inseguono (o sono inseguiti da)
+      qualcuno o qualcosa. Può essere a piedi per vicoli, a cavallo in campo
+      aperto, su carri in una città in fiamme, o su navi tra gli scogli. Il
+      ritmo è frenetico, le decisioni sono istantanee, e l'ambiente è un
+      ostacolo tanto quanto il bersaglio. Non è un combattimento — è movimento,
+      ostacoli, scelte tattiche rapide.
+    esempi:
+      - "L'inseguimento in moto — Terminator 2 (iconico, ostacoli urbani)"
+      - "La corsa sulle bighe — Ben-Hur (arena, sabotaggio, terreno)"
+      - "Il treno — Indiana Jones (combattimento sul tetto di un veicolo in movimento)"
+      - "Minas Tirith — Il Signore degli Anelli (i Nazgûl inseguono Gandalf a cavallo)"
+      - "Fuga da Moria — Il Signore degli Anelli (inseguiti dai goblin nel dungeon)"
+      - "Millennium Falcon nel campo di asteroidi — Star Wars (veicolo + ostacoli)"
+    uso_dnd: >
+      Meccanicamente: turni brevi, prove di Atletica/Acrobatica, ostacoli che
+      richiedono scelte (salto rischioso = scorciatoia, percorso sicuro = perdita
+      di distanza). L'inseguito può lasciare trappole o ostacoli. L'inseguitore
+      può tentare azioni creative. L'ambiente cambia ogni round (mercato →
+      tetti → canali → mura). Inserire un timer: X round prima che il bersaglio
+      raggiunga il rifugio/la nave/il portale. Varianti: PG inseguono, PG sono
+      inseguiti, PG inseguono E sono inseguiti da terzi.
+    rischio: >
+      Se diventa una serie di tiri di dado senza scelte, è noioso. Ogni round
+      deve offrire un bivio (via sicura vs rischiosa), un ostacolo narrativo
+      (il carro che taglia la strada, il ponte che crolla), o un'opportunità
+      (il gancio, la corda, il passaggio segreto). Mai più di 4-5 round.
+    usato_in: [La Fuga, Da Povero a Ricco, Il Colpo]
+    vedi_anche: [La Fuga, Il Pacing, La Corsa Contro il Tempo, Il Terreno come Arma]
+
+  - tipo: situazione
+    nome: L'Amnesia (L'Identità Perduta)
+    nome_en: Amnesia / Lost Memory / Identity Quest
+    nomi_alt: [Lost Memory, Tabula Rasa, "Who Am I?", La Memoria Cancellata, Bourne Identity]
+    descrizione: >
+      Un personaggio (PG o NPC chiave) ha perso la memoria. Non sa chi è, cosa
+      ha fatto, o perché si trova dove si trova. Ricostruire il passato diventa
+      l'obiettivo — ma ogni frammento recuperato rivela qualcosa di scomodo o
+      pericoloso. Il personaggio potrebbe scoprire di essere stato il villain,
+      o che qualcuno ha cancellato la sua memoria per proteggerlo.
+    esempi:
+      - "Jason Bourne — film (assassino che non ricorda di esserlo)"
+      - "Memento — Nolan (non può formare nuovi ricordi)"
+      - "Planescape: Torment — videogioco (il Nameless One si risveglia senza memoria)"
+      - "Total Recall — film (memoria impiantata, qual è il vero io?)"
+      - "Dark — serie TV (personaggi che dimenticano ciò che hanno fatto in altri cicli)"
+      - "Wolverine — X-Men (il passato cancellato dal programma Weapon X)"
+    uso_dnd: >
+      Un PG si risveglia senza ricordi (background concordato col giocatore). Ogni
+      modulo rivela un pezzo del passato — tramite NPC che lo riconoscono, luoghi
+      familiari, flashback attivati da trigger. Il twist: il PG potrebbe scoprire
+      di essere stato un villain, un traditore, o che la sua memoria è stata
+      cancellata per proteggere un segreto. Anche applicabile a un NPC chiave che
+      i PG devono aiutare a ricordare.
+    rischio: >
+      Se il giocatore non ha voce nella rivelazione finale ("eri un assassino!"),
+      si sente derubato della propria agency. Concordare i paletti a inizio
+      campagna. Per NPC: se i PG non hanno modo di scoprire la verità, è frustrante.
+    usato_in: [Il Mistero, Viaggio e Ritorno, La Cerca]
+    vedi_anche: [L'Identità Scambiata, Il Nemico Interiore, Il Segreto Inconfessabile]
+
+  - tipo: situazione
+    nome: Il Naufragio (La Sopravvivenza)
+    nome_en: Stranded / Survival Scenario / Shipwreck
+    nomi_alt: [Survival Horror, Castaway, Don't Eat the Purple Ones, Naufraghi, Robinson Crusoe]
+    descrizione: >
+      I PG si ritrovano bloccati in un luogo ostile senza risorse, equipaggiamento,
+      o via d'uscita immediata. Devono sopravvivere (cibo, riparo, pericoli
+      ambientali) e contemporaneamente trovare un modo per andarsene. Il nemico
+      principale è l'ambiente stesso, non un villain.
+    esempi:
+      - "Robinson Crusoe — Defoe (l'archetipo)"
+      - "Cast Away — film (sopravvivenza su un'isola)"
+      - "The Martian — film/libro (sopravvivenza su Marte con le risorse disponibili)"
+      - "Lost — serie TV (naufraghi su un'isola misteriosa)"
+      - "Subnautica — videogioco (naufragio alieno, crafting per sopravvivere)"
+      - "Lord of the Flies — Golding (la società crolla senza struttura)"
+    uso_dnd: >
+      La nave dei PG naufraga su un'isola/piano sconosciuto. Niente equipaggiamento
+      (o quasi). Prove di Sopravvivenza per cibo/acqua, Natura per orientarsi,
+      pericoli ambientali come incontri casuali. Il modulo termina quando trovano
+      una via d'uscita (nave, portale, segnale). Variante: i PG sono i soccorritori
+      che cercano dei naufraghi.
+    rischio: >
+      Se i PG non hanno scelte significative (solo tiri di sopravvivenza), diventa
+      noioso. Inserire dilemmi: dividere le risorse con altri naufraghi? Esplorare
+      la zona pericolosa per una possibile uscita? Fidarsi del locale misterioso?
+    usato_in: [Viaggio e Ritorno, La Cerca, La Fuga]
+    vedi_anche: [Il Luogo Impossibile, La Zona Proibita, Il Pesce fuor d'Acqua, La Separazione del Gruppo]
+
+  - tipo: situazione
+    nome: Il Processo (Il Giudizio)
+    nome_en: The Trial / Courtroom Drama
+    nomi_alt: [Trial by Court, Il Tribunale, Courtroom Episode, La Difesa, Judgment Day]
+    descrizione: >
+      I PG (o un loro alleato) sono accusati di un crimine e devono difendersi
+      davanti a un tribunale, concilio, assemblea, o giuria. Le armi non servono:
+      servono prove, testimoni, eloquenza, e a volte sotterfugi. Il verdetto ha
+      conseguenze reali (esilio, esecuzione, perdita di status).
+    esempi:
+      - "Il Processo — Kafka (accusato senza sapere di cosa)"
+      - "To Kill a Mockingbird — Lee (difesa in un sistema ingiusto)"
+      - "A Few Good Men — film ('You can't handle the truth!')"
+      - "Ace Attorney — videogioco (investigazione + processo)"
+      - "Il processo di Tyrion — Game of Thrones (sistema corrotto, trial by combat)"
+      - "Twelve Angry Men — film (la giuria delibera)"
+    uso_dnd: >
+      I PG sono accusati (a torto o a ragione) e devono raccogliere prove e
+      testimoni prima del processo. Al tavolo: fase investigativa (trovare prove),
+      poi scena del processo (Persuasione, Inganno, Intuizione per leggere la
+      giuria). Varianti: il sistema è corrotto (devono anche smascherare il
+      giudice), trial by combat (un PG combatte per provare l'innocenza),
+      processo a un NPC che i PG difendono.
+    rischio: >
+      Se il processo è solo una serie di tiri di Persuasione, è piatto. Dare
+      scelte: corrompere un testimone (illegale ma efficace)? Rivelare un
+      segreto che danneggia un alleato? Il processo deve avere conseguenze
+      qualunque sia l'esito.
+    usato_in: [Il Mistero, Commedia degli Errori, La Ribellione]
+    vedi_anche: [Il Mistero, La Prova Segreta, Lo Stallo, L'Identità Scambiata]
+
+  - tipo: situazione
+    nome: La Gestione del Territorio (Il Dominio)
+    nome_en: Domain Management / Good Housekeeping
+    nomi_alt: [Good Housekeeping, Domain Play, Il Feudo, Stronghold Management, Il Regno da Gestire]
+    descrizione: >
+      I PG ricevono (o conquistano) la responsabilità di un luogo: una baronia,
+      una gilda, una nave, un avamposto. Devono farlo funzionare: gestire risorse,
+      risolvere dispute tra abitanti, difenderlo da minacce, e prosperare. Il
+      conflitto è organizzativo e politico, non solo di combattimento.
+    esempi:
+      - "SimCity / Civilization — videogiochi (gestione risorse e popolazione)"
+      - "Suikoden — videogioco (il castello da costruire e popolare)"
+      - "Game of Thrones — politica dei regni (governare è più difficile che conquistare)"
+      - "Pathfinder: Kingmaker — videogioco/AP (costruire un regno)"
+      - "Stardew Valley — videogioco (gestione fattoria)"
+      - "Il ritorno ad Itaca — Odissea (riprendere il controllo del proprio dominio)"
+    uso_dnd: >
+      I PG ottengono un forte, un villaggio, o una gilda come ricompensa. Ora
+      devono gestirlo: tasse, difese, morale della popolazione, minacce esterne.
+      Moduli strutturati come "questa settimana: banditi, carestia, delegazione
+      diplomatica". Funziona come frame per una campagna sandbox. Ogni decisione
+      ha conseguenze a lungo termine.
+    rischio: >
+      Se diventa solo contabilità (quanti GP entrano, quanti escono), è noioso.
+      Ogni problema gestionale deve avere una faccia umana (l'NPC che protesta,
+      il traditore nell'amministrazione, la famiglia da sfamare). La gestione
+      è il pretesto per storie, non il fine.
+    usato_in: [Da Povero a Ricco, La Ribellione, La Crisi di Successione]
+    vedi_anche: [La Crisi di Successione, La Corte Decadente, La Guerra, Il Branco di Disadattati]
+
+  - tipo: situazione
+    nome: Il Dirottamento (L'Emergenza a Bordo)
+    nome_en: Hijack / Die Hard on a X
+    nomi_alt: [Die Hard Scenario, Hijack, Hostage on a Vehicle, Take Us to Memphis, L'Assalto al Mezzo]
+    sottocaso_di: L'Assedio
+    descrizione: >
+      Un mezzo di trasporto o una struttura chiusa (nave, treno, torre, portale
+      volante) viene preso da forze ostili mentre i PG sono a bordo. Sono
+      intrappolati dentro con i nemici, civili da proteggere, e risorse limitate.
+      Devono riprendere il controllo dall'interno senza far crollare/affondare/
+      schiantare il tutto.
+    esempi:
+      - "Die Hard — film (grattacielo preso da terroristi)"
+      - "Speed — film (autobus che non può rallentare)"
+      - "Under Siege — film (nave da guerra dirottata)"
+      - "Snowpiercer — film (treno come microcosmo sociale)"
+      - "Alien — film (creatura a bordo di una nave, spazio chiuso)"
+      - "Il dirottamento del treno 123 — film (presa di ostaggi su un mezzo)"
+    uso_dnd: >
+      La nave su cui viaggiano i PG viene presa da pirati/mutinari/un mostro.
+      Non possono scappare (mare aperto, cielo, piano astrale). Devono eliminare
+      i nemici stanza per stanza, liberare ostaggi, e mantenere il mezzo
+      funzionante. Mappa chiusa + risorse limitate + timer (la nave affonda tra
+      X round). Combina bene con L'Infiltrazione al contrario.
+    rischio: >
+      Se lo spazio è troppo piccolo, diventa solo combattimento sequenziale. Dare
+      obiettivi multipli: liberare la sala motori, proteggere i civili, impedire
+      al capo di fuggire con la scialuppa. Ramificare le scelte.
+    usato_in: [La Fuga dalla Prigione, Spalle al Muro, L'Assedio]
+    vedi_anche: [L'Assedio, Spalle al Muro, La Fuga dalla Prigione, La Corsa Contro il Tempo]
+
+  - tipo: situazione
+    nome: L'Esplorazione (Dungeon Crawl)
+    nome_en: Dungeon Crawl / Delver's Delight
+    nomi_alt: [Dungeon Crawl, Delver's Delight, Clearing the Hex, Tomb Raider, La Spedizione]
+    descrizione: >
+      I PG entrano in un luogo pericoloso e sconosciuto (dungeon, rovina, grotta,
+      relitto) ed esplorano stanza per stanza. La ricompensa è dentro — tesori,
+      conoscenza, un artefatto — ma il luogo stesso è il nemico: trappole, mostri,
+      enigmi, risorse che si esauriscono. Non c'è un villain con un piano: c'è un
+      ecosistema ostile da navigare.
+    esempi:
+      - "Moria — Il Signore degli Anelli (dungeon classico con bilancio risorse)"
+      - "Tomb Raider — videogioco (esplorazione di rovine con trappole)"
+      - "Indiana Jones e il Tempio Maledetto — film"
+      - "Darkest Dungeon — videogioco (stress + risorse + esplorazione)"
+      - "Diablo — videogioco (scendere di livello in livello)"
+      - "Curse of Strahd: Death House — D&D (dungeon come introduzione)"
+    uso_dnd: >
+      La struttura più classica del D&D. Stanza dopo stanza: descrizione, pericolo,
+      ricompensa. La gestione delle risorse (slot incantesimi, HP, torce, razioni)
+      crea tensione crescente. Il ritmo: 2-3 stanze di esplorazione, 1 combattimento,
+      1 enigma/trappola, 1 stanza di riposo/rifugio. Il dungeon deve avere una
+      ragione per esistere (chi lo ha costruito? perché?).
+    rischio: >
+      Se ogni stanza è "mostro + tesoro" diventa un videogioco noioso. Variare:
+      stanze vuote ma atmosferiche, puzzle ambientali, NPC intrappolati, scelte
+      (porta A o porta B?), e una ragione narrativa per il dungeon.
+    usato_in: [La Cerca, Sconfiggere il Mostro, Viaggio e Ritorno]
+    vedi_anche: [La Zona Proibita, Il Labirinto, Il Luogo Impossibile, Il Naufragio]
+
+  - tipo: situazione
+    nome: La Caccia (Il Predatore)
+    nome_en: The Hunt / Monster Hunt / Safari
+    nomi_alt: [Monster Hunt, Safari, The Witcher Contract, La Battuta di Caccia, Tracking the Beast]
+    descrizione: >
+      I PG devono trovare e abbattere (o catturare) una creatura specifica nel suo
+      ambiente naturale. Non è un combattimento frontale: è tracciamento, studio
+      delle abitudini della preda, preparazione del terreno, e infine lo scontro
+      alle condizioni dei cacciatori. La preda è intelligente, pericolosa, e nel
+      suo elemento.
+    esempi:
+      - "Moby Dick — Melville (l'ossessione della caccia)"
+      - "Jaws — film (lo squalo nel suo territorio)"
+      - "The Witcher — videogioco/libri (contratti per uccidere mostri specifici)"
+      - "Predator — film (cacciatore che diventa preda)"
+      - "Monster Hunter — videogioco (preparazione + caccia + ricompensa)"
+      - "Jurassic Park — film (i dinosauri cacciano VOI)"
+    uso_dnd: >
+      Un mostro terrorizza la regione. I PG devono: (1) raccogliere indizi sulla
+      creatura (tipo, abitudini, debolezze), (2) prepararsi (armi, trappole,
+      esche), (3) trovarlo nel suo territorio, (4) affrontarlo in condizioni
+      favorevoli. Se saltano la preparazione, il combattimento è DEADLY. Se
+      preparano bene, è HARD ma gestibile. Ricompensa: taglia + parti del mostro.
+    rischio: >
+      Se i PG trovano subito il mostro e lo ammazzano, non c'è storia. La fase
+      di tracciamento e preparazione è il cuore — almeno metà del modulo. Il
+      mostro deve avere un'abitudine sfruttabile e una che lo rende pericoloso.
+    usato_in: [Sconfiggere il Mostro, La Cerca, Il Mistero]
+    vedi_anche: [Sconfiggere il Mostro, La Sorveglianza, Il Terreno come Arma, La Corsa Contro il Tempo]
+
+  - tipo: situazione
+    nome: L'Imboscata (La Trappola Preparata)
+    nome_en: The Ambush / Prepared Trap
+    nomi_alt: [Ambush, La Trappola, Killbox, L'Agguato, Spring the Trap]
+    descrizione: >
+      Una delle parti (i PG o i nemici) prepara deliberatamente una trappola e
+      attende che il bersaglio ci cada dentro. A differenza di un combattimento
+      normale, l'imboscata è asimmetrica by design: chi l'ha preparata ha
+      vantaggio di terreno, sorpresa, e posizionamento. La tensione sta nel
+      piano che funziona (o fallisce).
+    esempi:
+      - "L'imboscata dei Vietcong — film di guerra (terreno + sorpresa)"
+      - "Il Fosso di Helm — Il Signore degli Anelli (difensori preparati)"
+      - "Home Alone — film (trappole elaborate contro intrusi)"
+      - "Predator — film (sia cacciatore che preda preparano trappole)"
+      - "Die Hard — film (McClane prepara trappole improvvisate)"
+      - "La Palude dei Morti — D&D (terreno che intrappola)"
+    uso_dnd: >
+      Due usi: (1) I PG preparano l'imboscata — devono scegliere il terreno,
+      piazzare trappole, coordinare le posizioni. La ricompensa: surprise round +
+      vantaggio. (2) I PG cadono in un'imboscata — devono reagire rapidamente,
+      trovare copertura, ribaltare la situazione. Usare la mappa come strumento:
+      coperture, punti sopraelevati, vie di fuga bloccate.
+    rischio: >
+      Se l'imboscata è troppo efficace (TPK al primo round), è frustrante. Dare
+      sempre una via di reazione: un PG con Percezione alta nota qualcosa, un
+      nemico si muove troppo presto, un elemento del terreno offre copertura.
+    usato_in: [La Guerra, Sconfiggere il Mostro, La Caccia]
+    vedi_anche: [La Caccia, Il Terreno come Arma, Il Piano Non Detto, L'Infiltrazione]
+
+  - tipo: situazione
+    nome: La Radunata (Assemblare la Squadra)
+    nome_en: Assemble the Team / Gathering of Allies
+    nomi_alt: [Assembling the Team, Gathering Allies, Recruitment Arc, La Chiamata degli Eroi, Band of Brothers]
+    descrizione: >
+      Prima della missione principale, i PG devono raccogliere alleati, specialisti,
+      risorse, o informazioni. Ogni reclutamento è una mini-avventura: lo specialista
+      ha un prezzo, l'alleato è in prigione, l'informazione è custodita, la risorsa
+      è in territorio nemico. La struttura è episodica ma converge verso un obiettivo.
+    esempi:
+      - "Ocean's Eleven — film (reclutare ogni specialista con la sua mini-missione)"
+      - "I Sette Samurai — Kurosawa (radunare guerrieri per difendere il villaggio)"
+      - "Mass Effect 2 — videogioco (reclutare e fidelizzare la squadra)"
+      - "I Magnifici Sette — film (variante western dei Sette Samurai)"
+      - "Suicide Squad — DC (assemblare i cattivi per una missione)"
+      - "The Dirty Dozen — film (reclutare condannati per una missione suicida)"
+    uso_dnd: >
+      I moduli 1-3 sono reclutamento: ogni alleato/risorsa richiede una quest
+      (liberare il guerriero dalla prigione, convincere il mago riluttante,
+      rubare l'artefatto dalla torre). Il modulo finale è la missione vera con
+      tutti gli alleati raccolti. Il numero di alleati reclutati determina la
+      difficoltà del finale. Chi mancano? Quanto è più duro senza di loro?
+    rischio: >
+      Se ogni reclutamento è uguale (vai dal tipo, fai la quest, torna), è
+      ripetitivo. Variare: uno si unisce gratis ma ha un segreto, uno chiede
+      un prezzo inaccettabile, uno tradirà, uno è già morto e va resuscitato.
+    usato_in: [Sconfiggere il Mostro, L'Assedio, La Guerra]
+    vedi_anche: [Il Branco di Disadattati, L'Assedio, La Guerra, I Rinforzi]
+
+  - tipo: situazione
+    nome: Il Capro Espiatorio (L'Accusato Innocente)
+    nome_en: Framed / Scapegoat / Wrong Man
+    nomi_alt: [Framed, The Fall Guy, Il Colpevole Sbagliato, Wrongly Accused, L'Incastrato]
+    descrizione: >
+      Qualcuno (i PG stessi o un NPC a cui tengono) viene accusato ingiustamente
+      di un crimine. Le prove sono schiaccianti, i testimoni concordano, e il
+      sistema vuole un colpevole. I PG devono smascherare il vero responsabile
+      prima che la sentenza cada — o fuggire e provare l'innocenza da latitanti.
+    esempi:
+      - "Il Fuggiasco — film (Harrison Ford accusato di omicidio, fugge per provare l'innocenza)"
+      - "The Shawshank Redemption — film (condannato innocente)"
+      - "North by Northwest — Hitchcock (scambiato per una spia, braccato)"
+      - "Ace Attorney — videogioco (difendere clienti incastrati)"
+      - "Il Conte di Montecristo — Dumas (tradito e imprigionato da innocente)"
+      - "Making a Murderer — documentario (il sistema contro l'individuo)"
+    uso_dnd: >
+      I PG si svegliano accanto a un cadavere, con l'arma del delitto in mano
+      e le guardie che bussano. Devono fuggire O restare e investigare. Il vero
+      colpevole ha pianificato tutto. Combina bene con Il Processo (se restano)
+      o La Fuga (se scappano). L'orologio ticchetta: se non trovano il vero
+      colpevole in X giorni, vengono condannati.
+    rischio: >
+      Se i PG non hanno strumenti per investigare (nessun indizio, nessun alleato),
+      è un vicolo cieco. Applicare la Regola dei Tre Indizi: almeno 3 modi per
+      trovare la verità, anche da latitanti.
+    usato_in: [Il Mistero, La Fuga dalla Prigione, Commedia degli Errori]
+    vedi_anche: [Il Processo, Il Mistero, La Fuga dalla Prigione, L'Identità Scambiata, La Regola dei Tre Indizi]
+
+  - tipo: situazione
+    nome: L'Anello al Dito (Il Potere che Consuma)
+    nome_en: The One Ring / Corrupting Artifact / Power at a Price
+    nomi_alt: [Corrupting Artifact, The One Ring, Monkey's Paw, L'Artefatto Corruttore, Addictive Power]
+    sottocaso_di: La Tentazione
+    descrizione: >
+      Un oggetto o potere dà benefici reali e tangibili — ma ogni uso ha un
+      costo nascosto che cresce. Il personaggio diventa dipendente dai vantaggi,
+      e quando il prezzo diventa chiaro è troppo tardi per smettere senza
+      sacrificio. L'oggetto non è maledetto nel senso classico: funziona
+      BENISSIMO. È il prezzo che è il problema.
+    esempi:
+      - "L'Unico Anello — Il Signore degli Anelli (potere + invisibilità, ma corrompe)"
+      - "Il Death Note — manga (potere assoluto, ma perde l'umanità)"
+      - "La Zampa di Scimmia — W.W. Jacobs (3 desideri, tutti con un costo)"
+      - "Frostmourne — Warcraft (arma potente che ruba l'anima)"
+      - "Il simbionte Venom — Marvel (potere + aggressività crescente)"
+      - "L'Anello della Strega — qualsiasi D&D (bonus stats, malus roleplay)"
+    uso_dnd: >
+      Un artefatto che dà un bonus meccanico reale (+2 attacco, slot extra, ecc.)
+      ma ogni uso aggiunge 1 al Contatore di corruzione. A soglia 3: incubi. A
+      soglia 5: cambiamento d'aspetto. A soglia 8: il DM controlla il PG per 1
+      round. A soglia 10: perdita dell'oggetto = perdita permanente. Il giocatore
+      sa le regole fin dall'inizio — la scelta è sua.
+    rischio: >
+      Se il PG non può scegliere di smettere, è una punizione. Se può smettere
+      senza conseguenze, non ha peso. Il prezzo dello smettere deve essere alto
+      ma possibile (un rituale, un sacrificio, distruggere l'oggetto).
+    usato_in: [La Tentazione, La Cerca, Sconfiggere il Mostro]
+    puo_aver_bisogno_di: [Il Legame (oggetto)]
+    vedi_anche: [La Tentazione, Il Contatore, Il Potere ha un Prezzo, Lo Specchio Interiore]
+
+  - tipo: situazione
+    nome: L'Oggetto Senziente (L'Arma con Volontà)
+    nome_en: Sentient Item / Talking Sword / Artifact with Agency
+    nomi_alt: [Talking Sword, Sentient Weapon, Intelligent Item, L'Arma Parlante, The Artifact with a Mind]
+    descrizione: >
+      Un oggetto magico ha una personalità, una volontà, e obiettivi propri. Non
+      è un semplice strumento: è un NPC incorporato nell'equipaggiamento. Può
+      consigliare, insultare, rifiutarsi di funzionare, o tentare di prendere il
+      controllo. La relazione tra il portatore e l'oggetto è una dinamica
+      narrativa a sé.
+    esempi:
+      - "Excalibur / la Spada nella Roccia — mitologia arturiana (sceglie il degno)"
+      - "Stormbringer — Elric di Melniboné (spada che beve anime)"
+      - "La Master Sword — Zelda (guida l'eroe)"
+      - "Il Cappello Parlante — Harry Potter (smista, consiglia)"
+      - "Lilarcor — Baldur's Gate (spada irritante e comica)"
+      - "Needful Things — Stephen King (oggetti con volontà malvagia)"
+    uso_dnd: >
+      RAW in D&D 5e (DMG p.214): gli oggetti senzienti hanno punteggi mentali,
+      allineamento, e possono entrare in conflitto col portatore. Usare come NPC
+      costante: commenta, giudica, ha opinioni sui nemici. Può rifiutarsi di
+      funzionare se il portatore agisce contro i suoi valori. In caso estremo:
+      contest Carisma per il controllo. Dare all'oggetto un obiettivo proprio
+      che può allinearsi o confliggere con la quest.
+    rischio: >
+      Se l'oggetto parla troppo diventa fastidioso. Se ha troppo potere sul PG,
+      il giocatore perde agency. Regola: l'oggetto può suggerire e commentare
+      liberamente, ma il contest per il controllo va usato max 1 volta per arco.
+    usato_in: [La Cerca, La Tentazione, Sconfiggere il Mostro]
+    vedi_anche: [L'Anello al Dito, Il Companion Fedele, Il Potere ha un Prezzo, Il Benefattore Misterioso]
+
+  - tipo: situazione
+    nome: Lo Shock Culturale (La Missione Diplomatica)
+    nome_en: Culture Clash / Diplomatic Mission Gone Wrong
+    nomi_alt: [Culture Clash, Fish out of Water Diplomacy, Long or Short Fork, La Gaffe Diplomatica, Stranger Etiquette]
+    descrizione: >
+      I PG sono inviati (o finiscono) presso una cultura con usi e costumi
+      radicalmente diversi dai loro. Devono navigare regole sociali sconosciute
+      senza offendere nessuno, mentre compiono una missione (trattativa, alleanza,
+      commercio). Ogni errore ha conseguenze diplomatiche — dal ridicolo alla
+      guerra.
+    esempi:
+      - "Star Trek — qualsiasi episodio di primo contatto"
+      - "Dune — Paul tra i Fremen (deve imparare i loro modi o morire)"
+      - "Avatar — Jake tra i Na'vi (il corpo è diverso, le regole anche)"
+      - "The Witcher — Geralt ai banchetti nobiliari (pesce fuor d'acqua sociale)"
+      - "Crocodile Dundee — film (cultura australiana vs New York)"
+      - "Shogun — Clavell (europeo nel Giappone feudale)"
+    uso_dnd: >
+      I PG devono negoziare con elfi/nani/giganti/fey con protocolli rigidi:
+      non guardare negli occhi il capo, non toccare il cibo col ferro, parlare
+      solo quando interrogati. Le informazioni che hanno sono incomplete o
+      sbagliate (un NPC li ha mal consigliati). Ogni gaffe = test di reazione.
+      3 gaffe = incidente diplomatico. I PG che si informano prima (La
+      Sorveglianza) hanno vantaggio.
+    rischio: >
+      Se è solo "non fare X" ripetuto, è frustrante. Dare ai PG modi per
+      rimediare (un rituale di scuse, un dono appropriato, un campione che li
+      difende). La cultura deve essere affascinante, non solo un campo minato.
+    usato_in: [Viaggio e Ritorno, La Cerca, Commedia degli Errori]
+    vedi_anche: [Il Pesce fuor d'Acqua, La Masquerade, Commedia degli Errori, La Sorveglianza]
+
+  - tipo: situazione
+    nome: La Gara (La Competizione Non Letale)
+    nome_en: The Race / Competition for the Prize
+    nomi_alt: [The Race, How Much for the Dingus, Corsa al Tesoro, Treasure Race, Competition Arc]
+    sottocaso_di: La Rivalità
+    descrizione: >
+      I PG e uno o più gruppi rivali competono per lo stesso obiettivo (un
+      artefatto, un contratto, un titolo, un territorio) in tempo reale. Non è
+      un combattimento diretto (quello è La Rivalità o L'Arena) — è una corsa
+      parallela dove vince chi arriva primo, chi è più furbo, o chi sabota meglio
+      l'altro senza farsi beccare.
+    esempi:
+      - "Indiana Jones vs i nazisti — franchise (stessi artefatti, chi arriva primo)"
+      - "Wacky Races — animazione (gara con sabotaggio)"
+      - "The Amazing Race — reality (competizione a tappe)"
+      - "One Piece — manga (tutti vogliono il tesoro di Roger)"
+      - "It's a Mad Mad Mad Mad World — film (tutti inseguono lo stesso tesoro)"
+      - "Cannonball Run — film (gara illegale coast-to-coast)"
+    uso_dnd: >
+      Un artefatto è stato localizzato. I PG partono, ma un altro gruppo (rivali
+      amichevoli o mercenari) parte contemporaneamente. Moduli paralleli: ogni
+      scelta (via rapida ma pericolosa vs via sicura ma lenta) determina chi
+      arriva primo. I rivali possono sabotare (bloccare un ponte, corrompere
+      una guida) e i PG possono fare lo stesso. Chi arriva secondo non perde
+      tutto — può negoziare, rubare, o accettare.
+    rischio: >
+      Se i rivali sono invisibili (agiscono off-screen), non c'è tensione. I PG
+      devono VEDERE i rivali: incrociarli ai bivi, trovare i loro segni, sentire
+      che sono "un giorno avanti". La competizione deve essere percepita.
+    usato_in: [La Cerca, Da Povero a Ricco, La Rivalità]
+    vedi_anche: [La Rivalità, La Rincorsa, La Corsa Contro il Tempo, Il Branco di Disadattati]
+
+  - tipo: situazione
+    nome: La Base Segreta (Il Nido di Vespe)
+    nome_en: Hidden Base / Hornet's Nest
+    nomi_alt: [Hidden Base, Evil Lair, Il Covo del Nemico, Hornet's Nest, The Villain's Hideout]
+    descrizione: >
+      I PG scoprono (per caso o per indagine) il quartier generale segreto del
+      nemico — dove prepara i suoi piani, addestra i suoi uomini, nasconde il
+      bottino. La scelta: infiltrarsi da soli, avvertire le autorità (e rischiare
+      che il nemico venga avvertito), o attaccare direttamente (e affrontare una
+      fortezza). La scoperta è solo l'inizio — agire è il problema.
+    esempi:
+      - "La Morte Nera — Star Wars (base segreta con un punto debole)"
+      - "La Batcaverna scoperta — Batman (quando il nemico trova la tua base)"
+      - "Isengard — Il Signore degli Anelli (scoprire la fabbrica di Uruk-hai)"
+      - "SPECTRE island — James Bond (infiltrare il covo del villain)"
+      - "Il laboratorio segreto — qualsiasi film sci-fi/horror"
+      - "La base nel vulcano — tropo James Bond"
+    uso_dnd: >
+      I PG trovano il covo: una mappa, un prigioniero che parla, un indizio
+      durante l'indagine. Ora hanno 3 opzioni: (1) infiltrazione furtiva (pochi
+      PG, alto rischio, alta ricompensa), (2) assalto frontale (tutto il party,
+      scontro duro), (3) avvertire e aspettare rinforzi (rischio che il nemico
+      fugga). La base ha una mappa dettagliata: sentinelle, trappole, via di
+      fuga del villain, prigionieri da liberare.
+    rischio: >
+      Se la base è troppo grande diventa un dungeon crawl generico. Dare un
+      obiettivo specifico dentro la base (il prigioniero, il piano, il
+      dispositivo) e un timer (il villain parte domani all'alba).
+    usato_in: [L'Infiltrazione, Sconfiggere il Mostro, L'Indagine sulla Cospirazione]
+    vedi_anche: [L'Infiltrazione, L'Esplorazione, La Sorveglianza, L'Assedio]
+
+  - tipo: situazione
+    nome: La Prevenzione (Fermare Prima che Accada)
+    nome_en: Ounces of Prevention / Preemptive Strike
+    nomi_alt: [Preemptive Strike, Ounces of Prevention, Fermare il Piano, Stop the Ritual, La Corsa Preventiva]
+    descrizione: >
+      I PG sanno (o sospettano) che il villain sta per fare qualcosa di terribile
+      e devono agire PRIMA che accada. Non è una reazione a un evento (quello è
+      La Corsa Contro il Tempo dopo l'innesco) — è un'azione preventiva basata
+      su intelligence. Il dilemma: le prove sono sufficienti per agire? E se
+      l'intelligence è sbagliata?
+    esempi:
+      - "Minority Report — film (punire il crimine prima che avvenga)"
+      - "Mission: Impossible — franchise (fermare il piano prima dell'esecuzione)"
+      - "Captain America: The Winter Soldier — film (fermare il lancio delle Helicarrier)"
+      - "Harry Potter e l'Ordine della Fenice — (prevenire il ritorno di Voldemort, ignorati)"
+      - "24 — serie TV (fermare l'attacco terroristico prima del timer)"
+    uso_dnd: >
+      I PG scoprono che il villain completerà il rituale tra 3 giorni. Devono:
+      (1) confermare l'intelligence, (2) trovare il luogo, (3) arrivare in
+      tempo, (4) fermare il rituale. Se agiscono senza confermare, potrebbero
+      attaccare un innocente (red herring). Se aspettano troppo per confermare,
+      il rituale si completa. Il dilemma tra certezza e velocità è il cuore.
+    rischio: >
+      Se i PG hanno informazione perfetta ("il villain è lì, fate X"), non c'è
+      tensione. L'intelligence deve essere parziale, ambigua, o con una fonte
+      inaffidabile. Il dubbio ("e se sbagliamo?") rende la scelta significativa.
+    usato_in: [L'Indagine sulla Cospirazione, Il Mistero, Sconfiggere il Mostro]
+    vedi_anche: [La Corsa Contro il Tempo, Il Mistero, La Sorveglianza, La Regola dei Tre Indizi]
+
+  - tipo: situazione
+    nome: Il Vaso di Pandora (La Breccia Aperta)
+    nome_en: Pandora's Box / Unleashed Evil
+    nomi_alt: [Pandora's Box, Unleashed Evil, La Breccia, The Breach, Il Genio dalla Bottiglia]
+    sottocaso_di: Il Male Sigillato
+    descrizione: >
+      Qualcuno (il villain, un NPC imprudente, o i PG stessi) ha aperto
+      qualcosa che non doveva essere aperto — un portale, un sigillo, un
+      contenitore. Il male/caos/pericolo si è riversato nel mondo. Prima di
+      poter chiudere la fonte, i PG devono gestire le conseguenze già liberate.
+      È una catastrofe a cascata.
+    esempi:
+      - "Pandora — mitologia greca (il vaso aperto libera tutti i mali)"
+      - "Ghostbusters — film (il contenitore esplode, fantasmi ovunque)"
+      - "Jurassic Park — film (i dinosauri sono liberi)"
+      - "Cabin in the Woods — film (tutti i mostri liberati simultaneamente)"
+      - "Il Portale dell'Oblivion — Elder Scrolls (la breccia tra i piani)"
+      - "Stranger Things — serie (il Gate aperto verso il Sottosopra)"
+    uso_dnd: >
+      Il sigillo si è rotto: demoni/non-morti/aberrazioni escono a ondate. I
+      PG devono: (1) gestire l'emergenza immediata (proteggere i civili,
+      combattere le prime ondate), (2) trovare come chiudere la fonte (un
+      rituale, un artefatto, un sacrificio), (3) chiudere la fonte mentre le
+      ondate continuano. Struttura a escalation: ogni round/ora che passa, la
+      situazione peggiora. Timer implicito: se non chiudono la fonte, il mondo
+      viene sommerso.
+    rischio: >
+      Se le ondate sono solo combattimento ripetitivo ("altri 6 demoni"),
+      diventa noioso. Ogni ondata deve porre un problema diverso: la prima è
+      combattimento, la seconda è un puzzle, la terza costringe a una scelta
+      (chiudere il portale O salvare gli intrappolati dall'altra parte).
+    usato_in: [Il Male Sigillato, Sconfiggere il Mostro, L'Apocalisse in Corso]
+    vedi_anche: [Il Male Sigillato, L'Apocalisse in Corso, La Corsa Contro il Tempo, La Pestilenza]
+
+  - tipo: situazione
+    nome: L'Eredità Inattesa (Il Lascito Scomodo)
+    nome_en: Unexpected Inheritance / Poisoned Gift
+    nomi_alt: [Unexpected Inheritance, Poisoned Legacy, Il Dono Avvelenato, Strings Attached, Il Lascito Maledetto]
+    descrizione: >
+      I PG ricevono qualcosa di apparentemente prezioso — un titolo nobiliare,
+      una proprietà, un'organizzazione, un artefatto — da un benefattore morto
+      o scomparso. Ma il "regalo" porta con sé problemi nascosti: debiti, nemici
+      del precedente proprietario, obblighi feudali, una maledizione, o
+      semplicemente responsabilità che nessuno voleva.
+    esempi:
+      - "Lo zio morto lascia il castello infestato — tropo horror"
+      - "Il padrino lascia il 'business' — Il Padrino III"
+      - "Harry eredita Grimmauld Place — Harry Potter (casa piena di ricordi oscuri)"
+      - "Bilbo eredita l'Anello — Il Signore degli Anelli (il regalo più scomodo della storia)"
+      - "Stardew Valley — videogioco (erediti la fattoria dello zio, tutta da ricostruire)"
+      - "Un PG eredita un debito con un drago — classico D&D"
+    uso_dnd: >
+      Hook perfetto per inizio avventura: un NPC mai conosciuto lascia ai PG
+      qualcosa in eredità. Il "regalo" è il punto di partenza dell'avventura:
+      il castello ha un dungeon sotto, il titolo ha un nemico ereditario, la
+      gilda ha debiti con la mafia locale. Combina bene con La Gestione del
+      Territorio (se l'eredità è un luogo) o con La Cerca (se bisogna trovare
+      qualcosa per risolvere i problemi dell'eredità).
+    rischio: >
+      Se il regalo è SOLO problemi, i giocatori lo rifiutano. Deve avere anche
+      vantaggi reali (una base, risorse, informazioni, un oggetto utile) che
+      motivino i PG a tenerselo nonostante i guai.
+    usato_in: [Da Povero a Ricco, La Gestione del Territorio, Il Mistero]
+    vedi_anche: [La Gestione del Territorio, La Crisi di Successione, L'Anello al Dito, La Maledizione]
+
+  - tipo: situazione
+    nome: La Quarantena (Il Lockdown)
+    nome_en: Lockdown / Quarantine / Sealed Zone
+    nomi_alt: [Lockdown, La Zona Sigillata, Sealed Inside, Nessuno Entra Nessuno Esce, Containment]
+    descrizione: >
+      Un'area viene sigillata — per magia, ordine delle autorità, o calamità —
+      e i PG sono intrappolati dentro con il pericolo. Nessuno entra e nessuno
+      esce. Le risorse sono limitate, la tensione sale, e bisogna risolvere il
+      problema dall'interno prima che la situazione degeneri. A differenza
+      dell'Assedio (nemici fuori), qui il nemico è DENTRO con i PG.
+    esempi:
+      - "The Thing — film (base antartica isolata, il nemico è dentro)"
+      - "Alien — film (Nostromo sigillata, il mostro è a bordo)"
+      - "Dredd — film (il palazzo viene sigillato, i PG devono risalire)"
+      - "Resident Evil — videogioco (la villa è chiusa, i PG cercano l'uscita)"
+      - "Under the Dome — King (cupola invisibile isola un'intera città)"
+      - "Lockdown di Hogwarts — Harry Potter (il castello si sigilla)"
+    uso_dnd: >
+      Il quartiere/dungeon/nave viene magicamente sigillato (rituale, barriera,
+      crollo). I PG devono: (1) identificare la minaccia interna, (2) gestire
+      il panico degli NPC intrappolati, (3) trovare il modo di rompere il
+      sigillo o neutralizzare il pericolo. Le risorse si esauriscono (pozioni,
+      slot incantesimi, cibo). Combina bene con Il Mostro è una Persona
+      (chi è infetto?) e La Paranoia Indotta.
+    rischio: >
+      Se i PG si sentono completamente impotenti senza via d'uscita, è
+      frustrante. Dare almeno 2-3 approcci possibili per rompere il
+      contenimento o risolvere dall'interno. Il timer deve essere percepibile
+      ma non schiacciante.
+    usato_in: [L'Assedio, Il Mistero, La Corsa Contro il Tempo]
+    vedi_anche: [L'Assedio, La Paranoia Indotta, Il Mostro è una Persona, La Pestilenza]
+
+  - tipo: situazione
+    nome: Il Dilemma del Carrello (La Scelta Impossibile)
+    nome_en: Trolley Problem / Sadistic Choice / No-Win Scenario
+    nomi_alt: [Trolley Problem, Sadistic Choice, La Scelta di Sophie, No-Win Scenario, Il Bivio Mortale]
+    descrizione: >
+      I PG sono costretti a scegliere tra due esiti negativi — salvare A o
+      salvare B, dove non salvarli entrambi è la regola. Non c'è una terza
+      opzione (o se c'è, richiede un sacrificio personale estremo). Il villain
+      spesso orchestra la scelta per spezzare l'eroe moralmente. A differenza
+      di Spalle al Muro (pressione generica), qui la scelta è binaria e
+      deliberata, progettata per essere dolorosa.
+    esempi:
+      - "Spider-Man — Mary Jane o il tram pieno di bambini (Green Goblin forza la scelta)"
+      - "The Dark Knight — Harvey Dent o Rachel (il Joker forza la scelta)"
+      - "Sophie's Choice — film (scegliere quale figlio sopravvive)"
+      - "Mass Effect — distruggere i Geth o i Quarian (una razza muore)"
+      - "Witcher 3 — la maggior parte delle quest principali (scelte con perdite da entrambi i lati)"
+      - "Il dilemma del tram — filosofia morale (il modello originale)"
+    uso_dnd: >
+      Il villain pone un ultimatum: "la principessa o il villaggio" — i PG
+      devono scegliere chi salvare (non c'è tempo per entrambi). Oppure: due
+      rituali si completano simultaneamente in luoghi diversi, il party può
+      fermare solo uno. La chiave è che la scelta abbia conseguenze PERMANENTI
+      nel mondo — il villaggio bruciato resta bruciato. Una terza via è
+      possibile ma costosissima (sacrificio di un PG, perdita di un artefatto).
+    rischio: >
+      Se una scelta è chiaramente migliore dell'altra, non è un vero dilemma.
+      Entrambe le perdite devono avere peso narrativo equivalente. Se i PG
+      trovano una soluzione creativa che salva entrambi, premiarli — ma non
+      renderla ovvia.
+    usato_in: [Spalle al Muro, Tragedia, Sconfiggere il Mostro]
+    puo_aver_bisogno_di: [Il Legame]
+    vedi_anche: [Spalle al Muro, La Morale Grigia, Il Prezzo della Vittoria, Il Dilemma del Prigioniero]
+
+  - tipo: situazione
+    nome: La Falsa Pace (La Quiete Prima della Tempesta)
+    nome_en: Calm Before the Storm / False Sense of Security
+    nomi_alt: [Calm Before the Storm, False Security, La Quiete, Breathing Room Trap, Il Silenzio Sospetto]
+    descrizione: >
+      Un periodo di apparente tranquillità che precede un disastro. Tutto sembra
+      andare bene: il villain è silenzioso, i problemi si risolvono, la gente
+      sorride. Ma la calma È il segnale — il nemico si sta preparando, il
+      rituale avanza in segreto, l'esercito marcia sottoterra. A differenza
+      della Pausa (respiro intenzionale del DM), qui la calma è narrativamente
+      ingannevole e carica di presagi.
+    esempi:
+      - "La Contea all'inizio — Il Signore degli Anelli (pace idilliaca, Sauron cresce)"
+      - "L'inizio di qualsiasi film horror — la famiglia si trasferisce nella casa perfetta"
+      - "Pre-Red Wedding — Game of Thrones (la festa è troppo bella)"
+      - "L'inizio di Jurassic Park — film (il parco funziona, tutto è sotto controllo)"
+      - "La prima ora di Titanic — film (lusso e ottimismo prima dell'iceberg)"
+    uso_dnd: >
+      Una sessione 0.5 o prima metà del modulo dove tutto è bello: festa al
+      villaggio, missione facile, NPC gentili. Il DM semina presagi sottili
+      (Il Presagio): uccelli che fuggono, silenzio innaturale, un NPC che dice
+      "non è mai stato così tranquillo". I giocatori esperti capiranno che
+      qualcosa arriva — la tensione è nell'attesa, non nell'evento.
+    rischio: >
+      Se troppo lunga i giocatori si annoiano. Se troppo corta il contrasto
+      non funziona. Ideale: 20-30 minuti di calma apparente prima che esploda.
+      I presagi devono essere sufficienti che a posteriori dicano "avremmo
+      dovuto capirlo".
+    usato_in: [Tragedia, Sconfiggere il Mostro, La Festa Interrotta]
+    vedi_anche: [La Pausa, Il Presagio, La Festa Interrotta, L'Ora più Buia]
+
+  - tipo: situazione
+    nome: La Mutazione (Il Contagio Trasformante)
+    nome_en: Transformation Plague / Body Horror / Corruption Spread
+    nomi_alt: [Transformation Plague, Body Horror, Il Contagio, The Spread, La Piaga Mutante]
+    descrizione: >
+      Qualcosa sta trasformando le persone in altro — non-morti, aberrazioni,
+      licantropi, schiavi mentali, creature vegetali. Il contagio si diffonde
+      e i PG devono fermarlo prima che raggiunga massa critica. L'orrore è
+      doppio: il nemico cresce esponenzialmente, E le vittime sono persone che
+      i PG conoscevano. A differenza della Pestilenza (che uccide), qui la
+      malattia CAMBIA — e le vittime possono essere ancora coscienti dentro.
+    esempi:
+      - "The Last of Us — videogioco/serie (cordyceps trasforma in clicker)"
+      - "28 Days Later — film (rage virus trasforma in berserker)"
+      - "Invasion of the Body Snatchers — film (sostituzione silenziosa)"
+      - "La licantropia — D&D/folklore (il morso trasforma)"
+      - "I Borg — Star Trek (assimilazione, 'resistance is futile')"
+      - "Resident Evil — videogioco (T-virus trasforma in zombie)"
+    uso_dnd: >
+      Un villaggio inizia a mostrare segni: NPC familiari si comportano in modo
+      strano, spariscono di notte, tornano "diversi". I PG devono: identificare
+      il vettore di contagio, trovare la fonte (paziente zero, artefatto
+      corrotto, rituale attivo), e decidere se le vittime sono ancora
+      salvabili o se serve il fuoco purificatore. Timer implicito: ogni
+      long rest il contagio si diffonde a 1d4 nuovi NPC.
+    rischio: >
+      Se i PG vengono infettati senza possibilità di cura, perdono l'agency.
+      Prevedere sempre una finestra di cura (rimuovi maledizione, erba rara,
+      distruggere la fonte). Se un PG viene infettato: dargli 2-3 sessioni
+      prima della trasformazione completa, con effetti graduali giocabili.
+    usato_in: [La Pestilenza, Sconfiggere il Mostro, La Corsa Contro il Tempo]
+    vedi_anche: [La Pestilenza, Il Mostro è una Persona, La Quarantena, Il Ritorno Sbagliato]
+
+  - tipo: situazione
+    nome: La Resa dei Conti (Il Boss Fight)
+    nome_en: Final Showdown / The Boss Fight / Climactic Battle
+    nomi_alt: [Boss Fight, Final Showdown, Lo Scontro Finale, Climactic Battle, The Last Stand]
+    descrizione: >
+      Il confronto finale con l'antagonista — il momento verso cui tutta
+      l'avventura converge. Non è un combattimento qualsiasi: è lo scontro
+      che risolve il conflitto centrale. Ha regole proprie: l'ambiente è
+      significativo (la tana del drago, la torre del lich, il vulcano), il
+      villain ha preparativi e fasi, e la posta in gioco è massima. Tutto
+      ciò che i PG hanno imparato e raccolto durante l'avventura serve ORA.
+    esempi:
+      - "Luke vs Vader nella Morte Nera II — Star Wars"
+      - "La battaglia alla Montagna del Fato — Il Signore degli Anelli"
+      - "Harry vs Voldemort a Hogwarts — Harry Potter"
+      - "Il Drago nella montagna — Lo Hobbit"
+      - "Neo vs Agent Smith — The Matrix"
+      - "Ogni boss fight di Dark Souls — il pattern è: arena + fasi + meccaniche uniche"
+    uso_dnd: >
+      La boss fight deve essere: (1) preparata — il villain è stato costruito
+      per moduli, i PG lo conoscono e lo temono; (2) multi-fase — non un
+      singolo sacco di HP, ma fasi con cambi di tattica/forma/arena;
+      (3) ambientale — l'arena ha elementi interattivi (pilastri che crollano,
+      lava, macchinari); (4) personale — almeno un PG ha un conto aperto col
+      villain. L'esito della battaglia deve cambiare il mondo in modo
+      permanente. Dopo la Resa dei Conti viene Il Debriefing.
+    rischio: >
+      Se il boss muore in 2 round per una combo fortunata, è anticlimax. Se è
+      troppo forte e TPK, è frustrante. Prevedere meccaniche anti-climax:
+      reazioni leggendarie, fasi, alleati del boss. E avere un piano B se il
+      boss scende troppo in fretta (fase 2, trasformazione).
+    usato_in: [Sconfiggere il Mostro, La Vendetta, La Cerca]
+    puo_aver_bisogno_di: [La Costruzione dell'Odio, Il Legame (affezione)]
+    vedi_anche: [L'Ora più Buia, Il Debriefing, Il Falso Finale, Il Sacrificio Volontario]
+
 
   - tipo: relazione
     nome: Il Rivale Rispettoso che Diventa Alleato
@@ -4480,6 +5423,107 @@ stereotipi:
       dovrebbero poter influenzare la transizione con le loro azioni.
     usato_in: [L'Alleanza col Nemico, La Rivalità, Sconfiggere il Mostro]
     vedi_anche: [L'Alleanza col Nemico, La Nemesi, Il Nemico Onorevole, La Rivalità Amichevole]
+
+  - tipo: relazione
+    nome: La Fiducia Tradita (Il Pugnale nella Schiena)
+    nome_en: Betrayal of Trust / Backstab
+    nomi_alt: [Backstab, Broken Trust, Il Tradimento Intimo, Stab in the Back, La Pugnalata alle Spalle]
+    sottocaso_di: Il Tradimento dell'Alleato
+    descrizione: >
+      Un personaggio in cui il protagonista aveva riposto fiducia genuina lo
+      tradisce deliberatamente. Non è un nemico mascherato da alleato (quella è
+      La Talpa): è qualcuno che ERA davvero un alleato, ma ha scelto di tradire
+      per motivi propri. Il tradimento è più doloroso perché la fiducia era
+      meritata — fino a quel momento.
+    esempi:
+      - "Lando tradisce Han — Star Wars (costretto, ma tradisce)"
+      - "Boromir tenta di prendere l'Anello — Il Signore degli Anelli (la debolezza vince)"
+      - "Brutus pugnala Cesare — Shakespeare ('Et tu, Brute?')"
+      - "Cypher tradisce Morpheus — The Matrix (per tornare nella simulazione)"
+      - "Saruman tradisce il Concilio Bianco — Il Signore degli Anelli"
+      - "Griffith tradisce la Band of the Hawk — Berserk (per il suo sogno)"
+    uso_dnd: >
+      Un NPC alleato stretto (il quest giver, il companion, il patron) tradisce
+      i PG per motivi comprensibili: è stato ricattato, ha una famiglia in
+      ostaggio, crede sinceramente di fare la cosa giusta, o semplicemente
+      l'offerta era troppo buona. La differenza con La Talpa: la talpa non è
+      mai stata alleata davvero. Qui il tradimento è un CAMBIO di lealtà, non
+      un inganno originario. I PG devono decidere: vendetta o perdono?
+    rischio: >
+      Se succede troppo spesso i giocatori non si fideranno mai di nessun NPC.
+      Max 1 tradimento per campagna. L'NPC deve aver dato VERO aiuto prima —
+      altrimenti non fa male. Il tradimento deve avere una ragione che i PG
+      possono comprendere (anche se non perdonare).
+    usato_in: [Tragedia, L'Ora più Buia, La Vendetta]
+    puo_aver_bisogno_di: [Il Legame (affezione)]
+    vedi_anche: [Il Tradimento dell'Alleato, La Talpa, L'Amico Velenoso, Lo Specchio Interiore]
+
+  - tipo: relazione
+    nome: La Coppia Forzata (Il Buddy Cop)
+    nome_en: Odd Couple / Buddy Cop / Chained Together
+    nomi_alt: [Buddy Cop, Odd Couple, Chained Together, Compagni Forzati, Vitriolic Best Buds]
+    sottocaso_di: L'Alleato Scomodo
+    descrizione: >
+      Due personaggi che non si sopportano (personalità opposte, valori in
+      conflitto, storia personale ostile) sono costretti a collaborare da
+      circostanze esterne: incatenati insieme, stesso obiettivo, ordine del
+      patron, magia vincolante. La tensione comica/drammatica viene dallo
+      scontro continuo — e dalla graduale, riluttante crescita del rispetto.
+    esempi:
+      - "Legolas e Gimli — Il Signore degli Anelli (odio razziale → amicizia)"
+      - "Riggs e Murtaugh — Lethal Weapon (folle + prudente)"
+      - "Shrek e Ciuchino — Shrek (introverso + estroverso)"
+      - "Geralt e Jaskier — The Witcher (misantropo + bardo)"
+      - "Jake e Rosa / Jake e Charles — Brooklyn Nine-Nine"
+      - "Il Defiant Ones — film 1958 (due prigionieri incatenati, uno bianco uno nero)"
+    uso_dnd: >
+      Due PG o un PG e un NPC sono costretti a collaborare: stessa missione da
+      patron diversi, maledizione che li lega, inseguiti dallo stesso nemico.
+      Non possono separarsi (vincolo meccanico o narrativo). La tensione si
+      scioglie gradualmente man mano che si salvano a vicenda. Ideale per
+      coppie di giocatori con PG in conflitto — dà struttura al conflitto.
+    rischio: >
+      Se il conflitto è reale (i giocatori si infastidiscono, non i PG), è
+      tossico. Funziona solo se entrambi i giocatori sono d'accordo e si
+      divertono. L'arco deve avere una risoluzione: o diventano amici, o si
+      separano con rispetto, mai stallo infinito.
+    usato_in: [Commedia degli Errori, La Cerca, La Scorta]
+    vedi_anche: [Il Branco di Disadattati, L'Alleato Scomodo, La Rivalità Amichevole, Il Rivale Rispettoso che Diventa Alleato]
+
+  - tipo: relazione
+    nome: Il Maestro Caduto (Il Mentore Corrotto)
+    nome_en: Fallen Mentor / Corrupted Master
+    nomi_alt: [Fallen Mentor, Corrupted Teacher, Il Maestro Tradito, The Dark Mentor, Da Guida a Nemico]
+    sottocaso_di: Il Maestro e l'Allievo (Opposti)
+    descrizione: >
+      L'ex mentore dei PG (o di un NPC importante) è diventato un avversario —
+      corrotto dal potere, tradito dalle istituzioni, o semplicemente convinto
+      che la via oscura sia necessaria. A differenza del Maestro e l'Allievo
+      (Opposti) generico, qui il rapporto era genuinamente buono prima: il
+      mentore ha insegnato tutto ciò che i PG sanno, e ora usa quelle stesse
+      conoscenze contro di loro. Il conflitto è personale e doloroso.
+    esempi:
+      - "Saruman — Il Signore degli Anelli (saggio corrotto dal potere)"
+      - "Count Dooku — Star Wars (ex Jedi passato al Lato Oscuro)"
+      - "Ra's al Ghul per Batman — DC (il maestro che Batman deve fermare)"
+      - "Mordo — Doctor Strange (compagno di studi diventato nemico)"
+      - "Walter White per Jesse — Breaking Bad (il mentore diventa il mostro)"
+      - "Anakin per Ahsoka — Star Wars (il maestro che cade)"
+    uso_dnd: >
+      Il patron/mentore dei PG (quello che dava le quest) è diventato il villain
+      del secondo arco. Conosce le debolezze dei PG, le loro tattiche, i loro
+      segreti. I PG devono superare gli insegnamenti ricevuti per batterlo.
+      Il conflitto emotivo: possono provare a redimerlo (difficile, richiede
+      sacrifici) o fermarlo (doloroso ma necessario). L'ex-mentore ha
+      ragioni comprensibili per la sua caduta (Anti-Villain).
+    rischio: >
+      Se il mentore era poco sviluppato prima della caduta, il tradimento non
+      colpisce. Investire almeno 2-3 sessioni dove il mentore è genuinamente
+      utile e paterno. Se la caduta è improvvisa senza presagi, sembra
+      arbitraria. Seminare crepe: dubbi, metodi discutibili, segreti.
+    usato_in: [Sconfiggere il Mostro, Tragedia, La Vendetta]
+    puo_aver_bisogno_di: [Il Legame (affezione)]
+    vedi_anche: [Il Maestro e l'Allievo (Opposti), Il Mentore, L'Anti-Villain, Il Piedistallo Spezzato]
 
 
   - tipo: tecnica
@@ -4563,83 +5607,884 @@ stereotipi:
       per sessione. Tutto ciò che i PG hanno VISTO è canonico.
     usato_in: [La Cerca, Il Viaggio dell'Esilio]
     vedi_anche: [Plot Concatenati, L'Orologio del Villain, Bella Idea]
+    nome_en: Reconnaissance / Look Don't Touch / Stakeout
+    nomi_alt: [Stakeout, Recon Mission, Look Don't Touch, L'Appostamento, Pedinamento]
+    descrizione: >
+      I PG devono osservare, spiare, o raccogliere informazioni su un bersaglio
+      SENZA farsi scoprire e SENZA intervenire. La tensione nasce dal vincolo:
+      vedono qualcosa di ingiusto/pericoloso ma non possono agire, pena il
+      fallimento della missione. Ogni errore rischia di compromettere l'intera
+      operazione.
+    esempi:
+      - "Qualsiasi film di spionaggio — la fase di sorveglianza prima del colpo"
+      - "Rear Window — Hitchcock (osservare un crimine senza poter intervenire)"
+      - "The Wire — serie TV (intercettazioni, appostamenti, pazienza)"
+      - "Metal Gear Solid — videogioco (stealth puro, osservare i pattern)"
+      - "Tinker Tailor Soldier Spy — Le Carré (intelligence passiva)"
+    uso_dnd: >
+      I PG devono sorvegliare un NPC sospetto per 3 giorni, annotare i suoi
+      contatti, scoprire dove va di notte. Se vengono scoperti, il bersaglio
+      fugge e l'intera operazione fallisce. Meccaniche: Furtività, Percezione,
+      Inganno (per giustificare la propria presenza). Inserire momenti di
+      tensione: il bersaglio si volta, un passante li riconosce, il bersaglio
+      fa qualcosa di orribile e i PG devono trattenersi.
+    rischio: >
+      Se è solo "tiri Furtività ogni ora", è noioso. Dare scelte: il bersaglio
+      sta per uccidere qualcuno, intervenite (rompendo la copertura) o lasciate
+      accadere? Un PG viene riconosciuto, cosa inventa? La missione si
+      complica e i vincoli si stringono.
+    usato_in: [Il Mistero, L'Infiltrazione, L'Indagine sulla Cospirazione]
+    vedi_anche: [L'Infiltrazione, Il Mistero, Il Piano Non Detto, La Sorveglianza]
+
 
   - tipo: tecnica
-    nome: I Dial del Mostro (Difficoltà Regolabile)
-    nome_en: Monster Difficulty Dials (Sly Flourish)
-    nomi_alt: [Difficulty Dials, Manopole della Difficoltà, On-the-Fly Adjustment, Combat Tuning]
+    nome: La Sorveglianza (Osservare senza Agire)
+    nome_en: Stakeout / Recon / Look Don't Touch
+    nomi_alt: [Stakeout, Recon Phase, Look Don't Touch, Osservazione Passiva, Intelligence Gathering]
     descrizione: >
-      Quattro "manopole" che il DM può girare durante il combattimento per
-      regolare la difficoltà al volo: (1) Punti Ferita — alzare o abbassare
-      i PF del mostro dentro il range del dado vita; (2) Numero di mostri —
-      farne fuggire o aggiungerne; (3) Danno — aumentare o diminuire il danno
-      per attacco; (4) Numero di attacchi — dare attacchi extra o toglierli.
-      Non è barare — è game design responsivo.
+      I PG devono osservare un bersaglio (luogo, NPC, evento) senza farsi
+      notare e senza agire. Raccolgono informazioni per un'azione futura:
+      le ronde delle guardie, le abitudini del bersaglio, i punti deboli
+      della fortezza. La tensione è nella pazienza e nel rischio di essere
+      scoperti. È la fase preparatoria di un'Infiltrazione o di un Colpo.
     esempi:
-      - "Sly Flourish — Monster Difficulty Dials (il metodo originale)"
-      - "Matt Colville — 'Action Oriented Monsters' (concetto affine)"
-      - "Dark Souls — i boss hanno fasi che cambiano difficoltà"
-      - "Qualsiasi DM che ha mai abbassato i PF di un mostro perché il combat era noioso"
+      - "Qualsiasi film di spionaggio — la fase di sorveglianza prima del colpo"
+      - "Ocean's Eleven — film (studiare il casinò per settimane)"
+      - "Stakeout — poliziesco classico (appostamento noioso ma necessario)"
+      - "The Wire — serie (intercettazioni e osservazione)"
+      - "Metal Gear Solid — videogioco (fase stealth = osservare le pattern)"
     uso_dnd: >
-      Il combat è troppo facile? Il mostro colpisce più forte (Dial Danno su)
-      o chiama rinforzi (Dial Numero su). Il combat è troppo lungo e noioso?
-      Il mostro ha meno PF di quelli scritti (Dial PF giù). Un singolo mostro
-      contro 5 PG? Dargli 2 attacchi per turno (Dial Attacchi su). Dichiarare
-      al tavolo? NO — è trasparente nel risultato, nascosto nel metodo.
+      I PG devono osservare prima di agire: contare le guardie, mappare le
+      ronde, identificare i punti deboli. Meccanica: tiri Percezione/
+      Stealth a intervalli. Ogni successo dà un'informazione utile. Ogni
+      fallimento rischia di allertare il bersaglio. La sorveglianza PREMIA
+      la pazienza: chi la fa bene ha vantaggio nell'infiltrazione successiva.
     rischio: >
-      Se i giocatori scoprono che il DM modifica i numeri al volo, possono sentirsi
-      ingannati. Non esagerare: piccoli aggiustamenti, non stravolgimenti. Se il
-      mostro aveva 60 PF e lo riduci a 30, è un cambiamento troppo grande.
-    usato_in: [Sconfiggere il Mostro, L'Incontro Filler, L'Assedio]
-    vedi_anche: [Il Pacing, L'Incontro Filler, La Pseudo-Scelta]
+      Se diventa solo una serie di tiri senza narrazione, è noioso. Dare
+      eventi durante l'osservazione: un imprevisto che quasi li scopre, un
+      dettaglio inaspettato, un'opportunità fugace.
+    usato_in: [L'Infiltrazione, Il Mistero, Il Piano Non Detto]
+    vedi_anche: [L'Infiltrazione, Il Mistero, Il Piano Non Detto, La Sorveglianza]
 
   - tipo: tecnica
-    nome: Stars and Wishes (Feedback dei Giocatori)
-    nome_en: Stars and Wishes (Gauntlet RPG / Sly Flourish)
-    nomi_alt: [Stelle e Desideri, Player Feedback, Roses and Thorns, Post-Session Debrief]
+    nome: L'Addestramento (Il Montage)
+    nome_en: Training Montage / Preparation Sequence
+    nomi_alt: [Training Montage, Preparation Arc, Leveling Up, Il Potenziamento, Time Skip Training]
     descrizione: >
-      Alla fine di ogni 2-3 sessioni, chiedere a ogni giocatore: (1) una "stella"
-      — cosa ha apprezzato di più; (2) un "desiderio" — cosa vorrebbe vedere di
-      più in futuro. È feedback strutturato che guida la prep del DM. Non è
-      una critica — è un dialogo costruttivo. Il DM scopre cosa funziona e cosa
-      manca PRIMA che diventi un problema.
+      Una sequenza compressa nel tempo in cui i PG (o un NPC) si preparano per
+      una sfida futura: allenamento con un maestro, studio di un tomo, forgiatura
+      di un'arma, costruzione di difese. Il tempo passa veloce, la narrazione
+      mostra solo i momenti salienti. Il risultato è un bonus meccanico o
+      narrativo per la sfida che segue.
     esempi:
-      - "Gauntlet RPG community — ha creato il format"
-      - "Sly Flourish — lo raccomanda come pratica regolare"
-      - "Session zero inversa — feedback retroattivo invece che preventivo"
+      - "Rocky — film (il montage di allenamento più iconico)"
+      - "Star Wars — Luke si allena con Yoda su Dagobah"
+      - "Kill Bill — film (l'addestramento col maestro Pai Mei)"
+      - "Mulan — film Disney (il montage dell'esercito)"
+      - "Karate Kid — film (wax on, wax off)"
+      - "Avatar — Aang impara i 4 elementi (arco di addestramento)"
     uso_dnd: >
-      Ogni 3 sessioni, 5 minuti a fine serata: "Cosa vi è piaciuto? Cosa vorreste
-      vedere?" Se i giocatori dicono "più combattimento" → il DM prepara più
-      combattimento. Se dicono "più intrigo" → più scene sociali. Se dicono "quel
-      NPC era fantastico" → il DM lo fa tornare (La Promozione). Il tavolo si
-      auto-calibra senza conflitti.
+      Tra un modulo e l'altro, i PG hanno tempo per prepararsi. Gestire come
+      una scena narrativa breve: il DM chiede "come ti prepari?" e il PG
+      descrive. Meccanicamente: vantaggio al primo tiro rilevante, competenza
+      temporanea in un tool, ispirazione. Oppure: il montage È il modulo (i PG
+      addestrano un villaggio a difendersi). Ogni scelta di addestramento
+      determina cosa saranno pronti ad affrontare.
     rischio: >
-      Se il DM chiede ma poi ignora i feedback, è peggio che non chiedere. Ogni
-      feedback deve produrre almeno un cambiamento visibile entro 2 sessioni.
+      Se è solo "passa il tempo, hai +1", non ha peso narrativo. Dare una
+      scelta: puoi allenarti nella spada O studiare il rituale, ma non entrambi.
+      Il tempo è limitato e le priorità contano.
+    usato_in: [Sconfiggere il Mostro, L'Assedio, La Radunata]
+    vedi_anche: [La Radunata, Il Pacing, La Pausa, Il Mentore]
+
+
+  - tipo: tecnica
+    nome: Il Terreno come Arma (La Mappa Tattica)
+    nome_en: Terrain as Weapon / Environmental Hazards
+    nomi_alt: [Environmental Hazards, Tactical Terrain, La Mappa Tattica, Battlefield Control, Dynamic Battlefield]
+    descrizione: >
+      L'ambiente non è solo lo sfondo del combattimento: è un'arma attiva che
+      entrambe le parti possono sfruttare. Coperture, dislivelli, terreno
+      difficile, pericoli ambientali (lava, acqua, crolli) trasformano uno
+      scontro piatto in un puzzle tattico. Chi controlla il terreno controlla
+      il combattimento.
+    esempi:
+      - "Obi-Wan ha l'high ground — Star Wars ('It's over, Anakin!')"
+      - "Il ponte di Khazad-dûm — Il Signore degli Anelli (chokepoint tattico)"
+      - "Il Fosso di Helm — Il Signore degli Anelli (difesa su terreno favorevole)"
+      - "John Wick — film (usa ogni elemento dell'ambiente come arma)"
+      - "Dark Souls — videogioco (ogni boss arena ha pericoli ambientali)"
+      - "XCOM — videogioco (coperture, altezze, distruttibilità)"
+    uso_dnd: >
+      Ogni mappa di combattimento deve avere almeno 3 elementi interattivi:
+      copertura (mezza/totale), terreno difficile, dislivello, pericolo
+      ambientale (fuoco, acqua profonda, ghiaccio), oggetti distruttibili o
+      spostabili. I nemici USANO il terreno (arcieri in alto, bruti che spingono
+      nel burrone). I PG creativi possono ribaltare il terreno a loro vantaggio.
+    rischio: >
+      Se il terreno è troppo complesso, rallenta il combattimento. 3-4 elementi
+      interattivi bastano. Se il terreno è troppo letale (lava ovunque), i PG
+      non si muovono. Bilanciare: il terreno offre sia rischio che opportunità.
+    usato_in: [L'Assedio, L'Imboscata, Sconfiggere il Mostro]
+    vedi_anche: [L'Imboscata, La Caccia, Il Pacing, Le Location Fantastiche]
+
+  - tipo: tecnica
+    nome: Il Flashback (La Rivelazione del Passato)
+    nome_en: Flashback / Diegetic Retrospection
+    nomi_alt: [Flashback, Analepsi, Reveal Through Memory, La Scena del Passato, Retrospezione Diegetica]
+    descrizione: >
+      Informazioni sul passato vengono rivelate ai PG durante il gioco. A
+      differenza del cinema (dove il flashback è una convenzione: lo spettatore
+      vede), nel GDR non esiste uno spettatore esterno — i giocatori SONO i
+      personaggi. Quindi il flashback deve sempre avere una giustificazione
+      diegetica: un motivo nel mondo di gioco per cui i PG ottengono quelle
+      informazioni. Senza giustificazione è una cutscene che rompe l'immersione.
+    esempi:
+      - "Legend Lore / Speak with Dead — D&D (incantesimi che rivelano il passato)"
+      - "Il Pensatoio — Harry Potter (artefatto che permette di vivere i ricordi altrui)"
+      - "Assassin's Creed — videogioco (l'Animus giustifica il rivivere il passato)"
+      - "Blades in the Dark — GDR (flashback come meccanica: 'l'avevo già preparato')"
+      - "Diario/lettera del morto — qualsiasi mystery (il documento come veicolo)"
+      - "La Forza mostra visioni — Star Wars (Rey tocca la spada di Luke e vede il passato)"
+    uso_dnd: >
+      Veicoli diegetici per rivelare il passato: (1) racconto di un NPC
+      testimone; (2) diario, lettera, iscrizione trovata; (3) incantesimo
+      (Legend Lore, Speak with Dead, Commune, Scrying su oggetto); (4)
+      artefatto che mostra visioni (specchio, pozzo, cristallo); (5) sogno
+      mandato da un dio o patrono; (6) memoria propria del PG (concordata
+      col giocatore). Player-driven (stile Blades): il PG spende Ispirazione
+      e dichiara "avevo già preparato questo" — si gioca la scena retroattiva.
+    rischio: >
+      Se il DM fa una "cutscene" dove i PG vedono cose senza giustificazione
+      ("vedete il villain 100 anni fa..."), rompe l'immersione — perché lo
+      sanno? Ogni flashback deve rispondere alla domanda: "attraverso quale
+      mezzo il PG ottiene questa informazione?". Max 1 per sessione.
+    usato_in: [Il Mistero, La Tentazione, L'Indagine sulla Cospirazione]
+    vedi_anche: [In Medias Res, Il Presagio, Il Narratore Inaffidabile, Il Flash Forward, La Rivelazione Ambientale]
+
+  - tipo: tecnica
+    nome: Il Flash Forward (L'Anticipazione del Futuro)
+    nome_en: Flash Forward / Prolepsis / Diegetic Foresight
+    nomi_alt: [Flash Forward, Prolepsi, Vision of Things to Come, L'Anticipo, Visione Profetica]
+    descrizione: >
+      Informazioni sul futuro vengono mostrate ai PG. Come per il Flashback,
+      in un GDR non esiste lo "spettatore" separato — i giocatori sono gli
+      attori. Quindi il flash forward deve avere una giustificazione diegetica:
+      un motivo nel mondo per cui i PG VEDONO il futuro. Non basta che il DM
+      dica "vedete cosa accadrà" — serve un veicolo: visione divina, sogno
+      profetico, artefatto di divinazione, effetto di un incantesimo,
+      allucinazione indotta. Il futuro visto può essere immutabile (destino)
+      o evitabile (ammonimento).
+    esempi:
+      - "Il Pensatoio di Silente / la Profezia — Harry Potter (artefatto + oracolo)"
+      - "A Christmas Carol — Dickens (lo Spirito del Natale Futuro è il veicolo)"
+      - "Final Destination — film (la visione è il trigger soprannaturale)"
+      - "La Forza mostra il futuro — Star Wars (Luke vede gli amici soffrire su Bespin)"
+      - "Divination — D&D (incantesimo che fornisce profezia criptica)"
+      - "Augury / Commune — D&D (risposte sì/no sul futuro prossimo)"
+    uso_dnd: >
+      Veicoli diegetici per mostrare il futuro: (1) sogno mandato da un dio/
+      patrono (il PG si sveglia con la visione); (2) artefatto di divinazione
+      (specchio, pozza, sfera di cristallo — il PG guarda dentro); (3)
+      incantesimo (Divination, Commune, Augury — con limiti meccanici);
+      (4) NPC oracolo/veggente che descrive ciò che ha visto; (5) luogo
+      sacro dove il velo del tempo è sottile (il PG ha una visione entrando).
+      Il futuro mostrato deve essere azionabile: i PG possono agire per
+      evitarlo o prepararsi.
+    rischio: >
+      Se il futuro mostrato è troppo specifico e immutabile, è railroad. Se
+      il DM mostra il futuro senza veicolo diegetico ("vedete il villain che
+      vince tra 3 giorni"), rompe l'immersione — perché lo vedono? Inoltre:
+      se i PG vedono il futuro e poi esso cambia senza motivo, perdono
+      fiducia nel DM. Il futuro mostrato deve essere coerente con le azioni
+      successive.
+    usato_in: [La Corsa Contro il Tempo, La Profezia, Il Mistero]
+    vedi_anche: [Il Flashback, La Profezia, Il Presagio, La Profezia Autoavverante, L'Ironia Drammatica]
+
+  - tipo: tecnica
+    nome: Il Cliffhanger (La Sospensione)
+    nome_en: Cliffhanger / End-of-Session Hook
+    nomi_alt: [Cliffhanger, Session Ender, La Sospensione, End on a Bang, To Be Continued]
+    descrizione: >
+      Interrompere la sessione (o il modulo) nel momento di massima tensione:
+      il villain appare, la porta si apre su qualcosa di terribile, un alleato
+      cade, una rivelazione cambia tutto. I giocatori restano col fiato sospeso
+      fino alla prossima sessione. È la tecnica seriale per eccellenza.
+    esempi:
+      - "Ogni finale di episodio di serie TV ('previously on...')"
+      - "The Empire Strikes Back — 'I am your father' (fine del secondo atto)"
+      - "Game of Thrones — Red Wedding (chiude l'episodio sullo shock)"
+      - "Breaking Bad — ogni metà stagione finisce su un cliffhanger"
+      - "1001 Notti — Sheherazade interrompe al momento chiave"
+    uso_dnd: >
+      Pianificare il finale della sessione: quando il timer reale dice "mancano
+      15 minuti", accelerare verso un momento di rottura. Tipi efficaci: (1) il
+      nemico appare per la prima volta, (2) un alleato fa qualcosa di inaspettato,
+      (3) una porta/scatola/lettera viene aperta ma non letta, (4) "Roll
+      initiative" → e ci vediamo la prossima settimana.
+    rischio: >
+      Se ogni sessione finisce su un cliffhanger, perde effetto. Alternare:
+      sessioni che chiudono un arco (soddisfazione) con sessioni che aprono
+      (tensione). Non lasciare un cliffhanger irrisolto per troppe sessioni.
+    usato_in: [Il Pacing, Plot Concatenati, La Campagna a Spirale]
+    vedi_anche: [Il Pacing, In Medias Res, L'Ora più Buia, Il Colpo di Scena]
+
+  - tipo: tecnica
+    nome: Il Red Herring (La Falsa Pista)
+    nome_en: Red Herring / False Lead / Misdirection
+    nomi_alt: [Red Herring, False Lead, La Pista Sbagliata, Misdirection, Il Depistaggio]
+    descrizione: >
+      Un indizio, un NPC, o un'intera sotto-trama deliberatamente piazzati per
+      deviare l'attenzione dalla verità. Il red herring fa sembrare colpevole
+      l'innocente, importante l'irrilevante, o pericoloso l'innocuo. È lo
+      strumento fondamentale del mystery: senza false piste, l'indagine è
+      troppo lineare. Deve essere plausibile (altrimenti non inganna) ma
+      distinguibile a posteriori (altrimenti è barare).
+    esempi:
+      - "Il Professore Piton — Harry Potter (sembra il cattivo in ogni libro, non lo è mai)"
+      - "Ogni episodio di Scooby-Doo (il primo sospettato non è mai il colpevole)"
+      - "Il marito geloso — qualsiasi giallo (sospetto ovvio che devia dall'assassino vero)"
+      - "La valigetta in Pulp Fiction — film (sembra importante, non lo è)"
+      - "Sirius Black — Harry Potter e il Prigioniero (sembra il traditore)"
+      - "Le aringhe rosse letterali — origine del termine (usate per confondere i cani da caccia)"
+    uso_dnd: >
+      In un'indagine: piazzare 1-2 NPC che sembrano colpevoli (hanno movente,
+      opportunità, e si comportano in modo sospetto) ma non lo sono. Le prove
+      contro di loro devono essere spiegabili innocentemente se i PG scavano
+      più a fondo. Regola: per ogni red herring, fornire almeno 1 indizio che
+      lo scagiona E almeno 1 indizio che punta al vero colpevole. Il red herring
+      non deve essere un vicolo cieco totale — i PG devono poterne uscire.
+    rischio: >
+      Se ci sono troppe false piste, i PG si perdono e si frustrano. Se il red
+      herring è troppo convincente e non smontabile, i PG puniscono un innocente
+      (che può essere un twist intenzionale). Max 1-2 red herring per mistero.
+      Usare la Three Clue Rule: 3 indizi verso il vero colpevole compensano
+      le false piste.
+    usato_in: [Il Mistero, L'Indagine sulla Cospirazione, Il Colpo di Scena]
+    vedi_anche: [Il Mistero, Il Falso Antagonista, La Three Clue Rule, Il Narratore Inaffidabile]
+
+  - tipo: tecnica
+    nome: La Rivelazione Ambientale (Lo Show Don't Tell)
+    nome_en: Environmental Storytelling / Show Don't Tell
+    nomi_alt: [Environmental Storytelling, Show Don't Tell, Narrazione Ambientale, Visual Storytelling, Il Dettaglio Parlante]
+    descrizione: >
+      La storia viene raccontata attraverso dettagli dell'ambiente — non
+      attraverso dialoghi o esposizione. Un cadavere con le mani artigliate
+      verso la porta racconta una storia. Un villaggio vuoto con i piatti
+      ancora a tavola racconta un'altra. Scheletri incatenati, graffiti sul
+      muro, oggetti fuori posto, segni di lotta — tutto comunica COSA È
+      SUCCESSO senza che nessuno lo dica esplicitamente. I giocatori devono
+      ricostruire.
+    esempi:
+      - "Dark Souls — ogni area racconta la sua storia attraverso posizionamento oggetti e cadaveri"
+      - "Fallout — i terminali e gli scheletri raccontano le ultime ore"
+      - "Gone Home — videogioco (tutta la storia è nell'ambiente)"
+      - "Bioshock — i diari audio + l'ambiente degradato di Rapture"
+      - "Alien — film (la scena del facehugger morto e il buco nell'armatura)"
+      - "Pompeii — storia reale (i corpi congelati nel tempo raccontano l'ultimo istante)"
+    uso_dnd: >
+      Invece di far dire a un NPC "qui è successo X", MOSTRARE: descrivere
+      la stanza con dettagli che i giocatori interpretano. "Il tavolo è
+      rovesciato. Tre sedie sono ancora in piedi, una è in frantumi. Sul muro
+      c'è una macchia scura all'altezza di una persona. La porta è stata
+      sbarrata DALL'INTERNO." I PG deducono cosa è successo. Più coinvolgente
+      dell'esposizione e premia l'attenzione. Combinare con tiri Investigazione/
+      Percezione per dettagli aggiuntivi.
+    rischio: >
+      Se i dettagli sono troppo criptici, i PG non capiscono e chiedono "ok
+      ma cosa è successo?". Bilanciare: i dettagli ovvi raccontano il cosa,
+      quelli sottili il perché. Se i PG non colgono, un tiro abilità può
+      fornire l'interpretazione ("con un 15+ in Investigazione, deduci che...").
+    usato_in: [Il Mistero, Viaggio e Ritorno, La Cerca]
+    vedi_anche: [Il Registro dell'Apocalisse, Il Fucile di Čechov, Il Presagio, I Segreti Flottanti]
+
+  - tipo: tecnica
+    nome: L'Escalation (Il Crescendo della Posta)
+    nome_en: Escalation / Raising the Stakes / Power Creep Narrativo
+    nomi_alt: [Raising the Stakes, Escalation, Il Crescendo, Power Creep Narrativo, Upping the Ante]
+    descrizione: >
+      Ogni modulo/arco alza la posta rispetto al precedente. Le minacce sono
+      più grandi, le perdite più pesanti, le scelte più costose. Non è solo
+      "nemici più forti" (quello è power creep meccanico) — è la posta
+      NARRATIVA che cresce: prima rischi la vita, poi rischi gli amici, poi
+      rischi il mondo. L'escalation dà direzione alla campagna e impedisce
+      che i moduli sembrino scollegati.
+    esempi:
+      - "Harry Potter — saga (da 'salva la pietra' a 'salva il mondo magico')"
+      - "MCU — da 'salva un quartiere' a 'salva l'universo' (Fase 1→3)"
+      - "Breaking Bad — da 'pagare le cure' a 'impero criminale' (la posta sale ogni stagione)"
+      - "Il Signore degli Anelli — da 'lascia la Contea' a 'il destino del mondo'"
+      - "D&D livelli 1→20 — la scala naturale della campagna"
+    uso_dnd: >
+      Pianificare la posta per arco: Arco 1 (lv1-4) = minaccia locale
+      (villaggio, gilda); Arco 2 (lv5-10) = minaccia regionale (regno,
+      fazione); Arco 3 (lv11-16) = minaccia continentale; Arco 4 (lv17-20)
+      = minaccia cosmica/mondiale. Ogni arco deve anche alzare la posta
+      EMOTIVA: prima sono in pericolo gli NPC secondari, poi i companion amati,
+      poi i PG stessi, poi tutto ciò che amano.
+    rischio: >
+      Se la posta sale troppo in fretta, non c'è spazio per crescere (inflation).
+      Se ogni modulo è "il mondo sta finendo", niente è speciale. Regola:
+      la posta personale (Il Legame) pesa più della posta cosmica. Un NPC
+      amato in pericolo è più potente di "il continente è minacciato".
+    puo_aver_bisogno_di: [Il Legame, Il Pacing]
+    usato_in: [Sconfiggere il Mostro, La Cerca, La Vendetta]
+    vedi_anche: [Il Pacing, Il Legame, La Costruzione dell'Odio, La Campagna a Spirale]
+
+  - tipo: tecnica
+    nome: La Callback (Il Richiamo)
+    nome_en: Callback / Payoff / Bookend
+    nomi_alt: [Callback, Payoff, Bookend, Il Richiamo, Il Ritorno del Motivo]
+    descrizione: >
+      Un elemento introdotto nei primi moduli (una frase, un oggetto, un NPC,
+      un luogo) ritorna nel finale con un significato nuovo o amplificato.
+      A differenza del Fucile di Čechov (che è un setup intenzionale per un
+      payoff meccanico), la callback è emotiva: il ritorno dell'elemento dà
+      CHIUSURA e connette l'inizio alla fine. Fa sentire la storia come un
+      cerchio, non una linea.
+    esempi:
+      - "'I am Iron Man' — MCU (prima e ultima frase di Tony)"
+      - "La Contea alla fine — Il Signore degli Anelli (tornare dove tutto è iniziato, cambiati)"
+      - "'After all this time?' 'Always.' — Harry Potter (la callback di Snape)"
+      - "Il tema musicale del primo episodio che torna nel finale — qualsiasi serie"
+      - "'Non sono in pericolo. IO sono il pericolo.' — Breaking Bad (callback della paura iniziale)"
+    uso_dnd: >
+      Nel modulo finale, riprendere deliberatamente un elemento del modulo 1:
+      la taverna dove tutto è iniziato, la frase dell'NPC che li ha mandati
+      in missione, l'oggetto insignificante del primo incontro. Ora ha peso
+      nuovo. Tecniche: (1) stessa location, situazione diversa; (2) stessa
+      frase detta da persona diversa o con significato diverso; (3) l'oggetto
+      del primo modulo diventa la chiave dell'ultimo. Pianificare a inizio
+      campagna: annotare 2-3 elementi che torneranno.
+    rischio: >
+      Se forzata, la callback è kitsch. Se i giocatori non ricordano
+      l'elemento originale, cade nel vuoto. Usare solo per elementi che i
+      giocatori hanno NOTATO e apprezzato. Se necessario, ricordarglielo
+      in modo naturale ("questo posto vi sembra familiare...").
+    puo_aver_bisogno_di: [Il Fucile di Čechov]
+    usato_in: [La Cerca, Sconfiggere il Mostro, Rinascita]
+    vedi_anche: [Il Fucile di Čechov, Il Legame, Il Debriefing, La Campagna a Spirale]
+
+  - tipo: tecnica
+    nome: La Scelta Significativa (Le Conseguenze Permanenti)
+    nome_en: Meaningful Choice / Consequences Matter / Player Agency
+    nomi_alt: [Meaningful Choice, Player Agency, Conseguenze Permanenti, Choices Matter, No Take-Backs]
+    descrizione: >
+      Ogni scelta dei PG deve produrre conseguenze VISIBILI e PERMANENTI nel
+      mondo. Se i PG scelgono di salvare il villaggio A e abbandonare il
+      villaggio B, il villaggio B è distrutto — per sempre. Il mondo reagisce.
+      Le scelte non sono test con risposta giusta: sono bivi reali dove ogni
+      direzione ha un prezzo. Questo principio è ciò che distingue il GDR
+      dalla narrativa passiva: i giocatori INFLUENZANO la storia.
+    esempi:
+      - "The Witcher 3 — videogioco (le scelte cambiano regioni intere, NPC vivono o muoiono)"
+      - "Mass Effect — saga (le scelte del primo gioco influenzano il terzo)"
+      - "Telltale Games — 'X will remember that' (le relazioni cambiano)"
+      - "Baldur's Gate 3 — le quest hanno esiti multipli permanenti"
+      - "Game of Thrones — serie (ogni scelta ha conseguenze brutali e permanenti)"
+    uso_dnd: >
+      Regole per il DM: (1) Mai invalidare una scelta dei PG — se hanno scelto
+      di lasciar morire un NPC, l'NPC è morto; (2) Mostrare le conseguenze —
+      nel modulo successivo il mondo è DIVERSO in base alla scelta; (3) Non
+      giudicare — non c'è scelta "sbagliata", solo scelte con prezzi diversi;
+      (4) Foreshadow le conseguenze — prima della scelta, far capire ai PG
+      cosa è in gioco ("se andate a nord, il villaggio sud sarà indifeso").
+      Le conseguenze migliori sono quelle che i PG scoprono 2-3 moduli dopo.
+    rischio: >
+      Se le conseguenze sono troppo punitive, i PG smettono di scegliere (paralisi).
+      Se le conseguenze sono invisibili, le scelte non contano. Bilanciare:
+      ogni scelta ha un costo E un beneficio. I PG devono sentire che hanno
+      GUADAGNATO qualcosa dalla scelta, anche se hanno perso altro.
+    usato_in: [Spalle al Muro, Tragedia, La Morale Grigia]
+    vedi_anche: [Il Dilemma del Carrello, La Scelta Retroattiva, Il Dilemma del Tram, Il Contatore]
+
+
+  - tipo: situazione
+    nome: Lo Scambio (La Trattativa Rischiosa)
+    nome_en: The Exchange / Hostage Trade / The Drop
+    nomi_alt: [The Exchange, Hostage Trade, The Drop, Lo Scambio di Ostaggi, La Consegna Simultanea]
+    descrizione: >
+      I PG devono consegnare qualcosa (oggetto, prigioniero, informazione)
+      per ottenere qualcosa in cambio (ostaggio, artefatto, salvacondotto).
+      Lo scambio avviene in un luogo concordato, con regole stabilite —
+      ma entrambe le parti pianificano il doppio gioco. La tensione è nel
+      momento dello scambio: chi sgancia per primo? L'altra parte rispetterà
+      il patto? C'è un tiratore appostato?
+    esempi:
+      - "Lo scambio sul ponte — qualsiasi film di spionaggio della Guerra Fredda"
+      - "Il drop — Breaking Bad (scambio droga/denaro con tensione massima)"
+      - "Lo scambio ostaggi — Die Hard (il villain chiede qualcosa in cambio)"
+      - "Il mercato nero — qualsiasi noir (lo scambio in vicolo)"
+      - "Jabba's Palace — Star Wars (Han in cambio di... niente, era una trappola)"
+      - "Il Ponte delle Spie — film (scambio prigionieri USA/URSS)"
+    uso_dnd: >
+      I PG devono scambiare un prigioniero/oggetto con il villain per riavere
+      un alleato/artefatto. Struttura: (1) negoziazione delle condizioni
+      (luogo, regole, garanzie); (2) preparazione (piano B, tiratori, vie di
+      fuga); (3) lo scambio — momento di tensione massima; (4) inevitabile
+      complicazione (tradimento, terzi incomodi, oggetto falso). I PG
+      possono essere quelli che tradiscono O quelli traditi.
+    rischio: >
+      Se lo scambio va liscio, non c'è storia. Prevedere SEMPRE una
+      complicazione — ma non sempre il tradimento del villain (diventa
+      prevedibile). Varianti: terzi che interrompono, l'ostaggio fugge da
+      solo, l'oggetto è un falso, le autorità intervengono.
+    usato_in: [Lo Stallo, Il Mistero, L'Alleanza col Nemico]
+    vedi_anche: [Lo Stallo, Il Dilemma del Prigioniero, L'Alleanza col Nemico, La Corsa Contro il Tempo]
+
+  - tipo: situazione
+    nome: L'Ultimatum (La Richiesta Non Negoziabile)
+    nome_en: The Ultimatum / Villain's Demand / Comply or Die
+    nomi_alt: [The Ultimatum, Villain's Demand, La Minaccia Condizionata, Comply or Else, Il Ricatto del Villain]
+    descrizione: >
+      Il villain (o una forza superiore) pone condizioni: "fate X entro Y
+      oppure Z accadrà". Le condizioni sono inaccettabili, il tempo è poco,
+      e Z è devastante. I PG devono scegliere: obbedire (tradendo i propri
+      principi), rifiutare (subendo Z), o trovare una terza via (neutralizzare
+      la minaccia prima della scadenza). L'ultimatum forza l'azione e
+      comprime i tempi.
+    esempi:
+      - "Consegnate l'Anello o Minas Tirith brucerà — Il Signore degli Anelli (implicito)"
+      - "'Bring me the head of the Batman' — The Dark Knight"
+      - "Thanos: 'la gemma o la testa del fratello' — Infinity War"
+      - "Il countdown della bomba nucleare — 24 / qualsiasi action"
+      - "'Arrenditi o distruggo il villaggio' — D&D classico"
+      - "Surrender Dorothy — Il Mago di Oz"
+    uso_dnd: >
+      Il villain manda un messaggero con le condizioni: "consegnate l'artefatto
+      entro 3 giorni o distruggo il ponte che collega i due regni". I PG
+      hanno 3 opzioni strutturali: (1) obbedire (con twist — il villain
+      non mantiene la parola); (2) rifiutare e prepararsi a Z; (3) usare
+      il tempo per neutralizzare la minaccia (trovare il villain, disattivare
+      la bomba, evacuare il bersaglio). L'opzione 3 è la più D&D.
+    rischio: >
+      Se Z non è credibile, l'ultimatum è vuoto. Se Z è inevitabile qualunque
+      cosa facciano i PG, è railroad. Z deve essere evitabile MA solo con
+      azione decisa entro il tempo dato. Se i PG ignorano l'ultimatum,
+      Z DEVE accadere — altrimenti il mondo perde peso.
+    puo_aver_bisogno_di: [Il Legame (luogo), La Costruzione dell'Odio]
+    usato_in: [La Corsa Contro il Tempo, Sconfiggere il Mostro, Spalle al Muro]
+    vedi_anche: [La Corsa Contro il Tempo, Spalle al Muro, Lo Scambio, Il Contatore]
+
+  - tipo: situazione
+    nome: La Consegna (Il Corriere)
+    nome_en: The Delivery / Courier Run / Escort the Package
+    nomi_alt: [Courier Run, The Delivery, Escort the Package, Il Corriere, La Spedizione Pericolosa]
+    descrizione: >
+      I PG devono trasportare un oggetto prezioso/pericoloso/fragile da un
+      punto A a un punto B, attraverso territorio ostile. A differenza della
+      Scorta (proteggere una persona), qui l'obiettivo è un OGGETTO — e
+      l'oggetto può avere proprietà che complicano il trasporto (è fragile,
+      è maledetto, attira mostri, ha una scadenza, è illegale). Il conflitto
+      viene dalla strada, non dalla destinazione.
+    esempi:
+      - "Portare l'Anello a Mordor — Il Signore degli Anelli (la consegna definitiva)"
+      - "Trasportare nitroglicerina — Il Salario della Paura (oggetto fragile e mortale)"
+      - "Portare i piani alla base ribelle — Star Wars (corriere spaziale)"
+      - "Consegnare il pacco — qualsiasi quest FedEx di videogioco"
+      - "Mad Max: Fury Road — film (la cisterna d'acqua attraverso il deserto)"
+      - "Il Corriere — Fallout New Vegas (il gioco inizia con una consegna fallita)"
+    uso_dnd: >
+      I PG devono portare X da A a B. Complicazioni lungo la strada: (1) il
+      percorso è pericoloso (mostri, banditi, ambiente ostile); (2) qualcuno
+      li insegue per rubare X; (3) X stesso è problematico (emette luce,
+      attira non-morti, parla, pesa troppo); (4) il tempo stringe (la pozione
+      scade, il rituale ha una finestra). Ogni modulo è una tappa del viaggio
+      con il suo ostacolo specifico.
+    rischio: >
+      Se è solo "camminate e combattete random encounter", è noioso. Ogni
+      tappa deve avere una SCELTA (via sicura ma lunga vs scorciatoia
+      pericolosa) e un dilemma (aiutare il villaggio rallenta, ignorarlo
+      pesa sulla coscienza).
+    usato_in: [La Cerca, La Corsa Contro il Tempo, La Scorta]
+    vedi_anche: [La Scorta, La Cerca, La Corsa Contro il Tempo, La Pergamena, L'Artefatto]
+
+  - tipo: situazione
+    nome: Il Porto Sicuro (Il Falso Rifugio)
+    nome_en: Safe Haven / The Sanctuary That Isn't
+    nomi_alt: [False Sanctuary, Il Rifugio Insicuro, Trojan Sanctuary, La Tana del Lupo, Safe House Compromised]
+    sottocaso_di: Il Falso Rifugio
+    descrizione: >
+      I PG trovano (o vengono indirizzati verso) un luogo apparentemente
+      sicuro — una taverna accogliente, un monastero ospitale, un campo
+      alleato, una città neutrale. Ma il rifugio nasconde un pericolo:
+      è una trappola del villain, è controllato dal nemico, gli abitanti
+      hanno secondi fini, o il luogo stesso è maledetto. La sicurezza
+      percepita rende il tradimento più efficace.
+    esempi:
+      - "La locanda di Bree → in realtà sorvegliata dai Nazgûl — Il Signore degli Anelli"
+      - "L'Hotel Overlook — Shining (il rifugio È il pericolo)"
+      - "Il villaggio ospitale che sacrifica gli stranieri — tropo horror"
+      - "La base alleata infiltrata — qualsiasi spy thriller"
+      - "Rivendell → sicura davvero — Il Signore degli Anelli (il contrasto funziona perché non tutte le soste sono trappole)"
+    uso_dnd: >
+      Dopo un modulo intenso, i PG cercano riposo. Trovano un luogo
+      apparentemente perfetto. Il DM costruisce la sicurezza (NPC gentili,
+      cibo caldo, letti puliti) — poi la rovescia. Funziona meglio se
+      NON tutti i rifugi sono falsi: i PG devono poter abbassare la guardia
+      a volte, così quando il rifugio è falso li coglie di sorpresa.
+    rischio: >
+      Se ogni rifugio è una trappola, i PG non si fidano mai e il gioco
+      diventa paranoico (a meno che quello non sia il tono voluto). Regola:
+      max 1 falso rifugio per avventura. Gli altri rifugi devono essere
+      genuini per costruire il contrasto.
+    usato_in: [Il Mistero, La Cerca, Viaggio e Ritorno]
+    vedi_anche: [Il Falso Rifugio, La Paranoia Indotta, La Festa Interrotta, La Quarantena]
+
+  - tipo: situazione
+    nome: La Trappola Evidente (La Bocca del Lupo)
+    nome_en: The Obvious Trap / Walking Into the Lion's Den
+    nomi_alt: [Obvious Trap, Walking Into Danger, La Bocca del Lupo, It's a Trap!, Knowingly Into Peril]
+    descrizione: >
+      I PG SANNO che è una trappola — ma devono andarci lo stesso. L'ostaggio
+      è lì, il villain li aspetta, è l'unico modo per raggiungere l'obiettivo.
+      La tensione non è nella sorpresa (non c'è) ma nella PREPARAZIONE: come
+      minimizzare il danno sapendo che il nemico li aspetta? È il contrario
+      del twist — qui tutti sanno cosa sta per succedere, e la domanda è
+      "come ne usciamo vivi?".
+    esempi:
+      - "'It's a trap!' — Ammiraglio Ackbar, Star Wars (lo sanno, ci vanno)"
+      - "Cloud City — Star Wars (Luke sa che è una trappola di Vader, ci va per salvare gli amici)"
+      - "L'invito del villain — qualsiasi Bond (il cattivo invita 007 a cena)"
+      - "Helm's Deep — Il Signore degli Anelli (sanno che l'esercito arriva, si preparano)"
+      - "John Wick alla Continental — film (sa che lo aspettano)"
+    uso_dnd: >
+      Il villain invita i PG ("venite alla mia torre, soli, o l'ostaggio muore")
+      oppure i PG deducono che il luogo è una trappola ma l'obiettivo è lì.
+      La sessione diventa: (1) fase preparazione — i PG pianificano contromisure
+      (La Sorveglianza, Il Piano Non Detto); (2) l'ingresso — la trappola
+      scatta ma i PG hanno preparativi; (3) l'imprevisto — qualcosa che non
+      avevano previsto (perché il villain è furbo quanto loro).
+    rischio: >
+      Se la trappola è esattamente come previsto e i PG la disinnescano senza
+      problemi, è anticlimactico. Se è impossibile nonostante la preparazione,
+      è frustrante. L'imprevisto deve essere UNO — non tutto il piano salta.
+    puo_aver_bisogno_di: [La Costruzione dell'Odio]
+    usato_in: [Sconfiggere il Mostro, La Resa dei Conti, L'Assedio]
+    vedi_anche: [L'Assedio, La Sorveglianza, Lo Scambio, Il Piano Non Detto, La Corsa Contro il Tempo]
+
+  - tipo: personaggio
+    nome: Il Messaggero (L'Araldo)
+    nome_en: The Herald / The Messenger / Harbinger
+    nomi_alt: [The Herald, Harbinger, L'Araldo, Il Portatore di Notizie, The Envoy]
+    descrizione: >
+      Chi porta notizie che cambiano tutto — buone o cattive. Il Messaggero
+      non è importante per chi è, ma per ciò che porta. Il suo arrivo segna
+      un punto di svolta: la guerra è iniziata, il re è morto, il villain
+      ha posto l'ultimatum, i rinforzi arrivano, la cura esiste. In Vogler
+      è la "Chiamata all'Avventura" incarnata in una persona. Dopo il suo
+      messaggio, nulla può restare com'era.
+    esempi:
+      - "Gandalf a Bag End — Il Signore degli Anelli (porta la notizia dell'Anello)"
+      - "Il corvo di Game of Thrones (il mezzo è il messaggero)"
+      - "R2-D2 con il messaggio di Leia — Star Wars"
+      - "Il soldato ferito che barcolla nel campo — qualsiasi film di guerra"
+      - "Hermes/Mercury — mitologia (il dio messaggero per eccellenza)"
+      - "Il cavaliere nero che porta l'ultimatum — D&D classico"
+    uso_dnd: >
+      Hook di inizio modulo: un NPC arriva con notizie urgenti che lanciano
+      l'azione. Il Messaggero può essere: (1) un NPC usa-e-getta (arriva,
+      parla, muore/parte); (2) un NPC ricorrente (il corvo, il mercante che
+      porta sempre guai); (3) un oggetto (la lettera, il segnale di fumo,
+      l'incantesimo Sending). Importante: uccidere il messaggero prima che
+      parli è un hook DIVERSO (i PG devono scoprire cosa voleva dire).
+    usato_in: [La Cerca, Sconfiggere il Mostro, La Corsa Contro il Tempo]
+    vedi_anche: [Il Sopravvissuto, L'Ultimatum, La Pergamena, In Medias Res]
+
+  - tipo: personaggio
+    nome: Il Parassita (L'Attaccabottoni)
+    nome_en: The Hanger-On / The Leech / Tag-Along
+    nomi_alt: [The Leech, Tag-Along, L'Attaccabottoni, The Mooch, Il Sanguisuga]
+    descrizione: >
+      Un NPC che si attacca ai PG per interesse personale — protezione,
+      denaro, fama riflessa, o semplicemente perché non sa dove altro andare.
+      Non è un companion (non è utile in combattimento), non è un quest giver
+      (non ha autorità), non è un villain (non ha piani malvagi). È un peso
+      — ma un peso con personalità, che può diventare fonte di informazioni
+      inaspettate, comic relief, o persino eroismo nel momento meno previsto.
+    esempi:
+      - "Jar Jar Binks — Star Wars (il parassita per eccellenza, controverso)"
+      - "Il bardo fastidioso — tropo D&D (segue il party per scrivere la loro storia)"
+      - "Gurgi — Le Cronache di Prydain (codardo che si attacca agli eroi)"
+      - "Navi — Zelda ('Hey! Listen!' — utile ma insopportabile)"
+      - "Il giornalista embedded — qualsiasi film di guerra (segue, non combatte)"
+      - "Donkey — Shrek (si attacca a Shrek, non se ne va, alla fine è utile)"
+    uso_dnd: >
+      Un NPC si unisce al party senza essere invitato. Non combatte (o male),
+      consuma risorse, parla troppo, fa rumore durante lo stealth. MA: (1)
+      conosce gossip utili; (2) ha accesso a luoghi/persone dove i PG no;
+      (3) può sacrificarsi inaspettatamente; (4) i giocatori ci si affezionano.
+      Il DM lo usa come valvola di sfogo comica e come sorpresa narrativa
+      quando serve.
+    rischio: >
+      Se è SOLO fastidioso senza utilità, i giocatori lo uccidono o lo
+      abbandonano. Deve avere almeno 1 momento utile ogni 2-3 sessioni per
+      giustificare la sua presenza. Se diventa troppo amato, è La Promozione.
+    usato_in: [Commedia degli Errori, La Cerca, La Scorta]
+    vedi_anche: [Il Companion Fedele, L'Alleato Scomodo, Il Trickster, La Promozione]
+
+
+  - tipo: situazione
+    nome: L'Agnizione Genealogica (Il Legame di Sangue)
+    nome_en: Genealogical Reveal / Luke I Am Your Father / Blood Ties
+    nomi_alt: [I Am Your Father, Blood Ties Reveal, Il Segreto di Famiglia, Genealogical Twist, La Parentela Nascosta]
+    sottocaso_di: L'Agnizione
+    descrizione: >
+      Un legame di sangue nascosto viene rivelato — "sono tuo padre", "siamo
+      fratelli", "sei il figlio del villain", "la principessa è tua sorella".
+      Il twist non è solo informativo ma RIDEFINISCE tutte le relazioni
+      precedenti. Il nemico diventa famiglia, l'alleato diventa parente, il
+      passato acquisisce un significato nuovo. È una variante dell'Agnizione
+      talmente ricorrente nel genere avventura da costituire un pattern a sé.
+    esempi:
+      - "'I am your father' — Star Wars (il twist più famoso della storia del cinema)"
+      - "Luke e Leia sono fratelli — Star Wars (retroattivo ma funzionale)"
+      - "Voldemort e Harry condividono un legame magico-genealogico — Harry Potter"
+      - "Jon Snow è un Targaryen — Game of Thrones"
+      - "Rapunzel è la principessa perduta — Tangled/Disney"
+      - "Darth Revan è il giocatore — Knights of the Old Republic"
+    uso_dnd: >
+      Un PG (concordato col giocatore!) o un NPC scopre di essere parente del
+      villain, del re, del mentore, o di un altro PG. La rivelazione deve:
+      (1) essere stata seminata con presagi (somiglianze, oggetti di famiglia,
+      lacune nel passato); (2) cambiare qualcosa meccanicamente (il villain
+      non può più essere ucciso senza conseguenze morali, l'NPC acquisisce
+      diritti di successione); (3) creare un dilemma (il sangue implica un
+      dovere?). Funziona meglio se il legame è col VILLAIN — trasforma lo
+      scontro in dilemma morale.
+    rischio: >
+      Se non è seminato è un deus ex machina. Se non cambia nulla ("sei mio
+      figlio" → "ok, ti uccido lo stesso") è irrilevante. Il twist deve
+      RENDERE IMPOSSIBILE la soluzione semplice (non puoi più solo uccidere
+      il villain — è tuo padre).
+    puo_aver_bisogno_di: [Il Presagio, Il Legame (affezione)]
+    usato_in: [Il Colpo di Scena, Sconfiggere il Mostro, Tragedia]
+    vedi_anche: [L'Agnizione, Lo Specchio, Il Colpo di Scena, La Nemesi]
+
+
+  - tipo: situazione
+    nome: La Vittoria per Grazia (L'Eucatastrophe)
+    nome_en: Eucatastrophe / Victory by Grace / Virtue Rewarded
+    nomi_alt: [Eucatastrophe, Victory by Grace, La Grazia Narrativa, Virtue Pays Off, Il Caso Meritato]
+    descrizione: >
+      L'eroe fallisce nel momento decisivo, ma una scelta morale precedente
+      (pietà, generosità, perdono) crea le condizioni affinché un evento
+      apparentemente casuale risolva la quest. Non è un Deus Ex Machina
+      perché la causa è rintracciabile (la scelta passata). Non è la Terza
+      Via perché l'eroe non la trova consapevolmente. È la grazia narrativa:
+      la virtù precedente paga in modo inaspettato.
+    esempi:
+      - "Gollum cade nel fuoco con l'Anello — LotR (Frodo aveva risparmiato Gollum)"
+      - "Il cane randagio sfamato che torna per salvare l'eroe — fiabe classiche"
+      - "Dobby salva Harry — HP (Harry lo aveva liberato)"
+      - "Han Solo torna a Yavin — SW (Luke lo aveva lasciato andare senza rancori)"
+      - "La freccia che manca il bersaglio per un'armatura data in dono — miti"
+    uso_dnd: >
+      Se i PG hanno mostrato virtù (pietà, generosità, scelta morale costosa),
+      il DM può usare quella scelta come via d'uscita quando falliscono al
+      climax. Regola: funziona SOLO se la scelta originale era un SACRIFICIO
+      REALE (non una banalità). Il collegamento causale deve essere chiaro a
+      posteriori. Non usare più di 1 volta per campagna.
+    rischio: >
+      Se la connessione non è chiara, è un Deus Ex Machina. Se il "caso"
+      risolve tutto senza che i PG abbiano fatto nulla di virtuoso prima,
+      è barare. La Grazia richiede la Pietà prima.
+    puo_aver_bisogno_di: [Il Legame, Il Fucile di Čechov]
+    usato_in: [Sconfiggere il Mostro, La Cerca, Rinascita]
+    vedi_anche: [La Terza Via, L'Alleato Inaspettato, La Scelta Retroattiva]
+
+  - tipo: situazione
+    nome: La Distrazione Eroica (Il Sacrificio Tattico)
+    nome_en: Heroic Distraction / Diversionary Sacrifice / Hold the Line
+    nomi_alt: [Heroic Distraction, Hold the Line, La Diversione Suicida, Covering Fire, Il Fronte Finto]
+    descrizione: >
+      Un intero GRUPPO marcia deliberatamente verso la morte per distrarre il
+      nemico dal gruppo che compie la vera quest. Non è un sacrificio singolo
+      ma un sacrificio COLLETTIVO tattico. Chi si sacrifica affronta il pericolo
+      maggiore, chi compie la quest ha il compito più importante ma meno
+      spettacolare. La posta è asimmetrica e la tensione doppia.
+    esempi:
+      - "La marcia sul Cancello Nero — LotR (distrazione per Frodo e Sam)"
+      - "Rogue One — Star Wars (la squadra muore per trasmettere i piani)"
+      - "La carica di Pickett — Gettysburg (diversione frontale)"
+      - "Helm's Deep come diversione da Isengard — LotR (Gandalf porta i Rohirrim)"
+    uso_dnd: >
+      Climax di campagna: il party si divide in 'esca' e 'operativi'. L'esca
+      affronta il boss/esercito apertamente (combat intenso). Gli operativi
+      completano l'obiettivo (stealth/puzzle). Alternare scene dei 2 gruppi.
+      L'esca non è condannata — può sopravvivere se l'obiettivo è raggiunto
+      in tempo (Il Contatore come timer condiviso).
+    puo_aver_bisogno_di: [Il Legame (affezione), La Separazione del Gruppo]
+    usato_in: [L'Assedio, Sconfiggere il Mostro, La Corsa Contro il Tempo]
+    vedi_anche: [Il Sacrificio Volontario, La Separazione del Gruppo, La Corsa Contro il Tempo, La Trappola Evidente]
+
+  - tipo: personaggio
+    nome: Il Portatore (Il Veicolo Riluttante)
+    nome_en: The Bearer / Ring-Bearer / Reluctant Vessel
+    nomi_alt: [Ring-Bearer, The Vessel, Il Corriere Maledetto, Reluctant Carrier, Il Trasportatore]
+    descrizione: >
+      Un personaggio la cui funzione è TRASPORTARE un oggetto pericoloso fino
+      alla destinazione — non usarlo, non combattere con esso, ma resistergli.
+      È scelto PERCHÉ è ordinario — la sua semplicità è la sua resistenza.
+      È l'anti-eroe per eccellenza: non vince combattendo ma resistendo alla
+      corruzione. Gli altri lo proteggono fisicamente, lui resiste spiritualmente.
+    esempi:
+      - "Frodo — LotR (porta l'Anello, non lo usa, resiste alla corruzione)"
+      - "Il Corriere — Fallout New Vegas (porta un oggetto, viene quasi ucciso per esso)"
+      - "Bilbo — Lo Hobbit (il 'ladro' scelto per umiltà)"
+      - "Il bambino con il messaggio — tropo fiabe/spy (troppo innocente per essere sospettato)"
+    uso_dnd: >
+      Un PG viene designato portatore di un artefatto maledetto. Non è il
+      combattente — è quello che deve resistere (tiri Saggezza, corruzione
+      crescente via Contatore). Il party lo protegge, lui protegge il mondo
+      dall'oggetto. L'arco è: resistenza → cedimento → possibile redenzione.
+      Funziona meglio se il giocatore è d'accordo (concordato in session zero).
+    vedi_anche: [L'Eroe Riluttante, L'Anello al Dito, La Consegna, Il Contatore]
+
+  - tipo: tecnica
+    nome: Lo Splitting Narrativo (La Campagna Intrecciata)
+    nome_en: Structural Party Split / Braided Narrative / Multi-Thread Campaign
+    nomi_alt: [Braided Campaign, Multi-Thread, Campagna Intrecciata, Parallel Plotlines, Narrativa a Treccia]
+    sottocaso_di: La Separazione del Gruppo
+    descrizione: >
+      A differenza della Separazione del Gruppo (evento singolo di 1-2 scene),
+      lo Splitting Narrativo è una STRUTTURA: il party si divide per un intero
+      arco e ogni sotto-party ha la propria quest, tono, e climax. Le linee si
+      influenzano a distanza e convergono nel climax finale. È la differenza
+      tra "ci siamo separati in una stanza" e "siamo su continenti diversi per
+      3 sessioni".
+    esempi:
+      - "Le Due Torri / Il Ritorno del Re — LotR (3 linee per 2 film)"
+      - "Game of Thrones — decine di linee parallele per stagioni intere"
+      - "The Wire — serie (linee tematiche parallele che convergono)"
+      - "Baldur's Gate 3 Atto 2 — i companion hanno quest separate"
+    uso_dnd: >
+      Per campagne con 5+ PG: dividere il party per 2-3 sessioni con quest
+      parallele. Alternare scene (20-30 min per gruppo). Le azioni di un
+      gruppo influenzano le condizioni dell'altro (il Contatore condiviso).
+      La riunione al climax è il payoff emotivo. Richiede: motivo diegetico
+      forte per la separazione, gestione attenta del tempo al tavolo.
+    rischio: >
+      Alcuni giocatori restano inattivi troppo a lungo. Regola: mai più di
+      30 minuti senza far agire un sotto-gruppo. Se il tavolo ha meno di 5
+      PG, lo splitting strutturale è rischioso.
+    puo_aver_bisogno_di: [Il Legame (affezione)]
+    usato_in: [La Cerca, L'Assedio, Sconfiggere il Mostro]
+    vedi_anche: [La Separazione del Gruppo, Plot Concatenati, Il Pacing, La Campagna a Spirale]
+
+
+  - tipo: plot
+    nome: La Picaresca (Il Viaggio del Mascalzone)
+    nome_en: Picaresque / Rogue's Journey / Episodic Misadventure
+    nomi_alt: [Picaresque, Rogue's Journey, Il Viaggio del Furfante, Episodic Misadventure, Campagna Orizzontale]
+    descrizione: >
+      Viaggio episodico di un antieroe di bassa estrazione attraverso una
+      serie di disavventure senza un grande arco di escalation. Non c'è un
+      BBEG da sconfiggere, non c'è un mondo da salvare — c'è un mascalzone
+      che cerca di sopravvivere e magari arricchirsi, fallendo ripetutamente
+      in modo comico. La struttura è ORIZZONTALE (episodi equivalenti) non
+      verticale (escalation). Il tono è satirico: il mondo è assurdo, i
+      potenti sono idioti, i deboli sopravvivono con l'astuzia.
+    esempi:
+      - "L'Armata Brancaleone — Monicelli (il picaresco italiano per eccellenza)"
+      - "Don Chisciotte — Cervantes (episodi comici lungo la strada)"
+      - "Gil Blas — Lesage (picaresco francese)"
+      - "Monkey Island — videogioco (pirata incompetente in avventure episodiche)"
+      - "Lazzarillo de Tormes — anonimo (l'archetipo del genere picaresco)"
+      - "Discworld / Rincewind — Pratchett (mago incompetente che sopravvive per caso)"
+    uso_dnd: >
+      Campagna senza BBEG: i PG sono mascalzoni/disperati che viaggiano di
+      città in città cercando lavoro, soldi, cibo. Ogni sessione è un episodio
+      autoconcluso. Non c'è escalation — il mondo resta uguale, sono i PG che
+      (forse) crescono. Tono: comico/satirico. Funziona benissimo per gruppi
+      casual o sessioni one-shot collegate.
+    rischio: >
+      Senza escalation i giocatori possono annoiarsi dopo 5-6 sessioni.
+      Inserire un filo conduttore leggero che emerga gradualmente (una
+      reputazione che cresce, un nemico ricorrente comico, un obiettivo
+      assurdo a lungo termine).
     usato_in: []
-    vedi_anche: [La Promozione, Bella Idea, Il Pacing, La Pausa]
+    vedi_anche: [Commedia degli Errori, La Cerca, Da Povero a Ricco, Il Branco di Disadattati]
+
+  - tipo: situazione
+    nome: La Millanteria (L'Eroe di Cartone)
+    nome_en: Miles Gloriosus / The Braggart / Fake Reputation
+    nomi_alt: [Miles Gloriosus, The Braggart, Il Fanfarone, Fake Glory, L'Eroe per Finta]
+    descrizione: >
+      Un personaggio racconta imprese mai compiute e vive di una reputazione
+      falsa. La tensione comica (o drammatica) sta nello scarto tra ciò che
+      dice di essere e ciò che è davvero — e nella costante minaccia di essere
+      smascherato. Può essere un PG (millanta per sopravvivere) o un NPC
+      (il "grande eroe" che è un codardo).
+    esempi:
+      - "Brancaleone — L'Armata Brancaleone (cavaliere autoproclamato, miserabile)"
+      - "Capitan Fracassa — commedia dell'arte (il soldato fanfarone)"
+      - "Zapp Brannigan — Futurama (generale incompetente con ego enorme)"
+      - "Gilderoy Lockhart — Harry Potter (eroe falso che ruba le imprese altrui)"
+      - "Sir Robin — Monty Python (il coraggioso Sir Robin che fuggì)"
+      - "Il Barone di Münchhausen — letteratura (millanteria elevata ad arte)"
+    uso_dnd: >
+      Un PG ha una reputazione falsa (millanta imprese nel background). Ogni
+      modulo rischia lo smascheramento: qualcuno che c'era davvero, una prova
+      che non sa superare, un NPC che lo riconosce. L'arco: o costruisce la
+      competenza reale per sostenere la fama, o crolla spettacolarmente.
+      Per NPC: il "grande eroe" assoldato è un codardo — i PG devono fare
+      il lavoro al suo posto.
+    usato_in: [Commedia degli Errori, La Picaresca, Da Povero a Ricco]
+    vedi_anche: [Il Falso Eroe, Il Parassita, Il Trickster, Commedia degli Errori]
+
+  - tipo: situazione
+    nome: La Vittoria Accidentale (Il Successo Immeritato)
+    nome_en: Accidental Victory / Bumbling Success / Failing Upward
+    nomi_alt: [Accidental Victory, Failing Upward, Il Successo per Caso, Bumbling Hero, Dumb Luck]
+    descrizione: >
+      I PG vincono non per bravura ma per caso, per incompetenza del nemico,
+      o per effetti collaterali del caos che loro stessi hanno creato. La
+      vittoria è reale ma immeritata — e tutti lo sanno (o no, creando una
+      reputazione falsa). Può essere comica (lo scemo ha fortuna) o ironica
+      (il piano sbagliato funziona per motivi sbagliati).
+    esempi:
+      - "Brancaleone conquista il feudo — L'Armata Brancaleone (per eliminazione dei rivali)"
+      - "Mr. Bean in qualsiasi situazione — il caos che lui crea risolve il problema"
+      - "Forrest Gump — film (riesce in tutto per caso/purezza)"
+      - "Inspector Clouseau — La Pantera Rosa (incompetente che risolve per caso)"
+      - "I PG che lanciano tutti 20 — D&D (la meccanica che crea successo immeritato)"
+    uso_dnd: >
+      In campagne comiche: permettere che il caos dei PG produca vittorie
+      non previste. Il piano è sbagliato ma funziona lo stesso perché il
+      villain è ancora più incompetente, o perché il caos genera un effetto
+      collaterale utile. Non pianificare come DM — lasciare che il fallimento
+      dei PG produca risultati inaspettati. Complementare alla Regola del Cool.
+    rischio: >
+      Se ogni vittoria è accidentale, i PG non si sentono mai competenti.
+      Alternare con vittorie meritate. Funziona in campagne picareesche,
+      NON in campagne eroiche.
+    usato_in: [La Picaresca, Commedia degli Errori]
+    vedi_anche: [Commedia degli Errori, La Picaresca, Il Fail Forward, La Regola del Cool]
 
   - tipo: tecnica
-    nome: Il Danno Statico (Velocizzare il Combattimento)
-    nome_en: Static Monster Damage (Sly Flourish)
-    nomi_alt: [Average Damage, Danno Medio, No-Roll Damage, Speed Combat, Fixed Damage]
+    nome: La Colpa Fondativa (L'Errore che Crea l'Eroe)
+    nome_en: Foundational Guilt / Origin Sin / The Mistake That Made the Hero
+    nomi_alt: [Origin Sin, Foundational Guilt, L'Errore Originale, The Guilt Engine, Il Peccato d'Origine]
     descrizione: >
-      Usare il valore medio di danno indicato nello stat block anziché tirare
-      i dadi per i mostri. Velocizza enormemente il combattimento senza cambiare
-      la difficoltà media. Il DM può comunque variare leggermente (+1/-1) per
-      non sembrare ripetitivo. Combinabile con i Dial del Mostro.
+      Il PG diventa eroe non per vocazione o destino, ma per un suo errore
+      o inazione che ha causato una tragedia. Non è Il Redento (quello era
+      consapevolmente malvagio), non è La Casa Distrutta (quella è subita
+      dall'esterno), non è Il Nemico Creato (quello produce un antagonista).
+      È più intimo: "è colpa MIA che zio Ben è morto, DEVO rimediare".
+      L'eroismo è espiazione permanente.
     esempi:
-      - "Sly Flourish — Quick Tricks for Lazier Games"
-      - "D&D 5e stat block — il valore medio è già scritto: '7 (2d6)'"
-      - "Qualsiasi DM con 8 goblin da gestire in un turno"
+      - "Spider-Man — lascia fuggire il rapinatore → zio Ben muore"
+      - "Batman — 'se non avessi insistito per il cinema, i miei genitori...' (variante)"
+      - "Schindler's List — 'avrei potuto salvarne di più' (la colpa del sopravvissuto)"
+      - "Doctor Strange — la guida irresponsabile causa l'incidente → cerca redenzione"
+      - "Un PG il cui villaggio è stato distrutto perché lui era assente — D&D"
     uso_dnd: >
-      Con 5+ mostri, tirare dadi per ognuno rallenta tutto. Usare il valore
-      medio: il goblin fa sempre 5 danni, l'orco sempre 9. Variare di 1-2 punti
-      per non sembrare robotico. Il tempo risparmiato va nel roleplay e nella
-      descrizione dell'azione. I giocatori tirano i LORO dadi — il DM no.
-    rischio: >
-      Se OGNI colpo fa esattamente lo stesso danno, i giocatori lo notano e perde
-      il brivido dell'aleatorietà. Soluzione: variare leggermente o tirare solo
-      per i colpi critici/importanti.
-    usato_in: [Sconfiggere il Mostro, L'Incontro Filler, L'Assedio]
-    vedi_anche: [I Dial del Mostro, Il Pacing, L'Incontro Filler]
+      Background del PG (concordato col giocatore): un evento nel passato dove
+      la sua inazione/errore ha causato una perdita. Il PG è eroe per DOVERE
+      verso la colpa, non per eroismo. L'arco: la colpa guida → diventa ossessione
+      → il PG deve perdonare sé stesso per essere davvero libero. L'errore
+      originale può tornare come La Scelta Retroattiva nel finale.
+    puo_aver_bisogno_di: [Il Legame (affezione)]
+    usato_in: [Da Povero a Ricco, La Vendetta, Sconfiggere il Mostro]
+    vedi_anche: [Il Redento, La Casa Distrutta, Il Nemico Creato, Il Debito d'Onore, La Scelta Retroattiva]

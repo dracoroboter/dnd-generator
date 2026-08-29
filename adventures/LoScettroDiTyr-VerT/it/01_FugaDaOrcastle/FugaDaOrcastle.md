@@ -4,9 +4,9 @@
 
 > L'aria puzza di sale e disperazione. Sotto di voi, un'isola-fortezza avvolta da una cupola magica semitrasparente si staglia contro il mare grigio. Orcastle — un tempo centro di potere e commercio, ora prigione a cielo aperto dove criminali, ribelli e dissidenti vengono rinchiusi per sempre.
 
-La città-stato di Orcastle è stata trasformata in una prigione a cielo aperto, circondata da una barriera magica impenetrabile. Il governatore corrotto Lord Cedric Malebranche ha costruito il suo potere sfruttando questo sistema crudele, imprigionando i suoi nemici politici e facendo affari nell'ombra con i peggiori criminali della regione.
+La città-stato di Orcastle è stata trasformata in una prigione a cielo aperto, circondata da una barriera magica impenetrabile. Il corrotto signore della contea Lord Cedric Malebranche ha costruito il suo potere sfruttando questo sistema crudele, imprigionando i suoi nemici politici e facendo affari nell'ombra con i peggiori criminali della regione.
 
-Malebranche ha perso un antico artefatto, la Pergamena del Giudizio, che contiene informazioni in grado di ribaltare il suo governo. La pergamena è finita nelle mani di Malachias Ombrascura, uno stregone oscuro che si nasconde tra le rovine di Orcastle. Malebranche ha rapito i PG e li ha costretti, tramite collari esplosivi, a recuperare la pergamena per lui.
+Malebranche ha perso un antico artefatto, la Pergamena del Giudizio, che contiene informazioni in grado di ribaltare il suo governo. La pergamena è finita nelle mani di Malachias Ombrascura, un chierico fuggitivo che si nasconde tra le rovine di Orcastle. Malebranche ha rapito i PG e li ha costretti, tramite collari esplosivi, a recuperare la pergamena per lui.
 
 L'isola è divisa in quattro zone: Est (banda dei Ruby), Ovest (banda degli Emerald), Centro (Castro degli Highlander/Wildforge) e Nord (Torre di Torth, infestata da mostri e cultisti di Dispater). I PG dovranno navigare tra queste fazioni, scoprire dove si nasconde la pergamena e trovare un modo per fuggire dall'isola.
 
@@ -128,9 +128,9 @@ Miranda dice ai PG:
 
 ---
 
-### Centro — Il Castro dei Wildforge
+### Centro — Il Castro degli Highlander
 
-Il leader è Kreig Wildforge, un nano, ex-signore della guerra che domina il castro con pugno di ferro. Interessato solo a mantenere il suo potere. È un lontano cugino di Malebranche (informazione tenuta nascosta).
+Il leader è Kreig Highlander, un nano, ex-signore della guerra che domina il castro con pugno di ferro. Interessato solo a mantenere il suo potere. È un lontano cugino di Malebranche (informazione tenuta nascosta). Il cognome originale della famiglia è Wildforge, ma nell'isola è conosciuto come Kreig Highlander (il nome della banda).
 
 Se interrogato o sondato mentalmente: è un lontano cugino di Malebranche (quindi in grado di azionare la pergamena se a conoscenza della parola segreta nota ad Ombrascura).
 

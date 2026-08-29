@@ -401,3 +401,107 @@ Genera un singolo PDF con tutta l'avventura: copertina, moduli, schede mappa DM,
 - [x] Fase 3: HTML → PDF (weasyprint)
 - [x] Fase 4: Test con FuoriDaHellfire — `FuoriDaHellfire_20260419.pdf` (2.1 MB)
 - [x] Fase 5: Generalizzare per qualsiasi avventura
+
+
+---
+
+## Sistema Narrativo (Vocabolario + Grammatica + Agente)
+
+**Priorità: media-alta (accelera la creazione di nuove avventure)**
+**Stato: operativo — prima iterazione completa**
+
+### Obiettivo
+
+Costruire uno strumento formale che permetta di:
+1. Generare strutture di avventure D&D usando pattern narrativi validati
+2. Validare bozze di avventura contro regole di composizione note
+3. Diagnosticare perché un'avventura "non funziona"
+
+La "grammatica" è un ricettario empirico (non una grammatica formale): regole con eccezioni, quantificatori tipo "quanto basta", storicità.
+
+### Stato attuale
+
+| Componente | File | Quantità | Stato |
+|------------|------|----------|-------|
+| Vocabolario (stereotipi) | `tech/data/references/narrative-stereotypes.yaml` | 228 | ✅ |
+| Grammatica (regole composizione) | `tech/data/references/narrative-grammar.yaml` | 50 regole | ✅ |
+| Principi conduzione (DM al tavolo) | `tech/data/references/dm-conduct-principles.yaml` | 13 | ✅ |
+| Indice leggibile | `tech/data/references/narrative-stereotypes-index.md` | generato | ✅ |
+| Biblioteca analisi | `tech/data/references/analyses/` | 8 opere | ✅ |
+| Script validazione | `tech/scripts/validate-narrative.py` | 3 modalità | ✅ |
+| Script indice | `tech/scripts/rebuild-stereotypes-index.py` | | ✅ |
+| Agente narratore | `.kiro/agents/narratore.json` | | ✅ aggiornato |
+| Agente meta-narratore | `.kiro/agents/meta-narratore.json` | | ✅ creato |
+| Documentazione | `tech/rules/narrative-stereotypes.md` | | ✅ aggiornata |
+
+### Struttura a 3 livelli
+
+```
+GRAMMATICA (come combinare)     → narrative-grammar.yaml
+VOCABOLARIO (i mattoni)         → narrative-stereotypes.yaml
+CONDUZIONE (come reagire live)  → dm-conduct-principles.yaml
+```
+
+### Vocabolario — distribuzione per tipo
+
+- 14 plot (strutture narrative complete)
+- 111 situazioni (eventi/dispositivi)
+- 40 personaggi (archetipi NPC)
+- 19 relazioni (pattern tra personaggi)
+- 44 tecniche (come costruire la narrazione)
+
+Campo `puo_aver_bisogno_di` con varianti del Legame: (affezione), (odio), (luogo), (ideale), (oggetto).
+
+### Grammatica — struttura
+
+- 17 regole di sequenza (A prima di B)
+- 7 catene prerequisiti (ricette collaudate)
+- 8 regole di casting (personaggi ↔ situazioni)
+- 9 transizioni tra plot (arco → arco in campagna)
+- 9 anti-pattern (errori comuni documentati)
+
+Quantificatori: sempre, quasi_sempre, spesso, a_piacimento, qualsiasi_di_tipo, quanto_basta.
+Le regole sono storiche (non assolute) — violarle consapevolmente è un colpo di scena.
+
+### Opere analizzate (biblioteca)
+
+| Opera | Tipo | Contributo principale |
+|-------|------|----------------------|
+| Star Wars OT | campagna 3 archi | Escalation emotiva, Agnizione Genealogica |
+| Lord of the Rings | campagna quest | Eucatastrophe, Distrazione Eroica, Portatore |
+| Harry Potter | campagna 7 archi | Falsi Finali seriali, Villain assente, Red Herring prolungato |
+| Game of Thrones S1-4 | sandbox multipolare | Morte permanente, Morale grigia, Manipolatori |
+| Spider-Man origin | arco personaggio | Colpa Fondativa, Nemesi Intima |
+| Brancaleone (duologia) | campagna comica | Picaresca, Millanteria, Vittoria Accidentale |
+| Caves of Steel (Asimov) | modulo investigativo | Regole per mystery, Three Clue Rule applicata |
+| Superman origin | parziale | Conferma regole, non D&D-compatibile |
+
+### Vincolo fondamentale
+
+I PG non sono dell'autore. Gli archetipi di personaggio si applicano a NPC. L'autore può solo creare condizioni perché un archetipo emerga nei PG, o fare richieste generiche in session zero.
+
+### Prossimi passi
+
+- [ ] Analizzare altre opere (Brancaleone ha aperto il filone comico — cercare altre picareesche)
+- [ ] Usare il meta-narratore su un'avventura DEL PROGETTO (es: LoScettroDityr) per validarla contro la grammatica
+- [ ] Integrare la grammatica nel workflow del narratore: quando crea un'avventura, verifica le regole
+- [ ] Aggiungere catene prerequisiti da HP e GoT (proposte nelle analisi, non ancora integrate)
+- [ ] Esplorare la generazione semi-automatica: dato un plot + posta in gioco → suggerire situazioni/personaggi compatibili
+
+### Come continuare
+
+1. **Aggiungere stereotipi**: cercare nella KB + YAML per evitare duplicati, aggiungere, `rebuild-stereotypes-index.py`
+2. **Aggiungere regole**: editare `narrative-grammar.yaml`, verificare con `validate-narrative.py --check-all`
+3. **Analizzare opere**: usare `@meta-narratore analizza [opera]`, salvare in `analyses/`, integrare proposte
+4. **Validare avventure del progetto**: `python3 tech/scripts/validate-narrative.py analyses/mia-avventura.yaml`
+5. **KB**: dopo modifiche significative, re-indicizzare `tech/data/references` (l'ID cambia ogni volta — aggiornare il prompt del narratore)
+
+### Agente meta-narratore
+
+Processo iterativo:
+1. Analizza opera X → scompone in stereotipi → verifica regole
+2. Se funziona → salva nella biblioteca
+3. Se non funziona → diagnostica: manca un stereotipo O una regola → propone → ri-verifica
+4. Le regole sono storiche: violarle consapevolmente = colpo di scena
+
+Lanciare con: `@meta-narratore analizza [opera]` oppure `@meta-narratore valida la regola [X]`

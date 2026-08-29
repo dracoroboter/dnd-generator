@@ -275,6 +275,46 @@ Solo ciò che serve al tavolo. La backstory lunga va nel documento principale (L
 ### Non-duplicazione
 Le informazioni generali (meccaniche, tabelle, NPC, luoghi, lore) vanno SOLO nel documento principale. I moduli rimandano con riferimento esplicito.
 
+### Validazione di coerenza narrativa
+
+Quando scrivi o revisioni un'avventura, verifica attivamente l'assenza di **contraddizioni**, **buchi di sceneggiatura** e **ripetizioni**.
+
+#### Definizione: buco di sceneggiatura
+
+Un buco di sceneggiatura NON è qualcosa di non detto (il non detto è lecito: il DM riempie i vuoti). Un buco è un **evento che contraddice la logica interna stabilita dal testo stesso**:
+
+- **Conoscenza ingiustificata**: un personaggio sa qualcosa che non ha modo di sapere. Nessuna scena, indizio o canale di comunicazione spiega come l'abbia appreso.
+- **Stato fisico contraddetto**: una porta era chiusa/sigillata e poi risulta aperta senza che nessuno la apra; un oggetto distrutto viene usato in una scena successiva; un NPC morto ricompare senza spiegazione.
+- **Causalità spezzata**: un evento accade senza causa nella narrazione. Non serve che ogni cosa sia spiegata nel dettaglio, ma ci deve essere un collegamento logico ricostruibile (anche implicito) con quanto stabilito prima.
+- **Contraddizione temporale**: un personaggio è in due posti contemporaneamente; un evento che richiede giorni viene trattato come istantaneo (o viceversa) senza giustificazione.
+- **Capacità non stabilite**: un personaggio compie un'azione che richiede risorse, abilità o conoscenze mai menzionate nel testo e non deducibili dal suo profilo.
+
+#### Cosa NON è un buco
+
+- Informazioni omesse intenzionalmente (il DM può improvvisare)
+- Dettagli lasciati vaghi per flessibilità ("un modo per fuggire")
+- Situazioni dove il testo offre la risposta ma in un altro punto dell'avventura (il lettore deve cercare, ma la risposta c'è)
+- Percorsi dei PG non previsti (l'avventura non può coprire tutto)
+
+#### Contraddizioni
+
+Due affermazioni nel testo si contraddicono: un NPC è descritto come "non sa nulla della pergamena" nel documento principale ma nel modulo "rivela dove si trova la pergamena". Oppure un luogo è "disabitato da secoli" ma poi ci vive qualcuno senza spiegazione.
+
+#### Ripetizioni
+
+La stessa informazione è scritta in modo identico o quasi identico in più punti (documento principale E modulo, oppure due moduli diversi). Non è un errore narrativo ma un problema di manutenibilità: se cambi una cosa in un posto devi ricordarti di cambiarla anche nell'altro.
+
+#### Come validare
+
+Quando scrivi o revisioni, per ogni scena chiediti:
+1. Chi sa cosa, e come lo ha scoperto?
+2. Qual è lo stato fisico del mondo in questo momento (porte, oggetti, NPC vivi/morti)?
+3. Quanto tempo è passato e dove si trovano i personaggi?
+4. Quello che succede qui è conseguenza di qualcosa stabilito prima?
+5. C'è qualcosa scritto qui che contraddice qualcosa scritto altrove?
+
+Se trovi un problema: segnalalo e proponi una fix (aggiungere un indizio, rimuovere la contraddizione, o spostare l'informazione).
+
 ---
 
 ## Stile di scrittura
@@ -369,26 +409,42 @@ Dettagli completi: `tech/rules/writing-style.md` § Prolissita e forma.
 
 ## Knowledge Base — Fonti di riferimento
 
-Hai accesso alla knowledge base **"RPG Adventure Design References"** (context_id: `9bd3ef2d-fc99-4c1b-a4fd-b24d76e7ee3c`) che contiene fonti autorevoli sull'adventure design:
+Hai accesso alla knowledge base **"RPG Adventure Design References"** (context_id: `459117c0-ef12-45e9-b159-d7281b90e106`) che contiene fonti autorevoli sull'adventure design:
 
 | Fonte | Contenuto |
 |-------|-----------|
+| Stereotipi Narrativi (narrative-stereotypes.yaml) | 212 stereotipi narrativi strutturati (plot, situazioni, personaggi, relazioni, tecniche) con descrizione, esempi, uso D&D, rischi, cross-reference |
+| Principi di Conduzione (dm-conduct-principles.yaml) | 13 principi per il DM al tavolo (Rule of Cool, Fail Forward, Session Zero, ecc.) |
 | Big List of RPG Plots (S. John Ross) | 35 archetipi universali di trama RPG con varianti |
-| The Lazy GM's Resource Document (Sly Flourish) | 8 steps di prep, strong starts, secrets & clues, quest templates, generatori, encounter building, NPC/treasure generators |
+| The Lazy GM's Resource Document (Sly Flourish) | 8 steps di prep, strong starts, secrets & clues, quest templates, generatori, encounter building |
 | 650 Fantasy City Encounters (Johnn Four) | 650 hook di incontri urbani fantasy |
 
 ### Quando usare la knowledge base
 
-- **Ideazione concept**: cerca archetipi di trama, twist, strong starts
+- **Ideazione concept**: cerca stereotipi narrativi per plot, situazioni, personaggi — es: "tradimento", "resa dei conti", "falsa pace"
+- **Costruzione NPC**: cerca archetipi personaggio — es: "mentore", "doppio", "trickster"
+- **Tecniche narrative**: cerca tecniche di costruzione — es: "legame", "presagio", "escalation"
+- **Principi al tavolo**: cerca principi di conduzione — es: "fail forward", "rule of cool"
 - **Incontri urbani**: cerca encounter hooks per città
 - **Struttura avventura**: cerca quest templates, secrets & clues patterns
-- **NPC e luoghi**: cerca generatori e tabelle casuali per ispirazione
 
 ### Come usarla
 
 Usa il tool `knowledge` con comando `search` e il context_id sopra. Esempio:
+- Query: "tradimento alleato" → trova lo stereotipo con descrizione, esempi, uso D&D e rischi
+- Query: "come costruire odio verso il villain" → trova La Costruzione dell'Odio
 - Query: "escort mission with betrayal" → trova archetipi di trama rilevanti
 - Query: "tavern encounter hook" → trova spunti per incontri in taverna
-- Query: "quest template defend location" → trova il template difesa
+
+### Stereotipi narrativi — struttura
+
+Ogni stereotipo ha:
+- `tipo`: plot | situazione | personaggio | relazione | tecnica
+- `descrizione` + `esempi` + `uso_dnd` + `rischio`
+- `puo_aver_bisogno_di`: prerequisiti (es: Il Legame deve essere costruito PRIMA del Tradimento)
+- `sottocaso_di`: variante specifica di un altro stereotipo
+- `vedi_anche`: cross-reference
+
+Le varianti del Legame (investimento emotivo): `(affezione)` verso NPC, `(odio)` verso villain, `(luogo)` verso posti, `(ideale)` verso cause, `(oggetto)` verso artefatti.
 
 Non citare le fonti letteralmente nei documenti dell'avventura — usale come ispirazione e adattale al tono e alle regole del progetto.

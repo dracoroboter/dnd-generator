@@ -1,0 +1,642 @@
+# Analisi: Star Wars — Original Trilogy (come campagna D&D a 3 archi)
+# Data: 2026-08-29
+# Esito: completa
+# Note: Analisi dei 3 film (IV, V, VI) come unica campagna.
+#   PG: Luke, Han, Leia (non controllati dall'autore in un GDR)
+#   NPC: Obi-Wan, Vader, Imperatore, Yoda, Lando, Jabba, Boba Fett, R2/C3PO, Chewbacca
+
+opera:
+  titolo: "Star Wars — Original Trilogy"
+  tipo: film
+  epoca: 1977-1983
+  genere_dnd_compatibile: true
+  note: >
+    Campagna a 3 archi con escalation perfetta: locale → personale → cosmica.
+    Struttura classica del Viaggio dell'Eroe (Vogler/Campbell) con sovversioni
+    post-moderne (ESB). Epoca 1977-1983: pre-decostruzione, le regole narrative
+    classiche sono "attive" e rispettate — le sovversioni (twist di Vader,
+    l'Ora più Buia come finale di film) erano innovazioni per l'epoca.
+    Compatible D&D: party misto (guerriero/rogue/face), mentore che muore,
+    villain con luogotenente, escalation livello 1-3 → 5-8 → 11-14.
+
+# ============================================================
+# STRUTTURA GLOBALE
+# ============================================================
+
+struttura:
+  plot_principale: Sconfiggere il Mostro
+  plot_secondari:
+    - Da Povero a Ricco
+    - La Ribellione
+    - Rinascita
+    - La Cerca
+    - La Vendetta
+  meta_plot: "L'Alleanza Oscillante di Vader (amico → nemico → redenzione per sacrificio)"
+
+  # ============================================================
+  # ARCO 1: A New Hope (Episodio IV)
+  # Il party si forma, il mentore muore, prima vittoria
+  # Livello D&D equivalente: 1-4
+  # ============================================================
+
+  archi:
+    - nome: "Arco 1 — A New Hope: La Formazione del Party"
+      film: "Episodio IV (1977)"
+      plot_arco: [Sconfiggere il Mostro, Da Povero a Ricco, La Ribellione]
+      escalation: "Minaccia locale → planetaria (la Morte Nera può distruggere mondi)"
+      posta_in_gioco: "Il destino della Ribellione (macro) + la crescita di Luke (micro)"
+
+      situazioni:
+        - La Falsa Pace
+        - La Pergamena
+        - La Casa Distrutta
+        - Il Branco di Disadattati
+        - La Consegna
+        - L'Infiltrazione
+        - La Fuga dalla Prigione
+        - Il Sacrificio Volontario
+        - La Corsa Contro il Tempo
+        - La Resa dei Conti
+        - L'Assedio
+        - Il Debriefing
+
+      personaggi:
+        - nome: Obi-Wan Kenobi
+          archetipo: Il Mentore / Vecchio Saggio
+          funzione: >
+            Quest giver, donatore (la spada laser), guida spirituale.
+            Muore a metà arco — forza autonomia del party.
+          note: "Morte programmata secondo il tropo. Diventa 'voce della Forza' post-mortem."
+
+        - nome: Darth Vader
+          archetipo: Il Luogotenente (Il Braccio Destro)
+          funzione: >
+            Nemico fisico dell'arco. Più presente e pericoloso del vero BBEG
+            (Imperatore, non ancora mostrato). Uccide il Mentore on screen.
+          note: "In Ep IV è ancora il Luogotenente classico — la rivelazione di Ep V lo trasforma."
+
+        - nome: Grand Moff Tarkin
+          archetipo: Il Tiranno Locale
+          funzione: "Comandante della Morte Nera. Villain 'locale' dell'arco, muore con la stazione."
+
+        - nome: R2-D2
+          archetipo: Il Messaggero
+          funzione: "Porta la Pergamena (i piani della Morte Nera). Inciting incident fisico."
+
+        - nome: C-3PO
+          archetipo: Il Parassita (versione utile)
+          funzione: "Comic relief, traduttore. Non combatte ma è indispensabile socialmente."
+
+        - nome: Chewbacca
+          archetipo: Il Companion Fedele
+          funzione: "Legato a Han per Debito di Vita. Forza morale silenziosa."
+
+      tecniche:
+        - nome: Il Legame (luogo)
+          applicazione: "Tatooine come 'casa' — 20 minuti di calma idilliaca prima della distruzione."
+        - nome: Il Presagio
+          applicazione: "I droidi arrivano con un messaggio criptico. Il nome 'Obi-Wan' è il gancio."
+        - nome: La Pergamena
+          applicazione: "I piani della Morte Nera dentro R2-D2 — l'informazione che guida l'intera quest."
+        - nome: La Costruzione dell'Odio
+          applicazione: >
+            L'Impero: (1) cattura Leia, (2) brucia la fattoria e uccide zio/zia,
+            (3) distrugge Alderaan (un pianeta intero!), (4) Vader uccide Obi-Wan.
+            Escalation di crudeltà in un singolo film.
+        - nome: L'Ora più Buia
+          applicazione: "Obi-Wan muore. Il party è nella Morte Nera senza guida. Sembra finita."
+        - nome: La Callback
+          applicazione: "La voce di Obi-Wan ('Use the Force, Luke') durante la Trench Run."
+        - nome: In Medias Res
+          applicazione: "Il film apre con l'inseguimento della Tantive IV — azione immediata."
+        - nome: Il Pacing
+          applicazione: "Tatooine (lento) → Morte Nera (veloce) → Yavin (climax). Curva perfetta."
+        - nome: L'Escalation
+          applicazione: "Da 'consegna un messaggio' a 'distruggi un'arma che può annientare pianeti'."
+
+      relazioni:
+        - tipo: Il Debito di Vita
+          tra: [Chewbacca, Han Solo]
+          nota: "Wookiee Life Debt — motivazione di Chewie per stare nel party."
+        - tipo: La Rivalità Amichevole
+          tra: [Han Solo, Luke Skywalker]
+          nota: "Mercenario cinico vs idealista ingenuo — tensione produttiva."
+        - tipo: Lo Specchio (Il Doppio Oscuro)
+          tra: [Darth Vader, Luke Skywalker]
+          nota: "Seminato: entrambi Jedi, la spada del padre. Payoff in Ep V."
+
+    # ============================================================
+    # ARCO 2: The Empire Strikes Back (Episodio V)
+    # L'Ora più Buia. Il party si divide. La rivelazione.
+    # Livello D&D equivalente: 5-8
+    # ============================================================
+
+    - nome: "Arco 2 — The Empire Strikes Back: L'Ora più Buia"
+      film: "Episodio V (1980)"
+      plot_arco: [Tragedia, La Cerca, La Tentazione]
+      escalation: "Posta personale — il conflitto diventa intimo (padre/figlio)"
+      posta_in_gioco: "L'anima di Luke (macro) + la sopravvivenza del party (micro)"
+
+      situazioni:
+        - L'Assedio
+        - La Ritirata Strategica
+        - La Separazione del Gruppo
+        - L'Addestramento
+        - La Rincorsa
+        - Il Tradimento dell'Alleato
+        - La Trappola Evidente
+        - Spalle al Muro (La Scelta Impossibile)
+        - L'Agnizione
+        - L'Ora più Buia
+        - La Fuga dalla Prigione
+
+      personaggi:
+        - nome: Yoda
+          archetipo: Il Mentore / Vecchio Saggio
+          funzione: >
+            Secondo mentore, dopo la morte di Obi-Wan. Addestra Luke nella Forza.
+            Variante: sembra un Parassita al primo incontro (test nascosto).
+          note: "Prova Segreta iniziale — si presenta come un pazzo per testare Luke."
+
+        - nome: Darth Vader
+          archetipo: [La Nemesi, Lo Specchio (Il Doppio Oscuro), Il Corruttore]
+          funzione: >
+            Transizione da Luogotenente a nemico personale. La rivelazione della
+            parentela lo trasforma nello Specchio oscuro di Luke. Tenta di
+            corrompere il figlio con l'offerta 'unisciti a me'.
+          note: "Il twist cambia retroattivamente TUTTO il primo arco."
+
+        - nome: Lando Calrissian
+          archetipo: Il Ricattato (Il Burattino Involontario)
+          funzione: >
+            Alleato apparente che tradisce sotto costrizione (Vader tiene Cloud
+            City in ostaggio). Non è un vero traditore — è un prigioniero.
+          note: "Illustra il Tradimento dell'Alleato nella variante 'costrizione', non 'malvagità'."
+
+        - nome: Boba Fett
+          archetipo: La Nemesi (livello minore)
+          funzione: "Cacciatore che insegue il party. Strumento per la cattura di Han."
+
+        - nome: L'Imperatore (menzionato/ologramma)
+          archetipo: Il Signore Oscuro
+          funzione: "Appare in ologramma — setup per il BBEG finale. Non ancora confrontabile."
+
+      tecniche:
+        - nome: La Separazione del Gruppo
+          applicazione: >
+            Il party si divide: Luke va su Dagobah (addestramento), Han/Leia/Chewie
+            fuggono dall'Impero. Due storyline parallele che convergono su Bespin.
+        - nome: L'Addestramento
+          applicazione: "Luke su Dagobah — montage classico di preparazione con il Mentore."
+        - nome: Il Presagio
+          applicazione: >
+            La caverna su Dagobah: Luke vede il volto di Vader che è il suo.
+            Flash Forward / Foreshadowing della rivelazione finale.
+        - nome: La Costruzione dell'Odio
+          applicazione: >
+            Vader: insegue senza sosta, usa gli amici come esca, congela Han
+            nella carbonite (tortura emotiva), mutila Luke. Ogni atto è personale.
+        - nome: L'Ora più Buia
+          applicazione: >
+            IL FILM FINISCE sull'Ora più Buia: Han congelato, Luke mutilato e
+            devastato dalla rivelazione, la Ribellione in fuga, il villain ha vinto.
+            Innovazione per l'epoca: il secondo atto di una trilogia può essere una sconfitta.
+        - nome: La Frase Bomba
+          applicazione: "'No, I am your father.' — una riga che ribalta tre ore di narrativa."
+        - nome: Il Legame (affezione)
+          applicazione: >
+            Il Legame con Han è maturo (costruito per un film intero + metà di
+            questo). La sua cattura/congelamento colpisce perché ci si tiene.
+        - nome: Il Flash Forward
+          applicazione: >
+            La visione di Luke nella caverna (vede sé stesso dentro Vader) e
+            la visione degli amici sofferenti (lo spinge a lasciare l'addestramento).
+            Veicolo diegetico: la Forza.
+        - nome: L'Ironia Drammatica
+          applicazione: "Lo spettatore intuisce la trappola di Vader. Il party (Han/Leia) non lo sa."
+        - nome: Il Cliffhanger
+          applicazione: "Il film termina irrisolto — Han è prigioniero, il party è decimato. To be continued."
+
+      relazioni:
+        - tipo: Lo Specchio (Il Doppio Oscuro)
+          tra: [Darth Vader, Luke Skywalker]
+          nota: >
+            Esplicitato dalla rivelazione. Vader è ciò che Luke POTREBBE diventare.
+            La caverna su Dagobah lo mostra visivamente.
+        - tipo: La Fiducia Tradita
+          tra: [Lando Calrissian, Han Solo]
+          nota: >
+            Variante 'sotto costrizione'. Lando tradisce per proteggere la sua
+            gente — la motivazione è comprensibile. Si pente e aiuta nella fuga.
+        - tipo: Il Protetto Riluttante
+          tra: [Han Solo, Leia/Luke]
+          nota: "Han è il mercenario che 'non gliene frega niente' ma resta, protegge, si sacrifica."
+        - tipo: L'Eredità Pesante
+          tra: [Luke Skywalker, Anakin Skywalker/Vader]
+          nota: "Luke scopre che il suo cognome è il cognome del più grande villain della galassia."
+
+    # ============================================================
+    # ARCO 3: Return of the Jedi (Episodio VI)
+    # Redenzione, Resa dei Conti, Lieto Fine Guadagnato
+    # Livello D&D equivalente: 11-14
+    # ============================================================
+
+    - nome: "Arco 3 — Return of the Jedi: Redenzione e Resa dei Conti"
+      film: "Episodio VI (1983)"
+      plot_arco: [Sconfiggere il Mostro, Rinascita, La Vendetta]
+      escalation: "Posta cosmica — il destino della galassia + la redenzione di un'anima"
+      posta_in_gioco: "L'anima di Vader (macro) + la distruzione dell'Impero (politico) + la vita di Luke (personale)"
+
+      situazioni:
+        - Il Salvataggio Impossibile
+        - L'Infiltrazione
+        - L'Arena
+        - La Radunata
+        - La Separazione del Gruppo
+        - Il Nemico del Mio Nemico
+        - L'Assedio
+        - La Corsa Contro il Tempo
+        - La Trappola Evidente
+        - Spalle al Muro (La Scelta Impossibile)
+        - La Resa dei Conti
+        - Il Sacrificio Volontario
+        - Il Lieto Fine Guadagnato
+        - Il Debriefing
+
+      personaggi:
+        - nome: L'Imperatore Palpatine
+          archetipo: [Il Signore Oscuro, Il Corruttore, Il Piano Perfetto del Villain]
+          funzione: >
+            Il BBEG finale, finalmente confrontato. Manipolatore, tenta di corrompere
+            Luke usando il lato oscuro. Il suo Piano Perfetto: che Luke/Vader
+            combattano — qualunque vinca, lui vince. La falla: non prevede che
+            Vader si redima.
+          note: "Xanatos Gambit perfetto — sconfitto solo dalla variabile emotiva (l'amore paterno)."
+
+        - nome: Darth Vader
+          archetipo: [L'Alleanza Oscillante, Il Redento, Lo Specchio]
+          funzione: >
+            Arco completo: nemico → padre → redento per sacrificio. La redenzione
+            è il cuore emotivo del film. Muore salvando Luke dall'Imperatore.
+          note: "L'Alleanza Oscillante nella forma più pura: amico → nemico → si immola per redenzione."
+
+        - nome: Jabba the Hutt
+          archetipo: [Il Tiranno Locale, Il Collezionista]
+          funzione: "Boss del primo atto — mini-villain che dà struttura al salvataggio di Han."
+
+        - nome: Boba Fett
+          archetipo: Il Luogotenente (di Jabba)
+          funzione: "Nemesi minore risolta. Muore in modo anticlimactico (sovversione)."
+
+        - nome: Lando Calrissian
+          archetipo: [Il Redento, Il Ladro Gentiluomo]
+          funzione: >
+            Arco di redenzione completato: da traditore costretto → leader della
+            missione finale contro la Morte Nera II. Si è guadagnato la fiducia.
+
+        - nome: Ewok
+          archetipo: L'Alleato Inaspettato
+          funzione: >
+            Rinforzi primitivi su Endor. Illustrano il tropo 'piccolo popolo
+            sottovalutato che ribalta la battaglia'. Guadagnati: i PG non li
+            hanno combattuti quando potevano.
+
+      tecniche:
+        - nome: La Radunata
+          applicazione: >
+            L'intero primo atto è 'assemblare la squadra': salvare Han da Jabba,
+            riunire il party completo prima della missione finale.
+        - nome: La Separazione del Gruppo
+          applicazione: >
+            Tre linee parallele nel climax: (1) Lando attacca la Morte Nera II,
+            (2) Han/Leia/Chewie disattivano lo scudo su Endor,
+            (3) Luke affronta Vader/Imperatore. Convergenza al momento giusto.
+        - nome: Il Legame (affezione)
+          applicazione: >
+            Payoff dell'investimento emotivo di 3 film: Luke rischia tutto per
+            redimere Vader. Funziona perché il pubblico ha visto l'umanità di
+            Vader (la mano che esita, la voce che trema).
+        - nome: La Resa dei Conti
+          applicazione: >
+            Il duello Luke vs Vader nel trono dell'Imperatore. Non è solo un
+            combattimento: è un test morale. Luke vince il duello fisico MA
+            la vera vittoria è rifiutare il lato oscuro.
+        - nome: Il Sacrificio Volontario
+          applicazione: >
+            Vader si sacrifica uccidendo l'Imperatore per salvare Luke. La morte
+            redentiva — Anakin muore in pace dopo aver scelto il figlio.
+        - nome: La Terza Via
+          applicazione: >
+            Luke rifiuta le opzioni presentate dall'Imperatore (uccidi Vader e
+            prendi il suo posto, OPPURE muori). Trova la terza via: getta la
+            spada e si rifiuta di combattere. Forza Vader a scegliere.
+        - nome: La Callback
+          applicazione: >
+            (1) La mano meccanica — Luke guarda la sua mano e quella di Vader,
+            vede lo Specchio. (2) La voce di Obi-Wan e la pira funebre richiamano
+            Ep IV. (3) La celebrazione finale richiama la cerimonia di Ep IV.
+        - nome: Il Piano Perfetto del Villain
+          applicazione: >
+            Palpatine ha orchestrato TUTTO: la trappola a Endor, la Morte Nera II
+            operativa (esca), lo scudo che protegge la flotta ribelle in modo che
+            siano intrappolati. L'unica variabile non prevista: l'amore paterno.
+        - nome: L'Escalation
+          applicazione: >
+            Da 'salvare un amico' (Jabba) a 'distruggere l'Impero E redimere
+            un'anima'. La posta narrativa è al massimo.
+
+      relazioni:
+        - tipo: L'Alleanza Oscillante
+          tra: [Darth Vader, Luke Skywalker]
+          nota: >
+            Arco completo della trilogia: nemico (IV) → padre rivelato (V) →
+            redento per sacrificio (VI). Ogni cambio ha motivazione chiara.
+        - tipo: Il Nemico del Mio Nemico
+          tra: [Ribelli, Ewok]
+          nota: "Alleanza di necessità con un popolo locale. Funziona perché i PG li hanno rispettati."
+        - tipo: Il Rivale Rispettoso che Diventa Alleato
+          tra: [Lando Calrissian, Han Solo]
+          nota: "Dal tradimento forzato alla fiducia guadagnata — Lando guida l'attacco finale."
+        - tipo: Lo Specchio (Il Doppio Oscuro)
+          tra: [Luke Skywalker, Darth Vader]
+          nota: >
+            Payoff: Luke vede che sta diventando Vader (la mano meccanica, la
+            rabbia). Sceglie consciamente di NON essere il suo specchio.
+
+# ============================================================
+# ESCALATION TRA I 3 FILM
+# ============================================================
+
+escalation_globale:
+  - arco: 1
+    posta_narrativa: "Sopravvivere e vincere una battaglia (locale/militare)"
+    posta_emotiva: "Perdere il mentore, trovare un posto nel mondo"
+    villain_visibility: "Il Luogotenente è il nemico. Il Signore Oscuro è assente."
+    livello_dnd: "1-4"
+
+  - arco: 2
+    posta_narrativa: "Sopravvivere a una sconfitta totale (tattica/personale)"
+    posta_emotiva: "Perdere un compagno, scoprire una verità devastante sull'identità"
+    villain_visibility: "Il Luogotenente diventa Nemesi personale. Il Signore Oscuro appare in ombra."
+    livello_dnd: "5-8"
+
+  - arco: 3
+    posta_narrativa: "Distruggere l'Impero + redimere un'anima (cosmica/spirituale)"
+    posta_emotiva: "Scegliere tra vendetta e compassione. Rischiare tutto per una speranza."
+    villain_visibility: "Il Signore Oscuro è il boss finale. Il Luogotenente diventa l'alleato redento."
+    livello_dnd: "11-14"
+
+pattern_escalation: >
+  Locale → Personale → Cosmico. La posta MILITARE sale (stazione → flotta → impero)
+  ma la posta EMOTIVA sale più velocemente (mentore → amico → padre). L'arco finale
+  è vinto dalla posta emotiva, non da quella militare. Il climax non è 'distruggere
+  la Morte Nera II' — è 'convincere Vader a scegliere l'amore'.
+
+# ============================================================
+# TRANSIZIONI TRA FILM
+# ============================================================
+
+transizioni:
+  - da: "Arco 1 (A New Hope)"
+    a: "Arco 2 (Empire Strikes Back)"
+    tipo_grammatica: "Sconfiggere il Mostro → Tragedia (variante)"
+    giustificazione: >
+      La vittoria di Ep IV dà fiducia al party. Ep V la distrugge. La transizione
+      è naturale (da 'abbiamo vinto!' a 'il nemico non è morto e colpisce più forte').
+      Segue la regola: dopo una vittoria locale, il villain scala la risposta.
+    hook: "L'Impero attacca Hoth — la Ribellione non è più al sicuro da nessuna parte."
+    stato_party: "Unito ma vulnerabile. Overconfident dopo Yavin."
+
+  - da: "Arco 2 (Empire Strikes Back)"
+    a: "Arco 3 (Return of the Jedi)"
+    tipo_grammatica: "Tragedia → Rinascita"
+    giustificazione: >
+      L'Ora più Buia di Ep V richiede la rinascita di Ep VI. La transizione è
+      obbligata dalla grammatica: dopo la Tragedia si esce con Rinascita (speranza)
+      o Vendetta (rabbia). Luke sceglie la Rinascita — rifiuta la Vendetta.
+    hook: "Il party deve prima riunirsi (salvare Han) prima di poter agire."
+    stato_party: "Diviso, ferito, ma determinato. Luke è maturato. Motivazione: salvare gli amici."
+
+# ============================================================
+# CATENE PREREQUISITI SODDISFATTE
+# ============================================================
+
+catene_soddisfatte:
+  - nome: La Vendetta Soddisfacente
+    sequenza_nella_trilogia:
+      - "Il Legame (luogo): Tatooine come casa — Ep IV atto 1"
+      - "La Casa Distrutta: la fattoria brucia — Ep IV atto 1"
+      - "La Costruzione dell'Odio: Impero crudele per 3 film — Ep IV-V-VI"
+      - "L'Ora più Buia: Han congelato, Luke mutilato — Ep V finale"
+      - "La Resa dei Conti: trono dell'Imperatore — Ep VI climax"
+      - "Il Debriefing: celebrazione su Endor — Ep VI finale"
+    valutazione: "Catena completa e rispettata. Buildup su 3 film."
+
+  - nome: La Caduta dell'Idolo
+    sequenza_nella_trilogia:
+      - "Il Legame (affezione): Luke ammira il padre sconosciuto — Ep IV"
+      - "Il Mentore (Obi-Wan): racconta del padre come eroe — Ep IV"
+      - "Il Piedistallo Spezzato: 'tuo padre è Vader' — Ep V"
+    valutazione: >
+      Variante: l'idolo non è il mentore ma il PADRE ASSENTE. Il piedistallo
+      è costruito su una bugia di Obi-Wan ('tuo padre è stato ucciso da Vader').
+
+  - nome: Il Nemico Crescente
+    sequenza_nella_trilogia:
+      - "Il Presagio: l'ombra di Vader fin dalla prima scena — Ep IV"
+      - "La Costruzione dell'Odio: atti crudeli crescenti — Ep IV-V"
+      - "Il Falso Finale: Vader sconfitto alla Morte Nera I — Ep IV"
+      - "La Resa dei Conti: il vero finale è con l'Imperatore — Ep VI"
+    valutazione: "Vader come Falso Finale dell'arco 1 funziona perfettamente."
+
+  - nome: L'Oggetto che Corrompe (variante)
+    sequenza_nella_trilogia:
+      - "Il Legame (ideale): Luke vuole essere un Jedi come il padre — Ep IV"
+      - "La Tentazione: il lato oscuro offre potere — Ep V-VI"
+      - "Il Dilemma del Carrello: uccidi Vader o muori — Ep VI"
+      - "La Terza Via: getta la spada, rifiuta entrambe le opzioni — Ep VI"
+    valutazione: >
+      Non un oggetto fisico ma un POTERE (il lato oscuro). La tentazione è
+      graduata su 2 film. La Terza Via spezza la catena prevista.
+
+# ============================================================
+# REGOLE DI SEQUENZA RISPETTATE O VIOLATE
+# ============================================================
+
+regole_sequenza_analisi:
+  rispettate:
+    - regola: "Il Legame (luogo) → La Casa Distrutta"
+      dove: "Tatooine costruita → fattoria bruciata (Ep IV)"
+      nota: "20 minuti di costruzione bastano perché il legame è visivo e universale (casa = sicurezza)"
+
+    - regola: "Il Legame (affezione) → Il Tradimento dell'Alleato"
+      dove: "Han e Lando sono amici → Lando tradisce (Ep V)"
+      nota: "Il legame Han-Lando è raccontato, non mostrato (rischio), ma funziona per il carisma degli attori"
+
+    - regola: "La Costruzione dell'Odio → La Resa dei Conti"
+      dove: "Impero crudele per 3 film → battaglia finale (Ep VI)"
+      nota: "Buildup su 6+ ore di narrazione. La catarsi è enorme."
+
+    - regola: "L'Ora più Buia → I Rinforzi / La Resa dei Conti"
+      dove: "Fine Ep V (tutto perduto) → inizio Ep VI (il party si riunisce e contrattacca)"
+      nota: "La transizione tra film rispetta la regola: l'Ora più Buia PRECEDE la rimonta."
+
+    - regola: "Il Presagio → Il Colpo di Scena"
+      dove: "Caverna di Dagobah (Luke vede sé stesso in Vader) → rivelazione 'I am your father'"
+      nota: "Presagio magistrale: chi rivede il film capisce la caverna."
+
+    - regola: "Il Legame (affezione) → Il Sacrificio Volontario"
+      dove: "Vader/Luke legame padre-figlio costruito in Ep V-VI → Vader si sacrifica"
+      nota: "Il sacrificio funziona perché il legame è stato costruito (la mano esitante, 'è troppo tardi per me')"
+
+    - regola: "La Falsa Pace → La Festa Interrotta / L'Assedio"
+      dove: "Ribelli su Hoth (relativa calma) → attacco Imperiale (Ep V apertura)"
+      nota: "La quiete è breve ma percepibile."
+
+    - regola: "La Resa dei Conti → Il Debriefing"
+      dove: "Morte dell'Imperatore → celebrazione galattica (Ep VI)"
+      nota: "Debriefing emotivo: pira funebre di Vader + festa + fantasmi della Forza."
+
+  violate_intenzionalmente:
+    - regola: "Il Mentore dura fino al climax (o quasi)"
+      violazione: "Obi-Wan muore a META del primo arco"
+      giustificazione: >
+        Forza l'autonomia del party molto prima del previsto. Innovazione
+        strutturale: il mentore esce di scena subito per dare spazio all'eroe.
+        Mitigata dal fatto che Obi-Wan continua come 'voce' post-mortem.
+
+    - regola: "L'arco narrativo si chiude con una vittoria (o almeno una risoluzione)"
+      violazione: "Ep V finisce sull'Ora più Buia — nessuna risoluzione"
+      giustificazione: >
+        1980: innovazione radicale per il cinema mainstream. Il secondo capitolo
+        di una trilogia PUÒ essere una sconfitta completa. Crea tensione
+        inter-film che nessun singolo film può generare. In D&D: il modulo
+        intermedio di una saga può chiudersi male.
+
+# ============================================================
+# SOVVERSIONI INTENZIONALI DELLE META-REGOLE
+# ============================================================
+
+sovversioni:
+  - regola_violata: "Il villain del primo arco è il villain del climax"
+    effetto: >
+      Vader è il Luogotenente in Ep IV, poi diventa lo Specchio/Nemesi in Ep V,
+      poi l'ALLEATO redento in Ep VI. Il VERO BBEG (Imperatore) appare solo alla
+      fine. L'antagonista si TRASFORMA durante la campagna.
+    epoca_nota: >
+      Nel 1977 Vader SEMBRAVA il villain finale. La struttura a trilogia ha
+      permesso di ribaltare il ruolo — impossibile in un singolo film.
+
+  - regola_violata: "Il Signore Oscuro non si redime (è il male incarnato)"
+    effetto: >
+      Vader (che è narrativamente il Signore Oscuro per 2 film) si redime nel
+      terzo. Rompe il tropo: il male assoluto ha un punto debole (l'amore
+      paterno). Il vero Signore Oscuro irredimibile è l'Imperatore.
+    epoca_nota: >
+      Innovazione 1983: il villain può essere redento. Anticipò l'era del
+      'sympathetic villain' e del 'redemption arc' che dominerà gli anni 2000+.
+
+  - regola_violata: "Il Colpo di Scena deve essere preparato con indizi multipli"
+    effetto: >
+      'I am your father' nel 1980 NON aveva indizi reali nel primo film
+      (perché la decisione fu presa durante la scrittura di Ep V). Funziona
+      per puro shock e perché la relazione emotiva creata è così potente da
+      retroattivamente giustificare tutto. A posteriori si trovano 'indizi'
+      (Obi-Wan evasivo, il cognome Skywalker) ma sono retcon.
+    epoca_nota: >
+      1980: il twist senza foreshadowing reale funziona per la prima volta
+      nella storia del cinema. Non replicabile oggi senza preparazione —
+      il pubblico moderno lo chiamerebbe 'ass pull'.
+
+  - regola_violata: "La Nemesi non scappa più di 3 volte"
+    effetto: >
+      Vader 'scappa' (sopravvive) alla fine di Ep IV e domina Ep V senza
+      essere sconfitto. In Ep VI il conflitto non è fisico ma morale.
+      Funziona perché ad ogni incontro la RELAZIONE cambia — non è la
+      stessa dinamica ripetuta.
+
+  - regola_violata: "Il Piedistallo Spezzato richiede Il Legame (affezione) verso il mentore"
+    effetto: >
+      Obi-Wan mente a Luke sul padre ('tuo padre fu ucciso da Vader'). Il
+      Piedistallo Spezzato di Obi-Wan arriva in Ep VI quando il fantasma
+      ammette la bugia. Ma il legame con Obi-Wan è forte abbastanza e la bugia
+      è comprensibile ('from a certain point of view') — non aliena Luke.
+    epoca_nota: >
+      La bugia del mentore era controversa. Lucas la risolve con la
+      giustificazione 'metaforica' — approccio che divideva il pubblico nel 1983.
+
+  - regola_violata: "La Resa dei Conti si vince col combattimento (il boss fight)"
+    effetto: >
+      Luke VINCE il duello con Vader ma la vera Resa dei Conti è MORALE:
+      getta la spada e si arrende all'Imperatore. La vittoria arriva dal
+      rifiuto di combattere — è Vader che risolve il conflitto fisico.
+      In D&D: il climax non è sempre un combat.
+    epoca_nota: >
+      1983: controintuitivo per un blockbuster d'azione. Il protagonista vince
+      NON combattendo. Anticipazione della 'Trattativa con il Mostro' e della
+      soluzione morale ai conflitti fisici.
+
+# ============================================================
+# EPOCA 1977-1983 — REGOLE NARRATIVE 'ATTIVE'
+# ============================================================
+
+contesto_epoca:
+  epoca: "1977-1983"
+  paradigma_narrativo: "Post-Campbell, pre-decostruzione"
+  regole_attive:
+    - "Il Viaggio dell'Eroe (Campbell/Vogler) è il modello dominante"
+    - "Il bene vince sempre alla fine (obbligo del blockbuster)"
+    - "I villain sono malvagi per natura, non per circostanza"
+    - "Il mentore muore (ma non troppo presto — innovazione di Lucas)"
+    - "La struttura a 3 atti è sacra"
+    - "I sequel possono finire male (innovazione ESB)"
+    - "Il twist senza foreshadowing è accettabile se emotivamente potente"
+    - "La redenzione del villain è possibile (innovazione ROTJ)"
+  regole_non_ancora_attive:
+    - "Il villain sympathetic (arriverà con gli anni '90-2000)"
+    - "La decostruzione dell'eroe (arriverà con Watchmen 1986)"
+    - "La morale grigia come norma (arriverà con GoT 2011)"
+    - "Il foreshadowing obbligatorio per i twist (standard moderno)"
+    - "La morte permanente del protagonista (rara nei blockbuster '70-80)"
+  innovazioni_di_star_wars:
+    - "Il sequel che finisce male (ESB) — diventerà norma per le trilogie"
+    - "Il villain redento per sacrificio (ROTJ) — il redemption arc moderno nasce qui"
+    - "Il twist genealogico (ESB) — il 'figlio del villain' diventa archetipo"
+    - "La serialità cinematografica — la saga come campagna multi-arco"
+
+# ============================================================
+# VALIDAZIONE
+# ============================================================
+
+validazione:
+  copertura_percentuale: 92
+  nota_copertura: >
+    La trilogia copre la quasi totalità delle categorie del vocabolario
+    (plot, situazioni, personaggi, tecniche, relazioni). Mancano: plot
+    puramente comici (Commedia degli Errori), situazioni investigative
+    pure (Il Mistero/Whodunit), relazioni tossiche elaborate (L'Amico
+    Velenoso). Coerente con il genere space opera eroico.
+
+  regole_sequenza_rispettate: "8/8"
+  regole_violate_giustificate: "5 (tutte con giustificazione documentata)"
+
+  stereotipi_mancanti_proposti:
+    - nome: "La Scelta di Coraggio (Deliberate Walk Into Danger)"
+      descrizione: >
+        Luke va su Bespin SAPENDO che è una trappola (per salvare gli amici) e
+        si consegna all'Imperatore SAPENDO che potrebbe morire (per redimere Vader).
+        È una combinazione di Trappola Evidente + Sacrificio Volontario ma con
+        una sfumatura diversa: non è un sacrificio (non si aspetta di morire),
+        è una scelta di coraggio calcolato dove il rischio è accettato per un
+        obiettivo morale. Vicino a 'La Trappola Evidente' ma più attivo.
+      vedi_anche: [La Trappola Evidente, Il Sacrificio Volontario, Spalle al Muro]
+
+  regole_mancanti_proposte:
+    - nome: "Lo Specchio DEVE precedere la Terza Via"
+      descrizione: >
+        Perché un PG possa trovare la Terza Via in un dilemma morale, deve
+        prima aver VISTO cosa succede se sceglie l'opzione sbagliata (Lo
+        Specchio). Luke può rifiutare il lato oscuro PERCHÉ ha visto Vader
+        (il suo futuro possibile). Senza Specchio, la Terza Via è generica.
+      esempio: "Luke vede la mano meccanica (sua = Vader) e getta la spada."
+      forza_proposta: spesso

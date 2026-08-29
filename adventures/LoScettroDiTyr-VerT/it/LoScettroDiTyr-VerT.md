@@ -35,7 +35,7 @@ L'avventura inizia con il rapimento dei PG da parte di **Lord Cedric Malebranche
 - **Modulo 1 — Fuga da Orcastle**: i PG, rapiti e dotati di collari esplosivi, devono recuperare la Pergamena del Giudizio nella città-prigione di Orcastle e trovare un modo per fuggire. Quattro fazioni controllano l'isola, ognuna con i propri segreti.
 - **Modulo 2 — Lo Scettro di Tyr**: Dispater incarica i PG di recuperare lo Scettro dal Tempio di Lumina. Viaggio da Baldur's Gate attraverso montagne pericolose, prove di purezza nel tempio, e scontro finale con Alaric il Giusto.
 - **Modulo 3 — Ritorno a Casa**: i PG devono riconsegnare lo Scettro all'altare di Tyr a Svoalbard. Viaggio via nave lungo la Costa della Spada, inseguiti da una spia di Dispater e dal warlock Othran Vorash.
-- **Modulo 4 — La fine non appartiene ai morti**: Malebranche, sconfitto, evoca il mago Zikle e maledice i PG. I morti si rialzano ovunque passino. Devono trovare il Monile d'Oro di Ostegard per spezzare la maledizione e sconfiggere Malebranche una volta per tutte.
+- **Modulo 4 — La fine non appartiene ai morti**: Malebranche, sconfitto, ha evocato e soggiogato il mago Zikle per lanciare una maledizione sui PG. I morti si rialzano ovunque passino. I PG devono rintracciare Zikle (ora un wraith nella sua tomba) per scoprire come spezzare la maledizione, recuperare il Monile d'Oro di Ostegard, e sconfiggere Malebranche una volta per tutte.
 
 ## Consigli al master
 
@@ -44,6 +44,7 @@ L'avventura inizia con il rapimento dei PG da parte di **Lord Cedric Malebranche
 - **Dispater**: è sempre presente come minaccia. Se i PG ignorano le sue richieste, subiscono maledizioni progressive (tabella d6 nel Modulo 2). Non è un nemico da combattere direttamente — è un burattinaio.
 - **Lo Scettro**: è un oggetto potentissimo ma pericoloso. La maledizione di Tyr colpisce chiunque lo tocchi senza essere puro. Solo l'araldo designato può impugnarlo. Tenere traccia di chi lo porta e delle conseguenze.
 - **Difficoltà**: l'avventura scala da lv7 (Modulo 1) a lv10 (Moduli 3-4). Gli incontri sono calibrati per 4-6 PG. Il Modulo 1 ha molte opzioni non-combat; il Modulo 4 è il più combat-heavy.
+- **Malebranche come filo rosso**: anche se Malebranche non è l'antagonista dei Moduli 2-3, la sua presenza va mantenuta viva nella mente dei giocatori. Il M2 include una voce alla Rocca Bianca (un lord esiliato con rituali sinistri), il M3 una notizia a Neverwinter (un villaggio costiero colpito da pestilenza innaturale). Questi presagi preparano il ritorno di Malebranche nel M4 senza rallentare la trama principale.
 
 ## NPC principali
 
@@ -51,7 +52,7 @@ Schede complete nella sezione characters.
 
 ### Frankie Partenope (modulo 1)
 
-Barbaro umano lv5, ex avventuriero ed eroe del popolo. Costretto a collaborare con i PG nel Modulo 1 (collare esplosivo). Odia Malebranche. Torna nel Modulo 4 come alleato.
+Barbaro umano lv5, ex avventuriero ed eroe del popolo. Costretto a collaborare con i PG nel Modulo 1 (collare esplosivo). Odia Malebranche. Torna nel Modulo 4 come alleato, ma gravemente indebolito dalla maledizione di Malebranche.
 
 → Scheda: NPC_FrankiePartenope
 
@@ -81,7 +82,7 @@ Mercante devoto a Tyr, finanzia e supporta la missione nel Modulo 3.
 
 ### Lord Cedric Malebranche (modulo 1)
 
-Arcimago necromante, governatore corrotto di Orcastle. Mandante del rapimento nel Modulo 1. Villain finale nel Modulo 4.
+Arcimago necromante, signore della contea di Orcastle. Controlla a distanza la città-prigione tramite la cupola magica e i collari esplosivi, ma risiede sul continente nel suo palazzo. Mandante del rapimento nel Modulo 1. Villain finale nel Modulo 4.
 
 → Scheda: NPC_LordMalebranche
 
@@ -123,7 +124,7 @@ Leader del Castro (centro di Orcastle), cugino segreto di Malebranche. Diventa c
 
 ### Mesusu Merconè (modulo 1)
 
-Nana, capitano della nave volante Airborne.
+Nano, capitano della nave volante Airborne.
 
 → Scheda: NPC_MesusuMercone
 
@@ -187,7 +188,7 @@ Arma divina di cristallo. Proprietà: Resurrezione Sacra (1 carica), Potenziamen
 
 ### La Coppa di Blackwood (Modulo 1)
 
-Artefatto nella Torre di Torth. Funziona come Dissolvi Magie (abbastanza potente per i collari). Parola magica: "Dispater ekar rulvar" (Dispater regna eternamente in infernale).
+Artefatto nella Torre di Torth. Funziona come Dissolvi Magie (abbastanza potente per i collari, se il patto con Dispater viene accettato). Parola magica: "Dispater ekar rulvar" (Dispater regna eternamente in infernale). Se i PG rifiutano il patto, la coppa non funziona sui collari: in quel caso i collari vengono disattivati da Malebranche alla consegna della pergamena. La coppa serve anche per attivare il portale nella Torre (brindisi).
 
 ### Il Monile d'Oro di Ostegard (Modulo 4)
 

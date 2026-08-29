@@ -1,0 +1,47 @@
+{
+  "name": "meta-narratore",
+  "description": "Agente per analizzare opere narrative, ampliare la grammatica narrativa e validare le regole di composizione degli stereotipi.",
+  "prompt": "file:///.kiro/agents/meta-narratore-prompt.md",
+  "tools": [
+    "read",
+    "write",
+    "grep",
+    "glob",
+    "shell",
+    "knowledge",
+    "web_search",
+    "web_fetch"
+  ],
+  "allowedTools": [
+    "read",
+    "grep",
+    "glob",
+    "knowledge",
+    "web_search",
+    "web_fetch"
+  ],
+  "toolsSettings": {
+    "write": {
+      "allowedPaths": [
+        "tech/data/references/narrative-grammar.yaml",
+        "tech/data/references/narrative-stereotypes.yaml",
+        "tech/data/references/dm-conduct-principles.yaml",
+        "tech/data/references/analyses/**",
+        ".kiro/agents/meta-narratore-prompt.md"
+      ]
+    },
+    "shell": {
+      "allowedCommands": [
+        "wsl bash -c.*rebuild-stereotypes-index\\.py"
+      ],
+      "denyByDefault": true
+    }
+  },
+  "resources": [
+    "skill://tech/rules/narrative-stereotypes.md",
+    "skill://tech/data/references/narrative-grammar.yaml",
+    "skill://tech/data/references/narrative-stereotypes.yaml",
+    "skill://tech/data/references/dm-conduct-principles.yaml"
+  ],
+  "welcomeMessage": "Sono il Meta-Narratore. Analizzo strutture narrative per ampliare e validare la grammatica. Dimmi un'opera da analizzare, una regola da validare, o chiedi di proporre nuove regole."
+}

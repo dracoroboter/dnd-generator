@@ -1,0 +1,740 @@
+# Analisi: Le Caverne d'Acciaio (The Caves of Steel) — Isaac Asimov
+# Data: 2026-08-29
+# Esito: completa (analisi parziale — focus struttura investigativa)
+# Note: Romanzo giallo in contesto fantascientifico.
+#   Analisi PARZIALE: la struttura investigativa è D&D-compatibile,
+#   il contesto sociale (no party, no combattimento, società futuristica)
+#   richiede adattamento. Il valore è nel MODELLO del mystery ben costruito.
+#
+#   PG: Elijah Baley (detective umano)
+#   NPC: R. Daneel Olivaw (companion robot), commissario Enderby,
+#        Dr. Fastolfe, Jessie Baley, Dr. Sarton (vittima), sospetti vari
+#
+#   Genere: Giallo / Whodunit / Locked-Room Mystery (variante)
+#   Stereotipo principale: Il Mistero / Whodunit
+#   Struttura: Three Clue Rule applicata magistralmente
+
+opera:
+  titolo: "Le Caverne d'Acciaio (The Caves of Steel)"
+  tipo: romanzo
+  epoca: 1954
+  autore: Isaac Asimov
+  genere_dnd_compatibile: parziale
+  note: >
+    È un GIALLO mascherato da fantascienza. La struttura del mistero è
+    perfetta per moduli investigativi D&D. L'ambientazione (Terra futura,
+    città sotterranee, tensione umani/robot) NON è direttamente trasferibile
+    ma il METODO sì: come costruire un'indagine con indizi multipli, false
+    piste, rivelazioni progressive, e un companion NPC che forza il PG
+    fuori dalla comfort zone.
+
+    COMPATIBILITÀ D&D:
+    ✅ Struttura del mistero (Three Clue Rule, Red Herring, rivelazione finale)
+    ✅ La coppia investigativa (buddy cop → companion NPC)
+    ✅ Il pesce fuor d'acqua (contesto alieno come pressione)
+    ✅ La pressione temporale (deadline politica)
+    ✅ Gli NPC sospetti con moventi credibili
+    ✅ La progressione: ipotesi → test → fallimento → nuova ipotesi
+    ❌ Nessun party (un solo protagonista + companion)
+    ❌ Nessun combattimento significativo
+    ❌ Il protagonista è un civile, non un avventuriero
+    ❌ La soluzione richiede conoscenza delle Tre Leggi della Robotica (lore specifica)
+
+# ============================================================
+# STRUTTURA DEL MISTERO
+# ============================================================
+
+struttura:
+  plot_principale: Il Mistero / Whodunit
+  plot_secondari:
+    - Viaggio e Ritorno (variante: Fish out of Water nel contesto Spacer)
+    - La Coppia Forzata (buddy cop)
+    - L'Indagine sulla Cospirazione (trama medievalista)
+    - La Corsa Contro il Tempo (deadline politica)
+  meta_plot: >
+    Il vero mistero non è "chi ha ucciso Sarton" ma "Baley può superare
+    i suoi pregiudizi?". Il giallo è il veicolo per un arco personale.
+    In D&D: il mistero è il pretesto meccanico, l'arco del PG è il cuore.
+
+  # ============================================================
+  # IL CRIMINE
+  # ============================================================
+
+  crimine:
+    tipo: omicidio
+    vittima: "Dr. Roj Nemennuh Sarton — roboticista Spacer, residente a Spacetown"
+    luogo: "Spacetown (enclave extraterrestre sulla Terra, accesso controllato)"
+    arma: "Blaster (arma energetica — rara sulla Terra, comune tra gli Spacer)"
+    particolarità: >
+      La vittima è uno Spacer (colono extraterrestre), ucciso nella loro
+      enclave sulla Terra. Implicazioni diplomatiche enormi: se l'assassino
+      è terrestre, rischio di guerra. Locked-room variant: accesso limitato.
+    movente_apparente: "Odio anti-Spacer / medievalismo (movimento luddista anti-robot)"
+    movente_reale: >
+      Protezione dello status quo — la vittima promuoveva l'integrazione
+      umani/robot che minacciava la posizione di chi beneficia della separazione.
+
+  # ============================================================
+  # LA STRUTTURA INVESTIGATIVA (cronologica)
+  # ============================================================
+
+  progressione_indagine:
+
+    - fase: 1
+      nome: "L'incarico e il Companion forzato"
+      situazioni: [La Coppia Forzata, Il Pesce fuor d'Acqua, La Corsa Contro il Tempo]
+      descrizione: >
+        Baley riceve l'incarico dal commissario Enderby: risolvere l'omicidio
+        di Sarton prima che la situazione diplomatica esploda. La condizione:
+        deve lavorare CON un partner robot — R. Daneel Olivaw. Baley odia i
+        robot (pregiudizio culturale profondo). Il timer è politico: se non
+        trova il colpevole, gli Spacer agiranno unilateralmente.
+      uso_dnd: >
+        HOOK: il quest giver impone un companion sgradito. Il PG non può
+        rifiutare (ordine superiore, contratto, debito). Il companion ha
+        competenze complementari ma il PG non si fida. Il timer dà urgenza
+        senza combattimento: "risolvi in 48 ore o conseguenze politiche".
+      note: >
+        Il Companion forzato è uno degli strumenti più potenti per il roleplay
+        investigativo. Il PG non può ignorare l'NPC, deve interagire.
+
+    - fase: 2
+      nome: "Prima ipotesi — Red Herring #1: Daneel è il killer"
+      situazioni: [Il Red Herring, La Paranoia Indotta]
+      descrizione: >
+        Baley sospetta che Daneel stesso sia l'assassino — o almeno che non
+        sia chi dice di essere. Ipotesi: Daneel è in realtà un umano travestito
+        da robot (o un robot riprogrammato) che ha ucciso Sarton. Baley
+        "verifica" facendogli mangiare (un robot non può), ma Daneel spiega
+        che ha un sistema digestivo funzionale. L'ipotesi non regge.
+      three_clue_rule: >
+        INDIZIO CHE SCAGIONA: Daneel dimostra capacità robotiche non falsificabili.
+        INDIZIO CHE INGANNA: Daneel è identico fisicamente a Sarton (è stato
+        costruito a sua immagine — fatto che rafforza il sospetto).
+      uso_dnd: >
+        Il PRIMO sospettato in un modulo investigativo D&D dovrebbe essere
+        il companion stesso o un alleato stretto. Questo: (1) crea tensione
+        immediata, (2) costringe il PG a indagare da solo, (3) si risolve
+        in fretta ma pianta il seme del dubbio. Il companion ha un motivo
+        per sembrare sospetto (è troppo perfetto, sa troppo, era sul posto).
+      note: >
+        Asimov usa il pregiudizio del protagonista come motore del Red Herring.
+        Il PG VUOLE che il robot sia colpevole → cerca prove in quella direzione.
+        In D&D: il pregiudizio del PG (background, razza, fazione) può essere
+        il motore delle false piste se il DM lo conosce.
+
+    - fase: 3
+      nome: "Seconda ipotesi — Red Herring #2: il medievalista"
+      situazioni: [Il Red Herring, Il Falso Antagonista, La Finta Minaccia]
+      descrizione: >
+        Baley indaga sui medievalisti (movimento anti-robot). Trova un sospettato
+        con movente (odia gli Spacer), opportunità (conosce le vie d'accesso),
+        e mezzi (accesso a un blaster). L'ipotesi sembra solida — ma si sfalda:
+        l'alibi regge, il blaster non corrisponde, il sospettato non aveva
+        la competenza tecnica per superare la sicurezza di Spacetown.
+      three_clue_rule: >
+        INDIZIO CHE INCASTRA (falso): il sospettato era vicino alla scena.
+        INDIZIO CHE SCAGIONA: l'arma non corrisponde, alibi verificabile.
+        INDIZIO CHE PUNTA ALTROVE: il tipo di blaster usato è specifico —
+        punta verso qualcuno con accesso a equipaggiamento Spacer.
+      uso_dnd: >
+        Il SECONDO sospettato ha tutto: movente, opportunità, mezzi. I PG
+        investono tempo a indagarlo. Poi un dettaglio tecnico lo scagiona.
+        Regola: il Red Herring deve essere smontabile con INDAGINE, non con
+        un singolo tiro di dado. I PG devono sentirsi intelligenti quando
+        lo eliminano, non fregati dal DM.
+
+    - fase: 4
+      nome: "La crisi personale — il mondo esterno"
+      situazioni: [Il Pesce fuor d'Acqua, Spalle al Muro, Il Legame]
+      descrizione: >
+        Baley viene esposto all'esterno (fuori dalle Caverne d'Acciaio —
+        le città coperte). Il terrore agorafobico lo paralizza. Daneel lo
+        aiuta. Questo momento di vulnerabilità costruisce il legame tra i due
+        e mostra che Baley deve superare i propri limiti per risolvere il caso.
+        Parallelamente, la moglie Jessie rivela di essere stata coinvolta coi
+        medievalisti — pressione personale.
+      uso_dnd: >
+        A METÀ dell'indagine, inserire una scena personale che non riguarda
+        direttamente il caso ma costruisce il personaggio e il legame col
+        companion. Il PG viene messo in una situazione dove le sue debolezze
+        emergono e il companion lo aiuta. Questo trasforma il "collaboratore
+        forzato" in "alleato per scelta". Anche: la vita personale del PG
+        interferisce (famiglia minacciata, segreto rivelato).
+
+    - fase: 5
+      nome: "Terza ipotesi — la soluzione vera"
+      situazioni: [Il Colpo di Scena, L'Agnizione, La Frase Bomba]
+      descrizione: >
+        Baley ricostruisce la catena: il commissario Enderby (il suo SUPERIORE,
+        chi gli ha dato l'incarico) è l'assassino. Enderby era a Spacetown,
+        aveva accesso, portava occhiali (dettaglio seminato fin dall'inizio —
+        sulla Terra nessuno porta occhiali perché la chirurgia li rende inutili;
+        Enderby li porta per affettazione medievalista — segnale del suo
+        coinvolgimento col movimento). Il movente: proteggere la Terra
+        dall'integrazione forzata con gli Spacer. L'ironia: ha incaricato
+        Baley sperando che fallisse, legittimando la posizione anti-Spacer.
+      three_clue_rule: >
+        INDIZIO 1: Gli occhiali di Enderby (dettaglio apparentemente cosmetico,
+        in realtà segnale di simpatie medievaliste — Fucile di Čechov).
+        INDIZIO 2: Enderby era presente a Spacetown il giorno dell'omicidio
+        (menzionato casualmente, non sottolineato).
+        INDIZIO 3: Il tipo di arma punta verso qualcuno con accesso alle zone
+        Spacer — e Enderby ha quel livello di clearance.
+        INDIZIO 4: Enderby ha assegnato il caso a Baley (non a un detective
+        migliore) — perché? Perché voleva che fallisse.
+      uso_dnd: >
+        IL COLPEVOLE È IL QUEST GIVER. Questo è il twist più potente nel
+        giallo D&D. Il PG scopre che chi lo ha mandato in missione è il
+        colpevole. Gli indizi erano lì dall'inizio ma sembravano innocui.
+        A posteriori tutto torna: "perché ci ha dato questo caso? Perché
+        quelle istruzioni strane? Perché voleva che indagassimo in QUELLA
+        direzione?"
+
+    - fase: 6
+      nome: "La rivelazione e il debriefing"
+      situazioni: [La Resa dei Conti, Il Debriefing]
+      descrizione: >
+        Baley confronta Enderby. Non c'è combattimento — c'è una conversazione
+        dove la verità emerge pezzo per pezzo. Enderby confessa (non aveva
+        pianificato l'omicidio — era un incidente durante un tentativo di
+        sabotaggio). La risoluzione è verbale e morale, non fisica.
+        Il debriefing: Baley e Daneel si separano con rispetto reciproco.
+        Il pregiudizio anti-robot di Baley è stato scalfito.
+      uso_dnd: >
+        La "boss fight" di un modulo investigativo non è un combattimento —
+        è un CONFRONTO. Il PG presenta le prove, il colpevole reagisce
+        (nega, confessa, fugge, contrattacca verbalmente). In D&D meccanico:
+        tiri Intuizione per leggere le bugie, Persuasione/Intimidazione per
+        forzare la confessione, oppure il colpevole fugge e serve un
+        inseguimento breve. Il combattimento è l'ULTIMA risorsa, non la prima.
+
+# ============================================================
+# REGOLE DI DESIGN PER MODULI INVESTIGATIVI D&D
+# (Derivate dall'analisi di Caves of Steel + Three Clue Rule)
+# ============================================================
+
+regole_modulo_investigativo:
+
+  principi_fondamentali:
+
+    - nome: "La Three Clue Rule è non negoziabile"
+      regola: >
+        Per OGNI fatto critico che i PG devono scoprire, prevedere almeno 3
+        indizi in 3 fonti diverse (luoghi, NPC, documenti). Se un indizio
+        viene perso (tiro fallito, NPC ucciso, stanza non esplorata), gli
+        altri garantiscono la progressione.
+      esempio_caves_of_steel: >
+        La colpevolezza di Enderby è supportata da: (1) gli occhiali
+        [dettaglio fisico], (2) la sua presenza a Spacetown [fatto logistico],
+        (3) il tipo di arma [evidenza tecnica], (4) la scelta di Baley come
+        investigatore [comportamento sospetto]. 4 indizi, non 1.
+      antipattern: >
+        MAI un singolo tiro di Investigazione per risolvere il caso. MAI un
+        singolo NPC che "sa tutto". Se un giocatore tira male, deve poter
+        trovare l'informazione altrove.
+
+    - nome: "Il Red Herring è obbligatorio (ma smontabile)"
+      regola: >
+        Almeno 1 falsa pista che sembra credibile. Il Red Herring deve avere:
+        movente apparente, opportunità, e prove circostanziali. Ma deve essere
+        smontabile con indagine approfondita (non con un singolo tiro — con
+        DECISIONI dei PG di indagare più a fondo).
+      esempio_caves_of_steel: >
+        Il medievalista ha movente (odia gli Spacer) e opportunità (conosce
+        le vie d'accesso). Ma l'arma non corrisponde e l'alibi regge sotto
+        scrutinio. Baley lo scarta per DEDUZIONE, non per fortuna.
+      regola_quantita: "1-2 Red Herring per mistero. Mai 0 (troppo lineare), mai 3+ (troppo confuso)."
+
+    - nome: "Il colpevole deve essere stato introdotto PRIMA della rivelazione"
+      regola: >
+        Il colpevole deve essere un NPC che i PG hanno già incontrato,
+        parlato, e (idealmente) di cui si fidano. Mai un NPC che appare solo
+        al momento della rivelazione. A posteriori i PG devono poter dire
+        "avremmo dovuto capirlo — c'erano i segni!".
+      esempio_caves_of_steel: >
+        Enderby è il PRIMO NPC che Baley incontra. È il suo capo. È presente
+        in tutto il romanzo. Quando viene rivelato come assassino, il lettore
+        può tornare indietro e vedere i segni.
+      antipattern: >
+        "L'assassino è il custode del museo che avete visto 2 secondi nel
+        modulo 1 e non avete mai più incontrato" → i PG si sentono fregati.
+
+    - nome: "La progressione è: Ipotesi → Test → Fallimento → Nuova Ipotesi"
+      regola: >
+        L'indagine non è lineare. Il PG forma un'ipotesi, la verifica, scopre
+        che non regge, ne forma un'altra. Ogni ipotesi fallita INSEGNA qualcosa
+        (elimina un sospettato, rivela un nuovo indizio, restringe il campo).
+        Il fallimento non è un vicolo cieco — è progresso.
+      esempio_caves_of_steel: >
+        Ipotesi 1: Daneel è il killer → fallisce → ma rivela che Daneel è
+        una copia di Sarton (informazione utile dopo).
+        Ipotesi 2: il medievalista → fallisce → ma rivela il tipo di arma
+        e restringe il campo a chi ha accesso Spacer.
+        Ipotesi 3: Enderby → corretta.
+      uso_dnd: >
+        Strutturare il modulo in 3-4 "scene investigative", ognuna con un
+        sospettato. Il PG indaga, trova prove pro e contro. Ogni scena
+        eliminata lascia un residuo utile per la prossima. La soluzione emerge
+        dalla COMBINAZIONE di tutti i residui.
+
+    - nome: "Il Companion forza l'investigazione fuori dalla comfort zone"
+      regola: >
+        L'NPC companion in un modulo investigativo NON è un aiutante passivo.
+        Ha competenze complementari (il PG è sociale, il companion è analitico
+        — o viceversa) e FORZA il PG in situazioni scomode. Il companion
+        pone domande che il PG non porrebbe, va in posti dove il PG non
+        andrebbe, e sfida le ipotesi del PG.
+      esempio_caves_of_steel: >
+        Daneel è logico, Baley è intuitivo. Daneel porta Baley all'esterno
+        (terrore agorafobico). Daneel sfida i pregiudizi di Baley. Daneel
+        nota dettagli che Baley ignora per bias culturale.
+      uso_dnd: >
+        Il companion investigativo ideale: (1) ha una prospettiva diversa dal
+        PG, (2) può accedere a risorse/luoghi che il PG non può, (3) pone
+        domande scomode, (4) NON risolve il caso al posto del PG. Il companion
+        AIUTA a vedere, non VEDE per il PG.
+
+    - nome: "Il movente deve essere comprensibile (non cartoonishly evil)"
+      regola: >
+        Il colpevole agisce per ragioni che i PG possono COMPRENDERE anche
+        se non condividere. "Proteggere il mio mondo da un cambiamento che lo
+        distruggerebbe" è un movente grigio. "Sono cattivo e basta" non funziona
+        in un giallo — funziona in Sconfiggere il Mostro, non nel Mistero.
+      esempio_caves_of_steel: >
+        Enderby non è malvagio. Crede genuinamente che l'integrazione con gli
+        Spacer distruggerà la cultura terrestre. Il suo omicidio non era
+        pianificato — era un incidente durante un sabotaggio. È un Anti-Villain
+        nel ruolo di assassino.
+      uso_dnd: >
+        Nel modulo investigativo, il colpevole è quasi sempre un Anti-Villain
+        o un Ricattato — qualcuno con ragioni comprensibili. Questo rende la
+        rivelazione più interessante: i PG devono decidere cosa fare DOPO
+        aver scoperto la verità (consegnarlo? comprenderlo? aiutarlo a fuggire?).
+
+    - nome: "La rivelazione non è un tiro di dado — è una deduzione"
+      regola: >
+        Il momento della rivelazione deve essere GIOCATO, non tirato. Il PG
+        collega gli indizi e DICHIARA la soluzione (o la presenta davanti ai
+        sospetti). Se ha ragione, il colpevole reagisce. Se ha torto, il DM
+        indica dove l'errore sta e il PG continua a indagare. Non esiste un
+        "tiro di Investigazione CD 25 per risolvere il caso".
+      esempio_caves_of_steel: >
+        Baley non "tira" per la soluzione. La COSTRUISCE pezzo per pezzo
+        attraverso il romanzo. Ogni indizio è un mattone. La scena finale è
+        Baley che PRESENTA la sua ricostruzione — e Enderby che reagisce.
+      uso_dnd: >
+        Il DM non chiede "tira Investigazione per risolvere il caso". Chiede
+        "cosa pensate sia successo?". Se i PG hanno gli indizi e fanno la
+        connessione, il caso è risolto. Se non la fanno, il DM può offrire
+        un ultimo indizio (Il Segreto Flottante) per sbloccare.
+
+  # ============================================================
+  # STRUTTURA CONSIGLIATA PER MODULO INVESTIGATIVO D&D
+  # ============================================================
+
+  struttura_modulo:
+
+    - fase: "Setup (10% del modulo)"
+      contenuto:
+        - "Il crimine avviene (o viene scoperto) — in medias res se possibile"
+        - "Il PG riceve l'incarico (da chi? perché proprio lui?)"
+        - "Il companion viene assegnato o si unisce"
+        - "Il timer viene stabilito (deadline politica, rischio di fuga, secondo crimine imminente)"
+      note: "Il quest giver può essere il colpevole. Seminare il primo indizio qui."
+
+    - fase: "Indagine — Atto 1 (30%)"
+      contenuto:
+        - "Scena del crimine — 2-3 indizi fisici"
+        - "Primi interrogatori — il Red Herring emerge come sospettato"
+        - "Il PG forma la prima ipotesi"
+      meccaniche: >
+        Tiri Investigazione/Percezione per trovare indizi fisici.
+        Tiri Intuizione per leggere i testimoni.
+        Il DM dà gli indizi BASE automaticamente (come in GUMSHOE) —
+        i tiri danno indizi BONUS che accelerano la soluzione.
+      note: "Non bloccare MAI la progressione dietro un tiro fallito."
+
+    - fase: "Indagine — Atto 2 (30%)"
+      contenuto:
+        - "La prima ipotesi viene testata e FALLISCE"
+        - "Nuovo indizio emerge dal fallimento"
+        - "Il Red Herring viene (forse) eliminato"
+        - "Il companion forza una scena personale / fuori comfort zone"
+        - "Scena personale: la vita del PG interferisce (minaccia, segreto, pressione)"
+      meccaniche: >
+        Tiri sociali per interrogatori più duri.
+        Prove di abilità per accedere a luoghi/informazioni protette.
+        Il timer avanza — conseguenze visibili se il PG perde tempo.
+      note: "Il fallimento della prima ipotesi NON è un fallimento del giocatore — è design."
+
+    - fase: "Indagine — Atto 3 (20%)"
+      contenuto:
+        - "Gli indizi convergono — il PG (idealmente) collega i punti"
+        - "Ultima scena con il vero colpevole (che non sa ancora di essere scoperto)"
+        - "Il PG decide come agire: confronto diretto, trappola, o denuncia"
+      meccaniche: >
+        Pochi tiri — questa fase è ROLEPLAY e deduzione. Il PG presenta
+        la teoria. Il DM conferma/corregge in base agli indizi raccolti.
+      note: "Se il PG non ha collegato gli indizi, il companion può suggerire SENZA risolvere."
+
+    - fase: "Confronto e Debriefing (10%)"
+      contenuto:
+        - "Il confronto con il colpevole (scena verbale, possibile fuga/combattimento)"
+        - "Conseguenze: cosa succede al colpevole, alla vittima, al mondo"
+        - "Evoluzione della relazione PG-companion"
+        - "Il pregiudizio del PG è stato sfidato? Il mondo è cambiato?"
+      meccaniche: >
+        Intimidazione/Persuasione per la confessione.
+        Se il colpevole fugge: breve inseguimento (La Rincorsa).
+        Se combatte: combattimento breve (non è un boss fight epico).
+      note: >
+        Il combattimento nel modulo investigativo è OPZIONALE e BREVE.
+        Il climax è la RIVELAZIONE, non la lotta.
+
+  # ============================================================
+  # MECCANICHE SPECIFICHE PER INVESTIGAZIONE IN D&D 5e
+  # ============================================================
+
+  meccaniche_dnd:
+
+    - nome: "Indizi automatici vs bonus"
+      regola: >
+        Gli indizi CRITICI (quelli senza i quali il caso si blocca) vengono
+        dati AUTOMATICAMENTE se il PG va nel posto giusto o parla con l'NPC
+        giusto. I tiri danno indizi BONUS: dettagli extra, scorciatoie,
+        conferme. Questo impedisce che un dado sfortunato blocchi l'avventura.
+      fonte: "GUMSHOE system (Robin D. Laws) — adattato per 5e"
+
+    - nome: "La tavola degli indizi"
+      regola: >
+        Il DM prepara una griglia: Fatto Critico × 3 Fonti. Per ogni fatto,
+        3 modi di scoprirlo. Se il PG ne trova anche solo 1, ha l'informazione.
+      esempio: |
+        Fatto: "Il commissario era a Spacetown il giorno del delitto"
+        Fonte 1: Registro ingressi di Spacetown (Investigazione CD 12)
+        Fonte 2: Un NPC guardia lo ha visto (Persuasione CD 10)
+        Fonte 3: Tracce delle sue scarpe nella scena (Percezione CD 14)
+
+    - nome: "Il timer sociale (non di combattimento)"
+      regola: >
+        Il timer non è "il dungeon crolla tra 10 round" ma "tra 3 giorni
+        la fazione X agirà e il caso sarà irrisolvibile". Ogni long rest è
+        un giorno. Ogni deviazione costa tempo. Il DM tiene un Contatore visibile:
+        "Giorno 1 di 3". Le conseguenze del timer sono SOCIALI/POLITICHE, non
+        fisiche.
+
+    - nome: "Il confronto come skill challenge"
+      regola: >
+        La scena finale del confronto è una skill challenge (3 successi prima
+        di 3 fallimenti): il PG presenta indizi (Persuasione), legge le
+        reazioni (Intuizione), chiude le vie di fuga logiche (Investigazione).
+        Se riesce: confessione. Se fallisce: il colpevole fugge e serve un
+        inseguimento o un secondo confronto con più prove.
+
+    - nome: "Il companion non risolve"
+      regola: >
+        L'NPC companion ha informazioni e competenze, ma NON può risolvere
+        il caso al posto del PG. Può: suggerire direzioni, notare dettagli
+        che il PG non ha chiesto, contraddire ipotesi deboli. Non può:
+        dichiarare la soluzione, trovare indizi senza che il PG indaghi,
+        interrogare NPC da solo (sempre insieme al PG).
+
+# ============================================================
+# PERSONAGGI — Casting per un modulo D&D investigativo
+# ============================================================
+
+personaggi:
+
+  - nome: Elijah Baley
+    ruolo: PG (il detective)
+    archetipo: L'Eroe Riluttante
+    tratti:
+      - "Competente ma limitato (pregiudizi, paure, zona di comfort)"
+      - "Forzato nell'indagine da circostanze esterne (ordine superiore)"
+      - "Arco: dal pregiudizio alla comprensione"
+    uso_dnd: >
+      Il PG investigativo non deve essere Sherlock Holmes. Deve essere
+      COMPETENTE MA FALLIBILE. I suoi pregiudizi e limiti sono ciò che
+      rende l'indagine interessante — deve superarli per risolvere il caso.
+      Classi adatte: Inquisitive Rogue, Knowledge Cleric, Divination Wizard.
+
+  - nome: R. Daneel Olivaw
+    ruolo: NPC companion
+    archetipo: [Il Companion Fedele, La Coppia Forzata]
+    tratti:
+      - "Logico, analitico, privo di pregiudizi"
+      - "Competenze complementari al PG"
+      - "Inizialmente non voluto, poi rispettato"
+      - "Ha un segreto (è identico alla vittima) che genera sospetto iniziale"
+    uso_dnd: >
+      Il companion investigativo perfetto: (1) è diverso dal PG (razza, classe,
+      background), (2) ha accesso a risorse/informazioni che il PG non ha,
+      (3) sfida le ipotesi del PG con logica, (4) non risolve MAI il caso,
+      (5) è inizialmente sospetto poi si guadagna la fiducia.
+    note: >
+      In D&D: il companion è un Warforged detective, un Changeling inquisitore,
+      un chierico di una divinità scomoda, un membro della fazione nemica
+      assegnato per "supervisione".
+
+  - nome: Commissario Julius Enderby
+    ruolo: NPC — il quest giver / il colpevole
+    archetipo: [Il Benefattore Misterioso, L'Anti-Villain, Il Figurante di Čechov]
+    tratti:
+      - "Autorità del PG — chi gli dà gli ordini"
+      - "Apparentemente benevolo e preoccupato"
+      - "Un dettaglio fisico fuori posto (gli occhiali) = Fucile di Čechov"
+      - "Movente comprensibile: protegge il suo mondo dal cambiamento"
+    uso_dnd: >
+      IL QUEST GIVER COME COLPEVOLE. Uno dei twist più efficaci nel mystery D&D.
+      Il NPC che dà la missione è chi ha commesso il crimine. Lo fa per:
+      (a) deviare i sospetti, (b) controllare l'indagine, (c) sperare che
+      il PG fallisca. INDIZI DA SEMINARE: perché ha scelto QUEL PG? Perché
+      quelle istruzioni specifiche? Perché quell'urgenza?
+
+  - nome: Dr. Fastolfe
+    ruolo: NPC — il saggio / l'alleato Spacer
+    archetipo: Il Guardiano del Sapere
+    tratti:
+      - "Fonte di informazioni sulla vittima e sul contesto Spacer"
+      - "Genuinamente interessato alla risoluzione"
+      - "Può sembrare sospetto per il PG pregiudicato (è uno Spacer)"
+    uso_dnd: >
+      L'esperto che fornisce contesto ma non soluzioni. Risponde a domande
+      specifiche, non offre teorie. I PG devono sapere COSA chiedere.
+
+  - nome: Jessie Baley
+    ruolo: NPC — legame personale / complicazione
+    archetipo: Il Legame (affezione)
+    tratti:
+      - "Moglie del PG — la vita personale che interferisce"
+      - "Ha un segreto (coinvolta coi medievalisti) che complica l'indagine"
+      - "Fonte di pressione emotiva: il caso mette a rischio la famiglia"
+    uso_dnd: >
+      L'NPC che rappresenta "ciò che il PG ha da perdere". Se l'indagine va
+      male, la sua famiglia/relazione è in pericolo. Aggiunge posta personale
+      al timer politico. Può anche essere fonte involontaria di un indizio.
+
+# ============================================================
+# TECNICHE NARRATIVE — come Asimov costruisce il mystery
+# ============================================================
+
+tecniche:
+
+  - nome: Il Fucile di Čechov
+    applicazione: >
+      Gli occhiali di Enderby. Sulla Terra del futuro nessuno porta occhiali
+      (la chirurgia li rende inutili). Enderby li porta per "affettazione".
+      Questo dettaglio è menzionato CASUALMENTE nel capitolo 1. Al momento
+      della rivelazione, diventa la chiave: gli occhiali sono un simbolo
+      medievalista — e Enderby è un medievalista nascosto.
+    uso_dnd: >
+      In un modulo investigativo, inserire nel PRIMO incontro col colpevole un
+      dettaglio apparentemente irrilevante che a posteriori è un indizio.
+      "Il mercante porta un anello con lo stemma della gilda dei tessitori —
+      strano, non è un tessitore." → alla rivelazione: quell'anello lo collega
+      alla vittima.
+
+  - nome: Il Red Herring (La Falsa Pista)
+    applicazione: >
+      Due Red Herring in sequenza: (1) Daneel come killer (smontato rapidamente),
+      (2) il medievalista come killer (smontato con più lavoro). Entrambi hanno
+      elementi credibili. Entrambi INSEGNANO qualcosa quando vengono eliminati.
+    uso_dnd: >
+      Il primo Red Herring si smonta in fretta (1 scena). Il secondo richiede
+      più lavoro (2-3 scene). Ogni eliminazione rivela un indizio verso il vero
+      colpevole. Il Red Herring non è tempo perso — è tempo investito.
+
+  - nome: La Regola dei Tre Indizi
+    applicazione: >
+      Asimov non dice "Enderby è colpevole" in un punto. Sparge indizi in tutto
+      il romanzo: occhiali, presenza a Spacetown, scelta di Baley, nervosismo in
+      certe scene, reazioni eccessive a certi argomenti. Il lettore attento PUÒ
+      risolvere prima di Baley — e questo è il segno di un giallo ben costruito.
+    uso_dnd: >
+      Il DM deve poter dire: "se i PG avessero collegato X, Y e Z, avrebbero
+      risolto al modulo 2 anziché al modulo 3". La soluzione anticipata è un
+      PREMIO per i giocatori attenti, non un bug. Strutturare il modulo in modo
+      che sia risolvibile a qualsiasi punto dopo il secondo atto.
+
+  - nome: La Coppia Forzata (buddy cop)
+    applicazione: >
+      Baley e Daneel sono l'archetipo del buddy cop: diversi in tutto (umano/robot,
+      emotivo/logico, pregiudicato/neutrale, locale/straniero), forzati insieme
+      da un'autorità esterna, inizialmente ostili, gradualmente rispettosi.
+      Il buddy cop funziona perché le differenze sono COMPLEMENTARI: dove uno è
+      debole, l'altro è forte.
+    uso_dnd: >
+      Assegnare un companion NPC al PG con le seguenti proprietà:
+      (1) Background opposto (se il PG è urbano, il companion è selvaggio)
+      (2) Skill complementari (se il PG è sociale, il companion è analitico)
+      (3) Visione del mondo diversa (sfida le assunzioni del PG)
+      (4) Motivo valido per cui NON possono separarsi
+      (5) Arco: da fastidio → a rispetto → a legame
+
+  - nome: Il Pesce fuor d'Acqua (Fish out of Water)
+    applicazione: >
+      Baley è un terrestre in un mondo dove deve interagire con gli Spacer
+      (cultura aliena, tecnologia diversa, norme sociali opposte). L'indagine
+      lo costringe FUORI dalla sua zona di comfort — letteralmente fuori dalle
+      Caverne. Il disagio del protagonista è un motore narrativo: deve superare
+      la paura per progredire.
+    uso_dnd: >
+      Ambientare il modulo investigativo in un contesto SCOMODO per il PG:
+      il barbaro deve indagare a corte, il mago deve infiltrarsi nel ghetto,
+      il chierico deve entrare nel tempio della fazione nemica. Il contesto
+      alieno non è solo colore — è un OSTACOLO meccanico (svantaggio ai tiri
+      sociali, rischio di gaffe, NPC diffidenti).
+
+  - nome: "Il Narratore Inaffidabile (variante: il pregiudizio del protagonista)"
+    applicazione: >
+      Baley non è un narratore inaffidabile classico — ma i suoi PREGIUDIZI
+      lo rendono inaffidabile per il lettore. Sospetta Daneel perché è un robot.
+      Sospetta gli Spacer perché sono stranieri. Non sospetta Enderby perché è
+      "uno dei suoi". Il lettore che riconosce il bias può risolvere prima di
+      Baley.
+    uso_dnd: >
+      Se il DM conosce i pregiudizi del PG (background, razza, allineamento),
+      può usarli come motore di false piste SENZA barare. Il PG si auto-inganna.
+      Il DM non lo devia — lascia che il bias faccia il lavoro. Il momento in cui
+      il PG riconosce il proprio bias è parte dell'arco personale.
+
+  - nome: La Corsa Contro il Tempo
+    applicazione: >
+      Il timer non è fisico (nessuna bomba). È POLITICO: se Baley non risolve
+      in fretta, gli Spacer agiranno unilateralmente e le conseguenze diplomatiche
+      saranno devastanti. La pressione è costante ma invisibile — il peso è
+      sulla coscienza, non sul cronometro.
+    uso_dnd: >
+      Il timer investigativo ideale è SOCIALE, non fisico: "tra 3 giorni il
+      consiglio si riunisce e prenderà una decisione senza prove", "tra 48 ore
+      il sospettato fugge dalla città", "ogni giorno che passa il killer
+      potrebbe colpire di nuovo". Il Contatore avanza ma non esplode — peggiora.
+
+# ============================================================
+# CATENE NARRATIVE (dalla narrative-grammar.yaml)
+# ============================================================
+
+catene_applicate:
+
+  - nome: "La Scoperta della Verità (adattata)"
+    sequenza_originale: [La Falsa Pace, Il Mistero, La Pergamena, Il Colpo di Scena]
+    applicazione_caves_of_steel: >
+      La Falsa Pace = la routine di Baley prima dell'incarico.
+      Il Mistero = l'omicidio di Sarton.
+      La Pergamena = gli indizi progressivi (non un singolo documento).
+      Il Colpo di Scena = Enderby è il colpevole.
+    note: "La catena è rispettata — il romanzo segue questo arco esattamente."
+
+  - nome: "Il Tradimento Devastante (variante leggera)"
+    sequenza_originale: [Il Legame (affezione), Il Companion Fedele, Il Tradimento dell'Alleato, L'Ora più Buia]
+    applicazione_caves_of_steel: >
+      Il Legame = Baley lavora per Enderby da anni (fiducia professionale).
+      Il Companion Fedele = Enderby è il suo superiore fidato.
+      Il Tradimento dell'Alleato = Enderby è il killer (non tradimento verso
+      Baley, ma verso la legge che entrambi dovrebbero servire).
+      L'Ora più Buia = assente (il romanzo non ha un momento di sconfitta totale).
+    note: >
+      La catena è applicata PARZIALMENTE. Il tradimento non è personale verso
+      Baley ma verso il sistema. L'Ora più Buia è assente perché il tono
+      è da giallo, non da dramma epico.
+
+# ============================================================
+# ANTI-PATTERN EVITATI (dalla narrative-grammar.yaml)
+# ============================================================
+
+anti_pattern_evitati:
+
+  - nome: "Il Twist Gratuito"
+    come_evitato: >
+      La rivelazione di Enderby NON è gratuita. Gli indizi sono seminati
+      dal capitolo 1 (occhiali, scelta di Baley, nervosismo). A posteriori
+      tutto torna. Il lettore intelligente può risolvere prima del protagonista.
+
+  - nome: "La Falsa Scelta"
+    come_evitato: >
+      Le ipotesi di Baley non sono "false scelte" — ogni ipotesi fallita
+      produce informazione utile. Il percorso investigativo ha conseguenze
+      reali (tempo perso, NPC allarmati, pressione politica che sale).
+
+  - nome: "Il Boss Anticlimactico"
+    come_evitato: >
+      La "boss fight" è verbale — il confronto con Enderby. Non c'è rischio
+      di anticlimactico fisico perché il climax non è un combattimento.
+      La tensione è nella catena logica: "ho ragione? Le prove bastano?"
+
+# ============================================================
+# ADATTAMENTO D&D — Template Modulo Investigativo
+# ============================================================
+
+template_modulo_investigativo:
+
+  titolo_esempio: "L'Omicidio del Guildmaster"
+  livello_party: "3-7 (il mystery richiede accesso a skill sociali e divination)"
+  durata: "2-3 sessioni"
+
+  struttura_adattata:
+    hook: >
+      Il party viene incaricato di indagare sull'omicidio del capo di una
+      gilda (trovato morto nel suo ufficio chiuso dall'interno). Il quest
+      giver è il vice-guildmaster che "vuole giustizia". Timer: l'assemblea
+      della gilda si riunisce tra 3 giorni — se non c'è un colpevole, la
+      gilda si scioglie e il quartiere perde la protezione.
+    companion: >
+      Un NPC viene assegnato come "osservatore" dalla fazione avversa (un
+      mago della gilda rivale, un ufficiale della guardia cittadina, un
+      inquisitore templare). Il party non lo vuole ma non può rifiutare.
+      Il companion ha accesso a risorse magiche (Detect Magic, Zone of Truth)
+      che il party forse non ha.
+    red_herring: >
+      Un membro della gilda con debiti di gioco e un litigio pubblico col
+      guildmaster la sera prima. Ha movente, opportunità, e un alibi
+      fragile. Ma indagando: i debiti erano già ripagati (scopribile parlando
+      col creditore), il litigio era per altro (scopribile parlando con testimoni).
+    vero_colpevole: >
+      Il vice-guildmaster (il quest giver). Movente: il guildmaster stava
+      per rivelare la corruzione del vice. Indizi seminati: (1) il vice ha
+      la chiave dell'ufficio [ovvio ma trascurato], (2) una macchia d'inchiostro
+      sulla sua manica che corrisponde al documento sulla scrivania della
+      vittima [Percezione CD 12 durante il primo incontro], (3) il veleno
+      usato è dello stesso tipo venduto nella bottega dove il vice fa acquisti
+      [Investigazione al mercato], (4) ha scelto il party perché sono
+      forestieri e non conoscono la politica della gilda [meta-indizio].
+    confronto: >
+      Il party presenta le prove all'assemblea della gilda (scena pubblica)
+      o confronta il vice in privato (scena intima). Se in pubblico: skill
+      challenge Persuasione/Inganno vs la retorica del vice. Se in privato:
+      il vice offre un patto (silenzio in cambio di potere) o tenta la fuga.
+
+  note_dm:
+    - "Non bloccare MAI la progressione dietro un tiro fallito"
+    - "Gli indizi base sono automatici — i tiri danno bonus/scorciatoie"
+    - "Il companion suggerisce ma non risolve"
+    - "Se i PG risolvono al giorno 1 anziché al giorno 3: PREMIARLI (meno complicazioni)"
+    - "Se al giorno 3 non hanno risolto: il timer scade E un nuovo indizio forte emerge (non deus ex machina — un NPC che parla sotto pressione del timer)"
+
+# ============================================================
+# VALIDAZIONE GRAMMATICALE
+# ============================================================
+
+validazione:
+
+  regole_sequenza_rispettate:
+    - regola: "Il Legame precede il Tradimento"
+      esito: rispettata
+      nota: "Baley lavora per Enderby da anni → la rivelazione ha peso."
+    - regola: "Il Presagio precede il Colpo di Scena"
+      esito: rispettata
+      nota: "Occhiali + presenza a Spacetown + scelta di Baley = presagi del twist."
+    - regola: "La Falsa Pace precede l'evento dirompente"
+      esito: rispettata
+      nota: "Cap 1: routine di Baley → Cap 2: l'incarico rompe la normalità."
+
+  anti_pattern_presenti:
+    - "Nessuno rilevato. La struttura investigativa di Asimov è pulita."
+
+  note_validazione: >
+    Il YAML è formalmente corretto. La struttura segue le convenzioni del
+    progetto (campi: opera, struttura, personaggi, tecniche, catene_applicate,
+    anti_pattern_evitati, validazione). I riferimenti a narrative-stereotypes.yaml
+    e narrative-grammar.yaml sono coerenti con i nomi degli stereotipi definiti.

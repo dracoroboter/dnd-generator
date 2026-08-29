@@ -195,6 +195,8 @@ Se le cose vanno male per i sicari, tenteranno di fuggire scavalcando muri o sci
 
 **Taverna "Pelor lo Scintillante".** La camera costa 10 mo, 2 mo addizionali per la spa. Nella spa vengono servite bevande corroboranti a 300 mo l'una che sono in realtà **Pozioni della Vitalità** (rimuovono Exhaustion). Ogni giocatore può prenderne massimo tre.
 
+**Voci inquietanti.** Nella taverna o al porto, i PG possono sentire (o chiedere attivamente, Indagare CD 10) una voce che circola tra i marinai: un villaggio costiero a sud di Neverwinter, tra Leilon e Waterdeep, è stato colpito da una pestilenza inspiegabile. I morti non restano tali. Un pescatore racconta che suo cugino è fuggito dal villaggio dopo aver visto il cadavere di un vicino rialzarsi durante il funerale. La gente del posto dà la colpa a un eremita arrivato da pochi mesi. *Nota al DM: è il primo effetto dei rituali di Malebranche a Uluvin. I PG non possono ancora agire su questa informazione (sono diretti a nord) ma il seme è piantato per il Modulo 4.*
+
 ### Viaggio: Neverwinter → Luskan (5 giorni)
 
 Mare calmo per tutto il viaggio a meno che non si faccia 20 al dado. I PG notano un intensificarsi del freddo.
@@ -308,7 +310,9 @@ Durante la navigazione i PG possono incontrare uno o più di questi mostri marin
 
 ### Svoalbard — Imboscata di Othran Vorash
 
-Quando i personaggi sbarcano sull'isola di Svoalbard, Othran Vorash è arrivato prima di loro grazie a una nave più veloce e ha preparato un'imboscata in una piccola caletta ghiacciata tra le rocce costiere. Con lui si celano tre creature non morte al suo comando.
+Quando i personaggi sbarcano sull'isola di Svoalbard, Othran Vorash è già lì ad attenderli. Ha seguito la loro nave a distanza durante l'ultima tratta (CD 19 Percezione per notare una vela all'orizzonte, come indicato nella sezione viaggio). Non avendo la Lanterna dell'Aurora, non poteva trovare l'isola da solo: ha semplicemente seguito i PG come una scia, sbarcando su un altro punto della costa poche ore prima con una scialuppa più veloce, e ha preparato un'imboscata nella caletta ghiacciata dove la corrente spinge naturalmente le imbarcazioni.
+
+Con lui si celano tre creature non morte al suo comando.
 
 > Una stretta spiaggia di ghiaccio nero, con scogliere frastagliate alle spalle. Il vento artico ulula, sollevando folate di neve che riducono la visibilità e rendono scivoloso il terreno. Qua e là, blocchi di ghiaccio galleggiante intralciano l'approdo, costringendo a sbarcare in un punto preciso.
 

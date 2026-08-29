@@ -1,0 +1,815 @@
+# Analisi: L'Armata Brancaleone + Brancaleone alle Crociate (come campagna D&D comica a 2 archi)
+# Data: 2026-08-29
+# Esito: completa
+# Note: Duologia di Mario Monicelli (1966, 1970). Analisi focalizzata sulla
+#   struttura COMICA/PICARESCA come modello per campagne D&D non-eroiche.
+#   PG: Brancaleone da Norcia (cavaliere incompetente, antieroe picaresco)
+#   NPC: Abacuc, Pecoro, Teodora, il monaco Zenone, Teofilatto, la Morte, vari villain episodici
+#   Tono: commedia medievale con momenti drammatici. Satira del genere cavalleresco.
+
+opera:
+  titolo: "L'Armata Brancaleone / Brancaleone alle Crociate"
+  tipo: film (duologia)
+  epoca: 1966-1970
+  autore: Mario Monicelli
+  genere_dnd_compatibile: true
+  note: >
+    Campagna comica a 2 archi con party di incompetenti. Perfettamente
+    compatibile con D&D: quest episodiche, party di disadattati, viaggio con
+    tappe, fallimenti comici che si trasformano in successi accidentali.
+    Dimostra che D&D non deve essere eroico per funzionare — il tono picaresco
+    (avventure di mascalzoni) è altrettanto valido e coinvolgente.
+    Struttura: La Cerca declinata in chiave comica. Ogni tappa è un disastro
+    che il party sopravvive per fortuna, incompetenza altrui, o astuzia da
+    strada. Il genere cavalleresco viene sistematicamente sovvertito.
+
+# ============================================================
+# TESI CENTRALE: LA COMMEDIA COME STRUTTURA D&D
+# ============================================================
+
+tesi:
+  - nome: "Il picaresco è D&D puro"
+    argomento: >
+      La struttura picaresca (viaggio episodico di un mascalzone) è la struttura
+      naturale di una campagna D&D: un protagonista senza risorse attraversa
+      situazioni pericolose usando astuzia, fortuna e una banda di disperati.
+      Brancaleone è il PG di livello 1 che finge di essere livello 10.
+
+  - nome: "L'incompetenza genera storia"
+    argomento: >
+      I fallimenti dei PG sono più interessanti dei successi. Brancaleone fallisce
+      quasi tutto ciò che tenta — ma ogni fallimento genera la situazione
+      successiva. In D&D: i tiri falliti non devono terminare la storia, devono
+      complicarla in modo produttivo e divertente.
+
+  - nome: "La satira del genere è un genere"
+    argomento: >
+      Monicelli sovverte ogni convenzione cavalleresca: il duello è ridicolo,
+      la dama è più forte del cavaliere, la crociata è una truffa, il santo
+      è un ciarlatano. In D&D: una campagna che prende in giro i tropi del
+      fantasy (il Prescelto è un idiota, il MacGuffin non vale nulla, il BBEG
+      è patetico) è un genere legittimo e molto divertente al tavolo.
+
+  - nome: "Il Trickster come protagonista"
+    argomento: >
+      Brancaleone non è un eroe — è un sopravvissuto. Il suo archetipo dominante
+      è Il Trickster + Il Parassita: vive di espedienti, mente costantemente,
+      e la sua unica vera competenza è non morire. In D&D questo corrisponde al
+      Rogue/Bard di livello basso che bluffa tutto.
+
+# ============================================================
+# STRUTTURA GLOBALE
+# ============================================================
+
+struttura:
+  plot_principale: La Cerca
+  plot_secondari:
+    - Commedia degli Errori
+    - Il Viaggio dell'Esilio
+    - La Rivalità
+  meta_plot: "La sopravvivenza di un impostore in un mondo che lo supera costantemente"
+  tono: "Commedia picaresca con punte di dramma (la morte è reale, il mondo è crudele)"
+
+  archi:
+    # ============================================================
+    # ARCO 1: L'Armata Brancaleone (1966)
+    # Il party si forma, viaggio verso un feudo inesistente
+    # Livello D&D equivalente: 1-3 (e ci resta)
+    # ============================================================
+
+    - nome: "Arco 1 — L'Armata Brancaleone: La Consegna Impossibile"
+      film: "L'Armata Brancaleone (1966)"
+      plot_arco: [La Cerca, Commedia degli Errori, Da Povero a Ricco]
+      escalation: "Nessuna escalation reale — ogni tappa è un disastro equivalente"
+      posta_in_gioco: "Ottenere il feudo di Aurocastro (macro) + non morire di fame (micro)"
+      struttura_episodica: >
+        A differenza delle campagne eroiche (escalation lineare), la struttura
+        è PICARESCA: episodi di pari intensità, collegati dal viaggio. Ogni
+        tappa è un microcosmo autocontenuto. Non c'è un BBEG — il nemico è
+        il mondo stesso, l'incompetenza del party, e la sfortuna.
+
+      situazioni:
+        - Il Branco di Disadattati
+        - La Cerca
+        - Il Pesce fuor d'Acqua
+        - Commedia degli Errori
+        - L'Identità Scambiata
+        - La Finta Minaccia (Anticlimax)
+        - L'Arena (Il Combattimento Forzato)
+        - La Scorta
+        - La Truffa (The Con)
+        - Il Naufragio (La Sopravvivenza)
+        - Il Falso Rifugio
+        - La Vittoria di Pirro
+
+      personaggi:
+        - nome: Brancaleone da Norcia
+          archetipo: [Il Trickster, La Pedina del Destino (Il Prescelto Sbagliato), L'Eroe Riluttante]
+          funzione: >
+            PG principale. Cavaliere autoproclamato, incompetente ma tenace.
+            La sua unica vera abilità è la sopravvivenza. Mente su tutto:
+            titoli, imprese, capacità. Ma ha un codice d'onore tragicomico
+            che emerge nei momenti critici.
+          note: >
+            Archetipo dominante: il Trickster come protagonista (non come NPC).
+            Sovversione del cavaliere: non ha cavallo (un mulo), non ha armatura
+            vera, non sa combattere bene. Ma ha carisma e faccia tosta.
+            In D&D: Rogue/Bard multiclasse con Carisma alto e tutto il resto basso.
+
+        - nome: Abacuc
+          archetipo: [Il Companion Fedele, La Voce della Ragione]
+          funzione: >
+            Il braccio destro involontario. Segue Brancaleone per mancanza di
+            alternative migliori. Commenta, dubita, protesta — ma resta.
+            È la spalla comica che dice ciò che il pubblico pensa.
+          note: "Sam Gamgee in versione cinica e medievale."
+
+        - nome: Pecoro
+          archetipo: L'Innocente (La Vittima da Proteggere)
+          funzione: >
+            Il membro più patetico del party. Funge da comic relief estremo e
+            da bersaglio della crudeltà del mondo. La sua incompetenza supera
+            persino quella di Brancaleone.
+          note: "L'equivalente del personaggio con tutti gli attributi a 8."
+
+        - nome: Teodora
+          archetipo: [Il Companion Fedele, Il Guardiano della Soglia]
+          funzione: >
+            La donna del party — più competente e determinata di tutti gli uomini
+            messi insieme. Sovversione del tropo della dama in pericolo: è lei
+            che salva gli altri. Funziona come ancora di pragmatismo.
+          note: >
+            Sovversione piena del genere cavalleresco: la 'dama' è più
+            combattente del 'cavaliere'. In D&D: il Fighter del party in una
+            campagna dove il 'leader' è un Bard che bluffa.
+
+        - nome: Teofilatto
+          archetipo: [Il Parassita, L'Alleato Scomodo]
+          funzione: >
+            Il ragazzino nobile che il party deve scortare. Arrogante, inutile,
+            e convinto di essere superiore. Il MacGuffin vivente che rende la
+            quest legittima (è il titolare del feudo).
+          note: "L'NPC scomodo da proteggere: genera conflitto interno al party."
+
+        - nome: Monaco Zenone
+          archetipo: [Il Fanatico, Il Corruttore]
+          funzione: >
+            Monaco fanatico e ipocrita. Rappresenta la Chiesa come istituzione
+            corrotta. Predica la penitenza mentre si abbuffa. Aggiunge
+            conflitto religioso (la superstizione come ostacolo).
+          note: "Satira del Fanatico: il suo fanatismo è solo di facciata."
+
+      tecniche:
+        - nome: La Finta Minaccia (Anticlimax)
+          applicazione: >
+            Quasi ogni conflitto dell'armata si risolve in anticlimax: il nemico
+            terrificante è un vecchio debole, il duello è una farsa, la battaglia
+            è vinta per caso. L'aspettativa eroica viene sistematicamente tradita.
+        - nome: Il Pacing
+          applicazione: >
+            Struttura episodica a tappe: ogni episodio ha un micro-arco
+            (arrivo → problema → tentativo → disastro comico → fuga/risoluzione).
+            Il ritmo è veloce perché nessuna situazione si prolunga.
+        - nome: Il Narratore Inaffidabile
+          applicazione: >
+            Brancaleone stesso è il narratore inaffidabile della propria vita:
+            racconta imprese inesistenti, titoli inventati, glorie false.
+            Il party (e il pubblico) sa che mente, ma lo segue lo stesso.
+        - nome: In Medias Res
+          applicazione: "Il film inizia col party già in movimento — nessuna origin story elaborata."
+
+      relazioni:
+        - tipo: La Rivalità Amichevole
+          tra: [Brancaleone, Abacuc]
+          nota: "Si insultano costantemente ma dipendono l'uno dall'altro."
+        - tipo: Il Protetto Riluttante
+          tra: [Il party, Teofilatto]
+          nota: "Devono scortare il ragazzino odioso perché è la loro unica legittimità."
+        - tipo: Il Branco di Disadattati
+          tra: [tutti]
+          nota: >
+            Il party è tenuto insieme dalla fame e dalla mancanza di alternative.
+            Non c'è amicizia — c'è co-dipendenza. L'affetto nasce dopo, come
+            effetto collaterale della sopravvivenza condivisa.
+
+      anti_pattern_sovvertiti:
+        - nome: "L'Escalation Piatta come FEATURE, non bug"
+          nota: >
+            Nella campagna picaresca, l'escalation piatta è intenzionale. Ogni
+            tappa ha la stessa posta (sopravvivere, mangiare, non essere uccisi).
+            La storia non scala perché il party non scala — resta disperato.
+            Questo è un genere, non un errore di design.
+        - nome: "Il Boss Anticlimactico come punchline"
+          nota: >
+            Ogni 'boss' è deliberatamente patetico — il duello è una farsa,
+            il signore locale è debole. L'anticlimax è la battuta, non il difetto.
+
+    # ============================================================
+    # ARCO 2: Brancaleone alle Crociate (1970)
+    # Il party parte per la crociata, trova solo disastri
+    # Livello D&D equivalente: 3-5 (nominalmente. In pratica sempre 1)
+    # ============================================================
+
+    - nome: "Arco 2 — Brancaleone alle Crociate: La Falsa Redenzione"
+      film: "Brancaleone alle Crociate (1970)"
+      plot_arco: [La Cerca, Viaggio e Ritorno, Il Viaggio dell'Esilio]
+      escalation: "Dalla forca alla Terra Santa — escalation di SCALA geografica, non di competenza"
+      posta_in_gioco: "Raggiungere la Terra Santa per salvarsi l'anima (macro) + non morire PRIMA di arrivarci (micro)"
+      struttura_episodica: >
+        Come il primo film: struttura a tappe picaresche. La crociata è il
+        pretesto (MacGuffin astratto) — il viaggio è il contenuto. Tono più
+        scuro del primo: la morte è più presente, la satira più amara.
+
+      situazioni:
+        - La Cerca
+        - Il Branco di Disadattati
+        - Il Patto col Diavolo
+        - Commedia degli Errori
+        - La Corte Decadente
+        - Il Pesce fuor d'Acqua
+        - Lo Shock Culturale (La Missione Diplomatica)
+        - La Fuga dalla Prigione
+        - L'Identità Scambiata
+        - La Scorta
+        - Il Falso Rifugio
+        - La Vittoria di Pirro
+        - Il Sacrificio Volontario
+        - La Trattativa con il Mostro
+
+      personaggi:
+        - nome: Brancaleone da Norcia
+          archetipo: [Il Trickster, L'Eroe Riluttante, Il Redento (fallito)]
+          funzione: >
+            Stesso PG, stessa incompetenza, ma con un arco aggiuntivo: il
+            tentativo di redenzione (andare in Terra Santa per salvarsi l'anima).
+            La redenzione fallisce perché Brancaleone non riesce a cambiare
+            davvero — ma ci prova, e questo gli dà dignità.
+          note: >
+            Arco sottile: dal puro parassita del primo film a qualcosa che
+            somiglia vagamente a un eroe — senza mai diventarlo davvero.
+            È il Redento che non si redime ma guadagna un briciolo di umanità.
+
+        - nome: La Morte (personificata)
+          archetipo: [La Nemesi, Il Dio Indifferente (versione comica)]
+          funzione: >
+            La Morte appare come personaggio fisico che insegue Brancaleone.
+            È la nemesi definitiva: non può essere sconfitta, solo rimandata.
+            Versione comica del Destino inesorabile.
+          note: >
+            Elemento meta-narrativo geniale: la Morte come NPC ricorrente che
+            il PG tenta di evitare. In D&D: un timer narrativo personificato.
+            Perfetto per campagne con tono dark comedy.
+
+        - nome: Strega/Maga
+          archetipo: [Il Corruttore, Il Patto col Diavolo]
+          funzione: >
+            Offre a Brancaleone una via d'uscita dalla morte — ma a un prezzo.
+            Il patto demoniaco in chiave comica: Brancaleone accetta tutto
+            perché non ha alternative, poi cerca di sfuggire ai termini.
+          note: "Il Patto col Diavolo dove il contraente è troppo disperato per negoziare."
+
+        - nome: Teodora (nel secondo film)
+          archetipo: [Il Companion Fedele, La Voce della Ragione]
+          funzione: "Ritorna come ancora emotiva. Più stanca, più cinica, sempre più competente di tutti."
+
+      tecniche:
+        - nome: Il Contatore
+          applicazione: >
+            La Morte che si avvicina = un countdown personificato. Ogni disastro
+            la avvicina, ogni fuga la rimanda. Il contatore è VISIBILE (la Morte
+            appare fisicamente) e il party lo sa.
+        - nome: La Costruzione dell'Odio (invertita)
+          applicazione: >
+            Nessun villain da odiare — il nemico è la condizione umana stessa.
+            La satira colpisce tutti: la Chiesa, la nobiltà, i saraceni, i
+            crociati. Nessuno è peggio degli altri — tutti sono ugualmente
+            corrotti o stupidi.
+        - nome: Il Cambio di Genere
+          applicazione: >
+            Il secondo film è più scuro del primo: la morte è presente, il
+            tono si sposta verso il dark comedy. Le risate non coprono più
+            completamente la crudeltà del mondo medievale.
+        - nome: La Morale Grigia
+          applicazione: >
+            La crociata stessa è moralmente grigia: Brancaleone ci va per
+            egoismo (salvarsi l'anima), non per fede. I crociati sono predoni.
+            I saraceni non sono peggio dei cristiani. Nessun 'lato buono'.
+
+      relazioni:
+        - tipo: La Nemesi
+          tra: [Brancaleone, La Morte]
+          nota: >
+            La relazione centrale del secondo film: Brancaleone scappa dalla
+            Morte per l'intero arco. La Morte è paziente, ironica, inevitabile.
+            Non è un nemico da sconfiggere — è la realtà da rimandare.
+        - tipo: Il Branco di Disadattati
+          tra: [il party ricostituito]
+          nota: "Nuovi membri, stessa dinamica: co-dipendenza disperata."
+
+# ============================================================
+# STEREOTIPI USATI (cross-reference con narrative-stereotypes.yaml)
+# ============================================================
+
+stereotipi_usati:
+  plot:
+    - La Cerca
+    - Commedia degli Errori
+    - Da Povero a Ricco
+    - Il Viaggio dell'Esilio
+    - La Rivalità
+
+  situazioni:
+    - Il Branco di Disadattati
+    - Il Pesce fuor d'Acqua
+    - L'Identità Scambiata
+    - La Finta Minaccia (Anticlimax)
+    - L'Arena (Il Combattimento Forzato)
+    - La Scorta
+    - La Truffa (The Con)
+    - Il Naufragio (La Sopravvivenza)
+    - Il Falso Rifugio
+    - La Vittoria di Pirro
+    - Il Patto col Diavolo
+    - La Corte Decadente
+    - Lo Shock Culturale (La Missione Diplomatica)
+    - La Fuga dalla Prigione
+    - Il Sacrificio Volontario
+    - La Trattativa con il Mostro
+    - La Morale Grigia
+
+  personaggi:
+    - Il Trickster
+    - La Pedina del Destino (Il Prescelto Sbagliato)
+    - L'Eroe Riluttante
+    - Il Companion Fedele
+    - L'Innocente (La Vittima da Proteggere)
+    - Il Fanatico
+    - L'Alleato Scomodo
+    - La Nemesi
+    - Il Buon Diavolo (L'Antagonista Innocuo)
+    - Il Falso Eroe (L'Impostore)
+    - Il Tiranno Locale (Il Piccolo Re)
+    - La Voce della Ragione
+
+  tecniche:
+    - La Finta Minaccia (Anticlimax)
+    - Il Narratore Inaffidabile
+    - In Medias Res
+    - Il Contatore
+    - Il Cambio di Genere
+    - Il Pacing
+
+  relazioni:
+    - La Rivalità Amichevole
+    - Il Protetto Riluttante
+    - Il Branco di Disadattati
+    - La Nemesi
+
+# ============================================================
+# VALIDAZIONE CONTRO GRAMMATICA NARRATIVA
+# ============================================================
+
+validazione_grammatica:
+  regole_sequenza:
+    - regola: "Il Legame (affezione) prima del Sacrificio Volontario"
+      rispettata: true
+      nota: >
+        Nel secondo film, Brancaleone arriva a rischiare per gli altri solo
+        dopo un intero film di avventure condivise (il Legame è costruito
+        attraverso la co-sopravvivenza del primo arco).
+
+    - regola: "La Costruzione dell'Odio prima della Resa dei Conti"
+      rispettata: false
+      nota: >
+        SOVVERSIONE INTENZIONALE: non c'è un vero villain da odiare né una
+        vera Resa dei Conti. Il nemico è il mondo, la fame, la sfortuna.
+        La struttura picaresca non ha bisogno del ciclo odio→vendetta.
+        Il climax è la sopravvivenza stessa, non la sconfitta di un nemico.
+
+    - regola: "Il Presagio prima del Colpo di Scena"
+      rispettata: "N/A"
+      nota: "Non ci sono veri colpi di scena — la struttura è dichiaratamente episodica."
+
+  transizioni_plot:
+    - da: "Arco 1 (Commedia degli Errori / La Cerca)"
+      a: "Arco 2 (La Cerca / Viaggio e Ritorno)"
+      naturale: true
+      nota: >
+        Transizione perfettamente naturale secondo la grammatica: da Commedia
+        si può andare a La Cerca (confermato). Il tono si scurisce ma il
+        genere resta compatibile perché il party è lo stesso.
+
+  regole_casting:
+    - situazione: Commedia degli Errori
+      personaggi: [Il Trickster, Il Parassita, L'Alleato Scomodo]
+      compatibile: true
+      nota: "Il casting è perfetto per la commedia: nessun personaggio serio o eroico."
+
+    - situazione: "La Resa dei Conti (assente)"
+      nota: >
+        La grammatica dice che Il Parassita è incompatibile con La Resa dei Conti.
+        Monicelli risolve il problema eliminando la Resa dei Conti dalla struttura.
+        Non c'è boss fight — c'è solo la prossima tappa del viaggio.
+
+  anti_pattern:
+    - nome: "L'Escalation Piatta"
+      presente: true
+      intenzionale: true
+      nota: >
+        Nella grammatica è un anti-pattern. Nella struttura picaresca è una
+        FEATURE: la ripetitività dei disastri È il genere. La soddisfazione
+        non viene dall'escalation ma dalla variazione su tema e dal comic timing.
+
+    - nome: "Il Boss Anticlimactico"
+      presente: true
+      intenzionale: true
+      nota: >
+        Ogni villain episodico è deliberatamente patetico. L'anticlimax è la
+        punchline: l'aspettativa eroica del cavaliere viene puntualmente tradita.
+
+# ============================================================
+# LEZIONI PER D&D: COME COSTRUIRE UNA CAMPAGNA PICARESCA
+# ============================================================
+
+lezioni_dnd:
+  - nome: "Il fallimento come motore narrativo"
+    principio: >
+      In una campagna picaresca, i fallimenti dei PG non terminano la storia —
+      la complicano in modo produttivo. Un tiro fallito non significa 'non succede
+      niente' ma 'succede qualcosa di peggio E più divertente'. Ogni disastro
+      genera la prossima situazione.
+    esempio_film: "Brancaleone perde ogni duello, ma i suoi nemici sono altrettanto incompetenti."
+    applicazione_dnd: >
+      Regola di design: in una campagna comica, il fallimento dei PG deve sempre
+      generare una nuova complicazione (non un dead end). 'Fallisci il tiro
+      Persuasione → il nobile si offende E ti sfida a duello E il suo cane ti
+      morde'. Tre conseguenze comiche, nessuna terminale.
+
+  - nome: "La competenza come eccezione, non regola"
+    principio: >
+      In una campagna eroica, i PG sono competenti con occasionali fallimenti.
+      In una campagna picaresca, i PG sono incompetenti con occasionali lampi
+      di genio. Il lampo di genio è più soddisfacente perché inatteso.
+    esempio_film: "Brancaleone vince solo quando usa l'astuzia, mai la forza."
+    applicazione_dnd: >
+      Design: dare ai PG attributi bassi e far funzionare la campagna con
+      Ispirazione, vantaggi situazionali, e soluzioni creative. I tiri alti
+      sono momenti eroici PERCHÉ sono rari.
+
+  - nome: "Il MacGuffin che non vale nulla"
+    principio: >
+      Nel picaresco il MacGuffin (il feudo, la Terra Santa) è un pretesto
+      trasparente. Tutti sanno che il viaggio è il contenuto, non la destinazione.
+      L'arrivo è sempre deludente — ma il viaggio ha dato significato.
+    esempio_film: "Aurocastro è un cumulo di rovine. La Terra Santa è irraggiungibile."
+    applicazione_dnd: >
+      Il quest giver promette ricompense grandiose. Quando i PG arrivano, la
+      ricompensa è ridicola. Ma lungo la strada hanno trovato qualcosa di più
+      prezioso (amicizia, reputazione locale, un debito d'onore).
+
+  - nome: "Il villain episodico usa-e-getta"
+    principio: >
+      Nessun BBEG ricorrente. Ogni tappa ha il suo mini-antagonista che viene
+      affrontato e lasciato indietro. La minaccia non scala — cambia faccia.
+    esempio_film: "Ogni tappa ha un signorotto, un bandito, un prete corrotto diverso."
+    applicazione_dnd: >
+      Struttura sandbox: ogni sessione/modulo ha il suo antagonista locale.
+      Non serve un arco-villain di 20 sessioni. Il 'nemico' della campagna
+      è la condizione sociale del party (povertà, reputazione pessima).
+
+  - nome: "La dignità come arco nascosto"
+    principio: >
+      Sotto la commedia, l'arco emotivo esiste: Brancaleone inizia come puro
+      parassita e finisce come qualcuno che, nel suo modo ridicolo, ha un
+      codice. La dignità emerge non dalla competenza ma dalla tenacia.
+    esempio_film: "Nel secondo film, Brancaleone sceglie di continuare la crociata anche quando potrebbe smettere."
+    applicazione_dnd: >
+      Anche in una campagna comica, dare ai PG un momento per modulo dove
+      possono fare 'la cosa giusta' — non l'eroismo epico ma un piccolo gesto
+      di dignità. Quel gesto è il payoff emotivo nascosto sotto le risate.
+
+  - nome: "La Morte come NPC"
+    principio: >
+      La personificazione della Morte nel secondo film è geniale perché rende
+      tangibile il timer della campagna. Non è un countdown numerico — è un
+      personaggio con cui il PG INTERAGISCE. Negozia, implora, fugge.
+    esempio_film: "Brancaleone parla con la Morte, la inganna, la evita — ma non può vincerla."
+    applicazione_dnd: >
+      In una campagna dark comedy: la Morte (o il Destino) come NPC ricorrente.
+      Appare in momenti chiave. I PG possono interagire (ingannare, negoziare,
+      sfidare a un gioco). Ma non può essere 'sconfitta' — solo rimandata.
+      Timer narrativo con personalità.
+
+# ============================================================
+# STEREOTIPI MANCANTI — PROPOSTA PER CAMPAGNE COMICHE/PICARESCHE
+# ============================================================
+
+stereotipi_proposti:
+
+  - tipo: personaggio
+    nome: Il Parassita (L'Opportunista)
+    nome_en: The Parasite / The Mooch / Freeloader
+    nomi_alt: [The Mooch, L'Opportunista, Freeloader, Lo Scroccone, Il Sopravvissuto a Sbafo]
+    descrizione: >
+      Un personaggio che non ha competenze utili ma riesce a sopravvivere
+      attaccandosi a chi ce le ha. Non combatte (o combatte male), non
+      pianifica (o i suoi piani falliscono), non ha risorse proprie. Ma ha
+      un talento soprannaturale per non morire: si nasconde al momento giusto,
+      fugge prima che la situazione precipiti, si prende il merito del lavoro
+      altrui, e si fa nutrire da chi lo disprezza. A differenza del Trickster
+      (che è astuto per scelta), il Parassita sopravvive per istinto animale
+      e totale assenza di dignità.
+    esempi:
+      - "Brancaleone — L'Armata Brancaleone (incompetente ma impossibile da uccidere)"
+      - "Rincewind — Discworld (il peggior mago del mondo, sopravvive a tutto)"
+      - "C-3PO — Star Wars (inutile in combattimento, si lamenta, ma sempre presente)"
+      - "Baldrick — Blackadder (il servo inutile che ha sempre 'un astuto piano')"
+      - "Jar Jar Binks — Star Wars (incompetente che sopravvive per caso)"
+      - "Homer Simpson — qualsiasi episodio avventuroso"
+    uso_dnd: >
+      Archetipo per PG comici O per NPC companion fastidioso che non si riesce
+      a eliminare. In campagne picaresche: il PG Parassita è il protagonista
+      legittimo. La campagna è costruita attorno alla sua sopravvivenza
+      improbabile. Le sue 'vittorie' sono sempre accidentali, non intenzionali.
+      Per NPC: il companion che nessuno vuole ma che non se ne va.
+    rischio: >
+      Se il Parassita è un PG in una campagna eroica, ruba tempo e frustra
+      gli altri giocatori. Funziona SOLO in campagne dove TUTTI i PG sono
+      a quel livello di incompetenza, o se è un NPC deliberatamente fastidioso
+      (con un reveal nascosto: sa più di quanto mostra).
+    usato_in: [Commedia degli Errori, La Cerca, Il Viaggio dell'Esilio]
+    vedi_anche: [Il Trickster, Il Buon Diavolo, L'Eroe Riluttante, La Pedina del Destino]
+
+  - tipo: plot
+    nome: La Picaresca (Il Viaggio del Mascalzone)
+    nome_en: Picaresque / Rogue's Journey
+    nomi_alt: [Rogue's Journey, Picaresque, Il Vagabondo, Strada Senza Fine, Road of Failures]
+    descrizione: >
+      Un antieroe di bassa estrazione attraversa una serie di avventure
+      episodiche senza un arco di crescita tradizionale. Non diventa un eroe —
+      resta un mascalzone, ma accumula esperienze, cicatrici e aneddoti. La
+      struttura è orizzontale (tappa dopo tappa) non verticale (escalation).
+      Il piacere narrativo viene dalla varietà delle situazioni e dal comic
+      timing, non dal climax. Il mondo è satirizzato attraverso gli occhi
+      cinici del protagonista.
+    esempi:
+      - "L'Armata Brancaleone — Monicelli (il picaresco medievale italiano)"
+      - "Don Chisciotte — Cervantes (il picaresco che satirizza il cavalleresco)"
+      - "Tom Jones — Fielding (l'avventuriero che attraversa la società)"
+      - "Candido — Voltaire (il viaggio satirico)"
+      - "Le avventure di Huckleberry Finn — Twain (il vagabondo attraversa l'America)"
+      - "Lupin III — anime (il ladro in avventure episodiche)"
+      - "Discworld (romanzi di Rincewind) — Pratchett (il mago incompetente che sopravvive)"
+    uso_dnd: >
+      Campagna senza BBEG, senza escalation, senza arco eroico. Ogni sessione è
+      una tappa: nuovo luogo, nuovo problema, nuovo disastro. I PG non salgono
+      di livello (o salgono molto lentamente). La soddisfazione viene dal comic
+      timing, dal roleplay, e dalla satira del mondo fantasy. Ideale per gruppi
+      che amano l'improvvisazione e il tono leggero.
+      Struttura modulo picaresco: (1) arrivo in un luogo, (2) il party nota
+      un'opportunità (o un guaio), (3) tentano di sfruttarla, (4) tutto va
+      storto in modo comico, (5) fuggono con qualcosa (o con niente) verso la
+      prossima tappa.
+    rischio: >
+      Senza escalation, la campagna può diventare ripetitiva dopo 5-6 sessioni.
+      Soluzione: variare i GENERI degli episodi (uno è un heist, uno è un
+      processo, uno è un'arena, uno è diplomazia) e inserire un sottile arco
+      relazionale nel party (da estranei a famiglia disfunzionale).
+    usato_in: []
+    vedi_anche: [La Cerca, Commedia degli Errori, Il Viaggio dell'Esilio, Il Branco di Disadattati]
+
+  - tipo: situazione
+    nome: La Millanteria (L'Eroe di Cartone)
+    nome_en: The Braggart / Miles Gloriosus
+    nomi_alt: [Miles Gloriosus, Il Fanfarone, The Braggart, L'Eroe Autoproclamato, Il Pavone]
+    descrizione: >
+      Un personaggio racconta imprese grandiose che non ha mai compiuto. La
+      tensione comica nasce dal contrasto tra la narrazione epica e la realtà
+      patetica. Il momento di verità arriva quando viene messo alla prova e
+      deve scegliere: fuggire (confermando l'impostura) o tentare davvero
+      (scoprendo forse un briciolo di coraggio reale). A differenza del Falso
+      Eroe (che ruba meriti altrui), il Millantatore inventa meriti che non
+      esistono affatto.
+    esempi:
+      - "Brancaleone — L'Armata Brancaleone (si presenta come grande cavaliere)"
+      - "Don Chisciotte — Cervantes (si crede cavaliere ma combatte mulini)"
+      - "Gilderoy Lockhart — Harry Potter (ruba storie altrui e le attribuisce a sé)"
+      - "Zapp Brannigan — Futurama (generale incompetente con ego smisurato)"
+      - "Il Capitano — Commedia dell'Arte (il soldato fanfarone)"
+      - "Gaston — La Bella e la Bestia (eroe locale di pura facciata)"
+      - "Sir Robin — Monty Python (il cavaliere 'valoroso' che scappa sempre)"
+    uso_dnd: >
+      Il PG (o NPC) arriva in un nuovo luogo e si presenta con credenziali
+      inventate ('Io sono Sir X, vincitore della Battaglia di Y!'). Funziona
+      finché nessuno verifica. La tensione: (1) qualcuno che era DAVVERO alla
+      Battaglia di Y arriva; (2) il party viene sfidato a ripetere le imprese
+      narrate; (3) il millantatore deve improvvisare. In campagne comiche:
+      l'intera reputazione del party è costruita su bugie che devono mantenere.
+    rischio: >
+      Se il millantatore non viene MAI messo alla prova, è solo chiacchiera.
+      La prova deve arrivare — il piacere è nel momento della verità.
+    usato_in: [Commedia degli Errori, La Picaresca, L'Identità Scambiata]
+    vedi_anche: [Il Falso Eroe, L'Identità Scambiata, Il Narratore Inaffidabile, Il Trickster]
+
+  - tipo: situazione
+    nome: La Vittoria Accidentale (Il Successo Immeritato)
+    nome_en: Accidental Victory / Dumb Luck Win / Fluke
+    nomi_alt: [Dumb Luck, Fluke Victory, Il Colpo di Fortuna, Winning by Accident, L'Eroe per Caso]
+    descrizione: >
+      I PG vincono non per competenza o strategia, ma per puro caso, per
+      l'incompetenza ancora maggiore del nemico, o perché un effetto collaterale
+      delle loro azioni disastrose produce accidentalmente il risultato voluto.
+      A differenza del Deus Ex Machina (soluzione esterna non preparata), la
+      Vittoria Accidentale è coerente col mondo — semplicemente, il mondo è
+      altrettanto caotico e incompetente quanto il party. Non è un salvataggio:
+      è entropia che per una volta gioca a favore.
+    esempi:
+      - "Brancaleone vince il duello perché il nemico cade da solo — L'Armata Brancaleone"
+      - "Mr. Bean risolve tutto per caso — serie TV"
+      - "Jar Jar Binks nella battaglia di Naboo — Star Wars Ep. I (vince distruggendo tutto)"
+      - "Inspector Clouseau — La Pantera Rosa (risolve i casi per fortuna pura)"
+      - "I Tre Marmittoni — cortometraggi (il caos produce il risultato voluto)"
+      - "Pippin fa cadere l'armatura nel pozzo → i goblin attaccano → la Compagnia scopre Moria — LotR"
+    uso_dnd: >
+      In campagne comiche: quando i PG falliscono TUTTO, il DM può far sì che i
+      fallimenti producano l'effetto desiderato per vie traverse. Il goblin che
+      il PG manca con la spada scivola sulla pozza d'olio creata dal PG che ha
+      rotto la lanterna 3 round prima. Non è clemenza del DM — è la logica del
+      caos. Regola: max 1 per sessione, e deve essere giustificabile a posteriori.
+    rischio: >
+      Se ogni vittoria è accidentale, i giocatori si sentono irrilevanti (non
+      importa cosa faccio, vinco o perdo per caso). Alternare con vittorie
+      MERITATE da piani creativi dei PG. La vittoria accidentale è il comic
+      relief, non la struttura portante.
+    usato_in: [Commedia degli Errori, La Picaresca, La Finta Minaccia]
+    vedi_anche: [La Finta Minaccia, Il Deus Ex Machina, Commedia degli Errori, La Pedina del Destino]
+
+  - tipo: tecnica
+    nome: La Sovversione del Tropo (L'Anti-Eroismo Consapevole)
+    nome_en: Trope Subversion / Genre Deconstruction
+    nomi_alt: [Genre Deconstruction, Subversione, Anti-Genre, Playing Against Type, Il Rovesciamento delle Aspettative]
+    descrizione: >
+      Il DM introduce un elemento classico del fantasy (il cavaliere, il drago,
+      la dama, la profezia, il dungeon) e poi lo sovverte deliberatamente: il
+      cavaliere è un codardo, il drago vuole solo essere lasciato in pace, la
+      dama salva sé stessa, la profezia è una truffa, il dungeon è un deposito
+      abbandonato. La sovversione funziona SOLO se il pubblico conosce il
+      tropo originale — il piacere è nel contrasto tra aspettativa e realtà.
+    esempi:
+      - "L'Armata Brancaleone — ogni tropo cavalleresco viene sistematicamente demolito"
+      - "Shrek — Dreamworks (sovverte tutti i tropi Disney/fiabistici)"
+      - "Monty Python e il Sacro Graal — (il duello, la quest, il castello)"
+      - "Don Chisciotte — Cervantes (il romanzo cavalleresco satirizzato)"
+      - "Discworld — Pratchett (il fantasy decostruito sistematicamente)"
+      - "The Princess Bride — Goldman (l'avventura cavalleresca meta-consapevole)"
+    uso_dnd: >
+      In ogni modulo, prendere un tropo D&D classico e rovesciarlo: il dungeon
+      è la casa di qualcuno che vive tranquillo; il 'mostro' è vegetariano; il
+      tesoro è maledetto ma nel senso che è moneta fuori corso; il villain
+      è andato in pensione. La chiave: i PG devono ASPETTARSI il tropo classico
+      perché il rovesciamento funzioni. Funziona solo se il tavolo conosce le
+      convenzioni. Non funziona alla prima sessione con principianti.
+    rischio: >
+      Se TUTTO è sovvertito, niente ha peso — diventa nichilista. Tenere 20-30%
+      dei tropi intatti (alcuni draghi SONO pericolosi) perché la sovversione
+      del 70% restante funzioni per contrasto. Se tutto è una parodia, la
+      parodia perde forza.
+    usato_in: [Commedia degli Errori, La Picaresca]
+    vedi_anche: [La Finta Minaccia, La Pedina del Destino, Il Buon Diavolo, Il Mostro è una Persona]
+
+  - tipo: relazione
+    nome: La Co-Dipendenza Disperata (Il Party per Fame)
+    nome_en: Band of Necessity / Together Because Alone Is Worse
+    nomi_alt: [Together Because Alone Is Worse, Alliance of the Desperate, Il Party per Fame, Misery Loves Company]
+    descrizione: >
+      Il party non è tenuto insieme da amicizia, missione, o ideali — ma dalla
+      pura disperazione. Ognuno da solo morirebbe di fame o verrebbe ucciso.
+      Insieme sono leggermente meno miserabili. Non si fidano l'uno dell'altro,
+      si insultano, si rubano le razioni — ma restano perché l'alternativa è
+      peggio. L'affetto genuino, se arriva, è un effetto collaterale della
+      sopravvivenza condivisa, mai dichiarato.
+    esempi:
+      - "L'Armata Brancaleone — il party è insieme perché nessuno ha alternative"
+      - "Guardiani della Galassia — MCU (criminali che cooperano per sopravvivenza)"
+      - "Firefly — serie TV (equipaggio di disperati sulla stessa nave)"
+      - "It's Always Sunny in Philadelphia — serie (gruppo di persone orribili co-dipendenti)"
+      - "I Magnifici Sette originali — film (mercenari pagati male, restano per dignità)"
+    uso_dnd: >
+      Il party si forma NON perché un quest giver li riunisce ma perché sono
+      tutti nella stessa fossa: prigionieri nella stessa cella, mendicanti
+      nella stessa taverna, fuggitivi sulla stessa strada. Il legame iniziale
+      è puramente transazionale ('hai un'arma, io ho la chiave'). L'arco è la
+      trasformazione da co-dipendenza a qualcosa che somiglia ad amicizia —
+      senza mai ammetterlo esplicitamente. In session zero: concordare che i
+      PG non si scelgono ma sono bloccati insieme.
+    rischio: >
+      Se i giocatori interpretano la co-dipendenza come ostilità costante al
+      tavolo, il gioco diventa sgradevole. Regola: i PG possono insultarsi
+      ma devono cooperare meccanicamente. L'ostilità è verbale/narrativa, non
+      di sabotaggio reale.
+    usato_in: [Il Branco di Disadattati, La Picaresca, Il Viaggio dell'Esilio]
+    vedi_anche: [Il Branco di Disadattati, L'Alleato Scomodo, La Rivalità Amichevole]
+
+  - tipo: situazione
+    nome: La Morte Personificata (Il Timer con una Faccia)
+    nome_en: Death as a Character / The Reaper Visits
+    nomi_alt: [The Reaper, La Morte come NPC, Death Personified, Il Mietitore, Playing Chess with Death]
+    descrizione: >
+      La Morte (o il Destino, la Maledizione, il Tempo) non è un concetto
+      astratto ma un personaggio con cui i PG interagiscono direttamente.
+      Può essere negoziata, ingannata, sfidata a un gioco, fuggita — ma non
+      sconfitta permanentemente. Ha personalità propria: può essere ironica,
+      paziente, annoiata, o genuinamente dispiaciuta. La sua presenza rende
+      tangibile ciò che altrimenti sarebbe un timer astratto.
+    esempi:
+      - "La Morte in Brancaleone alle Crociate — Monicelli (insegue il protagonista)"
+      - "La Morte nel Settimo Sigillo — Bergman (sfida a scacchi)"
+      - "Morte in Discworld — Pratchett (personaggio ricorrente con personalità)"
+      - "La Morte in Bill & Ted — film (sfidata a giochi da tavolo)"
+      - "Thanatos nella mitologia greca — la Morte che Sisifo incatena"
+      - "Il Cavaliere Pallido — folklore europeo"
+    uso_dnd: >
+      La Morte appare come NPC all'inizio di una campagna o di un arco.
+      Annuncia che 'il tempo di X è quasi giunto' — poi riappare in momenti
+      chiave. I PG possono tentare di ingannarla (CD altissime), barattare
+      tempo (costo?), o accettare e prepararsi. Meccanica: la Morte è un
+      Contatore con personalità. Ogni apparizione avvicina la soglia.
+      In campagne comiche: la Morte è stanca, sbadata, negoziabile.
+      In campagne dark: la Morte è inevitabile ma rispettosa.
+    rischio: >
+      Se la Morte è onnipotente e i PG non possono interagire, è solo railroad
+      narrativo. Dare SEMPRE un'opzione di interazione (anche se non di vittoria).
+      Se la Morte appare troppo spesso, perde impatto — max 3-4 apparizioni per arco.
+    usato_in: [La Picaresca, La Corsa Contro il Tempo, Il Patto col Diavolo]
+    vedi_anche: [Il Contatore, La Nemesi, Il Dio Indifferente, Il Patto col Diavolo]
+
+# ============================================================
+# REGOLE GRAMMATICALI PROPOSTE PER CAMPAGNE COMICHE
+# ============================================================
+
+regole_grammatica_proposte:
+
+  regole_sequenza:
+    - prima: La Millanteria
+      dopo: [La Prova Segreta, L'Arena, L'Identità Scambiata]
+      forza: spesso
+      nota: >
+        Il millantatore viene prima o poi messo alla prova. La sequenza
+        naturale è: bugia → situazione che richiede la competenza millantata →
+        disastro comico (o vittoria accidentale).
+
+    - prima: La Co-Dipendenza Disperata
+      dopo: [Il Legame (affezione)]
+      forza: spesso
+      nota: >
+        Nel picaresco, il Legame non si costruisce con interazioni positive
+        ma con sopravvivenza condivisa. La co-dipendenza precede l'affetto.
+
+  transizioni_plot:
+    - da: La Picaresca
+      a_naturali:
+        - La Cerca
+        - Commedia degli Errori
+        - Il Viaggio dell'Esilio
+        - Da Povero a Ricco
+      a_innaturali:
+        - Tragedia
+        - Sconfiggere il Mostro
+      nota: >
+        Il picaresco non scala naturalmente verso il tragico o l'epico.
+        Può diventare serio solo con un evento di rottura molto forte
+        (La Casa Distrutta o il Sacrificio Volontario di un companion).
+
+  regole_casting:
+    - plot: La Picaresca
+      protagonista_ideale:
+        - Il Parassita
+        - Il Trickster
+        - La Pedina del Destino (Il Prescelto Sbagliato)
+        - L'Eroe Riluttante
+      antagonista_ideale:
+        - Il Tiranno Locale
+        - Il Buon Diavolo
+        - La Corte Decadente
+      personaggi_incompatibili:
+        - Il Signore Oscuro
+        - L'Eletto
+        - Il Fanatico (come alleato serio)
+      nota: >
+        La Picaresca richiede protagonisti deboli e antagonisti alla loro
+        portata. Un Signore Oscuro in una campagna picaresca è tonalmente
+        incoerente — l'antagonista deve essere altrettanto ridicolo.
+
+  anti_pattern:
+    - nome: "La Parodia Totale"
+      errore: >
+        Se OGNI elemento è parodia, niente ha peso. I giocatori smettono
+        di investirsi perché 'tanto è tutto uno scherzo'.
+      fix: >
+        Mantenere 20-30% di situazioni genuine (un pericolo vero, un NPC
+        serio, un momento di emozione). La commedia funziona per CONTRASTO
+        con il serio, non in assenza totale di serietà.
+      esempio: >
+        Brancaleone funziona perché la morte è REALE nel mondo del film.
+        La fame è VERA. I personaggi muoiono DAVVERO. La commedia nasce
+        dalla reazione inadeguata a pericoli reali, non da un mondo finto.

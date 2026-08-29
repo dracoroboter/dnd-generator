@@ -1,0 +1,843 @@
+# Analisi: Il Signore degli Anelli — Trilogia di Peter Jackson (come campagna D&D a 3 archi)
+# Data: 2026-08-29
+# Esito: completa
+# Note: Analisi dei 3 film come unica campagna.
+#   PG: Frodo, Sam, Merry, Pippin, Aragorn, Legolas, Gimli
+#   NPC: Gandalf, Saruman, Sauron, Gollum, Boromir, Faramir, Denethor,
+#        Théoden, Éowyn, Elrond, Galadriel
+
+opera:
+  titolo: "Il Signore degli Anelli — Trilogia di Peter Jackson"
+  tipo: film
+  epoca: 2001-2003
+  genere_dnd_compatibile: true
+  note: >
+    Campagna a 3 archi con party split strutturale (dall'arco 2 in poi).
+    Struttura ibrida: La Cerca (macro) + Sconfiggere il Mostro (convergenza).
+    Il MacGuffin è un Tesoro Maledetto da DISTRUGGERE, non da usare — inversione
+    della quest classica. Party di 9 membri (4 hobbit + 3 guerrieri + 1 mentore
+    + 1 alleato oscillante) che si spezza e converge. Il vero climax emotivo è
+    la resistenza alla Tentazione, non il combattimento. Compatible D&D: party
+    misto (rogues/fighters/wizard), multi-livello, mentore che muore e ritorna
+    trasformato, villain remoto con luogotenenti, escalation lv1-3 → 5-10 → 11-16.
+
+# ============================================================
+# STRUTTURA GLOBALE
+# ============================================================
+
+struttura:
+  plot_principale: La Cerca
+  plot_secondari:
+    - Sconfiggere il Mostro
+    - La Tentazione
+    - Rinascita
+    - La Ribellione
+    - Da Povero a Ricco
+  meta_plot: "L'Anello al Dito — la corruzione graduale del portatore e la resistenza alla Tentazione"
+
+  archi:
+
+    # ============================================================
+    # ARCO 1: La Compagnia dell'Anello
+    # Formazione party → Moria → Spezzamento della Compagnia
+    # Livello D&D equivalente: 1-5
+    # ============================================================
+
+    - nome: "Arco 1 — La Compagnia dell'Anello: Formazione e Spezzamento"
+      film: "La Compagnia dell'Anello (2001)"
+      plot_arco: [La Cerca, La Scorta, Il Branco di Disadattati]
+      escalation: "Da minaccia personale (l'Anello di Bilbo) a minaccia globale (Sauron ritorna)"
+      posta_in_gioco: "La sopravvivenza della Compagnia (micro) + il destino della Terra di Mezzo (macro)"
+
+      situazioni:
+        - La Falsa Pace
+        - Il Tesoro Maledetto
+        - La Consegna
+        - Il Branco di Disadattati
+        - Lo Stallo
+        - La Zona Proibita
+        - L'Esplorazione
+        - La Ritirata Strategica
+        - Il Sacrificio Volontario
+        - Il Tradimento dell'Alleato
+        - La Separazione del Gruppo
+
+      personaggi:
+        - nome: Gandalf
+          archetipo: Il Mentore / Vecchio Saggio
+          funzione: >
+            Quest giver, guida attraverso Moria, si sacrifica contro il Balrog.
+            Esce di scena al momento giusto per forzare l'autonomia del party.
+            Ritorna trasformato nell'arco 2 (Rinascita del Mentore).
+          note: "Il Guardiano della Soglia al ponte di Khazad-dûm — 'You shall not pass!' è il sacrificio che abilita la fuga."
+
+        - nome: Saruman
+          archetipo: [Il Luogotenente, Il Maestro Caduto, Il Rivale Caduto]
+          funzione: >
+            Ex-alleato del Consiglio Bianco corrotto dal potere. Antagonista
+            diretto dell'arco 1-2. Il Maestro Caduto per Gandalf. Opera come
+            braccio armato di Sauron ma con agenda propria.
+          note: "Combinazione rara: è sia Luogotenente (di Sauron) che Maestro Caduto (per Gandalf)."
+
+        - nome: Sauron
+          archetipo: [Il Signore Oscuro, Il Dio Indifferente]
+          funzione: >
+            BBEG remoto. Non appare fisicamente — agisce tramite l'Occhio, i
+            Nazgûl, Saruman, e l'Anello stesso. La sua presenza è ambientale.
+          note: "Il Signore Oscuro più 'distante' possibile — pura minaccia senza corpo. L'Anello è la sua estensione."
+
+        - nome: Boromir
+          archetipo: [Il Companion Fedele, L'Alleanza Oscillante]
+          funzione: >
+            Membro del party che cede alla Tentazione dell'Anello. Tradisce
+            brevemente Frodo poi si redime con il sacrificio immediato per
+            difendere Merry e Pippin. La Lealtà Divisa incarnata.
+          note: "Arco compresso: alleato → tentato → tradimento → redenzione per sacrificio. Tutto in un film."
+
+        - nome: Gollum (introduzione)
+          archetipo: [Il Mutaforma, L'Alleato Scomodo]
+          funzione: >
+            Introdotto come ombra/inseguitore. Il suo ruolo pieno si sviluppa
+            nell'arco 2-3. Qui è il Presagio di ciò che l'Anello fa.
+          note: "Figurante di Čechov: appare brevemente nel primo arco, diventa centrale negli archi successivi."
+
+        - nome: Elrond
+          archetipo: [Il Guardiano del Sapere, Il Benefattore Misterioso]
+          funzione: >
+            Ospita il Consiglio, custodisce la conoscenza dell'Anello, fornisce
+            il rifugio (Rivendell). Non accompagna — dà direzione e risorse.
+          note: "Combina Guardiano del Sapere + organizzatore dello Stallo (il Consiglio di Elrond)."
+
+        - nome: Galadriel
+          archetipo: [Il Guardiano del Sapere, La Prova Segreta]
+          funzione: >
+            Testa Frodo offrendogli l'opportunità di darle l'Anello. La sua
+            resistenza alla tentazione è un esempio per Frodo. Dona oggetti
+            (il Fucile di Čechov: la fiala di luce).
+          note: "La Prova Segreta è bidirezionale: Galadriel testa Frodo, ma è anche lei stessa testata."
+
+      tecniche:
+        - nome: Il Legame (luogo)
+          applicazione: >
+            La Contea è costruita come paradiso idilliaco nei primi 30 minuti.
+            Festa di Bilbo, vita quotidiana, verde, pace. Il contrasto con ciò
+            che segue è il motore emotivo dell'intera trilogia.
+        - nome: La Falsa Pace
+          applicazione: "La festa di compleanno di Bilbo — la calma prima della tempesta narrativa."
+        - nome: Il Tesoro Maledetto
+          applicazione: >
+            L'Anello è introdotto come oggetto innocuo (regalo di Bilbo) poi
+            rivelato come arma del male. Il Legame (oggetto) è stato costruito
+            per 60 anni nel mondo narrativo.
+        - nome: Il Presagio
+          applicazione: >
+            Gollum come ombra nella Moria, la visione nello Specchio di Galadriel,
+            i sogni di Frodo. Ogni presagio punta alla corruzione dell'Anello.
+        - nome: In Medias Res
+          applicazione: "Il prologo della Seconda Era (battaglia con Sauron) fornisce contesto epico prima della Contea tranquilla."
+        - nome: Il Fucile di Čechov
+          applicazione: >
+            (1) La fiala di Galadriel — usata in Cirith Ungol (arco 3).
+            (2) La cotta di mithril — salva Frodo nella Moria.
+            (3) La spada spezzata Narsil — riforgiata come Andúril (arco 3).
+        - nome: La Costruzione dell'Odio
+          applicazione: >
+            Sauron tramite proxy: i Nazgûl che inseguono spietatamente, Saruman
+            che scatena il maltempo e gli Uruk-hai, l'Anello che tenta e corrompe.
+        - nome: Il Pacing
+          applicazione: "Contea (lento) → Brea/fuga (accelerazione) → Rivendell (pausa) → Moria (climax azione) → Lothlórien (pausa) → Amon Hen (climax emotivo)."
+
+      relazioni:
+        - tipo: La Rivalità Amichevole
+          tra: [Legolas, Gimli]
+          nota: "Pregiudizio razziale elfo/nano che diventa amicizia competitiva. Conta delle uccisioni come bonding."
+        - tipo: La Coppia Forzata
+          tra: [Legolas, Gimli]
+          nota: "Costretti insieme dalla Compagnia — personalità e culture opposte."
+        - tipo: Il Debito d'Onore
+          tra: [Frodo, Compagnia]
+          nota: "La Compagnia giura di proteggere il portatore. Il giuramento vincola le azioni."
+        - tipo: La Lealtà Divisa
+          tra: [Boromir, "Compagnia / Gondor"]
+          nota: "Boromir è leale alla Compagnia E a Gondor che muore. La tensione lo spezza."
+        - tipo: Lo Specchio (Il Doppio Oscuro)
+          tra: [Frodo, Gollum]
+          nota: "Seminato: Gollum è ciò che Frodo diventerà se cede. Il presagio è esplicito ('pity')."
+
+    # ============================================================
+    # ARCO 2: Le Due Torri
+    # 3 sottotrame parallele. Separazione del Gruppo strutturale.
+    # Livello D&D equivalente: 5-10
+    # ============================================================
+
+    - nome: "Arco 2 — Le Due Torri: Tre Strade Parallele"
+      film: "Le Due Torri (2002)"
+      plot_arco: [La Cerca, Sconfiggere il Mostro, La Ribellione, Da Povero a Ricco]
+      escalation: "Da sopravvivenza individuale a guerra su scala regionale"
+      posta_in_gioco: "La libertà di Rohan (politica) + l'anima di Frodo (personale) + la Compagnia spezzata (emotiva)"
+
+      sottotrame:
+        - nome: "Frodo + Sam + Gollum → verso Mordor"
+          plot: [La Cerca, La Tentazione, La Scorta]
+          situazioni:
+            - La Zona Proibita
+            - L'Alleato Scomodo
+            - Il Nemico Interiore
+            - La Trattativa con il Mostro
+            - Il Falso Rifugio
+        - nome: "Aragorn + Legolas + Gimli → Rohan"
+          plot: [Sconfiggere il Mostro, La Ribellione, L'Assedio]
+          situazioni:
+            - La Rincorsa
+            - La Radunata
+            - L'Assedio
+            - I Rinforzi
+            - La Corsa Contro il Tempo
+        - nome: "Merry + Pippin → Ent e Isengard"
+          plot: [Da Povero a Ricco, La Ribellione, L'Alleanza col Nemico]
+          situazioni:
+            - La Fuga dalla Prigione
+            - Il Pesce fuor d'Acqua
+            - La Radunata
+            - Il Nemico del Mio Nemico
+            - L'Assedio
+
+      personaggi:
+        - nome: Gollum/Sméagol
+          archetipo: [Il Mutaforma, L'Alleato Scomodo, Lo Specchio, Il Nemico Interiore]
+          funzione: >
+            Guida il party Frodo/Sam verso Mordor. Alleato genuinamente utile
+            (conosce la strada) ma pericoloso. Il conflitto interno Sméagol/Gollum
+            è un Il Nemico Interiore esternalizzato visivamente. È Lo Specchio
+            di Frodo: il futuro se cede all'Anello.
+          note: "Personaggio più complesso della trilogia. 4 archetipi simultanei. La sua oscillazione è il motore emotivo dell'arco 2-3."
+
+        - nome: Gandalf il Bianco
+          archetipo: [Il Mentore (ritorno), I Rinforzi]
+          funzione: >
+            Ritorna dall'arco 1 trasformato — più potente, meno umano. Non guida
+            più il party direttamente (quello è il suo vecchio ruolo). Ora è un
+            agente strategico: libera Théoden, organizza la difesa di Helm's Deep,
+            porta i Rinforzi all'alba del quinto giorno.
+          note: "Il Ritorno Sbagliato in versione POSITIVA — torna cambiato ma migliore. Raro."
+
+        - nome: Théoden
+          archetipo: [Il Ricattato, Il Veterano Spezzato]
+          funzione: >
+            Re di Rohan sotto il controllo di Saruman (via Wormtongue). Liberato
+            da Gandalf, diventa un alleato riluttante ma valoroso. Il suo arco:
+            dalla passività (controllo mentale) alla decisione di combattere.
+          note: "Passa da Il Ricattato a leader dell'Assedio. La sua trasformazione è il cuore politico dell'arco 2."
+
+        - nome: Wormtongue (Gríma)
+          archetipo: [Il Corruttore, La Talpa]
+          funzione: "Agente di Saruman alla corte di Théoden. Sussurra e corrompe. Smascherato e cacciato."
+
+        - nome: Faramir
+          archetipo: [Il Nemico Onorevole, La Prova Segreta]
+          funzione: >
+            Cattura Frodo e Sam. Tenta di prendere l'Anello (tentazione simile
+            al fratello Boromir) ma resiste. Il suo rifiuto dimostra che la
+            tentazione è superabile — contrasto diretto con Boromir.
+          note: "Lo Specchio di Boromir: stessa famiglia, stessa tentazione, scelta opposta."
+
+        - nome: Treebeard / Barbalbero
+          archetipo: [Il Guardiano della Soglia, Il Dio Indifferente]
+          funzione: >
+            Non vuole intervenire nella guerra degli 'altri'. Merry e Pippin
+            devono convincerlo. È il Guardiano della Soglia verso la distruzione
+            di Isengard — va persuaso, non combattuto.
+          note: "Mostra che non tutti gli NPC potenti VOGLIONO aiutare. La neutralità va spezzata con argomenti."
+
+        - nome: Éowyn (introduzione)
+          archetipo: [L'Eroe Riluttante (variante: costretto a non agire)]
+          funzione: "Introdotta come personaggio in gabbia — il suo arco si completa nell'arco 3."
+
+      tecniche:
+        - nome: La Separazione del Gruppo
+          applicazione: >
+            Il party è diviso in 3 gruppi per l'intero arco. Ogni gruppo ha
+            la sua quest, il suo tono, e il suo climax. La convergenza avviene
+            solo alla fine (la caduta di Isengard unisce le linee Aragorn e Merry/Pippin).
+        - nome: Plot Concatenati
+          applicazione: >
+            Le 3 sottotrame si influenzano: (1) Gandalf libera Théoden → abilita Helm's Deep;
+            (2) Merry/Pippin convincono gli Ent → distruggono Isengard → indeboliscono Saruman;
+            (3) Frodo/Sam avanzano mentre le altre linee distraggono Sauron.
+        - nome: L'Ora più Buia
+          applicazione: >
+            Helm's Deep sembra perduto (notte infinita, muro sfondato, uomini
+            che cadono). Frodo è tentato dall'Anello a Osgiliath. Tutto sembra
+            crollare simultaneamente.
+        - nome: I Rinforzi
+          applicazione: >
+            'All'alba, guardate a est' — Gandalf arriva con i Rohirrim a Helm's Deep.
+            Rinforzi GUADAGNATI: Gandalf ha lavorato off-screen per assemblarli.
+        - nome: La Costruzione dell'Odio
+          applicazione: >
+            Saruman: scatena gli Uruk-hai che uccidono (apparentemente) Merry e Pippin,
+            controlla Théoden, attacca Helm's Deep con 10.000 Uruk-hai.
+            L'Anello: tenta Frodo con intensità crescente, causa conflitto tra Frodo e Sam.
+        - nome: Il Contatore
+          applicazione: >
+            La corruzione dell'Anello è un contatore implicito: ogni uso/contatto
+            aumenta l'influenza. Frodo è visibilmente più stanco e corrotto
+            rispetto all'arco 1. Il contatore sale.
+        - nome: L'Orologio del Villain
+          applicazione: "Sauron prepara l'esercito. Saruman forgia gli Uruk-hai. Il tempo lavora contro i PG."
+        - nome: Il Barlume di Speranza
+          applicazione: "Boromir combat eroicamente per difendere i piccoli... poi le frecce arrivano (arco 1 recap). A Helm's Deep: il muro tiene... poi esplode."
+
+      relazioni:
+        - tipo: Il Protetto Riluttante
+          tra: [Sam, Frodo]
+          nota: "Sam diventa progressivamente il protettore di Frodo che si indebolisce. Il ruolo si inverte."
+        - tipo: L'Alleato Scomodo
+          tra: [Gollum, "Frodo + Sam"]
+          nota: "Utile ma pericoloso. Sam non si fida. Frodo mostra pietà. La tensione interna al party mini è costante."
+        - tipo: Il Rivale Rispettoso che Diventa Alleato
+          tra: [Legolas, Gimli]
+          nota: "La rivalità amichevole dell'arco 1 si consolida in amicizia vera sotto pressione bellica."
+        - tipo: Il Maestro e l'Allievo (Opposti)
+          tra: [Gandalf il Bianco, Saruman]
+          nota: "Ex-colleghi dello stesso ordine, ora su fronti opposti. Gandalf lo supera dopo la rinascita."
+
+    # ============================================================
+    # ARCO 3: Il Ritorno del Re
+    # Convergenza, assedio, quest finale, debriefing
+    # Livello D&D equivalente: 11-16
+    # ============================================================
+
+    - nome: "Arco 3 — Il Ritorno del Re: Convergenza e Sacrificio"
+      film: "Il Ritorno del Re (2003)"
+      plot_arco: [Sconfiggere il Mostro, La Cerca, Rinascita, Da Povero a Ricco]
+      escalation: "Posta cosmica — il destino della Terra di Mezzo + la sopravvivenza dell'anima di Frodo"
+      posta_in_gioco: "Il destino del mondo (macro) + l'anima di Frodo (personale) + il ritorno del Re (politico)"
+
+      situazioni:
+        - L'Assedio
+        - La Corsa Contro il Tempo
+        - La Trappola Evidente
+        - L'Agnizione
+        - Il Sacrificio Volontario
+        - L'Alleato Inaspettato
+        - I Rinforzi
+        - Spalle al Muro (La Scelta Impossibile)
+        - La Resa dei Conti
+        - Il Prezzo della Vittoria
+        - La Vittoria di Pirro
+        - Il Lieto Fine Guadagnato
+        - Il Debriefing
+
+      personaggi:
+        - nome: Gollum
+          archetipo: [L'Alleato Inaspettato (involontario), Il Mutaforma, Lo Specchio]
+          funzione: >
+            Tradisce Frodo (Cirith Ungol / Shelob). Ma nel climax finale,
+            la sua ossessione per l'Anello lo porta a strapparlo a Frodo
+            e cadere nel fuoco — distruggendo l'Anello involontariamente.
+            È L'Alleato Inaspettato nella forma più pura: il nemico che
+            risolve la quest SENZA VOLERLO.
+          note: >
+            Il payoff della pietà di Frodo (arco 1: 'molti che vivono meritano
+            la morte, molti che muoiono meritano la vita'). La scelta di NON
+            uccidere Gollum è il Fucile di Čechov emotivo dell'intera trilogia.
+
+        - nome: Denethor
+          archetipo: [Il Tiranno Locale, Il Piedistallo Spezzato, Lo Specchio Interiore]
+          funzione: >
+            Sovrintendente di Gondor, padre di Boromir e Faramir. Impazzito
+            dal Palantír (corruzione informativa di Sauron). Rifiuta di
+            combattere, tenta di bruciare Faramir vivo. Anti-Théoden:
+            stesso ruolo (re in crisi), scelta opposta (si arrende vs combatte).
+          note: "Lo Specchio di Théoden: entrambi re sotto pressione, uno sceglie il coraggio, l'altro la follia."
+
+        - nome: Éowyn
+          archetipo: [L'Eroe Riluttante (che agisce), La Pedina del Destino]
+          funzione: >
+            Si traveste da uomo per combattere. Uccide il Re Stregone che
+            'nessun uomo' può uccidere — payoff della profezia (lei non è un uomo).
+            La Profezia Autoavverante in positivo.
+          note: "La Profezia ('no man can kill me') si avvera letteralmente ma non come il villain prevedeva."
+
+        - nome: Aragorn
+          archetipo: [L'Eletto, Il Veterano Spezzato (superato), L'Eredità Pesante]
+          funzione: >
+            Accetta finalmente il suo destino di Re. L'Agnizione pubblica
+            con Andúril riforgiata. Guida l'esercito nella distrazione
+            finale al Cancello Nero (La Trappola Evidente consapevole).
+          note: "L'arco Da Povero a Ricco applicato alla regalità: da ramingo a Re. L'Eredità di Isildur superata."
+
+        - nome: Il Re Stregone di Angmar
+          archetipo: Il Luogotenente (Il Braccio Destro)
+          funzione: >
+            Il nemico fisico dell'assedio di Minas Tirith. Il boss fight
+            dell'arco militare. La sua morte è il turning point della battaglia.
+          note: "Sconfitto dalla combinazione Éowyn (donna) + Merry (hobbit) — entrambi sottovalutati."
+
+        - nome: Théoden
+          archetipo: [Il Nemico Onorevole (verso la morte), Il Sacrificio Volontario]
+          funzione: "Guida la carica dei Rohirrim a Pelennor. Muore in battaglia. L'arco del Veterano Spezzato si chiude con onore."
+
+      tecniche:
+        - nome: La Separazione del Gruppo
+          applicazione: >
+            Ancora 3 linee: (1) Frodo+Sam verso il Monte Fato, (2) Aragorn+Gandalf
+            e la difesa di Minas Tirith, (3) convergenza al Cancello Nero come distrazione.
+        - nome: La Trappola Evidente
+          applicazione: >
+            Aragorn marcia sul Cancello Nero SAPENDO che è suicidio — lo fa per
+            distrarre l'Occhio di Sauron da Frodo. Il party va nella trappola
+            consapevolmente per dare una possibilità alla vera quest.
+        - nome: La Resa dei Conti
+          applicazione: >
+            Doppia: (1) Frodo vs l'Anello al Monte Fato (climax emotivo — PERDE, cede
+            alla tentazione); (2) L'esercito al Cancello Nero vs le armate di Mordor
+            (climax militare — distrazione). La vera resa dei conti è interna, non esterna.
+        - nome: L'Alleato Inaspettato
+          applicazione: >
+            Gollum risolve la quest strappando l'Anello e cadendo nel fuoco.
+            La pietà di Frodo (scelta dell'arco 1) paga qui. Il Fucile di Čechov
+            emotivo più lungo della trilogia (3 film di buildup).
+        - nome: I Rinforzi
+          applicazione: >
+            (1) I Rohirrim a Pelennor Fields — carica iconica.
+            (2) Aragorn con l'Esercito dei Morti — I Rinforzi nella forma più spettacolare.
+            (3) Le Aquile al Cancello Nero — controverso (vedi sovversioni).
+        - nome: Il Prezzo della Vittoria
+          applicazione: >
+            Frodo è rotto. Non può più vivere nella Contea. La vittoria ha
+            distrutto il portatore. Il lieto fine è amaro: il mondo è salvo
+            ma Frodo non è salvo. Parte per i Porti Grigi.
+        - nome: La Callback
+          applicazione: >
+            (1) 'I can't carry it for you, but I can carry you' — Sam porta Frodo
+            (callback alla promessa 'I made a promise, Mr. Frodo').
+            (2) La Contea come luogo finale — tornare dove tutto è iniziato, cambiati.
+            (3) 'My friends, you bow to no one' — Aragorn si inchina agli hobbit (ribaltamento).
+        - nome: La Terza Via
+          applicazione: >
+            MANCATA: Frodo NON trova la Terza Via. Cede alla tentazione. È Gollum
+            (il caso/la provvidenza/la pietà) che risolve. Sovversione: l'eroe
+            FALLISCE al momento decisivo. La sua scelta morale precedente (la pietà)
+            è ciò che salva, non la sua forza di volontà al climax.
+        - nome: L'Escalation
+          applicazione: "Da Helm's Deep (una fortezza) a Minas Tirith (una città) a il Cancello Nero (il mondo). Scala costante."
+        - nome: Il Debriefing
+          applicazione: >
+            Esteso e multilivello: (1) incoronazione di Aragorn, (2) ritorno alla
+            Contea, (3) partenza di Frodo ai Porti Grigi. Il debriefing più lungo
+            e completo del cinema moderno — dedicato alle conseguenze.
+
+      relazioni:
+        - tipo: Il Companion Fedele
+          tra: [Sam, Frodo]
+          nota: >
+            Sam è il cuore della trilogia. La relazione Sam-Frodo è IL Legame
+            centrale. Quando Sam viene mandato via (manipolazione di Gollum),
+            è l'Ora più Buia della sottotrama. Il suo ritorno è I Rinforzi a livello personale.
+        - tipo: Lo Specchio (Il Doppio Oscuro)
+          tra: [Frodo, Gollum]
+          nota: "Payoff: Frodo al Monte Fato DIVENTA Gollum — reclama l'Anello. Lo Specchio si è avverato."
+        - tipo: L'Eredità Pesante
+          tra: [Aragorn, Isildur]
+          nota: "Aragorn teme di cadere come Isildur (che non distrusse l'Anello). Supera l'eredità rifiutando l'Anello e accettando la corona."
+        - tipo: L'Alleanza Oscillante
+          tra: [Gollum, Frodo]
+          nota: "Alleato → traditore (Shelob) → alleato involontario (distrugge l'Anello). L'oscillazione completa."
+
+# ============================================================
+# ESCALATION TRA I 3 FILM
+# ============================================================
+
+escalation_globale:
+  - arco: 1
+    posta_narrativa: "Formare il party e sopravvivere al viaggio (locale/tattica)"
+    posta_emotiva: "Perdere il mentore, scoprire la debolezza interna (Boromir cede)"
+    villain_visibility: "Il Signore Oscuro è un Occhio remoto. Saruman è il Luogotenente attivo. I Nazgûl sono i nemici fisici."
+    livello_dnd: "1-5"
+
+  - arco: 2
+    posta_narrativa: "Sopravvivere divisi + difendere Rohan (regionale/militare)"
+    posta_emotiva: "La corruzione dell'Anello avanza. Gollum come specchio. La pietà è testata."
+    villain_visibility: "Saruman colpisce direttamente (Helm's Deep). Sauron prepara il colpo finale. L'Anello è il nemico più presente."
+    livello_dnd: "5-10"
+
+  - arco: 3
+    posta_narrativa: "Distruggere l'Anello + sconfiggere Sauron (cosmica/esistenziale)"
+    posta_emotiva: "L'anima di Frodo è in gioco. Il sacrificio è il prezzo. Il ritorno non è possibile intero."
+    villain_visibility: "Sauron attacca in forza (Minas Tirith). L'Anello è al massimo della corruzione. La battaglia finale è una distrazione."
+    livello_dnd: "11-16"
+
+pattern_escalation: >
+  Locale → Regionale → Cosmico. La posta MILITARE sale (9 contro Nazgûl → fortezza →
+  assedio di città → battaglia finale). Ma la posta EMOTIVA è sempre INTERNA: la
+  corruzione di Frodo è il vero conto alla rovescia. Il climax non è la battaglia
+  al Cancello Nero — è Frodo al Monte Fato che CEDE alla tentazione. La risoluzione
+  arriva dalla pietà mostrata 3 film prima, non dalla forza. L'escalation emotiva
+  batte l'escalation militare.
+
+# ============================================================
+# TRANSIZIONI TRA FILM
+# ============================================================
+
+transizioni:
+  - da: "Arco 1 (La Compagnia dell'Anello)"
+    a: "Arco 2 (Le Due Torri)"
+    tipo_grammatica: "La Cerca → La Cerca + Sconfiggere il Mostro (party split)"
+    giustificazione: >
+      La rottura della Compagnia (morte di Boromir, scelta di Frodo di andare
+      da solo) forza la separazione. Le 3 linee narrative nascono organicamente.
+      La quest continua (Frodo) mentre il mondo reagisce (Aragorn/Merry+Pippin).
+    hook: "Frodo parte da solo (Sam lo segue). Merry/Pippin sono catturati. Aragorn/Legolas/Gimli inseguono."
+    stato_party: "Spezzato, in lutto per Boromir e Gandalf. Ogni gruppo è sotto-equipaggiato."
+
+  - da: "Arco 2 (Le Due Torri)"
+    a: "Arco 3 (Il Ritorno del Re)"
+    tipo_grammatica: "Sconfiggere il Mostro (arco Rohan) → Sconfiggere il Mostro (Sauron) + La Cerca (climax)"
+    giustificazione: >
+      La vittoria a Helm's Deep risolve la minaccia di Saruman. La posta si alza:
+      ora è Sauron stesso. Le linee convergono verso il confronto finale. Frodo
+      è sempre più corrotto — il timer personale si avvicina allo zero.
+    hook: "Sauron attacca Gondor direttamente. Frodo entra nel territorio di Mordor. Il tempo stringe per tutti."
+    stato_party: "Le linee iniziano a riconvergere. Gandalf a Minas Tirith. Aragorn raccoglie alleati. Frodo al limite."
+
+# ============================================================
+# CATENE PREREQUISITI SODDISFATTE
+# ============================================================
+
+catene_soddisfatte:
+  - nome: La Vendetta Soddisfacente
+    sequenza_nella_trilogia:
+      - "Il Legame (luogo): La Contea come paradiso — primi 30 minuti arco 1"
+      - "La Costruzione dell'Odio: Sauron/Saruman sono crudeli per 3 film (Nazgûl, Uruk-hai, tradimenti)"
+      - "L'Ora più Buia: Helm's Deep quasi perduto (arco 2) + Frodo catturato da Shelob (arco 2-3)"
+      - "La Resa dei Conti: Il Cancello Nero + Monte Fato — arco 3 climax"
+      - "Il Debriefing: incoronazione + ritorno alla Contea + Porti Grigi — arco 3 epilogo"
+    valutazione: "Catena completa. La Casa Distrutta è assente nei film (presente nel libro: Scouring of the Shire)."
+
+  - nome: L'Oggetto che Corrompe
+    sequenza_nella_trilogia:
+      - "Il Legame (oggetto): L'Anello come 'regalo di Bilbo', innocuo per 60 anni"
+      - "L'Anello al Dito: corruzione graduale di Frodo su 3 film (Il Contatore sale)"
+      - "Il Dilemma del Carrello: distruggere l'Anello = salvare il mondo ma perdere sé stesso"
+      - "Il Sacrificio (mancato/involontario): Gollum distrugge l'Anello cadendo nel fuoco"
+    valutazione: >
+      Catena soddisfatta con SOVVERSIONE: il portatore FALLISCE al momento finale.
+      Non è lui che sacrifica — è la pietà passata che paga. Unico nella narrativa epica.
+
+  - nome: Il Nemico Crescente
+    sequenza_nella_trilogia:
+      - "Il Presagio: l'Occhio di Sauron, i Nazgûl come ombre — arco 1"
+      - "La Costruzione dell'Odio: eserciti crescenti, tradimenti, corruzioni — arco 1-2-3"
+      - "Il Falso Finale: Saruman sconfitto (fine arco 2) — il vero nemico è Sauron"
+      - "La Resa dei Conti: il Cancello Nero + il Monte Fato — arco 3"
+    valutazione: "Saruman come Falso Finale funziona perfettamente — cade prima del vero boss."
+
+  - nome: Il Tradimento Devastante (variante compressa)
+    sequenza_nella_trilogia:
+      - "Il Legame (affezione): Boromir è utile e valoroso per tutta la Compagnia"
+      - "Il Companion Fedele: combatte, protegge, consiglia per l'intero arco 1"
+      - "Il Tradimento dell'Alleato: tenta di prendere l'Anello — climax arco 1"
+      - "Il Sacrificio Volontario (immediato): muore difendendo Merry/Pippin — redenzione istantanea"
+    valutazione: "Catena compressa in un singolo arco. Il tradimento + redenzione avvengono nella stessa sequenza. Potentissimo per la compressione."
+
+  - nome: L'Escalation Emotiva sopra la Militare
+    sequenza_nella_trilogia:
+      - "Il Legame (affezione): Frodo/Sam, la Compagnia, la Contea"
+      - "L'Escalation: da 9 vs Nazgûl a assedio di Minas Tirith a Cancello Nero"
+      - "Lo Specchio: Gollum è il futuro possibile di Frodo"
+      - "Il Dilemma del Carrello: distruggere l'Anello richiede arrivare a Mordor e resistergli"
+      - "La Resa dei Conti: NON è la battaglia — è Frodo al Monte Fato"
+    valutazione: >
+      Perfettamente soddisfatta. La battaglia al Cancello Nero è una DISTRAZIONE
+      (diegeticamente e narrativamente). Il vero climax è personale/emotivo.
+
+# ============================================================
+# REGOLE DI SEQUENZA RISPETTATE O VIOLATE
+# ============================================================
+
+regole_sequenza_analisi:
+  rispettate:
+    - regola: "Il Legame (luogo) → La Casa Distrutta"
+      dove: "La Contea costruita nei primi 30 min → minacciata in tutto il film (distrutta nel libro, non nei film)"
+      nota: "La minaccia alla Contea è il motore emotivo anche se la distruzione avviene off-screen/tagliata."
+
+    - regola: "Il Legame (affezione) → Il Tradimento dell'Alleato"
+      dove: "Boromir è un compagno valoroso → tenta di rubare l'Anello"
+      nota: "Il Legame è costruito in tempo reale durante l'arco 1. Funziona per l'intensità del viaggio condiviso."
+
+    - regola: "La Costruzione dell'Odio → La Resa dei Conti"
+      dove: "Sauron/Saruman crudeli per 3 film → battaglia finale + distruzione dell'Anello"
+      nota: "Buildup distribuito su 9+ ore. La catarsi è proporzionale."
+
+    - regola: "L'Ora più Buia → I Rinforzi"
+      dove: "Helm's Deep sembra perduto → Gandalf + Éomer all'alba. Pelennor sembra perduto → Rohirrim caricano."
+      nota: "Usato DUE VOLTE con la stessa struttura — funziona entrambe perché le situazioni sono diverse."
+
+    - regola: "Il Presagio → Il Colpo di Scena"
+      dove: "Gollum come presagio di corruzione → Frodo cede alla tentazione al Monte Fato"
+      nota: "Il presagio è esplicito e ripetuto. Il pubblico VEDE la discesa. Non è un twist — è un inevitabile temuto."
+
+    - regola: "Il Legame (affezione) → Il Sacrificio Volontario"
+      dove: "Gandalf amato per 2+ ore → si sacrifica al ponte (arco 1). Boromir amato → muore per Merry/Pippin (arco 1). Théoden → muore a Pelennor (arco 3)."
+      nota: "TRE sacrifici, tutti preparati con Il Legame. Nessuno è gratuito."
+
+    - regola: "La Resa dei Conti → Il Debriefing"
+      dove: "Distruzione dell'Anello → 40 minuti di epilogo (incoronazione, Contea, Porti Grigi)"
+      nota: "Il debriefing più lungo del cinema. Mostra tutte le conseguenze."
+
+    - regola: "Il Falso Finale → La Resa dei Conti"
+      dove: "Saruman cade (fine arco 2) → il vero confronto è con Sauron (arco 3)"
+      nota: "Saruman è il boss dell'arco intermedio. La sua caduta rilancia la posta."
+
+  violate_intenzionalmente:
+    - regola: "Il Mentore muore e non torna"
+      violazione: "Gandalf muore nella Moria e RITORNA come Gandalf il Bianco"
+      giustificazione: >
+        Il Ritorno Sbagliato in versione positiva — unico nel genere. Giustificato
+        dalla cosmologia (Gandalf è un Maia, non un mortale). Il ritorno non
+        invalida il sacrificio: Gandalf torna DIVERSO, meno umano, meno intimo.
+        Non è più il mentore da taverna — è una forza strategica.
+
+    - regola: "L'eroe vince al climax con la propria forza/scelta"
+      violazione: "Frodo FALLISCE al Monte Fato — cede alla tentazione e reclama l'Anello"
+      giustificazione: >
+        Sovversione fondamentale: l'eroe della Cerca non completa la Cerca
+        con la propria volontà. La quest è risolta dalla pietà mostrata in
+        precedenza (non uccidere Gollum) — una scelta MORALE passata che paga
+        attraverso il caos (Gollum strappa l'Anello e cade). È l'anti-Terza Via:
+        l'eroe non trova una soluzione — la soluzione trova lui attraverso la
+        grazia delle sue scelte precedenti.
+
+    - regola: "La Resa dei Conti è il climax militare"
+      violazione: "La battaglia al Cancello Nero è una DISTRAZIONE. Il climax è interiore (Frodo vs Anello)."
+      giustificazione: >
+        Il climax narrativo è separato dal climax militare. La battaglia è
+        significativa ma non risolutiva — serve solo a dare tempo a Frodo.
+        Questa è la catena L'Escalation Emotiva sopra la Militare nella forma
+        più radicale possibile.
+
+# ============================================================
+# SOVVERSIONI INTENZIONALI DELLE META-REGOLE
+# ============================================================
+
+sovversioni:
+  - regola_violata: "L'eroe completa la quest con la propria azione"
+    effetto: >
+      Frodo non distrugge l'Anello. Ci riesce solo perché ha mostrato pietà a
+      Gollum (scelta passata) e Gollum, nel suo tentativo di rubare l'Anello,
+      cade nel fuoco. La quest è risolta da un effetto collaterale della virtù,
+      non dalla forza al momento decisivo. In termini di campagna: il PG fallisce
+      il tiro salvezza finale, ma una scelta fatta 30 sessioni prima ha creato
+      le condizioni per una risoluzione alternativa.
+    epoca_nota: >
+      Tolkien (libro 1955): teologicamente motivata — la 'grazia' (eucatastrophe)
+      supera la volontà individuale. Nel film 2003: funziona perché la pietà di
+      Frodo è stata mostrata e ribadita ripetutamente.
+
+  - regola_violata: "Il Mentore muore e non ritorna (per forzare autonomia)"
+    effetto: >
+      Gandalf ritorna — ma trasformato. Non è un deus ex machina perché: (1) è
+      giustificato dalla cosmologia; (2) torna DIVERSO (meno accessibile, più
+      potente, meno 'guida di party'); (3) la sua assenza ha comunque forzato
+      l'autonomia del party per un intero arco (le Due Torri inizia senza di lui
+      per i PG). In D&D: il mentore può tornare come NPC potente ma non più
+      come guida del party.
+
+  - regola_violata: "Il party si riunisce per il climax"
+    effetto: >
+      Il party NON si riunisce completamente. Frodo e Sam sono soli al Monte
+      Fato. La 'riunione' avviene solo dopo — nel debriefing. Il climax della
+      quest principale è risolto dal sotto-party più debole (2 hobbit) mentre
+      il sotto-party forte (guerrieri) fa da distrazione. Inversione di potere.
+
+  - regola_violata: "I Rinforzi al Cancello Nero (le Aquile) sono guadagnati"
+    effetto: >
+      Le Aquile al Cancello Nero (e al Monte Fato per il salvataggio) sono il
+      punto più vicino al Deus Ex Machina della trilogia. Parzialmente preparate
+      (Gandalf ha un rapporto con le Aquile, stabilito nello Hobbit e all'inizio
+      dell'arco 1) ma non 'guadagnate' dal party durante questa campagna. Punto
+      debole strutturale riconosciuto.
+    epoca_nota: >
+      Punto controverso nella critica tolkieniana. La giustificazione interna
+      (le Aquile sono esseri indipendenti, non taxi) è debole nel film dove
+      l'intervento sembra gratuito.
+
+  - regola_violata: "Il villain ha un confronto fisico finale con il party"
+    effetto: >
+      Sauron non è mai affrontato fisicamente. Non ha corpo. L'Anello è il suo
+      'corpo' nel mondo — distruggerlo lo distrugge. Il BBEG muore senza un
+      boss fight diretto. In D&D: raro ma possibile quando il MacGuffin È il villain.
+
+# ============================================================
+# STEREOTIPI MANCANTI NEL VOCABOLARIO (proposte)
+# ============================================================
+
+stereotipi_mancanti_proposti:
+  - nome: "La Vittoria per Grazia (Eucatastrophe)"
+    nome_en: "Eucatastrophe / Victory by Grace / Unearned-Yet-Earned Victory"
+    tipo: situazione
+    descrizione: >
+      L'eroe fallisce nel momento decisivo, ma una scelta morale precedente
+      (pietà, generosità, perdono) crea le condizioni affinché un evento
+      apparentemente casuale risolva la quest. Non è un Deus Ex Machina perché
+      la causa è rintracciabile (la scelta passata). Non è la Terza Via perché
+      l'eroe non la trova consapevolmente. È la 'grazia' narrativa: la virtù
+      precedente paga in modo inaspettato. La vittoria è meritata moralmente
+      ma non ottenuta per forza o ingegno al momento del climax.
+    esempi:
+      - "Gollum cade nel fuoco con l'Anello — Il Signore degli Anelli"
+      - "Il cane randagio sfamato che torna per salvare l'eroe — fiabe"
+      - "La moneta lanciata nel pozzo che 'per caso' blocca il meccanismo — fairy tale logic"
+    uso_dnd: >
+      Se i PG hanno mostrato virtù (pietà verso un nemico, generosità verso un
+      NPC, scelta morale costosa) — il DM può usare quella scelta come via d'uscita
+      quando i PG falliscono al climax. NON è un deus ex machina se la connessione
+      causale è chiara a posteriori. Regola: funziona SOLO se la scelta originale
+      era un sacrificio reale (non una banalità).
+    puo_aver_bisogno_di: [Il Legame, Il Fucile di Čechov, La Scelta Retroattiva]
+    vedi_anche: [La Terza Via, Il Deus Ex Machina, L'Alleato Inaspettato, La Scelta Retroattiva]
+
+  - nome: "La Distrazione Eroica (Il Sacrificio Tattico)"
+    nome_en: "Heroic Distraction / Diversionary Sacrifice"
+    tipo: situazione
+    descrizione: >
+      Il party forte marcia deliberatamente verso la morte per distrarre il
+      nemico dal party debole che compie la vera quest. Non è un normale sacrificio
+      (dove uno muore per salvare gli altri): è un intero GRUPPO che accetta di
+      morire per dare tempo a un altro gruppo. La posta è asimmetrica: chi si
+      sacrifica affronta il pericolo maggiore, chi compie la quest ha il compito
+      più importante ma meno spettacolare.
+    esempi:
+      - "La marcia sul Cancello Nero — Il Signore degli Anelli (distrazione per Frodo)"
+      - "Rogue One — Star Wars (la squadra muore per trasmettere i piani)"
+      - "La carica dei Rohirrim come diversione per le mura — Le Due Torri"
+    uso_dnd: >
+      Struttura di climax per saghe: il party si divide in 'esca' e 'operativi'.
+      L'esca affronta il boss/esercito apertamente. Gli operativi completano
+      l'obiettivo. Entrambi devono avere agency e tensione. La 'esca' non è
+      condannata — può sopravvivere se l'obiettivo viene raggiunto in tempo.
+    puo_aver_bisogno_di: [La Separazione del Gruppo, Il Legame, La Corsa Contro il Tempo]
+    vedi_anche: [La Separazione del Gruppo, Il Sacrificio Volontario, La Trappola Evidente, La Corsa Contro il Tempo]
+
+  - nome: "Il Portatore (Il PG-Veicolo)"
+    nome_en: "The Bearer / Ring-Bearer / Reluctant Vessel"
+    tipo: personaggio
+    descrizione: >
+      Un personaggio la cui funzione primaria è TRASPORTARE un oggetto pericoloso
+      fino alla destinazione — non usarlo, non combattere con esso, ma resistergli
+      e portarlo. A differenza dell'Eletto (che ha un potere speciale) il Portatore
+      è scelto PERCHÉ è ordinario — la sua semplicità è la sua resistenza. È
+      l'anti-eroe per eccellenza: non vince combattendo ma resistendo.
+    esempi:
+      - "Frodo — Il Signore degli Anelli (porta l'Anello, non lo usa)"
+      - "Il corriere di Fallout — New Vegas (porta un oggetto, viene ucciso per esso)"
+      - "Il bambino con il briefcase — tropo spy-thriller"
+    uso_dnd: >
+      Un PG viene designato portatore di un oggetto maledetto/pericoloso. Il suo
+      arco è la resistenza alla corruzione (Il Contatore). Non è il più forte
+      del party — è il più resistente moralmente. Gli altri PG lo proteggono
+      fisicamente, lui resiste spiritualmente.
+    vedi_anche: [L'Eletto, L'Anello al Dito, La Consegna, Il Contatore, L'Eroe Riluttante]
+
+  - nome: "Lo Splitting Narrativo (Il Party Diviso Strutturale)"
+    nome_en: "Structural Party Split / Braided Campaign"
+    tipo: tecnica
+    descrizione: >
+      A differenza della Separazione del Gruppo (evento singolo), lo Splitting
+      Narrativo è una STRUTTURA: il party si divide per un intero arco (o più)
+      e ogni sotto-party ha la propria quest, il proprio tono, e il proprio
+      climax. Le linee si influenzano a distanza e convergono nel climax finale.
+      È la differenza tra 'ci siamo separati in una stanza' e 'siamo su continenti
+      diversi per 3 sessioni'.
+    esempi:
+      - "Le Due Torri / Il Ritorno del Re — Il Signore degli Anelli (3 linee per 2 film)"
+      - "Game of Thrones — decine di linee parallele per stagioni intere"
+      - "Rogue One + A New Hope — due storie che convergono"
+    uso_dnd: >
+      Per campagne con 5+ PG: dividere il party per 2-3 sessioni con quest
+      parallele. Alternare scene brevi (20-30 min per gruppo). Le azioni di un
+      gruppo influenzano le condizioni dell'altro. La riunione al climax è il
+      payoff emotivo. Richiede gestione attenta del tempo al tavolo.
+    vedi_anche: [La Separazione del Gruppo, Plot Concatenati, Il Pacing]
+
+# ============================================================
+# REGOLE MANCANTI NELLA GRAMMATICA (proposte)
+# ============================================================
+
+regole_mancanti_proposte:
+  - nome: "La Pietà DEVE precedere la Vittoria per Grazia"
+    descrizione: >
+      Affinché una 'eucatastrophe' (vittoria per grazia/caso) funzioni, il PG
+      deve aver compiuto una scelta morale COSTOSA in precedenza — e quella
+      scelta deve essere la causa (diretta o indiretta) della risoluzione. Senza
+      la scelta precedente, la vittoria per grazia è un Deus Ex Machina.
+    esempio: >
+      LotR: Frodo risparmia Gollum (costo: Gollum è pericoloso, Sam protesta)
+      → Gollum è presente al Monte Fato → la sua ossessione distrugge l'Anello.
+      Senza la pietà, nessun Gollum al climax.
+    forza_proposta: sempre
+    fonte: "analisi LotR trilogia"
+
+  - nome: "Il Contatore di Corruzione DEVE avere un fallimento visibile"
+    descrizione: >
+      Se un oggetto/potere corrompe un PG gradualmente (Il Contatore), a un certo
+      punto il PG DEVE fallire visibilmente — cedere, perdere il controllo,
+      fare qualcosa di sbagliato. La corruzione senza effetti visibili è priva
+      di tensione. Il fallimento può essere recuperato (Rinascita) o può essere
+      la catastrofe — ma deve accadere.
+    esempio: >
+      LotR: Frodo cede al Monte Fato — reclama l'Anello. Il contatore ha raggiunto
+      il massimo. Il fallimento è VISIBILE e PUBBLICO. La corruzione non è
+      astratta — si manifesta in un'azione drammatica.
+    forza_proposta: quasi_sempre
+    eccezione: "Se il PG trova una via per purificarsi PRIMA del fallimento (raro, richiede una quest di purificazione)."
+    fonte: "analisi LotR trilogia"
+
+  - nome: "La Separazione Strutturale richiede un Motivo Diegetico Forte"
+    descrizione: >
+      Quando il party si divide per un arco intero (non una scena), la divisione
+      deve essere motivata da eventi narrativi irreversibili — non da una scelta
+      banale. Una morte, una cattura, una scelta morale, un evento che rende
+      impossibile restare insieme. La divisione forzata crea tensione; la
+      divisione scelta deve avere un costo emotivo.
+    esempio: >
+      LotR: la morte di Boromir + la cattura di Merry/Pippin + la scelta di
+      Frodo di andare da solo = 3 motivazioni forti e irreversibili per 3 linee.
+      Non è 'ci dividiamo per coprire più terreno' — è 'non possiamo stare insieme'.
+    forza_proposta: quasi_sempre
+    fonte: "analisi LotR trilogia"
+
+  - nome: "Il Sacrificio del Mentore DEVE precedere l'Autonomia del Party"
+    descrizione: >
+      Già presente nella grammatica come regola sul Mentore. Qui si rafforza:
+      se il Mentore ritorna (come Gandalf il Bianco), non deve tornare nel ruolo
+      originale. Deve essere distante, strategico, non più 'dentro il party'.
+      L'autonomia guadagnata con la sua morte non va invalidata dal suo ritorno.
+    esempio: >
+      LotR: Gandalf torna ma non viaggia più col party Frodo/Sam. Non fa da
+      guida nel dungeon. Opera a livello strategico (libera Théoden, porta
+      rinforzi). L'autonomia di Frodo è preservata.
+    forza_proposta: spesso
+    fonte: "analisi LotR trilogia"
+
+# ============================================================
+# VALIDAZIONE
+# ============================================================
+
+validazione:
+  copertura_percentuale: 95
+  nota_copertura: >
+    La trilogia copre quasi tutte le categorie del vocabolario con profondità
+    eccezionale. Particolarmente ricca in: tecniche (Legame, Presagio, Contatore,
+    Escalation), relazioni (Specchio, Alleanza Oscillante, Companion Fedele,
+    Rivalità Amichevole), situazioni (Assedio, Cerca, Tentazione, Sacrificio).
+    Mancano: plot comici (Commedia degli Errori), situazioni investigative
+    (Mistero/Whodunit), Heist, Loop Temporale. Coerente con l'high fantasy epico.
+
+  regole_sequenza_rispettate: "8/8"
+  regole_violate_giustificate: "5 (tutte con giustificazione documentata)"
+
+  stereotipi_mancanti_proposti: 4
+  regole_mancanti_proposte: 4

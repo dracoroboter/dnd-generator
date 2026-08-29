@@ -407,3 +407,99 @@ A differenza di questo documento (che organizza gli archetipi per framework teor
 I due file sono complementari:
 - **Questo file** (`tech/rules/narrative-stereotypes.md`): specifica formale, struttura per framework, coerenze incrociate
 - **Il database** (`tech/data/references/narrative-stereotypes.yaml`): catalogo consultabile, ispirazione rapida, estendibile voce per voce
+
+### Campi del database YAML
+
+| Campo | Obbligatorio | Descrizione |
+|-------|:---:|-------------|
+| `tipo` | ✓ | `plot` · `situazione` · `personaggio` · `relazione` · `tecnica` |
+| `nome` | ✓ | Etichetta breve in italiano |
+| `nome_en` | ✓ | Nome inglese standard (TV Tropes / letteratura critica) |
+| `nomi_alt` | ✓ | Lista di 3-5 sinonimi italiani e/o inglesi. Servono per la ricerca semantica nella KB e per il cross-reference (un lettore potrebbe cercare "Fatal Flaw" anziché "Lo Specchio Interiore") |
+| `descrizione` | ✓ | Cos'è in 2-3 frasi |
+| `esempi` | ✓ | Lista di opere note (film, libri, miti, serie TV, videogiochi) |
+| `uso_dnd` | ✓ | Come applicarlo concretamente in un'avventura D&D |
+| `rischio` | | Cosa può andare storto se usato male |
+| `sottocaso_di` | | Questo stereotipo è una variante specifica di un altro |
+| `puo_aver_bisogno_di` | | Stereotipi prerequisito: devono essere applicati PRIMA affinché questo funzioni. Per Il Legame specificare la variante: `(affezione)`, `(odio)`, `(luogo)`, `(ideale)`, `(oggetto)` |
+| `usato_in` | | In quali plot/situazioni questo stereotipo ricorre tipicamente |
+| `vedi_anche` | | Riferimenti ad altri stereotipi correlati |
+
+### File correlati
+
+| File | Ruolo |
+|------|-------|
+| `tech/data/references/narrative-stereotypes.yaml` | Stereotipi narrativi — elementi per SCRIVERE l'avventura (vocabolario) |
+| `tech/data/references/dm-conduct-principles.yaml` | Principi di conduzione — regole per CONDURRE al tavolo |
+| `tech/data/references/narrative-grammar.yaml` | Grammatica narrativa — regole di COMPOSIZIONE (come combinare gli stereotipi) |
+| `tech/data/references/narrative-stereotypes-index.md` | Indice leggibile stereotipi (generato) |
+| `tech/scripts/rebuild-stereotypes-index.py` | Script che rigenera l'indice dal YAML |
+| `tech/rules/narrative-stereotypes.md` | Specifica formale (questo file) |
+
+### I tre livelli del sistema narrativo
+
+```
+┌─────────────────────────────────────────────────────────┐
+│ narrative-grammar.yaml                                   │
+│ GRAMMATICA: come combinare gli elementi                  │
+│ (regole di sequenza, casting, transizioni, anti-pattern) │
+├─────────────────────────────────────────────────────────┤
+│ narrative-stereotypes.yaml                               │
+│ VOCABOLARIO: i mattoni della storia                      │
+│ (plot, situazioni, personaggi, relazioni, tecniche)      │
+├─────────────────────────────────────────────────────────┤
+│ dm-conduct-principles.yaml                               │
+│ CONDUZIONE: come reagire al tavolo                       │
+│ (principi meta-gioco per il DM in tempo reale)           │
+└─────────────────────────────────────────────────────────┘
+```
+
+- **Vocabolario** = "quali pezzi esistono" → usato dal narratore per scegliere elementi
+- **Grammatica** = "quali combinazioni funzionano" → usato dal narratore per assemblarli
+- **Conduzione** = "come gestire l'imprevisto" → usato dal DM al tavolo
+
+### Grammatica narrativa — struttura del file
+
+| Sezione | Cosa definisce |
+|---------|----------------|
+| `regole_sequenza` | A deve venire PRIMA di B per funzionare emotivamente |
+| `catene_prerequisiti` | Ricette collaudate (sequenze tipiche con effetto noto) |
+| `regole_casting` | Quali personaggi servono in quali situazioni/plot |
+| `transizioni_plot` | Come collegare archi in una campagna multi-plot |
+| `anti_pattern` | Combinazioni che NON funzionano (errori comuni) |
+
+### Ampliamento della grammatica
+
+La grammatica va ampliata e validata analizzando opere narrative famose.
+Processo:
+1. Scegliere un'opera (film, serie, libro, avventura D&D pubblicata)
+2. Scomporre la sua struttura in stereotipi del vocabolario
+3. Verificare se le regole esistenti spiegano perché funziona
+4. Se la regola manca, aggiungerla
+5. Se una regola è violata e l'opera funziona lo stesso, annotare l'eccezione
+
+Questo processo può essere semi-automatizzato con un agente dedicato (meta-narratore).
+
+### Distinzione tra i due file
+
+| | `narrative-stereotypes.yaml` | `dm-conduct-principles.yaml` |
+|---|---|---|
+| **Quando** | Prima della sessione (scrittura) | Durante la sessione (conduzione) |
+| **Cosa** | Elementi narrativi: plot, situazioni, personaggi, relazioni, tecniche di costruzione | Principi meta-gioco: come il DM reagisce, improvvisa, gestisce |
+| **Chi** | L'autore dell'avventura | Il DM al tavolo |
+| **Chiave radice** | `stereotipi:` | `principi:` |
+| **Tipi** | plot, situazione, personaggio, relazione, tecnica | principio |
+| **Esempi** | Il Tradimento, La Resa dei Conti, Il Fucile di Čechov | Rule of Cool, Fail Forward, Session Zero |
+
+### Workflow per aggiungere nuovi stereotipi
+
+1. Verificare assenza duplicati (cercare nella KB e nel YAML per nome, nome_en, nomi_alt)
+2. Decidere: è un elemento da scrivere nell'avventura → `narrative-stereotypes.yaml`; è un principio per il DM al tavolo → `dm-conduct-principles.yaml`
+3. Aggiungere la voce nel YAML appropriato
+4. Eseguire `python3 tech/scripts/rebuild-stereotypes-index.py` (rigenera indice + aggiorna conteggio)
+5. Re-indicizzare la KB: `knowledge update` sulla directory `tech/data/references`
+
+Note:
+- Il YAML deve essere valido: i `?` e i `:` dentro le flow sequence `[...]` vanno quotati (`"Who Am I?"`)
+- L'indice non va mai editato a mano — è sempre rigenerato dallo script
+- Lo script aggiorna anche il conteggio nell'header del YAML

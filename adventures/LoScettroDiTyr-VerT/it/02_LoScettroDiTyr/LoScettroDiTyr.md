@@ -46,7 +46,7 @@ La missione inizia a Baldur's Gate. Il gruppo si ritrova in una taverna per disc
 
 L'indizio si riferisce alle rovine del Tempio di Lumina, il luogo dove lo Scettro fu perduto secoli fa durante la Caduta del Tempio. Si dice che il tempio sia infestato da spiriti e custodisca segreti dimenticati.
 
-Se i personaggi scelgono di ignorare la richiesta di Dispater, iniziano a verificarsi eventi sinistri che segnalano la crescente ira del Arciduca di Dis. Tirare 1d6 ogni riposo lungo:
+Se i personaggi scelgono di ignorare la richiesta di Dispater, iniziano a verificarsi eventi sinistri che segnalano la crescente ira del Arciduca di Dis. Dispater può tormentarli anche senza un patto formale: i PG hanno aperto il portale nella Torre di Torth (il suo santuario) e hanno bevuto dalla Coppa di Blackwood pronunciando il suo nome in infernale. Questi atti hanno lasciato una traccia della loro anima nel dominio di Dispater, sufficiente perché il demone possa raggiungerli nei sogni e infliggere tormenti. Tirare 1d6 ogni riposo lungo:
 
 | d6 | Effetto |
 |----|---------|
@@ -125,6 +125,8 @@ In un villaggio di montagna, la Rocca Bianca, può essere incontrato Brother Tha
 Può essere trovato nella taverna o nel tempio locale. Se capisce e approva le intenzioni dei PG, offre informazioni cruciali: spiega cos'è lo Scettro e il suo rapporto con il Tempio di Lumina, rivela le ambizioni nascoste di Alaric il Giusto e mette in guardia sulle vere intenzioni di Dispater. Sottolinea il pericolo della maledizione dello Scettro per chi non è puro di cuore. Se i personaggi non si fidano, possono effettuare un tiro di Intuizione (CD 12) per valutare la sincerità di Thaddeus.
 
 Chiunque altro incontrino alla Rocca Bianca li avverte dei pericoli (freddo, scalate, mostri) che troveranno sul cammino. Possono trovare a pagamento abiti pesanti, piccozze e quanto serve per scalare.
+
+**Voci su Malebranche:** Un mercante di passaggio alla taverna racconta che un lord esiliato si aggira lungo la costa a sud, tra Waterdeep e Leilon. Lo descrive come un uomo cupo con mani scure e occhi infossati, visto compiere strani rituali notturni nei pressi di un villaggio. I locali lo evitano. Se i PG indagano ulteriormente, il mercante aggiunge che la zona attorno alla sua dimora puzza di morte e che gli animali la evitano. *Nota al DM: è Malebranche a Uluvin, che sta preparando il rituale di evocazione di Zikle. Questo indizio anticipa il Modulo 4 e mantiene il BBEG nella mente dei giocatori.*
 
 #### Monti di Eterna Neve — La lunga scalata
 
@@ -277,6 +279,12 @@ Se invece tentano di attaccare le ombre, queste si trasformano in 6 spettri che 
 
 Nessun tesoro né nemici. Un affresco raffigura il gigante di pietra che difende il tempio e il portatore dello Scettro dai nemici.
 
+#### Sala 11 — Corridoio dei Ricordi
+
+Un corridoio lungo e stretto, le pareti coperte di bassorilievi che raccontano la storia del Tempio di Lumina: la sua fondazione, i secoli di pace, e infine la Caduta. Le figure degli ultimi pannelli sono scheggiate e annerite, come bruciate da un fuoco antico. L'aria è fredda e immobile.
+
+Nessun nemico, nessun tesoro. Atmosfera. Se i PG osservano con attenzione (Indagare CD 10), notano che l'ultimo pannello mostra una figura con uno scettro che si lancia verso una luce: è Ormut che teletrasporta lo Scettro a Erythale.
+
 #### Sala 12 — Sala del Sacrificio (passaggio verso Erythale)
 
 Alla fine di una scala che termina contro un muro, c'è il passaggio verso Erythale. Una fiamma magica arde in mezzo alla stanza. Sul muro in fondo alla scala c'è una scritta: "A' lammen en' iand" — ovvero "Oltre la soglia" in elfico (A' = "verso/oltre", Lammen = "soglia/porta", En' = "di/del", Iand = "confine/oltre").
@@ -334,6 +342,22 @@ I PG possono combattere. Se riescono a far confessare ad Alaric i suoi oscuri pi
 
 Se il golem della Sala 4 non è stato sconfitto in precedenza, si trova di fianco ai PG all'ingresso e combatte al loro fianco.
 
+### Debriefing — Dopo la battaglia
+
+Dopo lo scontro con Alaric, i PG hanno un momento di respiro. Che abbiano vinto con il roleplay (i veterani si rivoltano) o con la forza, la scena si chiude con un epilogo breve:
+
+**Se i veterani si sono rivoltati:** il comandante dei veterani si avvicina ai PG e si inginocchia. Ringrazia per aver rivelato la corruzione di Alaric. Offre scorta fino alla Rocca Bianca e provviste per il viaggio di ritorno. Brother Thaddeus (se i PG lo hanno incontrato alla Rocca Bianca) li raggiunge e offre una benedizione di Tyr.
+
+**Se i PG hanno combattuto e vinto:** tra i veterani sopravvissuti, alcuni riconoscono la purezza dei PG. Si allontanano in silenzio, senza rancore. Il tempio è in pace.
+
+In ogni caso, Ormut (se lo spirito guida è con loro) si congeda:
+
+> "Il vostro cammino è solo all'inizio. Lo Scettro è un peso e una responsabilità. Ricordate le vostre promesse a Tyr. Il dio vi osserva, e non è l'unico."
+
+I PG possono riposare al tempio prima di mettersi in viaggio verso Baldur's Gate. Il viaggio di ritorno è senza incontri (la strada è sicura una volta superati i Monti di Eterna Neve in discesa).
+
+---
+
 ## Nemici
 
 | Luogo | Nemici | N. | CR | Difficoltà (4-5 PG lv9) |
@@ -386,7 +410,7 @@ Con lo Scettro in mano, i personaggi devono deciderne il destino:
 ## Note al master
 
 **Scalabilità:**
-- Party più piccolo (3 PG): ridurre i veterani nella battaglia finale a 10, ridurre gli Yeti a 2, rimuovere 2 cultisti alla Valle del Giudizio.
+- Party più piccolo (3 PG): ridurre i veterani nella battaglia finale a 10, ridurre gli Yeti a 2, rimuovere 2 veterani alla Valle del Giudizio.
 - Party più grande (6 PG): aumentare i veterani a 20, aggiungere uno Yeti, aumentare i PF di Alaric a 120.
 
 **Ritmo narrativo:** Il modulo alterna fasi di esplorazione e roleplay (Baldur's Gate, Silenza, Rocca Bianca, Erythale) a fasi di sfida ambientale (la scalata) e combattimento (Valle del Giudizio, Yeti, Roc, dungeon, battaglia finale). Il dungeon del tempio è più un percorso di prove morali che un dungeon tradizionale — i combattimenti sono evitabili o risolvibili con roleplay.
@@ -405,10 +429,4 @@ Con lo Scettro in mano, i personaggi devono deciderne il destino:
 
 ### La lore
 
-**La Caduta del Tempio di Lumina:** Lo Scettro di Tyr fu perduto durante la Caduta del Tempio di Lumina, un evento catastrofico avvenuto migliaia di anni fa. Durante un attacco da parte di una fazione di sacerdoti che si sospetta fosse sotto l'influsso di Dispater, il tempio principale dedicato a Tyr fu assediato. Nel caos della battaglia, un giovane sacerdote corrotto dalle promesse di potere di Dispater rubò lo Scettro e tentò di consegnarlo a Dispater. Tuttavia, il traditore fu fermato da Ormut, un incantatore che teletrasportò l'artefatto in una località sconosciuta per poi morire per mano dei traditori. Da allora, lo Scettro è rimasto nascosto, la sua posizione perduta nel tempo.
-
-**I Custodi dell'Equilibrio:** Un ordine dedicato a mantenere l'equilibrio tra bene e male nel mondo, incarnando i principi di giustizia e imparzialità promossi da Tyr. Storicamente incaricati di proteggere lo Scettro di Tyr, simbolo supremo di giustizia divina.
-
-**I segreti di Alaric:** Dietro la sua facciata di rettitudine, Alaric nasconde un desiderio di potere assoluto. Vuole utilizzare lo Scettro non solo per riportare la pace, ma per instaurare un ordine mondiale sotto il suo controllo. Ha scoperto antichi rituali che gli permetterebbero di sfruttare il potere dello Scettro per ascendere a uno stato semidivino, sostituendo Tyr e ridisegnando il mondo secondo la sua visione.
-
-**Dispater:** Non è puro, quindi non può recuperare lo Scettro da solo — lo ha scoperto negli anni e per questo deve mandare qualcun altro.
+Per la lore completa sulla Caduta del Tempio di Lumina, i Custodi dell'Equilibrio, i segreti di Alaric e il ruolo di Dispater, vedi il documento principale (sezione Lore e NPC principali).

@@ -8,9 +8,9 @@ Dopo aver riconsegnato lo Scettro all'altare di Tyr a Svoalbard (o dopo la distr
 
 Nel frattempo, a Orcastle le cose sono cambiate. La fuga dei capi attraverso il portale della Torre di Torth e la sconfitta di Malebranche hanno permesso ai prigionieri di ribellarsi. **Kreig Highlander** — ora **conte Wildforge** (ha ripreso il cognome di famiglia, abbandonando quello della banda) — ha preso il controllo della contea con **Miranda** e **Ruby** come vassalli, le vecchie rivalità messe da parte dalla necessità di ricostruire.
 
-**Frankie** e **Ombrascura**, separatisi dai PG dopo la fuga da Orcastle, sono rimasti nella contea per aiutare la ricostruzione. Hanno assistito alla disperazione di Malebranche e al suo rituale di evocazione di Zikle prima che fuggisse a Uluvin — è così che sanno della maledizione.
+**Frankie** e **Ombrascura**, separatisi dai PG dopo la fuga da Orcastle, sono rimasti nella contea per aiutare la ricostruzione. Nei mesi successivi, spinti dall'odio e dalla paura che tornasse, hanno rintracciato Malebranche seguendo le voci di un lord esiliato lungo la costa. Lo hanno trovato a Uluvin, nella Valle di Delymbir, e lo hanno tenuto sotto osservazione. Solo poche settimane fa Malebranche ha finalmente compiuto il rituale di evocazione di Zikle, e i due hanno assistito impotenti alla maledizione che ne è seguita. In quell'occasione Frankie è stato graffiato da un non morto risvegliato dal rituale e la ferita si è infettata: la maledizione lo sta consumando da allora.
 
-Passano settimane, forse mesi. I PG ricevono l'invito al matrimonio di **Tungsten** a Waterdeep e si mettono in viaggio lungo la Costa della Spada. È durante questo viaggio che la maledizione di Malebranche inizia a manifestarsi.
+Passano circa tre mesi dalla fuga di Malebranche da Orcastle. Il rituale è recente — di poche settimane — e i suoi effetti si stanno diffondendo solo ora. I PG ricevono l'invito al matrimonio di **Tungsten** a Waterdeep e si mettono in viaggio lungo la Costa della Spada. È durante questo viaggio che la maledizione di Malebranche inizia a manifestarsi.
 
 ---
 
@@ -30,12 +30,11 @@ La maledizione inizia a manifestarsi lungo il viaggio: i morti si rialzano ovunq
 
 ### La maledizione di Malebranche
 
-La maledizione ha quattro effetti:
+La maledizione ha tre effetti:
 
-1. Attorno ai PG, in un'area di 10 km, ogni creatura vivente subisce svantaggio ai tiri salvezza contro incantesimi necromantici. I non morti ricevono vantaggio sui tiri per colpire e contro scacciare non morti.
-2. Le creature che muoiono diventano automaticamente non morti dopo 1 round dalla morte (1d20: 19–20 ghoul, pari scheletro, dispari zombie), a meno che siano state uccise da un effetto radioso o da incantesimi specifici. Se uccise direttamente dai PG diventano **ghoul**. I non morti che sopravvivono un giorno acquisiscono a loro volta questo effetto su chi uccidono: il contagio si diffonde velocemente.
+1. Attorno ai PG, in un'area di 10 km, ogni creatura vivente subisce svantaggio ai tiri salvezza contro incantesimi necromantici. I non morti ricevono vantaggio sui tiri per colpire e contro l'essere scacciati.
+2. Le creature che muoiono diventano automaticamente non morti dopo 1 round dalla morte, a meno che siano state uccise da un effetto radioso o da incantesimi specifici. Le creature uccise direttamente dai PG si rialzano come **ghoul**; le altre creature che muoiono nell'area si rialzano secondo un tiro (1d20: 19–20 ghoul, pari scheletro, dispari zombie). I non morti che sopravvivono un giorno acquisiscono a loro volta questo effetto su chi uccidono: il contagio si diffonde velocemente.
 3. Qualunque effetto di cura o rigenerazione è dimezzato.
-4. I non morti ricevono vantaggio contro scacciare non morti.
 
 ### Indizi per la main quest
 
@@ -47,7 +46,7 @@ Gli indizi che guidano i PG verso la scoperta della maledizione e la sua risoluz
 
 ### Personaggi coinvolti
 
-- **Frankie e Ombrascura** — Fuggiti da Orcastle, hanno assistito al rituale di Malebranche. Si uniscono ai protagonisti per aiutarli a riparare al disastro. Ombrascura, chierico, ha scoperto che la sua benedizione funziona a malapena: i non morti hanno vantaggio contro scacciare non morti.
+- **Frankie e Ombrascura** — Fuggiti da Orcastle, hanno assistito al rituale di Malebranche. Si uniscono ai protagonisti per aiutarli a riparare al disastro. Ombrascura, chierico, ha scoperto che la sua benedizione funziona a malapena: i non morti hanno vantaggio contro scacciare non morti. Frankie è stato infettato dalla maledizione e sta morendo lentamente: ha al massimo due settimane. La sua guarigione dipende dal successo del rituale finale.
 - **Kreig Wildforge** — Salito al potere dopo la caduta di Malebranche, tenta di ricostruire la contea. Nutre un'inevitabile paura che il male possa tornare. Collabora fornendo rifugi e informazioni. **Miranda** e **Ruby** sono i suoi vassalli fidati.
 - **Zikle** — Morto ingannato e costretto a servire il suo carnefice. Il wraith risponde con riluttanza, ma è l'unico a conoscere la formula per spezzare la maledizione. Desidera vendetta e riscatto.
 - **Malebranche** — Assetato di pura distruzione, non cerca più il potere sul regno: vuole solo spazzare via chiunque gli abbia impedito di raggiungere i propri scopi.
@@ -110,6 +109,12 @@ Dopo tre incontri con morti che si rialzano, i PG dovrebbero iniziare a farsi be
 
 Poco dopo, nei pressi di **Leilon**, i PG incontrano **Frankie** e **Ombrascura**, fuggiti dal caos di Orcastle. Raccontano come Malebranche abbia assoggettato Zikle e posto in atto la sua vendetta. Stanno seguendo la traccia di non morti e sono giunti fin qui. I morti aumentavano lungo il cammino: raccontano di persone che dicono di nonni appena morti che si rialzavano dal letto attaccando la gente.
 
+**Frankie è malato.** Il barbaro che i PG ricordano forte e indomabile è visibilmente emaciato. Tossisce sangue scuro e le sue mani tremano. Ombrascura spiega: Frankie è stato graffiato da uno dei non morti risvegliati dalla maledizione settimane fa. La ferita non guarisce. Le cure divine di Ombrascura sono dimezzate dalla maledizione e rallentano il decorso, ma non lo fermano. Frankie non ha più di due settimane.
+
+> Frankie sorride, ma i suoi occhi tradiscono la paura: "Non è per me che sono qui. È per tutti quelli che verranno dopo. Ma se riuscite a farcela in fretta... non mi dispiacerebbe."
+
+*Nota al DM: Frankie morente è il picco emotivo del modulo. I PG lo conoscono dal Modulo 1 e hanno combattuto al suo fianco. La sua malattia rende la quest urgente e personale: non stanno più solo spezzando una maledizione astratta, stanno salvando un amico. Se il rituale finale riesce, Frankie guarisce. Se fallisce, Frankie muore entro l'inizio dell'epilogo (il matrimonio di Tungsten avrà un'ombra in più). Il DM può calibrare: se vuole un finale luminoso, Frankie guarisce e partecipa al matrimonio; se vuole un tono più grigio, Frankie muore poco prima della cerimonia.*
+
 ### Leilon
 
 Leilon è una piccola città mineraria tra Neverwinter e Waterdeep, che si estende fino al Mare dei Morti (chiamato così per le migliaia di elfi, nani e umani uccisi dall'invasione di un esercito di orchi). Alle spalle della cittadina incombono le Montagne della Spada abitate dai nani.
@@ -131,7 +136,7 @@ Dopo lo scontro possono trovare indizi che collegano la maledizione al nome di Z
 
 ### Ritorno a Orcastle — Contea di Wildforge
 
-Con le informazioni di Frankie, Ombrascura e del borgomastro Halassiter (che ha capito che c'è un contagio zombie in corso e che i PG ne sono in qualche modo responsabili), i PG si dirigono verso Orcastle, ora amministrata dal conte **Kreig Wildforge** con Miranda e Ruby come vassalli. Orcastle si trova poco a sud di Waterdeep.
+Con le informazioni di Frankie, Ombrascura e del borgomastro Halassiter (che ha capito che c'è un contagio zombie in corso e che i PG ne sono in qualche modo responsabili), i PG si dirigono verso Orcastle, ora amministrata dal conte **Kreig Wildforge** con Miranda e Ruby come vassalli. Orcastle si trova su un'isola a sud di Waterdeep; con la cupola caduta, la navigazione è ora possibile. Kreig manda una nave a prenderli al porto di Leilon (basta inviare un messaggio tramite Ombrascura, che conosce i contatti della contea).
 
 Da Kreig scoprono che Zikle, dopo aver creato la pergamena del giudizio per conto di Malebranche, è stato ucciso a tradimento anni prima. Il suo spettro (Wraith) si aggira inquieto in una cripta vicina a Orcastle. Per comunicare con lui, i PG devono rintracciare la sua tomba, compiere un rituale di evocazione e convincerlo a spiegare come bloccare la maledizione.
 
@@ -230,7 +235,7 @@ Davanti ai PG si manifestano tre spiriti delle loro vittime recenti — persone 
 
 > *"Sono nato nelle tenebre. Nessuno mi ha mai mostrato la luce. È giusto giudicare un uomo per il cammino che non ha mai potuto vedere?"*
 
-**Il Nobile Corrotto** — Un lord crudele che ha vessato la sua gente e finanziato riti proibiti (può essere **Othran Vorash**, il nemico sconfitto alla fine dello Scettro di Tyr). Si rivolge ai PG con un ghigno sprezzante:
+**Il Servitore Corrotto** — Un uomo di potere che ha calpestato gli altri e servito riti proibiti (può essere **Othran Vorash**, il warlock di Dispater sconfitto alla fine dello Scettro di Tyr). Si rivolge ai PG con un ghigno sprezzante:
 
 > *"Non mi pento di nulla. Ma ditemi, non mi avete forse ucciso per convenienza? Quanta giustizia c'era nelle vostre mani, e quanta vendetta?"*
 
@@ -262,10 +267,43 @@ Per decidere se stanno mentendo: o in base alle cose dette (ove possibile), oppu
 | Viaggio Santuario | Ghoul | 4 | 1 | — |
 | Santuario Sommerso | Stone Golem | 2 | 10 | DEADLY |
 | Santuario — Guardiano | Sword Wraith (Sir Aldric) | 1 | 8 | MEDIUM |
-| Scontro finale — Tomba Zikle | Malebranche (necromante) | 1 | 10-11 | DEADLY |
+| Scontro finale — Tomba Zikle | Malebranche (arcimago necromante) | 1 | 12 | DEADLY |
 | Scontro finale — Tomba Zikle | Wraith | 2 | 5 | — |
 | Scontro finale — Tomba Zikle | Ghast | 2 | 2 | — |
 | Scontro finale — Tomba Zikle | Skeleton | 5 | 1/4 | — |
+
+### Scontro finale — La tomba di Zikle
+
+I PG tornano alla tomba di Zikle con il Monile d'Oro per compiere il rituale. Ma Malebranche li ha seguiti.
+
+**Come Malebranche li trova:** Malebranche ha un legame necromantio con Zikle (lo ha evocato e soggiogato lui). Quando i PG evocano Zikle nella tomba per interrogarlo, Malebranche percepisce il disturbo e sa esattamente dove si trovano. Ha avuto il tempo di raggiungerli: Uluvin è nella stessa regione (Valle di Delymbir, a poche ore dalla tomba).
+
+**L'arrivo:** Quando i PG tornano alla tomba col Monile, Malebranche è già lì con i suoi non morti, schierato davanti all'ingresso. L'aria intorno alla cripta è gelida e puzza di morte. I non morti si agitano.
+
+> "Vi ho trovato. Lo sapevo che sareste tornati qui, come topi nella trappola. Zikle è mio, il Monile non vi servirà. Morirete, e i vostri cadaveri saranno i miei migliori servitori."
+
+**Schieramento nemico:**
+
+| nome | n. | PF | CA | attacco | note |
+|------|-----|----|----|---------|------|
+| Malebranche (arcimago necromante) | 1 | 99 | 15 | vedi scheda NPC | CR 12 |
+| Wraith | 2 | 67 | 13 | +6, 4d8+3 necrotici | CR 5, resistenze |
+| Ghast | 2 | 36 | 13 | +5, 2d8+3 morso | CR 2, Fetore |
+| Skeleton | 5 | 13 | 13 | +4, 1d6+2 arco corto | CR 1/4 |
+
+**Malebranche (arcimago necromante):** Usa lo stat block completo dalla scheda NPC_LordMalebranche (variante Arcimago necromante, CR 12, PF 99). L'evocazione di Zikle non lo ha potenziato meccanicamente: è la stessa creatura che i PG hanno affrontato al palazzo nel Modulo 1, ma questa volta combatte fino alla fine, disperato. Ha a disposizione le sue azioni leggendarie (evocazione scheletri, drenaggio vitale) e i non morti già schierati.
+
+**Tattiche:**
+- Round 1: Malebranche lancia *Cloudkill* o *Animare Morti* (rialzare cadaveri freschi nelle vicinanze). I wraith attaccano l'araldo o il guaritore.
+- Round 2-3: Malebranche usa *Blight* sugli avventurieri più deboli. Gli scheletri coprono con archi. Usa le azioni leggendarie per drenare vita e recuperare PF.
+- Sotto 40 PF: Malebranche tenta di fuggire con *Porta Dimensionale*. Se i PG lo bloccano (Contromalia, azioni preparate), è costretto a combattere fino alla morte.
+- Se Malebranche muore: i non morti da lui controllati (wraith, ghast, scheletri) perdono la guida e attaccano il bersaglio più vicino per 1d4 round, poi si dissolvono.
+
+**Condizioni di vittoria:** Malebranche deve essere sconfitto (ucciso o costretto alla fuga definitiva) prima di poter compiere il rituale. Se fugge con Dimension Door, la maledizione persiste ma si indebolisce (le cure non sono più dimezzate, i non morti smettono di rialzarsi). Il DM può decidere che il rituale funziona comunque, con la maledizione che si dissolve lentamente nell'arco di settimane.
+
+**Se Frankie è presente:** Frankie combatte al fianco dei PG nonostante la malattia (svantaggio a tutti i tiri per colpire, metà dei PF massimi). Se scende a 0 PF, è stabile ma incosciente. Se Malebranche viene sconfitto e il rituale riesce, Frankie si riprende.
+
+---
 
 ### Il rituale
 
@@ -291,6 +329,10 @@ Dopo il rituale Zikle appare:
 ### Epilogo — Il matrimonio di Tungsten
 
 Finalmente i PG possono raggiungere Waterdeep e partecipare al matrimonio di Tungsten. I festeggiamenti si tengono nella taverna ***All'orco che rutta*** (Tungsten ride tantissimo quando pronuncia il nome della locanda — la cosa lo diverte appassionatamente).
+
+**Frankie al matrimonio:**
+- **Se il rituale è riuscito:** Frankie è guarito. Arriva al matrimonio con il colore tornato in viso, abbraccia i PG e beve più di tutti. Un momento di gioia pura dopo la tensione del modulo.
+- **Se il rituale è fallito:** Frankie non c'è. Ombrascura arriva da solo, con lo sguardo basso. Se i PG chiedono, scuote la testa. "Non ce l'ha fatta. Due giorni fa." Il matrimonio prosegue ma con un'ombra. Tungsten, che non conosceva Frankie, nota la tristezza dei PG e chiede cosa sia successo. *Nota al DM: questo finale amaro è opzionale. Se il tono della campagna è stato leggero, far guarire Frankie anche con un rituale parzialmente riuscito.*
 
 Il matrimonio è una bella festa: si mangia, si beve, si danza. Tre eventi possono movimentare la serata:
 
