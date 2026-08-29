@@ -37,7 +37,7 @@
 # Fonti: Booker, Vogler, Propp, TV Tropes, S. John Ross, Hipsters & Dragons
 # File companion: tech/rules/narrative-stereotypes.md (versione formale con cross-reference)
 
-# INDICE: vedi narrative-stereotypes-index.md (228 voci)
+# INDICE: vedi narrative-stereotypes-index.md (230 voci)
 
 stereotipi:
 
@@ -6488,3 +6488,68 @@ stereotipi:
     puo_aver_bisogno_di: [Il Legame (affezione)]
     usato_in: [Da Povero a Ricco, La Vendetta, Sconfiggere il Mostro]
     vedi_anche: [Il Redento, La Casa Distrutta, Il Nemico Creato, Il Debito d'Onore, La Scelta Retroattiva]
+
+
+
+  - tipo: tecnica
+    nome: Il Comic Relief
+    nome_en: Comic Relief
+    nomi_alt: [Il Sollievo Comico, La Linea Comica, Comedic Relief, La Valvola di Sfogo, Il Respiro Comico]
+    descrizione: >
+      Un momento o un elemento di leggerezza inserito in una storia
+      prevalentemente seria o drammatica, per dare respiro tra i picchi di
+      tensione e rendere il dramma più forte per contrasto. Non tradisce il
+      tono drammatico: lo rinforza. Il comico e il tragico si potenziano a
+      vicenda. Può incarnarsi in un personaggio (l'NPC spiritoso), in una
+      situazione (una scena buffa tra due scene cupe) o in una singola battuta
+      che spezza un momento di tensione. Sotto la risata migliore c'è quasi
+      sempre un fondo di sincerità o di malinconia.
+    esempi:
+      - "Sam e i due hobbit — Il Signore degli Anelli (leggerezza nel viaggio cupo)"
+      - "Mercuzio — Romeo e Giulietta (comico finché muore, e la sua morte gira la tragedia)"
+      - "I becchini — Amleto (la scena comica prima del finale tragico)"
+      - "Groot e Rocket — Guardiani della Galassia (comico su fondo di perdita)"
+      - "Gimli — Il Signore degli Anelli film (le battute che alleggeriscono la guerra)"
+    uso_dnd: >
+      Anche nell'avventura più drammatica, prevedere una linea comica: un NPC
+      companion spiritoso, un oste buffo, un famiglio impertinente, una
+      situazione grottesca in una taverna. Dosaggio: nel dramma il comico è
+      sale, non pietanza (1-2 momenti per arco). Regola d'oro: ride il
+      personaggio, non la minaccia. Il comic relief non deve mai disinnescare
+      la posta drammatica né rendere ridicolo il villain (a meno che non sia
+      un villain comico per scelta). Ottimo prima di un picco drammatico
+      (vedi La Scena di Respiro nella grammatica) o subito dopo, per far
+      rifiatare i giocatori.
+    rischio: >
+      Troppo comico e il dramma non ha peso (vedi anti-pattern La Parodia
+      Totale). Comico nel momento sbagliato (durante la morte di un NPC amato,
+      durante il climax emotivo) e si rovina la scena. Il comic relief che
+      sminuisce la minaccia principale la rende innocua. Mai usarlo per
+      sabotare la tensione che si è costruita con fatica.
+    usato_in: [Tragedia, Sconfiggere il Mostro, La Cerca, Commedia]
+    vedi_anche: [Il Trickster, Il Cattivo Simpatico, La Coppia Litigiosa, La Finta Minaccia, Il Mentore Sboccato]
+
+  - tipo: situazione
+    nome: La Scena Comica
+    nome_en: The Comic Scene / Comic Interlude
+    nomi_alt: [L'Intermezzo Comico, La Gag, La Scena di Sollievo, Comic Beat]
+    descrizione: >
+      Una singola scena giocata per la leggerezza dentro una storia seria: un
+      matrimonio caotico, una rissa da taverna innocua, un negoziato che
+      degenera nel grottesco, un NPC che fraintende tutto. Ha una funzione di
+      ritmo (dare respiro) e di contrasto (rendere più cupo ciò che viene
+      dopo). È la forma "situazione" del Comic Relief.
+    esempi:
+      - "Il matrimonio all'Orco che Rutta — LoScettroDiTyr (rissa dal menu, lo zio ubriaco)"
+      - "La taverna di Brancaleone — le millanterie che finiscono in disastro"
+      - "L'osteria di Bree — Il Signore degli Anelli (prima che il tono si incupisca)"
+    uso_dnd: >
+      Inserire una scena comica come respiro tra due archi drammatici, o come
+      epilogo leggero dopo un climax pesante (il matrimonio dopo la battaglia).
+      Può contenere mini-conflitti a bassa posta (una rissa dove nessuno muore,
+      un dilemma sociale buffo). Funziona bene come chiusura di un modulo teso.
+    rischio: >
+      Se dura troppo diventa riempitivo. Se la posta cresce sul serio dentro
+      la scena comica, il tono si confonde. Tenerla breve e a bassa posta.
+    usato_in: [Tragedia, Commedia, Da Povero a Ricco]
+    vedi_anche: [Il Comic Relief, La Scena di Respiro, La Coppia Litigiosa]

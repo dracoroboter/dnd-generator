@@ -6,6 +6,19 @@
 # Il file narrative-stereotypes.yaml è il VOCABOLARIO (i mattoni).
 # Questo file è la GRAMMATICA (come si combinano).
 #
+# ------------------------------------------------------------
+# LIMITE FONDAMENTALE DI QUESTO STRUMENTO (leggere prima di usarlo):
+#   Questa grammatica, le metriche di stile (measure-prose) e la
+#   validazione dei CR misurano proprietà del TESTO, non dell'ESPERIENZA
+#   al tavolo. Ottimizzano la costruibilità e la coerenza di un documento,
+#   non garantiscono una buona sessione. Un modulo può rispettare ogni
+#   regola, superare ogni metrica, avere ogni CR bilanciato, e comunque
+#   non far scattare nulla nei giocatori. L'unico test vero di un'avventura
+#   è giocarla. Questi strumenti riducono gli errori evitabili e liberano
+#   attenzione per ciò che conta, ma non sostituiscono il giudizio del DM
+#   né il tavolo reale. Usarli come supporto, non come garanzia.
+# ------------------------------------------------------------
+#
 # Struttura:
 #
 #   regole_sequenza:
@@ -710,3 +723,290 @@ anti_pattern:
       Ogni NPC è una barzelletta, ogni incontro è una gag, nessuna
       conseguenza è permanente. Dopo 3 sessioni: "ma a che serve?"
     fonte: analisi Brancaleone
+
+
+
+# ============================================================
+# RICETTE DI SCENA (scene-patterns)
+# Mattoni CONCRETI e riutilizzabili per COSTRUIRE, non solo analizzare.
+# Le regole sopra sono diagnostiche ("cosa deve accadere"); queste sono
+# generative ("come si mette in scena"). Ogni ricetta è un template di
+# scena pronto da istanziare in qualsiasi avventura.
+#
+# IMPORTANTE - LE RICETTE SONO IMPALCATURA, NON ETICHETTE DA STAMPARE:
+#   Queste ricette sono lenti per costruire una scena, non nomi da
+#   scrivere nel prodotto finale. Quando istanzi una ricetta in un
+#   modulo, la ricetta DEVE SPARIRE dal testo consegnato: non scrivere
+#   "(Ricetta: La Scena del Contrasto)" nel modulo che va al DM. Scrivi
+#   la scena. Il pattern ha fatto il suo lavoro nel momento in cui la
+#   scena esiste; nominarlo nel prodotto è come lasciare i ponteggi su
+#   un edificio finito. Al massimo, annota quale ricetta hai usato in
+#   una nota di design separata (AdventureBook/PlanBook), mai nel modulo.
+# ============================================================
+
+ricette_di_scena:
+
+  - nome: La Scena del Contrasto
+    scopo: "Costruire ambiguità o orrore su un personaggio (spesso per Il Piedistallo Spezzato o l'Anti-Villain)."
+    ingredienti: [uno stesso NPC, due registri opposti, poco tempo tra i due]
+    ricetta: >
+      Mostra lo stesso NPC in due modi opposti a breve distanza: prima
+      caldo/umano/simpatico, poi freddo/crudele/terribile. Non spiegare il
+      contrasto: lascia che sia il giocatore a sentire il disagio. È la
+      stessa persona, e questo è l'orrore.
+    quando_usarla: "Villain-vittima, mentore che cadrà, alleato ambiguo, sovrano instabile."
+    esempio: "Dorian (Il Re Spezzato): lucido e spiritoso in una scena, poi ordina un'esecuzione senza battere ciglio nella successiva."
+    soddisfa: [Il Piedistallo Spezzato, Lo Specchio, Il Legame (affezione)]
+
+  - nome: La Scena del Prezzo Visibile
+    scopo: "Rendere concreta una minaccia astratta (una via ideologica, una maledizione, una guerra lontana)."
+    ingredienti: [un concetto astratto, una vittima con un volto, un dettaglio quotidiano]
+    ricetta: >
+      Non descrivere la conseguenza in astratto ("il regno soffre"). Mostra
+      UNA vittima concreta con un nome e un dettaglio umano: il fornaio
+      arrestato per una parola, il bambino giustiziato per un furto di pane.
+      Il particolare quotidiano fa più della statistica.
+    quando_usarla: "Per costruire l'odio verso gli EFFETTI di una forza, non verso una persona; per rendere leggibile una fazione."
+    esempio: "La Via che Sale (Il Re Spezzato): la deriva della via dominante mostrata attraverso una singola famiglia distrutta."
+    soddisfa: [La Costruzione dell'Odio, L'Escalation Emotiva sopra la Militare]
+
+  - nome: La Scena della Verità Frammentata
+    scopo: "Rivelare un mistero senza un unico infodump, rispettando la Regola dei Tre Indizi."
+    ingredienti: [una verità importante, tre fonti diverse, un costo per ciascuna]
+    ricetta: >
+      Spezza la verità in tre frammenti, ognuno ottenibile da una fonte
+      diversa (un documento, un testimone, un luogo). Ogni frammento costa
+      qualcosa (una domanda ben posta, un gesto di fiducia, un rischio).
+      Nessuna fonte dà tutto. I PG ricompongono il quadro.
+    quando_usarla: "Mystery, scoperta di una backstory, verità su un villain-vittima."
+    esempio: "La verità sul rituale di Dorian: frammenti da Lysia (testimone), dagli archivi Althariani (documento), dagli echi di Nerrok (luogo)."
+    soddisfa: [La Scoperta della Verità, Il Mistero, "La Regola dei Tre Indizi"]
+
+  - nome: La Scena del Ponte Emotivo
+    scopo: "Trasferire affetto verso un personaggio difficile da amare direttamente (un villain-vittima assente, un re distante)."
+    ingredienti: [un NPC amato dai PG, il suo amore per il personaggio difficile]
+    ricetta: >
+      Se i PG non possono legarsi direttamente a X (troppo distante, troppo
+      ambiguo), fai loro amare Y che ama X. L'affetto per Y si trasferisce a
+      X per contagio: se Y è disposto a soffrire per X, i PG cominciano a
+      chiedersi perché.
+    quando_usarla: "Villain-vittima distante, sovrano che i PG incontrano poco, entità impersonale."
+    esempio: "Gorim (Il Re Spezzato): la sua lealtà disperata verso Dorian trasferisce ai PG un legame con un re che vedono di rado."
+    soddisfa: [Il Legame (affezione), "costruzione del legame indiretto"]
+
+  - nome: La Scena della Scelta Senza Uscita Pulita
+    scopo: "Creare peso morale reale, evitare La Falsa Scelta."
+    ingredienti: [due o più opzioni, ognuna con un costo reale, nessuna gratuita]
+    ricetta: >
+      Presenta una scelta in cui ogni opzione ha un costo visibile e
+      permanente. Nessuna è "quella giusta". I PG devono rinunciare a
+      qualcosa qualunque cosa scelgano. Mostra la conseguenza dopo, senza
+      punire retroattivamente la scelta ("avevate scelto male"): entrambe le
+      strade erano legittime, entrambe costavano.
+    quando_usarla: "Dilemmi morali, finali a più esiti, climax di una tragedia."
+    esempio: "Il finale de Il Re Spezzato: ricomporre, far dominare una via, o uccidere. Ognuna salva e distrugge qualcosa di diverso."
+    soddisfa: [Il Dilemma del Carrello, La Scelta Significativa]
+    evita: [La Falsa Scelta]
+
+  - nome: La Scena di Respiro
+    scopo: "Dare ritmo, prevenire l'affaticamento emotivo, rendere i picchi più alti per contrasto."
+    ingredienti: [un momento tranquillo, un tocco umano, nessuna minaccia immediata]
+    ricetta: >
+      Tra due picchi drammatici, inserisci una scena senza minaccia: un
+      fuoco da campo, una taverna, una conversazione tra PG e NPC, un piccolo
+      rituale quotidiano. Serve a far respirare i giocatori e a rendere il
+      picco successivo più forte per contrasto. Non è tempo perso: è la
+      preparazione del colpo.
+    quando_usarla: "Sempre, in una campagna lunga, tra un climax e l'altro. Vedi pacing_campagna."
+    esempio: "Prima dell'Ora più Buia, una sera tranquilla con Gorim che racconta del vecchio Re: rende la caduta successiva devastante."
+    soddisfa: ["pacing", "contrasto emotivo"]
+
+  # --- Ricette di registro non drammatico ---
+  # Le ricette sopra servono il dramma. Queste servono altri toni, per non
+  # far derivare ogni avventura verso il tragico. Una storia comica o
+  # avventurosa ha bisogno delle sue scene-tipo quanto una tragedia.
+
+  - nome: La Scena Comica
+    scopo: "Alleggerire, dare respiro, rinforzare il dramma per contrasto (comic relief). Funziona sia in storie comiche sia dentro storie drammatiche."
+    ingredienti: [una posta bassa o nulla, un personaggio o una situazione buffa, un fondo di sincerità]
+    ricetta: >
+      Inserisci una scena giocata per la leggerezza: un NPC che fraintende
+      tutto, una rissa da taverna dove nessuno muore, un negoziato che
+      degenera nel grottesco, un compagno spiritoso che spezza la tensione.
+      Tienila breve e a bassa posta. Regola d'oro: ride il personaggio, non
+      la minaccia. Sotto la battuta migliore c'è un fondo di verità o
+      malinconia. Nel dramma è sale (1-2 per arco), non pietanza.
+    quando_usarla: "Come respiro tra due picchi, come epilogo leggero dopo un climax pesante, o come tono portante in una commedia."
+    esempio: "Il matrimonio di Tungsten (LoScettroDiTyr): rissa dal menu, lo zio ubriaco, l'ex fidanzato orco. Chiude una campagna cupa con un sorriso."
+    soddisfa: [Il Comic Relief, La Scena Comica, "contrasto tonale"]
+    evita: [La Parodia Totale]
+    nota: >
+      Se il comico disinnesca la posta drammatica (rende ridicolo il villain,
+      sminuisce una perdita), è un errore. Il comic relief accompagna il
+      dramma, non lo sostituisce.
+
+  - nome: La Scena della Meraviglia
+    scopo: "Suscitare stupore, wonder, il senso dell'ignoto meraviglioso. Registro avventuroso/fantastico, non drammatico."
+    ingredienti: [un luogo o un fenomeno che supera l'esperienza dei PG, tempo per contemplarlo, nessuna minaccia immediata]
+    ricetta: >
+      Presenta qualcosa di grande e bello che i PG non hanno mai visto: una
+      città sospesa, una foresta di cristallo, un drago benevolo, un cielo che
+      non è un cielo. Non trasformarlo subito in un incontro o in un pericolo.
+      Dai ai giocatori il tempo di guardare. La meraviglia è un tono, non un
+      ostacolo: paga in coinvolgimento, non in XP.
+    quando_usarla: "Ingresso in un nuovo mondo (Viaggio e Ritorno), scoperta di un luogo leggendario, ricompensa estetica dopo una fatica."
+    esempio: "Erythale, il piano etereo di luce e cristallo (LoScettroDiTyr): la meta della Cerca vista per la prima volta."
+    soddisfa: ["tono avventuroso", "Viaggio e Ritorno"]
+
+  - nome: La Scena di Tensione Esplorativa
+    scopo: "Creare inquietudine e attenzione durante l'esplorazione, senza combattimento. Registro esplorativo/horror leggero."
+    ingredienti: [un ambiente ostile o ignoto, segnali di pericolo non ancora concreti, una scelta di percorso]
+    ricetta: >
+      L'ambiente stesso è la minaccia latente: rumori, tracce, un silenzio
+      sbagliato, segni che qualcosa è passato di qui. Niente nemico ancora, ma
+      la sensazione che ci sia. I PG avanzano con cautela, fanno scelte di
+      percorso, gestiscono risorse (luce, rumore). La tensione viene
+      dall'attesa, non dallo scontro.
+    quando_usarla: "Dungeon crawl, esplorazione di rovine, viaggio in territorio ostile, horror."
+    esempio: "I tunnel instabili di Nerrok (Il Re Spezzato): gli echi, i crolli, il pianto lontano prima di qualsiasi nemico."
+    soddisfa: ["tono esplorativo", Il Male Sigillato, La Corsa Contro il Tempo]
+
+
+
+# ============================================================
+# PACING SU SCALA DI CAMPAGNA
+# Le regole_sequenza dicono "A prima di B". Questa sezione dice
+# "con quale RITMO" distribuire gli eventi su una campagna lunga
+# (molte sessioni). Per una one-shot conta poco; per 15-20+ sessioni
+# è ciò che separa una campagna che regge da una che si sgonfia.
+# ============================================================
+
+pacing_campagna:
+
+  principi:
+
+    - nome: Alternanza delle modalità di gioco
+      regola: >
+        Ogni sessione dovrebbe toccare almeno due delle tre modalità:
+        combattimento, esplorazione, roleplay/investigazione. Una sessione
+        di solo combattimento stanca; una di solo dialogo stanca in modo
+        diverso. Non far seguire due sessioni identiche nel registro.
+      quantificatore: quasi_sempre
+
+    - nome: Densità dei picchi emotivi
+      regola: >
+        Un picco emotivo forte (una morte, una rivelazione, un tradimento,
+        una scelta lacerante) ogni 2-4 sessioni. Troppo ravvicinati si
+        annullano a vicenda (assuefazione); troppo radi e la campagna si
+        sgonfia. Tra un picco e l'altro, almeno una Scena di Respiro.
+      quantificatore: spesso
+      nota: >
+        In un arco di ~20 sessioni (5 moduli densi), aspettati circa un picco
+        maggiore per modulo, più picchi minori. L'Ora più Buia è il picco
+        più basso ed è collocata poco prima del climax finale.
+
+    - nome: La curva, non la linea
+      regola: >
+        La tensione non deve salire in modo costante e monotono: sale e
+        scende, con la tendenza generale verso l'alto. Dopo ogni picco,
+        un calo controllato (respiro) prima della risalita. La linea piatta
+        ascendente stanca quanto quella piatta.
+      quantificatore: quasi_sempre
+      anti_pattern_collegato: L'Escalation Piatta
+
+    - nome: Semina lontana, raccolta vicina
+      regola: >
+        I Fucili di Čechov importanti vanno seminati con largo anticipo
+        (anche moduli prima) e raccolti vicino al climax. In una campagna
+        lunga, un elemento seminato nel modulo 1 che paga nel modulo 5 crea
+        un senso di disegno complessivo che premia i giocatori attenti.
+      quantificatore: spesso
+      esempio: "I simulacri dei figli seminati a Nerrok (M1) pagano col loro ritorno (M3-M4)."
+
+    - nome: Il livello segue il dramma, non viceversa
+      regola: >
+        La progressione meccanica (salita di livello) va agganciata agli
+        snodi narrativi, non al conteggio degli scontri. Un livello si guadagna
+        completando un modulo o superando una svolta, così la crescita di
+        potere accompagna la crescita della posta in gioco.
+      quantificatore: quasi_sempre
+      nota: Sistema milestone, coerente con content-rules del progetto.
+
+  scheletro_di_ritmo_per_modulo_denso:
+    nota: >
+      Traccia indicativa per un modulo denso (~4 sessioni). Non è una gabbia,
+      è un metronomo di riferimento.
+    fasi:
+      - fase: "Apertura"
+        contenuto: "Aggancio o strong start, ristabilire posta e tono. Una scena forte subito."
+      - fase: "Sviluppo"
+        contenuto: "Esplorazione/investigazione/viaggio, incontri di media intensità, semina indizi. Alternare modalità."
+      - fase: "Respiro"
+        contenuto: "Una Scena di Respiro prima del picco: legami, riflessione, quiete ingannevole."
+      - fase: "Picco"
+        contenuto: "Il picco emotivo o lo scontro maggiore del modulo. La rivelazione, la perdita, la scelta."
+      - fase: "Chiusura/aggancio"
+        contenuto: "Debriefing breve, conseguenze visibili, aggancio al modulo successivo (checkpoint narrativo)."
+
+# ============================================================
+# MECCANICA AL SERVIZIO DELLA NARRAZIONE
+# La grammatica tratta stereotipi narrativi, ma nel GDR il SISTEMA
+# (le regole, i numeri, le meccaniche custom) può rinforzare o
+# tradire il tema. Questa sezione dà principi su come una meccanica
+# di gioco sostiene la storia. Rilevante quando un'avventura ha
+# meccaniche custom (contatori morali, timer, risorse tematiche).
+# ============================================================
+
+meccanica_al_servizio_della_narrazione:
+
+  principi:
+
+    - nome: La meccanica esprime il tema
+      regola: >
+        Una meccanica custom dovrebbe rendere GIOCABILE il tema centrale.
+        Se il tema è "la corruzione morale", una meccanica che traccia le
+        scelte morali e le trasforma in conseguenze rende il tema tangibile.
+        La meccanica giusta fa sentire il tema, non solo raccontarlo.
+      esempio: >
+        Il Medaglione delle Tre Vie (Il Re Spezzato): ogni scelta morale dei
+        PG sposta un contatore che determina il destino del Re. Il tema
+        (la morale come forza che plasma il potere) diventa una meccanica.
+      rischio_se_violato: "Il tema resta a parole, i giocatori non lo sentono nelle loro scelte."
+
+    - nome: Conseguenze visibili, non numeri nascosti
+      regola: >
+        Un contatore o una risorsa tematica deve tradursi SEMPRE in eventi
+        visibili nel mondo, non restare un numero dietro lo schermo. Un punto
+        in più su un contatore = un cambiamento percepibile nella prossima
+        scena. Se i giocatori non vedono l'effetto, la meccanica non esiste
+        per loro.
+      esempio: "Un punto di Guardia in più = una guardia in più agli angoli, un arresto, un coprifuoco nella scena successiva."
+      rischio_se_violato: "La meccanica diventa contabilità sterile; i giocatori non collegano scelte e conseguenze."
+
+    - nome: La meccanica non toglie agency
+      regola: >
+        Una meccanica che influenza i PG (voci, corruzione, compulsioni) deve
+        INDURRE, mai OBBLIGARE. Il giocatore decide sempre. Le tentazioni
+        suggeriscono, i sussurri propongono, ma la scelta resta al tavolo.
+        Vincolo GDR: i PG sono dei giocatori.
+      esempio: "Le tre anime del Medaglione sussurrano e tentano, ma non comandano mai le azioni del PG portatore."
+      rischio_se_violato: "I giocatori si sentono railroadati, l'agency evapora, la scelta morale perde senso."
+
+    - nome: Semplicità sopra completezza
+      regola: >
+        Una meccanica custom deve stare in poche righe spiegabili al tavolo.
+        Se richiede una tabella di riferimento costante o un tracciamento
+        pesante, va semplificata: meglio una regola approssimativa che si usa
+        di una precisa che si abbandona. Preferire il giudizio a fine sessione
+        al tracciamento di ogni singola azione.
+      esempio: "Il contatore del Medaglione aggiornato a fine sessione per comportamento prevalente, non ad ogni azione."
+      rischio_se_violato: "Il DM smette di usare la meccanica perché è troppo onerosa; il tema che doveva sostenere svanisce."
+
+    - nome: La meccanica ha un prezzo tematico
+      regola: >
+        Un potere concesso da una meccanica custom dovrebbe avere un costo
+        coerente col tema. Il potere gratuito non crea dramma; il potere che
+        costa qualcosa di tematicamente rilevante sì (L'Anello al Dito,
+        Il Potere ha un Prezzo).
+      esempio: "Il bonus della via dominante del Medaglione porta con sé un malus e avvicina il PG alla personalità che sta rafforzando in Dorian."
+      rischio_se_violato: "La meccanica diventa un power-up neutro, scollegato dal dramma."

@@ -1,0 +1,713 @@
+# Analisi: Il Re Spezzato — Campagna D&D 5e (in draft)
+# Data: 2026-08-29
+# Esito: valutazione contro grammatica narrativa + raccomandazioni per arco lungo
+# Autore avventura: dracoroboter
+# Note: Campagna autoconclusiva (NON collegata a Lo Scettro di Tyr).
+#   Sequel drammatico de "L'Anello del Conte" (che è il prologo comico).
+#   Stato: DRAFT — esiste il documento principale, la meccanica del Medaglione,
+#   e 1 modulo su ~5-6 previsti. Questa è una valutazione PRE-scrittura:
+#   scompone la struttura esistente, la valida contro la grammatica, e produce
+#   raccomandazioni per costruire ~20 sessioni dense.
+#   Tipo: validazione + design guidance (non analisi di opera esistente).
+#   Vincolo GDR applicato: i PG non sono dell'autore. Gli archetipi si applicano
+#   agli NPC. Le tre anime del Medaglione sono un caso limite (vedi note).
+
+opera:
+  titolo: "Il Re Spezzato"
+  tipo: avventura_dnd_5e
+  epoca: 2026 (scrittura)
+  genere_dnd_compatibile: true
+  livelli: "lv7 → lv12"
+  moduli: "1 esistente + ~4-5 da sviluppare (moduli densi, pochi e corposi)"
+  sessioni_target: "~20"
+  tono: "dramma, dark fantasy medievale, tensione morale — contrasto voluto col tono comico de L'Anello del Conte"
+  note: >
+    Il cuore della campagna è il Medaglione delle Tre Vie: un artefatto che si
+    lega a un PG e fa sussurrare tre frammenti dell'anima di Re Dorian (Paladino,
+    Guardia, Pazzo). Le scelte morali dei PG spostano un contatore a tre poli.
+    Tre finali: ricomporre l'anima / lasciar dominare una via / uccidere il Re
+    immortale. Decisioni d'autore già prese: campagna autoconclusiva; 2-3 finali
+    parzialmente pilotati (convergenza, non sandbox puro); Dorian resta un
+    mistero che si svela lentamente; il ritorno dei tre figli morti è un'idea da
+    sfruttare; vincolo primario = SEMPLICITÀ.
+
+# ============================================================
+# STRUTTURA GLOBALE (attuale + implicita)
+# ============================================================
+
+struttura:
+  plot_principale: Tragedia
+  plot_secondari:
+    - La Cerca
+    - Sconfiggere il Mostro
+    - La Tentazione
+    - La Ribellione
+    - Rinascita
+  meta_plot: >
+    La Tragedia di un uomo giusto che, per amore del regno, si è distrutto —
+    e i PG sono chiamati a decidere come finisce la sua caduta. La posta emotiva
+    (chi è Dorian, cosa gli è successo, cosa merita) deve pesare più della posta
+    militare (il destino politico di Drakenhold). Il Medaglione trasforma la
+    campagna in un lungo Dilemma del Carrello distribuito: ogni scelta morale
+    dei PG è anche un voto sul destino del Re.
+
+  note_su_plot_principale: >
+    ATTENZIONE: il plot principale NON è "Sconfiggere il Mostro" — è "Tragedia".
+    Dorian è l'Anti-Villain / il Mostro-che-è-una-Persona. Trattarlo come un
+    Signore Oscuro da uccidere svuoterebbe l'intera premessa. Il documento lo
+    dice esplicitamente ("Dorian non è il cattivo"). La grammatica conferma:
+    Tragedia → Rinascita/Vendetta/Ribellione sono le transizioni naturali, e i
+    tre finali del Medaglione coprono esattamente queste tre uscite.
+
+  # ------------------------------------------------------------
+  # STRUTTURA ATTUALE (ciò che esiste: Modulo 1)
+  # ------------------------------------------------------------
+  archi:
+
+    - nome: "Modulo 1 — Le Miniere di Nerrok (ESISTE)"
+      tipo_modulo: dungeon crawl / esplorazione atmosferica / hook
+      plot_arco: [La Cerca, L'Esplorazione, Il Mistero]
+      escalation: "Recuperare un artefatto → il primo contatto con le tre anime"
+      posta_in_gioco: "Micro: il Medaglione. Macro (nascosta): il legame con l'anima spezzata del Re."
+
+      situazioni:
+        - La Cerca
+        - L'Esplorazione
+        - La Rivelazione Ambientale
+        - Il Registro dell'Apocalisse   # gli "echi" del rituale = log ambientale
+        - Il Male Sigillato              # ciò che è rimasto nella miniera
+        - La Fuga                        # skill challenge di uscita
+        - Il Colpo di Scena              # i simulacri dei tre figli
+        - Spalle al Muro                 # accettare/rifiutare le tre voci
+
+      personaggi:
+        - nome: Sir Gorim Vel
+          archetipo: [Il Messaggero, Il Companion Fedele, La Voce della Ragione]
+          funzione: >
+            Hook della campagna. Il suo cambiamento (dal comico dell'Anello del
+            Conte al serio del Re Spezzato) È il segnale del cambio di tono.
+            Servitore leale di Dorian, non conosce la verità sul rituale.
+          note: >
+            Casting eccellente. Gorim è già una "Vecchia Conoscenza" (Callback
+            dall'Anello del Conte) — il legame è PRE-costruito. Sfruttarlo:
+            è l'ancora umana verso Dorian.
+
+        - nome: Re Dorian Valemarch (assente, percepito)
+          archetipo: [L'Anti-Villain, Il Mostro è una Persona, Il Dio Indifferente-negato]
+          funzione: >
+            Il "Mostro" della Cerca è in realtà una vittima. Nel M1 è presente
+            solo come ECHI (la voce "Non c'era altra via"), sangue, simulacri.
+          note: >
+            Presenza per assenza. Il M1 semina il mistero senza mostrare Dorian.
+            Corretto: costruisce curiosità prima del Legame.
+
+        - nome: I Tre Figli (simulacri)
+          archetipo: [Il Fucile di Čechov (persone), L'Innocente]
+          funzione: >
+            Manifestazioni del senso di colpa di Dorian. Bloccano l'uscita.
+            Non combattibili — solo scacciabili via Medaglione.
+          note: >
+            SETUP CRUCIALE per l'arco lungo. Il loro ritorno (idea d'autore) è
+            già seminato qui. Vanno resi memorabili ORA perché il payoff colpisca.
+
+        - nome: Le Tre Anime (Paladino / Guardia / Pazzo)
+          archetipo: [L'Oggetto Senziente, Il Corruttore (×3), Il Benefattore Misterioso (×3)]
+          funzione: >
+            Non un singolo NPC: tre voci in un artefatto. Ognuna è insieme
+            tentatrice (Corruttore) e potenzialmente utile (Benefattore).
+          note: >
+            Caso limite del vincolo GDR: le tre anime NON sono PG, sono NPC
+            "indossati" da un PG. Il DM le controlla. Ma influenzano il PG
+            portatore — serve consenso del giocatore (L'Assegnazione del Ruolo).
+
+      tecniche:
+        - nome: In Medias Res / Strong Start
+          applicazione: "La convocazione di Gorim cambiato apre col tono già ribaltato."
+        - nome: Il Cambio di Genere
+          applicazione: >
+            Il passaggio commedia→dramma è il vero 'strong start' della campagna.
+            Il Gorim serio è il segnale diegetico del cambio di tono.
+        - nome: La Rivelazione Ambientale
+          applicazione: >
+            Gli echi (voce del Re, ombre dei figli, il pianto) raccontano la
+            tragedia SENZA esposizione. Show don't tell ben applicato.
+        - nome: Il Fucile di Čechov
+          applicazione: >
+            I tre simboli (spada/scudo/spirale), il sangue dei tre giovani, i
+            simulacri, la frase 'Non c'era altra via' — tutti setup per payoff.
+        - nome: L'Assegnazione del Ruolo
+          applicazione: >
+            Il Medaglione si lega a un PG (Metodo 2, in-game, con opt-out). La
+            scelta delle tre voci nell'Atto 3 assegna un embrione di ruolo morale.
+
+      relazioni:
+        - tipo: L'Oggetto Senziente
+          tra: [PG portatore, Le Tre Anime]
+          nota: "Il Medaglione è un NPC-a-tre-teste attaccato a un PG. Dinamica costante."
+        - tipo: La Vecchia Conoscenza
+          tra: [PG, Gorim]
+          nota: "Gorim torna dall'Anello del Conte cambiato — Callback + cambio di tono."
+
+  # ------------------------------------------------------------
+  # STRUTTURA IMPLICITA / DA SVILUPPARE (dal documento principale)
+  # ------------------------------------------------------------
+  archi_previsti_ma_non_scritti:
+    - "Viaggio verso Drakenhold (la capitale)"
+    - "Confronto con le fazioni del regno (chi sostiene quale anima?)"
+    - "Ricerca del modo per ricomporre / far dominare / uccidere Dorian"
+    - "Tre finali (equilibrio / dominio di una via / eliminazione del Re)"
+  nota_su_archi_previsti: >
+    Attualmente sono elenchi puntati, non moduli. È il vuoto che l'arco lungo
+    deve riempire. La sezione 'raccomandazioni_per_arco_lungo' propone una spina
+    dorsale di 5 moduli densi (~20 sessioni) che rispetta la grammatica.
+
+# ============================================================
+# PLOT DI BOOKER IN GIOCO
+# ============================================================
+
+plot_booker:
+  primario:
+    plot: Tragedia
+    giustificazione: >
+      Dorian ha un difetto fatale nobile (l'ossessione per il buon governo, la
+      hubris di voler trascendere la mortalità 'per il bene del popolo') che lo
+      ha portato alla rovina autoinflitta. La frattura dell'anima e l'uccisione
+      dei figli sono la caduta. I PG entrano nel terzo atto della Tragedia e ne
+      decidono l'esito. È il template di Macbeth/Anakin/Arthas visto DALL'ESTERNO.
+
+  secondari:
+    - plot: La Cerca
+      dove: "Cornice di ogni modulo (recuperare il Medaglione, poi cercare il modo di risolvere)."
+      nota: "La Cerca è il VEICOLO, non il cuore. Serve a dare struttura ai moduli densi."
+
+    - plot: Sconfiggere il Mostro
+      dove: "Solo nel finale 3 (uccidere il Re immortale) — e solo come USCITA, non come premessa."
+      nota: >
+        RISCHIO: se il DM lo tratta come plot principale, distrugge la Tragedia.
+        Va tenuto come una delle tre uscite possibili, la più 'grimdark'.
+
+    - plot: La Tentazione
+      dove: "Trasversale — il Medaglione è La Tentazione incarnata e permanente."
+      nota: "Le tre anime tentano il portatore per l'intera campagna (L'Anello al Dito)."
+
+    - plot: La Ribellione
+      dove: "Sfondo politico — se una via domina, il regno diventa oppressivo → fazioni ribelli."
+
+    - plot: Rinascita
+      dove: "Finale 1 (ricomporre l'anima) — Dorian potenzialmente redento/dissolto in pace."
+
+# ============================================================
+# VALIDAZIONE CONTRO LA GRAMMATICA NARRATIVA
+# ============================================================
+
+validazione:
+
+  regole_sequenza_rilevanti:
+
+    - regola: "Il Legame (affezione) → [Il Piedistallo Spezzato, Il Sacrificio Volontario, La Resa dei Conti emotiva]"
+      stato_attuale: NON ANCORA SODDISFATTA — RISCHIO ALTO
+      evidenza: >
+        Il finale della campagna (qualunque sia) DEVE colpire emotivamente. Ma
+        Dorian è attualmente un'astrazione: i PG non lo hanno mai incontrato,
+        non gli vogliono bene né male. Senza Legame verso Dorian (e/o verso i
+        tre figli, e/o verso il regno), i tre finali sono scelte tecniche, non
+        emotive.
+      azione_richiesta: >
+        Costruire il Legame con Dorian PRIMA del finale (min 2-3 sessioni di
+        'incontro' col Re nelle sue fasi lucide). Vedi raccomandazioni.
+
+    - regola: "La Costruzione dell'Odio → La Resa dei Conti"
+      stato_attuale: DA MANEGGIARE CON CAUTELA
+      evidenza: >
+        Regola pensata per un villain da odiare. Qui il 'villain' è vittima.
+        L'odio NON va costruito verso Dorian — va costruito verso ciò che le
+        tre vie FANNO quando dominano (la Grande Purificazione del Paladino, lo
+        stato di polizia della Guardia, l'anarchia del Pazzo). L'odio è verso
+        gli EFFETTI, non la persona.
+      azione_richiesta: >
+        Mostrare ON SCREEN le atrocità di ciascuna via dominante (vittime
+        concrete) così che il finale abbia peso morale. L'odio 'diffuso' verso
+        le tre derive sostituisce l'odio verso un BBEG.
+
+    - regola: "Il Fucile di Čechov → La Callback / La Scelta Retroattiva"
+      stato_attuale: BEN AVVIATA (M1)
+      evidenza: >
+        Simulacri dei figli, tre simboli, sangue, 'Non c'era altra via' sono
+        già piantati. Vanno raccolti: i figli devono TORNARE, i simboli devono
+        SIGNIFICARE, la frase deve essere spiegata.
+
+    - regola: "Il Presagio → Il Colpo di Scena"
+      stato_attuale: OPPORTUNITÀ
+      evidenza: >
+        Il mistero di Dorian (idea d'autore: svelarlo lentamente) È una lunga
+        catena di presagi verso la rivelazione della verità sul rituale e sui
+        figli. Va dosata su tutta la campagna (Regola dei Tre Indizi).
+
+    - regola: "Lo Specchio → La Terza Via"
+      stato_attuale: STRUTTURALMENTE CENTRALE
+      evidenza: >
+        Le tre anime sono TRE SPECCHI del portatore (giustizia rigida / ordine /
+        caos). Il finale 1 (ricomporre) è letteralmente 'La Terza Via' rispetto
+        al dilemma 'quale anima far vincere'. La grammatica dice: perché la
+        Terza Via funzioni, i PG devono aver VISTO cosa succede se una via vince.
+      azione_richiesta: >
+        Mostrare le conseguenze di ogni via dominante PRIMA del finale (anche
+        solo in visioni/anteprime), così che ricomporre l'anima sia una scelta
+        informata e non un reset comodo.
+
+    - regola: "L'Ora più Buia → La Resa dei Conti / I Rinforzi"
+      stato_attuale: DA PROGETTARE
+      evidenza: >
+        Manca (perché la campagna non è scritta). Va inserito un fondo emotivo
+        prima del climax: es. una via prende quasi il controllo e Drakenhold
+        precipita, o un figlio 'tornato' muore di nuovo, o Gorim cade.
+
+    - regola: "La Pietà (scelta morale costosa) → La Vittoria per Grazia"
+      stato_attuale: OPPORTUNITÀ FORTE
+      evidenza: >
+        La meccanica del Medaglione premia già le scelte di pietà (+P per
+        risparmiare, proteggere). Un finale 'per grazia' (ricomporre l'anima
+        grazie a un atto di compassione precedente dei PG) sarebbe coerente e
+        potente, ed eviterebbe il Deus Ex Machina.
+
+  regole_casting:
+
+    - situazione: "La Resa dei Conti (finale, qualunque via)"
+      personaggi: [Dorian (Anti-Villain / Mostro è una Persona)]
+      stato: COERENTE MA DELICATO
+      nota: >
+        L'Anti-Villain è compatibile con la Resa dei Conti (grammatica: sì).
+        MA il vero antagonista del climax non è Dorian-persona: è la VIA
+        DOMINANTE (astratta) o il senso di colpa incarnato. Il boss 'fisico'
+        può essere Dorian posseduto da una via, non Dorian lucido.
+
+    - situazione: "Il Dilemma del Carrello (l'intera campagna)"
+      personaggi: [Le Tre Anime (Anti-Villain ×3), Dorian]
+      stato: COERENTE
+      nota: >
+        Il dilemma richiede chi lo pone abbia ragioni comprensibili — e le tre
+        anime CE LE HANNO (giustizia, ordine, libertà sono tutti valori). Nessuna
+        è un Signore Oscuro puro. Casting corretto per un dilemma sostenuto.
+
+    - situazione: "L'Alleanza col Nemico (una via aiuta i PG)"
+      personaggi: [Il Pazzo (sa come uccidere Dorian), la Guardia, il Paladino]
+      stato: COERENTE
+      nota: >
+        Ogni via può diventare un Alleato Scomodo temporaneo. Il Pazzo che
+        rivela come uccidere l'immortale è un caso da manuale di Alleanza col
+        Nemico (aiuto reale, prezzo alto: rafforzarlo).
+
+    - situazione: "Le fazioni del regno (Stallo politico)"
+      personaggi: "DA DEFINIRE — devono essere Anti-Villain / Nemici Onorevoli, non Signori Oscuri"
+      stato: DA PROGETTARE
+      nota: >
+        Se le fazioni che sostengono le tre vie sono monodimensionali (i
+        'cattivi'), lo Stallo non funziona. Devono avere ragioni credibili.
+
+  anti_pattern_da_evitare:
+
+    - anti_pattern: "La Falsa Scelta (railroading morale mascherato)"
+      rischio: ALTO
+      perche: >
+        La meccanica del Medaglione (contatore a tre poli) è potente MA se il DM
+        pilota le scelte o se le tre vie convergono comunque allo stesso esito,
+        i PG capiscono che il loro voto morale è finto. Il vincolo d'autore
+        '2-3 finali parzialmente pilotati' è a un passo da questo anti-pattern.
+      fix: >
+        La convergenza va sui SNODI (tutti i percorsi passano per certi eventi),
+        NON sull'esito morale. I finali devono essere davvero diversi nelle
+        conseguenze visibili. Vedi 'convergenza_vs_sandbox' nelle raccomandazioni.
+
+    - anti_pattern: "Le Tre Vie troppo astratte"
+      rischio: ALTO
+      perche: >
+        'Giustizia / Ordine / Libertà' sono concetti. Se restano concetti, i PG
+        spostano numeri su un dado senza sentire il peso. Il rischio è un
+        contatore matematico senza carne narrativa.
+      fix: >
+        Dare a ogni via un VOLTO e VITTIME concrete. La Grande Purificazione =
+        un NPC amato arrestato per 'pensieri impuri'. Lo stato di polizia = un
+        bambino giustiziato per un furto di pane. L'anarchia = un villaggio che
+        i PG avevano salvato ora in fiamme. Le vie devono FARE cose ai PG.
+
+    - anti_pattern: "La Nemesi Scollegata"
+      rischio: MEDIO-ALTO
+      perche: >
+        Dorian rischia di restare 'un re in un castello che i PG non hanno mai
+        incontrato'. Se il finale è affrontarlo senza mai averlo conosciuto, è
+        una boss fight fredda, non una tragedia.
+      fix: >
+        Far incontrare Dorian ai PG più volte, in fasi diverse (lucido / Guardia /
+        Pazzo). Costruire il Legame con la PERSONA prima del confronto.
+
+    - anti_pattern: "Il Twist Gratuito (la verità sul rituale)"
+      rischio: MEDIO
+      perche: >
+        Se la verità su Dorian, i figli e il rituale esplode tutta insieme senza
+        semina, i PG si sentono informati, non sorpresi.
+      fix: >
+        Regola dei Tre Indizi distribuita: ogni modulo rivela un frammento della
+        verità (chi erano i figli / perché erano 'indegni' / com'è fallito il
+        rituale / chi portò il Medaglione a Nerrok).
+
+    - anti_pattern: "L'Escalation Piatta"
+      rischio: MEDIO
+      perche: >
+        Con moduli densi c'è il rischio che ogni modulo sia 'un'altra tappa
+        verso Drakenhold' con la stessa posta.
+      fix: >
+        Alzare la posta: M1 un artefatto → M2 una città → M3 una regione →
+        M4 il regno → M5 l'anima di un uomo. E la posta EMOTIVA cresce: prima
+        un NPC minore, poi Gorim, poi un figlio tornato, poi Dorian stesso.
+
+    - anti_pattern: "La Paranoia Totale"
+      rischio: BASSO-MEDIO
+      perche: >
+        Con un artefatto che sussurra e manipola, i PG potrebbero diventare
+        paranoici verso ogni NPC e verso il Medaglione stesso.
+      fix: >
+        Le tre anime a volte dicono il VERO. Alcuni NPC sono genuinamente
+        affidabili (Gorim su tutti). Il tradimento/inganno resta raro.
+
+    - anti_pattern: "Il Boss Anticlimactico"
+      rischio: MEDIO
+      perche: >
+        Un 'immortale' che si sconfigge con un tiro rischia l'anticlimax; un
+        immortale imbattibile rischia la frustrazione.
+      fix: >
+        Il climax non è HP: è una scelta morale + un rituale + fasi legate alle
+        tre vie. La 'sconfitta' di Dorian è la risoluzione della sua anima, non
+        un sacco di punti ferita.
+
+  catene_prerequisiti_rilevanti:
+
+    - catena: "L'Escalation Emotiva sopra la Militare"
+      rilevanza: CENTRALE
+      nota: >
+        Meta-regola perfetta per questa campagna. Il destino politico di
+        Drakenhold (militare) deve pesare MENO di 'chi è Dorian e cosa merita'
+        (emotiva). Il climax si vince con una scelta personale, non tattica.
+        Modello: SW Ep VI (salvare Vader > distruggere la Morte Nera).
+
+    - catena: "La Caduta dell'Idolo (Il Piedistallo Spezzato)"
+      rilevanza: ALTA
+      nota: >
+        Dorian 'il Giusto' è un idolo del regno. Scoprire cosa ha fatto (uccidere
+        i figli, il rituale) È il Piedistallo Spezzato — ma applicato a un
+        sovrano, non a un mentore dei PG. Serve prima costruire l'ammirazione
+        (il regno lo venera) per poi spezzarla.
+
+    - catena: "L'Oggetto che Corrompe"
+      rilevanza: ALTA
+      elementi: [Il Legame (oggetto), L'Anello al Dito, Il Dilemma del Carrello, Il Sacrificio Volontario]
+      nota: >
+        Il Medaglione È l'Anello al Dito: potere reale (bonus per via dominante)
+        a un prezzo crescente (le anime prendono voce, malus, manipolazione).
+        Manca il Legame (oggetto) iniziale: il portatore deve DESIDERARE il
+        Medaglione o guadagnarselo, non solo subirlo.
+
+    - catena: "La Scoperta della Verità"
+      rilevanza: ALTA
+      elementi: [La Falsa Pace, Il Mistero, La Pergamena, Il Colpo di Scena]
+      nota: >
+        La verità su Dorian è il mistero portante. La Pergamena (documenti,
+        diari, l'arcanista Althariano) è il veicolo diegetico per svelarla.
+
+    - catena: "Il Nemico Crescente"
+      rilevanza: RIADATTATA
+      nota: >
+        Non un nemico ma una VIA crescente. Man mano che una via si rafforza,
+        le sue derive diventano più visibili e minacciose (Il Presagio → gli
+        effetti → il quasi-dominio → il climax).
+
+# ============================================================
+# RACCOMANDAZIONI PER ARCO LUNGO (~20 sessioni, moduli densi)
+# ============================================================
+
+raccomandazioni_per_arco_lungo:
+
+  principi_guida:
+    - titolo: "La Tragedia comanda, non il Combattimento"
+      dettaglio: >
+        Il plot è Tragedia. Ogni modulo deve avvicinare i PG alla comprensione
+        di Dorian, non solo alla capitale. Il combattimento serve il dramma, non
+        viceversa. Se un modulo non aggiunge un pezzo alla domanda 'chi è Dorian
+        e cosa merita?', va ripensato.
+
+    - titolo: "Il contatore è narrativo prima che matematico"
+      dettaglio: >
+        I punteggi P/G/M sono utili ma il DM deve tradurli SEMPRE in eventi
+        visibili nel mondo. Un punto di Guardia in più non è un numero: è una
+        guardia in più agli angoli delle strade nella prossima scena.
+
+    - titolo: "Semplicità = pochi NPC forti, pochi luoghi memorabili"
+      dettaglio: >
+        Vincolo d'autore: SEMPLICE. Non 30 fazioni. 3 fazioni leggibili (una per
+        via) + Gorim + Dorian + i tre figli. Ogni volto conta. La complessità sta
+        nel dilemma morale, non nel numero di elementi.
+
+  spina_dorsale_proposta:
+    nota: >
+      Proposta di 5 moduli densi (~4 sessioni ciascuno = ~20 sessioni). NON è
+      l'arco definitivo (lo scriverà il narratore) — è uno scheletro che rispetta
+      la grammatica. lv7 → lv12.
+
+    - modulo: "M1 — Le Miniere di Nerrok (ESISTE)"
+      funzione_narrativa: "Hook + cambio di tono + il Medaglione + primo contatto anime"
+      plot: [La Cerca, Il Mistero]
+      posta: "Un artefatto"
+      grammatica: >
+        Strong start col Gorim cambiato. Semina i Fucili di Čechov (figli,
+        simboli, verità). Assegna il ruolo di portatore.
+      da_potenziare: >
+        Rendere i tre simulacri dei figli MEMORABILI (un dettaglio ciascuno: un
+        gesto, un oggetto, una frase incompleta) perché il loro ritorno paghi.
+        Aggiungere il Legame (oggetto): il portatore deve sentire il Medaglione
+        come 'suo', non solo come peso.
+
+    - modulo: "M2 — La Capitale (Drakenhold) e le tre facce del Re"
+      funzione_narrativa: "COSTRUIRE IL LEGAME CON DORIAN + introdurre le 3 fazioni"
+      plot: [Viaggio e Ritorno-negato, La Corte Decadente, Il Mistero]
+      posta: "Una città sull'orlo, e il primo incontro col Re"
+      grammatica: >
+        QUI si soddisfa la regola 'Il Legame prima del finale'. I PG incontrano
+        Dorian in almeno 2-3 fasi diverse: lucido e nobile (fanno amicizia con
+        la persona), poi Guardia (freddo, terribile), forse un lampo di Pazzo.
+        Il contrasto costruisce sia affetto sia orrore. Il Piedistallo Spezzato:
+        il regno lo venera → i PG scoprono la crepa.
+      da_progettare: >
+        Le 3 fazioni leggibili (vedi 'fazioni'). La Corte Decadente come
+        ambiente sociale, non solo combat.
+
+    - modulo: "M3 — Il Ritorno dei Figli (o del primo figlio)"
+      funzione_narrativa: "PAYOFF dei simulacri + rivelazione della verità sul rituale"
+      plot: [Il Ritorno Sbagliato, La Scoperta della Verità, Spalle al Muro]
+      posta: "Un figlio 'torna' — vittima o minaccia?"
+      grammatica: >
+        Payoff del Fucile di Čechov (M1). Il Ritorno Sbagliato: un figlio riemerge
+        (evocato dal Medaglione? dalla via dominante?) — ma non è com'era. I PG
+        scoprono PERCHÉ erano 'indegni' e PERCHÉ la Guardia li uccise. Colpo di
+        scena preparato (Regola dei Tre Indizi seminata in M1-M2). Ribalta la
+        lettura: forse i figli non erano così indegni, forse la Guardia sbagliò.
+      da_progettare: >
+        Definire i tre figli (nomi, personalità, 'indegnità'). Almeno uno torna
+        qui; gli altri possono tornare in M4 o come visioni. Il ritorno deve
+        CAMBIARE la relazione dei PG con Dorian (pietà o condanna).
+
+    - modulo: "M4 — La Via che Sale (la deriva e l'Ora più Buia)"
+      funzione_narrativa: "Mostrare le CONSEGUENZE di una via dominante + fondo emotivo"
+      plot: [La Ribellione o L'Apocalisse in Corso (secondo la via), L'Ora più Buia]
+      posta: "Una regione / il regno sotto la deriva della via più forte"
+      grammatica: >
+        Lo Specchio: i PG VEDONO cosa succede se una via vince (Purificazione /
+        stato di polizia / anarchia). Costruzione dell'Odio verso gli EFFETTI
+        (vittime concrete). L'Ora più Buia: un colpo devastante — Gorim cade, o
+        un figlio tornato muore di nuovo, o un luogo amato brucia. Questo fondo
+        rende il finale catartico.
+      da_progettare: >
+        Le conseguenze devono essere legate alla via col punteggio più alto (il
+        contatore diventa mondo). Prevedere varianti minori per ciascuna via.
+
+    - modulo: "M5 — L'Anima Spezzata (il climax e i tre finali)"
+      funzione_narrativa: "Resa dei Conti emotiva + convergenza pilotata sui 3 finali"
+      plot: [La Resa dei Conti, Il Dilemma del Carrello, Rinascita/Tragedia/Sconfiggere il Mostro]
+      posta: "L'anima di un uomo e il destino del regno"
+      grammatica: >
+        La Resa dei Conti NON è HP: è una scelta morale + un rituale a fasi. Il
+        Dilemma del Carrello finale (ricomporre / far dominare una via / uccidere).
+        La Terza Via (ricomporre) funziona SOLO se i PG hanno visto le alternative
+        (M4). La Vittoria per Grazia: se i PG hanno mostrato pietà, un atto
+        precedente può 'sbloccare' la ricomposizione (evita Deus Ex Machina).
+        Il Debriefing chiude: mostrare il regno risultante.
+
+  costruzione_del_legame_con_dorian:
+    obiettivo: "Perché il finale colpisca, i PG devono TENERE a Dorian (o odiarlo con cognizione)."
+    tecniche:
+      - "Incontrarlo di persona in M2, in fase LUCIDA: nobile, spiritoso, stanco. Farlo simpatico."
+      - "Mostrarlo poi in fase GUARDIA: lo stesso volto, freddo e crudele. Orrore del contrasto."
+      - "Un gesto umano privato: Dorian che guarda i ritratti dei figli, o parla nel sonno ('Non c'era altra via')."
+      - "Gorim come ponte emotivo: la sua lealtà disperata verso Dorian trasferisce affetto ai PG."
+      - "Il Medaglione stesso: le tre voci sono TUTTE Dorian. Conoscere le voci = conoscere lui."
+    regola_grammatica: "Il Legame (affezione) → Il Sacrificio Volontario / Il Piedistallo Spezzato / La Resa dei Conti emotiva."
+
+  uso_del_ritorno_dei_figli:
+    idea_autore: "Il ritorno dei tre figli morti è un'idea da sfruttare."
+    raccomandazioni:
+      - "Sono già seminati come simulacri in M1 (Fucile di Čechov). Renderli distinti ORA."
+      - "Ogni figlio incarna una lettura diversa della propria 'indegnità' (debolezza / ambizione / indifferenza) — e ognuno può essere rivalutato."
+      - "Il Ritorno Sbagliato (M3): tornano cambiati. Non sono i bambini innocenti — o forse sì, e la Guardia sbagliò."
+      - "I figli sono lo strumento per RIVALUTARE Dorian: se erano recuperabili, il rituale (e l'omicidio) fu un errore evitabile → tragedia più cupa."
+      - "Un figlio può diventare un Alleato Scomodo, un altro una Nemesi, un altro una vittima da salvare — varietà."
+      - "Il loro destino nel finale può essere legato alla via scelta (il Paladino li condanna ancora, il Pazzo li libera, la Guardia li nega)."
+    regola_grammatica: "Il Fucile di Čechov (persone) → La Callback / L'Agnizione Genealogica."
+
+  fazioni_leggibili:
+    principio: "3 fazioni, una per via, ciascuna con un volto e ragioni credibili (Anti-Villain, non Signori Oscuri)."
+    proposta:
+      - via: Paladino
+        fazione: "Un ordine religioso / inquisitoriale che vuole un regno moralmente puro."
+        volto: "Un leader carismatico e sincero (non ipocrita) — è ciò che lo rende pericoloso."
+        vittime_visibili: "Cittadini arrestati per 'pensieri impuri'. Un NPC amato tra loro."
+      - via: Guardia
+        fazione: "L'esercito / la guardia reale che vuole ordine e sicurezza assoluti."
+        volto: "Un comandante leale e competente che crede davvero che la durezza salvi vite."
+        vittime_visibili: "Esecuzioni sommarie, guerre 'preventive', dissenso represso."
+      - via: Pazzo
+        fazione: "Un movimento anarchico / mistico che vuole la dissoluzione del Re e del regno."
+        volto: "Un profeta del caos affascinante, non un pazzo da fumetto — libertà radicale."
+        vittime_visibili: "Istituzioni che crollano, infrastrutture abbandonate, il vuoto."
+    regola_grammatica: >
+      Casting Lo Stallo / L'Alleanza col Nemico: le fazioni devono poter
+      negoziare (Anti-Villain / Nemico Onorevole). Nessuna è puro male.
+    nota_semplicita: >
+      Tre fazioni bastano. Legarle 1:1 alle tre vie le rende immediatamente
+      leggibili: aiutare una fazione = spostare il contatore. Il giocatore
+      capisce la posta senza spiegazioni meccaniche.
+
+  convergenza_vs_sandbox:
+    obiettivo: "2-3 finali 'parzialmente pilotati' senza cadere ne La Falsa Scelta."
+    come_convergere_senza_railroad:
+      - "CONVERGENZA sui LUOGHI e SNODI, non sull'esito morale: tutti i percorsi passano per Drakenhold (M2), il ritorno di un figlio (M3), l'Ora più Buia (M4), il rituale finale (M5)."
+      - "DIVERGENZA sulle CONSEGUENZE: chi domina il contatore determina QUALE finale è disponibile e in che forma, ma tutti arrivano allo stesso climax fisico (l'anima di Dorian)."
+      - "Il finale è UN evento (il rituale/confronto) con 3 ESITI, non 3 avventure diverse. Questo mantiene la semplicità e riduce il lavoro d'autore."
+      - "Le VARIANTI MINORI (richieste dall'autore): quale figlio sopravvive, quale fazione governa dopo, se Gorim vive — dettagli che personalizzano senza moltiplicare i moduli."
+    quale_finale_e_disponibile:
+      - "Se il contatore è EQUILIBRATO (nessuna via >> altre): finale 1 (ricomporre) — La Terza Via, il più 'guadagnato'."
+      - "Se UNA via DOMINA: finale 2 (dominio) — con l'esito coerente alla via (Purificazione / Polizia / Anarchia)."
+      - "Se il Pazzo domina O i PG rifiutano entrambi: finale 3 (uccidere l'immortale) — Sconfiggere il Mostro come uscita grimdark."
+    regola_grammatica: >
+      La Scelta Significativa (conseguenze VISIBILI e permanenti) — DEVE essere
+      rispettata perché i finali non sembrino falsi. Il Debriefing mostra il
+      regno risultante in dettaglio: è il payoff del contatore.
+    anti_pattern_evitato: "La Falsa Scelta — evitata perché gli esiti sono davvero diversi nel mondo mostrato."
+
+  mantenere_la_semplicita:
+    - "Un solo artefatto centrale (il Medaglione) — già così, ottimo."
+    - "Tre fazioni, non di più. Una per via. Legatura 1:1 con il contatore."
+    - "Cinque moduli densi, non dieci moduli sottili. Ogni modulo un pezzo del mistero + una tappa fisica."
+    - "Il finale è un evento a tre esiti, non tre finali-avventura separati."
+    - "Pochi NPC forti: Gorim (ponte), Dorian (mistero), 3 figli, 3 volti-fazione. ~8 NPC per 20 sessioni."
+    - "La complessità vive nel DILEMMA MORALE, non nel numero di elementi mobili."
+
+# ============================================================
+# FEEDBACK PER L'AUTORE
+# ============================================================
+
+feedback_per_autore:
+
+  punti_di_forza:
+    - titolo: "Premessa tragica di prima qualità"
+      dettaglio: >
+        'Un uomo giusto che si distrugge per amore del regno' è una premessa
+        Booker-Tragedia forte e originale per un GDR. Il fatto che il villain
+        sia una vittima (Il Mostro è una Persona) è raro e potente. Il documento
+        lo protegge esplicitamente ('Dorian non è il cattivo') — cruciale.
+
+    - titolo: "Il Medaglione come motore morale"
+      dettaglio: >
+        Un artefatto che è insieme Oggetto Senziente, Tentazione permanente e
+        contatore delle scelte morali è un'idea meccanico-narrativa eccellente.
+        Trasforma ogni scelta dei PG in un voto sul destino del Re. Il legame
+        'una volta indossato non si toglie' è L'Anello al Dito da manuale.
+
+    - titolo: "Il cambio di tono via Gorim"
+      dettaglio: >
+        Usare la trasformazione di un NPC comico (Gorim) come segnale diegetico
+        del passaggio commedia→dramma è un tocco di classe. Il Legame con Gorim
+        è già costruito dall'Anello del Conte (Callback + Vecchia Conoscenza).
+
+    - titolo: "Modulo 1 ben strutturato"
+      dettaglio: >
+        Nerrok fa il suo lavoro: hook, atmosfera, semina dei Fucili di Čechov,
+        prima scelta morale (le tre voci). La Rivelazione Ambientale (gli echi)
+        è show-don't-tell corretto. La scelta dell'Atto 3 non è forzata.
+
+  aree_di_miglioramento:
+    - titolo: "Manca il Legame con Dorian (rischio finale freddo)"
+      priorita: ALTA
+      dettaglio: >
+        Attualmente Dorian è un'astrazione. Senza incontrarlo di persona (in fasi
+        diverse) prima del climax, i tre finali sono scelte tecniche. RACCOMANDO
+        di dedicare M2 all'incontro col Re. Vedi 'costruzione_del_legame_con_dorian'.
+
+    - titolo: "Le tre vie rischiano di restare astratte"
+      priorita: ALTA
+      dettaglio: >
+        Giustizia/Ordine/Libertà sono concetti. Vanno incarnati in fazioni con
+        volti e in VITTIME concrete. Il contatore deve tradursi in eventi
+        visibili nel mondo, non in numeri dietro lo schermo.
+
+    - titolo: "Rischio railroading morale (La Falsa Scelta)"
+      priorita: ALTA
+      dettaglio: >
+        Il '2-3 finali parzialmente pilotati' è a rischio se la convergenza tocca
+        l'esito morale. Convergere sugli SNODI FISICI, divergere sulle CONSEGUENZE.
+        Vedi 'convergenza_vs_sandbox'.
+
+    - titolo: "Il ritorno dei figli va progettato, non solo evocato"
+      priorita: MEDIA
+      dettaglio: >
+        Ottima idea, ma servono nomi, personalità e un ruolo narrativo per
+        ciascuno. I simulacri di M1 vanno resi distinti e memorabili ORA perché
+        il payoff (M3+) colpisca.
+
+    - titolo: "Serve un'Ora più Buia progettata"
+      priorita: MEDIA
+      dettaglio: >
+        Prima del climax serve un fondo emotivo (Gorim cade / un figlio muore di
+        nuovo / un luogo amato brucia). Senza fondo, la Resa dei Conti non ha
+        altezza.
+
+    - titolo: "Il finale 'uccidere l'immortale' non deve svuotare la Tragedia"
+      priorita: MEDIA
+      dettaglio: >
+        Sconfiggere il Mostro è una USCITA, non la premessa. Va tenuto come il
+        finale grimdark (via del Pazzo), non promosso a plot principale. Il boss
+        non è HP: è una risoluzione morale a fasi.
+
+  vincolo_gdr_note:
+    - titolo: "Il Medaglione e il consenso del giocatore"
+      dettaglio: >
+        Le tre anime influenzano il PG portatore. Questo tocca l'agency del
+        giocatore. Applicare L'Assegnazione del Ruolo: opt-out garantito, i
+        sussurri INDUCONO ma non OBBLIGANO. Le voci suggeriscono, il giocatore
+        decide sempre. La meccanica attuale (+punti per scelte, non per obblighi)
+        è già corretta — mantenerla.
+
+    - titolo: "Le fazioni sono NPC, i finali sono scelte dei PG"
+      dettaglio: >
+        L'autore controlla fazioni, Dorian, i figli (NPC). NON controlla come i
+        PG voteranno col contatore. Progettare tutti e tre gli esiti come
+        ugualmente 'validi' narrativamente — nessuno è la risposta 'giusta'.
+
+  valutazione_complessiva:
+    voto_potenziale: "8.5/10 se sviluppata rispettando le raccomandazioni"
+    voto_stato_attuale: "draft — 1 modulo su 5, meccanica solida, arco lungo da costruire"
+    nota: >
+      La premessa è tra le più forti del progetto: una Tragedia con villain-vittima
+      e un artefatto che trasforma la morale dei PG in destino del regno. Il
+      Modulo 1 è solido e semina bene. Il rischio principale è triplo e tutto
+      risolvibile: (1) finale freddo se manca il Legame con Dorian → dedicare M2
+      all'incontro col Re; (2) vie troppo astratte → incarnarle in fazioni e
+      vittime; (3) railroading morale → convergere sugli snodi, divergere sulle
+      conseguenze. Rispettando la meta-regola 'Escalation Emotiva sopra la
+      Militare' e la catena 'L'Oggetto che Corrompe', questa campagna può
+      raggiungere un climax catartico in ~20 sessioni mantenendo la semplicità.
+
+  transizioni_plot:
+    - da: "La Cerca (M1)"
+      a: "La Corte Decadente / Il Mistero (M2)"
+      valutazione: NATURALE
+      nota: "La Cerca porta a trovare → ciò che si trova (il Re) genera l'arco successivo."
+    - da: "Il Mistero (M2)"
+      a: "Il Ritorno Sbagliato / La Scoperta della Verità (M3)"
+      valutazione: NATURALE
+      nota: "Il mistero su Dorian culmina nel ritorno di un figlio e nella verità."
+    - da: "La Scoperta della Verità (M3)"
+      a: "La Ribellione / L'Apocalisse in Corso (M4)"
+      valutazione: NATURALE
+      nota: "Conosciuta la verità e vista la deriva di una via, la posta sale al regno."
+    - da: "L'Ora più Buia (M4)"
+      a: "La Resa dei Conti / Rinascita-Tragedia-Sconfiggere il Mostro (M5)"
+      valutazione: NATURALE
+      nota: "Grammatica: Tragedia → Rinascita/Vendetta/Ribellione. I tre finali coprono le uscite."

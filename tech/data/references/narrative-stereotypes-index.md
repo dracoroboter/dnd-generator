@@ -1,4 +1,4 @@
-# Indice Stereotipi Narrativi (228 voci)
+# Indice Stereotipi Narrativi (230 voci)
 
 Indice del database `narrative-stereotypes.yaml`.
 `*` = sottocaso di un altro stereotipo (vedi campo `sottocaso_di`).
@@ -13,7 +13,7 @@ Rinascita | La Vendetta | La Rivalità |
 La Tentazione (La Discesa) | La Ribellione | Il Viaggio dell'Esilio |
 L'Indagine sulla Cospirazione | La Picaresca (Il Viaggio del Mascalzone)
 
-## SITUAZIONI (111)
+## SITUAZIONI (112)
 
 Il Colpo di Scena (La Rivelazione) | L'Agnizione* | Il Falso Antagonista* |
 Il Tradimento dell'Alleato* | Il MacGuffin | La Profezia |
@@ -51,7 +51,8 @@ La Quarantena (Il Lockdown) | Il Dilemma del Carrello (La Scelta Impossibile) | 
 La Mutazione (Il Contagio Trasformante) | La Resa dei Conti (Il Boss Fight) | Lo Scambio (La Trattativa Rischiosa) |
 L'Ultimatum (La Richiesta Non Negoziabile) | La Consegna (Il Corriere) | Il Porto Sicuro (Il Falso Rifugio)* |
 La Trappola Evidente (La Bocca del Lupo) | L'Agnizione Genealogica (Il Legame di Sangue)* | La Vittoria per Grazia (L'Eucatastrophe) |
-La Distrazione Eroica (Il Sacrificio Tattico) | La Millanteria (L'Eroe di Cartone) | La Vittoria Accidentale (Il Successo Immeritato)
+La Distrazione Eroica (Il Sacrificio Tattico) | La Millanteria (L'Eroe di Cartone) | La Vittoria Accidentale (Il Successo Immeritato) |
+La Scena Comica
 
 ## PERSONAGGI (40)
 
@@ -80,7 +81,7 @@ Il Maestro e l'Allievo (Opposti) | L'Eredità Pesante | Il Nemico Creato |
 Il Rivale Rispettoso che Diventa Alleato* | La Fiducia Tradita (Il Pugnale nella Schiena)* | La Coppia Forzata (Il Buddy Cop)* |
 Il Maestro Caduto (Il Mentore Corrotto)*
 
-## TECNICHE (44)
+## TECNICHE (45)
 
 Il Legame (Costruzione dell'Investimento Emotivo) | La Costruzione dell'Odio (Il Villain Odiabile) | Il Fucile di Čechov |
 La Regola dei Tre Indizi | Il Presagio (Foreshadowing) | L'Ironia Drammatica |
@@ -96,4 +97,4 @@ La Campagna a Spirale | La Sorveglianza (Osservare senza Agire) | L'Addestrament
 Il Terreno come Arma (La Mappa Tattica) | Il Flashback (La Rivelazione del Passato) | Il Flash Forward (L'Anticipazione del Futuro) |
 Il Cliffhanger (La Sospensione) | Il Red Herring (La Falsa Pista) | La Rivelazione Ambientale (Lo Show Don't Tell) |
 L'Escalation (Il Crescendo della Posta) | La Callback (Il Richiamo) | La Scelta Significativa (Le Conseguenze Permanenti) |
-Lo Splitting Narrativo (La Campagna Intrecciata)* | La Colpa Fondativa (L'Errore che Crea l'Eroe)
+Lo Splitting Narrativo (La Campagna Intrecciata)* | La Colpa Fondativa (L'Errore che Crea l'Eroe) | Il Comic Relief

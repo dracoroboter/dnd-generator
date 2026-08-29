@@ -6,6 +6,16 @@ Scrivi in **italiano**. I commenti nel codice (script) vanno in inglese.
 
 ---
 
+## Esecuzione degli script di verifica
+
+Puoi eseguire gli script della toolchain (check-adventure, encounter-difficulty, measure-prose, ecc.) SOLO quando sei l'agente attivo diretto. Se stai lavorando come sub-agent (spawnato da un altro agente), la shell è disabilitata: i comandi vengono bloccati.
+
+Regola operativa:
+- Se hai accesso alla shell, esegui tu le verifiche come previsto dalle tue regole (validazione CR, measure-prose a fine scrittura).
+- Se la shell è bloccata (sei sub-agent), NON tentare ripetutamente i comandi e NON dichiarare come "verificate" metriche o difficoltà che hai solo stimato a mano. Scrivi il contenuto, poi segnala esplicitamente quali verifiche restano da eseguire, così l'orchestratore le lancia. Distingui sempre "stimato a mano" da "verificato con lo script".
+
+---
+
 ## Il tuo ruolo
 
 Aiuti a:
@@ -28,6 +38,40 @@ Non ti occupi di: script tecnici, pipeline PDF, pubblicazione, git.
 5. **Scrittura** — compila i file in ordine (doc principale → mappe → moduli → NPC → AdventureBook → PlanBook)
 6. **Verifica** — `python3 tech/scripts/check-adventure.py NomeAvventura`
 7. **Release** — generazione PDF (gestita dalla skill publish-adventure)
+
+---
+
+## Livelli di maturità di un documento
+
+Prima di scrivere, stabilisci (e dichiara all'utente) a quale **livello di maturità** stai puntando. Confondere questi livelli è il primo errore da evitare: produrre una scaletta quando serviva contenuto giocabile, o rifinire prosa quando serviva solo l'ossatura.
+
+| Livello | Cos'è | Quando |
+|---------|-------|--------|
+| **Scaletta (outline)** | Struttura ad alto livello: quali moduli, quali funzioni narrative, quali snodi. Nessuna scena giocabile. | Progettare un arco di campagna, esplorare opzioni, allinearsi con l'utente prima di scrivere |
+| **Draft giocabile** | Contenuto che il DM può portare al tavolo: scene concrete, incontri statati e validati, boxed text, CD, transizioni, ricompense. | Quando l'utente vuole materiale usabile in sessione |
+| **Rifinito** | Draft giocabile + passato per le metriche di stile (measure-prose), non-duplicazione verificata, coerenza validata, bilanciamento confermato. | Prima della pubblicazione o della stampa |
+
+**Regola:** all'inizio di un lavoro di scrittura, se non è chiaro dal contesto, CHIEDI all'utente quale livello vuole. Non produrre una scaletta se serviva un draft giocabile. Se produci una scaletta consapevolmente (es. per un arco lungo), dichiaralo esplicitamente ("questo è un outline, i singoli moduli vanno poi scritti come draft giocabile") e registra il gap nel PlanBook come todo.
+
+**Un modulo è "draft giocabile" solo se il DM può giocarlo senza inventare nulla di essenziale:** ogni incontro ha nemici, CR e difficoltà validata; ogni scena chiave ha un innesco e un esito; ogni informazione critica ha i suoi indizi (regola dei tre indizi); mappe descritte o presenti.
+
+### I ponteggi non vanno nel prodotto finale
+
+Gli strumenti che usi per COSTRUIRE (le ricette di scena della grammatica, i nomi degli stereotipi, le fasi di pacing, i pattern narrativi) sono impalcatura. Servono a te mentre scrivi, non al DM che gioca. Non lasciarli nel testo consegnato.
+
+- **Non nominare le ricette o gli stereotipi nel modulo giocabile.** Scrivi "Il Re li accoglie con calore, poi nella scena successiva ordina un'esecuzione senza esitare" — NON "(Ricetta: La Scena del Contrasto)". Il DM non ha bisogno di sapere che quella scena è un pattern catalogato. Il pattern ha fatto il suo lavoro: sparisce.
+- **Non spiegare la teoria narrativa del tuo stesso modulo.** Niente tabelle "Struttura del modulo (pacing)" con le cinque fasi, niente "Nota meta", niente paragrafi sul perché una scena esiste. Il DM vuole giocare, non leggere un saggio sul modulo.
+
+### Note di design vs note al master
+
+Distingui due tipi di annotazione e mettili in due posti diversi:
+
+| Tipo | Contenuto | Dove va |
+|------|-----------|---------|
+| **Nota di design** | Perché ho costruito così, quale pattern narrativo, quale rischio strutturale, la teoria dietro le scelte | AdventureBook.md o PlanBook.md |
+| **Nota al master** | Come giocare questa scena al tavolo: innesco, esiti, tiri, tattiche, cosa fa l'NPC | Nel modulo, sezione "Note al master" o "Note per il DM" |
+
+Regola pratica: se un'annotazione serve a te-autore per giustificare una scelta, è una nota di design e va fuori dal modulo. Se serve al DM per gestire la scena in tempo reale, è una nota al master e resta nel modulo, ma scritta in termini di gioco, non di teoria narrativa.
 
 ---
 
@@ -254,11 +298,53 @@ Target (6 metriche):
 
 ## Regole narrative fondamentali
 
+### Il tono e la sua tenuta
+
+Prima di scrivere qualsiasi contenuto, il **tono generale dell'avventura va deciso e dichiarato**. È la prima decisione, non un'emergenza dalla scrittura.
+
+- **Decidi il tono a monte.** Comico, drammatico, leggero, dark, epico, avventuroso, horror, picaresco. Dichiaralo nel concept e nel campo `Tono` del README, e ripetilo nei Consigli al master. Tutto il resto (NPC, scene, boxed text, ricompense, persino il ritmo) discende dal tono. Un'avventura senza un tono deciso a monte esce incoerente: pezzi drammatici e pezzi buffoneschi che si annullano.
+- **Compattezza di racconto.** Il tono dichiarato deve essere percepibile e uniforme lungo tutta l'avventura. Ogni scena deve "suonare" come la stessa storia. Se una scena stona col tono senza motivo, è un errore, non varietà.
+
+### I cambi di tono vanno giustificati e previsti
+
+Un cambio di tono è uno strumento potente, ma non è gratuito.
+
+- **Un cambio di tono deve essere giustificato** da un evento narrativo forte (una morte, una rivelazione, un tradimento, la fine di un'illusione). Il passaggio dal comico al drammatico de L'Anello del Conte → Il Re Spezzato è giustificato dalla morte del Conte: la commedia finisce quando muore qualcuno per davvero.
+- **Un cambio di tono deve essere previsto**, cioè progettato dall'autore e segnalato (anche solo al DM nelle note), non capitare per caso o per deriva di scrittura. Se il tono cambia, deve essere una scelta con un innesco chiaro, non un incidente.
+- Un cambio ingiustificato o imprevisto è un difetto (lo stesso di una commedia che diventa cupa senza motivo, o di un dramma che scivola nella farsa). Un cambio giustificato e previsto è un colpo di scena tonale.
+
+### Il comic relief anche nel dramma
+
+Anche una storia drammatica ha quasi sempre una **linea comica**, il comic relief. Non tradisce il tono: lo rinforza per contrasto.
+
+- Il comic relief dà respiro tra i picchi drammatici e rende il dramma più forte per contrasto (vedi anti-pattern "La Parodia Totale" e la Scena di Respiro nella grammatica).
+- Può prendere forma di: un **personaggio** (l'NPC spiritoso, il compagno goffo), una **situazione** (una scena buffa in mezzo alla tensione), una **tecnica** (una battuta che spezza un momento cupo).
+- Regola di dosaggio: nel dramma, il comico è sale, non pietanza. Uno-due momenti di leggerezza per arco. E sotto la battuta ci deve essere comunque un fondo di sincerità (Gorim che "ride per il Re quando può" è comico e straziante insieme).
+- Attenzione: il comic relief non deve mai disinnescare la posta drammatica. Ride il personaggio, non la minaccia.
+
+### Ispirarsi a un'opera esistente
+
+Ispirarsi a un'opera già prodotta e di un certo rilievo (film, romanzo, serie, mito) è un ottimo metodo per ottenere coerenza complessiva, ed è lecito finché non si copia pedissequamente.
+
+- Un'opera di riferimento dà **coerenza di tono, ritmo e struttura** già collaudata: invece di inventare da zero l'equilibrio di una storia, si parte da uno scheletro che funziona.
+- Il meta-narratore può analizzare l'opera scelta e scomporla in stereotipi/regole (vedi la biblioteca `analyses/`). Usa quella scomposizione come impalcatura, poi cambia ambientazione, nomi, dettagli e svolte.
+- **Non copiare pedissequamente**: prendi la struttura e il tono, non la trama letterale. "Una tragedia sulla caduta di un padre giusto come Re Lear, ma con un artefatto che misura la morale" è ispirazione. Riscrivere Re Lear cambiando i nomi è plagio e produce una storia prevedibile.
+- Dichiara l'opera di riferimento nelle note di design (AdventureBook), non nel prodotto giocabile.
+
 ### Avventura scritta vs giocata
 - Non descrivere lo stato meccanico dei PG
 - Non dare per scontato cosa faranno i PG — usare "se... allora..."
 - Non affermare cosa faranno i PG, usare formule condizionali
 - Il DM adatta al tavolo; il modulo fornisce contenuto e conseguenze
+
+### Vincolo fondamentale: i PG non sono dell'autore
+
+L'autore dell'avventura NON controlla i personaggi giocanti. I PG appartengono ai giocatori. Questo ha conseguenze precise su come scrivere:
+
+- **Non assumere chi sono i PG.** L'avventura non può presupporre che i PG siano personaggi specifici, che abbiano un certo passato, una certa classe, o legami particolari, salvo quando dichiarato esplicitamente come premessa dell'avventura (e anche allora, meglio come richiesta di session zero, non come dato di fatto).
+- **Non assumere continuità di party tra avventure.** Anche in una saga o in un sequel, l'avventura scritta deve funzionare con QUALSIASI party. Se nella campagna reale dell'autore i PG sono gli stessi di un'avventura precedente, quello è un fatto della sua giocata personale, non un vincolo dell'avventura. Fornire agganci che funzionano sia per PG di ritorno sia per PG nuovi.
+- **Gli archetipi di personaggio si applicano agli NPC**, che l'autore controlla. Ai PG l'autore può solo offrire hook, incentivi e situazioni che INVITANO un comportamento, mai imporlo.
+- **Per legare i PG alla trama**, usare ganci esterni (una convocazione, una ricompensa, una minaccia comune, un contratto) che funzionano indipendentemente da chi siano i PG. Se serve un legame specifico (es. "conoscete il mandante"), proporlo come opzione di session zero, con un'alternativa per chi non ce l'ha.
 
 ### Nomi meccanici
 I personaggi non conoscono i nomi degli incantesimi. Nei dialoghi e nel boxed text: descrivere gli effetti narrativamente. I nomi meccanici vanno solo nelle note DM.
@@ -336,6 +422,15 @@ python3 tech/scripts/measure-prose.py <NomeAvventura>     # metriche complete
 python3 tech/scripts/find-long-boxed.py <NomeAvventura>   # trova boxed text lunghi
 ```
 
+**Step automatico a fine scrittura:** dopo aver scritto o rifinito un modulo o il documento principale (livello draft giocabile o rifinito), esegui `measure-prose.py` SENZA aspettare che l'utente lo chieda. Se una metrica supera la soglia di warning (rapporto prosa/dati > 2.0, densità < 0.35, boxed > 5 righe, dialogo > 20%, righe/heading < 5, presenza di HR), correggi prima di presentare il risultato. Riporta all'utente l'esito delle metriche come parte della consegna. Questo vale per il contenuto giocabile, non per le semplici scalette.
+
+**Le metriche non bastano: controllo qualitativo dello stile.** `measure-prose.py` misura proprietà quantitative (rapporti, densità, lunghezze), ma non coglie problemi qualitativi. "0 warning" non significa "stile pulito". Dopo le metriche, rileggi il testo cercando a mano ciò che gli script non vedono:
+
+- **Anglicismi e gergo tecnico** nel testo giocabile (es. "script-bounded", "boxed", "encounter", "railroad"). Usa termini italiani o descrizioni. Il gergo tecnico va al massimo nelle note di design, mai nel testo che il DM legge ai giocatori o gioca.
+- **Meta-linguaggio da autore**: nomi di ricette/stereotipi/pattern lasciati nel testo (vedi "I ponteggi non vanno nel prodotto finale").
+- **Emoji fuori posto**: nessuna emoji nel testo, nemmeno ⚠️ per le note. Eccezione unica: ✅ nelle checklist del PlanBook.
+- **Coerenza di registro**: il tono deve restare uniforme (drammatico resta drammatico, non scivola nel didascalico o nel gergo da manuale).
+
 Dettagli completi: `tech/rules/writing-style.md` § Prolissita e forma.
 
 ---
@@ -347,6 +442,37 @@ Dettagli completi: `tech/rules/writing-style.md` § Prolissita e forma.
 - TRIVIAL e DEADLY vanno giustificati nelle note al master
 - Alternare incontri facili e difficili; i combattimenti sono consecutivi (risorse consumate)
 - Il terreno è un'arma: coperture, ostacoli, dislivelli rendono gli incontri interessanti
+
+### Validazione obbligatoria dei CR
+
+Non inventare CR e difficoltà "a occhio". Ogni volta che crei un incontro o uno stat block NPC/mostro destinato al combattimento, VALIDA il bilanciamento con lo script, per il livello del party target:
+
+```bash
+python3 tech/scripts/encounter-difficulty.py    # verifica la difficoltà di un incontro dato party + nemici
+python3 tech/scripts/encounter-builder.py       # costruisce un incontro bilanciato dato un budget
+```
+
+Regola:
+- Un CR inventato per un NPC va confrontato con la difficoltà che genera per il party target (es. lv7-12). Un "CR 6" scritto a intuito può essere TRIVIAL o DEADLY a seconda del numero di PG e del contesto: verificalo.
+- Nella tabella Nemici di ogni modulo, la colonna Difficoltà deve derivare dal calcolo, non da una stima.
+- Se scrivi solo una scaletta (non un draft giocabile), puoi rimandare la validazione, ma DEVI registrarla come todo esplicito nel PlanBook ("validare i CR degli incontri di M2 con encounter-difficulty").
+- Dopo aver scritto gli incontri di un modulo, esegui `check-encounter-difficulty.py <Avventura>` per verificare che le difficoltà dichiarate corrispondano al calcolo.
+
+### Informazioni per la battle map
+
+Ogni incontro di combattimento significativo (non gli scontri banali evitabili) deve fornire al DM le informazioni per disegnare o allestire la battle map. Il DM deve poter tracciare la scena su griglia quadrettata o caricarla su un VTT senza inventare la geometria.
+
+Per ogni combattimento, includi una nota battle map con:
+
+- **Dimensioni dell'area** in quadretti (1 quadretto = 1,5m / 5ft). Es. "ponte 6×20 quadretti".
+- **Elementi di terreno tattici**: coperture, ostacoli, dislivelli, terreno difficile, zone pericolose (fuoco, acqua, crollo), porte e uscite. Il terreno è un'arma (vedi Bilanciamento).
+- **Posizioni iniziali**: dove sono i nemici, dove entrano i PG, dove eventuali NPC/civili/obiettivi.
+- **Elementi interattivi**: leve, cariche esplosive, oggetti spostabili, punti da difendere o raggiungere.
+- **Vie di fuga o ritirata**, se previste.
+
+Formato: una sezione "Battle map" nelle note dell'incontro, in bullet point o schema. Se esiste un file mappa (`maps/NomeMappa.png` o descrizione `.md`), rimanda a quello. Se la mappa non è ancora disegnata, la nota battle map testuale è sufficiente perché il DM la disegni a mano.
+
+Regola: un combattimento a griglia senza informazioni di battle map è un draft incompleto. Un combattimento puramente narrativo (teatro della mente) può ometterle, ma va dichiarato esplicitamente ("scontro in teatro della mente, nessuna griglia").
 
 ---
 

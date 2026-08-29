@@ -32,7 +32,8 @@
     },
     "shell": {
       "allowedCommands": [
-        "wsl bash -c.*rebuild-stereotypes-index\\.py"
+        ".*rebuild-stereotypes-index\\.py",
+        ".*validate-narrative\\.py"
       ],
       "denyByDefault": true
     }

@@ -1,14 +1,16 @@
-# Modulo 1 — Le Miniere di Nerrok
+# Puntata 1: Le Miniere di Nerrok
 
 ## Descrizione
 
-**Party:** 4 PG lv4-5
+**Party:** 4 PG lv7
 
-I PG vengono inviati da Sir Gorim Vel nelle miniere abbandonate di Nerrok per recuperare il **Medaglione delle Tre Vie**. Gorim non conosce la verità sul rituale di Re Dorian — sa solo che il Re glielo ha ordinato in un momento di lucidità, insieme all'avvertimento di non seguire più i suoi ordini dopo il recupero.
+I PG vengono inviati da Sir Gorim Vel nelle miniere abbandonate di Nerrok per recuperare il **Medaglione delle Tre Vie**. Gorim non conosce la verità sul rituale di Re Dorian, sa solo che il Re glielo ha ordinato in un momento di lucidità, insieme all'avvertimento di non seguire più i suoi ordini dopo il recupero.
 
 Le miniere non sono semplici scavi abbandonati. Sono ferite aperte nella terra, dove il silenzio è interrotto solo dallo sgocciolio di acque acide e dal sibilo del vento tra le impalcature marce. I soffitti sono instabili, l'aria è densa di polvere e residui di magia, e le ombre si muovono in modi che non dovrebbero. Qui il rituale fallito di Dorian ha lasciato cicatrici: echi del passato del Re che rievocano frammenti della sua storia.
 
-**Livello PG:** 4–5
+> Nota di bilanciamento: la campagna parte a lv7. Gli incontri e le CD di questo modulo sono ancora tarati sul vecchio livello lv4-5 (residuo del draft) e vanno ribilanciati per un party lv7 (mostri di CR più alto, CD +2/+3). Da fare in una revisione dedicata del modulo.
+
+**Livello PG:** 7 (da ribilanciare, vedi nota sopra)
 **Tono:** drammatico, opprimente, misterioso. Niente umorismo.
 **Durata stimata:** 1–2 sessioni (2–4 ore ciascuna).
 **Mappa:** `maps/LeMiniereDiNerrok.png`

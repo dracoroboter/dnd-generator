@@ -26,14 +26,15 @@
     },
     "shell": {
       "allowedCommands": [
-        "wsl bash -c.*new-adventure\\.sh",
-        "wsl bash -c.*adventure-wizard\\.py",
-        "wsl bash -c.*new-npc\\.py",
-        "wsl bash -c.*check-adventure\\.py",
-        "wsl bash -c.*encounter-difficulty\\.py",
-        "wsl bash -c.*check-encounter-difficulty\\.py",
-        "wsl bash -c.*measure-prose\\.py",
-        "wsl bash -c.*find-long-boxed\\.py"
+        ".*new-adventure\\.sh",
+        ".*adventure-wizard\\.py",
+        ".*new-npc\\.py",
+        ".*check-adventure\\.py",
+        ".*encounter-difficulty\\.py",
+        ".*check-encounter-difficulty\\.py",
+        ".*encounter-builder\\.py",
+        ".*measure-prose\\.py",
+        ".*find-long-boxed\\.py"
       ],
       "denyByDefault": true
     }
